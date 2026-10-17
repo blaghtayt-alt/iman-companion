@@ -1,0 +1,145 @@
+# Quand la fermeté devint une épreuve : les persécutions avant l'émigration en Abyssinie
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Chapitre quinze
+
+Quand la fermeté devint une épreuve : les persécutions avant l'émigration en Abyssinie
+
+Avant que le Coran ne réponde à la question des Gens de la Caverne, Quraych avait cherché une autre manière de mettre à l'épreuve la mission du Messager d'Allah (paix et bénédictions sur lui). Les Mecquois avaient essayé la controverse, les accusations et différentes exigences. Mais ils ne faisaient pas partie des Gens du Livre, c’est-à-dire des juifs et des chrétiens qui possédaient des Écritures antérieures et des récits sur les prophètes. Ils décidèrent donc de consulter ceux qui connaissaient ces livres.
+
+Des communautés juives vivaient à Yathrib, la ville qui serait plus tard appelée Médine. Parmi elles se trouvaient des savants de la religion et des textes juifs. Selon le récit de la Sîra transmis par Ibn Ishaq, Quraych envoya an-Nadr ibn al-Harith et ‘Uqba ibn Abi Mu‘ayt pour leur décrire Muhammad (paix et bénédictions sur lui) et son message, et leur demander comment éprouver sa prétention à la prophétie. Consulter les juifs pour leur connaissance des prophètes ne signifiait pas que Quraych adoptait leur religion.
+
+D'après ce récit, les savants proposèrent trois questions : l'une concernait des jeunes gens des temps anciens à l'histoire extraordinaire ; la deuxième, un grand voyageur qui avait parcouru des régions très éloignées de la terre ; et la troisième, l'âme ou l'esprit. Les deux premières renverraient aux récits des Gens de la Caverne et de Dhou al-Qarnayn. Pour la troisième, le Coran répond :
+Ils t’interrogent à propos de l’âme. Dis : « L’âme est du ressort de mon Seigneur, et il ne vous a été donné que très peu de science. »
+— Coran, al-Isrâ’, 17:85, traduction de Nabil Rudwan, Noor International Center, publiée sur QuranEnc (french_montada).
+
+An-Nadr et ‘Uqba rentrèrent à La Mecque, rapportèrent les questions, puis des hommes de Quraych les posèrent au Messager d'Allah pour éprouver sa prophétie. Les détails du voyage et l'ensemble des trois questions proviennent de la Sîra d'Ibn Ishaq : tous leurs détails ne sont pas établis par un hadith authentique à chaîne ininterrompue. Cette réserve est essentielle. Elle n'enlève rien à la compréhension du contexte : la question sur la Caverne ne surgit pas sans raison ; Quraych était allée demander un moyen d'épreuve à des personnes connaissant les anciennes traditions prophétiques.
+
+Une réponse qui ne se limitait pas à des informations
+
+Quraych interrogeait le Messager d'Allah sur les Gens de la Caverne pour éprouver sa prophétie. On aurait pu s'attendre à une courte liste : qui étaient-ils, où partirent-ils et combien d'années restèrent-ils ? Mais le Coran ne commença pas par les chiffres. Allah dit, en substance : «Nous allons te raconter leur récit en toute vérité. C’étaient des jeunes gens qui croyaient en leur Seigneur et à qui Nous avions accordé les plus grands moyens de se diriger [dans la bonne voie].
+Nous avions fortifié leurs cœurs lorsqu’ils s'étaient levés pour dire : “Notre Seigneur est le Seigneur des cieux et de la Terre: jamais nous n’invoquerons de divinité en dehors de Lui, sans quoi, nous transgresserions dans nos paroles.
+Voilà que nos concitoyens ont adopté en dehors de Lui des divinités. Que n’apportent-ils sur elles une preuve évidente ? Quel pire injuste, donc que celui qui invente un mensonge contre Allah ?
+Et quand vous vous serez séparés d’eux et de ce qu’ils adorent en dehors d’Allah, réfugiez-vous donc dans la caverne. Votre Seigneur répandra de Sa miséricorde sur vous et vous apportera un adoucissement à votre sort.”» — Coran, al-Kahf, 18:13–16, traduction de Muhammad Hamidullah (Quran.com, source 31).
+
+Leur déclaration condamne une parole gravement éloignée de la vérité et exige une preuve évidente à l’appui de ce qu’on affirme. Quraych demandait une histoire ancienne ; la réponse lui présentait des jeunes gens qui avaient proclamé à leur propre peuple qu'ils n'adoreraient que le Seigneur des cieux et de la terre. C'était précisément le point central du désaccord à La Mecque. Les Gens de la Caverne avaient trouvé leur peuple adorant d'autres divinités et refusé de les suivre sans preuve.
+
+Au verset 16, les jeunes gens envisagent de quitter leur peuple et de se réfugier dans la caverne. Se séparer d’eux implique de s’éloigner de leur culte mensonger ; l’adoucissement promis comprend l’aide, le bien-être et les moyens nécessaires.
+
+Ce récit ne se résumait donc pas à la réponse à une question historique. Il parlait de foi, de refus de l'association à Allah, de fermeté et du fait de quitter un milieu qui oblige le croyant à renier sa religion. À La Mecque, plusieurs Compagnons vivaient une autre forme de cette pression. Ils n'avaient pas encore quitté leur pays : certains y étaient torturés.
+
+Chaque tribu s'en prenait aux musulmans placés sous son autorité
+
+Lorsque l'affrontement s'intensifia, Quraych ne se contenta plus des discussions ou des moqueries. Ibn Ishaq rapporte que chaque tribu s’en prit à ceux de ses membres ou dépendants qui avaient embrassé l'islam : elle les emprisonnait, les frappait, les privait d'eau et de nourriture et emmenait certains croyants vulnérables sur le sol de La Mecque, rendu brûlant par le soleil. Le but était de les forcer à abandonner l’islam.
+
+Leur position sociale changeait fortement leurs conditions. Celui qu'une famille puissante pouvait défendre n'était pas dans la situation d'une personne réduite en esclavage et contrôlée par son maître. Un homme influent pouvait subir menaces, insultes ou emprisonnement, mais le torturer ou le tuer risquait d'entraîner un conflit entre clans. Un croyant sans protecteur pouvait être agressé directement. Les musulmans n'étaient donc pas persécutés de manière égale.
+
+Bilal sous la pierre
+
+Bilal ibn Rabah, qu'Allah l'agrée, est l'une des victimes les plus connues. Il était esclave des Banou Joumah, une branche de Quraych, et Umayya ibn Khalaf comptait parmi ses plus cruels tortionnaires. D'après la Sîra d'Ibn Ishaq, Umayya attendait midi, au plus fort de la chaleur, pour conduire Bilal sur une partie plate et découverte de la vallée de La Mecque, couverte de sable et de petits cailloux. On le faisait coucher sur le dos dans la chaleur, puis on posait une énorme pierre sur sa poitrine. On lui disait qu'il resterait ainsi jusqu'à sa mort, à moins qu'il ne renie Muhammad (paix et bénédictions sur lui) et ne retourne au culte d'al-Lât et d'al-‘Ouzzâ.
+
+La réponse répétée de Bilal est rendue ainsi dans la traduction publiée de Topbaş : « Dieu est Un, Dieu est Un, Dieu est Un ! » Ce n'était pas un long discours. Umayya exigeait qu'il abandonne le fondement même de l'unicité d'Allah ; Bilal répétait donc ce qu'il croyait. Ces détails sont rapportés par la Sîra, tandis que d'autres transmissions confirment l'essentiel de sa persécution et de sa fermeté dans l'islam.
+
+Le passage d'Abou Bakr
+
+Abou Bakr as-Siddiq, qu’Allah l’agrée, vivait dans le quartier des Banou Joumah. Selon le récit d’Ibn Ishaq, il passa devant Bilal pendant qu’on le torturait. Il reprocha alors à Umayya de ne pas craindre Allah dans sa manière de traiter cet homme sans défense et lui demanda jusqu’à quand il continuerait. Umayya accusa Abou Bakr d’avoir détourné Bilal de sa religion et le mit au défi de le sauver. Dans cette version, Abou Bakr proposa de l’échanger contre un autre homme réduit en esclavage, plus robuste que Bilal et qui suivait la religion d’Umayya. Celui-ci accepta, et Abou Bakr libéra Bilal de l’esclavage.
+
+Bilal n'était pas le seul. Les récits citent parmi ceux qu'Abou Bakr libéra ‘Amir ibn Fouhayra, Zinnira, Oumm ‘Oubays, an-Nahdiyya et sa fille, ainsi qu'une esclave des Banou Mou'ammal. Nous avons déjà rencontré leurs noms, mais ces récits montrent davantage pourquoi leur affranchissement était décisif. Abou Bakr ne se contentait pas de leur donner de l'argent en les laissant entre les mains de leurs tortionnaires : il les achetait pour mettre fin au pouvoir de ces derniers sur eux.
+
+Pourquoi n'affranchis-tu pas des hommes forts ?
+
+D’après le récit d’Ibn Ishaq, Abou Qouhâfa, le père d’Abou Bakr, vit son fils affranchir des personnes vulnérables qui ne pouvaient pas le protéger. Il lui suggéra de libérer plutôt des hommes robustes, capables de le défendre et de le soutenir. Selon les critères de la société tribale, ce raisonnement était compréhensible : l’argent dépensé pour un affranchissement pouvait ainsi procurer un protecteur.
+
+Dans ce récit, Abou Bakr expliqua à son père qu’il agissait uniquement pour Allah, Puissant et Majestueux. Il s'agit d'un récit de Sîra et non d'un hadith authentique possédant le même degré de vérification. Son sens correspond cependant à ce que l'on connaît des dépenses d'Abou Bakr pour les plus vulnérables. Des exégètes l’ont rapproché de ces versets sur le Feu et celui qui en sera préservé, dans la traduction de Rachid Maach : «et dont sera écarté celui qui, par piété,
+a dépensé ses biens pour se purifier,
+non en contrepartie d’un bienfait dont il aurait bénéficié,
+mais seulement pour être, de son Seigneur le Très Haut, agréé.
+Il sera donc, un jour, entièrement comblé.» — Coran, al-Layl, 92:17–21, traduction de Rachid Maach, QuranEnc.
+
+Il ne cherchait pas à rassembler une troupe d'hommes puissants. Il dépensait pour libérer ceux qui ne pouvaient même pas lui rendre son bienfait.
+
+Une femme qui perdit la vue
+
+Parmi les femmes qu'Abou Bakr libéra figurait Zinnira. Les livres de Sîra rapportent qu'elle souffrit d'une atteinte à la vue après sa conversion. Des polythéistes prétendirent qu'al-Lât et al-‘Ouzzâ l'avaient rendue aveugle. Elle rejeta cette explication : ces idoles ne pouvaient ni nuire ni profiter à quiconque. Le récit ajoute que sa vue lui fut rendue. C'est une histoire connue de la Sîra, non un hadith authentique à chaîne entièrement établie ; elle doit être présentée avec cette réserve, sans faire de tous ses détails une preuve indépendante.
+
+Elle illustre néanmoins la pression subie par les croyants vulnérables : leurs adversaires voulaient même transformer leurs maladies et leurs souffrances en raisons de revenir aux idoles qu'ils avaient abandonnées.
+
+An-Nahdiyya et sa fille terminèrent leur travail
+
+La Sîra rapporte aussi un petit épisode concernant an-Nahdiyya et sa fille. Elles appartenaient à une femme des Banou ‘Abd ad-Dâr, qui les avait chargées de moudre de la nourriture et déclaré qu'elle ne les affranchirait jamais. Abou Bakr les acheta et les libéra, puis leur demanda de rendre à cette femme la farine moulue. Elles demandèrent, en substance, si elles pouvaient d'abord finir le travail avant de le restituer. Abou Bakr répondit qu'elles le pouvaient si elles le souhaitaient.
+
+Ce récit appartient lui aussi à la Sîra, sans constituer un hadith authentique indépendant. Ces détails permettent néanmoins d'apercevoir les personnes réelles derrière une simple liste de noms : deux femmes venaient de devenir libres et choisissaient tout de même d'achever la tâche commencée.
+
+‘Oumar avait lui aussi persécuté des musulmans avant sa conversion
+
+Des récits de Sîra indiquent qu'une esclave des Banou Mou'ammal embrassa l'islam. ‘Oumar ibn al-Khattâb, avant sa conversion, la torturait pour la forcer à renier sa foi : lorsqu'il était épuisé, il cessait de la frapper et précisait que c'était sa fatigue, et non la pitié, qui l'arrêtait. Abou Bakr l'acheta et la libéra.
+
+Un récit authentique témoigne également de la dureté d’‘Oumar envers certains musulmans avant sa conversion. Sa‘id ibn Zayd, qu’Allah l’agrée, y rappelle qu’‘Oumar l’avait ligoté parce que Sa‘id était musulman. — Sens du témoignage rapporté dans le Sahih al-Boukhari, 6942 ; récit parallèle : 3862. Sa‘id était ainsi attaché et entravé pour subir des pressions à cause de sa foi. Ce fait éclaire le changement qui se produirait plus tard : celui qui faisait pression sur les musulmans deviendrait l’un d’eux. Mais cela ne s’était pas encore produit.
+
+La famille de Yâsir
+
+Les Banou Makhzoum emmenaient Yâsir, son épouse Soumayya et leur fils ‘Ammâr, qu'Allah les agrée, sous la chaleur intense. Ils étaient liés aux Banou Makhzoum par alliance ou patronage, sans bénéficier de la pleine protection tribale dont disposaient les grandes familles et les notables.
+
+Les livres de Sîra rapportent que le Prophète ﷺ passait près de la famille de Yâsir pendant les tortures et lui adressait ces paroles de réconfort : « Patience, Ô famille de Yâsir, votre rendez-vous est le Paradis... » Cette parole est très connue dans la Sîra. Ibn Ishaq rapporte cet épisode sans donner la chaîne complète des transmetteurs ; sa version particulière ne présente donc pas une transmission continue.
+
+Soumayya est connue dans la Sîra comme la première martyre de l'islam : elle fut tuée en demeurant ferme dans sa religion. Quant à ‘Ammâr, il fut soumis à de très sévères tortures. Son épreuve nous amène à un autre aspect de ces persécutions.
+
+Dire des paroles sous la torture ne signifiait pas toujours renier sa foi
+
+Tous les Compagnons n'avaient pas la même résistance physique. Certains, comme Bilal, refusaient de prononcer les mots exigés par leurs tortionnaires. D'autres subissaient des souffrances si extrêmes qu'ils finissaient par dire de leur bouche les paroles demandées pour faire cesser les sévices. La Sîra décrit des croyants battus, affamés et privés d'eau au point de pouvoir à peine rester assis ; on les contraignait alors à reconnaître les idoles.
+
+L'islam n'exige pas qu'un croyant se fasse tuer pour avoir refusé de prononcer des mots imposés par la torture alors que sa foi demeure intacte dans son cœur. Allah dit, en substance : «Quiconque a renié Allah après avoir cru... - sauf celui qui y a été contraint alors que son cœur demeure plein de la sérénité de la foi - mais ceux qui ouvrent délibérément leur cœur à la mécréance, ceux-là auront sur eux une colère d’Allah et ils auront un châtiment terrible.» — Coran, an-Nahl, 16:106 (traduction du sens).
+
+La contrainte désigne ici une menace ou une souffrance grave qu’on ne peut repousser. Garder le cœur serein dans la foi signifie rester intérieurement croyant malgré les paroles imposées. Le Coran distingue l'acceptation volontaire du rejet de la foi et les paroles arrachées sous la torture à un croyant dont le cœur n'a pas changé. Il serait injuste de supposer que tous avaient la même endurance : certains tenaient jusqu'à la mort, d'autres prononçaient ce qu'exigeait leur bourreau tout en demeurant croyants.
+
+Même les membres de tribus puissantes n'étaient pas entièrement à l'abri
+
+La protection tribale limitait parfois la violence, mais ne garantissait pas la sécurité. Ibn Ishaq cite ici un épisode ultérieur : al-Walîd ibn al-Walîd embrassa l’islam après avoir été fait prisonnier puis libéré contre rançon à Badr. Cet exemple illustre donc la protection tribale à une autre étape ; il ne se situe pas avant l’émigration en Abyssinie. Des hommes des Banou Makhzoum voulurent faire pression sur certains jeunes de leur tribu convertis à l’islam, dont Salama ibn Hichâm, ‘Ayyâch ibn Abi Rabî‘a et al-Walîd ibn al-Walîd. Ils craignaient cependant qu’un meurtre ne provoque des représailles exigées par le clan du mort.
+
+Le récit précise que Hichâm ibn al-Walîd les avertit de ne pas tuer son frère al-Walîd, jurant par Allah qu’il tuerait un notable en représailles si son frère était assassiné. Ils renoncèrent à le tuer. Cette narration d'Ibn Ishaq montre comment fonctionnait la société mecquoise : un homme pouvait désapprouver la foi d'un parent et néanmoins empêcher qu'on le tue au nom des liens de parenté. Celui qui n'avait pas cette protection risquait beaucoup plus.
+
+Khabbâb rejoint l'ombre de la Kaaba
+
+Khabbâb ibn al-Aratt, qu'Allah l'agrée, était un des premiers musulmans. Il était forgeron et subissait, lui aussi, de terribles sévices. Un jour, portant sa souffrance et celle d'autres musulmans, il se rendit auprès du Messager d'Allah (paix et bénédictions sur lui), qui était appuyé sur son manteau dont il se servait comme d’un coussin à l'ombre de la Kaaba.
+
+Khabbâb demanda : « Pourquoi n'implores-tu pas pour nous le secours d'Allah ? Pourquoi ne pries-tu pas pour nous ? » Il ne demandait pas à abandonner l'islam ni à revenir à la religion de Quraych. Il voulait que le Prophète prie pour la fin de leurs souffrances. Le Prophète se redressa, son visage changea, puis il leur rappela le sort de croyants d'autrefois : certains avaient été martyrisés plus cruellement encore, le fer déchirant leur chair et leurs nerfs, d'autres étant tués à la scie, sans qu'ils abandonnent leur religion.
+
+Il leur annonça que la faiblesse qu'ils connaissaient ne serait pas la fin de l'histoire. Il jura par Allah que cette religion serait pleinement établie, au point qu'un voyageur pourrait aller de Sanaa au Hadramaout, deux régions éloignées du sud de la péninsule Arabique, sans craindre personne hormis Allah, et ne redouter le loup que pour ses moutons. Puis il dit : « mais vous êtes des gens pressés ! » — Sahih al-Boukhari 6943.
+
+Il ne promettait pas la fin des tortures le jour même et ne niait pas leur douleur. Il leur présentait deux perspectives : le souvenir du passé, avec les épreuves endurées par les croyants précédents, et l'avenir, dans lequel l'actuelle faiblesse des musulmans face à Quraych ne durerait pas toujours. À La Mecque, ils demandaient des invocations ; le Prophète leur parlait de la sécurité future sur une longue route. Ils ignoraient encore comment elle deviendrait réalité.
+
+La patience ne signifie pas l'absence de douleur
+
+Il serait faux de comprendre leur patience comme une absence de peur ou de souffrance. Sans cette douleur, Khabbâb n'aurait pas demandé qu'on prie pour eux. Et si la torture ne pouvait dépasser les limites humaines, le Coran n'aurait pas expliqué le cas de celui qui est forcé de prononcer des mots de rejet alors que son cœur reste croyant : «sauf celui qui y a été contraint alors que son cœur demeure plein de la sérénité de la foi» (16:106).
+
+La fermeté n'est pas l'insensibilité du corps. C'est préserver le fondement de la foi malgré la souffrance, retourner vers Allah et ne pas prendre le pouvoir du tortionnaire pour une preuve que la vérité a perdu. Les Compagnons l'ont exprimé de diverses manières : Bilal répétait qu’Allah est Un ; un autre, contraint de parler, restait croyant au fond du cœur ; Abou Bakr utilisait ses biens pour sauver ceux qu'il pouvait ; certains parents faisaient jouer la protection du clan pour empêcher le meurtre ; et le Prophète leur enseignait la patience et annonçait que cette période finirait. Chacun agissait selon ses moyens.
+
+Mais rester à La Mecque devenait toujours plus difficile
+
+Avec le temps, le conflit ne se résumait plus aux paroles blessantes et aux disputes dans les assemblées. Des personnes étaient torturées, emprisonnées, affamées et assoiffées. Certaines n'avaient aucun clan pour les secourir. Le Messager d'Allah connaissait les souffrances de ses Compagnons, mais il ne possédait alors ni État ni armée pour imposer leur protection. Il ne leur demandait pas non plus de retourner à l'idolâtrie pour échapper aux sévices.
+
+Pour certains croyants, l'islam leur avait coûté leur sécurité dans leur propre cité. La Mecque devenait difficile à habiter. Pourtant, au-delà de ses frontières existait une autre terre, qui n'était pas gouvernée par Quraych. Selon le récit de Sira d’Ibn Ishaq, le Messager d’Allah ﷺ leur expliquerait bientôt que personne ne subissait d’injustice sous l’autorité du roi de ce pays. Ainsi commencerait la première émigration des musulmans. Ils ne partiraient pas encore à Médine. Leur première destination serait l'Abyssinie.
+
+Sources principales de ce chapitre
+
+• Questions sur la Caverne, Dhou al-Qarnayn et l'esprit : rapport d'Ibn Ishaq selon lequel Quraych envoya an-Nadr et ‘Uqba aux savants juifs de Yathrib ; les détails ne sont pas tous confirmés par un hadith authentique à chaîne complète.
+
+• Foi et fermeté des Gens de la Caverne : Coran, al-Kahf, 18:13–16.
+
+• Persécutions de Bilal, pierre sur sa poitrine, affirmation répétée de l’unicité d’Allah, achat et libération par Abou Bakr : récits d'Ibn Ishaq, avec d'autres témoignages pour les faits essentiels. Le sens cité en français suit Osman Nuri Topbaş, Le Prophète Muhammad Mustafa, tome 1, p. 75.
+
+• Libération des croyants faibles, récits sur Abou Qouhâfa, an-Nahdiyya et sa fille, Zinnira et l'esclave des Banou Mou'ammal : récits de Sîra, pas tous des hadiths rigoureusement authentifiés. Voir la Sîra d’Ibn Hichâm, d’après Ibn Ishaq, 1/318–320 : le récit de Bilal passe par ‘Ourwa ibn az-Zoubayr ; celui de la conversation d’Abou Qouhâfa, par ‘Amir ibn ‘Abd Allah ibn az-Zoubayr, qui le tient d’un membre non nommé de sa famille. Les échanges sont rapportés ci-dessus au discours indirect.
+
+• Umar avait ligoté Sa‘id ibn Zayd avant d’embrasser lui-même l’islam : Sahih al-Boukhari, 6942 et 3862.
+
+• Les paroles de réconfort adressées à la famille de Yâsir : le récit d’Ibn Ishaq ne donne pas une chaîne complète. Citation française : « ʿAmmâr Ibn Yâsir », traduction de Mohammad, islamophile.org, 11 septembre 2000, paragraphe consacré aux persécutions ; l’article renvoie à la Sîra d’Ibn Hichâm. https://www.islamophile.org/spip/Ammar-Ibn-Yasir.html Un autre récit, transmis par Jâbir, annonce à cette famille la bonne nouvelle du Paradis (at-Tabarânî, al-Muʿjam al-Awsat, 1508 ; al-Hâkim, 5666). Al-Albânî l’a jugé « hasan sahih » dans ses notes sur les hadiths de Fiqh as-Sîra, p. 103. Cette appréciation concerne le récit de Jâbir, et non la chaîne incomplète d’Ibn Ishaq (Ibn Hichâm, 1/320). Al-Bayhaqi rapporte aussi de Mujahid que Soumayya fut la première personne à mourir en martyre dans l’islam (Dala’il al-Nubuwwa, section sur les persécutions des musulmans vulnérables). Ce récit historique est mursal : Mujahid ne donne pas de chaîne continue jusqu’à l’événement. Il ne s’agit pas d’une parole attribuée au Prophète ﷺ. https://islamweb.net/ar/library/content/1005/541/
+
+• Paroles prononcées sous la contrainte alors que le cœur garde la foi : Coran, an-Nahl, 16:106.
+
+• Protection tribale de proches chez les Banou Makhzoum : Sîra d'Ibn Ishaq. Voir Ibn Hichâm, 1/321 ; pour la conversion d’al-Walîd après Badr, adh-Dhahabî, Siyar aʿlâm an-noubalâ’, section de la Sîra, événements de l’an 2 de l’Hégire, 26/318–319.
+
+• Plainte de Khabbâb, demande de prière et de secours, souffrances des croyants anciens et promesse de sécurité entre Sanaa et Hadramaout : Sahih al-Boukhari 6943. Le détail du Prophète se redressant, le visage rougi, figure dans Sahih al-Boukhari 3852. La demande citée et les derniers mots sont tirés de HadeethEnc, hadith 4246 ; le récit intermédiaire est rapporté au style indirect.
+
+• Khabbâb a aussi rapporté une plainte relative à la prière sur le sol brûlant (Sahih Mouslim 619a) : ce récit concerne la chaleur pendant la prière et n'est pas confondu avec l'épisode des tortures.
+• La mention du roi d’Abyssinie rapporte le sens du récit d’Ibn Ishaq dans la Sira d’Ibn Hicham. Cette formulation n’a pas de chaîne continue ; le conseil lui-même est toutefois étayé par un récit à chaîne continue d’Oumm Salama, qu’Allah l’agrée. Voir al-Albani, as-Silsila as-Sahiha 3190, 7/577–578 ; al-Bayhaqi, as-Sunan al-Kubra 9/9 et Dala’il an-Nubuwwa 2/301. Le chapitre suivant précise cette distinction.

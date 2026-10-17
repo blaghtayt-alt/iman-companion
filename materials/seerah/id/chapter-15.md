@@ -1,0 +1,142 @@
+# Ketika Keteguhan Menjadi Ujian: Penyiksaan Sebelum Hijrah ke Habasyah
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bab Lima Belas
+
+Ketika Keteguhan Menjadi Ujian: Penyiksaan Sebelum Hijrah ke Habasyah
+
+Sebelum Al-Qur'an memberikan jawaban tentang Ashabul Kahfi, kaum Quraisy telah mencari cara lain untuk menguji kerasulan Rasulullah, semoga selawat dan salam tercurah kepada beliau. Mereka sudah mencoba perdebatan, tuduhan, dan berbagai tuntutan. Namun, mereka bukan Ahli Kitab, yaitu umat Yahudi dan Nasrani yang memiliki kitab agama terdahulu serta riwayat tentang para nabi. Karena itulah mereka memutuskan untuk berkonsultasi dengan orang-orang yang memahami kitab dan kisah para nabi terdahulu.
+
+Di Yatsrib, kota yang kelak dikenal sebagai Madinah, tinggal beberapa komunitas Yahudi. Di antara mereka terdapat para rabi, ulama yang memahami agama dan kitab-kitab Yahudi. Menurut kisah sirah yang diriwayatkan Ibnu Ishaq, Quraisy mengirim an-Nadhr bin al-Harits dan ‘Uqbah bin Abi Mu‘aith untuk menjelaskan siapa Muhammad, apa yang beliau sampaikan, dan menanyakan bagaimana kenabiannya dapat diuji. Mereka ingin memanfaatkan pengetahuan kaum Yahudi tentang para nabi, bukan berarti mereka memeluk agama Yahudi.
+
+Menurut riwayat sirah tersebut, para ulama Yahudi mengusulkan tiga pertanyaan: tentang sekelompok pemuda pada masa silam yang memiliki kisah luar biasa; tentang seorang pengembara yang melakukan perjalanan jauh ke berbagai wilayah bumi; dan tentang roh. Dua pertanyaan pertama akan mengarah pada kisah Ashabul Kahfi dan Dzulqarnain. Tentang yang ketiga, makna jawaban Al-Qur'an ialah: «Dan mereka bertanya kepadamu (Muhammad) tentang roh. Katakanlah, "Roh itu termasuk urusan Tuhanku, sedangkan kamu diberi pengetahuan hanya sedikit."» — Al-Qur'an, Al-Isra' 17:85 (terjemahan makna).
+
+An-Nadhr dan ‘Uqbah kembali ke Makkah dan menyampaikan apa yang mereka dengar. Kemudian orang-orang Quraisy mengajukan ketiga pertanyaan itu kepada Rasulullah untuk menguji kenabian beliau. Rincian perjalanan kedua orang tersebut dan ketiga pertanyaan secara lengkap bersumber dari riwayat sirah Ibnu Ishaq; tidak seluruh rinciannya ditegaskan oleh hadis sahih dengan sanad yang bersambung. Pembedaan ini harus dijaga. Latar belakang tersebut juga menjelaskan bahwa pertanyaan tentang penghuni gua tidak muncul secara tiba-tiba; Quraisy mencarinya dari orang-orang yang mengetahui kisah para nabi terdahulu.
+
+Jawaban Itu Bukan Sekadar Informasi
+
+Kaum Quraisy bertanya tentang Ashabul Kahfi untuk menguji kenabian Rasulullah. Mereka mungkin mengira jawabannya cukup berupa informasi singkat: siapa mereka, ke mana mereka pergi, dan berapa lama mereka tinggal? Akan tetapi, Al-Qur'an tidak memulai dengan angka. Makna firman Allah ialah: «Kami ceritakan kepadamu (Muhammad) kisah mereka dengan sebenarnya. Sesungguhnya mereka adalah pemuda-pemuda yang beriman kepada Tuhan mereka, dan Kami tambahkan petunjuk kepada mereka.
+Dan Kami teguhkan hati mereka ketika mereka berdiri lalu mereka berkata, “Tuhan kami adalah Tuhan langit dan bumi, kami tidak menyeru tuhan selain Dia. Sungguh, kalau kami berbuat demikian, tentu kami telah mengucapkan perkataan yang sangat jauh dari kebenaran.”
+Mereka itu kaum kami yang telah menjadikan tuhan-tuhan (untuk disembah) selain Dia. Mengapa mereka tidak mengemukakan alasan yang jelas (tentang kepercayaan mereka)? Maka siapakah yang lebih zalim daripada orang yang mengada-adakan kebohongan terhadap Allah?» — Al-Qur’an, Al-Kahfi 18:13–15; terjemahan terbitan Sabiq, dikembangkan di bawah pengawasan Rowwad Translation Center dan ditampilkan di QuranEnc (indonesian_sabiq).
+
+Ayat ini mengecam perkataan yang sangat jauh dari kebenaran dan menuntut bukti yang jelas untuk mendukung sebuah pernyataan. Quraisy bertanya mengenai pemuda pada masa lampau, tetapi jawaban itu menampilkan para pemuda yang menegaskan kepada kaumnya bahwa mereka tidak akan menyembah selain Tuhan langit dan bumi. Itulah inti perselisihan yang sedang berlangsung di Makkah. Ashabul Kahfi melihat kaumnya menyembah selain Allah dan menolak mengikuti mereka tanpa bukti.
+
+Allah juga menyebut perkataan mereka, yang bermakna: «Dan apabila kamu meninggalkan mereka dan apa yang mereka sembah selain Allah, maka carilah tempat berlindung ke dalam gua itu, niscaya Tuhanmu akan melimpahkan sebagian rahmat-Nya kepadamu dan menyediakan sesuatu yang berguna bagimu dalam urusanmu.» — Al-Qur'an, Al-Kahfi 18:16. Meninggalkan mereka berarti memisahkan diri dan tidak ikut dalam penyembahan mereka yang salah. Adapun kemudahan yang dijanjikan mencakup pertolongan, kelapangan, dan sarana yang dibutuhkan.
+
+Kisah ini bukan sekadar jawaban untuk sebuah pertanyaan sejarah. Di dalamnya ada iman, tauhid, keteguhan, serta upaya meninggalkan lingkungan yang menekan seseorang agar meninggalkan agamanya. Sementara itu di Makkah, beberapa sahabat Rasulullah sedang mengalami bentuk tekanan yang berbeda. Mereka belum meninggalkan tanah air; sebagian justru disiksa di kota mereka sendiri.
+
+Setiap Kabilah Menindas Muslim yang Berada di Bawah Kekuasaannya
+
+Ketika pertentangan meningkat, Quraisy tidak lagi hanya berdebat atau mengejek. Menurut Ibnu Ishaq, setiap kabilah mulai menindas orang-orang yang masuk Islam di tengah anggotanya atau mereka yang berada dalam kekuasaannya. Mereka menahan dan memukul, tidak memberi makanan dan air, serta menyeret sebagian orang beriman yang tidak memiliki perlindungan ke tanah Makkah yang menjadi amat panas oleh sinar matahari. Tujuannya ialah menekan mereka agar meninggalkan Islam.
+
+Kedudukan sosial sangat memengaruhi perlakuan yang diterima. Orang yang dibela kabilah kuat tidak sama dengan budak yang tubuh dan geraknya dikuasai majikannya. Orang yang terpandang mungkin diancam, dihina, atau ditahan; menyiksa atau membunuhnya bisa menimbulkan pertikaian antarsuku. Sebaliknya, orang beriman yang tidak memiliki pelindung dapat diserang secara langsung. Jadi, penderitaan kaum Muslim saat itu tidak merata.
+
+Bilal di Bawah Batu Besar
+
+Bilal bin Rabah, semoga Allah meridainya, termasuk orang yang paling dikenal karena mengalami penyiksaan. Ia merupakan budak Bani Jumah, salah satu cabang Quraisy, dan Umayyah bin Khalaf termasuk orang yang paling keras menyiksanya. Menurut sirah Ibnu Ishaq, Umayyah menunggu tengah hari, ketika panas matahari sangat menyengat, lalu membawa Bilal ke bagian lembah Makkah yang terbuka, rata, berpasir, dan berkerikil. Bilal dibaringkan telentang di tempat panas dan sebuah batu besar diletakkan di dadanya. Ia diberi tahu bahwa ia akan terus seperti itu hingga mati, kecuali ia mengingkari Muhammad dan kembali menyembah al-Lat dan al-‘Uzza.
+
+Makna jawaban yang terus diulang Bilal dalam terjemahan terbitan Buletin At-Tauhid ialah: “Allah Yang Maha Esa… Allah Yang Maha Esa”. Itu bukan pidato panjang. Umayyah menuntutnya meninggalkan dasar tauhid, sehingga Bilal terus mengucapkan inti keyakinannya. Rincian ini bersumber dari riwayat sirah; terdapat pula riwayat lain yang mendukung pokok kisah tentang penyiksaan Bilal dan keteguhannya dalam Islam.
+
+Abu Bakar Melewati Tempat Itu
+
+Abu Bakar ash-Shiddiq, semoga Allah meridainya, tinggal di kawasan Bani Jumah. Menurut riwayat Ibnu Ishaq, ia melewati Bilal yang sedang disiksa. Dalam kisah ini, Abu Bakar menegur Umayyah agar takut kepada Allah dalam memperlakukan orang yang tidak berdaya itu dan menanyakan sampai kapan penyiksaan tersebut akan berlangsung. Umayyah menuduh Abu Bakar telah membuat Bilal meninggalkan agama lamanya dan menantangnya untuk menyelamatkan Bilal. Dalam versi ini, Abu Bakar menawarkan seorang budak lain yang lebih kuat daripada Bilal dan masih menganut agama Umayyah sebagai penukarnya. Umayyah menerima pertukaran itu, lalu Abu Bakar membebaskan Bilal dari perbudakan.
+
+Bilal bukan satu-satunya orang yang dibebaskan. Riwayat sirah menyebut ‘Amir bin Fuhairah, Zinnirah, Ummu ‘Ubais, an-Nahdiyyah dan putrinya, serta seorang perempuan budak dari Bani Mu'ammal. Nama-nama ini pernah kita temui, tetapi rincian tambahan menunjukkan mengapa pembebasan mereka penting. Abu Bakar tidak hanya memberi mereka uang lalu meninggalkan mereka di bawah kuasa penyiksa. Dengan membeli dan memerdekakan mereka, ia mencabut kekuasaan tersebut.
+
+Mengapa Tidak Membebaskan Laki-Laki yang Kuat?
+
+Menurut riwayat sirah Ibnu Ishaq, Abu Quhafah, ayah Abu Bakar, melihat putranya memerdekakan orang-orang lemah yang tidak mampu melindunginya. Ia menyarankan agar Abu Bakar memerdekakan laki-laki kuat yang dapat membela dan mendukungnya. Menurut ukuran masyarakat kabilah, pemikiran itu dapat dipahami: harta yang dikeluarkan untuk memerdekakan seseorang bisa mendatangkan seorang pelindung sebagai balasannya.
+
+Dalam riwayat tersebut, Abu Bakar menjelaskan kepada ayahnya bahwa ia melakukan semua itu semata-mata karena Allah Yang Mahamulia. Ini termasuk berita sirah, bukan hadis sahih dengan derajat pembuktian yang sama. Namun maknanya sejalan dengan apa yang diketahui tentang pengeluaran Abu Bakar untuk orang-orang lemah. Sebagian ahli tafsir menghubungkan hal itu dengan makna firman Allah: «Dan akan dijauhkan darinya (neraka) orang yang paling bertakwa,
+yang menginfakkan hartanya (di jalan Allah) untuk membersihkan (dirinya),
+dan tidak ada seorang pun memberikan suatu nikmat padanya yang harus dibalasnya,
+tetapi (dia memberikan itu semata-mata) karena mencari keridaan Tuhannya Yang Mahatinggi.
+Dan niscaya kelak dia akan mendapat kesenangan (yang sempurna).» — Al-Qur'an, Al-Lail 92:17–21 (terjemahan makna).
+
+Abu Bakar bukan sedang membentuk kelompok laki-laki kuat di sekelilingnya. Ia mengeluarkan hartanya untuk membebaskan orang-orang yang bahkan tidak mampu membalas jasanya.
+
+Seorang Perempuan Kehilangan Penglihatannya
+
+Di antara perempuan yang dibebaskan Abu Bakar ialah Zinnirah. Kitab-kitab sirah menyebut bahwa penglihatannya mengalami gangguan setelah ia memeluk Islam. Sebagian kaum musyrik mengklaim bahwa al-Lat dan al-‘Uzza telah membuatnya kehilangan penglihatan. Ia menolak tuduhan itu dengan mengatakan bahwa berhala-berhala tersebut tidak dapat memberi manfaat maupun mudarat. Riwayat itu kemudian menyebut bahwa penglihatannya pulih. Kisah ini dikenal dalam sirah, tetapi bukan hadis sahih dengan sanad lengkap yang terbukti kuat; karena itu setiap rinciannya tidak boleh diperlakukan sebagai bukti yang berdiri sendiri.
+
+Walau demikian, kisah itu memperlihatkan bentuk tekanan yang dialami orang beriman yang lemah: para penentang mencoba menjadikan penyakit dan kesulitan mereka sebagai alasan untuk kembali menyembah berhala.
+
+An-Nahdiyyah dan Putrinya Menyelesaikan Pekerjaan
+
+Sirah juga mengisahkan an-Nahdiyyah dan putrinya. Keduanya menjadi budak seorang perempuan dari Bani ‘Abd ad-Dar. Pemilik mereka menyuruh mereka menggiling makanan dan berkata bahwa ia tidak akan pernah memerdekakan keduanya. Abu Bakar membeli lalu memerdekakan mereka. Setelah itu ia meminta mereka mengembalikan hasil gilingan kepada perempuan tersebut. Keduanya bertanya, dalam maknanya, apakah mereka boleh lebih dulu menyelesaikan pekerjaan sebelum mengembalikannya. Mereka ingin menuntaskan tugas yang telah dipercayakan kepada mereka. Abu Bakar mengatakan bahwa mereka boleh melakukannya jika berkehendak.
+
+Ini juga riwayat sirah, bukan hadis sahih yang berdiri sendiri. Tetapi rincian kecil ini membantu kita melihat manusia di balik daftar nama: dua perempuan baru saja merdeka, tetapi tetap memilih menyelesaikan pekerjaan yang sudah mereka mulai.
+
+Umar Juga Pernah Menyakiti Kaum Muslim Sebelum Memeluk Islam
+
+Menurut riwayat sirah, seorang perempuan budak dari Bani Mu'ammal telah menerima Islam. Umar bin al-Khattab, sebelum masuk Islam, menyiksanya agar meninggalkan agama tersebut. Ia memukul perempuan itu, lalu berhenti karena kelelahan sambil menegaskan bahwa ia berhenti bukan karena kasihan. Abu Bakar kemudian membeli dan memerdekakannya.
+
+Ada juga riwayat sahih yang menunjukkan kekerasan Umar terhadap sebagian Muslim sebelum keislamannya. Sa‘id bin Zaid, semoga Allah meridainya, berkata: “Demi Allah, saya telah melihat diri saya diikat dan dipaksa oleh 'Umar untuk meninggalkan Islam sebelum 'Umar sendiri memeluk Islam.” — Shahih al-Bukhari, 3862 (kutipan); terjemahan yang dipublikasikan Hadits.id. Riwayat senada: 6942. Sa‘id diikat untuk membatasi geraknya dan menekannya karena ia memeluk Islam. Ini memperlihatkan besarnya perubahan yang kelak terjadi pada Umar: orang yang pernah menekan kaum Muslim akan menjadi salah seorang dari mereka. Namun perubahan itu belum terjadi saat itu.
+
+Keluarga Yasir
+
+Bani Makhzum membawa Yasir, istrinya Sumayyah, dan putra mereka ‘Ammar, semoga Allah meridai mereka, ke tempat yang sangat panas. Mereka terikat dengan Bani Makhzum melalui perlindungan atau persekutuan, tetapi tidak memiliki perlindungan penuh seperti keluarga berpengaruh dan para pemuka kabilah tersebut.
+
+Kitab-kitab sirah menceritakan bahwa Nabi ﷺ melewati keluarga Yasir ketika mereka sedang disiksa dan menghibur mereka: “Bersabarlah, wahai keluarga Yasir, sesungguhnya tempat kembali kalian adalah surga.” Ucapan ini dikenal luas dalam sirah. Ibnu Ishaq meriwayatkan kejadian ini tanpa menyebutkan seluruh rangkaian perawinya, sehingga jalur periwayatan khusus ini tidak bersambung.
+
+Sumayyah dikenal dalam kitab-kitab sirah sebagai syahidah pertama dalam Islam: ia dibunuh ketika tetap teguh pada agamanya. ‘Ammar sendiri mengalami penyiksaan yang sangat berat. Pengalamannya mengantar kita pada aspek penting lainnya.
+
+Orang yang Mengucapkan Sesuatu Saat Disiksa Belum Tentu Meninggalkan Iman
+
+Tidak semua sahabat memiliki daya tahan fisik yang sama. Sebagian, seperti Bilal, menolak mengatakan apa yang diminta penyiksa. Yang lain mengalami penyiksaan begitu berat sehingga lidah mereka mengucapkan kata-kata yang dituntut penyiksa agar kekerasan berhenti. Sirah mencatat orang beriman yang dipukul, dibuat kelaparan dan kehausan hingga sulit duduk tegak, lalu dipaksa mengakui berhala.
+
+Islam tidak mewajibkan seseorang mempertaruhkan nyawanya dengan menolak mengucapkan kata-kata yang dipaksakan di bawah siksaan, selama hatinya tetap beriman. Makna firman Allah: «Barang siapa kafir kepada Allah setelah dia beriman (dia mendapat kemurkaan Allah), kecuali orang yang dipaksa kafir padahal hatinya tetap tenang dalam beriman (dia tidak berdosa), tetapi orang yang melapangkan dadanya untuk kekafiran, maka kemurkaan Allah menimpanya dan mereka akan mendapat azab yang besar.» — Al-Qur'an, An-Nahl 16:106 (terjemahan makna).
+
+Paksaan yang dimaksud ialah ancaman atau siksaan berat yang tidak mampu dilawan. Hati tetap tenteram dalam iman berarti keyakinan batinnya tidak berubah, walaupun lisannya dipaksa mengucapkan perkataan lain. Al-Qur'an membedakan antara orang yang memilih kekafiran dengan kemauannya sendiri dan orang beriman yang terpaksa mengucapkan perkataan sementara hatinya tidak berubah. Kita tidak boleh beranggapan bahwa kemampuan fisik setiap orang yang disiksa sama. Seseorang mungkin tetap mengucapkan kebenaran sampai wafat; yang lain mungkin mengatakan tuntutan penyiksanya tanpa kehilangan iman batin.
+
+Bahkan Anggota Kabilah yang Kuat Tidak Sepenuhnya Aman
+
+Perlindungan kabilah kadang mengurangi kekerasan, tetapi tidak menjamin keselamatan. Dalam pembahasan ini, Ibnu Ishaq juga menyebut peristiwa yang terjadi kemudian: al-Walid bin al-Walid masuk Islam setelah ditawan dalam Perang Badar dan dibebaskan dengan tebusan. Jadi, kisah ini merupakan contoh perlindungan kabilah pada masa yang lebih belakangan, bukan peristiwa sebelum hijrah ke Habasyah. Beberapa orang Bani Makhzum hendak menekan pemuda kabilah mereka yang telah masuk Islam, termasuk Salamah bin Hisyam, ‘Ayyasy bin Abi Rabi‘ah, dan al-Walid bin al-Walid. Namun, mereka khawatir pembunuhan akan memicu tuntutan pembalasan dari keluarga atau kabilah orang yang terbunuh.
+
+Riwayat itu menyebut Hisyam bin al-Walid memperingatkan mereka agar tidak membunuh saudaranya, al-Walid; ia bersumpah demi Allah akan membunuh seorang pemuka mereka jika saudaranya terbunuh. Akhirnya mereka mundur dari rencana pembunuhan. Riwayat Ibnu Ishaq ini menunjukkan cara kerja masyarakat Makkah: seseorang mungkin tidak menyetujui agama kerabatnya yang Muslim, namun ikatan keluarga membuatnya menolak pembunuhan tersebut. Orang yang tidak memiliki perlindungan itu jauh lebih rentan.
+
+Khabbab Datang ke Teduh Ka'bah
+
+Khabbab bin al-Aratt, semoga Allah meridainya, termasuk Muslim pertama. Ia bekerja sebagai pandai besi dan juga mengalami penyiksaan berat. Pada suatu hari, dengan membawa penderitaan yang juga dialami kaum Muslim lain, ia mendatangi Rasulullah yang sedang berbaring dengan selendang sebagai sandaran di bawah naungan Ka'bah.
+
+Khabbab bertanya: “Tidakkah engkau memohon pertolongan untuk kami? Tidakkah engkau mendo’akan kami?” Ia tidak meminta izin meninggalkan Islam dan tidak menawarkan untuk kembali pada agama Quraisy. Ia meminta Nabi berdoa agar penderitaan berakhir. Rasulullah kemudian duduk tegak dan wajah beliau berubah. Beliau mengingatkan mereka tentang umat beriman terdahulu: ada yang mendapat siksaan lebih berat, daging dan uratnya terkoyak oleh besi atau tubuhnya dibelah dengan gergaji, tetapi mereka tidak meninggalkan agama mereka.
+
+Lalu beliau menjelaskan bahwa kelemahan saat itu bukan akhir cerita. Beliau bersumpah demi Allah bahwa agama ini akan disempurnakan hingga seorang musafir dapat menempuh perjalanan dari Shan’a ke Hadramaut, dua wilayah yang terpisah jauh di selatan Jazirah Arab, tanpa takut kepada siapa pun selain Allah, dan hanya mengkhawatirkan serangan serigala terhadap dombanya. Setelah itu beliau bersabda: “akan tetapi kalian terlalu tergesa-gesa” — Shahih al-Bukhari 6943.
+
+Ucapan itu bukan janji bahwa siksaan akan berhenti pada hari yang sama, dan bukan pengingkaran atas rasa sakit mereka. Nabi memberikan dua sudut pandang sekaligus: ingatan masa lalu, yaitu ujian berat yang dialami orang beriman sebelum mereka, dan gambaran masa depan, bahwa keadaan kaum Muslim yang lemah menghadapi Quraisy yang kuat tidak akan berlangsung selamanya. Mereka meminta doa di Makkah, sementara Nabi menggambarkan suatu hari ketika jalan jauh antara Shan'a dan Hadramaut aman. Mereka belum melihat bagaimana hal itu akan terwujud.
+
+Sabar Bukan Berarti Tidak Merasakan Sakit
+
+Keliru jika kesabaran para sahabat dipahami seolah-olah mereka tidak merasa takut atau sakit. Bila rasa sakit itu ringan, Khabbab tidak akan meminta doa. Bila siksaan tidak dapat melampaui daya tahan manusia, Al-Qur'an tidak perlu menjelaskan hukum bagi orang beriman yang dipaksa mengucapkan kekufuran sementara hatinya tetap beriman: «kecuali orang yang dipaksa kafir padahal hatinya tetap tenang dalam beriman (dia tidak berdosa)» (16:106).
+
+Keteguhan bukan berarti tubuh berhenti merasa sakit. Keteguhan berarti menjaga dasar iman di tengah penderitaan, kembali kepada Allah, dan tidak menganggap perbuatan penyiksa sebagai bukti bahwa kebenaran telah kalah. Para sahabat menempuh cara yang berbeda: Bilal terus menegaskan keesaan Allah; yang lain mungkin terpaksa berbicara, tetapi tetap beriman dalam hati; Abu Bakar mengeluarkan hartanya untuk menyelamatkan siapa pun yang mampu ia selamatkan; sebagian kerabat menggunakan perlindungan kabilah untuk mencegah pembunuhan; dan Rasulullah mendidik mereka untuk bersabar sambil menjanjikan bahwa masa itu tidak akan selamanya berlangsung. Masing-masing bertindak sesuai kemampuan.
+
+Namun Tinggal di Makkah Semakin Berat
+
+Lama-kelamaan, perselisihan itu tidak lagi sekadar kata-kata kasar atau perdebatan di tempat berkumpul. Ada orang yang disiksa, dipenjarakan, dibuat kelaparan dan kehausan. Sebagian tidak memiliki keluarga besar yang dapat menyelamatkan mereka. Rasulullah mengetahui apa yang dialami sahabat-sahabatnya, tetapi ketika itu beliau belum memiliki negara atau tentara yang dapat memaksakan perlindungan bagi mereka. Beliau pun tidak memerintahkan mereka kembali kepada kesyirikan agar penderitaan berhenti.
+
+Bagi sebagian orang beriman, masuk Islam berarti kehilangan rasa aman di kotanya sendiri. Makkah menjadi semakin sulit untuk ditinggali. Namun di luar Makkah ada negeri lain yang tidak diperintah oleh seorang Quraisy. Menurut riwayat Sirah Ibnu Ishaq, Rasulullah ﷺ tidak lama lagi akan memberitahukan kepada para sahabat bahwa tidak seorang pun dizalimi di bawah pemerintahan raja negeri itu. Demikianlah akan dimulai hijrah pertama umat Islam. Mereka belum akan pergi ke Madinah. Tujuan pertama ialah Habasyah.
+
+Sumber Utama Bab Ini
+
+• Latar belakang tiga pertanyaan tentang Ashabul Kahfi, Dzulqarnain, dan roh: riwayat Ibnu Ishaq bahwa Quraisy mengirim an-Nadhr dan ‘Uqbah kepada ulama Yahudi di Yatsrib; tidak seluruh rincian merupakan hadis sahih dengan sanad bersambung.
+
+• Kisah Ashabul Kahfi dan keteguhan tauhid mereka: Al-Qur'an, Al-Kahfi 18:13–16.
+
+• Penyiksaan Bilal, batu di atas dadanya, penegasan berulang atas keesaan Allah, dan pembelian serta pemerdekaan oleh Abu Bakar: sirah Ibnu Ishaq, dengan riwayat lain yang mendukung fakta utamanya. Makna yang dikutip dalam bahasa Indonesia: Buletin At-Tauhid, “Ketika Allah Menguji, Bukan Berarti Membenci”, bagian Bilal. https://buletin.muslim.or.id/ketika-allah-menguji-bukan-berarti-membenci/
+
+• Pemerdekaan orang-orang lemah oleh Abu Bakar serta berita Abu Quhafah, an-Nahdiyyah dan putrinya, Zinnirah, dan perempuan dari Bani Mu'ammal: riwayat sirah, tidak semuanya hadis sahih. Lihat sirah Ibnu Hisyam dari Ibnu Ishaq, 1/318–320: kisah Bilal melalui ‘Urwah bin az-Zubair, sedangkan percakapan Abu Quhafah melalui ‘Amir bin ‘Abdullah bin az-Zubair dari seorang anggota keluarganya yang tidak disebut namanya. Percakapan di atas disampaikan secara tidak langsung.
+
+• Umar mengikat Sa‘id bin Zaid sebelum Umar memeluk Islam: Shahih al-Bukhari, 6942 dan 3862.
+
+• Penghiburan bagi keluarga Yasir: jalur periwayatan Ibnu Ishaq dalam kitab sirah tidak memuat rangkaian perawi yang lengkap. Kutipan bahasa Indonesia: Dr. Ajang Kusmana, “Kekuatan Iman, Kisah Keluarga ‘Ammar Bin Yasir”, Majelis Tabligh Muhammadiyah, 9 Februari 2026. https://majelistabligh.id/kekuatan-iman-kisah-keluarga-ammar-bin-yasir/ Riwayat tersendiri dari Jabir menyampaikan kabar gembira tentang surga bagi keluarga itu (ath-Thabarani, al-Mu‘jam al-Awsath, 1508; al-Hakim, 5666). Al-Albani menilai riwayat Jabir hasan sahih dalam takhrij hadis Fiqhus Sirah, hlm. 103. Penilaian tersebut berlaku untuk riwayat tersendiri itu, bukan untuk rangkaian perawi Ibnu Ishaq yang tidak lengkap (Ibnu Hisyam, 1/320). Al-Baihaqi juga meriwayatkan keterangan Mujahid bahwa Sumayyah adalah orang pertama yang gugur sebagai syahid dalam Islam, dalam Dala’il an-Nubuwwah, bagian penyiksaan kaum Muslim yang tidak memiliki perlindungan. Ini merupakan riwayat sejarah yang mursal dari Mujahid, tanpa sanad bersambung sampai kepada saksi peristiwa, bukan sabda yang dinisbatkan kepada Nabi ﷺ. https://islamweb.net/ar/library/content/1005/541/
+
+• Hukum orang yang dipaksa mengucapkan kekufuran sementara hatinya tetap beriman: Al-Qur'an, An-Nahl 16:106.
+
+• Perlindungan kabilah terhadap kerabat Bani Makhzum: sirah Ibnu Ishaq. Lihat Ibnu Hisyam, 1/321; tentang masuk Islamnya al-Walid setelah Badar: adz-Dzahabi, Siyar A‘lam an-Nubala’, bagian sirah, peristiwa tahun 2 H, 26/318–319.
+
+• Keluhan Khabbab, permintaan doa dan pertolongan, penyiksaan kaum beriman terdahulu, dan kabar keamanan di antara Shan'a dan Hadramaut: Shahih al-Bukhari 6943. Keterangan bahwa Nabi duduk dengan wajah memerah terdapat dalam Shahih al-Bukhari 3852. Permintaan dan kalimat penutup yang dikutip mengikuti terjemahan dalam Majalah As-Sunnah 03/XI/1428 H/2007 M, artikel “Kafir Quraisy Teror Kaum Muslimin yang Lemah” (Almanhaj); bagian di antaranya dituturkan secara tidak langsung.
+
+• Khabbab juga mengadukan salat di atas tanah yang sangat panas (Shahih Muslim 619a); riwayat ini mengenai panas tanah saat salat, bukan peristiwa yang sama dengan kisah penyiksaan.
+• Keterangan tentang raja Habasyah disampaikan secara tidak langsung berdasarkan makna riwayat Ibnu Ishaq dalam Sirah Ibnu Hisyam. Redaksi itu tidak memiliki sanad yang bersambung, tetapi pokok nasihatnya didukung riwayat bersanad sambung dari Ummu Salamah, semoga Allah meridainya. Lihat Al-Albani, As-Silsilah Ash-Shahihah 3190, 7/577–578; Al-Baihaqi, As-Sunan Al-Kubra 9/9 dan Dala’il An-Nubuwwah 2/301. Perbedaan kedua riwayat dijelaskan dalam bab berikutnya.

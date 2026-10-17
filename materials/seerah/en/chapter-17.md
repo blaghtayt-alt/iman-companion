@@ -1,0 +1,277 @@
+# Ja'far Before the Negus
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Chapter Seventeen
+
+Ja'far Before the Negus
+
+When Quraysh Tried to Bring the Emigrants Back
+
+1. Life in Abyssinia Begins to Settle
+
+The migration to Abyssinia had given the Muslims something many of them had lacked in Makkah: a place where they could worship Allah beyond the authority of Quraysh.
+
+But their departure from Makkah did not make Quraysh forget them.
+
+A community of Muslims was now living in another land under the protection of a king whose decisions Quraysh could not control. This meant that the call to Islam now had another place where believers could live away from the pressure surrounding them in Makkah.
+
+Before the new confrontation, life in Abyssinia had begun to settle for some emigrants. Some stayed for years, and some had children born there.
+
+Among them was Khalid ibn Sa'id ibn al-'As, may Allah be pleased with him, one of the early Muslims. He remained in Abyssinia for years, and his daughter Umm Khalid was born there.
+
+Umm Khalid later came to Madinah while still young. Sahih al-Bukhari records that the Prophet ﷺ dressed her in a garment and spoke to her in the language of Abyssinia:
+
+“Sanah, sanah.”
+
+Meaning: beautiful, beautiful. — Sahih al-Bukhari, 3874; see also 3071.
+
+Abyssinia, then, was not merely a place where the Muslims hid for a few days. Some of them lived there for years, and their children grew up with memories and a life connected to that land.
+
+2. Was Life in Abyssinia Completely Safe?
+
+Umm Salamah, may Allah be pleased with her, described the Negus as the best of protectors during their stay in Abyssinia. She said:
+
+“[…] we felt safe to practise our religion and we worshipped Allah without being bothered or hearing anything we disliked.” — Musnad Ahmad, 1740, excerpt from Umm Salamah’s account. Translation: Nasiruddin al-Khattab, edited by Huda al-Khattab, Darussalam, 2012, vol. 2, p. 179.
+
+The general picture, therefore, was one of security and stability.
+
+Yet Asma' bint 'Umays, may Allah be pleased with her, who also lived in Abyssinia, said years later in reply to Umar about precedence in migration:
+
+“[…] we were in the far-off hated land of Ethiopia […] There we were harmed and frightened.” — Sahih al-Bukhari, 4230; published English translation on Sunnah.com (two excerpts from Asma’s account).
+
+The reports need not contradict one another. Umm Salamah, may Allah be pleased with her, may be describing the general protection the Muslims found under the Negus, which they had lacked in Makkah. Asma, may Allah be pleased with her, may be describing the fear, difficulties and estrangement of living far from the Messenger of Allah ﷺ and their homeland. They had security, but remained emigrants in a distant country, dependent on the just king’s ability to protect them. Later events would reveal how much this mattered.
+
+3. The News Reaches Quraysh
+
+When Quraysh learned that the Muslims had settled under the Negus’s protection, its leaders sought a way to bring them back to Makkah. They could not simply seize them in the territory of an independent king, so they chose envoys and gifts. They sent Amr ibn al-As, who had not yet accepted Islam and was known for his intelligence and skill in dealing with people, together with Abdullah ibn Abi Rabi‘ah, and prepared gifts for them to take.
+
+According to the report of Umm Salamah (may Allah be pleased with her), among the goods from Makkah most valued by the people of Abyssinia was tanned leather prepared for use, so Quraysh gathered a large quantity of it.
+
+The plan extended beyond a gift for the king. Quraysh also sought to influence the senior court and church figures around him, described in the account as patriarchs. The envoys gave each of them a gift before presenting the case to the Negus.
+
+The envoys alleged that foolish young men from their people had come to the king’s land after abandoning their own religion, without adopting the religion of the Christians. They claimed that the emigrants had invented a religion unknown to either side. Their people’s leaders, they said, had sent them to bring the emigrants back. They asked the patriarchs to advise the king to surrender them before hearing their account. — Ibn Hisham, al-Sirah al-Nabawiyyah, Umm Salamah’s account of the emigrants and the Negus; dialogue presented in indirect form.
+
+Preventing a hearing was central to the plan. The envoys wanted the Muslims returned to Makkah before they could explain their position, fearing that the Negus might reject Quraysh’s account if he heard the emigrants themselves.
+
+4. An Attempt to Secure Their Return Without a Hearing
+
+The two men entered upon the Negus and presented their gifts.
+
+They repeated their accusations to the Negus, describing the emigrants as foolish young men who had abandoned their people’s religion without adopting his and had invented a religion unknown to either side. They said that the emigrants’ fathers, uncles and clans had sent them to secure their return, arguing that their own people knew them and their alleged faults best. — Ibn Hisham, the same account; dialogue presented in indirect form.
+
+The patriarchs, who had already accepted the gifts, supported the envoys. They urged the Negus to hand the emigrants over to the two men so that they could take them home, arguing that their own people knew them best. — Ibn Hisham, the same account; dialogue presented in indirect form.
+
+Had the Negus agreed at this point, the story would have ended before Ja'far, may Allah be pleased with him, said a single word.
+
+The Negus became angry and swore by Allah that he would not surrender people who had chosen his country and protection without first hearing them. If they were as the envoys claimed, he would return them; otherwise, he would protect them from the envoys and let them remain safely in his land. — Ibn Hisham, the same account; indirect account of his reply.
+
+This showed why Abyssinia had been chosen. The king did not accept the envoys’ claim that the emigrants’ own people knew them best as sufficient grounds for a decision; he insisted on hearing the emigrants themselves.
+
+5. What Should We Say to the King?
+
+The Negus summoned the Muslims. When his messenger arrived, they knew they would stand before a king who could let them stay or hand them over to Quraysh. They gathered to discuss their answer.
+
+They did not choose to conceal part of their religion to secure their residence or offer the king a message contrary to what the Messenger of Allah ﷺ had taught them. Instead, they agreed on one position:
+
+They swore by Allah that they would say what they knew and what their Prophet ﷺ had commanded them, whatever the outcome. — Musnad Ahmad, 1740 (meaning of the narration).
+
+Whatever happened, they would not present the king with a religion different from the one they had brought from Makkah.
+
+Before they entered, the Negus had summoned his bishops, the senior Christian religious leaders, who opened their books around him.
+
+The Negus asked about the religion for which they had left their people, without adopting his religion or that of any other nation. — Ibn Hisham, the same account; question presented in indirect form.
+
+Ja‘far ibn Abi Talib, may Allah be pleased with him, stepped forward to speak for the Muslims.
+
+6. Why Ja'far?
+
+Ja‘far held a prominent place among the emigrants. He was the cousin of the Messenger of Allah ﷺ, the brother of Ali, may Allah be pleased with them both, and the son of Abu Talib, who protected the Prophet ﷺ in Makkah. While the Prophet remained there, Ja‘far assumed responsibility among the Muslims in Abyssinia and was suited to represent them before the king. Such leadership mattered far from the Prophet: revelation continued and rulings developed, while news of each development did not reach the emigrants immediately.
+
+'Abdullah ibn Mas'ud, may Allah be pleased with him, related that in the early days they used to greet the Prophet ﷺ while he was praying and he would return their greeting. When they returned from Abyssinia, they found that the ruling had changed and he no longer answered them during prayer.
+
+Distance from the Messenger of Allah ﷺ affected the emigrants’ lives and made Ja‘far’s presence especially valuable. The meeting with the king would reveal an important part of his responsibility.
+
+7. Life Before Islam
+
+Standing before the Negus, Ja‘far, may Allah be pleased with him, did more than request protection or dispute Quraysh’s allegations. He began by describing their life before Islam:
+
+His people had lived in jahiliyyah: they worshipped idols, ate carrion, committed immoral acts, severed family ties, and mistreated their neighbors. The strong among them oppressed the weak. — Ibn Hisham, al-Sirah al-Nabawiyyah, Umm Salamah’s account of the emigrants and the Negus (meaning of Ja‘far’s speech).
+
+Jahiliyyah describes the condition before Islam, including polytheism and customs contrary to the prophets’ guidance. Ja‘far acknowledged serious problems in their former society; he did not portray it as perfect, with Islam merely adding a few acts of worship.
+
+He then described the change that followed:
+
+They had remained in that condition until Allah sent them a Messenger from among themselves, whose lineage, truthfulness, trustworthiness, and chastity they knew. — Ibn Hisham, the same account (meaning).
+
+Ja‘far explained that the Messenger of Allah ﷺ called them to worship Allah alone and abandon idols, and commanded truthfulness, fulfillment of trusts, family ties and kindness to neighbors. His account also mentions prayer, zakat and fasting. The Messenger forbade bloodshed, unlawful conduct, indecency, false testimony, taking orphans’ wealth and falsely accusing chaste women of sexual immorality. Ja‘far said they believed and followed him, worshipped Allah alone and observed what he declared lawful and unlawful. Their people then attacked and tortured them to force them back to idolatry and the evil practices they had formerly permitted themselves. — Ibn Hisham, the same account; this part of Ja‘far’s speech is reported indirectly, including its mention of prayer, zakat and fasting.
+
+Ja‘far then explained why they had sought refuge with the Negus:
+
+When their people subdued and wronged them, made life difficult for them, and prevented them from practicing their religion, they left for the king’s country. They chose him over anyone else, sought his protection, and hoped they would suffer no injustice under his care. — Ibn Hisham, the same account (meaning).
+
+Their migration was therefore neither a rebellion without cause nor the flight of young people unwilling to live by their families’ expectations.
+
+Ja‘far had explained the whole sequence to the king. They had lived in ignorance until a Messenger they knew called them to worship Allah alone and live uprightly. They believed him and were tortured for their faith. When they could no longer practice their religion freely, they sought the Negus’s protection in the hope of receiving justice. Now Quraysh was trying to take them back.
+
+8. Ja‘far Recites from Surah Maryam
+
+The Negus listened to Ja'far.
+
+The Negus asked whether Ja‘far had anything with him of what their Prophet had brought from Allah. Ja‘far answered that he did, and the king asked him to recite it. — Ibn Hisham, the same account; dialogue presented in indirect form.
+
+Before the Christian king, his bishops and their books, Ja‘far recited from the opening of Surah Maryam, as the report states. The surah begins with Zechariah, peace be upon him, and later speaks of John and Mary, peace be upon them. These are the surah’s contents; the report does not specify where Ja‘far stopped reciting.
+
+Allah says:
+
+Kāf Ha Ya ‘Ayyn Sād
+This is a reminder of the mercy of your Lord to His slave Zachariah,
+When he called upon his Lord in private.
+
+— Surah Maryam 19:1-3.
+
+The surah recounts the lives of prophets whose names and stories were familiar to the People of the Book.
+
+Umm Salamah (may Allah be pleased with her) relates that the Negus wept until his beard became wet, and his bishops wept until their books became wet with tears.
+
+Then, swearing by Allah, the Negus said:
+
+“This and what Moosa brought came from the same lamp.” — Musnad Ahmad, 1740 (excerpt). Translation: Nasiruddin al-Khattab, edited by Huda al-Khattab, Darussalam, 2012, vol. 2, p. 183.
+
+The Arabic word mishkah means a recess for a lamp. Here the image expresses that the two messages come from one source.
+
+The Negus then ordered the two Quraysh envoys to leave and swore by Allah that he would not hand the Muslims over to them. — Ibn Hisham, the same account; reply presented in indirect form.
+
+The first plan failed despite the gifts, the patriarchs’ support and the envoys’ claim to represent the emigrants’ own people. The Negus heard the other side and refused to surrender them.
+
+9. But 'Amr Did Not Stop
+
+Amr ibn al-As and Abdullah ibn Abi Rabi‘ah left the king. Their mission could have ended there.
+
+But Amr swore by Allah that he would return to the Negus the next day with an accusation intended to destroy the Muslims’ position entirely. — Ibn Hisham, the same account; words presented in indirect form.
+
+Amr intended to raise a sensitive matter. The Negus and his people were Christians, and the Muslims differed from most Christians in their beliefs about Jesus son of Mary, peace be upon him.
+
+Abdullah ibn Abi Rabi‘ah tried to dissuade him, reminding him that the emigrants were their relatives despite their religious differences. — Ibn Hisham, the same account; reply presented in indirect form.
+
+Amr also swore by Allah that he would tell the Negus that the Muslims regarded Jesus son of Mary as a servant of Allah. — Ibn Hisham, the same account; words presented in indirect form.
+
+But 'Amr insisted.
+
+The next day Amr approached the Negus, alleged that the Muslims said something grave about Jesus son of Mary, and asked him to summon them and question them about it. — Ibn Hisham, the same account; words presented in indirect form.
+
+Amr left his accusation broad enough to cause alarm without explaining the Muslims’ beliefs in full. The Negus summoned them again.
+
+10. A More Frightening Question
+
+The news reached the emigrants, who found this situation still more troubling than the first.
+
+Umm Salamah, may Allah be pleased with her, recalled that nothing like this had ever befallen them. — Ibn Hisham, the same account; meaning of her account.
+
+They had faced nothing so frightening since arriving in Abyssinia. The question was no longer simply why they had left Makkah, but what they believed about Jesus son of Mary, peace be upon him—a matter of deep religious sensitivity for the king and his people.
+
+The Muslims gathered to discuss their answer. Fear might lead a refugee in such circumstances to speak vaguely or postpone explaining his beliefs, especially when the king had refused to surrender him only the day before. Yet the emigrants agreed to maintain their earlier position:
+
+They swore by Allah that they would say about Jesus what Allah had said and what their Prophet ﷺ had taught them, whatever the outcome. — Musnad Ahmad, 1740 (meaning of the narration).
+
+Even if the result were the loss of their safety, they would not alter the truth of their religion in order to keep it.
+
+11. What Do You Say About Jesus?
+
+They entered upon the Negus.
+
+The Negus asked them directly what they said about Jesus son of Mary. — Ibn Hisham, the same account; question presented in indirect form.
+
+Ja'far stepped forward again.
+
+Ja‘far answered by explaining what their Prophet ﷺ had taught them about Jesus:
+
+Jesus is Allah’s servant and Messenger, a spirit created by Him, and “His word that He bestowed upon Maryam the Virgin.” — Musnad Ahmad, 1740 (meaning of the reply, with a quoted excerpt). Published translation: Nasiruddin al-Khattab, edited by Huda al-Khattab, Darussalam, 2012, vol. 2, p. 184.
+
+The expression “His spirit” means a spirit created by Allah and attributed to Him as an honor, not a part of Him. The Arabic term al-batul describes a chaste woman free of sexual immorality.
+
+The Muslims did not know in advance that the Negus would accept their answer or that his belief about Jesus was close to theirs. They stated their faith and then awaited his response.
+
+The Negus picked up a small stick from the ground.
+
+The Negus affirmed Ja‘far’s answer:
+
+He swore by Allah that Jesus son of Mary was exactly as Ja‘far had described him, without differing by so much as that stick. — Ibn Hisham, al-Sirah al-Nabawiyyah, Umm Salamah’s account (meaning of the Negus’s words).
+
+Some of his patriarchs reacted with sounds of objection and displeasure.
+
+The Negus stood by his statement despite the patriarchs’ objections. — Ibn Hisham, the same account; meaning of his reply.
+
+Then he turned to the Muslims and declared his protection for them.
+
+12. The Negus Renews Their Protection
+
+The Negus declared that they were free to go and would be safe in his land. The account uses the Abyssinian word suyūm and explains it as meaning safe. — Ibn Hisham, the same account; meaning of the declaration.
+
+The Negus repeated that anyone who insulted them would incur a penalty or liability, and said he would not accept harm to even one of them in exchange for a mountain of gold. — Ibn Hisham, the same account; indirect account of his words.
+
+He ordered the gifts returned to Amr and Abdullah, refusing to let them become the price of changing his judgment about people who had sought his protection.
+
+He also explained why he would not accept a bribe:
+
+He swore by Allah that Allah had taken no bribe from him when restoring his kingdom to him; he therefore would not take a bribe in exercising his rule. — Ibn Hisham, the same account (meaning).
+
+The two Quraysh envoys therefore left with their gifts returned.
+
+The Muslims emerged with clearer protection. A crisis that began with an attempt to expel them ended with the king declaring before his officials that they were safe in his land.
+
+13. Their Safety Still Depended on the Negus Remaining King
+
+Their security faced another test when a man from Abyssinia challenged the Negus for the throne. The Muslims were deeply troubled: this was the king who had granted them safety, refused Quraysh’s demand and maintained his protection even over the dispute concerning Jesus, peace be upon him. If he were defeated, they feared that his successor might not recognize their rights.
+
+Umm Salamah, may Allah be pleased with her, said that they had not grieved over anything as much as they grieved then, fearing that the other man might win and a ruler might come who did not recognize their rights as the Negus had.
+
+The Negus took his army to face his rival, with the Nile between the two sides. The Muslims waited for news but wanted to learn what was happening rather than remain far away and uninformed.
+
+The Muslims asked who could go to observe the battle and bring back news. — Ibn Hisham, the same account; question presented in indirect form.
+
+Al-Zubayr ibn al-Awwam, may Allah be pleased with him, one of the youngest among them, volunteered.
+
+14. Al-Zubayr's Mission
+
+To reach the battlefield, al-Zubayr had to cross the water. They inflated a waterskin for him—a leather container for water that could help him float when filled with air—and he held it against his chest. He swam toward the fighting and drew near enough to learn what had happened.
+
+Meanwhile, the emigrants remained on the other side praying that Allah would give victory to the Negus and secure his rule.
+
+Then al-Zubayr appeared on his way back.
+
+He waved his garment and brought them the joyful news that the Negus had won. — Ibn Hisham, the same account; meaning of his announcement.
+
+The Negus was victorious, his rival was defeated, and his rule over Abyssinia became secure again.
+
+Umm Salamah, may Allah be pleased with her, said that they had never rejoiced over anything as much as they rejoiced over that result.
+
+For the emigrants, this was more than news of a distant political struggle. The king whose justice they knew, and who had twice protected them against Quraysh, would remain able to safeguard them.
+
+15. They Did Not All Return at the Same Time
+
+The Muslims continued living in Abyssinia, but their return took place in stages. Some returned to Makkah early, later moved to Madinah and took part in Badr. Others remained for many years. Ja‘far ibn Abi Talib, may Allah be pleased with him, was among those who came to the Messenger of Allah ﷺ around the time of Khaybar. The emigrants were therefore not one unchanging group that returned together: their journeys differed, and some stayed with Ja‘far until the later years of the Madinan period.
+
+Those years gave the Muslims experience of life outside Makkah. They found protection under a king from another people and saw how justice could restrain oppression despite religious differences. Men among them also shouldered responsibility far from the Messenger of Allah ﷺ, foremost among them in this account being Ja‘far ibn Abi Talib, may Allah be pleased with him.
+
+Ja‘far stood before the king and his officials without the Prophet ﷺ beside him to dictate his words. He explained their former life, the changes Islam had brought and the reasons for their departure, then recited Qur’an suited to his listeners. When questioned about Jesus, peace be upon him, neither he nor his companions changed their beliefs to keep their residence. Al-Zubayr, may Allah be pleased with him, later showed another form of initiative by volunteering to bring news of the battle.
+
+The migration to Abyssinia was also a period in which the Companions lived out what they had learned from the Messenger of Allah ﷺ while far from him.
+
+Main Sources for This Chapter
+
+The main account of the emigrants’ meeting with the Negus comes through Ibn Ishaq, from al-Zuhri, from Abu Bakr ibn Abd al-Rahman, from Umm Salamah, may Allah be pleased with her. It appears in Musnad Ahmad, 1740, and Ibn Hisham’s al-Sirah al-Nabawiyyah. Some wording differs between the two versions; quotations and passages reported indirectly are attributed to the version used.
+
+The Muslims' settlement under the Negus, Umm Salamah's statement that they were safe regarding their religion, Quraysh's dispatch of 'Amr ibn al-'As and 'Abdullah ibn Abi Rabi'ah with gifts, and their attempt to influence the patriarchs all come from Umm Salamah's Seerah report.
+
+Ja‘far’s address, his recitation from the opening of Surah Maryam, the tears of the Negus and his bishops, and the refusal to surrender the Muslims are in those accounts. Musnad Ahmad, 1740, names Moses in the comparison of the two messages to light from one lamp; Ibn Hisham’s version names Jesus.
+
+Ja'far's statement about Jesus son of Mary, peace be upon him, followed by the Negus's renewed protection of the Muslims and the return of the gifts, also comes from the same report.
+
+The challenge to the Negus’s rule and al-Zubayr’s mission to learn the outcome of the battle appear in Musnad Ahmad, 1740. His return waving his garment, the announcement of victory and the emigrants’ joy are in the continuation preserved by Ibn Hisham.
+
+The report of Umm Khalid bint Khalid ibn Sa'id, and that the Prophet ﷺ dressed her in a garment and said “Sanah, sanah” to her in the language of Abyssinia, is in Sahih al-Bukhari.
+
+The change in the ruling regarding speech during prayer after some emigrants returned from Abyssinia is reported from 'Abdullah ibn Mas'ud, may Allah be pleased with him, in the two Sahih collections, in the report about returning greetings during prayer.
+
+The emigrants did not all return from Abyssinia at once. Some returned to Makkah earlier, while Ja'far and a group remained until they came to the Prophet ﷺ around the time of Khaybar.

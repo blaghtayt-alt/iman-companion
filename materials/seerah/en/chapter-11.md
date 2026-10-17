@@ -1,0 +1,237 @@
+# What Shall We Tell the Arabs? Quraysh Tries to Get Ahead of the Message
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Chapter Eleven — What Shall We Tell the Arabs? Quraysh Tries to Get Ahead of the Message
+
+Quraysh's first attempts to persuade Abu Talib to stop the Messenger of Allah, peace and blessings be upon him, from preaching, or to withdraw his protection from him, had failed. The Prophet continued calling people to worship Allah alone, while news of him began spreading beyond the small circle that had known about him at the beginning of the mission.
+
+At that point, Quraysh faced a new problem.
+
+The matter was no longer limited to the people of Makkah.
+
+The pilgrimage season was approaching, when Arab tribes came to Makkah for pilgrimage, meetings, and trade. Men would arrive from across the Arabian Peninsula, and some of them had already heard that a man in Makkah was saying that he was a Messenger from Allah.
+
+Once they arrived, they might hear Muhammad, peace and blessings be upon him, for themselves.
+
+From Quraysh's point of view, they therefore needed to decide what they would say about him.
+
+Al-Walid ibn al-Mughirah Gathers Quraysh
+
+The Seerah of Ibn Ishaq reports that a number of men from Quraysh gathered around al-Walid ibn al-Mughirah al-Makhzumi, one of Quraysh's senior and wealthy figures.
+
+Ibn Ishaq recounts the concern al-Walid raised:
+
+Al-Walid reminded Quraysh that the pilgrimage season had arrived and that Arab delegations, who had already heard about Muhammad, would soon be coming to them. He urged them to agree on a single account of him, so that their statements would not contradict and discredit one another.
+
+The problem was obvious.
+
+If some visitors were told that Muhammad was a soothsayer, while others were told he was a poet, others that he was mad, and still others that he was a sorcerer, the contradiction itself would make people question their claims.
+
+Al-Walid therefore wanted them to settle on a single description before the delegations arrived.
+
+They asked him to choose the description for them.
+
+Instead, he asked them to make suggestions while he listened.
+
+They first suggested calling him a soothsayer.
+
+In Arab usage, a soothsayer was someone who claimed knowledge of hidden matters. Soothsayers also had a recognizable style of speech, often using short, rhymed phrases.
+
+Al-Walid rejected the description, swearing by Allah that Muhammad was not a soothsayer. He said that they knew soothsayers and had heard their speech, and that Muhammad's words were not like the muttering or rhymed speech of a soothsayer.
+
+They next suggested calling him mad.
+
+He rejected that as well.
+
+The Arabs knew the signs displayed by someone suffering severe mental disturbance, and al-Walid said that what they saw from Muhammad did not resemble that.
+
+They then proposed calling him a poet.
+
+He replied that he was not a poet.
+
+Al-Walid and Quraysh were Arabs who knew poetry, its meters, and its various forms. They had heard rajaz and other forms of verse, and the Qur'an did not resemble what they knew of poetry.
+
+Their next suggestion was to call him a sorcerer.
+
+At first, he rejected this description too. He said they knew sorcerers and what they did, and that what Muhammad had brought did not resemble the blowing and knot-tying they associated with sorcery.
+
+They were searching for an accusation, yet the very man whose opinion they wanted acknowledged that the descriptions they proposed did not match what he himself heard.
+
+Ibn Ishaq also recounts al-Walid’s acknowledgment of the Quran’s beauty:
+
+Swearing by Allah, al-Walid acknowledged the sweetness of its words and compared them to a tree with firm roots and fruitful branches.
+
+The comparison is to a tree with a firm root and good fruit: an acknowledgment that the speech had strength and beauty that could not easily be denied.
+
+He then told them that people would recognize the weakness of any of the earlier descriptions.
+
+Yet they still needed something to say.
+
+The Accusation of Sorcery
+
+Al-Walid eventually concluded that the description most useful for turning people away from the Prophet was to call him a sorcerer.
+
+He did not choose that label because he thought the Qur'an resembled the practices of sorcerers; he had just rejected that comparison.
+
+Rather, he connected the accusation to another effect that he said people might notice:
+
+this call was separating a man from his father, a man from his brother, a man from his wife, and a man from his clan.
+
+Some sons had entered Islam while their fathers remained on the religion of Quraysh. One brother believed while another rejected the message. The bond of faith could now stand against the inherited expectation of following one's family and tribe.
+
+For that reason, al-Walid considered the word "sorcerer" the accusation most likely to affect someone hearing the story from a distance: Quraysh could claim that Muhammad's speech was what had caused these divisions.
+
+The men of Quraysh dispersed having agreed on this position.
+
+On the Roads Used by Those Coming to Makkah
+
+Quraysh did not stop at agreeing among themselves.
+
+The Seerah reports that they sat on the roads used by Arab delegations arriving for the pilgrimage season. No one passed them without being warned about the Messenger of Allah and being told the description they had agreed upon.
+
+They wanted each man to reach Makkah having already heard Quraysh's interpretation of what was happening before he could hear the Prophet himself.
+
+But the campaign produced a result Quraysh had not wanted.
+
+Ibn Ishaq reports that the Arabs left that pilgrimage season carrying news of the Messenger of Allah with them, and that news of him spread throughout the lands of the Arabs.
+
+Quraysh had wanted to warn people against him, but at the same time they were telling visitors from every tribe that there was a man in Makkah important enough, and dangerous enough in their eyes, for Quraysh's leaders to stand on the roads warning people about him.
+
+Some visitors therefore left knowing at least that a man named Muhammad was calling people to something new.
+
+The Qur'an Describes Al-Walid's Deliberation
+
+Works of Tafsir and Seerah report that the following verses of Surat al-Muddaththir were revealed concerning al-Walid ibn al-Mughirah:
+
+Leave me to deal with the one whom I created lonely, and gave him abundant wealth, and sons by his side, and gave him a life of comfort and power, yet he aspires that I should give him more. By no means! For he has been stubborn against Our verses. I will subject him to an unbearable punishment. For he reflected and plotted [against the Qur’an]. May he perish, how he plotted! Again, may he perish, how he plotted! Then he looked around, then he frowned and scowled, then turned away with arrogance, then said, “This is nothing but magic from the past. This is nothing but the words of a man.” Soon I will make him burn in the Scorching Fire. — Qur’an 74:11–26 — Rowwad Translation Center.
+
+The verses portray the process of deliberation itself:
+
+For he reflected and plotted [against the Qur’an]. — Qur’an 74:18 — Rowwad Translation Center.
+
+Then:
+
+Then he looked around, then he frowned and scowled, then turned away with arrogance, — Qur’an 74:21–23 — Rowwad Translation Center.
+
+And then came the conclusion he chose:
+
+then said, “This is nothing but magic from the past. This is nothing but the words of a man.” — Qur’an 74:24–25 — Rowwad Translation Center.
+
+The verses do not present the matter as a man who merely heard the Qur'an and became innocently confused about it. They describe deliberation and calculation, followed by turning away and arrogance, and then the selection of a description for the Qur'an.
+
+Ibn Ishaq also connected the different labels this group applied to the Prophet and the Qur'an with Allah's words:
+
+those who split the Qur’an into different portions. By your Lord, We will surely question them all concerning what they used to do. — Qur’an 15:91–93 — Rowwad Translation Center.
+
+Ibn Hisham explained the word "'idin" in this context as meaning that they divided and classified it, saying different things about it.
+
+This connection is mentioned by Ibn Ishaq in the Seerah, so it is preserved here as his interpretation and his linking of the verses to the action of those men.
+
+Why Was the Message So Difficult for Them to Accept?
+
+What the Messenger of Allah brought was not a minor adjustment to Quraysh's way of life.
+
+He called them to say:
+
+There is no deity worthy of worship except Allah.
+
+They were Arabs who understood what this statement meant.
+
+It did not mean adding Allah's name to the set of gods they already recognized. It meant invalidating the worship of everything besides Him.
+
+That touched something very deep in their lives: the religion of their forefathers, the status of the idols, the inherited customs, and the bonds through which they understood themselves and their tribes.
+
+Even names carried traces of that older world.
+
+In Arab genealogies from before Islam, we find names such as 'Abd al-'Uzza and 'Abd al-Lat, connected to deities that people venerated. As Islam spread, names expressing servitude to Allah and Islamic identity became very widespread, such as 'Abdullah and 'Abd al-Rahman. The names of the Prophet and his Companions also became increasingly common in later generations.
+
+This does not mean that all such names were unknown before Islam. The name 'Abdullah, for example, already existed, and the Prophet's own father was 'Abdullah ibn 'Abd al-Muttalib. The point is that religious transformation left a visible mark even on naming patterns, just as it did on belief, worship, and social relationships.
+
+The message was changing many things at once.
+
+But the foundation of what the Prophet was calling people to remained clear: worship Allah alone.
+
+The Call Was Not Monotheism Detached from Ethics
+
+Among the early reports that clarify what the Messenger of Allah called people to is the hadith of 'Amr ibn 'Abasah, may Allah be pleased with him, which we encountered earlier. When he asked the Prophet what Allah had sent him with, the Prophet mentioned worshipping Allah alone, maintaining family ties, and breaking idols.
+
+The same ethical meanings appear in several early Makkan surahs.
+
+Allah says, in meaning:
+
+As for the one who gives in charity and fears Allah, and truly believes in the best reward, We will make easy for him the way of salvation. But as for the one who is miserly and deems himself self-sufficient, and denies the best reward, We will make easy for him the way of perdition. — Qur’an 92:5–10 — Rowwad Translation Center.
+
+And He says, in meaning:
+
+Have you seen the one who denies the Recompense? Such is the one who repulses the orphan harshly, and does not urge others to feed the needy. — Qur’an 107:1–3 — Rowwad Translation Center.
+
+And He says, in meaning:
+
+No indeed! You are not kind to the orphan, nor do you urge one another to feed the needy, — Qur’an 89:17–18 — Rowwad Translation Center.
+
+From the Makkan period onward, the message connected belief in Allah and the Last Day with what happens inside a person and in the way the weak are treated: giving instead of miserliness, honoring the orphan instead of pushing him away, and encouraging food for the poor instead of indifference to them.
+
+Quraysh therefore faced a message with clear foundations, which could not truthfully be given any label they chose.
+
+A Man Who Came to Treat "the Madman"
+
+One of the clearest reports showing that Quraysh's words really did reach visitors from outside Makkah is the story of Dimad al-Azdi.
+
+Dimad was from the tribe of Azd Shanu'ah and knew ruqyah: recitations and supplications used in seeking treatment.
+
+In Makkah, he heard some people claiming that Muhammad was mad.
+
+Dimad had not yet met the Prophet.
+
+The first thing that reached him was the image other people were spreading about him.
+
+He hoped that if he met this man, Allah might cure him through his treatment.
+
+He then met the Messenger of Allah and offered his help.
+
+The Prophet said to him:
+
+“Praise is due to Allah, we praise Him, ask His help; and he whom Allah guides aright there is none to lead him astray, and he who is led astray there is none to guide him, and I bear testimony to the fact that there is no god but Allah, He is One, having no partner with Him, and that Muhammad is His Servant and Messenger. […]”
+
+Dimad heard the words and said:
+
+“Repeat these words of yours before me”
+
+The Messenger of Allah repeated them three times.
+
+Dimad said:
+
+“I have heard the words of soothsayers and the words of magicians, and the words of poets, but I have never heard such words as yours […]”
+
+Then he asked to pledge allegiance to the Prophet upon Islam.
+
+— Sahih Muslim 868 — published translation: Sunnah.com (excerpts).
+
+Dimad entered Makkah after the description of Muhammad as mad had already reached him.
+
+But when he heard the man himself, he did not find what he had been told to expect.
+
+His story therefore shows both the effect of the narrative Quraysh was trying to spread and the limits of Quraysh's ability to control what would happen once a person reached the Prophet and heard him directly.
+
+Quraysh had agreed on what to tell people.
+
+They sat warning visitors.
+
+Yet news of Muhammad still left Makkah with the Arab delegations.
+
+From this point, the confrontation was no longer limited to the question: How do we stop Muhammad inside Makkah?
+
+The call Quraysh had tried to contain was now being mentioned outside Makkah as well.
+
+The methods used against it would become harsher in the next stage.
+
+Primary Sources for This Chapter
+
+• Ibn Ishaq's Seerah as transmitted by Ibn Hisham: al-Walid ibn al-Mughirah's meeting with men of Quraysh before the pilgrimage season; their discussion of the labels soothsayer, madman, poet, and sorcerer; their warnings to Arab delegations; and the spread of news of the Prophet after the season.
+• Surat al-Muddaththir 74:11-26. Tafsir works mention these verses in connection with al-Walid ibn al-Mughirah.
+• Surat al-Hijr 15:91-93. Ibn Ishaq connected these verses with the men who used different classifications for the Qur'an, together with Ibn Hisham's explanation of the term "'idin" in this context.
+• Dimad al-Azdi hearing the people of Makkah say that Muhammad was mad, then meeting the Prophet and accepting Islam: Sahih Muslim 868.
+• The content of the early call to monotheism, maintaining family ties, and breaking idols: the hadith of 'Amr ibn 'Abasah, Sahih Muslim 832.
+• Makkan teachings concerning giving, the orphan, and the poor: Qur'an 92:5-10; 107:1-3; 89:17-18.
+• The observation about changing naming patterns after Islam comes from examining Arab genealogies and names in the pre-Islamic and early Islamic generations. It is a supporting historical observation, not independent evidence for the chronology of Seerah events.

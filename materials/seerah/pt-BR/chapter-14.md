@@ -1,0 +1,180 @@
+# E o Alcorão era revelado entre eles: quando os acontecimentos de Meca se tornaram versículos recitados
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Capítulo Quatorze — E o Alcorão era revelado entre eles: quando os acontecimentos de Meca se tornaram versículos recitados
+
+Nos capítulos anteriores, vimos muçulmanos torturados em Meca, homens de Quraysh discutindo com o Mensageiro de Allah ﷺ, outros zombando do Alcorão, e líderes exigindo que os crentes vulneráveis fossem excluídos de sua reunião para que pudessem conversar com ele separadamente. Mas a imagem permanece incompleta se lermos esses acontecimentos isoladamente. O Alcorão não foi revelado ao Mensageiro de Allah, que a paz e as bênçãos estejam sobre ele, anos depois de esses acontecimentos terem terminado, apenas para lhe contar o que havia ocorrido. Ele era revelado no meio dos próprios acontecimentos. Um fato ocorria em Meca, um homem dizia alguma coisa, ou os crentes passavam por uma provação, e então versículos eram revelados para fortalecer o Mensageiro de Allah e seus Companheiros, responder a um opositor, ou revelar o que havia por trás de determinada atitude. Por isso, ler a Sira nos ajuda a compreender alguns versículos, assim como ler o Alcorão revela aspectos da Sira que talvez não apareçam se nos limitarmos aos relatos dos historiadores.
+
+Para compreender essas relações, é necessário distinguir os tipos de evidência. Algumas são estabelecidas por um hadith autêntico que identifica o acontecimento e quem falou. Outras se baseiam em relatos sobre as circunstâncias da revelação, cuja confiabilidade varia. Em outros casos, não há relato explícito ligando a revelação a um evento: o comentarista extrai do texto e do contexto um sentido relacionado à situação do Profeta ﷺ. Este capítulo preserva essas distinções.
+
+Os homens supõem que, por dizerem: "Cremos", serão deixados, enquanto não provados?
+
+Depois de vermos Bilal, que Allah esteja satisfeito com ele, sobre o solo escaldante de Meca, e de vermos o que aconteceu com a família de Yasir e outros crentes vulneráveis, o início da Surata Al-'Ankabut se aproxima muito mais da realidade daqueles anos:
+
+Alif, Lām, Mīm.
+Os homens supõem que, por dizerem: "Cremos", serão deixados, enquanto não provados?
+- E, com efeito, provamos os que foram antes deles. E, em verdade, Allah sabe dos que dizem a verdade e sabe dos mentirosos. -
+— Alcorão 29:1–3 — Helmi Nasr
+
+“Provados”, aqui, significa submetidos a dificuldades que tornam manifesta a firmeza de sua fé. A formulação do versículo é geral: fé não é apenas uma palavra que alguém diz e depois recebe a garantia de que não enfrentará provação. At-Tabari, porém, transmitiu um relato que liga esses versículos especificamente ao que aconteceu com alguns muçulmanos torturados pelos politeístas, incluindo um relato que menciona 'Ammar ibn Yasir, que Allah esteja satisfeito com ele, sendo torturado por causa de Allah. Não precisamos fazer desse relato a única base para o significado do versículo; o versículo é geral. Mas o relato coloca diante de nós uma imagem da realidade que os muçulmanos viviam quando o Alcorão era revelado.
+
+Os fiéis ouviam estas palavras de Allah:
+
+Os homens supõem que, por dizerem: "Cremos", serão deixados, enquanto não provados?
+
+Os fiéis ouviam essas palavras em uma sociedade na qual não estavam a salvo do perigo. Alguns dos que ouviam essas palavras conheciam pessoas que eram espancadas e torturadas por causa da fé, e alguns talvez tivessem passado por isso eles mesmos.
+
+Os notáveis de Quraysh e os crentes vulneráveis
+
+O conflito também tinha outra forma. Para alguns homens de Quraysh, o problema não era apenas o que o Profeta, que a paz e as bênçãos estejam sobre ele, dizia, mas também quem se sentava ao redor dele. Na sociedade de Meca, tribo, linhagem e riqueza tinham grande efeito sobre a posição social de uma pessoa. Entre os Companheiros do Mensageiro de Allah havia homens com poucos bens e sem forte proteção tribal, como Bilal, Khabbab e Suhayb, que Allah esteja satisfeito com eles.
+
+Relatos de tafsir mencionam que alguns líderes de Quraysh queriam que o Profeta, que a paz e as bênçãos estejam sobre ele, afastasse esses crentes fracos de sua reunião, para que os notáveis pudessem sentar-se com ele separados deles. Em Sahih Muslim, Sa‘d ibn Abi Waqqas, que Allah esteja satisfeito com ele, relata que o versículo foi revelado a respeito de seis Companheiros, entre eles o próprio Sa‘d e Ibn Mas‘ud, depois que os politeístas contestaram a proximidade deles com o Profeta ﷺ.
+
+Então Allah revelou:
+
+E não repulses os que invocam a seu Senhor, ao amanhecer e ao anoitecer, buscando-Lhe a face, Nada te impende de sua conta e nada lhes impende de tua conta, pois o repulsá-los te fará ser dos injustos.
+— Alcorão 6:52 — Helmi Nasr
+
+A expressão “ao amanhecer e ao anoitecer” se refere ao início e ao fim do dia.
+
+O mesmo sentido se repete nas palavras de Allah:
+
+E sê paciente permanecendo com os que invocam seu Senhor, ao amanhecer e ao anoitecer, desejando-Lhe a face. E não afastes deles os olhos, desejando o ornamento da vida terrena.
+— Alcorão 18:28 — Helmi Nasr (trecho)
+
+E não afastes deles os olhos, desejando o ornamento da vida terrena.
+A orientação é não desviar a atenção desses crentes para outras pessoas.
+
+Não se pretendia tornar a mensagem mais aceitável às pessoas de posição elevada afastando o crente vulnerável. Ao contrário, o Alcorão estabeleceu que o valor de uma pessoa perante Allah não é medido pela força de sua tribo, por sua riqueza ou por sua posição em Meca. Vários daqueles que os notáveis de Quraysh consideravam indignos de sua companhia se tornariam alguns dos mais conhecidos Companheiros do Mensageiro de Allah, que a paz e as bênçãos estejam sobre ele.
+
+Até o número dos anjos do Inferno virou motivo de zombaria
+
+Nem todo confronto assumia a forma de tortura ou boicote. Havia também zombaria. Allah diz ao descrever o Inferno:
+
+Sobre ele, há dezenove guardiães.
+— Alcorão 74:30 — Helmi Nasr
+
+Isto é, dezenove anjos foram encarregados dele.
+
+Relatos de tafsir dizem que, quando Abu Jahl ouviu esse número, tratou a questão como se fossem dezenove homens contra os quais Quraysh poderia lutar. Segundo esses relatos, ele perguntou ao seu povo, em tom de zombaria, se cada dez deles seriam incapazes de vencer um dos guardiões do Fogo.
+
+O versículo seguinte esclarece:
+
+- E não fizemos por guardiães do Fogo senão anjos. E não fizemos seu número senão como provação para os que renegam a Fé, […]
+— Alcorão 74:31 — Helmi Nasr (trecho)
+
+Os guardiões do Fogo são os anjos encarregados dele. Esses detalhes são transmitidos em livros de tafsir, mas o conjunto de suas formulações não está estabelecido em um hadith autêntico atribuído ao Profeta, que a paz e as bênçãos estejam sobre ele. Mesmo assim, eles nos ajudam a enxergar a natureza de algumas reações enfrentadas pelo Profeta, que a paz e as bênçãos estejam sobre ele. Versículos ameaçando com castigo eram revelados, e um opositor os transformava em material para piadas e desafios. Então o Alcorão corrigia a própria suposição dele: estes não são homens de Quraysh para que ele calcule quantos homens seriam necessários para lutar contra cada um.
+
+A influência de um amigo
+
+A Sira de Ibn Ishaq também relata outra história envolvendo 'Uqbah ibn Abi Mu'ayt e Ubayy ibn Khalaf, ambos conhecidos por forte hostilidade ao Profeta, que a paz e as bênçãos estejam sobre ele. Os dois eram amigos próximos. O relato da Sira diz que certa vez 'Uqbah se sentou com o Profeta e o ouviu. Quando Ubayy ibn Khalaf soube disso, ficou zangado com ele e o pressionou até que declarasse abertamente sua rejeição ao Profeta. O relato também diz que o levou a cometer um ato de grande dano e humilhação contra o Mensageiro de Allah, que a paz e as bênçãos estejam sobre ele. Ibn Ishaq então liga esse acontecimento às palavras de Allah:
+
+E um dia, o injusto morderá as mãos, dizendo: "Quem dera houvesse eu tomado caminho com o Mensageiro!
+"Ai de mim! Quem dera não houvesse eu tomado fulano por amigo!
+"Com efeito, ele me descaminhou da Mensagem, após ela haver-me chegado. E Satã é pérfido para com o ser humano!"
+— Alcorão 25:27–29 — Helmi Nasr
+
+A palavra “amigo”, neste versículo, se refere a um companheiro muito próximo. Essa ligação vem de relatos da Sira e do tafsir; não é um hadith autêntico que prove que os versículos foram revelados exclusivamente sobre esses dois homens. O alcance desses versículos não se limita a essas duas pessoas. Mas o relato da Sira nos mostra outro tipo de pressão que existia em Meca: Um homem podia ouvir o Profeta, que a paz e as bênçãos estejam sobre ele, e depois seu amigo ou seu povo exigir que rejeitasse o que havia ouvido como condição para manter a relação com eles. A própria amizade podia tornar-se um meio de afastar alguém da verdade.
+
+Um osso deteriorado na mão de um homem que negava a ressurreição
+
+Uma das questões mais contestadas pelos politeístas era a ressurreição depois da morte.
+
+Como um ser humano poderia retornar depois de se tornar pó e ossos?
+
+Relatos de tafsir descrevem um homem de Quraysh que foi ao Mensageiro de Allah, que a paz e as bênçãos estejam sobre ele, levando um osso velho e deteriorado. Ele o esfarelou com a mão e perguntou, em tom de negação, quem poderia lhe devolver a vida depois de sua decomposição.
+
+O relato é apresentado aqui pelo seu sentido, sem citar literalmente as palavras do homem. Fonte: comentário de al-Tabari sobre o Alcorão 36:77, que registra relatos diferentes sobre sua identidade.
+
+Os relatos divergem quanto à identidade do homem. Alguns nomeiam Ubayy ibn Khalaf, outros al-'As ibn Wa'il. Esses relatos, portanto, não concordam sobre um único nome para o homem. Mas o Alcorão responde à própria objeção:
+
+E, esquecendo sua criação, propõe, para Nós, um exemplo. Diz: "Quem dará vida aos ossos enquanto resquícios?"
+Dize: "Quem os fez surgir, da vez primeira, dar-lhes-á a vida - e Ele, de todas as criaturas, é Onisciente - […]"
+— Alcorão 36:78–79 — Helmi Nasr
+
+“Resquícios”, neste contexto, refere-se a ossos velhos, frágeis e esfarelados. A resposta não começa tentando explicar como cada partícula do osso será reunida. Ela devolve o questionador ao começo: Quem criou o ser humano pela primeira vez? Aquele que o fez existir do nada não é incapaz de restaurá-lo depois da morte. Assim, o Alcorão preservou até o tipo de argumento usado por um politeísta diante do Mensageiro de Allah, que a paz e as bênçãos estejam sobre ele.
+
+Khabbab cobra o pagamento por seu trabalho
+
+Outro episódio desse mesmo tema é estabelecido por uma cadeia autêntica e não é apenas um relato da Sira. Khabbab ibn al-Aratt, que Allah esteja satisfeito com ele, era ferreiro e fabricava ferramentas e espadas. Al-'As ibn Wa'il lhe devia dinheiro por um trabalho realizado por Khabbab. Khabbab foi cobrar o pagamento que lhe era devido.
+
+Mas al-'As disse que não o pagaria até que ele renegasse Muhammad, que a paz e as bênçãos estejam sobre ele. Khabbab recusou. Segundo o sentido do hadith, ele respondeu que não renegaria Muhammad ﷺ, mesmo que al-‘As morresse e fosse ressuscitado. Assim, afirmava que jamais abandonaria sua fé, sem estabelecer um prazo para essa firmeza.
+
+Al-'As então tomou a ideia da ressurreição, da qual zombava, e disse:
+
+«Serei ressuscitado após a minha morte?»
+
+«Se sim, então eu te pagarei lá se eu encontrar riqueza e filhos».
+
+Então Allah revelou:
+
+E viste quem renega Nossos sinais e diz: "Em verdade, ser-me-ão concedidas riquezas e filhos"?
+Avistou ele o Invisível, ou firmou pacto com O Misericordioso?
+Em absoluto, nada disso! Escreveremos o que ele diz e estender-lhe-emos o castigo, intensamente.
+E herdar-lhe-emos o que diz possuir, e a Nós virá sozinho.
+— Alcorão 19:77–80 — Helmi Nasr
+
+Sahih al-Bukhari 4734–4735. Os dois trechos da resposta de al-'As seguem a tradução de Juma Momade Anli, Tradução dos Significados do Sahih Al Bukhari, vol. II, 1ª edição, 2024, p. 704, hadith 4735.
+
+A relação entre esses versículos e o acontecimento está estabelecida em um hadith autêntico. O próprio Khabbab narrou o que ocorreu. Esse episódio explica o que significa dizer que o Alcorão fazia parte da própria Sira. Um homem muçulmano vai cobrar o pagamento que lhe é devido. O devedor se recusa a pagar por causa da fé de Khabbab. Depois zomba da ressurreição. Versículos são revelados, preservando sua frase e respondendo a ela. Desde aquele dia, uma discussão que aconteceu entre dois homens em Meca passou a ser recitada no Alcorão até o Dia da Ressurreição.
+
+E os que renegam a Fé dizem dos que crêem: "Se ele fosse um bem, eles não nos haveriam antecipado, nisso."
+
+A atitude de alguns dos grandes de Quraysh diante dos crentes vulneráveis não se limitava à recusa de sentar-se com eles. Para alguns, o fato de pessoas vulneráveis terem aceitado o Islã antes deles tornou-se argumento contra o próprio Islã. Allah diz:
+
+E os que renegam a Fé dizem dos que crêem: "Se ele fosse um bem, eles não nos haveriam antecipado, nisso."
+— Alcorão 46:11 — Helmi Nasr (trecho)
+
+Isto é, fizeram de sua posição social um critério para reconhecer a verdade: se esta religião fosse realmente boa, então nós, pessoas de posição, deveríamos ter sido os primeiros a alcançá-la.
+
+Livros de tafsir transmitem relatos que ligam esse significado a alguns crentes vulneráveis, entre eles Zinnirah, que Allah esteja satisfeito com ela, que já encontramos entre as mulheres que sofreram agressões e depois foram libertadas por Abu Bakr, que Allah esteja satisfeito com ele.
+
+As-Suyuti cita este relato sobre Zinnirah a partir de Ibn al-Mundhir, que o transmite de ‘Awn ibn Abi Shaddad; não o apresenta aqui como uma fala do Profeta ﷺ. Por isso, ele é mencionado como um relato exegético, sem restringir o sentido do versículo apenas a Zinnirah.
+
+Mas o significado corresponde exatamente ao tipo de objeção que já vimos entre alguns líderes de Meca: como um escravo, um pobre ou uma mulher vulnerável poderia alcançar a verdade antes de nós? O Alcorão rejeita esse critério desde o princípio. A verdade não se torna verdadeira porque uma pessoa rica a reconheceu primeiro. Nem se torna falsa porque uma pessoa vulnerável chegou a ela primeiro.
+
+Em outros casos, a ligação era entendida a partir do contexto
+
+Nem toda relação entre o Alcorão e a Sira vem de um relato que identifica uma pessoa como ocasião da revelação de determinado versículo. O imã at-Tabari, um dos grandes estudiosos do tafsir, às vezes lia os versículos tendo em mente a situação do Mensageiro de Allah, que a paz e as bênçãos estejam sobre ele, em Meca, e então explicava como a história de um profeta anterior se dirigia à situação dele e o fortalecia. Um exemplo é a história de Yusuf, paz sobre ele. Allah diz:
+
+E quando alcançou a puberdade, agraciamo-lo com poder e sabedoria; assim recompensamos os benfeitores.
+— Alcorão 12:22 — Samir El-Hayek
+
+O versículo fala diretamente de Yusuf, que a paz esteja sobre ele. Al-Tabari também destaca a promessa nas palavras finais:
+
+assim recompensamos os benfeitores.
+— Alcorão 12:22 (trecho) — Samir El-Hayek
+
+Al-Tabari viu nesse versículo uma fonte de fortalecimento para o Profeta Muhammad ﷺ. Assim como Allah salvou Yusuf após suas provações e lhe concedeu autoridade depois da vulnerabilidade, a perseguição sofrida pelo Mensageiro de Allah em Meca não significava que sua missão terminaria naquelas dificuldades. Essa é uma interpretação extraída do versículo, não um relato que identifica a causa de sua revelação.
+
+Da mesma forma, ao mencionar Nuh, paz sobre ele, e o longo período em que chamou seu povo, Allah diz:
+
+E, com efeito, enviamos Noé a seu povo, e permaneceu, entre eles, um milênio menos cinqüenta anos. E desmentiram-no. Então, o dilúvio apanhou-os, enquanto injustos.
+— Alcorão 29:14 — Helmi Nasr
+
+At-Tabari também leu essa história à luz do que o Profeta, que a paz e as bênçãos estejam sobre ele, sofria de seu povo: não te entristeça a longa obstinação deles nem o dano que atinge a ti e a teus Companheiros; os mensageiros antes de ti passaram por coisas semelhantes, e o resultado final pertenceu à verdade. O Alcorão de Meca, portanto, não era uma coleção de ordens separada da vida. As histórias dos profetas anteriores eram reveladas quando o Profeta ﷺ e os crentes precisavam saber que outros já haviam percorrido aquele caminho de provações.
+
+O Alcorão revela a dimensão do confronto
+
+Se lermos apenas os relatos históricos de Meca, talvez memorizemos alguns nomes: Abu Jahl, Abu Lahab, 'Uqbah ibn Abi Mu'ayt, Ubayy ibn Khalaf, An-Nadr ibn al-Harith, Al-'As ibn Wa'il. E então dizemos simplesmente: esses homens se opunham ao Profeta, que a paz e as bênçãos estejam sobre ele.
+
+Mas quando lemos junto desses acontecimentos os versículos e os relatos de tafsir, aparece uma imagem mais ampla. Um zomba do castigo. Outro nega a ressurreição segurando um osso esfarelado. Outro pressiona o amigo para que se afaste do Profeta. Outro retém o pagamento de um trabalhador muçulmano por causa de sua religião. Outros querem afastar Bilal, Khabbab, Suhayb e os demais crentes vulneráveis da reunião do Mensageiro de Allah.
+
+Em contrapartida, o Alcorão era revelado: fortalecendo o crente, preservando a dignidade do vulnerável, respondendo ao zombador, expondo o erro do arrogante e ensinando ao Mensageiro de Allah, que a paz e as bênçãos estejam sobre ele, que a continuidade da rejeição não era sinal de fracasso da missão. Por isso, a Sira e o Alcorão nessa fase não seguem por dois caminhos separados. Os acontecimentos ocorrem em Meca, e o Alcorão educa os crentes dentro deles. O Alcorão é revelado, e as próprias palavras da revelação tornam-se parte do confronto vivido por Meca.
+
+A partir daqui, à medida que avançamos pelos anos de Meca, a pergunta não será apenas: O que aconteceu ao Mensageiro de Allah, que a paz e as bênçãos estejam sobre ele, e a seus Companheiros? Outra pergunta se juntará a ela: O que Allah estava revelando a eles enquanto viviam esses acontecimentos? Somente respondendo às duas perguntas juntas poderemos enxergar essa fase como a primeira geração a viveu.
+
+Fontes principais deste capítulo
+
+• Tafsir at-Tabari: relações entre os versículos do Alcorão e os acontecimentos do período de Meca, distinguindo os relatos sobre as circunstâncias da revelação das interpretações deduzidas do contexto.
+• Surata Al-'Ankabut 29:1-3 e o que at-Tabari transmitiu ligando esses versículos à tortura de alguns crentes, entre eles 'Ammar ibn Yasir, que Allah esteja satisfeito com ele.
+• Surata Al-An'am 6:52 e Surata Al-Kahf 18:28, sobre preservar a dignidade dos crentes vulneráveis e não afastá-los da reunião do Profeta.
+• Surata Al-Muddaththir 74:30-31 e os relatos de tafsir sobre Abu Jahl zombando do número dos guardiões do Fogo; o relato é apresentado segundo seu nível de evidência nos livros de tafsir.
+• Surata Al-Furqan 25:27-29 e a ligação feita por Ibn Ishaq com a história de 'Uqbah ibn Abi Mu'ayt e Ubayy ibn Khalaf; trata-se de um relato de Sira, não de um hadith profético autêntico.
+• Surata Ya-Sin 36:78-79; os relatos de tafsir divergem quanto à identidade do homem que trouxe o osso deteriorado, nomeando Ubayy ibn Khalaf ou al-'As ibn Wa'il, por isso nenhum nome é afirmado como certo.
+• O relato de Khabbab ibn al-Aratt, que Allah esteja satisfeito com ele, com al-'As ibn Wa'il e a revelação de Surata Maryam 19:77-80: Sahih al-Bukhari 4734-4735.
+• Surata Al-Ahqaf 46:11 e relatos em algumas obras de tafsir ligando seu significado aos crentes vulneráveis, entre eles Zinnirah, que Allah esteja satisfeito com ela.
+• Surata Yusuf 12:22 e Surata Al-'Ankabut 29:14, e o método de at-Tabari de ligar as histórias de profetas anteriores ao fortalecimento do Mensageiro de Allah, que a paz e as bênçãos estejam sobre ele, no período de Meca por inferência interpretativa, não como causas da revelação.
+• Localização dos relatos históricos: comentário de al-Tabari sobre 74:30–31 e 36:77; Sira de Ibn Hisham, seção sobre Ubayy ibn Khalaf, ‘Uqbah ibn Abi Mu‘ayt e os versículos a respeito deles, na biblioteca Islamweb.
+• Localização precisa: tafsir de at-Tabari sobre 29:3 para ‘Ammar, e sobre 6:52 e 18:28 para os relatos sobre a convivência com os crentes vulneráveis; Sahih Muslim 2413a para o relato de Sa‘d sobre os seis Companheiros. Zinnirah: as-Suyuti, ad-Durr al-Manthur, 13/322, citando Ibn al-Mundhir a partir de ‘Awn ibn Abi Shaddad. As interpretações de at-Tabari sobre Yusuf e Nuh estão em seu comentário de 12:22 e 29:14.

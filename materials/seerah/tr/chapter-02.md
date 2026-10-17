@@ -1,0 +1,68 @@
+# Hayata Yetim Başlayan Bir Çocuk
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bölüm 2
+
+Hayata Yetim Başlayan Bir Çocuk
+
+Arapların hafızasında Fil Yılı olarak kalan yılda, Mekke’de Benî Hâşim’den bir çocuk dünyaya geldi. Adı Muhammed b. Abdullah b. Abdülmuttalib idi; Allah’ın salât ve selâmı onun üzerine olsun. Doğduğu aile Kureyş içinde tanınmıştı ve dedesi Abdülmuttalib Mekke’nin önde gelen şahsiyetlerindendi. Fakat çocuk dünyaya gelmeden önce ilk kayıp yaşanmıştı: babası Abdullah onu görecek kadar yaşamamıştı. Siyer kaynaklarında en yaygın rivayete göre Abdullah, oğlunun doğumundan önce vefat etti. Böylece Muhammed hayata babasız başladı.
+
+Pazartesi günü oruç tutmak hakkında kendisine soru sorulan Allah’ın Resûlü ﷺ şöyle buyurdu: “O günde doğdum ve o günde bana indirildi (Kur'an âyetleri bana indirilmeye başladı).”
+
+Sahih Müslim 1162 — İslam Soru-Cevap’ın yayımladığı tercüme.
+
+Onun pazartesi günü doğduğu sahih olarak sabittir. Rebiülevvel ayının hangi günü olduğu konusunda ise tarihçiler eskiden beri ihtilaf etmişlerdir. Birden fazla tarih nakledilmiş, on ikinci gün özellikle meşhur olmuştur; ancak doğumun kesin tarihi üzerindeki görüş ayrılığı devam etmiştir. Peygamberin kendi doğumuyla açıkça ilişkilendirdiği şey haftanın günüydü: pazartesi.
+
+Muhammed, Kureyş’in bir kolu olan Benî Hâşim’dendi ve bilinen nesebi Adnan’a kadar uzanır. O günün Mekke’sinde kabile yalnızca bir aile adı değildi; akrabalığı, korumayı, ittifakları ve sorumlulukları belirliyordu. Yıllar sonra davet başladığında bu bağların etkisi defalarca görülecektir.
+
+İlk yıllarında annesi Âmine bint Vehb’in evinde sürekli kalmadı. Mekke’de bazı aileler küçük çocuklarını bir süre şehir dışında yaşamaları ve emzirilmeleri için bedevî kabilelerden kadınlara verirdi. Onu annesi emzirdi; Ebû Leheb’in câriyesi Süveybe de bir süre emzirdi; çölde ona bakan en meşhur sütannesi ise Hevâzin’in Benî Sa‘d kolundan Halîme es-Sa‘diyye oldu. Böylece babasız çocuk daha ilk yıllarında birden fazla evde ve farklı insanların bakımı altında yaşadı.
+
+Siyer kitapları, Halîme onu aldıktan sonra evinde ve hayvanlarında ortaya çıktığı anlatılan bereketlere dair birçok rivayet aktarır. Bu anlatılar meşhurdur; ancak bütün ayrıntıları aynı derecede sağlam değildir. Bu rivayetlerin yaygın olması, her ayrıntısının kesin olduğu anlamına gelmez. Muhammed’in çocukluğunun bir bölümünü Benî Sa‘d arasında Halîme’nin bakımında geçirdiği bilinir; bu süt hısımlığı da hayatının bilinen bir parçası olarak kaldı.
+
+Enes b. Malik’ten (Allah ondan razı olsun) rivayet edilmiştir:
+“Resulullah (Sallallahu aleyhi ve Sellem)'e küçük çocuklarla birlikte oynarken Cebrail (aleyhisselam) gelip onu tuttu, yere yatırdı, kalbinin üzerini yardı. Kalbini çıkardı ve ondan bir kan pıhtısı çıkarttıktan sonra işte bu şeytanın senden payıdır dedi. Sonra onu altından bir leğen içinde Zemzem suyu ile yıkadı. Sonra onu tekrar bir araya getirdi. Sonra onu yerine iade etti. […] Enes dedi ki: Ben onun göğsünde o iğnenin izini görüyordum.”
+
+Sahih Müslim 162 (Îmân 261) — Delâilüddin’in yayımladığı Türkçe Sahih-i Müslim metninden alıntı; Îmân, 74. bab, 411 numaralı Türkçe metin.
+
+Benî Sa‘d’da bulunduğu sırada göğsünün yarılması hadisesi meydana geldi. Bu olayın aslı, Enes b. Mâlik’ten Sahîh-i Müslim’de sahih olarak nakledilmiştir. Muhammed diğer çocuklarla oynarken Cebrâil aleyhisselâm ona geldi; göğsünü açtı, kalbini çıkardı, Zemzem suyuyla yıkadı ve yerine koydu. Enes daha sonra Peygamberin göğsündeki dikiş izini gördüğünü söylemiştir.
+
+Göğsün yarılması, sahih bir rivayetle sabit olan olağanüstü bir olaydır. Rivayetin aktardıklarının ötesindeki maddî açıklamalar ve ek ayrıntılar ise bu rivayetle sabit değildir. Bu, vahiyden uzun yıllar önce çocukluk döneminde yaşanan sıra dışı olaylardan biridir.
+
+Çöldeki yıllardan sonra Muhammed annesi Âmine’nin yanına döndü. Yaklaşık altı yaşındayken Âmine onu kuzeye, daha sonra Medine diye anılacak Yesrib’e götürdü. Abdülmuttalib’in ailesinin oradaki Benî Adî b. Neccâr ile akrabalık bağları vardı. Küçük çocuk annesiyle yakınlarını ziyaret etti, ardından Mekke’ye dönüş yolculuğu başladı. Fakat dönüş, başladığı gibi bitmedi.
+
+Mekke ile Medine arasındaki Ebvâ denilen yerde Âmine vefat etti. Muhammed yaklaşık altı yaşındaydı. Mekke’den annesiyle çıkmış, şimdi onsuz dönmek zorunda kalmıştı. Yetimliği daha da ağırlaşmıştı: önce hiç tanıyamadığı babası, sonra sevgisini ve bakımını doğrudan yaşadığı annesi. Bu yıllarda bakımında rol alan kişiler arasında daha sonra Ümmü Eymen diye tanınan Bereke de vardı.
+
+Âmine’nin ölümünden sonra dedesi Abdülmuttalib onun velayetini üstlendi. Siyer kitapları dede ile çocuk arasında özel bir sevgi olduğunu anlatır. Abdülmuttalib’in Kâbe’nin gölgesinde kendisi için serilmiş bir minderi vardı; oğulları saygılarından dolayı oraya oturmazdı. Küçük Muhammed gelip oturduğunda amcaları onu kaldırmak isteyince Abdülmuttalib çocuğu bırakmalarını söyler ve çocuğun büyük bir geleceği olacağına Allah adına yemin ederdi. Fil hadisesi sırasında Kureyş’in önde gelen adamı olan kişi şimdi yetim torununu koruyordu.
+
+Bu koruma da uzun sürmedi. Muhammed yaklaşık sekiz yaşındayken Abdülmuttalib vefat etti. Baba ve annenin kaybından sonra üçüncü bir kayıp geldi: doğrudan koruyucusu olan dede. Ardından himayesi amcası Ebû Tâlib’e geçti. Ebû Tâlib ile Peygamberin babası Abdullah, aynı anne ve babadan kardeştiler; böylece Ebû Tâlib kardeşinin oğlunun sorumluluğunu üstlendi. Sonraki yıllarda da onun yanında olmaya devam etti.
+
+Seni bir yetim olarak bulup barındırmadı mı?
+
+Kur’an 93:6 — QuranEnc, Rowwad Tercüme Merkezi
+
+Art arda gelen bu kayıplar ağırdı: baba, çocuk onunla hatıra oluşturamadan ölür; çocuk yaklaşık altı yaşındayken annesi, yaklaşık sekiz yaşındayken de dedesi vefat eder. Bu kayıplar başlı başına derin bir acıydı. Fakat Kur’an daha sonra Peygambere çocukluğunu hatırlatırken yalnızca yetimliği değil, onunla birlikte gelen barındırılmayı da hatırlatır.
+
+Barındırılmış olmak acının hiç yaşanmadığı anlamına gelmez. Âmine gerçekten öldü, Abdülmuttalib gerçekten öldü ve yetimlik gerçekti. Anlamı şudur: zorluk sahipsizliğe dönüşmedi. Annenin ardından dede, dedenin ardından Ebû Tâlib vardı; çevresinde başka şefkat ve bakım halkaları da bulunuyordu.
+
+Musa’nın (aleyhisselâm) hayatı da imtihanların Allah’ın himayesinden mahrum kalmak anlamına gelmediğini gösterir. Tâhâ sûresinde Allah ona, bebekliğinden belirlenen vakitte gelişine kadar yaşadıklarını hatırlatır:
+
+Kız kardeşin gitmiş ve: "O’na bakacak birini size göstereyim mi?" demişti. Böylece seni, gözü aydın olsun ve üzülmesin diye annene geri döndürdük. Sen bir adam öldürmüştün de, seni yine üzüntüden kurtarmıştık. Bu şekilde seni (önceden de) imtihan etmiştik. Senelerce Medyen halkı arasında kalmıştın. Sonra da bir takdir üzere geldin ey Mûsâ!
+
+Kur’an 20:40 — QuranEnc, Rowwad Tercüme Merkezi
+
+Yusuf, aleyhisselâm, kardeşleri tarafından kuyuya atılmış, oradan çıkarıldıktan sonra satılmış ve ailesinden uzak kalmıştı. Daha sonra, masumiyetini gösteren delillere rağmen hapsedildi. Hapisten çıktıktan sonra hükümdarın yanında itibar kazandı ve ülkenin hazineleri kendisine emanet edildi. Bu aşamalar Yûsuf sûresinin 15, 19–20, 35 ve 54–56. ayetlerinde anlatılır. Kendisine yetki ve imkân verilmesi, yaşadığı sıkıntılardan sonra gerçekleşti; Allah’ın himayesi, hiç sıkıntı yaşamaması demek değildi. Allah şöyle buyurur:
+
+Yusuf’a böylece o topraklarda dilediği gibi hareket edecek imkan verdik.
+
+Kur’an 12:56 — ayetten bir bölüm; Şaban Piriş, QuranEnc
+
+İsmail’in annesi Hacer, Allah ondan razı olsun, İbrâhim aleyhisselâma sordu: “Ey İbrâhim! Böyle yapmanı Allah mı sana emretti?” İbrâhim, “Evet” diye cevap verdi. Hacer, “Öyleyse Allah, bizi zayi etmez” dedi.
+
+Sahih-i Buhârî 3364 — Kerim Buladı, “Nebevî Şahsiyetin İnşasında Namaz ve Hz. İbrâhim”, Uluslararası Hz. İbrâhim (a.s.) ve Nübüvvet Sempozyumu, Nida Yayıncılık, 2019, s. 309’dan alıntı.
+
+Aynı ayrım, Hacer’in (Allah ondan razı olsun) ve bebek oğlu İsmail’in (aleyhisselâm) kıssasında da görülür. İbrahim (aleyhisselâm), Allah’ın emriyle onları ekinsiz bir vadide bırakmıştı. Hacer (Allah ondan razı olsun), bunun Allah’ın emri olduğunu öğrenince yolun kolay olacağını düşünmedi; Allah’ın onları sahipsiz bırakmayacağını anladı. Bu rivayet Sahîh-i Buhârî’de yer alır ve birbiriyle karıştırılabilecek iki durumu ayırt etmeye yardımcı olur: ağır bir imtihandan geçmek ile Allah’ın kulunu sahipsiz bırakması aynı şey değildir.
+
+Bütün bunlar yetimliğin peygamberliği ürettiği anlamına gelmez. Muhammed’in daha sonraki risaleti de çocukluk tecrübelerine dayanan psikolojik bir açıklamaya indirgenemez. Peygamberlik Allah’ın seçmesi ve vahyidir. Bu ilk yıllar, kayıpların ve himayenin bir arada bulunduğu gerçek bir çocukluk dönemiydi. Kırk yaşına ve vahyin başlangıcına kadar daha başka iş, tecrübe ve hazırlık aşamaları gelecektir.
+
+Böylece Muhammed hayatının sonraki dönemine Ebû Tâlib’in evinde, Fil Yılı’nda Kâbe’si korunan aynı Mekke’de girdi. Yetimliği, çöl hayatını, yolculuğu, yakınlarını kaybetmenin acısını ve bakımını üstlenen kişilerin değişmesini yaşamıştı; fakat barınaksız bırakılmamıştı. Bu çocuğun büyüyeceği dünya, Mekke ve Arap toplumunun dini, gelenekleri, kabile düzeni, ticareti, erdemleri ve zulümleriyle şekilleniyordu. Bu karmaşık yapı daha sonra Câhiliye diye adlandırılacaktı.

@@ -1,0 +1,99 @@
+# Negeri yang Rajanya Tidak Membiarkan Siapa Pun Dizalimi: Hijrah Pertama ke Habasyah
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bab Enam Belas
+
+Negeri yang Rajanya Tidak Membiarkan Siapa Pun Dizalimi: Hijrah Pertama ke Habasyah
+
+Ketika penyiksaan di Makkah semakin berat, umat Islam memulai hijrah pertama dalam sejarah mereka: perjalanan menuju Habasyah. Yang berangkat bukan hanya budak atau orang-orang yang lemah. Laki-laki dan perempuan dari keluarga terpandang Quraisy pun ikut. Sebagian mempunyai perlindungan kabilah, tetapi tetap tidak dapat menjalankan agama dengan aman di Makkah.
+
+Hamzah dan kedudukannya dalam kehidupan Nabi ﷺ
+
+Hamzah bin Abdul Muththalib radhiyallahu ‘anhu adalah paman Nabi ﷺ sekaligus saudara sepersusuan. Hubungan keluarga ini terjalin ketika dua anak disusui oleh perempuan yang sama menurut ketentuan Islam. Tsuwaibah, perempuan yang dahulu menjadi budak Abu Lahab lalu dimerdekakan, menyusui Nabi ﷺ dan Hamzah. Bertahun-tahun kemudian, ketika Nabi ﷺ ditawari untuk menikahi putri Hamzah, beliau menjelaskan, “Ia adalah putri saudaraku sepersusuan.” — Sahih al-Bukhari 5100; Sahih Muslim 1447. Kutipan terjemahan yang diterbitkan HadeethEnc, hadis 6162.
+
+Hamzah dikenal pemberani dan memiliki kedudukan di tengah Quraisy. Menurut kisah masyhur tentang keislamannya, setelah mendengar Abu Jahal menghina dan menyakiti Nabi ﷺ, Hamzah mendatanginya, memukulnya dengan busur, lalu menyatakan mengikuti agama Muhammad ﷺ. Waktu peristiwa itu diperselisihkan: ada yang menempatkannya pada tahun kedua kenabian, ada pula yang mendekati tahun keenam. Tidak semua rincian kisah memiliki sanad sahih yang bersambung. Kelak Hamzah ikut dalam Perang Badar dan gugur sebagai syahid di Uhud. Nabi ﷺ kemudian menerima keislaman Wahsyi, orang yang telah membunuh Hamzah, tetapi memintanya agar tidak muncul di hadapan beliau karena kenangan itu menyedihkan.
+
+Pada masa Makkah itu, Islam telah memasuki berbagai keluarga Quraisy. Pengikutnya mencakup orang-orang tanpa perlindungan maupun anggota keluarga berpengaruh. Namun banyak sahabat masih belum dapat mengamalkan agamanya dengan aman.
+
+Ketika Makkah semakin menyulitkan orang beriman
+
+Rasulullah ﷺ menyaksikan sahabat dipukul, dipenjara, dibiarkan lapar dan haus, sementara beliau sendiri menghadapi gangguan. Paman beliau, Abu Thalib, memberikan perlindungan melalui kerabat dan kabilah yang mampu mencegah atau membalas serangan terhadap anggotanya. Akan tetapi, Abu Thalib tidak mampu melindungi setiap Muslim. Kaum Muslimin juga belum memiliki negara atau kekuatan yang dapat menghentikan setiap kabilah menyiksa anggotanya yang masuk Islam.
+
+Menurut riwayat sejarah Ibnu Ishaq, ketika melihat penderitaan para sahabat, Nabi ﷺ menyarankan mereka mencari perlindungan di Habasyah. Tentang raja negeri itu, riwayat tersebut menyebutkan: “Tidak seorang pun yang dizhalimi di sisinya.” Habasyah digambarkan sebagai negeri yang baik. Beliau menyarankan agar mereka tinggal di sana sampai Allah memberikan jalan keluar dari kesulitan mereka. Habasyah, wilayah bersejarah di Afrika Timur yang mencakup sebagian Etiopia dan Eritrea sekarang, terletak di seberang Laut Merah. Najasyi adalah gelar para penguasa Habasyah, bukan nama pribadi setiap raja. Ibnu Ishaq menyampaikan redaksi ini tanpa sanad yang bersambung. Riwayat terkait dari Ummu Salamah, semoga Allah meridainya, menguatkan anjuran untuk berlindung kepada raja yang adil itu; peristiwa hijrah ke Habasyah sendiri telah dikenal dengan jelas dalam sejarah.
+
+Mengapa justru Habasyah?
+
+Habasyah bukan tempat perlindungan yang paling dekat, dan rajanya saat itu dikenal sebagai pemeluk Kristen, bukan Muslim. Alasan yang ditonjolkan riwayat Sirah adalah keadilan: rakyat tidak dizalimi di bawah pemerintahannya. Abu Thalib melindungi keponakannya karena hubungan keluarga, walaupun menurut hadis-hadis yang dikenal ia tidak masuk Islam. Najasyi tidak memiliki hubungan keluarga itu, tetapi keadilannya menjadikan negerinya tempat aman. Kelak keislamannya diketahui, dan Nabi ﷺ melaksanakan salat jenazah untuknya saat menerima kabar wafatnya.
+
+Jadi, orang yang belum masuk Islam tidak semuanya mengambil sikap yang sama terhadap kaum Muslimin; keadilan dan perlindungan tetap berarti. Walaupun demikian, hijrah menuntut mereka meninggalkan keluarga, rumah, dan tanah air, menyeberangi laut, lalu hidup di negeri yang berbeda bahasa, adat, dan agama. Untuk pertama kalinya umat Islam dapat membentuk sebuah komunitas di luar Makkah.
+
+Orang-orang yang mula-mula pergi: Utsman dan Ruqayyah
+
+Hijrah pertama umumnya ditempatkan pada tahun kelima kenabian, meski tanggal dan daftar peserta pertama berbeda dalam berbagai sumber. Di antara pesertanya yang paling terkenal ialah Utsman bin Affan bersama istrinya, Ruqayyah, putri Rasulullah ﷺ. Utsman berasal dari Bani Umayyah, keluarga besar Quraisy; Ruqayyah berasal dari keluarga Nabi ﷺ sendiri. Dengan demikian, pengorbanan hijrah juga menyentuh rumah Rasulullah, bukan hanya orang miskin atau tanpa kedudukan sosial. Muslim lainnya berangkat bersama mereka, termasuk pasangan suami istri yang bersama-sama memulai kehidupan di negeri lain.
+
+Abu Hudzaifah dan Sahlah: dari keluarga besar Quraisy
+
+Abu Hudzaifah bin Utbah bin Rabi‘ah berangkat bersama istrinya, Sahlah binti Suhail bin Amr. Semoga Allah meridai keduanya. Ayah Abu Hudzaifah, Utbah, termasuk pemimpin Quraisy yang menentang dakwah. Ayah Sahlah, Suhail bin Amr, juga seorang tokoh terkemuka Quraisy. Perbedaan agama ternyata juga terjadi dalam keluarga yang sama. Ketika mereka tinggal di Habasyah, Sahlah melahirkan putra mereka, Muhammad bin Abi Hudzaifah. Bagi beberapa keluarga, negeri itu bukan sekadar tempat bersembunyi beberapa hari: anak-anak mereka lahir di sana.
+
+Muhajirin lain dalam kelompok pertama
+
+Di antara mereka ialah Zubair bin Awwam, dari Bani Asad bin Abdul Uzza (cabang besar Quraisy yang juga menjadi keluarga Khadijah, semoga Allah meridhainya); Mush‘ab bin Umair, yang kelak mengajarkan Islam kepada penduduk Madinah; dan Abdurrahman bin Auf, salah seorang Muslim paling awal. Abu Salamah bin Abdul Asad pergi bersama istrinya Ummu Salamah (semoga Allah meridhainya), yang kelak menjadi salah satu istri Nabi ﷺ, yang bergelar Ummahatul Mukminin. Ada pula Utsman bin Mazh‘un, yang terkenal tekun beribadah dan teguh; Amir bin Rabi‘ah bersama Laila binti Abi Hatsmah; Abu Sabrah bin Abi Ruhm; dan Suhail bin Baidha’.
+
+Dalam daftar Ibnu Ishaq pada bagian ini terdapat sepuluh laki-laki dan empat perempuan: Ruqayyah, Sahlah, Ummu Salamah (semoga Allah meridhainya), dan Laila. Sumber lain menyebutkan jumlah atau nama yang berbeda; tidak ada satu daftar yang disepakati semua sumber. Sebagian riwayat Sirah menggambarkan Utsman bin Mazh‘un sebagai pemimpin rombongan, tetapi rincian kepemimpinan itu tetap termasuk laporan sejarah dengan tingkat kekuatan yang berbeda. Menyeberangi laut memberikan pilihan selain bertahan di tengah penindasan Makkah.
+
+Mengapa berhijrah meski tidak semua mengalami penyiksaan?
+
+Beberapa muhajirin merupakan anggota keluarga yang berpengaruh. Sebab hijrah tidak terbatas pada pelarian dari pukulan dan penjara: mereka juga membutuhkan lingkungan yang memungkinkan ibadah tanpa tekanan sosial terus-menerus. Tidak semua muhajir harus mengalami siksaan fisik seperti Bilal untuk merasa tak aman menjalankan Islam di Makkah. Namun sumber-sumber tidak menyimpan alasan pribadi setiap orang secara lengkap; tidak ada dasar untuk memastikan bahwa mereka semua memiliki satu alasan pribadi yang sama. Dengan perjalanan bersama, mereka dapat membangun kehidupan beragama di luar tekanan Quraisy.
+
+Hijrah kedua: kelompok menjadi lebih besar
+
+Muslim lainnya menyusul rombongan pertama dan komunitas di Habasyah pun berkembang. Ibnu Ishaq menyebut jumlah delapan puluh tiga laki-laki apabila Ammar bin Yasir dimasukkan; ia sendiri mencatat keraguan tentang keikutsertaan Ammar dalam hitungan itu. Perempuan dan anak-anak dihitung terpisah. Masih terdapat perbedaan keterangan tentang tanggal dan pembagian jumlah antara kedua gelombang. Berapa pun angka pastinya, hijrah tidak lagi menjadi urusan segelintir orang: bagian yang cukup besar dari umat Islam awal berada di luar Makkah, sementara Nabi ﷺ dan sahabat lainnya tetap berdakwah di kota asal.
+
+Ja‘far dan Asma’: dari keluarga Abu Thalib menuju Habasyah
+
+Ja‘far bin Abi Thalib berangkat bersama istrinya Asma’ binti Umais. Semoga Allah meridai keduanya. Ja‘far adalah saudara Ali dan putra Abu Thalib, paman yang melindungi Rasulullah ﷺ di Makkah. Jadi, kerabat dekat salah seorang pelindung terkuat Nabi ﷺ pun ikut berhijrah. Ja‘far dan Asma’ bergabung dengan komunitas muhajirin di Habasyah. Kelak, ketika Quraisy mengirim utusan untuk meminta para muhajirin dikembalikan, Ja‘far akan mewakili mereka di hadapan Najasyi dan menjelaskan Islam kepadanya. Rincian pertemuan itu akan dikisahkan dalam bab khusus tentangnya.
+
+Saudara-saudara yang keluar dari rumah yang sama
+
+Salah satu keluarga muhajir ialah keluarga Sa‘id bin al-‘Ash, yang dikenal sebagai Abu Uhaihah, tokoh Quraisy yang menentang Islam. Putranya, Khalid bin Sa‘id, memeluk Islam sangat awal, meskipun riwayat berbeda mengenai urutan pastinya di antara generasi pertama. Ia menghadapi penentangan ayahnya dan kemudian berhijrah. Saudaranya, Amr bin Sa‘id, turut berangkat. Sirah menyebut Khalid pergi bersama istrinya walaupun sebagian detail nama istrinya berbeda dalam riwayat, sedangkan Amr berangkat dengan istrinya Fatimah binti Shafwan. Khalid memiliki anak di Habasyah, termasuk Ummu Khalid binti Khalid bin Sa‘id, yang kelak muncul lagi dalam kisah. Anak-anak sebagian pemimpin Quraisy memilih agama berbeda dari ayahnya dan meninggalkan Makkah.
+
+Kitab-kitab Sirah juga menyebut Abdullah bin Jahsy dan saudaranya Ubaidullah bin Jahsy dari keluarga yang bersekutu dengan Bani Umayyah melalui perjanjian saling melindungi, tanpa harus memiliki hubungan darah. Ubaidullah pergi bersama Ummu Habibah binti Abi Sufyan (semoga Allah meridhainya). Dengan demikian, rombongan berasal dari berbagai keluarga dan jaringan persekutuan, bukan satu kabilah saja.
+
+Tujuh bersaudara yang namanya kurang dikenal
+
+Kitab-kitab biografi yang mencatat silsilah dan peristiwa penting kehidupan seseorang menyebut tujuh putra al-Harits bin Qais di antara Muslim awal dan muhajirin, walaupun sebagian identitas dan rinciannya diperselisihkan. Abu Qais bin al-Harits berangkat bersama gelombang kedua, kemudian mengikuti Uhud dan gugur sebagai syahid di al-Yamamah. Saudaranya Abdullah bin al-Harits juga berhijrah, dikenal sebagai penyair, lalu gugur sebagai syahid di al-Yamamah. as-Sa’ib bin al-Harits berhijrah; sejumlah riwayat menyebut ia terluka di Thaif lalu meninggal dalam pertempuran Fihl, di wilayah Yordania sekarang, pada masa penaklukan awal. Menurut Ibnu Sa‘d, al-Hajjaj bin al-Harits berhijrah dan kemudian gugur sebagai syahid di Yarmuk; riwayat lain menyebut bahwa ia gugur sebagai syahid di Ajnadain. Nama saudara kelima masih diperselisihkan: Tamim atau Bisyr bin al-Harits; sedikit detail lain yang tersisa. Sa‘id bin al-Harits berhijrah lalu gugur sebagai syahid di Yarmuk. Ma‘bad bin al-Harits, yang dalam riwayat lain disebut Ma‘mar, juga tercatat, tetapi informasi tentang kehidupannya terbatas.
+
+Nama-nama itu bukan sekadar daftar masa lalu. Masing-masing meninggalkan Makkah saat umat Islam masih kecil, kemudian menempuh jalan hidup berbeda. Ada yang mengikuti peristiwa pada masa Nabi ﷺ, ada yang hidup hingga masa penaklukan, dan ada yang gugur sebagai syahid di Yamamah, Yarmuk, atau tempat lain. Kitab-kitab biografi berbeda pendapat tentang beberapa rincian yang belum dapat dipastikan.
+
+Komunitas yang bertahun-tahun tinggal di luar negeri
+
+Tujuan langsung hijrah ialah keselamatan dan kebebasan menjalankan Islam. Namun beberapa Muslim tinggal di Habasyah selama bertahun-tahun. Sebagian kembali lebih awal, sedangkan Ja‘far dan kelompok yang bersamanya baru tiba di hadapan Nabi ﷺ pada tahun ketujuh setelah hijrah ke Madinah, sekitar penaklukan Khaibar. Mengapa tidak semuanya pulang segera setelah Nabi ﷺ pindah ke Madinah, bahkan sesudah kemenangan Badar? Sumber memastikan bahwa sebagian menetap lama, tetapi tidak memberikan alasan pribadi yang eksplisit bagi setiap muhajir.
+
+Salah satu penafsiran yang mungkin ialah bahwa keberadaan kelompok di negara aman memberikan tempat berlindung lain ketika komunitas Muslim di Jazirah Arab masih menghadapi bahaya. Namun itu bukan kebijakan yang terbukti jelas dari Nabi ﷺ atau para muhajir. Sesudah Badar, ancaman tetap ada melalui Uhud dan Perang Ahzab. Ja‘far kembali dalam keadaan umat Islam yang sudah sangat berbeda dibandingkan masa keberangkatannya.
+
+Bumi Allah itu luas
+
+Al-Qur’an menyatakan: «Wahai hamba-hamba-Ku yang beriman! Sungguh, bumi-Ku luas, maka sembahlah Aku (saja).» (29:56). Menyembah Allah tidak harus bergantung pada satu negeri apabila seseorang tidak mampu menjalankan agama di sana dan dapat berpindah.
+
+Al-Qur’an menyatakan: «Dan orang yang berhijrah karena Allah setelah mereka dizalimi, pasti Kami akan memberikan tempat yang baik kepada mereka di dunia. Dan pahala di akhirat pasti lebih besar, sekiranya mereka mengetahui,» (16:41). Maknanya menjanjikan tempat baik di dunia bagi orang yang berhijrah karena Allah setelah dizalimi, sementara pahala akhirat lebih besar. Ath-Thabari meriwayatkan penafsiran Qatadah yang menghubungkan ayat tersebut dengan Muslim yang ditindas di Makkah, sebagian pergi ke Habasyah sebelum Madinah menjadi negeri hijrah. Ini adalah pendapat tafsir, bukan hadis sahih yang memastikan ayat itu turun mengenai seorang muhajir tertentu.
+
+Al-Qur’an menyatakan: «Dan barang siapa berhijrah di jalan Allah, niscaya mereka akan mendapatkan di bumi ini tempat hijrah yang luas dan (rezeki) yang banyak. Barang siapa keluar dari rumahnya dengan maksud berhijrah karena Allah dan Rasul-Nya, kemudian kematian menimpanya (sebelum sampai ke tempat yang dituju), maka sungguh, pahalanya telah ditetapkan di sisi Allah. Dan Allah Maha Pengampun, Maha Penyayang.» (4:100). Tempat hijrah yang dimaksud memungkinkan seorang muhajir menjauh dari para penindas dan menemukan kelapangan. Ayat ini menjanjikan tempat dan kelapangan bagi orang yang berhijrah; bila ia meninggal setelah berangkat demi Allah dan Rasul-Nya, pahala tetap menjadi tanggungan Allah. Sejumlah riwayat menghubungkannya dengan muhajirin ke Habasyah, tetapi surah an-Nisa’ turun di Madinah dan Ibnu Katsir membahas nisbah tersebut. Makna ayat ini bersifat umum; tidak terbukti bahwa ayat ini turun mengenai seorang muhajir tertentu yang menuju Habasyah.
+
+Komunitas Muslim di negeri baru
+
+Para muhajirin berasal dari keluarga dan kedudukan berbeda: Utsman dan Ruqayyah; Abu Hudzaifah dan Sahlah; Abu Salamah dan Ummu Salamah (semoga Allah meridhainya); Zubair, Mush‘ab, dan Abdurrahman; Utsman bin Mazh‘un; Amir dan Laila; serta banyak lainnya. Kemudian Ja‘far dan Asma’, anggota keluarga besar Quraisy, dan Muslim awal yang kini kurang dikenal ikut bergabung. Hijrah mengurangi sebagian penganiayaan, tetapi juga berarti berpisah dari tanah air, sanak keluarga, dan Rasulullah ﷺ serta tinggal di lingkungan asing.
+
+Nabi ﷺ terus berdakwah di Makkah, sementara sebagian sahabat menetap di bawah raja yang terkenal adil. Quraisy ternyata tidak akan membiarkan mereka yang telah keluar dari kekuasaannya: mereka akan mengirim orang untuk menuntut kepulangan para muhajirin. Saat itulah Ja‘far bin Abi Thalib memiliki pertemuan penting dengan Najasyi, yang akan dikisahkan dalam bab khusus tentang pertemuan tersebut.
+
+Sumber-sumber utama bab ini
+
+• Sirah Ibnu Ishaq sebagaimana diriwayatkan Ibnu Hisyam. Kutipan tentang perlindungan raja: Mahmud Al Mishri, Sahabat-Sahabat Rasulullah, jilid 2, hlm. 126, catatan 5; salinan yang disediakan MUI Kabupaten Bojonegoro. Bagian lain nasihat itu disampaikan secara tidak langsung. Untuk membedakan redaksi Ibnu Ishaq tanpa sanad bersambung dari riwayat terkait Ummu Salamah: al-Albani, al-Silsilah al-Sahihah 3190, 7/577–578, mengutip al-Baihaqi, al-Sunan al-Kubra 9/9 dan Dala’il al-Nubuwwah 2/301. Keberadaan para muhajir di Habasyah juga ditegaskan dalam Sahih al-Bukhari 4230.
+
+• Hubungan sepersusuan Hamzah: Shahih al-Bukhari 5100 dan Shahih Muslim 1447. Perbedaan waktu keislamannya, keikutsertaan di Badar, dan kesyahidannya di Uhud: Ibnu ‘Abdil Barr, al-Isti‘ab, biografi Hamzah no. 541, 1/369–375. Kisah Wahsyi: Sahih al-Bukhari 4072. Ibnu al-Mulaqqin dalam al-Tawdih, 21/181, menjelaskan keengganan seseorang melihat pembunuh orang yang dekat dengannya.
+
+• Dua hijrah, nama dan jumlah peserta: Ibnu Ishaq/Ibnu Hisyam dan al-Bidayah wa an-Nihayah karya Ibnu Katsir; ada perbedaan tentang kelompok pertama. Lihat Ibnu Hisyam, 1/322–324, tentang kelompok pertama serta keluarga Ja‘far, Khalid, ‘Amr, dan dua bersaudara Ibnu Jahsy; 1/330 menyebut delapan puluh tiga laki-laki dengan keraguan tentang masuknya ‘Ammar dalam hitungan. Ibnu Katsir, al-Bidayah wa an-Nihayah, 4/165–169, menukil penanggalan tahun kelima dari al-Waqidi serta membahas perbedaan daftar dan urutan keberangkatan. Waktu yang disebutkan di sini diambil dari riwayat-riwayat sejarah tersebut.
+
+• Rincian tentang putra-putra al-Harits bin Qais: Ibnu Sa‘d, Ath-Thabaqat al-Kubra, edisi Al-Khanji, 4/181–183, biografi 428–434; biografi 434 mencatat perbedaan nama Ma‘bad/Ma‘mar. Tentang as-Sa’ib di Thaif dan Fihl: Ibnu Abdil Barr, Al-Isti‘ab, biografi 885. Tentang perbedaan Yarmuk/Ajnadain dalam riwayat al-Hajjaj: Ibnu Asakir, Tarikh Dimasyq, 12/93–96, biografi 1205.
+
+• Ayat-ayat: al-‘Ankabut 29:56; an-Nahl 16:41 beserta penafsiran Qatadah dalam ath-Thabari; an-Nisa’ 4:100 serta pembahasan Ibnu Katsir tentang riwayat sebab turunnya. Ketiga kutipan ayat mengikuti terjemahan Kementerian Agama Republik Indonesia yang diterbitkan di Quran.com (sumber 33): 29:56, 16:41, dan 4:100.

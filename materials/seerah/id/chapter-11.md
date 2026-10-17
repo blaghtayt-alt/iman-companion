@@ -1,0 +1,237 @@
+# Apa yang Akan Kita Katakan kepada Orang-Orang Arab? Quraisy Berusaha Mendahului Dakwah
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bab Sebelas — Apa yang Akan Kita Katakan kepada Orang-Orang Arab? Quraisy Berusaha Mendahului Dakwah
+
+Upaya-upaya awal Quraisy untuk meyakinkan Abu Thalib agar menghentikan Rasulullah ﷺ dari dakwahnya atau mencabut perlindungannya telah gagal. Nabi ﷺ terus menyeru kepada tauhid dan ibadah hanya kepada Allah, sementara berita tentang beliau mulai menyebar melampaui lingkaran kecil yang mengenalnya pada awal kenabian.
+
+Pada saat itu, Quraisy menghadapi masalah baru.
+
+Persoalannya tidak lagi hanya menyangkut penduduk Makkah.
+
+Musim haji semakin dekat. Pada masa itulah kabilah-kabilah Arab datang ke Makkah untuk berhaji, bertemu, dan berdagang. Orang-orang dari berbagai penjuru Jazirah Arab akan datang, dan sebagian dari mereka telah mendengar bahwa di Makkah ada seorang laki-laki yang mengatakan bahwa dirinya adalah utusan dari Allah.
+
+Ketika tiba, mereka mungkin dapat mendengar Muhammad ﷺ secara langsung.
+
+Karena itu, dari sudut pandang Quraisy, mereka harus menentukan apa yang akan mereka katakan tentang beliau.
+
+Al-Walid bin al-Mughirah Mengumpulkan Quraisy
+
+Sirah Ibn Ishaq menyebutkan bahwa sejumlah tokoh Quraisy berkumpul bersama al-Walid bin al-Mughirah al-Makhzumi, salah seorang pembesar Quraisy yang kaya dan memiliki kedudukan.
+
+Ibn Ishaq meriwayatkan kekhawatiran yang disampaikan al-Walid:
+
+Al-Walid mengingatkan Quraisy bahwa musim haji telah tiba dan rombongan Arab yang sudah mendengar tentang Muhammad akan datang kepada mereka. Ia meminta mereka menyepakati satu keterangan tentang beliau agar ucapan mereka tidak saling bertentangan dan saling mendustakan.
+
+Masalahnya jelas.
+
+Jika sebagian pendatang diberi tahu bahwa Muhammad ﷺ adalah dukun, yang lain diberi tahu bahwa beliau penyair, kelompok lain mengatakan beliau gila, dan yang lain lagi menyebut beliau penyihir, pertentangan itu sendiri akan membuat orang meragukan ucapan mereka.
+
+Karena itu al-Walid menginginkan satu sebutan yang disepakati sebelum rombongan-rombongan datang.
+
+Mereka berkata kepadanya agar ia saja yang menentukan apa yang harus mereka katakan.
+
+Namun ia meminta mereka mengajukan usulan, sementara ia mendengarkan.
+
+Mula-mula mereka mengusulkan agar beliau disebut dukun.
+
+Dalam kebiasaan Arab, dukun adalah orang yang mengaku mengetahui perkara-perkara gaib. Para dukun juga memiliki gaya bicara yang dikenal, sering kali berupa kalimat pendek berima.
+
+Al-Walid menolak sebutan itu dengan bersumpah demi Allah bahwa Muhammad ﷺ bukan dukun. Ia mengatakan bahwa mereka mengenal para dukun dan pernah mendengar ucapan mereka, sedangkan perkataan Muhammad ﷺ tidak seperti gumaman atau sajak para dukun.
+
+Kemudian mereka mengusulkan agar beliau disebut orang gila.
+
+Ia juga menolaknya.
+
+Orang Arab mengetahui tanda-tanda yang tampak pada orang dengan gangguan akal yang berat. Al-Walid berkata bahwa apa yang mereka lihat pada Muhammad ﷺ tidak seperti itu.
+
+Setelah itu mereka mengusulkan sebutan penyair.
+
+Ia menjawab bahwa beliau bukan penyair.
+
+Al-Walid dan Quraisy adalah orang Arab yang mengenal syair, wazan, dan berbagai jenisnya. Mereka pernah mendengar rajaz dan bentuk-bentuk syair lainnya, sedangkan Al-Qur'an tidak menyerupai apa yang mereka kenal sebagai syair.
+
+Usulan berikutnya adalah menyebut beliau penyihir.
+
+Pada awalnya ia juga menolak sebutan ini. Ia berkata bahwa mereka mengenal para penyihir dan apa yang mereka lakukan, dan apa yang dibawa Muhammad ﷺ tidak menyerupai tiupan dan ikatan yang mereka kaitkan dengan sihir.
+
+Mereka sedang mencari tuduhan, tetapi orang yang dimintai pendapat itu sendiri mengetahui bahwa sebutan-sebutan yang mereka ajukan tidak sesuai dengan apa yang ia dengar.
+
+Ibn Ishaq juga meriwayatkan pengakuan al-Walid tentang keindahan Al-Qur’an:
+
+Al-Walid bersumpah demi Allah bahwa kata-kata itu memiliki kemanisan. Ia mengibaratkannya sebagai pohon yang berakar kokoh dan bercabang penuh buah.
+
+Maknanya, ia menyerupakan ucapan itu dengan pohon yang kuat akarnya dan baik buahnya. Ia mengakui bahwa ucapan itu memiliki kekuatan dan keindahan yang tidak mudah ia ingkari.
+
+Kemudian ia mengatakan bahwa orang-orang akan mengetahui kebatilan sebutan-sebutan sebelumnya.
+
+Namun mereka tetap membutuhkan sesuatu untuk dikatakan.
+
+Tuduhan sebagai Penyihir
+
+Akhirnya al-Walid menyimpulkan bahwa sebutan yang paling mungkin mereka gunakan untuk menjauhkan orang dari Nabi ﷺ adalah menyebut beliau sebagai penyihir.
+
+Ia tidak memilih sebutan itu karena menganggap Al-Qur'an menyerupai sihir para penyihir; ia baru saja menolak kemiripan tersebut.
+
+Sebaliknya, ia menghubungkan tuduhan itu dengan dampak lain yang menurutnya dapat dilihat orang:
+
+dakwah ini memisahkan seorang laki-laki dari ayahnya, dari saudaranya, dari istrinya, dan dari kabilahnya.
+
+Sebagian anak telah masuk Islam sementara ayah mereka tetap dalam agama Quraisy. Salah seorang dari dua saudara beriman sedangkan yang lain menolak. Ikatan iman terkadang berhadapan dengan kebiasaan mengikuti keluarga dan kabilah.
+
+Karena itu al-Walid menilai bahwa kata “penyihir” mungkin menjadi tuduhan yang paling mampu memengaruhi orang yang hanya mendengar cerita dari jauh, sebab Quraisy dapat mengatakan bahwa ucapan Muhammad ﷺ itulah yang menyebabkan perpecahan tersebut.
+
+Para tokoh Quraisy pun berpisah dengan kesepakatan itu.
+
+Di Jalan-Jalan yang Dilalui Orang yang Datang ke Makkah
+
+Quraisy tidak berhenti pada kesepakatan di antara mereka sendiri.
+
+Sirah menyebutkan bahwa mereka duduk di jalan-jalan yang dilalui delegasi Arab ketika datang pada musim haji. Tidak seorang pun melewati mereka kecuali diperingatkan tentang Rasulullah ﷺ dan diberi tahu mengenai sebutan yang telah mereka sepakati.
+
+Mereka ingin seseorang memasuki Makkah setelah terlebih dahulu mendengar penafsiran Quraisy tentang apa yang terjadi, sebelum ia mendengar Nabi ﷺ secara langsung.
+
+Namun kampanye itu menghasilkan akibat yang tidak diinginkan Quraisy.
+
+Ibn Ishaq menyebutkan bahwa orang-orang Arab pulang seusai musim haji dengan membawa berita tentang Rasulullah ﷺ, sehingga berita tentang beliau tersebar di seluruh negeri Arab.
+
+Quraisy ingin memperingatkan orang-orang agar menjauh dari beliau, tetapi pada saat yang sama mereka sedang memberitahu para pendatang dari setiap kabilah bahwa di Makkah ada seorang laki-laki yang begitu penting — dan begitu berbahaya menurut mereka — sampai-sampai para pembesar Quraisy berdiri di jalan untuk memperingatkan manusia tentangnya.
+
+Sebagian pendatang pun pulang dengan setidaknya mengetahui bahwa ada seorang laki-laki bernama Muhammad ﷺ yang menyeru kepada sesuatu yang baru.
+
+Al-Qur'an Menggambarkan Cara Berpikir Al-Walid
+
+Kitab-kitab Tafsir dan Sirah menyebutkan bahwa ayat-ayat berikut dari Surah Al-Muddaththir turun berkaitan dengan al-Walid bin al-Mughirah:
+
+Biarlah Aku (yang bertindak) terhadap orang yang Aku sendiri telah menciptakannya, dan Aku berikan baginya kekayaan yang melimpah, dan anak-anak yang selalu bersamanya, dan Aku berikan baginya kelapangan (hidup) seluas-luasnya, kemudian dia ingin sekali agar Aku menambahnya. Tidak bisa! Sesungguhnya dia telah menentang ayat-ayat Kami (Al-Qur`ān). Aku akan membebaninya dengan pendakian yang memayahkan. Sesungguhnya dia telah memikirkan dan menyiapkan (apa yang ditetapkannya), Maka celakalah dia! Bagaimana dia menetapkan? Sekali lagi, celakalah dia! Bagaimana dia menetapkan? Kemudian dia (merenung) memikirkan, Lalu berwajah masam dan cemberut, Kemudian berpaling (dari kebenaran) dan menyombongkan diri, Lalu dia berkata, “(Al-Quran) ini hanyalah sihir yang dipelajari (dari orang-orang dahulu), Ini hanyalah perkataan manusia.” Kelak, Aku akan memasukkannya ke dalam (neraka) Saqar. — Al-Qur’an 74:11–26 — Sabiq.
+
+Ayat-ayat itu menggambarkan proses berpikir itu sendiri:
+
+Sesungguhnya dia telah memikirkan dan menyiapkan (apa yang ditetapkannya), — Al-Qur’an 74:18 — Sabiq.
+
+Kemudian:
+
+Kemudian dia (merenung) memikirkan, Lalu berwajah masam dan cemberut, Kemudian berpaling (dari kebenaran) dan menyombongkan diri, — Al-Qur’an 74:21–23 — Sabiq.
+
+Lalu tibalah kesimpulan yang dipilihnya:
+
+Lalu dia berkata, “(Al-Quran) ini hanyalah sihir yang dipelajari (dari orang-orang dahulu), Ini hanyalah perkataan manusia.” — Al-Qur’an 74:24–25 — Sabiq.
+
+Ayat-ayat tersebut tidak menggambarkan sekadar seseorang yang mendengar Al-Qur'an lalu secara polos bingung tentang hakikatnya. Ayat-ayat itu menggambarkan pemikiran dan perhitungan, kemudian berpaling dan menyombongkan diri, lalu memilih sebuah sebutan bagi Al-Qur'an.
+
+Ibn Ishaq juga menghubungkan tindakan kelompok yang memberi Nabi ﷺ dan Al-Qur'an beberapa sebutan yang berbeda dengan firman Allah:
+
+(Yaitu) orang-orang yang telah menjadikan Al-Qur`an itu terbagi-bagi. Maka demi Tuhanmu, Kami pasti akan menanyai mereka semua, tentang apa yang telah mereka kerjakan dahulu. — Al-Qur’an 15:91–93 — Kementerian Agama RI.
+
+Ibn Hisham menjelaskan kata “'idin” dalam konteks ini sebagai tindakan membagi dan mengelompokkan Al-Qur'an dengan mengatakan hal-hal yang berbeda mengenainya.
+
+Hubungan ini disebutkan Ibn Ishaq dalam Sirah. Karena itu, ia dipertahankan di sini sebagai penafsiran Ibn Ishaq dan kaitan yang ia buat antara ayat-ayat tersebut dengan perbuatan orang-orang itu.
+
+Mengapa Menerima Pesan Ini Begitu Sulit bagi Mereka?
+
+Apa yang dibawa Rasulullah ﷺ bukanlah perubahan kecil dalam kehidupan Quraisy.
+
+Beliau menyeru mereka untuk mengatakan:
+
+Tidak ada sesembahan yang berhak disembah selain Allah.
+
+Mereka adalah orang Arab yang memahami arti kalimat ini.
+
+Kalimat itu tidak berarti menambahkan nama Allah ke dalam kumpulan tuhan yang sudah mereka kenal. Kalimat itu berarti membatalkan ibadah kepada segala sesuatu selain-Nya.
+
+Hal itu menyentuh sesuatu yang sangat dalam dalam kehidupan mereka: agama leluhur, kedudukan berhala, kebiasaan yang diwarisi, serta ikatan yang membentuk cara mereka melihat diri sendiri dan kabilah mereka.
+
+Bahkan nama-nama pun membawa jejak dunia lama itu.
+
+Dalam silsilah Arab sebelum Islam terdapat nama seperti 'Abd al-'Uzza dan 'Abd al-Lat, yang terhubung dengan nama-nama sesembahan yang mereka agungkan. Setelah Islam menyebar, nama-nama yang mengekspresikan penghambaan kepada Allah dan identitas Islam semakin banyak digunakan, seperti 'Abdullah dan 'Abd al-Rahman. Nama Nabi ﷺ dan para Sahabat juga menjadi semakin umum pada generasi berikutnya.
+
+Ini tidak berarti bahwa semua nama tersebut tidak dikenal sebelum Islam. Nama 'Abdullah, misalnya, sudah ada, dan ayah Nabi ﷺ sendiri bernama 'Abdullah bin 'Abd al-Muttalib. Maksudnya adalah bahwa perubahan agama meninggalkan jejak yang terlihat bahkan pada pola penamaan, sebagaimana ia meninggalkan jejak pada keyakinan, ibadah, dan hubungan sosial.
+
+Pesan itu mengubah banyak hal sekaligus.
+
+Namun dasar seruan Nabi ﷺ tetap jelas: beribadah hanya kepada Allah.
+
+Dakwah Bukan Tauhid yang Terpisah dari Akhlak
+
+Di antara riwayat awal yang menjelaskan apa yang diserukan Rasulullah ﷺ adalah hadis 'Amr bin 'Abasah radhiyallahu 'anhu yang telah kita temui sebelumnya. Ketika ia menanyakan ajaran yang Allah perintahkan kepada Nabi ﷺ untuk disampaikan, Nabi ﷺ menyebutkan tauhid kepada Allah, menyambung hubungan kekerabatan, dan menghancurkan berhala.
+
+Makna-makna akhlak yang sama terlihat dalam sejumlah surah Makkiyah awal.
+
+Allah berfirman, dalam makna terjemahan:
+
+Maka barangsiapa memberikan (hartanya di jalan Allah) dan bertakwa, dan membenarkan (adanya pahala) yang terbaik (surga), maka akan Kami mudahkan baginya jalan menuju kemudahan (kebahagiaan). Dan adapun orang yang kikir dan merasa dirinya cukup (tidak perlu pertolongan Allah), serta mendustakan (pahala) yang terbaik, maka akan Kami mudahkan baginya jalan menuju kesukaran (kesengsaraan). — Al-Qur’an 92:5–10 — Kementerian Agama RI.
+
+Dan Dia berfirman:
+
+Tahukah kamu (orang) yang mendustakan agama? Maka itulah orang yang menghardik anak yatim, dan tidak mengajak memberi makan orang miskin. — Al-Qur’an 107:1–3 — Kementerian Agama RI.
+
+Dan Dia berfirman:
+
+Sekali-kali tidak! Bahkan kamu tidak memuliakan anak yatim, dan kamu tidak saling mengajak memberi makan orang miskin, — Al-Qur’an 89:17–18 — Kementerian Agama RI.
+
+Sejak masa Makkah, dakwah menghubungkan iman kepada Allah dan Hari Akhir dengan apa yang terjadi dalam diri manusia dan dalam caranya memperlakukan orang yang lemah: memberi sebagai lawan dari kikir, memuliakan anak yatim alih-alih menghardiknya, dan mendorong pemberian makan kepada orang miskin alih-alih mengabaikannya.
+
+Dengan demikian, Quraisy menghadapi risalah yang memiliki dasar-dasar yang jelas, bukan ucapan samar yang dapat mereka beri sebutan sesuka hati.
+
+Seorang Laki-Laki yang Datang untuk Mengobati “Orang Gila”
+
+Salah satu riwayat paling jelas yang menunjukkan bahwa ucapan Quraisy benar-benar sampai kepada pendatang dari luar Makkah adalah kisah Dimad al-Azdi.
+
+Dimad berasal dari kabilah Azd Shanu'ah dan mengetahui ruqyah, yaitu bacaan dan doa yang digunakan dalam upaya mencari pengobatan.
+
+Di Makkah, ia mendengar sebagian penduduk menuduh Muhammad gila.
+
+Dimad belum pernah bertemu Nabi ﷺ.
+
+Gambaran pertama yang sampai kepadanya adalah gambaran yang disebarkan orang lain tentang beliau.
+
+Ia berpikir bahwa jika dapat menemui beliau, mungkin Allah akan menyembuhkan beliau melalui dirinya.
+
+Kemudian ia bertemu Rasulullah ﷺ dan menawarkan keahliannya dalam mengobati.
+
+Nabi ﷺ mengawali jawaban beliau dengan memuji Allah:
+
+“Sesungguhnya segala puji hanya milik Allah.” Beliau melanjutkan dengan pujian kepada Allah dan permohonan pertolongan-Nya. Beliau menjelaskan bahwa siapa yang Allah beri petunjuk tidak dapat disesatkan oleh siapa pun, dan siapa yang Allah sesatkan tidak dapat diberi petunjuk oleh siapa pun. Beliau juga bersaksi bahwa hanya Allah yang berhak disembah, tanpa sekutu bagi-Nya, dan bahwa Muhammad adalah hamba serta utusan-Nya.
+
+Dimad mendengar kata-kata itu lalu berkata:
+
+“Ulangilah kalimat-kalimatmu tadi untuk ku”.
+
+Rasulullah ﷺ mengulanginya tiga kali.
+
+Dimad lalu menjelaskan kesan yang ditinggalkan ucapan itu.
+
+Ia pernah mendengar perkataan para dukun, tukang sihir, dan penyair, tetapi belum pernah mendengar perkataan seperti yang disampaikan Nabi ﷺ.
+
+Ia pun meminta berbaiat kepada Nabi ﷺ untuk memeluk Islam.
+
+— Sahih Muslim 868. Petikan singkat dari terjemahan yang dimuat Markaz Inayah, «Menjadi Pendengar Yang Baik», Rustam Koly, 28 Desember 2019; bagian dialog lainnya disampaikan secara tidak langsung dengan mempertahankan maknanya.
+
+Dimad memasuki Makkah setelah gambaran bahwa Muhammad ﷺ adalah orang gila telah lebih dahulu sampai kepadanya.
+
+Namun ketika mendengar orang itu sendiri, ia tidak menemukan apa yang telah digambarkan kepadanya.
+
+Kisahnya menunjukkan sekaligus pengaruh narasi yang berusaha disebarkan Quraisy dan batas kemampuan Quraisy untuk mengendalikan apa yang akan terjadi apabila seseorang berhasil mencapai Nabi ﷺ dan mendengarnya secara langsung.
+
+Quraisy telah sepakat tentang apa yang akan mereka katakan kepada manusia.
+
+Mereka duduk untuk memperingatkan para pendatang.
+
+Namun berita tentang Muhammad ﷺ tetap keluar dari Makkah bersama delegasi-delegasi Arab.
+
+Sejak saat itu, konfrontasi tidak lagi terbatas pada pertanyaan: bagaimana kita menghentikan Muhammad di dalam Makkah?
+
+Dakwah yang berusaha dikurung Quraisy mulai disebut-sebut di luar Makkah pula.
+
+Dan cara-cara menghadapi dakwah itu akan menjadi lebih keras pada tahap berikutnya.
+
+Sumber-Sumber Utama Bab Ini
+
+• Sirah Ibn Ishaq sebagaimana diriwayatkan Ibn Hisham: pertemuan al-Walid bin al-Mughirah dengan tokoh-tokoh Quraisy sebelum musim haji; pembahasan sebutan dukun, gila, penyair, dan penyihir; peringatan kepada delegasi Arab; serta tersebarnya berita tentang Nabi ﷺ setelah musim tersebut.
+• Surah Al-Muddaththir 74:11-26. Kitab-kitab Tafsir menyebut ayat-ayat ini berkaitan dengan al-Walid bin al-Mughirah.
+• Surah Al-Hijr 15:91-93. Ibn Ishaq menghubungkan ayat-ayat ini dengan orang-orang yang memberikan klasifikasi berbeda terhadap Al-Qur'an, disertai penjelasan Ibn Hisham tentang kata “'idin” dalam konteks ini.
+• Dimad al-Azdi mendengar penduduk Makkah mengatakan bahwa Muhammad ﷺ gila, kemudian bertemu Nabi dan masuk Islam: Sahih Muslim 868.
+• Isi dakwah awal mengenai tauhid, menyambung hubungan keluarga, dan menghancurkan berhala: hadis 'Amr bin 'Abasah, Sahih Muslim 832.
+• Ajaran Makkiyah tentang memberi, anak yatim, dan orang miskin: Al-Qur'an 92:5-10; 107:1-3; 89:17-18.
+• Catatan tentang perubahan pola penamaan setelah Islam berasal dari pengamatan terhadap silsilah dan nama-nama Arab pada masa jahiliah dan generasi awal Islam. Ini merupakan pengamatan sejarah tambahan, bukan bukti mandiri untuk menetapkan urutan waktu peristiwa Sirah.

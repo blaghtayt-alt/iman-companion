@@ -1,0 +1,90 @@
+# Une Maison protégée et une promesse qui approche
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Chapitre premier
+
+Une Maison protégée et une promesse qui approche
+
+Bien des années avant la naissance de Muhammad ﷺ, des signes annonçaient déjà sa venue. Tous ne les connaissaient pas, et l’on ne percevait pas encore comment leurs fils se rejoindraient pour former une même histoire.
+
+À La Mecque, auprès de la Kaaba, la Maison dont Ibrahim et Ismaïl — paix sur eux — avaient élevé les fondations, Ibrahim adressa à son Seigneur une prière que le Coran a conservée :
+
+Notre Seigneur! Envoie l’un des leurs comme Messager parmi eux, pour leur réciter Tes versets, leur enseigner le Livre et la Sagesse, et les purifier. Car c’est Toi certes le Puissant, le Sage!
+— Coran 2:129 · Muhammad Hamidullah
+
+Ibrahim, paix sur lui, priait pour qu’un messager issu des habitants de cette ville soit envoyé parmi eux, leur récite les versets d’Allah, les instruise et les purifie. Les siècles passèrent et les prophètes se succédèrent, jusqu’à ce que Jésus, fils de Marie, paix sur lui, annonce aux Enfants d’Israël la venue d’un messager après lui :
+
+Et quand Jésus fils de Marie dit : "Ô Enfants d’Israël, je suis vraiment le Messager d’Allah [envoyé] à vous, confirmateur de ce qui, dans la Thora, est antérieur à moi, et annonciateur d’un Messager à venir après moi, dont le nom sera Aḥmad." Puis quand celui-ci vint à eux avec des preuves évidentes, ils dirent: "C’est là une magie manifeste."
+— Coran 61:6 · Muhammad Hamidullah
+
+C’est pourquoi, interrogé sur les origines de sa mission, le Prophète ﷺ la rattacha à la prière de son ancêtre Ibrahim et à l’annonce de Jésus — paix sur eux. Un extrait du hadith mentionne :
+
+« à travers l’invocation de mon père Abraham, l’annonce de mon avènement par Jésus »
+
+Sahih Ibn Hibban, no 6404 ; également rapporté par Ahmad, no 17163. Extrait traduit par Rachid Maach, Paroles de Prophète, 2e édition (2021), chapitre « Les prophètes », no 26, p. 34–35. Le récit où les Compagnons l’interrogent est transmis par Khalid ibn Ma‘dan, d’après eux (Ibn Ishaq, cité par Ibn Hisham, 1/166) ; il exprime le même sens.
+
+Ainsi, le message qui apparaîtrait à La Mecque des siècles plus tard n’arrivait pas sans avoir été annoncé. L’héritage des prophètes conservait la nouvelle d’un messager qui viendrait à la fin des temps, et les Gens du Livre, c’est-à-dire les juifs et les chrétiens, avaient gardé une partie de ce savoir.
+
+Ce savoir ne leur était pas entièrement réservé. Certains juifs parlaient aux Arabes de la venue prochaine d’un prophète. Ces propos étaient particulièrement connus à Yathrib, qui serait ensuite appelée Médine, où Arabes et juifs vivaient côte à côte.
+
+Lorsqu’un différend les opposait aux Arabes polythéistes, les juifs leur disaient que le temps d’un prophète approchait, qu’ils le suivraient et combattraient à ses côtés contre eux. Le Coran évoque cette situation :
+
+Et quand leur vint d’Allah un Livre confirmant celui qu’ils avaient déjà, - alors qu’auparavant ils cherchaient la suprématie sur les mécréants, - quand donc leur vint cela même qu’ils reconnaissaient, ils refusèrent d’y croire. Que la malédiction d’Allah soit sur les mécréants!
+— Coran 2:89 · Muhammad Hamidullah
+
+Les Ansar sont les musulmans de Médine qui soutinrent le Prophète ﷺ et les émigrés de La Mecque. Certains d’entre eux rapportèrent, après leur conversion, qu’ils avaient entendu ces paroles de leurs voisins juifs alors qu’ils étaient encore polythéistes. Lorsque Muhammad ﷺ fut envoyé, certains habitants de Yathrib se souvinrent de ces annonces et reconnurent en lui le prophète dont ils avaient entendu parler.
+
+Toutefois, ce savoir circulait dans un milieu restreint : parmi les Gens du Livre et ceux qui les fréquentaient et les écoutaient. Peu avant la naissance du Prophète ﷺ, un autre événement se produisit sous les yeux des Arabes. Il ne s’agissait plus d’une nouvelle connue de quelques personnes, mais d’un événement majeur qui attira les regards vers La Mecque et la Kaaba elle-même.
+
+La vie de La Mecque s’organisait alors autour de la Maison sacrée. Ses habitants, les Quraysh, connaissaient la place de la Kaaba parmi les Arabes, mais ils ne disposaient pas d’une armée capable de résister à une grande puissance qui viendrait les attaquer.
+
+Au Yémen, Abraha avait construit une grande église et voulait y attirer les Arabes. Les ouvrages de Sîra relatent une succession d’événements qui le conduisit finalement à marcher sur La Mecque avec une armée pour détruire la Kaaba. Cette armée comptait un éléphant : l’événement resta donc connu sous le nom d’épisode de l’Éléphant.
+
+La situation était terrifiante pour les Mecquois : une armée avançait vers eux, et ils n’avaient pas les forces nécessaires pour lui résister. Les ouvrages de Sîra rapportent que les soldats d’Abraha s’emparèrent en chemin de biens appartenant aux habitants de La Mecque, dont deux cents chameaux de ‘Abd al-Muttalib ibn Hashim, chef de Quraysh et grand-père du Prophète ﷺ.
+
+Lorsque ‘Abd al-Muttalib se présenta devant Abraha, son allure et sa dignité impressionnèrent celui-ci. Abraha lui demanda ce qu’il souhaitait ; ‘Abd al-Muttalib réclama ses chameaux. Abraha s’en étonna : il était venu détruire la Maison vénérée par Quraysh, tandis que l’homme qui représentait cette tribu devant lui lui parlait de ses chameaux.
+
+Les ouvrages de Sîra rapportent cette réponse célèbre de ‘Abd al-Muttalib : il était le propriétaire des chameaux, tandis que la Maison avait un Seigneur qui la protégeait. Ces détails nous viennent des récits historiques et biographiques ; leur authenticité n’atteint pas le degré de certitude du Coran ou des hadiths authentiques. En revanche, le Coran lui-même a conservé le fait essentiel de l’événement et son dénouement.
+
+L’armée avança vers la Maison, mais n’atteignit pas son objectif. Les récits rapportent que l’éléphant refusait d’avancer lorsqu’on le dirigeait vers la Kaaba, mais marchait lorsqu’on l’orientait dans une autre direction. Alors se produisit ce que les Arabes ne cesseraient ensuite de raconter : Allah envoya contre l’armée des volées d’oiseaux qui lui lançaient des pierres d’argile durcie. Son entreprise échoua et l’armée venue détruire la Maison fut anéantie.
+
+N’as-tu pas vu comment ton Seigneur a agi envers les gens de l’Eléphant.
+N’a-t-Il pas rendu leur ruse complètement vaine ?
+et envoyé sur eux des oiseaux par volées.
+qui leur lançaient des pierres d’argile ?
+Et Il les a rendus semblables à une paille mâchée.
+— Coran 105:1–5 · Muhammad Hamidullah
+
+Le Coran ne commence pas par apprendre aux Mecquois ce qui s’était passé. Dès le premier verset de la sourate, il les renvoie à un événement établi dans leur mémoire et connu parmi eux. Sa portée dépassait la seule défaite d’une armée : la Maison était restée debout, et les Arabes avaient vu une force, à laquelle Quraysh ne pouvait résister, empêchée de l’atteindre. Leur respect pour le caractère sacré de La Mecque et de la Maison s’en était trouvé renforcé.
+
+Certains détails de l’événement étaient encore connus à l’époque du Prophète ﷺ. Bien des années plus tard, à al-Hudaybiyah, près de La Mecque, cela apparut clairement. Le Prophète ﷺ et ses Compagnons se dirigeaient vers La Mecque lorsque sa chamelle, appelée al-Qaswa, s’arrêta. Certains Compagnons dirent qu’elle refusait d’avancer. Le Prophète ﷺ écarta l’idée qu’elle se rebiffait et rappela que ce n’était pas son habitude. Il ajouta :
+
+« Elle a seulement été arrêtée par Celui [Allah] qui a arrêté l'éléphant. »
+
+Sahih al-Bukhari, nos 2731–2732. Extrait de la traduction publiée par Islamweb le 8 septembre 2020.
+
+En évoquant Celui qui avait retenu l’éléphant, le Prophète ﷺ faisait référence à un événement que ses Compagnons connaissaient : c’était Allah qui avait empêché l’éléphant d’avancer vers la Maison. Ce hadith se rattache donc à l’épisode de l’Éléphant. Il confirme ainsi, par une transmission authentique, un détail de l’événement survenu avant la naissance du Prophète ﷺ.
+
+Selon le récit le plus connu chez les auteurs de Sîra, Muhammad ibn ‘Abd Allah ﷺ naquit cette même année, qui fut ensuite appelée l’Année de l’Éléphant. ‘Abd al-Muttalib, qui avait représenté Quraysh face à Abraha, était le grand-père de cet enfant. Selon le récit le plus répandu, son père, ‘Abd Allah ibn ‘Abd al-Muttalib, était mort avant sa naissance : il vint donc au monde orphelin de père.
+
+Plus tard, en replaçant l’épisode de l’Éléphant dans l’ensemble de la Sîra, plusieurs savants y virent une préparation à ce qui allait suivre. La Maison, autour de laquelle commencerait la mission du dernier des prophètes, avait été préservée. Sa sainteté était davantage reconnue parmi les Arabes, et elle assurait à Quraysh un rang et une sécurité dont beaucoup de peuples voisins ne jouissaient pas. Cela ne signifie pas que les Arabes savaient alors qu’un prophète allait naître. Cette compréhension de la place de l’événement apparaît lorsque l’on considère la Sîra dans son ensemble.
+
+La sécurité n’était pas seulement nécessaire à Quraysh pour demeurer à La Mecque : toute sa vie en dépendait largement. La ville ne se trouvait pas sur une terre agricole fertile ; ses habitants avaient besoin que la nourriture et les marchandises viennent de l’extérieur. Quraysh effectuait ainsi deux voyages devenus célèbres parmi les Arabes, l’un en hiver et l’autre en été. Ses commerçants se rendaient dans les pays environnants et rapportaient à La Mecque les vivres, les vêtements et les marchandises dont ses habitants avaient besoin.
+
+La sécurité dont jouissaient les habitants établis autour de la Maison leur permettait de circuler entre les tribus. La Mecque était un lieu sacré, Quraysh vivait auprès de la Maison, et les Arabes lui reconnaissaient cette place. Ses membres empruntaient donc des routes qui pouvaient être très dangereuses pour d’autres. Le commerce affluait également vers La Mecque, notamment pendant les saisons du pèlerinage et à l’occasion des marchés qui se tenaient aux alentours.
+
+A cause de l'habitude des Quraysh,
+De leur habitude [concernant] les voyages d’hiver et d’été.
+Qu’ils adorent donc le Seigneur de cette Maison (la Kaaba).
+qui les a nourris contre la faim et rassurés de la crainte!
+— Coran 106:1–4 · Muhammad Hamidullah
+
+Deux bienfaits marquaient ainsi la vie quotidienne de Quraysh : de la nourriture dans un pays dont les cultures ne suffisaient pas à nourrir les habitants, et la sécurité dans un environnement où les tribus étaient exposées aux raids et à la peur. Mais l’histoire ne commence pas avec la sourate Quraysh. En remontant de plusieurs siècles, nous retrouvons Ibrahim, paix sur lui, et sa prière pour cette ville :
+
+Et quand Abraham supplia: "Ô mon Seigneur! Fais de cette cité un lieu de sécurité, et fais attribution des fruits à ceux qui parmi ses habitants auront cru en Allah et au Jour Dernier", le Seigneur dit: "Et quiconque n’y aura pas cru, alors Je lui concéderai une courte jouissance [ici-bas], puis Je le contraindrai au châtiment du Feu [dans l’au-delà]. Et quelle mauvaise destination!"
+— Coran 2:126 · Muhammad Hamidullah
+
+Il avait demandé la sécurité, puis la subsistance. Des siècles plus tard, le Coran rappelle aux Mecquois que le Seigneur de cette Maison les a nourris alors qu’ils avaient faim et les a mis à l’abri de la peur. Le début et la fin du récit se rejoignent : Ibrahim, paix sur lui, élève la Maison, prie pour la sécurité et la subsistance de La Mecque, et demande qu’Allah envoie à ses habitants un messager issu d’eux-mêmes. Les siècles passent ; Jésus, paix sur lui, annonce un messager après lui. La nouvelle du prophète attendu demeure chez les Gens du Livre, et une partie en parvient aux Arabes. Puis une armée vient détruire la Maison, mais elle est empêchée de l’atteindre. La Maison reste debout, et les Mecquois bénéficient d’une sécurité qui leur ouvre les routes du commerce. Dans ce même lieu, durant l’Année de l’Éléphant, naît Muhammad ibn ‘Abd Allah ﷺ.
+
+Les habitants de La Mecque ne savaient pas alors ce qui se produirait une quarantaine d’années plus tard. Pourtant, lorsque nous relisons ces événements à la lumière de l’ensemble de la Sîra, nous voyons plusieurs fils se rejoindre à La Mecque avant la mission prophétique : une Maison auprès de laquelle Ibrahim avait prié, une annonce conservée dans l’héritage des prophètes, un événement connu des Arabes, ainsi que la sécurité et la subsistance accordées aux habitants établis autour de la Maison. C’est ici que commence l’histoire de Muhammad ﷺ lui-même : celle de l’enfant né orphelin de père à La Mecque, Muhammad ibn ‘Abd Allah ibn ‘Abd al-Muttalib ﷺ.

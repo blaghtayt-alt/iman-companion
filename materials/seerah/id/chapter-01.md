@@ -1,0 +1,92 @@
+# Baitullah yang Terjaga dan Janji yang Kian Dekat
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bab Pertama
+
+Baitullah yang Terjaga dan Janji yang Kian Dekat
+
+Jauh sebelum Muhammad ﷺ lahir, telah ada tanda-tanda yang mendahului kemunculan beliau. Tidak semua orang mengetahuinya, dan mereka belum memahami bagaimana kelak semua tanda itu akan terangkai dalam satu kisah.
+
+Di Makkah, di sisi Ka‘bah, Baitullah yang fondasinya ditinggikan oleh Ibrahim dan Ismail—semoga keselamatan tercurah kepada keduanya—Ibrahim memanjatkan doa yang diabadikan dalam Al-Qur’an:
+
+Ya Tuhan kami, utuslah di tengah mereka seorang rasul dari kalangan mereka sendiri, yang akan membacakan kepada mereka ayat-ayat-Mu, dan mengajarkan Kitab dan Hikmah kepada mereka, dan menyucikan mereka. Sungguh, Engkaulah Yang Mahaperkasa, Mahabijaksana.
+— Al-Qur’an 2:129 — Kementerian Agama RI
+
+Ibrahim, semoga keselamatan tercurah kepadanya, memohon agar dari penduduk kota itu lahir seorang rasul yang membacakan ayat-ayat Allah kepada mereka, mengajar mereka, dan menyucikan jiwa mereka. Berabad-abad kemudian, para nabi datang silih berganti, hingga Isa putra Maryam, semoga keselamatan tercurah kepadanya, menyampaikan kabar gembira kepada Bani Israil tentang seorang rasul yang akan datang setelahnya:
+
+dan memberi kabar gembira dengan seorang rasul yang akan datang setelahku, yang namanya Ahmad (Muhammad).
+— Al-Qur’an 61:6 — Kementerian Agama RI (kutipan)
+
+Karena itulah, ketika ditanya tentang awal mula kenabiannya, Nabi ﷺ menjelaskan—sebagaimana makna hadis tersebut—bahwa beliau merupakan jawaban atas doa leluhur beliau, Ibrahim, dan kabar gembira yang disampaikan Isa. Semoga keselamatan tercurah kepada keduanya.
+
+“(Aku adalah hasil) doa ayahku (Nabi) Ibrahim dan kabar gembira (Nabi) Isa.”
+— IslamQA26713 (kutipan)
+
+Sahih Ibnu Hibban no. 6404; juga diriwayatkan Ahmad no. 17163. Kutipan di atas berasal dari riwayat sejajar melalui Khalid bin Ma‘dan dari para sahabat (Ibnu Ishaq; Sirah Ibnu Hisyam, 1/166), sebagaimana dimuat dalam IslamQA no. 26713.
+
+Jadi, risalah yang kelak muncul di Makkah bukanlah sesuatu yang datang tanpa pendahuluan. Dalam warisan para nabi telah ada kabar tentang seorang rasul yang akan datang pada akhir zaman, dan sebagian pengetahuan itu masih tersimpan di kalangan Ahli Kitab, yaitu orang Yahudi dan Nasrani.
+
+Pengetahuan tersebut tidak sepenuhnya terbatas pada mereka. Sebagian orang Yahudi berbicara kepada orang-orang Arab tentang semakin dekatnya pengutusan seorang nabi. Hal ini terutama dikenal di Yatsrib, yang kemudian dikenal sebagai Madinah, tempat orang Arab dan Yahudi hidup bertetangga.
+
+Ketika terjadi perselisihan antara orang Yahudi dan orang Arab yang masih musyrik, orang Yahudi mengatakan bahwa masa kedatangan seorang nabi sudah dekat. Mereka akan mengikutinya dan berperang bersamanya melawan orang-orang Arab tersebut. Al-Qur’an mengisyaratkan hal ini:
+
+sedangkan sebelumnya mereka memohon kemenangan atas orang-orang kafir, ternyata setelah sampai kepada mereka apa yang telah mereka ketahui itu, mereka mengingkarinya.
+— Al-Qur’an 2:89 — Kementerian Agama RI (kutipan)
+
+Kaum Ansar adalah kaum Muslim Madinah yang menolong Nabi ﷺ dan kaum Muslim yang berhijrah dari Makkah. Sejumlah orang dari kalangan mereka, setelah memeluk Islam, menuturkan bahwa mereka dahulu mendengar ucapan itu dari tetangga Yahudi mereka, ketika mereka sendiri masih musyrik. Kemudian Muhammad ﷺ diutus. Sebagian penduduk Yatsrib teringat kembali pada kabar tersebut dan mengenali beliau sebagai nabi yang dahulu mereka dengar akan datang.
+
+Namun, pengetahuan ini masih beredar dalam lingkup terbatas: di kalangan Ahli Kitab dan orang-orang yang bergaul serta mendengar kabar dari mereka. Tidak lama sebelum Nabi ﷺ lahir, terjadi peristiwa lain di hadapan bangsa Arab. Kali ini bukan kabar yang hanya diketahui segelintir orang, melainkan peristiwa besar yang mengarahkan perhatian kepada Makkah dan Ka‘bah itu sendiri.
+
+Saat itu, kehidupan Makkah berpusat di sekitar Baitulharam. Penduduknya, Quraisy, mengetahui kedudukan Ka‘bah di tengah bangsa Arab. Namun, mereka tidak memiliki pasukan yang sanggup menghadapi kekuatan besar apabila datang menyerang.
+
+Di Yaman, Abrahah telah membangun sebuah gereja besar dan ingin mengalihkan tujuan kunjungan orang-orang Arab ke sana. Kitab-kitab Sirah menyebutkan serangkaian peristiwa yang akhirnya mendorongnya membawa pasukan menuju Makkah untuk menghancurkan Ka‘bah. Pasukan itu membawa seekor gajah; karena itulah peristiwa ini dikenang sebagai Peristiwa Gajah.
+
+Keadaan itu menakutkan bagi penduduk Makkah. Sebuah pasukan sedang mendatangi mereka, sementara mereka tidak memiliki kekuatan untuk melawannya. Kitab-kitab Sirah menyebutkan bahwa di perjalanan, tentara Abrahah merampas harta penduduk Makkah, termasuk dua ratus ekor unta milik Abdul Muththalib bin Hasyim, pemuka Quraisy dan kakek Nabi ﷺ.
+
+Ketika Abdul Muththalib menemui Abrahah, penampilan dan wibawanya membuat Abrahah terkesan. Namun, saat ditanya keperluannya, Abdul Muththalib meminta unta-untanya dikembalikan. Abrahah heran: ia datang untuk menghancurkan Baitullah yang diagungkan Quraisy, tetapi orang yang mewakili Quraisy di hadapannya justru menanyakan unta-untanya.
+
+Kitab-kitab Sirah menisbatkan kepada Abdul Muththalib ucapan yang terkenal dalam pertemuan itu: ia adalah pemilik unta-unta tersebut, sedangkan Baitullah memiliki Tuhan yang akan melindunginya. Rincian ini diriwayatkan dalam kitab-kitab sejarah dan Sirah; tingkat kepastiannya tidak setara dengan keterangan Al-Qur’an atau hadis sahih. Adapun inti peristiwa dan kesudahannya telah diabadikan oleh Al-Qur’an sendiri.
+
+Pasukan itu bergerak menuju Baitullah, tetapi tidak berhasil mencapai tujuannya. Riwayat-riwayat menyebutkan bahwa ketika gajah diarahkan ke Ka‘bah, ia enggan bergerak, sedangkan ketika diarahkan ke tempat lain, ia berjalan. Lalu terjadilah peristiwa yang terus diceritakan bangsa Arab: Allah mengirim burung-burung berbondong-bondong yang melempari pasukan itu dengan batu dari tanah liat yang dibakar. Rencana mereka gagal, dan pasukan yang hendak menghancurkan Baitullah itu pun binasa.
+
+Tidakkah engkau (Muhammad) perhatikan bagaimana Tuhanmu telah bertindak terhadap pasukan bergajah?
+Bukankah Dia telah menjadikan tipu daya mereka itu sia-sia?
+Dan Dia mengirimkan kepada mereka burung yang berbondong-bondong,
+yang melempari mereka dengan batu dari tanah liat yang dibakar,
+sehingga mereka dijadikan-Nya seperti daun-daun yang dimakan (ulat).
+— Al-Qur’an 105:1–5 — Kementerian Agama RI
+
+Al-Qur’an tidak memulai kisah ini dengan memperkenalkan kepada penduduk Makkah suatu peristiwa yang belum mereka ketahui. Pertanyaan pada awal Surah Al-Fil mengingatkan mereka akan tindakan Tuhan terhadap pasukan bergajah, sesuatu yang telah tertanam dalam ingatan dan dikenal di tengah mereka. Dampaknya melampaui kekalahan sebuah pasukan: Baitullah tetap berdiri. Bangsa Arab melihat bahwa kekuatan yang tidak sanggup dilawan Quraisy telah dihalangi sebelum dapat menyerang Baitullah. Karena itu, penghormatan mereka terhadap kesucian Makkah dan Baitullah semakin besar.
+
+Sebagian rincian peristiwa itu masih dikenal pada masa Nabi ﷺ. Hal ini tampak bertahun-tahun kemudian, di Hudaibiyah, sebuah tempat di dekat Makkah. Nabi ﷺ dan para sahabat berangkat menuju Makkah. Sesampainya di Hudaibiyah, unta beliau yang bernama Al-Qashwa berhenti. Sebagian sahabat mengira unta itu enggan melanjutkan perjalanan. Nabi ﷺ menjelaskan bahwa hal tersebut bukan kebiasaannya:
+
+“al-Qashwa tidak mogok. Itu bukan kebiasaannya, akan tetapi dia ditahan oleh yang menahan (Allah Azza wa Jalla) gajah (pasukan gajah),”
+— Al-Irsyad Al-Islamiyyah Ciledug (kutipan)
+
+Sahih al-Bukhari no. 2731–2732.
+
+Ketika menyebut Allah sebagai yang menahan gajah, Nabi ﷺ merujuk pada peristiwa yang dikenal para sahabat: Allah-lah yang menghalangi gajah bergerak menuju Baitullah. Hadis ini berkaitan langsung dengan Peristiwa Gajah dan menegaskan, melalui riwayat yang sahih, salah satu rincian peristiwa sebelum kelahiran Nabi ﷺ tersebut.
+
+Menurut pendapat yang masyhur di kalangan ahli Sirah, Muhammad bin Abdullah ﷺ lahir pada tahun yang kemudian dikenal sebagai Tahun Gajah. Abdul Muththalib, yang berada di barisan depan Quraisy ketika menghadapi Abrahah, adalah kakek anak yang lahir pada tahun itu. Ayahnya, Abdullah bin Abdul Muththalib, menurut riwayat yang paling dikenal, telah wafat sebelum kelahirannya. Beliau pun lahir dalam keadaan yatim.
+
+Ketika kemudian menelaah Peristiwa Gajah dalam keseluruhan perjalanan Sirah, sejumlah ulama melihatnya sebagai persiapan bagi apa yang akan datang. Baitullah, tempat dakwah penutup para nabi akan bermula, telah dijaga. Penghormatan bangsa Arab terhadap kesuciannya bertambah, dan karena Baitullah, Quraisy memperoleh kedudukan serta keamanan yang tidak dinikmati banyak orang di sekitarnya. Ini tidak berarti bangsa Arab saat itu mengetahui bahwa seorang nabi akan lahir. Pemahaman tersebut muncul ketika kedudukan peristiwa ini dilihat dalam rangkaian Sirah yang telah utuh.
+
+Quraisy memerlukan keamanan bukan sekadar agar dapat menetap di Makkah; kehidupan mereka sangat bergantung padanya. Makkah bukanlah wilayah pertanian yang subur. Penduduknya membutuhkan pasokan makanan dan barang dari luar. Karena itu, Quraisy memiliki dua perjalanan dagang yang dikenal bangsa Arab: perjalanan musim dingin dan musim panas. Para pedagang mereka pergi ke negeri-negeri sekitar dan membawa pulang makanan, pakaian, serta berbagai barang yang dibutuhkan penduduk Makkah.
+
+Keamanan yang dinikmati penduduk di sekitar Baitullah sangat membantu mereka bepergian di antara berbagai kabilah. Makkah memiliki kehormatan sebagai tanah suci, Quraisy tinggal di sekitar Baitullah, dan bangsa Arab mengakui kedudukan itu. Karena itu, mereka dapat melewati jalan-jalan yang sangat berbahaya bagi orang lain. Perdagangan pun datang ke Makkah, terutama pada musim haji dan ketika pasar-pasar di sekitarnya berlangsung.
+
+Karena kebiasaan orang-orang Quraisy,
+(yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas.
+Maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka'bah),
+yang telah memberi makanan kepada mereka untuk menghilangkan lapar dan mengamankan mereka dari rasa ketakutan.
+— Al-Qur’an 106:1–4 — Kementerian Agama RI
+
+Quraisy merasakan dua nikmat dalam kehidupan sehari-hari: makanan di negeri yang hasil tanamannya tidak mencukupi penduduknya, serta keamanan di tengah lingkungan yang kabilah-kabilahnya dapat terancam penyerbuan dan ketakutan. Namun, kisah ini tidak bermula dari Surah Quraisy. Jika menelusuri berabad-abad sebelumnya, kita kembali kepada Ibrahim, semoga keselamatan tercurah kepadanya, dan doa yang dipanjatkannya untuk kota ini:
+
+Dan (ingatlah), ketika Ibrahim berdoa, "Ya Tuhanku, jadikanlah (negeri Mekkah) ini negeri yang aman dan berilah rezeki berupa buah-buahan kepada penduduknya, yaitu siapa di antara mereka yang beriman kepada Allah dan hari kemudian," Dia (Allah) berfirman, "Dan kepada orang yang kafir akan Aku beri kesenangan sementara, kemudian akan Aku paksa dia ke dalam azab neraka dan itulah seburuk-buruk tempat kembali."
+— Al-Qur’an 2:126 — Kementerian Agama RI
+
+Ibrahim memohon keamanan, kemudian rezeki. Berabad-abad kemudian, Al-Qur’an mengingatkan penduduk Makkah bahwa Tuhan pemilik Baitullah inilah yang memberi mereka makanan sehingga terhindar dari lapar, serta keamanan sehingga terhindar dari takut. Di sinilah awal kisah bertaut dengan akhirnya. Ibrahim, semoga keselamatan tercurah kepadanya, membangun Baitullah, memohon keamanan dan rezeki bagi Makkah, serta memohon agar Allah mengutus seorang rasul dari kalangan penduduknya. Abad demi abad berlalu. Isa, semoga keselamatan tercurah kepadanya, menyampaikan kabar gembira tentang seorang rasul setelahnya. Kabar tentang nabi yang dinanti tetap tersimpan di kalangan Ahli Kitab, dan sebagiannya sampai kepada orang-orang Arab. Lalu sebuah pasukan datang untuk menghancurkan Baitullah, tetapi dihalangi sebelum dapat melakukannya. Baitullah tetap berdiri. Penduduk Makkah hidup dalam keamanan yang membuka jalur-jalur perdagangan bagi mereka. Di tempat yang sama, pada Tahun Gajah, lahirlah Muhammad bin Abdullah ﷺ.
+
+Penduduk Makkah saat itu belum mengetahui apa yang akan terjadi sekitar empat puluh tahun kemudian. Namun, ketika membaca peristiwa-peristiwa ini setelah keseluruhan Sirah terbentang, kita melihat benang-benang yang telah terangkai di Makkah sebelum kenabian: Baitullah tempat Ibrahim berdoa, kabar gembira yang terpelihara dalam warisan para nabi, peristiwa yang dikenal bangsa Arab, serta keamanan dan rezeki yang meliputi penduduk di sekitar Baitullah. Dari sinilah kisah Muhammad ﷺ sendiri bermula: seorang anak yang lahir sebagai yatim di Makkah, Muhammad bin Abdullah bin Abdul Muththalib ﷺ.

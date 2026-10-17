@@ -1,0 +1,237 @@
+# Araplara Ne Diyeceğiz? Kureyş Davetin Önüne Geçmeye Çalışıyor
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+On Birinci Bölüm — Araplara Ne Diyeceğiz? Kureyş Davetin Önüne Geçmeye Çalışıyor
+
+Kureyş'in, Ebû Tâlib'i Allah Resûlü'nü ﷺ davetinden vazgeçirmeye veya korumasını kaldırmaya ikna etmek için yaptığı ilk girişimler başarısız olmuştu. Peygamber ﷺ Allah'ı birlemeye çağırmayı sürdürürken, onun haberi de peygamberliğin ilk günlerinde kendisini tanıyan küçük çevrenin dışına yayılmaya başlamıştı.
+
+Bu noktada Kureyş'in karşısına yeni bir problem çıktı.
+
+Mesele artık yalnızca Mekkelilerle sınırlı değildi.
+
+Hac mevsimi yaklaşıyordu. Bu, Arap kabilelerinin hac, buluşma ve ticaret için Mekke'ye geldiği dönemdi. Yarımadanın farklı bölgelerinden insanlar gelecek ve bazıları Mekke'de Allah tarafından gönderilmiş bir elçi olduğunu söyleyen bir adam bulunduğunu önceden duymuş olacaktı.
+
+Geldiklerinde Muhammed'i ﷺ bizzat dinleyebilirlerdi.
+
+Bu yüzden Kureyş, kendi açısından, onun hakkında ne söyleyeceğine önceden karar vermeliydi.
+
+Velîd b. Muğîre Kureyş'i Topluyor
+
+İbn İshak'ın Sîret'i, Kureyş'ten bir grup erkeğin, Kureyş'in ileri gelen ve varlıklı isimlerinden Velîd b. Muğîre el-Mahzûmî'nin yanında toplandığını aktarır.
+
+İbn İshak, Velîd’in dile getirdiği kaygıyı şöyle aktarır:
+
+Velîd, Kureyş’e hac mevsiminin geldiğini ve Muhammed’in haberini önceden duymuş Arap heyetlerinin yakında kendilerine ulaşacağını hatırlattı. Birbirlerinin sözünü çürütüp birbirlerini yalancı durumuna düşürmemek için onun hakkında tek bir görüşte birleşmelerini istedi.
+
+Sorun açıktı.
+
+Bazıları gelenlere Muhammed'in bir kâhin olduğunu, başkaları şair olduğunu, bir kısmı deli olduğunu, diğerleri de sihirbaz olduğunu söylerse, bu çelişki insanların iddialarından şüphe etmesine yol açacaktı.
+
+Bu nedenle Velîd, heyetler gelmeden önce tek bir tanım üzerinde anlaşmalarını istedi.
+
+Ne söylemeleri gerektiğini kendisinin belirlemesini istediler.
+
+Fakat o, kendilerinin öneride bulunmasını ve kendisinin dinlemesini istedi.
+
+İlk olarak ona kâhin demeyi önerdiler.
+
+Araplar arasında kâhin, görünmeyen şeyler hakkında bilgi sahibi olduğunu iddia eden kimseydi. Kâhinlerin konuşmalarında da çoğu zaman kısa ve kafiyeli ifadelerden oluşan tanınabilir bir üslup bulunurdu.
+
+Velîd bu tanımı reddederek Muhammed’in kâhin olmadığına Allah adına yemin etti. Kâhinleri tanıdıklarını ve sözlerini işittiklerini, Muhammed'in sözlerinin kâhinlerin mırıltısına veya secili konuşmasına benzemediğini söyledi.
+
+Ardından ona deli demeyi önerdiler.
+
+Bunu da reddetti.
+
+Araplar ağır akıl bozukluğu yaşayan bir kişide görülen belirtileri biliyorlardı. Velîd, Muhammed'de gördüklerinin buna benzemediğini söyledi.
+
+Sonra onu şair olarak tanıtmayı önerdiler.
+
+Onun şair olmadığını söyledi.
+
+Velîd ve Kureyş, şiiri, vezinlerini ve türlerini bilen Araplardı. Recez ve başka şiir çeşitlerini duymuşlardı; Kur'an ise bildikleri şiire benzemiyordu.
+
+Bir sonraki önerileri ona sihirbaz demekti.
+
+Başlangıçta bunu da reddetti. Sihirbazları ve yaptıklarını bildiklerini, Muhammed'in getirdiğinin onların üfleme ve düğüm bağlama gibi uygulamalarına benzemediğini söyledi.
+
+Bir suçlama arıyorlardı; fakat görüşüne başvurdukları adam, önerdikleri sıfatların işittiği şeye uymadığını kendisi kabul ediyordu.
+
+İbn İshak, Velîd’in Kur’an’ın güzelliği hakkında kabul ettiği hususları da aktarır:
+
+Velîd, Allah’a yemin ederek bu sözlerde bir tatlılık bulunduğunu kabul etti; onları kökü sağlam, dalları meyveli bir ağaca benzetti.
+
+Yani sözü kökü sağlam, meyvesi güzel bir ağaca benzetiyordu. Böylece bu sözde kolayca inkâr edemediği bir güç ve güzellik bulunduğunu kabul etmiş oluyordu.
+
+Ardından önceki tanımların her birinin yanlışlığını insanların anlayacağını söyledi.
+
+Yine de söyleyecek bir şeye ihtiyaçları vardı.
+
+Sihirbazlık Suçlaması
+
+Velîd sonunda, insanları Peygamber'den ﷺ uzaklaştırmak için kullanabilecekleri en etkili sıfatın ona “sihirbaz” demek olduğu kanaatine vardı.
+
+Bunu, Kur'an'ın sihirbazların uygulamasına benzediğini düşündüğü için seçmedi; az önce böyle bir benzerliği zaten reddetmişti.
+
+Bunun yerine suçlamayı, insanların fark edebileceğini söylediği başka bir sonuca bağladı:
+
+Bu davet, kişiyi babasından, kardeşinden, eşinden ve kabilesinden ayırıyordu.
+
+Bazı evlatlar İslam'a girerken babaları Kureyş'in dini üzere kalmıştı. İki kardeşten biri inanırken diğeri reddediyordu. İman bağı, bazen aile ve kabileyi takip etme şeklindeki alışılmış bağla karşı karşıya gelebiliyordu.
+
+Bu nedenle Velîd, “sihirbaz” kelimesinin uzaktan hikâyeyi duyan kişiyi etkileme ihtimali en yüksek suçlama olabileceğini düşündü. Kureyş, Muhammed'in ﷺ sözlerinin bu ayrılıkları meydana getirdiğini söyleyebilecekti.
+
+Kureyşliler bu görüş üzerinde anlaşarak dağıldılar.
+
+Mekke'ye Gelenlerin Yollarında
+
+Kureyş yalnızca kendi aralarında anlaşmakla yetinmedi.
+
+Sîret kaynakları, hac mevsimi için gelen Arap heyetlerinin geçtiği yollara oturduklarını; yanlarından geçen herkesi Allah Resûlü ﷺ hakkında uyardıklarını ve üzerinde anlaştıkları şeyi söylediklerini aktarır.
+
+İstedikleri, bir kişinin Peygamber'i ﷺ bizzat dinlemeden önce Mekke'ye Kureyş'in açıklamasını duymuş olarak ulaşmasıydı.
+
+Fakat bu kampanya Kureyş'in istemediği bir sonuç doğurdu.
+
+İbn İshak, Arapların hac mevsiminin sonunda Allah Resûlü’nün ﷺ haberini yanlarında götürerek Mekke’den ayrıldığını ve bu haberin bütün Arap diyarlarına yayıldığını aktarır.
+
+Kureyş insanları ondan sakındırmak istiyordu; fakat aynı zamanda her kabileden gelen ziyaretçilere Mekke'de, kendi gözlerinde Kureyş önderlerinin yollarda bekleyip insanları uyarmasını gerektirecek kadar önemli ve tehlikeli bir adam bulunduğunu anlatıyordu.
+
+Böylece bazı ziyaretçiler en azından Muhammed ﷺ adında bir adamın yeni bir şeye çağırdığını bilerek ayrıldılar.
+
+Kur'an Velîd'in Düşünmesini Anlatıyor
+
+Tefsir ve Sîret eserleri, Müddessir sûresindeki şu ayetlerin Velîd b. Muğîre hakkında indiğini aktarır:
+
+Beni, yarattığım kişiyle baş başa bırak. Ona ardı arkası kesilmeyen bir servet verdim. Gözlerinin önünde duran oğullar verdim. Kendisi için (dünya nimetlerini) yaydıkça yaydım. Daha da artırmamı umuyor. Asla! Çünkü o ayetlerimize karşı çok inatçıdır. Onu sarp bir yokuşa zorlayıp süreceğim. Çünkü o; düşündü, ölçtü, biçti. Kahrolası nasıl da ölçtü, biçti! Sonra (yine o) kahrolası, nasıl (da) ölçtü, biçti! Sonra şöyle bir baktı. Sonra da kaşlarını çatıp, surat astı. Sonra da arkasını dönüp büyüklendi. Ve şöyle dedi: Bu sadece öğretilegelen bir sihirdir. "Bu, insan sözünden başka bir şey değildir." Ben onu Sekar’a (Cehennem'e) sokacağım. — Kur’an 74:11–26 — Rowwad Tercüme Merkezi.
+
+Ayetler düşünme sürecinin kendisini tasvir eder:
+
+Çünkü o; düşündü, ölçtü, biçti. — Kur’an 74:18 — Rowwad Tercüme Merkezi.
+
+Ardından:
+
+Sonra şöyle bir baktı. Sonra da kaşlarını çatıp, surat astı. Sonra da arkasını dönüp büyüklendi. — Kur’an 74:21–23 — Rowwad Tercüme Merkezi.
+
+Sonra da ulaştığı sonuç gelir:
+
+Ve şöyle dedi: Bu sadece öğretilegelen bir sihirdir. "Bu, insan sözünden başka bir şey değildir." — Kur’an 74:24–25 — Rowwad Tercüme Merkezi.
+
+Ayetler meseleyi, Kur'an'ı duyup onun hakkında masumca şaşıran bir adam şeklinde sunmaz. Düşünmeyi ve hesaplamayı, ardından yüz çevirmeyi ve kibri, sonra da Kur'an için bilinçli bir tanım seçmeyi anlatır.
+
+İbn İshak ayrıca bu grubun Peygamber ﷺ ve Kur'an hakkında farklı sınıflamalar üretmesini Allah'ın şu sözüyle ilişkilendirir:
+
+Onlar, Kur'an'ı bölüp ayıranlardır. Rabbin hakkı için, mutlaka onların hepsini sorguya çekeceğiz. Yaptıklarından dolayı. — Kur’an 15:91–93 — Ali Özek ve diğerleri.
+
+İbn Hişâm bu bağlamda “'idîn” kelimesini, Kur'an'ı bölüp sınıflandırmaları ve hakkında farklı sözler söylemeleri şeklinde açıklamıştır.
+
+Bu bağlantıyı İbn İshak Sîret'te zikrettiği için, burada da onun yorumu ve ayetlerle o adamların davranışı arasında kurduğu bağ olarak korunmaktadır.
+
+Mesajı Kabul Etmek Onlara Neden Bu Kadar Zordu?
+
+Allah Resûlü'nün ﷺ getirdiği şey Kureyş'in hayatında küçük bir değişiklik değildi.
+
+Onları şu söze çağırıyordu:
+
+Allah'tan başka ibadete layık ilâh yoktur.
+
+Onlar bu sözün ne anlama geldiğini bilen Araplardı.
+
+Bu, Allah'ın adını zaten tanıdıkları ilâhların yanına eklemek demek değildi. O'ndan başkasına yapılan bütün ibadetlerin geçersiz sayılması demekti.
+
+Bu çağrı hayatlarının çok derin unsurlarına dokunuyordu: ataların dini, putların konumu, miras aldıkları gelenekler ve kendilerini ve kabilelerini tanımladıkları sosyal bağlar.
+
+İsimler bile o eski dünyanın izlerini taşıyordu.
+
+İslam öncesi Arap soylarında Abdüluzzâ ve Abdüllât gibi, insanların yücelttiği putların adlarıyla bağlantılı isimler görülür. İslam yayıldıkça Allah'a kulluğu ve İslami kimliği ifade eden Abdullah ve Abdurrahman gibi isimler geniş biçimde yaygınlaştı. Peygamber'in ﷺ ve sahâbîlerinin isimleri de sonraki nesillerde daha sık kullanılmaya başladı.
+
+Bu, bu isimlerin tamamının İslam'dan önce bilinmediği anlamına gelmez. Mesela Abdullah ismi zaten vardı; Peygamber'in ﷺ babası da Abdullah b. Abdülmuttalib idi. Buradaki nokta, dinî dönüşümün inanç, ibadet ve ilişkiler üzerinde olduğu gibi isim verme alışkanlıkları üzerinde de görünür bir iz bırakmasıdır.
+
+Mesaj aynı anda birçok şeyi değiştiriyordu.
+
+Fakat Peygamber'in ﷺ çağrısının temeli açık kaldı: yalnız Allah'a ibadet etmek.
+
+Davet, Ahlaktan Kopuk Bir Tevhid Değildi
+
+Allah Resûlü'nün ﷺ insanları neye çağırdığını açıklayan erken rivayetlerden biri, daha önce gördüğümüz Amr b. Abese radıyallahu anh hadisidir. O, Peygamber'e Allah'ın kendisini ne ile gönderdiğini sorduğunda, Peygamber ﷺ Allah'ı birlemeyi, akrabalık bağlarını sürdürmeyi ve putları kırmayı zikretmişti.
+
+Aynı ahlaki anlamlar erken dönem Mekkî sûrelerin birçoğunda görülür.
+
+Allah, meal olarak şöyle buyurur:
+
+Kim (malından) verir ve sakınırsa. En güzel sözü (kelime-i tevhidi) tasdik ederse. Biz, onu en kolay olana kolayca iletiriz. Kim cimrilik eder kendini müstağni sayarsa. Ve en güzeli yalanlarsa. Biz de ona zor olanı kolaylaştırırız. — Kur’an 92:5–10 — Rowwad Tercüme Merkezi.
+
+Ve şöyle buyurur:
+
+Hesap gününü yalanlayanı gördün mü? Yetimi itip kakan da işte odur. Ve yoksulu doyurmaya teşvik etmez. — Kur’an 107:1–3 — Rowwad Tercüme Merkezi.
+
+Ve şöyle buyurur:
+
+Hayır! Doğrusu siz yetime ikram etmiyorsunuz, yoksulu yedirmeye birbirinizi teşvik etmiyorsunuz. — Kur’an 89:17–18 — Ali Özek ve diğerleri.
+
+Mekke döneminin başlarından itibaren davet, Allah'a ve Ahiret Günü'ne imanı insanın iç dünyasında ve zayıflara davranışında ortaya çıkan şeylerle ilişkilendiriyordu: cimriliğin karşısında vermek, yetimi itmek yerine ona değer vermek, fakirin ihtiyacını görmezden gelmek yerine onu doyurmaya teşvik etmek.
+
+Dolayısıyla Kureyş, istediği herhangi bir isimle dürüstçe niteleyebileceği belirsiz sözlerle değil, açık temelleri olan bir mesajla karşı karşıyaydı.
+
+“Deli”yi Tedavi Etmeye Gelen Adam
+
+Kureyş'in sözlerinin Mekke dışından gelenlere gerçekten ulaştığını en açık gösteren rivayetlerden biri Dımâd el-Ezdî'nin hikâyesidir.
+
+Dımâd, Ezd Şenûe kabilesindendi ve rukye biliyordu; yani tedavi niyetiyle okunan dua ve sözleri kullanıyordu.
+
+Mekke'ye geldiğinde bazı kimselerin Muhammed'in deli olduğunu ileri sürdüklerini işitti.
+
+Dımâd henüz Peygamber ﷺ ile karşılaşmamıştı.
+
+Ona ilk ulaşan şey, başkalarının Peygamber hakkında yaydığı görüntüydü.
+
+Bu kişiyle görüşürse Allah'ın onu kendi eliyle şifaya kavuşturabileceğini düşündü.
+
+Sonra Allah Resûlü ﷺ ile karşılaştı ve bildiği tedaviyi teklif etti.
+
+Peygamber ﷺ cevabına Allah'a hamd ederek başladı:
+
+«Şüphesiz ki hamd Allaha mahsustur. Biz ona hamd eder; ondan yardım dileriz.» Sözlerinin devamında, Allah'ın hidayete erdirdiğini kimsenin saptıramayacağını, saptırdığını da kimsenin doğru yola iletemeyeceğini bildirdi. Allah'ın bir ve ortaksız olduğunu, O'ndan başka ilâh bulunmadığını ve Muhammed'in O'nun kulu ve elçisi olduğunu tasdik etti.
+
+Dımâd bu sözleri duyunca onları yeniden işitmek istedi:
+
+«Şu sözlerini bana bir daha tekrarla!»
+
+Allah Resûlü ﷺ onları üç defa tekrarladı.
+
+Dımâd, bu sözlerin kendisinde uyandırdığı hayranlığı anlattı.
+
+Daha önce kâhinleri, sihirbazları ve şairleri dinlemişti; fakat Peygamber'in söylediklerine benzer bir söz hiç işitmemişti.
+
+Ardından İslam üzere Peygamber'e ﷺ biat etmek istedi.
+
+— Sahih Müslim 868. Kısa alıntılar: İslami Okul'da yayımlanan Sahih-i Müslim Türkçe tercümesi, Cuma bölümü, hadis 868. Konuşmanın diğer kısımları anlamı korunarak dolaylı anlatılmıştır.
+
+Dımâd Mekke'ye, Muhammed'in ﷺ “deli” olduğu iddiası kendisinden önce ulaşmış halde girmişti.
+
+Fakat adamı bizzat dinlediğinde kendisine anlatılan şeyi bulamadı.
+
+Onun hikâyesi hem Kureyş'in yaymaya çalıştığı anlatının etkisini hem de bir insan Peygamber'e ulaşıp onu doğrudan dinlediğinde Kureyş'in sonucu kontrol etme gücünün sınırlarını gösterir.
+
+Kureyş insanlara ne söyleyeceği konusunda anlaşmıştı.
+
+Gelenleri uyarmak için yollarda oturmuştu.
+
+Buna rağmen Muhammed'in ﷺ haberi Arap heyetleriyle Mekke dışına çıktı.
+
+Artık mücadele yalnızca “Muhammed'i Mekke içinde nasıl durdururuz?” sorusuyla sınırlı değildi.
+
+Kureyş'in kuşatmaya çalıştığı davet Mekke dışında da konuşulmaya başlamıştı.
+
+Bundan sonraki aşamada ona karşı kullanılan yöntemler daha da sertleşecekti.
+
+Bu Bölümün Temel Kaynakları
+
+• İbn Hişâm'ın naklettiği İbn İshak Sîret'i: Velîd b. Muğîre'nin hac mevsiminden önce Kureyşlilerle toplantısı; kâhin, deli, şair ve sihirbaz nitelemelerinin tartışılması; Arap heyetlerinin uyarılması; Peygamber'in ﷺ haberinin mevsimden sonra yayılması.
+• Müddessir sûresi 74:11-26. Tefsir eserleri bu ayetleri Velîd b. Muğîre ile ilişkilendirir.
+• Hicr sûresi 15:91-93. İbn İshak bu ayetleri Kur'an hakkında farklı sınıflamalar yapan adamlarla ilişkilendirmiş; İbn Hişâm da bu bağlamda “'idîn” kelimesini açıklamıştır.
+• Dımâd el-Ezdî'nin Mekkelilerin Muhammed'e ﷺ deli dediğini duyması, sonra Peygamber'le görüşüp Müslüman olması: Sahih Muslim 868.
+• İlk davetin tevhid, akrabalık bağlarını sürdürme ve putları kırma içeriği: Amr b. Abese hadisi, Sahih Muslim 832.
+• Vermek, yetim ve yoksulla ilgili Mekkî öğretiler: Kur'an 92:5-10; 107:1-3; 89:17-18.
+• İslam'dan sonra isimlendirme alışkanlıklarındaki değişim gözlemi, cahiliye ve erken İslam nesillerinin Arap soy ve isimlerinin incelenmesine dayanır. Bu, tarihsel bir yardımcı gözlemdir; Sîret olaylarının kronolojisini bağımsız olarak belirleyen bir delil değildir.

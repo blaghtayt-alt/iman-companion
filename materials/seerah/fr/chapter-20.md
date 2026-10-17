@@ -1,0 +1,255 @@
+# Après six années : lorsque les événements forment une seule image
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Chapitre vingt
+
+Après six années : lorsque les événements forment une seule image
+
+Abd Allah ibn Suhayl et le bilan de la première étape de la prédication
+
+1. Abd Allah ibn Suhayl : foi, émigration et constance
+
+Abd Allah ibn Suhayl ibn Amr, qu’Allah l’agrée, faisait partie des membres de la famille de Suhayl qui émigrèrent en Abyssinie, mais son parcours ne s’arrêta pas à cette émigration. Son père Suhayl était un notable des Banou Amir ibn Lou’ayy et l’un des hommes de Quraysh qui s’opposaient à la mission du Prophète ﷺ. Abd Allah choisit une autre voie et compta parmi les premiers musulmans. Les récits divergent sur sa participation à la première ou à la seconde émigration ; la seconde est la version la plus connue, tandis que son départ pour l’Abyssinie est bien mentionné dans les ouvrages de Sîrah et les biographies. Il était encore très jeune. Si les récits lui donnant vingt-sept ans à Badr sont exacts, il avait probablement entre quinze et dix-sept ans lorsqu’il embrassa l’islam.
+
+À son retour d’Abyssinie, son père ne le laissa pas tranquille. Ibn Sa’d rapporte que Suhayl le fit ligoter et retenir, puis exerça sur lui des pressions pour qu’il abandonne l’islam. Abd Allah resta sous son autorité jusqu’à Badr, quelques années plus tard. Il partit avec l’armée de Quraysh parce qu’il accompagnait son père et se trouvait sous son contrôle, et non parce qu’il avait repris leur religion. Lorsque les deux armées se rapprochèrent, il saisit sa chance : avant le combat, il rejoignit les musulmans et le Messager d’Allah ﷺ, puis participa à Badr en tant que musulman. Son père se trouvait dans l’armée de Quraysh, tandis qu’il était dans les rangs du Messager.
+
+Abd Allah accompagna le Prophète ﷺ dans les événements qui suivirent Badr. Puis, lors de la conquête de La Mecque, son père Suhayl ibn Amr embrassa l’islam. Les biographies rapportent qu’Abd Allah demanda une garantie de sécurité pour lui. Le fils autrefois retenu par son père à cause de sa foi contribua ainsi à le protéger lorsque la situation changea. Abd Allah vécut après la mort du Prophète ﷺ jusqu’à la bataille d’al-Yamamah, menée contre les partisans de Mousaylimah sous le califat d’Abou Bakr, qu’Allah l’agrée ; il y mourut en martyr. Ibn Sa’d rapporte qu’Abou Bakr rencontra ensuite Suhayl et lui présenta ses condoléances. Le jeune croyant issu de la maison d’un adversaire avait connu l’émigration et la captivité, rejoint le Prophète à Badr, vu son père devenir musulman, puis achevé sa vie en martyr.
+
+D’autres récits d’Abyssinie
+
+2. Pourquoi le Négus dit-il qu’Allah n’avait reçu de lui aucun pot-de-vin ?
+
+Un récit de Sîrah rapporte qu’en refusant les cadeaux de Quraysh, le Négus expliqua qu’Allah lui avait rendu son royaume sans lui demander de pot-de-vin ; lui non plus n’en accepterait donc pas dans cette affaire. Ces paroles renvoyaient à sa jeunesse et à son retour sur le trône.
+
+Ibn Ishaq rapporte, dans un récit transmis par Urwa ibn al-Zubayr d'après Aïcha, qu'Allah l'agrée, que le père du Négus était roi d'Abyssinie et qu'il n'avait pas d'autre enfant que ce garçon. Le Négus avait un oncle qui avait plusieurs fils. Certains Abyssiniens craignirent qu'après son père, le royaume ne dépende que d'un héritier unique. Ils tuèrent donc son père et placèrent son oncle sur le trône.
+
+Le jeune Négus grandit auprès de son oncle. Son intelligence et sa fermeté lui donnèrent une grande influence sur lui, ce qui inquiéta ceux qui avaient assassiné son père. Ils redoutaient que l’oncle le désigne comme roi et qu’il les tue pour venger son père, car il savait déjà qu’ils étaient les meurtriers. Ils demandèrent à l’oncle de le tuer ou de l’expulser. Celui-ci refusa de le tuer, mais le fit partir. Selon le récit, ils le vendirent à un marchand pour six cents dirhams, et le marchand l’emmena.
+
+Puis, selon le même récit, son oncle mourut le jour même. La situation en Abyssinie se désorganisa et aucun de ses fils ne parvint à gouverner convenablement. Les gens se mirent alors à rechercher le jeune homme qu'ils avaient chassé. Ils le retrouvèrent, le ramenèrent en Abyssinie, posèrent la couronne sur sa tête et en firent leur roi.
+
+Mais le marchand qui avait payé pour lui vint réclamer son droit. Les gens tentèrent de priver le marchand de son argent. Selon le récit, le Négus leur imposa soit de lui rembourser ce qu’il avait payé, soit de lui remettre le jeune homme qu’il avait acheté pour qu’il l’emmène où il voudrait, même si ce jeune homme était désormais leur roi. Devenu roi, il aurait pu ignorer cette transaction, mais il ne le fit pas. Le marchand fut donc remboursé.
+
+Cet épisode éclaire le refus des cadeaux de Quraysh, des années plus tard. Le Négus considérait qu’Allah lui avait rendu son royaume sans qu’il l’achète par la corruption ; il ne ferait donc pas de ces cadeaux le prix d’un changement de jugement sur les réfugiés accueillis chez lui. Ces détails relèvent de récits historiques de Sîrah dont toutes les parties ne sont pas établies au degré d’un hadith authentique. Ils se distinguent donc des récits authentifiés dans les Sahih d’al-Boukhari et de Mouslim.
+
+3. Une autre épreuve rencontrée par le Négus
+
+Le Négus affronta une autre épreuve, différente de la tentative d’un rival de s’emparer du royaume. Cette fois, le conflit portait sur sa croyance plutôt que sur l’identité du souverain. Ibn Ishaq rapporte qu’un groupe d’Abyssiniens l’accusa d’avoir quitté leur religion après avoir accepté ce que les musulmans disaient de Jésus, paix sur lui, et se souleva contre lui. Conscient du danger, il fit prévenir Ja’far et ses compagnons et prépara des navires pour eux. Selon le récit, il leur recommanda de partir vers un lieu sûr s’il était vaincu, et de rester s’il l’emportait.
+
+Il rédigea ensuite une déclaration attestant qu’Allah seul mérite l’adoration, que Muhammad est Son serviteur et Son Messager, et que Jésus est Son serviteur et Son Messager, Sa parole et un esprit venant de Lui. Il s’agit ici d’un esprit créé par Allah et rattaché à Lui par honneur ; cela ne signifie pas que Jésus, paix sur lui, est une partie d’Allah. Il plaça le document près de sa poitrine et sortit à la rencontre de son peuple.
+
+Il leur demanda d'abord ce qu'ils pensaient de sa conduite parmi eux. Ils témoignèrent qu'il les avait bien gouvernés. Ils lui dirent ensuite que leur objection concernait Jésus, que la paix soit sur lui. Il leur demanda ce qu'eux-mêmes disaient de Jésus, et ils exposèrent leur croyance. Le Négus posa alors la main sur sa poitrine, à l’endroit où il avait dissimulé le document, et affirma son témoignage au sujet de Jésus fils de Marie, paix sur lui. Il visait la croyance qu’il avait mise par écrit, sans leur en exposer le détail. Les gens comprirent ses paroles autrement, s’en satisfirent et se retirèrent.
+
+Il s’agit également d’un récit historique de Sîrah dont les détails n’ont pas le degré d’un hadith authentifié. Il décrit le danger personnel que pouvait entraîner la protection des musulmans pour le Négus. Celui-ci gouvernait une société dotée de sa propre croyance et de ses forces internes, où un désaccord religieux pouvait menacer le souverain lui-même.
+
+Les six premières années de la mission
+
+Après les récits de l’émigration en Abyssinie, la Sîrah arrive approximativement à la fin de la cinquième année ou au début de la sixième année de la mission. Les persécutions, l’émigration et les négociations avec Quraysh, considérées ensemble, révèlent des traits moins visibles dans chaque événement pris isolément.
+
+4. Les épreuves mecquoises dans l’histoire des messages divins
+
+Dès le début, la révélation enseigna au Prophète ﷺ que d’autres messagers avaient subi avant lui des épreuves semblables. Dans ces premiers jours, Waraqa ibn Nawfal lui expliqua que celui qui était venu à Muhammad ﷺ était Gabriel, l’ange qui était venu à Moïse, que la paix soit sur lui, et que tout homme venu avec un message semblable avait rencontré l’hostilité. Le Coran continua ensuite à répéter ce sens sous différents angles.
+
+Allah dit :
+
+Des Messagers, avant toi, ont été traités de menteurs, mais ils ont pris en patience d’avoir été ainsi traités de menteurs et persécutés, jusqu’à ce que leur fût venu Notre secours.
+
+— Al-An'am, 6:34. — Dr Nabil Radwan — Noor International Center (extrait)
+
+Les événements mecquois s’inscrivent dans les constantes qu’Allah décrit dans la vie des messagers, des peuples et des sociétés humaines. Un messager apporte la vérité, son peuple se divise à son sujet, les preuves deviennent claires, puis viennent le rejet et les épreuves des croyants, auxquels la patience est prescrite. Le Coran replace ainsi leur expérience dans une longue histoire des messages divins, au lieu de les laisser croire que de telles épreuves commençaient avec eux.
+
+5. Des preuves sans cesse présentées malgré le rejet
+
+Malgré les dénégations persistantes de Quraysh, le Coran continuait de s’adresser à eux, multipliant les arguments, les questions et les preuves, répondant à leurs objections et en corrigeant les erreurs.
+
+Qui a créé ? Qui pourvoit ? Qui donne la vie et donne la mort ? Quelle preuve existe-t-il que les idoles méritent une part de l'adoration ? Comment nier la résurrection alors que l'être humain a été créé une première fois ? Qu'est-il arrivé aux peuples qui ont rejeté leurs messagers ?
+
+Le conflit ne se réduisit pas à l’affrontement dès le premier rejet. De longues années d’explication de la vérité, fondée sur des preuves et des réponses aux doutes, le précédèrent et l’accompagnèrent. Ce schéma revient dans les sourates mecquoises : les gens nient, puis reçoivent d’autres versets ; ils discutent, puis une autre réponse vient ; ils demandent un signe et obtiennent une réponse ; ils se moquent, mais l’explication ne cesse pas. La clémence, le délai accordé et la diversité des arguments étaient au cœur de cette période.
+
+6. Le choix divin ne suit pas les mesures humaines
+
+Les premières années montrent aussi qu’Allah choisit qui Il veut pour ce qu’Il veut accomplir. Il choisit Muhammad ﷺ pour porter Son message.
+
+Allah dit :
+
+Allah Sait mieux à qui confier Son Message.
+
+— Al-An'am, 6:124. — Dr Nabil Radwan — Noor International Center (extrait)
+
+Et Il dit :
+
+Ton Seigneur crée ce qu’Il veut et choisit.
+
+— Al-Qasas, 28:68. — Dr Nabil Radwan — Noor International Center (extrait)
+
+Il est authentiquement rapporté que le Prophète ﷺ a dit :
+
+« Certes, Allah a élu Kinânah parmi les fils d'Ismâ'îl, ensuite Il a élu Quraysh parmi Kinânah, puis Il a élu Banî Hâshim parmi Quraysh, enfin Il m'a élu parmi Bani Hâshim. »
+
+— Sahih Muslim, 2276. Traduction : HadeethEnc, extrait de la version parallèle rapportée par Ibn Hibban.
+
+Dans la Sîrah, le choix divin ne s’arrête pas à l’ascendance. Allah choisit pour ce message des hommes et des femmes de milieux variés : de La Mecque et d’ailleurs, de familles puissantes et de groupes vulnérables, de la noblesse et de personnes liées à des familles ou tribus par alliance ou après affranchissement. Certains n’auraient pas occupé le premier rang selon les critères mecquois. Ces premiers croyants montrent que le choix d’Allah ne suit pas nécessairement l’estime accordée par la société.
+
+7. Fermeté dans le message, souplesse dans les moyens
+
+Le contenu ne change pas, mais les moyens ne sont pas tous identiques. Lorsqu'un compromis sur la croyance fut proposé, il n’était pas question de modifier le fondement du message. Lorsque les musulmans se tinrent devant le Négus, ils ne changèrent pas ce qu'ils croyaient au sujet de Jésus, que la paix soit sur lui, afin d'assurer leur séjour.
+
+En même temps, ils utilisèrent les moyens licites capables de les protéger : la protection tribale, un souverain juste, l'émigration vers un pays sûr, la discrétion lorsqu'elle était nécessaire, et d'autres moyens disponibles. Être réaliste ne signifiait pas changer la religion. Rester ferme dans la religion ne signifiait pas non plus rejeter les moyens légitimes à leur disposition.
+
+8. Le Coran accompagne les événements et en éclaire le sens
+
+La révélation du Coran accompagna toute cette période. Les Compagnons ne vécurent pas les événements pour n’en lire l’explication que des décennies plus tard : les versets descendaient tandis qu’ils les traversaient. La révélation répondait au rejet, les versets de patience accompagnaient les souffrances, le Coran dévoilait la réalité des affirmations polythéistes, et une crise se trouvait replacée dans une histoire plus vaste que l’instant présent.
+
+Le Coran affermissait ainsi cette génération en lui enseignant à la fois ce qu’elle devait croire et comment comprendre ce qui lui arrivait. La manière d’endurer change lorsque l’on comprend la place d’une épreuve au regard du vrai et du faux, pourquoi de telles épreuves surviennent, ce qui les a précédées dans la vie des messagers et ce qu’Allah a promis au-delà.
+
+Qui porta le message durant ces années ?
+
+9. Former les Compagnons à assumer leurs responsabilités
+
+La présence du Prophète ﷺ forma des hommes capables d'agir lorsqu'ils étaient près de lui comme lorsqu'ils étaient loin de lui. Abu Bakr, qu'Allah l'agrée, fut une cause de l'entrée en islam de plusieurs des premiers croyants. Ja'far, qu'Allah l'agrée, dirigea les émigrants en Abyssinie tandis que le Messager d'Allah ﷺ se trouvait à La Mecque. D'autres Compagnons assumèrent différentes responsabilités selon les besoins de la période.
+
+L'éducation prophétique ne produisait pas des disciples incapables d'agir si le Prophète ﷺ n'était pas physiquement devant eux. Elle formait des personnes qui connaissaient le fondement du message, chacune assumant ensuite les responsabilités à sa portée.
+
+10. Une génération remarquablement jeune
+
+Beaucoup de ceux qui portèrent les difficultés des premières années étaient des adolescents et de jeunes hommes qui n’avaient pas encore une longue expérience de la vie, comme Abd Allah ibn Suhayl.
+
+Al-Zubayr ibn al-Awwam faisait partie des jeunes parmi les premiers musulmans ; pourtant, en Abyssinie, on lui confia la mission d'aller connaître l'issue du combat qui menaçait la stabilité du règne du Négus. Al-Arqam ibn Abi al-Arqam était jeune, et sa maison devint l'un des lieux de réunion les plus connus des musulmans au début de la mission. Ali ibn Abi Talib, qu'Allah l'agrée, embrassa l'islam alors qu'il était encore très jeune. Les jeunes n'étaient donc pas un public attendant la fin de la période difficile avant de commencer à avoir un rôle. Ils étaient au cœur même de cette période.
+
+11. Les femmes furent au cœur des débuts de la communauté
+
+Khadija, qu'Allah l'agrée, faisait partie de l'histoire dès le premier instant. Sumayya, qu'Allah l'agrée, fut parmi les premières à donner sa vie à cause de la foi. Des femmes participèrent à l'émigration. Certaines femmes esclaves et vulnérables furent également maltraitées.
+
+La femme n'était donc pas un élément secondaire apparu une fois la communauté musulmane installée. Elle était présente au cœur des années fondatrices : dans la foi, dans le soutien, dans l'épreuve, dans l'émigration, et dans la construction de la famille musulmane loin de La Mecque.
+
+12. La patience et les moyens légitimes de protection
+
+La patience fut l'un des plus grands thèmes de cette période. Mais les événements montrent eux-mêmes que patienter ne signifiait pas rechercher la souffrance. Lorsqu'il était possible d'écarter un tort par un moyen licite, ce moyen était utilisé. Lorsqu'un esclave pouvait être libéré de la main de celui qui le torturait, l'affranchissement devenait un moyen de secours. Lorsqu'il devenait possible de partir vers un pays sûr, il y avait l'émigration. Lorsque rester ouvertement visible n'était pas sûr, la discrétion et la prudence étaient utilisées.
+
+Deux choses se réunissaient donc sans contradiction : tenir ferme lorsque l'épreuve survient, et chercher à l'écarter lorsqu'une voie licite existe. Cela diffère de l’idée selon laquelle la patience obligerait une personne à continuer de subir des mauvais traitements alors qu’elle pourrait légitimement y échapper.
+
+13. La prudence et la confiance en Allah
+
+Dès les débuts de la mission, les musulmans apprirent que connaître la vérité ne signifiait pas dévoiler chaque mouvement à l'adversaire. Il y eut une période où les polythéistes ne connaissaient pas tous ceux qui avaient embrassé l'islam. Les réunions comportaient une part de discrétion. Le musulman devait savoir quand se montrer, quand rester prudent, quand une proclamation publique était utile, et quand elle provoquerait un tort inutile.
+
+Les raisons précises du choix de la maison d’al-Arqam comme lieu de réunion ne sont pas toutes connues avec certitude. Plusieurs explications ont été avancées, mais elles ne sont pas toutes étayées par des preuves. La prudence, la vigilance et le recours aux moyens disponibles étaient compatibles avec la confiance en Allah et faisaient partie de la manière dont cette génération assumait la mission.
+
+14. Le Coran apprenait aux croyants à comprendre leurs adversaires
+
+Le Coran ne se contentait pas de montrer l’erreur des adversaires. Il révélait aux croyants leurs façons de contester, de nier et de détourner de la vérité. Il rapportait leurs arguments et y répondait, dévoilait parfois l’orgueil ou l’obstination derrière une objection, et expliquait comment un doute pouvait servir à empêcher les gens d’écouter la vérité.
+
+Le Compagnon apprenait ce qu’il croyait, ce que soutenait son adversaire, l’origine de cette affirmation et la réponse du Coran. Ce lien entre révélation et événements faisait partie de l’éducation dans la Sîrah ; on ne peut en saisir toute la portée en séparant les faits politiques et sociaux des sourates révélées à la même époque.
+
+Une nouvelle mesure des personnes
+
+15. Celui que la société ne remarque pas peut être mentionné par le Coran
+
+Quraysh mesurait les gens par la lignée, la richesse, la protection et le statut. La révélation établit une autre mesure.
+
+Allah dit :
+
+Ne repousse pas ceux qui prient leur Seigneur matin et soir à la recherche de Son Visage (wajh).
+
+— Al-An'am, 6:52. — Dr Nabil Radwan — Noor International Center (extrait)
+
+Il y avait parmi les musulmans des gens qui ne possédaient rien qui obligeât Quraysh à leur accorder une place d'honneur dans ses assemblées. Mais leur faible importance dans l'échelle sociale ne signifiait pas qu'ils étaient sans importance auprès d'Allah. La même idée apparaît dans l’histoire d’Abd Allah ibn Umm Maktum, qu’Allah l’agrée, le Compagnon aveugle dont la venue auprès du Prophète ﷺ est liée, selon l’avis bien connu des exégètes, au début de la sourate Abasa :
+
+Il a froncé les sourcils et s’est détourné, parce que l’aveugle est venu vers lui (lui parler).
+
+— Abasa, 80:1–2. — Dr Nabil Radwan — Noor International Center
+
+À ce moment-là, le Messager d’Allah ﷺ s’efforçait d’inviter des notables de Quraysh à l’islam, espérant qu’ils l’accepteraient. Pourtant, le rappel divin vint au sujet d'un homme que les critères de Quraysh ne plaçaient pas au même rang que ces notables. Quraysh demande : quel est le rang de cet homme parmi les gens ? La mesure construite par la révélation demande : comment s'est-il tourné vers Allah et vers la vérité ?
+
+16. Les maisons des adversaires les plus acharnés n'étaient pas fermées à la guidée
+
+De nombreux croyants venaient des maisons d’hommes qui combattaient la prédication. Ils embrassèrent l’islam dès ses débuts, avant que la conquête de La Mecque ne rende manifeste la force des musulmans. Hicham ibn al-As venait de la maison d’al-As ibn Wa’il ; Abou Houdhayfah, de celle d’Outbah ibn Rabi’ah ; Oumm Habibah, qu’Allah l’agrée, de celle d’Abou Soufyan ; Abd Allah et d’autres, de celle de Suhayl ibn Amr. Des fils, des filles et des proches d’autres familles connues pour leur opposition au Prophète ﷺ se convertirent également tôt.
+
+La position du père ne décide pas de celle du fils. La réputation d'une maison ne décide pas du cœur de tous ceux qui y vivent. L'intensité de l'hostilité d'un homme envers la vérité ne signifie pas que le bien ne pourra jamais sortir de sa famille. Celui qui observait la mission à ses débuts ne pouvait donc pas classer les familles entre familles sans espoir de conversion et familles susceptibles d’accepter l’islam simplement en regardant leurs chefs.
+
+La sourate Foussilat dans son contexte mecquois
+
+17. Comprendre la sourate à la lumière de son contexte
+
+Ces thèmes apparaissent dans la sourate Foussilat, dont le Prophète ﷺ récita des passages à Outbah ibn Rabi’ah lorsqu’il vint négocier. Connaître son contexte mecquois — rejet, persécutions, émigration, tentatives de compromis et poursuite des arguments malgré l’opposition — éclaire le lien de la sourate avec cette période. Son ouverture rassemble ces thèmes :
+
+Hâ, Mîm. Voici une révélation émanant du Tout Clément, du Tout Miséricordieux, un Livre aux versets détaillés, un Coran arabe pour des gens qui savent, annonçant l’heureuse nouvelle (aux hommes) et les avertissant mais la plupart d’entre eux se détournent, car ils n’entendent pas.
+
+— Fussilat, 41:1–4. — Dr Nabil Radwan — Noor International Center
+
+Les versets présentent une révélation claire, porteuse de bonne nouvelle et d’avertissement, puis le refus de l’écouter. Les événements mecquois précédents en donnent des exemples concrets.
+
+18. Les messagers précédents face à la même hostilité
+
+La sourate passe des signes de la création à l’avertissement des négateurs, puis au récit des anciens peuples de ‘Ad et de Thamud, avant de revenir à ce que Waraqa ibn Nawfal avait déjà expliqué :
+
+Rien ne t’est dit qui n’ait été déjà dit aux Messagers avant toi.
+
+— Fussilat, 41:43. — Dr Nabil Radwan — Noor International Center (extrait)
+
+Ce que Muhammad ﷺ entendait de son peuple n'était pas nouveau dans l'histoire de la révélation. Les histoires des prophètes dans le Coran devenaient ainsi une source de fermeté pour le Prophète ﷺ et ses Compagnons, et non de simples informations sur le passé.
+
+19. La constance dans la vie des croyants
+
+Dans la même sourate, Allah dit :
+
+Ceux qui disent : « Notre Seigneur est Allah » et font preuve de droiture, les Anges descendront vers eux, (et leur diront) : « N’ayez aucune crainte ! Ne vous affligez point ! Recevez plutôt l’heureuse nouvelle du Paradis qui vous était promis ! […] »
+
+— Foussilat 41:30, extrait du discours des anges en 41:30–32. Nabil Radwan, Noor International Center. […] signale la suite non reproduite.
+
+Les six premières années de la Sîrah montrent comment cette constance se traduisit dans la vie des croyants :
+
+« et font preuve de droiture »
+
+La constance prit forme dans la vie de ceux qui choisirent la foi et en assumèrent les conséquences. Les uns perdirent la protection familiale, les autres quittèrent leur pays, supportèrent les pressions de leurs proches ou passèrent des années en terre étrangère. Leurs expériences éclairent le sens du verset, qui explique en retour leur place sur le chemin de la foi.
+
+20. Une prédication ferme qui ne prend pas les mœurs de ses adversaires
+
+La sourate dit ensuite :
+
+Qui donc pourrait tenir meilleur discours que celui qui appelle les hommes au culte exclusif d’Allah, accomplit de bonnes œuvres et proclame sa soumission au Seigneur ? La bonne action et la mauvaise ne sauraient être égales. Rends le bien pour le mal, tu verras alors celui qui te traitait en ennemi devenir l’être le plus amical.
+
+— Coran, Fussilat 41:33–34. Traduction de Rachid Maach, QuranEnc.
+
+Selon une parole rapportée de Muhammad ibn Sirin, le Messager d’Allah ﷺ est le premier concerné par cette description. Le verset garde toutefois une portée générale pour quiconque appelle à Allah et accomplit de bonnes œuvres :
+
+« Qui donc pourrait tenir meilleur discours que celui qui appelle les hommes au culte exclusif d’Allah… »
+
+La mission rencontre l'hostilité, mais elle n'a pas besoin de devenir une copie de l'hostilité de ses adversaires. Rester ferme sur la vérité est une chose. Adopter les mœurs de ceux qui la combattent en est une autre.
+
+21. Les preuves continuent d’être présentées
+
+Bien que la sourate Fussilat mentionne le détournement des polythéistes, les peuples qui ont rejeté leurs messagers, la foudre et le châtiment, elle ne se termine pas comme si la porte de l'explication avait été fermée.
+
+Vers sa fin, Allah dit :
+
+Nous leur ferons voir Nos Signes en tous pays et en eux-mêmes, jusqu’à ce qu’ils sachent, de toute évidence, que ceci est la vérité même. Ne suffit-il pas que ton Seigneur soit témoin de Toute chose ?
+
+— Fussilat, 41:53. — Dr Nabil Radwan — Noor International Center
+
+Malgré le rejet et les souffrances, cette promesse demeurait :
+
+« Nous leur ferons voir Nos Signes »
+
+L’explication se poursuit, les signes se multiplient et les preuves se renouvellent.
+
+22. Qu'avaient produit ces années ?
+
+Les musulmans n’avaient pas encore d’État ; Badr n’avait pas eu lieu ; Quraysh continuait de les combattre ; et une grande partie d’entre eux se trouvait toujours en Abyssinie. Pourtant, ces années ne furent pas une simple attente d’une période plus forte : elles posèrent les fondements d’une foi reliant les croyants à la voie des prophètes précédents.
+
+Les croyants apprirent que la clarté du message n’exclut pas la sagesse dans les moyens, et que le Coran leur enseigne à la fois ce qu’ils doivent croire et comment comprendre leur réalité. La responsabilité n’attend pas la vieillesse ; les femmes participent à la mission dès son commencement ; celui que la société juge faible peut être grand auprès d’Allah ; et les enfants des adversaires les plus acharnés peuvent devenir les premiers croyants.
+
+Ils unirent la patience au recours aux moyens disponibles, la fermeté à la prudence, la vigilance à la poursuite de la prédication et la clarté à la sagesse. Tels furent les fondements construits en environ six années.
+
+À l’étape suivante, Omar ibn al-Khattab, qu’Allah l’agrée, allait embrasser l’islam après avoir figuré parmi ses adversaires. Sa conversion aurait un effet visible sur la situation des musulmans à La Mecque. Le chapitre suivant ouvre le récit de cette transformation.
+
+Sources principales de ce chapitre
+
+La biographie d’Abd Allah ibn Suhayl ibn Amr, qu’Allah l’agrée, dans les récits d’Ibn Ishaq, d’Ibn Sa’d, d’al-Baladhuri et dans d’autres ouvrages biographiques, qui divergent sur sa participation à la première ou à la seconde émigration.
+
+Le récit de la jeunesse du Négus, de son retour au pouvoir et du contexte de sa parole sur le pot-de-vin : récit de Sîra rapporté par Ibn Ishaq, d'après Urwa ibn al-Zubayr, d'après Aïcha, qu'Allah l'agrée ; il est donc présenté comme un récit de Sîra.
+
+Le récit de l'opposition de certains Abyssiniens au Négus à cause de sa position concernant Jésus, que la paix soit sur lui : parmi les récits de Sîra transmis par Ibn Ishaq, sans lui donner le statut d'un hadith authentifié.
+
+Le hadith sur le choix par Allah de Kinanah, puis de Quraysh, puis des Banu Hashim, puis du Prophète ﷺ : Sahih Muslim.
+
+Passages coraniques cités dans ce chapitre : Al-An’am, Al-Qasas, Abasa et Fussilat.

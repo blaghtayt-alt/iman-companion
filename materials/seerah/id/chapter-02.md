@@ -1,0 +1,71 @@
+# Seorang Anak yang Memulai Hidup sebagai Yatim
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bab 2
+
+Seorang Anak yang Memulai Hidup sebagai Yatim
+
+Pada tahun yang tetap dikenang bangsa Arab sebagai Tahun Gajah, lahirlah di Makkah seorang anak dari Bani Hasyim. Namanya Muhammad bin Abdullah bin Abdul Muththalib, semoga selawat dan salam tercurah kepadanya. Keluarga tempat ia lahir dikenal di tengah Quraisy, dan kakeknya, Abdul Muththalib, termasuk tokoh terkemuka Makkah. Namun sebelum anak itu lahir, kehilangan pertama sudah lebih dahulu terjadi: ayahnya, Abdullah, tidak hidup sampai dapat melihat putranya. Riwayat yang paling terkenal dalam kitab-kitab Sirah menyebutkan bahwa Abdullah wafat sebelum kelahiran putranya. Dengan demikian, Muhammad memulai hidup sebagai seorang yatim.
+
+Ketika ditanya tentang puasa hari Senin, Rasulullah ﷺ menjawab: “Hari tersebut adalah hari aku dilahirkan, hari aku diutus atau diturunkannya wahyu untukku.”
+
+Sahih Muslim 1162 — terjemahan yang diterbitkan Jakarta Islamic Centre.
+
+Riwayat sahih menegaskan bahwa beliau lahir pada hari Senin. Adapun tanggal tepatnya di bulan Rabiulawal, para sejarawan sejak dahulu berbeda pendapat. Beberapa tanggal diriwayatkan dan tanggal dua belas menjadi sangat terkenal, tetapi tanggal pastinya tetap diperselisihkan oleh para sejarawan. Hal yang secara jelas dikaitkan oleh Nabi sendiri dengan kelahirannya adalah hari Senin.
+
+Muhammad berasal dari Bani Hasyim, salah satu kabilah Quraisy, dan nasab yang dikenal bersambung sampai Adnan. Kabilah di Makkah bukan sekadar nama keluarga; ia menentukan hubungan kerabat, perlindungan, persekutuan, dan tanggung jawab. Kelak, ketika dakwah dimulai, pengaruh hubungan-hubungan ini akan tampak berulang kali.
+
+Pada tahun-tahun awal, beliau tidak selalu tinggal bersama ibunya, Aminah binti Wahb. Sebagian keluarga Makkah memiliki kebiasaan mengirim anak kecil kepada perempuan dari kabilah pedalaman untuk disusui dan tinggal sementara di luar kota. Ibunya menyusuinya; Tsuwaibah, seorang hamba perempuan milik Abu Lahab, juga menyusuinya untuk suatu masa; sedangkan ibu susu yang paling terkenal merawatnya di pedalaman adalah Halimah as-Sa‘diyyah dari Bani Sa‘d, bagian dari Hawazin. Sejak kecil, anak yatim ini mengenal lebih dari satu rumah dan lebih dari satu bentuk pemeliharaan.
+
+Kitab-kitab Sirah memuat banyak kisah tentang keberkahan yang muncul pada rumah dan ternak Halimah setelah ia membawa Muhammad bersamanya. Kisah-kisah itu masyhur, tetapi rincian-rinciannya tidak semuanya sama kuat dari sisi riwayat. Kemasyhuran kisah-kisah tersebut tidak menjadikan setiap rinciannya pasti benar. Telah dikenal bahwa Muhammad menjalani sebagian masa kecilnya di Bani Sa‘d dalam asuhan Halimah, dan hubungan persusuan itu tetap dikenal dalam riwayat hidupnya.
+
+Anas bin Malik -raḍiyallāhu 'anhu- meriwayatkan bahwa Rasulullah -ṣallallāhu 'alaihi wa sallam- (saat kanak-kanak) didatangi oleh Jibril -ṣallallāhu 'alaihi wa sallam- pada saat beliau bermain dengan anak-anak, lalu Jibril mengambilnya dan menelentangkannya lantas membelah dadanya dan mengeluarkan hatinya lalu mengeluarkan darinya darah yang beku; ia berkata, "Ini adalah jatah setan padamu." Kemudian ia mencucinya di bejana emas dengan air zamzam, kemudian direkatkannya lagi dan dikembalikan ke tempatnya semula.
+[…]
+Anas berkata, "Sungguh aku pernah melihat bekas jarum itu di dadanya."
+
+[Kata Arab al-qalb dalam riwayat ini merujuk pada jantung sebagai organ tubuh.]
+
+Sahih Muslim 162 — kutipan terjemahan Indonesia terbitan HadeethEnc, hadis 10862. Keterangan dalam kurung siku tentang al-qalb merupakan penjelasan penyunting.
+
+Ketika beliau masih berada di Bani Sa‘d, terjadilah peristiwa pembelahan dada. Pokok peristiwa ini diriwayatkan secara sahih dalam Sahih Muslim dari Anas bin Malik. Muhammad sedang bermain bersama anak-anak ketika Jibril, semoga kedamaian tercurah kepadanya, datang, membelah dadanya, mengeluarkan jantungnya, mencucinya dengan air Zamzam, lalu mengembalikannya. Anas kemudian mengatakan bahwa ia masih melihat bekas jahitan pada dada Nabi.
+
+Pembelahan dada merupakan peristiwa luar biasa yang ditegaskan oleh riwayat sahih. Penjelasan fisik atau rincian tambahan di luar isi riwayat itu tidak dapat dibuktikan berdasarkan riwayat tersebut. Peristiwa ini terjadi pada masa kecil beliau, sebagai salah satu kejadian luar biasa bertahun-tahun sebelum wahyu mulai turun.
+
+Setelah masa tinggal di pedalaman, Muhammad kembali kepada ibunya, Aminah. Ketika berusia sekitar enam tahun, Aminah membawanya ke utara menuju Yatsrib, kota yang kelak dikenal sebagai Madinah. Keluarga Abdul Muththalib memiliki hubungan dengan Bani Adi bin an-Najjar di sana, sehingga anak itu mengunjungi kerabat bersama ibunya. Setelah itu mereka memulai perjalanan pulang ke Makkah. Namun perjalanan pulang tidak berakhir seperti ketika mereka berangkat.
+
+Di sebuah tempat bernama al-Abwa, antara Makkah dan Madinah, Aminah wafat. Muhammad berusia sekitar enam tahun. Ia berangkat dari Makkah bersama ibunya, lalu harus kembali tanpa ibunya. Keadaan yatimnya semakin berat: pertama ayah yang tidak sempat ia kenal, kemudian ibu yang kasih sayangnya telah ia rasakan langsung. Di antara orang yang ikut berperan dalam pengasuhannya pada masa itu adalah Barakah, yang lebih dikenal sebagai Ummu Aiman.
+
+Setelah wafatnya Aminah, kakeknya Abdul Muththalib menjadi pengasuhnya. Kitab-kitab Sirah menggambarkan kasih sayang khusus sang kakek kepada cucunya. Abdul Muththalib memiliki alas duduk di bawah naungan Ka’bah yang biasanya tidak diduduki oleh anak-anaknya karena rasa hormat. Ketika Muhammad kecil datang dan duduk di sana lalu para pamannya ingin memindahkannya, Abdul Muththalib meminta mereka membiarkannya dan bersumpah demi Allah bahwa anak itu akan memiliki kedudukan besar. Tokoh Quraisy yang tampil dalam peristiwa Gajah kini melindungi cucunya yang yatim.
+
+Perlindungan itu juga tidak berlangsung lama. Ketika Muhammad berusia sekitar delapan tahun, Abdul Muththalib wafat. Setelah kehilangan ayah dan ibu, datang kehilangan ketiga: orang yang menjadi pelindung langsungnya. Pengasuhannya kemudian berpindah kepada pamannya, Abu Thalib. Abu Thalib dan Abdullah, ayah Nabi, adalah saudara kandung seayah dan seibu; Abu Thalib pun mengambil tanggung jawab atas anak saudaranya. Pada tahun-tahun berikutnya, Abu Thalib tetap dekat dengannya.
+
+Bukankah Dia mendapatimu sebagai seorang yatim, lalu Dia melindungi(mu).
+
+Al-Qur’an 93:6 — QuranEnc, Kementerian Agama RI
+
+Kehilangan yang datang berturut-turut ini sungguh berat: ayah wafat sebelum anak dapat membentuk kenangan bersamanya; ibu wafat ketika anak itu berusia sekitar enam tahun; kakek wafat ketika anak itu berusia sekitar delapan tahun. Kehilangan itu sendiri sudah membawa kepedihan yang mendalam. Namun ketika Al-Qur’an kelak mengingatkan Nabi tentang masa kecilnya, Al-Qur’an tidak hanya menyebut keyatiman; ia juga menyebut perlindungan yang menyertainya.
+
+Perlindungan tidak berarti rasa sakit itu tidak pernah terjadi. Aminah benar-benar wafat, Abdul Muththalib benar-benar wafat, dan keyatiman itu nyata. Maksudnya adalah bahwa kesulitan tidak berubah menjadi keterlantaran: setelah ibu ada kakek, setelah kakek ada Abu Thalib, dan ada pula orang-orang lain di sekitarnya yang merawatnya.
+
+Kehidupan Musa alaihissalam juga menunjukkan bahwa ujian tidak berarti seseorang kehilangan pemeliharaan Allah. Dalam Surah Taha, Allah mengingatkannya akan perjalanan hidupnya, sejak masih bayi hingga datang pada waktu yang telah ditetapkan:
+
+(Yaitu) ketika saudara perempuanmu berjalan, lalu dia berkata (kepada keluarga Fir'aun), ‘Bolehkah saya menunjukkan kepadamu orang yang akan memeliharanya?’ Maka Kami mengembalikanmu kepada ibumu, agar dia senang dan tidak bersedih hati. Dan engkau pernah membunuh seseorang, lalu Kami selamatkan engkau dari kesulitan (yang besar) dan Kami telah mencobamu dengan beberapa cobaan (yang berat); lalu engkau tinggal beberapa tahun di antara penduduk Madyan, kemudian engkau, wahai Musa, datang menurut waktu yang ditetapkan,
+
+Al-Qur’an 20:40 — QuranEnc, Kementerian Agama RI
+
+Yusuf alaihissalam dilemparkan ke dalam sumur oleh saudara-saudaranya, kemudian diangkat dari sana dan dijual, jauh dari keluarganya. Ia lalu dipenjara meskipun bukti-bukti bahwa ia tidak bersalah telah tampak. Setelah bebas, ia mendapat kedudukan dekat dengan raja dan dipercaya mengurus perbendaharaan negeri. Tahap-tahap ini dikisahkan dalam Surah Yusuf, ayat 15, 19–20, 35, dan 54–56. Kedudukan dan wewenang itu datang setelah berbagai kesulitan; pemeliharaan Allah tidak berarti ia tidak pernah mengalami penderitaan. Allah berfirman:
+
+Dan demikianlah Kami memberi kedudukan kepada Yusuf di negeri ini (Mesir); untuk tinggal di mana saja yang dia kehendaki.
+
+Al-Qur’an — penggalan ayat 12:56 — QuranEnc, Kementerian Agama RI
+
+Hajar radhiyallahu ‘anha, ibu Ismail, bertanya kepada Ibrahim ‘alaihissalam, “Apakah Allah yang telah memerintahkanmu untuk melakukan ini?” Ibrahim menjawab, “Benar.” Hajar berkata, “Jika demikian, Allah pasti tidak akan menyia-nyiakan kami.”
+
+Sahih al-Bukhari 3364 — petikan terjemahan dalam Rukun-Rukun Iman dari Khutbah-Khutbah Pilihan Masjid Nabawi, Abdul Muhsin al-Qasim, hlm. 159; diterbitkan di IslamHouse.
+
+Perbedaan yang sama tampak pada kisah Hajar radhiyallahu ‘anha dan bayi Ismail, semoga kedamaian tercurah kepadanya, ketika Ibrahim, semoga kedamaian tercurah kepadanya, meninggalkan mereka di lembah yang tidak bertanaman karena perintah Allah. Setelah Hajar radhiyallahu ‘anha mengetahui bahwa itu adalah perintah Allah, ia tidak menyimpulkan bahwa jalannya akan mudah; ia memahami bahwa Allah tidak akan menelantarkan mereka. Riwayat ini tersimpan dalam Sahih al-Bukhari dan membantu membedakan dua hal: mengalami kesulitan yang berat dan ditinggalkan tanpa penjagaan Allah bukanlah hal yang sama.
+
+Semua ini tidak berarti bahwa keyatimanlah yang menghasilkan kenabian, atau bahwa risalah Muhammad dapat diperkecil menjadi penjelasan psikologis berdasarkan masa kecilnya. Kenabian adalah pilihan Allah dan wahyu. Kehilangan pada masa kecil beliau benar-benar nyata, begitu pula pengasuhan yang beliau terima. Masih akan ada pengalaman, pekerjaan, dan persiapan lain sebelum beliau mencapai usia empat puluh tahun dan wahyu dimulai.
+
+Dengan demikian Muhammad memasuki tahap hidup berikutnya di rumah Abu Thalib, di Makkah yang Ka’bahnya telah dilindungi pada Tahun Gajah. Ia telah mengenal keyatiman, kehidupan pedalaman, perjalanan, kehilangan, dan pergantian orang yang merawatnya, tetapi ia tidak dibiarkan tanpa tempat berlindung. Dunia tempat beliau akan tumbuh dibentuk oleh agama, adat, ikatan kabilah, dan perdagangan masyarakat Makkah dan Arab, dengan segala kebajikan dan kezalimannya. Tatanan yang rumit itu kemudian dikenal sebagai Jahiliyah.

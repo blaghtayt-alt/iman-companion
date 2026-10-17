@@ -1,0 +1,183 @@
+# Mengapa Nabi berdoa agar Umar memeluk Islam?
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bab Dua Puluh Satu
+
+Mengapa Nabi berdoa agar Umar memeluk Islam?
+
+Umar sebelum Islam: kekuatan yang mendapat arah baharu melalui iman
+
+1. Umar sebelum Islam
+
+Selepas kisah penghijrahan ke Habsyah, kita kembali ke Makkah. Ramai Muslim telah berhijrah, manakala sebilangan yang lebih kecil masih bersama Rasulullah ﷺ. Sebahagian riwayat sirah meletakkan pengislaman Umar bin al-Khattab radhiyallahu ‘anhu pada tahun keenam kenabian. Peristiwa ini jelas mengukuhkan kedudukan umat Islam di Makkah.
+
+Namun sebelum kita menceritakan bagaimana beliau memeluk Islam, ada satu soalan yang perlu didahulukan: Siapakah Umar pada waktu itu, dan mengapa keislaman seorang seperti beliau merupakan peristiwa yang berbeza? Soalan ini penting kerana pada ketika itu Umar bukanlah orang yang dekat dengan kaum Muslimin. Sebaliknya, beliau termasuk orang yang bersikap keras terhadap mereka. Walaupun begitu, terdapat riwayat sahih bahawa Rasulullah, semoga selawat dan salam Allah ke atas baginda, berdoa agar Allah menguatkan Islam melalui keislaman Umar.
+
+2. Doa Nabi untuk menguatkan Islam
+
+Abdullah ibn Umar, semoga Allah meredai mereka berdua, meriwayatkan doa Rasulullah, semoga selawat dan salam Allah ke atas baginda. Maksud hadis itu ialah:
+
+Baginda memohon kepada Allah agar memperkukuh Islam melalui orang yang lebih dikasihi-Nya antara Abu Jahl dengan Umar ibn al-Khattab.
+
+Ibn Umar kemudian menjelaskan bahawa antara kedua-duanya, Umarlah yang lebih dikasihi oleh Allah.
+
+— Jami‘ at-Tirmidhi, 3681. At-Tirmidhi menilainya sebagai hadith hasan sahih gharib. Doa dan kata-kata Ibn Umar di atas disampaikan secara tidak langsung berdasarkan maksud teks Arab hadis.
+
+Kekuatan di sini ialah keupayaan dan perlindungan yang membolehkan umat Islam menzahirkan agama serta tetap teguh berpegang kepadanya. Kesan doa ini kemudian nyata dalam kehidupan mereka.
+
+Selepas Umar memeluk Islam, Abdullah bin Mas‘ud, semoga Allah meredainya, berkata:
+
+“Kami menjadi kuat sejak Umar ra. masuk Islam.”
+
+— Sahih al-Bukhari, 3863. Terjemahan petikan: Indahnya Islam, “9 kelebihan Amirul Mukminin Umar Al-Khattab RA”, 3 November 2016, bahagian 4, petikan 7.
+
+Dua riwayat ini menunjukkan bahawa Nabi ﷺ berdoa agar Allah menguatkan Islam melalui salah seorang daripada dua lelaki, termasuk Umar, dan seorang sahabat yang melalui zaman itu menyaksikan perubahan setelah Umar memeluk Islam. Namun, hadis tersebut tidak memperincikan sifat-sifat yang menjadi sebab Umar disebut dalam doa. Renungan tentang keperibadiannya di Makkah dan pengaruhnya kemudian perlu dibezakan daripada doa yang diriwayatkan. Renungan itu bukan penjelasan Nabi tentang sebab pemilihannya.
+
+3. Kedudukan Umar dalam kalangan kaumnya
+
+Mungkin pembaca menyangka Nabi ﷺ mengharapkan Umar memeluk Islam kerana seluruh kabilahnya akan mengikutinya. Keadaannya lebih rumit. Umar berasal daripada Bani Adi, cabang Quraisy yang mempunyai kedudukan, tetapi tidak sekuat Bani Abd Syams. Al-Azraqi menyebut bahawa Bani Adi bersekutu dengan Bani Sahm setelah terdesak dalam pertempuran dengan Bani Abd Syams. Namun, Umar sendiri tetap dihormati. Menurut Ibn Abd al-Barr, Quraisy mengutusnya sebagai wakil dalam beberapa rundingan dan pertelingkahan.
+
+Umar juga bukan seorang lelaki yang apabila beliau membuat keputusan, seluruh Quraisy akan mengikutinya secara automatik hanya kerana kedudukan kabilahnya. Hal ini berbeza daripada beberapa pemuka Quraisy yang disokong oleh keluarga besar dengan pengaruh sosial yang luas. Kepentingan Umar juga bukan berpunca daripada kekayaan luar biasa yang ditunggu kaum Muslimin untuk beliau belanjakan bagi mereka jika memeluk Islam.
+
+Keperibadiannya menggabungkan kekuatan dalaman, maruah diri, pendirian yang jelas, ketegasan membuat keputusan, dan kesanggupan menanggung akibat daripada apa yang dianggapnya benar. Sifat-sifat ini sudah ada sebelum Islam, tetapi ketika itu digunakan untuk menentang dakwah.
+
+4. Sekilas kelembutan Umar
+
+Salah satu riwayat paling menarik yang mendedahkan sesuatu tentang Umar sebelum Islam ialah kisah Ummu Abdullah binti Abi Hathmah, semoga Allah meredainya. Ummu Abdullah dan suaminya, Amir bin Rabi‘ah, termasuk kaum Muslimin yang bersiap untuk berhijrah ke Habsyah. Kitab-kitab Sirah meriwayatkan daripada Ibn Ishaq bahawa ketika beliau sedang bersiap untuk berangkat dan suaminya keluar kerana suatu urusan, Umar datang kepadanya. Umar ketika itu masih musyrik.
+
+Ummu Abdullah menceritakan perlakuan Umar terhadap kaum Muslimin:
+
+Beliau menceritakan bahawa kaum Muslimin terpaksa menanggung penderitaan, gangguan dan layanan keras daripada Umar. — Ibn Hisham, al-Sirah al-Nabawiyyah, riwayat Umm Abdullah (maksud kata-katanya).
+
+Maksudnya, beliau tidak melihat Umar sebagai seorang yang berkecuali. Beliau mengetahui bagaimana Umar telah menyakiti kaum Muslimin. Apabila Umar melihatnya bersiap untuk pergi, beliau bertanya tentang pemergian mereka. Ummu Abdullah bersumpah demi Allah bahawa mereka akan berhijrah ke tempat lain di bumi Allah kerana Quraisy telah menyakiti dan menindas mereka, sehingga Allah membuka jalan keluar untuk mereka.
+
+Umar kemudian mendoakan mereka:
+
+Beliau memohon agar Allah menyertai mereka dengan perlindungan-Nya dalam perjalanan. — Ibn Hisham, riwayat yang sama (maksud doa Umar).
+
+Ucapannya mendoakan perlindungan dan pemeliharaan Allah sepanjang perjalanan mereka. Ummu Abdullah kemudian melihat kelembutan pada Umar yang belum pernah dilihatnya, dan pemergian mereka seolah-olah menyedihkannya. Umar belum memeluk Islam atau mengubah pendiriannya, tetapi wanita yang mengenali kekerasannya sempat melihat sisi lain dirinya.
+
+Apabila suaminya Amir pulang, beliau menceritakan apa yang dilihatnya dan bercakap seolah-olah merasakan bahawa Umar mungkin suatu hari nanti akan memeluk Islam. Amir menganggap kemungkinan itu amat tipis kerana mengetahui betapa kerasnya Umar terhadap kaum Muslimin. Pandangannya itu dinyatakan melalui perbandingan yang terkenal dalam riwayat Sirah:
+
+Menurut Amir, lelaki yang dilihat oleh Umm Abdullah itu tidak akan memeluk Islam selagi keldai al-Khattab, bapa Umar, belum memeluk Islam. — Ibn Hisham, riwayat yang sama (maksud kata-kata Amir).
+
+Perbandingan Amir ialah ungkapan berlebih-lebihan yang menunjukkan betapa sukarnya beliau membayangkan Umar akan memeluk Islam. Itulah yang menjadikan kisah ini begitu bermakna. Tidak lama kemudian, orang yang pengislamannya dianggap begitu mustahil menjadi antara tokoh yang paling jelas menguatkan umat Islam.
+
+Riwayat ini termasuk riwayat Sirah daripada Ibn Ishaq, maka kita tidak meletakkannya pada taraf hadith sahih. Namun ia merupakan riwayat Sirah yang terkenal dan sesuai dengan apa yang diketahui tentang kerasnya Umar terhadap kaum Muslimin sebelum Islam.
+
+5. Kekerasannya terhadap umat Islam
+
+Gambaran Umar sebelum Islam bukan hanya berdasarkan tanggapan umum.
+
+Satu riwayat sahih merakamkan kesaksian Sa‘id bin Zaid, semoga Allah meredainya.
+
+Dalam riwayat itu, Sa‘id bersumpah dengan nama Allah ketika mengenang bagaimana Umar pernah mengikatnya kerana Sa‘id telah memeluk Islam. Pada waktu itu, Umar sendiri belum memeluk Islam.
+
+— Maksud kesaksian dalam Sahih al-Bukhari, 3862. Riwayat yang seerti: 6942.
+
+Umar mengikat dan menahan Sa‘id dengan paksa kerana Sa‘id telah memeluk Islam. Sa‘id bukan orang asing: bapanya, Zaid bin Amr, ialah sepupu Umar sebelah bapa. Sa‘id termasuk Muslim terawal dan berkahwin dengan Fatimah binti al-Khattab, saudara perempuan Umar. Islam telah pun memasuki lingkungan keluarga terdekatnya ketika Umar masih menentangnya.
+
+Sebelum memeluk Islam, Umar bukan sekadar pemerhati yang belum yakin terhadap dakwah. Kekuatan wataknya mendorongnya bertindak menurut apa yang dipercayainya benar. Selagi menganggap Islam salah, beliau menggunakan kekuatan itu untuk menentangnya. Kisah pengislamannya menjawab persoalan penting: apakah yang berlaku apabila pemahamannya tentang kebenaran berubah?
+
+6. Kekuatan yang dipandu iman
+
+Seseorang mungkin memiliki sifat yang sangat kuat sebelum mendapat hidayah. Selepas mendapat hidayah, sifat itu tidak semestinya hilang; yang berubah ialah arah penggunaannya. Keazaman boleh digunakan untuk membantu kebatilan, kemudian digunakan untuk membantu kebenaran. Keberanian boleh digunakan untuk menyakiti manusia, kemudian digunakan untuk melindungi mereka. Ketegasan dalam membuat keputusan boleh membawa seseorang dengan kuat kepada pendirian yang salah, kemudian apabila kebenaran menjadi jelas, menjadikannya antara orang yang paling teguh berpegang kepadanya.
+
+Umar tidak perlu menjadi seorang yang lemah kemahuan selepas memeluk Islam untuk menjadi seorang yang baik. Yang berubah ialah ukuran yang mengarahkan kemahuan itu. Hal ini membantu kita memahami satu aspek penting doa Nabi ﷺ agar Umar mendapat hidayah. Lelaki yang sebelumnya keras terhadap kaum Muslimin, apabila mendapat hidayah, akan mampu membawa kekuatan yang sama untuk membela apa yang kini diyakininya.
+
+7. Keberanian dan kepimpinan
+
+Dalam kalangan para sahabat sudah terdapat lelaki yang terkenal dengan kekuatan dan keberanian sebelum Umar. Hamzah bin Abdul Muttalib, semoga Allah meredainya, ialah seorang lelaki yang terkenal dengan keberanian dan kekuatannya. Namun ada satu perbezaan penting: keberanian tidak sama sepenuhnya dengan apa yang kita maksudkan sebagai keperibadian kepimpinan yang kuat. Seseorang boleh menjadi pejuang yang sangat gagah, tetapi tidak mempunyai pengaruh luas terhadap keputusan, pandangan dan manusia. Seseorang boleh mempunyai maruah diri yang tinggi, tetapi tidak mengubahnya menjadi pengaruh yang melangkaui dirinya sendiri.
+
+Kehidupan Umar kemudian memperlihatkan maruah diri, keberanian, kekuatan fizikal, ketegasan membuat keputusan, dan keupayaan mempengaruhi orang lain. Selepas memeluk Islam, terserlah pula ketepatan pertimbangan serta kefahamannya yang mendalam tentang agama.
+
+Ini tidak bermaksud kita mengetahui dengan pasti bahawa Nabi, semoga selawat dan salam Allah ke atas baginda, berdoa untuk Umar kerana satu senarai khusus sifat-sifat ini. Namun kehidupan Umar selepas Islam membantu kita memahami mengapa kemasukan seorang berkeperibadian seperti beliau ke dalam barisan kaum Muslimin memberi kesan yang luar biasa.
+
+8. Harapan agar penentang mendapat hidayah
+
+Umar menyakiti kaum Muslimin. Namun Nabi, semoga selawat dan salam Allah ke atas baginda, tetap berdoa agar beliau mendapat hidayah dan agar Islam dikuatkan melaluinya. Di sini muncul satu makna penting: orang yang menentang kebenaran hari ini tidak semestinya kekal demikian hingga akhir hidupnya. Seseorang mungkin sangat keras dalam penentangannya kerana memang memiliki sifat yang kuat. Kemudian apabila kebenaran menjadi jelas baginya, beliau boleh membawa kekuatan yang sama ke pihak yang lain.
+
+Ini tidak bermaksud harapan yang sama mesti diberikan kepada setiap penentang dakwah. Ia juga tidak bermaksud mengabaikan mudarat yang dilakukannya. Namun Nabi, semoga selawat dan salam Allah ke atas baginda, tidak menjadikan kedudukan seseorang pada ketika itu di barisan lawan sebagai keputusan muktamad tentang masa depannya. Kita telah melihat anak lelaki dan perempuan keluar daripada rumah-rumah yang memusuhi Islam lalu lebih dahulu beriman daripada keluarga mereka. Dengan Umar, kita akan melihat sesuatu yang lebih langsung: orang itu sendiri berpindah daripada penentangan kepada pembelaan.
+
+9. Abu Jahal dalam doa Nabi
+
+Lelaki lain yang disebut dalam hadith ialah Amr bin Hisham, yang dikenali sebagai Abu Jahl. Beliau daripada Bani Makhzum dan termasuk tokoh Quraisy yang paling berpengaruh dalam memimpin penentangan terhadap Nabi, semoga selawat dan salam Allah ke atas baginda. Beliau bukan orang Quraisy yang paling tua, dan bukan juga seorang sahaja yang paling tinggi keturunannya, namun keperibadian dan pengaruhnya menjadikannya antara tokoh utama yang mampu menghimpunkan Quraisy dalam sikap menentang dakwah. Kemudian kita akan melihat bagaimana pengaruhnya kekal cukup kuat sehingga mendorong Quraisy ke arah pertempuran di Badar.
+
+Permohonan dalam doa ini jelas:
+
+Baginda memohon agar Allah memperkukuh Islam melalui orang yang lebih dikasihi-Nya antara Abu Jahl dengan Umar ibn al-Khattab.
+
+Dengan meneliti doa ini, kita boleh merenungkan pengaruh kedua-dua tokoh tersebut. Perkara ini bukan sekadar nama terkenal; pengislaman salah seorang daripada mereka boleh mengubah imbangan kekuatan dalam masyarakat. Ini ialah renungan tentang pengaruh peribadi mereka. Antara kedua-duanya, orang yang Allah beri petunjuk ialah Umar.
+
+10. Umar dan Bani Adi
+
+Umar berasal daripada Bani Adi dalam kalangan Quraisy. Nasabnya ialah Umar bin al-Khattab bin Nufail bin Abd al-Uzza bin Riyah bin Abdullah bin Qurt bin Razah bin Adi bin Ka‘b. Oleh itu, beliau disebut al-Qurasyi al-Adawi, yakni orang Quraisy daripada Bani Adi. Nasabnya bertemu dengan nasab Rasulullah ﷺ pada Ka‘b bin Lu’ayy; pertalian ini lebih jauh berbanding Bani Hasyim atau Bani Abd Manaf.
+
+Menurut al-Azraqi, Bani Adi pada asalnya tinggal di antara Safa dengan Kaabah. Selepas bersekutu dengan Bani Sahm pada zaman jahiliah, kebanyakan mereka menjual rumah dan berpindah ke kawasan sekutu mereka. Riwayat ini menjelaskan kedudukan mereka dalam Quraisy: kurang kuat berbanding beberapa kabilah lain tidak bererti mereka tiada kedudukan. Al-Baladhuri menyebut datuk Umar, Nufail bin Abd al-Uzza, sebagai tokoh dihormati yang menjadi tempat Quraisy mendapatkan penyelesaian pertikaian. Daripada keluarga ini muncul juga tokoh-tokoh lain yang kisahnya berkait dengan Umar.
+
+11. Zaid bin Amr dan pencarian tauhid
+
+Antara anggota Bani Adi ialah Zaid bin Amr bin Nufail, sepupu Umar sebelah bapa. Bapa Zaid, Amr, ialah saudara al-Khattab, bapa Umar. Seperti yang telah dibincangkan, Zaid menolak penyembahan berhala dan mencari agama Ibrahim alaihissalam sebelum Nabi Muhammad ﷺ diutus. Beliau meninggal dunia sebelum kenabian, meninggalkan anaknya, Sa‘id bin Zaid radhiyallahu ‘anhu, yang termasuk Muslim terawal. Sa‘id inilah yang menceritakan bahawa Umar mengikatnya kerana memeluk Islam.
+
+Sepanjang dua generasi, keluarga ini menempuh jalan yang berbeza: Zaid mencari tauhid sebelum kenabian, anaknya segera menerima Islam, sedangkan Umar masih menentang dakwah. Ahli keluarga yang sama tidak semuanya menerima kebenaran pada waktu atau melalui jalan yang sama.
+
+12. Zaid bin al-Khattab: abang yang lebih dahulu memeluk Islam
+
+Umar juga mempunyai seorang abang, Zaid bin al-Khattab radhiyallahu ‘anhu, yang memeluk Islam lebih dahulu. Islam sudah hadir dalam keluarga al-Khattab ketika Umar masih musyrik. Abangnya telah menjadi Muslim, begitu juga Sa‘id, anak sepupunya Zaid bin Amr dan suami saudara perempuannya, Fatimah. Beberapa orang daripada keluarga terdekat telah mendahuluinya memeluk Islam.
+
+Zaid bin al-Khattab menyertai Badar dan peperangan bersama Rasulullah ﷺ, kemudian gugur syahid di Yamamah. Umar amat berdukacita. Dalam biografi Zaid, al-Dhahabi meriwayatkan maksud kata-kata Umar bahawa abangnya telah mendahuluinya dalam memeluk Islam dan mencapai kesyahidan. Peristiwa itu berlaku kemudian, tetapi menjelaskan kedudukan Umar dalam keluarganya: beliau bukan Muslim yang pertama; beberapa orang terdekat telah beriman lebih dahulu.
+
+13. Pengaruh yang melampaui bilangan
+
+Peristiwa-peristiwa ini juga membawa makna yang lebih luas. Kebanyakan orang yang memeluk Islam pada peringkat awal tidak memegang kepimpinan atau kuasa dalam kalangan Quraisy. Al-Quran memelihara kehormatan golongan lemah dan Sunnah menerangkan keutamaan mereka. Kedekatan seseorang kepada Allah tidak diukur melalui kekayaan atau pengaruh.
+
+Sesebuah masyarakat mungkin memerlukan orang yang membela kebenaran serta mampu membuat keputusan, mempengaruhi, melindungi, memimpin dan meluaskan ruang bertindak untuk orang lain. Pengislaman Umar ialah contoh yang jelas. Nilai Muslim yang lain tidak berkurang; kebolehan dan peranan manusia berbeza, dan kekuatan seorang individu kadangkala menghasilkan kesan yang tidak dicapai melalui bilangan semata-mata.
+
+14. Iman berhampiran pusat kuasa
+
+Makna ini tidak terhad kepada kisah Umar. Al-Quran menyebut seorang lelaki beriman daripada keluarga Firaun yang menyembunyikan imannya, kemudian bersuara apabila kaum Firaun mahu membunuh Musa, semoga sejahtera ke atasnya:
+
+Dan (pada saat itu) berkatalah pula seorang lelaki yang beriman dari orang-orang Firaun yang menyembunyikan imannya: "Patutkah kamu membunuh seorang lelaki kerana ia menegaskan: Tuhanku ialah Allah? sedang ia telah datang kepada kamu membawa keterangan-keterangan dari Tuhan kamu? Kalau ia seorang yang berdusta maka dia lah yang akan menanggung dosa dustanya itu, dan kalau ia seorang yang benar nescaya kamu akan ditimpa oleh sebahagian dari (azab) yang dijanjikannya kepada kamu. Sesungguhnya Allah tidak memberi hidayah petunjuk kepada orang yang melampaui batas, lagi pendusta.”
+
+— Surah Ghafir: 28. — Teks terjemahan sebagaimana diterbitkan dalam Nik Nurul Akmal Ab Alim dan Nur Kamilah Kamaruddin, “Pendekatan Komunikasi Interpersonal dalam Dakwah Berdasarkan Ayat 28–45 Surah Ghafir”, Al-Qanatir 35(3), Mac 2026, hlm. 24–25.
+
+Lelaki ini berada tepat dalam lingkungan tempat bahaya itu muncul. Namun kedudukannya yang dekat dengan lingkungan tersebut tidak menghalangnya daripada berdiri bersama kebenaran apabila keadaan memerlukannya.
+
+Dalam kisah Musa, semoga sejahtera ke atasnya, Allah juga berfirman:
+
+Dan datanglah seorang lelaki dari hujung bandar itu dengan berlari, (lalu menyampaikan berita) dengan berkata: “Wahai Musa, sesungguhnya pegawai-pegawai Firaun sedang mengadakan pakatan terhadapmu, mereka hendak membunuhmu; oleh itu pergilah dari sini, sesungguhnya aku adalah pemberi nasihat secara ikhlas kepadamu”.
+
+— Surah al-Qasas: 20. — Abdullah Muhammad Basmeih
+
+Amaran yang menyelamatkan Musa datang daripada orang yang mengetahui rancangan golongan berkuasa dan memilih untuk menggunakan pengetahuannya bagi menolong orang yang terancam dizalimi. Berada dekat dengan kekuasaan tidak dengan sendirinya menjadikan seseorang jahat. Yang menentukan ialah cara dia menggunakan apa yang dimilikinya setelah mengenali kebenaran.
+
+15. Kepelbagaian peranan para sahabat
+
+Tidak semua sahabat perlu memiliki keperibadian seperti Umar. Ada yang berilmu, tekun beribadah, dermawan, berjuang, berdakwah atau memberikan pertimbangan. Ada yang menguatkan orang lain melalui kesabaran, dan ada yang melindungi mereka melalui kedudukan sosialnya.
+
+Kepelbagaian itu sendiri merupakan kekuatan umat. Menumpukan perhatian kepada Umar tidak menjadikan satu jenis keperibadian sahaja sebagai teladan yang betul. Kisahnya menunjukkan bagaimana sifat yang kuat boleh menjadi jalan kebaikan apabila dipandu iman. Untuk memahami besarnya perubahan itu, kita perlu mengenali dirinya sebelum Islam, bukan memulakan kisah hanya ketika beliau mengucapkan syahadah.
+
+16. Menjelang perubahan
+
+Sebelum Islam, Umar ialah tokoh Bani Adi yang kuat keperibadiannya, teguh pada kepercayaan dan tegas membuat keputusan. Umat Islam telah merasai kekerasannya. Oleh itu, seorang wanita yang bersiap untuk berhijrah terkejut melihat kelembutannya, manakala Sa‘id bin Zaid mengingati bagaimana dirinya diikat kerana keislamannya. Walaupun demikian, Rasulullah ﷺ tetap mendoakan Umar.
+
+Kemudian Ibn Mas‘ud akan berkata:
+
+“Kami menjadi kuat sejak Umar ra. masuk Islam.”
+
+Antara kekerasan Umar terhadap umat Islam dengan kesaksian Ibn Mas‘ud tentang kekuatan mereka selepas pengislamannya terdapat perubahan yang besar. Bagaimanakah orang yang menyakiti mereka menjadi sumber kekuatan bagi mereka? Bab seterusnya menceritakan pengislaman Umar bin al-Khattab radhiyallahu ‘anhu.
+
+Sumber utama bab ini
+
+Doa Nabi agar Allah memperkukuh Islam melalui orang yang lebih dikasihi-Nya antara Abu Jahl dengan Umar ibn al-Khattab — Jami‘ at-Tirmidhi, 3681; at-Tirmidhi menilainya hasan sahih. Maksud doa disampaikan secara tidak langsung berdasarkan teks Arab hadis.
+
+Kata-kata Abdullah ibn Mas‘ud, semoga Allah meredainya: “Kami menjadi kuat sejak Umar ra. masuk Islam.” — Sahih al-Bukhari, 3863. Terjemahan petikan: Indahnya Islam, “9 kelebihan Amirul Mukminin Umar Al-Khattab RA”, 3 November 2016, bahagian 4, petikan 7.
+
+• Kesaksian Sa‘id bin Zayd bahawa Umar mengikatnya kerana Sa‘id memeluk Islam, sedangkan Umar sendiri belum memeluk Islam: Sahih al-Bukhari, 3862; riwayat yang seerti: 6942.
+
+Riwayat Umm Abdullah bint Abi Hathmah bersama Umar ketika bersiap untuk berhijrah ke Habsyah — daripada riwayat Sirah Ibn Ishaq yang disampaikan oleh Ibn Hisham; oleh itu ia dikemukakan sebagai riwayat Sirah, bukan sebagai hadith sahih.
+
+Nasab dan kedudukan Umar: Ibn Abd al-Barr, al-Isti‘ab, biografi Umar, 3/1144–1146. Kediaman dan persekutuan Bani Adi: al-Azraqi, Akhbar Makkah, 2/261. Kedudukan Nufail: al-Baladhuri, Ansab al-ashraf, nasab Bani Adi. Pertalian Zaid bin Amr: Ibn Hisham, al-Sirah, 1/229–230; al-Ayni, Umdat al-qari, bab Zaid bin Amr. Pengislaman dan kesyahidan Zaid bin al-Khattab: al-Dhahabi, Siyar a‘lam al-nubala’, biografinya.
+
+Surah Ghafir: 28 dan Surah al-Qasas: 20, sebagai contoh orang yang membawa kebenaran ketika berada dekat dengan lingkungan pengaruh.

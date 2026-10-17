@@ -1,0 +1,183 @@
+# Peygamberimiz Ömer’in Müslüman olması için neden dua etti?
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Yirmi Birinci Bölüm
+
+Peygamberimiz Ömer’in Müslüman olması için neden dua etti?
+
+İslam’dan önce Ömer: imanla yön değiştiren güç
+
+1. İslam’dan önce Ömer
+
+Habeşistan hicretini anlattıktan sonra yeniden Mekke’ye dönüyoruz. Müslümanların önemli bir kısmı şehirden ayrılmış, daha küçük bir topluluk Allah Resûlü’nün ﷺ yanında kalmıştı. Bazı siyer rivayetleri Ömer b. Hattâb’ın radıyallahu anh Müslüman oluşunu peygamberliğin altıncı yılına yerleştirir. Bu olay Mekke’deki Müslümanları gözle görülür biçimde güçlendirdi.
+
+Fakat onun nasıl Müslüman olduğunu anlatmadan önce, hikâyenin kendisinden önce gelen bir soru vardır: Ömer o dönemde kimdi ve onun gibi bir adamın Müslüman olması neden farklı bir olay olacaktı? Bu soru önemlidir; çünkü Ömer o sırada Müslümanlara yakın değildi. Aksine onlara karşı sert davrananlardan biriydi. Buna rağmen Allah’ın Resulü’nün, Allah’ın salât ve selâmı onun üzerine olsun, Allah’tan İslam’ı onun Müslüman olmasıyla güçlendirmesini istediği sahih olarak rivayet edilmiştir.
+
+2. Peygamberimizin İslam’ın güçlenmesi için duası
+
+Abdullah b. Ömer, Allah ikisinden de razı olsun, Allah’ın Resulü’nün, Allah’ın salât ve selâmı onun üzerine olsun, şöyle dediğini rivayet etmiştir:
+
+“Allah’ım! İslâm’ı şu iki kişiden Sana daha sevgili olanı ile aziz kıl: Ebû Cehil ve Ömer ibnü’l-Hattâb!”
+
+İbn Ömer’in rivayetine göre, bu iki kişiden Allah’a daha sevgili olan Ömer’di.
+
+— Jami‘ at-Tirmidhi, 3681. At-Tirmidhi hadisi hasan sahih gharib olarak nitelemiştir. Duanın yayımlanmış çevirisi: Dr. Murat Kaya, Hz. Ömer (r.a)’den 111 Hayat Ölçüsü, s. 18.
+
+Buradaki güç, Müslümanların dinlerini açıkça yaşayabilmelerini ve ona bağlı kalabilmelerini sağlayan kuvvet ve korunmadır. Bu duanın etkisi daha sonra hayatlarında görüldü.
+
+Ömer Müslüman olduktan sonra Abdullah b. Mas‘ud, Allah ondan razı olsun, şöyle dedi:
+
+“Ömer (r.a) müslüman olduğu günden beri biz hep izzetli olduk.”
+
+— Sahîh-i Buhârî, 3863. Yayımlanmış çeviriden alıntı: Dr. Murat Kaya, Hz. Ömer (r.a)’den 111 Hayat Ölçüsü, s. 19.
+
+Bu iki rivayet, Peygamber’in ﷺ aralarında Ömer’in de bulunduğu iki kişiden biriyle İslam’ın güçlenmesi için dua ettiğini ve o dönemi yaşayan bir sahabinin Ömer’in Müslüman oluşundan sonraki değişime şahitlik ettiğini gösterir. Ancak hadis, duada Ömer’in adının hangi özellikleri sebebiyle anıldığını sıralamaz. Bu yüzden nakledilen dua ile onun Mekke’deki kişiliği ve sonraki etkisi üzerine yapılan değerlendirmeler birbirinden ayrılmalıdır. Bu değerlendirmeler, seçilme gerekçesini açıklayan bir Peygamber sözü değildir.
+
+3. Ömer’in toplumundaki yeri
+
+Peygamber’in ﷺ, bütün kabilesi peşinden gelir diye Ömer’in Müslüman olmasını istediği düşünülebilir. Fakat durum daha kapsamlıdır. Ömer, Kureyş’in itibarlı bir kolu olan Benî Adî’dendi; ancak bu kol, Benî Abdüşems kadar güçlü değildi. Ezrakī, Benî Adî’nin Benî Abdüşems ile çatışmada yenilgiye uğrayınca Benî Sehm ile ittifak kurduğunu anlatır. Bununla birlikte Ömer’in şahsen itibarı vardı. İbn Abdülber, Kureyş’in bazı anlaşmazlıklarda kendilerini temsil etmek üzere onu elçi gönderdiğini kaydeder.
+
+Ömer de yalnızca kabile konumu sebebiyle bütün Kureyş’in kararını takip edeceği bir adam değildi. Bu durum, arkasında geniş bir aile yapısı ve büyük toplumsal nüfuz bulunan bazı önde gelen Kureyş liderlerinden farklıydı. Ömer’in önemi, Müslümanların onun İslam’a girip kendileri için harcamasını beklediği devasa bir servetten de kaynaklanmıyordu.
+
+Öne çıkan yönü kişiliğiydi: içten gelen bir güç, güçlü bir onur duygusu, açık bir tutum, karar verme yeteneği ve doğru bildiğinin sonuçlarına katlanma iradesi. Bunlar İslam’dan önce de vardı; fakat o sırada davete karşı kullanılıyordu.
+
+4. Ömer’in yumuşak bir yönü
+
+İslam’dan önce Ömer hakkında bize bir şeyler gösteren en dikkat çekici rivayetlerden biri Ümmü Abdullah bint Ebû Hasme, Allah ondan razı olsun, ile ilgilidir. Ümmü Abdullah ve eşi Âmir b. Rebîa, Habeşistan’a hicret etmeye hazırlanan Müslümanlardandı. Siyer kaynakları İbn İshak’tan, onun yolculuğa hazırlanırken ve eşinin bir işi için dışarı çıktığı sırada Ömer’in yanına geldiğini nakleder. Ömer henüz müşrikti.
+
+Ümmü Abdullah, Müslümanların Ömer’den gördüğü muameleyi anlattı:
+
+Müslümanların onun elinden eziyet ve sıkıntı çektiğini, sert muamelesine maruz kaldığını belirtti. — İbn Hişâm, es-Sîretü’n-nebeviyye, Ümmü Abdullah’ın rivayeti (sözlerinin anlamı).
+
+Yani onu tarafsız bir adam olarak görmüyordu. Onun Müslümanlara nasıl eziyet ettiğini biliyordu. Ömer onun yolculuğa hazırlandığını görünce nereye gittiklerini sordu. Ümmü Abdullah, Kureyş’in kendilerine eziyet edip baskı uygulaması yüzünden, Allah bir çıkış yolu açıncaya kadar O’nun yeryüzünde başka bir yere gideceklerine Allah adına yemin etti.
+
+Ömer şöyle dedi:
+
+“Allah yardımcınız olsun” — Fuat İstemi, “Hadis Metodolojisine Göre Hz. Ömer’in Müslüman Olmasıyla İlgili Rivayetlerin Sıhhat Değeri”, Çukurova Üniversitesi İlahiyat Fakültesi Dergisi, 18/1 (2018), s. 423 (alıntı).
+
+Bu sözleriyle yolculuklarında Allah’ın onları korumasını ve gözetmesini diliyordu. Ardından Ümmü Abdullah, Ömer’de daha önce görmediği bir yumuşaklık fark etti; ayrılışları onu üzmüş gibiydi. Ömer o anda Müslüman olmadı ve tutumunu hemen değiştirmedi. Yine de sertliğini bilen bu kadın, kısa bir an için onun başka bir yönünü gördü.
+
+Eşi Âmir geri döndüğünde gördüğünü anlattı ve sanki Ömer’in bir gün Müslüman olabileceğini hissediyormuş gibi konuştu. Âmir, Ömer’in Müslümanlara karşı sertliğini bildiği için bu ihtimali son derece uzak gördü. Siyer rivayetinde onun bu düşüncesi çarpıcı bir benzetmeyle aktarılır:
+
+Ümmü Abdullah’ın gördüğü kişinin, Hattâb’ın eşeği Müslüman olmadıkça Müslüman olmayacağını söyledi. — İbn Hişâm, aynı rivayet (Âmir’in sözlerinin anlamı).
+
+Âmir’in benzetmesi güçlü bir mübalağaydı: Ömer’in Müslüman olmasını neredeyse düşünülemez görüyordu. Rivayeti çarpıcı kılan da budur. Çok geçmeden, Müslüman olacağına böylesine ihtimal verilmeyen kişi, Müslümanları en belirgin biçimde güçlendirenlerden biri olacaktı.
+
+Bu haber, İbn İshak’tan gelen Siyer rivayetlerindendir. Bu nedenle onu sahih bir hadisin derecesine koymayız. Bununla birlikte, Ömer’in İslam’dan önce Müslümanlara karşı sertliğine dair bilinen tabloyla uyumlu meşhur bir Siyer rivayetidir.
+
+5. Müslümanlara karşı sertliği
+
+İslam’dan önce Ömer hakkındaki tablo yalnızca genel izlenimlere dayanmamaktadır.
+
+Saîd b. Zeyd, Allah ondan razı olsun, sahih olarak şöyle demiştir:
+
+“Allah'a yemin ederim, ben kendimi şu halde gördüm: Ömer kendisi daha Müslüman olmadan önce beni Müslüman oldum diye bağlamıştı.”
+
+— Sahih-i Buhârî, 3862; İslamiyet.gen.tr’de yayımlanan tercümeden bir bölüm. Aynı olayı anlatan diğer rivayet: 6942.
+
+Ömer, Saîd’i Müslüman olduğu için zorla bağlıyor ve tutuyordu. Saîd ona yabancı değildi: babası Zeyd b. Amr, Ömer’in amcasının oğluydu. İlk Müslümanlardan olan Saîd, aynı zamanda Ömer’in kız kardeşi Fâtıma bint Hattâb ile evliydi. Ömer karşı çıkmayı sürdürürken İslam en yakın aile çevresine girmişti.
+
+Ömer, İslam’dan önce yalnızca davete ikna olmamış bir gözlemci değildi. Güçlü karakteri onu doğru bildiği yönde harekete geçiriyordu. İslam’ı yanlış gördüğü sürece bu gücü ona karşı kullandı. Müslüman oluşunun hikâyesi bu nedenle önemli bir soruyu cevaplar: doğruya ilişkin kanaati değiştiğinde ne olacaktı?
+
+6. İmanın yönlendirdiği güç
+
+Bir insan hidayetten önce güçlü bir özelliğe sahip olabilir. Hidayetten sonra bu özellik ortadan kalkmayabilir; yalnızca hangi yönde kullanıldığı değişir. Azim bâtıla hizmet ederken daha sonra hakka hizmet edebilir. Cesaret insanlara zarar vermek için kullanılırken daha sonra onları korumak için kullanılabilir. Karar gücü bir insanı yanlış bir tutuma kuvvetle götürebilir; fakat hak ona açık olduğunda, onu hak üzerinde en sağlam duranlardan biri hâline getirebilir.
+
+Ömer’in Müslüman olduktan sonra salih olması için iradesiz birine dönüşmesi gerekmiyordu. Değişen şey, o iradeyi yönlendiren ölçüydü. Bu durum, Peygamberimizin ﷺ Ömer’in hidayeti için ettiği duanın önemini anlamaya yardımcı olur. Müslümanlara karşı sert olan bu adam hidayete erdiğinde, aynı sertliği inandığı hakka destek vermek için taşıyabilecekti.
+
+7. Cesaret ve liderlik
+
+Sahabiler arasında Ömer’den önce de güç ve cesaretleriyle tanınan erkekler vardı. Hamza b. Abdülmuttalib, Allah ondan razı olsun, açıkça güçlü ve cesur bir adamdı. Fakat burada önemli bir fark vardır: cesaret, güçlü bir liderlik şahsiyetinden kastettiğimiz şeyle tamamen aynı değildir. Bir insan çok güçlü bir savaşçı olabilir; fakat kararlar, fikirler ve insanlar üzerinde geniş bir etkiye sahip olmayabilir. Bir insan yüksek bir onur duygusuna sahip olabilir; fakat bunu kendisini aşan bir etkiye dönüştürmeyebilir.
+
+Ömer’in sonraki hayatında onur duygusu, cesaret, beden gücü, kararlılık ve insanları etkileme yeteneği birlikte görülecekti. İslam’dan sonra bunlara isabetli muhakemesi ve dini derinlemesine kavrayışı da eklenecekti.
+
+Bu sözler, Peygamber’in, Allah’ın salât ve selâmı onun üzerine olsun, onun için kesin olarak belirli bir özellik listesi sebebiyle dua ettiğini bildiğimiz anlamına gelmez. Fakat Ömer’in İslam’dan sonraki hayatı, onun gibi bir şahsiyetin Müslümanların safına katılmasının neden olağanüstü bir etki meydana getirdiğini anlamamıza yardımcı olur.
+
+8. Bir muhalifin hidayet bulma ümidi
+
+Ömer Müslümanlara eziyet ediyordu. Buna rağmen Peygamber, Allah’ın salât ve selâmı onun üzerine olsun, onun hidayeti ve İslam’ın onunla güçlenmesi için dua etti. Burada önemli bir anlam ortaya çıkar: bugün hakka karşı olan bir insanın hayatının sonuna kadar aynı kalması zorunlu değildir. Bir insan tabiatı gereği güçlü ve sert olduğu için muhalefetinde de sert olabilir. Sonra hak ona açık olduğunda, aynı gücü diğer tarafa taşıyabilir.
+
+Bu, davete karşı olan her kişiden aynı şeyin beklenmesi gerektiği anlamına gelmez. Onun verdiği zararın görmezden gelinmesi anlamına da gelmez. Fakat Peygamber, Allah’ın salât ve selâmı onun üzerine olsun, bir insanın o an karşı safta bulunmasını geleceği hakkında nihai bir hüküm olarak görmedi. Daha önce İslam’a düşman evlerden çıkan oğul ve kızların ailelerinden önce imana eriştiğini gördük. Ömer’de ise daha doğrudan bir şey göreceğiz: adamın kendisi direnişten desteğe geçecek.
+
+9. Duada Ebû Cehil
+
+Hadiste adı geçen diğer kişi Amr b. Hişâm, yani Ebû Cehil’di. Benî Mahzûm’a mensuptu ve Peygamber’e, Allah’ın salât ve selâmı onun üzerine olsun, karşı yürütülen mücadelede Kureyş’in en etkili isimlerinden biriydi. Kureyş’in en yaşlısı değildi; tek başına en yüksek soydan gelen kişi de değildi. Fakat şahsiyeti ve etkisi onu Kureyş’i davete karşı aynı çizgide toplayabilen başlıca kişilerden biri hâline getiriyordu. Daha sonra etkisinin Bedir gününde Kureyş’i çatışmaya doğru sürükleyecek kadar güçlü kaldığını göreceğiz.
+
+Duanın sözleri şöyledir:
+
+“Allah’ım! İslâm’ı şu iki kişiden Sana daha sevgili olanı ile aziz kıl: Ebû Cehil ve Ömer ibnü’l-Hattâb!”
+
+Bu dua ışığında iki kişinin etkisi üzerinde düşünülebilir. Mesele yalnızca ünlü bir isim değildi; her birinin Müslüman oluşu toplumdaki güç dengesini etkileyebilirdi. Bu, onların etkisine ilişkin bir değerlendirmedir. İkisinden Allah’ın hidayet verdiği kişi Ömer oldu.
+
+10. Ömer ve Benî Adî
+
+Ömer, Kureyş’in Benî Adî kolundandı. Nesebi Ömer b. Hattâb b. Nüfeyl b. Abdüluzzâ b. Riyâh b. Abdullah b. Kurt b. Rezâh b. Adî b. Kâ‘b şeklindedir. Bu yüzden Kureşî ve Adevî, yani Kureyşli ve Benî Adî mensubu diye anılır. Nesebi Allah Resûlü’nün ﷺ nesebiyle Kâ‘b b. Lüey’de birleşir; bu bağ, Benî Hâşim veya Benî Abdümenâf’ın yakınlığından daha uzaktır.
+
+Ezrakī’ye göre Benî Adî başlangıçta Safâ ile Kâbe arasında oturuyordu. Câhiliye döneminde Benî Sehm ile ittifak kurduktan sonra çoğu evlerini satıp müttefiklerinin yanına taşındı. Bu haberler onların Kureyş içindeki yerini açıklar: bazı kollardan daha güçsüz olmaları itibarsız oldukları anlamına gelmez. Belâzürî, Ömer’in dedesi Nüfeyl b. Abdüluzzâ’nın saygınlığından ve Kureyş’in anlaşmazlıklarını çözmesi için ona başvurduğundan söz eder. Bu aileden, hikâyeleri Ömer’inkiyle farklı yönlerden kesişen başka kişiler de çıkmıştır.
+
+11. Zeyd b. Amr’ın tevhid arayışı
+
+Benî Adî’den Zeyd b. Amr b. Nüfeyl, Ömer’in amcasının oğluydu. Zeyd’in babası Amr ile Ömer’in babası Hattâb kardeşti. Daha önce anlatıldığı gibi Zeyd, Hz. Muhammed’in ﷺ peygamberliğinden önce putlara tapmayı reddetmiş ve İbrahim’in aleyhisselam dinini aramıştı. Peygamberlik başlamadan öldü; oğlu Saîd b. Zeyd radıyallahu anh ise ilk Müslümanlardan oldu. Müslüman olduğu için Ömer’in kendisini bağladığını anlatan Saîd, bu kişidir.
+
+Bu aile iki nesil boyunca farklı yollar izledi: Zeyd peygamberlikten önce tevhidi aradı, oğlu İslam’ı erken kabul etti, Ömer ise davete karşı çıkmayı sürdürdü. Aynı ailedeki herkes hakikati aynı zamanda ve aynı yoldan kabul etmedi.
+
+12. Zeyd b. Hattâb: önce Müslüman olan ağabey
+
+Ömer’in kendisinden büyük bir kardeşi de vardı: Zeyd b. Hattâb radıyallahu anh. O, Ömer’den önce Müslüman olmuştu. Dolayısıyla Ömer hâlâ müşrikken İslam, Hattâb ailesinin içine girmişti. Ağabeyi Müslümandı; amcasının oğlu Zeyd b. Amr’ın oğlu ve kız kardeşi Fâtıma’nın eşi olan Saîd de Müslümandı. En yakınlarından birkaçı İslam’ı ondan önce seçmişti.
+
+Zeyd b. Hattâb, Bedir’e ve Allah Resûlü’nün ﷺ seferlerine katıldı; daha sonra Yemâme’de şehit oldu. Ömer onun için derin bir üzüntü duydu. Zehebî, Zeyd’in biyografisinde Ömer’in sözünün anlamını aktararak ağabeyinin hem İslam’da hem şehitlikte onu geçtiğini anlatır. Bu olay daha sonraki bir tarihte yaşansa da Ömer’in ailesindeki yerini gösterir: evinin ilk Müslümanı değildi; bazı yakınları ondan önce iman etmişti.
+
+13. Sayının ötesindeki etki
+
+Bu olayların daha geniş bir anlamı da vardır. İslam’a ilk girenlerin çoğu Kureyş’in liderliğini veya otoritesini elinde bulundurmayan kişilerdi. Kur’an zayıfların değerini korudu, Sünnet de onların faziletini bildirdi. İnsanın Allah’a yakınlığı mal veya nüfuzla ölçülmez.
+
+Bir topluluk, hakkı savunmanın yanında karar verebilen, insanları etkileyebilen, koruyabilen, yönlendirebilen ve onların hareket alanını genişletebilen bir kişiye ihtiyaç duyabilir. Ömer’in Müslüman oluşu bunun açık örneklerindendir. Bu durum diğer Müslümanların değerini azaltmaz; insanların yetenekleri ve rolleri farklıdır. Bazen bir kişinin gücü, yalnızca sayıyla elde edilemeyecek bir etki doğurur.
+
+14. Güç merkezlerine yakınken iman
+
+Bu anlam yalnızca Ömer’in hikâyesine özgü değildir. Kur’an, Firavun ailesinden imanını gizleyen ve Firavun’un çevresi Musa’yı, ona selâm olsun, öldürmek istediğinde konuşan mümin bir adamdan söz eder:
+
+Firavun ailesinden, imanını gizlemekte olan Mümin bir adam şöyle dedi: “Rabbim Allah’tır, dediği için bir adamı öldürecek misiniz? Hâlbuki o, size Rabbinizden apaçık mucizeler getirdi. Eğer yalancı ise yalanı kendi aleyhinedir. Eğer doğru söylüyorsa sizi tehdit ettiği şeylerin bir kısmı başınıza gelecektir. Şüphesiz Allah; aşırı giden, yalancılık eden kimseyi doğru yola eriştirmez.''
+
+— Gâfir Suresi: 28. — Rowwad Tercüme Merkezi
+
+Bu adam tehlikenin çıktığı çevrenin tam içindeydi. Fakat ona yakın olması, gerektiğinde hakka destek vermesine engel olmadı.
+
+Musa’nın, ona selâm olsun, kıssasında Allah ayrıca şöyle buyurur:
+
+Şehrin öteki ucundan bir adam koşarak geldi: "Mûsâ!" dedi. "İleri gelenler seni öldürmek için hakkında görüşüyorlar. Hemen çık git! Ben, senin (iyiliğin) için nasihat edenlerdenim."
+
+— Kasas Suresi: 20. — Rowwad Tercüme Merkezi
+
+Mûsâ’yı kurtaran uyarı, güçlü kişilerin ne planladığını bilen ve bilgisini haksızlığa uğrayacak birini korumak için kullanan bir adamdan geldi. İktidara yakın olmak kişiyi kendiliğinden kötü yapmaz. Belirleyici olan, hakikati öğrendiğinde elindeki imkânları nasıl kullandığıdır.
+
+15. Sahabilerin farklı rolleri
+
+Bütün sahabilerin Ömer’in kişiliğine sahip olması gerekmiyordu. Aralarında âlim, çok ibadet eden, cömertçe infak eden, savaşan, davet eden ve isabetli görüş bildiren kişiler vardı. Kimi sabrıyla insanlara destek oluyor, kimi sosyal konumuyla onları koruyordu.
+
+Bu çeşitlilik de topluluğun gücünün bir parçasıydı. Ömer’in kişiliğine odaklanmak, yalnızca bir insan tipini doğru model saymak değildir. Onun hayatı, güçlü özelliklerin imanla yönlendirildiğinde büyük bir hayra dönüşebileceğini gösterir. Değişimin büyüklüğünü anlamak için hikâyeye yalnızca kelimeişehadet getirdiği andan değil, İslam’dan önce nasıl biri olduğundan başlamak gerekir.
+
+16. Dönüşümün eşiğinde
+
+Ömer, İslam’dan önce Benî Adî’den güçlü karakterli, inandığında kararlı ve kararlarında kesin biriydi. Müslümanlar onun sertliğini yaşamıştı. Bu yüzden hicrete hazırlanan bir kadın ondaki yumuşaklığa şaşırmış, Saîd b. Zeyd ise Müslüman olduğu için onun tarafından bağlandığını hatırlamıştı. Buna rağmen Allah Resûlü ﷺ onun için dua etti.
+
+Daha sonra İbn Mes‘ûd şöyle diyecekti:
+
+“Ömer (r.a) müslüman olduğu günden beri biz hep izzetli olduk.”
+
+Ömer’in Müslümanlara sert davranışı ile İbn Mes‘ûd’un onun Müslüman oluşundan sonra kazandıkları güce ilişkin şahitliği arasında büyük bir dönüşüm vardır. Onlara zarar veren biri nasıl güç kaynağı hâline geldi? Sonraki bölüm, Ömer b. Hattâb’ın radıyallahu anh Müslüman oluşunu anlatır.
+
+Bu bölümün temel kaynakları
+
+Hadis: “Allah’ım! İslâm’ı şu iki kişiden Sana daha sevgili olanı ile aziz kıl: Ebû Cehil ve Ömer ibnü’l-Hattâb!” — Jami‘ at-Tirmidhi, 3681; at-Tirmidhi hadisi hasan sahih olarak değerlendirmiştir. Duanın yayımlanmış çevirisi: Dr. Murat Kaya, Hz. Ömer (r.a)’den 111 Hayat Ölçüsü, s. 18.
+
+Abdullah ibn Mas‘ud’un, Allah ondan razı olsun, sözü: “Ömer (r.a) müslüman olduğu günden beri biz hep izzetli olduk.” — Sahîh-i Buhârî, 3863. Yayımlanmış çeviriden alıntı: Dr. Murat Kaya, Hz. Ömer (r.a)’den 111 Hayat Ölçüsü, s. 19.
+
+Saîd b. Zeyd’in, Allah ondan razı olsun, Ömer’in kendisi Müslüman olmadan önce onu İslam’dan dolayı bağladığını bildiren sözü — Sahih al-Bukhari, 3862; 6942.
+
+Ümmü Abdullah bint Ebû Hasme’nin Habeşistan hicretine hazırlanırken Ömer ile ilgili rivayeti — İbn Hişâm’ın naklettiği İbn İshak Siyer rivayetlerindendir; bu nedenle sahih hadis olarak değil Siyer rivayeti olarak sunulmuştur.
+
+Ömer’in nesebi ve itibarı: İbn Abdülber, el-İstîâb, Ömer biyografisi, 3/1144–1146. Benî Adî’nin evleri ve ittifakı: Ezrakī, Ahbâru Mekke, 2/261. Nüfeyl’in itibarı: Belâzürî, Ensâbü’l-eşrâf, Benî Adî’nin nesebi. Zeyd b. Amr’ın akrabalığı: İbn Hişâm, es-Sîre, 1/229–230; Aynî, Umdetü’l-kārî, Zeyd b. Amr bölümü. Zeyd b. Hattâb’ın İslam’ı ve şehitliği: Zehebî, Siyeru a‘lâmi’n-nübelâ, ilgili biyografi.
+
+Gâfir Suresi 28 ve Kasas Suresi 20 — etki ve güç çevrelerine yakın olduğu hâlde hakkı taşıyan kişilere örnek olarak.

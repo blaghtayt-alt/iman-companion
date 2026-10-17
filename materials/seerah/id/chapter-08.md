@@ -1,0 +1,173 @@
+# Dalam Kerahasiaan: Kewaspadaan Kaum Muslimin Awal dan Meluasnya Kabar
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bab Delapan
+
+Dalam Kerahasiaan: Kewaspadaan Kaum Muslimin Awal dan Meluasnya Kabar
+
+Setelah mengenal sejumlah laki-laki dan perempuan yang termasuk paling awal masuk Islam, muncul sebuah persoalan yang pada awalnya dapat terasa membingungkan. Beberapa sahabat menggambarkan diri mereka sebagai bagian dari orang-orang pertama yang masuk Islam dengan ungkapan yang tampaknya tidak sesuai dengan nama-nama yang telah disebutkan sebelumnya.
+
+Sa‘d bin Abi Waqqas radhiyallahu ‘anhu meriwayatkan bahwa selama tujuh hari ia merupakan satu dari tiga orang yang telah memeluk Islam. — Makna riwayat dalam Sahih al-Bukhari 3727, disampaikan secara tidak langsung.
+
+‘Amr bin ‘Abasah radhiyallahu ‘anhu juga meriwayatkan perkataan yang menunjukkan bahwa pada suatu waktu ia memahami dirinya sebagai salah satu dari empat Muslim. Ungkapan serupa juga muncul dalam riwayat beberapa orang yang masuk Islam pada masa awal.
+
+Bagaimana hal itu dipahami, sedangkan sebelumnya kita telah mengetahui keislaman Khadijah, ‘Ali bin Abi Talib, Zayd bin Haritsah, Abu Bakr ash-Shiddiq, semoga Allah meridai mereka, kemudian orang-orang lain setelah mereka?
+
+Kuncinya adalah memahami keadaan masa itu. Pada tahun-tahun awal, banyak Muslim menyembunyikan keislamannya. Seseorang dapat mengetahui bahwa dirinya sendiri telah beriman, namun tidak mengetahui bahwa orang lain di sekitarnya telah beriman lebih dahulu. Tidak ada daftar terbuka orang beriman yang diketahui semua orang. Mengetahui bahwa seseorang telah masuk Islam merupakan informasi yang sangat sensitif karena jika terbongkar ia dapat menghadapi gangguan dari keluarga atau kabilahnya.
+
+Hal itu tidak berarti penduduk Makkah sama sekali tidak mendengar tentang Muhammad, semoga selawat dan salam tercurah kepadanya, atau agama baru ini. Mereka mungkin mendengar bahwa beliau membawa perkataan baru atau menyeru agar hanya Allah yang disembah. Namun mengetahui adanya dakwah adalah satu hal; mengetahui siapa yang diam-diam beriman adalah hal lain.
+
+Karena itu, ucapan seorang sahabat seperti “aku orang ketiga” atau “aku orang keempat” tidak harus dipahami sebagai sensus tepat seluruh Muslim di Makkah. Ia dapat menggambarkan apa yang diketahui oleh orang tersebut pada saat itu. Para ulama menyinggung makna ini ketika memadukan riwayat-riwayat yang berbeda.
+
+Riwayat ‘Amr bin ‘Abasah merupakan contoh jelas. Ketika pertama kali bertemu Nabi, ia bertanya siapa yang bersama beliau dalam dakwah itu. Nabi menjelaskan bahwa ada seorang merdeka dan seorang budak yang bersama beliau. ‘Amr menyebut Abu Bakr dan Bilal radhiyallahu ‘anhuma. Namun orang lain juga telah masuk Islam sebelumnya. Ini menunjukkan betapa kuat unsur kerahasiaan pada komunitas Muslim awal.
+
+Kewaspadaan tidak berhenti pada masa awal
+
+Menjaga informasi bukan sesuatu yang berakhir setelah tahun-tahun pertama di Makkah. Dalam Sirah, prinsip ini muncul kembali dalam bentuk yang berbeda sesuai keadaan.
+
+Ketika hijrah dimulai, informasi tentang siapa yang akan berangkat, kapan, dan ke mana membutuhkan kehati-hatian. Setelah masyarakat Muslim berdiri di Madinah, informasi tentang pergerakan dan tujuan militer juga menjadi hal yang tidak dibuka tanpa kebutuhan.
+
+Ka‘b bin Malik meriwayatkan bahwa ketika Rasulullah hendak melakukan sebuah ekspedisi, beliau sering menggunakan ungkapan yang tidak secara langsung menunjukkan tujuan sebenarnya agar informasi itu tidak sampai kepada pihak yang dapat memanfaatkannya. Tabuk menjadi pengecualian karena perjalanan sangat jauh, cuaca sangat panas, dan musuh banyak, sehingga kaum Muslimin perlu mengetahui tujuan untuk menyiapkan diri. — Sahih al-Bukhari 2947–2948.
+
+Menjelang Badr, Nabi mengutus Busaysah sebagai pengintai untuk mencari kabar tentang kafilah Abu Sufyan. Peristiwa itu akan dijelaskan ketika Sirah sampai pada bagian tersebut.
+
+Al-Qur’an kemudian menegaskan pentingnya kewaspadaan, bahkan ketika salat di hadapan musuh. Allah berfirman: “[…] dan hendaklah mereka bersiap siaga dan menyandang senjata mereka.” Pada bagian selanjutnya: “[…] dan bersiapsiagalah kamu.” — Al-Qur’an 4:102 — terjemahan Kementerian Agama RI, Quran.com.
+
+Contoh lain terjadi bertahun-tahun kemudian menjelang Fathu Makkah. Nabi ingin gerakan menuju Makkah tetap tidak diketahui. Namun Hatib bin Abi Balta‘ah radhiyallahu ‘anhu mengirim sebuah surat kepada sebagian penduduk Makkah yang berisi informasi tentang rencana Rasulullah.
+
+Ibnu Ishaq meriwayatkan bahwa Nabi mengetahui surat tersebut melalui wahyu. Beliau mengutus ‘Ali bin Abi Talib, az-Zubair, dan al-Miqdad, semoga Allah meridai mereka. Mereka mengejar perempuan yang membawa surat itu dan mengambil kembali pesannya.
+
+Ketika Nabi bertanya kepada Hatib mengapa ia melakukan hal itu, Hatib menjelaskan bahwa ia tidak bertindak karena kufur atau meninggalkan Islam. Ia mengkhawatirkan keselamatan keluarganya di Makkah karena tidak memiliki hubungan kekerabatan kuat yang dapat melindungi mereka sebagaimana sebagian besar kaum Muhajirin. Nabi menerima penjelasannya dan tidak memperlakukannya sebagai munafik, meskipun perbuatannya tetap berbahaya.
+
+Berkaitan dengan peristiwa ini, Allah menurunkan firman-Nya: “Wahai orang-orang yang beriman! Janganlah kamu menjadikan musuh-Ku dan musuhmu sebagai teman-teman setia sehingga kamu sampaikan kepada mereka (berita-berita Muhammad), karena rasa kasih sayang; padahal mereka telah ingkar kepada kebenaran yang disampaikan kepadamu. […]” — Al-Qur’an 60:1 — terjemahan Kementerian Agama RI, Quran.com.
+
+Kisah Hatib akan dibahas kembali ketika Sirah sampai pada Fathu Makkah. Yang penting di sini ialah bahwa kewaspadaan yang dipelajari pada masa Makkah awal tetap hadir dalam bentuk yang berbeda di kemudian hari.
+
+Seorang penggembala muda
+
+Di antara orang yang masuk Islam pada tahun-tahun awal itu adalah ‘Abdullah bin Mas‘ud radhiyallahu ‘anhu.
+
+Saat itu ia seorang pemuda yang menggembalakan kambing milik ‘Uqbah bin Abi Mu‘ayt. Suatu hari Rasulullah dan Abu Bakr melewatinya setelah melarikan diri dari kaum musyrikin.
+
+Mereka meminta susu. Ibn Mas‘ud menjawab, “Sesungguhnya aku hanya orang yang diberikan amanah […]”, lalu menjelaskan bahwa ia tidak dapat memberikan susu itu kepada mereka. Ternak itu bukan miliknya sehingga ia tidak merasa berhak memberikan susunya tanpa izin pemilik.
+
+Nabi kemudian menanyakan apakah ada seekor domba betina muda yang belum dikawini sehingga biasanya tidak diharapkan memiliki susu. Ibn Mas‘ud membawanya.
+
+Nabi mengusap ambingnya dan berdoa, lalu ambing itu penuh dengan susu. Abu Bakr membawa wadah; susu diperah dan mereka minum. Setelah itu, Nabi berkata kepada ambing tersebut, “Menyusutlah.” Ambing itu pun kembali seperti semula.
+
+Kisahnya tidak berhenti di sana. Ibn Mas‘ud kemudian kembali kepada Nabi dan meminta agar diajari perkataan yang beliau bawa, yaitu Al-Qur’an. Nabi menjawab, “Sesungguhnya Engkau adalah anak yang terpelajar.” Bertahun-tahun kemudian, penggembala muda itu menjadi salah satu sahabat paling terkenal dalam ilmu dan bacaan Al-Qur’an. Ia mengatakan telah mempelajari tujuh puluh surah langsung dari Rasulullah dan tidak ada seorang pun yang membantahnya dalam hal itu. — Musnad Ahmad 4412; Sahih Ibn Hibban 6504. Kutipan terjemahan: Aditya Budiman dan M. Saifudin Hakim, “Parenting Islami (Bag. 43): Memotivasi Anak untuk Melakukan Kebaikan”, Muslimah.or.id, mengutip riwayat paralel dalam al-Thabaqat karya Ibnu Sa‘d.
+
+Seorang lelaki dari luar Makkah datang mencari Nabi
+
+Tidak semua Muslim awal berasal dari Makkah.
+
+‘Amr bin ‘Abasah as-Sulami tinggal jauh dari kota itu. Ia mengatakan bahwa sebelum Islam ia memandang kaumnya berada dalam kesesatan karena menyembah berhala.
+
+Kemudian ia mendengar bahwa seorang laki-laki muncul di Makkah membawa kabar baru. Ia menaiki hewan tunggangannya dan pergi mencarinya.
+
+‘Amr tiba ketika Rasulullah bersembunyi karena permusuhan kaumnya. Ia berhasil menemui beliau dan bertanya siapa beliau. Nabi menjawab, “Aku seorang Nabi.” ‘Amr bertanya apa itu nabi. Beliau menjawab, “Allah telah mengutusku.” ‘Amr kemudian bertanya untuk apa beliau diutus. Beliau menjelaskan bahwa beliau diutus untuk menyambung hubungan keluarga, menghancurkan berhala, menyembah Allah semata, dan tidak mempersekutukan apa pun dengan-Nya.
+
+‘Amr bertanya siapa yang bersama beliau. Nabi menjawab, “Orang merdeka dan hamba sahaya.” Abu Bakr dan Bilal termasuk di antara orang yang beriman.
+
+‘Amr ingin tetap bersama Nabi. Namun beliau menjelaskan bahwa keadaan saat itu belum memungkinkan dan memintanya kembali kepada keluarganya serta datang lagi ketika mendengar bahwa dakwah Nabi telah memperoleh kekuatan.
+
+Ia pun kembali kepada kaumnya.
+
+Tahun-tahun berlalu dan ‘Amr terus mengikuti kabar Nabi. Setelah mendengar Rasulullah hijrah ke Madinah, ia bertanya kepada orang-orang yang datang dari sana sampai yakin, kemudian pergi sendiri ke Madinah.
+
+Ia bertanya apakah Rasulullah masih mengenalinya. Nabi menjawab, “Ya, engkau adalah orang yang menemuiku di Makkah.”
+
+Orang yang dahulu datang pada masa kerahasiaan kini bertemu kembali dengan Nabi setelah beliau memiliki tempat tinggal dan masyarakat di Madinah.
+
+‘Amr kemudian bertanya tentang salat dan wudu dan menghafal sebuah hadis panjang. Ketika meriwayatkannya di usia tua, Abu Umamah heran terhadap besarnya pahala yang disebutkan. ‘Amr menjelaskan bahwa ia tidak mendengarnya hanya sekali atau dua kali, tetapi berkali-kali dari Nabi. — Sahih Muslim 832. Jawaban dalam tanda petik dikutip dari terjemahan Indonesia yang diterbitkan HadeethEnc, hadis 6610; dialog lainnya disampaikan secara tidak langsung.
+
+Kisahnya menunjukkan mengapa pernyataan bahwa ia termasuk orang paling awal tidak boleh dipahami sebagai hitungan lengkap seluruh Muslim di Makkah. Ia datang dari luar kota pada masa ketika banyak orang masih menyembunyikan iman.
+
+Abu Dzarr mencari kebenaran sendiri
+
+Di antara tokoh paling terkenal yang datang ke Makkah mencari Nabi adalah Abu Dzarr al-Ghifari radhiyallahu ‘anhu.
+
+Kisah keislamannya terdapat dalam lebih dari satu riwayat sahih, dan beberapa detail berbeda. Karena itu, seluruh detail tidak seharusnya digabungkan menjadi satu cerita seolah berasal dari satu riwayat yang sama. Salah satu riwayat terpanjang berasal dari Abu Dzarr sendiri dalam Sahih Muslim.
+
+Abu Dzarr berasal dari kabilah Ghifar. Ia menyebut kaumnya tidak memuliakan bulan-bulan haram sebagaimana orang Arab lain. Sebelum bertemu Nabi, ia telah meninggalkan bentuk-bentuk penyembahan yang dilihat di sekitarnya dan mengatakan bahwa selama sekitar tiga tahun ia sudah beribadah kepada Allah, menghadap ke arah yang Allah kehendaki.
+
+Ia memiliki saudara bernama Unays. Unays pergi ke Makkah untuk suatu keperluan dan mendengar tentang laki-laki yang muncul di sana. Setelah kembali, ia berkata kepada Abu Dzarr bahwa ia telah bertemu seseorang yang mengaku diutus Allah dan membawa agama yang dekat dengan apa yang dicari Abu Dzarr.
+
+Abu Dzarr bertanya apa yang dikatakan orang tentangnya. Unays menjawab bahwa mereka menyebutnya penyair, peramal, dan penyihir.
+
+Unays memahami syair. Ia mengatakan telah membandingkan ucapan Muhammad dengan syair dan tidak menemukannya sebagai syair; ia juga mengenal perkataan para peramal dan tidak mendapati kesamaan. Ia menyimpulkan Muhammad berkata benar dan para penuduhnya berdusta.
+
+Abu Dzarr tidak puas hanya dengan informasi dari saudaranya. Ia memutuskan pergi sendiri ke Makkah.
+
+Sesampainya di sana, ia tidak mengenal Nabi dan bertanya terbuka tentang beliau berbahaya. Ia bertanya kepada seorang penduduk Makkah tentang orang yang mereka sebut “Shabi’,” istilah yang dipakai kaum musyrikin untuk orang yang mereka anggap meninggalkan agama mereka. Orang itu justru memanggil orang lain untuk menyerangnya. Abu Dzarr dipukul dengan batu dan tulang sampai tidak sadar.
+
+Setelah sadar, ia pergi ke Zamzam, membersihkan darah dan meminum airnya.
+
+Dalam riwayatnya, Abu Dzarr mengatakan ia tinggal cukup lama di Makkah tanpa makanan selain air Zamzam sampai tubuhnya berisi dan ia tidak merasakan sakit karena lapar.
+
+Pada suatu malam ia melihat dua perempuan melakukan tawaf sambil memanggil berhala Isaf dan Na’ilah, dua berhala yang disembah di Makkah. Ia mengecam perbuatan itu dengan keras. Keduanya pergi mengadukan dirinya.
+
+Saat itu Rasulullah datang bersama Abu Bakr. Setelah Nabi salat, Abu Dzarr mendekati beliau dan memberi salam. Nabi menjawab salamnya lalu menanyakan asalnya. Abu Dzarr menjelaskan bahwa ia berasal dari kabilah Ghifar.
+
+Nabi bertanya berapa lama ia berada di Makkah. Abu Dzarr menjawab sekitar tiga puluh hari dan malam. Ketika ditanya siapa yang memberinya makan, ia menjawab bahwa tidak ada makanan baginya kecuali air Zamzam.
+
+Nabi bersabda tentang air Zamzam: “Sungguh ia penuh berkah, ia bisa mengenyangkan.”
+
+Abu Bakr lalu menjamunya dan memberinya kismis dari Ta’if, makanan pertama yang dimakan Abu Dzarr setelah masa tersebut.
+
+Nabi juga memberitahunya bahwa beliau telah diperlihatkan sebuah negeri yang memiliki banyak pohon kurma, yang beliau perkirakan sebagai Yatsrib, kota tempat Nabi kelak berhijrah. Beliau menyuruh Abu Dzarr kembali kepada kaumnya dan menyampaikan dakwah kepada mereka agar Allah memberi manfaat melalui dirinya.
+
+Ketika Abu Dzarr kembali, Unays menanyakan apa yang telah ia lakukan. Abu Dzarr memberitahukan bahwa ia telah masuk Islam dan membenarkan Rasulullah. Unays mengatakan tidak ingin berpaling dari agama saudaranya dan ia pun masuk Islam. Mereka kemudian menyampaikan kabar itu kepada ibu mereka. Sang ibu mengatakan bahwa ia pun tidak ingin berpaling dari agama kedua putranya, lalu memeluk Islam.
+
+Abu Dzarr mulai mengajak kabilah Ghifar memeluk Islam. Sebagian masuk Islam sebelum hijrah Nabi, sebagian setelah beliau tiba di Madinah. Orang-orang dari kabilah Aslam juga masuk Islam. Nabi bersabda, “Semoga Allah menyelamatkan suku Aslam, dan semoga Allah mengampuni suku Ghifar.” — Sahih Muslim 2473, 2514. Kutipan terjemahan: ucapan tentang Zamzam dari Kumpulan Doa dan Pengobatan dengan Ruqyah dari Al-Qur`an dan Sunnah karya Sa‘id bin Ali bin Wahf Al-Qahtani, bagian 17, catatan 102, IslamEnc; doa bagi Aslam dan Ghifar dari Hadits Tazkia, Sahih Muslim nomor 4572 (penomoran lain dari Muslim 2514b), dalam riwayat Abu Dzarr. Dialog lainnya disampaikan secara tidak langsung.
+
+Ada pula riwayat sahih lain dari Ibn ‘Abbas. Dalam riwayat itu, ‘Ali bin Abi Talib menyadari Abu Dzarr adalah orang asing di Makkah, menjamunya beberapa hari, kemudian membawanya dengan hati-hati kepada Nabi. Setelah masuk Islam, Abu Dzarr menyatakan dua syahadat secara terbuka di dekat Ka‘bah. Kaum musyrikin memukulnya sampai al-‘Abbas turun tangan, mengingatkan Quraisy bahwa jalur perdagangan mereka menuju Syam melewati wilayah Ghifar. Abu Dzarr melakukan hal yang sama kembali pada hari berikutnya. — Sahih al-Bukhari 3861; Sahih Muslim 2474.
+
+Kedua riwayat berbeda dalam beberapa rincian dan urutan peristiwa. Para ulama memberikan beragam penjelasan atas perbedaan tersebut. Setiap riwayat memiliki konteksnya sendiri; seluruh rinciannya tidak membentuk satu urutan peristiwa yang disepakati.
+
+Siapa yang masuk Islam, dan siapa yang menampakkannya?
+
+Beberapa riwayat lain membantu memahami masa itu.
+
+‘Ammar bin Yasir mengatakan ia melihat Rasulullah ketika bersama beliau hanya ada lima budak, dua perempuan, dan Abu Bakr. — Sahih al-Bukhari 3660.
+
+Hal itu tidak harus berarti bahwa seluruh Makkah hanya memiliki delapan Muslim pada saat itu. ‘Ammar menggambarkan orang-orang yang ia lihat secara terbuka bersama Nabi; orang lain mungkin telah masuk Islam tetapi menyembunyikannya.
+
+Perbedaan menjadi lebih jelas dalam riwayat ‘Abdullah bin Mas‘ud. Ia mengatakan bahwa tujuh orang pertama yang menampakkan keislamannya adalah Rasulullah, Abu Bakr, ‘Ammar, ibunya Sumayyah, Suhaib, Bilal, dan al-Miqdad.
+
+Ia kemudian menyebut Allah melindungi Rasulullah melalui pamannya Abu Talib dan Abu Bakr melalui perlindungan kaumnya, sementara sebagian yang lain ditangkap dan disiksa oleh kaum musyrikin.
+
+Bilal termasuk orang yang disiksa dengan berat. Meski demikian, ia terus mengulang seruan tentang keesaan Allah, yang dijelaskan dalam terbitan Majelis Tabligh Muhammadiyah dengan ungkapan “Allah Maha Esa”. — Sunan Ibn Majah 150; Musnad Ahmad 3832. Kisah ini disampaikan secara tidak langsung; penjelasan ungkapan Bilal dikutip dari Ubaidillah Ichsan, “Gema Tauhid di Padang Pasir: Keteguhan Bilal Bin Rabah”, 20 Januari 2026.
+
+Kata penting di sini adalah “menampakkan keislamannya”.
+
+Masuk Islam berbeda dengan diketahui orang sebagai Muslim dan menyatakannya secara terbuka.
+
+Perbedaan ini menjelaskan banyak ketidaksesuaian yang tampak pada riwayat orang-orang awal. Seseorang dapat telah beriman sementara orang lain belum mengetahuinya; seseorang mungkin mengetahui dua atau tiga Muslim namun tidak mengetahui banyak Muslim lain.
+
+Kabar itu tidak lagi tersembunyi
+
+Dengan berjalannya waktu, jumlah orang yang masuk Islam bertambah.
+
+Kitab-kitab Sirah meriwayatkan dari Ibn Ishaq bahwa laki-laki dan perempuan terus masuk Islam hingga berita tentang Islam menyebar di Makkah dan orang-orang mulai membicarakannya.
+
+Dakwah tidak lagi menjadi sesuatu yang tidak pernah didengar. Orang membicarakan Muhammad, semoga selawat dan salam tercurah kepadanya, dan orang-orang yang beriman kepadanya, meskipun sebagian aktivitas kaum Muslimin dan identitas sebagian orang masih dirahasiakan.
+
+Ibn Ishaq juga menyebut, berdasarkan apa yang sampai kepadanya, bahwa pada masa awal Rasulullah menyembunyikan sebagian dakwahnya selama suatu waktu. Kemudian datang tahap lain ketika beliau diperintahkan menyampaikan secara terbuka apa yang datang dari Tuhannya.
+
+“Maka sampaikanlah (Muhammad) secara terang-terangan segala apa yang diperintahkan (kepadamu) dan berpalinglah dari orang yang musyrik.” — Al-Qur’an 15:94 — terjemahan Kementerian Agama RI, Quran.com.
+
+“Dan berilah peringatan kepada kerabat-kerabatmu (Muhammad) yang terdekat,” — Al-Qur’an 26:214 — terjemahan Kementerian Agama RI, Quran.com.
+
+Di sinilah tahap baru dimulai.
+
+Pada tahun-tahun pertama, pertanyaan yang sering muncul adalah: siapa yang beriman, dan bagaimana imannya tetap tidak diketahui?
+
+Tidak lama lagi Quraisy harus mendengar dakwah langsung dari Rasulullah sendiri secara terbuka.
+
+Bersamaan dengan itu, bentuk konfrontasi yang lain akan dimulai.
+
+Sumber utama bab ini
+
+Sahih al-Bukhari: 3727, 3660, 2947–2948, 3007, 3861. Sahih Muslim: 832, 1901, 2473, 2474, 2514. Musnad Ahmad: 4412, 3832. Sunan Ibn Majah: 150. Sahih Ibn Hibban: 6504. Ibn Ishaq melalui Ibn Hisham: berita tentang Muslim awal dan peralihan dari kerahasiaan menuju dakwah terbuka. Al-Qur’an: An-Nisa 4:102; Al-Mumtahanah 60:1; Al-Hijr 15:94; Asy-Syu‘ara 26:214. Tentang surat Hatib dan kaitannya dengan turunnya Al-Mumtahanah 60:1: Sahih al-Bukhari 4274. Riwayat bahwa Nabi mengetahui surat itu melalui wahyu: Ibnu Ishaq melalui Ibnu Hisyam, as-Sirah an-Nabawiyyah, bagian surat Hatib kepada Quraisy dan pengetahuan Rasulullah tentangnya, jilid 2 (edisi perpustakaan Islamweb).

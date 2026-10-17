@@ -1,0 +1,411 @@
+# Quand la force ne suffisait plus : des violences contre le Prophète aux trois questions
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Chapitre treize
+
+Quand la force ne suffisait plus : des violences contre le Prophète aux trois questions
+
+À La Mecque, les persécutions s'intensifiaient, mais elles ne prenaient pas toujours la même forme.
+
+Tantôt Quraysh cherchait à faire pression sur Abû Tâlib, tantôt elle mettait les visiteurs en garde contre le Prophète, que la paix et les bénédictions d'Allah soient sur lui, dans les marchés, tantôt elle maltraitait les plus vulnérables de ses Compagnons, et parfois elle s'en prenait directement au Messager d'Allah.
+
+L'ordre exact de certains de ces événements mecquois n'est pas certain, car les sources ne donnent pas une date précise pour chacun d'eux. Ibn Ishâq en a cependant rassemblé plusieurs dans cette période, et ils dessinent une image claire : Quraysh passait d'un moyen à un autre chaque fois qu'elle constatait que la prédication ne s'arrêtait pas.
+
+Près de la Ka‘bah : le mal atteint directement le Messager d'Allah
+
+‘Abd Allâh ibn ‘Amr ibn al-‘Âs, qu’Allah l’agrée, lui et son père, rapporte qu'il vit un jour plusieurs notables de Quraysh réunis dans al-Hijr [l'espace courbe attenant au côté nord de la Ka‘bah], parlant du Messager d'Allah.
+
+Ils se plaignaient entre eux de ce qu'ils voyaient de lui et disaient qu'ils avaient supporté quelque chose de grave : il critiquait leurs divinités, s'opposait à leur religion et rejetait ce que leurs pères avaient suivi.
+
+Puis le Messager d'Allah vint accomplir le tawâf [les tours rituels autour de la Ka‘bah].
+
+Selon le récit d'Ibn Ishâq, ils lui lancèrent des paroles blessantes [des remarques indirectes et moqueuses destinées à le faire souffrir] lorsqu'il passa près d'eux.
+
+Ibn Ishaq rapporte que les persécutions s’intensifièrent le lendemain. Le récit de l’agression qui suit figure séparément dans le Sahih al-Bukhari, sans préciser quand elle eut lieu par rapport à cet épisode.
+
+Il est authentiquement rapporté dans Sahîh al-Bukhârî, d'après ‘Abd Allâh ibn ‘Amr, que lorsqu'on lui demanda quelle était la chose la plus violente qu'il avait vue les polythéistes faire au Messager d'Allah, il répondit :
+
+Le Prophète priait près de la Ka‘bah lorsque ‘Uqbah ibn Abî Mu‘ayt vint, plaça son vêtement autour du cou du Messager d'Allah,
+
+« et l'étrangla fortement. »
+
+Abû Bakr, qu'Allah l'agrée, arriva, repoussa ‘Uqbah et dit :
+
+Tuerez-vous un homme parce qu’il dit : « Mon seigneur est Allah », alors qu’il est venu à vous avec les preuves évidentes de la part de votre Seigneur ?
+
+— Coran 40:28 — Muhammad Hamidullah.
+
+— Sahîh al-Bukhârî 3678 ; également rapporté sous le numéro 3856. Traduction de cet extrait : HadeethEnc, no 11159.
+
+À cet instant, Abû Bakr ne répondait pas à une objection et n'entrait pas dans une longue discussion.
+
+Un homme étranglait le Messager d'Allah ; Abû Bakr s'avança donc pour l'écarter.
+
+Dans le chapitre précédent, nous avons vu comment Abû Bakr avait utilisé son argent pour libérer des musulmans torturés. Ici, nous le voyons utiliser sa personne et sa position sociale pour protéger le Prophète lorsque la violence l'atteint directement.
+
+Hamza : un oncle qui défend le Prophète
+
+Pourtant, au sein même de la famille du Prophète, il existait une attitude totalement différente de celle d'Abû Lahab.
+
+La Sîrah d'Ibn Ishâq — par une chaîne qui n'atteint pas le niveau d'un hadith authentique et entièrement relié — rapporte l'histoire de l'entrée en islam de Hamzah ibn ‘Abd al-Muttalib, qu'Allah l'agrée, l'oncle du Messager d'Allah.
+
+Hamzah était connu pour sa force et son rang parmi Quraysh. Il partait à la chasse [poursuivre et chasser le gibier] ; lorsqu'il revenait, il accomplissait le tawâf autour de la Ka‘bah et passait près des assemblées de Quraysh.
+
+Un jour, selon le récit, Abû Jahl rencontra le Messager d'Allah près d'as-Safâ, l'insulta et lui fit du mal, tenant au sujet de sa religion des propos qu'il détestait, tandis que le Messager d'Allah ne lui répondit pas.
+
+Une esclave appartenant à ‘Abd Allâh ibn Jud‘ân avait entendu ce qui s'était passé.
+
+Hamzah revint ensuite de la chasse, son arc en bandoulière [porté sur son épaule et en travers de son corps].
+
+La femme lui dit, en substance : Si seulement tu avais vu ce qu'Abû Jahl vient de faire à ton neveu Muhammad.
+
+Hamzah se mit en colère et se dirigea vers la Mosquée sacrée à la recherche d'Abû Jahl.
+
+Lorsqu'il le trouva assis parmi les siens, il leva son arc et le frappa à la tête, lui ouvrant le cuir chevelu [lui causant une blessure visible].
+
+Puis il lui dit :
+
+« Insultes-tu Mohammad alors que je suis un adepte de sa religion ? Je dis ce qu’il dit ! » Hamzah mit alors Abû Jahl au défi de riposter, s’il le pouvait.
+
+Des hommes de Banû Makhzûm se levèrent pour soutenir Abû Jahl, mais celui-ci leur demanda de laisser Hamzah et reconnut qu'il avait insulté Muhammad de manière odieuse.
+
+Le récit indique que Hamzah demeura ensuite ferme dans l'islam.
+
+Les détails de ce récit sont bien connus dans les ouvrages de Sîrah, mais sa principale chaîne de transmission passe par Ibn Ishâq, qui les rapporte d’un homme qu’il ne nomme pas. Cette chaîne n’atteint donc pas le degré d’un hadith authentique transmis par une chaîne ininterrompue.
+
+L'islam de Hamzah lui-même est cependant bien connu et établi. Son entrée dans l'islam fut importante pour les musulmans : il était l'oncle du Prophète et l'un des hommes de Quraysh connus pour leur force et leur capacité de protection [la possibilité de défendre et protéger quelqu'un].
+
+La Sîrah rapporte qu'après sa conversion, Quraysh comprit que le Messager d'Allah était devenu plus difficile à atteindre [sa protection s'était renforcée], et elle réduisit une partie des mauvais traitements qu'elle lui infligeait.
+
+Mais elle ne cessa pas de chercher à arrêter la prédication.
+
+Elle tenta une autre voie.
+
+« Que veux-tu : de l'argent, de l'honneur ou la royauté ? »
+
+Ibn Ishâq rapporte que ‘Utbah ibn Rabî‘ah, l'un des chefs de Quraysh, constata que le nombre des Compagnons du Messager d'Allah augmentait. Il dit à son peuple qu'il irait voir Muhammad et lui ferait plusieurs propositions, dans l'espoir qu'il en accepterait une et abandonnerait ce qu'il faisait.
+
+Ce récit appartient lui aussi aux récits de la Sîrah dont la chaîne n'atteint pas le degré du hadith authentique, bien que ses détails soient devenus très connus.
+
+‘Utbah s'assit auprès du Messager d'Allah et lui dit, selon le sens du récit :
+
+Si, par cette affaire, tu recherches de l'argent, nous rassemblerons nos richesses pour toi jusqu'à ce que tu deviennes le plus riche d'entre nous.
+
+Si tu recherches l'honneur, nous ferons de toi notre chef et nous ne déciderons rien sans toi.
+
+Si tu veux la royauté, nous te ferons roi sur nous.
+
+Et si ce qui te vient est quelque chose que tu ne peux repousser, nous chercherons pour toi un traitement et dépenserons jusqu'à ce que tu guérisses.
+
+‘Utbah partait de l'idée que la prédication du Prophète cachait un objectif terrestre qui pouvait être satisfait par une transaction :
+
+de l'argent,
+
+du prestige,
+
+la royauté,
+
+ou un traitement.
+
+Le Messager d'Allah attendit qu'il termine.
+
+Puis il demanda :
+
+« As-tu terminé, Ô Abu al-Walid ? »
+
+Il répondit : Oui.
+
+Le Messager d'Allah lui demanda alors d'écouter.
+
+Il lui récita le début de la sourate Fussilat :
+
+Hâ , Mîm .
+[C’est] une Révélation descendue de la part du Tout Miséricordieux, du Très Miséricordieux.
+Un Livre dont les versets sont détaillés (et clairement exposés), un Coran [lecture] arabe pour des gens qui savent,
+annonciateur [d’une bonne nouvelle] et avertisseur. Mais la plupart d’entre eux se détournent ; c’est qu’ils n’entendent pas.
+Et ils diront : "Nos cœurs sont voilés contre ce à quoi tu nous appelles, nos oreilles sont sourdes. Et entre nous et toi, il y a une cloison, Agis donc de ton côté ; nous agissons du notre."
+
+— Coran 41:1–5 — Muhammad Hamidullah.
+
+Le mot « voiles » désigne ici des couvertures qui empêchent quelque chose d'entrer, et la « surdité » signifie ici une lourdeur dans l'ouïe qui empêche la personne de répondre à ce qu'elle entend.
+
+Selon le récit de la Sîrah, ‘Utbah continua d'écouter jusqu'à ce que le Prophète atteigne le passage de prosternation de la sourate, puis le Prophète se prosterna.
+
+‘Utbah retourna ensuite auprès de Quraysh.
+
+Lorsqu'ils le virent, certains dirent qu'Abû al-Walîd revenait avec un visage différent de celui avec lequel il était parti.
+
+Il leur dit qu'il avait entendu des paroles semblables à aucune autre qu'il connaissait, et qu'elles n'étaient ni poésie, ni magie, ni paroles de devin.
+
+Il leur proposa de laisser Muhammad et son affaire. Si les autres Arabes l'emportaient sur lui, Quraysh serait débarrassée de son problème ; et s'il triomphait, l'honneur qui lui reviendrait reviendrait aussi à son peuple.
+
+Ils répondirent :
+
+Muhammad t'a ensorcelé par ses paroles.
+
+Le problème n'était donc pas que ‘Utbah n'avait pas entendu le message.
+
+Il avait entendu directement le Coran.
+
+Mais Quraysh n'était pas prête à accepter la conclusion à laquelle il était parvenu.
+
+Si tu ne veux pas d'argent, prouve-nous que tu es un messager
+
+Les tentatives ne s'arrêtèrent pas à l'offre de richesse et de royauté.
+
+Ibn Ishâq rapporte une autre réunion entre plusieurs notables de Quraysh et le Messager d'Allah.
+
+Le récit est long et sa chaîne ne permet pas de considérer chaque phrase comme un événement établi jusque dans tous ses détails. Cependant, une grande partie de son contenu est confirmée par des versets coraniques qui décrivent les mêmes demandes formulées par les polythéistes.
+
+Selon le récit, ils lui dirent :
+
+Si tu ne veux ni argent, ni prestige, ni royauté, demande à ton Seigneur de transformer La Mecque pour nous.
+
+Ils demandèrent que les montagnes qui resserraient leur territoire soient repoussées, que des rivières leur soient ouvertes, et que certains de leurs ancêtres morts soient ressuscités — ils mentionnèrent Qusayy ibn Kilâb, l'un des grands ancêtres de Quraysh — afin de lui demander si Muhammad disait vrai.
+
+Puis ils formulèrent des demandes concernant directement le Prophète :
+
+qu'un ange vienne avec lui pour témoigner en sa faveur,
+
+qu'il possède des jardins et des palais,
+
+qu'il ait des trésors d'or et d'argent,
+
+puis ils réclamèrent quelque chose d'encore plus extrême :
+
+qu'il fasse tomber le ciel sur eux en morceaux s'il disait vrai.
+
+Le Coran conserve clairement ce genre de demandes :
+
+Et ils ont dit : “Nous ne croirons pas en toi, jusqu’à ce que tu aies fait jaillir de terre, pour nous, une source ;
+ou que tu aies un jardin de palmiers et de vignes, entre lesquels tu feras jaillir des ruisseaux en abondance ;
+ou que tu fasses tomber sur nous, comme tu le prétends, le ciel en morceaux, ou que tu fasses venir Allah et les Anges en face de nous ;
+ou que tu aies une maison [garnie] d’ornements; ou que tu sois monté au ciel. Encore ne croirons-nous pas à ta montée au ciel, jusqu’à ce que tu fasses descendre sur nous un Livre que nous puissions lire". Dis-[leur] : "Gloire à mon Seigneur! Ne suis-je qu’un être humain-Messager ?"
+
+— Coran 17:90–93 — Muhammad Hamidullah.
+
+Une « source » est une eau qui jaillit et coule.
+
+Le terme « morceaux » désigne des fragments.
+
+Et une « maison d'or » signifie une maison faite d'or ou très richement ornée.
+
+La réponse à la fin des versets ramène la question à son principe :
+
+Ne suis-je qu’un être humain-Messager ?
+
+Le Prophète n'a pas affirmé être venu pour transformer La Mecque en vallée parcourue de rivières chaque fois qu'ils l'exigeraient, ni pour se construire des palais afin de prouver sa prophétie.
+
+Son message était qu'il était un Messager qui transmettait ce qu'Allah lui révélait.
+
+An-Nadr ibn al-Hârith tente de concurrencer le Coran par des récits
+
+Lorsque la prédication ne s'arrêta pas par ces moyens, une autre forme d'opposition apparut.
+
+An-Nadr ibn al-Hârith faisait partie des hommes de Quraysh qui s'opposaient au Prophète.
+
+Les ouvrages de Sîrah mentionnent qu'il avait voyagé à al-Hîrah [ancienne ville située en Irak] et qu'il y avait appris des récits concernant les rois perses, comme Rustam et Isfandiyâr.
+
+Lorsque le Messager d'Allah s'asseyait avec les gens, les rappelait à Allah et leur racontait les peuples précédents et ce qui était arrivé à ceux qui avaient rejeté leurs messagers, an-Nadr venait après le départ du Prophète et s'asseyait au même endroit.
+
+Il disait alors, selon le sens du récit :
+
+Je raconte mieux que Muhammad.
+
+Et il se mettait à raconter les histoires des rois et des héros de Perse.
+
+Ce n'était pas une attaque contre le corps.
+
+C'était une tentative de détourner l'attention des auditeurs.
+
+Lorsque les gens s'asseyaient pour écouter le Coran, il leur apportait d'autres récits afin de concurrencer le message, comme s'il leur disait :
+
+Qu'est-ce qui rend les récits de Muhammad meilleurs que les miens ?
+
+Des récits de Tafsîr relient an-Nadr à l'expression par laquelle les polythéistes qualifiaient le Coran :
+
+des contes d’anciens
+
+Cette expression désigne les anciens récits et histoires qu’ils prétendaient que le Prophète avait repris de peuples antérieurs.
+
+Cependant, aucun hadith prophétique authentique n'établit que chaque verset contenant cette expression ait été révélé spécialement au sujet d'an-Nadr. Ce lien reste donc de l'ordre des récits de Tafsîr et de Sîrah et ne doit pas être présenté comme une certitude dans chaque cas.
+
+« Allez voir les gens du Livre et interrogez-les »
+
+Quraysh passa ensuite à une autre méthode.
+
+Si Muhammad disait être prophète, pourquoi ne pas interroger des gens qui possédaient déjà une connaissance des prophètes et des Écritures antérieures ?
+
+Ibn Ishâq rapporte que Quraysh envoya an-Nadr ibn al-Hârith et ‘Uqbah ibn Abî Mu‘ayt à Médine afin d'interroger les rabbins juifs [savants religieux juifs connaissant leurs Écritures] au sujet de Muhammad.
+
+Selon le récit, Quraysh donna aux deux hommes les instructions suivantes, en substance :
+
+Interrogez les savants juifs au sujet de Muhammad, que la paix et les bénédictions d’Allah soient sur lui. Décrivez-le et rapportez-leur ses paroles, car ils possèdent les Écritures antérieures et des connaissances sur les prophètes que nous n’avons pas. Les deux hommes se rendirent à Médine, exposèrent aux savants sa situation et certaines de ses paroles, puis leur demandèrent leur avis.
+
+Selon le récit de la Sîrah, les rabbins dirent :
+
+Interrogez-le sur trois choses.
+
+Premièrement :
+
+sur de jeunes hommes [des jeunes] qui vécurent autrefois et dont l'histoire fut extraordinaire.
+
+Deuxièmement :
+
+sur un homme grand voyageur [quelqu'un qui se déplaçait beaucoup] qui atteignit les régions orientales et occidentales de la terre.
+
+Troisièmement :
+
+sur l'esprit.
+
+Le récit ajoute : s'il vous répond, il est prophète ; sinon, examinez son cas.
+
+An-Nadr et ‘Uqbah retournèrent à La Mecque.
+
+Ils dirent à Quraysh qu'ils avaient rapporté ce qu'ils considéraient comme une épreuve permettant de trancher entre eux et Muhammad.
+
+Ils vinrent au Prophète avec les questions.
+
+Les détails de l’envoi des deux hommes auprès des savants juifs et des trois questions dans cet ordre précis viennent principalement de la Sîrah d’Ibn Ishâq. Ils ne sont pas tous établis par un hadith authentique à chaîne continue.
+
+Le Coran lui-même conserve cependant le contenu des trois questions :
+
+l'histoire des Gens de la Caverne,
+
+l'histoire de Dhul-Qarnayn,
+
+et la question de l'esprit.
+
+« Demain »
+
+Le récit d’Ibn Ishâq rapporte aussi la réponse du Messager d’Allah à ces questions.
+
+Il leur annonça qu’il répondrait à leurs questions le lendemain.
+
+Il ne dit pas : « Si Allah le veut. »
+
+Le récit rapporte ensuite que la révélation tarda environ quinze nuits.
+
+Ce nombre — quinze nuits — vient du récit de la Sîrah ; nous ne disposons pas d'un hadith authentique fixant cette durée avec cette précision.
+
+Selon le récit, les Mecquois commencèrent à dire :
+
+Muhammad nous avait promis demain ; les jours ont passé et il ne nous a toujours pas répondu.
+
+Cela pesait lourdement sur le Messager d'Allah.
+
+Puis la révélation vint.
+
+Dans la sourate al-Kahf descendit un enseignement qui demeure pour toute la communauté musulmane :
+
+Et ne dis jamais, à propos d’une chose : "Je la ferai sûrement demain."
+Sans ajouter : "Si Allah le veut !" Et invoque ton Seigneur quand tu oublies et dis : "Je souhaite que mon Seigneur me guide et me mène plus près de ce qui est correct."
+
+— Coran 18:23–24 — Muhammad Hamidullah.
+
+Le Prophète ne décidait pas lui-même du moment où la révélation descendrait et ne pouvait donc en promettre la venue à sa guise.
+
+Le Messager transmet.
+
+La révélation descend sur l'ordre d'Allah.
+
+Les réponses arrivèrent
+
+Concernant les jeunes hommes, le Coran raconta leur histoire dans la sourate al-Kahf :
+
+Penses-tu que les gens de la Caverne et d’Ar-Raquîm ont constitué une chose extraordinaire d’entre Nos prodiges ?
+Quand ces jeunes gens se réfugièrent dans la caverne, ils dirent : "Ô notre Seigneur ! Donne-nous de Ta part une miséricorde ! Et assure nous la droiture dans tout ce qui nous concerne."
+
+— Coran 18:9–10 — Muhammad Hamidullah.
+
+Le terme ar-Raqîm est un mot dont les exégètes ont divergé sur le sens précis. Parmi les avis connus, il désignerait un écrit ou une tablette sur laquelle leur histoire aurait été inscrite. Nous ne pouvons donc affirmer un seul sens comme s'il faisait l'unanimité.
+
+Quant à l'homme qui atteignit des contrées lointaines, la question le concernant apparaît explicitement :
+
+Et ils t’interrogent au sujet de Dhûl Qarnayn. Dis: “Je vais vous en citer quelque fait mémorable.”
+
+— Coran 18:83 — Muhammad Hamidullah.
+
+Commence alors le récit de Dhul-Qarnayn.
+
+Quant à la question de l'esprit, Allah dit :
+
+Et ils t’interrogent au sujet de l’âme. Dis : « L’âme relève de l’Ordre de mon Seigneur. » Et on ne vous en a donné que peu de science.
+
+— Coran 17:85 — Muhammad Hamidullah.
+
+La question sur l’esprit à La Mecque et à Médine
+
+Le récit réunissant les trois questions avant la révélation de la sourate al-Kahf provient de la Sîrah. La question sur l'esprit est également attestée authentiquement dans un autre événement à Médine : des Juifs interrogèrent le Prophète au sujet de l'esprit, et il leur récita ce verset.
+
+Le récit d’al-Bukhari atteste que la question sur l’esprit fut posée à Médine ; il ne relate ni le voyage d’an-Nadr et de ‘Uqbah ni les trois questions réunies. Les détails de l’histoire mecquoise proviennent du récit de Sîrah déjà mentionné. Le fait que les deux récits évoquent la question sur l’esprit ne confère pas à l’ensemble du récit mecquois le statut d’un hadith authentique.
+
+Le Coran n'était pas seulement une réponse à des questions
+
+La sourate al-Kahf ne commence pas directement par l'histoire des jeunes hommes.
+
+Allah dit au début :
+
+Louange à Allah qui a fait descendre sur Son serviteur (Mohammed), le Livre, et n’y a point introduit de tortuosité (ambiguïté) !
+[Un livre] d’une parfaite droiture pour avertir d’une sévère punition venant de Sa part et pour annoncer aux croyants qui font de bonnes œuvres qu’il y aura pour eux une belle récompense.
+
+— Coran 18:1–2 — Muhammad Hamidullah.
+
+Puis Il dit :
+
+Tu vas peut-être te consumer de chagrin parce qu’ils se détournent de toi et ne croient pas en ce discours !
+
+— Coran 18:6 — Muhammad Hamidullah.
+
+L'expression signifie ici : tu pourrais presque te détruire tant ton chagrin est intense.
+
+Le Prophète désirait profondément la guidée de son peuple, et leur rejet lui causait de la peine.
+
+Le Coran n'est pas venu seulement pour lui fournir les informations qu'ils réclamaient.
+
+Il est aussi venu confirmer le message, répondre à leurs objections et guider le Prophète lui-même alors qu'il portait le poids de cette confrontation.
+
+Une caractéristique essentielle de la période mecquoise apparaît ici :
+
+Si nous voulons comprendre ce qui se passait entre le Messager d'Allah et Quraysh, les seuls récits de la Sîrah ne suffisent pas.
+
+Le Coran lui-même descendait au milieu des événements.
+
+Il conserve les questions des polythéistes.
+
+Il rapporte leurs objections.
+
+Il répond à leurs demandes.
+
+Il affermit le Messager d'Allah.
+
+Et il révèle les significations profondes de ce conflit.
+
+C'est pourquoi comprendre le Coran mecquois sera l'une des clés les plus importantes pour comprendre les années suivantes de la Sîrah.
+
+Sources principales de ce chapitre
+
+- La Sîrah d’Ibn Ishâq transmise par Ibn Hishâm : l’agencement de ces récits, sachant que la chronologie de certains événements mecquois demeure incertaine.
+
+- ‘Uqbah ibn Abî Mu‘ayt étranglant le Prophète et intervention d'Abû Bakr : Sahîh al-Bukhârî 3678 et 3856.
+
+- Coran 40:28.
+
+- Récit de l'islam de Hamzah et de sa confrontation avec Abû Jahl : Ibn Ishâq par Ibn Hishâm, avec dans la chaîne un homme non nommé ; il est donc présenté comme un récit célèbre de Sîrah et non comme un hadith authentique à chaîne continue. Le début des paroles de Hamzah est cité dans la traduction d’Abdou Harkat de Khalid Mohammad Khalid, Des hommes autour du Prophète, Dâr al-Kotob al-Ilmiyah, p. 94 (page PDF 92). Le défi qui suit est rapporté indirectement d’après le récit arabe d’Ibn Hishâm.
+
+- Récit de ‘Utbah ibn Rabî‘ah offrant richesse, honneur et royauté, puis écoutant la sourate Fussilat : récits de Sîrah d'Ibn Ishâq ; sa chaîne n'est pas du niveau d'un hadith authentique. Traduction de la brève question adressée à Abû al-Walîd : Mahmud al-Dowsary, La Grandeur du Noble Coran, traduction de Hood Jhumka, revue par Khira Jhumka, p. 148.
+
+- Coran 41:1–5.
+
+- Demandes des polythéistes concernant une source, des jardins, des rivières, la chute du ciel et la venue des anges : Coran 17:90–93.
+
+- Récit d'an-Nadr ibn al-Hârith, des histoires perses, de son voyage avec ‘Uqbah auprès des rabbins juifs et des trois questions : Ibn Ishâq ; le degré du récit est préservé et tous ses détails ne sont pas présentés comme certains.
+
+- Les Gens de la Caverne : Coran 18:9 et suivants.
+
+- Dhul-Qarnayn : Coran 18:83 et suivants.
+
+- Coran 18:23–24.
+
+- La question sur l’esprit : Coran 17:85 ; Sahih al-Bukhari 125 situe explicitement à Médine la question posée par des Juifs. Cet épisode est distinct du récit mecquois des trois questions. https://sunnah.com/bukhari:125

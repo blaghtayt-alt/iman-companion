@@ -1,0 +1,183 @@
+# Pourquoi le Prophète a-t-il invoqué Allah pour qu’Umar embrasse l’islam ?
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Chapitre vingt-et-un
+
+Pourquoi le Prophète a-t-il invoqué Allah pour qu’Umar embrasse l’islam ?
+
+Umar avant l’islam : une force réorientée par la foi
+
+1. Umar avant l’islam
+
+Après le récit de l’émigration en Abyssinie, nous revenons à La Mecque. Beaucoup de musulmans étaient partis, tandis qu’un plus petit nombre était resté avec le Messager d’Allah, paix et bénédictions sur lui. Certains récits de Sîra situent la conversion d’Umar ibn al-Khattab, qu’Allah l’agrée, dans la sixième année de la prophétie. Cet événement renforça visiblement les musulmans de La Mecque.
+
+Mais avant de raconter comment il devint musulman, une question doit être posée : Qui était Umar à cette époque, et pourquoi l’islam d’un homme comme lui allait-il être un événement particulier ? Cette question est importante, car Umar n’était alors pas proche des musulmans. Au contraire, il faisait partie de ceux qui se montraient durs envers eux. Pourtant, il est authentiquement rapporté que le Messager d’Allah, paix et bénédictions sur lui, invoqua Allah afin qu’Il renforce l’islam par son entrée dans la foi.
+
+2. L’invocation du Prophète pour renforcer l’islam
+
+Abdullah ibn Umar, qu’Allah les agrée tous les deux, rapporte que le Messager d’Allah, paix et bénédictions sur lui, a dit :
+
+« Ô Allah, renforce l'Islam par celui des deux hommes que Tu préfères : Abou Jahl ou Omar ibn al-Khattab. »
+
+Ibn Umar précise ensuite qu’Umar était, des deux, le plus aimé d’Allah.
+
+— Jami‘ at-Tirmidhi, 3681. At-Tirmidhi l’a qualifié de hadith hasan sahih gharib. Traduction de l’invocation : Towards Eternity, « Hamza et Omar deviennent musulmans », épisode 3, 26 août 2026. La précision d’Ibn Umar est rapportée au sens, d’après le texte arabe du hadith.
+
+Ici, la force désigne la puissance et la protection qui permettent aux musulmans de pratiquer ouvertement leur religion et d’y rester fermes. L’effet de cette invocation se manifesta dans leur vie.
+
+Après l’entrée en islam d’Umar, Abdullah ibn Mas‘ud, qu’Allah l’agrée, dit :
+
+« Nous ne cessions d’être puissants depuis la conversion de Omar. »
+
+— Sahih al-Bukhari, 3863. Traduction publiée : Safi ar-Rahman al-Mubarakfuri, Le Nectar cacheté, traduction de Cheikh Gueye, révision de Ben Brahim Mohamed Al Amin, Darussalam, p. 148.
+
+Ces deux récits établissent que le Prophète, paix et bénédictions sur lui, demanda à Allah de renforcer l’islam par l’un de deux hommes, dont Umar, et qu’un Compagnon ayant vécu cette période témoigna du changement qui suivit sa conversion. Le hadith ne détaille cependant pas les qualités pour lesquelles Umar fut nommé dans l’invocation. Les réflexions sur sa personnalité à La Mecque et son influence ultérieure doivent donc rester distinctes de la prière rapportée : elles ne constituent pas une explication attribuée au Prophète des raisons de son choix.
+
+3. La place d’Umar parmi les siens
+
+On pourrait penser que le Prophète, paix et bénédictions sur lui, espérait la conversion d’Umar parce que toute sa tribu le suivrait. La situation était plus complexe. Umar appartenait aux Banu Adi, une branche respectée de Quraysh, mais moins puissante que les Banu Abd Shams. Al-Azraqi rapporte que les Banu Adi s’allièrent aux Banu Sahm après avoir eu le dessous dans des affrontements avec les Banu Abd Shams. Umar lui-même avait néanmoins du prestige : selon Ibn Abd al-Barr, Quraysh lui confiait la mission de les représenter dans certaines négociations et querelles.
+
+Umar n’était pas non plus un homme que l’ensemble de Quraysh aurait suivi simplement en raison de sa position tribale. Cela le distinguait de certains grands notables de Quraysh qui représentaient de vastes familles et disposaient d’une influence sociale considérable. Son importance ne venait pas non plus d’une immense fortune que les musulmans attendaient de le voir dépenser à leur service.
+
+Sa personnalité réunissait une force intérieure, une grande dignité, des convictions claires, la capacité de décider et la volonté d’assumer les conséquences de ce qu’il estimait juste. Ces qualités existaient avant l’islam, mais il les employait alors contre la prédication.
+
+4. Un aperçu de la douceur d’Umar
+
+L’un des récits les plus frappants qui révèlent quelque chose d’Umar avant son islam est celui d’Umm Abdullah bint Abi Hathmah, qu’Allah l’agrée. Umm Abdullah et son mari Amir ibn Rabi‘ah faisaient partie des musulmans qui se préparaient à émigrer en Abyssinie. Les ouvrages de Sîra rapportent d’après Ibn Ishaq qu’alors qu’elle préparait son départ et que son mari était sorti pour une affaire, Umar vint à elle. Umar était encore polythéiste.
+
+Umm Abdullah évoqua ce que les musulmans avaient subi de la part d’Umar :
+
+Elle rappela les épreuves, les mauvais traitements et la dureté qu’il leur avait fait subir. — Ibn Hisham, al-Sira al-nabawiyya, récit d’Umm Abdullah (sens des paroles).
+
+Autrement dit, elle ne le considérait pas comme un homme neutre. Elle savait combien il avait fait souffrir les musulmans. Lorsqu’il la vit se préparer à partir, il lui demanda où ils allaient. Elle jura par Allah qu’ils partiraient sur la terre d’Allah parce que Quraysh les avait maltraités et opprimés, jusqu’à ce qu’Allah leur ouvre une issue.
+
+Umar lui dit :
+
+« Que Dieu soit avec vous ! » — Osman Nûri Topbaş, Le Prophète Muhammad Mustafâ L’Élu, traduction de Musa Belfort et Adem Dereli, Éditions Erkam, 2021, p. 233.
+
+Ses paroles demandaient à Allah de les protéger et de prendre soin d’eux pendant le voyage. Umm Abdullah remarqua ensuite chez lui une douceur qu’elle n’avait jamais vue, et leur départ sembla l’attrister. Il ne devint pas musulman à cet instant et ne changea pas immédiatement de position, mais la femme qui connaissait sa dureté entrevit un autre visage.
+
+Lorsque son mari Amir revint, elle lui raconta ce qu’elle avait vu et parla comme si elle sentait qu’Umar pourrait un jour entrer dans l’islam. Amir jugea cette possibilité extrêmement improbable, connaissant la dureté d’Umar envers les musulmans. Il employa alors la comparaison frappante conservée dans le récit de Sîra :
+
+Selon lui, l’homme qu’elle venait de voir ne deviendrait musulman que lorsque l’âne d’al-Khattab le deviendrait lui aussi. — Ibn Hisham, même récit (sens des paroles d’Amir).
+
+La comparaison d’Amir était une forte exagération : il jugeait la conversion d’Umar presque inimaginable. C’est ce qui rend le récit si frappant. Peu après, cet homme dont l’entrée en islam paraissait si improbable allait devenir l’un de ceux dont la présence renforça le plus clairement les musulmans.
+
+Ce récit provient des récits de Sîra transmis par Ibn Ishaq. Nous ne le plaçons donc pas au niveau d’un hadith authentique. Il reste toutefois un récit de Sîra connu et cohérent avec ce qui est établi sur la dureté d’Umar envers les musulmans avant son islam.
+
+5. Sa dureté envers les musulmans
+
+L’image d’Umar avant l’islam ne repose pas uniquement sur des impressions générales.
+
+Un récit authentique rapporte le témoignage de Sa‘id ibn Zayd, qu’Allah l’agrée.
+
+Sa‘id y affirme en jurant par Allah qu’avant d’embrasser l’islam, Umar l’avait ligoté parce que lui, Sa‘id, était déjà musulman.
+
+— Sens du témoignage rapporté dans le Sahih al-Boukhari, 3862. Récit parallèle : 6942.
+
+Umar ligotait et retenait Sa‘id de force parce que ce dernier avait embrassé l’islam. Sa‘id n’était pas un étranger : son père, Zayd ibn Amr, était le cousin paternel d’Umar. Lui-même comptait parmi les premiers musulmans et avait épousé Fatimah bint al-Khattab, la sœur d’Umar. L’islam était donc déjà entré dans son cercle familial le plus proche, alors qu’il continuait à le combattre.
+
+Avant l’islam, Umar n’était pas simplement un observateur peu convaincu. Sa force de caractère le poussait à agir selon ce qu’il croyait juste. Tant qu’il tenait l’islam pour faux, il employait cette force contre lui. Sa conversion soulève donc une question essentielle : que se passerait-il lorsque sa compréhension de la vérité changerait ?
+
+6. Une force guidée par la foi
+
+Une personne peut posséder un trait très puissant avant la guidée. Après la guidée, ce trait ne disparaît pas nécessairement ; c’est plutôt la direction dans laquelle il agit qui change. La détermination peut servir le faux, puis servir la vérité. Le courage peut servir à nuire aux gens, puis servir à les protéger. La fermeté dans la décision peut conduire quelqu’un avec force vers une mauvaise position, puis, lorsque la vérité devient claire, faire de lui l’un des plus fermes à s’y tenir.
+
+Umar n’avait pas besoin, après son islam, de devenir un homme faible de volonté pour être vertueux. Ce qui changea fut le critère qui dirigeait cette volonté. Cela permet de comprendre un aspect de l’importance de l’invocation du Prophète pour qu’Umar soit guidé. L’homme qui avait été dur envers les musulmans pouvait, une fois guidé, employer cette même intensité pour soutenir ce en quoi il croyait désormais.
+
+7. Courage et aptitude à diriger
+
+Parmi les Compagnons, certains étaient déjà connus pour leur force et leur courage avant Umar. Hamzah ibn Abd al-Muttalib, qu’Allah l’agrée, était un homme d’un courage et d’une force évidents. Mais il faut faire une distinction importante : le courage n’est pas exactement la même chose que ce que nous appelons une forte personnalité de dirigeant. Une personne peut être un combattant redoutable sans exercer une influence large sur les décisions, les opinions ou les hommes. Une personne peut avoir une grande dignité sans transformer cette dignité en influence au-delà d’elle-même.
+
+La suite de sa vie révélera chez Umar une grande dignité, de l’audace, une force physique, la capacité de décider et d’influencer les autres. Après sa conversion se manifesteront aussi la justesse de son jugement et sa compréhension profonde de la religion.
+
+Cela ne signifie pas que nous sachions avec certitude que le Prophète, paix et bénédictions sur lui, invoqua pour lui à cause d’une liste précise de ces qualités. Mais la vie d’Umar après son islam nous aide à comprendre pourquoi l’entrée d’une personnalité comme la sienne dans les rangs musulmans eut un effet exceptionnel.
+
+8. L’espoir de voir un adversaire guidé
+
+Umar faisait du mal aux musulmans. Pourtant, le Prophète, paix et bénédictions sur lui, invoqua Allah pour sa guidée et pour que l’islam soit renforcé par lui. Cela met en lumière une idée importante : celui qui combat la vérité aujourd’hui n’est pas nécessairement condamné à rester ainsi jusqu’à la fin de sa vie. Une personne peut être farouche dans son opposition parce que la force fait déjà partie de son caractère ; puis, lorsque la vérité lui devient claire, elle peut transporter cette même force dans l’autre camp.
+
+Cela ne signifie pas que l’on doive placer la même espérance dans tout adversaire de la prédication. Cela ne signifie pas non plus qu’il faille ignorer le mal qu’il commet. Mais le Prophète, paix et bénédictions sur lui, ne considéra pas la position actuelle d’un homme dans le camp opposé comme un jugement définitif sur son avenir. Nous avons déjà vu des fils et des filles sortir de familles hostiles à l’islam et atteindre la foi avant leurs proches. Avec Umar, nous verrons quelque chose de plus direct encore : l’homme lui-même passe de la résistance au soutien.
+
+9. Abu Jahl dans l’invocation
+
+L’autre homme cité dans le hadith était Amr ibn Hisham, connu sous le nom d’Abu Jahl. Il appartenait aux Banu Makhzum et comptait parmi les hommes les plus influents de Quraysh dans la direction de l’opposition au Prophète, paix et bénédictions sur lui. Il n’était ni le plus âgé de Quraysh ni d’une noblesse de lignée sans égale. Cependant, sa personnalité et son influence faisaient de lui l’un des principaux hommes capables de rassembler Quraysh dans l’opposition à la prédication. Nous verrons plus tard que cette influence resta assez forte pour pousser Quraysh vers l’affrontement à Badr.
+
+L’invocation est la suivante :
+
+« Ô Allah, renforce l'Islam par celui des deux hommes que Tu préfères : Abou Jahl ou Omar ibn al-Khattab. »
+
+À la lumière de cette invocation, on peut réfléchir à l’influence des deux hommes : il ne s’agissait pas seulement de noms célèbres. Leur conversion aurait pu modifier l’équilibre des forces dans la société. Cela reste une réflexion sur leur influence ; celui des deux qu’Allah guida fut Umar.
+
+10. Umar et les Banu Adi
+
+Umar appartenait aux Banu Adi de Quraysh. Sa généalogie est la suivante : Umar ibn al-Khattab ibn Nufayl ibn Abd al-Uzza ibn Riyah ibn Abdullah ibn Qurt ibn Razah ibn Adi ibn Ka‘b. D’où la désignation al-Qurashi al-Adawi, c’est-à-dire un homme de Quraysh, des Banu Adi. Sa lignée rejoint celle du Messager d’Allah, paix et bénédictions sur lui, à Ka‘b ibn Lu’ayy ; cette parenté est donc plus éloignée que celle des Banu Hashim ou des Banu Abd Manaf.
+
+Al-Azraqi rapporte que les Banu Adi habitaient d’abord entre al-Safa et la Kaaba. Après leur alliance avec les Banu Sahm, durant la période préislamique, la plupart vendirent leurs maisons et s’installèrent auprès de leurs alliés. Ces récits éclairent leur place parmi les clans de Quraysh : être moins puissants que certains clans ne signifiait pas être sans prestige. Al-Baladhuri décrit Nufayl ibn Abd al-Uzza, le grand-père d’Umar, comme un homme respecté auquel Quraysh soumettait des différends. D’autres membres de cette famille auront également leur place dans l’histoire d’Umar.
+
+11. Zayd ibn Amr et la recherche du monothéisme
+
+Parmi les Banu Adi figurait Zayd ibn Amr ibn Nufayl, cousin paternel d’Umar : son père Amr était le frère d’al-Khattab, le père d’Umar. Comme nous l’avons vu, Zayd rejeta le culte des idoles et rechercha la religion d’Abraham, paix sur lui, avant la mission du Prophète Muhammad, paix et bénédictions sur lui. Il mourut avant la prophétie, laissant son fils Sa‘id ibn Zayd, qu’Allah l’agrée, qui fut parmi les premiers musulmans. C’est ce même Sa‘id qui raconta qu’Umar le ligotait en raison de sa foi.
+
+Sur deux générations, cette famille suivit des chemins différents : Zayd rechercha le monothéisme avant la prophétie, son fils embrassa rapidement l’islam, tandis qu’Umar continua à combattre la prédication. Les membres d’une même famille ne reconnurent pas tous la vérité au même moment ni par le même chemin.
+
+12. Zayd ibn al-Khattab : un frère aîné converti avant lui
+
+Umar avait aussi un frère aîné, Zayd ibn al-Khattab, qu’Allah l’agrée, qui embrassa l’islam avant lui. La foi était donc déjà présente dans la maison d’al-Khattab alors qu’Umar restait polythéiste. Son frère était musulman, tout comme Sa‘id, fils de son cousin paternel Zayd ibn Amr et époux de sa sœur Fatimah. Plusieurs de ses plus proches parents l’avaient ainsi précédé dans l’islam.
+
+Zayd ibn al-Khattab participa à Badr et aux campagnes du Messager d’Allah, paix et bénédictions sur lui, puis mourut martyr à al-Yamamah. Umar en éprouva une profonde tristesse. Dans la biographie de Zayd, al-Dhahabi rapporte, selon le sens des paroles d’Umar, que son frère l’avait précédé dans l’islam et dans le martyre. Cet événement est postérieur, mais il permet de situer Umar dans sa famille : il n’en fut pas le premier musulman, et certains de ses plus proches parents l’avaient devancé.
+
+13. Une influence qui dépasse le nombre
+
+Ces événements ont aussi une portée plus large. La plupart des premiers musulmans n’occupaient aucune fonction dirigeante et ne détenaient pas d’autorité au sein de Quraysh. Le Coran a préservé la dignité des faibles, et la Sunna a préservé leur mérite. La proximité d’une personne avec Allah ne se mesure ni à sa richesse ni à son influence.
+
+Une communauté peut avoir besoin d’une personne qui défend la vérité et possède aussi la capacité de décider, d’influencer les autres, de les protéger, de les diriger et d’élargir leur liberté d’action. La conversion d’Umar illustre clairement cette influence. La valeur des autres musulmans n’en était pas diminuée ; les capacités et les rôles diffèrent, et la force d’une seule personne peut parfois produire ce que le nombre seul ne permet pas.
+
+14. La foi près des cercles du pouvoir
+
+Ce sens ne se limite pas à l’histoire d’Umar. Le Coran mentionne un croyant de la famille de Pharaon qui cachait sa foi, puis prit la parole lorsque les gens de Pharaon voulurent tuer Moïse, paix sur lui :
+
+Un homme de la famille de Pharaon, qui était croyant mais taisait sa foi, fit observer alors : « Tueriez-vous un homme qui dit : “Mon Seigneur est Allah” et qui vous apporte, de votre Seigneur, les preuves évidentes ? S’il a menti, ce sera à ses dépens, et s’il a dit vrai, vous atteindra alors un peu de ce qu’il vous promet. » Allah, certes, ne guide point tout transgresseur et menteur.
+
+— Sourate Ghafir : 28. — Dr Nabil Radwan — Noor International Center
+
+Cet homme se trouvait au cœur même du milieu d’où venait le danger. Mais sa proximité avec ce milieu ne l’empêcha pas de se tenir avec la vérité lorsque la situation l’exigea.
+
+Dans l’histoire de Moïse, paix sur lui, Allah dit aussi :
+
+Un homme vint en courant de l’autre bout de la ville : «Ô Moïse, dit-il, l’assemblée des notables est en train de délibérer à ton sujet et projette de te mettre à mort. Sors donc (de la ville), je te le conseille sincèrement ! »
+
+— Sourate al-Qasas : 20. — Dr Nabil Radwan — Noor International Center
+
+L’avertissement qui sauva Moïse venait d’un homme qui connaissait les projets des puissants et choisit d’utiliser ce savoir pour secourir un homme menacé d’injustice. Être proche du pouvoir ne rend pas une personne mauvaise en soi. Ce qui compte est l’usage qu’elle fait de ses moyens lorsqu’elle reconnaît la vérité.
+
+15. La diversité des rôles des Compagnons
+
+Les Compagnons n’avaient pas tous à posséder la personnalité d’Umar. Parmi eux se trouvaient des savants, des adorateurs dévoués, des donateurs généreux, des combattants, des prédicateurs et des hommes de jugement. Certains soutenaient les autres par leur patience ; d’autres les protégeaient grâce à leur position sociale.
+
+Cette diversité faisait elle-même partie de la force de la communauté. Mettre en lumière Umar ne revient pas à présenter un seul type de personnalité comme le modèle valable. Son histoire montre comment des qualités puissantes peuvent devenir une grande source de bien lorsqu’elles sont guidées par la foi. Pour mesurer sa transformation, il faut donc connaître l’homme qu’il était avant l’islam, sans commencer uniquement au moment où il prononça l’attestation de foi.
+
+16. Au seuil d’une transformation
+
+Avant l’islam, Umar était un homme des Banu Adi au caractère affirmé, aux convictions fermes et aux décisions résolues. Les musulmans avaient souffert de sa dureté. Une femme qui se préparait à émigrer fut donc surprise d’entrevoir sa douceur, tandis que Sa‘id ibn Zayd se souvenait d’avoir été ligoté par lui à cause de sa foi. Pourtant, le Messager d’Allah, paix et bénédictions sur lui, invoqua Allah pour lui.
+
+Puis Ibn Mas‘ud dira plus tard :
+
+« Nous ne cessions d’être puissants depuis la conversion de Omar. »
+
+Entre la dureté d’Umar envers les musulmans et le témoignage d’Ibn Mas‘ud sur leur force après sa conversion se trouve une profonde transformation. Comment celui qui leur faisait du mal devint-il une source de force pour eux ? Le chapitre suivant raconte la conversion d’Umar ibn al-Khattab, qu’Allah l’agrée.
+
+Sources principales de ce chapitre
+
+L’invocation du Prophète pour qu’Allah renforce l’islam par celui qu’Il aime le plus entre Abu Jahl et Umar ibn al-Khattab — Jami‘ at-Tirmidhi, 3681 ; at-Tirmidhi l’a qualifié de hasan sahih. Traduction de l’invocation : Towards Eternity, « Hamza et Omar deviennent musulmans », épisode 3, 26 août 2026. La précision d’Ibn Umar est rapportée au sens, d’après le texte arabe du hadith.
+
+La parole d’Abdullah ibn Mas‘ud, qu’Allah l’agrée : « Nous ne cessions d’être puissants depuis la conversion de Omar. » — Sahih al-Bukhari, 3863. Traduction publiée : Safi ar-Rahman al-Mubarakfuri, Le Nectar cacheté, traduction de Cheikh Gueye, révision de Ben Brahim Mohamed Al Amin, Darussalam, p. 148.
+
+• Témoignage de Sa‘id ibn Zayd, qu’Umar avait ligoté à cause de son islam avant d’embrasser lui-même cette religion : Sahih al-Boukhari, 3862 ; récit parallèle : 6942.
+
+Le récit d’Umm Abdullah bint Abi Hathmah avec Umar au moment de la préparation de l’émigration vers l’Abyssinie — parmi les récits de Sîra d’Ibn Ishaq transmis par Ibn Hisham ; il est donc présenté comme un récit de Sîra et non comme un hadith authentique.
+
+Généalogie et prestige d’Umar : Ibn Abd al-Barr, al-Isti‘ab, biographie d’Umar, 3/1144–1146. Habitations et alliance des Banu Adi : al-Azraqi, Akhbar Makkah, 2/261. Prestige de Nufayl : al-Baladhuri, Ansab al-ashraf, généalogie des Banu Adi. Parenté de Zayd ibn Amr : Ibn Hisham, al-Sira, 1/229–230 ; al-Ayni, Umdat al-qari, chapitre sur Zayd ibn Amr. Conversion et martyre de Zayd ibn al-Khattab : al-Dhahabi, Siyar a‘lam al-nubala’, sa biographie.
+
+Sourate Ghafir : 28 et sourate al-Qasas : 20, comme exemples de personnes portant la vérité tout en étant proches des cercles d’influence.

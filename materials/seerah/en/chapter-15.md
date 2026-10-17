@@ -1,0 +1,168 @@
+# When Steadfastness Became a Test: Persecution Before the Migration to Abyssinia
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Chapter Fifteen
+
+When Steadfastness Became a Test: Persecution Before the Migration to Abyssinia
+
+Before the Qur'an's answer about the Companions of the Cave came, Quraysh had sought another way to test the claim of Allah's Messenger, peace and blessings be upon him.
+
+They had tried arguments, accusations, and various demands, but they were not People of the Book—the Jews and Christians who possessed earlier scriptures and accounts of the prophets. They therefore decided to consult people who knew the earlier scriptures and prophetic accounts. Jewish communities lived in Yathrib, the city later known as Madinah. Among them were rabbis, scholars of Jewish religion and scripture.
+
+According to Ibn Ishaq's account of the Seerah, Quraysh sent al-Nadr ibn al-Harith and ‘Uqbah ibn Abi Mu‘ayt to describe Muhammad, peace and blessings be upon him, and his message to those scholars, and to ask how they could test his claim. Quraysh sought their knowledge of earlier prophets; this did not mean Quraysh had adopted Judaism.
+
+In this Seerah report, the scholars suggested three questions: one about young men from long ago whose story was extraordinary; another about a man who travelled widely and reached distant regions of the earth; and a third about the spirit. The first two would lead to the stories of the Companions of the Cave and Dhul-Qarnayn. The Qur'an answers the third:
+
+They ask you [O Prophet] about the spirit. Say, “The soul is only known to my Lord, and you have not been given knowledge except a little.”
+
+— Qur'an, al-Isra' 17:85 (translation of meaning).
+
+Al-Nadr and ‘Uqbah returned to Makkah and told Quraysh what they had heard. Quraysh then put those questions to the Messenger of Allah, peace and blessings be upon him, in an effort to test his prophethood. The details of the journey and all three questions together come from Ibn Ishaq's Seerah report; they are not established in every detail by an uninterrupted authentic hadith. This distinction matters. It also explains that the question about the Cave did not arise out of nowhere: Quraysh had sought a test from people familiar with earlier prophetic traditions and returned to ask the Prophet.
+
+The Answer Was Not Merely Information
+
+Quraysh had asked the Messenger of Allah, peace and blessings be upon him, about the Companions of the Cave to test his prophethood. An answer might have seemed to call for a short set of facts: who were they, where did they go, and how many years did they remain? Yet the Qur'an did not begin with numbers. Allah says:
+
+It is We who relate to you, [O Muḥammad], their story in truth. Indeed, they were youths who believed in their Lord, and We increased them in guidance.
+And We bound [i.e., made firm] their hearts when they stood up and said, "Our Lord is the Lord of the heavens and the earth. Never will we invoke besides Him any deity. We would have certainly spoken, then, an excessive transgression.
+These, our people, have taken besides Him deities. Why do they not bring for [worship of] them a clear evidence? And who is more unjust than one who invents about Allāh a lie?"
+
+— Qur’an, al-Kahf 18:13–15, Saheeh International (Quran.com, translation 20).
+
+The grave falsehood mentioned in the verse is a claim far removed from the truth; the clear proof is evidence that supports a claim. Quraysh had asked about young people of the past, but the response presented young people who had told their own people that they would worship none besides the Lord of heaven and earth. That was precisely the central dispute unfolding in Makkah. The Companions of the Cave found their people worshipping other deities and refused to follow them without evidence.
+
+Allah also relates their words: «[The youths said to one another], "And when you have withdrawn from them and that which they worship other than Allāh, retreat to the cave. Your Lord will spread out for you of His mercy and will prepare for you from your affair facility."»
+
+— Qur’an, al-Kahf 18:16, Saheeh International (Quran.com, translation 20).
+
+Withdrawing means separating from those people and not participating in their false worship; ease here means the relief and practical help they would need. Their story was more than an answer to a historical question. It spoke of faith, worshipping none besides Allah, remaining firm, and leaving an environment that pressures believers to renounce their religion. Meanwhile, in Makkah, some Companions of the Messenger, peace and blessings be upon him, faced a different form of the same pressure. They had not left their homeland yet. Some were being tortured there.
+
+Each Tribe Turned Against Its Own Muslims
+
+As confrontation intensified, Quraysh did not confine itself to debate and mockery. Ibn Ishaq reports that each tribe began dealing with those who had accepted Islam among its own people or under its authority: they imprisoned and beat them, withheld food and water, and dragged some vulnerable believers onto the ground of Makkah, made scorching hot by the sun. Their aim was to pressure them into abandoning Islam.
+
+The Muslims' social positions made a great difference. Someone backed by a powerful clan was not in the same situation as an enslaved person whose owner controlled his body and movements. A person of standing might be threatened, insulted, or imprisoned, but torturing or killing him could provoke a tribal dispute. An unprotected believer could be assaulted directly. The suffering was therefore not distributed equally among Muslims.
+
+Bilal Beneath the Rock
+
+Bilal ibn Rabah, may Allah be pleased with him, was among the best-known victims. He was enslaved by Banu Jumah, a branch of Quraysh, and Umayyah ibn Khalaf was among those who tortured him most severely. Ibn Ishaq's Seerah reports that Umayyah waited for midday, when the sun’s heat was most intense, then took Bilal to a level, open part of the Makkan valley covered in gravel and sand. Bilal was made to lie on his back in the heat, and a huge rock was placed on his chest. He was told he would remain there until he died or rejected Muhammad, peace and blessings be upon him, and returned to the worship of al-Lat and al-‘Uzza.
+
+Bilal replied: “One! One!” He meant that Allah alone is One. It was not a long speech. Umayyah was demanding that he renounce the very foundation of the oneness of Allah, so Bilal repeated the truth he believed. These particular details come from Seerah reports, while other narrations also support the essential fact of Bilal's persecution and steadfast profession of Islam.
+
+Abu Bakr Passed By
+
+Abu Bakr al-Siddiq, may Allah be pleased with him, lived in the Banu Jumah quarter. Ibn Ishaq reports that he passed Bilal while he was being tortured. In this account, Abu Bakr reproached Umayyah for not fearing Allah in his treatment of this helpless man and asked how long he would continue. Umayyah blamed Abu Bakr for turning Bilal away from his former religion and challenged him to rescue him. According to this particular report, Abu Bakr offered another enslaved man who was stronger than Bilal and followed Umayyah’s religion. Umayyah accepted the exchange, and Abu Bakr released Bilal from enslavement.
+
+Bilal was not the only one. Seerah reports mention others whom Abu Bakr freed, including ‘Amir ibn Fuhayrah, Zinnirah, Umm ‘Ubays, al-Nahdiyyah and her daughter, and an enslaved woman from Banu Mu'ammal. Their names appeared earlier, but these reports offer further details of why their liberation mattered. Abu Bakr was not merely giving them money while leaving them under their tormentors' control. By purchasing and freeing them, he removed that control.
+
+Why Not Free Strong Men?
+
+Ibn Ishaq’s Seerah reports that Abu Quhafah, Abu Bakr’s father, saw his son freeing vulnerable people who could not protect him. He suggested freeing strong men who could defend and support him instead. By the standards of tribal society, the reasoning was understandable: money spent on freeing someone might secure a protector in return.
+
+In the report, Abu Bakr explained to his father that he sought only Allah’s pleasure through what he was doing. This is a Seerah report, not an authentic hadith with the same level of verification. Its meaning, however, fits what is known of Abu Bakr's spending on vulnerable Muslims. Commentators have associated this meaning with Allah's words:
+
+But the most righteous will be saved from it,
+who spends his wealth to purify himself,
+not in return for someone’s favors,
+but to seek the pleasure of his Lord, the Most High.
+He will surely be well pleased.
+
+— Qur'an, al-Layl 92:17–21 (translation of meaning).
+
+The purpose was not to build a private force of powerful men around Abu Bakr. He spent his wealth to free people who could not repay him.
+
+A Woman Who Lost Her Sight
+
+Among the women Abu Bakr freed was Zinnirah. Seerah books report that her sight was affected after she accepted Islam. Some polytheists claimed that al-Lat and al-‘Uzza had taken her sight. She rejected their claim, saying that those idols could neither harm nor benefit anyone. The report then says her sight returned. This is a well-known Seerah account, not a rigorously authenticated, fully connected hadith; it should be presented at that level rather than used as independent proof of every detail.
+
+Even with that qualification, the report depicts the pressure faced by vulnerable believers: their opponents tried to interpret even illness and suffering as reasons to return to the idols they had ceased to worship.
+
+Al-Nahdiyyah and Her Daughter Finished Their Work
+
+The Seerah also tells a small story about al-Nahdiyyah and her daughter. They were enslaved by a woman from Banu ‘Abd al-Dar who had sent them to grind some food and declared that she would never free them. Abu Bakr bought and freed them. He then told them to return the woman's ground grain. They asked, in meaning, whether they might finish the task first before returning it. They wanted to complete the work entrusted to them. Abu Bakr said they could do so if they wished.
+
+This too is a Seerah report, not a separately established authentic hadith. Such details help us recognize the people whose names otherwise appear briefly in lists: two women had just been liberated, yet they chose to complete a task they had begun.
+
+Umar Had Also Hurt Muslims Before His Conversion
+
+Seerah reports relate that an enslaved woman from Banu Mu'ammal accepted Islam, and that ‘Umar ibn al-Khattab, before he himself became Muslim, tortured her to make her renounce it. He beat her and, when exhausted, stopped, saying that he had stopped because he was tired, not out of mercy. Abu Bakr later purchased and freed her.
+
+There is also an authentic report pointing to Umar's harsh treatment of some Muslims before his conversion. Sa‘id ibn Zayd, may Allah be pleased with him, said: “By Allah, I have seen myself tied and forced by `Umar to leave Islam before `Umar himself embraced Islam.”
+
+— Sahih al-Bukhari, 3862 (excerpt; published translation on Sunnah.com). A parallel report appears in 6942.
+
+Bound means tied or restrained to exert pressure on him. This makes the transformation that would take place when Umar later accepted Islam especially striking. The man who had pressured Muslims would become one of them. That had not happened yet at this stage.
+
+The Family of Yasir
+
+Banu Makhzum took Yasir, his wife Sumayyah, and their son ‘Ammar, may Allah be pleased with them, out into the intense heat. They were linked to Banu Makhzum through patronage or alliance, but lacked the full tribal protection enjoyed by its powerful established families.
+
+Seerah books report that the Prophet ﷺ passed Yasir’s family while they were being tortured and reassured them: “Be patient, O family of Yasir! Paradise will be your permanent abode.” This reassurance is well known in Seerah literature. Ibn Ishaq reports the incident without giving the complete chain of transmitters, so his particular account does not establish an uninterrupted chain.
+
+Sumayyah is remembered in the Seerah as Islam’s first martyr: she was killed while remaining firm in her religion. ‘Ammar, meanwhile, suffered torture of great severity. His experience brings us to another important aspect of persecution.
+
+Not Everyone Who Spoke Under Torture Abandoned Faith
+
+Not every Companion could withstand physical pain in the same way. Some refused to say what their persecutors demanded; Bilal became a famous example. Others endured so much torture that they uttered, with their tongues, words their tormentors demanded just to make the abuse stop. Seerah accounts describe believers being beaten, starved, and deprived of water until they could scarcely sit upright, then being ordered to acknowledge idols and doing so to escape torture.
+
+Islam does not demand that a person let their speech lead to their death while their heart remains firm in faith. Allah says:
+
+Whoever disbelieves in Allah after having believed – except one who is compelled while his heart is firm in faith – but those who embrace disbelief willingly, upon them will be the wrath of Allah, and for them there will be a great punishment.
+
+— Qur'an, an-Nahl 16:106 (translation of meaning).
+
+Compelled means forced under a threat or severe harm one cannot resist. A heart secure in faith remains convinced even when the tongue is forced to say otherwise. The Qur'an distinguishes voluntary acceptance of disbelief from words forced out of a believer whose heart has not changed. We should not assume that every tortured Companion possessed the same physical endurance. One person might continue speaking the truth until death; another might say what the torturer demands while remaining faithful inwardly.
+
+Even Members of Powerful Tribes Were Not Entirely Safe
+
+Tribal protection could reduce harm, but it did not guarantee safety. Ibn Ishaq includes a later incident in this discussion: al-Walid ibn al-Walid became Muslim after being captured and ransomed at Badr. This example therefore illustrates tribal protection at a later stage, rather than belonging to the events before the migration to Abyssinia. Men of Banu Makhzum wanted to pressure several younger members of their tribe who had become Muslim, including Salamah ibn Hisham, ‘Ayyash ibn Abi Rabi‘ah, and al-Walid ibn al-Walid, who came from influential families.
+
+Yet they feared that killing one of them might trigger a demand from the victim’s clan for retaliation. The report says that Hisham ibn al-Walid warned against killing his brother al-Walid, swearing by Allah that he would kill a leading man in retaliation if his brother was killed. They stepped back from killing him. This Ibn Ishaq report illustrates Makkan tribal logic: a man might disagree with a Muslim's faith yet prevent his killing because of family ties. Someone without that protection was much more vulnerable.
+
+Khabbab Came to the Shade of the Ka‘bah
+
+Another Companion subjected to severe harm was Khabbab ibn al-Aratt, may Allah be pleased with him. An early Muslim, he worked as a blacksmith and also suffered torture. One day he went to speak about the suffering he and other Muslims endured. He approached the Messenger of Allah, peace and blessings be upon him, who was reclining with his cloak as a cushion in the shade of the Ka‘bah.
+
+Khabbab asked: “Will you not supplicate for our victory (over our opponents)? Will you not invoke Allah for us?” He was not asking to abandon Islam or announcing a return to Quraysh's religion. He was asking the Prophet to pray for relief from the suffering. The Prophet sat up, his face changed, and he reminded them of earlier believers: some had suffered worse, their flesh and nerves torn by iron or their bodies cut by saws, yet they did not abandon their religion.
+
+He then promised that their present weakness was not the end of the story. He swore by Allah that this religion would be fully established, so that a traveler could go from Sana’a to Hadramawt, two far-apart regions in the south of the Arabian Peninsula, fearing none but Allah, and a wolf only as a danger to his sheep. Then he said: “but you are rushing things.”
+
+— Sahih al-Bukhari 6943.
+
+This was not a promise that torture would end that very day, nor a denial of the pain they were experiencing. The Prophet gave them two perspectives at once: a memory of the past, when believers before them had endured severe trials, and an image of the future, in which the current balance of a weak Muslim community facing a powerful Quraysh would not last forever. They asked for prayer in Makkah; he spoke of a day when the road between Sana'a and Hadramawt would become safe. They could not yet see how it would happen.
+
+Patience Does Not Mean Feeling No Pain
+
+It would be a mistake to imagine the Companions' patience meant they felt neither fear nor pain. If the suffering had been slight, Khabbab would not have asked the Prophet to pray for them. If torture could not push human beings beyond their limits, the Qur'an would not have needed to clarify the ruling for a believer forced to speak words of disbelief while remaining faithful at heart: «except one who is compelled while his heart is firm in faith» (16:106).
+
+Steadfastness does not mean the body stops hurting. It means the foundation of faith remains amid suffering, and a person keeps turning to Allah without mistaking the tormentor's actions for proof that truth has lost. The Companions showed that in different ways: Bilal repeated “One! One!”; another believer might be forced to speak and remain faithful inwardly; Abu Bakr used his wealth to rescue whomever he could; some tribal relatives used the protection of kinship to prevent killing; and the Prophet taught them patience and told them that this stage would not last forever. Each acted within their means.
+
+But Remaining in Makkah Grew Harder
+
+Over time, the dispute was no longer only about harsh words or quarrels in gatherings. People were being tortured, imprisoned, starved, and deprived of water. Some had no clan that could rescue them. The Messenger of Allah, peace and blessings be upon him, knew what was happening to his Companions, but at that time he had neither a state nor an army with which to enforce their protection. Nor did he tell them to return to polytheism to end their suffering.
+
+For some believers, accepting Islam had come to mean losing safety in their own city. Makkah was becoming an increasingly difficult place for them to remain. Beyond Makkah, however, there was another land, not ruled by a man from Quraysh. According to Ibn Ishaq’s Seerah account, the Messenger of Allah ﷺ would soon tell his Companions that no one suffered injustice under its king. Thus would begin the Muslims' first migration. They were not yet going to Madinah. Their first destination would be Abyssinia.
+
+Primary Sources for This Chapter
+
+• Background to the questions about the Companions of the Cave, Dhul-Qarnayn, and the spirit: Ibn Ishaq's report that Quraysh sent al-Nadr ibn al-Harith and ‘Uqbah ibn Abi Mu‘ayt to Jewish scholars in Yathrib; details are Seerah reports, not all authenticated by a fully connected hadith.
+
+• The Companions of the Cave and their steadfast worship of Allah alone: Qur'an, al-Kahf 18:13–16.
+
+• Bilal's torture, the rock on his chest, his words “One! One!”, and Abu Bakr's purchase and liberation of him: Ibn Ishaq's Seerah, with other evidence for the central facts.
+
+• Abu Bakr's liberation of vulnerable believers; the reports about Abu Quhafah, al-Nahdiyyah and her daughter, Zinnirah, and the woman from Banu Mu'ammal: Seerah reports, not all rigorously authenticated hadiths. See Ibn Hisham’s Seerah from Ibn Ishaq, 1/318–320: the Bilal account is transmitted through ‘Urwah ibn al-Zubayr, and Abu Quhafah’s conversation through ‘Amir ibn ‘Abdullah ibn al-Zubayr from an unnamed member of his family. The conversations above are reported indirectly.
+
+• Umar binding Sa‘id ibn Zayd before Umar's conversion: Sahih al-Bukhari 6942; 3862.
+
+• The reassurance given to Yasir’s family: Ibn Ishaq’s Seerah account does not give a complete chain of transmitters. The English quotation is from Abd Ar-Rahman bin Abd Al-Kareem Ash-Sheha, Islam Is the Religion of Peace, Cooperative Office for Islamic Propagation in Rabwah, 2018, p. 18 (PDF p. 19); the publication cites al-Hakim. https://d1.islamhouse.com/data/en/ih_books/single/en-islam-the-religion-of-peace-new.pdf A separate report from Jabir gives the family glad tidings of Paradise (al-Tabarani, al-Mu‘jam al-Awsat, 1508; al-Hakim, 5666). Al-Albani graded Jabir’s report hasan sahih in his hadith notes to Fiqh al-Seerah, p. 103. That assessment concerns the separate report, not Ibn Ishaq’s incomplete chain (Ibn Hisham, 1/320). Al-Bayhaqi also transmits Mujahid’s report that Sumayyah was the first martyr in Islam (Dala’il al-Nubuwwah, section on the persecution of vulnerable Muslims). It is a mursal historical report from Mujahid, with no connected chain back to the event, not a statement attributed to the Prophet ﷺ. https://islamweb.net/ar/library/content/1005/541/
+
+• The ruling concerning words of disbelief forced out of someone whose heart remains faithful: Qur'an, an-Nahl 16:106.
+
+• The tribal protection of relatives among Banu Makhzum: Ibn Ishaq's Seerah. See Ibn Hisham, 1/321; for al-Walid’s conversion after Badr, al-Dhahabi, Siyar A‘lam al-Nubala’, Seerah section, events of year 2 AH, 26/318–319.
+
+• Khabbab's complaint and request for help and prayer, earlier persecuted believers, and the promise of safety between Sana'a and Hadramawt: Sahih al-Bukhari 6943. The detail that the Prophet sat up with his face reddened is in Sahih al-Bukhari 3852. The quoted appeal and closing words use HadeethEnc, hadith 4246; the intervening account is indirect narration.
+
+• Khabbab also said: “We complained to the Messenger of Allah (ﷺ) (the difficulty of) saying prayer on the intensely heated (ground or sand)” (Sahih Muslim 619a, excerpt; published English translation on Sunnah.com). This report concerns the heat during prayer and must be distinguished from the account of torture.
+• The reference to Abyssinia’s king is narrated in meaning from Ibn Ishaq’s account in Ibn Hisham’s Seerah. That wording has an unconnected chain; the underlying advice is supported by a connected report from Umm Salamah, may Allah be pleased with her. See al-Albani, al-Silsilah al-Sahihah 3190, 7/577–578; al-Bayhaqi, al-Sunan al-Kubra 9/9 and Dala’il al-Nubuwwah 2/301. The next chapter explains the distinction.

@@ -1,0 +1,69 @@
+# İlk Nesil: Müminler Henüz Güç Sahibi Değilken
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Altıncı Bölüm
+
+İlk Nesil: Müminler Henüz Güç Sahibi Değilken
+
+Önceki bölümde davet, Peygamber’in —Allah’ın salât ve selâmı üzerine olsun— çevresinde küçük bir halka olarak başlamıştı. Mekke’de binlerce Müslümanın toplandığı bir mescit, onları koruyan bir devlet veya İslam’a girmeyi kolaylaştıran toplumsal bir çoğunluk yoktu. Her insan mesajı duyuyor, sonra ona inanıp inanmamayı seçiyordu; seçtiği yolun kendisini nereye götüreceğini ise henüz bilmiyordu.
+
+Siyer kitaplarında bu insanlar ilk nesil veya öne geçen ilkler olarak anılır: başkalarından önce bu yola giren ilk topluluk. Kur’an da öncülüğe özel bir değer vermiş ve daha sonra sahabilerden bir grubu şu sözlerle anlatmıştır:
+
+Muhacir, Ensar ve onlara iyi yolda tabi olanlardan ilk önce koşanlardan Allah hoşnut olmuştur. Onlar da Allah'tan hoşnut olmuşlardır. Allah onlara altlarından ırmaklar akan ve içinde ebedi kalacakları cennetler hazırlamıştır. İşte en büyük mutluluk budur.
+
+Kur’an 9:100 — Şaban Piriş meali
+
+Muhacirler, ileride dinleri uğruna Mekke’den ayrılacak Müslümanlardır. Ensar ise Medine’de Peygamber’i —Allah’ın salât ve selâmı üzerine olsun— karşılayacak ve destekleyecek Müslümanlardır. Bu ayet, şimdi anlattığımız dönemden yıllar sonra indi; fakat yardımın az ve yolun zor olduğu zamanda öne çıkanların neden İslam’da özel bir yere sahip olduğunu açıklar.
+
+Bu nedenle önce gelmek sadece isimlerin sırası değildi: kim önce Müslüman oldu, kim sonra geldi? Asıl anlamı, çevrede ne ordu ne devlet ne de görünen bir zafer varken Peygamber’e —Allah’ın salât ve selâmı üzerine olsun— inanmaktı. İslam başlangıçta ne kadar yalnız ve zayıf görünüyorsa, ona katılmak o kadar çok doğruluk ve cesaret gerektiriyordu.
+
+Bu küçük topluluğun ilk görüntüsü Peygamber’in kendi evindeydi. Hatice —Allah ondan razı olsun— vahyin başından itibaren ona iman etti ve onu doğruladı; peygamberlikten yıllar önce hayatını ve doğruluğunu bilen eşiydi. Ali bin Ebî Tâlib —Allah ondan razı olsun— ilk iman edenlerdendi ve o sırada Peygamber’in evinde yaşayan genç bir çocuktu. Zeyd bin Hârise —Allah ondan razı olsun— de ilk müminlerdendi; daha önce kölelik yaşamış, Peygamber onu risaletten önce özgürlüğüne kavuşturmuş ve Zeyd ona yakın kalmıştı.
+
+Ardından Ebû Bekir es-Sıddîk —Allah ondan razı olsun— geldi. Kureyş içinde tanınan, hür, itibarlı ve geniş bir çevresi olan bir tüccardı. Ebû Bekir sadece kendisi iman etmekle yetinmedi. Tanıdığı ve güvendiği insanlarla konuşmaya başladı. Onun davetiyle daha sonra en tanınmış sahabilerden olacak bazı kişiler İslam’a girdi: Osman bin Affân, Zübeyr bin Avvâm, Abdurrahman bin Avf, Sa‘d bin Ebî Vakkas ve Talha bin Ubeydullah —Allah hepsinden razı olsun—.
+
+Kaynaklar, ilk müminlerden sonra İslam’a giren bazı kişilerin sırası konusunda farklı bilgiler verir. Bununla birlikte bir topluluk oluşuyordu: bir ev halkı, sonra bir dost, sonra dostun dostu; derken Peygamber’in —Allah’ın salât ve selâmı üzerine olsun— çevresinde birbirini tanıyan, yalnız Allah’a kulluk edip Resulüne uymakta birleşen küçük bir mümin grubu meydana geldi.
+
+Sahih bir rivayet, davetin çok erken bir anında bu sayının ne kadar küçük göründüğünü gösterir. Amr bin Abese —Allah ondan razı olsun— adında bir adam Peygamber’in haberini duyup Mekke’ye geldi. Kavmi ona karşı sertleştiği için Peygamber’i —Allah’ın salât ve selâmı üzerine olsun— dikkatli ve temkinli bir hâlde buldu. Amr mesajını sordu. Peygamber, Allah’ın kendisini akrabalık bağlarını korumak, putları kırmak ve hiçbir şeyi O’na ortak koşmadan yalnız Allah’a ibadet etmek için gönderdiğini anlattı.
+
+Amr, “Bu hususlarda senin yanında olanlar kimlerdir?” diye sordu. Peygamber, “Bir hür kişi ile bir köle” cevabını verdi. Ravi, o sırada Ebû Bekir ile Bilâl’in iman edenler arasında bulunduğunu belirtti.
+
+Sahîh-i Müslim 832 — HadeethEnc 6610 numaralı hadisin yayımlanmış Türkçe tercümesinden alıntılar.
+
+Ebû Bekir —Allah ondan razı olsun— kavmi içinde statüsü olan özgür bir adamdı; Bilâl bin Rebâh —Allah ondan razı olsun— ise Mekke’de köleleştirilmiş bir insandı. Bu ilk görüntüde ikisini bir arada görmek önemlidir: mesaj tek bir toplumsal sınıfın dini olarak başlamadı. İlk günden itibaren zengin de fakir de, özgür de köle de, erkek de kadın da, yetişkin de genç de onun içine girdi.
+
+Burada ‘köleleştirilmiş kişi’, o dönemin dünyasında bilinen kölelik sistemi altında yaşayan; hukuken bir efendinin mülkiyetinde bulunan ve hayatı üzerinde tam özgürlüğe sahip olmayan kişiyi ifade eder. Özgürlüğüne kavuşturulan kişiye bazen mevlâ denirdi; burada bu, kölelikten çıkarılmış fakat kendisini azat eden kişiyle velâ denilen tanınmış bir sosyal bağın sürdüğü eski köle anlamındadır. Bu farklar yakında çok önemli hâle gelecektir; çünkü arkasında güçlü bir kabile bulunan kişi ile kendisini işkenceden koruyacak bir kabilesi olmayan kişi aynı durumda değildi.
+
+Kadınlar da yolun başından itibaren vardı; onların hikâyesi erkeklerin hikâyesinin kenarında duran bir ayrıntı değildi. Hatice —Allah ondan razı olsun— Peygamber’e ilk iman eden ve evinde ona destek veren kişiydi. Erken dönemde Müslüman olan kadınlardan biri de Abbâs bin Abdülmuttalib’in eşi Ümmü’l-Fadl Lübâbe bint el-Hâris —Allah ondan razı olsun— idi. Rivayetler onun kocasından önce İslam’a girdiğini ve Müslümanların hâlâ güçsüz olduğu bir dönemde Mekke’de kaldığını gösterir.
+
+İlk mümin kadınlardan biri de Ammâr bin Yâsir’in annesi Sümeyye bint Hayyât —Allah onlardan razı olsun— idi. O, kendisini koruyacak güçlü bir kabilesi bulunan Kureyşli nüfuzlu bir kadın değildi; mustazaflar arasındaydı, yani kendisini koruyacak yeterli toplumsal veya kabile gücüne sahip olmayanlardandı. Baskı şiddetlenince İslam’da sebat etti ve öldürüldü. Âlimler, İbn Sa‘d’dan sağlam bir isnatla onun İslam’ın ilk şehidi olduğunu nakletmiştir. Yâsir ailesinin başına gelenler, hikâye Kureyş’in Müslümanlara işkence ettiği döneme geldiğinde ayrıntılı anlatılacaktır.
+
+Bu nesilde çok genç iman edenler de vardı. Ali’nin daha başlangıçta bulunması, imanın yalnız yaşlıların verdiği bir karar olmadığını hatırlatır. Tabakat ve siyer kitaplarında çok genç yaşta İslam’a girip daha sonra Bedir’i, Uhud’u, hicreti ve siyerin diğer büyük hadiselerini yaşayan pek çok sahabi zikredilir. O anda henüz bugün bildiğimiz büyük isimler değillerdi; geleceğini henüz başlangıç safhasındaki bir mesaja bağlamayı seçen gençlerdi.
+
+Bu öncülük anlamı, Müslüman toplum çok büyüdükten sonra bile hatırlanacaktı. Yıllar sonra Ebû Bekir ile Ömer —Allah ikisinden de razı olsun— arasında küçük bir anlaşmazlık yaşandı. Peygamber —Allah’ın salât ve selâmı üzerine olsun— sahabilere Ebû Bekir’in yolun başında nasıl yanında durduğunu hatırlattı ve şöyle dedi:
+
+“Allah beni size (Nebi olarak) gönderdi. Sizler, yalan söylüyorsun dediniz. Ebu Bekir ise doğru söylüyor dedi, canıyla, malıyla beni koruyup gözetti. Benim arkadaşımı bana bırakmayacak mısınız (onu rahatsız edecek şeyler yapmaktan vazgeçmeyecek misiniz)?”
+
+Sahîh-i Buhârî 3661 — İslamiyet.gen.tr’de yayımlanan Türkçe tercümeden alıntı.
+
+Buradaki anlam, diğer sahabilerin faziletinin olmadığı değildi. Aksine, başlangıcın bir bedeli vardır ve yol genişledikten sonra gelen kişi bu bedeli her zaman göremez. Allah, Müslümanlar güçlenmeden önce harcayan ve savaşanlar hakkında benzer bir ilkeyi şöyle bildirir:
+
+Göklerin ve yerin mirası Allah’ın olduğuna göre ne diye Allah yolunda infak etmiyorsunuz? Sizden, Fetih’ten önce infak edip, savaşanlar (diğerleriyle) eşit değildir. Onların derecesi, daha sonra infak edip savaşanlardan daha büyüktür. Allah, hepsine en güzelini vaat etmiştir. Allah, yaptıklarınızdan haberdardır.
+
+Kur’an 57:10 — Şaban Piriş meali
+
+Bu ayet daha sonraki bir dönemde inmiştir ve müfessirler ayette geçen ‘fetih’ ile tam olarak neyin kastedildiği konusunda farklı görüşler belirtmiştir. Fakat burada bizi ilgilendiren anlam açıktır: aynı amel, hakka destek vermenin daha ağır bedeller ödemeyi gerektirdiği ve destekçilerin daha az bulunduğu zamanda yapıldığında daha büyük bir ağırlık taşıyabilir.
+
+Mekke’nin ilk yıllarında bir kişinin Muhammed’e —Allah’ın salât ve selâmı üzerine olsun— uyduğunu açıklaması bile ailesi, kabilesi veya efendisiyle ilişkisini değiştirebilirdi. Bazı müminlerin onları koruyacak aileleri vardı; bazılarının böyle bir koruması yoktu. Bazıları zengindi ve malları üzerinde tasarruf edebiliyordu; bazıları ise köleleştirilmişti ve istediği zaman efendisinin evinden çıkamıyordu. Buna rağmen iman onları tek bir topluluk içinde birleştirdi.
+
+Onlar Kur’an’ı indikçe öğreniyor ve o dönemde Allah’ın kendilerine emrettiği şekilde ibadet ediyorlardı. Namaz İslam’ın en erken ibadetlerinden biriydi; fakat beş vakit namaz daha sonra, İsrâ ve Miraç gecesinde farz kılınacaktı (Sahih el-Buhârî 349, 350). Bu ilk dönemdeki ibadetlerin ayrıntılarına ilişkin rivayetlerin güvenilirlik dereceleri farklıdır; bu yüzden her ayrıntı aynı kesinlikle ortaya konamaz.
+
+Böylece İslam Mekke’de büyük bir kalabalık olarak değil, az sayıda isimle başladı. Bazıları Peygamber’in evindendi, bazıları Kureyş’in ileri gelenlerindendi, bazıları gençti, bazıları köleleştirilmiş veya toplumda savunmasız kişilerdi; kadınlar da bu yola başından itibaren girmişti. Onları birleştiren tek bir soy veya sosyal sınıf değildi; onları birleştiren, mesajın dünyadaki sonucunu görmeden ona iman etmiş olmalarıydı.
+
+Bu küçük sayı arttıkça Müslümanların varlığının Kureyş tarafından fark edilmemesi zorlaşmaya başladı. Evlerde ve bireysel görüşmelerde başlayan davet daha görünür hâle geliyordu. Mekke toplumu, yaşananların birkaç kişinin özel din tercihi olmadığını; putlara, geleneklere ve atalarından devraldıkları otoriteye dokunan bir çağrı olduğunu anlamaya başlayacaktı.
+
+Buradan sonra hikâyenin niteliği değişir. Soru artık yalnızca ‘Kim iman etti?’ değildir. Asıl soru şudur: Kureyş, bu davetin devam ettiğini ve ona inananların sayısının arttığını fark ettiğinde ne yapacaktır?
+
+Temel kaynaklar
+
+Kaynaklar: Kur’an 9:100 ve 57:10; Sahih Müslim 832; Sahih el-Buhârî 3661; İbn İshak’tan İbn Hişam’ın Sîreti; İbn Sa‘d’ın et-Tabakâtü’l-Kübrâ’sı; Zehebî’nin Siyer A‘lâm en-Nübelâ’sı. İlk Müslümanların bazılarının sıralaması hakkında kaynaklarda farklı rivayetler vardır. Sümeyye’nin —Allah ondan razı olsun— İslam’ın ilk şehidi oluşu: İbn Hacer, el-İsâbe, Sümeyye’nin biyografisi; İbn Sa‘d’ın Mücâhid’den aktardığı rivayetin senedini sahih olarak niteler.

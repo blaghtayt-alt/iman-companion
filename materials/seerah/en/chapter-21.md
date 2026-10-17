@@ -1,0 +1,187 @@
+# Why Did the Prophet Pray for Umar to Accept Islam?
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Chapter Twenty-One
+
+Why Did the Prophet Pray for Umar to Accept Islam?
+
+Umar before Islam: strength redirected by faith
+
+1. Umar before Islam
+
+After the account of the migration to Abyssinia, the story returns to Makkah. A large group of Muslims had left, while a smaller number remained with the Messenger of Allah, peace and blessings be upon him. Some Seerah accounts date the conversion of Umar ibn al-Khattab, may Allah be pleased with him, to the sixth year of the Prophethood. His conversion visibly strengthened the Muslims in Makkah.
+
+To understand that change, we first need to know who Umar was and why his acceptance of Islam mattered so much. He was not close to the Muslims at that time; he was one of their harsh opponents. Yet an authentic report records that the Messenger of Allah, peace and blessings be upon him, prayed for Islam to be strengthened through him.
+
+2. The Prophet’s prayer to strengthen Islam
+
+Abdullah ibn Umar, may Allah be pleased with them both, reported that the Messenger of Allah, peace and blessings be upon him, said:
+
+“O Allah! Honor Islam through the most dear of these two men to you: Through Abu Jahl or through 'Umar bin Al-Khattab.”
+
+Ibn Umar then said:
+
+“And the most dear of them to Him was 'Umar.”
+
+— Jami‘ al-Tirmidhi, 3681. Al-Tirmidhi described it as hasan sahih gharib.
+
+Here, strength means the power and protection that enable Muslims to practise their religion openly and remain firm in it. The effect of this prayer became visible in their lives.
+
+After Umar accepted Islam, Abdullah ibn Mas‘ud, may Allah be pleased with him, said:
+
+“We have been powerful since `Umar embraced Islam.”
+
+— Sahih al-Bukhari, 3863.
+
+These two reports establish that the Prophet, peace and blessings be upon him, prayed for Islam to be strengthened through one of two men, including Umar, and that a Companion who lived through those years witnessed the change after Umar became Muslim. The hadith does not list the personal qualities for which Umar was named in the prayer. Reflections on his character in Makkah and his later influence must therefore remain distinct from the recorded supplication; they are not an explanation of his selection attributed to the Prophet.
+
+3. Umar’s standing among his people
+
+A reader might suppose that the Prophet, peace and blessings be upon him, hoped Umar would become Muslim because his whole clan would follow. The situation was more complex. Umar belonged to Banu Adi, a respected branch of Quraysh, but one less powerful than Banu Abd Shams. Al-Azraqi records that Banu Adi allied with Banu Sahm after losing ground in fighting with Banu Abd Shams. Umar himself nevertheless had standing: Ibn Abd al-Barr relates that Quraysh entrusted him with representing them in negotiations and disputes.
+
+Nor was Umar a man whom all of Quraysh would automatically follow simply because of his tribal position. This set him apart from certain leading figures of Quraysh who were backed by large families with considerable social influence. Nor was Umar’s importance based on enormous wealth that the Muslims were waiting for him to spend on them.
+
+What stood out was his character: inner strength, fierce self-respect, clarity of conviction, decisiveness, and a willingness to bear the consequences of what he believed right. These qualities were already present before Islam, but he was then using them against the call.
+
+4. A glimpse of Umar’s tenderness
+
+One of the most striking reports that reveals something about Umar before Islam is the account of Umm Abdullah bint Abi Hathmah, may Allah be pleased with her. Umm Abdullah and her husband, Amir ibn Rabi‘ah, were among the Muslims preparing to migrate to Abyssinia. The books of Seerah relate from Ibn Ishaq that while she was preparing to leave, and her husband had gone out on an errand, Umar came to her. Umar was still a polytheist.
+
+Umm Abdullah described how Umar had treated the Muslims:
+
+She recalled the “harsh treatment and affliction from him.” — Ibn Ishaq, The Life of Muhammad, translated by A. Guillaume, p. 155 (excerpt).
+
+In other words, she did not see him as a neutral man. She knew how he had harmed the Muslims. When he saw her preparing to depart, he asked about their leaving. She swore by Allah that they would go out into Allah’s land because Quraysh had harmed and oppressed them, until Allah gave them a way out.
+
+Umar said:
+
+“God be with you” — Ibn Ishaq, The Life of Muhammad, translated by A. Guillaume, p. 155.
+
+His words asked for Allah’s protection and care on their journey. Umm Abdullah then noticed a tenderness she had not seen in him before, and their departure seemed to sadden him. Umar did not become Muslim or immediately change his position, but the woman who knew his harshness briefly glimpsed another side of him.
+
+When her husband Amir returned, she told him what she had seen, as though she sensed that Umar might one day enter Islam. Amir dismissed the idea strongly because of what he knew of Umar’s harshness toward the Muslims, until he used the famous expression preserved in the Seerah report:
+
+“The man you saw will not become a Muslim until al-Khattāb’s donkey does.” — Ibn Ishaq, The Life of Muhammad, translated by A. Guillaume, p. 156.
+
+Amir’s comparison was deliberate exaggeration: he considered Umar’s acceptance of Islam almost unimaginable. This makes the account especially striking. Before long, the man whose conversion had seemed so unlikely would become one of those whose presence most clearly strengthened the Muslims.
+
+This report comes from Seerah narrations from Ibn Ishaq, so we do not place it at the level of an authentic hadith. However, it is a well-known Seerah report that fits what is established about Umar’s harshness toward the Muslims before his Islam.
+
+5. His harsh treatment of Muslims
+
+The picture of Umar before Islam is not based merely on general impressions.
+
+It is authentically reported from Sa‘id ibn Zayd, may Allah be pleased with him, that he said:
+
+“By Allah, I have seen myself tied and forced by `Umar to leave Islam before `Umar himself embraced Islam.”
+
+— Sahih al-Bukhari, 3862 (excerpt; published translation on Sunnah.com). A parallel report appears in 6942.
+
+Umar forcibly bound and restrained Sa‘id because Sa‘id had accepted Islam. Nor was Sa‘id a stranger to him: his father, Zayd ibn Amr, was Umar’s paternal cousin. Sa‘id was one of the early Muslims and was also married to Umar’s sister, Fatimah bint al-Khattab. Islam had already entered Umar’s closest family circle while he continued to oppose it.
+
+Before Islam, Umar was more than an unconvinced observer. His force of character drove him to act on what he believed right, and while he regarded Islam as wrong, he used that strength against it. His conversion therefore raises a central question: what would happen when his understanding of the truth changed?
+
+6. Strength directed by faith
+
+A person may have a powerful trait before guidance. After guidance, the trait itself may not disappear; instead, the direction in which it operates may change. Determination may serve falsehood and later serve truth. Courage may be used to harm people and later used to protect them. Decisiveness may lead someone firmly into a wrong position, then, when the truth becomes clear, make him among the firmest in standing upon it.
+
+Umar did not need to become weak-willed after accepting Islam in order to become righteous. What changed was the standard directing that will. This helps us understand one aspect of the importance of the Prophet’s supplication for Umar’s guidance. The man who had been severe toward the Muslims, if guided, would be able to carry that same intensity into supporting what he had come to believe.
+
+7. Courage and leadership
+
+There were Companions known for strength and bravery before Umar. Hamzah ibn Abd al-Muttalib, may Allah be pleased with him, was a man of obvious courage and physical strength. But there is an important distinction: bravery is not exactly the same as what we mean by a strong leadership personality. A person may be a formidable fighter without having broad influence over decisions, opinions, and people. A person may possess great dignity and self-respect without turning that quality into influence beyond himself.
+
+Umar’s later life would reveal self-respect, boldness, physical strength, decisiveness, and an ability to influence others. After he accepted Islam, his sound judgment and deep understanding of the religion also became apparent.
+
+This does not mean that we know with certainty that the Prophet, peace and blessings be upon him, prayed for Umar because of this particular set of qualities. But Umar’s life after Islam helps us understand why the entry of a personality like his into the Muslim ranks had such an exceptional effect.
+
+8. Hope for an opponent’s guidance
+
+Umar harmed the Muslims. Yet the Prophet, peace and blessings be upon him, prayed for his guidance and for Islam to be strengthened through him. This offers an important lesson: a person who opposes the truth today does not necessarily have to remain that way until the end of his life. Someone may be fierce in opposition because fierceness is already part of his nature. Then, if the truth becomes clear to him, he may carry that same strength with him to the other side.
+
+This does not mean that the same hope should be placed in every opponent of the call. Nor does it mean ignoring the harm that person causes. But the Prophet, peace and blessings be upon him, did not treat a person’s current place in the opposing camp as a final judgment on his future. We have already seen sons and daughters emerge from households that opposed Islam and reach faith before their families. With Umar, we will see something even more direct: the man himself moves from resistance to support.
+
+9. Abu Jahl in the prayer
+
+The other man named in the hadith was Amr ibn Hisham, known as Abu Jahl. He belonged to Banu Makhzum and was among the most influential Quraysh figures in leading the confrontation with the Prophet, peace and blessings be upon him. He was not the oldest man of Quraysh, nor uniquely the highest in lineage, but his personality and influence made him one of the leading figures who rallied Quraysh around opposition to the call. Later we will see how his influence remained powerful enough to push Quraysh toward confrontation at Badr.
+
+The supplication reads:
+
+“O Allah! Honor Islam through the most dear of these two men to you: Through Abu Jahl or through 'Umar bin Al-Khattab.”
+
+Considered alongside this prayer, the two men’s influence suggests that more than a famous name was at stake. Either man could have affected the social balance of power by accepting Islam. This is a reflection on their influence; of the two, the one Allah guided was Umar.
+
+10. Umar and Banu Adi
+
+Umar belonged to Banu Adi of Quraysh. His ancestry was Umar ibn al-Khattab ibn Nufayl ibn Abd al-Uzza ibn Riyah ibn Abdullah ibn Qurt ibn Razah ibn Adi ibn Ka‘b. Hence the description al-Qurashi al-Adawi: a man of Quraysh, from Banu Adi. His lineage joins that of the Messenger of Allah, peace and blessings be upon him, at Ka‘b ibn Lu’ayy, a more distant connection than that of Banu Hashim or Banu Abd Manaf.
+
+Al-Azraqi relates that Banu Adi originally lived between al-Safa and the Ka‘bah. After forming an alliance with Banu Sahm in the pre-Islamic period, most sold their homes and moved into their allies’ neighbourhood. These reports clarify their place among the clans of Quraysh; being less powerful than some clans did not mean that they lacked standing. Al-Baladhuri describes Umar’s grandfather Nufayl ibn Abd al-Uzza as a respected man to whom Quraysh brought disputes for judgment. Other members of this family would also have a part in Umar’s story.
+
+11. Zayd ibn Amr and the search for monotheism
+
+One member of Banu Adi was Zayd ibn Amr ibn Nufayl, Umar’s paternal cousin: Zayd’s father, Amr, was the brother of Umar’s father, al-Khattab. As described earlier, Zayd rejected idol worship and sought the religion of Abraham, peace be upon him, before the Prophet Muhammad, peace and blessings be upon him, received his mission. He died before the Prophethood, leaving his son Sa‘id ibn Zayd, may Allah be pleased with him, who became an early Muslim. This was the same Sa‘id who recalled being bound by Umar for accepting Islam.
+
+Across two generations, this family followed different paths: Zayd sought pure monotheism before the Prophethood, his son promptly accepted Islam, and Umar continued to oppose the call. Members of one family did not all recognize the truth at the same time or by the same path.
+
+12. Zayd ibn al-Khattab: an older brother who embraced Islam first
+
+Umar’s older brother, Zayd ibn al-Khattab, may Allah be pleased with him, also accepted Islam before him. Islam was therefore already present in al-Khattab’s household while Umar remained a polytheist. His brother was Muslim, as was Sa‘id, the son of his paternal cousin Zayd ibn Amr and the husband of his sister Fatimah. Several of Umar’s closest relatives had chosen Islam before him.
+
+Zayd ibn al-Khattab took part in Badr and the campaigns with the Messenger of Allah, peace and blessings be upon him, and was later martyred at al-Yamamah. Umar grieved deeply for him. In Zayd’s biography, al-Dhahabi relates, in meaning, Umar’s remembrance that his brother had preceded him both in accepting Islam and in martyrdom. Although that event came later, it helps place Umar within his family: he was not its first Muslim, and some of those closest to him had already embraced the faith.
+
+13. An influence beyond numbers
+
+These events also have a broader significance. Most of those who first accepted Islam held no position of leadership or authority among Quraysh. The Qur’an preserved the dignity of the weak, and the Sunnah preserved their virtue. A person’s closeness to Allah is not measured by wealth or influence.
+
+A community may need someone who upholds the truth and can make decisions, influence others, protect and lead them, and widen their freedom to act. Umar’s acceptance of Islam clearly illustrates that influence. It did not reduce the worth of the other Muslims; people differ in their abilities and roles, and one person’s strength can sometimes achieve what numbers alone cannot.
+
+14. Faith close to the centres of power
+
+This meaning is not limited to the story of Umar. The Qur’an mentions a believing man from Pharaoh’s family who concealed his faith, then spoke when Pharaoh’s people wanted to kill Moses, peace be upon him:
+
+A believing man from the house of Pharaoh, who was concealing his faith, said, “Would you kill a man simply because he says: ‘My Lord is Allah,’ even though he has come to you with clear proofs from your Lord? If he is a liar, he will suffer the consequences of his lie, but if he is truthful, some of what he is threatening you with will befall you. Surely Allah does not guide anyone who is a transgressor and an utter liar.
+
+O my people, the authority is yours today, being dominant in the land. But who would help us against Allah’s punishment, if it came upon us?” Pharaoh said, “I am only telling you what I think is right, and I am only guiding you to the right way.”
+
+— Surah Ghafir: 28–29. — Rowwad Translation Center
+
+This man was inside the very environment from which the danger emerged. But being close to it did not prevent him from standing with the truth when the moment required it.
+
+In the story of Moses, peace be upon him, Allah also says:
+
+Then there came a man rushing from the farthest end of the city, and said, “O Moses, the chiefs are conspiring to kill you, so leave. I am giving you sincere advice.”
+
+— Surah al-Qasas: 20. — Rowwad Translation Center
+
+The warning that saved Moses came from a man who knew what the powerful were planning and chose to use his knowledge to help someone facing injustice. Being close to power does not in itself make a person evil. What matters is how that person uses what he has when he recognizes the truth.
+
+15. The Companions’ different roles
+
+The Companions were not all required to have Umar’s personality. Among them were scholars, devoted worshippers, generous benefactors, fighters, callers to Islam, and people of sound judgment. Some sustained others through patience; others protected them through their social standing.
+
+This variety was itself part of the community’s strength. Focusing on Umar does not make one kind of personality the only valid model. His story shows how strong qualities can become a great source of good when faith directs them. To appreciate the scale of his transformation, we need to know who he was before Islam, rather than beginning only with his declaration of faith.
+
+16. On the threshold of change
+
+Before Islam, Umar was a man of Banu Adi with a forceful character, firm convictions, and decisive judgment. The Muslims had suffered at his hands, so a woman preparing to migrate was surprised to glimpse his tenderness, and Sa‘id ibn Zayd continued to remember being bound by him for accepting Islam. Yet the Messenger of Allah, peace and blessings be upon him, prayed for him.
+
+Later Ibn Mas‘ud would say:
+
+“We have been powerful since `Umar embraced Islam.”
+
+Between Umar’s harsh treatment of the Muslims and Ibn Mas‘ud’s testimony to their strength after his conversion lies a remarkable change. How did a man who harmed them become a source of strength for them? The next chapter tells the story of Umar ibn al-Khattab’s acceptance of Islam, may Allah be pleased with him.
+
+Main Sources for This Chapter
+
+The hadith: “O Allah! Honor Islam through the most dear of these two men to you: Through Abu Jahl or through 'Umar bin Al-Khattab.” — Jami‘ al-Tirmidhi, 3681; al-Tirmidhi graded it hasan sahih.
+
+Abdullah ibn Mas‘ud’s statement: “We have been powerful since `Umar embraced Islam.” — Sahih al-Bukhari, 3863.
+
+Sa‘id ibn Zayd’s statement that Umar used to restrain him because of his Islam before Umar himself accepted Islam — Sahih al-Bukhari, 3862; 6942.
+
+The report of Umm Abdullah bint Abi Hathmah with Umar while preparing to migrate to Abyssinia — from Ibn Ishaq’s Seerah reports transmitted by Ibn Hisham, presented here as a historical report without claiming the status of a sahih hadith. Published English excerpts: A. Guillaume, The Life of Muhammad, Oxford University Press, 2004 impression, pp. 155–156.
+
+Umar’s ancestry and standing: Ibn Abd al-Barr, al-Isti‘ab, biography of Umar, 3/1144–1146. Banu Adi’s homes and alliance: al-Azraqi, Akhbar Makkah, 2/261, “Riba‘ Bani Adi ibn Ka‘b”. Nufayl’s standing: al-Baladhuri, Ansab al-ashraf, genealogy of Banu Adi. Zayd ibn Amr’s relationship to Umar: Ibn Hisham, al-Sira, 1/229–230, and al-Ayni, Umdat al-qari, chapter on Zayd ibn Amr. Zayd ibn al-Khattab’s conversion and martyrdom: al-Dhahabi, Siyar a‘lam al-nubala’, his biography, 1/297–299.
+
+Surah Ghafir: 28–29 and Surah al-Qasas: 20, as examples of people who carried truth while positioned close to circles of influence.

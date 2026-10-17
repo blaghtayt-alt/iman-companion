@@ -1,0 +1,251 @@
+# Ketika Gangguan Menjadi Langsung: Dari Pasar-Pasar Makkah hingga Membela Kaum Lemah
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bab Dua Belas
+
+Ketika Gangguan Menjadi Langsung: Dari Pasar-Pasar Makkah hingga Membela Kaum Lemah
+
+Quraisy gagal menghentikan Rasulullah ﷺ melalui Abu Thalib, dan usaha mereka agar orang-orang tidak mendengar tentang beliau juga gagal. Para pemuka Quraisy telah sepakat menggunakan sebutan-sebutan tertentu untuk memperingatkan rombongan Arab yang datang, tetapi berita tentang dakwah tetap keluar dari Makkah bersama orang-orang yang berkunjung ke sana.
+
+Sementara itu, sikap Abu Thalib semakin jelas. Bani Hasyim dan Bani al-Muththalib [dua cabang besar kerabat Nabi ﷺ di dalam Quraisy] bersatu untuk melindungi Rasulullah ﷺ, baik yang telah memeluk Islam maupun yang masih berada di atas agama Quraisy. Abu Thalib juga menyatakan dalam syairnya bahwa ia tidak akan menyerahkan keponakannya kepada para musuhnya.
+
+Perlindungan itu menghalangi Quraisy untuk mencapai Nabi ﷺ dengan cara yang mereka inginkan, tetapi bukan berarti mereka berhenti menyakitinya. Setelah perundingan, kampanye pencemaran nama baik, dan peringatan kepada orang-orang, pertentangan memasuki tahap ketika gangguan mulai dilakukan secara lebih langsung.
+
+Dakwah Keluar ke Pasar-Pasar Arab
+
+Rasulullah ﷺ tidak membatasi dakwahnya hanya di rumah-rumah Makkah. Bangsa Arab mempunyai pasar-pasar musiman, seperti ‘Ukaz, Majannah, dan Dzul Majaz. Pasar-pasar itu diadakan pada waktu tertentu setiap tahun untuk berdagang dan mempertemukan berbagai kabilah. Tempat-tempat itu bukan hanya untuk jual beli. Kabilah dari berbagai wilayah bertemu di sana sehingga seseorang dapat mendengar sebuah berita di pasar lalu membawanya pulang kepada kaumnya. Rasulullah ﷺ mendatangi pertemuan-pertemuan tersebut dan menyeru manusia kepada Allah.
+
+Thariq bin ‘Abdullah al-Muharibi radhiyallahu 'anhu meriwayatkan sebuah gambaran dari masa itu. Ia berkata bahwa ia melihat Rasulullah ﷺ di pasar Dzul Majaz mengenakan hullah merah [pakaian dua potong yang dipakai bersama dan dikenal di kalangan Arab], sambil menyeru:
+
+“Wahai sekalian manusia, ucapkanlah ‘Lâ ilâha illallâh’ (Tidak ada sesembahan yang berhak disembah selain Allah), niscaya kalian akan beruntung.”
+
+Namun ada seorang laki-laki berjalan di belakang beliau sambil melempari beliau dengan batu hingga tumit dan bagian belakang pergelangan kaki beliau berdarah [bagian belakang kaki dan daerah di dekat tendon Achilles], seraya berkata kepada orang-orang:
+
+“Wahai sekalian manusia, janganlah kalian mengikutinya, sesungguhnya ia adalah pendusta.”
+
+Thariq bertanya siapa orang yang sedang menyeru manusia itu. Ia diberi tahu bahwa orang itu berasal dari Bani ‘Abd al-Muththalib. Kemudian ia bertanya tentang orang yang mengikuti dan melempari beliau dengan batu. Ia mendapat penjelasan bahwa pelempar batu itu adalah ‘Abd al-‘Uzza, Abu Lahab, paman Rasulullah ﷺ.
+
+Riwayat-riwayat lain juga menggambarkan Abu Lahab mengikuti Nabi ﷺ di tempat-tempat tinggal sementara kabilah pada musim tersebut [tempat kabilah-kabilah tinggal ketika berkumpul untuk haji dan pasar]. Setiap kali Rasulullah ﷺ menyeru mereka kepada Allah, pamannya datang dari belakang, memperingatkan mereka agar menjauhi beliau dan meminta mereka tidak meninggalkan agama nenek moyang mereka.
+
+Permusuhan Abu Lahab tidak terbatas pada peristiwa di Shafa. Abu Lahab tidak hanya sekali melontarkan kutukan kepada Nabi ﷺ lalu berhenti. Ia terus membuntuti beliau untuk menghalangi dakwahnya. Nabi ﷺ menemui para pendatang dari berbagai bagian Jazirah Arab, lalu Abu Lahab datang setelah beliau dan berusaha menyampaikan pesan yang berlawanan kepada orang-orang yang sama.
+
+Lebih berat lagi, seorang pendatang dari luar Makkah mungkin melihat seorang laki-laki mengajak kepada Allah, lalu melihat pamannya sendiri mengikuti dan menuduhnya berdusta. Orang itu mungkin bertanya: jika Muhammad benar, bukankah pamannya sendiri seharusnya termasuk orang yang paling mengenalnya?
+
+Karena itu, sikap Abu Lahab memberi dampak buruk dari beberapa sisi: kedekatan hubungan keluarga, pendustaan terang-terangan di hadapan orang asing, dan bahkan gangguan fisik.
+
+Meski demikian, Rasulullah ﷺ terus berkata:
+
+“Ucapkanlah ‘Lâ ilâha illallâh’ (Tidak ada sesembahan yang berhak disembah selain Allah), niscaya kalian akan beruntung.”
+
+Kalimat itu tidak samar bagi Quraisy. Mereka tahu bahwa “Tidak ada sesembahan yang berhak disembah selain Allah” bukan sekadar pengakuan bahwa Allah ada; mereka memang telah mengenal Allah dan mengakui-Nya sebagai Pencipta. Maknanya ialah bahwa ibadah hanya boleh diberikan kepada-Nya, dan al-Lat, al-‘Uzza, Manat, Hubal, serta segala yang mereka sembah selain-Nya tidak berhak menerima bentuk ibadah apa pun.
+
+Al-Qur'an menggambarkan keberatan mereka:
+
+Apakah dia menjadikan tuhan-tuhan itu Tuhan yang satu saja? Sungguh, ini benar-benar sesuatu yang sangat mengherankan.
+
+— Al-Qur’an 38:5 — Kementerian Agama RI.
+
+Mereka memahami apa yang diminta dari mereka. Rasulullah ﷺ juga mengetahui bahwa inilah titik utama perselisihan, tetapi beliau tidak mengubah dasar risalah agar terasa lebih mudah diterima oleh mereka.
+
+Bahkan Salat Menjadi Sasaran Ancaman
+
+Gangguan tidak berhenti pada usaha mencegah Nabi ﷺ berbicara kepada manusia. Bahkan ketika beliau salat di dekat Ka‘bah, beliau tetap diancam.
+
+Abu Hurairah radhiyallahu 'anhu meriwayatkan bahwa Abu Jahal bertanya kepada beberapa orang Quraisy:
+
+“Apakah Muhammad menyungkurkan wajahnya di tengah-tengah kalian?”
+
+Maksudnya: apakah ia menempelkan wajahnya ke tanah ketika bersujud sementara kalian melihatnya?
+
+Mereka menjawab: Ya.
+
+Abu Jahal lalu bersumpah atas nama al-Lat dan al-‘Uzza bahwa jika ia melihat beliau melakukan itu, ia akan menginjak leher beliau atau menggosokkan wajah beliau ke tanah.
+
+Kemudian ia mendatangi Rasulullah ﷺ saat beliau sedang salat, dengan maksud melaksanakan ancamannya.
+
+Namun orang-orang terkejut melihatnya mundur sambil melindungi wajahnya dengan kedua tangannya.
+
+Mereka bertanya: “Kamu kenapa?”
+
+Ia mengatakan bahwa antara dirinya dan Nabi ﷺ terdapat parit api, sesuatu yang mengerikan, dan sayap-sayap.
+
+Rasulullah ﷺ bersabda:
+
+“Andai ia mendekatiku, malaikat akan menyambar anggota badannya satu per satu.”
+
+— Sahih Muslim 2797. Terjemahan pertanyaan-pertanyaan yang dikutip dan jawaban Nabi: HadeethEnc 10558 (petikan).
+
+Hadis itu juga menyebut firman Allah:
+
+Bagaimana pendapatmu tentang orang yang melarang,
+
+seorang hamba ketika dia melaksanakan salat?
+
+Bagaimana pendapatmu jika dia (yang dilarang salat itu) berada di atas kebenaran (petunjuk),
+
+atau dia menyuruh bertakwa (kepada Allah)?
+
+Bagaimana pendapatmu jika dia (yang melarang) itu mendustakan dan berpaling?
+
+Tidakkah dia mengetahui bahwa sesungguhnya Allah melihat (segala perbuatannya)?
+
+Sekali-kali tidak! Sungguh, jika dia tidak berhenti (berbuat demikian) niscaya Kami tarik ubun-ubunnya (ke dalam neraka),
+
+(yaitu) ubun-ubun orang yang mendustakan dan durhaka.
+
+Maka biarlah dia memanggil golongannya (untuk menolongnya).
+
+Kelak Kami akan memanggil Malaikat Zabaniyah (penyiksa orang-orang yang berdosa).
+
+Sekali-kali tidak! Janganlah kamu patuh kepadanya; dan sujudlah serta dekatkanlah (dirimu kepada Allah).
+
+— Al-Qur’an 96:9–19 — Kementerian Agama RI.
+
+Nadi [majelis atau tempat para laki-laki suatu kaum berkumpul] adalah tempat para lelaki Makkah bertemu dan membicarakan urusan mereka. Karena itulah tantangan ayat datang:
+
+Maka biarlah dia memanggil golongannya (untuk menolongnya). Kelak Kami akan memanggil Malaikat Zabaniyah (penyiksa orang-orang yang berdosa). — Al-Qur’an 96:17–18 — Kementerian Agama RI.
+
+Zabaniyah [para malaikat yang ditugaskan untuk melaksanakan azab di neraka] adalah para penjaga yang dimaksud di sini.
+
+Orang yang mengancam Nabi ﷺ dengan kekuatan kelompoknya sendiri mendapat jawaban bahwa kekuatan yang ia banggakan bukanlah kekuatan tertinggi.
+
+Tetapi perlindungan Allah kepada Nabi-Nya ﷺ tidak berarti bahwa beliau hidup tanpa rasa takut dan rasa sakit.
+
+Rasulullah ﷺ bersabda tentang sebagian penderitaan yang beliau alami:
+
+“Sungguh aku telah diteror karena perjuangan di jalan Allah padahal belum ada seorang pun diteror seperti itu. Sungguh aku pernah diganggu karena perjuangan di jalan Allah padahal belum ada seorang pun diganggu seperti itu. […]”
+
+Kemudian beliau menyebut suatu masa ketika beliau dan Bilal radhiyallahu 'anhu tidak mempunyai makanan selain sedikit bekal yang dibawa Bilal.
+
+— Jami‘ at-Tirmidzi 2472 — kutipan terjemahan HadeethEnc 10966.
+
+Beliau dilindungi agar dapat menyampaikan risalah, tetapi dalam perjalanan menyampaikannya beliau tetap menghadapi ancaman, kelaparan, dan penderitaan.
+
+Gangguan Tidak Sama bagi Setiap Muslim
+
+Ketika permusuhan semakin keras, Quraisy mulai menekan kaum Muslimin secara langsung. Namun kedudukan sosial kaum Muslimin tidak semuanya sama. Masyarakat Makkah dibangun di atas ikatan kabilah. Perlindungan kelompok kerabat tempat seseorang berasal sangat memengaruhi seberapa jauh musuh dapat mencelakainya. Orang yang didukung oleh kabilah kuat tidak sama keadaannya dengan orang yang tidak mempunyai perlindungan. Seorang merdeka yang mempunyai nasab dan kedudukan tidak sama dengan orang yang terhubung dengan kabilah atau keluarga melalui persekutuan atau karena pernah dimerdekakan, bukan berdasarkan hubungan darah. Kedudukannya juga berbeda dari seorang budak yang dalam masyarakat tersebut berada di bawah kuasa hukum pemiliknya.
+
+Hal ini bukan berarti orang yang berasal dari kabilah kuat tidak pernah merasa takut atau mendapat gangguan.
+
+Bahkan ‘Umar bin al-Khaththab radhiyallahu 'anhu — setelah masuk Islam pada masa yang lebih kemudian — pernah diceritakan oleh putranya ‘Abdullah bahwa suatu hari ia berada di rumah dalam keadaan takut, sementara beberapa lelaki Quraisy berkumpul hendak menyerangnya. Kemudian al-‘Ash bin Wa’il as-Sahmi memberi jaminan perlindungan kepadanya [mengumumkan di hadapan orang-orang bahwa ‘Umar berada dalam perlindungannya dan mencegah mereka menyerangnya], lalu mereka pergi.
+
+— Sahih al-Bukhari 3864.
+
+Namun bentuk penyiksaan paling berat menimpa orang-orang lemah yang tidak memiliki kekuatan atau kabilah yang mampu melindungi mereka. Quraisy dapat langsung menyakiti tubuh mereka.
+
+Di Tanah Makkah yang Membara
+
+Di antara orang yang paling terkenal mengalami penyiksaan adalah Bilal bin Rabah radhiyallahu 'anhu. Saat itu Bilal adalah seorang budak, sehingga tidak ada kabilah yang berdiri di antara dirinya dan orang yang memilikinya. Riwayat-riwayat Sira menyebut bahwa ia dibawa keluar saat cuaca sangat panas dan diletakkan di tanah Makkah yang terbakar terik matahari. Ia dibaringkan telentang di atas tanah panas tersebut, batu berat diletakkan di atas tubuhnya, dan ia diperintahkan meninggalkan Islam.
+
+Riwayat-riwayat yang disebut sebelumnya menggambarkan ia terus mengulang pengakuan yang sama. Maknanya dalam terjemahan yang diterbitkan ialah:
+
+“Allah Yang Maha Esa… Allah Yang Maha Esa”
+
+Dengan ucapan itu, ia menegaskan bahwa Allah Maha Esa dan tetap teguh menolak menyembah selain-Nya.
+
+Bilal tidak masuk Islam karena pada saat itu Islam memberinya perlindungan sosial baru. Ia masuk Islam dengan mengetahui bahwa orang yang memilikinya dapat menyeretnya ke tanah yang membara dan menyiksanya.
+
+Di antara mereka yang mendapat gangguan juga terdapat keluarga Yasir: Yasir, istrinya Sumayyah, dan putra mereka ‘Ammar radhiyallahu 'anhum. Kitab-kitab Sira menyebut bahwa Sumayyah radhiyallahu 'anha, ibu ‘Ammar bin Yasir, adalah syahidah pertama dalam Islam — yakni orang Muslim pertama yang diriwayatkan terbunuh karena tetap teguh mempertahankan agamanya. Dengan demikian, bagi sebagian orang yang paling awal beriman, kata “beriman” mulai memiliki makna yang melampaui keyakinan dalam hati. Iman dapat menjadi ujian tentang seberapa besar penderitaan yang mampu ditanggung seseorang tanpa meninggalkan kebenaran yang telah diyakininya.
+
+Apa yang Dapat Dilakukan Muslim yang Memiliki Harta?
+
+Pada tahap ini tampak bentuk lain dari pembelaan terhadap dakwah. Abu Bakar ash-Shiddiq radhiyallahu 'anhu bukan seorang budak dan bukan pula orang miskin yang tidak mampu bertindak. Ia seorang Quraisy, pedagang yang mempunyai harta dan hubungan sosial, dan ia telah masuk Islam sejak masa paling awal. Ketika sebagian Muslim disiksa karena tidak mempunyai jalan untuk melepaskan diri dari tuan mereka, Abu Bakar mulai menggunakan apa yang dimilikinya untuk mengeluarkan mereka dari keadaan itu. Ia membeli sebagian dari orang-orang yang diperbudak tersebut kemudian membebaskan mereka dari perbudakan.
+
+Ibnu Abi Syaibah meriwayatkan dari ‘Urwah bin az-Zubair — dalam sebuah riwayat mursal [riwayat ketika seorang perawi menceritakan kejadian yang berlangsung sebelum masanya tanpa menyebut Sahabat atau orang yang secara langsung menyampaikan kejadian itu kepadanya] — bahwa Abu Bakar radhiyallahu 'anhu memerdekakan tujuh orang yang disiksa karena Allah:
+
+‘Amir bin Fuhairah, Bilal, Zinnirah, Umm ‘Ubais, an-Nahdiyyah dan putrinya, serta seorang jariyah milik Bani ‘Amr bin Mu’ammil.
+
+Kata jariyah di sini berarti [perempuan yang diperbudak dalam masyarakat tersebut].
+
+— Mushannaf Ibnu Abi Syaibah, bab keutamaan Abu Bakar.
+
+Hal yang menonjol dari daftar tersebut ialah bahwa kebanyakan orang yang disebut adalah perempuan atau orang-orang yang secara sosial lemah. Abu Bakar tidak membeli laki-laki kuat untuk membentuk kelompok yang dapat melindunginya. Ia mengeluarkan hartanya untuk menyelamatkan manusia dari penyiksaan.
+
+Di antara mereka ada Bilal radhiyallahu 'anhu yang beberapa tahun kemudian menjadi muazin Rasulullah ﷺ [orang yang mengumandangkan azan dan memanggil kaum Muslimin untuk salat]. Namun ketika Abu Bakar berusaha memerdekakannya, ia tidak sedang berhadapan dengan seorang pemegang jabatan atau orang berkuasa, melainkan dengan seorang Muslim yang disiksa karena berkata: Tuhanku adalah Allah.
+
+Dan akan dijauhkan darinya (neraka) orang yang paling bertakwa, — Al-Qur’an 92:17 — Kementerian Agama RI.
+
+Surah al-Lail memperlihatkan dua jalan yang berlawanan:
+
+Maka barangsiapa memberikan (hartanya di jalan Allah) dan bertakwa,
+
+dan membenarkan (adanya pahala) yang terbaik (surga),
+
+maka akan Kami mudahkan baginya jalan menuju kemudahan (kebahagiaan).
+
+Dan adapun orang yang kikir dan merasa dirinya cukup (tidak perlu pertolongan Allah),
+
+serta mendustakan (pahala) yang terbaik,
+
+maka akan Kami mudahkan baginya jalan menuju kesukaran (kesengsaraan).
+
+— Al-Qur’an 92:5–10 — Kementerian Agama RI.
+
+Kemudian Allah menjelaskan siapa yang akan Dia jauhkan dari api neraka:
+
+Dan akan dijauhkan darinya (neraka) orang yang paling bertakwa,
+
+yang menginfakkan hartanya (di jalan Allah) untuk membersihkan (dirinya),
+
+dan tidak ada seorang pun memberikan suatu nikmat padanya yang harus dibalasnya,
+
+tetapi (dia memberikan itu semata-mata) karena mencari keridaan Tuhannya Yang Mahatinggi.
+
+Dan niscaya kelak dia akan mendapat kesenangan (yang sempurna).
+
+— Al-Qur’an 92:17–21 — Kementerian Agama RI.
+
+Diriwayatkan dari ‘Abdullah bin az-Zubair, semoga Allah meridai beliau dan ayahnya, dan dari sejumlah ulama tafsir generasi awal bahwa ayat-ayat ini turun berkaitan dengan Abu Bakar radhiyallahu 'anhu. Sejumlah ahli tafsir menghubungkannya dengan pengeluaran hartanya dan pembebasan kaum beriman yang lemah.
+
+Riwayat-riwayat tersebut tidak semuanya memiliki tingkat yang sama dengan hadis sahih yang disandarkan langsung kepada Nabi ﷺ. Karena itu, kita tidak perlu menjadikan sabab an-nuzul [peristiwa atau orang yang dikaitkan dengan turunnya suatu ayat] tertentu sebagai kepastian untuk memahami hubungan tersebut.
+
+Perbuatan yang digambarkan ayat tampak jelas dalam kehidupan Abu Bakar:
+
+yang menginfakkan hartanya (di jalan Allah) untuk membersihkan (dirinya), — Al-Qur’an 92:18 — Kementerian Agama RI.
+
+Ia tidak mengeluarkan harta karena orang-orang itu akan membalas manfaat kepadanya, dan bukan karena ia menginginkan pelayanan mereka setelah dimerdekakan.
+
+Melainkan:
+
+tetapi (dia memberikan itu semata-mata) karena mencari keridaan Tuhannya Yang Mahatinggi. — Al-Qur’an 92:20 — Kementerian Agama RI.
+
+Artinya, dengan pengeluaran hartanya ia mencari keridaan Allah.
+
+Mengapa Abu Bakar Akan Tetap Memiliki Kedudukan Ini?
+
+Bertahun-tahun akan berlalu setelah masa ini. Akan datang hijrah, Badar, Uhud, dan berbagai peristiwa Madinah lainnya. Namun menjelang akhir kehidupan beliau, Rasulullah ﷺ akan kembali mengingatkan orang-orang tentang sesuatu yang telah dimulai sejak masa paling awal ini. Beliau bersabda:
+
+“Orang yang paling banyak berjasa kepadaku, baik dengan persahabatannya maupun hartanya, adalah Abu Bakar.” Beliau menambahkan bahwa, seandainya beliau mengambil seorang khalil dari umatnya, Abu Bakar-lah yang akan beliau pilih.
+
+— Sahih al-Bukhari 3904; riwayat senada: al-Bukhari 3654. Petikan singkat dari terjemahan yang dimuat My Islam Indonesia, «Kisah Abu Bakar ash-Shiddiq», bagian 8; kalimat bersyarat berikutnya disampaikan secara tidak langsung.
+
+Sabda ini menegaskan besarnya jasa Abu Bakar kepada Nabi ﷺ, baik melalui persahabatan maupun harta yang ia curahkan. Sahabat karib yang dimaksud dalam hadis ini ialah sahabat terkasih yang cintanya telah mencapai tingkat kedekatan tertinggi.
+
+Karena itu, kedudukan Abu Bakar tidak dibangun hanya oleh satu kejadian yang berlangsung kemudian. Sejak masa ketika Islam masih memiliki sedikit penolong, ia membenarkan Nabi ﷺ, mengajak orang lain kepada Islam, mengeluarkan hartanya, dan ketika melihat kaum Muslimin disiksa, menjadikan hartanya sebagai jalan untuk membebaskan sebagian dari mereka. Quraisy menggunakan pengaruh yang mereka miliki untuk menekan orang-orang lemah sampai meninggalkan agama mereka. Abu Bakar menggunakan harta yang ia miliki untuk mengurangi sebagian kekuasaan Quraisy atas orang-orang lemah yang sama.
+
+Dakwah kini memasuki tahap ketika pertentangan tidak lagi hanya berupa kata-kata yang diucapkan di majelis-majelis Makkah. Abu Lahab mengikuti Nabi ﷺ di pasar dengan batu dan tuduhan dusta. Abu Jahal mengancam beliau ketika salat. Kaum lemah diseret ke tanah Makkah yang membara. Sebagian dari mereka dibunuh. Di sisi lain, kaum beriman mulai memberikan bentuk pertolongan yang mereka mampu: perlindungan, keteguhan, pengeluaran harta, dan pembebasan orang yang diperbudak.
+
+Dan itu baru permulaan dari penganiayaan. Semakin Islam menyebar, Quraisy akan mencari cara yang lebih keras untuk mencegah manusia mengikutinya, dan segera sebagian kaum Muslimin harus menghadapi pertanyaan yang belum muncul pada awal dakwah: Dapatkah mereka meninggalkan kota Makkah itu sendiri sambil tetap menjaga agama mereka?
+
+Sumber Utama Bab Ini
+
+• Dakwah Nabi ﷺ di pasar Dzul Majaz dan Abu Lahab mengikuti beliau sambil melemparkan batu: hadis Thariq bin ‘Abdullah al-Muharibi, Sahih Ibnu Hibban 6562, diriwayatkan melalui beberapa jalur dan dinilai sahih oleh sejumlah ahli hadis. Terjemahan seruan Nabi dan perkataan Abu Lahab dikutip dari Muhammad Taufiqurrohman, Proyeksi Masa Depan Menurut Muhammad Quraish Shihab dalam Tafsîr Al-Mishbâh (tesis, Universitas PTIQ Jakarta, 2024), hlm. 103, catatan 20, yang merujuk riwayat Ibnu Khuzaimah 159. Pengulangan seruan sesudahnya merupakan petikan dari kutipan tersebut.
+
+• Ancaman Abu Jahal terhadap Nabi ﷺ saat salat dan apa yang dilihatnya ketika mendekat: Sahih Muslim 2797.
+
+• Surah al-‘Alaq 96:9–19.
+
+• Ancaman dan gangguan yang dialami Nabi ﷺ karena Allah: Jami‘ at-Tirmidzi 2472. Kutipan di atas mengikuti terjemahan yang diterbitkan HadeethEnc 10966.
+
+• Riwayat ketakutan ‘Umar di Makkah dan perlindungan yang diberikan al-‘Ash bin Wa’il: Sahih al-Bukhari 3864. Disebut sebagai contoh dari tahap yang lebih kemudian, bukan sebagai kejadian yang berlangsung sebelum peristiwa di atas.
+
+• Penyiksaan Bilal dan keteguhannya mengakui keesaan Allah: Ibnu Hisyam, as-Sirah an-Nabawiyyah, 1:318; Sunan Ibnu Majah 150. Makna ucapan yang dikutip di atas mengikuti Buletin At-Tauhid, “Ketika Allah Menguji, Bukan Berarti Membenci”, Muslim.or.id.
+
+• Sumayyah radhiyallahu 'anha sebagai syahid pertama dalam Islam: al-Baihaqi, Dala’il an-Nubuwwah, melalui Ahmad bin Hanbal, Waki‘, Sufyan, Manshur, dan Mujahid. Ini merupakan riwayat sejarah mursal dari Mujahid yang dikenal luas dalam kitab-kitab sirah.
+
+• Abu Bakar memerdekakan tujuh orang yang disiksa karena Allah: Mushannaf Ibnu Abi Syaibah, dari Hisyam bin ‘Urwah, dari ayahnya; riwayat ini mursal [perawi langsung dari peristiwa tersebut tidak disebut].
+
+• Surah al-Lail 92:5–10 dan 17–21. Riwayat dari ‘Abdullah bin az-Zubair dan yang lainnya mengaitkan ayat-ayat akhir dengan Abu Bakar radhiyallahu 'anhu, dan sejumlah ahli tafsir menyebutkan hal itu.
+
+• Keutamaan Abu Bakar melalui persahabatan dan hartanya: Sahih al-Bukhari 3904.

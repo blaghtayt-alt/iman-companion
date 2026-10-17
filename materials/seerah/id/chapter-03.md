@@ -1,0 +1,93 @@
+# Dunia Tempat Beliau Dilahirkan: Jahiliah dari Dalam
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bab 3
+
+Dunia Tempat Beliau Dilahirkan: Jahiliah dari Dalam
+
+Setelah wafat kakeknya, Abdul Muthalib, Muhammad—semoga selawat dan salam Allah tercurah kepadanya—tumbuh dalam asuhan pamannya, Abu Talib. Sebelum mengikuti peristiwa-peristiwa masa mudanya, kita perlu memahami dunia di sekelilingnya. Jahiliah (keadaan agama, sosial, dan moral yang dominan sebelum diutusnya Nabi) tidak berarti bahwa orang Arab tidak mengetahui apa-apa atau tidak memiliki peradaban.
+
+Orang Arab memiliki tradisi syair yang kaya, silsilah yang dijaga dengan teliti, pasar, perdagangan jarak jauh, dan adat yang mengatur sebagian kehidupan sosial. Mereka juga menghargai kemurahan hati, keberanian, kesetiaan, dan perlindungan terhadap tetangga. Namun di samping sifat-sifat baik itu terdapat keyakinan dan sistem yang jauh dari petunjuk wahyu. Karena itu Al-Qur’an menyebut “hukum Jahiliah” ketika manusia mengganti petunjuk Allah dengan aturan yang mereka buat sendiri.
+
+Apakah hukum Jahiliah yang mereka kehendaki? (Hukum) siapakah yang lebih baik daripada (hukum) Allah bagi orang-orang yang meyakini (agamanya)?
+
+Al-Qur’an 5:50 — QuranEnc, Kementerian Agama RI
+
+Masalah agama yang utama adalah syirik (memberikan suatu bentuk ibadah kepada selain Allah atau menjadikan sesuatu sebagai sekutu bagi Allah dalam ibadah). Banyak musyrik Makkah mengakui bahwa Allah adalah Pencipta, tetapi mereka tidak menyembah-Nya saja. Berhala-berhala berdiri di sekitar Ka‘bah, dan manusia memanggil perantara yang mereka klaim akan mendekatkan mereka kepada Allah. Tauhid bukan sekadar mengatakan bahwa Allah ada; ia mengembalikan ibadah, doa, penyembelihan, nazar, dan tawakal hanya kepada Allah.
+
+Ingatlah! Hanya milik Allah agama yang murni (dari syirik). Dan orang-orang yang mengambil pelindung selain Dia (berkata), “Kami tidak menyembah mereka melainkan (berharap) agar mereka mendekatkan kami kepada Allah dengan sedekat-dekatnya.”
+
+Al-Qur’an 39:3 (kutipan) — QuranEnc, Kementerian Agama RI
+
+Penyembahan berhala juga melahirkan aturan yang masuk ke kehidupan sehari-hari. Beberapa hewan dikhususkan untuk berhala dan diberi nama yang dapat membingungkan pembaca yang baru mengenal istilah-istilah ini: Bahirah (unta betina yang susunya dibatasi dan dikhususkan untuk berhala), Sa’ibah (hewan yang dilepas untuk berhala sehingga tidak lagi ditunggangi atau dipakai membawa beban), Wasilah (unta betina yang dikhususkan untuk berhala setelah melahirkan anak-anak betina dalam urutan tertentu), dan Ham (unta jantan yang dibebaskan dari tunggangan dan beban setelah menghasilkan sejumlah keturunan tertentu). Semua itu bukan bagian dari agama Ibrahim—semoga keselamatan atasnya—melainkan adat buatan manusia yang diperlakukan seperti hukum agama.
+
+Allah tidak pernah mensyariatkan adanya Baḥīrah, Sā`ibah, Waṣīlah dan Ḥām. Tetapi orang-orang kafir membuat-buat kedustaan terhadap Allah, dan kebanyakan mereka tidak mengerti.
+
+Al-Qur’an 5:103 — QuranEnc, Kementerian Agama RI
+
+Sebuah hadis sahih menyebut ‘Amr bin Luhayy al-Khuza‘i, yang namanya dikaitkan dengan perubahan sebagian ajaran yang diwarisi dari agama Ibrahim—semoga keselamatan atasnya. Nabi—semoga selawat dan salam Allah tercurah kepadanya—menyebut bahwa dialah orang pertama yang memulai Sa’ibah. Artinya, ia memperkenalkan kebiasaan memisahkan hewan tertentu untuk berhala sehingga tidak lagi digunakan secara normal. Kebiasaan yang berlangsung selama beberapa generasi dapat akhirnya tampak seperti bagian asli agama.
+
+Aku melihat ‘Amru bin ‘Aamir bin Luhay Al-Khuzaa’i menarik-narik ususnya di neraka. Dia adalah orang pertama yang melakukan saibah (melepaskan onta-onta untuk dipersembahkan kepada berhala).
+
+Sahih al-Bukhari 3521 dan Sahih Muslim 2856 — kutipan terjemahan dalam “Penghuni Neraka Definitif”, Achmad Rofi’i, 5 Agustus 2010, pada situs resmi penulis.
+
+Orang juga mencari petunjuk melalui kahin (dukun atau peramal yang mengaku mengetahui perkara tersembunyi dan dapat dimintai keputusan dalam sengketa atau urusan penting), azlam (anak panah khusus untuk menentukan apakah suatu tindakan dilakukan atau ditinggalkan), dan pertanda sial (menganggap burung, tanda, atau peristiwa sebagai alasan untuk maju atau mengurungkan diri). Praktik ini dapat memengaruhi perjalanan, pernikahan, dan perselisihan; karena itu Al-Qur’an secara tegas melarang menentukan keputusan dengan anak panah undian.
+
+Dan (diharamkan pula) mengundi nasib dengan azlām (anak panah), (karena) itu suatu perbuatan fasik.
+
+Al-Qur’an 5:3 (kutipan) — QuranEnc, Kementerian Agama RI
+
+Bahkan Haji yang terkait dengan Baitullah yang dibangun Ibrahim dan Ismail—semoga keselamatan atas keduanya—telah mengalami perubahan. Quraisy dan kelompok yang mengikuti kebiasaan haji khusus mereka disebut al-Hums (Quraisy dan kelompok yang mengikuti praktik ketat mereka karena menganggap diri sebagai penduduk Tanah Haram). Haram adalah kawasan suci yang mengelilingi Makkah. ‘Arafah, tempat jamaah berhenti pada Hari ‘Arafah, berada di luar batas Haram, sedangkan Muzdalifah berada di dalamnya, di antara ‘Arafah dan Mina. Batas-batas Tanah Haram telah ditentukan. Ifadah yang dimaksud di sini adalah keberangkatan jamaah dari ‘Arafah menuju Muzdalifah setelah selesai wukuf. Al-Hums mengatakan bahwa sebagai penduduk Haram mereka tidak seharusnya keluar dari sana, sehingga mereka berhenti di Muzdalifah dan tidak berdiri di ‘Arafah bersama orang Arab lainnya. Islam menghapus keistimewaan buatan ini. ‘Aisyah radhiyallahu ‘anha menjelaskan bahwa Quraisy dan pengikut mereka berada di Muzdalifah, sedangkan orang Arab lainnya berada di ‘Arafah; Islam memerintahkan Nabi untuk berada di ‘Arafah lalu bertolak dari sana (Sahih al-Bukhari 4520; Sahih Muslim 1219).
+
+Kemudian bertolaklah kamu dari tempat orang banyak bertolak (Arafah) dan mohonlah ampunan kepada Allah. Sungguh, Allah Maha Pengampun, Maha Penyayang.
+
+Al-Qur’an 2:199 — QuranEnc, Kementerian Agama RI
+
+Perubahan lain menyangkut pakaian ketika tawaf (mengelilingi Ka‘bah sebagai ibadah). Sebuah riwayat sahih menyebut bahwa sebagian orang Arab bertawaf tanpa pakaian kecuali jika al-Hums memberi mereka pakaian: laki-laki memberi pakaian kepada laki-laki dan perempuan kepada perempuan. Sebagian pendatang yang tidak memperoleh pakaian khusus itu bertawaf tanpa pakaian. Jadi masalahnya bukan sekadar lupa menutup aurat; aturan agama buatan manusia telah menjadikan akses kepada pakaian tertentu sebagai bagian dari ritual. Wahyu menegakkan kembali tuntunan menutup aurat dan menjaga martabat dalam beribadah.
+
+‘Urwah bin az-Zubair meriwayatkan bahwa orang Arab selain al-Hums bertawaf mengelilingi Ka‘bah tanpa pakaian, kecuali jika al-Hums memberi mereka pakaian. Laki-laki dari al-Hums memberikan pakaian kepada laki-laki, dan perempuan kepada perempuan.
+
+Riwayat ‘Urwah bin az-Zubair dalam Sahih Muslim 1219b.
+
+Wahai anak cucu Adam! Pakailah pakaianmu yang bagus pada setiap (memasuki) masjid, makan dan minumlah, tetapi jangan berlebihan! Sesungguhnya, Allah tidak menyukai orang yang berlebih-lebihan.
+
+Al-Qur’an 7:31 — terjemahan Kementerian Agama RI yang dipublikasikan di Quran.com.
+
+Pernikahan yang dikenal juga ada: seorang laki-laki meminta perempuan kepada walinya, memberikan mahar, lalu menikahinya. Namun ‘Aisyah radhiyallahu ‘anha menjelaskan bahwa sebelum Islam terdapat bentuk hubungan lain. Ia merangkum empat jenis: pernikahan yang dikenal; bentuk ketika suami meminta istrinya mengandung dari lelaki lain; bentuk ketika kurang dari sepuluh lelaki berhubungan dengan seorang perempuan lalu perempuan itu menisbatkan anak kepada salah seorang dari mereka; dan bentuk ketika banyak lelaki mendatangi seorang perempuan lalu anak dinisbatkan berdasarkan kemiripan. Islam membatalkan bentuk-bentuk itu dan mempertahankan pernikahan yang dikenal (Sahih al-Bukhari 5127), sehingga nasab dan hak keluarga terjaga.
+
+Di antara praktik paling keras yang muncul pada sebagian suku dan keadaan adalah mengubur bayi perempuan hidup-hidup. Tidak benar membayangkan bahwa setiap keluarga Arab melakukannya, tetapi praktik itu memang ada, dan Al-Qur’an menampilkan anak perempuan yang dibunuh itu sendiri pada Hari Kiamat, ditanya karena dosa apa ia dibunuh. Pada saat yang sama, masyarakat tidak semuanya sama: Asma binti Abu Bakr radhiyallahu ‘anha meriwayatkan bahwa Zayd bin ‘Amr bin Nufail mencegah para ayah membunuh putri mereka dan menawarkan untuk menanggung kebutuhan anak-anak itu (Sahih al-Bukhari 3828).
+
+dan apabila bayi-bayi perempuan yang dikubur hidup-hidup ditanya, karena dosa apa dia dibunuh?
+
+Al-Qur’an 81:8–9 — QuranEnc, Kementerian Agama RI
+
+Suku atau kabilah (jaringan besar keluarga yang dihubungkan oleh keturunan dan persekutuan) juga memiliki dua sisi. Ia dapat melindungi seseorang yang lemah karena keluarga dan klan berdiri di belakangnya. Namun solidaritas itu dapat berubah menjadi ‘asabiyyah (membela kelompok sendiri hanya karena itu kelompok sendiri, walaupun kelompok tersebut salah), sehingga memicu dendam panjang dan penolakan terhadap kebenaran. Nabi kemudian memperingatkan bahwa beberapa kebiasaan Jahiliah dapat tetap ada di tengah kaum Muslimin: membanggakan kedudukan keluarga, mencela nasab orang lain, menisbatkan hujan kepada bintang, dan meratapi orang yang meninggal dengan suara keras serta ungkapan kegelisahan dan ketidakrelaan.
+
+Ada empat perkara jahiliyah pada umatku, mereka tidak akan meninggalkannya: Membanggakan kemuliaan orang tua, mencela nasab (garis keturunan), menganggap turunnya hujan dengan munculnya bintang tertentu, dan niyâhah (meratap).
+
+Sahih Muslim 934 — terjemahan yang dimuat dalam artikel “Niyâhah, Dosa Besar Warisan Jahiliyah”, Ustadz Abu Isma’il Muslim al-Atsari, Majalah As-Sunnah, edisi 10/XXI/1439 H/2018 M; Almanhaj.
+
+Pasar juga membutuhkan perbaikan. Riba (termasuk tambahan yang disyaratkan atas utang serta bentuk pertukaran tertentu yang diharamkan) dan tatfif (mengambil ukuran sendiri secara penuh tetapi mengurangi ketika menakar atau menimbang untuk orang lain) dikenal. Karena itu Al-Qur’an tidak memisahkan agama dari kejujuran dalam jual beli; sebuah surah bahkan dibuka dengan ancaman bagi orang yang curang dalam takaran dan timbangan.
+
+Celakalah bagi orang-orang yang curang (dalam menakar dan menimbang)! (yaitu) orang-orang yang apabila menerima takaran dari orang lain mereka minta dicukupkan, dan apabila mereka menakar atau menimbang (untuk orang lain), mereka mengurangi.
+
+Al-Qur’an 83:1–3 — QuranEnc, Kementerian Agama RI
+
+Namun Jahiliah tidak boleh diceritakan seolah-olah setiap orang dan setiap kebiasaan adalah buruk. Di antara orang Arab ada yang dikenal murah hati, berani, setia, melindungi tamu, dan membantu orang yang dizalimi. Islam tidak menghancurkan semua sifat yang sudah ada; Islam memberi ukuran yang benar bagi sifat yang baik. Kemurahan hati tidak perlu dihapus, tetapi harus disertai iman dan keadilan. Keberanian pun tetap dipelihara tanpa berubah menjadi kezaliman dan fanatisme golongan. Nabi mengajarkan bahwa orang-orang yang terbaik pada masa Jahiliah juga dapat menjadi yang terbaik dalam Islam apabila mereka memahami agama dengan benar.
+
+Kalian mendapati manusia itu seperti barang-barang tambang; orang-orang mulia pada masa jahiliah adalah orang-orang yang mulia pada masa Islam jika mereka memahami (agama).
+
+Sahih al-Bukhari 3493; Sahih Muslim 2526 — petikan riwayat kedua dalam terjemahan HadeethEnc, hadis 6367.
+
+Prinsip yang sama berlaku pada persekutuan. Hilf (perjanjian antara keluarga atau suku untuk saling membantu atau mencapai tujuan bersama) dapat didasarkan pada fanatisme yang zalim, tetapi juga dapat dipakai untuk menegakkan keadilan. Hilf al-Fudul adalah perjanjian Makkah yang terkenal: beberapa kabilah berjanji membantu orang yang dizalimi sampai haknya dikembalikan. Muhammad—semoga selawat dan salam Allah tercurah kepadanya—menyaksikannya sebelum kenabian; rinciannya akan dibahas pada bab berikutnya. Islam menolak persekutuan yang dibangun di atas kezaliman, tetapi menguatkan komitmen kepada keadilan.
+
+Tiada sumpah sepakta dalam Islam; dan sumpah sepakta mana pun yang terjadi di zaman Jahiliah, maka sesungguhnya Islam tidak menambahkan kepadanya melainkan menambah kekukuhannya.
+
+Sahih Muslim 2530 — kutipan terjemahan Tafsir Ibnu Katsir pada An-Nahl 16:91–92 yang diterbitkan di Learn Quran Tafsir.
+
+Tidak semua orang di Makkah puas dengan penyembahan berhala. Sumber-sumber Sirah mencatat adanya hunafa (individu yang menolak berhala dan mencari agama Ibrahim—semoga keselamatan atasnya), seperti Zayd bin ‘Amr bin Nufail, Waraqah bin Nawfal, ‘Utsman bin al-Huwayrits, dan ‘Ubaid Allah bin Jahsy. Mereka bukan satu kelompok agama yang terorganisasi, dan perjalanan mereka tidak berakhir dengan cara yang sama. Zayd adalah contoh yang jelas: ia menolak sembelihan untuk berhala, mencari agama Ibrahim, dan Asma binti Abu Bakr radhiyallahu ‘anha meriwayatkan bahwa ia pernah melihat Zayd bersandar pada Ka‘bah sambil mengatakan kepada Quraisy bahwa mereka telah meninggalkan agama Ibrahim (Sahih al-Bukhari 3828).
+
+Itulah dunia yang kompleks tempat Muhammad tumbuh: Ka‘bah berdiri dan dihormati, tetapi berhala mengelilinginya; Haji dikenal, tetapi aturan manusia masuk ke dalam manasiknya; kabilah dapat melindungi orang lemah, tetapi loyalitas buta dapat mendukung kezaliman; perdagangan membawa kekayaan ke Makkah, tetapi riba dan kecurangan juga ada; dan di samping kemurahan hati serta keberanian yang nyata terdapat penyimpangan agama dan sosial yang serius. Wahyu akan datang kepada masyarakat nyata ini untuk memisahkan yang benar dari yang salah: tauhid menggantikan syirik, keadilan menggantikan fanatisme buta, martabat menggantikan kebiasaan yang rusak, dan pemenuhan hak menggantikan eksploitasi—sambil mempertahankan kejujuran, kemurahan hati, kesetiaan, dan setiap sifat yang sesuai dengan kebenaran.
+
+Di tengah masyarakat ini Muhammad—semoga selawat dan salam Allah tercurah kepadanya—tumbuh di rumah Abu Talib. Beliau melihat Makkah, pasar-pasarnya, kabilah-kabilahnya, hajinya, dan adatnya sebelum siapa pun mengenalnya sebagai Nabi. Tahap berikutnya membawa kita lebih dekat kepada kehidupannya sendiri: pekerjaannya, menggembala kambing, pengalaman berdagang, peristiwa yang ia saksikan saat muda, dan reputasi yang dikenal oleh penduduk Makkah sebelum mereka mendengar ayat pertama wahyu.

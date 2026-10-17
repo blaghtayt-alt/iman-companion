@@ -1,0 +1,179 @@
+# Dan al-Quran Turun di Tengah Mereka: Apabila Peristiwa Makkah Menjadi Ayat-Ayat yang Dibaca
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bab Empat Belas — Dan al-Quran Turun di Tengah Mereka: Apabila Peristiwa Makkah Menjadi Ayat-Ayat yang Dibaca
+
+Dalam bab-bab sebelumnya, kita melihat orang Islam diseksa di Makkah, orang Quraisy berhujah dengan Rasulullah ﷺ, sebahagian memperolokkan al-Quran, dan para pembesar meminta agar mukmin yang tidak mempunyai perlindungan dijauhkan daripada majlis baginda supaya mereka boleh duduk bersama baginda secara berasingan. Namun gambaran itu masih belum lengkap jika kita membaca peristiwa-peristiwa tersebut sahaja. Al-Quran tidak diturunkan kepada Rasulullah ﷺ bertahun-tahun selepas semua peristiwa itu selesai sekadar untuk menceritakan apa yang pernah berlaku. Ia turun di tengah-tengah peristiwa itu sendiri. Satu kejadian berlaku di Makkah, seseorang mengucapkan sesuatu, atau orang beriman melalui suatu ujian, lalu turun ayat-ayat yang meneguhkan Rasulullah ﷺ dan para sahabatnya, menjawab orang yang membantah, atau menyingkap apa yang berada di sebalik sesuatu pendirian. Oleh sebab itu, membaca Sirah membantu kita memahami sebahagian ayat, sebagaimana membaca al-Quran membuka kepada kita sisi-sisi Sirah yang mungkin tidak kelihatan jika kita hanya bergantung pada berita para sejarawan.
+
+Hubungan ini perlu difahami dengan membezakan tahap buktinya. Sesetengah peristiwa dikaitkan dengan ayat melalui hadis sahih yang menjelaskan kejadian dan orang yang bercakap. Ada pula riwayat tentang peristiwa atau ucapan yang berkaitan dengan penurunan ayat; tahap kebolehpercayaannya tidak sama. Dalam keadaan lain, tiada riwayat yang menyebut sebab tertentu. Pentafsir membuat kesimpulan daripada teks dan konteks bahawa maknanya sesuai dengan keadaan Nabi ﷺ. Bab ini membezakan jenis-jenis bukti tersebut.
+
+Patutkah manusia menyangka bahawa mereka akan dibiarkan dengan hanya berkata: “Kami beriman”, sedang mereka tidak diuji (dengan sesuatu cubaan)?
+
+Selepas kita melihat Bilal — semoga Allah meredainya — di atas tanah Makkah yang membakar, dan melihat apa yang berlaku kepada keluarga Yasir serta orang beriman lemah yang lain, pembukaan Surah al-'Ankabut menjadi jauh lebih dekat dengan realiti tahun-tahun tersebut:
+
+Alif, Laam, Miim.
+Patutkah manusia menyangka bahawa mereka akan dibiarkan dengan hanya berkata: “Kami beriman”, sedang mereka tidak diuji (dengan sesuatu cubaan)?
+Dan demi sesungguhnya! Kami telah menguji orang-orang yang terdahulu daripada mereka, maka (dengan ujian yang demikian), nyata apa yang diketahui Allah tentang orang-orang yang sebenar-benarnya beriman, dan nyata pula apa yang diketahuiNya tentang orang-orang yang berdusta.
+— al-Quran 29:1–3 — Abdullah Muhammad Basmeih
+
+“Diuji” di sini bermaksud ditimpa ujian dan kesusahan supaya keteguhan mereka dalam iman terserlah. Lafaz ayat ini bersifat umum: iman bukan sekadar satu perkataan yang diucapkan seseorang kemudian dia dijamin tidak akan diuji. Namun al-Tabari meriwayatkan satu riwayat yang menghubungkan ayat-ayat ini secara khusus dengan apa yang berlaku kepada sebahagian Muslim yang diseksa oleh orang musyrik, termasuk riwayat yang menyebut 'Ammar bin Yasir — semoga Allah meredainya — diseksa kerana keimanannya kepada Allah. Kita tidak perlu menjadikan riwayat itu satu-satunya asas makna ayat; ayat ini bersifat umum. Tetapi riwayat tersebut meletakkan di hadapan kita gambaran realiti yang dilalui oleh orang Islam ketika al-Quran sedang diturunkan.
+
+Orang beriman mendengar firman Allah:
+
+Patutkah manusia menyangka bahawa mereka akan dibiarkan dengan hanya berkata: “Kami beriman”, sedang mereka tidak diuji (dengan sesuatu cubaan)?
+
+Orang beriman mendengar ayat ini dalam masyarakat yang tidak menjamin keselamatan mereka. Sebahagian daripada mereka yang mendengar ayat itu mengenali orang yang dipukul dan diseksa kerana iman, dan mungkin ada antara mereka yang sendiri pernah mengalaminya.
+
+Pembesar Quraisy dan duduk bersama orang beriman yang lemah
+
+Pertembungan itu juga mempunyai bentuk yang lain. Bagi sebahagian lelaki Quraisy, masalahnya bukan hanya apa yang dikatakan oleh Nabi ﷺ, tetapi juga siapa yang duduk di sekeliling baginda. Dalam masyarakat Makkah, kabilah, keturunan dan harta sangat mempengaruhi kedudukan sosial seseorang. Di antara sahabat Rasulullah ﷺ ada orang yang tidak memiliki banyak harta dan tidak mempunyai perlindungan kabilah yang kuat, seperti Bilal, Khabbab dan Suhaib — semoga Allah meredai mereka —.
+
+Riwayat tafsir menyebut bahawa sebahagian pembesar Quraisy mahu Nabi ﷺ menjauhkan orang-orang lemah itu daripada majlis baginda supaya golongan terkemuka dapat duduk bersama baginda tanpa mereka. Dalam Sahih Muslim, Sa‘d bin Abi Waqqas — semoga Allah meredainya — meriwayatkan bahawa ayat ini turun berkenaan enam orang sahabat, termasuk dirinya dan Ibn Mas‘ud, selepas orang musyrik membantah Nabi ﷺ mendekatkan mereka kepada baginda.
+
+Lalu Allah menurunkan:
+
+Dan janganlah engkau usir orang-orang yang beribadat dan berdoa kepada Tuhan mereka pagi dan petang, sedang mereka menghendaki keredaanNya semata-mata. Tiadalah engkau bertanggungjawab sesuatu pun mengenai hitungan amal mereka, dan mereka juga tidak bertanggungjawab sesuatu pun mengenai hitungan amalmu. Maka (sekiranya) engkau usir mereka, nescaya menjadilah engkau dari orang-orang yang zalim.
+— al-Quran 6:52 — Abdullah Muhammad Basmeih
+
+“Pagi dan petang” di sini bermaksud awal dan akhir hari.
+
+Makna yang sama berulang dalam firman Allah:
+
+Dan jadikanlah dirimu sentiasa berdamping rapat dengan orang-orang yang beribadat kepada Tuhan mereka pada waktu pagi dan petang, yang mengharapkan keredaan Allah semata-mata; dan janganlah engkau memalingkan pandanganmu daripada mereka hanya kerana engkau mahukan kesenangan hidup di dunia; […]
+— al-Quran 18:28 — Abdullah Muhammad Basmeih (petikan)
+
+dan janganlah engkau memalingkan pandanganmu daripada mereka hanya kerana engkau mahukan kesenangan hidup di dunia; […]
+Maksudnya ialah tidak mengalihkan perhatian daripada orang beriman ini kepada orang lain.
+
+Dakwah tidak diminta menjadi lebih mudah diterima oleh orang berkedudukan tinggi dengan menyingkirkan mukmin yang lemah. Sebaliknya, al-Quran menetapkan bahawa nilai seseorang di sisi Allah tidak diukur dengan kekuatan kabilahnya, hartanya atau kedudukannya di Makkah. Sebahagian daripada mereka yang dahulu dipandang rendah oleh pembesar Quraisy kemudian menjadi antara sahabat Rasulullah ﷺ yang paling terkenal.
+
+Bahkan bilangan malaikat penjaga neraka menjadi bahan ejekan
+
+Tidak semua pertembungan berbentuk penyeksaan atau pemulauan. Ada juga ejekan. Allah berfirman tentang neraka:
+
+Pengawal dan penjaganya adalah sembilan belas (malaikat).
+— al-Quran 74:30 — Abdullah Muhammad Basmeih
+
+Maksudnya, sembilan belas malaikat ditugaskan menjaganya.
+
+Riwayat tafsir menyebut bahawa apabila Abu Jahl mendengar bilangan itu, dia memperlakukannya seolah-olah yang dimaksudkan ialah sembilan belas manusia yang boleh dilawan oleh Quraisy. Riwayat tersebut mengisahkan bahawa dia bertanya dengan nada mengejek sama ada setiap sepuluh orang daripada kaumnya tidak mampu mengalahkan seorang penjaga neraka.
+
+Ayat seterusnya menjelaskan:
+
+Dan (ketahuilah bahawa hikmat) Kami tidak menjadikan pengawal-pengawal neraka itu melainkan (dari kalangan) malaikat, (kerana merekalah sekuat-kuat dan sebenar-benar makhluk yang menjalankan perintah Kami); dan (hikmat) Kami tidak menerangkan bilangan mereka melainkan dengan satu bilangan yang menyebabkan kesesatan dan kesengsaraan orang-orang kafir itu, […]
+— al-Quran 74:31 — Abdullah Muhammad Basmeih (petikan)
+
+Penjaga neraka ialah para malaikat yang ditugaskan menjaganya. Butiran ini diriwayatkan dalam kitab-kitab tafsir, tetapi keseluruhan lafaznya tidak sabit melalui hadis sahih yang disandarkan kepada Nabi ﷺ. Walaupun demikian, riwayat ini membantu kita melihat sifat sebahagian reaksi yang dihadapi Nabi ﷺ. Ayat yang mengancam dengan azab turun, lalu seorang penentang menjadikannya bahan gurauan dan cabaran. Kemudian al-Quran membetulkan andaian asasnya: mereka bukan manusia Quraisy sehingga dia boleh mengira berapa orang diperlukan untuk melawan seorang daripada mereka.
+
+Satu kata daripada seorang sahabat mengubah pendirian
+
+Sirah Ibn Ishaq juga meriwayatkan kisah lain tentang 'Uqbah bin Abi Mu'ayt dan Ubayy bin Khalaf, dua orang yang terkenal dengan permusuhan keras terhadap Nabi ﷺ. Mereka ialah sahabat rapat. Riwayat Sirah menyebut bahawa suatu hari 'Uqbah duduk bersama Nabi ﷺ dan mendengar baginda. Apabila Ubayy bin Khalaf mendengar hal itu, dia marah dan menekan 'Uqbah sehingga dia menyatakan penolakannya terhadap Nabi ﷺ. Riwayat itu juga menyebut bahawa dia mendorong 'Uqbah melakukan tindakan penghinaan dan gangguan yang berat terhadap Rasulullah ﷺ. Ibn Ishaq kemudian menghubungkan kejadian ini dengan firman Allah:
+
+Dan (ingatkanlah) perihal hari orang-orang yang zalim menggigit kedua-dua tangannya (marahkan dirinya sendiri) sambil berkata: “Alangkah baiknya kalau aku (di dunia dahulu) mengambil jalan yang benar bersama-sama Rasul?
+“Wahai celakanya aku, alangkah baiknya kalau aku tidak mengambil si dia itu menjadi sahabat karib!
+“Sesungguhnya dia telah menyesatkan daku dari jalan peringatan (Al-Quran) setelah ia disampaikan kepadaku. Dan adalah Syaitan itu sentiasa mengecewakan manusia (yang menjadikan dia sahabat karibnya)”.
+— al-Quran 25:27–29 — Abdullah Muhammad Basmeih
+
+Ungkapan “sahabat karib” dalam ayat ini merujuk kepada teman yang sangat rapat. Hubungan ini datang daripada riwayat Sirah dan tafsir; bukan hadis sahih yang membuktikan bahawa ayat-ayat itu turun hanya tentang dua orang tersebut. Makna ayat lebih luas daripada dua individu. Namun riwayat Sirah membuka kepada kita satu bentuk tekanan lain di Makkah: Seseorang mungkin mendengar Nabi ﷺ, kemudian sahabat atau kaumnya mensyaratkan supaya dia menolak apa yang didengarnya jika mahu terus berhubung dengan mereka. Dengan itu, persahabatan itu sendiri boleh menjadi alat untuk menjauhkan seseorang daripada kebenaran.
+
+Tulang reput di tangan seorang yang mengingkari kebangkitan
+
+Antara perkara yang paling banyak diperdebatkan oleh orang musyrik ialah kebangkitan selepas mati.
+
+Bagaimana manusia boleh kembali selepas menjadi tanah dan tulang?
+
+Riwayat tafsir mengisahkan seorang lelaki Quraisy yang datang kepada Rasulullah ﷺ dengan seketul tulang lama yang telah reput. Dia meremukkannya dengan tangan, lalu bertanya dengan nada mengingkari siapa yang dapat menghidupkannya semula setelah tulang itu reput.
+
+Kisah ini disampaikan berdasarkan makna riwayat, bukan sebagai petikan kata demi kata daripada ucapan lelaki itu. Sumber: tafsir al-Tabari bagi al-Quran 36:77, yang memuatkan riwayat berbeza tentang identitinya.
+
+Riwayat berbeza mengenai identiti lelaki tersebut. Sebahagian menyebut Ubayy bin Khalaf, manakala yang lain menyebut al-'As bin Wa'il. Oleh itu, riwayat-riwayat tersebut tidak sepakat tentang nama lelaki itu. Tetapi al-Quran menjawab bantahan itu sendiri:
+
+Serta ia mengemukakan satu misal perbandingan kepada Kami (tentang kekuasaan itu), dan ia pula lupakan keadaan Kami menciptakannya sambil ia bertanya: “Siapakah yang dapat menghidupkan tulang-tulang yang telah hancur seperti debu?”
+Katakanlah: “Tulang-tulang yang hancur itu akan dihidupkan oleh Tuhan yang telah menciptakannya pada awal mula wujudnya; dan Ia Maha Mengetahui akan segala keadaan makhluk-makhluk (yang diciptakanNya); […]”
+— al-Quran 36:78–79 — Abdullah Muhammad Basmeih
+
+“Telah hancur” di sini bermaksud tulang tua yang reput dan mudah berkecai. Jawapan itu tidak bermula dengan menerangkan bagaimana setiap zarah tulang akan dikumpulkan. Ia mengembalikan penanya kepada permulaan: Siapa yang mencipta manusia pada kali pertama? Dia yang menciptakannya daripada tiada tidak lemah untuk mengembalikannya selepas mati. Dengan demikian, al-Quran bahkan memelihara bagi kita bentuk hujah yang digunakan seorang musyrik ketika berdiri di hadapan Rasulullah ﷺ.
+
+Khabbab menuntut upah pekerjaannya
+
+Ada satu lagi peristiwa dalam tema ini yang terbukti dengan sanad sahih dan bukan sekadar berita Sirah. Khabbab bin al-Aratt — semoga Allah meredainya — bekerja sebagai tukang besi yang membuat peralatan dan pedang. Al-'As bin Wa'il berhutang kepadanya atas kerja yang telah dilakukan oleh Khabbab. Khabbab datang menuntut bayaran yang menjadi haknya.
+
+Tetapi al-'As berkata bahawa dia tidak akan membayar sehingga Khabbab kufur kepada Muhammad ﷺ. Khabbab menolak. Menurut makna hadis, beliau menjawab bahawa beliau tidak akan mengingkari Muhammad ﷺ, walaupun al-‘As mati lalu dibangkitkan. Beliau menegaskan bahawa beliau tidak akan sekali-kali meninggalkan imannya, bukan menetapkan had masa bagi keteguhannya.
+
+Al-'As kemudian menjadikan kebangkitan selepas mati sebagai bahan ejekan.
+
+Dia bertanya sama ada dia benar-benar akan dibangkitkan selepas kematiannya.
+
+Dia berkata bahawa jika dia dibangkitkan dan memperoleh harta serta anak-anak, barulah dia akan membayar hutangnya kepada Khabbab.
+
+Lalu Allah menurunkan:
+
+Maka tidakkah engkau merasa hairan memikirkan (wahai Muhammad), akan orang yang kufur ingkar kepada ayat-ayat keterangan Kami serta ia berkata: “Demi sesungguhnya aku akan diberikan harta kekayaan dan anak-pinak pada hari akhirat”?
+Adakah ia telah mengetahui akan perkara yang ghaib, atau adakah ia telah membuat perjanjian dengan (Allah) Ar-Rahman mengenainya?
+Tidak sekali-kali! Kami akan menulis apa yang dikatakannya, dan Kami akan tambahi baginya dari azab seksa, berganda-ganda.
+Dan Kami akan warisi (harta benda dan anak-pinak) yang dikatakannya itu, dan ia akan datang kepada kami dengan seorang diri.
+— al-Quran 19:77–80 — Abdullah Muhammad Basmeih
+
+Sahih al-Bukhari 4734–4735. Jawapan al-'As di atas disampaikan secara tidak langsung berdasarkan makna hadis 4735.
+
+Hubungan ayat-ayat ini dengan peristiwa tersebut sabit melalui hadis sahih. Khabbab sendiri meriwayatkan apa yang berlaku. Peristiwa ini menjelaskan maksud bahawa al-Quran adalah sebahagian daripada Sirah itu sendiri. Seorang Muslim datang mengambil upah kerjanya. Orang yang berhutang enggan membayar kerana agama Khabbab. Kemudian dia mengejek kebangkitan. Ayat turun, memelihara ucapannya dan menjawabnya. Sejak hari itu, perdebatan yang berlaku antara dua lelaki di Makkah menjadi sebahagian daripada al-Quran yang dibaca hingga Hari Kiamat.
+
+Dan (kerana sombong angkuhnya orang-orang kafir itu) mereka berkata tentang kepercayaan orang-orang yang beriman: “Kalaulah (apa yang dibawa oleh Muhammad) itu perkara yang baik tentulah mereka tidak mendahului kami mempercayainya (kerana kamilah yang sepatutnya menerima segala kebaikan)!”
+
+Pandangan sebahagian pembesar Quraisy terhadap orang beriman yang lemah tidak berhenti pada keengganan duduk bersama mereka. Bagi sebahagian daripada mereka, hakikat bahawa orang lemah menerima Islam lebih dahulu menjadi hujah melawan Islam itu sendiri. Allah berfirman:
+
+Dan (kerana sombong angkuhnya orang-orang kafir itu) mereka berkata tentang kepercayaan orang-orang yang beriman: “Kalaulah (apa yang dibawa oleh Muhammad) itu perkara yang baik tentulah mereka tidak mendahului kami mempercayainya (kerana kamilah yang sepatutnya menerima segala kebaikan)!”
+— al-Quran 46:11 — Abdullah Muhammad Basmeih (petikan)
+
+Maksudnya, mereka menjadikan kedudukan sosial mereka sebagai ukuran untuk mengenali kebenaran: jika agama ini benar-benar baik, kami—orang yang mempunyai kedudukan—sepatutnya menjadi orang pertama menerimanya.
+
+Kitab-kitab tafsir meriwayatkan berita yang menghubungkan makna ini dengan sebahagian orang beriman yang lemah, termasuk Zinnirah — semoga Allah meredainya —, yang sebelum ini telah kita temui sebagai salah seorang wanita yang disakiti kemudian dibebaskan oleh Abu Bakr — semoga Allah meredainya —.
+
+Al-Suyuti menukilkan kisah Zinnirah ini daripada Ibn al-Mundhir, yang meriwayatkannya daripada ‘Awn bin Abi Shaddad; kisah itu tidak dikemukakan di sini sebagai sabda Nabi ﷺ. Oleh itu, ia disebut sebagai riwayat tafsir, tanpa mengehadkan makna ayat kepada Zinnirah sahaja.
+
+Namun maknanya sangat sesuai dengan jenis bantahan yang kita kenal daripada sebahagian elit Makkah: bagaimana seorang hamba, orang miskin atau wanita lemah boleh sampai kepada kebenaran sebelum kami? Al-Quran menolak ukuran ini dari asasnya. Kebenaran tidak menjadi benar kerana orang kaya mengenalinya terlebih dahulu. Dan ia tidak menjadi batil kerana orang lemah sampai kepadanya lebih awal.
+
+Pada waktu lain, hubungannya difahami daripada konteks
+
+Tidak setiap hubungan antara al-Quran dan sirah berasal daripada riwayat yang menyebut seseorang sebagai sebab penurunan ayat. Imam al-Tabari, salah seorang imam besar tafsir, kadang-kadang membaca ayat dengan mengambil kira keadaan Rasulullah ﷺ di Makkah, lalu menerangkan bagaimana kisah nabi terdahulu berbicara kepada baginda dan meneguhkan baginda. Salah satu contohnya ialah kisah Yusuf — semoga kesejahteraan dilimpahkan kepadanya —. Allah berfirman:
+
+Dan ketika Yusuf sampai ke peringkat umurnya yang sempurna kekuatannya, Kami beri kepadanya kebijaksanaan serta ilmu pengetahuan; dan demikianlah kami membalas orang-orang yang berusaha memperbaiki amalannya.
+— al-Quran 12:22 — Abdullah Muhammad Basmeih
+
+Ayat ini berbicara secara langsung tentang Yusuf, semoga kesejahteraan dilimpahkan kepadanya. Al-Tabari turut menekankan janji pada penghujungnya:
+
+dan demikianlah kami membalas orang-orang yang berusaha memperbaiki amalannya.
+
+Al-Tabari melihat peneguhan bagi Nabi Muhammad ﷺ dalam ayat ini. Sebagaimana Allah menyelamatkan Yusuf daripada ujian dan memberinya kekuasaan selepas kelemahan, gangguan yang dihadapi Rasulullah ﷺ di Makkah tidak bermakna dakwah baginda akan berakhir dalam kesulitan itu. Ini ialah kesimpulan tafsir daripada ayat, bukan riwayat yang menetapkan sebab penurunannya.
+
+Begitu juga ketika menyebut Nuh — semoga kesejahteraan dilimpahkan kepadanya — dan panjangnya dakwah baginda kepada kaumnya, Allah berfirman:
+
+Dan sesungguhnya Kami telah mengutus Nabi Nuh kepada kaumnya, maka tinggallah ia dalam kalangan mereka selama sembilan ratus lima puluh tahun; akhirnya mereka dibinasakan oleh taufan sedang mereka berkeadaan zalim (dengan kufur derhaka).
+— al-Quran 29:14 — Abdullah Muhammad Basmeih
+
+Al-Tabari juga membaca kisah ini dengan melihat apa yang dialami Nabi ﷺ daripada kaumnya: jangan biarkan panjangnya kedegilan mereka dan gangguan yang menimpa engkau serta para sahabatmu membuatmu bersedih; para rasul sebelum engkau telah melalui perkara yang serupa, dan akhirnya kebenaranlah yang menang. Al-Quran Makki bukan himpunan perintah yang terpisah daripada kehidupan. Kisah para nabi terdahulu turun ketika Nabi ﷺ dan orang beriman perlu mengetahui bahawa orang sebelum mereka juga telah menempuh jalan ujian ini.
+
+Al-Quran menyingkap besarnya pertembungan
+
+Jika kita hanya membaca berita sejarah tentang Makkah, mungkin kita mengingati beberapa nama: Abu Jahl, Abu Lahab, 'Uqbah bin Abi Mu'ayt, Ubayy bin Khalaf, Al-Nadr bin al-Harith, Al-'As bin Wa'il. Kemudian kita sekadar berkata: mereka memusuhi Nabi ﷺ.
+
+Tetapi apabila kita membaca bersama peristiwa-peristiwa itu ayat-ayat al-Quran dan riwayat tafsir, muncul gambaran yang lebih luas. Seorang mengejek azab. Seorang lagi mengingkari kebangkitan dengan tulang yang hancur di tangannya. Seorang menekan sahabatnya supaya menjauh daripada Nabi ﷺ. Seorang menahan upah seorang pekerja Muslim kerana agamanya. Yang lain mahu menjauhkan Bilal, Khabbab, Suhaib dan orang beriman lemah lain daripada majlis Rasulullah ﷺ.
+
+Sementara itu al-Quran terus turun: meneguhkan orang beriman, memelihara maruah orang lemah, menjawab orang yang mengejek, mendedahkan kesalahan orang yang sombong, dan mengajar Rasulullah ﷺ bahawa berterusannya penolakan bukan tanda kegagalan risalah. Oleh sebab itu, Sirah dan al-Quran pada fasa ini tidak berjalan pada dua jalan yang berasingan. Peristiwa berlaku di Makkah, dan al-Quran mendidik orang beriman di dalam peristiwa-peristiwa tersebut. Al-Quran turun, lalu kata-kata wahyu itu sendiri menjadi sebahagian daripada pertembungan yang sedang berlaku di Makkah.
+
+Mulai dari sini, setiap kali kita maju dalam tahun-tahun Makkah, soalan kita bukan hanya: Apa yang berlaku kepada Rasulullah ﷺ dan para sahabatnya? Ada satu lagi soalan bersamanya: Apakah yang Allah turunkan kepada mereka ketika mereka melalui semua peristiwa itu? Jawapan terhadap kedua-dua soalan bersama-sama membolehkan kita melihat fasa itu sebagaimana generasi pertama mengalaminya.
+
+Sumber utama bab ini
+
+• Tafsir al-Tabari: hubungan ayat al-Quran dengan peristiwa zaman Makkah, dengan membezakan riwayat tentang sebab nuzul daripada tafsiran yang disimpulkan berdasarkan konteks.
+• Surah al-'Ankabut 29:1-3 dan riwayat al-Tabari yang menghubungkannya dengan penyeksaan sebahagian orang beriman, termasuk 'Ammar bin Yasir — semoga Allah meredainya —.
+• Surah al-An'am 6:52 dan Surah al-Kahf 18:28, mengenai menjaga kemuliaan orang beriman lemah dan tidak mengusir mereka dari majlis Nabi ﷺ.
+• Surah al-Muddaththir 74:30-31 dan riwayat tafsir tentang Abu Jahl mengejek bilangan penjaga neraka; berita itu disampaikan menurut tahap bukti tafsirnya.
+• Surah al-Furqan 25:27-29 dan hubungan yang dibuat oleh Ibn Ishaq dengan kisah 'Uqbah bin Abi Mu'ayt dan Ubayy bin Khalaf; ini ialah riwayat Sirah, bukan hadis sahih marfu'.
+• Surah Ya-Sin 36:78-79; riwayat tafsir berbeza tentang identiti lelaki yang membawa tulang reput, ada yang menyebut Ubayy bin Khalaf dan ada yang menyebut al-'As bin Wa'il; oleh itu satu nama tidak dipastikan.
+• Kisah Khabbab bin al-Aratt — semoga Allah meredainya — dengan al-'As bin Wa'il dan turunnya Surah Maryam 19:77-80: Sahih al-Bukhari 4734-4735.
+• Surah al-Ahqaf 46:11 dan beberapa riwayat tafsir yang menghubungkan maknanya dengan orang beriman lemah, termasuk Zinnirah — semoga Allah meredainya —.
+• Surah Yusuf 12:22 dan Surah al-'Ankabut 29:14, serta kaedah al-Tabari menghubungkan kisah para nabi terdahulu dengan peneguhan Rasulullah ﷺ pada zaman Makkah melalui istinbat tafsir, bukan sebagai sebab nuzul.
+• Lokasi riwayat sejarah: tafsir al-Tabari bagi 74:30–31 dan 36:77; Sirah Ibn Hisham, bahagian tentang Ubayy bin Khalaf, ‘Uqbah bin Abi Mu‘ayt dan ayat-ayat mengenai mereka, dalam perpustakaan Islamweb.
+• Lokasi sumber yang tepat: tafsir al-Tabari bagi 29:3 untuk kisah ‘Ammar, serta 6:52 dan 18:28 untuk riwayat tentang duduk bersama orang beriman yang lemah; Sahih Muslim 2413a untuk riwayat Sa‘d tentang enam orang sahabat. Kisah Zinnirah: al-Suyuti, al-Durr al-Manthur, 13/322, menukilkan Ibn al-Mundhir daripada ‘Awn bin Abi Shaddad. Tafsiran al-Tabari tentang kisah Yusuf dan Nuh terdapat dalam tafsirnya bagi 12:22 dan 29:14.

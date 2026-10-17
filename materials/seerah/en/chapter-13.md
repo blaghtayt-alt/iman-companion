@@ -1,0 +1,411 @@
+# When Force Was Not Enough: From the Abuse of the Prophet to the Three Questions
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Chapter Thirteen
+
+When Force Was Not Enough: From the Abuse of the Prophet to the Three Questions
+
+The persecution in Makkah was increasing, but it did not always follow one single path.
+
+At one time Quraysh tried to pressure Abu Talib; at another they warned people against the Prophet, peace and blessings be upon him, in the markets; at another they harmed the vulnerable among his Companions; and sometimes they turned directly against the Messenger of Allah, peace and blessings be upon him.
+
+The exact order of some of these Makkan incidents is not certain, because the sources do not give us a precise date for every event. Ibn Ishaq, however, gathered a number of them in this stage, and together they show a clear picture: Quraysh kept moving from one method to another whenever they found that the call had not stopped.
+
+At the Ka‘bah: the harm reaches the Messenger of Allah
+
+‘Abdullah ibn ‘Amr ibn al-‘As, may Allah be pleased with him and his father, reported that one day he saw a number of the leading men of Quraysh gathered in al-Hijr [the curved enclosure adjoining the Ka‘bah on its northern side], speaking about the Messenger of Allah, peace and blessings be upon him.
+
+They complained to one another about what they saw from him and said that they had endured something serious: he criticized their gods, opposed their religion, and rejected what their forefathers had followed.
+
+Then the Messenger of Allah, peace and blessings be upon him, came and circumambulated the Ka‘bah.
+
+According to Ibn Ishaq's report, they made hurtful remarks toward him [they spoke indirectly and mockingly in a way intended to hurt him] as he passed them.
+
+Ibn Ishaq relates that the persecution intensified the following day. The account of the assault below is recorded separately in Sahih al-Bukhari, without specifying when it occurred in relation to that incident.
+
+It is authentically reported in Sahih al-Bukhari from ‘Abdullah ibn ‘Amr, may Allah be pleased with him and his father, that when he was asked about the harshest thing he had seen the polytheists do to the Messenger of Allah, he said:
+
+The Prophet, peace and blessings be upon him, was praying beside the Ka‘bah when ‘Uqbah ibn Abi Mu‘ayt came, placed his garment around the Messenger's neck,
+
+“and strangled him therewith severely.”
+
+Abu Bakr, may Allah be pleased with him, came and pushed ‘Uqbah away from the Prophet, saying:
+
+Would you kill a man simply because he says: ‘My Lord is Allah,’ even though he has come to you with clear proofs from your Lord?
+
+— Qur'an 40:28, Rowwad Translation Center.
+
+— Sahih al-Bukhari 3678; also narrated as no. 3856. Excerpt translation: HadeethEnc, no. 11159.
+
+At that moment Abu Bakr was not answering an argument or entering into a long debate.
+
+A man was strangling the Messenger of Allah, so Abu Bakr stepped forward to drive him away.
+
+In the previous chapter we saw how Abu Bakr used his wealth to free Muslims who were being tortured. Here we see him using his own body and social standing to protect the Prophet when the violence reached him directly.
+
+Hamzah: an uncle who defends the Prophet
+
+Yet within the Prophet's own family there was another position completely different from that of Abu Lahab.
+
+Ibn Ishaq's Seerah — through a chain that does not reach the level of a fully connected authentic hadith — relates the story of the Islam of Hamzah ibn ‘Abd al-Muttalib, may Allah be pleased with him, the Prophet's uncle.
+
+Hamzah was known for his strength and standing in Quraysh. He would go out hunting [tracking and hunting game], and when he returned he would circumambulate the Ka‘bah and pass by the gatherings of Quraysh.
+
+One day, according to the report, Abu Jahl passed the Messenger of Allah, peace and blessings be upon him, near al-Safa and abused and insulted him, speaking offensively about his religion, while the Messenger of Allah did not answer him.
+
+A slave woman belonging to ‘Abdullah ibn Jud‘an had heard what happened.
+
+Hamzah then returned from hunting, carrying his bow across his shoulder and body [wearing it slung over himself].
+
+The woman told him, in meaning: If only you had seen what Abu Jahl did a short while ago to your nephew Muhammad.
+
+Hamzah became angry and went to the Sacred Mosque looking for Abu Jahl.
+
+When he found him sitting among his people, Hamzah raised his bow and struck him on the head, splitting the skin [causing a clear head wound].
+
+Then he said to him:
+
+“Will you insult him when I follow his religion, and I say what he says? Hit me back if you can!”
+
+Men of Banu Makhzum moved to support Abu Jahl, but Abu Jahl himself told them to leave Hamzah alone and admitted that he had insulted Muhammad, peace and blessings be upon him, in an ugly manner.
+
+The report says that Hamzah thereafter remained firm upon Islam.
+
+The details of this story are well known in the Seerah literature, but its principal chain of transmission runs through Ibn Ishaq from an unnamed man. This chain therefore does not meet the standard of a fully connected, authentic hadith.
+
+Hamzah's Islam itself, however, is well known and established, and his entry into Islam was important for the Muslims. He was the Prophet's uncle and one of the men of Quraysh known for strength and protection [the ability to defend and shield others].
+
+The Seerah reports that after his Islam Quraysh realized that the Messenger of Allah had become harder to attack [because his protection had grown stronger], so they reduced some of the harm they had been inflicting on him.
+
+But they did not stop trying to halt the call.
+
+Instead, they tried another path.
+
+"What do you want: wealth, honor, or kingship?"
+
+Ibn Ishaq relates that ‘Utbah ibn Rabi‘ah, one of the leaders of Quraysh, saw that the number of the Messenger's followers was increasing. He told his people that he would go to Muhammad, peace and blessings be upon him, and offer him several things, perhaps he would accept one of them and leave what he was doing.
+
+This too is a Seerah report whose chain does not reach the level of an authentic hadith, although its details became well known in the Seerah literature.
+
+‘Utbah sat with the Messenger of Allah and said to him, in the meaning of the report:
+
+If by this matter you want wealth, we will gather wealth for you until you become the wealthiest among us.
+
+If you want honor, we will make you our leader and will not decide any matter without you.
+
+If you want kingship, we will make you king over us.
+
+And if what comes to you is something you cannot repel from yourself, we will seek treatment for you and spend our wealth until you recover.
+
+‘Utbah was starting from the assumption that behind the Prophet's call there was some worldly objective that could be met through a bargain:
+
+wealth,
+
+status,
+
+kingship,
+
+or treatment.
+
+The Messenger of Allah waited until ‘Utbah had finished speaking.
+
+Then he asked:
+
+“Have you finished, Abu'l-Walid?”
+
+He said: Yes.
+
+The Messenger of Allah then told him to listen.
+
+He recited to him from the beginning of Surat Fussilat:
+
+Hā Mīm.
+A revelation from the Most Compassionate, the Most Merciful,
+a Book whose verses are well explained; an Arabic Qur’an for people who understand,
+as a bearer of glad tidings and a warner; yet most of them turn away and they do not listen.
+They say, “Our hearts are covered against what you are calling us to; there is deafness in our ears, and there is a barrier between us and you. So carry on [in your way], we will carry on [in our way].”
+
+— Qur'an 41:1–5, Rowwad Translation Center.
+
+The word "coverings" here means barriers that prevent something from entering, and "deafness" means heaviness in hearing that prevents a person from responding to what he hears.
+
+According to the Seerah report, ‘Utbah continued listening until the Prophet reached the place of prostration in the surah and prostrated.
+
+Then ‘Utbah returned to Quraysh.
+
+When they saw him, some of them said to one another that Abu al-Walid had returned with a face different from the one with which he had left.
+
+He told them that he had heard words unlike anything he had heard before, and that it was neither poetry, magic, nor soothsaying.
+
+He then suggested that they leave Muhammad, peace and blessings be upon him, and his affair alone. If other Arabs overcame him, Quraysh would be spared dealing with him; but if he prevailed, then the honor he attained would also belong to his people.
+
+Their reply was:
+
+Muhammad has bewitched you with his words.
+
+The problem, then, was not that ‘Utbah had failed to hear the message.
+
+He had heard the Qur'an directly.
+
+But Quraysh were not prepared to accept the conclusion to which he had come.
+
+If you do not want wealth, then prove that you are a messenger
+
+The attempts did not end with the offer of wealth and kingship.
+
+Ibn Ishaq relates another meeting between a number of Quraysh's leaders and the Messenger of Allah.
+
+The report is long, and its chain does not allow us to treat every sentence in it as a firmly established event in every detail. Yet much of its content is supported by Qur'anic verses that describe the same kinds of demands the polytheists were making.
+
+According to the Seerah report, they told him:
+
+If you do not want wealth, honor, or kingship, then ask your Lord to change Makkah for us.
+
+They asked for the mountains that hemmed in their land to be moved away, for rivers to be made to flow for them, and for some of their dead forefathers to be raised — they mentioned Qusayy ibn Kilab, one of the major ancestors of Quraysh — so that they could ask him whether what Muhammad, peace and blessings be upon him, said was true.
+
+Then they moved to demands concerning the Prophet himself:
+
+that an angel should come with him to testify for him,
+
+that he should have gardens and palaces,
+
+that he should possess treasures of gold and silver,
+
+and then something even more extreme:
+
+that he should cause the sky to fall upon them in pieces if he was truthful.
+
+The Qur'an clearly preserves this kind of demand:
+
+They say, “We will never believe in you until you cause a spring to gush forth for us from the earth,
+or until you have a garden of date palms and grapevines, and you cause rivers to flow abundantly in their midst,
+or you make the sky to fall upon us in pieces – as you claim – or bring Allah and the angels before us face to face,
+or until you have a house of gold, or you ascend to heaven, and even then we will never believe in your ascension unless you bring down to us a book which we can read.” Say, “Glory be to my Lord! Am I anything but a human, sent as a messenger?”
+
+— Qur'an 17:90–93, Rowwad Translation Center.
+
+A "spring" means a flowing source of water.
+
+"Pieces" means fragments.
+
+And "a house of gold" means a house made of gold or richly adorned.
+
+The answer at the end of the passage brings the matter back to its foundation:
+
+Am I anything but a human, sent as a messenger?
+
+The Prophet, peace and blessings be upon him, did not claim that he had come to turn Makkah into a valley full of rivers whenever they demanded it, nor to build palaces for himself in order to prove his prophethood.
+
+His message was that he was a messenger who conveyed what Allah revealed to him.
+
+Al-Nadr ibn al-Harith tries to compete with the Qur'an through stories
+
+When the call did not stop through these methods, another kind of opposition appeared.
+
+Al-Nadr ibn al-Harith was among the men of Quraysh who opposed the Prophet, peace and blessings be upon him.
+
+The Seerah books mention that he had travelled to al-Hirah [an ancient city in Iraq] and learned stories and reports about Persian kings, such as Rustam and Isfandiyar.
+
+Whenever the Messenger of Allah sat with people, reminded them of Allah, and told them about earlier nations and what befell those who denied their messengers, al-Nadr would come after the Prophet left and sit in the same gathering.
+
+He would then say to the people, in the meaning of the report:
+
+I can tell stories better than Muhammad.
+
+And he would begin telling them stories about Persian kings and heroes.
+
+This was not an attack on the body.
+
+It was an attempt to divert the listeners.
+
+When people sat to hear the Qur'an, he would bring them other stories to compete with the message, effectively asking:
+
+What makes Muhammad's stories better than mine?
+
+The books of Tafsir contain reports connecting al-Nadr with the polytheists' description of the Qur'an as:
+
+Ancient fables
+
+The expression refers to old accounts and stories which they claimed the Prophet, peace and blessings be upon him, had taken from earlier peoples.
+
+However, it is not established by an authentic prophetic hadith that every verse containing this expression was specifically revealed about al-Nadr. The connection therefore remains part of the reports of Tafsir and Seerah and should not be presented as certain in every instance.
+
+"Go to the People of the Book and ask them"
+
+Quraysh then moved to a different method.
+
+If Muhammad, peace and blessings be upon him, said that he was a prophet, why not ask people who already possessed knowledge of earlier prophets and scriptures?
+
+Ibn Ishaq relates that Quraysh sent al-Nadr ibn al-Harith and ‘Uqbah ibn Abi Mu‘ayt to Madinah to ask the Jewish rabbis [Jewish religious scholars knowledgeable about their scriptures] about Muhammad, peace and blessings be upon him.
+
+The report relates that Quraysh instructed the two men, in substance:
+
+Ask the Jewish scholars about Muhammad, peace and blessings be upon him. Describe him and tell them what he says, for they possess earlier scripture and knowledge of the prophets that we do not have. The two men went to Madinah, told the scholars about him and some of his words, and asked for their assessment.
+
+According to the Seerah report, those scholars said:
+
+Ask him about three things.
+
+First:
+
+about young men [youths] who lived long ago and had an extraordinary story.
+
+Second:
+
+about a man who travelled widely [a person who journeyed frequently] and reached the eastern and western regions of the earth.
+
+Third:
+
+about the spirit.
+
+The report says: if he answers you, he is a prophet; if he does not, then judge his matter.
+
+Al-Nadr and ‘Uqbah returned to Makkah.
+
+They told Quraysh that they had come back with what they regarded as a test that would decide the matter between them and Muhammad, peace and blessings be upon him.
+
+They went to the Prophet with the questions.
+
+The details of sending the two men to the Jewish scholars and of the three questions in this exact sequence come primarily from Ibn Ishaq’s Seerah. They are not all established by a fully connected authentic hadith.
+
+The Qur'an itself, however, preserves the substance of the three questions:
+
+the story of the Companions of the Cave,
+
+the story of Dhul-Qarnayn,
+
+and the question about the spirit.
+
+"Tomorrow"
+
+Ibn Ishaq’s account also relates the Messenger of Allah’s response to these questions.
+
+He told them that he would answer their questions the following day.
+
+He did not say: "If Allah wills."
+
+The report then says that revelation was delayed for about fifteen nights.
+
+That number — fifteen nights — comes from the Seerah report; we do not have an authentic hadith establishing this exact duration.
+
+The report says that the people of Makkah began to talk:
+
+Muhammad promised us tomorrow, yet the days have passed and he has not answered.
+
+This was difficult for the Messenger of Allah.
+
+Then revelation came.
+
+In Surat al-Kahf came an instruction that remained for the whole Muslim community:
+
+And never say about anything, “I will surely do this tomorrow,”
+without adding, “if Allah wills.” And remember your Lord if you forget, and say, “My Lord will hopefully guide me to something closer to what is right.”
+
+— Qur'an 18:23–24, Rowwad Translation Center.
+
+The Prophet, peace and blessings be upon him, could not determine when revelation would come and promise its arrival whenever he wished.
+
+The messenger conveys.
+
+Revelation descends by Allah's command.
+
+The answers came
+
+As for the question about the young men, the Qur'an told their story in Surat al-Kahf:
+
+Do you think that the people of the Cave and the Inscription were of Our only wondrous signs?
+When the youths took refuge in the Cave, and said, “Our Lord, grant us mercy from Yourself, and show us the right way in our ordeal.”
+
+— Qur'an 18:9–10, Rowwad Translation Center.
+
+The word al-Raqim is a term whose precise meaning was disputed by the commentators. One of the well-known views is that it refers to a written record or tablet on which their story was inscribed. We therefore do not assert one meaning as though it were unanimously agreed upon.
+
+As for the man who reached distant regions of the earth, the question about him appears explicitly:
+
+They ask you about Dhul-Qarnayn. Say, “I will tell you something about him.”
+
+— Qur'an 18:83, Rowwad Translation Center.
+
+Then the story of Dhul-Qarnayn begins.
+
+As for the question about the spirit, Allah says:
+
+They ask you [O Prophet] about the spirit. Say, “The soul is only known to my Lord, and you have not been given knowledge except a little.”
+
+— Qur'an 17:85, Rowwad Translation Center.
+
+The question about the spirit in Makkah and Madinah
+
+The combined story of the three questions before the revelation of Surat al-Kahf comes through the Seerah report. The question about the spirit itself is also authentically established in another incident in Madinah: some Jewish people asked the Prophet about the spirit, and he recited this verse to them.
+
+Al-Bukhari’s account establishes that the question about the spirit was asked in Madinah; it does not describe al-Nadr and ‘Uqbah’s journey or the three questions together. The details of the Makkan story come from the Seerah report already mentioned. Sharing the question about the spirit does not give that entire report the status of an authentic hadith.
+
+The Qur'an was not merely an answer to questions
+
+Surat al-Kahf did not begin directly with the story of the young men.
+
+Allah says at its beginning:
+
+All praise be to Allah Who has sent down upon His slave the Book, and has not allowed any crookedness therein,
+an upright Book, to warn of severe punishment from Him, and to give glad tidings to the believers who do righteous deeds, that they will have a good reward,
+
+— Qur'an 18:1–2, Rowwad Translation Center.
+
+Then He says:
+
+Perhaps you will grieve yourself to death [O Prophet] over them if they do not believe in this message.
+
+— Qur'an 18:6, Rowwad Translation Center.
+
+The expression here means that the Prophet might almost destroy himself through the intensity of his grief.
+
+The Prophet, peace and blessings be upon him, was deeply concerned for the guidance of his people, and their rejection caused him pain.
+
+The Qur'an did not come merely to provide the information they had requested.
+
+It also came to confirm the message, answer their objections, and guide the Prophet himself as he carried the weight of this confrontation.
+
+Here an extremely important feature of the Makkan period becomes visible:
+
+If we want to understand what was happening between the Messenger of Allah and Quraysh, the reports of Seerah alone are not enough.
+
+The Qur'an itself was being revealed in the midst of the events.
+
+It preserves the questions of the polytheists.
+
+It records their objections.
+
+It answers their demands.
+
+It strengthens the Messenger of Allah.
+
+And it reveals the meanings behind the conflict.
+
+For this reason, understanding the Makkan Qur'an will be one of the most important keys to understanding the coming years of the Seerah.
+
+Primary Sources for This Chapter
+
+- Ibn Ishaq’s Seerah as transmitted by Ibn Hisham: the arrangement of these reports, with the qualification that the chronology of some Makkan events is uncertain.
+
+- ‘Uqbah ibn Abi Mu‘ayt strangling the Prophet and Abu Bakr's intervention: Sahih al-Bukhari 3678 and 3856.
+
+- Qur'an 40:28.
+
+- The story of Hamzah's Islam and his confrontation with Abu Jahl: Ibn Ishaq through Ibn Hisham, through a chain containing an unnamed man; therefore it is presented as a famous Seerah report, not a fully connected authentic hadith. English wording of Hamzah’s statement: Leila Azzam and Aisha Gouverneur, The Life of the Prophet Muhammed, p. 51 (IslamHouse PDF, page 52).
+
+- The report of ‘Utbah ibn Rabi‘ah offering wealth, honor, and kingship and then listening to Surat Fussilat: from Ibn Ishaq's Seerah reports; its chain is not of the level of an authentic hadith. Translation of the brief question to Abu al-Walid: Sayyed Abul Hasan ‘Ali Nadwi, Muhammad, the Last Prophet: A Model for All Time, UK Islamic Academy, p. 43.
+
+- Qur'an 41:1–5.
+
+- The polytheists' demands for a spring, gardens, rivers, the sky to fall, and angels to be brought: Qur'an 17:90–93.
+
+- The report about al-Nadr ibn al-Harith, Persian stories, his journey with ‘Uqbah to the Jewish rabbis, and the three questions: Ibn Ishaq; the level of the report is preserved and not every detail is treated as certain.
+
+- The Companions of the Cave: Qur'an 18:9 onward.
+
+- Dhul-Qarnayn: Qur'an 18:83 onward.
+
+- Qur’an 18:23–24.
+
+- The question about the spirit: Qur’an 17:85; Sahih al-Bukhari 125 explicitly places the Jewish questioners in Madinah. This is a separate incident from the Makkan story of the three questions. https://sunnah.com/bukhari:125

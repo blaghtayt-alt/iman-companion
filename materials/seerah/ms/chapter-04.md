@@ -1,0 +1,75 @@
+# Ketika Wahyu Tiba: dari Hira kepada Khadijah
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Bab 4
+
+Ketika Wahyu Tiba: dari Hira kepada Khadijah
+
+Muhammad, semoga selawat dan salam Allah ke atas baginda, membesar di Makkah dalam masyarakat yang telah kita kenali pada bab sebelumnya. Namun baginda tidak terpisah daripada tanggungjawab kehidupan harian. Riwayat yang sahih menyebut bahawa antara pekerjaan baginda sebelum kenabian ialah menggembala kambing. Dalam sebuah hadis daripada Abu Hurairah, Nabi menerangkan bahawa Allah tidak mengutus seorang nabi melainkan dia pernah menggembala kambing. Apabila para sahabat bertanya sama ada baginda juga melakukannya, baginda menjawab bahawa baginda pernah menggembala kambing penduduk Makkah dengan upah kecil yang disebut qirat.
+
+Tidak diutus Para Nabi kecuali pernah menjadi penggembala kambing.
+
+Sahih al-Bukhari 2262 — petikan terjemahan dalam Buku Teks Kelas Pengajian Islam PERKIM: Sirah Tahap Asas, hlm. 25.
+
+Menggembala mungkin kelihatan seperti pekerjaan yang mudah, tetapi ia memerlukan kesabaran dan perhatian berterusan. Penggembala mengumpulkan haiwan yang terpisah, melindungi yang lemah, dan menjaga supaya tiada yang hilang atau cedera. Sebab itu para ulama menyebut bagaimana pekerjaan ini melatih kesabaran, kelembutan dan rasa tanggungjawab. Pengalaman ini bukan khusus kepada Muhammad; hadis tersebut memberitahu bahawa para nabi terdahulu juga pernah melaluinya.
+
+Tahun-tahun berlalu dan kehidupan Muhammad di Makkah menjadi stabil. Sebelum kenabian, baginda telah berkahwin dengan Khadijah binti Khuwailid, semoga Allah meredainya. Sumber-sumber Sirah menggambarkan Khadijah sebagai wanita Quraisy yang dihormati, berharta dan terlibat dalam perdagangan. Dia mengenali kejujuran, amanah dan akhlak baik Muhammad sebelum baginda menjadi nabi. Khadijah menjadi isteri serta teman hidup baginda. Oleh itu, apabila peristiwa terbesar dalam hidup baginda berlaku beberapa tahun kemudian, rumah pertama yang baginda tuju ialah rumah Khadijah.
+
+Apabila Muhammad berusia empat puluh tahun, semakin hampir saat perubahan besar dalam hidup baginda: daripada seorang lelaki yang dikenali di Makkah kepada seorang nabi yang membawa risalah untuk manusia. Perubahan itu tidak datang tanpa pendahuluan. Aisyah, semoga Allah meredainya, meriwayatkan bahawa permulaan wahyu (Allah menyampaikan petunjuk dan hukum-hakam kepada nabi-Nya) bermula dengan mimpi-mimpi yang benar. Baginda melihat sesuatu dalam mimpi, kemudian ia berlaku dengan jelas seperti cahaya pagi.
+
+Kemudian baginda menyukai khalwat, iaitu menyendiri daripada manusia untuk suatu tempoh. Baginda mula pergi ke Gua Hira, sebuah gua kecil di atas gunung di timur laut Makkah yang kini dikenali sebagai Jabal Nur. Di sana baginda menghabiskan beberapa hari dan malam jauh daripada kesibukan Makkah untuk beribadah. Baginda membawa bekalan; apabila habis, baginda kembali kepada Khadijah, semoga Allah meredainya, mengambil bekalan baharu, lalu kembali semula.
+
+Khalwat itu bukan bererti meninggalkan masyarakat secara kekal. Muhammad tetap tinggal di Makkah dan pulang kepada keluarganya. Namun Hira memberi baginda tempat yang jauh daripada berhala dan kesibukan kehidupan di sekelilingnya.
+
+Kemudian tibalah malam yang mengubah segala-galanya.
+
+Muhammad berada di Gua Hira ketika Jibril — malaikat yang membawa wahyu Allah kepada para nabi — datang kepada baginda. Muhammad tidak mengetahui sebelumnya bahawa malam itu akan menjadi permulaan turunnya al-Quran.
+
+Malaikat berkata, ‘Bacalah.’ Muhammad menjawab bahawa baginda tidak dapat membaca. Jibril memeluk dan menekan baginda dengan kuat sehingga mencapai batas daya tahan baginda, kemudian melepaskannya dan sekali lagi memerintahkan baginda membaca. Perkara itu berlaku tiga kali. Selepas itu Jibril membacakan ayat-ayat pertama yang diturunkan:
+
+Bacalah (wahai Muhammad) dengan nama Tuhanmu yang menciptakan (sekalian makhluk), Ia menciptakan manusia dari sebuku darah beku; Bacalah, dan Tuhanmu Yang Maha Pemurah, - Yang mengajar manusia melalui pena dan tulisan, - Ia mengajarkan manusia apa yang tidak diketahuinya.
+
+Al-Quran 96:1–5 — terjemahan Abdullah Muhammad Basmeih, Quran.com.
+
+Itulah ayat-ayat pertama al-Quran yang diturunkan. Risalah bermula dengan perintah membaca, menghubungkan bacaan dengan nama Tuhan yang menciptakan, dan menyebut penciptaan manusia, pengajaran, pena serta ilmu yang Allah ajarkan kepada manusia setelah sebelumnya dia tidak mengetahuinya.
+
+Selepas pertemuan itu, Muhammad pulang dari Hira dalam keadaan tergoncang oleh apa yang baginda lihat dan dengar. Baginda tidak pergi kepada pemimpin Makkah atau ke perhimpunan umum. Baginda terus pulang ke rumah, kepada Khadijah, semoga Allah meredainya.
+
+Baginda masuk dalam keadaan menggigil dan meminta agar diselimutkan. Mereka menyelimutkan baginda sehingga ketakutannya reda. Kemudian baginda menceritakan kepada Khadijah, semoga Allah meredainya, apa yang berlaku dan berkata bahawa baginda bimbang terhadap dirinya.
+
+Khadijah, semoga Allah meredainya, sendiri boleh sahaja menjadi takut, tetapi beliau mengenali lelaki yang hidup bersamanya dan akhlak yang telah dilihatnya selama bertahun-tahun. Beliau menenangkan baginda dengan berkata:
+
+Tidak sekali! Demi Allah, engkau tidak dihina selama-lamanya, kerana engkau sebenarnya menghubungkan silaturahim, dan engkau memikul bebanan dan engkau menolong manusia yang susah dan engkau menjamu tetamu, dan engkau menolong orang yang ditimpa musibah.
+
+Sahih al-Bukhari 3 — petikan terjemahan dalam Zulkifli Mohamad al-Bakri, Irsyad al-Qari’ Bi Syarhi Mukhtasar Sahih al-Bukhari, jilid 1, JAKIM, cetakan kedua 2013, hlm. 12.
+
+Khadijah, semoga Allah meredainya, menenangkan suaminya berdasarkan akhlak yang telah dikenalinya selama bertahun-tahun: baginda berbuat baik kepada kaum kerabat, membantu orang yang tidak mampu mengurus keperluannya sendiri, menolong golongan yang memerlukan, memuliakan tetamu dan mendampingi mereka yang ditimpa kesusahan. Sifat-sifat itulah yang meyakinkannya bahawa Allah tidak akan membiarkan baginda terhina. Kemudian beliau mahu mendapatkan nasihat daripada seseorang yang mengetahui kitab-kitab terdahulu dan kisah turunnya wahyu.
+
+Oleh itu dia membawa Muhammad kepada Waraqah bin Naufal, salah seorang kerabatnya. Waraqah telah menjadi Kristian sebelum Islam, mengetahui kitab-kitab Ahlul Kitab, dan ketika itu sudah tua serta buta. Khadijah, semoga Allah meredainya, memintanya mendengar cerita Muhammad.
+
+Waraqah bertanya kepada Muhammad apa yang baginda lihat, lalu Muhammad menceritakan apa yang berlaku di Gua Hira. Berdasarkan pengetahuannya tentang nabi-nabi terdahulu, Waraqah mengenali sifat peristiwa itu dan menjelaskan bahawa yang datang ialah pembawa wahyu yang sama yang Allah utus kepada Musa.
+
+Inilah Jibril yang pernah diturunkan Allah ke atas Nabi Musa.
+
+Sahih al-Bukhari 3 — petikan terjemahan dalam Zulkifli Mohamad al-Bakri, Irsyad al-Qari’ Bi Syarhi Mukhtasar Sahih al-Bukhari, jilid 1, JAKIM, cetakan kedua 2013, hlm. 13.
+
+Perkataan namus yang digunakan Waraqah bermaksud malaikat pembawa wahyu, iaitu Jibril. Waraqah kemudian berharap agar dia masih muda dan kuat pada masa dakwah Muhammad, serta masih hidup apabila kaum baginda sendiri mengusir Muhammad dari Makkah.
+
+Muhammad terkejut dan bertanya sama ada kaum baginda sendiri benar-benar akan mengusirnya. Sehingga itu baginda telah hidup di tengah mereka selama empat puluh tahun dan belum berlaku pertentangan terbuka.
+
+Waraqah menjawab bahawa setiap orang yang pernah membawa risalah seperti ini telah menghadapi permusuhan. Dia berjanji bahawa jika masih hidup pada hari itu, dia akan menyokong Muhammad dengan sepenuh tenaga.
+
+Tidak lama selepas pertemuan itu, Waraqah meninggal dunia. Kemudian wahyu terhenti untuk suatu tempoh (masa ketika belum turun ayat al-Quran baharu selepas pertemuan pertama). Apa yang datang selepas itu akan membuka fasa baru: perkara di dalam gua itu bukan lagi sekadar pengalaman luar biasa, tetapi permulaan kehidupan kenabian itu sendiri.
+
+Makkah pada malam itu kelihatan sama seperti sebelumnya: Ka‘bah tetap berdiri, pasar-pasar terus berjalan dan kabilah-kabilah melalui jalan mereka yang biasa. Namun di sebuah gua kecil di atas kota, kata-kata pertama al-Quran telah diturunkan, dan Muhammad pulang membawa permulaan sebuah risalah yang akan mengubah hidup baginda dan kehidupan orang di sekelilingnya.
+
+Sumber utama bab ini
+
+• Permulaan wahyu: Sahih al-Bukhari 3; Sahih Muslim 160.
+
+• Menggembala: Sahih al-Bukhari 2262.
+
+• Wahyu al-Quran pertama: Surah Al-‘Alaq 96:1–5.
+
+• Perdagangan Khadijah dan perkahwinan sebelum kenabian: Sirah Ibn Hisham, daripada Ibn Ishaq.

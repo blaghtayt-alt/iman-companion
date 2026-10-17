@@ -1,0 +1,193 @@
+# Emrolunduğunu Açıkça Bildir: Gizlilik Yıllarından Safâ'daki Çağrıya
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Dokuzuncu Bölüm
+
+Emrolunduğunu Açıkça Bildir: Gizlilik Yıllarından Safâ'daki Çağrıya
+
+İslam'ın adı Mekke'de yayılmaya başlamıştı. İnsanlar Muhammed, Allah'ın salât ve selâmı üzerine olsun, ve ona iman edenler hakkında konuşuyordu; buna rağmen Müslümanların hareketlerinin birçok ayrıntısı ve bazı müminlerin kimlikleri hâlâ gizli tutuluyordu. Sonra yeni bir dönem başladı: davet artık Peygamber'in, Allah'ın salât ve selâmı üzerine olsun, yalnızca özel olarak ulaşabildiği kişilerle sınırlı kalmayacaktı.
+
+Allah şöyle buyurur:
+
+“Artık buyrulanı açıkça ortaya koy, puta tapanlara aldırış etme.” — Kur’an 15:94 — Diyanet İşleri Başkanlığı meali, Quran.com.
+
+Ve şöyle buyurur:
+
+“Önce en yakın hısımlarını uyar.” — Kur’an 26:214 — Diyanet İşleri Başkanlığı meali, Quran.com.
+
+[İbn Hişâm Arapça “فَاصْدَعْ” (fasda‘) kelimesini, emrolunduğun şeyi ayırıp açıkça ortaya koymak ve böylece hak ile bâtılın birbirinden ayrılması olarak açıklamıştır. Süheylî de bu anlamı genişleterek hakkın ortaya çıkışını, şafak ışığının gecenin karanlığını yarmasına benzetmiştir.] Temel anlam açıktır: mesaj artık ilk dönemdekiyle aynı biçimde iletilmeyecekti. Davet, açık ilan ve muhaliflerle doğrudan yüzleşme dönemine giriyordu.
+
+Bu açık ilandan önce ne oluyordu?
+
+Siyer kaynaklarında gizlilik döneminin yaklaşık üç yıl sürdüğü yaygın olarak aktarılır. İbn İshak da bu süreyi verirken kendisine ulaşan bilgiye dayandığını belirtir. Ancak bu dönemin uzunluğunu kesin biçimde belirleyen sahih bir hadis yoktur. Dolayısıyla üç yıl, ihtilafsız bir nasla kesinleşmiş bir süre değil, siyer kaynaklarında yaygın biçimde aktarılan süredir.
+
+Önemli olan, bu yılların sessizlik yılları olmamasıdır.
+
+Alak sûresinin ilk ayetleri indikten sonra vahyin ilk kesintisi yaşandı. Ardından Allah şöyle buyurdu:
+
+“Ey örtüye bürünen! Kalk da uyar. Rabbini yücelt. Giydiklerini temiz tut. Kötü şeyleri terke devam et.” — Kur’an 74:1–5 — Diyanet İşleri Başkanlığı meali, Quran.com.
+
+Câbir b. Abdullah'tan, Allah ondan ve babasından razı olsun, sahih olarak rivayet edildiğine göre Peygamber, Allah'ın salât ve selâmı üzerine olsun, vahyin kesilme döneminden söz etmiş, sonra Hira'da kendisine gelen meleği yeniden gördüğünü ve Müddessir sûresinin ilk ayetlerinin indiğini anlatmıştır. Rivayet şöyle devam eder:
+
+“Ardından vahiy hızlandı ve peş peşe gelmeye başladı.”
+
+— Sahih Buhârî 4, 4926. 4 numaralı hadisin yayımlanmış çevirisinden alıntı: HadeethEnc, 66304.
+
+Böylece Müslümanların işlerinin birçok yönünü gizledikleri o yıllar, aynı zamanda Kur'an'ın inmeye devam ettiği, Peygamber'in onu aldığı ve müminlerin de ondan öğrendiği yıllardı.
+
+Bu sebeple “gizli davet” ifadesini dikkatli anlamak gerekir. Bu ifade, Mekke'nin Muhammed, Allah'ın salât ve selâmı üzerine olsun, Kur'an veya ona uyan insanların varlığı hakkında hiçbir şey bilmediği anlamına gelmez. Çoğu zaman gizlenen şey kişilerin kimlikleri, toplantılar ve ibadet ile hareketlerin bazı ayrıntılarıydı. Davetin varlığına ilişkin haberler ise yavaş yavaş insanlara ulaşıyordu.
+
+Bunu Abdullah b. Abbas'ın, Allah ondan ve babasından razı olsun, Allah'ın şu sözü hakkındaki rivayeti gösterir:
+
+“[…] Namaz kılarken sesini yükseltme, gizli de okuma, ikisi ortasında bir yol tut.” — Kur’an 17:110 — Diyanet İşleri Başkanlığı meali, Quran.com.
+
+İbn Abbas, bu ayetin Resûlullah, Allah'ın salât ve selâmı üzerine olsun, Mekke'de gizlenmekte olduğu sırada indiğini söylemiştir. Peygamber ashâbıyla namaz kıldığında Kur'an'ı sesli okurdu. Müşrikler onu duyunca Kur'an'a, onu indirene ve onu getirene söverlerdi. Bunun üzerine, onların duyup Kur'an'a hakaret edeceği kadar sesini yükseltmemesi; ashâbının işitemeyeceği kadar da kısık okumaması emredildi.
+
+— Sahih Buhârî 4722.
+
+Demek ki Peygamber, Allah'ın salât ve selâmı üzerine olsun, Mekke'de gizli hareket ediyordu; fakat müşrikler bazen onun kıraatini işitiyor, daveti hakkında birtakım şeyleri biliyor ve buna karşı çıkıyordu. Bu durum gizliliğin mahiyetini daha açık gösterir: tamamen bilinmezlik değil, mesajın yayılmasının tedbirle yönetildiği bir dönemdi.
+
+O yıllarda inen Kur'an
+
+O dönemde hangi sûrelerin indiği sorusuna gelince, ilk sûre, ikinci sûre, üçüncü sûre şeklinde kesin kronolojik sıralı eksiksiz bir liste yapamayız.
+
+Alak sûresinin başının ilk vahiy olduğunu ve Müddessir sûresinin ilk ayetlerinin vahiy kesintisinden sonra geldiğini kesin olarak biliyoruz. Bunun ötesinde Peygamber'den, Allah'ın salât ve selâmı üzerine olsun, veya sahâbeden bütün sûrelerin eksiksiz ve şüphesiz sırasını kurmamıza imkân veren kapsamlı ve sahih bir rivayet yoktur.
+
+Bazı büyük tâbiîlerden, yani sahâbîlerle görüşmüş Müslümanlardan, belirli sûreler hakkında rivayetler vardır. Bu rivayetlerden ipucu olarak yararlanılabilir; ancak bunlar bütün Kur’an’ın kesin iniş sırasını ortaya koymaz.
+
+Erken döneme ait olduğuna dair güçlü işaretler taşıyan sûrelerden biri Kalem sûresidir. Mücâhid ve Ubeyd b. Umeyr'den onun ilk inen sûrelerden olduğu nakledilmiştir. Fakat bu, sahih hadisle erken inişi sabit olan Müddessir sûresinden önce geldiğini göstermez.
+
+Kalem sûresinin başında Allah şöyle buyurur:
+
+“Nun; kalem ve onunla yazılanlara and olsun ki, sen Rabbinin nimetine uğramış bir kimsesin, deli (cinlenmiş) değilsin.” — Kur’an 68:1–2 — Diyanet İşleri Başkanlığı meali, Quran.com.
+
+Bu ayetler Mekke'de Peygamber, Allah'ın salât ve selâmı üzerine olsun, hakkında söylenenlerin bir kısmını bize taşır. Delilik, cinler ve şeytanlarla ilişkilendirilen suçlamalar ortaya çıkmıştı. Kur'an ise Peygamber'i teselli ediyor ve bu suçlamayı reddediyordu.
+
+“Artık buyrulanı açıkça ortaya koy […]” buyruğunun yer aldığı Hicr sûresinin kendisinde inkârcıların şu sözü de aktarılır:
+
+“Onlar: ‘Ey kendisine Kitap indirilen kimse! Sen mutlaka delisin. […]’” — Kur’an 15:6 — Diyanet İşleri Başkanlığı meali, Quran.com.
+
+Bu tek başına Hicr sûresinin tamamının belirli bir anda tek seferde indiğini kesinleştirmez; bir sûre farklı zamanlarda bölümler halinde inebilir. Fakat Kur'an'ın, Peygamber'e karşı kullanılan dilin bir kısmını bizzat koruduğunu gösterir.
+
+A‘lâ sûresi de erken dönem sûrelerinden olması muhtemel sûrelerdendir. Burada Kur'an'ın alınışıyla ilgili olarak Peygamber'e doğrudan hitap edilir:
+
+“Sana Kuran'ı Biz okutacağız ve asla unutmayacaksın; Allah'ın dilediği bundan müstesnadır. Doğrusu açığı da, gizliyi de bilen O'dur.” — Kur’an 87:6–7 — Diyanet İşleri Başkanlığı meali, Quran.com.
+
+İniş sırasındaki kesin yerini belirleyemeyiz. Ancak Peygamber'in Medine'ye hicretinden çok önce Müslümanlar tarafından bilindiğini biliyoruz. Berâ b. Âzib, Allah ondan razı olsun, Mus‘ab b. Umeyr ile İbn Ümmü Mektûm'un, Allah onlardan razı olsun, Medine'ye ilk gelen ve halka Kur'an öğreten kişiler arasında olduğunu anlatır. Berâ şöyle demiştir:
+
+“Ben Rasûlullah geldiğinde benzeri sureler içinde A’lâ suresini de okumuştum.”
+
+— Sahih Buhârî 4941. Yayımlanmış Türkçe çeviriden alıntı: Hadiye Ünsal, Erken Dönem Mekkî Surelerin Muhteva Tahlili, Çukurova Üniversitesi, doktora tezi, 2014, s. 139 (dipnot 461).
+
+Böylece ilk Mekke yıllarında Kur'an, müminlerin Allah ve âhiret hakkındaki bilgisini inşa ediyor, Peygamber’in (Allah’ın salât ve selâmı üzerine olsun) sebatını güçlendiriyor, vahyi nasıl alacağını öğretiyor ve aynı zamanda inkârcıların söylediklerine cevap veriyordu.
+
+Mekkelilerin göremediği dinleyiciler
+
+O dönemin haberlerinde, Kur'an'ın inişinin meydana getirdiği etkiyi gösteren başka bir olay da vardır. Ancak âlimler bu olayın kesin tarihi konusunda farklı görüşler ileri sürmüşlerdir; bu nedenle olay kronolojide kesin bir noktaya yerleştirilmemelidir.
+
+İbn Abbas, Allah ondan ve babasından razı olsun, Resûlullah'ın, Allah'ın salât ve selâmı üzerine olsun, bir grup sahâbîyle birlikte Ukâz panayırına doğru yola çıktığını rivayet eder. O sırada şeytanların gökten haber almaları engellenmiş ve üzerlerine şihaplar gönderilmişti.
+
+Cin grupları birbirlerine dönüp mutlaka yeni bir şeyin meydana geldiğini söylediler ve değişimin sebebini bulmak için doğuya ve batıya dağıldılar.
+
+Onlardan bir grup Tihâme tarafına yöneldi. Mekke ile Tâif arasındaki yolda bulunan bir vadi olan Nahle'de, Resûlullah ashâbıyla namaz kılarken onun yanından geçtiler.
+
+Kur'an'ı işitince durup dinlediler. Sonra birbirlerine, göğün haberleriyle aralarına giren şeyin bu olduğunu söylediler.
+
+Kavimlerine dönüp şöyle dediler:
+
+“[…] Doğrusu biz, doğru yola götüren, hayrete düşüren bir Kuran dinledik de ona inandık; biz, Rabbimize hiçbir şeyi ortak koşmayacağız.” — Kur’an 72:1–2 — Diyanet İşleri Başkanlığı meali, Quran.com.
+
+Ardından Allah Peygamber'ine, Allah'ın salât ve selâmı üzerine olsun, onların haberini bildirdi:
+
+“De ki: ‘Cinlerden bir topluluğun Kuran'ı dinlediği bana vahyolundu […]’” — Kur’an 72:1 — Diyanet İşleri Başkanlığı meali, Quran.com.
+
+— Sahih Buhârî 4921.
+
+Âlimler bu olayın tarihini belirleme konusunda farklı görüşler ileri sürmüş, bazıları olayın risaletin erken döneminde meydana gelmiş olmasını daha güçlü görmüştür. Bu nedenle burada, erken gerçekleşmiş olması muhtemel bir olay olarak zikredilir; açık davetten önce kesin bir zaman noktası olarak sunulmaz.
+
+Mekke halkının büyük bir kısmı Kur'an hakkında tartışmaya veya onu getiren kişiyi suçlamaya devam ederken, insanların göremediği bir âleme ait dinleyiciler onu işitiyor ve kendi kavimlerine uyarıcı olarak dönüyordu.
+
+Sonra insanlara açıkça çıkma emri geldi
+
+Bu yıllardan sonra risalet yeni bir döneme girdi.
+
+Peygamber, Allah'ın salât ve selâmı üzerine olsun, artık yalnızca özel olarak ulaşabildiği kişileri davet etmeyecek; müminler de sadece insanların çoğunun gözünden uzakta toplanmakla yetinmeyecekti.
+
+Allah şöyle buyurur:
+
+“Önce en yakın hısımlarını uyar.” — Kur’an 26:214 — Diyanet İşleri Başkanlığı meali, Quran.com.
+
+Resûlullah, Allah'ın salât ve selâmı üzerine olsun, Kâbe'nin yakınındaki yüksekçe bir yer olan Safâ'ya gitti ve oraya çıktı.
+
+Safâ'dan Kureyş'in büyük kabile kollarına seslenmeye başladı:
+
+“Ey Fihroğulları! Ey Adîoğulları!”
+
+İnsanlar toplanıncaya kadar çağırmaya devam etti.
+
+Kendisi gelemeyenler, ne olduğunu öğrenmesi için birini gönderdi. Gelenlerin arasında Ebû Leheb de vardı. Asıl adı Abdüluzzâ b. Abdülmuttalib idi ve Resûlullah'ın amcasıydı.
+
+Herkes toplandığında Peygamber, Allah'ın salât ve selâmı üzerine olsun, vadide kendilerine baskın yapmak isteyen süvariler bulunduğunu haber verse ona inanıp inanmayacaklarını sordu.
+
+Onlar şöyle cevap verdiler:
+
+“Evet inanırız. Biz senden sadece doğruluk gördük.”
+
+Muhammed'i, Allah'ın salât ve selâmı üzerine olsun, risaletten önce de tanıyor ve kendilerine yalan söyleyen biri olmadığını biliyorlardı. Kendisinin aralarında yaşadığı hayata dair bu şahitliği onlardan aldıktan sonra niçin topladığını açıkladı:
+
+“Ben sizi şiddetli bir azaba karşı uyarıyorum.”
+
+— Sahih Buhârî 4770. Çağrı ve cevap: Diyanet, Hadislerle İslâm, c. 6, s. 548; azap uyarısı: c. 3, s. 397. Süvariler hakkındaki soru anlamıyla aktarılmıştır.
+
+Bu çağrı, dinî hükümlerin ayrıntılarını anlatan uzun bir konuşma değildi. Bir uyarıydı. Peygamber onları, kendilerini dağın arkasından birdenbire basabilecek ordudan daha ciddi bir şey hakkında uyardığını açıkça söylemek için toplamıştı.
+
+Başka bir sahih rivayet, bu uyarının Resûlullah'a, Allah'ın salât ve selâmı üzerine olsun, en yakın olan kişileri bile ne kadar kapsadığını gösterir.
+
+Peygamber, yakınlarını da tek tek uyardı:
+
+Kureyş topluluğuna kendilerini kurtarmalarını söyledi; onları Allah’ın azabından koruyamayacağını belirtti. Aynı uyarıyı Abdümenâfoğullarına da yöneltti. Amcası Abbas’ı, halası Safiyye’yi ve kızı Fâtıma’yı —Allah onlardan razı olsun— ayrı ayrı uyardı. Fâtıma’ya şöyle buyurdu: “Malımdan dilediğini iste! Ama Allah’ın azabından hiçbir şeyi senden uzaklaştıramam!”
+
+— Sahih Buhârî 4771. Rivayetin anlamı ve Fâtıma’ya hitabından bir alıntı. Türkçe alıntı: Dr. Murat Kaya, Mescid-i Haram’dan 111 Hatıra, Erkam Yayınları; İslam ve İhsan’da “Herkes Kendini Kurtarsın!”, 29 Ekim 2020.
+
+Abdümenâfoğulları, Kureyş'in büyük kollarından biriydi. Peygamber'in kendi ailesi olan Hâşimoğulları da bu kola mensuptu.
+
+Dolayısıyla akrabalık, mesajdan muafiyet oluşturmuyordu.
+
+Amcası Abbas, halası Safiyye, kızı Fâtıma, Allah onlardan razı olsun, ve bütün Kureyş bu uyarının muhatabıydı. Resûlullah, Allah'ın salât ve selâmı üzerine olsun, soy bağını tek başına Allah katında kurtuluş sebebi hâline getiremezdi.
+
+İlk açık cevap
+
+O topluluğun içinde herkes uyarıyı dinleyip sessizce ayrılmadı.
+
+Ebû Leheb, Peygamber’e gün boyunca helâk olması için beddua etti ve şöyle sordu:
+
+“Bizi bunun için mi buraya topladın?”
+
+Bunun üzerine Allah şöyle buyurdu:
+
+“Ebu Leheb'in elleri kurusun; kurudu da! Malı ve kazandığı kendisine fayda vermedi.” — Kur’an 111:1–2 — Diyanet İşleri Başkanlığı meali, Quran.com.
+
+Böylece Peygamber'in, Allah'ın salât ve selâmı üzerine olsun, kendi akrabalarından aldığı ilk açık tepkilerden biri, öz amcasının insanların önünde ilan ettiği açık ret oldu.
+
+Fakat bundan sonra davet artık önceki konumuna geri dönemezdi.
+
+Kureyş'in kabile kolları uyarıyı birlikte işitmişti.
+
+Muhammed'in, Allah'ın salât ve selâmı üzerine olsun, İslam'dan önce putperestliği kendi başlarına terk eden bazı kişiler gibi yalnızca kendisi için özel bir ibadet biçimi seçmiş biri olarak ortaya çıkmadığını anladılar. O, Allah'ın kendisini onlara gönderdiğini, Allah'tan başkasına ibadetin bâtıl olduğunu ve insanlar inkârda ısrar ederse önlerinde yeniden diriliş, hesap ve azap bulunduğunu söylüyordu.
+
+Bu noktadan sonra Kureyş daveti durdurmak için başka yollar denemeye başlayacaktı.
+
+İlk başvuracağı yollardan biri, Peygamber'in amcası ve Hâşimoğullarının önderi Ebû Tâlib'e gidip yeğenini kendilerinden uzak tutmasını istemek olacaktı.
+
+Bu bölümün temel kaynakları
+
+- Kur'an: Müddessir 74:1–5; Kalem 68:1–2; A‘lâ 87:6–7; İsrâ 17:110; Hicr 15:6 ve 15:94; Şuarâ 26:214; Cin 72:1–2; Mesed 111:1–2.
+-  Vahiy kesintisinden sonra Müddessir'in inişi ve vahyin peş peşe gelmesi: Sahih Buhârî 4, 4925–4926.
+-  Peygamber Mekke'de gizlenirken Kur'an 17:110'un inişi: Sahih Buhârî 4722.
+-  Peygamber'in hicretinden önce Medine'de A‘lâ sûresinin okunması: Sahih Buhârî 4941.
+-  Cinlerin Nahle'de Kur'an'ı dinlemesi: Sahih Buhârî 4921.
+-  Peygamber'in Safâ'dan Kureyş kollarına seslenmesi ve Ebû Leheb'in cevabı: Sahih Buhârî 4770.
+-  Abdümenâfoğullarına, Abbas'a, Safiyye'ye ve Fâtıma'ya uyarısı: Sahih Buhârî 4771.
+-  Gizlilikten açık davete geçiş ve yaygın olarak aktarılan yaklaşık üç yıllık süre: İbn Hişâm'ın naklettiği İbn İshak.
+-  “Fasda‘” kelimesinin açıklaması: İbn Hişâm; Süheylî'nin er-Ravdu'l-Unuf'u.

@@ -1,0 +1,99 @@
+# Uma terra onde ninguém é injustiçado sob o governo do seu rei: a primeira migração para a Abissínia
+
+AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
+
+Capítulo dezesseis
+
+Uma terra onde ninguém é injustiçado sob o governo do seu rei: a primeira migração para a Abissínia
+
+Quando a perseguição se intensificou em Meca, teve início a primeira migração da história dos muçulmanos, rumo à Abissínia. Não partiram apenas escravos ou pessoas desprotegidas. Entre os emigrantes estavam também homens e mulheres de famílias influentes de Quraysh. Alguns tinham proteção tribal, mas isso não significava que pudessem praticar a sua religião com segurança.
+
+Hamza e sua ligação com o Profeta ﷺ
+
+Hamza ibn Abd al-Muttalib, que Allah esteja satisfeito com ele, era tio paterno do Profeta ﷺ e também seu irmão de leite. Esse parentesco surge quando duas crianças são amamentadas pela mesma mulher segundo as condições reconhecidas pelo Islã. Thuwayba, que fora escrava de Abu Lahab e depois libertada, amamentara ambos. Anos depois, quando lhe foi proposto casar com a filha de Hamza, o Profeta ﷺ se referiu a ela como “filha de meu irmão de leite”. — Sahih al-Bukhari 5100; Sahih Muslim 1447. Trecho da tradução publicada em HadeethEnc, hadith 6162.
+
+Hamza era conhecido pela coragem e posição que ocupava em Quraysh. Segundo o conhecido relato de sua conversão na Sira, ao saber que Abu Jahl havia insultado e maltratado o Profeta ﷺ, confrontou-o, atingiu-o com o arco e declarou seguir a religião de Muhammad ﷺ. Os historiadores divergem quanto à data: alguns indicam o segundo ano da missão; outros, uma data próxima do sexto. Nem todos os detalhes desse confronto possuem uma cadeia de transmissão autêntica e ininterrupta. Mais tarde, Hamza participaria da batalha de Badr e morreria como mártir em Uhud. O Profeta ﷺ mais tarde aceitaria a conversão ao Islã de Wahshi, que havia matado Hamza, mas pediria que ele não aparecesse em sua presença, pois vê-lo reavivava a tristeza pela perda de Hamza.
+
+Naqueles anos em Meca, o Islã já havia chegado a diferentes famílias de Quraysh. Entre seus seguidores havia tanto pessoas desprotegidas quanto membros de famílias influentes. Ainda assim, muitos muçulmanos não podiam praticar sua religião com segurança.
+
+Quando viver em Meca se tornou difícil demais para os fiéis
+
+O Profeta ﷺ via os companheiros sofrer agressões, prisão, fome e sede, enquanto ele próprio era atacado. O tio Abu Talib oferecia-lhe proteção tribal, garantida por familiares e por um clã capaz de responder a agressões. Contudo, Abu Talib não podia defender todos os muçulmanos, que ainda não dispunham de um Estado ou força capaz de impedir as tribos de perseguir os seus membros convertidos.
+
+Segundo o relato histórico de Ibn Ishaq, ao ver o sofrimento dos companheiros, o Profeta ﷺ os aconselhou a buscar refúgio na Abissínia, governada por um rei justo. Em um relato relacionado, ele explica que ali “ninguém é oprimido”. Ibn Ishaq também descreve a Abissínia como uma terra de retidão e relata que o Profeta ﷺ aconselhou os companheiros a permanecer ali até que Allah lhes desse alívio das dificuldades que enfrentavam. A Abissínia, região histórica da África Oriental que abrangia partes das atuais Etiópia e Eritreia, ficava do outro lado do mar Vermelho. Negus, ou al-Najashi, era o título dos soberanos da região, não o nome pessoal de cada rei. Ibn Ishaq apresenta essa formulação sem uma cadeia contínua de transmissores. Um relato relacionado de Umm Salamah, que Allah esteja satisfeito com ela, sustenta a orientação de buscar refúgio com esse rei justo; a migração em si é um fato histórico bem estabelecido.
+
+Por que a Abissínia?
+
+A Abissínia não era o refúgio mais próximo e o seu rei era então cristão, não conhecido como muçulmano. O relato destaca uma razão: a justiça. Ali, o rei não permitia a opressão das pessoas. Abu Talib protegia o sobrinho por vínculos familiares, embora, de acordo com os hadiths reconhecidos, não tivesse abraçado o Islã. Já o Negus não possuía esse parentesco, mas governava com justiça. Mais tarde, sua conversão ao Islã se tornaria conhecida, e o Profeta ﷺ realizaria por ele a oração fúnebre quando soube da sua morte.
+
+Nem todos os não muçulmanos tinham a mesma atitude para com a nova comunidade: a justiça e a proteção eram relevantes. A partida, porém, exigia abandonar familiares, casas e pátria, atravessar o mar e viver num país de língua, costumes e religião diferentes. Pela primeira vez, os muçulmanos poderiam formar uma comunidade fora de Meca.
+
+Os primeiros a partir: Uthman e Ruqayya
+
+A primeira migração é normalmente situada no quinto ano da missão profética, embora existam diferenças nas datas e na identificação dos primeiros viajantes. Entre os mais conhecidos encontravam-se Uthman ibn Affan e a esposa Ruqayya, filha do Profeta ﷺ. Uthman pertencia aos Banu Umayya, uma das famílias proeminentes de Quraysh; Ruqayya pertencia à própria casa do Mensageiro. O sacrifício da migração atingia, portanto, a família do Profeta e não se restringia a pessoas pobres ou sem posição social. Outros partiram com eles, entre eles casais que iniciariam juntos uma nova vida em outra terra.
+
+Abu Hudhayfa e Sahla: famílias importantes de Quraysh
+
+Abu Hudhayfa ibn Utba ibn Rabia emigrou com sua esposa, Sahla bint Suhayl ibn Amr, que Allah esteja satisfeito com ambos. O pai de Abu Hudhayfa, Utba, era um dos dirigentes de Quraysh que se opunham à missão. O pai de Sahla, Suhayl ibn Amr, era também um dos homens influentes de Quraysh. A diferença religiosa dividia, assim, membros da mesma família. Na Abissínia nasceu o filho do casal, Muhammad ibn Abi Hudhayfa. Para algumas famílias, aquele país não foi apenas um abrigo de poucos dias; os seus filhos nasceram ali.
+
+Outros emigrantes do primeiro grupo
+
+Entre eles estavam al-Zubayr ibn al-Awwam, dos Banu Asad ibn Abd al-Uzza (ramo de Quraysh a que também pertencia Khadija, que Allah esteja satisfeito com ela); Musab ibn Umayr, que posteriormente ensinaria o Islã em Medina; e Abd al-Rahman ibn Awf, dos primeiros crentes. Abu Salama ibn Abd al-Asad partiu com Umm Salama (que Allah esteja satisfeito com ela), que se tornaria uma esposa do Profeta ﷺ e receberia o título de Mãe dos Crentes. Também se juntaram ao grupo Uthman ibn Mazun, conhecido pela devoção e firmeza; Amir ibn Rabia e a esposa Layla bint Abi Hathma; Abu Sabra ibn Abi Ruhm; e Suhayl ibn Bayda.
+
+Nesta parte, Ibn Ishaq menciona dez homens e quatro mulheres: Ruqayya, Sahla, Umm Salama (que Allah esteja satisfeito com ela) e Layla. Outras fontes divergem nas listas ou nos totais; não há uma única lista aceita por todas elas. Alguns relatos históricos indicam Uthman ibn Mazun como responsável pelo grupo, mas a confiabilidade desses detalhes varia. A travessia do mar oferecia uma alternativa à permanência sob perseguição.
+
+Por que partir, mesmo sem ter sofrido tortura?
+
+Alguns viajantes pertenciam a famílias poderosas. A migração respondia a mais do que uma necessidade: escapar à violência física e à prisão, mas também encontrar um ambiente onde fosse possível adorar Allah sem pressão social contínua. Não era necessário sofrer exatamente os mesmos maus-tratos que Bilal para sentir a impossibilidade de viver como crente em Meca. Por outro lado, as fontes não preservaram as motivações pessoais completas de cada emigrante; não há base para afirmar que todos tinham uma única razão pessoal. Em conjunto, procuravam praticar a religião longe das pressões de Quraysh.
+
+A segunda migração: o grupo cresce
+
+Mais muçulmanos partiram depois, e a comunidade na Abissínia aumentou consideravelmente. Ibn Ishaq menciona um total de oitenta e três homens, desde que Ammar ibn Yasir seja contado entre eles; ele próprio reconhece dúvidas quanto à inclusão de Ammar. Mulheres e crianças eram contabilizadas à parte. As datas e a distribuição dos números entre as duas viagens também diferem segundo os historiadores. Seja qual for o total exato, já não se tratava de alguns indivíduos: uma parte importante da comunidade vivia fora de Meca, enquanto o Profeta ﷺ e outros companheiros continuavam a missão na cidade.
+
+Jafar e Asma: da casa de Abu Talib para a Abissínia
+
+Jafar ibn Abi Talib partiu com sua esposa, Asma bint Umays, que Allah esteja satisfeito com ambos. Jafar era irmão de Ali e filho de Abu Talib, o tio que protegia o Profeta ﷺ em Meca. Assim, até um parente próximo de um dos mais firmes protetores do Profeta ﷺ participou da migração. Jafar e Asma se juntaram à comunidade de emigrantes na Abissínia. Mais tarde, quando Quraysh enviar representantes para exigir o retorno dos emigrantes, Jafar falará em nome deles diante do Negus e lhe apresentará o Islã. Esse encontro será narrado no capítulo dedicado a ele.
+
+Irmãos que saíram da mesma casa
+
+Outra família era a de Said ibn al-As, conhecido como Abu Uhayha, dirigente de Quraysh contrário ao Islã. O filho Khalid ibn Said abraçou a fé muito cedo, apesar de os relatos divergirem quanto à sua posição entre os primeiros convertidos. Enfrentou a oposição do pai e emigrou; o irmão Amr ibn Said também partiu. A Sira menciona que Khalid viajou com a esposa, embora existam diferenças em certos detalhes sobre o seu nome, e que Amr saiu com Fatima bint Safwan. Khalid teve filhos na Abissínia, entre eles Umm Khalid bint Khalid ibn Said, cuja história reaparecerá mais tarde. Os filhos de alguns líderes de Meca adotaram, portanto, uma fé diferente da dos pais e abandonaram a cidade.
+
+As fontes citam também Abd Allah ibn Jahsh e o irmão Ubayd Allah ibn Jahsh entre famílias aliadas dos Banu Umayya por meio de um pacto de proteção, sem necessariamente ter laços de sangue com a tribo. Ubayd Allah emigrou com Umm Habiba bint Abi Sufyan (que Allah esteja satisfeito com ela). Havia, pois, muitas origens familiares e alianças diferentes entre os emigrantes.
+
+Sete irmãos pouco conhecidos
+
+Os livros biográficos, que conservam genealogias e episódios importantes da vida das pessoas, citam sete filhos de al-Harith ibn Qays entre os primeiros muçulmanos e emigrantes, embora algumas identificações sejam discutidas. Abu Qays ibn al-Harith saiu na segunda migração, participou mais tarde da batalha de Uhud e morreu como mártir em al-Yamama. O irmão Abd Allah ibn al-Harith, conhecido pela poesia, também emigrou e morreu como mártir em al-Yamama. Al-Saib ibn al-Harith emigrou; alguns relatos mencionam que foi ferido em al-Taif e morreu na batalha de Fihl, na atual Jordânia, durante as primeiras conquistas. Segundo Ibn Sa‘d, Al-Hajjaj ibn al-Harith emigrou e morreu como mártir em al-Yarmuk; outros relatos situam seu martírio em Ajnadayn. Sobre o quinto irmão, as fontes divergem: Tamim ou Bishr ibn al-Harith; conhecem-se poucos outros detalhes. Said ibn al-Harith emigrou e morreu como mártir em al-Yarmuk. Mabad ibn al-Harith, chamado Mamar em outro relato, também é mencionado, mas sua biografia está pouco documentada.
+
+Não são apenas nomes de uma lista antiga. Cada um abandonou Meca quando a comunidade ainda era pequena e seguiu depois o seu próprio percurso. Alguns viveram acontecimentos da época do Profeta ﷺ, outros chegaram ao período das conquistas posteriores, e outros morreram como mártires em al-Yamama, al-Yarmuk ou em outros lugares. As fontes biográficas divergem sobre alguns detalhes que permanecem incertos.
+
+Uma comunidade que permaneceu anos no exterior
+
+O objetivo imediato era a segurança e a liberdade de praticar o Islã, mas alguns permaneceram durante muitos anos na Abissínia. Embora vários tenham retornado antes, Jafar e um grupo que o acompanhava só chegaram ao Profeta ﷺ no sétimo ano após a migração para Medina, na época da conquista de Khaybar. Por que não retornaram todos assim que o Profeta se estabeleceu em Medina, ou depois da vitória em Badr? As fontes confirmam a permanência prolongada, mas não explicam individualmente a decisão de cada emigrante.
+
+Uma interpretação possível é que manter uma comunidade num país seguro oferecia um refúgio alternativo enquanto a situação na Arábia permanecia perigosa. Contudo, trata-se de uma hipótese interpretativa, não de uma estratégia explicitamente documentada do Profeta ﷺ ou dos emigrantes. Depois de Badr continuaram as ameaças, incluindo Uhud e a batalha dos Confederados. O retorno de Jafar aconteceu quando a situação dos muçulmanos já era muito diferente.
+
+A terra de Allah é vasta
+
+O Alcorão declara: «Ó Meus servos, que credes! Por certo, Minha terra é ampla; e a Mim, então, adorai-Me.» (29:56). A adoração não depende de uma única pátria se nela já não for possível manter a fé e existir possibilidade de partir.
+
+O Alcorão declara: «E aos que, por Allah, emigraram, depois de haverem sofrido injustiça, em verdade, dispô-los-emos, na vida terrena, com bela dádiva. E, certamente, o prêmio da Derradeira Vida é maior. Se soubessem!» (16:41). Allah promete aos emigrantes um lugar onde possam se estabelecer. O sentido promete boas condições neste mundo a quem emigra por Allah após sofrer injustiça, sendo maior a recompensa da outra vida. Al-Tabari registra uma explicação de Qatada que relaciona a passagem com muçulmanos oprimidos em Meca, alguns dos quais partiram para a Abissínia antes de Medina se tornar outro destino de migração. É uma interpretação exegética, não um hadith autêntico que identifique a revelação com uma pessoa específica.
+
+O Alcorão declara: «E quem migrar pela causa de Deus, encontrará na terra muitos locais de residência e vastos recursos. E quem abandonar sua casa para migrar por Deus e Seu Mensageiro, e a morte o alcançar, então sem dúvida sua recompensa está garantida por Deus. E Deus é Perdoador, Misericordioso.» (4:100; tradução de Aminuddin Mohamad). A passagem promete refúgio e amplitude a quem emigra, e recompensa divina a quem falece já a caminho de Allah e do Seu Mensageiro. Algumas tradições relacionam-na com emigrantes para a Abissínia; contudo, a sura é medinense e Ibn Kathir debate essas atribuições. O versículo tem sentido geral; não está comprovado que tenha sido revelado a respeito de um emigrante específico que partiu para a Abissínia.
+
+Uma comunidade muçulmana em uma nova terra
+
+Os emigrantes vinham de famílias e condições sociais diversas: Uthman e Ruqayya; Abu Hudhayfa e Sahla; Abu Salama e Umm Salama (que Allah esteja satisfeito com ela); al-Zubayr, Musab e Abd al-Rahman; Uthman ibn Mazun; Amir e Layla, e muitos outros. Depois chegaram Jafar e Asma, membros de grandes famílias de Quraysh e crentes pioneiros hoje pouco conhecidos. A migração diminuiu um tipo de perseguição, mas exigiu separação da pátria, dos familiares e do Profeta ﷺ e a vida num país diferente.
+
+O Profeta ﷺ continuou a pregar em Meca enquanto os companheiros viviam sob um rei conhecido pela justiça. Quraysh, porém, não aceitaria simplesmente perder o controle sobre aqueles que tinham partido; tentaria alcançá-los e exigir seu retorno. Nessa ocasião, Jafar ibn Abi Talib teria um encontro decisivo com o Negus, cuja história será apresentada no capítulo dedicado a esse encontro.
+
+Fontes fundamentais do capítulo
+
+• A Sira de Ibn Ishaq, transmitida por Ibn Hisham. O trecho citado sobre a proteção na Abissínia vem de Abd Ar-Rahman Al-Sheha, O Islam e a luta contra a discriminação racial (Bilal bin Rabah), tradução do European Islamic Research Center e Samir El Hayek, revisão de Ali Momade Ali Atumane, publicação do Osoul Center, p. 22, nota 33. O restante do conselho é narrado de forma indireta. Sobre a distinção entre a formulação de Ibn Ishaq sem cadeia contínua e o relato relacionado de Umm Salamah: al-Albani, al-Silsilah al-Sahihah 3190, 7:577–578, com referência a al-Bayhaqi, al-Sunan al-Kubra 9:9 e Dala’il al-Nubuwwah 2:301. A permanência dos emigrantes na Abissínia também está registrada em Sahih al-Bukhari 4230.
+
+• Parentesco de leite de Hamza: Sahih al-Bukhari 5100 e Sahih Muslim 1447. Sobre as diferentes datas de sua conversão, sua participação em Badr e seu martírio em Uhud: Ibn ‘Abd al-Barr, al-Isti‘ab, biografia de Hamza, verbete 541, 1/369–375. Sobre Wahshi: Sahih al-Bukhari 4072; Ibn al-Mulaqqin, al-Tawdih, 21/181, explica a aversão a ver quem matou uma pessoa próxima.
+
+• Migrações, nomes e totais: Ibn Ishaq/Ibn Hisham e al-Bidaya wa an-Nihaya de Ibn Kathir; as fontes divergem sobre os primeiros participantes. Ver Ibn Hisham, 1/322–324, sobre o primeiro grupo e as famílias de Ja‘far, Khalid, ‘Amr e dos irmãos Ibn Jahsh; 1/330 registra oitenta e três homens, com dúvida sobre a inclusão de ‘Ammar. Ibn Kathir, al-Bidaya wa an-Nihaya, 4/165–169, atribui a datação no quinto ano a al-Waqidi e discute as diferenças nas listas e na ordem das partidas. A data apresentada aqui foi extraída desses relatos históricos.
+
+• Detalhes sobre os filhos de al-Harith ibn Qays: Ibn Sa‘d, At-Tabaqat al-Kubra, edição al-Khanji, 4/181–183, biografias 428–434; a biografia 434 registra a variação Mabad/Mamar. Sobre Al-Saib em al-Taif e Fihl: Ibn Abd al-Barr, Al-Isti‘ab, biografia 885. Sobre as versões que situam o martírio de Al-Hajjaj em Yarmuk ou Ajnadayn: Ibn Asakir, Tarikh Dimashq, 12/93–96, biografia 1205.
+
+• Alcorão: al-Ankabut 29:56; an-Nahl 16:41 e o comentário de Qatada em al-Tabari; an-Nisa 4:100 e o exame de Ibn Kathir sobre algumas propostas de ocasiões de revelação. A citação completa de 4:100 segue Aminuddin Mohamad, O Alcorão: Interpretação do Significado, Goodword, p. 97.
