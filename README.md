@@ -2,16 +2,19 @@
 
 I'm building Iman Companion to bring Quran reading, memorization, reflection, and Islamic learning into one app. This repository shares the educational material I've prepared for it so other readers, teachers, and app developers can use it too.
 
-The collection includes tadabbur summaries, Seerah summaries, and six teaching units for children under five. These materials are open source. You can read the Markdown files here or use the JSON files in your own project.
+The collection includes tadabbur summaries, Seerah summaries, Hadith reading material, 37 sayings of Ibn al-Qayyim with explanations, and six teaching units for children under five. These materials are open source. You can read the Markdown files here or use the JSON files in your own project.
 
 **All translated summaries are AI translated — needs verification.** Some have already been through separate model-assisted review, but that does not make them verified human translations. Please check the Arabic source, especially before teaching or publishing a translation.
 
 ## Downloads
 
-[Offline language packs and combined Seerah summaries](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20) are available as release downloads. Books and children’s teaching audio are grouped into one ZIP per language. The combined Seerah archive preserves chapters 1–22 in the established nine languages and adds chapter 1 in Hindi, Russian, Spanish, Persian, German, and Simplified Chinese. The Arabic archive appendix is labeled separately. See the [combined Seerah notes](materials/seerah/combined/README.md) for sources and coverage.
+[Offline language packs and combined Seerah summaries](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20) are available as release downloads. Books and children’s teaching audio are grouped into one ZIP per language. The earlier combined Seerah archive contains chapters 1–22 in the original nine languages and chapter 1 in the six newer languages. Current reviewed chapters in Hindi, Russian, Spanish, Persian, German and Simplified Chinese are available directly in the repository. The Arabic archive appendix is labeled separately. See the [combined Seerah notes](materials/seerah/combined/README.md) for sources and coverage.
 
 ## Start here
 
+- [Seerah chapters and current language coverage](materials/seerah/combined/README.md)
+- [Hadith reading material](materials/hadith/README.md)
+- [Sayings of Ibn al-Qayyim](materials/ibn-al-qayyim/README.md)
 - [Browse all materials](materials/README.md)
 - [Sources and how the summaries were prepared](materials/SOURCES-AND-METHOD.md)
 - [Machine-readable catalog](materials/catalog.json)
@@ -24,10 +27,12 @@ The collection includes tadabbur summaries, Seerah summaries, and six teaching u
 | --- | --- |
 | Tadabbur in Arabic | 130 surah-and-mode documents, covering the available Extended and Simplified material |
 | Tadabbur translations | 26 surah-and-mode documents in each of eight other languages, plus 41 separate work-in-progress translation packages |
-| Seerah | Chapters 1–22 in Arabic and eight other languages; Arabic summaries of chapters 23–26 are also available in the source archive |
+| Seerah | Chapters 1–22 in the original nine languages; [current coverage in the six newer languages](materials/seerah/combined/README.md). Arabic summaries of chapters 23–26 remain in the source archive |
+| Hadith | Arabic reference collection and reviewed translations in the six newer languages; coverage is listed per language |
+| Ibn al-Qayyim | 37 sayings and explanations in all 15 app languages |
 | Under 5 | Six Arabic teaching units |
 
-The languages are Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, and Bengali. Coverage differs between collections. This is not a complete translation of every surah, and some Arabic sources contain selected ayahs only. The catalog gives the actual ayah counts and identifies introductions and archived chapters.
+The app languages are Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German and Simplified Chinese. Coverage differs between collections. This is not a complete translation of every surah, and some Arabic sources contain selected ayahs only. The catalog gives the actual ayah counts and identifies introductions and archived chapters.
 
 ## Where the material comes from
 

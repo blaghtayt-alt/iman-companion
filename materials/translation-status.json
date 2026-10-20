@@ -251,6 +251,116 @@
   ],
   "counts": [
     {
+      "collection": "hadith",
+      "language": "ar",
+      "documents": 1
+    },
+    {
+      "collection": "hadith",
+      "language": "de",
+      "documents": 1
+    },
+    {
+      "collection": "hadith",
+      "language": "es",
+      "documents": 1
+    },
+    {
+      "collection": "hadith",
+      "language": "fa",
+      "documents": 1
+    },
+    {
+      "collection": "hadith",
+      "language": "hi",
+      "documents": 1
+    },
+    {
+      "collection": "hadith",
+      "language": "ru",
+      "documents": 1
+    },
+    {
+      "collection": "hadith",
+      "language": "zh-CN",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "ar",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "bn",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "de",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "en",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "es",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "fa",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "fr",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "hi",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "id",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "ms",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "pt-BR",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "ru",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "tr",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "ur",
+      "documents": 1
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "zh-CN",
+      "documents": 1
+    },
+    {
       "collection": "seerah",
       "language": "ar",
       "documents": 26
@@ -262,13 +372,33 @@
     },
     {
       "collection": "seerah",
+      "language": "de",
+      "documents": 5
+    },
+    {
+      "collection": "seerah",
       "language": "en",
       "documents": 22
     },
     {
       "collection": "seerah",
+      "language": "es",
+      "documents": 5
+    },
+    {
+      "collection": "seerah",
+      "language": "fa",
+      "documents": 5
+    },
+    {
+      "collection": "seerah",
       "language": "fr",
       "documents": 22
+    },
+    {
+      "collection": "seerah",
+      "language": "hi",
+      "documents": 5
     },
     {
       "collection": "seerah",
@@ -287,6 +417,11 @@
     },
     {
       "collection": "seerah",
+      "language": "ru",
+      "documents": 5
+    },
+    {
+      "collection": "seerah",
       "language": "tr",
       "documents": 22
     },
@@ -294,6 +429,11 @@
       "collection": "seerah",
       "language": "ur",
       "documents": 22
+    },
+    {
+      "collection": "seerah",
+      "language": "zh-CN",
+      "documents": 5
     },
     {
       "collection": "tadabbur",
@@ -345,5 +485,48 @@
       "language": "ar",
       "documents": 6
     }
-  ]
+  ],
+  "seerahAppCoverage": {
+    "ar": 22,
+    "en": 22,
+    "fr": 22,
+    "tr": 22,
+    "id": 22,
+    "ms": 22,
+    "pt-BR": 22,
+    "ur": 22,
+    "bn": 22,
+    "hi": 5,
+    "ru": 5,
+    "es": 5,
+    "fa": 5,
+    "de": 5,
+    "zh-CN": 5
+  },
+  "hadithReports": {
+    "ar": 303,
+    "hi": 176,
+    "ru": 181,
+    "es": 158,
+    "fa": 177,
+    "de": 127,
+    "zh-CN": 87
+  },
+  "ibnAlQayyimSayings": {
+    "ar": 37,
+    "en": 37,
+    "fr": 37,
+    "pt-BR": 37,
+    "tr": 37,
+    "id": 37,
+    "ms": 37,
+    "ur": 37,
+    "bn": 37,
+    "hi": 37,
+    "ru": 37,
+    "es": 37,
+    "fa": 37,
+    "de": 37,
+    "zh-CN": 37
+  }
 }

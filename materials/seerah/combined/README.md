@@ -1,29 +1,26 @@
 # Combined Seerah summaries
 
-[Download the combined reading files and JSON](https://github.com/blaghtayt-alt/iman-companion/releases/download/language-packs-2026-10-20/seerah-combined-2026-10-20.zip).
+I prepared these summaries for **Iman Companion · رفيق الإيمان**, following Ahmad al-Sayyid’s Seerah lecture sequence. They give readers a connected account with people and events introduced, repetition reduced, and Quran and Hadith references retained. They are not official transcripts or publications endorsed by the lecturer.
 
-I prepared these summaries for **Iman Companion · رفيق الإيمان**. They follow Ahmad al-Sayyid’s Seerah lecture sequence and bring the available chapters together into one reading file per language.
+## Reading files
 
-The aim is a connected account that someone new to the Seerah can follow. Repetition is reduced, people and events are introduced, and relevant Quran passages and hadith references are retained. These are summaries prepared for the app, not official transcripts or an edition endorsed by the lecturer.
+The original nine languages contain chapters 1–22: Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu and Bengali. Their individual chapters are in the [Seerah folders](../). The [earlier combined archive](https://github.com/blaghtayt-alt/iman-companion/releases/download/language-packs-2026-10-20/seerah-combined-2026-10-20.zip) remains available; use the files below for the current newer-language coverage.
 
-## What is here
+| Language | Files | Reviewed chapters available |
+| --- | --- | --- |
+| Hindi | [Chapters](../hi/) · [Combined reading file](hi.md) · [JSON](hi.json) | 5 / 22 |
+| Russian | [Chapters](../ru/) · [Combined reading file](ru.md) · [JSON](ru.json) | 5 / 22 |
+| Spanish | [Chapters](../es/) · [Combined reading file](es.md) · [JSON](es.json) | 5 / 22 |
+| Persian | [Chapters](../fa/) · [Combined reading file](fa.md) · [JSON](fa.json) | 5 / 22 |
+| German | [Chapters](../de/) · [Combined reading file](de.md) · [JSON](de.json) | 5 / 22 |
+| Simplified Chinese | [Chapters](../zh-CN/) · [Combined reading file](zh-CN.md) · [JSON](zh-CN.json) | 5 / 22 |
 
-Arabic, English, Urdu, Indonesian, Malay, Bengali, Turkish, French, and Brazilian Portuguese contain app chapters 1–22. The Arabic file also has a clearly separated source-archive appendix for chapters 23–26. Those four archived chapters have not been integrated into the app edition.
+The Arabic source archive also contains chapters 23–26, listed separately from the 22 app chapters. Missing translations are not filled with another language.
 
-Hindi, Russian, Spanish, Persian, German, and Simplified Chinese currently contain **chapter 1 only**. Nothing has been filled in for the missing chapters. This collection does not yet cover the complete life of the Prophet ﷺ.
+## Translation and review
 
-Each language has a Markdown file for reading and a JSON file retaining the app’s chapter structure and source metadata. The files combine the existing material; this export does not create new translations.
-
-## Translation status
-
-**AI translated — needs verification.** This applies to the translated summaries, including material that has passed separate model-assisted checks. It is not a claim of review by a qualified human scholar or translator. Credited Quran and hadith translations remain quotations from their named publications, distinct from the translated narrative.
-
-Use the Arabic reference when checking a translation. Report omissions, unclear wording, and source concerns with the chapter and language.
+**AI translated — needs verification. Independent model review is not certification by a qualified human translator or scholar.** The narrative is checked against the Arabic, then read separately for natural wording and accuracy. Questions and answer choices follow the same review. Quran and Hadith quotations use identified publications where suitable editions are available; these quotations stay separate from editorial translation and explanation.
 
 ## Reuse
 
-These materials are open source. My original editorial contributions are dedicated under CC0 1.0: you may copy, adapt, translate, and use those contributions in personal projects, lessons, or apps, including commercial apps.
-
-That dedication cannot relicense the source lectures, outside publications, or quoted translations. Keep their credits and check any applicable terms. See the repository’s [reuse notes](https://github.com/blaghtayt-alt/iman-companion/blob/main/materials/REUSE.md) and [sources and method](https://github.com/blaghtayt-alt/iman-companion/blob/main/materials/SOURCES-AND-METHOD.md).
-
-[Iman Companion](https://github.com/blaghtayt-alt/iman-companion) · [Project website](https://blaghtayt-alt.github.io/iman-companion/)
+These materials are open source. My original editorial contributions are dedicated under CC0 1.0 for personal, teaching and commercial app use. That dedication cannot relicense lectures, outside publications or quoted translations. Keep their source credits and applicable terms; see [reuse notes](../../REUSE.md) and [sources and method](../../SOURCES-AND-METHOD.md).

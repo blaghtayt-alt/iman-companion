@@ -1,5 +1,13 @@
 # Material index
 
+## Current reading collections
+
+- [Seerah: chapters and language coverage](seerah/combined/README.md)
+- [Hadith: published translations and reviewed meanings](hadith/README.md)
+- [Ibn al-Qayyim: all 37 sayings in 15 languages](ibn-al-qayyim/README.md)
+
+The catalog below retains the earlier Tadabbur and teaching-unit links. The three links above list the newer reading collections and their current coverage.
+
 All translations are **AI translated — needs verification**. Arabic source material and work-in-progress files are identified separately.
 
 | Collection | Language | Documents |
