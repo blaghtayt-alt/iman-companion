@@ -6,6 +6,10 @@ The collection includes tadabbur summaries, Seerah summaries, and six teaching u
 
 **All translated summaries are AI translated — needs verification.** Some have already been through separate model-assisted review, but that does not make them verified human translations. Please check the Arabic source, especially before teaching or publishing a translation.
 
+## Downloads
+
+[Offline language packs and combined Seerah summaries](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20) are available as release downloads. Books and children’s teaching audio are grouped into one ZIP per language. The combined Seerah archive preserves chapters 1–22 in the established nine languages and adds chapter 1 in Hindi, Russian, Spanish, Persian, German, and Simplified Chinese. The Arabic archive appendix is labeled separately. See the [combined Seerah notes](materials/seerah/combined/README.md) for sources and coverage.
+
 ## Start here
 
 - [Browse all materials](materials/README.md)
