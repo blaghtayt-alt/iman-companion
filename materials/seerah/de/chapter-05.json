@@ -607,7 +607,7 @@
     "rights": "Original editorial translations and third-party publications retain distinct reuse terms and attribution.",
     "reviewRecords": [
       {
-        "file": "C:\\Users\\user\\Documents\\Codex\\2026-09-27\\i-have-problems-with-my-app\\work\\languages168\\qc\\chapter05-de-independent-qc.json",
+        "file": "chapter05-de-independent-qc.json",
         "sha256": "63e8301d532737e3f1defa13777273e9f3d3075e5e36aa303616555c9678482f"
       }
     ],
@@ -689,6 +689,252 @@
           "Strebe nach Königsherrschaft"
         ]
       }
+    }
+  ],
+  "independentReviews": [
+    {
+      "chapterId": 5,
+      "locale": "de",
+      "author": "seerah_translation165",
+      "reviewer": "/root/sayings_review165",
+      "independent": true,
+      "humanCertification": false,
+      "status": "approved-with-recorded-corrections",
+      "inputFileSHA256": "274a5eab8bb49e59d17dcee94d7b0cce640f237f4c25d81ff932c05ee32d20fd",
+      "sourceArabicSHA256": "586bdbb72669c4f37bc9cd86b2b8e39652744a25c10590dcf8c22f8161147844",
+      "scope": "Full Arabic26paragraphs compared with all28targetparagraphs, fivequestions/all15options, all published Quran74:1–7 records and meaning/source commentary. Separate targetfluency pass. Own authored es/fa drafts were not used as review source.",
+      "findings": [
+        "Paragraphs0–5 preserve title, uncertain duration of pause, Jabir, skyvoice/angelchair/fear, doublecoveringrequest and newaddress.",
+        "Paragraphs6–14 preserve all7Quranverses and full explanatory distinctions (warning,idols,purity,reciprocity,patience). Publisher words unchanged; editorial interpretation separate.",
+        "Paragraphs15–23 preserve revelationcontinuation, Khadija first, Ali young, Zayd freed, AbuBakrrelationships,5names, disputedorder, limitedprivatecalling and about3years attributedbiography.",
+        "Sources24–27 preserve originalreferences and publishededition/fallbackqualifiers without visibleAIlabel.",
+        "All5questions/alloptions aligned; correctanswerposition unchanged."
+      ],
+      "corrections": [
+        {
+          "paragraphIndex": 13,
+          "before": "In den beiden folgenden Versen am Anfang der Sure kam eine weitere Unterweisung hinzu: «und halte nicht (deinen Verdienst) vor, und halte ihn nicht für zu groß,\nund ertrage standhaft (alles) für deinen Herrn.» Eine Gabe oder eine Tat soll also nicht dazu dienen, von den Menschen eine größere Gegenleistung zu verlangen. Wer die Botschaft trägt, soll das, was er gibt, nicht als eine Gunst betrachten, für die ihm eine Belohnung von ihnen zusteht. Dann kam der Auftrag, um Allahs willen geduldig auszuharren. Bald wird deutlich werden, warum die Geduld schon von Anfang an genannt wurde: Ein Weg, der mit einer Warnung beginnt, wird nicht bei allen auf bereitwillige Zustimmung stoßen. [Die folgende Erklärung des arabischen Ausdrucks lā tamnun tastakthir deutet ihn als Warnung davor, durch eine Gabe mehr zurückzuverlangen. Die hier unverändert wiedergegebene veröffentlichte Versübersetzung folgt einer anderen Deutung: die eigene Leistung nicht vorzuhalten und nicht für groß zu halten.]",
+          "after": "In den beiden folgenden Versen am Anfang der Sure kam eine weitere Unterweisung hinzu: «und halte nicht (deinen Verdienst) vor, und halte ihn nicht für zu groß,\nund ertrage standhaft (alles) für deinen Herrn.» Eine Gabe oder eine Tat soll also nicht dazu dienen, von den Menschen eine größere Gegenleistung zu verlangen. Wer die Botschaft trägt, soll das, was er gibt, nicht als eine Gunst betrachten, für die ihm eine Belohnung von ihnen zusteht. Dann kam der Auftrag, um Allahs willen geduldig auszuharren. Bald wird deutlich werden, warum die Geduld schon von Anfang an genannt wurde: Ein Weg, der mit einer Warnung beginnt, wird nicht bei allen auf bereitwillige Zustimmung stoßen. [Die vorstehende Erklärung des arabischen Ausdrucks lā tamnun tastakthir deutet ihn als Warnung davor, durch eine Gabe mehr zurückzuverlangen. Die hier unverändert wiedergegebene veröffentlichte Versübersetzung folgt einer anderen Deutung: die eigene Leistung nicht vorzuhalten und nicht für groß zu halten.]",
+          "reason": "Interpretive note is placed after the explanation, so use vorstehende rather than folgende. Published Quran wording untouched.74:6 interpretations explicitly distinguished."
+        },
+        {
+          "paragraphIndex": 23,
+          "before": "Im nächsten Kapitel wenden wir uns diesen ersten Gläubigen selbst zu: Männern, Frauen und jungen Menschen, die den Islam annahmen, als noch weder Geld noch ein Staat oder eine Macht hinter ihm standen. Sie wurden zum ersten Kern der Gemeinschaft, die sich um Allahs Gesandten ﷺ entwickelte.",
+          "after": "Im nächsten Kapitel wenden wir uns diesen ersten Gläubigen selbst zu: Männern, Frauen und jungen Menschen, die den Islam annahmen, als noch weder Geld noch ein Staat oder eine Macht hinter ihm standen. Sie wurden zum ersten Kern der Gemeinschaft, die um Allahs Gesandten ﷺ erzogen wurde.",
+          "reason": "Arabic تربى means was educated/nurtured; retain that formation rather than only developed."
+        }
+      ],
+      "questionCorrections": [],
+      "quoteCorrections": [],
+      "holds": [],
+      "publisherChecks": [
+        {
+          "paragraphIndex": 6,
+          "decision": "exact-full-record-pass",
+          "reference": "74:1-5"
+        },
+        {
+          "paragraphIndex": 9,
+          "decision": "exact-full-record-pass",
+          "reference": "74:2-2"
+        },
+        {
+          "paragraphIndex": 10,
+          "decision": "exact-full-record-pass",
+          "reference": "74:3-3"
+        },
+        {
+          "paragraphIndex": 11,
+          "decision": "exact-full-record-pass",
+          "reference": "74:4-4"
+        },
+        {
+          "paragraphIndex": 12,
+          "decision": "exact-full-record-pass",
+          "reference": "74:5-5"
+        },
+        {
+          "paragraphIndex": 13,
+          "decision": "exact-full-record-pass",
+          "reference": "74:6-7"
+        }
+      ],
+      "sourceRightsReview": {
+        "quran": "Current conditional QuranEnc republication terms/metadata retained; all full verse fields exact, no footnotes exist for these7 verses. Not CC0.",
+        "hadith": "Independently inspected local IbnRassoul PDFpage25 report0004: only one Hüllt mich ein. Known permission page2 previously independently reviewed; author preserves Arabic double speech as own meaning, not false exactpublication. No source replacement with differentreport.",
+        "semanticDistinction": "German74:6 selected Quran edition follows ownachievement interpretation, while Arabic narrative follows givingforlargerreturn. Explicit separate note prevents conflation; orientation correction recorded."
+      },
+      "paragraphLedger": [
+        {
+          "paragraphIndex": 0,
+          "textSHA256": "b1774897203294fb776be267883dab17fcfef4b017482bc4438800555a01114a",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 1,
+          "textSHA256": "c4868654f0c7347eca41bf2b2c26b0fdf3500b8e92b12d518cb9333f2e283c6a",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 2,
+          "textSHA256": "a8c194f4fe6e30d8ed3e0459da046cd922cfbc0af8f2acf68e109fb5cfb7931a",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 3,
+          "textSHA256": "1a1d2105df622e80f77c111bf1d370c06b9bfc78c007b1592f53a09476d68a3a",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 4,
+          "textSHA256": "346718e228d8220b765cc0d41a4585f010d618ce712fec411e9101203b3a0ba8",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 5,
+          "textSHA256": "0485d4d550e31d5832e2608a8b316f2c59c90152b20553b631278538710f6a1d",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 6,
+          "textSHA256": "206ba733aae2aa3e357e1dc51325c4be1c8b8576349e2bbf7cca4d611c2986d2",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 7,
+          "textSHA256": "dd0345191b001cdea5a1731c64aca67e3410db6d07973fc6872982da91b4f06c",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 8,
+          "textSHA256": "4216fa765450296b1407bfe492021712ed9f195adfb01d6bbd46f225a2fde78f",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 9,
+          "textSHA256": "129a5335c4507131273aa5d4e823ab548d5f466dc47a3c9ac2eca3406c3924fd",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 10,
+          "textSHA256": "f830d09c33963d5a0e3d4e656ec95783e0061aabd7bc2df9306a46d285f389d2",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 11,
+          "textSHA256": "c2de85be682b89f14eceaf7f4202c373a0267deeafb8d640205ec5f2a648ade5",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 12,
+          "textSHA256": "4c64b8f1d94bad8a2869d3b4b846ccc200f560ba80c7056f2c60bf254f6e3f5b",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 13,
+          "textSHA256": "4367a0b9e9dc46c165b250dcd4c43664841b115049cbb49259704f9a363453e2",
+          "meaning": "pass-with-recorded-correction",
+          "fluency": "pass-with-recorded-correction"
+        },
+        {
+          "paragraphIndex": 14,
+          "textSHA256": "a61ed2374e45e4b002323795f9193d46c283dc63801176a7d12653e837a6c383",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 15,
+          "textSHA256": "a8795b138acf8f82d4cf24f5ce7976d6c2bae16c20a5cda074cb35282e76673d",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 16,
+          "textSHA256": "4ae0573926fa2a168bdb66b3daa7276f89350beb57f25541ecf583f7dd29f2ad",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 17,
+          "textSHA256": "bed8e8b137cce7c4b8e2bafb9b4b4ac8a1825a1b42a4bee5dd9a8d224fd8b2bf",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 18,
+          "textSHA256": "bfe8c09d3fcc207fb5607240d6aa855c43bd46b206c356470ad1454fdf565f75",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 19,
+          "textSHA256": "bb041cf2d3bf980ea84370474cd7409c3767f6912f71f2bb17090000c1b8fac2",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 20,
+          "textSHA256": "76ad50d7548e91e46bba404a690b8c6a81ef6f2782df7f9858cedfc716a505b3",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 21,
+          "textSHA256": "324f58ca208b243337ea3273913e3f3d4b733e429b68727f8684934d01ef6213",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 22,
+          "textSHA256": "cd15b60c4e39f7b003811d28d4c51b035163b84f850997390938e2f4e508e09c",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 23,
+          "textSHA256": "97991ad8b30d9b2444dee75149e3d2507fccf5c9fa954b76c4d6b2d043b46325",
+          "meaning": "pass-with-recorded-correction",
+          "fluency": "pass-with-recorded-correction"
+        },
+        {
+          "paragraphIndex": 24,
+          "textSHA256": "6a5419c2d9552345cac47b9d42b5b18646161ef04cedb7d2ffb968571ea484a3",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 25,
+          "textSHA256": "aae94e033707ee02948f68305bb6799c3476b2a59f77cbda6fa94ab42797df92",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 26,
+          "textSHA256": "a5efc0ee70da1e49bbc6a168390e8084e464c5fc8a302d4aaa67fe4c459617f4",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 27,
+          "textSHA256": "ff086fe8270060b38cb42c391f46209f47616cf0a4b5ac2f8d583e6fe9d988f9",
+          "meaning": "pass",
+          "fluency": "pass"
+        }
+      ],
+      "limitations": "IndependentAIreview, not human/scholarcertification or unrestrictedrightsgrant. No app/draft edits. Preserve sourceedition/transcript/update/advertising conditions."
     }
   ]
 }

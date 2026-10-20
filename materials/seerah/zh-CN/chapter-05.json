@@ -608,7 +608,7 @@
     "rights": "Original editorial translations and third-party publications retain distinct reuse terms and attribution.",
     "reviewRecords": [
       {
-        "file": "C:\\Users\\user\\Documents\\Codex\\2026-09-27\\i-have-problems-with-my-app\\work\\languages168\\qc\\chapter05-zh-CN-independent-qc.json",
+        "file": "chapter05-zh-CN-independent-qc.json",
         "sha256": "a9dd293bc588d691b6f381af5e2e76258c5c2d526b9aab539919f72586751975"
       }
     ],
@@ -690,6 +690,254 @@
           "谋求王权"
         ]
       }
+    }
+  ],
+  "independentReviews": [
+    {
+      "chapterId": 5,
+      "locale": "zh-CN",
+      "author": "seerah_translation165",
+      "reviewer": "/root/sayings_review165",
+      "independent": true,
+      "humanCertification": false,
+      "status": "approved-with-recorded-corrections",
+      "inputFileSHA256": "d1e785baaf91b823004a0f8e8ae1fcd8453c1a1b376b6aeaa13049b98d375719",
+      "sourceArabicSHA256": "586bdbb72669c4f37bc9cd86b2b8e39652744a25c10590dcf8c22f8161147844",
+      "scope": "Full Arabic26paragraphs compared with all28targetparagraphs, fivequestions/all15options, all published Quran74:1–7 records and meaning/source commentary. Separate targetfluency pass. Own authored es/fa drafts were not used as review source.",
+      "findings": [
+        "Paragraphs0–5 preserve title, uncertain duration of pause, Jabir, skyvoice/angelchair/fear, doublecoveringrequest and newaddress.",
+        "Paragraphs6–14 preserve all7Quranverses and full explanatory distinctions (warning,idols,purity,reciprocity,patience). Publisher words unchanged; editorial interpretation separate.",
+        "Paragraphs15–23 preserve revelationcontinuation, Khadija first, Ali young, Zayd freed, AbuBakrrelationships,5names, disputedorder, limitedprivatecalling and about3years attributedbiography.",
+        "Sources24–27 preserve originalreferences and publishededition/fallbackqualifiers without visibleAIlabel.",
+        "All5questions/alloptions aligned; correctanswerposition unchanged."
+      ],
+      "corrections": [
+        {
+          "paragraphIndex": 20,
+          "before": "关于赫蒂彻，愿真主喜悦她，之后一些人接受伊斯兰的先后顺序，各种传述并不一致。宣教初期的范围有限，主要是在家中、朋友之间，以及那些熟悉穆罕默德 ﷺ 的人中进行。",
+          "after": "关于在赫蒂彻（愿真主喜悦她）之后接受伊斯兰的一些人的先后顺序，各种传述并不一致。宣教初期的范围有限，主要是在家中、朋友之间，以及那些熟悉穆罕默德 ﷺ 的人中进行。",
+          "reason": "Resolve interrupted Chinese temporal phrase while preserving differing order after Khadija."
+        }
+      ],
+      "questionCorrections": [
+        {
+          "id": "S9",
+          "field": "question",
+          "before": "是谁认出来到穆罕默德 ﷺ 面前的是吉卜利勒？",
+          "after": "谁认出那位来到穆罕默德 ﷺ 面前的天使是吉卜利勒？",
+          "reason": "Clarify that recognition concerns the identity of the arriving angel; avoid 是谁认出来到 run-on."
+        }
+      ],
+      "quoteCorrections": [],
+      "holds": [],
+      "publisherChecks": [
+        {
+          "paragraphIndex": 6,
+          "decision": "exact-full-record-pass",
+          "reference": "74:1-5"
+        },
+        {
+          "paragraphIndex": 9,
+          "decision": "exact-full-record-pass",
+          "reference": "74:2-2"
+        },
+        {
+          "paragraphIndex": 10,
+          "decision": "exact-full-record-pass",
+          "reference": "74:3-3"
+        },
+        {
+          "paragraphIndex": 11,
+          "decision": "exact-full-record-pass",
+          "reference": "74:4-4"
+        },
+        {
+          "paragraphIndex": 12,
+          "decision": "exact-full-record-pass",
+          "reference": "74:5-5"
+        },
+        {
+          "paragraphIndex": 13,
+          "decision": "exact-full-record-pass",
+          "reference": "74:6-7"
+        }
+      ],
+      "sourceRightsReview": {
+        "quran": "Current conditional QuranEnc republication terms/metadata retained; all full verse fields exact, no footnotes exist for these7 verses. Not CC0.",
+        "hadith": "ChineseBukhari publication existence acknowledged; retained prior copyright-page evidence establishes no grant in inspected edition. Own brief repeatedArabicmeaning is not copiedpublisher wording. No inference that no Chinese translationexists.",
+        "semanticDistinction": "ChineseQuran74:6 fits originalArabic narrative of givingforgreaterreturn. Glosses reidolrujz belong to narrative, not inserted into protectedtranslation."
+      },
+      "paragraphLedger": [
+        {
+          "paragraphIndex": 0,
+          "textSHA256": "0f740708bcdc835ec0a31a048d05763e1b637ce850ff6921f2673965005a7322",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 1,
+          "textSHA256": "e42878c4001d89e49015ffc43b258b2633cf1e2e35f63989190bfd8b6a7d17b7",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 2,
+          "textSHA256": "f5ee944023e7ada6204a45beb43fb060e0cd1d4270d0d107c93192d875facf0c",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 3,
+          "textSHA256": "6e87f79cb3a154467e289334832b2c13f4459d1d88908fe4dfd0c1512c943cd5",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 4,
+          "textSHA256": "3bd13c1264a3d07fd985592e6e9d3a2c6e4fa64662135889f5fb350af47d695c",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 5,
+          "textSHA256": "72f40288023f0b0dd710262deb702101139b3e399ea2dfa1ee79e56d624f610a",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 6,
+          "textSHA256": "9333222adebddff857268792e992a150cdd197348d28471b8d2c99a11353233c",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 7,
+          "textSHA256": "656e50ddc9dad7fef8de5028200751149b97637ada6a3d51fe4fd177847387e1",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 8,
+          "textSHA256": "acf1c05e8bb9c6c6fa06ee959f48749c3e90f6b764596d101f53270ba4cc7927",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 9,
+          "textSHA256": "b66326306f04c03af712a686f2c745a3abb1ccc8009730bdb6909d1c4b082ebc",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 10,
+          "textSHA256": "d28bec43d26d23ff129dc5d4baa1058f8437a1d573d51ee3358a10d139a9d82b",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 11,
+          "textSHA256": "46c053bc2cd05dea30f287ef154de957796967286c66cb7748c31df2a5be058b",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 12,
+          "textSHA256": "6251a7096fb09b88bf387182b53f3fd13c01dbc3658ece3bf6c86a26199e53d5",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 13,
+          "textSHA256": "08105392aa32f2a4e8da76449b61fad3d9f7be0167d2963d73fe88b69d701f38",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 14,
+          "textSHA256": "cb0ce296d98677c0f335c634b87b79e8be905b5ab6329fb30f4aa26e8346d99b",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 15,
+          "textSHA256": "9169efe3d469405d92954245243540ef099603557f378c75d3469dd35e17bda7",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 16,
+          "textSHA256": "fadaf983b227d3bb394d57fe1b70e9ca0bc7cad697ecc052a4e0adc541eeccd6",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 17,
+          "textSHA256": "ae869565810e9403c64fbfbff5666f80f2e0e43c92554b939fcb92760e404b8f",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 18,
+          "textSHA256": "e9c700364a95a98f7aaede56c4067a7df6757e1a77ad50ce7cdd8ecc9e17e9ab",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 19,
+          "textSHA256": "cb17633142e6ed9e3bbcc10b58dd13a7a48287151d1a9038ae5dc4fc0945994b",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 20,
+          "textSHA256": "697b929399e7f562a6db2a769d151f33d6b94242877cdc33a7be48f3d4dacbc7",
+          "meaning": "pass-with-recorded-correction",
+          "fluency": "pass-with-recorded-correction"
+        },
+        {
+          "paragraphIndex": 21,
+          "textSHA256": "7b57aef00d35d076af45a9980a4093a114c287e9fa5459b15761fdc198635bd9",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 22,
+          "textSHA256": "7f10bbfe98ac8b4cdc8ba42545da8079d7c62d98b7591b57eb75ae40ac2bfd6d",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 23,
+          "textSHA256": "c37e78666cfb24f6c88ebd017430880c36d42e205037845797ee0ae5ef6d2d27",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 24,
+          "textSHA256": "9691e153443968887dda55359fc988bf9a1e3faed9ace7c2128adc7558ce8525",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 25,
+          "textSHA256": "f8be587e96e18e172128f0c189ac8f35977f6c4b8bf3f6598bb7c49d8469b7f7",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 26,
+          "textSHA256": "03e6c081e72eb13a9786a70826cc73f096cfbd1ffdebbe1f45ac48c251ef639a",
+          "meaning": "pass",
+          "fluency": "pass"
+        },
+        {
+          "paragraphIndex": 27,
+          "textSHA256": "0284496091b237de950146dcb444f9f5be78fa6e41d7353445e65251c542927a",
+          "meaning": "pass",
+          "fluency": "pass"
+        }
+      ],
+      "limitations": "IndependentAIreview, not human/scholarcertification or unrestrictedrightsgrant. No app/draft edits. Preserve sourceedition/transcript/update/advertising conditions."
     }
   ]
 }

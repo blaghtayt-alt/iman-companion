@@ -486,7 +486,7 @@
     ],
     "reviewRecords": [
       {
-        "file": "C:\\Users\\user\\Documents\\Codex\\2026-09-27\\i-have-problems-with-my-app\\work\\languages167\\seerah\\chapter04-es-independent-qc.json",
+        "file": "chapter04-es-independent-qc.json",
         "sha256": "8f13676006fbb871654bfb5d98c0411b05367125ec4a179bbeec2fdc2be83f6f"
       }
     ],
@@ -569,6 +569,37 @@
           "La precipitación y la negligencia"
         ]
       }
+    }
+  ],
+  "independentReviews": [
+    {
+      "chapterId": 4,
+      "locale": "es",
+      "author": "seerah_translation165",
+      "reviewer": "root",
+      "independent": true,
+      "humanCertification": false,
+      "status": "approved",
+      "inputFileSHA256": "ac133bf25474cdd3e917d6e9235fab84cd47452c049bbec5efe9c59a3468e90b",
+      "sourceArabicSHA256": "a873cc4b3c89f207768f2fc3b05e781d10c7ae19786987709334085658bd2deb",
+      "scope": "All 35 paragraphs and five questions independently read against chapter04 Arabic source, then reread in Spanish for fluency.",
+      "findings": [
+        "0–4: title and chapter, ordinary responsibilities, sheep herding, patience, modest wage, and qualified biographical account of marriage retained. Complete publisher report embedded unchanged; its Alah/Makkah spelling and punctuation intentionally preserved.",
+        "5–10: age forty, true dreams, revelation definition, retreat/worship/provisions, Hira and Jibril, inability to read and three forceful embraces all retained in order.",
+        "11–13: all five Garcia verses exactly match publisher data; both footnotes retained in full and described as publisher explanations. No wording silently corrected.",
+        "14–19: fear, return to Khadija, repeated request for covering, reassurance and all five virtues including supporting what is right retained. Narrative and own meaning translations clearly separated from source publications.",
+        "20–29: Waraqa's background, blindness, family address, Namus as angel rather than message, strong support, expected expulsion, death and revelation pause preserved without introducing new events.",
+        "30–34: source references retained; independent AI-assisted meanings labelled. No copied wording from reuse-unverified Quevedo edition.",
+        "All questions and three options per question match Arabic intent and retain option order. Spanish wording, grammar, honorifics and names consistent outside protected publisher wording."
+      ],
+      "corrections": [],
+      "questionCorrections": [],
+      "holds": [],
+      "publisherChecks": {
+        "quran96:1-5": "Exact current Garcia text and complete footnotes",
+        "hadith6219": "Complete original HadeethEnc publication unchanged inside paragraph2"
+      },
+      "limitations": "Independent AI review; not human or scholar certification. Third-party source terms retained."
     }
   ]
 }

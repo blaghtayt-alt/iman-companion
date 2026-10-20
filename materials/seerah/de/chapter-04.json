@@ -519,7 +519,7 @@
     ],
     "reviewRecords": [
       {
-        "file": "C:\\Users\\user\\Documents\\Codex\\2026-09-27\\i-have-problems-with-my-app\\work\\languages167\\seerah\\chapter04-de-independent-qc.json",
+        "file": "chapter04-de-independent-qc.json",
         "sha256": "236996c622cdffc930b404e393c59d491b997adafc91962545dcd57bb31edd8d"
       }
     ],
@@ -602,6 +602,47 @@
           "Übereilung und Nachlässigkeit"
         ]
       }
+    }
+  ],
+  "independentReviews": [
+    {
+      "chapterId": 4,
+      "locale": "de",
+      "author": "seerah_translation165",
+      "reviewer": "root",
+      "independent": true,
+      "humanCertification": false,
+      "status": "approved-with-recorded-corrections",
+      "inputFileSHA256": "87160e321a76c93074d113c27e65af854bfd7f28408d31cb5e59e1860efb1a0d",
+      "sourceArabicSHA256": "a873cc4b3c89f207768f2fc3b05e781d10c7ae19786987709334085658bd2deb",
+      "scope": "All 35 paragraphs and five questions compared with Arabic, followed by separate German fluency reading. Source PDF page214 and permission page2 text independently inspected.",
+      "findings": [
+        "0–4 retain work, shepherding, qirat contextual wage gloss, patience and qualified marriage/trade account. Exact publisher report unchanged except documented layout normalization.",
+        "5–10 retain age, truthful dreams, definition of revelation, retreat, worship/provisions, angel and repeated reading/embrace sequence. Endurance expression is accurate.",
+        "11–13 exact Bubenheim/Elias verses; source version and explanatory boundary retained.",
+        "14–19 preserve fear, repeated covering request and all five virtues including rightful support. Natural German with no new doctrinal assertion.",
+        "20–29 preserve Waraqa's history, blindness, kinship address, Namus as angel rather than message, hoped-for youth/support, expulsion and revelation pause.",
+        "30–34 references retained; own meanings distinguishable from quotations. All questions/options preserve Arabic intent and answer positions.",
+        "Publisher footnote metadata extraction omitted opening words Aus diesem; restored from actual PDF page214, no change to published matn."
+      ],
+      "corrections": [],
+      "questionCorrections": [],
+      "quoteCorrections": [
+        {
+          "paragraphIndex": 2,
+          "type": "Hadith",
+          "field": "publisherFootnote366",
+          "before": " Ḥadīṯ erkennen wir folgende Anhaltspunkte: 1. Der globale Beruf und die Gemeinsamkeiten unter allen Propheten war das Hüten der Schafe; 2. derartige Tätigkeit war eine naturverbundene Ausbildung für jeden Propheten, der bei der Ausübung seiner Tätigkeit Gelegenheit hatte, Himmel und Erde sowie die übrige Schöpfung zu betrachten und an Allāhs Allmacht nachzudenken; 3. im Hüten der Schafe stekt die Fähigkeit zur Führung eines Volkes, die Wachsamkeit über die Begrenzung der Herde gegen die Gefahr eines Feindes (hier der Wolf), die Pflege eines kranken und gebrechlichen Tieres und die Ernährung der Herde durch ständiges Suchen nach Gras und Wasserquellen usw.; vgl. dazu Ḥadīṯ Nr. 0893, 5453 und 7138 mit dem Tenor: ”Ihr seid alle Hirten, und jeder von euch ist verantwortlich für seine Herde.“, wobei die Herde hier als \"Treuhandgut\" zu verstehen ist. ",
+          "after": "Aus diesem Ḥadīṯ erkennen wir folgende Anhaltspunkte: 1. Der globale Beruf und die Gemeinsamkeiten unter allen Propheten war das Hüten der Schafe; 2. derartige Tätigkeit war eine naturverbundene Ausbildung für jeden Propheten, der bei der Ausübung seiner Tätigkeit Gelegenheit hatte, Himmel und Erde sowie die übrige Schöpfung zu betrachten und an Allāhs Allmacht nachzudenken; 3. im Hüten der Schafe stekt die Fähigkeit zur Führung eines Volkes, die Wachsamkeit über die Begrenzung der Herde gegen die Gefahr eines Feindes (hier der Wolf), die Pflege eines kranken und gebrechlichen Tieres und die Ernährung der Herde durch ständiges Suchen nach Gras und Wasserquellen usw.; vgl. dazu Ḥadīṯ Nr. 0893, 5453 und 7138 mit dem Tenor: ”Ihr seid alle Hirten, und jeder von euch ist verantwortlich für seine Herde.“, wobei die Herde hier als \"Treuhandgut\" zu verstehen ist.",
+          "reason": "Restore omitted opening words from complete original PDF footnote."
+        }
+      ],
+      "holds": [],
+      "publisherChecks": {
+        "quran96:1-5": "Exact complete current publisher text",
+        "hadith2262": "Exact page214 normalized PDF text; attribution and permission page2 verified"
+      },
+      "limitations": "Independent AI review, not human or scholar certification; full source metadata retained."
     }
   ]
 }

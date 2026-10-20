@@ -523,7 +523,7 @@
     ],
     "reviewRecords": [
       {
-        "file": "C:\\Users\\user\\Documents\\Codex\\2026-09-27\\i-have-problems-with-my-app\\work\\languages167\\seerah\\chapter04-ru-independent-qc.json",
+        "file": "chapter04-ru-independent-qc.json",
         "sha256": "cbda62f9c7e75df6ecfe9c4bd1396aaba399c2b585d6e06bceec120754ba4a3c"
       }
     ],
@@ -606,6 +606,53 @@
           "Поспешность и небрежность"
         ]
       }
+    }
+  ],
+  "independentReviews": [
+    {
+      "chapterId": 4,
+      "locale": "ru",
+      "author": "seerah_translation165",
+      "reviewer": "root",
+      "independent": true,
+      "humanCertification": false,
+      "status": "approved-with-recorded-corrections",
+      "inputFileSHA256": "de54b55f0da31afdb466b36d5ffff9ab75661d7e661939a83d11ad9a541ddbf0",
+      "sourceArabicSHA256": "a873cc4b3c89f207768f2fc3b05e781d10c7ae19786987709334085658bd2deb",
+      "scope": "Full comparison of all 35 Arabic/translated paragraphs and five questions, followed by Russian fluency reading. Published quoted text compared with local publisher artifacts.",
+      "findings": [
+        "Paragraphs 0–4 preserve chronology, daily responsibilities, shepherding, the complete published report and modest wage explanation; biography-attributed material remains qualified.",
+        "Paragraphs 5–10 preserve age forty, truthful dreams, revelation definition, retreat and provisions, Hira location, angel identity and three squeezing/reading exchanges. No invented event added.",
+        "Paragraphs 11–13 quote all five Rowwad 96:1–5 verses exactly, retain source/version, and distinguish narrative explanation.",
+        "Paragraphs 14–19 preserve fear, repeated request for covering, reassurance and all five virtues. Paragraph17 requires the recorded qualification correction.",
+        "Paragraphs 20–29 preserve Waraqa's Christian background, blindness, kinship address, Namus as Gabriel, hoped-for youth and support, predicted expulsion, death and pause in revelation. No theological role added to Waraqa.",
+        "Paragraphs30–34 preserve all primary references. Independent Hadith meanings are visibly labelled as AI-assisted and needing specialist verification; published shepherd report remains separate.",
+        "All five questions and every answer option independently compared with Arabic; correct-answer position unchanged. One distractor receives a fluency correction."
+      ],
+      "corrections": [
+        {
+          "paragraphIndex": 17,
+          "before": "«Нет, клянусь Аллахом, Аллах никогда не посрамит тебя! Ты поддерживаешь родственные связи, берёшь на себя заботу о беспомощных, помогаешь неимущим, угощаешь гостей и содействуешь людям, когда их постигают беды».",
+          "after": "«Нет, клянусь Аллахом, Аллах никогда не посрамит тебя! Ты поддерживаешь родственные связи, берёшь на себя заботу о беспомощных, помогаешь неимущим, угощаешь гостей и помогаешь людям в бедах, поддерживая правое дело».",
+          "reason": "Retain الحق in نوائب الحق; the original draft conveyed hardships but omitted the qualification of right."
+        }
+      ],
+      "questionCorrections": [
+        {
+          "id": "S8",
+          "field": "options",
+          "index": 2,
+          "before": "Пещера людей пещеры",
+          "after": "Пещера спящих юношей",
+          "reason": "Replace an unnatural literal repetition with the conventional Russian description of the Companions of the Cave. Distractor identity and answer order remain unchanged."
+        }
+      ],
+      "holds": [],
+      "publisherChecks": {
+        "quran96:1-5": "Exact current Russian Rowwad original; no footnotes in these records",
+        "hadith6219": "Complete unchanged publisher narration contained in paragraph2; contextual introduction and wage explanation outside quotation"
+      },
+      "limitations": "Independent AI review, not scholar or human certification. Publication-first evidence retained in draft; no assertion all third-party translations are unrestricted."
     }
   ]
 }

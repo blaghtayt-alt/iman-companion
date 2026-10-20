@@ -8,12 +8,12 @@ The original nine languages contain chapters 1–22: Arabic, English, French, Tu
 
 | Language | Files | Reviewed chapters available |
 | --- | --- | --- |
-| Hindi | [Chapters](../hi/) · [Combined reading file](hi.md) · [JSON](hi.json) | 5 / 22 |
-| Russian | [Chapters](../ru/) · [Combined reading file](ru.md) · [JSON](ru.json) | 5 / 22 |
-| Spanish | [Chapters](../es/) · [Combined reading file](es.md) · [JSON](es.json) | 5 / 22 |
-| Persian | [Chapters](../fa/) · [Combined reading file](fa.md) · [JSON](fa.json) | 5 / 22 |
-| German | [Chapters](../de/) · [Combined reading file](de.md) · [JSON](de.json) | 5 / 22 |
-| Simplified Chinese | [Chapters](../zh-CN/) · [Combined reading file](zh-CN.md) · [JSON](zh-CN.json) | 5 / 22 |
+| Hindi | [Chapters](../hi/) · [Combined reading file](hi.md) · [JSON](hi.json) | 10 / 22 |
+| Russian | [Chapters](../ru/) · [Combined reading file](ru.md) · [JSON](ru.json) | 10 / 22 |
+| Spanish | [Chapters](../es/) · [Combined reading file](es.md) · [JSON](es.json) | 10 / 22 |
+| Persian | [Chapters](../fa/) · [Combined reading file](fa.md) · [JSON](fa.json) | 10 / 22 |
+| German | [Chapters](../de/) · [Combined reading file](de.md) · [JSON](de.json) | 9 / 22 |
+| Simplified Chinese | [Chapters](../zh-CN/) · [Combined reading file](zh-CN.md) · [JSON](zh-CN.json) | 9 / 22 |
 
 The Arabic source archive also contains chapters 23–26, listed separately from the 22 app chapters. Missing translations are not filled with another language.
 

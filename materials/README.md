@@ -6,21 +6,49 @@
 - [Hadith: published translations and reviewed meanings](hadith/README.md)
 - [Ibn al-Qayyim: all 37 sayings in 15 languages](ibn-al-qayyim/README.md)
 
-The catalog below retains the earlier Tadabbur and teaching-unit links. The three links above list the newer reading collections and their current coverage.
+The table counts files, not individual Hadiths or sayings; each of those language files contains a collection. Arabic Seerah includes four separately labeled archive chapters.
 
-All translations are **AI translated — needs verification**. Arabic source material and work-in-progress files are identified separately.
+Our translated summaries, meanings and explanations are **AI translated — needs verification**. Credited publisher quotations keep their original authorship and terms. Arabic source material and work-in-progress files are identified separately.
 
 | Collection | Language | Documents |
 | --- | --- | --- |
+| hadith | Arabic | 1 |
+| hadith | German | 1 |
+| hadith | Spanish | 1 |
+| hadith | Persian | 1 |
+| hadith | Hindi | 1 |
+| hadith | Russian | 1 |
+| hadith | Simplified Chinese | 1 |
+| ibn-al-qayyim | Arabic | 1 |
+| ibn-al-qayyim | Bengali | 1 |
+| ibn-al-qayyim | German | 1 |
+| ibn-al-qayyim | English | 1 |
+| ibn-al-qayyim | Spanish | 1 |
+| ibn-al-qayyim | Persian | 1 |
+| ibn-al-qayyim | French | 1 |
+| ibn-al-qayyim | Hindi | 1 |
+| ibn-al-qayyim | Indonesian | 1 |
+| ibn-al-qayyim | Malay | 1 |
+| ibn-al-qayyim | Brazilian Portuguese | 1 |
+| ibn-al-qayyim | Russian | 1 |
+| ibn-al-qayyim | Turkish | 1 |
+| ibn-al-qayyim | Urdu | 1 |
+| ibn-al-qayyim | Simplified Chinese | 1 |
 | seerah | Arabic | 26 |
 | seerah | Bengali | 22 |
+| seerah | German | 9 |
 | seerah | English | 22 |
+| seerah | Spanish | 10 |
+| seerah | Persian | 10 |
 | seerah | French | 22 |
+| seerah | Hindi | 10 |
 | seerah | Indonesian | 22 |
 | seerah | Malay | 22 |
 | seerah | Brazilian Portuguese | 22 |
+| seerah | Russian | 10 |
 | seerah | Turkish | 22 |
 | seerah | Urdu | 22 |
+| seerah | Simplified Chinese | 9 |
 | tadabbur | Arabic | 130 |
 | tadabbur | Bengali | 26 |
 | tadabbur | English | 26 |
@@ -583,3 +611,65 @@ All translations are **AI translated — needs verification**. Arabic source mat
 - [under-5 · Arabic · 4](under-5/ar/unit-04.md)
 - [under-5 · Arabic · 5](under-5/ar/unit-05.md)
 - [under-5 · Arabic · 6](under-5/ar/unit-06.md)
+
+
+## Newer Seerah translations
+
+- [Hindi · Chapter 1](seerah/hi/chapter-01.md)
+- [Hindi · Chapter 2](seerah/hi/chapter-02.md)
+- [Hindi · Chapter 3](seerah/hi/chapter-03.md)
+- [Hindi · Chapter 4](seerah/hi/chapter-04.md)
+- [Hindi · Chapter 5](seerah/hi/chapter-05.md)
+- [Hindi · Chapter 6](seerah/hi/chapter-06.md)
+- [Hindi · Chapter 7](seerah/hi/chapter-07.md)
+- [Hindi · Chapter 8](seerah/hi/chapter-08.md)
+- [Hindi · Chapter 9](seerah/hi/chapter-09.md)
+- [Hindi · Chapter 10](seerah/hi/chapter-10.md)
+- [Russian · Chapter 1](seerah/ru/chapter-01.md)
+- [Russian · Chapter 2](seerah/ru/chapter-02.md)
+- [Russian · Chapter 3](seerah/ru/chapter-03.md)
+- [Russian · Chapter 4](seerah/ru/chapter-04.md)
+- [Russian · Chapter 5](seerah/ru/chapter-05.md)
+- [Russian · Chapter 6](seerah/ru/chapter-06.md)
+- [Russian · Chapter 7](seerah/ru/chapter-07.md)
+- [Russian · Chapter 8](seerah/ru/chapter-08.md)
+- [Russian · Chapter 9](seerah/ru/chapter-09.md)
+- [Russian · Chapter 10](seerah/ru/chapter-10.md)
+- [Spanish · Chapter 1](seerah/es/chapter-01.md)
+- [Spanish · Chapter 2](seerah/es/chapter-02.md)
+- [Spanish · Chapter 3](seerah/es/chapter-03.md)
+- [Spanish · Chapter 4](seerah/es/chapter-04.md)
+- [Spanish · Chapter 5](seerah/es/chapter-05.md)
+- [Spanish · Chapter 6](seerah/es/chapter-06.md)
+- [Spanish · Chapter 7](seerah/es/chapter-07.md)
+- [Spanish · Chapter 8](seerah/es/chapter-08.md)
+- [Spanish · Chapter 9](seerah/es/chapter-09.md)
+- [Spanish · Chapter 10](seerah/es/chapter-10.md)
+- [Persian · Chapter 1](seerah/fa/chapter-01.md)
+- [Persian · Chapter 2](seerah/fa/chapter-02.md)
+- [Persian · Chapter 3](seerah/fa/chapter-03.md)
+- [Persian · Chapter 4](seerah/fa/chapter-04.md)
+- [Persian · Chapter 5](seerah/fa/chapter-05.md)
+- [Persian · Chapter 6](seerah/fa/chapter-06.md)
+- [Persian · Chapter 7](seerah/fa/chapter-07.md)
+- [Persian · Chapter 8](seerah/fa/chapter-08.md)
+- [Persian · Chapter 9](seerah/fa/chapter-09.md)
+- [Persian · Chapter 10](seerah/fa/chapter-10.md)
+- [German · Chapter 1](seerah/de/chapter-01.md)
+- [German · Chapter 2](seerah/de/chapter-02.md)
+- [German · Chapter 3](seerah/de/chapter-03.md)
+- [German · Chapter 4](seerah/de/chapter-04.md)
+- [German · Chapter 5](seerah/de/chapter-05.md)
+- [German · Chapter 6](seerah/de/chapter-06.md)
+- [German · Chapter 7](seerah/de/chapter-07.md)
+- [German · Chapter 8](seerah/de/chapter-08.md)
+- [German · Chapter 9](seerah/de/chapter-09.md)
+- [Simplified Chinese · Chapter 1](seerah/zh-CN/chapter-01.md)
+- [Simplified Chinese · Chapter 2](seerah/zh-CN/chapter-02.md)
+- [Simplified Chinese · Chapter 3](seerah/zh-CN/chapter-03.md)
+- [Simplified Chinese · Chapter 4](seerah/zh-CN/chapter-04.md)
+- [Simplified Chinese · Chapter 5](seerah/zh-CN/chapter-05.md)
+- [Simplified Chinese · Chapter 6](seerah/zh-CN/chapter-06.md)
+- [Simplified Chinese · Chapter 7](seerah/zh-CN/chapter-07.md)
+- [Simplified Chinese · Chapter 8](seerah/zh-CN/chapter-08.md)
+- [Simplified Chinese · Chapter 9](seerah/zh-CN/chapter-09.md)

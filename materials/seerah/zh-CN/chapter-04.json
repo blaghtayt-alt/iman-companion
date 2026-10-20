@@ -486,7 +486,7 @@
     ],
     "reviewRecords": [
       {
-        "file": "C:\\Users\\user\\Documents\\Codex\\2026-09-27\\i-have-problems-with-my-app\\work\\languages167\\seerah\\chapter04-zh-CN-independent-qc.json",
+        "file": "chapter04-zh-CN-independent-qc.json",
         "sha256": "42b4d0d53058d5f34188854e4559116084133ee552e85a401ce360db1d1174c8"
       }
     ],
@@ -569,6 +569,55 @@
           "急躁和疏忽"
         ]
       }
+    }
+  ],
+  "independentReviews": [
+    {
+      "chapterId": 4,
+      "locale": "zh-CN",
+      "author": "seerah_translation165",
+      "reviewer": "root",
+      "independent": true,
+      "humanCertification": false,
+      "status": "approved-with-recorded-corrections",
+      "inputFileSHA256": "a7b5a5a2cc962658906ab14ace1deb5b61610411f8e9da7affe71216b7ea4db0",
+      "sourceArabicSHA256": "a873cc4b3c89f207768f2fc3b05e781d10c7ae19786987709334085658bd2deb",
+      "scope": "Independent full Arabic/Chinese comparison of 35 paragraphs and five questions; separate Chinese fluency reading.",
+      "findings": [
+        "0–4: chapter/title, responsibility, shepherding and modest qirat wages retained; exact complete published shepherd report. Marriage/trade details retain attribution to biographies.",
+        "5–10: age, true dreams, revelation definition, temporary retreat, worship and provisions, Gabriel and three commands/embraces retained. Correct the endurance expression at10.",
+        "11–13: Quran text including punctuation exactly preserved from current Makeen/Sulaiman edition. Its interpretation remains attributed to publisher.",
+        "14–19: fear, covering request repeated twice, reassurance and all five virtues retained including rightful assistance. Remove inferred family subject in15.",
+        "20–29: Waraqa's Christian background/blindness, kinship address, Namus as angel, youth wish, expulsion, support, death and revelation pause retained. Correct still-young implication in25.",
+        "30–34 and all questions: references and AI meaning labels retained; complete questions/options preserve Arabic meanings and correct-answer order. No unlabelled published wording modification."
+      ],
+      "corrections": [
+        {
+          "paragraphIndex": 10,
+          "before": "天使对他说：“你读吧。”穆罕默德——愿主赐他福安——回答：“我不会读。”吉布里勒抓住他，用力抱紧、挤压他，直到他竭尽力气，随后松开他，再次说：“你读吧。”他回答：“我不会读。”这件事重复了三次。然后，吉布里勒说道：",
+          "after": "天使对他说：“你读吧。”穆罕默德——愿主赐他福安——回答：“我不会读。”吉布里勒抓住他，用力抱紧、挤压他，直到他难以承受，随后松开他，再次说：“你读吧。”他回答：“我不会读。”这件事重复了三次。然后，吉布里勒说道：",
+          "reason": "بلغ منه الجهد describes reaching the limit of endurance under pressure, not his exerting all his strength."
+        },
+        {
+          "paragraphIndex": 15,
+          "before": "他颤抖着走到她面前，说：“给我盖上，给我盖上！”意思是用衣物把他裹住。家人给他盖上，直到他的恐惧平息。随后，他把发生的事告诉赫蒂彻——愿真主喜悦她——并说：“我确实为自己感到害怕。”",
+          "after": "他颤抖着走到她面前，说：“给我盖上，给我盖上！”意思是用衣物把他裹住。人们给他盖上，直到他的恐惧平息。随后，他把发生的事告诉赫蒂彻——愿真主喜悦她——并说：“我确实为自己感到害怕。”",
+          "reason": "Do not explicitly identify the plural subject as family when the Arabic only says they covered him."
+        },
+        {
+          "paragraphIndex": 25,
+          "before": "这里的“纳穆斯”指带来启示的天使，即吉布里勒——愿主赐他平安。随后，沃拉盖说：“但愿那时我还是个强壮的青年！”意思是希望自己到那一天仍然年轻有力。他又说：“但愿你的族人驱逐你的时候，我还活着。”",
+          "after": "这里的“纳穆斯”指带来启示的天使，即吉布里勒——愿主赐他平安。随后，沃拉盖说：“但愿那时我还是个强壮的青年！”意思是希望自己到那一天能年轻有力。他又说：“但愿你的族人驱逐你的时候，我还活着。”",
+          "reason": "Waraqa was already elderly; still young incorrectly implies he was currently young."
+        }
+      ],
+      "questionCorrections": [],
+      "holds": [],
+      "publisherChecks": {
+        "quran96:1-5": "Exact current publication records; full notes if present",
+        "hadith6219": "Complete original HadeethEnc record unchanged in paragraph2"
+      },
+      "limitations": "Independent AI review only; not human or scholar certification. Published text and own meanings remain distinct."
     }
   ]
 }

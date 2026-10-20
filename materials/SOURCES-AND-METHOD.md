@@ -30,6 +30,14 @@ The summaries follow Ahmad al-Sayyid's Seerah lecture sequence. The lecture is t
 
 The summaries aim for a connected narrative, not personal study notes or a fictional retelling. Extra context should serve the source account and be supported. The current app edition supplies chapters 1–22. The four later Arabic chapters are kept under `source-archive` because they have not been integrated into that edition.
 
+## Hadith and sayings of Ibn al-Qayyim
+
+Hadith reading files preserve the Arabic reference, collection number and translation source. We look for a suitable published translation first. A matching topic is not enough: the narration, speaker, addressees and qualifications must match. If an exact suitable edition with established reuse terms cannot be found, the Arabic meaning is translated independently and identified as such. Explanations remain separate from the reported words. An available publication is still checked for meaning; an identified error is not silently repaired and presented as the publisher's wording.
+
+The Ibn al-Qayyim collection contains 37 excerpts, with source locations and short explanations. It is not a complete translation of any of his books. The explanation is editorial material, not another quotation from the author.
+
+For the newer Seerah translations, each chapter and its questions are compared against the Arabic by a reviewer other than the drafter. Recorded corrections are applied before the chapter enters the app. Full quoted Quran records and publisher footnotes are preserved with edition information. Where the Arabic summary quotes only part of an ayah, the expanded full-verse quotation is identified.
+
 ## Under 5
 
 The six Arabic units are published from the supplied teaching documents. Their questions, pauses, examples, and adult prompts are part of the material. They are meant for a parent or teacher to adapt to the child's understanding. No translated edition of these units is claimed in this release.

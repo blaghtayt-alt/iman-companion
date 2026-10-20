@@ -334,7 +334,7 @@
     "rights": "Original editorial translations and third-party publications retain distinct reuse terms and attribution.",
     "reviewRecords": [
       {
-        "file": "C:\\Users\\user\\Documents\\Codex\\2026-09-27\\i-have-problems-with-my-app\\work\\languages168\\qc\\chapter05-hi-independent-qc.json",
+        "file": "chapter05-hi-independent-qc.json",
         "sha256": "7a82428a192fc48badca8a44d0c9a421080294017432632c9b5637bbfe0dba18"
       }
     ],
@@ -416,6 +416,116 @@
           "राजसत्ता माँगो"
         ]
       }
+    }
+  ],
+  "independentReviews": [
+    {
+      "chapterId": 5,
+      "locale": "hi",
+      "reviewer": "seerah_translation165",
+      "independent": true,
+      "humanCertification": false,
+      "status": "approved",
+      "inputFileSHA256": "809172fcd61282141ebf28c037b2954a7612ec274500499f1b1a538e5652623e",
+      "sourceArabicSHA256": "586bdbb72669c4f37bc9cd86b2b8e39652744a25c10590dcf8c22f8161147844",
+      "scope": {
+        "allArabicParagraphs": 26,
+        "allTargetParagraphs": 30,
+        "allQuestions": 5,
+        "meaningReview": "Read every complete Arabic paragraph and target paragraph directly, then target-only fluency pass; not automated approval.",
+        "sourceQuoteReview": "All seven full Quran verses and all publisher footnotes exact against prepared original publisher dataset. Repeated verse quotations preserved. Actual HadeethEnc66304 hi/ru records inspected; both supply single call, while Arabic chapter repeats it. Direct repeated Arabic meaning clearly attributed, not modified publication."
+      },
+      "findings": [
+        {
+          "paragraphIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "finding": "Headings, transition from Hira, Waraqa's identification, defined revelation pause and absence of a decisive duration faithfully retained."
+        },
+        {
+          "paragraphIndices": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "finding": "Jabir report preserves walking, heavenly voice, same angel on a seat between sky/earth, fear and twice-repeated cover-me call. New address versus Read and exact Quran74:1–5 preserved."
+        },
+        {
+          "paragraphIndices": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "finding": "Narrative explains wrapped-one, warning before danger, shirk/disobedience, magnifying Lord above idols/leaders/tribes, physical/moral purification, leaving idols/falsehood, giving without greater return, and patience/preparation of messenger. Full meanings retained; Hindi74:6 interpretation difference explicitly distinguished from protected edition."
+        },
+        {
+          "paragraphIndices": [
+            15,
+            16,
+            17
+          ],
+          "finding": "Renewed successive revelation, no immediate whole-Makka gathering, close trusted circle, Khadija's absolute precedence, absence of protective community, young Ali in household and Zayd freed before mission retained."
+        },
+        {
+          "paragraphIndices": [
+            18,
+            19,
+            20
+          ],
+          "finding": "AbuBakr's standing/trade/character/genealogical knowledge and invitations, all five named responders, future-versus-present contrast and disagreement over conversion order retained."
+        },
+        {
+          "paragraphIndices": [
+            21,
+            22,
+            23
+          ],
+          "finding": "Secret means not yet open collective confrontation, not total unknownness; individual invitations, attributed approximate three years, impending public call, four learning questions and next-chapter transition preserved."
+        },
+        {
+          "paragraphIndices": [
+            24,
+            25
+          ],
+          "finding": "Sources and all cited numbers/narrative-order qualification retained."
+        },
+        {
+          "paragraphIndices": [
+            26,
+            27,
+            28,
+            29
+          ],
+          "finding": "Publisher credit/version and explicit own-Hadith-meaning note clear. Hindi publisher74:1 footnote retained verbatim;74:6 differing interpretation explained distinctly without changing either protected quote or source narrative."
+        },
+        {
+          "questionIds": [
+            "S9",
+            "S10",
+            "S45",
+            "S46",
+            "S47"
+          ],
+          "finding": "All five question stems and all15 options read against original: Waraqa, uncertain duration, Jabir, heavenly seat and arise/warn preserved; correct-option positions unchanged."
+        },
+        {
+          "kind": "fluency",
+          "finding": "Hindi prose coherent and grammatical; technical Islamic terms understandable in surrounding explanation. No required edits."
+        }
+      ],
+      "corrections": [],
+      "questionCorrections": [],
+      "quoteCorrections": [],
+      "holds": [],
+      "appEdited": false
     }
   ]
 }

@@ -673,7 +673,7 @@
     "rights": "Original editorial translations and third-party publications retain distinct reuse terms and attribution.",
     "reviewRecords": [
       {
-        "file": "C:\\Users\\user\\Documents\\Codex\\2026-09-27\\i-have-problems-with-my-app\\work\\languages168\\qc\\chapter05-fa-independent-qc.json",
+        "file": "chapter05-fa-independent-qc.json",
         "sha256": "04a2e0c78008f880a1d2bc809d7db05f204261f36c9502981a3bdd2a27895f90"
       }
     ],
@@ -755,6 +755,142 @@
           "فرمانروایی طلب کن"
         ]
       }
+    }
+  ],
+  "independentReviews": [
+    {
+      "chapterId": 5,
+      "locale": "fa",
+      "reviewer": "/root/hadith_translation165",
+      "independent": true,
+      "humanCertification": false,
+      "status": "approved-with-recorded-corrections",
+      "inputFileSHA256": "49c5f4af274fb944676a0ab15048770fd3f64ca042d7285f7608322167fbdae8",
+      "sourceArabicSHA256": "586bdbb72669c4f37bc9cd86b2b8e39652744a25c10590dcf8c22f8161147844",
+      "scope": {
+        "sourceParagraphsRead": 26,
+        "targetParagraphsRead": 27,
+        "allQuestionsRead": 5,
+        "passes": [
+          "Direct Arabic-to-target comparison of every paragraph and all options",
+          "Separate target fluency reread",
+          "Exact Quran verse/footnote/edition integrity comparison",
+          "Hadith repeated command Arabic Bukhari4926 comparison"
+        ]
+      },
+      "findings": [
+        {
+          "paragraphIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "decision": "Opening, title, temporal break, no certain duration all retained."
+        },
+        {
+          "paragraphIndices": [
+            4,
+            5
+          ],
+          "decision": "Jabir, identical angel, chair between heaven/earth, fear and repeated cover command all retained; direct meaning clearly attributed. Bukhari4926 Arabic checked live."
+        },
+        {
+          "paragraphIndices": [
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "decision": "All74:1–7 exact cached publisher verses, repeated placements preserved; no publisher footnotes exist for these verses. Reuse remains conditional with version/publisher/source metadata. Both target74:6 choices match narrative sense; no interpretive split like Hindi."
+        },
+        {
+          "paragraphIndices": [
+            8,
+            14,
+            15
+          ],
+          "decision": "Transition to duty to convey, self-preparation and continuity retained."
+        },
+        {
+          "paragraphIndices": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "decision": "Khadija first, Ali youth, Zayd freed before mission, all5 names and uncertain conversion order retained; minor target corrections below."
+        },
+        {
+          "paragraphIndices": [
+            21,
+            22,
+            23
+          ],
+          "decision": "Secret-call qualification, about3years, community learning questions and nextchapter preserved."
+        },
+        {
+          "paragraphIndices": [
+            24,
+            25,
+            26
+          ],
+          "decision": "Original source references preserved; clearly distinct translation-meaning/publisher attribution notes retained."
+        },
+        {
+          "questionIds": [
+            "S9",
+            "S10",
+            "S45",
+            "S46",
+            "S47"
+          ],
+          "decision": "All question meanings/options retain original order/correct answer; PersianS9fluency correction below."
+        }
+      ],
+      "corrections": [
+        {
+          "paragraphIndex": 17,
+          "before": "سپس اسلام به خانۀ او و میان نزدیک‌ترین افرادش راه یافت. علی بن ابی‌طالب رضی‌الله‌عنه از نخستین مسلمانان بود. او هنوز نوجوان بود، یعنی پسری که به سن مردان نرسیده بود، و در خانۀ پیامبر ﷺ زندگی می‌کرد. زید بن حارثه رضی‌الله‌عنه نیز از نخستین مسلمانان بود؛ پیامبر ﷺ پیش از بعثت او را از بردگی آزاد کرده بود و او همچنان در خانه‌اش و نزدیک او می‌ماند.",
+          "after": "سپس اسلام به خانۀ او و میان نزدیک‌ترین افرادش راه یافت. علی بن ابی‌طالب رضی‌الله‌عنه از نخستین مسلمانان بود. او هنوز پسربچه بود، یعنی پسری که به سن بزرگسالی نرسیده بود، و در خانۀ پیامبر ﷺ زندگی می‌کرد. زید بن حارثه رضی‌الله‌عنه نیز از نخستین مسلمانان بود؛ پیامبر ﷺ پیش از بعثت او را از بردگی آزاد کرده بود و او همچنان در خانه‌اش و نزدیک او می‌ماند.",
+          "reason": "Arabic غلام/صبي is a boy not specifically an adolescent; avoid imposing teenage age. Natural adulthood gloss."
+        }
+      ],
+      "questionCorrections": [
+        {
+          "id": "S9",
+          "field": "question",
+          "before": "چه کسی شناخت که آن‌کس که نزد محمد ﷺ آمده، جبرئیل است؟",
+          "after": "چه کسی تشخیص داد که آن‌کس که نزد محمد ﷺ آمده، جبرئیل است؟",
+          "reason": "Natural Persian idiom for recognizing the identity; شناخت که is awkward."
+        }
+      ],
+      "quoteCorrections": [],
+      "holds": [],
+      "publicationChecks": [
+        "74:1 exact text/notes",
+        "74:2 exact text/notes",
+        "74:3 exact text/notes",
+        "74:4 exact text/notes",
+        "74:5 exact text/notes",
+        "74:2 exact text/notes",
+        "74:3 exact text/notes",
+        "74:4 exact text/notes",
+        "74:5 exact text/notes",
+        "74:6 exact text/notes",
+        "74:7 exact text/notes"
+      ],
+      "sourceEvidence": [
+        "https://sunnah.com/bukhari:4926",
+        "work/store166/quran/fa-quran-complete.json"
+      ],
+      "limitations": [
+        "AI independent review, not human or scholarly certification. Approval covers translation fidelity of this chapter, not independent authentication of every historical narrative in original. No protected publisher words modified."
+      ]
     }
   ]
 }

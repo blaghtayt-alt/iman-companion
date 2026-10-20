@@ -524,7 +524,7 @@
     ],
     "reviewRecords": [
       {
-        "file": "C:\\Users\\user\\Documents\\Codex\\2026-09-27\\i-have-problems-with-my-app\\work\\languages167\\seerah\\chapter04-fa-independent-qc.json",
+        "file": "chapter04-fa-independent-qc.json",
         "sha256": "9d3b165916e317d5b9328dcaadcc17a7c5ce5fd5b1d6c92878aa35ecac96da1c"
       }
     ],
@@ -607,6 +607,49 @@
           "شتاب‌زدگی و سهل‌انگاری"
         ]
       }
+    }
+  ],
+  "independentReviews": [
+    {
+      "chapterId": 4,
+      "locale": "fa",
+      "author": "seerah_translation165",
+      "reviewer": "root",
+      "independent": true,
+      "humanCertification": false,
+      "status": "approved-with-recorded-corrections",
+      "inputFileSHA256": "bb0664ed1936811a358ab4e00f071cbc4caf371417acc41d4bc5e742583684b7",
+      "sourceArabicSHA256": "a873cc4b3c89f207768f2fc3b05e781d10c7ae19786987709334085658bd2deb",
+      "scope": "All 35 narrative paragraphs, full published appendix, source notes, Quran96:1–5 and five questions compared with Arabic; separate Persian fluency reading.",
+      "findings": [
+        "Shepherding, modest wages, responsibility, explicitly biography-attributed commerce/marriage retained without adding historic certainty.",
+        "Dreams, retreat, provisions, revelation definition and three embraces retain original sequence. Endurance clarified outside publisher spans.",
+        "Khadija's five virtues including rightful help, fear, covering and reassurance retain the Arabic sense.",
+        "Waraqa's religion, literacy, kinship, blindness, Namus as Gabriel, hoped-for youth/support, expulsion, death and pause preserved. No added sectarian doctrine identified.",
+        "Full publisher reports retained unchanged with source/version attribution. Short repeated spans remain exact and accompanied by complete original text.",
+        "Five questions retain all options and original answer positions; source notes distinguish publication text and editorial explanation."
+      ],
+      "corrections": [
+        {
+          "paragraphIndex": 10,
+          "before": "فرشته به او گفت: «بخوان». محمد صلی‌الله‌علیه‌وسلم پاسخ داد: «من خواندن نمی‌دانم». جبرئیل او را گرفت و به‌شدت در آغوش فشرد، تا جایی که توانش به نهایت رسید. سپس رهایش کرد و بار دیگر گفت: «بخوان». او پاسخ داد: «من خواندن نمی‌دانم». این کار سه بار تکرار شد. سپس جبرئیل گفت:",
+          "after": "فرشته به او گفت: «بخوان». محمد صلی‌الله‌علیه‌وسلم پاسخ داد: «من خواندن نمی‌دانم». جبرئیل او را گرفت و به‌شدت در آغوش فشرد، تا جایی که دیگر تاب نمی‌آورد. سپس رهایش کرد و بار دیگر گفت: «بخوان». او پاسخ داد: «من خواندن نمی‌دانم». این کار سه بار تکرار شد. سپس جبرئیل گفت:",
+          "reason": "Clarify Arabic endurance / natural imperative grammar in independently authored narrative; preserve publisher wording."
+        },
+        {
+          "paragraphIndex": 15,
+          "before": "لرزان نزد او آمد و فرمود: «مرا بپوشانید، مرا بپوشانید»؛ یعنی با لباس بپوشانیدم. او را پوشاندند تا ترسش آرام گرفت. سپس آنچه رخ داده بود به خدیجه رضی‌الله‌عنها گفت و فرمود: «بر جان خود ترسیدم».",
+          "after": "لرزان نزد او آمد و فرمود: «مرا بپوشانید، مرا بپوشانید»؛ یعنی مرا با لباس بپوشانید. او را پوشاندند تا ترسش آرام گرفت. سپس آنچه رخ داده بود به خدیجه رضی‌الله‌عنها گفت و فرمود: «بر جان خود ترسیدم».",
+          "reason": "Clarify Arabic endurance / natural imperative grammar in independently authored narrative; preserve publisher wording."
+        }
+      ],
+      "questionCorrections": [],
+      "holds": [],
+      "publisherChecks": {
+        "quran96:1-5": "Exact full verse fields and any footnotes from current stored publisher edition",
+        "hadith6219/66303": "Full records equal independently stored publisher corpus; all repeated spans unchanged; source/version retained"
+      },
+      "limitations": "Independent AI review, not human or scholar certification. Conditional publisher reuse and source/update requirements retained in provenance; no unrestricted-license claim."
     }
   ]
 }

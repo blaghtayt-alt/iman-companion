@@ -530,7 +530,7 @@
     ],
     "reviewRecords": [
       {
-        "file": "C:\\Users\\user\\Documents\\Codex\\2026-09-27\\i-have-problems-with-my-app\\work\\languages167\\seerah\\chapter04-hi-independent-qc.json",
+        "file": "chapter04-hi-independent-qc.json",
         "sha256": "c85e6d7709ac168409fdde079c0df275c19a7113d2156f0dbb230d4bd4839f46"
       }
     ],
@@ -613,6 +613,373 @@
           "जल्दबाज़ी और लापरवाही"
         ]
       }
+    }
+  ],
+  "independentReviews": [
+    {
+      "chapterId": 4,
+      "locale": "hi",
+      "author": "seerah_translation165",
+      "reviewer": "sayings_review165",
+      "independent": true,
+      "humanCertification": false,
+      "status": "approved-with-recorded-corrections",
+      "inputFileSHA256": "8aa17cb6a18436fde855d45ffdf036ca463df5d9e2c9f0b13174db9d4dbe4eba",
+      "sourceArabicSHA256": "a873cc4b3c89f207768f2fc3b05e781d10c7ae19786987709334085658bd2deb",
+      "scope": "Read all 35 Arabic narrative paragraphs against all 35 Hindi counterparts, full Hindi publication appendix with its full Arabic matn, all Quran96:1–5 verses and complete 96:5 footnote, and all five questions/options. Separate Hindi fluency pass. Exact-copy checks against independent stored publisher corpora; current publisher terms reopened. No canonical app or author draft edited.",
+      "corrections": [
+        {
+          "paragraphIndex": 7,
+          "before": "यह एकांत लोगों से हमेशा के लिए अलग हो जाना नहीं था, बल्कि संदेशवाहक के दायित्व की शुरुआत से पहले अकेले इबादत करने के कुछ समय थे। मुहम्मद सल्लल्लाहु अलैहि व सल्लम मक्का में रहते थे और अपने परिवार के पास लौटते थे। लेकिन हिरा में उन्हें मूर्तियों और आसपास के जीवन के शोर से दूर एक जगह मिलती थी।",
+          "after": "यह एकांत लोगों से हमेशा के लिए अलग हो जाना नहीं था, बल्कि संदेशवाहक के दायित्व की शुरुआत से पहले अकेले इबादत करने की एक अवधि थी। मुहम्मद सल्लल्लाहु अलैहि व सल्लम मक्का में रहते थे और अपने परिवार के पास लौटते थे। लेकिन हिरा में उन्हें मूर्तियों और आसपास के जीवन के शोर से दूर एक जगह मिलती थी।",
+          "reason": "Correct Hindi number agreement and retain Arabic singular period فترة من الانفراد; no change to publisher wording."
+        }
+      ],
+      "questionCorrections": [],
+      "holds": [],
+      "publisherChecks": {
+        "quran96:1-5": {
+          "decision": "exact-copy-pass",
+          "publisher": "QuranEnc.com",
+          "edition": "Azizul Haq Al-Omari / hindi_omari v1.1.5",
+          "sourceFile": "work/store166/quran/hi-quran-complete.json",
+          "sourceFileSHA256": "ce4209f740f35a0556f9a1d8528bfd3725b9d13bacdc70a100317bd2d64ef47d",
+          "evidence": "Five records equal source records. Paragraph11 equals complete joined verse fields. Full footnote96:5 is contained unchanged in paragraph12. Five-verse first-revelation account and later13-year departure are publisher commentary, visibly distinguished; no footnote deletion.",
+          "rights": "Conditional reuse with no content changes, source/version/transcript attribution, notification/update and advertising conditions. Not CC0.",
+          "termsURL": "https://quranenc.com/en/home"
+        },
+        "hadith6219": {
+          "decision": "exact-full-matn-pass-with-gloss-caveat",
+          "sourceFile": "work/languages163/hadith/corpora/hi.json",
+          "sourceFileSHA256": "3ab43f33d3d1546df2f299e4e50450ed88806a1881a9397093be42d4926c57a2",
+          "evidence": "Full embedded record exactly equals independent publisher corpus6219; entire matn unchanged in paragraph2; edition/transcript retained in metadata. Prophet, companions question and small wage all retained.",
+          "semanticCaveat": "Publisher gloss (रूपये) is vernacular money-language, not evidence of a historical rupee denomination; paragraph2 itself explains only a modest wage and paragraph3 distinguishes publisher additions. Do not infer a named Meccan rupee currency or change publisher spelling/grammar."
+        },
+        "hadith66303": {
+          "decision": "exact-copy-and-semantic-pass-with-conditional-reuse",
+          "evidence": "Full record equals independent corpus66303; entire hadith_text equals paragraph36. All9 cited spans occur verbatim both in source and designated narrative paragraph. Full appendix read against Arabic: dreams, retreat, provisions, all3 squeezes,96:1–3, fear/covering,5virtues including الحق, Waraqa Christian/Hebrew background, kinship, blindness, Namus, expulsion/support/death/pause preserved.",
+          "semanticCaveat": "Published मैं पढ़ा हुआ नहीं हूँ is idiomatic lack of schooling/literacy in this reading context, not a claim about intelligence or knowledge. Published काश मैं ताक़तवर होता expresses strength but does not explicitly say youth; narrative25 supplies Arabic young/strong sense outside the quote. Minor publisher spelling/grammar preserved. Quran verses1–3 in report versus1–5 chapter quote are source scope distinctions, not an invented fourth squeezing.",
+          "termsURL": "https://hadeethenc.com/en/home",
+          "currentTermsChecked": "2026-10-20",
+          "rights": "Conditional republication, no modification/addition/deletion, source/version/transcript, update/notification and suitable advertising requirements; not unrestricted-license content."
+        }
+      },
+      "findings": [
+        "Paragraphs0–4: title, daily duties, shepherding, patience/responsibility and explicitly biography-attributed Khadija commerce/marriage preserved.",
+        "Paragraphs5–13: age40, dreams, revelation definition, retreat/geography/provisions, angel and3squeezes, all5Quran verses; paragraph7 grammatical correction recorded.",
+        "Paragraphs14–19: direct return to Khadija, fear/covering, reassurance and five virtues including rights-related troubles retained.",
+        "Paragraphs20–29: Waraqa kinship/religion/blindness, Gabriel as Namus, youthful support, predicted expulsion, death and temporary pause, closing Meccan scene retained.",
+        "Paragraphs30–37: sources and full publisher matn appendix distinct from own narrative; stored transcripts/editions present.",
+        "All5 questions, all15 options compared. Correct option positions unchanged. S8 literal गुफा वालों की गुफा is comprehensible; no substantive correction required."
+      ],
+      "paragraphLedger": [
+        {
+          "paragraphIndex": 0,
+          "textSHA256": "9a09819d194140b682c2d98e4666faa91eaef66dd25d9201381eabe0436cf0d8",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 1,
+          "textSHA256": "79a0795f66112dbdaee7ca74b129b8a12fde6750b61518edcec2325437ef06e1",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 2,
+          "textSHA256": "55198f99ceaa853b621155258c2d7ec8746b9fde77852aa52ee6b3847fbbf5b7",
+          "meaning": "pass",
+          "fluency": "pass-with-publisher-wording-preserved",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 3,
+          "textSHA256": "6d16458181d6005e300bc07ef4d5bc57afdc5dafc81ed299dc707358ab4e1767",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 4,
+          "textSHA256": "50edce364b5afe380a3f6e36829fe53e11634fdb5da7e880b3ec4218f73addd1",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 5,
+          "textSHA256": "db03a46e2798e9c4411d7ac4ab62ba1f6250ffa53c00e956320c7be9e22efbb1",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "exact-contextual-repeat-with-full-source-preserved"
+        },
+        {
+          "paragraphIndex": 6,
+          "textSHA256": "6628041a3c749124f5288d7e11fd4b45a697b46522ddcdb3d9ee41a9592ab4c5",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 7,
+          "textSHA256": "bc7efe406218b9605590b173477ab425475e4ea96fbf33a19b9cdae0671ec220",
+          "meaning": "pass",
+          "fluency": "correction-recorded",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 8,
+          "textSHA256": "20bdc2ae1d6ff15fe42c7a6f7c0b6202ffdaee3cf0db7da26d9071563eec82df",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 9,
+          "textSHA256": "25827661b35f085cd2330a92ca49dd67e378500ece305a7cb084265ff99692ed",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 10,
+          "textSHA256": "a705137336bd89041b084239ee284473bb12790036738c0cc16dd5d67c35c492",
+          "meaning": "pass",
+          "fluency": "pass-with-publisher-wording-preserved",
+          "publicationStatus": "exact-contextual-repeat-with-full-source-preserved"
+        },
+        {
+          "paragraphIndex": 11,
+          "textSHA256": "3d9026d90de55b13617a9eeeeda6e5fb1b59cd6d27d00d1f7641067931a8e2fa",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 12,
+          "textSHA256": "9480e1704732e3b45b07cc31e462423ca1c950fb880ab86300c7048bbbcaf3ea",
+          "meaning": "pass",
+          "fluency": "pass-with-publisher-wording-preserved",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 13,
+          "textSHA256": "7339d34fb430cc752b2ec269063d4b03e5066136653d42bfb0405a6a0b826eba",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 14,
+          "textSHA256": "7e9bd6aeaafe7e2a07ad7d561e7e2b5a0af41a066bda9aee645ed0bac34da0d0",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 15,
+          "textSHA256": "31db69ffdbbb055f35e2d02895ca562e365a08c85997b30c6eb3cc987af724b3",
+          "meaning": "pass",
+          "fluency": "pass-with-publisher-wording-preserved",
+          "publicationStatus": "exact-contextual-repeat-with-full-source-preserved"
+        },
+        {
+          "paragraphIndex": 16,
+          "textSHA256": "98bd90a3d0d2c5efc2be7288acd3f3fc2277b9573d783954f274517a5f841b01",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 17,
+          "textSHA256": "820c78a9416cbd1e204eec05051dbccfd098068359bd4fb8e0a73977f45b42e9",
+          "meaning": "pass",
+          "fluency": "pass-with-publisher-wording-preserved",
+          "publicationStatus": "exact-contextual-repeat-with-full-source-preserved"
+        },
+        {
+          "paragraphIndex": 18,
+          "textSHA256": "5a437bb5ba4e0b19c0c16e93cff613b27fcce0ba4a77c62eda501c8fc8bae634",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 19,
+          "textSHA256": "2c6ba5203cef8eece067acd45c986616f8ea8ea33d71440ebc2621e3e006356a",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 20,
+          "textSHA256": "be62d7d8cf9b673ede108ce6c7501f39b02d966e170f7566b3c0a49d936a71eb",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 21,
+          "textSHA256": "405959b126d0f61731b2e620987e75968ef93a2b357d2711d30ef0fc34c76b45",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "exact-contextual-repeat-with-full-source-preserved"
+        },
+        {
+          "paragraphIndex": 22,
+          "textSHA256": "04a470aea2466bfa5bab83fad10434ec06a90df34f4749d741e6e480cc777ee2",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 23,
+          "textSHA256": "75551884328e55451f8eeac9e163b22f73388c34e2ebd1a48e730a82b94f4750",
+          "meaning": "pass",
+          "fluency": "pass-with-publisher-wording-preserved",
+          "publicationStatus": "exact-contextual-repeat-with-full-source-preserved"
+        },
+        {
+          "paragraphIndex": 24,
+          "textSHA256": "6f80d14d4806ab988f7401a34ddb2dfd55ee7fc0a7712fa24df0d216628f5edc",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 25,
+          "textSHA256": "e8544d87786c9d1ea37ca8c0cfe4d8e55bcbf9e47b09e898a011aa28a9cebc82",
+          "meaning": "pass",
+          "fluency": "pass-with-publisher-wording-preserved",
+          "publicationStatus": "exact-contextual-repeat-with-full-source-preserved"
+        },
+        {
+          "paragraphIndex": 26,
+          "textSHA256": "de9e26ec8b836ee7f362c16cef5c817947023a015c64ff5acca1352d94c0056a",
+          "meaning": "pass",
+          "fluency": "pass-with-publisher-wording-preserved",
+          "publicationStatus": "exact-contextual-repeat-with-full-source-preserved"
+        },
+        {
+          "paragraphIndex": 27,
+          "textSHA256": "bfbde66e9e53eb8785aa1966bea3d4e5a55c67178eca3c5235d90760b1b6cd8a",
+          "meaning": "pass",
+          "fluency": "pass-with-publisher-wording-preserved",
+          "publicationStatus": "exact-contextual-repeat-with-full-source-preserved"
+        },
+        {
+          "paragraphIndex": 28,
+          "textSHA256": "160b8dbdaf499aafd924e978541ddc1b603c7716f12aafaee681b7bca7d500b7",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 29,
+          "textSHA256": "71f7473a8351f1469e7400c403a9820bae5356a4cfc44d7bbca257c5721aa42b",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 30,
+          "textSHA256": "857d8f6150d2d301e0198fb42c6407bd8398f19b885281eccb05e0892546d6f4",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 31,
+          "textSHA256": "314613f6e7e27fcc585035b732f22a86ff32b578e925fecb107fa4b97009233b",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 32,
+          "textSHA256": "49fde7f5f78f014aafadf69b8eaed69ba41b9e867946d79117c28733f6a97448",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 33,
+          "textSHA256": "4d1a8f633195fcddd96fa965b5c951fa21023875413a9cb8c62aa147ff3bf86b",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 34,
+          "textSHA256": "e4822a3e2ee939452685c5ba76057acf7f616ee90c637979f364f64b1ff043d2",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 35,
+          "textSHA256": "e01b251d386297915c20003b6c6f238687b6cb496637fdb0953de5b78500f5bb",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 36,
+          "textSHA256": "8d5938529e3ad05e53be691fc5ebf98c350333600d4755e10f7a4d380d9bce8d",
+          "meaning": "pass",
+          "fluency": "pass-with-publisher-wording-preserved",
+          "publicationStatus": "not-held"
+        },
+        {
+          "paragraphIndex": 37,
+          "textSHA256": "d5719d450e2c5cb25608a34cf08452a794d5439cef4e23a4f7333422dded98a6",
+          "meaning": "pass",
+          "fluency": "pass",
+          "publicationStatus": "not-held"
+        }
+      ],
+      "questionLedger": [
+        {
+          "id": "S7",
+          "decision": "pass",
+          "translationSHA256": "8bbe8cab7b49b31f34a4c0df220605a9a386a5eae19bd06e85d9a0474f7653b6"
+        },
+        {
+          "id": "S8",
+          "decision": "pass",
+          "translationSHA256": "0346348dd11887c285e38c32defb5647a4ae6974ea7b358e5e9efae31456e021"
+        },
+        {
+          "id": "S42",
+          "decision": "pass",
+          "translationSHA256": "c70bb015b0e21f1aa742ec79a9adcb550ea42927007024896f5c51f0cb322084"
+        },
+        {
+          "id": "S43",
+          "decision": "pass",
+          "translationSHA256": "4558e2c452c8cd12293d3ba51e27b043e01e5d3d7fb0fc120b8224aac35f6d72"
+        },
+        {
+          "id": "S44",
+          "decision": "pass",
+          "translationSHA256": "cfed82309c4838de88e4f7dfc8ac4100a927e8d3b0a5874e8c7fdfd06aa4e55f"
+        }
+      ],
+      "limitations": "Independent AI meaning/fluency review, not human or scholarly certification or legal opinion. Publisher metadata retained internally; no visible AI label added. FullRecord explanations/benefits preserved in provenance but not approved here as additional app reading content; scope is displayed matn, Quran footnote and narrative.",
+      "publicationPresentationGuidance": {
+        "type": "nonblocking-rights-qualification",
+        "exactTerm": "No modification, addition, or deletion of the content.",
+        "finding": "No source matn deletion or modification established: complete unchanged66303 is displayed in appendix36 and cited passages are exact contextual repetitions. Current terms do not expressly prohibit this repetition alongside the full text. Absence of an explicit excerpt permission alone is not treated as a blocking defect. This is not a finding of unrestricted rights.",
+        "implementationConditions": [
+          "Keep the complete unchanged appendix, full original record and required transcript/edition/source information together with the chapter.",
+          "Keep publisher quotations/additions visibly distinct from author narrative. Do not silently edit publisher spelling or grammar.",
+          "Retain publisher update/notification and advertising conditions; source translations are not CC0."
+        ],
+        "optionalAlternative": "If future display removes the complete source appendix, reassess no-deletion compliance. An independently authored Arabic-based narrative can avoid repeating publisher excerpts, but must be reviewed and must not be falsely attributed as publisher wording."
+      },
+      "reviewRevision": "Initial precautionary excerpt hold withdrawn after checking actual layout against exact publisher term: entire original matn retained, repeated spans unchanged, no explicit prohibition on contextual repetition found. No publisher wording edited."
     }
   ]
 }

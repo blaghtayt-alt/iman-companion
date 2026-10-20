@@ -403,3 +403,653 @@ Quellen: Der Bericht über die Unterbrechung der Offenbarung, die Erscheinung Ga
 Koranübersetzung: QuranEnc.com, Translated by ‘Abdullah as-Sāmit (Frank Bubenheim) and Dr. Nadim Elias. Version 1.1.4. https://quranenc.com/en/browse/german_bubenheim. Erläuterungen und Fußnoten des Herausgebers werden unverändert wiedergegeben.
 
 Hadithzitat in diesem Kapitel: eigenständige Übersetzung des Sinns aus dem Arabischen. Zum Vergleich: Muhammad Ibn Ahmad Ibn Rassoul, Auszüge aus dem Sahih al-Bukhari, 17. Auflage 2007, S.25, Nr.4. Die dortige Fassung nennt die Bitte um Einhüllen einmal; hier bleibt die Wiederholung des arabischen Kapiteltextes erhalten.
+
+## 6 · Die erste Generation: Glaube am Anfang, noch ohne Macht
+
+Sechstes Kapitel
+
+Die erste Generation: Glaube am Anfang, noch ohne Macht
+
+Im vorigen Kapitel begann der Aufruf zum Islam in einem kleinen Kreis um den Propheten ﷺ. In Mekka gab es weder eine Moschee, in der Tausende Muslime zusammenkamen, noch einen Staat, der sie schützte, noch eine gesellschaftliche Mehrheit, die den Übertritt zum Islam leicht machte. Jeder Einzelne hörte die Botschaft und entschied sich dann, an sie zu glauben. Dabei wusste er, dass er einen Weg einschlug, dessen weiterer Verlauf für ihn noch unbekannt war.
+
+In den Büchern über das Leben des Propheten werden diese Menschen als ar-ra'il al-awwal bezeichnet: die erste Generation oder Gruppe, die diesen Weg vor den anderen beschritt. Der Koran selbst maß diesem frühen Vorangehen einen besonderen Wert bei. Über eine Gruppe von Gefährten hieß es später:
+
+«Die vorausgeeilten Ersten von den Auswanderern und den Helfern und diejenigen, die ihnen auf beste Weise gefolgt sind - Allah hat Wohlgefallen an ihnen, und sie haben Wohlgefallen an Ihm. Und Er hat für sie Gärten bereitet, durcheilt von Bächen, ewig und auf immer darin zu bleiben; das ist der großartige Erfolg.»
+
+Sure at-Tauba, 9:100.
+
+Die Muhadschirun sind die Muslime, die später Mekka verlassen und um ihres Glaubens willen auswandern werden. Die Ansar sind die Muslime aus Medina, die den Propheten ﷺ aufnehmen und unterstützen werden. Dieser Vers wurde Jahre nach der Zeit offenbart, mit der wir uns gerade beschäftigen. Er erklärt jedoch, warum der Islam den Rang jener bewahrte, die vorangingen, als die Unterstützung gering und der Weg schwierig war.
+
+Deshalb war dieses frühe Vorangehen mehr als eine Reihenfolge von Namen: Wer nahm zuerst den Islam an, und wer danach? Es bedeutete, dem Propheten ﷺ zu glauben, obwohl man um ihn herum weder ein Heer noch einen Staat oder einen sichtbaren Sieg sah. Je fremder der Islam den Menschen anfangs war, desto mehr Aufrichtigkeit und Mut verlangte die Entscheidung, sich ihm anzuschließen.
+
+Das erste Bild dieser kleinen Gemeinschaft zeigte sich im Haus des Propheten ﷺ selbst. Khadidscha, möge Allah mit ihr zufrieden sein, glaubte von Beginn der Offenbarung an ihn und bestätigte seine Wahrhaftigkeit. Als seine Ehefrau kannte sie sein Leben und seine Ehrlichkeit schon viele Jahre vor seiner Berufung. Ali ibn Abi Talib, möge Allah mit ihm zufrieden sein, gehörte ebenfalls zu den ersten Gläubigen. Damals war er ein junger Knabe, der im Haus des Propheten ﷺ lebte. Auch Zaid ibn Haritha, möge Allah mit ihm zufrieden sein, gehörte zu den ersten. Früher war er versklavt gewesen; der Prophet ﷺ hatte ihn vor seiner Berufung freigelassen, und er war ihm nahe geblieben.
+
+Hinzu kam Abu Bakr as-Siddiq, möge Allah mit ihm zufrieden sein: ein freier, unter den Quraisch bekannter Mann, ein Kaufmann mit Ansehen und Beziehungen. Er begnügte sich nicht damit, selbst zu glauben, sondern sprach mit Menschen, die er kannte und denen er vertraute. Durch seinen Aufruf nahmen Männer den Islam an, die später zu den bekanntesten Gefährten gehören sollten, darunter Uthman ibn Affan, az-Zubair ibn al-Awwam, Abdurrahman ibn Auf, Saad ibn Abi Waqqas und Talha ibn Ubaidullah, möge Allah mit ihnen zufrieden sein.
+
+Die Quellen unterscheiden sich in der Reihenfolge einiger Menschen, die nach den allerersten Gläubigen den Islam annahmen. Dennoch zeichnet sich ab, wie die Gemeinschaft entstand: ein Haushalt, dann ein Freund, dann der Freund eines Freundes. Schließlich gab es um den Propheten ﷺ eine kleine Zahl Gläubiger, die einander kannten und darin verbunden waren, Allah allein zu verehren und Seinem Gesandten zu folgen.
+
+Eine authentische Überlieferung zeigt uns, wie klein diese Zahl in einer frühen Phase des Aufrufs erscheinen konnte. Ein Mann namens Amr ibn Abasa, möge Allah mit ihm zufrieden sein, kam nach Mekka, nachdem er vom Propheten ﷺ gehört hatte. Er fand ihn in einer Lage vor, in der Vorsicht nötig war, weil seine Leute sich gegen ihn vorwagten und ihm Leid zufügten. Er fragte ihn nach seiner Botschaft. Der Prophet ﷺ erklärte, Allah habe ihn gesandt, damit die Verwandtschaftsbande gepflegt, die Götzen zerbrochen und Allah allein verehrt werde, ohne Ihm irgendetwas beizugesellen. Dann fragte Amr:
+
+„Wer steht darin mit dir?“ Er antwortete: „Ein freier Mann und ein Sklave.“ Damals waren Abu Bakr und Bilal unter den Gläubigen bei ihm. [Eigenständige Übersetzung des Sinns aus dem Arabischen.]
+
+Sahih Muslim 832.
+
+Abu Bakr, möge Allah mit ihm zufrieden sein, war ein freier Mann mit Ansehen unter seinen Leuten. Bilal ibn Rabah, möge Allah mit ihm zufrieden sein, war in Mekka versklavt. Dass beide in diesem frühen Bild nebeneinander erscheinen, ist wichtig: Die Botschaft begann nicht als Religion nur einer gesellschaftlichen Schicht. Von Anfang an fanden Wohlhabende und Arme, Freie und Versklavte, Männer, Frauen und junge Menschen zu ihr.
+
+Mit „versklavt“ ist hier ein Mensch gemeint, der dem damals in der Welt bekannten System der Sklaverei unterworfen war. Er galt als Eigentum seines Herrn und konnte nicht vollständig frei über sein Leben bestimmen. Wer freigelassen worden war, wurde mitunter Maula genannt: jemand, der aus der Sklaverei befreit worden war und mit seinem früheren Herrn durch eine gesellschaftliche Bindung verbunden blieb, die Wala hieß. Diese Unterschiede werden bald wichtig werden. Denn wer einen starken Stamm hatte, der ihn schützen konnte, befand sich in einer anderen Lage als jemand ohne Schutz davor, von anderen gefoltert zu werden.
+
+Auch Frauen waren von Anfang an dabei. Ihre Geschichte war keine bloße Randnotiz zur Geschichte der Männer. Khadidscha, möge Allah mit ihr zufrieden sein, war die erste Person, die dem Propheten ﷺ glaubte und ihm in seinem Haus beistand. Zu den Frauen, die früh den Islam annahmen, gehörte Umm al-Fadl Lubaba bint al-Harith, möge Allah mit ihr zufrieden sein, die Ehefrau von al-Abbas ibn Abdulmuttalib. Die Berichte weisen darauf hin, dass sie vor ihrem Mann Muslimin wurde und in Mekka blieb, als sich die Muslime noch in einer schwachen, schutzlosen Lage befanden.
+
+Zu den ersten gläubigen Frauen gehörte auch Sumayya bint Khubbat, die Mutter von Ammar ibn Yasir, möge Allah mit ihnen zufrieden sein. Sie war keine angesehene Frau der Quraisch, deren Stamm sie schützte, sondern gehörte zu den Schutzlosen: Menschen ohne ausreichend gesellschaftliche oder stammesbezogene Macht, um sich zu schützen. Als die Verfolgung zunahm, sollte sie an ihrem Islam festhalten, bis sie getötet wurde. Gelehrte haben nach Ibn Saad mit einer authentischen Überlieferungskette berichtet, dass sie die erste Märtyrerin im Islam war. Was der Familie Yasir widerfuhr, wird genauer erzählt, wenn die Geschichte die Zeit erreicht, in der die Quraisch Muslime folterten.
+
+Zu dieser Generation gehörten auch sehr junge Menschen. Dass Ali, möge Allah mit ihm zufrieden sein, schon am Anfang der Geschichte vorkommt, erinnert uns daran, dass der Glaube nicht nur eine Entscheidung älterer Menschen war. Biografische Sammelwerke und Lebensbeschreibungen nennen mehrere Gefährten, die bei ihrem Übertritt sehr jung waren und später Badr, Uhud, die Auswanderung und die übrigen Ereignisse der Prophetenbiografie erlebten. Damals waren sie noch nicht die großen Namen, die wir heute kennen. Es waren junge Menschen, die beschlossen, ihre Zukunft an eine Botschaft zu knüpfen, die noch ganz am Anfang stand.
+
+Diese Bedeutung des frühen Vorangehens blieb auch dann erhalten, als die muslimische Gemeinschaft größer wurde. Jahre später kam es zu einer kleineren Auseinandersetzung zwischen Abu Bakr und Umar, möge Allah mit beiden zufrieden sein. Darauf erinnerte der Prophet ﷺ die Gefährten daran, wie Abu Bakr ihm am Anfang beigestanden hatte, und sagte:
+
+„Allah hat mich zu euch gesandt, und ihr sagtet: ‚Du lügst.‘ Abu Bakr aber sagte: ‚Er spricht die Wahrheit.‘ Er stand mir mit seiner Person und seinem Vermögen bei. Wollt ihr mir meinen Gefährten nun nicht in Ruhe lassen?“ [Eigenständige Übersetzung des Sinns aus dem Arabischen.]
+
+Sahih al-Bukhari 3661.
+
+Damit war nicht gemeint, dass die anderen Gefährten keine Verdienste hätten. Vielmehr hat der Anfang einen Preis, den jemand, der erst später auf den inzwischen breiter gewordenen Weg kommt, nicht sieht. In einem ähnlichen Sinn sagte Allah über das Spenden und Kämpfen in der Zeit, bevor die Muslime stärker wurden:
+
+«Und was ist mit euch, daß ihr nicht auf Allahs Weg ausgeben sollt, wo doch das Erbe der Himmel und der Erde Allah gehört. Nicht gleich sind diejenigen von euch, die vor dem Sieg ausgegeben und gekämpft haben, ... Diese haben eine höhere Rangstufe als diejenigen, die erst nachher ausgegeben und gekämpft haben. Allen aber hat Allah das Beste versprochen. Und Allah ist dessen, was ihr tut, Kundig.»
+
+Sure al-Hadid, 57:10. [Hier wird der vollständige veröffentlichte Vers wiedergegeben; der arabische Kapiteltext zitiert einen Ausschnitt.]
+
+Dieser Vers wurde zu einem späteren Zeitpunkt offenbart. Die Koranausleger unterscheiden sich darin, welches Ereignis mit dem darin genannten „Sieg“ gemeint ist. Der Gedanke, auf den es hier ankommt, ist jedoch klar: Dieselbe Tat kann größeren Wert haben, wenn sie in einer Zeit vollbracht wird, in der Unterstützung mehr kostet und es weniger Unterstützer gibt.
+
+In den ersten Jahren in Mekka konnte schon die Erklärung, Muhammad ﷺ zu folgen, das Verhältnis eines Menschen zu seiner Familie, seinem Stamm und seinem Herrn verändern. Manche Gläubige hatten Familien, die sie schützten; anderen fehlte dieser Schutz. Manche waren reich und konnten über ihr Vermögen verfügen; andere waren versklavt und konnten das Haus ihres Herrn nicht verlassen, wann immer sie wollten. Dennoch verband der Glaube sie zu einer einzigen Gemeinschaft.
+
+Sie lernten den jeweils offenbarten Koran und dienten Allah so, wie Er es ihnen zu jener Zeit vorgeschrieben hatte. Das Gebet gehörte zu den frühesten religiösen Handlungen im Islam. Die fünf täglichen Gebete sollten jedoch erst später verpflichtend werden, in der Nacht der nächtlichen Reise und des Aufstiegs in den Himmel, des Isra und Mi'radsch (Sahih al-Bukhari 349, 350). Nicht alle Einzelheiten der Gottesverehrung in dieser frühen Zeit sind mit derselben Gewissheit belegt; die dazu überlieferten Berichte sind unterschiedlich zuverlässig.
+
+So begann der Islam in Mekka nicht als gewaltige Menschenmenge, sondern mit wenigen Einzelnen. Manche kamen aus dem Haus des Propheten ﷺ, andere aus den führenden Kreisen der Quraisch, manche waren jung, andere versklavt oder schutzlos. Unter ihnen waren Frauen, die diesen Weg von Anfang an mitgingen. Sie verband weder eine gemeinsame Abstammung noch eine gemeinsame gesellschaftliche Schicht. Was sie verband, war ihr Glaube an die Botschaft, bevor sie deren Ergebnisse gesehen hatten.
+
+Als diese kleine Zahl wuchs, ließ sich die Anwesenheit der Muslime nicht mehr so leicht vor den Quraisch verbergen. Der Aufruf, der in Häusern und einzelnen Begegnungen begonnen hatte, wurde sichtbarer. Die mekkanische Gesellschaft begann zu erkennen, dass es nicht nur um die persönliche Religionswahl einiger Menschen ging. Es war ein Aufruf, der ihre Götzen, ihre Bräuche und den Rang dessen berührte, was sie von ihren Vorfahren übernommen hatten.
+
+Von hier an wird sich der Charakter der Geschichte verändern. Die Frage lautet nicht mehr nur: Wer glaubte? Sie wird auch lauten: Was werden die Quraisch tun, wenn sie erkennen, dass dieser Aufruf weitergeht und immer mehr Menschen daran glauben?
+
+Wichtigste Quellen dieses Kapitels
+
+Quellen: Bedeutung und Vorzug der frühen Gläubigen: Sure at-Tauba 9:100 und Sure al-Hadid 57:10. Amr ibn Abasas Bericht über den frühen Aufruf und die Anwesenheit Abu Bakrs und Bilals: Sahih Muslim 832. Der Hadith über die Würdigung von Abu Bakrs frühem Glauben: Sahih al-Bukhari 3661. Namen und Lebensläufe der ersten Gläubigen: Ibn Hischams Prophetenbiografie nach Ibn Ishaq und Ibn Saads at-Tabaqat al-kubra. Umm al-Fadl als eine der frühen Musliminnen: adh-Dhahabis Siyar alam an-nubala. Sumayya, möge Allah mit ihr zufrieden sein, als erste Märtyrerin: Ibn Hadschar überlieferte dies nach Ibn Saad mit einer authentischen Überlieferungskette von Mudschahid.
+
+Koranübersetzung: QuranEnc.com, Übersetzt von ‘Abdullah as-Sāmit (Frank Bubenheim) and Dr. Nadim Elias. Version 1.1.4. https://quranenc.com/en/browse/german_bubenheim. Erläuterungen und Fußnoten des Herausgebers werden unverändert wiedergegeben.
+
+## 7 · Die ersten gläubigen Frauen: Von Anfang an auf dem Weg
+
+Siebtes Kapitel
+
+Die ersten gläubigen Frauen: Von Anfang an auf dem Weg
+
+Das vorige Kapitel endete mit dem Bild einer kleinen Gemeinschaft, die sich um den Propheten ﷺ bildete: Männer und Frauen, Freie und Versklavte, Ältere und Junge. Wenn wir diese Gemeinschaft näher betrachten, sehen wir, dass die Anfänge des Islam nicht allein eine Geschichte von Männern waren. Frauen waren von dem ersten Augenblick an dabei, in dem die Offenbarung begann.
+
+Khadidscha, möge Allah mit ihr zufrieden sein, war die erste Person, die den Propheten ﷺ als wahrhaftig anerkannte und an ihn glaubte. Daher ist der erste menschliche Name, der nach Allahs Gesandtem ﷺ in die Geschichte des Islam eintritt, der Name einer Frau. Als der Kreis etwas größer wurde, traten weitere Frauen hervor, die sich für den Glauben entschieden. Damals waren die Muslime weder eine Macht, auf die man sich verlassen konnte, noch eine große Gemeinschaft, bei der neue Gläubige Schutz fanden.
+
+Jahre später, als der Koran von der Auswanderung, dem erlittenen Leid und den Opfern der Gläubigen sprach, umfasste seine Formulierung Männer und Frauen gleichermaßen:
+
+«Da erhörte sie ihr Herr: „Ich lasse kein Werk eines (Gutes) Tuenden von euch verlorengehen, sei es von Mann oder Frau; die einen von euch sind von den anderen. Denen also, die ausgewandert und aus ihren Wohnstätten vertrieben worden sind und denen auf Meinem Weg Leid zugefügt worden ist, und die gekämpft haben und getötet worden sind, werde Ich ganz gewiß ihre bösen Taten tilgen und sie ganz gewiß in Gärten eingehen lassen, durcheilt von Bächen, als Belohnung von Allah. Und Allah - bei Ihm ist die schöne Belohnung.»
+
+Sure Al Imran, 3:195.
+
+Dieser Vers wurde in Medina offenbart, also nach der mekkanischen Phase, in der sich unsere Geschichte gerade befindet. Seine Worte beschreiben jedoch genau, was viele Frauen der ersten Generation tun würden: glauben, Leid erfahren und um ihrer Religion willen Häuser und Heimat verlassen. Allah lässt ihre Taten nicht verloren gehen.
+
+Zu den Frauen, deren Lebensgeschichte vom Haus des Propheten ﷺ vor seiner Berufung bis in die Zeit des Islam reicht, gehört Umm Aiman, möge Allah mit ihr zufrieden sein. Ihr Name war Baraka, und sie stammte aus Abessinien. Sie wurde als Betreuerin des Propheten ﷺ bekannt, also als eine der Personen, die sich in seiner Kindheit um ihn gekümmert hatten. Die biografischen Werke berichten, dass sie zum Haushalt von Abdullah, dem Vater des Propheten ﷺ, gehörte, dann zum Haushalt des Propheten ﷺ kam und freigelassen wurde. Maula beziehungsweise Maulat bezeichnet in einem solchen Zusammenhang einen Menschen, der versklavt gewesen und dann freigelassen worden war, wobei eine gesellschaftliche Verbindung zum Haushalt bestehen blieb, der ihn freigelassen hatte.
+
+Umm Aiman, möge Allah mit ihr zufrieden sein, erlebte einen langen Wandel: Sie kannte Muhammad ﷺ als Kind, sah ihn dann als erwachsenen Mann und schließlich als Propheten. Sie glaubte an ihn und gehörte zu den ersten gläubigen Frauen. Später sollte sie wie andere Muslime auswandern. Sie und ihre Familie sollten weiter in den Ereignissen seines Lebens vorkommen: Sie war die Mutter von Aiman ibn Ubaid und heiratete später Zaid ibn Haritha, möge Allah mit ihm zufrieden sein, dem sie Usama ibn Zaid gebar, möge Allah mit ihm zufrieden sein. So entschied sich eine Frau, die dem Haus des Propheten schon seit seiner Kindheit nahestand, für den Glauben, als diese Entscheidung Opfer verlangte.
+
+In einem anderen Haus in Mekka lebte Lubaba al-kubra, möge Allah mit ihr zufrieden sein. Sie war unter ihrem Beinamen Umm al-Fadl bekannt und mit al-Abbas ibn Abdulmuttalib, dem Onkel des Propheten ﷺ, verheiratet. Ibn Saad zählt sie zu den ersten Frauen, die nach Khadidscha, möge Allah mit ihr zufrieden sein, den Islam annahmen. Unter den Biografen besteht allerdings Uneinigkeit darüber, welche Frau nach Khadidscha als Erste glaubte.
+
+Dasselbe wird an Fatima bint al-Khattab, möge Allah mit ihr zufrieden sein, deutlich, der Schwester von Umar ibn al-Khattab. Sie und ihr Mann Said ibn Zaid, möge Allah mit ihm zufrieden sein, nahmen den Islam vor Umar an. Später wird ihr Haus selbst eine wichtige Station in der Geschichte seines Übertritts sein. Manchmal kam der Glaube durch eine Frau in ein Haus, bevor einer seiner später berühmtesten Männer ihn annahm.
+
+Nicht alle Frauen, die Musliminnen wurden, verfügten über den Schutz einer Familie oder eines Stammes. In Mekka lebten versklavte Frauen: Frauen, die der Sklaverei unterworfen waren und nicht vollständig frei über ihr Leben bestimmen konnten. Einige nahmen den Islam an, und ihr Glaube wurde zum Anlass ihrer Folter. Denn ein Herr konnte einem versklavten Menschen Leid zufügen, ohne dass ein starker Stamm ihn daran hinderte.
+
+Die Bücher über das Leben des Propheten bewahren Namen dieser Frauen, statt sie namenlos zu lassen: Zinnira, an-Nahdiyya und ihre Tochter, Umm Ubais sowie eine versklavte junge Frau der Banu Muammil. Die Berichte erzählen, dass Abu Bakr as-Siddiq, möge Allah mit ihm zufrieden sein, mehrere schutzlose Menschen kaufte, die wegen ihres Islam gefoltert wurden, und sie anschließend freiließ. Zu ihnen gehörten diese Frauen. Freilassung bedeutet, einen Menschen aus der Sklaverei zu befreien, sodass er frei wird.
+
+Eine der bekanntesten dieser Erzählungen handelt von Zinnira, möge Allah mit ihr zufrieden sein. Sie gehörte zu den ersten Musliminnen und zu denen, die gefoltert wurden; dabei wurde ihr Augenlicht beeinträchtigt. Einige Götzendiener behaupteten, al-Lat und al-Uzza, zwei von den Arabern verehrte Götzen, hätten dies bewirkt. Sie wies diesen Glauben zurück und hielt an ihrem eigenen fest. Die Berichte der Prophetenbiografie erzählen, dass ihr Augenlicht zurückkehrte. Darauf erklärten die Götzendiener dies mit „Muhammads Zauberei“. Die Begebenheit zeigt etwas von der Atmosphäre, in der die Gläubigen lebten: Kam ein Unglück, schrieben ihre Gegner es den Götzen zu. Ging es vorüber, suchten sie nach einer anderen Erklärung, mit der sie an ihrer Ablehnung des Aufrufs festhalten konnten.
+
+Sumayya bint Khubbat, möge Allah mit ihr zufrieden sein, zeigte besonders deutlich, wie hoch der Preis dieses Glaubens werden konnte. Im vorigen Kapitel begegneten wir ihr als einer der Schutzlosen. Nach dem bei den Biografen bekannten und belegten Bericht sollte sie die erste Märtyrerin im Islam werden. Sie war eine Frau, die in einer Zeit der Schwäche zur Religion fand, ohne einen Rang im Stammesgefüge zu besitzen, der sie vor Leid bewahrte. Dennoch blieb sie standhaft, bis sie getötet wurde.
+
+Schon ganz am Anfang stehen damit zwei Tatsachen, an denen man nicht vorbeigehen kann: Die erste Person, die an den Propheten ﷺ glaubte, war Khadidscha, möge Allah mit ihr zufrieden sein. Und die erste Person, die im Islam als Märtyrer starb, war ebenfalls eine Frau: Sumayya, möge Allah mit ihr zufrieden sein. Zwischen diesen beiden stehen viele weitere Frauen, die den Glauben unter ihren jeweils eigenen Lebensumständen trugen.
+
+Zu den ersten gläubigen Frauen gehörten auch Frauen aus den Häusern führender Quraisch. Ihr Glaube folgte nicht automatisch der Haltung ihres Vaters, Mannes oder Stammes. Ein besonders deutliches Beispiel ist Umm Kulthum bint Uqba ibn Abi Muait, möge Allah mit ihr zufrieden sein. Ihr Vater gehörte zu denen, die dem Propheten ﷺ besonders schweres Leid zufügten, und dennoch nahm seine Tochter den Islam an. Die Stärke ihrer Entscheidung sollte Jahre später sichtbar werden: Nach dem Vertrag von al-Hudaibiyya wanderte sie allein nach Medina aus, während ihre Familie versuchte, sie zurückzuholen. Die entgegengesetzte Haltung ihrer Familie hinderte sie nicht daran, sich für ihre Religion zu entscheiden.
+
+Noch deutlicher zeigt sich dies an Ramla bint Abi Sufyan, möge Allah mit ihr zufrieden sein, die als Umm Habiba bekannt ist. Ihr Vater Abu Sufyan war damals einer der führenden Männer der Quraisch. Sie nahm dennoch den Islam an und wanderte später mit ihrem Mann Ubaidullah ibn Dschahsch nach Abessinien aus. Die biografischen Werke berichten, ihr Mann sei dort Christ geworden und habe den Islam verlassen, während sie ihrem Glauben treu geblieben sei. Die Zuverlässigkeit der Nachricht über seinen Übertritt zum Christentum ist jedoch Gegenstand wissenschaftlicher Prüfung. Später sollte Allah sie ehren, indem sie Allahs Gesandten ﷺ heiratete. Ihr Leben zeigt, dass der Glaube einer Frau in der ersten Generation nicht einfach ein Spiegel der Entscheidung des Mannes an ihrer Seite war.
+
+Die Auswanderung nach Abessinien machte dann eine neue Art von Opfer sichtbar. Auswanderung bedeutete hier, das eigene Land zu verlassen und in ein anderes zu gehen, um die Religion zu bewahren. Die Reise von Mekka nach Abessinien war kein kurzer, bequemer Ausflug. Sie bedeutete, sich von Angehörigen und Heimat zu trennen, in ein anderes Land zu einem anderen Volk zu ziehen und das Meer mit den damals verfügbaren Reisemitteln zu überqueren.
+
+Eine der ersten Frauen, die dies erlebten, war Ruqayya, möge Allah mit ihr zufrieden sein, die Tochter von Allahs Gesandtem ﷺ, gemeinsam mit ihrem Mann Uthman ibn Affan, möge Allah mit ihm zufrieden sein. Selbst das Haus des Propheten ﷺ blieb also von den Opfern der Verkündigung nicht unberührt. Seine Tochter sollte Mekka, wo sie geboren war, verlassen und um ihres Glaubens willen in einem fernen Land als Fremde leben.
+
+Auch Laila bint Abi Hathma, möge Allah mit ihr zufrieden sein, wanderte mit ihrem Mann Amir ibn Rabia, möge Allah mit ihm zufrieden sein, nach Abessinien aus. Es gibt viele weitere Namen, die Leser vielleicht nicht kennen. In biografischen Sammelwerken und Lebensbeschreibungen begegnen sie immer wieder mit kurzen Wendungen wie „nahm früh den Islam an“ oder „wanderte nach Abessinien aus“. Hinter diesen wenigen Worten stehen schwere Entscheidungen: sich der Gesellschaft entgegenzustellen, das Haus zu verlassen, die Reise auf sich zu nehmen und in der Fremde zu leben.
+
+Zu den ersten Musliminnen zu gehören, verlangte damals Mut und Opferbereitschaft. Es ging um mehr als den Beitritt zu einer bereits gefestigten Gemeinschaft. Eine frühe Gläubige trat einer Religion bei, deren Anhänger noch wenige waren. Ihr Glaube konnte den Zorn ihrer Familie, ihres Herrn oder ihres Stammes auslösen. Kam später die Auswanderung hinzu, musste sie einen vertrauten Ort verlassen und an einen Ort ziehen, an dem sie noch nie gelebt hatte.
+
+Nicht alle Frauen befanden sich in derselben Lage. Khadidscha, möge Allah mit ihr zufrieden sein, war eine Frau mit Vermögen und Ansehen. Zinnira und Umm Ubais gehörten zu den Schutzlosen. Ruqayya, möge Allah mit ihr zufrieden sein, war die Tochter des Propheten ﷺ, Umm Habiba, möge Allah mit ihr zufrieden sein, die Tochter eines führenden Mannes der Quraisch. Umm Aiman war eine Frau aus Abessinien, die seit langer Zeit im Haus des Propheten lebte. Unterschiedliche Haushalte und Herkunft verhinderten nicht, dass sie alle im selben Glauben verbunden waren.
+
+Als immer mehr Männer und Frauen den Islam annahmen, begann Mekka zu erkennen, dass dieser Aufruf über einen einzelnen Haushalt oder einen engen Freundeskreis hinausging. Er hatte nun Anhänger aus verschiedenen Zweigen der Quraisch, aus unterschiedlichen gesellschaftlichen Schichten sowie unter Männern und Frauen. Damit rückte die Auseinandersetzung näher, die sich am Ende des vorigen Kapitels bereits abgezeichnet hatte.
+
+Für die führenden Männer der Quraisch bestand das Problem nicht mehr nur darin, dass Muhammad ﷺ allein etwas Neues sagte. Das Problem war, dass Menschen ihm glaubten, dass ihre Zahl wuchs und dass manche von ihnen nicht zurückwichen, selbst wenn sie einen wirklichen Preis dafür zahlten. Hier beginnt ein neuer Abschnitt der Prophetenbiografie: Wie versuchten die Quraisch, den Aufruf aufzuhalten, bevor er sich weiter ausbreitete?
+
+Wichtigste Quellen dieses Kapitels
+
+Quellen: Sure Al Imran 3:195. Biografische Angaben: Ibn Saad und Ibn Hischam. Umm Aiman Baraka, ihre Betreuung des Propheten ﷺ und ihre Auswanderung: al-Mizzis Tahdhib al-kamal. Die Berichte über schutzlose Frauen, die Abu Bakr freiließ, darunter Zinnira, an-Nahdiyya und Umm Ubais: Ibn Ishaqs Berichte sowie Ibn al-Athirs Überlieferung in al-Kamil. Ruqayyas Auswanderung mit Uthman nach Abessinien, möge Allah mit ihr zufrieden sein: biografische Werke, darunter adh-Dhahabis Siyar alam an-nubala. Der Bericht über den Übertritt von Umm Habibas Mann zum Christentum und ihre Standhaftigkeit stammt aus biografischen Werken und al-Mustadrak, darunter Überlieferungen von az-Zuhri; die Zuverlässigkeit der Nachricht über seinen Übertritt ist umstritten. Zur Untersuchung der Überlieferungsketten: Islam Question & Answer, Antwort 459340. Auch über die Reihenfolge derjenigen, die nach Khadidscha, möge Allah mit ihr zufrieden sein, den Islam annahmen, besteht Uneinigkeit; deshalb wird sie hier nicht als endgültig feststehend dargestellt.
+
+Koranübersetzung: QuranEnc.com, Übersetzt von ‘Abdullah as-Sāmit (Frank Bubenheim) and Dr. Nadim Elias. Version 1.1.4. https://quranenc.com/en/browse/german_bubenheim. Erläuterungen und Fußnoten des Herausgebers werden unverändert wiedergegeben.
+
+## 8 · Im Verborgenen: Wachsamkeit der ersten Gläubigen und die Verbreitung der Nachricht
+
+Achtes Kapitel
+
+Im Verborgenen: Wachsamkeit der ersten Gläubigen und die Verbreitung der Nachricht
+
+Nachdem wir einige der ersten Männer und Frauen kennengelernt haben, die den Islam annahmen, begegnet uns eine Frage, die zunächst verwirrend wirken kann: Einige Gefährten, möge Allah mit ihnen zufrieden sein, beschrieben ihren Platz unter den ersten Muslimen auf eine Weise, die auf den ersten Blick nicht zu den bereits genannten Namen passt.
+
+So sagte Saad ibn Abi Waqqas, möge Allah mit ihm zufrieden sein:
+
+Sinngemäß: »Sieben Tage lang machte ich ein Drittel der Muslime aus.« — Sahih al-Buchari 3727.
+
+Amr ibn Abasa, möge Allah mit ihm zufrieden sein, berichtete etwas, aus dem hervorgeht, dass er sich zu einem bestimmten Zeitpunkt für einen von vier Muslimen hielt. Ähnliche Formulierungen finden sich auch in Berichten anderer früher Gläubiger.
+
+Wie lässt sich das verstehen, wenn wir bereits von der Annahme des Islams durch Chadidscha, Ali ibn Abi Talib, Zayd ibn Haritha und Abu Bakr as-Siddiq, möge Allah mit ihnen zufrieden sein, sowie durch weitere Menschen nach ihnen erfahren haben?
+
+Der Schlüssel zum Verständnis dieser Berichte liegt in der besonderen Situation jener Zeit.
+
+Viele Muslime hielten ihren Glauben in den ersten Jahren verborgen. Ein Mann konnte wissen, dass er den Islam angenommen hatte, ohne zu wissen, dass andere Menschen in seiner Umgebung ihm bereits darin vorausgegangen waren. Es gab keine öffentliche Liste der Gläubigen, die allen bekannt war. Dass jemand Muslim geworden war, war vielmehr eine äußerst sensible Information: Wurde sie bekannt, konnte ihm durch seine Familie oder seine Stammesangehörigen Leid drohen.
+
+Das bedeutet nicht, dass die Menschen in Mekka gar nichts von Muhammad ﷺ oder der neuen Religion gehört hätten. Sie konnten erfahren, dass Muhammad ﷺ etwas Neues verkündete oder zur alleinigen Anbetung Allahs aufrief. Davon zu hören war jedoch etwas anderes, als zu wissen, wer im Verborgenen an ihn glaubte.
+
+Wenn ein Gefährte also sagte: »Ich war der Dritte« oder »Ich war der Vierte«, muss dies keine genaue Zählung aller Muslime in Mekka gewesen sein. Es kann vielmehr beschreiben, was der Betreffende damals wusste. Auf dieses Verständnis haben Gelehrte hingewiesen, wenn sie diese Überlieferungen miteinander in Einklang brachten.
+
+Besonders deutlich wird das im Bericht von Amr ibn Abasa, möge Allah mit ihm zufrieden sein. Bei seiner ersten Begegnung fragte er den Propheten ﷺ nach der Lage des Aufrufs. Auf Amrs Frage, wer ihm darin folge, antwortete er ﷺ sinngemäß: »Ein freier Mann und ein Sklave.« Amr erwähnte, dass damals Abu Bakr und Bilal, möge Allah mit ihnen zufrieden sein, bei ihm waren. Dennoch hatten auch andere zuvor den Islam angenommen. Das zeigt, wie sehr das Leben der ersten Gläubigen im Verborgenen lag.
+
+Vorsicht war nicht nur am Anfang wichtig
+
+Der sorgsame Umgang mit Informationen endete nicht einfach mit den ersten Jahren in Mekka. Im weiteren Verlauf der Prophetenbiografie werden wir ihm in unterschiedlichen Formen begegnen, entsprechend der jeweiligen Situation.
+
+Beim Beginn der Auswanderung musste man vorsichtig damit umgehen, wer aufbrechen würde, wann und wohin. Nachdem die muslimische Gemeinschaft in Medina entstanden war, wurden Informationen über die Bewegungen eines Heeres und sein Ziel wichtig und nicht ohne Anlass offengelegt.
+
+Kaab ibn Malik, möge Allah mit ihm zufrieden sein, berichtete, dass der Gesandte Allahs ﷺ vor einem Feldzug häufig den Eindruck erweckte, ein anderes Ziel zu verfolgen. Er verwendete also Worte, die seine tatsächliche Richtung nicht verrieten, damit die Information niemanden erreichte, der daraus Nutzen ziehen konnte. Der Feldzug nach Tabuk bildete eine Ausnahme: Der Weg war weit, die Hitze groß und der Gegner zahlreich. Deshalb mussten die Menschen ihr Ziel kennen, um sich ausreichend vorzubereiten. — Sahih al-Buchari 2947–2948.
+
+Vor Badr schickte der Prophet ﷺ Busaysa, möge Allah mit ihm zufrieden sein, als Kundschafter aus, also als jemanden, der Nachrichten einholen sollte. Er sollte sich über die Bewegungen der Handelskarawane Abu Sufyans informieren. Die Einzelheiten dieser Ereignisse folgen an ihrer Stelle in der Prophetenbiografie.
+
+Auch der Koran wird später die Bedeutung von Wachsamkeit und Vorsicht betonen, sogar beim Gebet angesichts eines Feindes. Über das Gebet in Gefahr sagt Allah der Erhabene Folgendes. Die arabische Vorlage führt hier einen Ausschnitt an; zur unveränderten Wiedergabe der veröffentlichten Übersetzung steht hier der vollständige Vers:
+
+«Und wenn du unter ihnen bist und nun für sie das Gebet anführst, dann soll sich ein Teil von ihnen mit dir aufstellen, doch sollen sie ihre Waffen nehmen. Wenn sie (die Betenden) sich dann niedergeworfen haben, sollen sie hinter euch treten’, und ein anderer Teil, die noch nicht gebetet hat, soll (nach vorne) kommen. Und sie sollen dann (auch) mit dir beten; doch sollen sie auf ihrer Hut sein und ihre Waffen nehmen. Diejenigen, die ungläubig sind, möchten, daß ihr eure Waffen und eure Sachen außer acht laßt, so daß sie auf einmal über euch herfallen (können). Es ist keine Sünde für euch, wenn ihr unter Regen zu leiden habt oder krank seid, eure Waffen abzulegen. Aber seid auf eurer Hut. Gewiß, Allah bereitet für die Ungläubigen schmachvolle Strafe.»
+
+Anschließend führt die arabische Vorlage aus demselben Vers nochmals die Aufforderung zur Vorsicht an. Auch an dieser Stelle wird der vollständige veröffentlichte Vers wiedergegeben:
+
+«Und wenn du unter ihnen bist und nun für sie das Gebet anführst, dann soll sich ein Teil von ihnen mit dir aufstellen, doch sollen sie ihre Waffen nehmen. Wenn sie (die Betenden) sich dann niedergeworfen haben, sollen sie hinter euch treten’, und ein anderer Teil, die noch nicht gebetet hat, soll (nach vorne) kommen. Und sie sollen dann (auch) mit dir beten; doch sollen sie auf ihrer Hut sein und ihre Waffen nehmen. Diejenigen, die ungläubig sind, möchten, daß ihr eure Waffen und eure Sachen außer acht laßt, so daß sie auf einmal über euch herfallen (können). Es ist keine Sünde für euch, wenn ihr unter Regen zu leiden habt oder krank seid, eure Waffen abzulegen. Aber seid auf eurer Hut. Gewiß, Allah bereitet für die Ungläubigen schmachvolle Strafe.» — Sure an-Nisa: 102.
+
+Ein besonders deutliches Beispiel wird sich Jahre später vor der Einnahme Mekkas ereignen. Der Prophet ﷺ wollte die Nachricht vom bevorstehenden Zug nach Mekka geheim halten. Doch Hatib ibn Abi Baltaa, möge Allah mit ihm zufrieden sein, schickte einigen Menschen in Mekka einen Brief und teilte ihnen etwas vom Vorhaben des Gesandten Allahs ﷺ mit.
+
+Ibn Ishaq berichtet, dass die Nachricht von diesem Brief den Propheten ﷺ vom Himmel erreichte. Der Prophet ﷺ schickte Ali ibn Abi Talib, az-Zubayr und al-Miqdad, möge Allah mit ihnen zufrieden sein. Sie holten die Frau ein, die den Brief trug, und brachten das Schreiben zurück.
+
+Als der Prophet ﷺ Hatib nach dem Grund seines Handelns fragte, erklärte dieser: Er habe dies weder aus Unglauben noch aus Abwendung vom Islam getan. Er habe vielmehr um seine Familie in Mekka gefürchtet, weil er dort anders als viele Auswanderer keine starken verwandtschaftlichen Bindungen hatte, die sie schützten. Der Prophet ﷺ nahm seine Erklärung an und behandelte ihn nicht als Heuchler. Die Tat selbst blieb dennoch schwerwiegend.
+
+Zu diesem Ereignis wurde folgendes Wort Allahs des Erhabenen herabgesandt. Die arabische Vorlage zitiert nur den Anfang; hier folgt der vollständige veröffentlichte Vers:
+
+«O die ihr glaubt, nehmt nicht Meine Feinde und eure Feinde zu Schutzherren, indem ihr ihnen Zuneigung entgegenbringt, wo sie doch das verleugnen, was von der Wahrheit zu euch gekommen ist, und den Gesandten und euch selbst vertreiben, weil ihr an Allah, euren Herrn, glaubt. (Nehmt sie nicht zu Schutzherren), wenn ihr wirklich ausgezogen seid zum Abmühen auf Meinem Weg und im Trachten nach Meiner Zufriedenheit. (Tut das nicht, indem) ihr ihnen heimlich Zuneigung zeigt, wo Ich doch besser weiß, was ihr verbergt und was ihr offenlegt. Und wer von euch das tut, der ist fürwahr vom rechten Weg abgeirrt.» — Sure al-Mumtahana: 1.
+
+Auf die vollständige Geschichte Hatibs, möge Allah mit ihm zufrieden sein, kommen wir bei der Einnahme Mekkas zurück. Hier ist entscheidend: Die Vorsicht, die Muslime schon in der frühen mekkanischen Zeit lernten, blieb in verschiedenen Formen auch später wichtig.
+
+Ein Junge, der Schafe hütete
+
+Zu den Menschen, die in jenen ersten Jahren den Islam annahmen, gehörte auch Abdullah ibn Masud, möge Allah mit ihm zufrieden sein.
+
+Ibn Masud war damals ein junger Hirte und hütete Schafe für Uqba ibn Abi Muayt. Eines Tages kamen der Gesandte Allahs ﷺ und Abu Bakr as-Siddiq, möge Allah mit ihm zufrieden sein, an ihm vorbei. Sie waren den Götzendienern entkommen.
+
+Sie fragten ihn sinngemäß:
+
+»Junge, hast du Milch, die du uns zu trinken geben kannst?«
+
+Ibn Masud antwortete mit Worten, die schon damals etwas von seinem Charakter erkennen ließen:
+
+»Sie sind mir anvertraut; ich werde euch keine Milch zu trinken geben.«
+
+Die Tiere gehörten ihm nicht. Er hatte sie lediglich anvertraut bekommen und hielt sich deshalb nicht für berechtigt, ohne Erlaubnis ihres Besitzers Milch von ihnen wegzugeben.
+
+Der Prophet ﷺ fragte ihn daraufhin, ob er ein junges weibliches Schaf habe, das noch nicht von einem Bock gedeckt worden sei. Gemeint war ein junges Tier, das sich noch nicht gepaart hatte und bei dem normalerweise keine Milch im Euter zu erwarten war.
+
+Er brachte ein solches Tier herbei.
+
+Der Prophet ﷺ strich über dessen Euter und sprach ein Bittgebet. Darauf füllte sich das Euter mit Milch. Abu Bakr, möge Allah mit ihm zufrieden sein, brachte ein Gefäß. Man molk die Milch hinein, und sie tranken. Dann sagte der Prophet ﷺ sinngemäß zum Euter:
+
+»Zieh dich wieder zusammen.«
+
+Da wurde es wieder so, wie es zuvor gewesen war.
+
+Mit dieser Begegnung endete die Geschichte nicht. Ibn Masud kam später wieder zum Propheten ﷺ und sagte sinngemäß:
+
+»Lehre mich etwas von diesen Worten.«
+
+Damit meinte er den Koran.
+
+Der Prophet ﷺ sagte ihm sinngemäß:
+
+»Du bist ein Junge, dem das Rechte und Gute eingegeben ist.«
+
+Dieser Junge wurde Jahre später zu einem der bekanntesten Gefährten des Gesandten Allahs ﷺ auf dem Gebiet des Korans. Er sagte über sich, er habe siebzig Suren unmittelbar aus dem Mund des Gesandten Allahs ﷺ gelernt; niemand bestreite ihm dies.
+
+— Musnad Ahmad 4412; Sahih Ibn Hibban 6504.
+
+Ein Mann von außerhalb Mekkas sucht den Propheten ﷺ
+
+Nicht alle frühen Gläubigen stammten aus Mekka.
+
+Amr ibn Abasa as-Sulami, möge Allah mit ihm zufrieden sein, lebte weit entfernt. Über seine Zeit vor dem Islam erzählte er, dass er seine Stammesangehörigen wegen ihrer Götzenverehrung als irregeleitet angesehen habe.
+
+Dann hörte er, in Mekka sei ein Mann aufgetreten, der Botschaften verkünde. Er bestieg sein Reittier und begab sich zu ihm.
+
+Amr kam zu einer Zeit nach Mekka, in der sich der Gesandte Allahs ﷺ wegen der Anfeindungen seiner Stammesangehörigen verborgen hielt. Es gelang ihm, zu ihm zu gelangen. Er fragte ihn sinngemäß:
+
+— Was bist du?
+
+Er ﷺ antwortete:
+
+»Ich bin ein Prophet.«
+
+Amr fragte:
+
+— Und was ist ein Prophet?
+
+Er antwortete:
+
+»Allah hat mich gesandt.«
+
+Amr fragte weiter:
+
+— Und womit hat Er dich gesandt?
+
+Er ﷺ erklärte ihm, er sei gesandt worden, um verwandtschaftliche Bindungen zu pflegen, die Götzen zu zerstören und dazu aufzurufen, Allah allein zu verehren und Ihm nichts beizugesellen.
+
+Amr fragte:
+
+— Wer ist darin bei dir?
+
+Er ﷺ antwortete:
+
+»Ein freier Mann und ein Sklave.«
+
+Abu Bakr und Bilal, möge Allah mit ihnen zufrieden sein, gehörten zu denen, die an ihn glaubten.
+
+Amr wollte bei ihm bleiben. Doch der Prophet ﷺ erklärte, dass die damaligen Umstände dies nicht zuließen. Er wies ihn an, zu seiner Familie zurückzukehren und wieder zu ihm zu kommen, sobald er hörte, dass seine Sache sich durchgesetzt habe.
+
+So kehrte Amr zu seinen Stammesangehörigen zurück.
+
+Jahre vergingen, in denen er die Nachrichten über den Propheten ﷺ verfolgte. Dann erfuhr er, dass der Gesandte Allahs ﷺ nach Medina ausgewandert war. Er befragte Menschen, die von dort kamen, bis er Gewissheit hatte, und reiste selbst nach Medina.
+
+Er trat zum Gesandten Allahs ﷺ ein und fragte sinngemäß:
+
+— Gesandter Allahs, erkennst du mich?
+
+Er ﷺ antwortete:
+
+»Ja, du bist derjenige, der mich in Mekka getroffen hat.«
+
+So begegnete der Mann, der einst in der Zeit der Verborgenheit nach Mekka gekommen war, dem Propheten ﷺ erneut — nun, da dieser in Medina eine Heimat und Gefährten hatte.
+
+Amr fragte den Propheten ﷺ anschließend nach dem Gebet und der Gebetswaschung und bewahrte darüber einen langen Hadith. Als er diesen im hohen Alter erzählte, erstaunte Abu Umama, möge Allah mit ihm zufrieden sein, wie groß der darin genannte Lohn war. Amr erklärte ihm, er habe dies vom Propheten ﷺ nicht nur ein- oder zweimal, sondern viele Male gehört.
+
+— Sahih Muslim 832.
+
+Gerade Amrs Geschichte zeigt, warum wir seine Aussage, zu den ersten Muslimen gehört zu haben, nicht als vollständige Zählung aller Menschen verstehen sollten, die in Mekka den Islam angenommen hatten. Er war von außerhalb gekommen und hatte die Stadt zu einer Zeit erreicht, als viele Muslime ihren Glauben verbargen.
+
+Abu Dharr geht der Nachricht selbst nach
+
+Zu den bekanntesten Menschen, die nach Mekka kamen, um den Propheten ﷺ zu suchen, gehörte Abu Dharr al-Ghifari, möge Allah mit ihm zufrieden sein.
+
+Seine Annahme des Islams wird in mehreren authentischen Überlieferungen geschildert. Zwischen manchen von ihnen bestehen Unterschiede in einzelnen Details. Deshalb sollte man nicht alle Einzelheiten zu einer einzigen Geschichte zusammenfügen, als seien sie eine übereinstimmende Überlieferung. Einer der längsten Berichte stammt von Abu Dharr selbst und steht in Sahih Muslim.
+
+Abu Dharr gehörte zum Stamm Ghifar. Er berichtete, seine Stammesangehörigen hätten die heiligen Monate nicht so geachtet wie andere Araber. Schon vor der Begegnung mit dem Propheten ﷺ hatte er die Anbetungsformen aufgegeben, die er bei den Menschen um sich herum sah. Er sagte, er habe etwa drei Jahre vor seiner Begegnung mit dem Gesandten Allahs ﷺ zu Allah gebetet und sich dabei in die Richtung gewandt, in die Allah ihn führte.
+
+Er hatte einen Bruder namens Unays.
+
+Unays reiste wegen einer Angelegenheit nach Mekka und hörte dort von dem Mann, der in der Stadt aufgetreten war. Nach seiner Rückkehr erzählte er Abu Dharr, er habe einen Mann getroffen, der sage, Allah habe ihn gesandt. Dessen Religion komme dem nahe, wonach Abu Dharr suche.
+
+Abu Dharr fragte ihn:
+
+— Was sagen die Leute?
+
+Unays antwortete, sie bezeichneten ihn als Dichter, Wahrsager und Zauberer.
+
+Unays kannte sich mit Dichtung aus. Er sagte, er habe Muhammads ﷺ Worte mit denen der Dichter verglichen und sie nicht als Dichtung befunden. Er kenne auch die Sprache der Wahrsager, und seine Worte seien nicht von dieser Art. Dann erklärte er, Muhammad sei wahrhaftig und diejenigen, die ihn beschuldigten, seien Lügner.
+
+Doch Abu Dharr begnügte sich nicht mit dem Bericht seines Bruders.
+
+Er beschloss, selbst nach Mekka zu reisen.
+
+Als er dort ankam, kannte er den Propheten ﷺ nicht. Nach ihm zu fragen war jedoch keineswegs ungefährlich. Er fragte einen Mekkaner nach dem Menschen, den sie »Sabier« nannten — eine Bezeichnung der Götzendiener für jemanden, der ihre Religion verlassen hatte. Der Mann rief daraufhin die Leute gegen ihn zusammen. Sie schlugen ihn mit Steinen und Knochen, bis er zu Boden fiel und das Bewusstsein verlor.
+
+Als er wieder zu sich kam, ging er zum Zamzam-Brunnen, wusch das Blut von sich ab und trank von seinem Wasser.
+
+Abu Dharr, möge Allah mit ihm zufrieden sein, berichtet, dass er lange in Mekka blieb und außer Zamzam-Wasser keine Nahrung hatte. Er sagte sogar, sein Körper habe an Gewicht zugenommen, und er habe keine Hungerschmerzen verspürt.
+
+Eines Nachts sah er zwei Frauen, die den Umlauf vollzogen und dabei Isaf und Naila anriefen, zwei der in Mekka verehrten Götzen. Er wies ihre Anbetung scharf zurück. Darauf gingen sie fort und beklagten sich über seine Worte.
+
+Inzwischen kamen der Gesandte Allahs ﷺ und Abu Bakr, möge Allah mit ihm zufrieden sein.
+
+Nachdem der Prophet ﷺ gebetet hatte, trat Abu Dharr an ihn heran und grüßte ihn sinngemäß:
+
+Friede sei mit dir, Gesandter Allahs.
+
+Der Prophet ﷺ erwiderte seinen Gruß und fragte ihn, woher er komme.
+
+Er antwortete:
+
+— Aus Ghifar.
+
+Dann fragte ihn der Prophet ﷺ, wie lange er schon in Mekka sei. Er antwortete, er habe ungefähr dreißig Tage und Nächte dort verbracht.
+
+Er ﷺ fragte sinngemäß:
+
+— Wer hat dir zu essen gegeben?
+
+Abu Dharr antwortete:
+
+— Ich hatte außer Zamzam-Wasser keine Nahrung.
+
+Der Prophet ﷺ sagte über Zamzam sinngemäß:
+
+»Es ist gesegnet. Es ist eine Nahrung, die satt macht.«
+
+Abu Bakr, möge Allah mit ihm zufrieden sein, bot an, ihn als Gast aufzunehmen. Er ging mit ihnen, und Abu Bakr gab ihm Rosinen aus Taif zu essen. Das war nach dieser langen Zeit die erste Nahrung, die Abu Dharr dort aß.
+
+Dann erzählte ihm der Prophet ﷺ, ihm sei ein Land mit Dattelpalmen gezeigt worden, und er halte es vermutlich für Yathrib — die Stadt, in die er später auswandern sollte. Er wies Abu Dharr an, zu seinen Stammesangehörigen zurückzukehren und ihnen seine Botschaft zu übermitteln, damit Allah ihnen möglicherweise durch ihn Nutzen schenke.
+
+Abu Dharr kehrte zu seinem Bruder Unays zurück. Dieser fragte ihn:
+
+— Was hast du getan?
+
+Abu Dharr antwortete, er habe den Islam angenommen und den Gesandten Allahs ﷺ als wahrhaftig anerkannt.
+
+Unays erklärte, er wolle sich nicht von der Religion seines Bruders abwenden, und nahm ebenfalls den Islam an.
+
+Dann gingen sie zu ihrer Mutter und erzählten ihr davon. Auch sie erklärte, sie wolle sich nicht von der Religion ihrer beiden Söhne abwenden, und nahm den Islam an.
+
+Abu Dharr begann, seinen Stamm Ghifar einzuladen. Einige nahmen den Islam schon vor der Auswanderung des Propheten ﷺ an, andere erst nach seiner Ankunft in Medina. Auch Angehörige des Stammes Aslam kamen und nahmen den Islam an. Der Gesandte Allahs ﷺ sagte sinngemäß:
+
+»Ghifar — Allah möge ihnen vergeben. Aslam — Allah möge ihnen Frieden schenken.«
+
+— Sahih Muslim 2473, 2514.
+
+Es gibt noch eine weitere authentische Überlieferung über Abu Dharrs Annahme des Islams, die Ibn Abbas, möge Allah mit beiden zufrieden sein, berichtet. Darin bemerkte Ali ibn Abi Talib, möge Allah mit ihm zufrieden sein, dass Abu Dharr ein Fremder in Mekka war. Er nahm ihn mehrere Tage als Gast auf und führte ihn dann vorsichtig zum Propheten ﷺ. Nachdem Abu Dharr Muslim geworden war, sprach er bei der Kaaba öffentlich die beiden Glaubenszeugnisse aus. Die Götzendiener schlugen ihn, bis al-Abbas, möge Allah mit ihm zufrieden sein, ihn rettete, indem er die Quraysch daran erinnerte, dass ihre Handelsstraße nach Syrien durch das Gebiet Ghifars führte. Am folgenden Tag kehrte Abu Dharr zurück und tat dasselbe noch einmal.
+
+— Sahih al-Buchari 3861; Sahih Muslim 2474.
+
+Die beiden Berichte unterscheiden sich in manchen Einzelheiten und in der Reihenfolge. Gelehrte haben verschiedene Erklärungen für diese Unterschiede vorgeschlagen. Jede Überlieferung hat ihren eigenen Zusammenhang; nicht alle Einzelheiten gehören zu einem einzigen, allgemein übereinstimmend überlieferten Ablauf.
+
+Wer nahm den Islam an — und wer bekannte sich öffentlich dazu?
+
+Einige weitere Überlieferungen helfen uns, diese Zeit noch besser zu verstehen.
+
+Ammar ibn Yasir, möge Allah mit ihm zufrieden sein, sagte sinngemäß:
+
+»Ich sah den Gesandten Allahs ﷺ, und bei ihm waren nur fünf Sklaven, zwei Frauen und Abu Bakr.«
+
+— Sahih al-Buchari 3660.
+
+Das bedeutet nicht zwangsläufig, dass es in ganz Mekka zu diesem Zeitpunkt nur acht Muslime gab. Ammar beschrieb vielmehr diejenigen, die nach seiner Beobachtung sichtbar bei ihm waren. Andere hatten bereits den Islam angenommen und hielten ihren Glauben verborgen.
+
+Noch deutlicher wird das im Bericht Abdullah ibn Masuds, möge Allah mit ihm zufrieden sein. Er sagte sinngemäß:
+
+»Die Ersten, die ihren Islam offen zeigten, waren sieben: der Gesandte Allahs ﷺ, Abu Bakr, Ammar, seine Mutter Sumayya, Suhayb, Bilal und al-Miqdad.«
+
+Dann erwähnte er, Allah habe den Gesandten Allahs ﷺ durch dessen Onkel Abu Talib geschützt, während Abu Bakr den Schutz seiner Stammesangehörigen genoss. Mehrere der anderen hingegen wurden von den Götzendienern ergriffen und gefoltert.
+
+Bilal, möge Allah mit ihm zufrieden sein, gehörte zu denen, die besonders schwer gefoltert wurden. Dabei wiederholte er sinngemäß:
+
+»Einer, Einer.«
+
+— Sunan Ibn Madscha 150; Musnad Ahmad 3832.
+
+Entscheidend ist hier die Formulierung: »seinen Islam offen zeigen«.
+
+Es besteht ein Unterschied zwischen der Annahme des Islams und dem öffentlichen Bekenntnis dazu, durch das andere davon erfahren.
+
+Dieser Unterschied erklärt einen großen Teil der Abweichungen zwischen den Berichten über die ersten Gläubigen. Ein Mann konnte Muslim geworden sein, ohne dass andere es wussten. Jemand konnte von zwei oder drei Übertritten erfahren haben, ohne von Dutzenden weiterer Menschen zu wissen.
+
+Die Nachricht blieb nicht länger verborgen
+
+Mit der Zeit nahm die Zahl der Menschen zu, die den Islam annahmen.
+
+Die Biografien berichten nach Ibn Ishaq, dass immer mehr Männer und Frauen den Islam annahmen, bis die Nachricht davon in Mekka weit verbreitet war und die Menschen darüber sprachen.
+
+Die Botschaft war also nichts mehr, von dem man nichts hörte.
+
+Die Menschen sprachen darüber und erfuhren von Muhammad ﷺ und denjenigen, die an ihn glaubten. Dennoch blieb ein Teil der Aktivitäten der Muslime und der Namen einzelner Gläubiger außerhalb der Öffentlichkeit.
+
+Ibn Ishaq berichtet — nach dem, was ihn erreicht hatte —, dass der Gesandte Allahs ﷺ anfangs eine Zeit lang einen Teil seines Aufrufs verborgen hielt. Dann begann eine neue Phase, in der ihm befohlen wurde, das von seinem Herrn Empfangene öffentlich und deutlich zu verkünden.
+
+Allah der Erhabene sagt:
+
+«So verkünde denn laut, was dir befohlen wird, und wende dich von den Götzendienern ab.» — Sure al-Hidschr: 94.
+
+Und Er, gepriesen sei Er, sagt:
+
+«Und warne die Nächsten deiner Sippe.» — Sure asch-Schuara: 214.
+
+Hier beginnt ein neuer Abschnitt.
+
+In den ersten Jahren hatte die Frage gelautet: Wer ist gläubig geworden, und wie schützt er seinen Glauben davor, entdeckt zu werden?
+
+Schon bald würden die Quraysch den Aufruf vom Gesandten Allahs ﷺ selbst hören — öffentlich.
+
+Damit würde eine andere Art der Auseinandersetzung beginnen.
+
+Die wichtigsten Quellen dieses Kapitels
+
+Sahih al-Buchari: 3727, 3660, 2947–2948, 3007, 3861; Sahih Muslim: 832, 1901, 2473, 2474, 2514; Musnad Ahmad: 4412, 3832; Sunan Ibn Madscha: 150; Sahih Ibn Hibban: 6504; Ibn Ishaqs Prophetenbiografie in der Überlieferung Ibn Hischams: Berichte über die ersten Gläubigen und den Übergang vom Verborgenen zum öffentlichen Aufruf. Koran: an-Nisa 102, al-Mumtahana 1, al-Hidschr 94, asch-Schuara 214. Zu Hatibs Geschichte und ihrem Zusammenhang mit der Offenbarung von al-Mumtahana 1: Sahih al-Buchari 4274. Zur Nachricht vom Himmel über den Brief: Ibn Ishaq, überliefert von Ibn Hischam, as-Sira an-nabawiyya, zweiter Band, Kapitel »Hatibs Brief an die Quraysch und wie der Gesandte davon erfuhr«; Text der Islamweb-Bibliothek.
+
+Koranübersetzung: Abdullah Frank Bubenheim und Nadeem Elyas, QuranEnc.com, Version 1.1.4. https://quranenc.com/en/browse/german_bubenheim. Erläuterungen und Fußnoten des Herausgebers werden unverändert wiedergegeben.
+
+Die als sinngemäß gekennzeichneten Hadithdialoge und Aussagen sind unmittelbar aus dem arabischen Kapitel übersetzte Bedeutungswiedergaben. Sie werden keinem veröffentlichten Übersetzer zugeschrieben. Die Quellen stehen an den jeweiligen Stellen. Die veröffentlichten Koranverse und Herausgebernoten sind davon getrennt und unverändert.
+
+## 9 · Verkünde offen, was dir befohlen wird: Von den Jahren im Verborgenen zum Ruf auf as-Safa
+
+Neuntes Kapitel
+
+Verkünde offen, was dir befohlen wird: Von den Jahren im Verborgenen zum Ruf auf as-Safa
+
+Die Nachricht vom Islam begann sich in Mekka zu verbreiten. Die Menschen sprachen über Muhammad ﷺ und diejenigen, die an ihn glaubten, obwohl viele Einzelheiten der Aktivitäten der Muslime und die Namen einiger von ihnen verborgen blieben. Dann begann eine neue Phase: Der Aufruf sollte nicht länger auf diejenigen beschränkt bleiben, die der Prophet ﷺ einzeln erreichen konnte.
+
+Allah der Erhabene sagt:
+
+«So verkünde denn laut, was dir befohlen wird, und wende dich von den Götzendienern ab.» — Sure al-Hidschr: 94.
+
+Und Er, gepriesen sei Er, sagt:
+
+«Und warne die Nächsten deiner Sippe.» — Sure asch-Schuara: 214.
+
+Ibn Hischam erklärte den Ausdruck isda als Aufforderung, das Befohlene deutlich hervortreten zu lassen, sodass sich die Wahrheit vom Falschen unterscheide. As-Suhayli führte dieses Bild weiter aus und verglich das Hervortreten der Wahrheit mit dem Morgenlicht, das die Dunkelheit der Nacht durchbricht. Der grundlegende Sinn ist klar: Die Botschaft wurde nicht länger auf dieselbe Weise wie am Anfang weitergegeben. Der Aufruf trat in eine Phase öffentlicher Verkündigung und unmittelbarer Auseinandersetzung ein.
+
+Was geschah vor dieser öffentlichen Verkündigung?
+
+Die Biografien berichten, die Zeit im Verborgenen habe ungefähr drei Jahre gedauert. Ibn Ishaq formuliert ausdrücklich: »Drei Jahre, nach dem, was mich erreicht hat.« Diese Zeitangabe ist in der Literatur über die Prophetenbiografie verbreitet. Es gibt jedoch keinen authentischen Hadith, der sie eindeutig festlegt. Deshalb wird sie als bekannte Angabe der Biografien genannt, nicht als durch einen unstrittigen Text endgültig feststehende Dauer.
+
+Wichtig ist: Diese Jahre waren keine Jahre des Schweigens.
+
+Nach der Offenbarung des Anfangs der Sure al-Alaq kam die erste Unterbrechung der Offenbarung. Danach wurden folgende Worte Allahs herabgesandt:
+
+«O du Zugedeckter,
+stehe auf und warne;
+und deinen Herrn, Den preise als den Größten,
+und deine Gewänder, die reinige,
+und die (Unreinheit des) Götzen(dienstes), die meide,» — Sure al-Muddaththir: 1–5.
+
+Authentisch ist von Dschabir ibn Abdullah, möge Allah mit beiden zufrieden sein, überliefert, dass der Prophet ﷺ von der Unterbrechung der Offenbarung erzählte. Er erwähnte, wie er den Engel wiedersah, der in Hira zu ihm gekommen war, und wie die ersten Verse von al-Muddaththir herabgesandt wurden. Danach sagte der Überlieferer sinngemäß:
+
+»Dann wurde die Offenbarung intensiver und folgte weiter aufeinander.«
+
+— Sahih al-Buchari 4, 4926.
+
+Die Jahre, in denen die Muslime vieles von ihrem Leben verborgen hielten, waren also zugleich Jahre, in denen der Koran herabgesandt wurde. Der Prophet ﷺ empfing ihn, und die Gläubigen lernten ihn von ihm.
+
+Deshalb muss der Ausdruck »geheimer Aufruf« genau verstanden werden. Er bedeutet nicht, dass Mekka nichts von Muhammad ﷺ, vom Koran oder von seinen Anhängern wusste. Verborgen wurden häufig die Personen, ihre Zusammenkünfte sowie einzelne Formen des Gottesdienstes und ihrer Aktivitäten. Die Nachricht vom Aufruf selbst erreichte die Menschen dagegen nach und nach.
+
+Ein Beleg dafür ist der Hadith Abdullah ibn Abbas', möge Allah mit beiden zufrieden sein, über folgendes Wort Allahs. Die arabische Vorlage zitiert nur einen Teil; hier steht der vollständige veröffentlichte Vers:
+
+«Sag: Ruft Allah oder ruft den Allerbarmer an; welchen ihr auch ruft, Sein sind die schönsten Namen. Und sei nicht zu laut beim Gebet, und sei auch nicht zu leise dabei, sondern suche einen Weg dazwischen.» — Sure al-Isra: 110.
+
+Ibn Abbas erklärte, dieser Vers sei herabgesandt worden, als sich der Gesandte Allahs ﷺ in Mekka verborgen hielt. Wenn er mit seinen Gefährten betete, rezitierte er den Koran mit erhobener Stimme. Hörten die Götzendiener dies, beschimpften sie den Koran, Denjenigen, der ihn herabgesandt hatte, und denjenigen, der ihn überbrachte. Deshalb sollte er nicht so laut rezitieren, dass sie es hörten und den Koran beschimpften, aber auch nicht so leise, dass seine Gefährten ihn nicht mehr hören konnten.
+
+— Sahih al-Buchari 4722.
+
+Der Prophet ﷺ hielt sich also in Mekka verborgen, und dennoch hörten die Götzendiener gelegentlich seine Rezitation, erfuhren etwas von seinem Wirken und widersetzten sich ihm. Das zeigt erneut: Verborgenheit bedeutete nicht vollständige Unkenntnis, sondern eine Phase, in der die Verbreitung der Botschaft vorsichtig gestaltet wurde.
+
+Der Koran, der in diesen Jahren herabgesandt wurde
+
+Auf die Frage, welche Suren in dieser Zeit offenbart wurden, können wir keine vollständige, zweifelsfrei geordnete Liste geben: zuerst diese Sure, dann jene und danach die nächste.
+
+Wir wissen mit Gewissheit, dass zuerst der Anfang von al-Alaq herabgesandt wurde und die ersten Verse von al-Muddaththir nach der Unterbrechung der Offenbarung folgten. Für die Reihenfolge aller weiteren Suren besitzen wir jedoch keine umfassende authentische Überlieferung vom Propheten ﷺ oder den Gefährten, aus der sich eine vollständige, zweifelsfreie Reihenfolge erstellen ließe.
+
+Zu einigen Suren gibt es Berichte von bedeutenden Tabiun, also Menschen, die den Gefährten begegneten und an den Propheten ﷺ glaubten. Solche Berichte können als Anhaltspunkte dienen, nicht als endgültige Reihenfolge des gesamten Korans.
+
+Eine Sure mit starken Hinweisen auf eine frühe Offenbarung ist al-Qalam. Von Mudschahid und Ubayd ibn Umayr ist überliefert, dass sie zu den ersten herabgesandten Suren gehörte. Das stellt sie jedoch nicht vor al-Muddaththir, deren Offenbarung durch einen authentischen Hadith belegt ist.
+
+Am Anfang von al-Qalam sagt Allah der Erhabene:
+
+«Nun. Beim Schreibrohr und dem, was sie in Zeilen niederschreiben.
+Du bist durch die Gunst deines Herrn kein Besessener.» — Sure al-Qalam: 1–2.
+
+Das lässt etwas von dem erkennen, was sich damals in Mekka um den Propheten ﷺ abspielte. Vorwürfe des Wahnsinns und Behauptungen über Dschinn und Satane waren aufgekommen. Der Koran stärkte den Propheten ﷺ und wies diese Anschuldigungen zurück.
+
+In derselben Sure al-Hidschr, in der die folgende Aufforderung steht, hier als vollständiger veröffentlichter Vers:
+
+«So verkünde denn laut, was dir befohlen wird, und wende dich von den Götzendienern ab.»
+
+berichtet Allah auch diese Worte der Leugner:
+
+«Und sie sagen: O du, dem (angeblich) die Ermahnung offenbart worden ist, du bist ja fürwahr besessen.» — Sure al-Hidschr: 6.
+
+Allein daraus können wir nicht folgern, dass die gesamte Sure al-Hidschr auf einmal zu einem genau bestimmten Zeitpunkt herabgesandt wurde. Eine Sure konnte abschnittsweise offenbart werden. Es bestätigt jedoch, dass der Koran selbst einige der Worte bewahrt hat, mit denen der Prophet ﷺ konfrontiert wurde.
+
+Auch al-Ala könnte zu den frühen Suren gehören. Darin wird der Prophet ﷺ unmittelbar hinsichtlich des Empfangens des Korans angesprochen:
+
+«Wir werden dich lesen lassen, und dann wirst du nichts vergessen,
+außer dem, was Allah will. Er weiß ja, was laut vernehmbar geäußert wird und was verborgen bleibt.» — Sure al-Ala: 6–7.
+
+Ihre genaue Stelle in der Offenbarungsreihenfolge können wir nicht sicher bestimmen. Wir wissen jedoch, dass die Muslime sie schon einige Zeit vor der Auswanderung des Propheten ﷺ nach Medina kannten. Al-Bara ibn Azib, möge Allah mit ihm zufrieden sein, berichtete, Musab ibn Umayr und Ibn Umm Maktum, möge Allah mit beiden zufrieden sein, hätten zu den Ersten gehört, die nach Medina kamen und den Menschen den Koran lehrten. Al-Bara sagte sinngemäß:
+
+»Bevor er ankam, hatte ich bereits die Sure mit dem Anfangsvers «Preise den Namen deines höchsten Herrn,» und weitere Suren wie sie rezitiert.«
+
+— Sahih al-Buchari 4941.
+
+So vertiefte der Koran in den ersten mekkanischen Jahren das Wissen der Gläubigen über Allah und den Jüngsten Tag. Er stärkte den Propheten ﷺ, lehrte ihn, wie er die Offenbarung empfangen sollte, und antwortete zugleich auf die beginnenden Vorwürfe der Leugner.
+
+Zuhörer, die die Menschen in Mekka nicht sahen
+
+Unter den Berichten über jene Zeit findet sich ein weiteres Ereignis, das die Wirkung der Offenbarung des Korans zeigt. Seine genaue zeitliche Einordnung wird unter Gelehrten jedoch erörtert. Deshalb sollte man ihm keinen endgültig feststehenden Platz in der Chronologie zuweisen.
+
+Ibn Abbas, möge Allah mit beiden zufrieden sein, berichtete, der Gesandte Allahs ﷺ sei mit einer Gruppe seiner Gefährten zum Markt Ukaz aufgebrochen. Zu dieser Zeit war den Satanen der Zugang zu Nachrichten vom Himmel verwehrt worden, und Sternschnuppen wurden gegen sie ausgesandt.
+
+Gruppen der Dschinn kehrten zueinander zurück und sagten, es müsse etwas geschehen sein. Sie zogen nach Osten und Westen aus, um nach dem Grund dieser Veränderung zu suchen.
+
+Eine Gruppe hatte sich in Richtung Tihama aufgemacht und kam beim Propheten ﷺ in Nachla vorbei. Das ist ein Tal auf dem Weg zwischen Mekka und Taif. Der Gesandte Allahs ﷺ betete dort mit seinen Gefährten.
+
+Als sie den Koran hörten, blieben sie stehen und lauschten. Dann sagten sie zueinander, dies sei es, was ihnen den Zugang zu den Nachrichten vom Himmel verwehrt habe.
+
+Sie kehrten zu ihren Leuten zurück und berichteten. Die arabische Vorlage führt hier Teile der Verse an; zur unveränderten Wiedergabe der veröffentlichten Übersetzung folgen die vollständigen Verse:
+
+«Sag: Mir ist (als Offenbarung) eingegeben worden, daß eine kleinere Schar Ginn zuhörte. Sie sagten: Wir haben einen wunderbaren Qur’an gehört,
+der zur Besonnenheit leitet; so haben wir an ihn geglaubt, und wir werden unserem Herrn niemanden beigesellen.» — Sure al-Dschinn: 1–2.
+
+Allah offenbarte Seinem Propheten ﷺ daraufhin die Nachricht über sie. Auch hier steht statt des Ausschnitts der vollständige veröffentlichte Vers:
+
+«Sag: Mir ist (als Offenbarung) eingegeben worden, daß eine kleinere Schar Ginn zuhörte. Sie sagten: Wir haben einen wunderbaren Qur’an gehört,»
+
+— Sahih al-Buchari 4921.
+
+Über den Zeitpunkt dieses Ereignisses besteht Uneinigkeit. Einige Gelehrte halten eine frühe Phase der prophetischen Sendung für wahrscheinlicher. Daher wird es hier als möglicherweise frühes Ereignis erwähnt, nicht als sicher datierter Vorgang vor dem Beginn der öffentlichen Verkündigung.
+
+Während viele Menschen in Mekka noch über den Koran stritten oder seinem Überbringer ﷺ Vorwürfe machten, hörten ihm Zuhörer aus einer für Menschen unsichtbaren Welt zu und kehrten anschließend warnend zu ihren Leuten zurück.
+
+Dann kam der Auftrag, vor die Menschen zu treten
+
+Nach diesen Jahren begann eine neue Phase.
+
+Es ging nun nicht mehr nur darum, dass der Prophet ﷺ diejenigen einlud, die er erreichen konnte, oder dass sich die Gläubigen abseits der Blicke der meisten Menschen trafen.
+
+Allah der Erhabene sagt:
+
+«Und warne die Nächsten deiner Sippe.» — Sure asch-Schuara: 214.
+
+Der Gesandte Allahs ﷺ begab sich zu as-Safa, der Anhöhe nahe der Kaaba, und stieg hinauf.
+
+Von dort rief er die großen Stammeszweige der Quraysch auf. Seine Worte lauteten sinngemäß:
+
+»Ihr Banu Fihr! Ihr Banu Adi! …«
+
+So versammelten sich die Menschen.
+
+Wer nicht selbst kommen konnte, schickte jemanden, der herausfinden sollte, was geschehen war. Unter den Anwesenden war auch Abu Lahab: Abd al-Uzza ibn Abd al-Muttalib, ein Onkel des Gesandten Allahs ﷺ.
+
+Als sie versammelt waren, fragte der Prophet ﷺ sie sinngemäß:
+
+»Wenn ich euch mitteilen würde, dass im Tal Reiter sind, die euch überfallen wollen — würdet ihr mir glauben?«
+
+Sie antworteten sinngemäß:
+
+»Ja. Wir haben bei dir nur Wahrhaftigkeit erlebt.«
+
+Sie kannten Muhammad ﷺ schon vor der prophetischen Sendung und wussten, dass er sie nicht belog. Er ließ sie also das bezeugen, was sie aus seinem Leben unter ihnen wussten, und nannte ihnen dann den Grund für ihre Versammlung. Sinngemäß sagte er:
+
+»Dann bin ich für euch ein Warner vor einer schweren Strafe.«
+
+— Sahih al-Buchari 4770.
+
+Der Ruf war keine lange Darlegung einzelner Rechtsvorschriften, sondern eine Warnung. Er hatte sie versammelt, um ihnen klarzumachen: Das, wovor er sie warnte, war schwerwiegender als ein Heer, das Mekka unerwartet hinter dem Berg angreifen könnte.
+
+Ein weiterer Hadith zeigt, wie umfassend diese Warnung auch die engsten Angehörigen des Gesandten Allahs ﷺ einschloss.
+
+Er ﷺ sagte:
+
+»Ihr Leute der Quraiš ... rettet eure Seelen; denn ich kann euch vor Allāh nicht retten! O ihr Söhne des ‘Abd Manāf, ich kann euch vor Allāh nicht retten! O ‘Abbās Ibn ‘Abdu-l-Muṭṭalib, ich kann dich vor Allāh nicht retten! O Ṣafyya, Tante des Gesandten Allāhs, ich kann dich vor Allāh nicht retten! Auch du Fāṭima, Tochter des Muḥammad, verlange von mir aus meinem Besitz, was du willst, aber vor Allāh kann ich dich nicht retten!«
+
+— Sahih al-Buchari 4771. Veröffentlichte Übersetzung der entsprechenden Überlieferung unter Nr. 2753: Muhammad ibn Ahmad ibn Rassoul; Quellenangabe am Kapitelende.
+
+Die Banu Abd Manaf waren ein großer Zweig der Quraysch. Zu ihnen gehörten unter anderem die Banu Haschim, also die Familie des Propheten ﷺ selbst.
+
+Verwandtschaft bedeutete somit keine Ausnahme von der Botschaft.
+
+Sein Onkel al-Abbas, seine Tante Safiyya, seine Tochter Fatima, möge Allah mit ihnen zufrieden sein, und alle Quraysch: Sie alle waren von der Warnung angesprochen. Der Gesandte Allahs ﷺ konnte niemandem allein aufgrund seiner Abstammung Rettung vor Allah verschaffen.
+
+Die erste öffentliche Antwort
+
+Nicht jeder in dieser Versammlung war bereit, die Warnung anzuhören und dann zu gehen.
+
+Abu Lahab sagte sinngemäß:
+
+»Verderben über dich den ganzen Tag! Hast du uns deswegen versammelt?«
+
+Darauf wurden folgende Worte Allahs herabgesandt:
+
+«Zugrunde gehen sollen die Hände Abu Lahabs, und zugrunde gehen soll er (selbst)!
+Was nützt ihm sein Besitz und das, was er erworben hat?» — Sure al-Masad: 1–2.
+
+Eine der ersten öffentlichen Antworten, die der Prophet ﷺ aus seiner Verwandtschaft erhielt, bestand also darin, dass sein eigener Onkel vor allen aufstand und seine Ablehnung erklärte.
+
+Doch der Aufruf kehrte danach nicht mehr in seinen früheren Zustand zurück.
+
+Die Stammeszweige der Quraysch hatten die Warnung gemeinsam gehört.
+
+Sie wussten nun, dass Muhammad ﷺ sich nicht als jemand darstellte, der lediglich für sich eine besondere Form der Anbetung gewählt hatte, wie manche Menschen, die vor dem Islam die Götzenverehrung aufgegeben hatten. Er erklärte vielmehr, Allah habe ihn zu ihnen gesandt, die Anbetung anderer als Allah sei falsch, und die Menschen erwarte die Auferstehung und die Abrechnung sowie Strafe, wenn sie auf ihrer Leugnung beharrten.
+
+Von nun an würden die Quraysch versuchen, den Aufruf mit anderen Mitteln zu stoppen.
+
+Ihr erster Weg würde zu Abu Talib führen, dem Onkel des Propheten ﷺ und Oberhaupt der Banu Haschim. Sie würden ihn auffordern, seinen Neffen davon abzuhalten, sie weiter anzusprechen.
+
+Die wichtigsten Quellen dieses Kapitels
+
+Koran: al-Muddaththir 1–5; al-Qalam 1–2; al-Ala 6–7; al-Isra 110; al-Hidschr 6 und 94; asch-Schuara 214; al-Dschinn 1–2; al-Masad 1–2.
+Offenbarung von al-Muddaththir nach der Unterbrechung und das Aufeinanderfolgen der Offenbarungen: Sahih al-Buchari 4, 4925–4926.
+Offenbarung der Aufforderung zur mittleren Lautstärke des Gebets, während sich der Prophet ﷺ in Mekka verborgen hielt: Sahih al-Buchari 4722.
+Rezitation von al-Ala in Medina vor der Auswanderung des Propheten ﷺ: Sahih al-Buchari 4941.
+Dschinn hören in Nachla den Koran: Sahih al-Buchari 4921.
+Ruf des Propheten ﷺ an die Stammeszweige der Quraysch von as-Safa und Abu Lahabs Antwort: Sahih al-Buchari 4770.
+Warnung an die Banu Abd Manaf, al-Abbas, Safiyya und Fatima, möge Allah mit ihnen zufrieden sein: Sahih al-Buchari 4771.
+Übergang von Verborgenheit zu öffentlicher Verkündigung und die verbreitete Angabe von drei Jahren: Ibn Ishaq in der Überlieferung Ibn Hischams.
+Bedeutung des Wortes isda: Ibn Hischam sowie ar-Rawd al-unuf von as-Suhayli.
+
+Koranübersetzung: Abdullah Frank Bubenheim und Nadeem Elyas, QuranEnc.com, Version 1.1.4. https://quranenc.com/en/browse/german_bubenheim. Erläuterungen und Fußnoten des Herausgebers werden unverändert wiedergegeben.
+
+Veröffentlichte Hadithübersetzung der Warnung an die Angehörigen: Muhammad ibn Ahmad ibn Rassoul, Auszüge aus dem Sahih al-Bucharyy, 17. Auflage, 2007, S. 237, Nr. 2753, entsprechende Überlieferung zu al-Buchari 4771. https://d1.islamhouse.com/data/de/ih_books/single/de_Auszuege_aus_Sahih_Al_Bukhari.pdf. Wiedergabe gemäß der Erlaubnis auf S. 2 mit Quellenangabe. Der zitierte Wortlaut bleibt unverändert.
+
+Die übrigen als sinngemäß gekennzeichneten Hadithaussagen wurden unmittelbar aus der arabischen Vorlage übersetzt. Sie werden keinem veröffentlichten Übersetzer zugeschrieben. In al-Baras Aussage wird der erste Vers von al-Ala nach der unveränderten veröffentlichten Koranübersetzung wiedergegeben.

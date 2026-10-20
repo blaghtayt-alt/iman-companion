@@ -631,7 +631,7 @@
     "rights": "Original editorial translations and third-party publications retain distinct reuse terms and attribution.",
     "reviewRecords": [
       {
-        "file": "C:\\Users\\user\\Documents\\Codex\\2026-09-27\\i-have-problems-with-my-app\\work\\languages168\\qc\\chapter05-es-independent-qc.json",
+        "file": "chapter05-es-independent-qc.json",
         "sha256": "30301bbce4398fa8141b6ea89d96636bc72bdc584f203b17af881f758caa8e85"
       }
     ],
@@ -713,6 +713,140 @@
           "Busca ser rey"
         ]
       }
+    }
+  ],
+  "independentReviews": [
+    {
+      "chapterId": 5,
+      "locale": "es",
+      "reviewer": "/root/hadith_translation165",
+      "independent": true,
+      "humanCertification": false,
+      "status": "approved-with-recorded-corrections",
+      "inputFileSHA256": "1d64f12876e97f7296efe9e0ae3208fa4a59622996540cb5777b88d135fe3c5f",
+      "sourceArabicSHA256": "586bdbb72669c4f37bc9cd86b2b8e39652744a25c10590dcf8c22f8161147844",
+      "scope": {
+        "sourceParagraphsRead": 26,
+        "targetParagraphsRead": 27,
+        "allQuestionsRead": 5,
+        "passes": [
+          "Direct Arabic-to-target comparison of every paragraph and all options",
+          "Separate target fluency reread",
+          "Exact Quran verse/footnote/edition integrity comparison",
+          "Hadith repeated command Arabic Bukhari4926 comparison"
+        ]
+      },
+      "findings": [
+        {
+          "paragraphIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "decision": "Opening, title, temporal break, no certain duration all retained."
+        },
+        {
+          "paragraphIndices": [
+            4,
+            5
+          ],
+          "decision": "Jabir, identical angel, chair between heaven/earth, fear and repeated cover command all retained; direct meaning clearly attributed. Bukhari4926 Arabic checked live."
+        },
+        {
+          "paragraphIndices": [
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "decision": "All74:1–7 exact cached publisher verses, repeated placements preserved; no publisher footnotes exist for these verses. Reuse remains conditional with version/publisher/source metadata. Both target74:6 choices match narrative sense; no interpretive split like Hindi."
+        },
+        {
+          "paragraphIndices": [
+            8,
+            14,
+            15
+          ],
+          "decision": "Transition to duty to convey, self-preparation and continuity retained."
+        },
+        {
+          "paragraphIndices": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "decision": "Khadija first, Ali youth, Zayd freed before mission, all5 names and uncertain conversion order retained; minor target corrections below."
+        },
+        {
+          "paragraphIndices": [
+            21,
+            22,
+            23
+          ],
+          "decision": "Secret-call qualification, about3years, community learning questions and nextchapter preserved."
+        },
+        {
+          "paragraphIndices": [
+            24,
+            25,
+            26
+          ],
+          "decision": "Original source references preserved; clearly distinct translation-meaning/publisher attribution notes retained."
+        },
+        {
+          "questionIds": [
+            "S9",
+            "S10",
+            "S45",
+            "S46",
+            "S47"
+          ],
+          "decision": "All question meanings/options retain original order/correct answer; PersianS9fluency correction below."
+        }
+      ],
+      "corrections": [
+        {
+          "paragraphIndex": 8,
+          "before": "«Al-Muddázzir» significa el que se ha cubierto con su ropa. El paso que expresan las palabras parece claro: tú que te has cubierto después del temor, ha llegado el momento de levantarte. La etapa ya no consistía solo en recibir la revelación en privado; con ella comenzaba la responsabilidad de transmitirla a la gente.",
+          "after": "«Al-Muddázzir» significa el que se ha cubierto con su ropa. El paso que expresan las palabras parece claro: tú que te has cubierto después del temor, ha llegado el momento de levantarte. La etapa ya no consistía solo en recibir él solo la revelación; con ella comenzaba la responsabilidad de transmitirla a la gente.",
+          "reason": "Arabic وحدك stresses personally receiving versus duty to transmit; en privado could overstate privacy."
+        },
+        {
+          "paragraphIndex": 16,
+          "before": "Pero «el comienzo de la llamada» no significa que el primer día saliera y reuniera a toda La Meca en un solo lugar. La invitación comenzó en el círculo de quienes lo conocían de cerca y conocían su sinceridad y su honradez. Por eso, la primera persona que creyó en él fue su esposa Jadiya, que Dios esté complacido con ella. Ella lo creyó desde su regreso de Hira, lo fortaleció y estuvo a su lado cuando aún no existía una comunidad musulmana que lo protegiera ni una fuerza que lo respaldara.",
+          "after": "Pero «el comienzo de la llamada» no significa que el primer día saliera y reuniera a toda La Meca en un solo lugar. La invitación comenzó en el círculo de quienes lo conocían de cerca y conocían su sinceridad y su honradez. Por eso, la primera persona que creyó en él fue su esposa Jadiya, que Dios esté complacido con ella. Ella le creyó desde su regreso de Hira, lo fortaleció y estuvo a su lado cuando aún no existía una comunidad musulmana que lo protegiera ni una fuerza que lo respaldara.",
+          "reason": "Natural Spanish indirect object when believing the speaker; semantic content unchanged."
+        }
+      ],
+      "questionCorrections": [],
+      "quoteCorrections": [],
+      "holds": [],
+      "publicationChecks": [
+        "74:1 exact text/notes",
+        "74:2 exact text/notes",
+        "74:3 exact text/notes",
+        "74:4 exact text/notes",
+        "74:5 exact text/notes",
+        "74:2 exact text/notes",
+        "74:3 exact text/notes",
+        "74:4 exact text/notes",
+        "74:5 exact text/notes",
+        "74:6 exact text/notes",
+        "74:7 exact text/notes"
+      ],
+      "sourceEvidence": [
+        "https://sunnah.com/bukhari:4926",
+        "work/store166/quran/es-quran-complete.json"
+      ],
+      "limitations": [
+        "AI independent review, not human or scholarly certification. Approval covers translation fidelity of this chapter, not independent authentication of every historical narrative in original. No protected publisher words modified."
+      ]
     }
   ]
 }
