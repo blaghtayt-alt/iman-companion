@@ -13,4 +13,6 @@ The app checks [catalog.json](catalog.json) weekly when it is open or resumed. U
 
 Keep existing paths available so older app versions can continue to read their books. Do not put draft media or full book images into the base app. Detailed delivery conventions are in the distribution’s `INTEGRATION.md`.
 
-Current downloads: [language-packs-2026-10-20](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20).
+Current downloads: [Alp Arslan revised opening — all 15 language packs](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20-alp-revision).
+
+Alp Arslan includes the approved nine-page opening in all 15 languages. Arabic, Urdu and Persian read right to left; the other editions read left to right. See the [edition metadata](metadata/alp-arslan/editions.json) and [reviewed delivery notes](handoffs/alp-arslan).

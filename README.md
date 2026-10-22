@@ -8,10 +8,11 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 
 ## Downloads
 
-[Offline language packs and combined Seerah summaries](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20) are available as release downloads. Books and children’s teaching audio are grouped into one ZIP per language. The earlier combined Seerah archive contains chapters 1–22 in the original nine languages and chapter 1 in the six newer languages. Current reviewed chapters in Hindi, Russian, Spanish, Persian, German and Simplified Chinese are available directly in the repository. The Arabic archive appendix is labeled separately. See the [combined Seerah notes](materials/seerah/combined/README.md) for sources and coverage.
+[Updated offline language packs](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20-alp-revision) are available as release downloads. The approved nine-page Alp Arslan opening is included in all 15 languages, with the original Arabic and the correct reading direction for each edition. Books and children’s teaching audio are grouped into one ZIP per language. The [earlier combined Seerah archive](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20) contains chapters 1–22 in the original nine languages and chapter 1 in the six newer languages. Current reviewed chapters in Hindi, Russian, Spanish, Persian, German and Simplified Chinese are available directly in the repository. The Arabic archive appendix is labeled separately. See the [combined Seerah notes](materials/seerah/combined/README.md) for sources and coverage.
 
 ## Start here
 
+- [Alp Arslan edition metadata](language-packs/metadata/alp-arslan/editions.json) and [delivery notes](language-packs/handoffs/alp-arslan)
 - [Seerah chapters and current language coverage](materials/seerah/combined/README.md)
 - [Hadith reading material](materials/hadith/README.md)
 - [Sayings of Ibn al-Qayyim](materials/ibn-al-qayyim/README.md)
