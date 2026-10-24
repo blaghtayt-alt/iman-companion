@@ -1,15 +1,15 @@
 {
   "bookId": "alp-arslan",
   "language": "ur",
-  "reviewStatus": "reviewed-ready",
   "readingDirection": "rtl",
-  "sourceRevision": "deep-revision-ar",
+  "reviewStatus": "reviewed-ready",
+  "sourceRevision": "deep-revision-ar + next-10-arabic-r04",
   "chapters": [
     {
       "id": 1,
       "firstPage": 1,
-      "lastPage": 9,
-      "count": 9,
+      "lastPage": 19,
+      "count": 19,
       "dimensions": [
         1060,
         1484
@@ -32,24 +32,46 @@
         "assets/books/alp-arslan/ur/page-08.webp",
         "assets/books/alp-arslan/ur/thumb-08.webp",
         "assets/books/alp-arslan/ur/page-09.webp",
-        "assets/books/alp-arslan/ur/thumb-09.webp"
+        "assets/books/alp-arslan/ur/thumb-09.webp",
+        "assets/books/alp-arslan/ur/page-10.webp",
+        "assets/books/alp-arslan/ur/thumb-10.webp",
+        "assets/books/alp-arslan/ur/page-11.webp",
+        "assets/books/alp-arslan/ur/thumb-11.webp",
+        "assets/books/alp-arslan/ur/page-12.webp",
+        "assets/books/alp-arslan/ur/thumb-12.webp",
+        "assets/books/alp-arslan/ur/page-13.webp",
+        "assets/books/alp-arslan/ur/thumb-13.webp",
+        "assets/books/alp-arslan/ur/page-14.webp",
+        "assets/books/alp-arslan/ur/thumb-14.webp",
+        "assets/books/alp-arslan/ur/page-15.webp",
+        "assets/books/alp-arslan/ur/thumb-15.webp",
+        "assets/books/alp-arslan/ur/page-16.webp",
+        "assets/books/alp-arslan/ur/thumb-16.webp",
+        "assets/books/alp-arslan/ur/page-17.webp",
+        "assets/books/alp-arslan/ur/thumb-17.webp",
+        "assets/books/alp-arslan/ur/page-18.webp",
+        "assets/books/alp-arslan/ur/thumb-18.webp",
+        "assets/books/alp-arslan/ur/page-19.webp",
+        "assets/books/alp-arslan/ur/thumb-19.webp"
       ]
     }
   ],
   "changedMetadata": [
     "assets/books/alp-arslan/editions.js",
     "books.js",
+    "alp-arslan-books.js",
     "index.html",
     "mobile.html",
     "tablet.html"
   ],
-  "editionRevision": "4f9e3509d9e2",
-  "sourceStatus": "Arabic opening approved by user on 2026-10-20.",
-  "reviewNotes": "Arabic retained as approved. Translations independently reviewed against all 91 approved texts. Rendered lettering reviewed; no overflow at minimum 22px. Panels reordered without mirroring for LTR. Original Arabic remains a separate edition for practice.",
+  "editionRevision": "ba3db1c614af",
+  "sourceStatus": "Opening9 approved2026-10-20; pages10–19 revision04 approved for translation/publication by user2026-10-24.",
+  "reviewNotes": "85 new approved Arabic text items independently translated/reviewed, with final rendered layout checks. Existing opening9 page/thumb bytes preserved. Intact art panels reordered without mirroring for LTR; Arabic/Urdu/Persian RTL. Original Arabic practice retained. Reader chapter1 ID/progress keys retained while approved excerpt grows to19 pages.",
   "limitations": [
-    "Only the approved nine-page opening is included.",
-    "Translations reviewed by AI agents, not certified by human translators.",
-    "Other books and audio in these packs were preserved and are outside this manga review."
+    "Independent AI review; not human translation certification.",
+    "Only19 approved pages of the longer work supplied.",
+    "Existing installed9-page app needs the updated app build to expose new page counts; weekly media catalogue does not update app code.",
+    "Other books/audio preserved, outside this manga review."
   ],
   "media": [
     {
@@ -209,6 +231,186 @@
       "path": "assets/books/alp-arslan/ur/thumb-09.webp",
       "bytes": 34738,
       "sha256": "b592210f18c8786afa3e3a002e5dd0d4dcef4100d2f96bef982f6304cc252e24",
+      "dimensions": [
+        240,
+        336
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/page-10.webp",
+      "bytes": 446196,
+      "sha256": "33f96f8dd07c703f302b4f5490d1b478c47ad0770ad4132d8c4fe6e07e993459",
+      "dimensions": [
+        1060,
+        1484
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/thumb-10.webp",
+      "bytes": 34980,
+      "sha256": "a1433749261581a7562244fb6c00453d36d6959417a106ff6573d9ea5b42f104",
+      "dimensions": [
+        240,
+        336
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/page-11.webp",
+      "bytes": 529944,
+      "sha256": "b9b76b4f2353001da93e2dff1eb8b19ebbd94eafc8866c0ea97058ed0b1e7c06",
+      "dimensions": [
+        1060,
+        1484
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/thumb-11.webp",
+      "bytes": 32772,
+      "sha256": "a2fbb9a193d4899c66e29b76eeb449b976832f703569f684ff097d02e11c75ff",
+      "dimensions": [
+        240,
+        336
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/page-12.webp",
+      "bytes": 560282,
+      "sha256": "3658ca1b97accdbf7d5ba3716ea6b1178fe35b955d8e8c5634fa001c9a35464c",
+      "dimensions": [
+        1060,
+        1484
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/thumb-12.webp",
+      "bytes": 35072,
+      "sha256": "e9348da540a91169dac72af868141d1beb7dbea004bba48f64235e82dced6cc4",
+      "dimensions": [
+        240,
+        336
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/page-13.webp",
+      "bytes": 523446,
+      "sha256": "8719610b5396d6dee071275373de3a61ea620b302ee0459322be3f56f1d259b3",
+      "dimensions": [
+        1060,
+        1484
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/thumb-13.webp",
+      "bytes": 36882,
+      "sha256": "3ff200385b3b38f576efd27422be2d62fcc9a87cb803fce71dae31c2736e7030",
+      "dimensions": [
+        240,
+        336
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/page-14.webp",
+      "bytes": 614576,
+      "sha256": "60bfea805ab545ce2cd5431a73675c5773577c513f76e6bcf5ee28b51ee22ff4",
+      "dimensions": [
+        1060,
+        1484
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/thumb-14.webp",
+      "bytes": 38078,
+      "sha256": "d6597b4b37fae72c3b1b2615d5c4ca8db5953497567c2d4a4dea06d8b45bf8a9",
+      "dimensions": [
+        240,
+        336
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/page-15.webp",
+      "bytes": 596830,
+      "sha256": "a2482bec1b911366be34e6ac9f1d50be2d926c1ea9e9a03b0745e73b1370f344",
+      "dimensions": [
+        1060,
+        1484
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/thumb-15.webp",
+      "bytes": 36508,
+      "sha256": "e3f6bca30b91ff72067aec3d0a6b8b0d86fa43a302e40acbeab4a4fcc44ea811",
+      "dimensions": [
+        240,
+        336
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/page-16.webp",
+      "bytes": 550616,
+      "sha256": "f43c1a7511dd326d6c3a79a728a5cca46b8f320287c82003e8760237caeb80f3",
+      "dimensions": [
+        1060,
+        1484
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/thumb-16.webp",
+      "bytes": 33876,
+      "sha256": "fceb0fa043ed77d45293cff272677be86dd500b3f38a58ade9478af6a3c92fe1",
+      "dimensions": [
+        240,
+        336
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/page-17.webp",
+      "bytes": 669070,
+      "sha256": "6b1e200c83eff15d0d5a554da328493756ca9c92f22f9837298dae74ee8bd5cd",
+      "dimensions": [
+        1060,
+        1484
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/thumb-17.webp",
+      "bytes": 39274,
+      "sha256": "181e25d98d4689298d714f0a7f7544c4a4c0b4ce789531a270db4ecb98803c8f",
+      "dimensions": [
+        240,
+        336
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/page-18.webp",
+      "bytes": 615438,
+      "sha256": "7014e6ff60a76e5a640872d47e4f4dd9e84f3a8ca62aa68dd98b074546387811",
+      "dimensions": [
+        1060,
+        1484
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/thumb-18.webp",
+      "bytes": 36324,
+      "sha256": "e5b130ea32bbde0e2ba0d57b03828d27f063bd2a97c5963bab9cd5574255ddf1",
+      "dimensions": [
+        240,
+        336
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/page-19.webp",
+      "bytes": 563842,
+      "sha256": "9014e5de04460e2c001b3a4b848a57b6ea5dc46e27c5502b8cf5e29d02d6ba86",
+      "dimensions": [
+        1060,
+        1484
+      ]
+    },
+    {
+      "path": "assets/books/alp-arslan/ur/thumb-19.webp",
+      "bytes": 38138,
+      "sha256": "cff2fbb696e85c725825a5704f77a97d96e69d8f27cfb86c3473ea02c3b84779",
       "dimensions": [
         240,
         336

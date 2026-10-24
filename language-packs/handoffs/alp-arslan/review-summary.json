@@ -1,150 +1,587 @@
 {
-  "source": "deep-revision-ar",
+  "languages": {
+    "ar": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "b080125779dc",
+      "direction": "rtl",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "97af4f3b29991531ca84bc236881d2e02724bd5906deffc4a207640a95cd3768",
+        "page-11-lettered.png": "a29e2180c65e237c19bb7489d4f6a9947135efc077084cccc54b18837fb09dad",
+        "page-12-lettered.png": "131d2da2ef3b67d0a7f7808e095dc73e1da18f8eb93002d941848d873b54749c",
+        "page-13-lettered.png": "d933adbbdb8715629c402f23f77741e550cb5c834bc0db9456cd31400e6b5ccd",
+        "page-14-lettered.png": "f840c838bea98a6f3ed88350b49250a774e9c98da0cf4a5a1b5dcedff1458ee0",
+        "page-15-lettered.png": "973b05f7041308eb10084d4c13007121a39dd2cec34dc341baa1fab431c7ab7c",
+        "page-16-lettered.png": "0fcc25a62a6de3420b5004388f3c8e9882d198035bb31562fa3eb05b65ea9cc0",
+        "page-17-lettered.png": "ab553ab4cede9b93e3d16fc795b466b3aef1edc279d914c35a2c3e5dfe07511d",
+        "page-18-lettered.png": "8e86ae7d413da41d4ecedc5a87b26e34fc57a5842176d0cea73b65d1b69b179e",
+        "page-19-lettered.png": "15591c667632da3ac95184cab5e5b4cfc6583505ac4a5f2a1806329af941fdda"
+      }
+    },
+    "en": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "3f54adc9c0ed",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "ed45f42d3e9680703e3ecd89dde4bfcd7769da233c8b9d2bb98de05136191bb7",
+        "page-11-lettered.png": "85c5f88f139f597044e7fb8420cc504f7ef723a86d480f2349c28b434a36804e",
+        "page-12-lettered.png": "343f894905adf7432a3e2af2310eac090d8e606d14384b8e32addef7beb73077",
+        "page-13-lettered.png": "08970aee362f5f90e97d017f0f94b10b7618353f2913774102fc06d94a6e7c93",
+        "page-14-lettered.png": "97e9d07080ff70af318cea62f59d1c227def4929908417111c01bd763d79806b",
+        "page-15-lettered.png": "97f958fbcace1e508957b6358e9d79692fdfcaa56bcda4ef1dc5d6b63cf9c963",
+        "page-16-lettered.png": "faa1c494527adecba34276d9ecc0d4d32d2610a0e2f6f2d58a8e6c2d55a1036e",
+        "page-17-lettered.png": "df8edc1fe9c4c6bf5f7365e2ed95bea13977f79f144758dfcadef5478bcccd64",
+        "page-18-lettered.png": "a7d9f51b5415eb266ce89609fbbc203095ac0d5389aa77fe67d9d7418296c749",
+        "page-19-lettered.png": "c6ff2a7b021b895f15f41f24339e7d48e21ad840a9a5e29cb9d93bc2df70fa2e"
+      }
+    },
+    "fr": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "4724046008e9",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "962fb7e2aff40cabe0ce52b7a57b1d3a726c11c16ec4d3bd4f716d70cbdd8606",
+        "page-11-lettered.png": "c74ac272d4624e102c95bffbf40ecd71056d548c051cc095ea83dab18541ccba",
+        "page-12-lettered.png": "64d830e663a543e47682fa73c04e385826c4cf06f084743acb94d8bade99424a",
+        "page-13-lettered.png": "350e7dea05eeffbd9235c8e32ba8fe6138402a2ea37e90c2b954f10aa0957d09",
+        "page-14-lettered.png": "cfa16b0599b828bd63daace368b8d524d1a7f49ea00ddbb2cb701f288044d6bc",
+        "page-15-lettered.png": "7b7549a4d3f95e95f3965b4f1a20d49176e4b19469952d617da38da061f60b27",
+        "page-16-lettered.png": "689008eedeb02276997034ae3ff736ffd13fbd20d18952ec4cd8cce746416bf7",
+        "page-17-lettered.png": "fe7ac9fd4ab9f44278a931c75febaae1c2ef74e60ee66caa6009b8d984b892b1",
+        "page-18-lettered.png": "228ff198a25f7f8e6f57db48e2b8f2b7da81fbf99a26608df04f2bf2c1955771",
+        "page-19-lettered.png": "134824b689152d8c1aab1aa64e920cce8c882515c1ee3356ca495e7fed9c5c84"
+      }
+    },
+    "tr": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "13a6e2b7b242",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "44d95ce67ecb397f53a77b85351be3b0a6963811c29d238e36531e31290f5902",
+        "page-11-lettered.png": "9224803841825037fa5a7620ee92e8ef5ff01ad9ba18ddd46562c6a6490fe6da",
+        "page-12-lettered.png": "4cb26d452230e56344901490e64d39cde87dc29b0347790871743f22daf54e35",
+        "page-13-lettered.png": "885cbe7e0f1ca45bfc773a850d591dbdc99b57dd3f9a1a74f88fe6f2597026d0",
+        "page-14-lettered.png": "7e50f21d61cc9b3fbf9267a29311a2f2b3e4c38a5e986981eaa0f3f29a5c8d7d",
+        "page-15-lettered.png": "1bfb8a49c10b7b83f0bdf7e868878ea3f57bdc4fd83cfea01d9966eaa05b38f8",
+        "page-16-lettered.png": "ad478cb946d6a17ea6a422338aab3aba9a8af845cce71c44d480c2a88b98a015",
+        "page-17-lettered.png": "e0b4cfc4dfdedb8560a4494ac9e57f34d406d8210bea65d74a03b4ff6367e240",
+        "page-18-lettered.png": "60e3bd300b188778beda075520f25e50a0c50a7fa7fb6d0be97250f65b74415e",
+        "page-19-lettered.png": "e1c4ed0ea16fe0fcff3b40c549a58b4da547208c3982e3a79e841078db67cd87"
+      }
+    },
+    "id": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "02cc19e5158b",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "8308c3679c93802c0794337384b6bceb7afe4412c30057be2c819bd1cb0be76b",
+        "page-11-lettered.png": "4697da2f8e40df22d3c04ecf28290a697011c449a8111247690e3d23ec1d385a",
+        "page-12-lettered.png": "2cd5baa3656ce68a2b73e732434135fb0519e5dd01bd3ff24d00319cdb518854",
+        "page-13-lettered.png": "8796fb923bce02d1fd5e1c718c15c1280deb1791981fa5ca1567fa7be10704e9",
+        "page-14-lettered.png": "ce37483739a98b5226ac6a906ce58fb9064eb2fd4dae925d47abb161a4d30a44",
+        "page-15-lettered.png": "55fb9c565a4f9c36e8c00b3ceae27884570dc9ca427ccb8aca8e6de2dc59bf9e",
+        "page-16-lettered.png": "34b5dffa7335f812f84cbdaca7607c54a46096cc8c8f63bffb719abc234341e5",
+        "page-17-lettered.png": "4f1a5e2dfb17b411e635e74f706aacfb59ccdb889d2cf66e37ccb0e284570cfa",
+        "page-18-lettered.png": "60e3b69cf67eb7d8f32ff1d4e82596bcd8846591c4a9043bc02399d6eaa9612f",
+        "page-19-lettered.png": "c54c371202cb48e09f7decd443089de0362cb85892fe816d0078ba3b0f73241e"
+      }
+    },
+    "ms": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "8894224db4c6",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "bf8d6326d70cc166934d91f2f1328e11ad39b3835f8e2133d7f0d69cff1e9090",
+        "page-11-lettered.png": "7efedda360c965dd438ab072312cab824ad15b0a781b5fcdff1fd6a70428d0cf",
+        "page-12-lettered.png": "f8c2e60d1cbbd6a0a0a531d84933f3f833621730168590c4fa7adc341ec37f9a",
+        "page-13-lettered.png": "e7c84823a336c9e22adc1304ed21744df716908ebc675afe65dbe55ef8a945c6",
+        "page-14-lettered.png": "bf7a4c6bf290ee610a2b40a4e125ab35ce7ef53bffc413962f1dd918ef57aecf",
+        "page-15-lettered.png": "aae4f20b8f8a48b51417315eadf2c993aec66321944fc3e9e516df60adcff877",
+        "page-16-lettered.png": "f8060f63e0a10e7ac78def9dab386d85f64653e6934a1d7df6be12b86c340f74",
+        "page-17-lettered.png": "0bcf0a8b9af82451581a7456b63bd10ed72d0d688aec2a43a1e0f8ecfdb7236e",
+        "page-18-lettered.png": "751788cc1a270275ec7f5bacf8cb62d1cd7c63c653912198b5c3f07c4c944ce9",
+        "page-19-lettered.png": "b09faaf8dbbb7e3d72dc627db1e2a640038a621e4e4e9c6dc17b60ec64caf271"
+      }
+    },
+    "pt-BR": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "e3faf6c08848",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "2ac4a1c379cfce7aef76e2296ef581b2fa22b9fb851c862e29cdfba153450c77",
+        "page-11-lettered.png": "936c7d5b00d0900a0aab966bb67764906555ff19d811d823958b59d881d722a6",
+        "page-12-lettered.png": "162529e0474063c4dfa46c9e07d3c76d2af6c04b6cb070c2e19bc5eca95c7322",
+        "page-13-lettered.png": "a2cdcff49d3af1174e382fdce8c3a13cf4b4f9b6e4e7ad94e213c3e81cb2aced",
+        "page-14-lettered.png": "bc0af44e8b43746da05ae2ce0a777b21f199b9ef178b14ed4d60d8fe30da4ffb",
+        "page-15-lettered.png": "2eb3d2457e6bfb824c23801074821622aa7609a2f593978641defdd2d204fd69",
+        "page-16-lettered.png": "586301c82ff4eb30d2aaa99d8e7e183731d8da5d246d6c28ea7a82148552a419",
+        "page-17-lettered.png": "4c2ed0f44898ad4a0f6b13ead49e8b04c3e355500d2a23a6665724b5b1871a30",
+        "page-18-lettered.png": "417a03949202c51b5140a68fbce4d1c453a8e377e223bbbc7d0262f45bb0019a",
+        "page-19-lettered.png": "344fb4113fa10a94eecd99ae455de053df89ab14b37679ffc8842ce3f7483ea1"
+      }
+    },
+    "ur": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "ba3db1c614af",
+      "direction": "rtl",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "b25f2510aeb157e49fa388b8b57f414403a117006e952bf95d5cec4c27ef71d5",
+        "page-11-lettered.png": "e7779f9610bf576d5e9c925f895528c415c529525beaebd98671829478a386ef",
+        "page-12-lettered.png": "0e66554a3c39e44ff16dd2bcf666034cf1ce5357fba9491df6ea0b23783c62c0",
+        "page-13-lettered.png": "46fcde35321a65aa1671c4d7785d2a3a87f736ec181ca8330e6cede7a659eb2a",
+        "page-14-lettered.png": "bd66e87ecb21610ffb5427eeae1738ce615490b67c99ffce2995ee278409ce39",
+        "page-15-lettered.png": "1a927039b1728b2e4026b0b6f655a97082a12af73506984be8826bc158639b27",
+        "page-16-lettered.png": "a2ecf6209577ebc1893269a4ed2c2a7212898f4bd50968e517da9294bc8adf94",
+        "page-17-lettered.png": "6595bbf2b4627611aaacc9b33083b71e393994ea2c62d4636cb30a0ddb8364ef",
+        "page-18-lettered.png": "291e6586c83695f83a85bd6ed53dac51fd852f6e4e262653819bc91ceeaa64e6",
+        "page-19-lettered.png": "87f592e5ec1fe9976f7a2fadf098429b38806fc9e8e450f0200734ea2f2b5d95"
+      }
+    },
+    "bn": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "cf6a890ba91d",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "8d6cf311e1b5f766871d6a06b93b31a4870a3347ebde6b33168647b235a8e727",
+        "page-11-lettered.png": "c4044b86e66cdf97b76ab0ab2e903faa3919458269bebd9ee73b8aeec2de6c28",
+        "page-12-lettered.png": "22574134ae2cfb536da13030cc787b7c01755b18b4df4273bb72dd6813b8cdc1",
+        "page-13-lettered.png": "c11efc17e4834ff39ef4469ddb67a65ef2b169282fa2355762ed7ce0bdf1d15b",
+        "page-14-lettered.png": "7e82e16390f960622ad348b862caab97e363f90e492b6dd48e2718f72efce8d0",
+        "page-15-lettered.png": "a5c54b61a650778457f3a30367fdee3c4b9ce8fe7e890d53828aa28b0ef9bf15",
+        "page-16-lettered.png": "e7c6d8c3d1aaddcd1c266fc8eb1996670719ac933e2cf57e0aa1a9a5dba6b545",
+        "page-17-lettered.png": "e6380ab8b4aea58d726a06745c65b4e054ead0d42542ab49a7f72ea7ae1ebe9c",
+        "page-18-lettered.png": "389decd2f345d3f3d1cabb53f2141bc71ced0aa4105e497b64717e5ec72bc8a2",
+        "page-19-lettered.png": "78f2af8e5bcd1c31fbb008cc826d3692d013c28bdac4cb491a43156b90d138eb"
+      }
+    },
+    "hi": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "c2d15769c82d",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "0839bb267dafceda3967deacd9d68a110a657a1351075b40fdca78a6acfba3a0",
+        "page-11-lettered.png": "67ef2945e3517296a1420158967a4a7c7a8fc8e1f3a155f098430f01c40273d7",
+        "page-12-lettered.png": "b992c1165fcf23d22380de6cfbdaa947b258daa1e1d90c46d4f2772c35f79f5c",
+        "page-13-lettered.png": "ac5c1510b22df807c3381f947a21aa09cb1e187b4157d647df1823ca7ab70e24",
+        "page-14-lettered.png": "501dc219cd8d70403711e31bb72ef989428531f5c068b4520ac8d455a14b35d0",
+        "page-15-lettered.png": "f50d0ed1eb84572515b142df4884dbc7874eb2296a6b08f1796705f10fdc187b",
+        "page-16-lettered.png": "37f459ec14fc07866037a6e148df55bad1f5c08e3f4e057838176ea1f002a55a",
+        "page-17-lettered.png": "d73b449d310e5586ec36e5e3fda09afe810d185071efb8577c61a6d8723e5be4",
+        "page-18-lettered.png": "c1fec922334b5410f038d59cd784454f61130c17aa41f400cedaa2cf0d2b0cae",
+        "page-19-lettered.png": "f8e4c03df4e73cdca5b3b6a2b581153a89370d4cf85b89b9fd1d9d40170d5d26"
+      }
+    },
+    "ru": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "28871603d25f",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "a43095ec9edda74c170c0bcb8573541b93f7a24fb64f10f86ac147d32061fa8c",
+        "page-11-lettered.png": "d4260d4663012640635e3b4fb5dbfdcbb6bb188eab5b8691447946f8711ec0e8",
+        "page-12-lettered.png": "b55fb6def4da13ebf122df91d3fced7c931979bc344b18bd8fe936d2d66b2425",
+        "page-13-lettered.png": "f1eb85e2dd26f2ead78904d14d33cf63435decf27f5faabfa316378b863da51d",
+        "page-14-lettered.png": "3cd59000fbb7b2a67e18f784292c935b70cf647245ecfc616aafab3e29e93ba2",
+        "page-15-lettered.png": "db42e854f29267c26005f36ca4433b0f3330152423fe44ef55aace583cfde186",
+        "page-16-lettered.png": "2b90c370d39c3b8cd799b0acbbc7c3e6f78dfd11a33d107f974ddc9598424a5f",
+        "page-17-lettered.png": "5f5b3e8c38d3799dca71c366565a16eeced793339f9db2d58d818d9b7b167278",
+        "page-18-lettered.png": "b2456c8a77aa2c8886f2a9cde2a8a03377485935f59b02056bb776d3c1aa4efc",
+        "page-19-lettered.png": "b2d586d63dc3d4697e5078800170e1a141d311eabeb1bd04aad2bcd6a9272e7a"
+      }
+    },
+    "es": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "396e8ac69bcf",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "9237b585e63471cb759fd0535f1c9216238abdf7d80d524d352643668e347360",
+        "page-11-lettered.png": "865e1a66a7d988c05fd6400a27085768179f388512e0b38b9b8c2ca2e1519ab3",
+        "page-12-lettered.png": "a76a02d545dd77e8a763422453c2768090e03c874406f10f4ae468043f0d332b",
+        "page-13-lettered.png": "ae72c6f955865c04b42cadc343fbd9c942219033981bc7b05da98ebe1932b486",
+        "page-14-lettered.png": "4260fdb83f8ea7c7b64f6293e0eec6ed9563abeb937f28afdbef2541b65d2c0e",
+        "page-15-lettered.png": "e4ae84777f65f42f159e484937fc6a56d7632c6a97ae6e402bc10a1c44179e70",
+        "page-16-lettered.png": "34b732976f252d4be21903e8a82cadc67f77ce37d38fa6197ab157889109390f",
+        "page-17-lettered.png": "75f81684b7922c2ce01c9b26e2fd1b8a71c1f692dbe1b7c0952439e9bfc6ad8a",
+        "page-18-lettered.png": "5a201140c405bc4aebdd3ab802b722cd95d3453e5d7f95e04a4ac971eeff961b",
+        "page-19-lettered.png": "6e2be6c21b32f42ea356e17fcaa037264a6ee5db877ec021969520d9ed42d316"
+      }
+    },
+    "fa": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "dfe6c676631a",
+      "direction": "rtl",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "54e61ee7ec0b164a2f6f79fd61e17614a8f9aef9084d4b500daa6476ddd196bd",
+        "page-11-lettered.png": "740c418775327ffd02a75815ba9637533bc224975207b373aee292cfa40604b7",
+        "page-12-lettered.png": "d5a1688e583cad062d9f9428bdd12ee4f676edd287be2b94f3bda6a25f328c6c",
+        "page-13-lettered.png": "fc33e139683b25504adc499c33bdf2016f6dac199edcecc5246c0b55ed9fecb3",
+        "page-14-lettered.png": "58c5bfd19cb27d446b8701a3dd489a94cd8aa0ce280356c33c81fddcee6d4283",
+        "page-15-lettered.png": "62387cb573111000eb1524344c026393b8abece57944ce4f44b8a32942244236",
+        "page-16-lettered.png": "5045e3a5151c1693f5a10d5588670a1de5eb063e61386be6b256114e1b8f5c61",
+        "page-17-lettered.png": "c0bc8a14e40f28c6a200f532ca4dc52319f43dbb1d7c42aa6bc9acbb18478cda",
+        "page-18-lettered.png": "8e3032ac228f0b16cf6845563b36468bbfbff95b7df315a4c77062d7984fe2af",
+        "page-19-lettered.png": "9e81b9f8536de297a0e4debaa071974409b26abdd3ad408816fe082cf8b6694b"
+      }
+    },
+    "de": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "f0115cea0037",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "fca68608b0b086251f41763040ba54aaeebdcdc5247619bce7353ef0e60e7706",
+        "page-11-lettered.png": "4da7ab322690008f5483412268c43db06558d5ac558afe896cb30ad1cbee456f",
+        "page-12-lettered.png": "ef95ccb6c0a21ac865f2b55ad4547d0215f0f1a5bd5016383a112de1669a2f3e",
+        "page-13-lettered.png": "0eb8ffade8f4e4c7383d833a37b52bbb8bdcb452eea5bcd4ebfaa2c03b2a7582",
+        "page-14-lettered.png": "408c64e065e52d11eb3fa9674a0be7504a28098a0e245d5ebbd696236dc1eb96",
+        "page-15-lettered.png": "a08314c2bbe530d36964da1b42b76a130b1f98b97d6b1709fd8c8d2a2d2072cc",
+        "page-16-lettered.png": "1e427d4430c623b96940632972969c99791cac091deaee154790df2ce7c0cc63",
+        "page-17-lettered.png": "68ffd4c653507c3218dd78392410bd5031905227129613a4f381a32aae4a9861",
+        "page-18-lettered.png": "78b15f3b7c4bc45ba1d15866133bee3dde292b0f1712b9a5aed938d82633801d",
+        "page-19-lettered.png": "47fb052a924b02cf6231e0cd5a0d49442a94e458a8c77e4639aa35b90beb7d85"
+      }
+    },
+    "zh-CN": {
+      "pages": 19,
+      "newPages": 10,
+      "panelsTotal": 112,
+      "newPanels": 65,
+      "textsTotal": 176,
+      "newTexts": 85,
+      "files": 38,
+      "revision": "de52305fd669",
+      "direction": "ltr",
+      "first9BytesPreserved": true,
+      "sourceImagesSha256": {
+        "page-10-lettered.png": "d6fedf95b840f07a998d482a00c2de4841f9da4e1ab0016bb1f11cd1b309f2aa",
+        "page-11-lettered.png": "60d57816a51035c60e21acdbb8e0ce4b91d2e320b6409136a579ec8708141015",
+        "page-12-lettered.png": "f67100a33e48bec17818b8556198ae58b739c82a11b13d62e9817b20cdca6c1f",
+        "page-13-lettered.png": "5bd9f26a254d03eb437779c92be88651d4e91f7b9f820363bea1b6ec8146cd5d",
+        "page-14-lettered.png": "3aee70ca3e6152da540685a3413c8dd4f6eb248f5252a818419d2d5e3568afaf",
+        "page-15-lettered.png": "be9ba69d4a4d4065f51bfc2075552758a03c8f42cb1b8756d3cb0b63b3aaa910",
+        "page-16-lettered.png": "6e50b0c0eb9c82db8daf618c14209c5fec8dbf2cb92f1fc5ba0a9ddc4bac8d78",
+        "page-17-lettered.png": "c5f15cc293ee4333d77a3608aa601acc282338c2ea1d128ceacf04b0051f0d6d",
+        "page-18-lettered.png": "109fef0462ca35cddec870764a15ab5c838b3162fc1aa7274e7f497dcfc673b8",
+        "page-19-lettered.png": "4bb1666c9b09cbb147c4b5756c6288e6af8339b073a0b6127ac833d5a496b4d3"
+      }
+    }
+  },
+  "newFullPages": 150,
+  "newThumbnails": 150,
+  "totalFullPages": 285,
   "dimensions": [
     1060,
     1484
   ],
-  "languages": {
-    "ar": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "rtl",
-      "files": 18,
-      "bytes": 5806140,
-      "revision": "690ee3850b46"
+  "review": "Independent AI translation and rendered layout review; no human certification.",
+  "release": "https://github.com/blaghtayt-alt/iman-companion/releases/download/language-packs-2026-10-24-alp-pages-10-19",
+  "publicationVerification": "All15 release archives downloaded and checked against generated SHA-256; release catalogue exact; all previous pack media preserved.",
+  "validation": {
+    "editions": {
+      "ar": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 85,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "rtl",
+        "artPanelsPreserved": true
+      },
+      "en": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 87,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      },
+      "fr": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 87,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      },
+      "tr": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 86,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      },
+      "id": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 86,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      },
+      "ms": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 86,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      },
+      "pt-BR": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 87,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      },
+      "ur": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 85,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "rtl",
+        "artPanelsPreserved": true
+      },
+      "bn": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 85,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      },
+      "hi": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 85,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      },
+      "ru": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 86,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      },
+      "es": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 87,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      },
+      "fa": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 85,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "rtl",
+        "artPanelsPreserved": true
+      },
+      "de": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 87,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      },
+      "zh-CN": {
+        "pages": 10,
+        "panels": 65,
+        "sourceTexts": 85,
+        "letteringSegments": 85,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "minimumFont": 22,
+        "direction": "ltr",
+        "artPanelsPreserved": true
+      }
     },
-    "en": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5876190,
-      "revision": "9892592ec91f"
-    },
-    "fr": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5882200,
-      "revision": "10f431a1db20"
-    },
-    "tr": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5846394,
-      "revision": "4ee1e058ca56"
-    },
-    "id": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5847986,
-      "revision": "2e74da375115"
-    },
-    "ms": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5865062,
-      "revision": "6bc28ebd8eeb"
-    },
-    "pt-BR": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5894088,
-      "revision": "d102ce27f3c2"
-    },
-    "ur": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "rtl",
-      "files": 18,
-      "bytes": 5795154,
-      "revision": "4f9e3509d9e2"
-    },
-    "bn": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5824220,
-      "revision": "e115c42af1d9"
-    },
-    "hi": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5849198,
-      "revision": "518708cd3637"
-    },
-    "ru": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5862026,
-      "revision": "592e4b76d264"
-    },
-    "es": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5879210,
-      "revision": "c43a12f8162d"
-    },
-    "fa": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "rtl",
-      "files": 18,
-      "bytes": 5792210,
-      "revision": "0dd9de7f9eec"
-    },
-    "de": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5883640,
-      "revision": "42b4145c7dc5"
-    },
-    "zh-CN": {
-      "pages": 9,
-      "panels": 47,
-      "texts": 91,
-      "direction": "ltr",
-      "files": 18,
-      "bytes": 5934822,
-      "revision": "c6aef3ded6c0"
-    }
+    "errors": []
   },
-  "review": "Independent AI translation and rendered layout review; not human certification.",
-  "packageVerification": "Every published archive downloaded and checked against its generated SHA-256. Release catalogue matched byte for byte. Non-Alp media unchanged from previous packs.",
-  "limitations": [
-    "Only the approved nine-page opening is delivered.",
-    "Independent AI review; no claim of human translation certification."
-  ]
+  "appIntegration": {
+    "pagesAvailable": 19,
+    "originalArabic": true,
+    "readingProgressPreserved": true,
+    "missingPageDownloadAction": true,
+    "requiresUpdatedAppBuildForExisting9PageApps": true,
+    "runtimeBuild": {
+      "fingerprint": "85d05d3adbb3ba729ebfb875faef50100c0c66bda2b7796e70ea581813a00007",
+      "manifestSHA256": "7f6ab9ef6ba57bbd29191f1d3b4f250738fb6c897ceb79ee4836e5d29e761636",
+      "path": "app-85d05d3adbb3ba729ebf",
+      "scope": "Build copy only. Rebuild after changing app files; older builds are immutable."
+    }
+  }
 }
