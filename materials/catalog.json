@@ -7049,7 +7049,10 @@
       "json": "materials/under-5/ar/unit-01.json",
       "translationStatus": "arabic-source",
       "unit": 1,
-      "sourceSha256": "e756c2b876e1dad2478d1c23e7ab19bb733167c508fbaf5ca3f9ce3d4ae6e23f"
+      "sourceSha256": "1880d5250085e33399cd116af1b0feaf1340c9f7c715222077401b881c2d37c1",
+      "lessonCount": 10,
+      "reviewedCourseSha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+      "audioStatus": "preparing"
     },
     {
       "collection": "under-5",
@@ -7059,7 +7062,10 @@
       "json": "materials/under-5/ar/unit-02.json",
       "translationStatus": "arabic-source",
       "unit": 2,
-      "sourceSha256": "40e5fd5740f4972ae78577767c9bd60d232f29ced0538715d1f7436878fbb40a"
+      "sourceSha256": "40e5fd5740f4972ae78577767c9bd60d232f29ced0538715d1f7436878fbb40a",
+      "lessonCount": 7,
+      "reviewedCourseSha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+      "audioStatus": "preparing"
     },
     {
       "collection": "under-5",
@@ -7069,7 +7075,10 @@
       "json": "materials/under-5/ar/unit-03.json",
       "translationStatus": "arabic-source",
       "unit": 3,
-      "sourceSha256": "376f8c1cc9536efd2944a151c60becdd7aa3fa19f4702d8b9a7f25f02d29671a"
+      "sourceSha256": "376f8c1cc9536efd2944a151c60becdd7aa3fa19f4702d8b9a7f25f02d29671a",
+      "lessonCount": 7,
+      "reviewedCourseSha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+      "audioStatus": "preparing"
     },
     {
       "collection": "under-5",
@@ -7079,7 +7088,10 @@
       "json": "materials/under-5/ar/unit-04.json",
       "translationStatus": "arabic-source",
       "unit": 4,
-      "sourceSha256": "5a80fac52eb6a2f4df147458031c2d8851c194461b94ec2eb747afd88ccb7ef7"
+      "sourceSha256": "5a80fac52eb6a2f4df147458031c2d8851c194461b94ec2eb747afd88ccb7ef7",
+      "lessonCount": 7,
+      "reviewedCourseSha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+      "audioStatus": "preparing"
     },
     {
       "collection": "under-5",
@@ -7089,7 +7101,10 @@
       "json": "materials/under-5/ar/unit-05.json",
       "translationStatus": "arabic-source",
       "unit": 5,
-      "sourceSha256": "c1ccce140ba06c75037f8263f4b425f7e6633c096362031c035e1d85a14d9cd3"
+      "sourceSha256": "c1ccce140ba06c75037f8263f4b425f7e6633c096362031c035e1d85a14d9cd3",
+      "lessonCount": 3,
+      "reviewedCourseSha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+      "audioStatus": "preparing"
     },
     {
       "collection": "under-5",
@@ -7099,7 +7114,10 @@
       "json": "materials/under-5/ar/unit-06.json",
       "translationStatus": "arabic-source",
       "unit": 6,
-      "sourceSha256": "377e99eb1cab1cb659d3d7b9fcc8dde099b1880bec8b42dcbfb64c4077cd5a76"
+      "sourceSha256": "377e99eb1cab1cb659d3d7b9fcc8dde099b1880bec8b42dcbfb64c4077cd5a76",
+      "lessonCount": 5,
+      "reviewedCourseSha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+      "audioStatus": "preparing"
     },
     {
       "collection": "seerah",
@@ -8075,5 +8093,13 @@
     "seerah": "8d864c0f4702b70331198ae21ac5ff46db4b303bf94ad0e16c544c9cbe963bc0",
     "hadith": "7dc46269841a006b14b14e16bab65555c5225e2d06edfba61b1b5126e83be1b5",
     "sayings": "3ac6769dda1dc30a30dfd747852a8c4d974b51127acf2d17dfa11b3316df5f7d"
+  },
+  "under5EditorialUpdate": {
+    "date": "2026-10-29",
+    "units": 6,
+    "lessons": 39,
+    "sourceNotes": "materials/under-5/SOURCE-NOTES.json",
+    "index": "materials/under-5/README.md",
+    "scope": "Arabiccourseonly; othercollectionsandallpriorwork-in-progressstatusunchanged."
   }
 }

@@ -2,6 +2,8 @@
 
 ## Current reading collections
 
+- [Under 5: six Arabic units, 39 lessons and source documents](under-5/README.md)
+
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Hadith: published translations and reviewed meanings](hadith/README.md)
 - [Ibn al-Qayyim: all 37 sayings in 15 languages](ibn-al-qayyim/README.md)

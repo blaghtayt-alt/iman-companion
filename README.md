@@ -16,6 +16,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 - [Seerah chapters and current language coverage](materials/seerah/combined/README.md)
 - [Hadith reading material](materials/hadith/README.md)
 - [Sayings of Ibn al-Qayyim](materials/ibn-al-qayyim/README.md)
+- [Under 5: six Arabic units and 39 lessons](materials/under-5/README.md)
 - [Browse all materials](materials/README.md)
 - [Sources and how the summaries were prepared](materials/SOURCES-AND-METHOD.md)
 - [Machine-readable catalog](materials/catalog.json)
@@ -31,13 +32,13 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 | Seerah | Chapters 1–22 in the original nine languages; [current coverage in the six newer languages](materials/seerah/combined/README.md). Arabic summaries of chapters 23–26 remain in the source archive |
 | Hadith | Arabic reference collection and reviewed translations in the six newer languages; coverage is listed per language |
 | Ibn al-Qayyim | 37 sayings and explanations in all 15 app languages |
-| Under 5 | Six Arabic teaching units |
+| Under 5 | [Six Arabic units and 39 lessons](materials/under-5/README.md); audio and other language versions in preparation |
 
-The app languages are Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German and Simplified Chinese. Coverage differs between collections. This is not a complete translation of every surah, and some Arabic sources contain selected ayahs only. The catalog gives the actual ayah counts and identifies introductions and archived chapters.
+The published collections currently cover Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German and Simplified Chinese. The app interface also supports Uzbek, Thai, Vietnamese, Japanese and Filipino; this does not imply that every material collection is complete in those languages. Coverage differs between collections. This is not a complete translation of every surah, and some Arabic sources contain selected ayahs only. The catalog gives the actual ayah counts and identifies introductions and archived chapters.
 
 ## Where the material comes from
 
-The tadabbur collection grew out of Arabic lessons, mainly those of Ahmad Abd al-Mun'im on [إنه القرآن / Its The Quran](https://www.youtube.com/c/itsthequran), together with the additional sources named in individual documents. The Seerah summaries follow Ahmad al-Sayyid's lecture sequence. The Under 5 units are my teaching materials, written for an adult to use with a young child.
+The tadabbur collection grew out of Arabic lessons, mainly those of Ahmad Abd al-Mun'im on [إنه القرآن / Its The Quran](https://www.youtube.com/c/itsthequran), together with the additional sources named in individual documents. The Seerah summaries follow [Ahmed al-Sayed (أحمد السيد)](https://www.youtube.com/@alsayyed_ah)'s lecture sequence. The Under 5 units are my teaching materials, written for an adult to use with a young child.
 
 These are prepared summaries and reflections, not official transcripts or publications endorsed by the speakers. Source references and Quran or hadith quotations are kept with the material wherever supplied.
 

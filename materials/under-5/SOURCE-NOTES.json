@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-29",
+  "source": "Six Arabic teaching documents supplied by the project owner. No external author is inferred.",
+  "scope": {
+    "units": 6,
+    "lessons": 39,
+    "bodyParagraphs": 1262,
+    "allParagraphPositionsIncludingHeadings": 1307,
+    "lessonsPerUnit": [
+      10,
+      7,
+      7,
+      7,
+      3,
+      5
+    ]
+  },
+  "sourceDocuments": [
+    {
+      "unit": 1,
+      "file": "materials/under-5/source-documents/Unit 1.docx",
+      "sha256": "1880d5250085e33399cd116af1b0feaf1340c9f7c715222077401b881c2d37c1",
+      "frozenOriginalSourceSha256": "e756c2b876e1dad2478d1c23e7ab19bb733167c508fbaf5ca3f9ce3d4ae6e23f"
+    },
+    {
+      "unit": 2,
+      "file": "materials/under-5/source-documents/Unit 2.docx",
+      "sha256": "40e5fd5740f4972ae78577767c9bd60d232f29ced0538715d1f7436878fbb40a",
+      "frozenOriginalSourceSha256": "40e5fd5740f4972ae78577767c9bd60d232f29ced0538715d1f7436878fbb40a"
+    },
+    {
+      "unit": 3,
+      "file": "materials/under-5/source-documents/Unit 3.docx",
+      "sha256": "376f8c1cc9536efd2944a151c60becdd7aa3fa19f4702d8b9a7f25f02d29671a",
+      "frozenOriginalSourceSha256": "376f8c1cc9536efd2944a151c60becdd7aa3fa19f4702d8b9a7f25f02d29671a"
+    },
+    {
+      "unit": 4,
+      "file": "materials/under-5/source-documents/Unit 4.docx",
+      "sha256": "5a80fac52eb6a2f4df147458031c2d8851c194461b94ec2eb747afd88ccb7ef7",
+      "frozenOriginalSourceSha256": "5a80fac52eb6a2f4df147458031c2d8851c194461b94ec2eb747afd88ccb7ef7"
+    },
+    {
+      "unit": 5,
+      "file": "materials/under-5/source-documents/Unit 5.docx",
+      "sha256": "c1ccce140ba06c75037f8263f4b425f7e6633c096362031c035e1d85a14d9cd3",
+      "frozenOriginalSourceSha256": "c1ccce140ba06c75037f8263f4b425f7e6633c096362031c035e1d85a14d9cd3"
+    },
+    {
+      "unit": 6,
+      "file": "materials/under-5/source-documents/Unit 6.docx",
+      "sha256": "377e99eb1cab1cb659d3d7b9fcc8dde099b1880bec8b42dcbfb64c4077cd5a76",
+      "frozenOriginalSourceSha256": "377e99eb1cab1cb659d3d7b9fcc8dde099b1880bec8b42dcbfb64c4077cd5a76"
+    }
+  ],
+  "readingEditionSha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+  "wordingUpdates": [
+    {
+      "unit": 1,
+      "lesson": "under5-lesson-1",
+      "paragraphIndexInLesson": 4,
+      "sourceParagraph": 6,
+      "before": "يُمْكِنُكَ أَنْ تَحْكِيَ مَا تَتَذَكَّرُهُ...",
+      "after": "يُمْكِنُكَ أَنْ تُخْبِرَنِي بِمَا تَتَذَكَّرُهُ..."
+    },
+    {
+      "unit": 2,
+      "lesson": "under5-lesson-16",
+      "paragraphIndexInLesson": 1,
+      "sourceParagraph": 160,
+      "before": "يُمْكِنُكَ أَنْ تَحْكِيَ مَا تَتَذَكَّرُهُ...",
+      "after": "يُمْكِنُكَ أَنْ تُخْبِرَنِي بِمَا تَتَذَكَّرُهُ..."
+    }
+  ],
+  "sourceWhitespaceRestored": [
+    {
+      "unit": 3,
+      "paragraph": 82,
+      "before": "صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ...",
+      "after": "صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ...\n"
+    },
+    {
+      "unit": 3,
+      "paragraph": 86,
+      "before": "...",
+      "after": "\t...\t"
+    },
+    {
+      "unit": 3,
+      "paragraph": 87,
+      "before": "نَحْنُ نُحِبُّ رَسُولَ اللهِ مُحَمَّدًا...صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ...",
+      "after": "نَحْنُ نُحِبُّ رَسُولَ اللهِ مُحَمَّدًا...\nصَلَّى اللهُ عَلَيْهِ وَسَلَّمَ..."
+    }
+  ],
+  "sourceVersionNote": "The Word files preserve the supplied source documents. The Markdown/JSON reading edition includes the two explicitly requested wording changes and consistent Arabic vowel marks; the Unit2 source Word file retains its original wording. Exact XML linebreaks/tabs in three Unit3 paragraphs are restored from the supplied source; no other wording is changed. The earlier source and publication remain in local and Git history.",
+  "audio": "In preparation; no recording is included or marked available.",
+  "translations": "Arabic reading edition only. Other19 course translations remain in preparation and are not included in this update.",
+  "hadithReference": {
+    "lesson": "under5-lesson-22",
+    "form": "Course paraphrase of mentioning Allah’s name before eating and using the right hand; not a verbatim quotation of the complete report.",
+    "reference": "Sahih al-Bukhari 5376",
+    "url": "https://sunnah.com/bukhari:5376"
+  },
+  "review": "Separate source/reference research, Arabic source-to-reading fidelity review and structural checks are recorded. This is not a claim of independent human scholarly certification.",
+  "reuse": "Existing repository terms apply; see ../REUSE.md. Credited third-party material keeps its own terms."
+}
