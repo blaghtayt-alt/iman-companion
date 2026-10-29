@@ -94,7 +94,7 @@
   ],
   "sourceVersionNote": "The Word files preserve the supplied source documents. The Markdown/JSON reading edition includes the two explicitly requested wording changes and consistent Arabic vowel marks; the Unit2 source Word file retains its original wording. Exact XML linebreaks/tabs in three Unit3 paragraphs are restored from the supplied source; no other wording is changed. The earlier source and publication remain in local and Git history.",
   "audio": "In preparation; no recording is included or marked available.",
-  "translations": "Arabic, English and French are complete for six units and 39 lessons each; the other 17 app languages remain in preparation.",
+  "translations": "Arabic, English, French and Turkish are complete for six units and 39 lessons each; the other 16 app languages remain in preparation.",
   "hadithReference": {
     "lesson": "under5-lesson-22",
     "form": "Course paraphrase of mentioning Allah’s name before eating and using the right hand; not a verbatim quotation of the complete report.",
@@ -122,5 +122,19 @@
     "scope": "Six units, 39 lessons, 1262 body paragraph positions and 45 headings. The French is a meaning translation, not human scholarly certification.",
     "audio": "in preparation",
     "usage": "Existing repository terms apply; third-party quotations retain their own terms."
+  },
+  "turkishReview": {
+    "status": "complete Turkish course, independently model-reviewed",
+    "sourceReadingEditionSha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+    "approvedTurkishCourseSha256": "cf00200d1a64b3755cb984e0a78f24eed240292e263a395cd8d8c064bf6d84be",
+    "author": "gpt-6.1-sol, high reasoning",
+    "distinctIndependentReviewer": "gpt-6.1-sol, high reasoning",
+    "sourceResearch": "gpt-6.1-terra, medium reasoning; finite targeted search for this exact custom course; a distinct Turkish children’s Q&A publication was identified but not adopted.",
+    "scope": "Six units, 39 lessons, 1262 body positions and 45 headings. Direct meaning translation from the amended Arabic course; not human scholarly certification.",
+    "sourceVersion": "The amended Arabic reading edition controls both memory prompts. The original Unit 2 Word document retains its earlier wording.",
+    "lesson22": "Course paraphrase of two instructions: mention Allah’s name before eating and use the right hand. The cited complete report also includes a third instruction, which is not added to the course.",
+    "scripture": "The course contains teaching summaries, not a newly translated direct Quran quotation.",
+    "audio": "in preparation",
+    "usage": "Existing repository terms apply; third-party material retains its own terms."
   }
 }

@@ -2,7 +2,7 @@
 
 ## Current reading collections
 
-- [Under 5: six Arabic, English and French units, 39 lessons each and source documents](under-5/README.md)
+- [Under 5: six Arabic, English, French and Turkish units, 39 lessons each and source documents](under-5/README.md)
 
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Hadith: published translations and reviewed meanings](hadith/README.md)
@@ -68,6 +68,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 | under-5 | Arabic | 6 |
 | under-5 | English | 6 |
 | under-5 | French | 6 |
+| under-5 | Turkish | 6 |
 
 ## Tadabbur
 
@@ -632,6 +633,12 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [under-5 · French · 4](under-5/fr/unit-04.md)
 - [under-5 · French · 5](under-5/fr/unit-05.md)
 - [under-5 · French · 6](under-5/fr/unit-06.md)
+- [under-5 · Turkish · 1](under-5/tr/unit-01.md)
+- [under-5 · Turkish · 2](under-5/tr/unit-02.md)
+- [under-5 · Turkish · 3](under-5/tr/unit-03.md)
+- [under-5 · Turkish · 4](under-5/tr/unit-04.md)
+- [under-5 · Turkish · 5](under-5/tr/unit-05.md)
+- [under-5 · Turkish · 6](under-5/tr/unit-06.md)
 
 
 ## Newer Seerah translations
