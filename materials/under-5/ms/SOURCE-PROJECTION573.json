@@ -1,0 +1,91 @@
+{
+  "schema": "under5-ms-qualified-bounded-source-projection573-v1",
+  "language": "ms",
+  "title": "Sumber kursus Islam untuk kanak-kanak bawah lima tahun",
+  "scope": {
+    "units": 6,
+    "lessons": 39,
+    "unitLessonCounts": [
+      10,
+      7,
+      7,
+      7,
+      3,
+      5
+    ],
+    "headings": 45,
+    "bodyPositions": 1262,
+    "blank": 6,
+    "literalPauses": 155,
+    "wrappedPauses": 1,
+    "LF": 2,
+    "TAB": 2
+  },
+  "sourceEdition": "Teks Arab yang dibekalkan, edisi 483 dengan dua pindaan permintaan manusia.",
+  "sourceSHA256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+  "targetSHA256": "eaf9f30a1fdde90fcecef51c1833f84e9c6c1592e81363d91eab723ed1e6e07a",
+  "route": "Terjemahan makna Bahasa Melayu Malaysia yang dikarang terus daripada keseluruhan teks Arab. Carian terhad terhadap penerbitan Melayu dibuat terlebih dahulu; versi terbitan yang sepadan dan boleh digunakan bagi kursus khusus ini tidak dikenal pasti dalam carian itu. Edisi lain yang tidak dibaca atau tidak ditemui masih tidak diketahui.",
+  "review": {
+    "status": "Semua enam unit dan 39 pelajaran telah melalui bacaan perbandingan Arab–Melayu oleh penyemak yang berbeza daripada pengarang, diikuti bacaan penuh Bahasa Melayu sahaja.",
+    "scopeLimit": "Semakan bahasa, makna dan sumber oleh sistem AI; bukan pensijilan ilmiah manusia. Semakan paparan/aplikasi dan penerbitan masih berasingan.",
+    "changes": "Tiada perubahan pada 45 tajuk atau 1,262 kedudukan isi calon yang disemak."
+  },
+  "amendments": [
+    {
+      "lesson": 1,
+      "paragraphIndex": 4,
+      "meaning": "Beritahu saya apa yang kamu ingat."
+    },
+    {
+      "lesson": 16,
+      "paragraphIndex": 1,
+      "meaning": "Beritahu saya apa yang kamu ingat."
+    }
+  ],
+  "scriptureBoundary": "Tiada petikan ayat Al-Quran secara langsung dalam teks kursus ini. Ringkasan pengajaran, dua kalimah syahadah dan ungkapan zikir/selawat biasa dibezakan daripada terjemahan petikan ayat atau hadis bernombor.",
+  "lesson22": {
+    "course": "Pengajaran kursus merangkumi menyebut nama Allah sebelum makan dan makan dengan tangan kanan sahaja.",
+    "reportContext": "Laporan Umar bin Abi Salamah yang lebih lengkap mempunyai tiga arahan serta kisah latarnya. Arahan ketiga tentang makanan yang terdekat tidak ditambah kepada pelajaran.",
+    "references": [
+      "Sahih al-Bukhari 5376",
+      "Sahih Muslim 2022"
+    ],
+    "links": [
+      "https://sunnah.com/bukhari:5376",
+      "https://hadeethenc.com/ar/browse/hadith/58120"
+    ],
+    "verification": "Laporan Arab, konteks penuh, penjelasan dan rujukan dalam salinan sumber telah diperiksa; sumber HadeethEnc menyifatkannya sahih dan muttafaq alaih."
+  },
+  "contextualMalayPublication": {
+    "publisher": "Jabatan Mufti Negeri Perlis",
+    "author": "Mohd Asri bin Zainul Abidin",
+    "title": "Iftar dan Adab Makan",
+    "date": "2022-04-08",
+    "url": "https://muftiperlis.gov.my/index.php/minda-mufti/647-iftar-dan-adab-makan",
+    "role": "Rujukan konteks; tiada petikan terbitannya dipilih untuk disalin ke dalam bacaan kursus.",
+    "knownConditions": "Halaman menyatakan Hak Cipta Terpelihara © Jabatan Mufti Negeri Perlis 2023. Lesen terperinci dan versi khusus tidak dinyatakan dalam salinan yang diperiksa. Notis hak cipta ini tidak dianggap sebagai pemberian lesen atau larangan sejagat."
+  },
+  "publishedFirstPositives": [
+    {
+      "title": "Pendidikan Awal Kanak-kanak Menurut Perspektif Islam",
+      "authors": "Asmawati Suhid; Noreha Che Abah",
+      "edition": "Jurnal Al-Ummah 3 (2021),141–164",
+      "url": "https://www.jais.gov.my/wp-content/uploads/2023/12/2022_Pendidikan-Awal-Kanak-Kanak-Menurut-Perspektif-Islam.pdf",
+      "scope": "Artikel pendidikan yang berlainan daripada skrip 39 pelajaran ini; hanya dua halaman pembukaan dibaca. Kandungan penuh dan lesen penggunaan semulanya belum dinilai; tiada teks disalin."
+    },
+    {
+      "title": "Kaedah Madaninyyah: Pendidikan Asas Membaca al-Quran",
+      "url": "https://d1.islamhouse.com/data/ms/ih_books/single/ms-alqa3idah-almadania-eng-pp-malizy.pdf",
+      "scope": "Buku panduan membaca Al-Quran yang dikenal pasti melalui indeks carian, bukan kursus ini. Kandungan penuh, edisi dan hak penggunaan belum dibaca; tiada teks disalin."
+    },
+    {
+      "title": "Kitab Melatih Kanak-Kanak Laki-laki dan Perempuan – Agama Islam 1 (1930)",
+      "scope": "Dikenal pasti melalui huraian akademik sekunder; buku penuh dan hak penggunaan belum diperiksa."
+    }
+  ],
+  "otherContextLimits": "Senarai bahasa rasmi HadeethEnc merangkumi ms/Bahasa Melayu. Hanya API/halaman rekod 58120 Melayu yang memulangkan 404 pada semakan yang direkodkan; ini bukan dakwaan bahawa HadeethEnc tiada Bahasa Melayu. Positif akhbar Brunei kekal dikenal pasti walaupun muat turun khusus gagal 404. Varian dalam carian UiTM mempunyai kata dan nombor edisinya sendiri dan tidak dipilih sebagai teks kursus.",
+  "safeguards": "Zakat dinyatakan untuk sebahagian orang Islam dengan ketetapannya. Anak kecil ini belum wajib berpuasa dan boleh makan/minum pada waktu siang. Susunan iman, ketaatan, kebaikan dan rahmat pada pelajaran 39 dikekalkan.",
+  "distribution": "Laluan terjemahan kursus asal yang dibekalkan untuk pengedaran percuma dan bukan komersial. Tiada lesen umum bagi penerbitan lain didakwa. Buku/artikel moden yang tidak berkaitan tidak disertakan sebagai bahan awam.",
+  "audio": "Keenam-enam audio masih dalam persediaan; tiada pautan audio ditambah.",
+  "remainingDeliveryChecks": "Kelayakan teks meliputi seluruh 39 pelajaran. Paparan sebenar, navigasi, simpan/muat semula, sumber luar talian dan laluan eksport berkaitan perlu disahkan semasa integrasi sebelum penerbitan."
+}
