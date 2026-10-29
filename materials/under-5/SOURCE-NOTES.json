@@ -94,7 +94,7 @@
   ],
   "sourceVersionNote": "The Word files preserve the supplied source documents. The Markdown/JSON reading edition includes the two explicitly requested wording changes and consistent Arabic vowel marks; the Unit2 source Word file retains its original wording. Exact XML linebreaks/tabs in three Unit3 paragraphs are restored from the supplied source; no other wording is changed. The earlier source and publication remain in local and Git history.",
   "audio": "In preparation; no recording is included or marked available.",
-  "translations": "Arabic reading edition only. Other19 course translations remain in preparation and are not included in this update.",
+  "translations": "Arabic and English are complete for six units and 39 lessons each; the other 18 app languages remain in preparation.",
   "hadithReference": {
     "lesson": "under5-lesson-22",
     "form": "Course paraphrase of mentioning Allah’s name before eating and using the right hand; not a verbatim quotation of the complete report.",
@@ -102,5 +102,15 @@
     "url": "https://sunnah.com/bukhari:5376"
   },
   "review": "Separate source/reference research, Arabic source-to-reading fidelity review and structural checks are recorded. This is not a claim of independent human scholarly certification.",
-  "reuse": "Existing repository terms apply; see ../REUSE.md. Credited third-party material keeps its own terms."
+  "reuse": "Existing repository terms apply; see ../REUSE.md. Credited third-party material keeps its own terms.",
+  "englishReview": {
+    "status": "complete English course, independently model-reviewed",
+    "sourceReadingEditionSha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+    "englishCourseSha256": "18e4e5c5b1fd3ef513436b88ec87b6e3955b4cf096b62cd782e35c9427b920a6",
+    "author": "gpt-6.1-sol, high reasoning",
+    "distinctIndependentReviewer": "gpt-6.1-sol, high reasoning",
+    "scope": "Six units, 39 lessons, 1262 body paragraph positions and 45 titles; source IDs and paragraph boundaries retained. The English is a meaning translation, not a claim of human scholarly certification.",
+    "audio": "in preparation",
+    "usage": "Existing repository terms apply; third-party quotations retain their own terms."
+  }
 }

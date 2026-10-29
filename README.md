@@ -16,7 +16,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 - [Seerah chapters and current language coverage](materials/seerah/combined/README.md)
 - [Hadith reading material](materials/hadith/README.md)
 - [Sayings of Ibn al-Qayyim](materials/ibn-al-qayyim/README.md)
-- [Under 5: six Arabic units and 39 lessons](materials/under-5/README.md)
+- [Under 5: six Arabic and English units, 39 lessons each](materials/under-5/README.md)
 - [Browse all materials](materials/README.md)
 - [Sources and how the summaries were prepared](materials/SOURCES-AND-METHOD.md)
 - [Machine-readable catalog](materials/catalog.json)
@@ -32,7 +32,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 | Seerah | Chapters 1–22 in the original nine languages; [current coverage in the six newer languages](materials/seerah/combined/README.md). Arabic summaries of chapters 23–26 remain in the source archive |
 | Hadith | Arabic reference collection and reviewed translations in the six newer languages; coverage is listed per language |
 | Ibn al-Qayyim | 37 sayings and explanations in all 15 app languages |
-| Under 5 | [Six Arabic units and 39 lessons](materials/under-5/README.md); audio and other language versions in preparation |
+| Under 5 | [Six Arabic and English units, 39 lessons each](materials/under-5/README.md); audio and other language versions in preparation |
 
 The published collections currently cover Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German and Simplified Chinese. The app interface also supports Uzbek, Thai, Vietnamese, Japanese and Filipino; this does not imply that every material collection is complete in those languages. Coverage differs between collections. This is not a complete translation of every surah, and some Arabic sources contain selected ayahs only. The catalog gives the actual ayah counts and identifies introductions and archived chapters.
 
