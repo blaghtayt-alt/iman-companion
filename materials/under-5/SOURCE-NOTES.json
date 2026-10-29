@@ -94,7 +94,7 @@
   ],
   "sourceVersionNote": "The Word files preserve the supplied source documents. The Markdown/JSON reading edition includes the two explicitly requested wording changes and consistent Arabic vowel marks; the Unit2 source Word file retains its original wording. Exact XML linebreaks/tabs in three Unit3 paragraphs are restored from the supplied source; no other wording is changed. The earlier source and publication remain in local and Git history.",
   "audio": "In preparation; no recording is included or marked available.",
-  "translations": "Arabic, English, French and Turkish are complete for six units and 39 lessons each; the other 16 app languages remain in preparation.",
+  "translations": "Arabic, English, French, Turkish and Indonesian are complete for six units and 39 lessons each; the other 15 app languages remain in preparation.",
   "hadithReference": {
     "lesson": "under5-lesson-22",
     "form": "Course paraphrase of mentioning Allah’s name before eating and using the right hand; not a verbatim quotation of the complete report.",
@@ -135,6 +135,22 @@
     "lesson22": "Course paraphrase of two instructions: mention Allah’s name before eating and use the right hand. The cited complete report also includes a third instruction, which is not added to the course.",
     "scripture": "The course contains teaching summaries, not a newly translated direct Quran quotation.",
     "audio": "in preparation",
+    "usage": "Existing repository terms apply; third-party material retains its own terms."
+  },
+  "indonesianReview": {
+    "status": "complete Indonesian course, independently model-reviewed",
+    "sourceReadingEditionSha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+    "approvedIndonesianCourseSha256": "662bcbb47a696c183ff038d44a6263b45e09b14e7f3e3cc01a9bd96a2780a57e",
+    "appReadingProjectionSha256": "8851b1b8e916250422a4eb8d2c845f9b0d02642278731f801841ed8f434634e2",
+    "sourceProjection": "id/SOURCE-PROJECTION567.json",
+    "sourceProjectionSha256": "7a5f3112d48d718c9fe9780403a25ae4af3bfdf2f345d3503128b33310d63ba4",
+    "author": "gpt-6.1-sol, high reasoning",
+    "distinctIndependentReviewer": "gpt-6.1-sol, high reasoning",
+    "scope": "Six units, 39 lessons, 45 headings and 1262 body positions. Original meaning translation from amended Arabic; not human scholarly certification.",
+    "sourceVersion": "The amended Arabic reading controls the two memory prompts; Unit 2 Word retains its earlier wording.",
+    "lesson22": "The course selects only the two instructions present in its Arabic source; the complete contextual report contains a third instruction not added here.",
+    "scripture": "Teaching summaries; no direct Quran translation.",
+    "audio": "all six in preparation",
     "usage": "Existing repository terms apply; third-party material retains its own terms."
   }
 }

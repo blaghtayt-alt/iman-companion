@@ -8122,6 +8122,84 @@
       "lessonCount": 5,
       "reviewedCourseSha256": "cf00200d1a64b3755cb984e0a78f24eed240292e263a395cd8d8c064bf6d84be",
       "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "id",
+      "id": "1",
+      "markdown": "materials/under-5/id/unit-01.md",
+      "json": "materials/under-5/id/unit-01.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 1,
+      "sourceSha256": "1880d5250085e33399cd116af1b0feaf1340c9f7c715222077401b881c2d37c1",
+      "lessonCount": 10,
+      "reviewedCourseSha256": "662bcbb47a696c183ff038d44a6263b45e09b14e7f3e3cc01a9bd96a2780a57e",
+      "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "id",
+      "id": "2",
+      "markdown": "materials/under-5/id/unit-02.md",
+      "json": "materials/under-5/id/unit-02.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 2,
+      "sourceSha256": "40e5fd5740f4972ae78577767c9bd60d232f29ced0538715d1f7436878fbb40a",
+      "lessonCount": 7,
+      "reviewedCourseSha256": "662bcbb47a696c183ff038d44a6263b45e09b14e7f3e3cc01a9bd96a2780a57e",
+      "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "id",
+      "id": "3",
+      "markdown": "materials/under-5/id/unit-03.md",
+      "json": "materials/under-5/id/unit-03.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 3,
+      "sourceSha256": "376f8c1cc9536efd2944a151c60becdd7aa3fa19f4702d8b9a7f25f02d29671a",
+      "lessonCount": 7,
+      "reviewedCourseSha256": "662bcbb47a696c183ff038d44a6263b45e09b14e7f3e3cc01a9bd96a2780a57e",
+      "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "id",
+      "id": "4",
+      "markdown": "materials/under-5/id/unit-04.md",
+      "json": "materials/under-5/id/unit-04.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 4,
+      "sourceSha256": "5a80fac52eb6a2f4df147458031c2d8851c194461b94ec2eb747afd88ccb7ef7",
+      "lessonCount": 7,
+      "reviewedCourseSha256": "662bcbb47a696c183ff038d44a6263b45e09b14e7f3e3cc01a9bd96a2780a57e",
+      "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "id",
+      "id": "5",
+      "markdown": "materials/under-5/id/unit-05.md",
+      "json": "materials/under-5/id/unit-05.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 5,
+      "sourceSha256": "c1ccce140ba06c75037f8263f4b425f7e6633c096362031c035e1d85a14d9cd3",
+      "lessonCount": 3,
+      "reviewedCourseSha256": "662bcbb47a696c183ff038d44a6263b45e09b14e7f3e3cc01a9bd96a2780a57e",
+      "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "id",
+      "id": "6",
+      "markdown": "materials/under-5/id/unit-06.md",
+      "json": "materials/under-5/id/unit-06.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 6,
+      "sourceSha256": "377e99eb1cab1cb659d3d7b9fcc8dde099b1880bec8b42dcbfb64c4077cd5a76",
+      "lessonCount": 5,
+      "reviewedCourseSha256": "662bcbb47a696c183ff038d44a6263b45e09b14e7f3e3cc01a9bd96a2780a57e",
+      "audioStatus": "preparing"
     }
   ],
   "workInProgress": [
@@ -8419,5 +8497,15 @@
     "status": "model-assisted-translation-distinct-reviewed",
     "otherLanguages": "16 in preparation",
     "audio": "in preparation"
+  },
+  "under5IndonesianUpdate": {
+    "units": 6,
+    "lessons": 39,
+    "language": "id",
+    "sourceNotes": "materials/under-5/SOURCE-NOTES.json",
+    "index": "materials/under-5/README.md",
+    "status": "model-assisted-translation-distinct-reviewed",
+    "otherLanguages": "15 in preparation",
+    "audio": "all six in preparation"
   }
 }

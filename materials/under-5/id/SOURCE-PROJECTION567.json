@@ -1,0 +1,572 @@
+{
+  "schema": "under5-id-bounded-offline-source-projection567-v1",
+  "language": "id",
+  "scope": "Complete six units,39lessons; semantic and source-boundary qualification only.",
+  "sourceEdition": {
+    "id": "amended-Arabic483",
+    "sha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+    "bodyPositions": 1262,
+    "headings": 45
+  },
+  "targetEdition": {
+    "file": "UNDER5-INDONESIAN-COURSE567.json",
+    "sha256": "662bcbb47a696c183ff038d44a6263b45e09b14e7f3e3cc01a9bd96a2780a57e",
+    "route": "Original meaning translation directly from user-supplied Arabic after bounded Indonesian published-first search564; no matching usable course publication identified in that search."
+  },
+  "review": "Actual distinct independent Sol6.1 High567 read all Arabic/Indonesian pairs and complete Indonesian-only course. This is not human scholarly certification.",
+  "amendments": [
+    {
+      "lesson": 1,
+      "paragraphIndex": 4,
+      "unitSourceParagraph": 6,
+      "sourceArabic": "يُمْكِنُكَ أَنْ تُخْبِرَنِي بِمَا تَتَذَكَّرُهُ...",
+      "targetIndonesian": "Kamu boleh memberi tahuku apa yang kamu ingat...",
+      "meaning": "Tell me what you remember; not storytelling.",
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "lesson": 16,
+      "paragraphIndex": 1,
+      "unitSourceParagraph": 160,
+      "sourceArabic": "يُمْكِنُكَ أَنْ تُخْبِرَنِي بِمَا تَتَذَكَّرُهُ...",
+      "targetIndonesian": "Kamu boleh memberi tahuku apa yang kamu ingat...",
+      "meaning": "Tell me what you remember; not storytelling.",
+      "decision": "PASS_UNCHANGED"
+    }
+  ],
+  "boundaries": {
+    "noDirectQuranVerse": true,
+    "courseSummaries": [
+      19,
+      26,
+      28
+    ],
+    "lesson22": "Two course eating instructions only; full authentic source context has a third instruction which was not added. Published Indonesian58120 serves as evidence, not adopted lesson wording.",
+    "formulas": "Familiar Latin forms of the supplied shahada, devotional phrases and honorifics; explanatory meaning remains in original positions."
+  },
+  "contextLinks": [
+    "https://sunnah.com/bukhari:5376",
+    "https://hadeethenc.com/ar/browse/hadith/58120",
+    "https://hadeethenc.com/id/browse/hadith/58120"
+  ],
+  "contextGrade": "Sahih/Muttafaq alaih as displayed by retained HEC58120.",
+  "sourceConditions": "Free noncommercial user-supplied course route. No unrelated publication text selected. Retained HEC republication conditions apply if its published wording is selected in future; no version number or notification compliance asserted here.",
+  "positivePublicationLimits": "Two different Indonesian books were found; only the first opening was inspected. Full edition/content/rights remain unknown. No universal absence is claimed.",
+  "lessons": [
+    {
+      "unit": 1,
+      "id": "under5-lesson-1",
+      "number": 1,
+      "sourceRange": {
+        "startParagraph": 2,
+        "endParagraphExclusive": 15
+      },
+      "sourceHeading": "الدَّرْسُ الأَوَّلُ: اللهُ",
+      "targetHeading": "Pelajaran 1: Allah",
+      "positions": 13,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 1,
+      "id": "under5-lesson-2",
+      "number": 2,
+      "sourceRange": {
+        "startParagraph": 16,
+        "endParagraphExclusive": 36
+      },
+      "sourceHeading": "الدَّرْسُ الثَّانِي: نُؤْمِنُ بِأَنَّ اللهَ وَاحِدٌ",
+      "targetHeading": "Pelajaran 2: Kita Percaya bahwa Allah Itu Satu",
+      "positions": 20,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 1,
+      "id": "under5-lesson-3",
+      "number": 3,
+      "sourceRange": {
+        "startParagraph": 37,
+        "endParagraphExclusive": 95
+      },
+      "sourceHeading": "الدَّرْسُ الثَّالِثُ: اللهُ خَلَقَنِي",
+      "targetHeading": "Pelajaran 3: Allah Menciptakanku",
+      "positions": 58,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 1,
+      "id": "under5-lesson-4",
+      "number": 4,
+      "sourceRange": {
+        "startParagraph": 96,
+        "endParagraphExclusive": 130
+      },
+      "sourceHeading": "الدَّرْسُ الرَّابِعُ: اللهُ خَلَقَ مَا أَرَاهُ",
+      "targetHeading": "Pelajaran 4: Allah Menciptakan Apa yang Kulihat",
+      "positions": 34,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 1,
+      "id": "under5-lesson-5",
+      "number": 5,
+      "sourceRange": {
+        "startParagraph": 131,
+        "endParagraphExclusive": 164
+      },
+      "sourceHeading": "الدَّرْسُ الْخَامِسُ: لَا شَيْءَ يُشْبِهُ اللهَ",
+      "targetHeading": "Pelajaran 5: Tidak Ada Sesuatu pun yang Menyerupai Allah",
+      "positions": 33,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 1,
+      "id": "under5-lesson-6",
+      "number": 6,
+      "sourceRange": {
+        "startParagraph": 165,
+        "endParagraphExclusive": 201
+      },
+      "sourceHeading": "الدَّرْسُ السَّادِسُ: نَحْنُ نَحْتَاجُ إِلَى اللهِ",
+      "targetHeading": "Pelajaran 6: Kita Membutuhkan Allah",
+      "positions": 36,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 1,
+      "id": "under5-lesson-7",
+      "number": 7,
+      "sourceRange": {
+        "startParagraph": 202,
+        "endParagraphExclusive": 232
+      },
+      "sourceHeading": "الدَّرْسُ السَّابِعُ: اللهُ قَادِرٌ",
+      "targetHeading": "Pelajaran 7: Allah Mahakuasa",
+      "positions": 30,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 1,
+      "id": "under5-lesson-8",
+      "number": 8,
+      "sourceRange": {
+        "startParagraph": 233,
+        "endParagraphExclusive": 278
+      },
+      "sourceHeading": "الدَّرْسُ الثَّامِنُ: اللهُ يَرْزُقُنَا",
+      "targetHeading": "Pelajaran 8: Allah Memberi Kita Rezeki",
+      "positions": 45,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 1,
+      "id": "under5-lesson-9",
+      "number": 9,
+      "sourceRange": {
+        "startParagraph": 279,
+        "endParagraphExclusive": 314
+      },
+      "sourceHeading": "الدَّرْسُ التَّاسِعُ: اللهُ يَعْلَمُ",
+      "targetHeading": "Pelajaran 9: Allah Mengetahui",
+      "positions": 35,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 1,
+      "id": "under5-lesson-10",
+      "number": 10,
+      "sourceRange": {
+        "startParagraph": 315,
+        "endParagraphExclusive": 346
+      },
+      "sourceHeading": "الدَّرْسُ الْعَاشِرُ: اللهُ يَسْمَعُ",
+      "targetHeading": "Pelajaran 10: Allah Mendengar",
+      "positions": 31,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 2,
+      "id": "under5-lesson-11",
+      "number": 11,
+      "sourceRange": {
+        "startParagraph": 2,
+        "endParagraphExclusive": 32
+      },
+      "sourceHeading": "الدَّرْسُ الْحَادِيَ عَشَرَ: أَسْأَلُ اللهَ",
+      "targetHeading": "Pelajaran 11: Aku Memohon kepada Allah",
+      "positions": 30,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 2,
+      "id": "under5-lesson-12",
+      "number": 12,
+      "sourceRange": {
+        "startParagraph": 33,
+        "endParagraphExclusive": 63
+      },
+      "sourceHeading": "الدَّرْسُ الثَّانِيَ عَشَرَ: أَسْأَلُ اللهَ أَنْ يَحْفَظَنِي",
+      "targetHeading": "Pelajaran 12: Aku Memohon agar Allah Melindungiku",
+      "positions": 30,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 2,
+      "id": "under5-lesson-13",
+      "number": 13,
+      "sourceRange": {
+        "startParagraph": 64,
+        "endParagraphExclusive": 95
+      },
+      "sourceHeading": "الدَّرْسُ الثَّالِثَ عَشَرَ: أَشْكُرُ اللهَ",
+      "targetHeading": "Pelajaran 13: Aku Bersyukur kepada Allah",
+      "positions": 31,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 2,
+      "id": "under5-lesson-14",
+      "number": 14,
+      "sourceRange": {
+        "startParagraph": 96,
+        "endParagraphExclusive": 126
+      },
+      "sourceHeading": "الدَّرْسُ الرَّابِعَ عَشَرَ: أُحِبُّ اللهَ",
+      "targetHeading": "Pelajaran 14: Aku Mencintai Allah",
+      "positions": 30,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 2,
+      "id": "under5-lesson-15",
+      "number": 15,
+      "sourceRange": {
+        "startParagraph": 127,
+        "endParagraphExclusive": 158
+      },
+      "sourceHeading": "الدَّرْسُ الْخَامِسَ عَشَرَ: نَعْبُدُ اللهَ وَحْدَهُ",
+      "targetHeading": "Pelajaran 15: Kita Beribadah kepada Allah Saja",
+      "positions": 31,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 2,
+      "id": "under5-lesson-16",
+      "number": 16,
+      "sourceRange": {
+        "startParagraph": 159,
+        "endParagraphExclusive": 187
+      },
+      "sourceHeading": "الدَّرْسُ السَّادِسَ عَشَرَ: الْمُسْلِمُونَ يُصَلُّونَ لِلهِ",
+      "targetHeading": "Pelajaran 16: Umat Islam Salat untuk Allah",
+      "positions": 28,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 2,
+      "id": "under5-lesson-17",
+      "number": 17,
+      "sourceRange": {
+        "startParagraph": 188,
+        "endParagraphExclusive": 233
+      },
+      "sourceHeading": "الدَّرْسُ السَّابِعَ عَشَرَ: إِذَا أَخْطَأْتُ أَرْجِعُ إِلَى اللهِ",
+      "targetHeading": "Pelajaran 17: Jika Berbuat Salah, Aku Kembali kepada Allah",
+      "positions": 45,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 3,
+      "id": "under5-lesson-18",
+      "number": 18,
+      "sourceRange": {
+        "startParagraph": 2,
+        "endParagraphExclusive": 29
+      },
+      "sourceHeading": "الدَّرْسُ الثَّامِنَ عَشَرَ: الْقُرْآنُ مِنَ اللهِ",
+      "targetHeading": "Pelajaran 18: Al-Qur'an Berasal dari Allah",
+      "positions": 27,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 3,
+      "id": "under5-lesson-19",
+      "number": 19,
+      "sourceRange": {
+        "startParagraph": 30,
+        "endParagraphExclusive": 62
+      },
+      "sourceHeading": "الدَّرْسُ التَّاسِعَ عَشَرَ: الْقُرْآنُ يُعَلِّمُنِي مَاذَا أَفْعَلُ",
+      "targetHeading": "Pelajaran 19: Al-Qur'an Mengajariku Apa yang Harus Kulakukan",
+      "positions": 32,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 3,
+      "id": "under5-lesson-20",
+      "number": 20,
+      "sourceRange": {
+        "startParagraph": 63,
+        "endParagraphExclusive": 90
+      },
+      "sourceHeading": "الدَّرْسُ الْعِشْرُونَ: مُحَمَّدٌ رَسُولُ اللهِ، صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ",
+      "targetHeading": "Pelajaran 20: Muhammad adalah Utusan Allah, Shallallahu 'Alaihi wa Sallam",
+      "positions": 27,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 3,
+      "id": "under5-lesson-21",
+      "number": 21,
+      "sourceRange": {
+        "startParagraph": 91,
+        "endParagraphExclusive": 119
+      },
+      "sourceHeading": "الدَّرْسُ الْحَادِي وَالْعِشْرُونَ: اللهُ أَرْسَلَ رُسُلًا",
+      "targetHeading": "Pelajaran 21: Allah Mengutus Para Rasul",
+      "positions": 28,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 3,
+      "id": "under5-lesson-22",
+      "number": 22,
+      "sourceRange": {
+        "startParagraph": 120,
+        "endParagraphExclusive": 151
+      },
+      "sourceHeading": "الدَّرْسُ الثَّانِي وَالْعِشْرُونَ: نَعْمَلُ بِمَا عَلَّمَنَا رُسُلُ اللهِ",
+      "targetHeading": "Pelajaran 22: Kita Melakukan Apa yang Diajarkan Para Rasul Allah",
+      "positions": 31,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 3,
+      "id": "under5-lesson-23",
+      "number": 23,
+      "sourceRange": {
+        "startParagraph": 152,
+        "endParagraphExclusive": 187
+      },
+      "sourceHeading": "الدَّرْسُ الثَّالِثُ وَالْعِشْرُونَ: الشَّهَادَتَانِ",
+      "targetHeading": "Pelajaran 23: Dua Kalimat Syahadat",
+      "positions": 35,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 3,
+      "id": "under5-lesson-24",
+      "number": 24,
+      "sourceRange": {
+        "startParagraph": 188,
+        "endParagraphExclusive": 236
+      },
+      "sourceHeading": "الدَّرْسُ الرَّابِعُ وَالْعِشْرُونَ: اللهُ رَحِيمٌ",
+      "targetHeading": "Pelajaran 24: Allah Maha Penyayang",
+      "positions": 48,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 4,
+      "id": "under5-lesson-25",
+      "number": 25,
+      "sourceRange": {
+        "startParagraph": 2,
+        "endParagraphExclusive": 32
+      },
+      "sourceHeading": "الدَّرْسُ الْخَامِسُ وَالْعِشْرُونَ: نُعَامِلُ النَّاسَ بِلُطْفٍ",
+      "targetHeading": "Pelajaran 25: Kita Memperlakukan Orang Lain dengan Baik",
+      "positions": 30,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 4,
+      "id": "under5-lesson-26",
+      "number": 26,
+      "sourceRange": {
+        "startParagraph": 33,
+        "endParagraphExclusive": 65
+      },
+      "sourceHeading": "الدَّرْسُ السَّادِسُ وَالْعِشْرُونَ: نُحْسِنُ إِلَى أَهْلِنَا",
+      "targetHeading": "Pelajaran 26: Kita Berbuat Baik kepada Keluarga",
+      "positions": 32,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 4,
+      "id": "under5-lesson-27",
+      "number": 27,
+      "sourceRange": {
+        "startParagraph": 66,
+        "endParagraphExclusive": 96
+      },
+      "sourceHeading": "الدَّرْسُ السَّابِعُ وَالْعِشْرُونَ: نُسَاعِدُ وَنُعْطِي",
+      "targetHeading": "Pelajaran 27: Kita Membantu dan Memberi",
+      "positions": 30,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 4,
+      "id": "under5-lesson-28",
+      "number": 28,
+      "sourceRange": {
+        "startParagraph": 97,
+        "endParagraphExclusive": 128
+      },
+      "sourceHeading": "الدَّرْسُ الثَّامِنُ وَالْعِشْرُونَ: نَتَكَلَّمُ بِلُطْفٍ",
+      "targetHeading": "Pelajaran 28: Kita Berbicara dengan Lembut",
+      "positions": 31,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 4,
+      "id": "under5-lesson-29",
+      "number": 29,
+      "sourceRange": {
+        "startParagraph": 129,
+        "endParagraphExclusive": 164
+      },
+      "sourceHeading": "الدَّرْسُ التَّاسِعُ وَالْعِشْرُونَ: نَقُولُ الصِّدْقَ",
+      "targetHeading": "Pelajaran 29: Kita Berkata Jujur",
+      "positions": 35,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 4,
+      "id": "under5-lesson-30",
+      "number": 30,
+      "sourceRange": {
+        "startParagraph": 165,
+        "endParagraphExclusive": 198
+      },
+      "sourceHeading": "الدَّرْسُ الثَّلَاثُونَ: نُعْطِي كُلَّ وَاحِدٍ حَقَّهُ",
+      "targetHeading": "Pelajaran 30: Kita Memberikan Hak Setiap Orang",
+      "positions": 33,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 4,
+      "id": "under5-lesson-31",
+      "number": 31,
+      "sourceRange": {
+        "startParagraph": 199,
+        "endParagraphExclusive": 234
+      },
+      "sourceHeading": "الدَّرْسُ الْحَادِي وَالثَّلَاثُونَ: نَتَعَلَّمُ الصَّبْرَ",
+      "targetHeading": "Pelajaran 31: Kita Belajar Bersabar",
+      "positions": 35,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 5,
+      "id": "under5-lesson-32",
+      "number": 32,
+      "sourceRange": {
+        "startParagraph": 2,
+        "endParagraphExclusive": 37
+      },
+      "sourceHeading": "الدَّرْسُ الثَّانِي وَالثَّلَاثُونَ: الزَّكَاةُ",
+      "targetHeading": "Pelajaran 32: Zakat",
+      "positions": 35,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 5,
+      "id": "under5-lesson-33",
+      "number": 33,
+      "sourceRange": {
+        "startParagraph": 38,
+        "endParagraphExclusive": 75
+      },
+      "sourceHeading": "الدَّرْسُ الثَّالِثُ وَالثَّلَاثُونَ: رَمَضَانُ وَالصِّيَامُ",
+      "targetHeading": "Pelajaran 33: Ramadan dan Puasa",
+      "positions": 37,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 5,
+      "id": "under5-lesson-34",
+      "number": 34,
+      "sourceRange": {
+        "startParagraph": 76,
+        "endParagraphExclusive": 116
+      },
+      "sourceHeading": "الدَّرْسُ الرَّابِعُ وَالثَّلَاثُونَ: الْكَعْبَةُ وَالْحَجُّ",
+      "targetHeading": "Pelajaran 34: Ka'bah dan Haji",
+      "positions": 40,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 6,
+      "id": "under5-lesson-35",
+      "number": 35,
+      "sourceRange": {
+        "startParagraph": 2,
+        "endParagraphExclusive": 27
+      },
+      "sourceHeading": "الدَّرْسُ الْخَامِسُ وَالثَّلَاثُونَ: اللهُ خَلَقَ الْمَلَائِكَةَ",
+      "targetHeading": "Pelajaran 35: Allah Menciptakan Malaikat",
+      "positions": 25,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 6,
+      "id": "under5-lesson-36",
+      "number": 36,
+      "sourceRange": {
+        "startParagraph": 28,
+        "endParagraphExclusive": 52
+      },
+      "sourceHeading": "الدَّرْسُ السَّادِسُ وَالثَّلَاثُونَ: هُنَاكَ حَيَاةٌ أُخْرَى",
+      "targetHeading": "Pelajaran 36: Ada Kehidupan Lain",
+      "positions": 24,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 6,
+      "id": "under5-lesson-37",
+      "number": 37,
+      "sourceRange": {
+        "startParagraph": 53,
+        "endParagraphExclusive": 75
+      },
+      "sourceHeading": "الدَّرْسُ السَّابِعُ وَالثَّلَاثُونَ: اللهُ يُعِيدُ النَّاسَ إِلَى الْحَيَاةِ",
+      "targetHeading": "Pelajaran 37: Allah Menghidupkan Kembali Manusia",
+      "positions": 22,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 6,
+      "id": "under5-lesson-38",
+      "number": 38,
+      "sourceRange": {
+        "startParagraph": 76,
+        "endParagraphExclusive": 110
+      },
+      "sourceHeading": "الدَّرْسُ الثَّامِنُ وَالثَّلَاثُونَ: مَا نَفْعَلُهُ مُهِمٌّ",
+      "targetHeading": "Pelajaran 38: Apa yang Kita Lakukan Itu Penting",
+      "positions": 34,
+      "decision": "PASS_UNCHANGED"
+    },
+    {
+      "unit": 6,
+      "id": "under5-lesson-39",
+      "number": 39,
+      "sourceRange": {
+        "startParagraph": 111,
+        "endParagraphExclusive": 142
+      },
+      "sourceHeading": "الدَّرْسُ التَّاسِعُ وَالثَّلَاثُونَ: الْجَنَّةُ",
+      "targetHeading": "Pelajaran 39: Surga",
+      "positions": 31,
+      "decision": "PASS_UNCHANGED"
+    }
+  ],
+  "audio": "All6 preparing, no recording URL.",
+  "remainingRecipientChecks": [
+    "Exact guarded mechanical integration against current state",
+    "Actual Indonesian typography, scrolling/containment, navigation/progress, save/reload",
+    "Offline readable source/provenance and applicable export paths",
+    "Publication/index evidence only after actual recipient checks"
+  ],
+  "delivery": "This bounded projection has no private machine paths and no copied full unrelated book or published report. Keep full research evidence internal."
+}
