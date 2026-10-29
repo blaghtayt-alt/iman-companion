@@ -1,449 +1,450 @@
 # Sayings of Ibn al-Qayyim · Arabic
 
-Arabic excerpts with separate explanations.
+The saying and its explanation are separate. Source records and required notices accompany each item; these are not complete editions of the cited books.
 
-The saying and the explanation are separate. Excerpts come from the named works; each item keeps its source location. These excerpts are not a complete edition of any book.
+For iq-11, the wording is reported in the cited book; its personal authorship remains unresolved. The Arabic explanation is a separate human-supplied paragraph.
 
 ## iq-1
 
+ابن القيم
+
 «الدنيا مجاز والآخرة وطن والأوطار إنما تطلب في الأوطان.»
 
-**Explanation**
+الفوائد
 
 الدنيا مرحلة عبور وليست الغاية النهائية؛ فالمال والمتع يؤخذ منها قدر الحاجة، ويكون العمل موجّهًا إلى ما ينفع الإنسان بعد الموت، كما لا يتخذ المسافر الطريق وطنًا.
 
-Source: الفوائد — Printed page 71; PDF page 71; local rendered fawaid-71.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-2
 
+ابن القيم
+
 «إذا زهدت القلوب في موائد الدنيا قعدت على موائد الآخرة بين أهل تلك الدعوة، وإذا رضيت بموائد الدنيا فاتتها تلك الموائد.»
 
-**Explanation**
+الفوائد
 
 موائد الدنيا ترمز إلى الملذات التي قد تشغل عن الله، وموائد الآخرة إلى ما أعدّه للمقبلين عليه؛ والتعلق بالأولى قد يُنسي الثانية.
 
-Source: الفوائد — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-3
 
+ابن القيم
+
 «فإن من امتلأ قلبه بمحبة الله وتعظيمه لا يرى أن ما تركه لأجله من الدنيا يستحق أن يجعل قربانا.»
 
-**Explanation**
+مدارج السالكين
 
 من ترك متعة أو مصلحة طلبًا لرضا الله لا يستعظم ما ضحّى به؛ فقيمة القرب من الله أعظم من قيمة ما تركه من الدنيا.
 
-Source: مدارج السالكين — Section الزهد في الزهد; line103
-
-https://www.al-eman.com/الكتب/مدارج%20السالكين%20بين%20منازل%20إياك%20نعبد%20وإياك%20نستعين%20(نسخة%20منقحة)/i915&n41&p1
+[مدارج السالكين](https://www.al-eman.com/الكتب/مدارج%20السالكين%20بين%20منازل%20إياك%20نعبد%20وإياك%20نستعين%20(نسخة%20منقحة)/i915&n41&p1)
 
 ## iq-4
 
+ابن القيم
+
 «فإن الملك والجاه والمال والحال معطاة للبر والفاجر، والمؤمن والكافر.»
 
-**Explanation**
+مدارج السالكين
 
 الغنى والنفوذ قد يجتمعان مع عدم الصلاح؛ لذلك لا يدل النجاح الدنيوي وحده على رضا الله عن صاحبه.
 
-Source: مدارج السالكين — Vol1 pp103–104; line720
-
-https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة
+[مدارج السالكين](https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة)
 
 ## iq-5
 
+ابن القيم
+
 «إنما تفاوت القوم بالهمم لا بالصور.»
 
-**Explanation**
+الفوائد
 
 التفاضل الحقيقي لا يقوم على المظهر أو الشهرة، وإنما على علوّ المقاصد والجهد المبذول في تحقيق الخير.
 
-Source: الفوائد — Printed page 67; PDF page 67; local rendered fawaid-67.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-6
 
+ابن القيم
+
 «إذا أراد الله بعبد خيرا جعله معترفا بذنبه ممسكا عن ذنب غيره، جوادا بما عنده، زاهدا فيما عند غيره، محتملا لأذى غيره.»
 
-**Explanation**
+الفوائد
 
 الاعتراف بالخطأ بداية إصلاح النفس، بخلاف الانشغال بتتبع أخطاء الآخرين؛ ويقترن ذلك بالإحسان إليهم بما يملكه المرء من غير طمع فيما عندهم.
 
-Source: الفوائد — Printed page 145; PDF page 145; local rendered fawaid-145.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-7
 
+ابن القيم
+
 «العمل بغير إخلاص ولا اقتداء كالمسافر يملأ جرابه رملا يثقله ولا ينفعه.»
 
-**Explanation**
+الفوائد
 
 كثرة الأعمال وحدها لا تنفع إذا كان المقصود منها مدح الناس أو كانت مخالفة لهدي النبي ﷺ؛ فقيمتها مرتبطة بالإخلاص والاتباع.
 
-Source: الفوائد — Printed page 66; PDF page 66; local rendered fawaid-66.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-8
 
+ابن القيم
+
 «أنفع العمل أن تغيب فيه عن الناس بالإخلاص وعن نفسك بشهود المنة، فلا ترى فيه نفسك ولا ترى الخلق.»
 
-**Explanation**
+الفوائد
 
 الإخلاص يحرر عمل الخير من انتظار ثناء الناس، وشهود منّة الله يمنع العجب بالنفس؛ فالقدرة على فعل الخير نفسها نعمة منه.
 
-Source: الفوائد — Printed page 80; PDF page 80; local rendered fawaid-80.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-9
 
+ابن القيم
+
 «من عرف نفسه اشتغل بإصلاحها عن عيوب الناس.»
 
-**Explanation**
+الفوائد
 
 معرفة الإنسان بأخطائه وما يحتاج إلى إصلاحه تقلل انشغاله بمراقبة عيوب غيره والحكم عليهم.
 
-Source: الفوائد — Printed page 80; PDF page 80; local rendered fawaid-80.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-10
 
+ابن القيم
+
 «أغنانا عن طلب التنافس في الدنيا وعاجلها بما أحبه لنا وندبنا إليه من التنافس في الآخرة وما أعد لنا فيها.»
 
-**Explanation**
+إغاثة اللهفان
 
 التنافس النافع يكون في الأعمال التي تنفع في الآخرة، كالعلم والصدقة، بدل الانشغال بمقارنة المال والمكانة بما عند الآخرين.
 
-Source: إغاثة اللهفان — Paragraph listing lawful alternatives; line102
-
-https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/20
+[إغاثة اللهفان](https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/20)
 
 ## iq-11
 
+ابن القيم
+
 «فكل من كان بالله وصفاته أعلم وأعرف كان توكله أصح وأقوى.»
 
-**Explanation**
+ورد في · مدارج السالكين
 
-اليقين بعلم الله بما يواجهه العبد وقدرته على ما يعجز عنه يقوّي الثقة به، مع استمرار السعي في حل المشكلات.
+كلما ازداد الإنسان معرفةً بالله وأسمائه وصفاته، وازداد يقينًا بقدرته وحكمته ورحمته وتدبيره، قوي اعتماده عليه واطمأن قلبه إلى اختياره، لأنه يعلم أن أموره بيد ربٍّ عليمٍ حكيمٍ رحيمٍ لا يعجزه شيء.
 
-Source: مدارج السالكين — Vol2 p118, chapter معرفة الرب وصفاته, paragraph ending والله سبحانه وتعالى أعلم
-
-https://www.islamweb.net/ar/library/content/119/267/حقيقة-التوكل-مركبة-في-أمور
+[مدارج السالكين](https://www.islamweb.net/ar/library/content/119/267/حقيقة-التوكل-مركبة-في-أمور)
 
 ## iq-12
 
+ابن القيم
+
 التفويض: «إلقاء أموره كلها إلى الله، وإنزالها به طلبًا واختيارًا، لا كرهًا واضطرارًا.»
 
-**Explanation**
+مدارج السالكين
 
 تفويض الأمر إلى الله يكون باختيار العبد أن يكل أمره إليه، مع طلب عونه منذ البداية، لا بمجرد اللجوء إليه بعد فشل المحاولات؛ وهو يجتمع مع الاجتهاد وترك ما لا يملكه الإنسان من النتائج لله.
 
-Source: مدارج السالكين — Vol2 p122
-
-https://islamweb.net/ar/library/content/119/273/فصل-الدرجة-السابعة-التفويض
+[مدارج السالكين](https://islamweb.net/ar/library/content/119/273/فصل-الدرجة-السابعة-التفويض)
 
 ## iq-13
 
+ابن القيم
+
 ثمرة التوكل: «فإنه إذا توكل حق التوكل رضي بما يفعله وكيله.»
 
-**Explanation**
+مدارج السالكين
 
 صدق التوكل يظهر في بقاء الثقة بالله بعد بذل الجهد، حتى عندما لا تتحقق النتيجة المرجوة؛ فلا تكون هذه الثقة مشروطة بتحقق الرغبات.
 
-Source: مدارج السالكين — Vol2 pp122–123; line718
-
-https://www.islamweb.net/ar/library/content/119/274/فصل-ثمرة-التوكل
+[مدارج السالكين](https://www.islamweb.net/ar/library/content/119/274/فصل-ثمرة-التوكل)
 
 ## iq-14
 
+ابن القيم
+
 التوكل: «هو حال للقلب ينشأ عن معرفته بالله، والإيمان بتفرده بالخلق والتدبير والضر والنفع، والعطاء والمنع.»
 
-**Explanation**
+مدارج السالكين
 
 الأخذ بالأسباب، كالعمل أو العلاج، يجتمع مع إدراك أن النتائج ليست بيد الإنسان وحده، ومع طلب العون من الله عليها.
 
-Source: مدارج السالكين — Vol1 pp103–104; line722
-
-https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة
+[مدارج السالكين](https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة)
 
 ## iq-15
 
+ابن القيم
+
 «محبة العبد لربه فوق كل محبة تقدر، ولا نسبة لسائر المحاب إليها.»
 
-**Explanation**
+مدارج السالكين
 
 محبة الأهل وما يُحب من أمور الدنيا أمر طبيعي، لكن طاعة الله تتقدم عندما تتعارض الرغبة مع أمره.
 
-Source: مدارج السالكين — Vol3 pp19–20; opening paragraph of محبة العبد لربه ومحبة الرب لعبده, line717
-
-https://www.islamweb.net/ar/library/content/119/482/%3Fidfrom=&idto=&start=
+[مدارج السالكين](https://www.islamweb.net/ar/library/content/119/482/%3Fidfrom=&idto=&start=)
 
 ## iq-16
 
+ابن القيم
+
 «فإن القلوب مجبولة على حب من أحسن إليها.»
 
-**Explanation**
+مدارج السالكين
 
 التأمل في نعم مألوفة، كالصحة والأمان ومحبة الأهل، يعيد إدراك قيمتها؛ ومعرفة إحسان الله تزيد محبته في القلب.
 
-Source: مدارج السالكين — Vol3 p39; explanation of مطالعة المنة, line718
-
-https://www.islamweb.net/ar/library/content/119/489/الدرجة-الأولى-محبة-تقطع-الوساوس
+[مدارج السالكين](https://www.islamweb.net/ar/library/content/119/489/الدرجة-الأولى-محبة-تقطع-الوساوس)
 
 ## iq-17
 
+ابن القيم
+
 المحب الصادق من وجد أنسه بالله بين الناس ووجده في الوحدة.
 
-**Explanation**
+الفوائد (بالمعنى)
 
 الأنس بالله لا يقتصر على الخلوة، بل يمتد إلى حفظ ذكره وطاعته في العمل وبين الناس.
 
-Source: الفوائد (بالمعنى) — Printed page 58; PDF page 58; local rendered fawaid-58.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد (بالمعنى)](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-18
 
+ابن القيم
+
 «اللذة التامة والفرح والسرور وطيب العيش والنعيم إنما هو في معرفة الله وتوحيده والأنس به والشوق إلى لقائه واجتماع القلب والهم عليه.»
 
-**Explanation**
+رسالة ابن القيم إلى أحد إخوانه
 
 الفرح بالمال أو النجاح قد يزول أثره، أما معرفة الله والأنس بعبادته فيمنحان الحياة معنى لا يتوقف على هذه المكاسب.
 
-Source: رسالة ابن القيم إلى أحد إخوانه — Paragraph beginning إذا عرفت هذه المقدمة; web text line98
-
-https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html
+[رسالة ابن القيم إلى أحد إخوانه](https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html)
 
 ## iq-19
 
+ابن القيم
+
 «المبادرة إلى التوبة من الذنب فرض على الفور، ولا يجوز تأخيرها.»
 
-**Explanation**
+مدارج السالكين
 
 التوبة لا تؤخر إلى وقت ملائم؛ بل تقتضي ترك الذنب والندم عليه والعزم على عدم العودة إليه، مع رد الحقوق إن لزمت.
 
-Source: مدارج السالكين — Chapter التوبة من الذنب فرض
-
-https://islamweb.net/ar/library/content/119/115/فصل-التوبة-من-الذنب-فرض
+[مدارج السالكين](https://islamweb.net/ar/library/content/119/115/فصل-التوبة-من-الذنب-فرض)
 
 ## iq-20
 
+ابن القيم
+
 «فإن التوبة من أعظم الحسنات.»
 
-**Explanation**
+مدارج السالكين
 
 التوبة ليست سببًا للعجب بالنفس، بل نعمة تستدعي شكر الله على توفيقه للرجوع إليه، والاستمرار في إصلاح التقصير.
 
-Source: مدارج السالكين — Vol1 pp220–221; line718
-
-https://www.islamweb.net/ar/library/content/119/92/فصل-التوبة-من-التوبة
+[مدارج السالكين](https://www.islamweb.net/ar/library/content/119/92/فصل-التوبة-من-التوبة)
 
 ## iq-21
 
+ابن القيم
+
 «القلب يمرض كما يمرض البدن وشفاؤه في التوبة والحمية، ويصدأ كما تصدأ المرآة وجلاؤه بالذكر.»
 
-**Explanation**
+الفوائد
 
 كما يحتاج المريض إلى الدواء وتجنب ما يزيد مرضه، يحتاج القلب إلى التوبة والابتعاد عما يعيد إلى الذنب، وإلى ذكر الله.
 
-Source: الفوائد — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-22
 
+ابن القيم
+
 «إذا أردت الانتفاع بالقرآن فاجمع قلبك عند تلاوته وسماعه.»
 
-**Explanation**
+الفوائد
 
 الانتفاع بالقرآن يتطلب الانتباه إلى معانيه وفهم ما يطلبه الله من العبد، ولا يتحقق بمجرد جعل إنهاء الصفحات هو الهمّ الوحيد.
 
-Source: الفوائد — Printed page 3; PDF page 3; local rendered fawaid-3.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-23
 
+ابن القيم
+
 «فإن من عرف قدر مطلوبه هان عليه ما يبذل فيه.»
 
-**Explanation**
+مدارج السالكين
 
 تذكّر رضا الله وثوابه المرجو يهوّن الاستمرار في الطاعة، حتى حين تحتاج إلى جهد وصبر.
 
-Source: مدارج السالكين — Vol2 p53; commentary following صاحب المنازل quotation, line719
-
-https://islamweb.net/ar/library/content/119/229/الدرجة-الأولى-رجاء-يبعث-العامل-على-الاجتهاد
+[مدارج السالكين](https://islamweb.net/ar/library/content/119/229/الدرجة-الأولى-رجاء-يبعث-العامل-على-الاجتهاد)
 
 ## iq-24
 
+ابن القيم
+
 «بركة الرجل تعليمه للخير حيث حل ونصحه لكل من اجتمع به.»
 
-**Explanation**
+رسالة ابن القيم إلى أحد إخوانه
 
 بركة الحضور بين الناس تكون بتعليم ما يعرفه المرء من خير ونصح من يحتاج إلى نصحه، بدل حصر الاهتمام بالنفس.
 
-Source: رسالة ابن القيم إلى أحد إخوانه — Opening paragraph; web text line9
-
-https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html
+[رسالة ابن القيم إلى أحد إخوانه](https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html)
 
 ## iq-25
 
+ابن القيم
+
 «الرزق والأجل قرينان مضمونان، فما دام الأجل باقيا كان الرزق آتيا.»
 
-**Explanation**
+الفوائد
 
 السعي في طلب الرزق لا يقتضي أن يدفع الخوف من المستقبل إلى الحرام؛ فالرزق الذي يصل إلى الإنسان إنما يصل بتقدير الله.
 
-Source: الفوائد — Printed page 79; PDF page 79; local rendered fawaid-79.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-26
 
+ابن القيم
+
 «من أجمل في الطلب استراح من نكد الدنيا وهمومها.»
 
-**Explanation**
+الفوائد
 
 حسن طلب الرزق يجمع بين الجد والطريق الحلال، من غير استهلاك الصحة والراحة في ملاحقة مزيد من المال بلا نهاية.
 
-Source: الفوائد — Printed page 82; PDF page 82; local rendered fawaid-82.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-27
 
+ابن القيم
+
 «إذا سد عليك بحكمته طريقا من طرقه فتح لك برحمته طريقا أنفع لك منه.»
 
-**Explanation**
+الفوائد
 
 فقد العمل أو فوات فرصة لا يعني انقطاع الرزق؛ فقد يهيئ الله بابًا آخر لم يكن في الحسبان.
 
-Source: الفوائد — Printed page 79; PDF page 79; local rendered fawaid-79.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-28
 
+ابن القيم
+
 «من أراد صفاء قلبه فليؤثر الله على شهوته.»
 
-**Explanation**
+الفوائد
 
 ترك الرغبة المحرمة طلبًا لرضا الله يحفظ القلب من التعلق بما يضره؛ فالعبرة بتقديم طاعته على ما نهى عنه وإن مالت النفس إليه.
 
-Source: الفوائد — Printed page 142; PDF page 142; local rendered fawaid-142.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-29
 
+ابن القيم
+
 «القلوب المتعلقة بالشهوات محجوبة عن الله بقدر تعلقها بها.»
 
-**Explanation**
+الفوائد
 
 ليست المشكلة في وجود الرغبة نفسها، وإنما في استيلائها على القلب حتى تستغرق الوقت وتُبعد عن الصلاة والذكر.
 
-Source: الفوائد — Printed page 142; PDF page 142; local rendered fawaid-142.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-30
 
+ابن القيم
+
 «فالنفس تهوى ما يضرها ولا ينفعها لجهلها بمضرته لها تارة، ولفساد قصدها تارة، ولمجموعهما تارة.»
 
-**Explanation**
+إغاثة اللهفان
 
 قد يقع الإنسان فيما يضره لجهله بالعاقبة، أو لضعف مقاومته للرغبة مع علمه بالضرر؛ لذلك يحتاج إلى المعرفة وضبط النفس معًا.
 
-Source: إغاثة اللهفان — Paragraph beginning فالنفس تهوى; line213
-
-https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/23
+[إغاثة اللهفان](https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/23)
 
 ## iq-31
 
+ابن القيم
+
 «من وطن قلبه عند ربه سكن واستراح، ومن أرسله في الناس اضطرب واشتد به القلق.»
 
-**Explanation**
+الفوائد
 
 ربط قيمة النفس بآراء الناس يجعل تغيّر مدحهم واهتمامهم مصدرًا للقلق؛ أما رجوع القلب إلى الله فيحرره من جعل رضاهم أساس طمأنينته.
 
-Source: الفوائد — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-32
 
+ابن القيم
+
 «الشوق إلى الله ولقائه نسيم يهب على القلب يروح عنه وهج الدنيا.»
 
-**Explanation**
+الفوائد
 
 تذكّر لقاء الله ورجاء ما عنده يوسّعان النظر عند ثقل هموم الحياة، فلا ينحصر الأمل في ضيق اللحظة الحاضرة.
 
-Source: الفوائد — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-33
 
+ابن القيم
+
 «وليس من شرط الرضا ألا يحس بالألم والمكاره، بل ألا يعترض على الحكم ولا يتسخطه.»
 
-**Explanation**
+مدارج السالكين
 
 الحزن والألم عند المصيبة لا ينافيان الرضا؛ فالرضا هو بقاء الثقة بالله من غير اعتراض عليه بسبب ما أصاب العبد.
 
-Source: مدارج السالكين — Vol2 p174; opening paragraph of فصل شرط الرضا, line718
-
-https://www.islamweb.net/ar/library/content/119/305/فصل-شرط-الرضا
+[مدارج السالكين](https://www.islamweb.net/ar/library/content/119/305/فصل-شرط-الرضا)
 
 ## iq-34
 
+ابن القيم
+
 «فاحرص أن يكون همك واحدا وأن يكون هو الله وحده.»
 
-**Explanation**
+رسالة ابن القيم إلى أحد إخوانه
 
 جعل رضا الله هو الهدف الأساسي يعين على ترتيب الأولويات، بدل التشتت بين توقعات الناس والرغبة في المال والمكانة.
 
-Source: رسالة ابن القيم إلى أحد إخوانه — Paragraph following نقل فؤادك; web text line103
-
-https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html
+[رسالة ابن القيم إلى أحد إخوانه](https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html)
 
 ## iq-35
 
+ابن القيم
+
 «من تلمح حلاوة العافية هان عليه مرارة الصبر.»
 
-**Explanation**
+الفوائد
 
 تذكّر راحة النفس وسلامتها بعد تجاوز المعصية أو العادة المضرة يهوّن مشقة مقاومتها والصبر عنها.
 
-Source: الفوائد — Printed page 67; PDF page 67; local rendered fawaid-67.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[الفوائد](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-36
 
+ابن القيم
+
 «والشكوى إلى الله عز وجل لا تنافي الصبر.»
 
-**Explanation**
+مدارج السالكين
 
 البكاء وبث الألم إلى الله ودعاؤه لرفع البلاء لا يناقض الصبر، ما دام ذلك لا يتضمن اعتراضًا عليه.
 
-Source: مدارج السالكين — Vol2 p160; paragraph والشكوى إلى الله, line764
-
-https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=
+[مدارج السالكين](https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=)
 
 ## iq-37
 
+ابن القيم
+
 أنواع الصبر: «صبر بالله، وصبر لله، وصبر مع الله.»
 
-**Explanation**
+مدارج السالكين
 
 الصبر بالله هو طلب القوة عليه منه، والصبر لله هو جعْل رضاه غايته، والصبر معه هو الاستمرار في طاعته مهما تغيرت الظروف.
 
-Source: مدارج السالكين — Vol2 pp156–157; فصل أنواع الصبر, lines771–773
+[مدارج السالكين](https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=)
 
-https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=

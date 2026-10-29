@@ -15,7 +15,12 @@
     "es": "Spanish",
     "fa": "Persian",
     "de": "German",
-    "zh-CN": "Simplified Chinese"
+    "zh-CN": "Simplified Chinese",
+    "uz": "Uzbek",
+    "th": "Thai",
+    "vi": "Vietnamese",
+    "ja": "Japanese",
+    "fil": "Filipino"
   },
   "notice": "AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.",
   "entries": [
@@ -7994,6 +7999,51 @@
       "lessonCount": 5,
       "reviewedCourseSha256": "ee6e73457e1b35122f7cb83d01a0ffb81488da36229dc4a4ec94fa1233eac4f6",
       "audioStatus": "preparing"
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "uz",
+      "id": "sayings",
+      "items": 37,
+      "markdown": "materials/ibn-al-qayyim/uz.md",
+      "json": "materials/ibn-al-qayyim/uz.json",
+      "translationStatus": "independently-model-reviewed-not-human-certified"
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "th",
+      "id": "sayings",
+      "items": 37,
+      "markdown": "materials/ibn-al-qayyim/th.md",
+      "json": "materials/ibn-al-qayyim/th.json",
+      "translationStatus": "independently-model-reviewed-not-human-certified"
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "vi",
+      "id": "sayings",
+      "items": 37,
+      "markdown": "materials/ibn-al-qayyim/vi.md",
+      "json": "materials/ibn-al-qayyim/vi.json",
+      "translationStatus": "independently-model-reviewed-not-human-certified"
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "ja",
+      "id": "sayings",
+      "items": 37,
+      "markdown": "materials/ibn-al-qayyim/ja.md",
+      "json": "materials/ibn-al-qayyim/ja.json",
+      "translationStatus": "independently-model-reviewed-not-human-certified"
+    },
+    {
+      "collection": "ibn-al-qayyim",
+      "language": "fil",
+      "id": "sayings",
+      "items": 37,
+      "markdown": "materials/ibn-al-qayyim/fil.md",
+      "json": "materials/ibn-al-qayyim/fil.json",
+      "translationStatus": "independently-model-reviewed-not-human-certified"
     }
   ],
   "workInProgress": [
@@ -8277,5 +8327,9 @@
     "status": "model-assisted-translation-distinct-reviewed",
     "otherLanguages": "in preparation",
     "audio": "in preparation"
+  },
+  "sayingsCollectionUpdate": {
+    "scope": "37 sayings and explanations in each of 20 languages",
+    "limits": "Independent model review is not human scholarly certification. Existing other collection coverage is unchanged."
   }
 }

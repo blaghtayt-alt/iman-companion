@@ -1,449 +1,450 @@
 # Sayings of Ibn al-Qayyim · Bengali
 
-AI translated — needs verification. Independent model review is not certification by a qualified human translator or scholar.
+The saying and its explanation are separate. Source records and required notices accompany each item; these are not complete editions of the cited books.
 
-The saying and the explanation are separate. Excerpts come from the named works; each item keeps its source location. These excerpts are not a complete edition of any book.
+For iq-11, the wording is reported in the cited book; its personal authorship remains unresolved. The Arabic explanation is a separate human-supplied paragraph.
 
 ## iq-1
 
+ইবনুল কাইয়্যিম
+
 «দুনিয়া কেবল অতিক্রমের পথ, আর আখিরাতই আসল আবাস; মানুষের প্রকৃত আকাঙ্ক্ষার পূর্ণতা খুঁজতে হয় সেই আবাসেই।»
 
-**Explanation**
+Al-Fawāʾid
 
 দুনিয়া এক যাত্রাপথ, চূড়ান্ত গন্তব্য নয়। তাই সম্পদ ও ভোগসুখ থেকে প্রয়োজনমতো উপকার নেওয়া হয়, আর কাজের লক্ষ্য থাকে মৃত্যুর পর যা কাজে আসবে; পথিক যেমন পথকেই নিজের স্থায়ী আবাস বানায় না।
 
-Source: Al-Fawāʾid — Printed page 71; PDF page 71; local rendered fawaid-71.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-2
 
+ইবনুল কাইয়্যিম
+
 «অন্তর যখন দুনিয়ার ভোজ থেকে মুখ ফিরিয়ে নেয়, তখন আখিরাতের ভোজে আমন্ত্রিতদের সঙ্গে স্থান পায়; আর দুনিয়ার ভোজেই সন্তুষ্ট থাকলে আখিরাতের ভোজ হারায়।»
 
-**Explanation**
+Al-Fawāʾid
 
 দুনিয়ার ভোজ বলতে এমন ভোগসুখ বোঝানো হয়েছে, যা আল্লাহ থেকে গাফিল করতে পারে। আর আখিরাতের ভোজ হলো তাঁর দিকে ফিরে আসা মানুষের জন্য প্রস্তুত নিয়ামত। প্রথমটির প্রতি আসক্তি দ্বিতীয়টিকে ভুলিয়ে দিতে পারে।
 
-Source: Al-Fawāʾid — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-3
 
+ইবনুল কাইয়্যিম
+
 «যার অন্তর আল্লাহর ভালোবাসা ও শ্রদ্ধায় পরিপূর্ণ, সে আল্লাহর জন্য দুনিয়ার যা কিছু ত্যাগ করে, তাকে বড় কোনো ত্যাগ বলে মনে করে না।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 আল্লাহর সন্তুষ্টির জন্য কোনো আনন্দ বা সুবিধা ত্যাগকারী নিজের ত্যাগকে বড় মনে করে না; কারণ আল্লাহর নৈকট্যের মূল্য দুনিয়ার সেই ছেড়ে দেওয়া জিনিসের চেয়ে অনেক বেশি।
 
-Source: Madārij as-Sālikīn — Section الزهد في الزهد; line103
-
-https://www.al-eman.com/الكتب/مدارج%20السالكين%20بين%20منازل%20إياك%20نعبد%20وإياك%20نستعين%20(نسخة%20منقحة)/i915&n41&p1
+[Madārij as-Sālikīn](https://www.al-eman.com/الكتب/مدارج%20السالكين%20بين%20منازل%20إياك%20نعبد%20وإياك%20نستعين%20(نسخة%20منقحة)/i915&n41&p1)
 
 ## iq-4
 
+ইবনুল কাইয়্যিম
+
 «ক্ষমতা, মর্যাদা, সম্পদ এবং কিছু আধ্যাত্মিক অবস্থাও সৎ ও অসৎ, মুমিন ও অবিশ্বাসী—সবার কাছেই আসতে পারে।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 ধনসম্পদ ও প্রভাব এমন ব্যক্তিরও থাকতে পারে, যে সৎ নয়। তাই শুধু পার্থিব সাফল্য কারও প্রতি আল্লাহর সন্তুষ্টির প্রমাণ নয়।
 
-Source: Madārij as-Sālikīn — Vol1 pp103–104; line720
-
-https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة)
 
 ## iq-5
 
+ইবনুল কাইয়্যিম
+
 «মানুষের প্রকৃত পার্থক্য তাদের উচ্চাকাঙ্ক্ষায়, বাহ্যিক চেহারায় নয়।»
 
-**Explanation**
+Al-Fawāʾid
 
 প্রকৃত শ্রেষ্ঠত্ব বাহ্যিক রূপ বা খ্যাতির ওপর নির্ভর করে না; তা নির্ভর করে মহৎ লক্ষ্য ও কল্যাণ সাধনে ব্যয় করা প্রচেষ্টার ওপর।
 
-Source: Al-Fawāʾid — Printed page 67; PDF page 67; local rendered fawaid-67.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-6
 
+ইবনুল কাইয়্যিম
+
 «আল্লাহ যখন কোনো বান্দার কল্যাণ চান, তখন তাকে এমন মানুষ করে দেন, যে নিজের পাপ স্বীকার করে, অন্যের পাপ নিয়ে ব্যস্ত থাকে না, নিজের সম্পদ থেকে উদারভাবে দান করে, অন্যের সম্পদের প্রতি লোভ করে না এবং অন্যের দেওয়া কষ্ট সহ্য করে।»
 
-**Explanation**
+Al-Fawāʾid
 
 নিজের ভুল স্বীকার করা আত্মসংশোধনের শুরু; অন্যের ভুল খুঁজতে ব্যস্ত থাকা তার বিপরীত। এর সঙ্গে রয়েছে নিজের সামর্থ্য দিয়ে অন্যের উপকার করা এবং তাদের সম্পদের প্রতি লোভ না করা।
 
-Source: Al-Fawāʾid — Printed page 145; PDF page 145; local rendered fawaid-145.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-7
 
+ইবনুল কাইয়্যিম
+
 «ইখলাস ও নবীর অনুসরণ ছাড়া আমল এমন পথিকের মতো, যে নিজের থলে বালু দিয়ে ভরে; বোঝা বাড়ে, কিন্তু কোনো উপকার হয় না।»
 
-**Explanation**
+Al-Fawāʾid
 
 কাজের উদ্দেশ্য যদি হয় মানুষের প্রশংসা, অথবা তা যদি নবী ﷺ-এর নির্দেশনার বিরোধী হয়, তবে শুধু কাজের সংখ্যা বেশি হওয়া উপকারী নয়। আমলের মূল্য ইখলাস ও নবীর অনুসরণের সঙ্গে যুক্ত।
 
-Source: Al-Fawāʾid — Printed page 66; PDF page 66; local rendered fawaid-66.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-8
 
+ইবনুল কাইয়্যিম
+
 «সবচেয়ে উপকারী আমল হলো সেই আমল, যেখানে ইখলাস তোমাকে মানুষের মনোযোগের চিন্তা থেকে মুক্ত করে এবং আল্লাহর অনুগ্রহের কথা মনে রাখা তোমাকে নিজের কৃতিত্ব নিয়ে গর্ব করতে দেয় না। এ আমলে নিজের কৃতিত্ব কিংবা মানুষের দৃষ্টি তোমার বিবেচ্য হয় না।»
 
-**Explanation**
+Al-Fawāʾid
 
 ইখলাস ভালো কাজকে মানুষের প্রশংসার অপেক্ষা থেকে মুক্ত করে। আর আল্লাহর অনুগ্রহের উপলব্ধি আত্মমুগ্ধতা থেকে রক্ষা করে; কারণ ভালো কাজ করার সামর্থ্যও তাঁরই নিয়ামত।
 
-Source: Al-Fawāʾid — Printed page 80; PDF page 80; local rendered fawaid-80.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-9
 
+ইবনুল কাইয়্যিম
+
 «যে নিজের সম্পর্কে সচেতন, সে অন্যের দোষ খোঁজার বদলে নিজের ভুল সংশোধনে ব্যস্ত থাকে।»
 
-**Explanation**
+Al-Fawāʾid
 
 নিজের ভুল ও সংশোধনের প্রয়োজন বুঝতে পারলে মানুষ অন্যের দোষত্রুটি খোঁজা ও তাদের সম্পর্কে বিচার করতে কম ব্যস্ত থাকে।
 
-Source: Al-Fawāʾid — Printed page 80; PDF page 80; local rendered fawaid-80.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-10
 
+ইবনুল কাইয়্যিম
+
 «আল্লাহ আমাদের দুনিয়ার ক্ষণস্থায়ী লাভ নিয়ে প্রতিযোগিতার পরিবর্তে আখিরাত ও সেখানে তাঁর প্রস্তুত করা নিয়ামতের জন্য প্রতিযোগিতার আহ্বান জানিয়েছেন।»
 
-**Explanation**
+Ighāthat al-Lahfān
 
 উপকারী প্রতিযোগিতা হলো জ্ঞানচর্চা ও সদকার মতো আখিরাতে কল্যাণ বয়ে আনে এমন কাজে এগিয়ে যাওয়া; অন্যের সঙ্গে নিজের সম্পদ ও মর্যাদার তুলনায় ব্যস্ত থাকা নয়।
 
-Source: Ighāthat al-Lahfān — Paragraph listing lawful alternatives; line102
-
-https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/20
+[Ighāthat al-Lahfān](https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/20)
 
 ## iq-11
 
+ইবনুল কাইয়্যিম
+
 «যে ব্যক্তি আল্লাহ ও তাঁর গুণাবলি যত বেশি জানে, তাঁর ওপর তার তাওয়াক্কুল তত বেশি সঠিক ও দৃঢ় হয়।»
 
-**Explanation**
+উদ্ধৃতির উৎস · Madārij as-Sālikīn
 
-আল্লাহ বান্দার পরিস্থিতি জানেন এবং বান্দা যা করতে অক্ষম, তাতে তিনি সক্ষম—এই দৃঢ় বিশ্বাস তাঁর ওপর ভরসা বাড়ায়। সমস্যা সমাধানের চেষ্টা চালিয়ে যাওয়ার সঙ্গেই এই ভরসা বজায় থাকে।
+মানুষ আল্লাহকে, তাঁর নাম ও গুণাবলিকে যত বেশি জানে এবং তাঁর ক্ষমতা, প্রজ্ঞা, দয়া ও সবকিছু পরিচালনার ব্যাপারে তার দৃঢ় বিশ্বাস যত বাড়ে, তাঁর ওপর তার তাওয়াক্কুল তত মজবুত হয় এবং আল্লাহ যা বেছে নেন, তাতে তার হৃদয় তত প্রশান্তি পায়। কারণ সে জানে, তার সব বিষয় এমন এক রবের হাতে, যিনি সর্বজ্ঞ, প্রজ্ঞাময় ও দয়ালু; কোনো কিছুই তাঁর সাধ্যের বাইরে নয়।
 
-Source: Madārij as-Sālikīn — Vol2 p118, chapter معرفة الرب وصفاته, paragraph ending والله سبحانه وتعالى أعلم
-
-https://www.islamweb.net/ar/library/content/119/267/حقيقة-التوكل-مركبة-في-أمور
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/267/حقيقة-التوكل-مركبة-في-أمور)
 
 ## iq-12
 
+ইবনুল কাইয়্যিম
+
 «সব বিষয় আল্লাহর কাছে সোপর্দ করার অর্থ হলো নিজের ইচ্ছায় ও সন্তুষ্টচিত্তে সব বিষয় তাঁর হাতে তুলে দেওয়া; অনিচ্ছায় বা শুধু অসহায় হয়ে নয়।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 আল্লাহর কাছে নিজের বিষয় সমর্পণ করার অর্থ হলো, শুরু থেকেই স্বেচ্ছায় তা তাঁর হাতে ছেড়ে দিয়ে তাঁর সাহায্য চাওয়া; শুধু সব চেষ্টা ব্যর্থ হলে তাঁর কাছে যাওয়া নয়। এর পাশাপাশি নিজের চেষ্টা চালিয়ে যেতে হয়, আর যে ফল মানুষের নিয়ন্ত্রণে নেই তা আল্লাহর হাতে ছেড়ে দিতে হয়।
 
-Source: Madārij as-Sālikīn — Vol2 p122
-
-https://islamweb.net/ar/library/content/119/273/فصل-الدرجة-السابعة-التفويض
+[Madārij as-Sālikīn](https://islamweb.net/ar/library/content/119/273/فصل-الدرجة-السابعة-التفويض)
 
 ## iq-13
 
+ইবনুল কাইয়্যিম
+
 তাওয়াক্কুলের ফল: «যে আল্লাহর ওপর যথার্থ ভরসা করে, সে তার জন্য আল্লাহর সিদ্ধান্তে সন্তুষ্ট থাকে।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 যথাসাধ্য চেষ্টা করার পর কাঙ্ক্ষিত ফল না এলেও আল্লাহর ওপর আস্থা অটুট থাকা সত্যিকারের তাওয়াক্কুলের লক্ষণ। এই আস্থা নিজের ইচ্ছা পূরণ হওয়ার শর্তে আবদ্ধ নয়।
 
-Source: Madārij as-Sālikīn — Vol2 pp122–123; line718
-
-https://www.islamweb.net/ar/library/content/119/274/فصل-ثمرة-التوكل
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/274/فصل-ثمرة-التوكل)
 
 ## iq-14
 
+ইবনুল কাইয়্যিম
+
 «তাওয়াক্কুল হলো অন্তরের এমন অবস্থা, যা আল্লাহকে জানা এবং সৃষ্টি ও পরিচালনা, উপকার ও ক্ষতি, দান ও বঞ্চনা—সবকিছু একমাত্র তাঁর নিয়ন্ত্রণে আছে বলে বিশ্বাস করার ফলে জন্মায়।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 কাজ বা চিকিৎসার মতো উপায় অবলম্বনের সঙ্গে এই উপলব্ধিও থাকে যে ফল কেবল মানুষের হাতে নয়। তাই উপায় গ্রহণের পাশাপাশি আল্লাহর সাহায্যও চাওয়া হয়।
 
-Source: Madārij as-Sālikīn — Vol1 pp103–104; line722
-
-https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة)
 
 ## iq-15
 
+ইবনুল কাইয়্যিম
+
 «বান্দার তার রবের প্রতি ভালোবাসা কল্পনাযোগ্য সব ভালোবাসার ঊর্ধ্বে; অন্য কোনো ভালোবাসার সঙ্গে এর তুলনা হয় না।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 পরিবার ও দুনিয়ার পছন্দের বিষয়কে ভালোবাসা স্বাভাবিক। তবে নিজের ইচ্ছা আল্লাহর নির্দেশের বিরোধী হলে তাঁর আনুগত্যই অগ্রাধিকার পায়।
 
-Source: Madārij as-Sālikīn — Vol3 pp19–20; opening paragraph of محبة العبد لربه ومحبة الرب لعبده, line717
-
-https://www.islamweb.net/ar/library/content/119/482/%3Fidfrom=&idto=&start=
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/482/%3Fidfrom=&idto=&start=)
 
 ## iq-16
 
+ইবনুল কাইয়্যিম
+
 «অন্তর স্বভাবতই তাকে ভালোবাসে, যে তার প্রতি সদয় আচরণ করে।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 সুস্থতা, নিরাপত্তা ও পরিবারের ভালোবাসার মতো পরিচিত নিয়ামত নিয়ে ভাবলে সেগুলোর মূল্য নতুন করে উপলব্ধি হয়। আল্লাহর অনুগ্রহকে জানা অন্তরে তাঁর ভালোবাসা বাড়ায়।
 
-Source: Madārij as-Sālikīn — Vol3 p39; explanation of مطالعة المنة, line718
-
-https://www.islamweb.net/ar/library/content/119/489/الدرجة-الأولى-محبة-تقطع-الوساوس
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/489/الدرجة-الأولى-محبة-تقطع-الوساوس)
 
 ## iq-17
 
+ইবনুল কাইয়্যিম
+
 যে সত্যিকার অর্থে আল্লাহকে ভালোবাসে, সে মানুষের মাঝেও তাঁর সান্নিধ্য অনুভব করে, আবার একাকী থাকলেও তা অনুভব করে।
 
-**Explanation**
+Al-Fawāʾid (ভাবানুবাদ)
 
 আল্লাহর সান্নিধ্যে প্রশান্তি শুধু নির্জনতার মধ্যে সীমিত নয়; কাজের সময় ও মানুষের মাঝেও তাঁর স্মরণ ও আনুগত্য বজায় রাখার মধ্যে তা প্রকাশ পায়।
 
-Source: Al-Fawāʾid (ভাবানুবাদ) — Printed page 58; PDF page 58; local rendered fawaid-58.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid (ভাবানুবাদ)](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-18
 
+ইবনুল কাইয়্যিম
+
 «পূর্ণ আনন্দ, সুখ, সুন্দর জীবন ও প্রকৃত নিয়ামত রয়েছে আল্লাহকে জানা, তাঁর একত্ব স্বীকার, তাঁর সান্নিধ্য অনুভব, তাঁর সঙ্গে সাক্ষাতের আকাঙ্ক্ষা এবং অন্তরকে তাঁর দিকেই নিবদ্ধ করার মধ্যে।»
 
-**Explanation**
+Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih
 
 ধনসম্পদ বা সাফল্যের আনন্দের প্রভাব একসময় ম্লান হতে পারে। কিন্তু আল্লাহকে জানা ও তাঁর ইবাদতে প্রশান্তি পাওয়া জীবনকে এমন অর্থ দেয়, যা এসব অর্জনের ওপর নির্ভরশীল নয়।
 
-Source: Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih — Paragraph beginning إذا عرفت هذه المقدمة; web text line98
-
-https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html
+[Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih](https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html)
 
 ## iq-19
 
+ইবনুল কাইয়্যিম
+
 «পাপের পর অবিলম্বে তাওবা করা ফরজ; তা দেরি করা বৈধ নয়।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 সুবিধাজনক সময়ের অপেক্ষায় তাওবা পিছিয়ে দেওয়া হয় না। তাওবার জন্য পাপ ছাড়া, অনুতপ্ত হওয়া, আবার না করার দৃঢ় সংকল্প এবং প্রযোজ্য ক্ষেত্রে হকদারের অধিকার ফিরিয়ে দেওয়া আবশ্যক।
 
-Source: Madārij as-Sālikīn — Chapter التوبة من الذنب فرض
-
-https://islamweb.net/ar/library/content/119/115/فصل-التوبة-من-الذنب-فرض
+[Madārij as-Sālikīn](https://islamweb.net/ar/library/content/119/115/فصل-التوبة-من-الذنب-فرض)
 
 ## iq-20
 
+ইবনুল কাইয়্যিম
+
 «তাওবা সবচেয়ে মহৎ নেক আমলগুলোর একটি।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 তাওবা আত্মমুগ্ধতার কারণ নয়, বরং আল্লাহর একটি নিয়ামত। তিনি তাঁর দিকে ফিরে আসার তাওফিক দিয়েছেন বলে তাঁর শুকরিয়া আদায় করতে হয় এবং নিজের ত্রুটি সংশোধনের চেষ্টা চালিয়ে যেতে হয়।
 
-Source: Madārij as-Sālikīn — Vol1 pp220–221; line718
-
-https://www.islamweb.net/ar/library/content/119/92/فصل-التوبة-من-التوبة
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/92/فصل-التوبة-من-التوبة)
 
 ## iq-21
 
+ইবনুল কাইয়্যিম
+
 «শরীরের মতো অন্তরও অসুস্থ হয়; তাওবা ও ক্ষতিকর বিষয় থেকে বিরত থাকা তার চিকিৎসা। আয়নার মতো অন্তরেও মরিচা পড়ে, আর আল্লাহর জিকির সেই মরিচা দূর করে।»
 
-**Explanation**
+Al-Fawāʾid
 
 রোগীর যেমন ওষুধের প্রয়োজন হয় এবং রোগ বাড়ায় এমন জিনিস থেকে দূরে থাকতে হয়, তেমনি অন্তরের প্রয়োজন তাওবা, আবার পাপের দিকে টানে এমন বিষয় থেকে দূরে থাকা এবং আল্লাহকে স্মরণ করা।
 
-Source: Al-Fawāʾid — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-22
 
+ইবনুল কাইয়্যিম
+
 «কুরআন থেকে উপকার পেতে চাইলে তা তিলাওয়াত বা শোনার সময় পুরো মনোযোগ দাও।»
 
-**Explanation**
+Al-Fawāʾid
 
 কুরআন থেকে উপকৃত হতে হলে তার অর্থের প্রতি মনোযোগ দিতে হয় এবং আল্লাহ বান্দার কাছে কী চান তা বুঝতে হয়। শুধু পৃষ্ঠা শেষ করাকে একমাত্র লক্ষ্য বানানো যথেষ্ট নয়।
 
-Source: Al-Fawāʾid — Printed page 3; PDF page 3; local rendered fawaid-3.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-23
 
+ইবনুল কাইয়্যিম
+
 «যে নিজের লক্ষ্যের মূল্য জানে, সে সেই লক্ষ্য অর্জনের জন্য পরিশ্রম ও ত্যাগ সহজে মেনে নিতে পারে।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 আল্লাহর সন্তুষ্টি ও তাঁর প্রতিদানের আশা মনে রাখা আনুগত্যে অবিচল থাকা সহজ করে, এমনকি তার জন্য পরিশ্রম ও ধৈর্য প্রয়োজন হলেও।
 
-Source: Madārij as-Sālikīn — Vol2 p53; commentary following صاحب المنازل quotation, line719
-
-https://islamweb.net/ar/library/content/119/229/الدرجة-الأولى-رجاء-يبعث-العامل-على-الاجتهاد
+[Madārij as-Sālikīn](https://islamweb.net/ar/library/content/119/229/الدرجة-الأولى-رجاء-يبعث-العامل-على-الاجتهاد)
 
 ## iq-24
 
+ইবনুল কাইয়্যিম
+
 «মানুষের বরকত হলো, সে যেখানেই থাকুক কল্যাণের শিক্ষা দেয় এবং যাদের সঙ্গে দেখা হয় তাদের আন্তরিক পরামর্শ দেয়।»
 
-**Explanation**
+Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih
 
 মানুষের সঙ্গে মেলামেশা তখন বরকতময় হয়, যখন কেউ নিজের জানা ভালো বিষয় অন্যকে শেখায় এবং যার প্রয়োজন তাকে আন্তরিক পরামর্শ দেয়; শুধু নিজের কথা ভাবায় সীমাবদ্ধ থাকে না।
 
-Source: Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih — Opening paragraph; web text line9
-
-https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html
+[Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih](https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html)
 
 ## iq-25
 
+ইবনুল কাইয়্যিম
+
 «রিজিক ও আয়ু পরস্পর সম্পর্কিত এবং উভয়ই নিশ্চিত করা হয়েছে; যতক্ষণ কারও নির্ধারিত আয়ু বাকি থাকে, ততক্ষণ তার রিজিকও আসতে থাকে।»
 
-**Explanation**
+Al-Fawāʾid
 
 রিজিকের জন্য চেষ্টা করার অর্থ এই নয় যে ভবিষ্যতের ভয় মানুষকে হারামের দিকে ঠেলে দেবে। মানুষের কাছে যে রিজিক পৌঁছায়, তা আল্লাহর নির্ধারণেই পৌঁছায়।
 
-Source: Al-Fawāʾid — Printed page 79; PDF page 79; local rendered fawaid-79.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-26
 
+ইবনুল কাইয়্যিম
+
 «যে সংযমের সঙ্গে জীবিকা সন্ধান করে, সে দুনিয়ার বহু দুশ্চিন্তা ও অস্থিরতা থেকে মুক্তি পায়।»
 
-**Explanation**
+Al-Fawāʾid
 
 সুন্দরভাবে রিজিকের চেষ্টা করার মধ্যে রয়েছে পরিশ্রম ও হালাল পথ অবলম্বন। তবে আরও বেশি সম্পদের পেছনে অবিরাম ছুটে নিজের স্বাস্থ্য ও স্বস্তি নিঃশেষ করে ফেলা এর অংশ নয়।
 
-Source: Al-Fawāʾid — Printed page 82; PDF page 82; local rendered fawaid-82.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-27
 
+ইবনুল কাইয়্যিম
+
 «আল্লাহ তাঁর প্রজ্ঞায় রিজিকের একটি পথ বন্ধ করলে তাঁর রহমতে তোমার জন্য আরও উপকারী আরেকটি পথ খুলে দেন।»
 
-**Explanation**
+Al-Fawāʾid
 
 চাকরি হারানো বা কোনো সুযোগ হাতছাড়া হওয়া রিজিক বন্ধ হয়ে যাওয়ার অর্থ নয়। আল্লাহ এমন আরেকটি দরজা খুলে দিতে পারেন, যা আগে ভাবনাতেও ছিল না।
 
-Source: Al-Fawāʾid — Printed page 79; PDF page 79; local rendered fawaid-79.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-28
 
+ইবনুল কাইয়্যিম
+
 «যে নিজের অন্তরকে নির্মল করতে চায়, সে যেন নিজের কামনার চেয়ে আল্লাহকে অগ্রাধিকার দেয়।»
 
-**Explanation**
+Al-Fawāʾid
 
 আল্লাহর সন্তুষ্টির জন্য হারাম আকাঙ্ক্ষা ছেড়ে দেওয়া অন্তরকে ক্ষতিকর আসক্তি থেকে রক্ষা করে। মূল কথা হলো, মন কোনো নিষিদ্ধ বিষয়ে আকৃষ্ট হলেও তার ওপর আল্লাহর আনুগত্যকে অগ্রাধিকার দেওয়া।
 
-Source: Al-Fawāʾid — Printed page 142; PDF page 142; local rendered fawaid-142.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-29
 
+ইবনুল কাইয়্যিম
+
 «অন্তর কামনার প্রতি যত বেশি আসক্ত হয়, তত বেশি আল্লাহর কাছ থেকে দূরে সরে যায়।»
 
-**Explanation**
+Al-Fawāʾid
 
 শুধু আকাঙ্ক্ষা থাকাই সমস্যা নয়। সমস্যা তখন হয়, যখন তা অন্তরকে এমনভাবে দখল করে যে মানুষের সময় গ্রাস করে তাকে সালাত ও আল্লাহর স্মরণ থেকে দূরে সরিয়ে দেয়।
 
-Source: Al-Fawāʾid — Printed page 142; PDF page 142; local rendered fawaid-142.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-30
 
+ইবনুল কাইয়্যিম
+
 «নফস কখনো ক্ষতিকর বিষয়ের ক্ষতি না জানার কারণে তা চায়, কখনো উদ্দেশ্য খারাপ হওয়ার কারণে, আবার কখনো দুই কারণেই।»
 
-**Explanation**
+Ighāthat al-Lahfān
 
 মানুষ কখনো পরিণাম না জানার কারণে ক্ষতিকর কাজে জড়ায়, আবার কখনো ক্ষতি জেনেও আকাঙ্ক্ষাকে প্রতিরোধ করতে পারে না। তাই জ্ঞান ও আত্মসংযম—দুটিই প্রয়োজন।
 
-Source: Ighāthat al-Lahfān — Paragraph beginning فالنفس تهوى; line213
-
-https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/23
+[Ighāthat al-Lahfān](https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/23)
 
 ## iq-31
 
+ইবনুল কাইয়্যিম
+
 «যে নিজের অন্তরের আশ্রয় তার রবের কাছে রাখে, সে শান্তি ও স্বস্তি পায়; আর যে অন্তরকে মানুষের কাছে ঘুরতে দেয়, সে অস্থিরতা ও উদ্বেগে ভোগে।»
 
-**Explanation**
+Al-Fawāʾid
 
 নিজের মূল্যকে মানুষের মতামতের সঙ্গে বেঁধে দিলে তাদের প্রশংসা ও মনোযোগের পরিবর্তন উদ্বেগের কারণ হয়। অন্তর আল্লাহর দিকে ফিরলে নিজের প্রশান্তির জন্য মানুষের সন্তুষ্টির ওপর নির্ভর করে থাকতে হয় না।
 
-Source: Al-Fawāʾid — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-32
 
+ইবনুল কাইয়্যিম
+
 «আল্লাহ ও তাঁর সঙ্গে সাক্ষাতের আকাঙ্ক্ষা অন্তরে বয়ে যাওয়া শীতল বাতাসের মতো, যা দুনিয়ার উত্তাপ প্রশমিত করে।»
 
-**Explanation**
+Al-Fawāʾid
 
 আল্লাহর সঙ্গে সাক্ষাতের কথা স্মরণ করা ও তাঁর কাছে থাকা প্রতিদানের আশা জীবনের দুশ্চিন্তার মধ্যেও দৃষ্টিভঙ্গি প্রসারিত করে। তখন আশা শুধু বর্তমান মুহূর্তের সংকীর্ণতায় আটকে থাকে না।
 
-Source: Al-Fawāʾid — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-33
 
+ইবনুল কাইয়্যিম
+
 «আল্লাহর ফয়সালায় সন্তুষ্ট থাকার জন্য ব্যথা বা কষ্ট অনুভব না করা শর্ত নয়; বরং তাঁর সিদ্ধান্তের বিরোধিতা বা অসন্তোষে বিদ্রোহ না করাই মূল কথা।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 বিপদে দুঃখ ও ব্যথা অনুভব করা আল্লাহর ফয়সালায় সন্তুষ্ট থাকার পরিপন্থী নয়। সন্তুষ্টি হলো, ঘটে যাওয়া কষ্টের কারণে আল্লাহর প্রতি আপত্তি না তুলে তাঁর ওপর আস্থা বজায় রাখা।
 
-Source: Madārij as-Sālikīn — Vol2 p174; opening paragraph of فصل شرط الرضا, line718
-
-https://www.islamweb.net/ar/library/content/119/305/فصل-شرط-الرضا
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/305/فصل-شرط-الرضا)
 
 ## iq-34
 
+ইবনুল কাইয়্যিম
+
 «চেষ্টা করো, যেন তোমার সবচেয়ে বড় লক্ষ্য একটিই হয়—কেবল আল্লাহ।»
 
-**Explanation**
+Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih
 
 আল্লাহর সন্তুষ্টিকে প্রধান লক্ষ্য বানানো অগ্রাধিকার ঠিক করতে সাহায্য করে; মানুষের প্রত্যাশা, সম্পদের আকাঙ্ক্ষা ও মর্যাদার চাওয়ার মধ্যে মনকে বিক্ষিপ্ত হতে দেয় না।
 
-Source: Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih — Paragraph following نقل فؤادك; web text line103
-
-https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html
+[Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih](https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html)
 
 ## iq-35
 
+ইবনুল কাইয়্যিম
+
 «যে সুস্থতা ও স্বস্তির মাধুর্য উপলব্ধি করে, তার কাছে ধৈর্যের তিক্ততা সহ্য করা সহজ হয়।»
 
-**Explanation**
+Al-Fawāʾid
 
 পাপ বা ক্ষতিকর অভ্যাস কাটিয়ে ওঠার পর অন্তরে যে স্বস্তি ও নিরাপত্তা আসে, তা মনে রাখলে সেই পাপ বা অভ্যাসের বিরুদ্ধে লড়া এবং তা থেকে বিরত থাকার কষ্ট কমে।
 
-Source: Al-Fawāʾid — Printed page 67; PDF page 67; local rendered fawaid-67.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-36
 
+ইবনুল কাইয়্যিম
+
 «আল্লাহর কাছে নিজের কষ্টের কথা বলা ধৈর্যের পরিপন্থী নয়।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 কান্না করা, আল্লাহর কাছে নিজের ব্যথা জানানো এবং বিপদ দূর করার দোয়া করা ধৈর্যের বিরোধী নয়, যতক্ষণ তাতে তাঁর প্রতি আপত্তি থাকে না।
 
-Source: Madārij as-Sālikīn — Vol2 p160; paragraph والشكوى إلى الله, line764
-
-https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=)
 
 ## iq-37
 
+ইবনুল কাইয়্যিম
+
 «ধৈর্যের তিনটি রূপ আছে: আল্লাহর সাহায্যে ধৈর্য, আল্লাহর জন্য ধৈর্য এবং আল্লাহর সঙ্গে ধৈর্য।»
 
-**Explanation**
+Madārij as-Sālikīn
 
 আল্লাহর সাহায্যে ধৈর্য মানে তাঁর কাছে ধৈর্যের শক্তি চাওয়া; আল্লাহর জন্য ধৈর্য মানে তাঁর সন্তুষ্টিকে উদ্দেশ্য করা; আর আল্লাহর সঙ্গে ধৈর্য মানে পরিস্থিতি বদলালেও তাঁর আনুগত্যে অবিচল থাকা।
 
-Source: Madārij as-Sālikīn — Vol2 pp156–157; فصل أنواع الصبر, lines771–773
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=)
 
-https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=

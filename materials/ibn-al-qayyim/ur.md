@@ -1,449 +1,450 @@
 # Sayings of Ibn al-Qayyim · Urdu
 
-AI translated — needs verification. Independent model review is not certification by a qualified human translator or scholar.
+The saying and its explanation are separate. Source records and required notices accompany each item; these are not complete editions of the cited books.
 
-The saying and the explanation are separate. Excerpts come from the named works; each item keeps its source location. These excerpts are not a complete edition of any book.
+For iq-11, the wording is reported in the cited book; its personal authorship remains unresolved. The Arabic explanation is a separate human-supplied paragraph.
 
 ## iq-1
 
+ابن القیم
+
 «دنیا گزرگاہ ہے اور آخرت اصل وطن؛ انسان کی اصل آرزوؤں کی تکمیل اسی وطن میں تلاش کی جانی چاہیے۔»
 
-**Explanation**
+Al-Fawāʾid
 
 دنیا گزرگاہ ہے، آخری منزل نہیں۔ مال اور آسائشوں سے ضرورت کے مطابق فائدہ اٹھایا جاتا ہے، جبکہ عمل کا رخ اس بھلائی کی طرف ہوتا ہے جو موت کے بعد کام آئے؛ جیسے مسافر راستے کو اپنا وطن نہیں بناتا۔
 
-Source: Al-Fawāʾid — Printed page 71; PDF page 71; local rendered fawaid-71.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-2
 
+ابن القیم
+
 «جب دل دنیا کے دسترخوانوں سے بے رغبت ہو جاتے ہیں تو آخرت کے دسترخوانوں پر ان کے اہل کے ساتھ جگہ پاتے ہیں؛ اور جب دنیا ہی کے دسترخوانوں پر راضی ہو جاتے ہیں تو آخرت کے دسترخوانوں سے محروم رہ جاتے ہیں۔»
 
-**Explanation**
+Al-Fawāʾid
 
 دنیا کے دسترخوان سے مراد وہ لذتیں ہیں جو اللہ کی یاد سے غافل کر سکتی ہیں، اور آخرت کے دسترخوان سے مراد وہ نعمتیں ہیں جو اس نے اپنی طرف رجوع کرنے والوں کے لیے تیار کی ہیں۔ دنیا کی لذتوں سے دل لگانا آخرت کی نعمتوں کو بھلا سکتا ہے۔
 
-Source: Al-Fawāʾid — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-3
 
+ابن القیم
+
 «جس کے دل میں اللہ کی محبت اور عظمت بس جائے، وہ اللہ کے لیے دنیا کی جو چیز چھوڑ دے اسے بڑی قربانی نہیں سمجھتا۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 جو شخص اللہ کی رضا کے لیے کوئی لذت یا فائدہ چھوڑتا ہے، وہ اپنی قربانی کو بڑا نہیں سمجھتا؛ کیونکہ اللہ کا قرب دنیا کی چھوڑی ہوئی چیز سے کہیں زیادہ قیمتی ہے۔
 
-Source: Madārij as-Sālikīn — Section الزهد في الزهد; line103
-
-https://www.al-eman.com/الكتب/مدارج%20السالكين%20بين%20منازل%20إياك%20نعبد%20وإياك%20نستعين%20(نسخة%20منقحة)/i915&n41&p1
+[Madārij as-Sālikīn](https://www.al-eman.com/الكتب/مدارج%20السالكين%20بين%20منازل%20إياك%20نعبد%20وإياك%20نستعين%20(نسخة%20منقحة)/i915&n41&p1)
 
 ## iq-4
 
+ابن القیم
+
 «حکومت، عزت، مال اور بعض روحانی کیفیات نیک و بد، مومن و غیر مومن سب کو مل سکتی ہیں۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 دولت اور اثر و رسوخ ایسے شخص کو بھی مل سکتے ہیں جو نیک نہ ہو۔ اس لیے صرف دنیاوی کامیابی اللہ کی رضا کی دلیل نہیں ہے۔
 
-Source: Madārij as-Sālikīn — Vol1 pp103–104; line720
-
-https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة)
 
 ## iq-5
 
+ابن القیم
+
 «لوگوں کا اصل فرق ان کی بلند ہمتی میں ہے، ظاہری صورتوں میں نہیں۔»
 
-**Explanation**
+Al-Fawāʾid
 
 حقیقی فضیلت ظاہری صورت یا شہرت سے نہیں، بلکہ بلند مقاصد اور بھلائی کے لیے کی جانے والی کوشش سے وابستہ ہے۔
 
-Source: Al-Fawāʾid — Printed page 67; PDF page 67; local rendered fawaid-67.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-6
 
+ابن القیم
+
 «جب اللہ کسی بندے کے لیے بھلائی چاہتا ہے تو اسے اپنے گناہوں کا اعتراف کرنے والا، دوسروں کے گناہوں میں الجھنے سے بچنے والا، اپنے مال میں سخی، دوسروں کے مال سے بے نیاز اور ان کی طرف سے پہنچنے والی تکلیف پر صبر کرنے والا بنا دیتا ہے۔»
 
-**Explanation**
+Al-Fawāʾid
 
 اپنی غلطی تسلیم کرنا اصلاحِ نفس کی ابتدا ہے، جبکہ دوسروں کی غلطیاں ڈھونڈتے رہنا اس سے توجہ ہٹا دیتا ہے۔ اس کے ساتھ اپنے وسائل سے لوگوں کے ساتھ بھلائی کرنا اور ان کے مال کی طمع سے بچنا بھی شامل ہے۔
 
-Source: Al-Fawāʾid — Printed page 145; PDF page 145; local rendered fawaid-145.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-7
 
+ابن القیم
+
 «اخلاص اور نبی ﷺ کی پیروی کے بغیر عمل اس مسافر کی طرح ہے جو اپنی تھیلی ریت سے بھر لے؛ بوجھ تو بڑھ جاتا ہے مگر کوئی فائدہ نہیں ہوتا۔»
 
-**Explanation**
+Al-Fawāʾid
 
 اعمال کی کثرت اس وقت فائدہ نہیں دیتی جب ان کا مقصد لوگوں کی تعریف ہو یا وہ نبی ﷺ کی ہدایت کے خلاف ہوں۔ عمل کی قدر اخلاص اور اتباع سے وابستہ ہے۔
 
-Source: Al-Fawāʾid — Printed page 66; PDF page 66; local rendered fawaid-66.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-8
 
+ابن القیم
+
 «سب سے نفع بخش عمل وہ ہے جس میں اخلاص آپ کو لوگوں کی توجہ سے بے نیاز کر دے، اور اللہ کی نعمت کا احساس آپ کو اپنے عمل پر فخر نہ کرنے دے؛ آپ کی توجہ نہ خود پر ہو نہ لوگوں پر۔»
 
-**Explanation**
+Al-Fawāʾid
 
 اخلاص نیکی کو لوگوں کی تعریف کے انتظار سے آزاد کرتا ہے، اور اللہ کے احسان کا شعور خودپسندی سے بچاتا ہے۔ نیکی کرنے کی توفیق بھی اسی کی نعمت ہے۔
 
-Source: Al-Fawāʾid — Printed page 80; PDF page 80; local rendered fawaid-80.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-9
 
+ابن القیم
+
 «جو خود کو پہچان لیتا ہے، وہ دوسروں کی خامیاں ڈھونڈنے کے بجائے اپنی اصلاح میں مصروف ہو جاتا ہے۔»
 
-**Explanation**
+Al-Fawāʾid
 
 اپنی کوتاہیوں اور اصلاح کی ضرورت کو پہچاننے سے انسان دوسروں کے عیب دیکھنے اور ان پر حکم لگانے میں کم مشغول ہوتا ہے۔
 
-Source: Al-Fawāʾid — Printed page 80; PDF page 80; local rendered fawaid-80.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-10
 
+ابن القیم
+
 «اللہ نے ہمیں دنیا کے عارضی فائدوں کی دوڑ سے بے نیاز کر کے آخرت اور وہاں کی تیار کردہ نعمتوں کے لیے آگے بڑھنے کی دعوت دی ہے۔»
 
-**Explanation**
+Ighāthat al-Lahfān
 
 مفید مسابقت ان اعمال میں ہے جو آخرت میں فائدہ دیں، جیسے علم اور صدقہ؛ نہ کہ اپنے مال اور مرتبے کا دوسروں سے موازنہ کرنے میں۔
 
-Source: Ighāthat al-Lahfān — Paragraph listing lawful alternatives; line102
-
-https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/20
+[Ighāthat al-Lahfān](https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/20)
 
 ## iq-11
 
+ابن القیم
+
 «جو شخص اللہ اور اس کی صفات کو زیادہ جانتا ہے، اس کا اللہ پر توکل اتنا ہی درست اور مضبوط ہوتا ہے۔»
 
-**Explanation**
+ماخذ · Madārij as-Sālikīn
 
-یہ یقین کہ اللہ بندے کے حالات جانتا ہے اور اس کام پر قادر ہے جو بندے کے بس میں نہیں، اس پر اعتماد کو مضبوط کرتا ہے۔ یہ اعتماد مسائل حل کرنے کی کوشش کے ساتھ قائم رہتا ہے۔
+انسان اللہ، اس کے ناموں اور صفات کو جتنا زیادہ پہچانتا ہے اور اس کی قدرت، حکمت، رحمت اور تدبیر پر اس کا یقین جتنا بڑھتا ہے، اللہ پر اس کا توکل اتنا ہی مضبوط ہوتا ہے اور اللہ کے انتخاب سے اس کے دل کو اتنا ہی اطمینان ملتا ہے۔ کیونکہ وہ جانتا ہے کہ اس کے معاملات ایک ایسے رب کے ہاتھ میں ہیں جو سب کچھ جاننے والا، حکمت والا اور رحم کرنے والا ہے، اور کوئی چیز اس کی قدرت سے باہر نہیں۔
 
-Source: Madārij as-Sālikīn — Vol2 p118, chapter معرفة الرب وصفاته, paragraph ending والله سبحانه وتعالى أعلم
-
-https://www.islamweb.net/ar/library/content/119/267/حقيقة-التوكل-مركبة-في-أمور
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/267/حقيقة-التوكل-مركبة-في-أمور)
 
 ## iq-12
 
+ابن القیم
+
 «تمام معاملات اللہ کے سپرد کرنے کا مطلب یہ ہے کہ انسان انہیں خوش دلی اور اپنی مرضی سے اس کے حوالے کرے، نہ کہ بے دلی سے یا صرف مجبوری میں۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 معاملہ اللہ کے سپرد کرنے کا مطلب یہ ہے کہ انسان ابتدا ہی سے اپنے اختیار سے معاملہ اس کے حوالے کرے اور اس سے مدد چاہے، نہ کہ صرف کوششیں ناکام ہونے کے بعد اس کی طرف رجوع کرے۔ تفویض کوشش کے منافی نہیں؛ انسان محنت کرتا ہے اور جو نتائج اس کے اختیار میں نہیں، انہیں اللہ کے سپرد کرتا ہے۔
 
-Source: Madārij as-Sālikīn — Vol2 p122
-
-https://islamweb.net/ar/library/content/119/273/فصل-الدرجة-السابعة-التفويض
+[Madārij as-Sālikīn](https://islamweb.net/ar/library/content/119/273/فصل-الدرجة-السابعة-التفويض)
 
 ## iq-13
 
+ابن القیم
+
 توکل کا پھل: «جب بندہ اللہ پر سچا توکل کرتا ہے تو اس کے فیصلے پر راضی رہتا ہے۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 سچے توکل کی علامت یہ ہے کہ کوشش کے بعد بھی اللہ پر اعتماد قائم رہے، خواہ مطلوبہ نتیجہ حاصل نہ ہو۔ اس اعتماد کو خواہشات پوری ہونے کی شرط سے وابستہ نہیں کیا جاتا۔
 
-Source: Madārij as-Sālikīn — Vol2 pp122–123; line718
-
-https://www.islamweb.net/ar/library/content/119/274/فصل-ثمرة-التوكل
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/274/فصل-ثمرة-التوكل)
 
 ## iq-14
 
+ابن القیم
+
 «توکل دل کی وہ کیفیت ہے جو اللہ کی معرفت اور اس یقین سے پیدا ہوتی ہے کہ تخلیق و تدبیر، نفع و نقصان اور عطا و محرومی صرف اسی کے اختیار میں ہیں۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 روزگار یا علاج جیسے اسباب اختیار کرتے ہوئے یہ بات بھی پیش نظر رہتی ہے کہ نتائج صرف انسان کے اختیار میں نہیں۔ اس لیے اسباب اختیار کرنے کے ساتھ اللہ سے مدد بھی مانگی جاتی ہے۔
 
-Source: Madārij as-Sālikīn — Vol1 pp103–104; line722
-
-https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/46/فصل-أقسام-الناس-في-العبادة-والاستعانة)
 
 ## iq-15
 
+ابن القیم
+
 «بندے کی اپنے رب سے محبت ہر قابلِ تصور محبت سے بڑھ کر ہے؛ دوسری محبتوں کو اس سے نسبت نہیں دی جا سکتی۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 اہلِ خانہ اور دنیا کی پسندیدہ چیزوں سے محبت فطری ہے، لیکن جب خواہش اللہ کے حکم سے ٹکرائے تو اس کی اطاعت مقدم ہوتی ہے۔
 
-Source: Madārij as-Sālikīn — Vol3 pp19–20; opening paragraph of محبة العبد لربه ومحبة الرب لعبده, line717
-
-https://www.islamweb.net/ar/library/content/119/482/%3Fidfrom=&idto=&start=
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/482/%3Fidfrom=&idto=&start=)
 
 ## iq-16
 
+ابن القیم
+
 «دل فطری طور پر اس سے محبت کرتے ہیں جو ان کے ساتھ بھلائی کرتا ہے۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 صحت، امن اور اہلِ خانہ کی محبت جیسی مانوس نعمتوں پر غور کرنے سے ان کی قدر دوبارہ محسوس ہوتی ہے۔ اللہ کے احسان کی پہچان دل میں اس کی محبت بڑھاتی ہے۔
 
-Source: Madārij as-Sālikīn — Vol3 p39; explanation of مطالعة المنة, line718
-
-https://www.islamweb.net/ar/library/content/119/489/الدرجة-الأولى-محبة-تقطع-الوساوس
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/489/الدرجة-الأولى-محبة-تقطع-الوساوس)
 
 ## iq-17
 
+ابن القیم
+
 سچا محبت کرنے والا لوگوں کے درمیان بھی اللہ سے انس پاتا ہے اور تنہائی میں بھی۔
 
-**Explanation**
+Al-Fawāʾid (مفہوم)
 
 اللہ سے انس صرف تنہائی تک محدود نہیں، بلکہ کام کاج اور لوگوں کے درمیان بھی اس کے ذکر اور اطاعت کو قائم رکھنے میں ظاہر ہوتا ہے۔
 
-Source: Al-Fawāʾid (مفہوم) — Printed page 58; PDF page 58; local rendered fawaid-58.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid (مفہوم)](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-18
 
+ابن القیم
+
 «کامل لذت، خوشی، اچھی زندگی اور حقیقی نعمت اللہ کی معرفت، اس کی وحدانیت، اس سے انس، اس سے ملاقات کے شوق اور دل کو اسی کی طرف متوجہ کرنے میں ہے۔»
 
-**Explanation**
+Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih
 
 مال یا کامیابی کی خوشی کا اثر مٹ سکتا ہے، لیکن اللہ کی معرفت اور اس کی عبادت سے انس زندگی کو ایسا معنی دیتے ہیں جو ان کامیابیوں کا محتاج نہیں۔
 
-Source: Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih — Paragraph beginning إذا عرفت هذه المقدمة; web text line98
-
-https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html
+[Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih](https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html)
 
 ## iq-19
 
+ابن القیم
+
 «گناہ سے فوراً توبہ کرنا فرض ہے؛ اسے مؤخر کرنا جائز نہیں۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 توبہ کسی موزوں وقت کے انتظار میں مؤخر نہیں کی جاتی۔ اس کے لیے گناہ چھوڑنا، اس پر نادم ہونا، دوبارہ نہ کرنے کا پختہ ارادہ اور، جہاں لازم ہو، حق داروں کے حقوق واپس کرنا ضروری ہے۔
 
-Source: Madārij as-Sālikīn — Chapter التوبة من الذنب فرض
-
-https://islamweb.net/ar/library/content/119/115/فصل-التوبة-من-الذنب-فرض
+[Madārij as-Sālikīn](https://islamweb.net/ar/library/content/119/115/فصل-التوبة-من-الذنب-فرض)
 
 ## iq-20
 
+ابن القیم
+
 «توبہ عظیم ترین نیکیوں میں سے ایک ہے۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 توبہ خودپسندی کا سبب نہیں، بلکہ ایسی نعمت ہے جس پر اللہ کا شکر ادا کیا جاتا ہے کہ اس نے اپنی طرف لوٹنے کی توفیق دی۔ اس کے ساتھ کوتاہیوں کی اصلاح جاری رہتی ہے۔
 
-Source: Madārij as-Sālikīn — Vol1 pp220–221; line718
-
-https://www.islamweb.net/ar/library/content/119/92/فصل-التوبة-من-التوبة
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/92/فصل-التوبة-من-التوبة)
 
 ## iq-21
 
+ابن القیم
+
 «جیسے جسم بیمار ہوتا ہے ویسے ہی دل بھی بیمار ہوتا ہے؛ توبہ اور پرہیز اس کی شفا ہیں، اور جیسے آئینے پر زنگ چڑھتا ہے ویسے ہی دل پر بھی چڑھتا ہے جسے اللہ کا ذکر صاف کرتا ہے۔»
 
-**Explanation**
+Al-Fawāʾid
 
 جیسے مریض کو دوا اور بیماری بڑھانے والی چیزوں سے پرہیز کی ضرورت ہوتی ہے، اسی طرح دل کو توبہ، دوبارہ گناہ کی طرف لے جانے والی چیزوں سے دوری اور اللہ کے ذکر کی ضرورت ہے۔
 
-Source: Al-Fawāʾid — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-22
 
+ابن القیم
+
 «اگر قرآن سے فائدہ اٹھانا چاہتے ہیں تو تلاوت اور سماعت کے وقت اپنا دل پوری طرح متوجہ کریں۔»
 
-**Explanation**
+Al-Fawāʾid
 
 قرآن سے فائدہ اٹھانے کے لیے اس کے معانی پر توجہ اور یہ سمجھنا ضروری ہے کہ اللہ بندے سے کیا چاہتا ہے۔ صرف صفحات مکمل کرنے کو واحد مقصد بنا لینا کافی نہیں۔
 
-Source: Al-Fawāʾid — Printed page 3; PDF page 3; local rendered fawaid-3.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-23
 
+ابن القیم
+
 «جو اپنے مطلوب کی قدر جان لیتا ہے، اس کے لیے اس کی خاطر محنت اور قربانی دینا آسان ہو جاتا ہے۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 اللہ کی رضا اور اس کے اجر کی امید کو یاد رکھنا اطاعت پر قائم رہنا آسان بناتا ہے، خواہ اس میں محنت اور صبر درکار ہوں۔
 
-Source: Madārij as-Sālikīn — Vol2 p53; commentary following صاحب المنازل quotation, line719
-
-https://islamweb.net/ar/library/content/119/229/الدرجة-الأولى-رجاء-يبعث-العامل-على-الاجتهاد
+[Madārij as-Sālikīn](https://islamweb.net/ar/library/content/119/229/الدرجة-الأولى-رجاء-يبعث-العامل-على-الاجتهاد)
 
 ## iq-24
 
+ابن القیم
+
 «انسان کی برکت یہ ہے کہ جہاں بھی جائے بھلائی سکھائے اور جس سے بھی ملے اسے خیرخواہی کے ساتھ نصیحت کرے۔»
 
-**Explanation**
+Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih
 
 لوگوں کے درمیان رہنا اس وقت باعثِ برکت ہوتا ہے جب انسان جو اچھی بات جانتا ہے، وہ دوسروں کو سکھائے اور جسے نصیحت کی ضرورت ہو، اسے خیرخواہی کے ساتھ نصیحت کرے؛ اپنی فکر کو صرف اپنی ذات تک محدود نہ رکھے۔
 
-Source: Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih — Opening paragraph; web text line9
-
-https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html
+[Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih](https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html)
 
 ## iq-25
 
+ابن القیم
+
 «رزق اور عمر ایک دوسرے کے ساتھ جڑے ہیں اور دونوں کی ضمانت دی گئی ہے؛ جب تک کسی کی عمر باقی ہے اس کا رزق بھی آتا رہے گا۔»
 
-**Explanation**
+Al-Fawāʾid
 
 رزق کی کوشش کا مطلب یہ نہیں کہ مستقبل کا خوف انسان کو حرام کی طرف دھکیل دے۔ جو رزق انسان کو پہنچتا ہے، وہ اللہ کی تقدیر ہی سے پہنچتا ہے۔
 
-Source: Al-Fawāʾid — Printed page 79; PDF page 79; local rendered fawaid-79.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-26
 
+ابن القیم
+
 «جو روزی کی تلاش میں اعتدال اختیار کرتا ہے، وہ دنیا کی بہت سی پریشانیوں اور فکروں سے راحت پاتا ہے۔»
 
-**Explanation**
+Al-Fawāʾid
 
 رزق کمانے کا بہتر طریقہ یہ ہے کہ انسان محنت کرے اور حلال راستہ اختیار کرے، مگر زیادہ سے زیادہ مال کی نہ ختم ہونے والی دوڑ میں اپنی صحت اور سکون نہ کھپا دے۔
 
-Source: Al-Fawāʾid — Printed page 82; PDF page 82; local rendered fawaid-82.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-27
 
+ابن القیم
+
 «جب اللہ اپنی حکمت سے رزق کا ایک راستہ بند کرتا ہے تو اپنی رحمت سے اس سے بہتر راستہ کھول دیتا ہے۔»
 
-**Explanation**
+Al-Fawāʾid
 
 ملازمت چھوٹ جانا یا کوئی موقع ہاتھ سے نکل جانا رزق ختم ہونے کی دلیل نہیں۔ اللہ کوئی ایسا دوسرا دروازہ کھول سکتا ہے جس کا گمان بھی نہ ہو۔
 
-Source: Al-Fawāʾid — Printed page 79; PDF page 79; local rendered fawaid-79.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-28
 
+ابن القیم
+
 «جو اپنے دل کی پاکیزگی چاہتا ہے، اسے اپنی خواہش پر اللہ کو ترجیح دینی چاہیے۔»
 
-**Explanation**
+Al-Fawāʾid
 
 اللہ کی رضا کے لیے حرام خواہش چھوڑنا دل کو نقصان دہ تعلق سے محفوظ رکھتا ہے۔ اصل بات اس کی اطاعت کو اس ممنوع چیز پر ترجیح دینا ہے جس کی طرف نفس مائل ہو۔
 
-Source: Al-Fawāʾid — Printed page 142; PDF page 142; local rendered fawaid-142.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-29
 
+ابن القیم
+
 «دل خواہشات سے جتنا لگاؤ رکھتے ہیں، اتنے ہی اللہ سے دور ہو جاتے ہیں۔»
 
-**Explanation**
+Al-Fawāʾid
 
 مسئلہ محض خواہش کے موجود ہونے میں نہیں، بلکہ اس کے دل پر اس طرح غالب آنے میں ہے کہ وہ وقت کو گھیر لے اور نماز و ذکر سے دور کر دے۔
 
-Source: Al-Fawāʾid — Printed page 142; PDF page 142; local rendered fawaid-142.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-30
 
+ابن القیم
+
 «نفس کبھی اپنے لیے نقصان دہ چیز کو اس کے نقصان سے لاعلمی کی وجہ سے چاہتا ہے، کبھی نیت کی خرابی سے، اور کبھی دونوں وجہوں سے۔»
 
-**Explanation**
+Ighāthat al-Lahfān
 
 انسان کبھی انجام نہ جاننے کی وجہ سے نقصان دہ کام کرتا ہے، اور کبھی نقصان جانتے ہوئے خواہش کا مقابلہ نہیں کر پاتا۔ اسی لیے اسے علم اور ضبطِ نفس، دونوں کی ضرورت ہے۔
 
-Source: Ighāthat al-Lahfān — Paragraph beginning فالنفس تهوى; line213
-
-https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/23
+[Ighāthat al-Lahfān](https://ar.wikisource.org/wiki/إغاثة_اللهفان/الباب_الثالث_عشر/23)
 
 ## iq-31
 
+ابن القیم
+
 «جو اپنا دل اپنے رب کے پاس ٹھہرا دیتا ہے وہ سکون پاتا ہے؛ اور جو اسے لوگوں میں بھٹکنے دیتا ہے وہ بے چینی اور اضطراب میں مبتلا رہتا ہے۔»
 
-**Explanation**
+Al-Fawāʾid
 
 اپنی قدر کو لوگوں کی رائے سے وابستہ کرنے پر ان کی تعریف اور توجہ میں تبدیلی اضطراب کا سبب بن جاتی ہے۔ دل کا اللہ کی طرف رجوع اسے لوگوں کی خوشنودی کو اپنے سکون کی بنیاد بنانے سے آزاد کرتا ہے۔
 
-Source: Al-Fawāʾid — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-32
 
+ابن القیم
+
 «اللہ سے ملاقات کا شوق دل پر چلنے والی اس ٹھنڈی ہوا کی طرح ہے جو دنیا کی تپش کو کم کر دیتی ہے۔»
 
-**Explanation**
+Al-Fawāʾid
 
 اللہ سے ملاقات کی یاد اور اس کے پاس موجود اجر کی امید زندگی کے بوجھ تلے بھی نظر کو وسعت دیتی ہے؛ امید صرف موجودہ لمحے کی تنگی میں محصور نہیں رہتی۔
 
-Source: Al-Fawāʾid — Printed page 143; PDF page 143; local rendered fawaid-143.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-33
 
+ابن القیم
+
 «اللہ کی تقدیر پر راضی ہونے کے لیے یہ ضروری نہیں کہ انسان کو درد یا تکلیف محسوس نہ ہو؛ اصل بات یہ ہے کہ وہ اس کے فیصلے پر اعتراض اور ناراضی نہ کرے۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 مصیبت میں غم اور درد محسوس کرنا رضا کے خلاف نہیں۔ رضا یہ ہے کہ بندے پر جو گزری ہے، اس کی وجہ سے اللہ پر اعتراض کیے بغیر اس پر اعتماد قائم رہے۔
 
-Source: Madārij as-Sālikīn — Vol2 p174; opening paragraph of فصل شرط الرضا, line718
-
-https://www.islamweb.net/ar/library/content/119/305/فصل-شرط-الرضا
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/305/فصل-شرط-الرضا)
 
 ## iq-34
 
+ابن القیم
+
 «کوشش کریں کہ آپ کی سب سے بڑی فکر ایک ہی ہو، اور وہ صرف اللہ ہو۔»
 
-**Explanation**
+Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih
 
 اللہ کی رضا کو بنیادی مقصد بنانے سے ترجیحات متعین کرنے میں مدد ملتی ہے، بجائے اس کے کہ انسان لوگوں کی توقعات اور مال و مرتبے کی خواہش کے درمیان بکھرا رہے۔
 
-Source: Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih — Paragraph following نقل فؤادك; web text line103
-
-https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html
+[Risālat Ibn al-Qayyim ilā Aḥad Ikhwānih](https://www.islamicbook.ws/amma/rsalt-abn-alqim-ila-ahd-ikhwanh.html)
 
 ## iq-35
 
+ابن القیم
+
 «جو عافیت کی مٹھاس کو ذہن میں رکھتا ہے، اس کے لیے صبر کی تلخی برداشت کرنا آسان ہو جاتا ہے۔»
 
-**Explanation**
+Al-Fawāʾid
 
 گناہ یا نقصان دہ عادت سے نکلنے کے بعد ملنے والے سکون اور سلامتی کو یاد رکھنے سے اس گناہ یا عادت کا مقابلہ کرنا اور اس سے رکے رہنا آسان ہوتا ہے۔
 
-Source: Al-Fawāʾid — Printed page 67; PDF page 67; local rendered fawaid-67.png
-
-https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf
+[Al-Fawāʾid](https://iifa-aifi.org/wp-content/uploads/2025/11/18.الفوائد-لابن-القيم.pdf)
 
 ## iq-36
 
+ابن القیم
+
 «اللہ تعالیٰ کے سامنے اپنی تکلیف بیان کرنا صبر کے خلاف نہیں۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 رونا، اللہ کے سامنے اپنا درد بیان کرنا اور اس سے مصیبت دور کرنے کی دعا مانگنا صبر کے خلاف نہیں، جب تک اس میں اللہ پر اعتراض شامل نہ ہو۔
 
-Source: Madārij as-Sālikīn — Vol2 p160; paragraph والشكوى إلى الله, line764
-
-https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=)
 
 ## iq-37
 
+ابن القیم
+
 «صبر کی تین صورتیں ہیں: اللہ کی مدد سے صبر، اللہ کے لیے صبر اور اللہ کے ساتھ صبر۔»
 
-**Explanation**
+Madārij as-Sālikīn
 
 اللہ کی مدد سے صبر کا مطلب اس سے صبر کی قوت مانگنا ہے؛ اللہ کے لیے صبر کا مقصد اس کی رضا ہے؛ اور اللہ کے ساتھ صبر سے مراد حالات بدلنے کے باوجود اس کی اطاعت پر قائم رہنا ہے۔
 
-Source: Madārij as-Sālikīn — Vol2 pp156–157; فصل أنواع الصبر, lines771–773
+[Madārij as-Sālikīn](https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=)
 
-https://www.islamweb.net/ar/library/content/119/298/?idfrom=&idto=&start=

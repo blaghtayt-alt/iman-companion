@@ -4,6 +4,8 @@ I'm building Iman Companion to bring Quran reading, memorization, reflection, an
 
 The collection includes tadabbur summaries, Seerah summaries, Hadith reading material, 37 sayings of Ibn al-Qayyim with explanations, and six teaching units for children under five. These materials are open source. You can read the Markdown files here or use the JSON files in your own project.
 
+**The Ibn al-Qayyim sayings collection is complete: 37 readings in each of 20 languages.** Other collections remain at their stated coverage.
+
 **All translated summaries are AI translated — needs verification.** Some have already been through separate model-assisted review, but that does not make them verified human translations. Please check the Arabic source, especially before teaching or publishing a translation.
 
 ## Downloads
@@ -31,10 +33,10 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 | Tadabbur translations | 26 surah-and-mode documents in each of eight other languages, plus 41 separate work-in-progress translation packages |
 | Seerah | Chapters 1–22 in the original nine languages; [current coverage in the six newer languages](materials/seerah/combined/README.md). Arabic summaries of chapters 23–26 remain in the source archive |
 | Hadith | Arabic reference collection and reviewed translations in the six newer languages; coverage is listed per language |
-| Ibn al-Qayyim | 37 sayings and explanations in all 15 app languages |
+| Ibn al-Qayyim | [Complete: 37 sayings and explanations in each of 20 languages](materials/ibn-al-qayyim/README.md) |
 | Under 5 | [Six Arabic, English and French units, 39 lessons each](materials/under-5/README.md); audio and other language versions in preparation |
 
-The published collections currently cover Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German and Simplified Chinese. The app interface also supports Uzbek, Thai, Vietnamese, Japanese and Filipino; this does not imply that every material collection is complete in those languages. Coverage differs between collections. This is not a complete translation of every surah, and some Arabic sources contain selected ayahs only. The catalog gives the actual ayah counts and identifies introductions and archived chapters.
+The Ibn al-Qayyim sayings collection is complete in all 20 app languages. Other collections have different coverage: the 137-lesson Essential Hadith course remains incomplete; Seerah in Uzbek, Thai, Vietnamese, Japanese and Filipino is incomplete; and Under 5 translations beyond Arabic, English and French are in preparation. Coverage differs between collections. This is not a complete translation of every surah, and some Arabic sources contain selected ayahs only. The catalog gives the actual ayah counts and identifies introductions and archived chapters.
 
 ## Where the material comes from
 

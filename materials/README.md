@@ -6,7 +6,7 @@
 
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Hadith: published translations and reviewed meanings](hadith/README.md)
-- [Ibn al-Qayyim: all 37 sayings in 15 languages](ibn-al-qayyim/README.md)
+- [Ibn al-Qayyim: complete 37 sayings in each of 20 languages](ibn-al-qayyim/README.md)
 
 The table counts files, not individual Hadiths or sayings; each of those language files contains a collection. Arabic Seerah includes four separately labeled archive chapters.
 
@@ -36,6 +36,11 @@ Our translated summaries, meanings and explanations are **AI translated — need
 | ibn-al-qayyim | Turkish | 1 |
 | ibn-al-qayyim | Urdu | 1 |
 | ibn-al-qayyim | Simplified Chinese | 1 |
+| ibn-al-qayyim | Uzbek | 1 |
+| ibn-al-qayyim | Thai | 1 |
+| ibn-al-qayyim | Vietnamese | 1 |
+| ibn-al-qayyim | Japanese | 1 |
+| ibn-al-qayyim | Filipino | 1 |
 | seerah | Arabic | 26 |
 | seerah | Bengali | 22 |
 | seerah | German | 9 |
