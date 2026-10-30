@@ -2,7 +2,7 @@
 
 ## Current reading collections
 
-- [Under 5: six Arabic, English, French, Turkish, Indonesian and Malay units, 39 lessons each and source documents](under-5/README.md)
+- [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay and Brazilian Portuguese units, 39 lessons each and source documents](under-5/README.md)
 
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Hadith: published translations and reviewed meanings](hadith/README.md)
@@ -71,6 +71,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 | under-5 | Turkish | 6 |
 | under-5 | Indonesian | 6 |
 | under-5 | Malay | 6 |
+| under-5 | Brazilian Portuguese | 6 |
 
 ## Tadabbur
 
@@ -653,6 +654,12 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [under-5 · Malay · 4](under-5/ms/unit-04.md)
 - [under-5 · Malay · 5](under-5/ms/unit-05.md)
 - [under-5 · Malay · 6](under-5/ms/unit-06.md)
+- [under-5 · Brazilian Portuguese · 1](under-5/pt-BR/unit-01.md)
+- [under-5 · Brazilian Portuguese · 2](under-5/pt-BR/unit-02.md)
+- [under-5 · Brazilian Portuguese · 3](under-5/pt-BR/unit-03.md)
+- [under-5 · Brazilian Portuguese · 4](under-5/pt-BR/unit-04.md)
+- [under-5 · Brazilian Portuguese · 5](under-5/pt-BR/unit-05.md)
+- [under-5 · Brazilian Portuguese · 6](under-5/pt-BR/unit-06.md)
 
 
 ## Newer Seerah translations
