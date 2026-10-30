@@ -1,0 +1,206 @@
+{
+  "schema": "under5-source-projection-de-final-v1",
+  "locale": "de",
+  "scope": {
+    "units": 6,
+    "lessons": 39,
+    "headings": 45,
+    "bodyPositions": 1262,
+    "lessonCounts": [
+      10,
+      7,
+      7,
+      7,
+      3,
+      5
+    ]
+  },
+  "status": "All39 qualified by distinct actual final610 for meaning, fluency and source route; actual application/runtime/publication pending",
+  "sourceDate": "2026-10-30",
+  "arabicCompanion": {
+    "file": "UNDER5-ARABIC-COMPANION483.json",
+    "sha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+    "bytes": 107796
+  },
+  "candidate": {
+    "file": "UNDER5-GERMAN-COURSE610.json",
+    "sha256": "4f643a2d80f52dc8dcd4ebfa92f4e710e2dc13fc1f6984d5762378ac680b1bd4",
+    "bytes": 76155
+  },
+  "nativeSourceNote": {
+    "file": "QUELLENHINWEISE-DE610.txt",
+    "sha256": "f8a43209539dd05a533fe396239aab535f0a955c8baf28b8544f935dc744ac55",
+    "bytes": 9674
+  },
+  "wordingRoute": "Independently authored German meaning directly from complete approved Arabic, after bounded German published-first research; no other-language pivot",
+  "publishedFirstPositiveFindings": [
+    {
+      "name": "IslamEnc German children belief questions",
+      "urls": [
+        "https://kids.islamenc.com/de/browse/category/10",
+        "https://kids.islamenc.com/de/home"
+      ],
+      "status": "Positive Sunni German children publication; different topical Q&A curriculum",
+      "actualReading": "Bounded German belief opening, approximately first nine questions plus part of question ten; not the full category/book. Home English fallback was not a wording source.",
+      "fullContentsAndReuseRights": "Uninspected/unknown beyond the stated opening; not evidence of global absence",
+      "adoptedTargetWording": false
+    },
+    {
+      "name": "Wer ist Allah?",
+      "authors": [
+        "Katharina Smetek",
+        "Mayoumi Biletski"
+      ],
+      "url": "https://muslim-kids.de/products/wer-ist-allah",
+      "status": "Positive separate publication: publisher describes Noah with grandparents; Atfaluna, 60 pages",
+      "actualReading": "Publisher product description only, not the complete book",
+      "fullContentsAndReuseRights": "Full contents unread; rights-reserved notice, no applicable reuse permission established",
+      "adoptedTargetWording": false
+    },
+    {
+      "name": "Mein Islambuch",
+      "publisher": "Cornelsen",
+      "url": "https://www.cornelsen.de/reihen/mein-islambuch-900004380000",
+      "status": "Positive separate curriculum; description includes grades 3/4",
+      "actualReading": "Publisher description only, not the complete editions",
+      "fullContentsAndReuseRights": "Uninspected/unknown; no blanket Sunni certification inferred from product description",
+      "adoptedTargetWording": false
+    }
+  ],
+  "boundedConclusion": "No suitable published rendering of this entire particular six-unit custom script was identified in the documented search. Other books, unread/inaccessible editions and unknown rights are not proof of universal absence or permission.",
+  "contextParent": {
+    "role": "Context evidence only; no German published body or excerpt adopted",
+    "publisher": "HadeethEnc.com",
+    "url": "https://hadeethenc.com/de/browse/hadith/58120",
+    "apiURL": "https://hadeethenc.com/api/v1/hadeeths/one/?language=de&id=58120",
+    "arabicApiURL": "https://hadeethenc.com/api/v1/hadeeths/one/?language=ar&id=58120",
+    "languageCode": "de",
+    "regionalEditionClaim": false,
+    "capturedHTTPStatus": 200,
+    "narrator": "Umar ibn Abi Salama",
+    "primaryReferences": [
+      "Sahih al-Bukhari 5376",
+      "Sahih Muslim 2022"
+    ],
+    "publisherAttribution": "Muttafaqun alayh",
+    "publisherGrade": "Authentic",
+    "namedTranslator": null,
+    "version": null,
+    "unknownFieldsExplanation": "Not exposed by the inspected capture; not invented",
+    "fullContextActuallyRead": [
+      "Complete German report and Arabic parallel",
+      "Complete German and Arabic explanation",
+      "All five German and Arabic benefits/hints",
+      "Narrator, grade, attribution, Arabic references and metadata",
+      "Original Bukhari 5376 Arabic report",
+      "Actual seven publisher conditions"
+    ],
+    "reportMeaning": "The young narrator ate in the Prophets household, moved his hand about the dish, was taught to name Allah, eat with the right hand and eat from what was nearest; he continued this eating practice.",
+    "explanationMeaning": "The publisher identifies the narrator as Umm Salamas son under the Prophets care and explains all three eating teachings.",
+    "allFiveHintsMeaning": [
+      "Name Allah at the beginning of eating/drinking",
+      "Teach children good manners, particularly children in ones care",
+      "The Prophet taught children gently and patiently",
+      "Eat from the near side, with the stated qualification when different kinds of food are present",
+      "The Companion retained the learned practice"
+    ],
+    "selectedCourseMeaning": "Only naming Allah before food and right-hand eating, in the original course authors paraphrase; third instruction and publisher explanation are not inserted",
+    "allConditions": [
+      {
+        "number": 1,
+        "meaning": "No modification, addition or deletion of the translation content",
+        "appliesToThisCandidate": "No HadeethEnc German wording selected; preserve the condition for any future proposed adoption"
+      },
+      {
+        "number": 2,
+        "meaning": "Clearly credit the publisher and HadeethEnc source",
+        "appliesToThisCandidate": "No HadeethEnc German wording selected; preserve the condition for any future proposed adoption"
+      },
+      {
+        "number": 3,
+        "meaning": "State the translation version number on republication",
+        "appliesToThisCandidate": "No HadeethEnc German wording selected; preserve the condition for any future proposed adoption"
+      },
+      {
+        "number": 4,
+        "meaning": "Preserve version information inside the document",
+        "appliesToThisCandidate": "No HadeethEnc German wording selected; preserve the condition for any future proposed adoption"
+      },
+      {
+        "number": 5,
+        "meaning": "Notify HadeethEnc of notes concerning its translation",
+        "appliesToThisCandidate": "No HadeethEnc German wording selected; preserve the condition for any future proposed adoption"
+      },
+      {
+        "number": 6,
+        "meaning": "Update the translation when the publisher issues a later version",
+        "appliesToThisCandidate": "No HadeethEnc German wording selected; preserve the condition for any future proposed adoption"
+      },
+      {
+        "number": 7,
+        "meaning": "Exclude inappropriate advertisements",
+        "appliesToThisCandidate": "No HadeethEnc German wording selected; preserve the condition for any future proposed adoption"
+      }
+    ],
+    "conditionsURL": "https://hadeethenc.com/en/home",
+    "noticeOrContactOccurred": false,
+    "noticeClaimedFulfilled": false,
+    "futureAdoption": "A later change to publisher wording requires its own current edition, full-parent, required-note and all-condition assessment; unknown version is not supplied retroactively.",
+    "exactPublishedGrade": "Authentischer Text",
+    "exactPublishedAttribution": "Muttafaqun alayh (Übereinstimmend bei al-Bukhari und Muslim verzeichnet)"
+  },
+  "quotationBoundaries": {
+    "directQuranVerseQuotation": false,
+    "directNumberedHadithQuotation": false,
+    "courseSummariesRemainSummaries": true,
+    "ordinaryShortFormulasNotAutomaticallyDirectScripture": true,
+    "newQuranTranslation": false,
+    "newLongerDevotionalFormula": false
+  },
+  "authorCoverage": {
+    "freshArabicBeforeAuthoring": "All 39 lessons and all 45 headings",
+    "pairedArabicGerman": "All 1262 positions and 45 headings, then full rereads of all 11 revised lessons",
+    "separateFinalGermanOnly": "All 39 lessons and all 45 headings",
+    "finiteDraftRefinements": 16,
+    "independentFinal": "Completed by distinct actual gpt-6.1-sol High reviewer610, full39 Arabic/German and separate full39 German-only, unchanged wording",
+    "formalHumanScholarCertification": false
+  },
+  "authorship": "Author608 and distinct final610 were two actual separate AI agents; real provenance retained here outside ordinary lesson prose",
+  "audio": {
+    "allSixUnits": "preparing",
+    "audioURLs": []
+  },
+  "offlineDelivery": "Reviewed German course, complete native German source note, this source record and matching unchanged Arabic483 companion must travel together. Recipient save/reload/offline checks remain pending.",
+  "distribution": "Human-authorized free noncommercial scope; no broader publisher-edition license inferred",
+  "publicBoundary": "Only this complete German course, this source projection and complete native German note are new public payloads; exact matching Arabic483 companion is a shared delivery dependency. No raw modern books, private logs or unrelated source archives.",
+  "appOrRuntimeClaim": false,
+  "independentFinal": {
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "high",
+    "distinctFromAuthor608": true,
+    "scope": {
+      "units": 6,
+      "lessons": 39,
+      "lessonCounts": [
+        10,
+        7,
+        7,
+        7,
+        3,
+        5
+      ],
+      "headings": 45,
+      "bodyPositions": 1262,
+      "blank": 6,
+      "literalPauses": 155,
+      "wrappedPauses": 1,
+      "LF": 2,
+      "TAB": 2,
+      "ellipsisOccurrences": 1258
+    },
+    "wordingEdits": 0,
+    "all16RefinementsAcceptedInWholeContext": true,
+    "formalHumanScholarCertification": false,
+    "openMaterialFindings": []
+  }
+}
