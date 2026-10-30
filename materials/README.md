@@ -2,7 +2,7 @@
 
 ## Current reading collections
 
-- [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian and German units, 39 lessons each and source documents](under-5/README.md)
+- [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German and Simplified Chinese units, 39 lessons each and source documents](under-5/README.md)
 
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Hadith: published translations and reviewed meanings](hadith/README.md)
@@ -79,6 +79,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 | under-5 | Spanish | 6 |
 | under-5 | Persian | 6 |
 | under-5 | German | 6 |
+| under-5 | Simplified Chinese | 6 |
 
 ## Tadabbur
 
@@ -709,6 +710,12 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [under-5 · German · 4](under-5/de/unit-04.md)
 - [under-5 · German · 5](under-5/de/unit-05.md)
 - [under-5 · German · 6](under-5/de/unit-06.md)
+- [under-5 · Simplified Chinese · 1](under-5/zh-CN/unit-01.md)
+- [under-5 · Simplified Chinese · 2](under-5/zh-CN/unit-02.md)
+- [under-5 · Simplified Chinese · 3](under-5/zh-CN/unit-03.md)
+- [under-5 · Simplified Chinese · 4](under-5/zh-CN/unit-04.md)
+- [under-5 · Simplified Chinese · 5](under-5/zh-CN/unit-05.md)
+- [under-5 · Simplified Chinese · 6](under-5/zh-CN/unit-06.md)
 
 
 ## Newer Seerah translations

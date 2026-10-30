@@ -8902,6 +8902,84 @@
       "lessonCount": 5,
       "reviewedCourseSha256": "4f643a2d80f52dc8dcd4ebfa92f4e710e2dc13fc1f6984d5762378ac680b1bd4",
       "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "zh-CN",
+      "id": "1",
+      "markdown": "materials/under-5/zh-CN/unit-01.md",
+      "json": "materials/under-5/zh-CN/unit-01.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 1,
+      "sourceSha256": "1880d5250085e33399cd116af1b0feaf1340c9f7c715222077401b881c2d37c1",
+      "lessonCount": 10,
+      "reviewedCourseSha256": "81b8ba8cb072ca6926bd9a9c27574abbd503a5fd4d8a5b225a1bfc85b6779182",
+      "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "zh-CN",
+      "id": "2",
+      "markdown": "materials/under-5/zh-CN/unit-02.md",
+      "json": "materials/under-5/zh-CN/unit-02.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 2,
+      "sourceSha256": "40e5fd5740f4972ae78577767c9bd60d232f29ced0538715d1f7436878fbb40a",
+      "lessonCount": 7,
+      "reviewedCourseSha256": "81b8ba8cb072ca6926bd9a9c27574abbd503a5fd4d8a5b225a1bfc85b6779182",
+      "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "zh-CN",
+      "id": "3",
+      "markdown": "materials/under-5/zh-CN/unit-03.md",
+      "json": "materials/under-5/zh-CN/unit-03.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 3,
+      "sourceSha256": "376f8c1cc9536efd2944a151c60becdd7aa3fa19f4702d8b9a7f25f02d29671a",
+      "lessonCount": 7,
+      "reviewedCourseSha256": "81b8ba8cb072ca6926bd9a9c27574abbd503a5fd4d8a5b225a1bfc85b6779182",
+      "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "zh-CN",
+      "id": "4",
+      "markdown": "materials/under-5/zh-CN/unit-04.md",
+      "json": "materials/under-5/zh-CN/unit-04.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 4,
+      "sourceSha256": "5a80fac52eb6a2f4df147458031c2d8851c194461b94ec2eb747afd88ccb7ef7",
+      "lessonCount": 7,
+      "reviewedCourseSha256": "81b8ba8cb072ca6926bd9a9c27574abbd503a5fd4d8a5b225a1bfc85b6779182",
+      "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "zh-CN",
+      "id": "5",
+      "markdown": "materials/under-5/zh-CN/unit-05.md",
+      "json": "materials/under-5/zh-CN/unit-05.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 5,
+      "sourceSha256": "c1ccce140ba06c75037f8263f4b425f7e6633c096362031c035e1d85a14d9cd3",
+      "lessonCount": 3,
+      "reviewedCourseSha256": "81b8ba8cb072ca6926bd9a9c27574abbd503a5fd4d8a5b225a1bfc85b6779182",
+      "audioStatus": "preparing"
+    },
+    {
+      "collection": "under-5",
+      "language": "zh-CN",
+      "id": "6",
+      "markdown": "materials/under-5/zh-CN/unit-06.md",
+      "json": "materials/under-5/zh-CN/unit-06.json",
+      "translationStatus": "model-assisted-translation-distinct-reviewed",
+      "unit": 6,
+      "sourceSha256": "377e99eb1cab1cb659d3d7b9fcc8dde099b1880bec8b42dcbfb64c4077cd5a76",
+      "lessonCount": 5,
+      "reviewedCourseSha256": "81b8ba8cb072ca6926bd9a9c27574abbd503a5fd4d8a5b225a1bfc85b6779182",
+      "audioStatus": "preparing"
     }
   ],
   "workInProgress": [
@@ -9275,6 +9353,18 @@
     "index": "materials/under-5/README.md",
     "status": "model-assisted-translation-distinct-reviewed",
     "otherLanguages": "6 in preparation",
+    "audio": "all six in preparation"
+  },
+  "under5SimplifiedChineseUpdate": {
+    "unitsPerLanguage": 6,
+    "lessonsPerLanguage": 39,
+    "languages": [
+      "zh-CN"
+    ],
+    "sourceNotes": "materials/under-5/SOURCE-NOTES.json",
+    "index": "materials/under-5/README.md",
+    "status": "model-assisted-translation-distinct-reviewed",
+    "otherLanguages": "5 in preparation",
     "audio": "all six in preparation"
   }
 }
