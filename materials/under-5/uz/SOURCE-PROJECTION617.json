@@ -1,0 +1,201 @@
+{
+  "schema": "under5-uz-Latin-final-source-v1",
+  "locale": "uz",
+  "script": "Latin",
+  "scope": {
+    "units": 6,
+    "lessons": 39,
+    "headings": 45,
+    "bodyPositions": 1262,
+    "lessonCounts": [
+      10,
+      7,
+      7,
+      7,
+      3,
+      5
+    ]
+  },
+  "status": "QUALIFIED_COMPLETE_ALL39_UNCHANGED_WORDING_READY_FOR_ACTUAL_TERRA_XHIGH_INTEGRATION540",
+  "asOf": "2026-10-30",
+  "arabicCompanion": {
+    "file": "UNDER5-ARABIC-COMPANION483.json",
+    "sha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+    "bytes": 107796
+  },
+  "candidate": {
+    "file": "UNDER5-UZBEK-COURSE617.json",
+    "sha256": "bfea27f22dc4ee33ec0163ceae777e07af1a5a7a9eae831f7289cbd015c03f5e",
+    "bytes": 74178
+  },
+  "nativeSourceNote": {
+    "file": "MANBA-IZOHI-UZ617.txt",
+    "sha256": "385457391164cfee952d87e401399a413e20abefdb37a220dc5556306df831ad",
+    "bytes": 9599
+  },
+  "wordingRoute": "Own Uzbek Latin meaning directly from the complete approved Arabic after bounded published-first research; no English/Russian/Cyrillic wording pivot",
+  "publishedFirstPositives": [
+    {
+      "title": "IslamEnc Uzbek children project and belief questions",
+      "urls": [
+        "https://kids.islamenc.com/uz/home",
+        "https://kids.islamenc.com/uz/browse/category/10"
+      ],
+      "status": "Positive distinct Sunni topical question-answer publication, in Cyrillic; not this custom six-unit course",
+      "actualRead": "Bounded opening including navigation and approximately first nine belief questions; not the complete category or whole work",
+      "rightsAndRemainingContent": "Uninspected/unknown",
+      "selectedAsWording": false,
+      "QuranWordingAdopted": false
+    },
+    {
+      "title": "Ibodati Islomiya",
+      "authorAsListed": "Ahmad Hodiy Maqsudiy",
+      "url": "https://asmo-books.uz/products/husna-allohning-99-gozal-ismli-uzuk-va-ibodati-islomiya-kitobi-1028",
+      "status": "Positive separate teaching book; Asmo listing describes Sunni Hanafi orientation",
+      "actualRead": "Full captured product-description/FAQ context, not the book itself",
+      "publisherOrRetailerDistinction": "Asmo says it does not directly sell these books and routes orders through another seller system. This is a retailer/aggregator description, not an inspected edition or publisher reuse grant.",
+      "rightsAndRemainingContent": "Whole book and specific edition/reuse rights unknown",
+      "marketingClaimsAdopted": false,
+      "selectedAsWording": false
+    }
+  ],
+  "boundedResearchConclusion": "No matching usable published complete version of this particular custom course was identified in the documented search. This is not proof of global absence, and other editions and rights remain unknown.",
+  "contextOnlyReport": {
+    "role": "Whole context inspected privately; not selected for any target body or excerpt",
+    "publisher": "HadeethEnc.com",
+    "url": "https://hadeethenc.com/uz/browse/hadith/58120",
+    "apiURL": "https://hadeethenc.com/api/v1/hadeeths/one/?language=uz&id=58120",
+    "arabicApiURL": "https://hadeethenc.com/api/v1/hadeeths/one/?language=ar&id=58120",
+    "capturedHTTPStatus": 200,
+    "officialGenericLanguageCode": "uz",
+    "capturedTextScript": "Cyrillic",
+    "LatinEditionCertifiedByCode": false,
+    "namedTranslator": null,
+    "translationVersion": null,
+    "unknownMetadata": "Named translator and edition version not exposed by the captured API; no invented substitute",
+    "narrator": "Umar ibn Abi Salama",
+    "primaryReferences": [
+      "Sahih al-Bukhari 5376",
+      "Sahih Muslim 2022"
+    ],
+    "publisherGrade": "Sahih",
+    "publisherAttribution": "Muttafaqun alayh",
+    "wholeContextRead": [
+      "Full Uzbek Cyrillic report and Arabic parallel",
+      "Full explanations in both languages",
+      "All five benefits in both languages",
+      "Narrator, grade, attribution, official language metadata and full Arabic reference field",
+      "Complete original Bukhari 5376 Arabic report",
+      "Actual seven publisher conditions from retained primary source"
+    ],
+    "sourceReportMeaning": "The young narrator was under the Prophets care and moved his hand around the dish. The report teaches naming Allah, right-hand eating and eating from what is nearest, and says the narrator kept this practice.",
+    "explanationMeaning": "The narrator is Umm Salamas son under the Prophets upbringing and care; the explanation develops all three eating teachings.",
+    "allFiveBenefitMeanings": [
+      "Name Allah at the start of eating/drinking",
+      "Teach children manners, especially those in ones care",
+      "The Prophet taught children gently and patiently",
+      "Eat from the near side, with the stated qualification for differing kinds of food",
+      "The Companion kept the taught eating manners"
+    ],
+    "selectedCourseBoundary": "Original course paraphrase has only naming Allah before food and right-hand eating; no third instruction, parent wording or publisher explanation inserted",
+    "publisherWordingQualification": "Unselected Cyrillic context only; no new publisher-wording reuse qualification. Complete context explicitly explains upbringing/care. No notice or condition-compliance claim.",
+    "allSevenConditions": [
+      {
+        "number": 1,
+        "meaning": "Do not modify, add or delete translation content"
+      },
+      {
+        "number": 2,
+        "meaning": "Clearly credit publisher and HadeethEnc source"
+      },
+      {
+        "number": 3,
+        "meaning": "State the translation version number"
+      },
+      {
+        "number": 4,
+        "meaning": "Keep version information within the document"
+      },
+      {
+        "number": 5,
+        "meaning": "Notify the source of notes on the translation"
+      },
+      {
+        "number": 6,
+        "meaning": "Update to subsequent publisher versions"
+      },
+      {
+        "number": 7,
+        "meaning": "Do not include inappropriate advertising"
+      }
+    ],
+    "conditionsPrimaryURL": "https://hadeethenc.com/en/home",
+    "noticeOrContactOccurred": false,
+    "noticeClaimedFulfilled": false,
+    "futureSelection": "Any later publisher wording selection needs separate complete-parent, actual-current-version, complete-note and all-condition assessment. This context record does not grant reuse permission.",
+    "publisherGradeExact": "Саҳиҳ",
+    "publisherAttributionExact": "Муттафақун алайҳ"
+  },
+  "quotationClassification": {
+    "directQuranVerseQuotation": false,
+    "newQuranTranslation": false,
+    "directNumberedHadithQuotation": false,
+    "courseQuranTeachingSummariesRemainSummaries": true,
+    "ordinaryShortFormulasNotAutomaticallyDirectScripture": true,
+    "noAddedLongDevotionalFormulas": true
+  },
+  "authorCoverage": {
+    "freshArabicBeforeDrafting": "All39 lessons, 1262 positions and45 headings",
+    "pairedARUZ": "All39/1262/45, then whole affected rereads for all six refined lessons",
+    "separateWholeFinalLatinUzbek": "All39/1262/45",
+    "finiteRefinements": 12,
+    "independentFinal": "Completed distinct actual SolHigh617, all39 freshpaired and wholeUzbek-only, all12refinements accepted, no title/body changes.",
+    "formalHumanScholarCertification": false
+  },
+  "authorship": "Author614 and independent final617 were two different actual gpt-6.1-sol High AI agents. Actual provenance retained outside ordinary lesson prose.",
+  "orthography": "Latin Uzbek with consistent oʻ/gʻ (U+02BB), tutuq (U+02BC), NFC and no Cyrillic lesson body",
+  "audio": {
+    "allSixUnits": "preparing",
+    "audioURLs": []
+  },
+  "offlineSourceDelivery": "Qualified whole Uzbek course, exact Arabic companion, full native Uzbek note and this sanitized source projection must be delivered together; actual offline recipient verification pending.",
+  "distributionScope": "Human-authorized free noncommercial scope; no general publisher-edition license inferred",
+  "excludedTafsirUsed": false,
+  "publicBoundary": "Only the four named course/Arabic/native-note/scoped-source files; no complete unrelated modern books or private process archives",
+  "runtimeOrPublicationClaim": false,
+  "independentFinal": {
+    "reviewer": {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high",
+      "role": "Distinct actual Uzbek617 independent final reviewer",
+      "actualAuthor": "Other agent573, actual gpt-6.1-sol High author614",
+      "selfAuthorFinal": false,
+      "formalHumanScholarCertification": false
+    },
+    "scope": {
+      "units": 6,
+      "lessons": 39,
+      "lessonCounts": [
+        10,
+        7,
+        7,
+        7,
+        3,
+        5
+      ],
+      "headings": 45,
+      "bodyPositions": 1262,
+      "blank": 6,
+      "literalPauses": 155,
+      "wrappedPauses": 1,
+      "LF": 2,
+      "TAB": 2,
+      "ellipsisOccurrences": 1258
+    },
+    "wordingEdits": 0,
+    "all39ActualPairedAndUzbekOnlyRead": true,
+    "openMaterialMeaningOrSelectedSourceHold": [],
+    "formalHumanScholarCertification": false
+  },
+  "shortFormulaDelivery": "Conventional Latin transliterations at exact supplied short extent; original Arabic text unchanged in matching companion. Target is not claimed byte-identical Arabic."
+}
