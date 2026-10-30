@@ -1,0 +1,69 @@
+{
+  "schema": "under5-qualified-russian-public-source-projection603-v1",
+  "language": "ru",
+  "languageName": "Русский",
+  "scope": {
+    "collection": "islam-under5",
+    "units": 6,
+    "lessons": 39,
+    "lessonCounts": [
+      10,
+      7,
+      7,
+      7,
+      3,
+      5
+    ]
+  },
+  "candidateSHA256": "5556149fc4d1886406c35bef213d04d8239c0989bf541b639d6a8db73d1c3ee4",
+  "arabicSHA256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+  "route": "Independent Russian meaning directly from approved whole Arabic course after bounded published-first Russian research.",
+  "reviewStatus": "QUALIFIED_COMPLETE_ALL6_UNITS_ALL39: distinct actual full Arabic–Russian and separate Russian-only final603 passed. No formal human scholarly certification.",
+  "audioStatus": "All six units preparing; no audio supplied.",
+  "sourceBoundary": "No direct Quran verse or directly quoted numbered hadith in course. L22 is own two-teaching paraphrase; full parent has third instruction absent from lesson. HEC Russian context only, no published body selected.",
+  "selectedPublishedQuotations": [],
+  "publicSources": [
+    {
+      "id": "arabic-course483",
+      "kind": "complete approved user-supplied Arabic course",
+      "sha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+      "companion": "UNDER5-ARABIC-COMPANION483.json"
+    },
+    {
+      "id": "bukhari5376-context",
+      "url": "https://sunnah.com/bukhari:5376",
+      "scope": "Full Umar ibn Abi Salama report reference for context; not whole report reproduced in course."
+    },
+    {
+      "id": "hec-ru58120-context",
+      "url": "https://hadeethenc.com/ru/browse/hadith/58120",
+      "scope": "Complete Russian/Arabic report context read; no verbatim body selected; translator/version unknown from captured API."
+    }
+  ],
+  "boundedPublishedFirst": "Real Russian Sunni Q&A project and other child books found; examined portions differ from this particular script. Unread/unsearched editions and unknown rights remain unknown.",
+  "nativeSourceNote": "RUSSIAN-SOURCE-NOTE603.md",
+  "mechanicalRecipientContract": {
+    "allowBody": "Exact qualifiedRussian603 course:6unit titles,39lesson titles,1262paragraph positions/IDs/order and all6preparing audio.",
+    "allowSources": "This current projection, complete nativeRussian source note603 and original approvedArabic companion483, together with the exact course; all four files retained offline/save/export.",
+    "exclude": "Raw unrelated modern books/PDF/HTML/API captures,priorlanguage targets,private paths/internal task identities,scripts/logs/drafts/manifests/inverses and unsupported translator/version/license/currentness/certification claims. No AI/process label in ordinary child prose.",
+    "requiredLater": "Actual authorized Terra Extra High integration and real font/wrapping/rendering/scroll/offline/save/reload/export/publication checks; current qualification does not claim those completed.",
+    "outsideScope": "Other languages/courses or current user state, app/browser/GitHub/APK/contact operations not performed by this review."
+  },
+  "qualifiedCourseFile": "UNDER5-RUSSIAN-COURSE603.json",
+  "actualAuthorshipAndReview": {
+    "mainAuthor": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "role": "Main Russian author597"
+    },
+    "distinctIndependentFinal": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "role": "Distinct final603",
+      "fullArabicRussianLessons": 39,
+      "fullRussianOnlyLessons": 39
+    },
+    "automatedAssistantRoles": "Actual separate assistant author/reviewer roles, not human scholar certification or simulated second approval."
+  },
+  "distributionScope": "User-authorized free noncommercial distribution; no publishedRussian body adopted. Any future published-source adoption requires its own exact parent/conditions assessment."
+}

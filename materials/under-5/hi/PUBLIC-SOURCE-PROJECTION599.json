@@ -1,0 +1,68 @@
+{
+  "schema": "under5-qualified-public-source-projection599-v1",
+  "language": "hi",
+  "languageName": "हिन्दी",
+  "scope": {
+    "collection": "islam-under5",
+    "units": 6,
+    "lessons": 39,
+    "lessonCounts": [
+      10,
+      7,
+      7,
+      7,
+      3,
+      5
+    ]
+  },
+  "candidateSHA256": "202c9580e0341e1c10a79c370a4904ffccaa5c04d57abdf58981ae6be7e92ab5",
+  "arabicSHA256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+  "route": "Independent Hindi meaning directly from the complete approved Arabic course after bounded published-first research.",
+  "reviewStatus": "QUALIFIED_COMPLETE_ALL6_UNITS_ALL39_LESSONS: distinct actual complete Arabic–Hindi and Hindi-only independent final599 passed. No formal human scholarly certification.",
+  "audioStatus": "All six units preparing; no audio supplied.",
+  "sourceBoundary": "No direct Quran verse or directly quoted numbered hadith in course. Lesson22 is an authored paraphrase of two teachings; full authentic parent has a third command absent from this lesson. No HadeethEnc Hindi wording selected.",
+  "selectedPublishedQuotations": [],
+  "publicSources": [
+    {
+      "id": "arabic-course483",
+      "kind": "user-supplied approved complete Arabic course",
+      "sha256": "cd9bafbefe5648db09a0dea307415e6b248068c54f4d024ced0472f21c80ed71",
+      "companion": "UNDER5-ARABIC-COMPANION483.json"
+    },
+    {
+      "id": "bukhari5376-context",
+      "url": "https://sunnah.com/bukhari:5376",
+      "scope": "Context reference only for L22; narrator Umar ibn Abi Salama; full three-instruction report is not reproduced as course body."
+    },
+    {
+      "id": "hec-hi58120-context",
+      "url": "https://hadeethenc.com/hi/browse/hadith/58120",
+      "scope": "Context only; no selected verbatim Hindi passage; translator and version not exposed in captured API."
+    }
+  ],
+  "boundedPublishedFirst": "Real Hindi Q&A projects and other books were identified. Assessed portions differed from this particular course; unread books and unknown rights remain unknown.",
+  "nativeSourceNote": "HINDI-SOURCE-NOTE599.md",
+  "mechanicalRecipientContract": {
+    "allowBody": "Exact qualified course599: all six unit titles,39lesson titles,1262paragraph positions/IDs/order/metadata boundaries,all6audio preparing.",
+    "allowSourceMetadata": "This qualified projection, complete nativeHindi source note599 and exact approved Arabic companion483; all four exact files must accompany offline source access.",
+    "exclude": "Raw unrelated modern books/PDFs/HTML/API captures,prior-language targets,private absolute paths,internal task identities,process scripts/logs/manifests/drafts and unsupported translator/version/license/currentness/certification claims. Ordinary title/body contains no AI/process label.",
+    "requiredLater": "Actual authorized Terra Extra High integration and real rendering/font/shaping/wrapping/offline/save/export/publication validation; current textual qualification does not claim these completed.",
+    "outsideScope": "Other languages/courses,app/userstate/runtime/screenshots/save/reload/publication not operated or assessed by final599."
+  },
+  "qualifiedCourseFile": "UNDER5-HINDI-COURSE599.json",
+  "actualAuthorshipAndReview": {
+    "mainAuthor": {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high",
+      "role": "Main Hindi author591"
+    },
+    "distinctFinal": {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high",
+      "role": "Distinct independent final599",
+      "completeArabicHindiLessons": 39,
+      "completeHindiOnlyLessons": 39
+    },
+    "automatedAssistantProvenance": "These are actual separate assistant roles, not a claim of human scholar certification or simulated second approval."
+  }
+}
