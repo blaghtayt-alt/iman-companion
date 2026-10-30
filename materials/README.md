@@ -2,7 +2,7 @@
 
 ## Current reading collections
 
-- [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai and Vietnamese units, 39 lessons each and source documents](under-5/README.md)
+- [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese and Japanese units, 39 lessons each and source documents](under-5/README.md)
 
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Hadith: published translations and reviewed meanings](hadith/README.md)
@@ -83,6 +83,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 | under-5 | Uzbek | 6 |
 | under-5 | Thai | 6 |
 | under-5 | Vietnamese | 6 |
+| under-5 | Japanese | 6 |
 
 ## Tadabbur
 
@@ -737,6 +738,12 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [under-5 · Vietnamese · 4](under-5/vi/unit-04.md)
 - [under-5 · Vietnamese · 5](under-5/vi/unit-05.md)
 - [under-5 · Vietnamese · 6](under-5/vi/unit-06.md)
+- [under-5 · Japanese · 1](under-5/ja/unit-01.md)
+- [under-5 · Japanese · 2](under-5/ja/unit-02.md)
+- [under-5 · Japanese · 3](under-5/ja/unit-03.md)
+- [under-5 · Japanese · 4](under-5/ja/unit-04.md)
+- [under-5 · Japanese · 5](under-5/ja/unit-05.md)
+- [under-5 · Japanese · 6](under-5/ja/unit-06.md)
 
 
 ## Newer Seerah translations
