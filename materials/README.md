@@ -7,7 +7,8 @@
 - [Japanese Al-Qiyamah reflections: 75:1–40 and sources](tadabbur/ja/extended/075.md)
 
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
-- [Hadith: published translations and reviewed meanings](hadith/README.md)
+- [Arabic Essential Iman Hadiths: 238 lessons in 10 chapters](hadith/essential-ar/README.md)
+- [Historical Hadith collection: published translations and reviewed meanings](hadith/README.md)
 - [Ibn al-Qayyim: complete 37 sayings in each of 20 languages](ibn-al-qayyim/README.md)
 
 The table counts files, not individual Hadiths or sayings; each of those language files contains a collection. Arabic Seerah includes four separately labeled archive chapters.
@@ -16,6 +17,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 
 | Collection | Language | Documents |
 | --- | --- | --- |
+| essential-hadith | Arabic | 238 lesson pages, 10 chapters |
 | hadith | Arabic | 1 |
 | hadith | German | 1 |
 | hadith | Spanish | 1 |

@@ -1,0 +1,31 @@
+# Essential Iman Hadiths — Arabic course
+
+The supplied Arabic course contains 10 chapters and 238 lessons. Each lesson preserves its original narration, source reference and commentary; chapter pages preserve the supplied bibliographies.
+
+This is an Arabic source intake and structural screening, not a new independent scholarly certification. It does not claim that the course has been translated into all languages.
+
+The historical Hadith collection remains separately available in [the existing archive](../README.md).
+
+[Machine-readable catalog](catalog.json)
+
+## Chapters
+
+- [معرفة الله وتعظيمه](01/README.md) — 40 lessons
+
+- [النية والإخلاص](02/README.md) — 9 lessons
+
+- [التوكل واليقين](03/README.md) — 12 lessons
+
+- [المحبة والخوف والرجاء](04/README.md) — 15 lessons
+
+- [التوبة ومحاسبة النفس](05/README.md) — 5 lessons
+
+- [الصبر والشكر والرضا](06/README.md) — 17 lessons
+
+- [صلاح القلب وأمراضه وعلاجها](07/README.md) — 39 lessons
+
+- [سلامة الصدر وحسن الخلق](08/README.md) — 30 lessons
+
+- [الذكر والدعاء والاستشفاء](09/README.md) — 22 lessons
+
+- [العبادة والعمل الصالح](10/README.md) — 49 lessons
