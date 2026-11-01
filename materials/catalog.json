@@ -16535,6 +16535,46 @@
       "translationStatus": "independent-model-assisted-final-review",
       "humanCertification": false,
       "sourceContext": "materials/hadith/heart-reminder/source-index.json"
+    },
+    {
+      "collection": "heart-reminder",
+      "language": "en",
+      "id": "forgiveness.hadith.03",
+      "markdown": "materials/hadith/heart-reminder/forgiveness-03/en.md",
+      "json": "materials/hadith/heart-reminder/forgiveness-03/en.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "sourceContext": "materials/hadith/heart-reminder/source-index.json"
+    },
+    {
+      "collection": "heart-reminder",
+      "language": "fr",
+      "id": "forgiveness.hadith.03",
+      "markdown": "materials/hadith/heart-reminder/forgiveness-03/fr.md",
+      "json": "materials/hadith/heart-reminder/forgiveness-03/fr.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "sourceContext": "materials/hadith/heart-reminder/source-index.json"
+    },
+    {
+      "collection": "heart-reminder",
+      "language": "pt-BR",
+      "id": "forgiveness.hadith.03",
+      "markdown": "materials/hadith/heart-reminder/forgiveness-03/pt-BR.md",
+      "json": "materials/hadith/heart-reminder/forgiveness-03/pt-BR.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "sourceContext": "materials/hadith/heart-reminder/source-index.json"
+    },
+    {
+      "collection": "heart-reminder",
+      "language": "ru",
+      "id": "forgiveness.hadith.03",
+      "markdown": "materials/hadith/heart-reminder/forgiveness-03/ru.md",
+      "json": "materials/hadith/heart-reminder/forgiveness-03/ru.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "sourceContext": "materials/hadith/heart-reminder/source-index.json"
     }
   ],
   "workInProgress": [
@@ -17142,5 +17182,18 @@
     ],
     "sourceIndex": "materials/hadith/heart-reminder/source-index.json",
     "scope": "Five specified reports in five languages, not the whole Heart collection."
+  },
+  "heartReminderLegacy859": {
+    "records": [
+      "forgiveness.hadith.03"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "pt-BR",
+      "ru"
+    ],
+    "sourceIndex": "materials/hadith/heart-reminder/source-index.json",
+    "scope": "One specified report in four existing languages; not the whole collection."
   }
 }

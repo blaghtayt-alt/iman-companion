@@ -46,7 +46,7 @@ These readings received separate model-assisted review and are not human or scho
 
 - **forgiveness.hadith.01** — Allah rejoices greatly when His servant repents. (Sahih Muslim 2747a) · [Uzbek](forgiveness-01/uz.md), [Thai](forgiveness-01/th.md), [Vietnamese](forgiveness-01/vi.md), [Japanese](forgiveness-01/ja.md), [Filipino](forgiveness-01/fil.md)
 - **forgiveness.hadith.02** — The door of repentance remains open day and night until the final limit. (Sahih Muslim 2759a,b) · [Uzbek](forgiveness-02/uz.md), [Thai](forgiveness-02/th.md), [Vietnamese](forgiveness-02/vi.md), [Japanese](forgiveness-02/ja.md), [Filipino](forgiveness-02/fil.md)
-- **forgiveness.hadith.03** — Sayyid al-Istighfar combines tawhid, gratitude, admission of sin and asking forgiveness. (Sahih al-Bukhari 6306) · [Uzbek](forgiveness-03/uz.md), [Thai](forgiveness-03/th.md), [Vietnamese](forgiveness-03/vi.md), [Japanese](forgiveness-03/ja.md), [Filipino](forgiveness-03/fil.md)
+- **forgiveness.hadith.03** — Sayyid al-Istighfar combines tawhid, gratitude, admission of sin and asking forgiveness. (Sahih al-Bukhari 6306) · [Uzbek](forgiveness-03/uz.md), [Thai](forgiveness-03/th.md), [Vietnamese](forgiveness-03/vi.md), [Japanese](forgiveness-03/ja.md), [Filipino](forgiveness-03/fil.md) · [English](forgiveness-03/en.md), [French](forgiveness-03/fr.md), [Portuguese](forgiveness-03/pt-BR.md), [Russian](forgiveness-03/ru.md)
 
 ## Purpose
 
