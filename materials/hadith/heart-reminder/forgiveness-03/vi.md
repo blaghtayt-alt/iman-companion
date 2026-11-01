@@ -1,0 +1,19 @@
+# Lời cầu xin tha thứ cao quý nhất
+
+Toàn văn lời truyền đã xuất bản
+
+Ông Shaddad bin Aws thuật lại lời Nabi ﷺ đã nói: {Sayyidu Al-Istighfar là nói: Ol lo hum an ta Rab bi la i la ha il la an ta, kho laq ta ni wa a na 'ab du ka, wa a na 'a la ah di ka wa wa' di ka mas ta to' tu, a 'u zdu bi ka min shar ri ma so na' tu, a bu u la ka bi ne' ma ti ka a lây ya, wa a bu u la ka bi zdam bi, fagh fir ly, fa in na hu la yagh fir ruzd zdu nu ba il la an ta} - {Lạy Allah, Ngài là Thượng Đế của bề tôi, không có Thượng Đế đích thực nào khác ngoài Ngài. Ngài đã tạo ra bề tôi còn bề tôi là kẻ tôi tớ của Ngài; bề tôi tuân theo giao ước của Ngài hết sức có thể. Bề tôi cầu xin Ngài che chở tránh xa những điều xấu mà bề tôi đã phạm phải. Bề tôi xin thừa nhận ân huệ mà Ngài đã ban cho bề tôi, và bề tôi xin thừa nhận tội lỗi của bề tôi. Xin Ngài hãy tha thứ cho bề tôi, bởi quả thật, không ai có quyền tha thứ ngoại trừ một mình Ngài.} Người ﷺ nói: {Vào ban ngày, người nào nói lời Istighfar này bằng niềm tin kiên định rồi chết đi trước buổi chiều thì sẽ là cư dân của Thiên Đàng. Vào ban đêm, người nào nói lời Istighfar này bằng niềm tin kiên định rồi chết đi trước khi trời sáng thì sẽ là cư dân của Thiên Đàng.}
+
+Al-Bukhari, bộ Sahih
+
+Giải thích riêng về ý nghĩa
+
+Đây là lời cầu xin tha thứ cao quý nhất. Có nhiều cách xin tha thứ và mức độ cao quý khác nhau, nên người bề tôi cần cố gắng duy trì lời cầu xin này với sự hiểu biết ý nghĩa. Trước hết, lời cầu xin xác nhận chỉ Allah đáng được thờ phượng, Ngài đã tạo ra mình và mình là tôi tớ của Ngài.
+
+Giao ước và lời hứa liên quan đến đức tin, chỉ thờ phượng Allah và vâng phục Ngài hết khả năng. Đó là giao ước chỉ thờ phượng Allah, cùng lời hứa Thiên Đàng cho người giữ giao ước ấy. Dù thờ phượng bao nhiêu, người bề tôi vẫn không thể làm trọn mọi điều được truyền lệnh hay tạ ơn đầy đủ mọi ân huệ.
+
+Người ấy xin Allah che chở khỏi điều xấu mình đã làm, tự nguyện thừa nhận ân huệ của Ngài và tội lỗi của mình. Sau những lời thừa nhận ấy, người ấy cầu xin Ngài tha thứ, che đậy tội lỗi và bảo vệ khỏi hậu quả của chúng bằng sự khoan dung, hồng ân và lòng thương xót. Chỉ Allah mới tha thứ tội lỗi.
+
+Điều kiện của lời hứa được giữ đầy đủ: đọc ban ngày với niềm tin chắc chắn rồi chết trong ngày ấy trước buổi tối thì thuộc cư dân Thiên Đàng; đọc ban đêm với niềm tin chắc chắn rồi chết trước buổi sáng cũng vậy. Sự chắc chắn bao gồm hiểu ý nghĩa và tin vào đó. Phần chú giải xếp lời này vào tụng niệm sáng và đêm, nêu đầu ngày từ lúc mặt trời mọc đến khi qua đỉnh đầu, và đêm từ hoàng hôn đến rạng đông.
+
+[Source and version index](../source-index.json)

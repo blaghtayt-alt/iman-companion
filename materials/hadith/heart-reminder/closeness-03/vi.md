@@ -1,0 +1,19 @@
+# Tưởng nhớ Allah là sự sống của tâm hồn
+
+Hadith và lời truyền của Muslim
+
+Ông Abu Musa thuật lại rằng Nabi ﷺ nói: {Hình ảnh của người nhớ đến Thượng Đế của mình và người không nhớ đến Thượng Đế của mình giống như hình ảnh của người sống và người chết.} Và lời dẫn của Muslim: {Hình ảnh của một ngôi nhà trong đó Allah được tưởng nhớ và một ngôi nhà trong đó Allah không được nhớ đến giống như người sống và người chết.}
+
+Al-Bukhari, tuyển tập Sahih · Muslim
+
+Giải thích riêng về hai lời truyền
+
+Nabi dùng hình ảnh người sống và người chết để giải thích khác biệt giữa người tưởng nhớ Allah và người xao lãng. Sự sống đem lại vẻ đẹp và lợi ích bên ngoài; bên trong người tưởng nhớ có ánh sáng nhận thức. Thiếu tưởng nhớ là thiếu sự sống và ích lợi tinh thần ấy. Đây là hình ảnh khuyến khích tưởng nhớ, cảnh báo sự lơ là.
+
+Lời truyền riêng của Muslim so sánh ngôi nhà có và không có việc tưởng nhớ Allah. Gọi nhà là sống hay chết là nói về những người cư trú: họ tưởng nhớ thì có sự sống tinh thần; họ xao lãng thì thiếu điều đó. Hai cách diễn đạt về con người và về ngôi nhà được giữ riêng.
+
+Tưởng nhớ là sự sống của linh hồn, như linh hồn là sự sống của thân thể. Dùng hình ảnh so sánh để làm ý nghĩa dễ hiểu là phương pháp dạy của Nabi. Lời chú giải dẫn An-Nawawi về việc khuyến khích tưởng nhớ trong nhà và không để nhà thiếu việc ấy.
+
+Lời chú giải còn dẫn An-Nawawi rằng sống lâu trong sự vâng lời là một điều quý. Dù người đã mất có thể chuyển đến một nơi tốt hơn, người còn sống có thể làm thêm việc vâng lời, bắt kịp và gia tăng điều tốt. Vì vậy, thời gian sống dành cho việc tưởng nhớ và vâng lời có giá trị.
+
+[Source and version index](../source-index.json)

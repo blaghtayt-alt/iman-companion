@@ -1,0 +1,25 @@
+# Việc làm và ý định
+
+Hadith
+
+Ông 'Umar bin Al-Khattab - cầu xin Allah hài lòng về ông - thuật lại rằng Thiên Sứ của Allah ﷺ nói: {Thật ra ai làm gì cũng có định tâm và mỗi người chỉ có được điều mình đã định tâm. Theo đó, ai mà cuộc di cư của y hướng đến Allah và hướng đến Thiên Sứ của Ngài thì cuộc di cư của y đã hướng đến Allah và Thiên Sứ của Ngài và ai mà cuộc di cư của y vì trần gian để thu lợi từ nó hoặc vì người phụ nữ để cưới cô ta thì cuộc di cư của y chỉ đến được thứ mà y đã hướng đến.} Và trong lời dẫn của Al-Bukhari: "Thật ra ai làm gì cũng có định tâm và tất cả mỗi người chỉ có được điều mình đã định tâm.}
+
+Sahih Al-Bukhari và Sahih Muslim
+
+Lời giải thích trong bản đã xuất bản
+
+Nabi ﷺ cho biết rằng tất cả các hành động được tính theo ý định, và phán quyết này là chung cho tất cả các hành vi thờ cúng và giao tiếp. Bất cứ ai hành động với ý định đạt được lợi ích của thế gian sẽ chỉ được hưởng lợi ích đó và không có phần ban thưởng cho nó ở Đời Sau, và bất kỳ ai có ý định đến gần Allah toàn năng bằng hành động của mình sẽ nhận được phần thưởng từ công việc của mình ngay cả khi đó là một hành động bình thường, chẳng hạn như ăn và uống.
+
+Sau đó, Thiên Sứ của Allah ﷺ đưa ra một ví dụ để chỉ ra tác động của ý định đối với các hành động mặc dù chúng có sự bình đẳng về hình thức rõ ràng. Người ﷺ trình bày rằng bất cứ ai có ý định di cư và rời quê hương của mình để tìm kiếm sự hài lòng của Allah thì việc di cư của anh ta là một cuộc di cư được chấp nhận và sẽ được thưởng vì ý định chân thành của anh ta. Và bất cứ ai có ý định di cư vì lợi ích trần tục, chẳng hạn như vì tiền bạc, uy tín, thương mại hoặc kết hôn, thì anh ta sẽ không nhận được bất cứ phần thưởng nào ở Đời Sau từ việc di cư của mình ngoại trừ lợi ích mà anh ta đã  định tâm muốn có được.
+
+Các bài học trong bản đã xuất bản
+
+Kêu gọi sự chân thành, vì Allah không chấp nhận bất cứ việc làm nào ngoại trừ những gì được thực hiện để tìm kiếm cho sắc diện của Ngài.
+
+Những hành động cũng như những thói quen trong sinh hoạt đời thường sẽ có thể đưa một người đến gần Allah Toàn năng và được Ngài ban thưởng ân phước nếu anh ta có ý định đến gần Ngài.
+
+Giải thích để hiểu rõ ý nghĩa
+
+Hadith dạy rằng việc làm được xét theo ý định và phần thưởng tùy theo điều người ấy hướng đến. Điều này bao gồm cả sự thờ phượng lẫn cách ứng xử: ngay việc ăn uống bình thường cũng có thể được ban thưởng nếu người làm hướng đến việc đến gần Allah. Hai cuộc di cư giống nhau bên ngoài có thể khác nhau vì mục đích. Người rời quê hương để tìm sự hài lòng của Allah được thưởng vì lòng chân thành; người chỉ nhắm đến tiền bạc, địa vị, buôn bán hay hôn nhân thì di cư vì lợi ích trần gian ấy và không có phần thưởng tôn giáo từ việc di cư đó. Bản đã xuất bản phân biệt lời dẫn chính với cách diễn đạt khác do Al-Bukhari ghi lại; cả hai đều trình bày nguyên tắc về ý định.
+
+[Source and version index](../source-index.json)
