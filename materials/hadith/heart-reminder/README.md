@@ -1,6 +1,6 @@
 # Heart Reminder: selected reports
 
-Three Dunya, three Status, two Approval and one Trust report are available in Uzbek, Thai, Vietnamese, Japanese and Filipino. Each reading preserves its selected published quotation and separates any added explanatory context. Other Heart Reminder categories and languages have their own coverage; this is not a complete Heart collection.
+Three Dunya, three Status, two Approval, three Trust and one Comparison report are available in Uzbek, Thai, Vietnamese, Japanese and Filipino. Each reading preserves its selected published quotation and separates any added explanatory context. Other Heart Reminder categories and languages have their own coverage; this is not a complete Heart collection.
 
 These translations received separate model-assisted review and are not human or scholarly certified. Source and reuse conditions remain with the source records. Broader publisher notification and permission questions are not represented as resolved.
 
@@ -23,5 +23,13 @@ These translations received separate model-assisted review and are not human or 
 - **approval.hadith.01**: [Uzbek](approval-01/uz.md), [Thai](approval-01/th.md), [Vietnamese](approval-01/vi.md), [Japanese](approval-01/ja.md), [Filipino](approval-01/fil.md)
 - **approval.hadith.02**: [Uzbek](approval-02/uz.md), [Thai](approval-02/th.md), [Vietnamese](approval-02/vi.md), [Japanese](approval-02/ja.md), [Filipino](approval-02/fil.md)
 - **trust.hadith.01**: [Uzbek](trust-01/uz.md), [Thai](trust-01/th.md), [Vietnamese](trust-01/vi.md), [Japanese](trust-01/ja.md), [Filipino](trust-01/fil.md)
+
+[Selected-source and version index](source-index.json).
+
+## Further reviewed reports
+
+- **trust.hadith.02**: [Uzbek](trust-02/uz.md), [Thai](trust-02/th.md), [Vietnamese](trust-02/vi.md), [Japanese](trust-02/ja.md), [Filipino](trust-02/fil.md)
+- **trust.hadith.03**: [Uzbek](trust-03/uz.md), [Thai](trust-03/th.md), [Vietnamese](trust-03/vi.md), [Japanese](trust-03/ja.md), [Filipino](trust-03/fil.md)
+- **comparison.hadith.01**: [Uzbek](comparison-01/uz.md), [Thai](comparison-01/th.md), [Vietnamese](comparison-01/vi.md), [Japanese](comparison-01/ja.md), [Filipino](comparison-01/fil.md)
 
 [Selected-source and version index](source-index.json).
