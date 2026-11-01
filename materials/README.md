@@ -4,6 +4,8 @@
 
 - [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Japanese and Filipino units, 39 lessons each and source documents](under-5/README.md)
 
+- [Japanese Al-Qiyamah reflections: 75:1–40 and sources](tadabbur/ja/extended/075.md)
+
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Hadith: published translations and reviewed meanings](hadith/README.md)
 - [Ibn al-Qayyim: complete 37 sayings in each of 20 languages](ibn-al-qayyim/README.md)
@@ -61,6 +63,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 | tadabbur | English | 26 |
 | tadabbur | French | 26 |
 | tadabbur | Indonesian | 26 |
+| tadabbur | Japanese | 1 |
 | tadabbur | Malay | 26 |
 | tadabbur | Brazilian Portuguese | 26 |
 | tadabbur | Turkish | 26 |
