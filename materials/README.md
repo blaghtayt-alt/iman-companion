@@ -830,4 +830,4 @@ Our translated summaries, meanings and explanations are **AI translated — need
 
 ## Current Al-Ikhlas reflections
 
-- [112:1–4 in English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Bengali, Hindi, Urdu, Russian, Spanish, Persian, German, Simplified Chinese and Uzbek, with sources](tadabbur/ikhlas-112/README.md)
+- [112:1–4 in English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Bengali, Hindi, Urdu, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek and Thai, with sources](tadabbur/ikhlas-112/README.md)
