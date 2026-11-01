@@ -6,6 +6,7 @@
 
 - [Japanese Al-Qiyamah reflections: 75:1–40 and sources](tadabbur/ja/extended/075.md)
 - [Arabic Al-A‘la Simplified reflections: 87:1–19 and sources](tadabbur/ar/simplified/087.md)
+- [Arabic Al-‘Alaq Simplified reflections: 96:1–19 and sources](tadabbur/ar/simplified/096.md)
 
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Arabic Essential Iman Hadiths: 286 lessons in 12 chapters](hadith/essential-ar/README.md)
