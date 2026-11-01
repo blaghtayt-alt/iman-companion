@@ -63,4 +63,4 @@ If you find a mistake, please open an issue with the language, file, surah and a
 
 ## Current Al-Ikhlas reflections
 
-- [112:1–4 in English, French, Turkish, Indonesian, Malay, Brazilian Portuguese and Bengali, with sources](materials/tadabbur/ikhlas-112/README.md)
+- [112:1–4 in English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Bengali and Hindi, with sources](materials/tadabbur/ikhlas-112/README.md)
