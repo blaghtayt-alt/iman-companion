@@ -1,0 +1,97 @@
+# dunya.hadith.02
+
+## uz
+
+Дунё — мўмин учун қамоқхона
+
+Ровий: Абу Ҳурайра розияллоҳу анҳу.
+
+Расулуллоҳ соллаллоҳу алайҳи васаллам:
+
+«Дунё мўминнинг қамоқхонаси, кофирнинг эса жаннатидир», дедилар.
+
+«Саҳиҳ Муслим», 2956.
+
+Изоҳ
+
+Дунёнинг мўмин учун қамоқхонага ўхшатилиши унинг дин кўрсатмаларига амал қилиши билан боғлиқ: у буюрилган ишларни бажаради, ҳаром қилинган нарсалардан тийилади ва тарк этиш маъқул кўрилган истакларга ҳам эргашмайди. Тоат баъзан машаққат талаб қилади. Ан-Нававийнинг шарҳи мазмунига кўра, мўмин шу жиҳатдан дунёда чекланган кишига ўхшайди; ўлим билан бу дунёнинг машаққат ва вазифаларидан халос бўлади. Аллоҳ унга нуқсондан холи ором ва доимий неъматларни тайёрлаб қўйган.
+
+Кофир эса диннинг бу чегараларига бўйсунмай, нафси истаган ва ҳаваси буюрган нарсаларга эргашади. Унинг бу дунёда топган лаззатлари оз ва турли ташвишлар билан аралаш бўлса ҳам, куфрда ўтган ҳаётдан кейин уни кутадиган доимий азобга нисбатан дунё жаннатга ўхшайди. Ан-Нававийнинг шарҳида ҳам бу дунёдаги чекланган роҳат билан охиратдаги тугамас азоб ва бахтсизлик ўртасидаги фарқ баён қилинган. Бу — Аллоҳ қиёмат куни учун тайёрлаган жазодир.
+
+Синдийнинг изоҳи мазмунига кўра, мўмин дунёда фаровон яшаса ҳам, жаннат у учун бундан яхшироқдир. Кофир дунёда оғир аҳволда яшаса ҳам, дўзах у учун бундан ёмонроқдир. Демак, ҳадис ҳар бир мўмин дунёда қашшоқ, ҳар бир кофир эса бахтли яшайди, дегани эмас; ўхшатиш уларнинг охиратдаги оқибатига нисбатандир.
+
+Бу ҳадис дунёнинг Аллоҳ наздида арзимаслигини ва мўмин учун синов майдони эканини эслатади. Куфрда қолган киши ўз «жаннати»га шу ўткинчи дунёдаёқ эришишга шошилади, охират жаннати ва унинг неъматларидан эса маҳрум бўлиб жазоланади.
+
+## th
+
+โลกนี้เป็นคุกของผู้ศรัทธา
+
+จากอบูฮุร็อยเราะฮ์ เราะฎิยัลลอฮุอันฮุ กล่าวว่า: ท่านเราะซูลุลลอฮ์ ศ็อลลัลลอฮุอะลัยฮิวะสัลลัม กล่าวว่า: “โลกนี้เป็นคุกของผู้ศรัทธาและเป็นสวรรค์ของผู้ปฏิเสธศรัทธา”
+
+เศาะฮีห์มุสลิม 2956
+
+คำอธิบาย
+
+โลกนี้ถูกเปรียบเป็นคุกของผู้ศรัทธา เพราะเขายึดมั่นในหน้าที่ทางศาสนา ทำสิ่งที่ได้รับคำสั่ง ละเว้นสิ่งต้องห้าม และยับยั้งความอยากในสิ่งที่ศาสนาส่งเสริมให้หลีกเลี่ยง การเชื่อฟังบางอย่างต้องอาศัยความพยายาม ใจความคำอธิบายของอันนะวะวีย์คือ ผู้ศรัทธาจึงเป็นเหมือนผู้ที่มีข้อจำกัดในโลกนี้ เมื่อเสียชีวิต เขาพ้นจากความเหน็ดเหนื่อยและภาระหน้าที่ของชีวิตนี้ อัลลอฮ์ทรงเตรียมความสุขนิรันดร์และความสงบที่ปราศจากข้อบกพร่องไว้ให้เขา
+
+ส่วนผู้ปฏิเสธศรัทธาไม่ยอมรับข้อจำกัดทางศาสนาเหล่านี้ แต่ทำตามความอยากและอารมณ์ของตน แม้ความสุขที่เขาได้รับในโลกนี้จะมีน้อยและปะปนด้วยความทุกข์กังวล โลกนี้ก็ยังเปรียบเสมือนสวรรค์เมื่อเทียบกับการลงโทษถาวรที่รออยู่หลังชีวิตที่สิ้นสุดลงด้วยการปฏิเสธศรัทธา คำอธิบายของอันนะวะวีย์กล่าวถึงความแตกต่างระหว่างความสุขอันจำกัดในโลกนี้กับการลงโทษและความทุกข์ที่ไม่สิ้นสุดในโลกหน้า เป็นการลงโทษที่อัลลอฮ์ทรงเตรียมไว้สำหรับวันฟื้นคืนชีพ
+
+ใจความคำอธิบายของอัสสินดีย์คือ แม้ผู้ศรัทธาจะมีชีวิตสุขสบายในโลกนี้ สวรรค์ก็ยังดีกว่านั้นสำหรับเขา และแม้ผู้ปฏิเสธศรัทธาจะมีชีวิตทุกข์ยากในโลกนี้ นรกก็ยังเลวร้ายกว่านั้นสำหรับเขา ดังนั้น หะดีษไม่ได้หมายความว่าผู้ศรัทธาทุกคนต้องยากจน หรือผู้ปฏิเสธศรัทธาทุกคนต้องมีความสุข แต่เป็นการเปรียบเทียบกับสิ่งที่รอแต่ละฝ่ายในโลกหน้า
+
+หะดีษนี้เตือนถึงความเล็กน้อยของโลกนี้ ณ อัลลอฮ์ และการที่โลกนี้เป็นสถานที่ทดสอบผู้ศรัทธา ผู้ที่คงอยู่ในการปฏิเสธศรัทธารีบแสวงหา «สวรรค์» ของตนในโลกชั่วคราวนี้ และถูกลงโทษด้วยการถูกกีดกันจากสวรรค์และความสุขในโลกหน้า
+
+## vi
+
+Đời này là ngục tù của người có đức tin
+
+Ông Abu Huroiroh thuật lại rằng Thiên Sứ của Allah ﷺ nói: "Thế giới này là ngục tù của người có đức tin và Thiên Đàng của người vô đức tin."
+
+Sahih Muslim, 2956.
+
+Giải thích
+
+Đời này được ví như ngục tù của người có đức tin vì họ tuân theo các bổn phận tôn giáo: thực hiện điều được lệnh, tránh điều bị cấm và kiềm chế những ham muốn mà tôn giáo khuyên nên tránh. Có những việc vâng lời đòi hỏi sự cố gắng. Theo ý nghĩa lời giải thích của An-Nawawi, người có đức tin chịu những giới hạn ấy ở đời này; khi chết, họ được giải thoát khỏi những nhọc nhằn và bổn phận của cuộc sống này. Allah đã chuẩn bị cho họ hạnh phúc vĩnh cửu và sự nghỉ ngơi trọn vẹn, không còn thiếu sót.
+
+Người vô đức tin không chấp nhận những giới hạn tôn giáo ấy mà chạy theo ham muốn và dục vọng của mình. Dù niềm vui có được ở đời này ít ỏi và xen lẫn phiền muộn, đời này vẫn giống như Thiên Đàng khi so với sự trừng phạt vĩnh viễn chờ đợi sau cuộc đời kết thúc trong tình trạng vô đức tin. An-Nawawi cũng giải thích sự khác biệt giữa những niềm vui hữu hạn ở đây với sự trừng phạt và khổ đau không dứt ở Đời Sau. Đó là sự trừng phạt Allah đã chuẩn bị cho Ngày Phục Sinh.
+
+Theo ý nghĩa lời giải thích của As-Sindi, dù người có đức tin đang sống sung túc, Thiên Đàng vẫn tốt đẹp hơn cho họ; dù người vô đức tin đang sống khổ sở, Hỏa Ngục vẫn tệ hơn cho họ. Vì vậy, lời truyền thuật không nói rằng mọi người có đức tin đều nghèo khổ hay mọi người vô đức tin đều sung sướng. Sự so sánh ở đây hướng đến kết cục của mỗi bên ở Đời Sau.
+
+Lời truyền thuật nhắc rằng đời này có giá trị nhỏ bé đối với Allah và là nơi thử thách người có đức tin. Người cứ tiếp tục trong tình trạng vô đức tin vội tìm «Thiên Đàng» của mình ngay trong cuộc đời tạm bợ này, rồi bị trừng phạt bằng việc không được hưởng Thiên Đàng và hạnh phúc ở Đời Sau.
+
+## ja
+
+信仰者にとってのこの世
+
+伝承者はアブー・フライラ（アッラーのご満悦あれ）。預言者ムハンマド（アッラーの祝福と平安あれ）の言葉です。
+
+信仰者にとって現世は牢獄であるが、不信仰者にとっては楽園である。
+
+『サヒーフ・ムスリム』2956。
+
+解説
+
+この世が信仰者にとって牢獄にたとえられるのは、信仰者が宗教上の務めを守るからです。命じられたことを行い、禁じられたことや、避けることが勧められることを控えます。アッラーに従う行いには努力を要するものもあります。アン＝ナワウィーの説明の趣旨は、信仰者はその意味でこの世では制約を受けている、ということです。死によってこの世の苦労や務めから解き放たれます。アッラーは信仰者のために、永遠の至福と、欠けるところのない安らぎを備えておられます。
+
+一方、不信仰者はこうした宗教上の制約を受け入れず、自分の欲望や気ままな望みに従います。この世で得られる楽しみは少なく、悩みの混じるものですが、不信仰のまま生涯を終えた後に待つ永遠の懲罰に比べれば、この世は楽園のようなものです。アン＝ナワウィーの説明でも、この世の限られた楽しみと、来世の終わりのない懲罰や苦しみとの違いが述べられています。それは復活の日のためにアッラーが備えておられる懲罰です。
+
+アッ＝スィンディーの説明の趣旨は、信仰者がこの世で豊かに暮らしていても、楽園はそれよりも良い、ということです。不信仰者がこの世で苦しい暮らしをしていても、地獄はそれよりも悪いのです。ですから、信仰者は皆貧しく、不信仰者は皆幸福だという意味ではありません。それぞれの来世の行く末との比較です。
+
+この伝承は、アッラーの御前でこの世の価値は小さく、信仰者にとっては試練の場であることを思い起こさせます。不信仰を続ける人は、自分の「楽園」をはかないこの世で今すぐ得ようとし、来世の楽園とその至福を与えられないという罰を受けます。
+
+## fil
+
+Ang mundo bilang bilangguan ng mananampalataya
+
+Ayon kay Abū Hurayrah (malugod si Allāh sa kanya) na nagsabi: {Nagsabi ang Sugo ni Allāh (basbasan siya ni Allāh at pangalagaan): "Ang Mundo ay bilangguan ng mananampalataya at Paraiso ng tagatangging sumampalataya."}
+
+Sahih Muslim, 2956.
+
+Paliwanag
+
+Inihahambing ang mundong ito sa bilangguan para sa mananampalataya dahil sinusunod niya ang mga tungkulin sa relihiyon: ginagawa ang ipinag-uutos, umiiwas sa ipinagbabawal, at pinipigil ang pagnanais sa mga bagay na hinihikayat na iwasan. May mga pagsunod na nangangailangan ng pagsisikap. Sa diwa ng paliwanag ni An-Nawawi, may ganitong mga hangganan ang mananampalataya sa mundo; sa kamatayan, nakalalaya siya sa mga hirap at tungkulin ng buhay na ito. Naghanda si Allāh para sa kanya ng walang hanggang ginhawa at kapahingahang walang kakulangan.
+
+Hindi tinatanggap ng tagatangging sumampalataya ang ganitong mga hangganan ng relihiyon, kundi sumusunod siya sa pagnanasa at kapritso ng sarili. Kahit kakaunti at may halong mga alalahanin ang kasiyahang nakukuha niya rito, maihahambing pa rin ang mundo sa Paraiso kung ihahambing sa walang hanggang parusang naghihintay matapos ang buhay na nagwakas sa pagtangging sumampalataya. Ipinaliwanag din ni An-Nawawi ang kaibahan ng limitadong kasiyahan dito at ng walang katapusang pagdurusa at kapighatian sa Kabilang-buhay. Ito ang parusang inihanda ni Allāh para sa Araw ng Muling Pagkabuhay.
+
+Sa diwa ng paliwanag ni As-Sindi, kahit maginhawa ang buhay ng mananampalataya rito, higit na mabuti para sa kanya ang Paraiso. Kahit mahirap ang buhay ng tagatangging sumampalataya rito, higit na masama para sa kanya ang Impiyerno. Kaya hindi sinasabi ng hadith na lahat ng mananampalataya ay dukha o lahat ng tagatangging sumampalataya ay masaya. Ang paghahambing ay sa kahihinatnan ng bawat isa sa Kabilang-buhay.
+
+Ipinapaalala ng hadith kung gaano kaliit ang halaga ng mundo kay Allāh at na ito ay lugar ng pagsubok para sa mga may pananampalataya. Ang nananatili sa pagtangging sumampalataya ay nagmamadaling hanapin ang sarili niyang «Paraiso» sa pansamantalang buhay na ito, at parurusahan ng pagkakait sa Paraiso at sa ginhawa nito sa Kabilang-buhay.

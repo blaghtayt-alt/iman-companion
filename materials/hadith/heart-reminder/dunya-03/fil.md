@@ -1,0 +1,15 @@
+# Lilom sa gitna ng paglalakbay
+
+Ayon kay `Abdullāh bin Mas`ūd (malugod si Allāh sa kanya) na nagsabi: {Natulog ang Sugo ni Allāh (basbasan siya ni Allāh at pangalagaan) sa isang banig saka bumangon siya at nagpabakas nga ito sa gilid niya kaya nagsabi kami:  "O Sugo ni Allāh, kung gumawa kaya kami para sa iyo ng isang kutson." Kaya nagsabi siya: "Ano ang mayroon sa akin at mayroon sa Mundo? Walang iba ako sa Mundo kundi gaya ng isang pasaherong nagpalilim sa ilalim ng isang punong-kahoy pagkatapos umalis at nag-iwan niyon."}
+
+Jami' At-Tirmidhi, 2377.
+
+Paliwanag
+
+Isinalaysay ni 'Abdullah bin Mas'ud na natulog ang Propeta sa maliit na banig na hinabi mula sa halaman. Nang bumangon siya, may bakas ang magaspang na banig sa balat ng kanyang tagiliran. Nag-alok ang mga Kasamahan na maghanda ng mas malambot na higaan. Ipinakikita nito ang kanilang pagmamahal at pag-aalaga sa kanya. Ipinakikita naman ng sagot ng Propeta na hindi siya naghahangad o nagpapahumaling sa mundo. Inihambing niya ang maikling pananatili rito sa manlalakbay na nagpahinga sa lilim ng puno, saka umalis at nagpatuloy sa paglalakbay.
+
+Hindi iniuutos ng hadith na talikuran ang mga kailangan sa buhay. Nakinabang ang manlalakbay sa lilim upang makarating sa kanyang patutunguhan, ngunit hindi siya kumapit o nanatili roon. Ang dapat iwasan ay ang pagkaabala sa mundo na nagpapalimot sa Kabilang-buhay.
+
+Mabuting huwaran ang buhay ng Propeta na hindi nahuhumaling sa mundo. Ang sumusunod sa kanyang mga yapak ay ginagabayan at nagtatagumpay sa mundo at sa Kabilang-buhay. Ipinakikita rin ng pangyayaring ito ang paggamit ng malinaw na paghahambing sa pag-aanyaya sa pananampalataya at sa pagtuturo.
+
+[Source context](sources.json) · [Source and reuse notes](source-note.md)

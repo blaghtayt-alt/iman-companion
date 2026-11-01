@@ -832,3 +832,8 @@ Our translated summaries, meanings and explanations are **AI translated — need
 ## Current Al-Ikhlas reflections
 
 - [112:1–4 in English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Bengali, Hindi, Urdu, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Filipino and Japanese, with sources](tadabbur/ikhlas-112/README.md)
+
+
+## Heart Reminder: selected Dunya reports
+
+[Three individually reviewed reports in Uzbek, Thai, Vietnamese, Japanese and Filipino, with source records](hadith/heart-reminder/README.md). This is a partial selection, not the complete Heart collection.

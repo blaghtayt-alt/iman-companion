@@ -1,0 +1,117 @@
+# dunya.hadith.01
+
+## uz
+
+Дунёда йўловчидек бўл
+
+2038.6416. Мужоҳид шундай сўзлаб берди:
+
+«Абдуллоҳ ибн Умар розияллоҳу анҳумо шундай деди: «Расулуллоҳ соллаллоҳу алайҳи васаллам елкамдан ушлаб, «Бу дунёда худди ғариб ё бир йўловчидек бўлгин!» дедилар».
+
+Ибн Умар: «Кеч кирса, тонг отишини кутма, тонг отса, кеч киришини кутма. Соғлик пайтингдан касаллигингга, ҳаётингдан ўлимингга (фойда) олиб қол!» дер эди».
+
+Забидий, «Саҳиҳул Бухорий» мухтасари: 2038/6416.
+
+Изоҳ
+
+Пайғамбаримиз соллаллоҳу алайҳи васаллам Ибн Умарнинг елкасидан ушлаб, диққатини насиҳатга қаратдилар. Бу ерда елка деганда қўлнинг юқори қисми билан курак туташадиган жой назарда тутилган. Муаллимнинг шогирд елкасига қўл қўйиши унга яқинлик ҳиссини бериш ва диққатини жалб қилишга хизмат қилади. Бу воқеа насиҳат сўрамаган кишига ҳам яхшиликни кўзлаб йўл кўрсатиш мумкинлигини ва Пайғамбаримизнинг таъсирли мисоллар билан таълим берганларини кўрсатади.
+
+Ғариб — ўз юртидан узоқдаги киши. Бу ерда у паноҳ топадиган уйи, кўнглини овутадиган яқинлари йўқ, оила ва бошқа боғлиқликлар уни Яратувчидан чалғитмайдиган мусофирга ўхшатилган. Йўловчи эса яна ҳам камроқ боғланади: ғариб бегона юртда ўрнашиб қолиши мумкин, лекин йўловчи ортиқча юк олмай, йўлда қолиб кетмай, ўз манзилига етишга интилади. Мусофирга сафар охирига етказадиган нарса кифоя қилганидек, мўмин ҳам дунё неъматларини охират манзилига етиш воситаси деб билади.
+
+Бу ўхшатиш одамларнинг охират сари юриши ва дунёга боғланмаслик даражалари турлича эканини кўрсатади. Йўловчи образи ғариб образидан ҳам кучлироқ: у йўлни доимий турар жой деб билмайди. Мўминнинг интиладиган ватани — жаннат. У дунёда зарур эҳтиёжларини қондириб, охиратга тайёрланади; қалбини ўткинчи манзилга эмас, қайтадиган ватанига боғлайди.
+
+Насиҳат ризқ излашни ташлаш ёки дунёнинг ҳалол лаззатларини ҳаром санаш дегани эмас. Мақсад — дунёга ортиқча берилмаслик, ундан керагича фойдаланиш ва уни охиратдан устун қўймаслик.
+
+Кеч ва тонг ҳақидаги сўзлар Пайғамбаримизнинг сўзларидан кейин келган Ибн Умарнинг ўз насиҳатидир. У киши бу ўгитга амал қилганлар; бу уларнинг фазилатини кўрсатади. Инсон эртага ҳам яшашини аниқ деб билмасин, ўлимга тайёр турсин ва ўзи ҳам қабр аҳли қаторига қўшилишини унутмасин. Яхшиликни кечга ёки эртага сурмасин.
+
+Ҳаётда соғлиқ ҳам, касаллик ҳам бўлади. Соғлик бор пайтда тоат ва солиҳ амалларга шошилиш керак: касаллик бу ишларга тўсқинлик қилиб қолиши мумкин. Ўлим ҳам амал қилиш имконини тугатади. Шунинг учун инсон тириклигида ўлимидан кейин ўзига фойда берадиган амалларни жамлаб қолсин.
+
+## th
+
+อยู่ในโลกนี้ดั่งผู้เดินทาง
+
+จากอับดุลลอฮ์ บิน อุมัร เราะฎิยัลลอฮุอันฮุมา เล่าว่า: ท่านเราะซูลุลลอฮ์ ศ็อลลัลลอฮุอะลัยฮิวะสัลลัม จับไหล่ฉัน และกล่าวว่า: "จงอยู่ในโลกดุนยานี้ประหนึ่งว่าเจ้าเป็นคนแปลกหน้า หรือเป็นผู้เดินทาง (ผ่านมา,ไม่ได้พำนักในที่นั้นอย่างถาวร) 
+อับดุลลอฮ์ อิบนุอุมัร ได้กล่าวว่า "ถ้าชีวิตของเจ้าถึงยามกลางคืนแล้ว ก็อย่ารอให้ถึงตอนเช้า (หมายถึงอย่าหวังว่าจะอยู่ถึงเช้าอีกวันหนึ่ง ให้คิดว่ากลางคืนนั้นคือเวลาสุดท้ายของเจ้า) และถ้าชีวิตของเจ้าอยู่ถึงตอนเช้ารุ่งอีกวันหนึ่ง ก็อย่ามีความหวังว่าจะอยู่ถึงกลางคืน (เมื่อมีสุขภาพดี) เจ้าก็จงใช้เวลาที่สุขภาพ(ดี)ของท่านทำความดี เพื่อเวลาที่ท่านป่วย(อ่อนแอ ไม่สามารถสะสมความดี) เจ้าจะได้มีการงานที่สะสมไว้แล้ว
+และจงใช้เวลาว่างในชีวิตของเจ้า(เอาไว้สะสมความดี) ก่อนที่ความตายจะมาถึง
+
+เศาะฮีห์อัลบุคอรีย์ 6416
+
+คำอธิบาย
+
+ท่านนบี ศ็อลลัลลอฮุอะลัยฮิวะสัลลัม จับไหล่อิบนุอุมัรเพื่อให้เขาใส่ใจกับคำแนะนำ ไหล่ในที่นี้คือบริเวณที่ต้นแขนเชื่อมกับสะบัก การที่ครูวางมือบนไหล่ผู้เรียนช่วยสร้างความคุ้นเคยและเรียกความสนใจ เหตุการณ์นี้ยังแสดงถึงการให้คำแนะนำที่ดีแม้ผู้รับไม่ได้ร้องขอ และวิธีสอนอันงดงามของท่านนบีด้วยการเปรียบเทียบที่ชวนให้เข้าใจ
+
+คนแปลกหน้าในคำเปรียบเทียบนี้คือผู้ที่มาอยู่ต่างถิ่น ไม่มีบ้านให้พักพิง ไม่มีคนใกล้ชิดคอยปลอบใจ และอยู่ห่างจากครอบครัว ลูกหลาน และสายสัมพันธ์ที่อาจทำให้เขาวุ่นวายจนละเลยพระผู้สร้าง ส่วนผู้เดินทางผ่านยิ่งผูกพันกับสถานที่นั้นน้อยกว่า เพราะคนต่างถิ่นอาจตั้งรกรากอยู่ต่อ แต่ผู้เดินทางมุ่งกลับสู่บ้านของตน เขาไม่แบกสัมภาระเกินจำเป็น ไม่หยุดอยู่กับที่ และตั้งใจไปให้ถึงจุดหมาย เช่นเดียวกับผู้เดินทางที่ต้องการเพียงสิ่งซึ่งช่วยให้ถึงปลายทาง ผู้ศรัทธาก็ใช้สิ่งต่าง ๆ ในโลกนี้เป็นเสบียงไปสู่โลกหน้า
+
+ผู้คนมีระดับความผูกพันกับโลกนี้ต่างกัน ภาพของผู้เดินทางผ่านจึงแสดงถึงความสมถะที่มากกว่าภาพของคนต่างถิ่น เพราะเขาไม่ถือทางผ่านเป็นบ้านถาวร บ้านที่ผู้ศรัทธามุ่งหวังคือสวรรค์ เขาใช้ชีวิตในโลกนี้เพื่อทำสิ่งจำเป็นและเตรียมตัวสู่โลกหน้า หัวใจจึงผูกพันกับบ้านที่เขาจะกลับไป มากกว่าที่พักชั่วคราวระหว่างทาง
+
+หะดีษนี้ไม่ได้สอนให้เลิกทำมาหากินหรือถือว่าความสุขที่ศาสนาอนุญาตเป็นสิ่งต้องห้าม แต่ส่งเสริมให้ลดความยึดติด ใช้สิ่งของในโลกนี้เท่าที่เป็นประโยชน์ และไม่ให้มันทำให้ละเลยโลกหน้า
+
+ถ้อยคำเรื่องยามเย็นและยามเช้าเป็นคำแนะนำของอิบนุอุมัรเอง ซึ่งอยู่ถัดจากคำกล่าวของท่านนบี เขานำคำสอนนี้ไปปฏิบัติ นี่เป็นความประเสริฐประการหนึ่งของเขา เราไม่ควรมั่นใจว่าจะมีชีวิตถึงวันพรุ่งนี้ แต่ควรเตรียมพร้อมสำหรับความตาย ระลึกว่าตนก็จะเป็นหนึ่งในชาวหลุมศพ และไม่ผัดผ่อนความดีไปจนถึงเย็นหรือเช้าวันใหม่
+
+ชีวิตมีทั้งช่วงที่สุขภาพดีและช่วงเจ็บป่วย จึงควรรีบเชื่อฟังอัลลอฮ์และทำความดีเมื่อยังแข็งแรง ก่อนความเจ็บป่วยจะขัดขวาง และควรใช้ชีวิตที่ยังมีอยู่สะสมสิ่งที่จะเป็นประโยชน์หลังความตาย ก่อนที่ความตายจะทำให้หมดโอกาสลงมือทำ
+
+## vi
+
+Sống như một người lữ khách
+
+Ông 'Abdullah bin 'Umar thuật lại: Thiên Sứ của Allah ﷺ cầm vai tôi và nói: {Hãy ở trong thế giới này như thể ngươi là một người xa lạ hay một kẻ qua đường.} Và ông Ibnu 'Umar thường nói: "Nếu ngươi đang ở buổi chiều thì đừng đợi đến sáng, và nếu ngươi đang ở buổi buổi sáng thì đừng đợi đến chiều. Hãy dùng sức khỏe của ngươi cho lúc bệnh tật của ngươi, và hãy dùng cuộc sống của ngươi cho cái chết của ngươi."
+
+Sahih Al-Bukhari, 6416.
+
+Giải thích
+
+Thiên Sứ của Allah (cầu xin Allah ban phước lành và bình an cho Người) cầm vai Ibnu 'Umar để ông chú ý đến lời khuyên. Vai ở đây là chỗ nối giữa phần trên của cánh tay và bả vai. Khi dạy, người thầy đặt tay lên vai người học có thể tạo sự gần gũi và thu hút sự chú ý. Câu chuyện cũng cho thấy việc chủ động khuyên bảo, hướng dẫn người chưa yêu cầu điều đó, và cách giảng dạy khéo léo của Thiên Sứ bằng những hình ảnh so sánh đầy sức thuyết phục.
+
+Người xa lạ trong hình ảnh này đến một vùng đất nơi mình không có nhà để nương náu, không có người thân để an ủi, xa gia đình, con cái và những mối ràng buộc có thể khiến mình bận tâm mà quên Đấng Tạo Hóa. Người qua đường còn ít gắn bó hơn: người xa lạ có thể ở lại và định cư, còn người qua đường hướng về quê nhà, mang hành trang gọn nhẹ, không dừng lại lâu và mong sớm đến đích. Cũng như người lữ khách chỉ cần những gì giúp mình hoàn thành chuyến đi, người có đức tin dùng những gì ở đời này để đi đến đích ở Đời Sau.
+
+Mọi người có mức độ gắn bó với đời này khác nhau. Vì thế, hình ảnh người qua đường thể hiện sự bớt lưu luyến đời này hơn cả hình ảnh người xa lạ: người ấy không coi đường đi là nơi ở vĩnh viễn. Quê hương mà người có đức tin hướng đến là Thiên Đàng. Họ sống ở đời này để đáp ứng nhu cầu và chuẩn bị cho Đời Sau; trái tim gắn bó với quê hương sẽ trở về, thay vì nơi tạm trú trên đường.
+
+Lời truyền thuật này không dạy từ bỏ việc mưu sinh hay cấm những niềm vui được phép ở đời này. Lời dạy khuyến khích bớt ham mê, sống có chừng mực và không để những điều ấy làm mình quên Đời Sau.
+
+Những lời về buổi chiều và buổi sáng là lời khuyên riêng của Ibnu 'Umar, tiếp sau lời của Thiên Sứ. Ông đã thực hành lời khuyên mình nhận được; đó là một đức tính đáng quý của ông. Con người không nên chắc chắn rằng ngày mai mình vẫn còn sống, mà cần chuẩn bị cho cái chết, nhớ rằng mình cũng sẽ thuộc về những người trong mồ, và không trì hoãn việc tốt đến chiều hay sáng hôm sau.
+
+Cuộc sống có lúc khỏe mạnh, có lúc bệnh tật. Hãy sớm vâng lời Allah và làm việc thiện khi còn sức khỏe, trước khi bệnh tật khiến mình không thể thực hiện. Hãy tận dụng lúc còn sống để tích lũy những việc mang lại lợi ích sau khi chết, trước khi cái chết chấm dứt cơ hội hành động.
+
+## ja
+
+この世を旅人のように生きる
+
+イブン・ウマル（彼らにアッラーのご満悦あれ）は言いました：「アッラーのみ使い（彼にアッラーからの祝福と平安あれ）は、私の肩に手を置きそして、言いました：“この世においては、異邦人か旅人のようでありなさい。”またイブン・ウマル（彼らにアッラーのご満悦あれ）は言いました：“夜には朝を期待することなく、また朝には夜を期待することのないようにしなさい。病気の為に健康をふりあて、死の為に生をふりあてなさい。”」アル＝ブハーリー（6416）の伝承。
+
+『40のハディース』第40。アル＝ブハーリー6416。
+
+解説
+
+預言者はイブン・ウマルの肩に手を置き、これから伝える教えに注意を向けさせました。ここでいう肩は、上腕と肩甲骨がつながる部分です。教える人が学ぶ人の肩に手を置くことには、親しみを伝え、注意を引く意味があります。この出来事からは、求められていなくても相手のために助言することや、分かりやすいたとえを用いる預言者の優れた教え方も読み取れます。
+
+ここでいう異邦人は、よその土地に来て、身を寄せる家も、心を慰めてくれる身近な人もなく、家族や子ども、さまざまなつながりから離れている人です。そうしたつながりに気を取られ、創造主を忘れることがありません。通りすがりの旅人は、その土地への執着がさらに少ない人です。異邦人はそこに住み着くこともありますが、旅人は故郷を目指し、荷物を軽くして、途中にとどまらず、目的地に着こうと努めます。旅人に旅を終えるための備えがあれば足りるように、信仰者もこの世のものを来世の目的地に至るために用います。
+
+来世に向かう人々の歩みや、この世への執着の程度は同じではありません。通りすがりの旅人というたとえは、異邦人よりもさらに執着を抑えたあり方を表しています。旅人は通り道を永住の地とは考えません。信仰者の目指す故郷は楽園です。この世では必要を満たしながら来世への備えをし、一時の滞在先よりも、帰るべき故郷に心を向けます。
+
+これは、生計を立てることをやめたり、許されたこの世の楽しみを禁じたりする教えではありません。この世のものに執着せず、必要なものを節度をもって用い、来世を忘れないようにする勧めです。
+
+朝と夜についての後半の言葉は、預言者の言葉に続くイブン・ウマル自身の助言です。彼は受けた教えを実践しました。そこに彼の徳が表れています。明日も必ず生きていると思い込まず、死に備え、自分もやがて墓に入る者だと心に留め、善行を夕方や翌朝まで先延ばしにしないことが大切です。
+
+人生には健康な時も病気の時もあります。病気でできなくなる前に、健康なうちにアッラーに従い、善行に努めます。また、死によって行う機会がなくなる前に、今ある命を活かし、死後に自分の益となる行いを積み重ねます。
+
+## fil
+
+Mamuhay na tulad ng isang manlalakbay
+
+Ayon kay `Abdullāh bin `Umar (malugod si Allāh sa kanilang dalawa) na nagsabi: {Humawak ang Sugo ni Allāh (basbasan siya ni Allāh at pangalagaan) sa kasukasuan ng balikat ko saka nagsabi siya: "Ikaw sa Mundo ay maging para bang ikaw ay isang estranghero o isang tumatawid sa landas." Ang Anak ni `Umar noon ay nagsasabi: "Kapag ginabi ka, huwag mong hintayin ang umaga; at kapag inumaga ka, huwag mong hintayin ang gabi. Kumuha ka mula sa kalusugan mo para sa pagkakasakit mo at mula sa buhay mo para sa kamatayan mo."}
+
+Sahih Al-Bukhari, 6416.
+
+Paliwanag
+
+Hinawakan ng Propeta (basbasan siya ni Allāh at pangalagaan) ang balikat ni Ibnu 'Umar upang ituon ang pansin niya sa payo. Tinutukoy dito ang dugtungan ng itaas na bahagi ng braso at balikat. Ang paglalagay ng guro ng kamay sa balikat ng mag-aaral ay nagpapadama ng pagiging malapit at tumatawag ng pansin. Ipinakikita rin nito ang pagbibigay ng mabuting payo kahit hindi ito hiningi, at ang mahusay na pagtuturo ng Propeta sa pamamagitan ng malinaw at kapani-paniwalang paghahambing.
+
+Ang estranghero sa paghahambing na ito ay nasa isang bayang wala siyang bahay na masisilungan o malapit na taong magpapagaan ng loob niya. Malayo siya sa pamilya, mga anak, at mga ugnayang maaaring umabala sa kanya at magpalimot sa Tagapaglikha. Mas kaunti pa ang pagkakaugnay roon ng manlalakbay na dumaraan lamang: maaaring manirahan ang estranghero, ngunit ang manlalakbay ay patungo sa sarili niyang bayan. Magaan ang dala niya, hindi siya nananatili sa daan, at sinisikap niyang makarating sa layunin. Kung paanong sapat sa manlalakbay ang makatutulong upang marating niya ang dulo ng paglalakbay, ginagamit ng mananampalataya ang mga bagay sa mundong ito upang makarating sa patutunguhan niya sa Kabilang-buhay.
+
+Magkakaiba ang mga tao sa paglalakbay nila tungo sa Kabilang-buhay at sa tindi ng pagkakapit nila sa mundo. Ang manlalakbay na dumaraan lamang ay larawan ng mas kaunting pagkahumaling kaysa sa estranghero: hindi niya itinuturing na permanenteng tahanan ang daan. Paraiso ang bayang hinahangad ng mananampalataya. Dito sa mundo, tinutugunan niya ang kanyang mga pangangailangan at naghahanda para sa Kabilang-buhay. Ang puso niya ay nakaugnay sa bayang uuwian, sa halip na sa pansamantalang tinutuluyan.
+
+Hindi itinuturo ng hadith na ito ang pagtalikod sa paghahanapbuhay o ang pagbabawal sa mga kasiyahang ipinahintulot. Hinihikayat nito ang pagbawas sa pagkahumaling sa mundo, ang pagiging katamtaman sa paggamit ng mga bagay nito, at ang hindi pagpapabaya sa Kabilang-buhay dahil sa mga ito.
+
+Ang mga salita tungkol sa gabi at umaga ay sariling payo ni Ibnu 'Umar na kasunod ng sinabi ng Propeta. Isinabuhay niya ang payong tinanggap niya, at isa ito sa mga patunay ng kanyang kabutihan. Huwag ipagpalagay na tiyak na aabutan mo pa ang bukas. Maghanda para sa kamatayan, alalahaning mapapabilang ka rin sa mga nasa libingan, at huwag ipagpaliban ang mabuti hanggang gabi o kinabukasan.
+
+May mga panahon ng kalusugan at pagkakasakit sa buhay. Kaya magmadaling sumunod kay Allāh at gumawa ng mabuti habang malusog, bago humadlang ang sakit. Gamitin ang pagkakataong buhay ka pa upang tipunin ang mga gawaing pakikinabangan mo matapos mamatay, bago tuluyang matapos sa kamatayan ang pagkakataong gumawa.
