@@ -1,0 +1,19 @@
+# Ước có điều tốt để làm điều tốt
+
+Đoạn trích Hadith
+
+“Không ganh tị nào bằng hai loại người: Một loại người được Allah ban cho thuộc lòng Qur'an và y luôn thực hành theo nó ngày đêm; và một người được Allah ban cho tiền tài và y luôn chi tiêu (trong chính nghĩa của Allah) suốt ngày đêm."
+
+Tóm Lược Riyadh Al-Saaliheen · MÁCH ZÊN
+
+Giải thích riêng và lưu ý về lời truyền
+
+Đố kỵ muốn ân huệ của người khác mất đi là căn bệnh nguy hiểm bị cấm. Mong có điều tương tự mà không muốn họ mất nó là ước muốn không ác ý. Lời chú giải phân biệt ước muốn đối với lợi ích đời này được phép với sự noi theo điều tốt trong tôn giáo đáng khen. Mục đích là tranh đua làm tốt, không tước ân huệ của người khác.
+
+Một mẫu mực là người kính sợ Allah, được ban tài sản hợp pháp và khả năng chi tiêu đúng đường. Tiêu dùng tài sản ở đây là dùng vào điều tốt, không phải phung phí. Người không keo kiệt có sự ưu việt; ngay cả việc cho đi tất cả cũng được khuyến khích nếu không tước quyền của người thừa kế, khiến mình phải đi xin hoặc dẫn tới điều bị cấm khác. Dùng ân huệ đúng chỗ là biết ơn Đấng ban ân.
+
+Mẫu mực còn lại là người có kiến thức tôn giáo hữu ích và sự sáng suốt, làm theo nó, xét xử và đưa ra ý kiến pháp lý dựa trên nó, đồng thời dạy người khác. Sự sáng suốt cũng có nghĩa đặt mọi thứ vào vị trí thích hợp. Học các quy định tôn giáo, dạy và khuyến khích người khác hiểu sâu tôn giáo là điều có giá trị.
+
+Lời truyền của Ibnu Masud nói về tài sản và sự sáng suốt. Lời truyền của Ibnu Umar nói về gắn bó và thực hành Qur’an vào những giờ trong đêm lẫn ngày, cùng chi tiêu tài sản trong điều tốt đêm ngày.
+
+[Source and version index](../source-index.json)

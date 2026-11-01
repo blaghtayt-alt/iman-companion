@@ -1,0 +1,19 @@
+# Hangarin ang kabutihang tulad ng sa iba
+
+Dalawang salaysay: Ibn Masud at Ibn Umar
+
+Ayon kay Ibnu Mas`ūd, malugod si Allah sa kanya-Hadith na marfu: ((Walang nararapat na kaiinggitan maliban sa dalawang bagay: Isang lalaki na pinagkalooban ni Allah ng kayamanan,pinahintulutan Niya ito na gugulin sa karapat-dapat,At isang lalaking pinagkalooban ni Allah ng karunungan,Siya ay humahatol rito at nangangaral.)) At ayon kay Ibn `Umar-malugod si Allah sa kanilang dalawa;Buhat sa Propeta-pagpalain siya ni Allah at pangalagaan-Siya ay nagsabi :((Walang nararapat na kaiinggitan maliban sa dalawang bagay: Isang lalaki na pinagkalooban ni Allah ng Qur-an,siya ay gumaganap rito sa tuwing gabi at araw,at isang lalaki na pinagkalooban ni Allah ng kayamanan,Siya ay gumugugol rito sa tuwing gabi at araw))
+
+Al-Bukhari, kalipunang Sahih · Muslim
+
+Hiwalay na paliwanag sa buong dalawang salaysay
+
+Ang inggit na nagnanais maglaho ang biyaya ng iba ay mapanganib at ipinagbabawal. Iba ang hangaring magkaroon ng katulad nito nang hindi hinahangad na mawala sa kanya. Ipinahihintulot ang gayong paghahangad ng pakinabang sa mundo; kapuri-puri ang pagtulad sa kabutihang panrelihiyon. Ang layunin ay magtagisan sa mabuti, hindi agawin ang biyaya ng iba. Ang papuring ito sa aral ay ukol sa kabutihang panrelihiyon, hindi simpleng pagnanais ng makamundong biyaya.
+
+Unang halimbawa ang taong may takot kay Allah, binigyan ng pinahihintulutang yaman at kakayahang gastusin ito sa tama. Ang pag-ubos dito ay paggugol sa mabuti, hindi pag-aaksaya. Marangal ang hindi pagiging kuripot. Maging ang pagbibigay ng lahat ay hinihikayat kung hindi hahantong sa pagkakait sa mga tagapagmana, paghingi sa tao o ibang ipinagbabawal na bunga. Ang paglalagay ng biyaya sa nararapat nitong paggagamitan ay pasasalamat sa Nagbigay.
+
+Ikalawang halimbawa ang may kapaki-pakinabang na kaalamang panrelihiyon at karunungan, isinasagawa ito, humahatol at nagbibigay ng pasiyang panrelihiyon ayon dito, at itinuturo ito sa iba. Ang karunungan ay paglalagay rin sa bawat bagay sa angkop nitong lugar. Mahalaga ang pag-aaral ng mga tuntunin ng relihiyon, pagtuturo at pag-anyaya sa mga tao na unawain ito nang malalim.
+
+Ang ulat ni Ibn Masud ay tungkol sa yaman at karunungan. Hiwalay ang ulat ni Ibn Umar tungkol sa taong nagsasagawa at naglalaan ng mga oras sa gabi at araw sa Quran, at sa taong gumugugol sa mabuti gabi at araw. Nananatiling magkahiwalay ang dalawang tagapagsalaysay at dalawang pananalita; hindi ito bagong pinagsamang salaysay.
+
+[Source and version index](../source-index.json)
