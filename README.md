@@ -56,3 +56,7 @@ Quoted material and credited translations from other publishers keep their own r
 If you find a mistake, please open an issue with the language, file, surah and ayah or chapter, and your suggested correction. A source reference is especially helpful. Translation improvements should keep the Arabic meaning and its qualifications, rather than add a new interpretation.
 
 [Project website](https://blaghtayt-alt.github.io/iman-companion/) · [Privacy policy](https://blaghtayt-alt.github.io/iman-companion/privacy/)
+
+## Articles
+
+- [The trial in what we await — 20 languages and sources](materials/articles/README.md)

@@ -1,0 +1,13 @@
+# Kaynaklar ve çeviri notu
+
+Bu yazı, insan tarafından sağlanan Arapça metnin başlığı dâhil on üç paragrafının tamamını aktarır. Beklenen ferahlığın da şükür ve sebat yönünden bir imtihan olabileceği düşüncesi başlıkta korunmuştur. Sa‘dî Tefsiri’ne yapılan iki kaynak atfı, açıklamalardan önce kendi yerlerinde bırakılmıştır. Yazının açıklamaları, Sa‘dî Tefsiri’nin kelimesi kelimesine Türkçe çevirisi olarak sunulmaz.
+
+Cin suresi 16 ve 17. ayetler ile Yûsuf suresi 33. ayet, Rowwad Tercüme Merkezi’nin QuranEnc.com’da yayımlanan Türkçe mealinin 1.0.4 sürümünden değiştirilmeden alınmıştır. Her ayetin kimliği ve kaynak bilgileri ayrı tutulmuştur. Bu üç ayetin özgün dipnot alanları boştur; bu durum tahmin edilmemiş, kaynakta kontrol edilmiştir. Ayet meali yeni yazılmış veya düzeltilmiş bir Kur’an çevirisi değildir.
+
+Alıntılanan söz Abdurrahman bin Avf’a aittir; Peygamber’in sözü değildir. Bu yazıdaki Türkçe anlamı, Arapça rivayetin tamamı okunarak ayrıca çevrilmiştir. Allah’ın Elçisi ile birlikte sıkıntıyla sınanma ve sabretme, ardından onun vefatından sonra rahatlıkla sınanma ve sabredememe unsurları korunmuştur. Türkçe söz, daha önce yayımlanmış bir çeviriden alınmış gibi gösterilmez. Yapılan sınırlı yayın araştırmasında bilinen başka metinler de kaydedilmiştir; bu araştırma, hiçbir uygun Türkçe yayının bulunmadığı iddiası değildir. Seçilmeyen metinlere yeni bir kullanım izni verilmiş veya onlardan söz alınmış gibi davranılmaz.
+
+Tirmizî 2464’ün Arapça metninde rivayet hasen olarak değerlendirilir. Darussalam’ın zayıf değerlendirmesi ayrıca belirtilmiştir. Bu iki görüş kaynaklarına nispet edilir; ortak bir hüküm veya çevirmenin yeni bir hadis değerlendirmesi olarak sunulmaz. Sözün kaynağı, kime ait olduğu ve değerlendirme farkı, yazının sonraki açıklamasından önce yer alır.
+
+QuranEnc’in metni değiştirmeme, kaynak ve sürüm bilgilerini koruma, güncellemeleri izleme ve uygun sunum gibi şartları kaynak dosyalarında tutulmuştur. Hiçbir yayınevine bildirim veya başka bir iletişim yapılmamış, yapılmış gibi de gösterilmemiştir. Bu paket, yazının ücretsiz ve ticari olmayan eğitsel kullanımıyla sınırlıdır; kaynakların tamamını veya başka baskıları çoğaltmak için genel izin değildir.
+
+Arapça metnin ve Türkçe yazının tamamı, asıl çevirmeni dışında bir inceleyici tarafından karşılaştırılmış ve Türkçe metin ayrıca baştan sona okunmuştur. Bu inceleme, insan veya din âlimi tarafından verilmiş bir sertifika değildir. Uygulamadaki görünüm, kaydetme, çevrimdışı erişim ve dışa aktarma kontrolleri henüz yapılmamıştır. Arapça asıl, bütün ayet kayıtları, kaynaklar ve gerekli notlar yazıyla birlikte, çevrimdışı ve dışa aktarılan sürümlerde de korunmalıdır.

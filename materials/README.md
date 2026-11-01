@@ -820,3 +820,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [Simplified Chinese · Chapter 7](seerah/zh-CN/chapter-07.md)
 - [Simplified Chinese · Chapter 8](seerah/zh-CN/chapter-08.md)
 - [Simplified Chinese · Chapter 9](seerah/zh-CN/chapter-09.md)
+
+## Articles
+
+- [The trial in what we await — 20 languages and sources](articles/README.md)
