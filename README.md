@@ -20,6 +20,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 - [Arabic Al-A‘la Simplified reflections, 87:1–19, with sources](materials/tadabbur/ar/simplified/087.md)
 - [Arabic Al-‘Alaq Simplified reflections, 96:1–19, with sources](materials/tadabbur/ar/simplified/096.md)
 - [Arabic An-Naba Simplified reflections, 39 passages (78:29 held), with sources](materials/tadabbur/ar/simplified/078.md)
+- [Arabic Maryam Simplified reflections, 19:1–98, with sources](materials/tadabbur/ar/simplified/019.md)
 - [Arabic Essential Iman Hadiths: 286 lessons in 12 chapters](materials/hadith/essential-ar/README.md)
 - [Indonesian Essential Hadith: first complete lesson and sources](materials/hadith/essential-id/README.md)
 - [Historical Hadith reading collection and translations](materials/hadith/README.md)
@@ -35,7 +36,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 
 | Collection | Current coverage |
 | --- | --- |
-| Tadabbur in Arabic | 133 surah-and-mode documents, covering the available Extended and Simplified material |
+| Tadabbur in Arabic | 134 surah-and-mode documents, covering the available Extended and Simplified material |
 | Tadabbur translations | 26 surah-and-mode documents in each of eight other languages, plus [Japanese Al-Qiyamah 75:1–40](materials/tadabbur/ja/extended/075.md) and 41 separate work-in-progress translation packages |
 | Seerah | Chapters 1–22 in the original nine languages; [current coverage in the six newer languages](materials/seerah/combined/README.md). Arabic summaries of chapters 23–26 remain in the source archive |
 | Hadith | [Arabic Essential course: 286 lessons](materials/hadith/essential-ar/README.md), plus the separate historical Arabic reference collection and translations at their stated per-language coverage |
