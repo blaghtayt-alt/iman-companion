@@ -10,6 +10,8 @@ The historical Hadith collection remains separately available in [the existing a
 
 [Machine-readable catalog](catalog.json)
 
+First lesson: [Malay](../essential-ms/README.md), [Portuguese](../essential-pt-BR/README.md). Each is a separately reviewed first lesson only.
+
 ## Chapters
 
 - [معرفة الله وتعظيمه](01/README.md) — 40 lessons

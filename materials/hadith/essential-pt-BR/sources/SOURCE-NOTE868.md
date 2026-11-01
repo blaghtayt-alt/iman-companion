@@ -1,0 +1,17 @@
+# Sobre as fontes desta lição
+
+Esta é a proposta integral da primeira lição de Iman: o relato principal, sua referência e as 49 partes do comentário, traduzidas diretamente do árabe para o português do Brasil. O relato de Abu Dharr, registrado por Muslim, é um hadith qudsi: o Profeta transmite palavras de Allah. Ele não é Alcorão. A criação do texto e sua conferência pelo próprio autor não substituem a revisão integral por outro revisor.
+
+As citações do Alcorão mantêm a tradução publicada de Helmi Nasr e as notas pertinentes. Os oito versículos de 26:75–82 vêm todos da mesma página da edição do Complexo do Rei Fahd, comparada visualmente. Essa escolha preserva o verbo de perdão que está ausente no texto da API para 26:82; não foi criada nem reparada uma tradução do Alcorão. As palavras e a pontuação dos editores permanecem intactas, inclusive quando um recorte conserva uma aspa aberta do original.
+
+As demais citações foram examinadas em seus contextos publicados. Mantêm-se separadas as palavras de Allah, do Profeta, dos companheiros e do imam Ahmad. O episódio da idosa conserva uma tradução de sentido feita diretamente do árabe após pesquisa dirigida de publicações. Uma publicação conhecida com sentido invertido foi preservada entre os materiais não selecionados; isso não significa que nenhuma tradução publicada exista.
+
+No trecho sobre invocar Allah com esperança, a primeira passagem é expressamente uma explicação publicada do sentido. A referência ao pecado grave pertence à explicação, não à redação literal do hadith. A versão de Anas sobre a invocação não foi confundida com outra versão sobre a recordação. As duas versões citadas sobre a firmeza na súplica continuam separadas. As diferenças de narrador, numeração e avaliação permanecem documentadas, sem afirmar consenso ou realizar uma nova autenticação das cadeias.
+
+São preservados os 17 campos originais de notas dos versículos e as três referências cruzadas. Na leitura ficam as notas ligadas aos trechos efetivamente citados e as explicações necessárias, com seus vínculos próprios. A nota sobre o Livro, na primeira citação parcial de 18:49, refere-se a palavras que ali não foram citadas; permanece no arquivo e acompanha a citação integral posterior. A nota completa sobre o zakat é mantida, sem trazer para a leitura a nota distinta sobre os movimentos da oração.
+
+Os registros externos conservam as obras, autores, tradutores, versões, transcrições, endereços e condições realmente observadas. O uso proposto consiste em citações limitadas e atribuídas em material educativo gratuito, não em uma declaração de licença geral. As obrigações de crédito, atualização e notificação e seus limites de aplicação permanecem explícitos. Nenhuma notificação foi enviada ou presumida, e não se afirma dispensa dessas condições.
+
+Na leitura do aplicativo, cabem apenas os nomes breves das obras e créditos de tradução ou de sentido, além das notas necessárias. Os detalhes da pesquisa, provedores, endereços, versões, imagens e registros de modelos ficam fora da leitura comum. O texto e suas notas devem permanecer juntos também no acesso offline, nos itens salvos e na exportação.
+
+Esta proposta foi produzida pelo modelo gpt-6.1-sol, em função de autor principal, e aguarda a revisão completa por outro modelo efetivamente distinto. Não é certificação humana, de falante nativo ou de estudioso religioso, nem aprovação de funcionamento ou publicação no aplicativo. Os originais e o histórico foram preservados.
