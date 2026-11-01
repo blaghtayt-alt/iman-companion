@@ -1,6 +1,6 @@
 # Al-Ikhlas reflections — 112:1–4
 
-Complete current Source Rich reflections in English, French, Turkish and Indonesian. Each source-rich reading is one independently reviewed whole-Surah translation; this does not claim completion of other surahs or languages.
+Complete current Source Rich reflections in English, French, Turkish, Indonesian, Malay and Brazilian Portuguese. Each source-rich reading is one independently reviewed whole-Surah translation; this does not claim completion of other surahs or languages.
 
 [Machine-readable per-ayah index](catalog.json)
 
@@ -53,3 +53,27 @@ Complete current Source Rich reflections in English, French, Turkish and Indones
 - [112:3](../id/extended/112.md#ayat-3) · [Structured section](../sources/112/id/112-003.json)
 
 - [112:4](../id/extended/112.md#ayat-4) · [Structured section](../sources/112/id/112-004.json)
+
+### ms
+
+[Complete reading](../ms/extended/112.md) · [Reading JSON](../ms/extended/112.json) · [Full text source records](../sources/112/ms/)
+
+- [112:1](../ms/extended/112.md#ayat-1) · [Structured section](../sources/112/ms/112-001.json)
+
+- [112:2](../ms/extended/112.md#ayat-2) · [Structured section](../sources/112/ms/112-002.json)
+
+- [112:3](../ms/extended/112.md#ayat-3) · [Structured section](../sources/112/ms/112-003.json)
+
+- [112:4](../ms/extended/112.md#ayat-4) · [Structured section](../sources/112/ms/112-004.json)
+
+### pt-BR
+
+[Complete reading](../pt-BR/extended/112.md) · [Reading JSON](../pt-BR/extended/112.json) · [Full text source records](../sources/112/pt-BR/)
+
+- [112:1](../pt-BR/extended/112.md#versículo-1) · [Structured section](../sources/112/pt-BR/112-001.json)
+
+- [112:2](../pt-BR/extended/112.md#versículo-2) · [Structured section](../sources/112/pt-BR/112-002.json)
+
+- [112:3](../pt-BR/extended/112.md#versículo-3) · [Structured section](../sources/112/pt-BR/112-003.json)
+
+- [112:4](../pt-BR/extended/112.md#versículo-4) · [Structured section](../sources/112/pt-BR/112-004.json)
