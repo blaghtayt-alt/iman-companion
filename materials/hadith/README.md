@@ -1,6 +1,6 @@
 # Hadith reading collection
 
-The separate [Arabic Essential Iman Hadiths course](essential-ar/README.md) contains 238 lessons in 10 chapters. Its [first Indonesian lesson](essential-id/README.md) is available with sources. The historical 303-report Arabic collection below remains available as an archive with its existing per-language coverage.
+The separate [Arabic Essential Iman Hadiths course](essential-ar/README.md) contains 286 lessons in 12 chapters. Its [first Indonesian lesson](essential-id/README.md) is available with sources. The historical 303-report Arabic collection below remains available as an archive with its existing per-language coverage.
 
 These files share the reviewed material currently used in Iman Companion. Suitable published translations are used first. Where an exact, suitable reusable edition could not be established, the Arabic is translated directly and checked separately. Explanations are kept outside the Hadith wording.
 
