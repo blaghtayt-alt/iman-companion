@@ -1,6 +1,6 @@
 # Heart Reminder: selected reports
 
-Three Dunya, three Status, two Approval, three Trust, three Comparison, three Closeness, three Forgiveness, one Desire, two Purpose and two Rizq reports are available in Uzbek, Thai, Vietnamese, Japanese and Filipino. Each reading preserves its selected published quotation and separates any added explanatory context. Other Heart Reminder categories and languages have their own coverage; this is not a complete Heart collection.
+Three Dunya, three Status, two Approval, three Trust, three Comparison, three Closeness, three Forgiveness, three Desire, two Purpose, two Rizq, three Peace and one Patience report are available in Uzbek, Thai, Vietnamese, Japanese and Filipino. Each reading preserves its selected published quotation and separates any added explanatory context. Other Heart Reminder categories and languages have their own coverage; this is not a complete Heart collection.
 
 These translations received separate model-assisted review and are not human or scholarly certified. Source and reuse conditions remain with the source records. Broader publisher notification and permission questions are not represented as resolved.
 
@@ -54,5 +54,16 @@ These translations received separate model-assisted review and are not human or 
 - **purpose.hadith.03**: [Uzbek](purpose-03/uz.md), [Thai](purpose-03/th.md), [Vietnamese](purpose-03/vi.md), [Japanese](purpose-03/ja.md), [Filipino](purpose-03/fil.md)
 - **rizq.hadith.01**: [Uzbek](rizq-01/uz.md), [Thai](rizq-01/th.md), [Vietnamese](rizq-01/vi.md), [Japanese](rizq-01/ja.md), [Filipino](rizq-01/fil.md)
 - **rizq.hadith.03**: [Uzbek](rizq-03/uz.md), [Thai](rizq-03/th.md), [Vietnamese](rizq-03/vi.md), [Japanese](rizq-03/ja.md), [Filipino](rizq-03/fil.md)
+
+[Selected-source and version index](source-index.json).
+
+## Further selected reports
+
+- **desire.hadith.01**: [Uzbek](desire-01/uz.md), [Thai](desire-01/th.md), [Vietnamese](desire-01/vi.md), [Japanese](desire-01/ja.md), [Filipino](desire-01/fil.md) · [source records](desire-01/sources/README.md)
+- **desire.hadith.03**: [Uzbek](desire-03/uz.md), [Thai](desire-03/th.md), [Vietnamese](desire-03/vi.md), [Japanese](desire-03/ja.md), [Filipino](desire-03/fil.md) · [source records](desire-03/sources/README.md)
+- **peace.hadith.01**: [Uzbek](peace-01/uz.md), [Thai](peace-01/th.md), [Vietnamese](peace-01/vi.md), [Japanese](peace-01/ja.md), [Filipino](peace-01/fil.md) · [source records](peace-01/sources/README.md)
+- **peace.hadith.02**: [Uzbek](peace-02/uz.md), [Thai](peace-02/th.md), [Vietnamese](peace-02/vi.md), [Japanese](peace-02/ja.md), [Filipino](peace-02/fil.md) · [source records](peace-02/sources/README.md)
+- **peace.hadith.03**: [Uzbek](peace-03/uz.md), [Thai](peace-03/th.md), [Vietnamese](peace-03/vi.md), [Japanese](peace-03/ja.md), [Filipino](peace-03/fil.md) · [source records](peace-03/sources/README.md)
+- **sabr.hadith.02**: [Uzbek](sabr-02/uz.md), [Thai](sabr-02/th.md), [Vietnamese](sabr-02/vi.md), [Japanese](sabr-02/ja.md), [Filipino](sabr-02/fil.md) · [source records](sabr-02/sources/README.md)
 
 [Selected-source and version index](source-index.json).

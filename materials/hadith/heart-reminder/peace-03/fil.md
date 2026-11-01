@@ -1,0 +1,29 @@
+# Ang dakilang kainaman ng pag-alaala kay Allah
+
+Hadith
+
+Ayon kay Abu Ad-Dardā' (malugod si Allāh sa kanya) na nagsabi: {Nagsabi ang Propeta (basbasan siya ni Allāh at pangalagaan): "Hindi ba ako magbabalita sa inyo hinggil sa pinakamabuti sa mga gawa ninyo, pinakabusilak sa mga ito sa ganang May-ari ninyo, pinakaangat sa mga ito sa mga antas ninyo, pinakamabuti para sa inyo kaysa sa paggugol ng ginto at pilak, at pinakamabuti para sa inyo kaysa sa makitagpo kayo sa kaaway ninyo para tumaga kayo ng mga leeg nila at tumaga sila ng mga leeg ninyo?" Nagsabi sila: "Opo." Nagsabi siya: "Ang pag-alaala kay Allāh (napakataas Siya)."}
+
+Jami‘ At-Tirmidhi
+
+Paliwanag
+
+Sa ulat ni Abu Ad-Darda’, pinukaw ng Propeta ang interes ng mga Kasamahan sa pinakamabuti, pinakadalisay at pinakamarangal na gawain sa harap ni Allah na Tagapagmay-ari. Ang gawaing ito ay nagpapataas ng antas sa Paraiso. Nang nais nilang malaman, sinabi niyang ito ang pag-alaala kay Allah. Ang paghahambing sa paggugol ng ginto at pilak at sa pagharap sa kaaway sa larangan ng digmaan ay nagpapakita ng dakilang kainaman nito. Ang palagiang pag-alaala sa lahat ng oras at kalagayan, sa nakikitang gawa at sa puso, ay kabilang sa pinakakapaki-pakinabang na paglapit sa Kanya.
+
+Itinakda ang mga pagsamba upang mapanatili ang pag-alaala kay Allah, gaya ng patunay sa Qur’an 20:14. Ipinaliliwanag din ng isa pang hadith na iniulat nina Abu Dawud at At-Tirmidhi na ang paglibot sa Ka‘bah, pagpunta at pagbalik sa pagitan ng Safa at Marwah, at pagpukol ng mga bato sa Hajj ay itinakda para sa pag-alaala sa Kanya.
+
+Ipinaliwanag ni Al-‘Izz bin ‘Abdissalam sa Qawa‘id na ang gantimpala sa lahat ng pagsamba ay hindi nakabatay lamang sa hirap. Maaaring gantimpalaan ni Allah ang kaunting gawain nang higit sa marami, dahil magkakaiba ang ranggo at karangalan ng mga gawain.
+
+Ipinaliwanag ni Al-Munawi sa Fayd Al-Qadir na ang pag-alaala ang pinakamainam para sa mga kinausap noon. Para sa matapang na nakapagdudulot ng pakinabang sa Islam sa labanan, maaaring ang sagot ay pakikibaka; para sa mayamang nakatutulong sa mga dukha gamit ang yaman, pagkakawanggawa; para sa may kakayahang mag-Hajj, Hajj; at para sa may mga magulang, paggawa ng mabuti sa kanila. Sa ganitong pag-unawa nagkakatugma ang mga ulat tungkol sa pinakamainam na gawain. Ang pag-alaala ay hindi dahilan upang talikuran ang ibang mga tungkulin.
+
+Ang pinakaganap na pag-alaala ay pagbigkas ng dila na may pagninilay ng puso. Kasunod ang sa puso lamang, gaya ng pag-iisip, at pagkatapos ang sa dila lamang. Lahat ay may gantimpala kung loloobin ni Allah. Ang pagpapanatili sa mga pag-aalaalang itinakda sa umaga, gabi, at pagpasok at paglabas ng masjid, bahay at palikuran ay naglalagay sa Muslim sa mga madalas umalaala kay Allah.
+
+Salin ng mga kahulugan ng Qur’an · 20:14
+
+Tunay na Ako ay si Allāh; walang Diyos kundi Ako, kaya sumamba ka sa Akin at magpanatili ka ng pagdarasal para sa pag-alaala sa Akin.
+
+Pinagmulan: Rowwad Translation Center.
+
+[Source and version index](../source-index.json)
+
+[Readable selected-source records](sources/README.md)

@@ -1,0 +1,19 @@
+# Kabutihan sa pagtitiis at pasasalamat
+
+Hadith
+
+Ayon kay Ṣuhayb (malugod si Allāh sa kanya) na nagsabi: {Nagsabi ang Sugo ni Allāh (basbasan siya ni Allāh at pangalagaan): "Paghanga ay ukol sa lagay ng mananampalataya! Tunay na ang lagay niya sa kabuuan nito ay kabutihan. Iyan ay hindi ukol sa isa man kundi sa mananampalataya. Kung may dumapo sa kanya na kariwasaan, nagpapasalamat siya kaya ito ay naging kabutihan para sa kanya; at kung may dumapo sa kanya na kariwaraan, nagtitiis siya kaya ito ay naging kabutihan para sa kanya."}
+
+Sahih Muslim
+
+Paliwanag
+
+Pinupuri at hinahangaan ng Propeta ang kalagayan ng mananampalataya. Sa panahon ng kaginhawahan, nagpapasalamat siya kay Allah at ginagantimpalaan dahil dito. Sa panahon ng hirap, nagtitiis siya at umaasa sa gantimpala ni Allah, kaya ginagantimpalaan din dahil sa pagtitiis. Ang kabutihan sa dalawang kalagayang ito ay isang kainaman ng pananampalataya; nililinaw ng hadith na ito ay tanging para sa mananampalataya.
+
+Ang pasasalamat at pagtitiis ay mga katangian ng mananampalataya. Ang gumagawa nito ay nagtatamo ng kabutihan sa mundo at sa Kabilang-buhay. Ang hindi pagpapasalamat sa biyaya at hindi pagtitiis sa kasawian ay nagiging dahilan ng pagkalampas ng gantimpala at pagkakaroon ng kasalanan.
+
+Ang paniniwala sa pagtatadhana at pagtatakda ni Allah ay umaakay sa mananampalataya na malugod na tanggapin ang Kanyang itinakda sa bawat kalagayan. Sa kabaligtaran, ang walang pananampalataya ay patuloy na naiinis kapag napinsala; kapag nabiyayaan naman, maaari siyang malibang dito at lumayo sa pagtalima kay Allah, at gamitin pa ito sa pagsuway. Kaya sa hirap at ginhawa, humarap kay Allah nang may pagtitiis at pasasalamat.
+
+[Source and version index](../source-index.json)
+
+[Readable selected-source records](sources/README.md)

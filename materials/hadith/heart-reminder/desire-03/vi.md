@@ -1,0 +1,27 @@
+# Giá trị của việc chống lại dục vọng
+
+Hadith về bảy hạng người
+
+Ông Abu Huroiroh thuật lại rằng Nabi ﷺ nói: {Có bảy hạng người mà Allah Tối Cao sẽ che mát dưới bóng mát của Ngài vào Ngày mà sẽ không còn bóng mát nào ngoài bóng mát của Ngài: Imam công chính; thanh niên lớn lên trong sự thờ phượng Allah; người có trái tim gắn liền với Masjid; và hai người yêu thương nhau vì Allah, vì Ngài họ hợp lại và vì Ngài họ chia xa; người đàn ông được người phụ nữ có địa vị và xinh đẹp mời gọi và anh ta nói: Tôi thực sự kính sợ Allah; người làm từ thiện một cách thầm kín đến mức tay trái không biết những gì tay phải cho đi; và người thường nhớ đến Allah một cách riêng tư với đôi mắt rưng rưng lệ.}
+
+Al-Bukhari, bộ Sahih · Muslim
+
+Giải thích riêng về ý nghĩa
+
+Hadith khuyến khích noi theo bảy hạng người với đức tin, lòng chân thành và chống lại dục vọng. Con số bảy không giới hạn mọi hạng, vì các lời truyền khác còn nêu những người được che mát. Ibnu Hajar giải thích bóng mát là bóng Ngai Vương, viện dẫn lời truyền của Salman do Sa’id bin Mansur ghi với chuỗi truyền được đánh giá Hasan. Đây là phần chú giải đi cùng lời truyền.
+
+Người lãnh đạo công chính không vô đạo đức nơi mình và không áp bức người dưới quyền. Giá trị này cũng gồm người phụ trách bất kỳ việc nào của người Muslim mà công bằng trong đó. Công bằng là theo mệnh lệnh Allah, đặt mọi thứ đúng chỗ, không thái quá hay thiếu sót. Lãnh đạo được nêu trước vì lợi ích đến rộng rãi.
+
+Thanh niên lớn lên trong thờ phượng, dành tuổi trẻ và sức lực cho điều đó và bền lòng đến cuối đời. Người gắn bó với Masjid luôn yêu và mong trở lại ngay cả khi cơ thể phải ở ngoài. Chờ lễ Salah tiếp theo sau một lễ cũng là điều cao quý.
+
+Hai người thực lòng yêu thương nhau vì Allah không cắt đứt tình thân tôn giáo vì trở ngại trần gian. Dù có thật sự gặp nhau hay không, họ giữ tình thân đến khi cái chết chia lìa. An-Nawawi nhấn mạnh giá trị lớn của sự yêu thương lẫn nhau vì Ngài.
+
+Người đàn ông từ chối lời mời phạm tội của phụ nữ cao quý và xinh đẹp vì kính sợ Allah. Dòng dõi, danh dự, địa vị, tài sản và sắc đẹp dễ khơi ham muốn mạnh và khó đạt được nên thử thách này được nói riêng. Từ thiện ít hay nhiều làm kín tránh khoe khoang và giữ phẩm giá người nhận; nhưng được công khai từ thiện hay Zakah khi không khoe khoang, nhằm khuyến khích người khác noi theo và thể hiện biểu hiệu tôn giáo.
+
+Người nhớ Allah bằng trái tim hay lời tụng niệm khi một mình rơi lệ vì kính sợ và tôn vinh Ngài, chứ không để người khác thấy. Hình ảnh tay trái không biết tay phải cho gì diễn tả sự kín đáo sâu sắc của việc từ thiện.
+
+Ibnu Hajar giải thích phụ nữ cũng tham gia các giá trị ấy. Ông tách trường hợp quyền lãnh đạo tối cao của nhà nước, nhưng người phụ nữ công bằng với con và người mình chăm sóc có thể thuộc ý nghĩa công chính. Việc ở Masjid thường xuyên được tách ra vì lễ Salah tại nhà tốt hơn cho phụ nữ. Các việc khác được chia sẻ: chẳng hạn người phụ nữ từ chối vị vua tuấn tú vì kính sợ Allah dù đang có nhu cầu cũng là ví dụ về giữ tiết hạnh.
+
+[Source and version index](../source-index.json)
+
+[Readable selected-source records](sources/README.md)
