@@ -1,0 +1,19 @@
+# Kagandahan at pagmamataas
+
+Ayon kay `Abdullāh bin Mas`ūd, malugod si Allah sa kanya, ayon sa Propeta, pagpalain siya ni Allah at pangalagaan, na nagsabi: "Hindi papasok sa Paraiso ang sinumang sa puso niya ay may kasimbigat ng butil ng alikabok na pagmamalaki." Nagsabi ang isang lalaki: "Tunay na ang tao ay ibig na ang damit niya ay maganda at ang sapatos niya ay maganda." Nagsabi siya: "Tunay na si Allah ay maganda na naiibigan ang kagandahan. Ang pagmamalaki ay ang pagwawalang-bahala sa katotohanan at ang pag-aalipusta sa mga tao."
+
+Sahih Muslim, 91.
+
+Paliwanag
+
+Malaking kasalanan ang pagmamataas na karapat-dapat sa parusa ni Allah sa mundo at sa Kabilang-buhay. Hindi ito dapat balewalain kahit kakaunti lamang sa puso. Ang tinutukoy rito ay ang pagtanggi sa katotohanan, at ang panghahamak sa mga tao dahil itinuturing na mas mataas ang sarili kaysa sa kanila.
+
+Ang matinding babala tungkol sa hindi pagpasok sa Paraiso ay inuunawa kasama ng ibang mga patunay sa relihiyon. Ang nagmamataas laban sa katotohanang ipinahayag ni Allah, nasusuklam at tumatangging tanggapin ito, at nananatili sa ganitong pagtangging sumampalataya ay hindi papasok sa Paraiso at mananatili sa Impiyerno magpakailanman. Dahil nananatili siya sa ganitong pagtangging sumampalataya, nawawalan din ng gantimpala sa harap ni Allah ang kanyang mga gawa. Ngunit sa taong nagmamataas sa kapwa at itinuturing na higit ang sarili, nang hindi naman tumatanggi sa pagsamba kay Allah, ang babala ay hindi siya papasok sa Paraiso kasabay ng unang pangkat. Kaya hindi maaaring ipakahulugang ang lahat ng uri ng pagmamataas ay pare-parehong hahantong sa walang hanggang pananatili sa Impiyerno.
+
+Tinanong ng lalaki kung pagmamataas din ang pagkagusto sa magandang damit at sapatos. Ipinaliwanag ng Propeta na ang pagkagusto sa kagandahan mismo ay hindi pagmamataas. Ang pag-aayos ng sarili ay hindi kabilang sa pagmamataas kung hindi ito para magyabang, magmataas, o magpasikat sa iba.
+
+Maganda si Allah sa Kanyang sarili, sa Kanyang mga katangian, at sa Kanyang mga gawa. Ang nagmumula sa Kanya ay maganda at hindi pangit. Iniibig Niya ang kagandahan at ang maayos na pag-aalaga ng tao sa damit, sapatos, katawan at lahat ng mga gawain nito.
+
+Ang maayos na anyo ay nakaaakit ng loob at nakatutulong upang magustuhan ang isang tao. Kabaligtaran nito ang magulo at maruming tingnan na buhok o damit. Inihihiwalay ng hadith ang pagpapaganda ng sarili sa pagtanggi sa katotohanan at panghahamak sa mga tao.
+
+[Source context](sources.json) · [Source and reuse notes](source-note.md)

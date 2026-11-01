@@ -23,7 +23,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 - [Arabic Maryam Simplified reflections, 19:1–98, with sources](materials/tadabbur/ar/simplified/019.md)
 - [Arabic Essential Iman Hadiths: 286 lessons in 12 chapters](materials/hadith/essential-ar/README.md)
 - [Indonesian Essential Hadith: first complete lesson and sources](materials/hadith/essential-id/README.md)
-- [Heart Reminder: three Dunya reports in five languages](materials/hadith/heart-reminder/README.md)
+- [Heart Reminder: three Dunya reports and one Status report in five languages](materials/hadith/heart-reminder/README.md)
 - [Historical Hadith reading collection and translations](materials/hadith/README.md)
 - [Sayings of Ibn al-Qayyim](materials/ibn-al-qayyim/README.md)
 - [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Japanese and Filipino units, 39 lessons each](materials/under-5/README.md)

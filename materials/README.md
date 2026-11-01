@@ -836,4 +836,4 @@ Our translated summaries, meanings and explanations are **AI translated — need
 
 ## Heart Reminder: selected Dunya reports
 
-[Three individually reviewed reports in Uzbek, Thai, Vietnamese, Japanese and Filipino, with source records](hadith/heart-reminder/README.md). This is a partial selection, not the complete Heart collection.
+[Three Dunya reports and one Status report in Uzbek, Thai, Vietnamese, Japanese and Filipino, with source records](hadith/heart-reminder/README.md). This is a partial selection, not the complete Heart collection.

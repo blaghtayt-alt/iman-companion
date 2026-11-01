@@ -184,7 +184,61 @@
       "exactPublishedReaderSha256": "65a280880c3de3d327fb254165d2da3a4ef1327d2d7688762c32a0cc6d50d680",
       "sourceUpdateLinkAsRecorded": "https://hadeethenc.com/en/check/tl/v1.51.0",
       "sourceLastUpdateAsRecorded": "2026-08-29 02:48:59"
+    },
+    {
+      "contentId": "status.hadith.01",
+      "locale": "uz",
+      "selectedSourceLinks": [
+        "https://hadis.islom.uz/kitob/32/0/261"
+      ],
+      "selectedSourceVersionAsRecorded": null,
+      "sourceIdentityAsRecorded": null,
+      "exactPublishedReaderSha256": "55670ecc7bf3c61cbc7334626f3b928e8e0c57398a881d396dafa75e7db3d5ed"
+    },
+    {
+      "contentId": "status.hadith.01",
+      "locale": "th",
+      "selectedSourceLinks": [
+        "https://sirajmunir.net/th/jawami/ethics/"
+      ],
+      "selectedSourceVersionAsRecorded": null,
+      "sourceIdentityAsRecorded": null,
+      "exactPublishedReaderSha256": "ca355a5858e41100248d80913be626ccf23dd6475f9a92aa61e02a88a9f686ca"
+    },
+    {
+      "contentId": "status.hadith.01",
+      "locale": "vi",
+      "selectedSourceLinks": [
+        "https://hadeethenc.com/api/v1/hadeeths/one/?language=vi&id=6209"
+      ],
+      "selectedSourceVersionAsRecorded": "1.19.0",
+      "sourceIdentityAsRecorded": null,
+      "exactPublishedReaderSha256": "115fa339261a5c223cfe549fccbfd3505f14f9af4e8198987c5e5b31b7f63e4d",
+      "sourceUpdateLinkAsRecorded": "https://hadeethenc.com/en/check/vi/v1.19.0"
+    },
+    {
+      "contentId": "status.hadith.01",
+      "locale": "ja",
+      "selectedSourceLinks": [
+        "https://islamhouse.com/ar/books/2838655/",
+        "https://d1.islamhouse.com/data/ja/ih_books/single/ja-ma-la-yasae-atfal-almuslimin-jahlah.pdf"
+      ],
+      "selectedSourceVersionAsRecorded": null,
+      "sourceIdentityAsRecorded": "Exact matched catalogue identifies Rowad Translation Center as translator and Islamic Content Service scientific team; catalogue-level institutional identity, no invented named individual. Sourcefulltitleムスリムキッズが知らなくてはならないこと.",
+      "exactPublishedReaderSha256": "9a316a2318ea0f810eb1d2069cecf34825b9bd317fabf7a86da729e9a99514ab"
+    },
+    {
+      "contentId": "status.hadith.01",
+      "locale": "fil",
+      "selectedSourceLinks": [
+        "https://hadeethenc.com/api/v1/hadeeths/one/?language=tl&id=6209"
+      ],
+      "selectedSourceVersionAsRecorded": "1.51.0",
+      "sourceIdentityAsRecorded": null,
+      "exactPublishedReaderSha256": "b84d52a0ef59f39f235d668bc87b5a9773a7cd6e1d6aed66b445951563ceffff",
+      "sourceUpdateLinkAsRecorded": "https://hadeethenc.com/en/check/tl/v1.51.0"
     }
   ],
-  "conditions": "See each report source-note.md and sources.json. No blanket publisher grant or notice compliance is asserted."
+  "conditions": "See each report source-note.md and sources.json. No blanket publisher grant or notice compliance is asserted.",
+  "additionalScope": "status.hadith.01 in five locales"
 }

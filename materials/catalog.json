@@ -14820,6 +14820,61 @@
       "humanCertification": false,
       "sourceContext": "materials/hadith/heart-reminder/dunya-03/sources.json",
       "sourceConditions": "materials/hadith/heart-reminder/dunya-03/source-note.md"
+    },
+    {
+      "collection": "heart-reminder",
+      "language": "uz",
+      "id": "status.hadith.01",
+      "markdown": "materials/hadith/heart-reminder/status-01/uz.md",
+      "json": "materials/hadith/heart-reminder/status-01/uz.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "sourceContext": "materials/hadith/heart-reminder/status-01/sources.json",
+      "sourceConditions": "materials/hadith/heart-reminder/status-01/source-note.md"
+    },
+    {
+      "collection": "heart-reminder",
+      "language": "th",
+      "id": "status.hadith.01",
+      "markdown": "materials/hadith/heart-reminder/status-01/th.md",
+      "json": "materials/hadith/heart-reminder/status-01/th.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "sourceContext": "materials/hadith/heart-reminder/status-01/sources.json",
+      "sourceConditions": "materials/hadith/heart-reminder/status-01/source-note.md"
+    },
+    {
+      "collection": "heart-reminder",
+      "language": "vi",
+      "id": "status.hadith.01",
+      "markdown": "materials/hadith/heart-reminder/status-01/vi.md",
+      "json": "materials/hadith/heart-reminder/status-01/vi.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "sourceContext": "materials/hadith/heart-reminder/status-01/sources.json",
+      "sourceConditions": "materials/hadith/heart-reminder/status-01/source-note.md"
+    },
+    {
+      "collection": "heart-reminder",
+      "language": "ja",
+      "id": "status.hadith.01",
+      "markdown": "materials/hadith/heart-reminder/status-01/ja.md",
+      "json": "materials/hadith/heart-reminder/status-01/ja.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "sourceContext": "materials/hadith/heart-reminder/status-01/sources.json",
+      "sourceConditions": "materials/hadith/heart-reminder/status-01/source-note.md"
+    },
+    {
+      "collection": "heart-reminder",
+      "language": "fil",
+      "id": "status.hadith.01",
+      "markdown": "materials/hadith/heart-reminder/status-01/fil.md",
+      "json": "materials/hadith/heart-reminder/status-01/fil.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "sourceContext": "materials/hadith/heart-reminder/status-01/sources.json",
+      "sourceConditions": "materials/hadith/heart-reminder/status-01/source-note.md"
     }
   ],
   "workInProgress": [
@@ -15267,5 +15322,17 @@
     ],
     "sourceIndex": "materials/hadith/heart-reminder/source-index.json",
     "scope": "Only the specified fifteen readings; other Heart material has separate coverage."
+  },
+  "heartReminderStatus781": {
+    "availableRecords": 1,
+    "languages": [
+      "uz",
+      "th",
+      "vi",
+      "ja",
+      "fil"
+    ],
+    "sourceIndex": "materials/hadith/heart-reminder/source-index.json",
+    "scope": "Only this report in five locales; other Heart material has separate coverage."
   }
 }

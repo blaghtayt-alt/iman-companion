@@ -1,0 +1,113 @@
+# status.hadith.01
+
+## uz
+
+Кибр ва гўзаллик
+
+Ибн Масъуд розийаллоҳу анҳудан ривоят қилинади: «Расулуллоҳ соллаллоҳу алайҳи васаллам: «Қалбида зарра мисқолича кибр бўлган киши жаннатга кирмайди», дедилар. Шунда бир киши: «Бир одам кийими ва пойабзали бежирим бўлишини яхши кўради, шу нарса кибрми?» деб сўради. «Албатта, Аллоҳ гўзалдир, гўзалликни хуш кўради, у кибр эмас. Кибр ҳаққа унамаслик – рад этиш ва одамларни масхара қилиш – таҳқирлашдир», дедилар.
+
+«Саҳиҳ Муслим», 91.
+
+Изоҳ
+
+Кибр — дунё ва охиратда Аллоҳнинг азобига сазовор қиладиган катта гуноҳлардан. Қалбда унинг озгинаси бўлса ҳам, бунга бепарво қараб бўлмайди. Кибрнинг маъноси — ҳақни қабул қилмай рад этиш ва одамларни ўзидан паст санаб, таҳқирлаш.
+
+Жаннатга кирмаслик ҳақидаги бу қаттиқ огоҳлантириш бошқа шаръий далиллар билан бирга тушунилади. Агар киши Аллоҳ нозил қилган ҳаққа такаббурлик қилиб, уни ёмон кўрса ва қабул қилишдан бош тортса, бундай куфрда қолган киши жаннатга кирмайди, дўзахда абадий қолади. Бундай куфрда қолган киши амалларининг Аллоҳ ҳузуридаги савобидан ҳам маҳрум бўлади. Аммо одамларга кибр қилиб, ўзини улардан юқори тутган, лекин Аллоҳга ибодат қилишдан бош тортмаган киши ҳақидаги огоҳлантириш — жаннатга биринчи кирувчилар билан бирга кирмаслигидир. Демак, ҳар қандай кибрни бир хилда талқин қилиб, унинг ҳаммасини абадий дўзахга сабаб деб бўлмайди.
+
+Савол берган киши чиройли кийим ва пойабзални яхши кўриш ҳам кибрми, деб сўраган эди. Расулуллоҳ гўзалликни яхши кўришнинг ўзи кибр эмаслигини тушунтирдилар. Гўзал кўриниш фахрланиш, кеккайиш ёки бошқаларга ўзини кўз-кўз қилиш учун бўлмаса, кибр ҳисобланмайди.
+
+Аллоҳ Ўз зотида, сифатларида ва ишларида гўзалдир. У Зотдан содир бўладиган ишлар гўзалдир, қабиҳ эмас. У Зот гўзалликни, банданинг кийими, пойабзали, бадани ва барча ишларида озода, чиройли бўлишини яхши кўради.
+
+Ораста кўриниш одамларнинг кўнглини яқинлаштиради ва меҳр уйғотади. Соч ёки кийимнинг пала-партиш, кўримсиз бўлиши эса бунга тескари таъсир қилади. Ҳадис озодалик ва гўзалликни кибрдан ажратади: ташқи кўринишни яхшилаш ҳақни рад этиш ёки одамларни камситиш дегани эмас.
+
+## th
+
+ความงามกับความหยิ่งยโส
+
+ผู้รายงานหะดีษคืออับดุลลอฮ์ บิน มัสอูด ขออัลลอฮ์ทรงพอพระทัยท่าน
+
+ท่านศาสดามุฮัมมัด ﷺ กล่าวว่า ผู้ใดในหัวใจของเขามีน้ำหนักเท่าเมล็ดฝุ่นของความหยิ่งยโสจะไม่เข้าสวรรค์ มีผู้ถามว่า คนก็มักจะชอบให้เสื้อผ้าและรองเท้าของตนดี พระองค์ตรัสว่า แท้จริงอัลลอฮฺทรงงดงามและทรงรักความงาม ความหยิ่งยโสคือการปฏิเสธความจริงและการดูหมิ่นผู้คน
+
+เศาะฮีห์มุสลิม 91
+
+คำอธิบาย
+
+ความหยิ่งยโสเป็นบาปใหญ่ที่สมควรได้รับการลงโทษจากอัลลอฮ์ทั้งในโลกนี้และโลกหน้า แม้มีเพียงเล็กน้อยในใจก็ไม่ควรมองข้าม ความหยิ่งยโสในที่นี้คือการปฏิเสธไม่ยอมรับความจริง และการดูถูกเหยียดหยามผู้คนโดยเห็นว่าตนเหนือกว่า
+
+คำเตือนอันรุนแรงเรื่องการไม่เข้าสวรรค์ต้องเข้าใจร่วมกับหลักฐานทางศาสนาอื่น ๆ หากผู้ใดหยิ่งยโสต่อความจริงที่อัลลอฮ์ทรงประทาน เกลียดชังและปฏิเสธไม่ยอมรับมัน ผู้ที่คงอยู่ในการปฏิเสธศรัทธาเช่นนี้จะไม่เข้าสวรรค์และอยู่ในนรกตลอดไป การคงอยู่ในการปฏิเสธศรัทธาเช่นนี้ยังทำให้เขาไม่ได้รับผลบุญจากการงานของตน ณ อัลลอฮ์ด้วย แต่ผู้ที่ยกตนเหนือผู้อื่นโดยไม่ได้ปฏิเสธการเคารพภักดีต่ออัลลอฮ์นั้น คำเตือนหมายถึงการไม่ได้เข้าสวรรค์พร้อมคนกลุ่มแรก จึงไม่ควรเหมารวมว่าความหยิ่งยโสทุกชนิดมีผลเป็นการอยู่ในนรกตลอดกาลเหมือนกัน
+
+ชายคนนั้นถามท่านนบีว่าการชอบเสื้อผ้าและรองเท้าที่ดีงามเป็นความหยิ่งยโสหรือไม่ ท่านนบีเป็นผู้ตอบว่าการรักความงามเพียงอย่างเดียวไม่ใช่ความหยิ่งยโส การแต่งกายให้ดูดีไม่ได้เป็นความหยิ่งยโส หากไม่ได้ทำเพื่อโอ้อวด ยกตน หรือข่มผู้อื่น
+
+อัลลอฮ์ทรงงดงามในพระองค์เอง ในพระคุณลักษณะ และในการกระทำของพระองค์ สิ่งที่มาจากพระองค์งดงาม ไม่ใช่สิ่งน่าเกลียด พระองค์ทรงรักความงาม และทรงรักการที่มนุษย์ดูแลเสื้อผ้า รองเท้า ร่างกาย และเรื่องต่าง ๆ ของตนให้งดงามเรียบร้อย
+
+ความเรียบร้อยงดงามช่วยให้ผู้คนรู้สึกใกล้ชิดและมีไมตรี ตรงข้ามกับผมหรือเสื้อผ้าที่รุงรังไม่น่าดู หะดีษจึงแยกการดูแลตนเองให้ดีออกจากการปฏิเสธความจริงและการดูหมิ่นผู้คน
+
+## vi
+
+Cái đẹp và sự kiêu ngạo
+
+Ông Abdullah bin Mas'ud thuật lại rằng Thiên Sứ của Allah nói: {Sẽ không vào Thiên Đàng đối với ai mà trong trái tim của y có sự tự cao tự đại dù chỉ bằng hạt cải}. Một người đàn ông nói: quả thật, một người đàn ông thích mắc áo đẹp, dép đẹp thì sao? Thiên Sứ của Allah nói: {Quả thật, Allah là Đấng Hoàn Mỹ, Ngài yêu thích cái đẹp; sự tự cao tự đại là phủ nhận điều chân lý và khinh thường mọi người}.
+
+Sahih Muslim, 91.
+
+Giải thích
+
+Kiêu ngạo là một trọng tội đáng bị Allah trừng phạt ở đời này và Đời Sau. Vì vậy, không thể xem nhẹ dù trong lòng chỉ có rất ít. Kiêu ngạo ở đây là phủ nhận, không chịu chấp nhận chân lý, và khinh miệt người khác vì cho rằng mình hơn họ.
+
+Lời cảnh báo nghiêm khắc về việc không vào Thiên Đàng phải được hiểu cùng các bằng chứng tôn giáo khác. Người kiêu ngạo trước chân lý Allah mặc khải, ghét bỏ và từ chối chấp nhận nó, rồi cứ giữ tình trạng vô đức tin ấy, sẽ không vào Thiên Đàng mà ở trong Hỏa Ngục mãi mãi. Việc cứ giữ tình trạng vô đức tin ấy cũng khiến các việc làm của người đó không còn mang lại phần thưởng nơi Allah. Còn người kiêu ngạo với con người, tự nâng mình lên trên họ nhưng không từ chối thờ phượng Allah, thì lời cảnh báo nói đến việc không vào Thiên Đàng cùng nhóm đầu tiên. Vì vậy, không thể gộp mọi dạng kiêu ngạo thành cùng một trường hợp phải ở trong Hỏa Ngục vĩnh viễn.
+
+Người đàn ông hỏi liệu thích quần áo và giày dép đẹp có phải là kiêu ngạo không. Thiên Sứ giải thích rằng yêu cái đẹp tự nó không phải là kiêu ngạo. Làm đẹp không thuộc sự kiêu ngạo khi không nhằm khoe khoang, tự cao hay phô trương hơn người.
+
+Allah hoàn mỹ trong chính Ngài, trong các thuộc tính và trong các hành động của Ngài. Những gì xuất phát từ Ngài đều tốt đẹp, không xấu xa. Ngài yêu cái đẹp và yêu việc con người chăm chút quần áo, giày dép, cơ thể cùng mọi mặt trong cuộc sống cho đẹp đẽ, tươm tất.
+
+Vẻ ngoài tươm tất khiến mọi người dễ gần và quý mến nhau, trái với mái tóc hay quần áo luộm thuộm, khó coi. Lời truyền thuật phân biệt việc giữ gìn vẻ ngoài đẹp đẽ với việc bác bỏ chân lý và coi thường người khác.
+
+## ja
+
+美しさと傲慢さ
+
+伝承者はアブドッラー・ブン・マスウード（アッラーのご満悦あれ）です。本文の「ジャンナ」は楽園のことです。
+
+アッラーのしと（しゅくふくとへいあんあれ）は言いました：「心（こころ）の中に、一粒（つぶ）ほどでも傲慢（ごうまん）さがある者は、ジャンナに入りません。」ある男（おとこ）が、言いました：「人は、自分（じぶん）の服（ふく）や靴（くつ）がよいことを好（この）むものですが？」するとアッラーのしとは、言いました：「アッラーは美（うつく）しく、美（うつく）しさを好（この）むお方です。傲慢（ごうまん）さとは正しいことを軽（かろ）んじ、人びとを蔑（さげす）むことです。」ムスリムのでんしょう
+
+『ムスリムキッズが知らなくてはならないこと』172頁。ムスリム91。
+
+本文の語句の説明
+
+「正しいことを軽（かろ）んじ」とは、真理（しんり）を拒（こば）むことです。
+
+「人びとを蔑（さげす）む」とは、ばかにすることです。
+
+よい服（ふく）や、よい靴（くつ）をみにつけることは、傲慢（ごうまん）さではありません。
+
+解説
+
+傲慢さは、この世と来世でアッラーの罰に値する大きな罪です。心にわずかでもあれば、軽く考えてはいけません。ここでいう傲慢さとは、真理を拒み、受け入れようとしないこと、そして自分を上に置いて人々を見下し、侮ることです。
+
+楽園に入らないという厳しい警告は、ほかの宗教上の根拠と合わせて理解します。アッラーが下された真理に対して傲慢になり、それを憎んで受け入れず、その不信仰を続ける人は楽園に入らず、地獄に永遠にとどまります。その不信仰を続ける人は、行いに対するアッラーの御許での報いも失います。一方、人々に対して高ぶり、自分を上に置いていても、アッラーを崇拝することまで拒んでいない人への警告は、最初の一団とともには楽園に入らないという意味です。あらゆる傲慢さを同じものと考え、すべて永遠の地獄を意味すると受け取ってはいけません。
+
+質問した男性は、良い服や靴を好むことも傲慢なのかと尋ねました。預言者は、美しさを好むこと自体は傲慢ではないと説明しました。美しく装うことも、自慢や高ぶり、人に見せびらかすためでなければ、傲慢さには当たりません。
+
+アッラーは御自身も、その属性も、その行いも美しい御方です。かれに由来するものは美しく、醜いものではありません。かれは美しさを愛され、人が服や靴、身体、日々のさまざまなことを美しく整えることを愛されます。
+
+身なりを整えることは、人の心を引き寄せ、親しみを生みます。髪や服が乱れ、見苦しいままにすることは、その反対の影響を及ぼします。この伝承は、身なりを美しく整えることと、真理を拒み、人を侮ることを区別しています。
+
+## fil
+
+Kagandahan at pagmamataas
+
+Ayon kay `Abdullāh bin Mas`ūd, malugod si Allah sa kanya, ayon sa Propeta, pagpalain siya ni Allah at pangalagaan, na nagsabi: "Hindi papasok sa Paraiso ang sinumang sa puso niya ay may kasimbigat ng butil ng alikabok na pagmamalaki." Nagsabi ang isang lalaki: "Tunay na ang tao ay ibig na ang damit niya ay maganda at ang sapatos niya ay maganda." Nagsabi siya: "Tunay na si Allah ay maganda na naiibigan ang kagandahan. Ang pagmamalaki ay ang pagwawalang-bahala sa katotohanan at ang pag-aalipusta sa mga tao."
+
+Sahih Muslim, 91.
+
+Paliwanag
+
+Malaking kasalanan ang pagmamataas na karapat-dapat sa parusa ni Allah sa mundo at sa Kabilang-buhay. Hindi ito dapat balewalain kahit kakaunti lamang sa puso. Ang tinutukoy rito ay ang pagtanggi sa katotohanan, at ang panghahamak sa mga tao dahil itinuturing na mas mataas ang sarili kaysa sa kanila.
+
+Ang matinding babala tungkol sa hindi pagpasok sa Paraiso ay inuunawa kasama ng ibang mga patunay sa relihiyon. Ang nagmamataas laban sa katotohanang ipinahayag ni Allah, nasusuklam at tumatangging tanggapin ito, at nananatili sa ganitong pagtangging sumampalataya ay hindi papasok sa Paraiso at mananatili sa Impiyerno magpakailanman. Dahil nananatili siya sa ganitong pagtangging sumampalataya, nawawalan din ng gantimpala sa harap ni Allah ang kanyang mga gawa. Ngunit sa taong nagmamataas sa kapwa at itinuturing na higit ang sarili, nang hindi naman tumatanggi sa pagsamba kay Allah, ang babala ay hindi siya papasok sa Paraiso kasabay ng unang pangkat. Kaya hindi maaaring ipakahulugang ang lahat ng uri ng pagmamataas ay pare-parehong hahantong sa walang hanggang pananatili sa Impiyerno.
+
+Tinanong ng lalaki kung pagmamataas din ang pagkagusto sa magandang damit at sapatos. Ipinaliwanag ng Propeta na ang pagkagusto sa kagandahan mismo ay hindi pagmamataas. Ang pag-aayos ng sarili ay hindi kabilang sa pagmamataas kung hindi ito para magyabang, magmataas, o magpasikat sa iba.
+
+Maganda si Allah sa Kanyang sarili, sa Kanyang mga katangian, at sa Kanyang mga gawa. Ang nagmumula sa Kanya ay maganda at hindi pangit. Iniibig Niya ang kagandahan at ang maayos na pag-aalaga ng tao sa damit, sapatos, katawan at lahat ng mga gawain nito.
+
+Ang maayos na anyo ay nakaaakit ng loob at nakatutulong upang magustuhan ang isang tao. Kabaligtaran nito ang magulo at maruming tingnan na buhok o damit. Inihihiwalay ng hadith ang pagpapaganda ng sarili sa pagtanggi sa katotohanan at panghahamak sa mga tao.
