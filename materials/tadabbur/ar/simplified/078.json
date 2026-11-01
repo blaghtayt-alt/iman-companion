@@ -3,7 +3,7 @@
   "mode": "simplified",
   "language": "ar",
   "publicationStatus": "partial-supplied-arabic-source",
-  "notice": "39 supplied Arabic source passages; 78:29 held for quotation orthography review. Normalized structural Quran screening only, not a new scholarly certificate.",
+  "notice": "40 supplied Arabic Simplified passages. In 78:29, two Quran citation display spellings follow the approved corpus projection; original source and reversible mappings are retained. Structural screening only, not a scholarly certification.",
   "sourceSha256": "2753c9a1bfc33cae312c834e80177b390010b1f01d6f0488d386955a15107f33",
   "entries": {
     "78:1": {
@@ -453,6 +453,46 @@
         }
       ],
       "sourceRecord": "../../sources/078/ar/simplified/078-028.json"
+    },
+    "78:29": {
+      "heading": "الآية 29",
+      "blocks": [
+        {
+          "kind": "ayah",
+          "role": "current-ayah",
+          "text": "﴿ وَكُلَّ شَىْءٍ أَحْصَيْنَـٰهُ كِتَـٰبًۭا ﴾"
+        },
+        {
+          "kind": "paragraph",
+          "role": "meaning",
+          "text": "توسع دائرة الحساب: ليس انطباعًا عامًا عن حياة الإنسان، بل إحصاء لا يضيع معه شيء. في الشرح اتسع المعنى ليشمل الفعل وملابساته وآثاره وما ترتب عليه؛ فلا تختزل المسألة في «فعلت أو لم أفعل» فقط. ويُقابل هذا عجز الإنسان نفسه عن الإحصاء، كما في ﴿وَإِن تَعُدُّوا نِعْمَةَ اللَّهِ لَا تُحْصُوهَا﴾ [النحل: 18]. أنت تنسى تفاصيل كثيرة من نفسك، لكن نسيانك لا يمحوها. هذا ليس دعوة للوسواس، بل للصدق: أصلح ما تستطيع قبل أن تراه مكتوبًا بلا فراغات. ﴿وَإِن تَعُدُّوا نِعْمَةَ اللَّهِ لَا تُحْصُوهَا ۗ إِنَّ اللَّهَ لَغَفُورٌ رَّحِيمٌ﴾ [النحل: 18] ويدخل في هذا الإحصاء - كما بُين في الشرح - زمان الفعل ومكانه وقدره وآثاره ومن تأثر به ومن اقتدى بصاحبه وما ترتب عليه؛ فالحساب لا يختزل في عنوان عام عن الحياة.",
+          "spans": [
+            {
+              "role": "prose",
+              "text": "توسع دائرة الحساب: ليس انطباعًا عامًا عن حياة الإنسان، بل إحصاء لا يضيع معه شيء. في الشرح اتسع المعنى ليشمل الفعل وملابساته وآثاره وما ترتب عليه؛ فلا تختزل المسألة في «فعلت أو لم أفعل» فقط. ويُقابل هذا عجز الإنسان نفسه عن الإحصاء، كما في "
+            },
+            {
+              "role": "quran",
+              "text": "﴿وَإِن تَعُدُّوا نِعْمَةَ اللَّهِ لَا تُحْصُوهَا﴾"
+            },
+            {
+              "role": "prose",
+              "text": " [النحل: 18]. أنت تنسى تفاصيل كثيرة من نفسك، لكن نسيانك لا يمحوها. هذا ليس دعوة للوسواس، بل للصدق: أصلح ما تستطيع قبل أن تراه مكتوبًا بلا فراغات. "
+            },
+            {
+              "role": "quran",
+              "text": "﴿وَإِن تَعُدُّوا نِعْمَةَ اللَّهِ لَا تُحْصُوهَا ۗ إِنَّ اللَّهَ لَغَفُورٌ رَّحِيمٌ﴾"
+            },
+            {
+              "role": "prose",
+              "text": " [النحل: 18] ويدخل في هذا الإحصاء - كما بُين في الشرح - زمان الفعل ومكانه وقدره وآثاره ومن تأثر به ومن اقتدى بصاحبه وما ترتب عليه؛ فالحساب لا يختزل في عنوان عام عن الحياة."
+            }
+          ]
+        }
+      ],
+      "sourceRecord": "../../sources/078/ar/simplified/078-029-876.json",
+      "sourceSha256": "2753c9a1bfc33cae312c834e80177b390010b1f01d6f0488d386955a15107f33",
+      "publicationStatus": "supplied-arabic-source-with-two-approved-citation-display-projections"
     },
     "78:30": {
       "heading": "الآية 30",
