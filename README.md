@@ -18,6 +18,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 - [Seerah chapters and current language coverage](materials/seerah/combined/README.md)
 - [Japanese Al-Qiyamah reflections, 75:1–40, with sources](materials/tadabbur/ja/extended/075.md)
 - [Arabic Essential Iman Hadiths: 238 lessons in 10 chapters](materials/hadith/essential-ar/README.md)
+- [Indonesian Essential Hadith: first complete lesson and sources](materials/hadith/essential-id/README.md)
 - [Historical Hadith reading collection and translations](materials/hadith/README.md)
 - [Sayings of Ibn al-Qayyim](materials/ibn-al-qayyim/README.md)
 - [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Japanese and Filipino units, 39 lessons each](materials/under-5/README.md)
@@ -38,7 +39,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 | Ibn al-Qayyim | [Complete: 37 sayings and explanations in each of 20 languages](materials/ibn-al-qayyim/README.md) |
 | Under 5 | [Six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Japanese and Filipino units, 39 lessons each](materials/under-5/README.md); audio in preparation |
 
-The Ibn al-Qayyim sayings collection is complete in all 20 app languages. Other collections have different coverage: [the 238-lesson Arabic Essential Hadith course](materials/hadith/essential-ar/README.md) is available as a distinct collection; its foreign lesson coverage remains limited; Seerah in Uzbek, Thai, Vietnamese, Japanese and Filipino is incomplete. Under 5 text is complete in all 20 app languages; its six audio recordings are in preparation. Coverage differs between collections. This is not a complete translation of every surah, and some Arabic sources contain selected ayahs only. The catalog gives the actual ayah counts and identifies introductions and archived chapters.
+The Ibn al-Qayyim sayings collection is complete in all 20 app languages. Other collections have different coverage: [the 238-lesson Arabic Essential Hadith course](materials/hadith/essential-ar/README.md) is available as a distinct collection; its Indonesian first lesson is available separately and foreign coverage remains limited; Seerah in Uzbek, Thai, Vietnamese, Japanese and Filipino is incomplete. Under 5 text is complete in all 20 app languages; its six audio recordings are in preparation. Coverage differs between collections. This is not a complete translation of every surah, and some Arabic sources contain selected ayahs only. The catalog gives the actual ayah counts and identifies introductions and archived chapters.
 
 ## Where the material comes from
 

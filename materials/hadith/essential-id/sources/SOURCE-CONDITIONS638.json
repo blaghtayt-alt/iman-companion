@@ -1,0 +1,129 @@
+{
+  "scope": "Only essential-01-001 Indonesian, complete distinct independent final638 after MAIN659 reconciliation.",
+  "status": "Complete scoped independent meaning/source qualification. No contact or notice performed. Actual recipient runtime/update/presentation checks remain.",
+  "actualFetches": [
+    {
+      "file": "HEC-CHECK635.html",
+      "URL": "https://hadeethenc.com/en/check/id/v1.22.0",
+      "HTTP": 200,
+      "bytes": 104666,
+      "sha256": "2b4d870002e032ec1308f8440c5cca24819d7028bdf6721ea8f27a4bb9d77b4f"
+    },
+    {
+      "file": "QURANENC-TERMS635.html",
+      "URL": "https://quranenc.com/en/home/api/",
+      "HTTP": 200,
+      "bytes": 311662,
+      "sha256": "44c46ad9594fd11c59be1748d54f13fed15b42c80cff6e750ae770a295e2328d"
+    },
+    {
+      "file": "PUBLISHER-POLICY635.md",
+      "URL": "https://raw.githubusercontent.com/IslamHouse-API/multilingual-quran-hadith-islamic-content-database-api-hub/main/README.md",
+      "HTTP": 200,
+      "bytes": 19703,
+      "sha256": "eece3db0ad94aac316b21a1a569001db2b5dda6bee602672a80f6d5c91afc31d"
+    },
+    {
+      "file": "QURAN-METADATA635.json",
+      "URL": "https://quranenc.com/api/v1/translations/list?language=id",
+      "HTTP": 200,
+      "bytes": 65890,
+      "sha256": "bdf43979fd2d0158ad8a87e78a4718cd6c962db2c7afc40042b065ccb8ef5386"
+    }
+  ],
+  "QuranEnc": {
+    "sourceURL": "https://quranenc.com/en/home/api/",
+    "fullSevenTermsVerbatim": "Terms and Policies\nContents of the translations can be downloaded and re-published, with the following terms and conditions:\n1. No modification, addition, or deletion of the content.\n2. Clearly referring to the publisher and the source (QuranEnc.com).\n3. Mentioning the version number when re-publishing the translation.\n4. Keeping the transcript information inside the document.\n5. Notifying the source (QuranEnc.com) of any note on the translation.\n6. Updating the translation according to the latest version issued from the source (QuranEnc.com).\n7. Inappropriate advertisements must not be included when displaying translations of the meanings of the Noble Quran.",
+    "assessment": "Complete selected parent text, notes, publisher/source/version and transcript retained; exact published substrings only. No own Quran translation. Proposed unselected punctuation/wording issues remain private; no notice claimed and no blanket ban inferred. Differing legitimate interpretation is not automatically a translation error.",
+    "sourceConditionsAtUse": "Fresh metadata confirms recorded versions. Recipient must recheck updates and suitable presentation before scoped use; no app/runtime/advertising state examined by author."
+  },
+  "unifiedPublisherPolicy": {
+    "key": "ISLAMHOUSE-UNIFIED-POLICY-CURRENT635",
+    "sourceURL": "https://github.com/IslamHouse-API/multilingual-quran-hadith-islamic-content-database-api-hub",
+    "rawURL": "https://raw.githubusercontent.com/IslamHouse-API/multilingual-quran-hadith-islamic-content-database-api-hub/main/README.md",
+    "capturedSHA256": "eece3db0ad94aac316b21a1a569001db2b5dda6bee602672a80f6d5c91afc31d",
+    "completeRelevantPolicyAndFAQVerbatim": "<!-- README.md -->\n<!-- Keywords: Quran API, Hadith API, IslamHouse API, QuranEnc API, HadeethEnc API, Islamic API, Quran Dataset, Hadith Dataset, Islamic AI, RAG -->\n\n<div align=\"center\">\n\n# Islamic Content API Hub for Developers\n\n### Quran • Hadith • Books • Articles • Audio • Video\n\n**IslamHouse.com · QuranEnc.com · HadeethEnc.com**\n\n<br>\n\n![Languages](https://img.shields.io/badge/Languages-147-success?style=for-the-badge)\n![Quran API](https://img.shields.io/badge/Quran-API-blue?style=for-the-badge)\n![Hadith API](https://img.shields.io/badge/Hadith-API-purple?style=for-the-badge)\n![API Access](https://img.shields.io/badge/API%20Access-Free-yellow?style=for-the-badge)\n![Code License](https://img.shields.io/badge/Code%20License-MIT-lightgrey?style=for-the-badge)\n\n<br>\n\n📧 **admin@islamhouse.com**\n\n<br>\n\n[![GitHub stars](https://img.shields.io/github/stars/IslamHouse-API/multilingual-quran-hadith-islamic-content-database-api-hub?style=social)](https://github.com/IslamHouse-API/multilingual-quran-hadith-islamic-content-database-api-hub/stargazers)\n[![GitHub forks](https://img.shields.io/github/forks/IslamHouse-API/multilingual-quran-hadith-islamic-content-database-api-hub?style=social)](https://github.com/IslamHouse-API/multilingual-quran-hadith-islamic-content-database-api-hub/forks)\n[![Share Repository](https://img.shields.io/badge/Share-Repository-0969da?style=flat-square&logo=github)](https://github.com/IslamHouse-API/multilingual-quran-hadith-islamic-content-database-api-hub)\n\n**⭐ If this repository helps you, please star it and share it with developers and organizations that may benefit from it.**\n\n</div>\n\n---\n\n## 🚀 API Access\n\n| Platform | Content | Documentation |\n|---|---|:---:|\n| **IslamHouse API v3** | Books, articles, fatwas, audio, video, and attachments | [![Postman](https://img.shields.io/badge/Postman-Docs-FF6C37?style=flat-square&logo=postman&logoColor=white)](https://documenter.getpostman.com/view/7929737/TzkyMfPc) |\n| **QuranEnc API** | Quran meaning translations and Surah/Ayah data | [![API Docs](https://img.shields.io/badge/API-Docs-2ea44f?style=flat-square&logo=readthedocs&logoColor=white)](https://quranenc.com/en/home/api) |\n| **HadeethEnc API** | Hadith, translations, and explanations | [![Postman](https://img.shields.io/badge/Postman-Docs-FF6C37?style=flat-square&logo=postman&logoColor=white)](https://documenter.getpostman.com/view/5211979/TVev3j7q) |\n\n---\n\n## 🌱 Our Mission\n\nWe want trusted Islamic knowledge to reach as many people as possible. You may download, publish, print, and integrate the content into apps, websites, and technical projects while preserving the original text and clearly citing the source.\n\n**Share beneficial knowledge, preserve the text faithfully, and cite the source.**\n\n---\n\n## ✅ What Is Allowed?\n\n- Downloading and republishing the content.\n- Printing and distributing it.\n- Storing it for offline use.\n- Using it in apps and websites.\n- Using it in commercial and non-commercial projects.\n- Using it for search, indexing, RAG, and AI assistants.\n- Changing formatting or file format as long as the original text itself is not changed.\n\n**You do not need prior permission if you follow the conditions below.**\n\n---\n\n## 📌 Republishing Conditions\n\n1. **Do not alter the original text:** no additions, deletions, or changes to content that you attribute to our platforms.\n2. **Cite the source clearly:** IslamHouse.com, QuranEnc.com, or HadeethEnc.com, together with the author, translator, or publisher when available.\n3. **Keep version information:** especially translation version numbers and metadata from QuranEnc.\n4. **Update your copy:** when a newer version is released by the source.\n5. **Send corrections to us:** if you find a scholarly or linguistic issue, send it to the relevant platform so we can correct the official version.\n6. **Respect the nature of the content:** do not place inappropriate advertisements or materials next to Quran or Hadith content.\n\n---\n\n## ✏️ Summaries, Abridgements, and Edits\n\nYou may summarize, shorten, or rewrite a work, but the result becomes **your own independent work** and must not be presented as an edition issued or approved by our platforms.\n\nDo not use wording such as **“IslamHouse — adapted”** or **“QuranEnc — slightly edited”** if it could make readers think the modified version was issued or approved by us.\n\nA suitable wording is:\n\n> **“This summary was prepared using material published on IslamHouse.com. The summary itself was prepared independently by the project owner.”**\n\n---\n\n## 🕋 Special Rules for QuranEnc Translations\n\nWhen republishing Quran meaning translations from **QuranEnc.com**:\n\n1. Do not modify, add to, or delete from the translation text.\n2. Clearly name the publisher and source: **QuranEnc.com**.\n3. Include the translation version number when republishing it.\n4. Keep the translation version information.\n5. Send any scholarly or linguistic notes to QuranEnc.\n6. Update the translation when a new version is released.\n7. Do not place inappropriate advertisements next to translations of the meanings of the Quran.\n\n---\n\n## 📚 IslamHouse and HadeethEnc\n\nThe same principle applies to content from **IslamHouse** and **HadeethEnc**:\n\n**Publish, print, and share it — but preserve the original text, its metadata, and its source.**\n\nIf you find a scholarly or linguistic issue, please send it to us instead of changing the official text while continuing to attribute that changed version to our platforms.\n\n---\n\n## 🚫 ISBN and Exclusive Rights\n\n**You may not obtain a new ISBN for our content, register it as a new edition under another publisher, or claim ownership or exclusive rights over it.**\n\n- Printing, publishing, and distribution are allowed under this policy.\n- Do not remove the original source, author, translator, or publisher information.\n- Do not register the material under your name as your own original edition.\n- Do not use a new ISBN to suggest to stores or readers that you own the rights to the material.\n\nIf this happens, we reserve the right to report the listing to the store or publishing platform, request removal of the infringing product, and take appropriate steps to protect the rights and source information.\n\n---\n\n## 💰 Sales and Pricing\n\nWe allow the sale of printed or physical copies when the purpose is to cover reasonable costs such as printing, preparation, shipping, distribution, and the continued availability of the material to those who need it.\n\n**We do not allow excessive pricing for the purpose of profiting from the content itself.**\n\nIf the material is sold at an excessive price that is clearly inconsistent with reasonable costs, we reserve the right to object, submit a complaint, and request removal of the product from the store or platform.\n\n**Our goal is to sustain the spread of beneficial knowledge, not to turn it into an overpriced or monopolized product.**\n\n---\n\n## 🤖 Apps and Artificial Intelligence\n\nThe content may be used in apps, websites, search systems, RAG systems, and AI assistants.\n\nIf an application displays the original text, it must display it unchanged and with its source.\n\nA summary, explanation, or AI-generated text must not be presented as the original text issued by our platforms.\n\n---\n\n## 📄 Do I Need Written Permission?\n\nNo, as long as you follow this policy.\n\nIf an app store, government entity, institution, distributor, or other organization requires written confirmation, contact us:\n\n📧 **admin@islamhouse.com**\n\n---\n\n## 🌍 Approved Languages\n\nThe project uses a unified directory of **147 approved languages**. Actual content availability varies by platform and content type.\n\n",
+    "contentVersusCode": "MIT applies to repository code/technical documentation, not a substitute content licence. Relevant content reuse follows the actual policy.",
+    "actualAssessment": "Policy permits download, publication, print, offline, app and commercial/noncommercial use under conditions without prior permission. Preserve original text/credits/metadata; updates; send actual corrections; suitable adjacent material; no new ISBN/exclusive ownership; reasonable production-cost sales only, no excessive pricing. Independent own summaries/meanings must not be presented as publisher-issued or approved. No contact made; optional confirmation not treated as a mandatory permission prerequisite.",
+    "HECAboutCapture": "The captured HadeethEnc terms URL actually served an About page; it is not falsely described as seven HadeethEnc-specific terms. The separately read actual unified publisher policy supplies the recorded conditions."
+  },
+  "Kemenag4_110": {
+    "quoteId": 62,
+    "sourceURL": "https://pustakalajnah.kemenag.go.id/detail/135",
+    "edition": "Al-Qur’an dan Terjemahannya, Edisi Penyempurnaan 2019, cetakan pertama",
+    "publisher": "Lajnah Pentashihan Mushaf Al-Qur’an, Badan Litbang dan Diklat, Kementerian Agama RI",
+    "translationCredits": "Jajasan Penjelenggara Penterdjemah/Pentafsir Al-Qoeraan (1967) / Tim Penyempurnaan Terjemahan Al-Qur'an (2016-2019)",
+    "location": "Juz1–10 PDF136/printed129,4:110, no verse footnote. Exact verse and PDF unchanged; actual author credit evidence is catalogue135, not PDF2.",
+    "sourcePDFSHA256": "aae5348b99cb65957cfaa15eb099e87c29791c25c0fa323f68013134c3196df0",
+    "basis": "Narrow author assessment of educational quotation under UU28/2014 Article44(1)(a), with complete attribution and without unreasonable prejudice to the creator’s legitimate interests. One complete published verse only in this free educational commentary; no full-reader substitution, sale of the translation, public raw book PDF, ownership claim or global reuse permission inferred.",
+    "primaryStatuteURL": "https://jdih.mahkamahagung.go.id/download-file-satker/uu-nomor-28-tahun-2014",
+    "personallyInspectedLawPages": "Official 84-page web PDF, Articles43–44 on PDF/printed20–21 and Article44 explanatory note on page72 concerning reasonable interests.",
+    "limitation": "Government access is not itself a licence. This is a concrete scoped author assessment, not formal legal certification or written permission. Distinct final638 has assessed this exact scoped basis; recipient must preserve the free educational, attributed, proportionate scope. An unrelated later commercial/whole-reader use is not qualified by this record.",
+    "failedLocalDownload": "Direct local statute download returned403 HTML. A private file with a .pdf extension is not a successful local statutory PDF. The successful primary reading was the official web PDF.",
+    "actualOfficialDownloadURL": "https://pustakalajnah.kemenag.go.id/public/koleksi/safelink/70757374616b616c616a6e61682d323636",
+    "creditEvidence": "Exact official Pustaka Lajnah catalogue135, 2019, first printing,283pages, personally read in659; the same page was independently read638. PDF2 is a ministerial preface, not credit evidence. The old635 page2-credit statement is withdrawn, not silently represented as a true historical read.",
+    "independentAssessment638": "Actual primary law Articles40–44 and explanatory72 read. Exact one unchanged attributed published verse in this free educational commentary accepted on narrow Article44(1)(a) proportional educational quotation assessment. Not government-access licence, written permission, formal legal certification or whole-reader/commercial grant. Actual catalogue135 credit evidence accepted; false page2-credit evidence withdrawn."
+  },
+  "unselectedFiniteParents": {
+    "HEC10104": "Not selected. Whole Indonesian explanation assessed; conditional interpretation issue is not hidden by cropping only its body. No notice/contact claimed. No exclusion of other qualified parents.",
+    "HEC3596": "Not selected. Current/archive/old reviewed parent has actual Yya Allah explanation typo. Prior collection review preserved; not deemed current notice completion. Own q52 meaning instead.",
+    "HEC5509": "Not selected. Actual menejelaskan explanation typo remains publisher-owned, not silently repaired; own q73 meaning instead.",
+    "HEC4706": "Not selected. Actual body/explanation comparison assessed for ولا يخذله; independent Nawawi published q87 parent used. No global publisher ban.",
+    "HEC3636": "Valid remembering variant, unselected for q75 calling wording. Not characterized as an Indonesian error.",
+    "HEC5978": "Two complete published variants preserved privately, not joined across editorial transition; own complete q95 meaning used.",
+    "QuranEncAlternatives": "3:18 note188 selected Complex; 82:10–12 selected one Affairs edition; 2:190 selected complete Affairs after concrete Sabiq punctuation issue. 4:110 dan/aw is treated as a contextual interpretation question, not automatic error; unchanged Kemenag2019 atau selected on its own scoped basis. 3:30 day antecedent retained as legitimate published interpretation with source note.",
+    "HEC8280": "Current accurate Indonesian q51 excerpt not used. Complete parent has actual explanation typo perbuatan-perbuataan-Nya?; actual current condition5 reporting duty unresolved under human no-contact. Neither the excerpt nor the parent was silently edited; no universal source absence, written-permission demand, waiver or fulfilled notice claim. Current q51 is own direct Arabic meaning from full Muslim771a.",
+    "IslamHouse205106": "Positive complete article/prayer/footnote7/credits personally read659; actual dosa yang ma'tsur in surrounding context, also summary Dosa remains in original publisher text. Not selected or silently corrected; no contact or global publisher exclusion."
+  },
+  "contact": {
+    "performed": false,
+    "noticeFulfilledClaimed": false,
+    "humanProhibition": "No publisher contact, email or notification authorized."
+  },
+  "rightsUnknownNotAbsence": true,
+  "noNumericQuotaOrFormalAccreditationInvented": true,
+  "publicationScopeConditions": [
+    "Keep exact full parents, notes, credits, distinctions and update/version metadata in lesson notes available offline/save/export.",
+    "Do not publicly copy modern full books, raw archives, private research captures or unknown-rights rejected translations.",
+    "Do not turn own commentary into publisher-issued text or a human/scholarly certificate.",
+    "This complete first lesson passed distinct independent meaning/source review638; actual TerraXhigh recipient runtime/offline/save/export/update and adjacent-material checks are still required before publication."
+  ],
+  "freshFiniteChecks659": [
+    {
+      "file": "IH205106.html",
+      "URL": "https://islamhouse.com/id/articles/205106",
+      "HTTP": 200,
+      "bytes": 92179,
+      "sha256": "37382b0ecbdb89e0d0f5766890b210d0f22bf4f9550cf2a5b0ffaf9fa8dfcfae"
+    },
+    {
+      "file": "CATALOGUE135.html",
+      "URL": "https://pustakalajnah.kemenag.go.id/detail/135",
+      "HTTP": 200,
+      "bytes": 28169,
+      "sha256": "525041d3589fd1fe7d6d0bc1c308c3d47278df4b7d3a31a47fc31788808be6a0"
+    },
+    {
+      "file": "POLICY659.md",
+      "URL": "https://raw.githubusercontent.com/IslamHouse-API/multilingual-quran-hadith-islamic-content-database-api-hub/main/README.md",
+      "HTTP": 200,
+      "bytes": 19703,
+      "sha256": "eece3db0ad94aac316b21a1a569001db2b5dda6bee602672a80f6d5c91afc31d"
+    },
+    {
+      "file": "MUSLIM771A.html",
+      "URL": "https://sunnah.com/muslim:771a",
+      "HTTP": 200,
+      "bytes": 32733,
+      "sha256": "f204ec5f3a9be4ed308d1fd364d6f8c2a23c21a72792a1ba995ad0ca90351b2c"
+    },
+    {
+      "file": "HEC8280-ID.json",
+      "URL": "https://hadeethenc.com/api/v1/hadeeths/one/?language=id&id=8280",
+      "HTTP": 200,
+      "bytes": 40965,
+      "sha256": "726636fc4115f90cf95ed3a41138f7ac131a7ca108b775285ed198b4114ab793"
+    }
+  ],
+  "presentationOverride": "All26 notes and complete selected parents/credits/variants must be available in lesson notes, offline/save/export; no Hadith Source/research accordion dependency. Detailed source data is retained, not discarded."
+}
