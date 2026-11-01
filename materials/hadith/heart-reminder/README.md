@@ -1,6 +1,6 @@
-# Heart Reminder: selected Dunya reports
+# Heart Reminder: selected reports
 
-Three Dunya reports and one Status report are available in Uzbek, Thai, Vietnamese, Japanese and Filipino. Each reading preserves its selected published quotation and separates any added explanatory context. Other Heart Reminder categories and languages have their own coverage; this is not a complete Heart collection.
+Three Dunya, three Status, two Approval and one Trust report are available in Uzbek, Thai, Vietnamese, Japanese and Filipino. Each reading preserves its selected published quotation and separates any added explanatory context. Other Heart Reminder categories and languages have their own coverage; this is not a complete Heart collection.
 
 These translations received separate model-assisted review and are not human or scholarly certified. Source and reuse conditions remain with the source records. Broader publisher notification and permission questions are not represented as resolved.
 
@@ -15,3 +15,13 @@ These translations received separate model-assisted review and are not human or 
 ## Quran passages
 
 [Selected Heart Quran placements in five languages, with source credits and two Vietnamese holds](quran/README.md).
+
+## Additional reviewed reports
+
+- **status.hadith.02**: [Uzbek](status-02/uz.md), [Thai](status-02/th.md), [Vietnamese](status-02/vi.md), [Japanese](status-02/ja.md), [Filipino](status-02/fil.md)
+- **status.hadith.03**: [Uzbek](status-03/uz.md), [Thai](status-03/th.md), [Vietnamese](status-03/vi.md), [Japanese](status-03/ja.md), [Filipino](status-03/fil.md)
+- **approval.hadith.01**: [Uzbek](approval-01/uz.md), [Thai](approval-01/th.md), [Vietnamese](approval-01/vi.md), [Japanese](approval-01/ja.md), [Filipino](approval-01/fil.md)
+- **approval.hadith.02**: [Uzbek](approval-02/uz.md), [Thai](approval-02/th.md), [Vietnamese](approval-02/vi.md), [Japanese](approval-02/ja.md), [Filipino](approval-02/fil.md)
+- **trust.hadith.01**: [Uzbek](trust-01/uz.md), [Thai](trust-01/th.md), [Vietnamese](trust-01/vi.md), [Japanese](trust-01/ja.md), [Filipino](trust-01/fil.md)
+
+[Selected-source and version index](source-index.json).
