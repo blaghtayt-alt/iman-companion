@@ -14875,6 +14875,66 @@
       "humanCertification": false,
       "sourceContext": "materials/hadith/heart-reminder/status-01/sources.json",
       "sourceConditions": "materials/hadith/heart-reminder/status-01/source-note.md"
+    },
+    {
+      "collection": "heart-reminder-quran",
+      "language": "uz",
+      "id": "heart-quran-placements",
+      "markdown": "materials/hadith/heart-reminder/quran/uz.md",
+      "json": "materials/hadith/heart-reminder/quran/uz.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "eligiblePlacements": 84,
+      "heldPlacements": 0,
+      "sourceCredits": "materials/hadith/heart-reminder/quran/source-credits.json"
+    },
+    {
+      "collection": "heart-reminder-quran",
+      "language": "th",
+      "id": "heart-quran-placements",
+      "markdown": "materials/hadith/heart-reminder/quran/th.md",
+      "json": "materials/hadith/heart-reminder/quran/th.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "eligiblePlacements": 84,
+      "heldPlacements": 0,
+      "sourceCredits": "materials/hadith/heart-reminder/quran/source-credits.json"
+    },
+    {
+      "collection": "heart-reminder-quran",
+      "language": "vi",
+      "id": "heart-quran-placements",
+      "markdown": "materials/hadith/heart-reminder/quran/vi.md",
+      "json": "materials/hadith/heart-reminder/quran/vi.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "eligiblePlacements": 82,
+      "heldPlacements": 2,
+      "sourceCredits": "materials/hadith/heart-reminder/quran/source-credits.json"
+    },
+    {
+      "collection": "heart-reminder-quran",
+      "language": "ja",
+      "id": "heart-quran-placements",
+      "markdown": "materials/hadith/heart-reminder/quran/ja.md",
+      "json": "materials/hadith/heart-reminder/quran/ja.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "eligiblePlacements": 84,
+      "heldPlacements": 0,
+      "sourceCredits": "materials/hadith/heart-reminder/quran/source-credits.json"
+    },
+    {
+      "collection": "heart-reminder-quran",
+      "language": "fil",
+      "id": "heart-quran-placements",
+      "markdown": "materials/hadith/heart-reminder/quran/fil.md",
+      "json": "materials/hadith/heart-reminder/quran/fil.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "eligiblePlacements": 84,
+      "heldPlacements": 0,
+      "sourceCredits": "materials/hadith/heart-reminder/quran/source-credits.json"
     }
   ],
   "workInProgress": [
@@ -15334,5 +15394,43 @@
     ],
     "sourceIndex": "materials/hadith/heart-reminder/source-index.json",
     "scope": "Only this report in five locales; other Heart material has separate coverage."
+  },
+  "heartReminderQuran783": {
+    "qualifiedBodies": 558,
+    "qualifiedWholeLocalePlacements": 418,
+    "heldWholeLocalePlacements": 2,
+    "scope": "materials/hadith/heart-reminder/quran/README.md",
+    "counts": {
+      "uz": {
+        "eligiblePlacements": 84,
+        "heldPlacements": 0,
+        "activeVerseBodies": 112,
+        "individuallyReviewedButHeld": 0
+      },
+      "th": {
+        "eligiblePlacements": 84,
+        "heldPlacements": 0,
+        "activeVerseBodies": 112,
+        "individuallyReviewedButHeld": 0
+      },
+      "vi": {
+        "eligiblePlacements": 82,
+        "heldPlacements": 2,
+        "activeVerseBodies": 109,
+        "individuallyReviewedButHeld": 1
+      },
+      "ja": {
+        "eligiblePlacements": 84,
+        "heldPlacements": 0,
+        "activeVerseBodies": 112,
+        "individuallyReviewedButHeld": 0
+      },
+      "fil": {
+        "eligiblePlacements": 84,
+        "heldPlacements": 0,
+        "activeVerseBodies": 112,
+        "individuallyReviewedButHeld": 0
+      }
+    }
   }
 }

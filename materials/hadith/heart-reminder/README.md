@@ -11,3 +11,7 @@ These translations received separate model-assisted review and are not human or 
 ## Status report
 
 - **status.hadith.01**: [Uzbek](status-01/uz.md), [Thai](status-01/th.md), [Vietnamese](status-01/vi.md), [Japanese](status-01/ja.md), [Filipino](status-01/fil.md) · [source context](status-01/sources.json) · [source note](status-01/source-note.md)
+
+## Quran passages
+
+[Selected Heart Quran placements in five languages, with source credits and two Vietnamese holds](quran/README.md).
