@@ -2774,7 +2774,18 @@
       "mode": "extended",
       "ayahs": 18,
       "hasIntroduction": false,
-      "sourceHashes": []
+      "sourceHashes": [],
+      "incrementalSourceImports": [
+        {
+          "sha256": "9948b744c9c454c1877236964fefd1ca057d3c6df80269ddaa9299c5ea87fbd5",
+          "ayahKeys": [
+            "64:15",
+            "64:16",
+            "64:17"
+          ],
+          "status": "supplied-arabic-source-structurally-screened"
+        }
+      ]
     },
     {
       "collection": "tadabbur",
