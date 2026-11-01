@@ -60,3 +60,7 @@ If you find a mistake, please open an issue with the language, file, surah and a
 ## Articles
 
 - [The trial in what we await — 20 languages and sources](materials/articles/README.md)
+
+## Current Al-Ikhlas reflections
+
+- [112:1–4 in English, French and Turkish, with sources](materials/tadabbur/ikhlas-112/README.md)

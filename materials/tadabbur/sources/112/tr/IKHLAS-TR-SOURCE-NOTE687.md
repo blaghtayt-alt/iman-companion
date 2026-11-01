@@ -1,0 +1,13 @@
+# İhlâs Suresi Türkçe metninin kaynak kaydı
+
+Bu bütün okuma, güncel Arapça Source Rich belgesinin dört bölümünü ve on dört kaynak paragrafını kapsar. Belgenin parmak izi 12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8’dir. Simplified sürümü hazırlanmadı.
+
+Kur’an alıntıları Rowwad Tercüme Merkezi / QuranEnc.com’un turkish_rwwad 1.0.4 yayımından değiştirilmeden alınmıştır. Kırk dört tam ayet metni, özgün boş not alanları, sürüm bilgisi ve alıntı sınırları metinsel kaynak arşivinde korunur. Yusuf 12:33’te aynı yayımlanmış ayetin son koşullu cümlesi dilbilgisel bütünlüğüyle seçilmiştir; ayet sözü üretilmemiş veya düzeltilmemiştir.
+
+Hadis çevirileri, belirtilen HadeethEnc, İslamiyet.gen.tr, İslamiOkul, IslamQa / IslamHouse ve Hısnul-Müslim yayınlarındaki değişmemiş alıntılardır. Kur’an’ın üçte birine denklik için Ebû Saîd el-Hudrî’nin Buhârî rivayeti, kutsî hadis için Nesâî’nin Ebû Hüreyre rivayeti seçilmiştir. Bunlar, kaynak Arapçadaki Müslim ve Buhârî atıflarıyla aynı Türkçe yayım gibi gösterilmez. Kutsî hadis Kur’an değildir; sahâbî sözleri, dil görüşleri ve kaynağı belirtilmeyen atasözü Peygamber sözüne dönüştürülmez. Arapçadan doğrudan çevrilen diğer anlamlar kaynaklarda ayrıca tanımlanır.
+
+HadeethEnc’in kullanılan sürümü 1.71.0’dır; tam sürüm kaydı ve seçilen rivayetlerin bağlamları saklanır. Seçilmeyen 6327 numaralı Türkçe metindeki karşılaştırma sorunu düzeltilerek gizlenmemiştir. Hısnul-Müslim’in 111. maddesi ile 156 ve 157. notları tam bağlamlarıyla arşivdedir; bu notlardaki talimatlar ve mükâfat, yatış duasının tamamıyla ilgilidir. Ebû Dâvud alıntısının anlamı açıklayan tam yayın notu okumada ayrıca korunur. Üç okumanın sevabına ilişkin ümit de Kur’an’ın tamamını okumanın yerine geçtiği iddiasından açıkça ayrılır.
+
+Ana çalışma, görevlendirilmiş Sol6.1 High MAIN683 ajanına aittir. Farklı bir Sol6.1 High ajanı, 687 kapsamında bütün Arapça–Türkçe eşleri, seçilen kaynakları, notları ve şartları inceledi; son Türkçe metnin tamamını ayrıca okudu. Yalnızca yoruma ait üç küçük akıcılık düzeltmesi kaydedildi; yayımlanmış Kur’an, hadis ve yayın notu sözleri değiştirilmedi. Bu, insan, ana dili uzmanı veya din âlimi onayı değildir. Uygulamadaki gerçek görüntüleme ve teslim kontrolleri ayrı aşamadır.
+
+Normal okumada yalnızca kısa kitap adları, çeviri kredileri, gerekli anlam notları ve إنه القرآن kanalının bağlantısı gösterilir. Ayrıntılı bağlantılar, tam kaynak bağlamları, baskı ve rivayet farkları, isnat değerlendirmeleri ve kullanım şartları uygulama dışındaki metinsel arşivde kalır. Referans PDF’si, tarama, sayfa görüntüsü veya gömülü resim okuma paketine alınmaz. Kaynaklarla iletişim kurulduğu veya özel izin alındığı iddia edilmez.

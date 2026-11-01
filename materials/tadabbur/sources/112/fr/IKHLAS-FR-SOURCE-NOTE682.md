@@ -1,0 +1,13 @@
+# Notice de sources — Al-Ikhlas en français
+
+Cette lecture complète suit le document arabe actuel de méditation Source Rich, empreinte 12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8 : quatre sections et quatorze paragraphes sources. Elle ne crée pas de version simplifiée.
+
+Les extraits coraniques restent exactement ceux de Muhammad Hamidullah, QuranEnc.com, french_hameedullah 1.0.2. L’exception Maach pour l’article ne s’étend pas à cette lecture. Les quarante-quatre textes parents, leurs notes intégrales, les limites des extraits et les difficultés connues de certains passages restent dans l’archive textuelle, sans correction silencieuse. Les huit notes de sens nécessaires sont conservées intégralement, avec une note éditoriale distincte sur l’espérance de récompense de trois récitations.
+
+Les extraits publiés de hadiths et d’invocations proviennent des parents HadeethEnc et IslamHouse précisément identifiés. Le parallèle de guérison rapporté par Anas n’est pas présenté comme les mots exacts du récit de ‘Aïcha. Le hadith qudsi reste distinct du Coran ; les paroles des Compagnons, les avis linguistiques et les illustrations conservent leur statut. Les autres rendus non coraniques traduisent directement le sens de l’arabe fourni et sont signalés comme tels dans les sources.
+
+Les deux invocations du Mérite de l’invocation sont traduites par le Centre de traduction Rouwwâd At-Tarjamah. Le récit sur le remède est traduit par Abu Ahmed Al-Jazaïry et révisé, dans sa publication, par Abu Hamza Al-Germâny. Ces fonctions éditoriales concernent ces extraits, sans constituer une vérification de notre commentaire.
+
+Le travail principal a été réalisé par l’agent Sol6.1 High affecté à MAIN680. Un autre agent Sol6.1 High, chargé de la vérification finale682, a comparé intégralement l’arabe et le français, examiné les contextes et conditions des sources, puis lu séparément l’ensemble du texte français final. Deux formulations du commentaire ont été rendues plus naturelles ; les citations publiées et leurs notes sont inchangées. Ces rôles de modèles ne constituent aucune certification humaine, linguistique ou savante.
+
+La lecture ordinaire conserve les noms courts des livres, les crédits de traduction et les notes de sens nécessaires. Seul le lien de référence vers إنه القرآن est prévu. Les liens détaillés, éditions, conditions et évaluations des chaînes restent dans l’archive textuelle extérieure à l’application. Aucun PDF de référence, scan ou image de page n’est fourni à l’application ou aux packs. Les contrôles réels d’affichage, d’accessibilité, de lecture hors ligne, de reprise, d’enregistrement et d’export restent à effectuer par le destinataire chargé de l’intégration.

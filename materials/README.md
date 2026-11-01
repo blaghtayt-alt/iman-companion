@@ -824,3 +824,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 ## Articles
 
 - [The trial in what we await — 20 languages and sources](articles/README.md)
+
+## Current Al-Ikhlas reflections
+
+- [112:1–4 in English, French and Turkish, with sources](tadabbur/ikhlas-112/README.md)
