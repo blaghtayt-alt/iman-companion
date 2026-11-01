@@ -5,6 +5,7 @@
 - [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Japanese and Filipino units, 39 lessons each and source documents](under-5/README.md)
 
 - [Japanese Al-Qiyamah reflections: 75:1–40 and sources](tadabbur/ja/extended/075.md)
+- [Arabic Al-A‘la Simplified reflections: 87:1–19 and sources](tadabbur/ar/simplified/087.md)
 
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Arabic Essential Iman Hadiths: 286 lessons in 12 chapters](hadith/essential-ar/README.md)
