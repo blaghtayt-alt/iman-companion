@@ -1,6 +1,6 @@
 # Al-Ikhlas reflections — 112:1–4
 
-Complete current Source Rich reflections in English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Bengali and Hindi. Each source-rich reading is one independently reviewed whole-Surah translation; this does not claim completion of other surahs or languages.
+Complete current Source Rich reflections in English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Bengali, Hindi and Urdu. Each source-rich reading is one independently reviewed whole-Surah translation; this does not claim completion of other surahs or languages.
 
 [Machine-readable per-ayah index](catalog.json)
 
@@ -101,3 +101,15 @@ Complete current Source Rich reflections in English, French, Turkish, Indonesian
 - [112:3](../hi/extended/112.md) · [Structured section](../sources/112/hi/112-003.json)
 
 - [112:4](../hi/extended/112.md) · [Structured section](../sources/112/hi/112-004.json)
+
+### ur
+
+[Complete reading](../ur/extended/112.md) · [Reading JSON](../ur/extended/112.json) · [Full text source records](../sources/112/ur/)
+
+- [112:1](../ur/extended/112.md) · [Structured section](../sources/112/ur/112-001.json)
+
+- [112:2](../ur/extended/112.md) · [Structured section](../sources/112/ur/112-002.json)
+
+- [112:3](../ur/extended/112.md) · [Structured section](../sources/112/ur/112-003.json)
+
+- [112:4](../ur/extended/112.md) · [Structured section](../sources/112/ur/112-004.json)
