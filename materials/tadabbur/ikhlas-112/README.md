@@ -1,6 +1,6 @@
 # Al-Ikhlas reflections — 112:1–4
 
-Complete current Source Rich reflections in English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Bengali, Hindi and Urdu. Each source-rich reading is one independently reviewed whole-Surah translation; this does not claim completion of other surahs or languages.
+Complete current Source Rich reflections in English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Bengali, Hindi, Urdu, Russian, Spanish and Persian. Each source-rich reading is one independently reviewed whole-Surah translation; this does not claim completion of other surahs or languages.
 
 [Machine-readable per-ayah index](catalog.json)
 
@@ -113,3 +113,39 @@ Complete current Source Rich reflections in English, French, Turkish, Indonesian
 - [112:3](../ur/extended/112.md) · [Structured section](../sources/112/ur/112-003.json)
 
 - [112:4](../ur/extended/112.md) · [Structured section](../sources/112/ur/112-004.json)
+
+### ru
+
+[Complete reading](../ru/extended/112.md) · [Reading JSON](../ru/extended/112.json) · [Full text source records](../sources/112/ru/)
+
+- [112:1](../ru/extended/112.md) · [Structured section](../sources/112/ru/112-001.json)
+
+- [112:2](../ru/extended/112.md) · [Structured section](../sources/112/ru/112-002.json)
+
+- [112:3](../ru/extended/112.md) · [Structured section](../sources/112/ru/112-003.json)
+
+- [112:4](../ru/extended/112.md) · [Structured section](../sources/112/ru/112-004.json)
+
+### es
+
+[Complete reading](../es/extended/112.md) · [Reading JSON](../es/extended/112.json) · [Full text source records](../sources/112/es/)
+
+- [112:1](../es/extended/112.md) · [Structured section](../sources/112/es/112-001.json)
+
+- [112:2](../es/extended/112.md) · [Structured section](../sources/112/es/112-002.json)
+
+- [112:3](../es/extended/112.md) · [Structured section](../sources/112/es/112-003.json)
+
+- [112:4](../es/extended/112.md) · [Structured section](../sources/112/es/112-004.json)
+
+### fa
+
+[Complete reading](../fa/extended/112.md) · [Reading JSON](../fa/extended/112.json) · [Full text source records](../sources/112/fa/)
+
+- [112:1](../fa/extended/112.md) · [Structured section](../sources/112/fa/112-001.json)
+
+- [112:2](../fa/extended/112.md) · [Structured section](../sources/112/fa/112-002.json)
+
+- [112:3](../fa/extended/112.md) · [Structured section](../sources/112/fa/112-003.json)
+
+- [112:4](../fa/extended/112.md) · [Structured section](../sources/112/fa/112-004.json)
