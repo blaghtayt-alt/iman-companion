@@ -16950,6 +16950,56 @@
       "sourceHashes": [
         "0bd6a7c3275cb36714611a8b9306388c5a4fc474750c45d064d6f1d3d9bb7446"
       ]
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "es",
+      "id": "essential-01-001",
+      "chapter": 1,
+      "lesson": 1,
+      "title": "La justicia de Allah, Su autosuficiencia y la necesidad que Sus siervos tienen de Él",
+      "markdown": "materials/hadith/essential-es/001.md",
+      "json": "materials/hadith/essential-es/001.json",
+      "translationStatus": "ai-translated-independent-model-reviewed-human-verification-needed",
+      "sourceHashes": [
+        "0bd6a7c3275cb36714611a8b9306388c5a4fc474750c45d064d6f1d3d9bb7446"
+      ]
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "fa",
+      "id": "essential-01-001",
+      "chapter": 1,
+      "lesson": 1,
+      "title": "عدل و بی‌نیازی الله و نیازمندی بندگان به او",
+      "markdown": "materials/hadith/essential-fa/001.md",
+      "json": "materials/hadith/essential-fa/001.json",
+      "translationStatus": "ai-translated-independent-model-reviewed-human-verification-needed",
+      "sourceHashes": [
+        "0bd6a7c3275cb36714611a8b9306388c5a4fc474750c45d064d6f1d3d9bb7446"
+      ]
+    },
+    {
+      "collection": "heart-reminder",
+      "language": "fr",
+      "id": "rizq.hadith.01",
+      "markdown": "materials/hadith/heart-reminder/rizq-01/fr.md",
+      "json": "materials/hadith/heart-reminder/rizq-01/fr.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "sourceContext": "materials/hadith/heart-reminder/source-correction911/HEART-SOURCE-CARRIER908.json",
+      "sourceConditions": "materials/hadith/heart-reminder/source-correction911/HEC-CONDITIONS908.json"
+    },
+    {
+      "collection": "heart-reminder",
+      "language": "pt-BR",
+      "id": "purpose.hadith.02",
+      "markdown": "materials/hadith/heart-reminder/purpose-02/pt-BR.md",
+      "json": "materials/hadith/heart-reminder/purpose-02/pt-BR.json",
+      "translationStatus": "independent-model-assisted-final-review",
+      "humanCertification": false,
+      "sourceContext": "materials/hadith/heart-reminder/source-correction911/HEART-SOURCE-CARRIER908.json",
+      "sourceConditions": "materials/hadith/heart-reminder/source-correction911/HEC-CONDITIONS908.json"
     }
   ],
   "workInProgress": [
@@ -17606,5 +17656,22 @@
       "ru"
     ],
     "scope": "Only the first lesson in Russian; independent model-assisted review, not human certification."
+  },
+  "sourceCorrection911": {
+    "essentialUnit": "essential-01-001",
+    "correctedLocales": [
+      "hi",
+      "ru",
+      "ur"
+    ],
+    "newFirstLessons": [
+      "es",
+      "fa"
+    ],
+    "heartReports": [
+      "fr:rizq.hadith.01",
+      "pt-BR:purpose.hadith.02"
+    ],
+    "scope": "Only the selected corrected readings and current text-only source carriers; no broader course completion claim."
   }
 }

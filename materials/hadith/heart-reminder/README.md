@@ -78,3 +78,6 @@ These readings received separate model-assisted review and are not human or scho
 - **sabr.hadith.02** — For the believer, ease can produce gratitude and hardship can produce patient good. (Sahih Muslim 2999) · [Uzbek](sabr-02/uz.md), [Thai](sabr-02/th.md), [Vietnamese](sabr-02/vi.md), [Japanese](sabr-02/ja.md), [Filipino](sabr-02/fil.md)
 - **sabr.hadith.03** — True patience is especially tested at the first impact of calamity. (Sahih al-Bukhari 1283) · [Uzbek](sabr-03/uz.md), [Thai](sabr-03/th.md), [Vietnamese](sabr-03/vi.md), [Japanese](sabr-03/ja.md), [Filipino](sabr-03/fil.md)
 
+
+
+Two previously available readings have updated source-bound text: [French provision report](rizq-01/fr.md) and [Portuguese purpose report](purpose-02/pt-BR.md). Their complete selected parents and conditions are recorded in the [source correction](source-correction911/README.md).

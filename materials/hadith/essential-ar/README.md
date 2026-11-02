@@ -10,6 +10,8 @@ The historical Hadith collection remains separately available in [the existing a
 
 [Machine-readable catalog](catalog.json)
 
+[Spanish first lesson](../essential-es/README.md) · [Persian first lesson](../essential-fa/README.md), each separately reviewed as a single lesson.
+
 [Russian first lesson](../essential-ru/README.md), separately reviewed as a single lesson.
 
 [Hindi first lesson](../essential-hi/README.md), separately reviewed as a single lesson.

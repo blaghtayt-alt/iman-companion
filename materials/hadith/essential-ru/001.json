@@ -848,8 +848,8 @@
       },
       {
         "id": "S6",
-        "text": "Необходимость защищать права слабого наглядно показывает рассказ Джабира о вернувшихся из Эфиопии. Мимо них прошла пожилая монахиня, неся на голове кувшин с водой. Юноша толкнул её; она упала, и кувшин разбился. Она напомнила ему о том дне, когда Аллах соберёт первых и последних, а руки и ноги заговорят о делах своих обладателей. Тогда она узнает, как будет решено перед Аллахом дело между ней и этим юношей. Пророк ﷺ сказал: «Женщина сказала правду. Она сказала правду. Может ли Аллах освятить то общество, где с сильных не спрашивают за бессильных?!».",
-        "template": "Необходимость защищать права слабого наглядно показывает рассказ Джабира о вернувшихся из Эфиопии. Мимо них прошла пожилая монахиня, неся на голове кувшин с водой. Юноша толкнул её; она упала, и кувшин разбился. Она напомнила ему о том дне, когда Аллах соберёт первых и последних, а руки и ноги заговорят о делах своих обладателей. Тогда она узнает, как будет решено перед Аллахом дело между ней и этим юношей. Пророк ﷺ сказал: {{27}}.",
+        "text": "Необходимость защищать права слабого наглядно показывает рассказ Джабира о вернувшихся из Эфиопии. Мимо них прошла пожилая монахиня, неся на голове кувшин с водой. Юноша толкнул её; она упала, и кувшин разбился. Она напомнила ему о том дне, когда Аллах соберёт первых и последних, а руки и ноги заговорят о делах своих обладателей. Тогда она узнает, как будет решено перед Аллахом дело между ней и этим юношей. Пророк ﷺ сказал: «Она сказала истину, она сказала истину! Как Аллах очистит общину, в которой не взыскивают с сильного то, что причитается слабому?»",
+        "template": "Необходимость защищать права слабого наглядно показывает рассказ Джабира о вернувшихся из Эфиопии. Мимо них прошла пожилая монахиня, неся на голове кувшин с водой. Юноша толкнул её; она упала, и кувшин разбился. Она напомнила ему о том дне, когда Аллах соберёт первых и последних, а руки и ноги заговорят о делах своих обладателей. Тогда она узнает, как будет решено перед Аллахом дело между ней и этим юношей. Пророк ﷺ сказал: {{27}}",
         "quote_identity_ids": [
           27
         ],
@@ -866,17 +866,13 @@
             "text": "«"
           },
           {
-            "type": "published_hadith",
+            "type": "own_nonQ_meaning",
             "field_id": "27",
-            "text": "Женщина сказала правду. Она сказала правду. Может ли Аллах освятить то общество, где с сильных не спрашивают за бессильных?!"
+            "text": "Она сказала истину, она сказала истину! Как Аллах очистит общину, в которой не взыскивают с сильного то, что причитается слабому?"
           },
           {
             "type": "own_quote_boundary",
             "text": "»"
-          },
-          {
-            "type": "own_explanation",
-            "text": "."
           }
         ],
         "reading_field_spans": [
@@ -885,13 +881,13 @@
             "field_id": "27",
             "cp": [
               429,
-              553
+              558
             ],
             "utf16": [
               429,
-              553
+              558
             ],
-            "exact_text_sha256_utf8": "b70de60c77a7ffc16faea9ef0c3862d3c82700a6db0de8e1c89c203138cdb00d"
+            "exact_text_sha256_utf8": "4a592755c0862e3a1cb8bfbcc3710c7c8bf19568257ab862bdfd7d49fe33b9fe"
           }
         ],
         "reader_note_ids": [
@@ -4347,7 +4343,7 @@
           "27"
         ],
         "kind": "own_attribution_note",
-        "text": "Здесь слова пожилой женщины и последующие слова Пророка ﷺ различаются. Оценки передачи в источниках приведены с указанием тех, кому они принадлежат; это не утверждение об их единогласии."
+        "text": "Здесь приведён перевод смысла арабского текста. Речь об очищении общины и восстановлении права слабого за счёт сильного. Слова пожилой женщины и последующие слова Пророка ﷺ различаются. Для Ибн Маджи 4010 отдельно указаны оценки «хасан» у Даруссалама и у аль-Альбани; название книги «Сахих Сунан Ибн Маджа» не превращает эту оценку в «сахих»."
       },
       {
         "id": "RU:S10:death",
@@ -4448,30 +4444,44 @@
       }
     ],
     "readingCredits": "Коран: перевод смыслов центра «Руввад». Хадисы: Муслим, аль-Бухари, ат-Тирмизи, Ибн Маджа, Ахмад.",
-    "sourceCarrier": "LESSON001-RU-PUBLIC-SOURCES898.json",
-    "status": "WHOLE_DISTINCT_FINAL_COMPLETE_PENDING_RECIPIENT"
+    "sourceCarrier": "SOURCE-CARRIER908.json",
+    "status": "BOUNDED_SOURCE_CORRECTIVE_DIFFERENT_FINAL911_COMPLETE_PENDING_RECIPIENT",
+    "source_corrective_FINAL911": {
+      "actual_role": "Different actual Sol6.1 High FINAL911 from MAIN908; same actual reviewer as earlier898/904/906.",
+      "scope": "Only this identified bounded correction newly reviewed; complete exact unaffected prior whole review reused, not freshly retranslated or independently recertified.",
+      "stage": "Semantic/source/target-only review complete; actual recipient/source operation tests remain."
+    }
   },
   "sourceFiles": [
     {
-      "path": "sources/LESSON001-RU-CANDIDATE898.json",
-      "sha256": "cbd7054c43c5799362d682fd3d0ad2c785e91aa5ac489f04a829d96c43934155"
+      "path": "sources/ALL-MANDATORY-NOTE-BOUNDS908.json",
+      "sha256": "e987d107acdb039359095209415841c7fdc762e33833bcdc0a16a829713bfe86"
     },
     {
-      "path": "sources/LESSON001-RU-PUBLIC-SOURCES898.json",
-      "sha256": "d1e0906a68f9a0d23a17abd4413dc943db3f51e5b0a7344423dcc77c62d5ab6b"
+      "path": "sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+      "sha256": "d0ddc5985dc7a53f248a7d9cc8f0705056ada6377600fca8a2083e4851364558"
+    },
+    {
+      "path": "sources/LESSON001-RU-CANDIDATE898.json",
+      "sha256": "7bb875a0ff58d3c03a65d370f5d56ebec69ca502095278a47062e1bc12f0392d"
     },
     {
       "path": "sources/LESSON001-RU-READING-PROJECTION898.json",
-      "sha256": "1b5505ed4652930de493471bbaf9aa125a81aaba7dc8f65343b97c668d2c9f2f"
+      "sha256": "7f2addfc873e1db636faf71000b3e35f8fc6fa746ed19d76e9fb3702e0708099"
     },
     {
       "path": "sources/LESSON001-RU-READING898.md",
-      "sha256": "6a39b5fdf6609be483d115917d4b2ff8bbad3ab7138219fe9d42301b569db491"
+      "sha256": "1b21a75da4661bb940d4c4ef359e19a3a6475f221bb729ce4d55ed2d1c5949c0"
+    },
+    {
+      "path": "sources/LESSON001-RU-PUBLIC-SOURCES898.json",
+      "sha256": "e353fa4ef378b0b9a78e6400f4cd86d9d3b5cb5652aefa2446d1b8c394a8abf2"
     },
     {
       "path": "sources/LESSON001-RU-SOURCE-NOTE898.md",
-      "sha256": "0720c9594faf35105e6d91a8909338b42bb9d06360f28efd4afb2572a5878404"
+      "sha256": "a7260e1b7288b81ec14a912a6aa0febd2daf2ae97417144b0c13b5480f4f9947"
     }
   ],
-  "status": "Independent model-assisted final review; human verification needed."
+  "status": "Independent model-assisted final review; human verification needed.",
+  "sourceCorrection": "The current bounded source correction and its actual source conditions are recorded in the linked companions."
 }

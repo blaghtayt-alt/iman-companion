@@ -2528,18 +2528,18 @@
     "27": {
       "id": "27",
       "identity": 27,
-      "type": "published_hadith",
-      "text": "Женщина сказала правду. Она сказала правду. Может ли Аллах освятить то общество, где с сильных не спрашивают за бессильных?!",
-      "parent_id": "H:RU:27:Publication894",
+      "type": "own_nonQ_meaning",
+      "text": "Она сказала истину, она сказала истину! Как Аллах очистит общину, в которой не взыскивают с сильного то, что причитается слабому?",
+      "parent_id": "H:RU:27:OwnArabic908",
       "source_cp": [
-        930,
-        1054
+        753,
+        882
       ],
       "source_utf16": [
-        930,
-        1054
+        753,
+        882
       ],
-      "full_parent_sha256_utf8": "25b417c53008a894b63128dc8bfde01023c186cce8983eaad7853ba37b7580c4",
+      "full_parent_sha256_utf8": "59064851071d96322d9d5e2d2f635de61880789a6bf516ec29ea9bfd34d56f75",
       "SOURCE894_original_bound": {
         "cp": [
           1,
@@ -2549,7 +2549,8 @@
           1,
           125
         ]
-      }
+      },
+      "meaning_translation_notice": "Independent meaning directly from complete Arabic; not a quotation of the former publisher translation."
     },
     "28": {
       "id": "28",
@@ -4340,18 +4341,6 @@
       "context": "Salim ibn Muhammad al-Qarni, Upovanie na Allaha, translated Rashid Abdur Rashid, 2013, p145 PDF (footnote 410); attribution Ahmad ibn Hanbal follows Said/Abu Idris in exact page text",
       "pdf_byte_sha256": "e75a7e33777a4f5daab082191fea8e16b09109e57f84a2ad3a02c03ac62c587d"
     },
-    "H:RU:27:Publication894": {
-      "type": "published_hadith_parent",
-      "publisher": "Islam: Question and Answer, Russian edition",
-      "url": "https://islamqa.info/ru/answers/289378",
-      "raw_source_sha256": "4a7da94b99c7cd5ad8ca88dbd6008dff15be6cea720675b844f7925cf701f49f",
-      "full_translation": "Передается от Джабира, что он сказал: «Когда к Посланнику Аллаха, да благословит его Аллах и приветствует, вернулись переселенцы из-за моря, он сказал им:\n— Не расскажите ли вы нам об удивительных вещах, которые вы видели на земле эфиопов?\nЮноши из них сказали:\n— О Посланник Аллаха, как-то мы сидели, а мимо нас проходила пожилая монахиня. На голове она несла большой сосуд с водой. Она проходила рядом с одним из их юношей, и он, положив свои руки меж ее плеч, толкнул в спину эту женщину. Она упала на колени, а сосуд разбился. Когда монахиня поднялась и посмотрела на юношу, то сказала:\n— Вскоре ты узнаешь, о вероломный человек! Когда Аллах явит Престол и соберет всех людей, живших на земле: первых и последних, и когда руки и ноги станут говорить о том, что они творили, тогда, завтра, ты узнаешь как обернется твое дело и мое!\nУслышав это, Посланник Аллаха, да благословит его Аллах и приветствует, улыбнулся и сказал:\n—Женщина сказала правду. Она сказала правду. Может ли Аллах освятить то общество, где с сильных не спрашивают за бессильных?!»\n[5]",
-      "full_notes": [
-        "Ибн Ибн Маджа. Ас-Сунан, № 4010; аль-Альбани в\nСунан Ибн Маджа\nсказал, что хадис достоверен."
-      ],
-      "source_condition_id": "FiniteEducationalQuotation",
-      "context": "Jabir4010: complete old-nun/water-jar narrative retained. Russian published note достоверен is preserved unchanged; actual Arabic IslamQA explicitly attributes HASAN to al-Albani, and Darussalam attributes HASAN. No different technical sahih grade inferred from the Russian word or the book title. Source-added smiling is not imported into the lesson narrative."
-    },
     "H:HEC:10104:API894": {
       "type": "published_hadith_parent",
       "publisher": "HadeethEnc.com",
@@ -5018,6 +5007,32 @@
       "full_notes": [],
       "source_condition_id": "IsnadFreeWithAddress",
       "context": "Abu Hurayra; Isnad/Dawra Muslim [6812] 8 (2679), one intact narration. Separate adjacent 9 variant and HEC5978 split are not spliced. Isnad about page allows free distribution with website address, within stated source conditions."
+    },
+    "H:RU:27:OwnArabic908": {
+      "type": "independently_authored_nonQ_meaning_parent",
+      "publisher": "Independent Arabic-based meaning prepared for this lesson; no publisher translation reused",
+      "authorship": "Actual MAIN MAIN908, gpt-6.1-sol High; reviewed by different actual FINAL911",
+      "full_translation": "Джабир передал: когда переселенцы, совершившие морской путь, вернулись к Посланнику Аллаха ﷺ, он спросил: «Не расскажете ли вы мне об удивительном, что видели в земле Эфиопии?» Несколько юношей ответили: «Конечно, о Посланник Аллаха! Однажды мы сидели, и мимо нас прошла пожилая монахиня с кувшином воды на голове. Когда она проходила мимо одного юноши, он положил руку ей между лопатками и толкнул её. Она упала на колени, и кувшин разбился. Поднявшись, она обернулась к нему и сказала: “Ты ещё узнаешь, вероломный! Когда Аллах установит Курси, соберёт первых и последних, а руки и ноги заговорят о том, что они совершали, тогда, завтра, ты узнаешь, как будет решено перед Ним дело между мной и тобой”». Джабир передал, что Посланник Аллаха ﷺ сказал: «Она сказала истину, она сказала истину! Как Аллах очистит общину, в которой не взыскивают с сильного то, что причитается слабому?»",
+      "text": "Джабир передал: когда переселенцы, совершившие морской путь, вернулись к Посланнику Аллаха ﷺ, он спросил: «Не расскажете ли вы мне об удивительном, что видели в земле Эфиопии?» Несколько юношей ответили: «Конечно, о Посланник Аллаха! Однажды мы сидели, и мимо нас прошла пожилая монахиня с кувшином воды на голове. Когда она проходила мимо одного юноши, он положил руку ей между лопатками и толкнул её. Она упала на колени, и кувшин разбился. Поднявшись, она обернулась к нему и сказала: “Ты ещё узнаешь, вероломный! Когда Аллах установит Курси, соберёт первых и последних, а руки и ноги заговорят о том, что они совершали, тогда, завтра, ты узнаешь, как будет решено перед Ним дело между мной и тобой”». Джабир передал, что Посланник Аллаха ﷺ сказал: «Она сказала истину, она сказала истину! Как Аллах очистит общину, в которой не взыскивают с сильного то, что причитается слабому?»",
+      "full_original_Arabic": "حَدَّثَنَا سُوَيْدُ بْنُ سَعِيدٍ ، حَدَّثَنَا يَحْيَى بْنُ سُلَيْمٍ ، عَنْ عَبْدِ اللَّهِ بْنِ عُثْمَانَ بْنِ خُثَيْمٍ ، عَنْ أَبِي الزُّبَيْرِ ، عَنْ جَابِرٍ ، قَالَ لَمَّا رَجَعَتْ إِلَى رَسُولِ اللَّهِ ـ صلى الله عليه وسلم ـ مُهَاجِرَةُ الْبَحْرِ قَالَ ‏ \"‏ أَلاَ تُحَدِّثُونِي بِأَعَاجِيبِ مَا رَأَيْتُمْ بِأَرْضِ الْحَبَشَةِ ‏\"‏ ‏.‏ قَالَ فِتْيَةٌ مِنْهُمْ بَلَى يَا رَسُولَ اللَّهِ بَيْنَا نَحْنُ جُلُوسٌ مَرَّتْ بِنَا عَجُوزٌ مِنْ عَجَائِزِ رَهَابِينِهِمْ تَحْمِلُ عَلَى رَأْسِهَا قُلَّةً مِنْ مَاءٍ فَمَرَّتْ بِفَتًى مِنْهُمْ فَجَعَلَ إِحْدَى يَدَيْهِ بَيْنَ كَتِفَيْهَا ثُمَّ دَفَعَهَا فَخَرَّتْ عَلَى رُكْبَتَيْهَا فَانْكَسَرَتْ قُلَّتُهَا فَلَمَّا ارْتَفَعَتِ الْتَفَتَتْ إِلَيْهِ فَقَالَتْ سَوْفَ تَعْلَمُ يَا غُدَرُ إِذَا وَضَعَ اللَّهُ الْكُرْسِيَّ وَجَمَعَ الأَوَّلِينَ وَالآخِرِينَ وَتَكَلَّمَتِ الأَيْدِي وَالأَرْجُلُ بِمَا كَانُوا يَكْسِبُونَ فَسَوْفَ تَعْلَمُ كَيْفَ أَمْرِي وَأَمْرُكَ عِنْدَهُ غَدًا ‏.‏ قَالَ يَقُولُ رَسُولُ اللَّهِ ـ صلى الله عليه وسلم ـ ‏\"‏ صَدَقَتْ صَدَقَتْ كَيْفَ يُقَدِّسُ اللَّهُ أُمَّةً لاَ يُؤْخَذُ لِضَعِيفِهِمْ مِنْ شَدِيدِهِمْ ‏\" ‏ ‏.‏",
+      "original_source_url": "https://sunnah.com/ibnmajah:4010",
+      "source_condition_id": "OwnNonQ908",
+      "source_status": "VERIFIED wording/reference; grading remains separately attributed, no chain authentication claimed",
+      "grade_facts": [
+        {
+          "authority": "al-Albani",
+          "grade": "hasan",
+          "trace": "https://dorar.net/hadith/sharh/84443 ; full Jabir report attributed to Sahih IbnMajah3255: hasan. The separate shortened Sahih al-Jami4598 record is not relabelled as this report."
+        },
+        {
+          "authority": "Darussalam",
+          "grade": "hasan",
+          "trace": "https://sunnah.com/ibnmajah:4010"
+        }
+      ],
+      "rights_class": "Independently authored target meaning from original Arabic; original classical Arabic and factual bibliography distinguished from publisher translations/editorial material",
+      "selection_reason": "Known IslamQA target redistribution restriction under terms section10; genuine bounded search did not establish a suitable accurate redistributable published target. Published translations exist; no absence claim. Not a rewording of the restricted translation.",
+      "full_notes": []
     }
   },
   "readerNotes": [
@@ -5069,7 +5084,7 @@
         "27"
       ],
       "kind": "own_attribution_note",
-      "text": "Здесь слова пожилой женщины и последующие слова Пророка ﷺ различаются. Оценки передачи в источниках приведены с указанием тех, кому они принадлежат; это не утверждение об их единогласии."
+      "text": "Здесь приведён перевод смысла арабского текста. Речь об очищении общины и восстановлении права слабого за счёт сильного. Слова пожилой женщины и последующие слова Пророка ﷺ различаются. Для Ибн Маджи 4010 отдельно указаны оценки «хасан» у Даруссалама и у аль-Альбани; название книги «Сахих Сунан Ибн Маджа» не превращает эту оценку в «сахих»."
     },
     {
       "id": "RU:S10:death",
@@ -5925,7 +5940,13 @@
     },
     "placement": "Ordinary reading keeps short book credits and necessary semantic notes. Full credit/version/site address/conditions live in the accessible accompanying offline textual source file and source-note. No publisher claim is made that this exact placement was approved. Metadata alone or an inaccessible source file is inadequate.",
     "status": "MAIN_SCOPED_POSITIVE_ASSESSMENT_WITH_ACTUAL_OPEN_DUTIES_FOR_FINAL_AND_RECIPIENT",
-    "not_claimed": "No legal, publisher, scholarly, human/native certification; no notification sent; no runtime or release approval."
+    "not_claimed": "No legal, publisher, scholarly, human/native certification; no notification sent; no runtime or release approval.",
+    "OwnNonQ908": {
+      "decision": "Independent meaning directly from complete Arabic; exact restricted translated parent retained only in private historical evidence.",
+      "bounded_search": "Hindi and Russian targeted searches plus inherited source decisions did not establish an eligible alternative; not proof none exists. The known IslamQA target is unsuitable under applicable operator-origin section10, even in free noncommercial use.",
+      "rights_reason": "Known IslamQA operator-origin redistribution restriction, not lack of translation existence.",
+      "no_Quran": "This route applies only to this non-Q quotation."
+    }
   },
   "archive_distinction": {
     "archive_transcript": "#---------------------------\n# Translated Prophetic Hadiths\n# Language: Русский\n# Source: https://hadeethenc.com/ru\n# Last update: 2026-06-20 17:20:24 (v2.25.0)\n# Check for updates: https://hadeethenc.com/en/check/ru/v2.25.0\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------",
@@ -6130,5 +6151,122 @@
       "raw_capture_sha256": "18c2120dff45b2c508e34d9e7e7d6823944df5c05dfba0b09e33e2d274987041",
       "scope": "Same actual FINAL source-only addendum; full published Russian parent/note and lesson reading remain unchanged."
     }
-  ]
+  ],
+  "conditions": {
+    "schema": "russian-main-finite-source-assessment-v1",
+    "scope": "One whole lesson, free noncommercial educational distribution, exact attributed excerpts with proportional own commentary and complete relevant textual parents. This is a substantive MAIN source assessment, not a blanket legal certificate.",
+    "QuranEnc7": {
+      "url": "https://quranenc.com/en/home/",
+      "exact_conditions": "Terms and Policies\nContents of the translations can be downloaded and re-published, with the following terms and conditions:\n1. No modification, addition, or deletion of the content.\n2. Clearly referring to the publisher and the source (QuranEnc.com).\n3. Mentioning the version number when re-publishing the translation.\n4. Keeping the transcript information inside the document.\n5. Notifying the source (QuranEnc.com) of any note on the translation.\n6. Updating the translation according to the latest version issued from the source (QuranEnc.com).\n7. Inappropriate advertisements must not be included when displaying translations of the meanings of the Noble Quran.",
+      "edition": {
+        "source": "QuranEnc, Russian Rowwad Translation Center team with Rabwah Dawah Association, Islamic Content Service Association in Languages and IslamHouse.com",
+        "version": "1.0.1",
+        "date": "2026-03-29",
+        "homepage": "https://quranenc.com/en/home/"
+      },
+      "decision": "Finite unchanged educational quotations assessed positively. All 79 unique API parents / all 80 selected fields checked. API supplies empty footnotes for all 79: emptiness is retained. Not a whole-reader grant; no publisher waiver of HOME5 is invented. Version metadata retained; no transcript was supplied in these API JSON parents, so none is removed.",
+      "duties_open": [
+        "Notify source of any notes: actual term preserved; no contact sent and no waiver or fulfilment claimed.",
+        "Future updates must be checked before release, with fresh semantic review when content changes.",
+        "Actual appropriate-advertising and save/export/offline source delivery remain recipient duties."
+      ]
+    },
+    "HadeethEnc7+API2": {
+      "url": "https://hadeethenc.com/en/home",
+      "exact_conditions": "×\nTerms and Policies\nContents of the translations can be downloaded and republished under the following terms:\n1. No modification, addition, or deletion of the content.\n2. Clearly refer to the publisher and source (HadeethEnc.com).\n3. Mention the version number when republishing the translation.\n4. Keep the translation version information inside the document.\n5. Notify the source (HadeethEnc.com) of any note on the translation.\n6. Update translations according to the latest version issued by the source.\n7. Do not include inappropriate advertisements when displaying the content.\nClose",
+      "archive_transcript": "#---------------------------\n# Translated Prophetic Hadiths\n# Language: Русский\n# Source: https://hadeethenc.com/ru\n# Last update: 2026-06-20 17:20:24 (v2.25.0)\n# Check for updates: https://hadeethenc.com/en/check/ru/v2.25.0\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------",
+      "archive_sha256": "f48cb54fe49b093b793182dc7fadbd9c7c551b27e99febab23fb3d6ca21b8b64",
+      "decision": "HOME7 and API unchanged/source-credit terms assessed jointly, as in still-valid heart859 finite educational quotation route. Exact bounded matns and full relevant parents/explanations/hints retained; no claim API2 cancels HOME7. Sixteen checked API/archive matns match; explanation differences4810/4811/5456/3636 are retained as edition/snapshot differences, not silently overwritten.",
+      "duties_open": [
+        "Actual HOME5 notification term remains; none sent, no waiver or certification.",
+        "New releases require update/version checks and any changed content needs fresh review.",
+        "The complete source carrier and credits must accompany Saved/export/offline access."
+      ],
+      "official_API_overview_exact_text": {
+        "entry_url": "https://hadeethenc.com/en/home/developers",
+        "document_url": "https://documenter.getpostman.com/view/5211979/TVev3j7q",
+        "observed_collection_url": "https://documenter.gw.postman.com/api/collections/5211979/TVev3j7q?segregateAuth=true&versionTag=latest",
+        "full_textual_overview": "HadeethEnc.com API Overview HadeethEnc is a project aims to provide simplified explanations and clear translation of the authentic Prophetic (Prophet Muhammad ﷺ) hadiths. Contents of the project can be used, with the following terms and conditions: 1. No modification, addition, or deletion of the content. 2. Clearly referring to the publisher and the source (HadeethEnc.com).",
+        "raw_source_sha256": "28d64ffd9d0e97b629457e49bd438ae9d66fcbbbe2386b7a66d075a41646f601",
+        "primary_capture_sha256": "b790f12d84f0f257c5a0304a5e31a8cbc9fe8b86a68ffecadd1564ae05f34f1e",
+        "relationship": "This two-condition API overview and the seven-condition HOME terms are both retained. Neither inspected text expressly overrides or waives the other. Publication metadata dates the API collection to2020-11-21; latest version tag is not evidence of supersession. No HOME5 notification fulfilment or waiver claimed."
+      }
+    },
+    "IsnadFreeWithAddress": {
+      "url": "https://isnad.link/o-proekte",
+      "website_address": "https://isnad.link",
+      "exact_conditions": "Редакция сайта\nisnad.link\nуведомляет о том, что переводы хадисов Пророка ﷺ на русский язык, опубликованные на этом сайте являются нашей интеллектуальной собственностью. Мы запрещаем использовать эти переводы в коммерческих целях, в частности печатать эти переводы в виде книг, брошюр и иной печатной продукции. Мы разрешаем использовать эти переводы хадисов только для бесплатного распространения среди людей во всем мире с указанием адреса нашего сайта.",
+      "decision": "Actual Isnad/Dawra grant expressly allows only free distribution with site address. User confirms free/noncommercial. One unchanged2679 report used; site address in this accompanying readable textual source file is an actual requirement. No commercial permission and no grant for other providers inferred.",
+      "credit_placement": "Address and editorial credit retained in accompanying source-note and public source carrier. No wording in inspected term fixes an in-paragraph UI location. These files must actually travel with every Saved/export/offline rendition; detached reading-only export is not permitted by this contract."
+    },
+    "FiniteEducationalQuotation": {
+      "sources": [
+        {
+          "id": 4,
+          "url": "https://d1.islamhouse.com/data/ru/ih_books/single/ru_At-Tukl_3lee_Allah.pdf",
+          "publisher": "Salim ibn Muhammad al-Qarni; Russian translator Rashid Abdur Rashid, 2013"
+        },
+        {
+          "id": 27,
+          "url": "https://islamqa.info/ru/answers/289378",
+          "publisher": "Islam: Question and Answer, Russian edition"
+        },
+        {
+          "id": 75,
+          "url": "https://dalil.fyi/fatwa/shariatskoe-lechenie-sostoianiia-udushia-i-somnenii",
+          "publisher": "Dalil, Russian translation of Ibn Baz fatwa, Majmu fatawa 6/400; named Russian translator not established"
+        },
+        {
+          "id": 76,
+          "url": "https://www.muftyat.kz/ru/articles/sermons/2015-12-30/19999-kak-sdelat-tak-chtobyi-dua-byila-prinyata/",
+          "publisher": "Spiritual Administration of Muslims of Kazakhstan, Russian official publication"
+        },
+        {
+          "id": 92,
+          "url": "https://hadis.uk/saxix-al-buxari-xadis-4684/83771/",
+          "publisher": "Hadis.uk, Encyclopedia of Hadiths; named translator for this page not established"
+        }
+      ],
+      "decision": "Five finite published educational quotations, selected for direct discussion in an independently written complete Arabic-based explanation. Exact quotation, attribution, source, complete contextual parent/notes retained. The 59-codepoint Ahmad saying is a scholarly quotation, not a book redistribution. Other quoted spans are finite single reports or excerpts, not bulk reproduction of these sites. Specific blanket grants for these providers are not established; none is borrowed from Isnad or QuranEnc/HEC. No contacts/purchases. This assessment supports this finite quotation use only, with rights unknowns honestly recorded.",
+      "unknowns": [
+        "Specific further publisher grants beyond inspected published pages and book front matter.",
+        "Cumulative application quotation quantities are not fully inventoried here; no quota or numeric safe-harbour is invented."
+      ]
+    },
+    "placement": "Ordinary reading keeps short book credits and necessary semantic notes. Full credit/version/site address/conditions live in the accessible accompanying offline textual source file and source-note. No publisher claim is made that this exact placement was approved. Metadata alone or an inaccessible source file is inadequate.",
+    "status": "MAIN_SCOPED_POSITIVE_ASSESSMENT_WITH_ACTUAL_OPEN_DUTIES_FOR_FINAL_AND_RECIPIENT",
+    "not_claimed": "No legal, publisher, scholarly, human/native certification; no notification sent; no runtime or release approval.",
+    "OwnNonQ908": {
+      "decision": "Independent meaning directly from complete Arabic; exact restricted translated parent retained only in private historical evidence.",
+      "bounded_search": "Hindi and Russian targeted searches plus inherited source decisions did not establish an eligible alternative; not proof none exists. The known IslamQA target is unsuitable under applicable operator-origin section10, even in free noncommercial use.",
+      "rights_reason": "Known IslamQA operator-origin redistribution restriction, not lack of translation existence.",
+      "no_Quran": "This route applies only to this non-Q quotation."
+    }
+  },
+  "corrective908": {
+    "actual_MAIN": "MAIN908; actual gpt-6.1-sol High",
+    "scope": [
+      "27"
+    ],
+    "historical_review": "Earlier whole reviews retained privately and reused only for exact unaffected objects; no fabricated reviewer concurrence.",
+    "publication": "PROPOSAL ONLY; not integrated, source operational duties and recipient checks remain."
+  },
+  "source_reuse_correction_conditions908": {
+    "IslamQA": "Former copied target and full parent withheld from this proposed successor because current section10 restricts operator-origin redistribution; URLs and factual attribution are not prohibited expression. No deletion/unpublication of existing editions.",
+    "other_sources": "All unaffected source parents and published words retained exactly; their inherited conditions/unknowns remain, not globally cleared."
+  },
+  "distinct_corrective_FINAL911": {
+    "actual_role": "Actual different Sol6.1 High FINAL911, distinct MAIN908 author; no fabricated MAIN concurrence, human/native/scholarly/legal/publisher certification.",
+    "scope": [
+      "HI Essential27",
+      "RU Essential27",
+      "ES Essential80/81",
+      "FA Essential76",
+      "Heart French22 Umar bird",
+      "Heart Portuguese20 Aisha5845 and exact shared factual reference",
+      "UR raw28/source carrier projection"
+    ],
+    "decision": "Bounded whole successor qualified after complete changed Arabic/target/context/parents/notes/terms and separate target-only reading. Unaffected exact prior whole-unit reviews retained, not a general ownership clearance.",
+    "pending": "Sole647 actual native/source/Saved/reload/offline/export; actual source update/notification/advertisement duties, no contact/waiver."
+  }
 }

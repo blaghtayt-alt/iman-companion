@@ -1179,16 +1179,16 @@
   },
   "sourceFiles": [
     {
-      "path": "sources/PUBLIC-SOURCE-PROJECTION888-TEXT.json",
-      "sha256": "9b7aef8d49f1fd9e8a36e00613fddaba70095599ec73a8496840089540afa540"
-    },
-    {
       "path": "sources/READING-PROJECTION888.json",
       "sha256": "be824f4b87e7f41a25c4f4cd1c27d15f136dfab9a010274a8285c7b3178223a6"
     },
     {
+      "path": "sources/PUBLIC-SOURCE-PROJECTION888-TEXT.json",
+      "sha256": "4b9a9cdd3a8f6283d71d6ab8c72e40ac267468ea972baab325d2d65ce9c04c21"
+    },
+    {
       "path": "sources/SOURCE-NOTE888.md",
-      "sha256": "d2799833f8573331e076a6b1de283a29eeca3b164eb9626897342bf74a9001cb"
+      "sha256": "cf7cf83bf9b0f0a2e1223ba8a0177cb9a7c3f6d31c95206cf8b4ac821301d589"
     },
     {
       "path": "sources/URDU-CONTEXT-GLOSSARY888.json",
@@ -1199,5 +1199,6 @@
       "sha256": "07cd8b953c786136268be5d34bfca48ce0435c039791ed11696342ea679c342b"
     }
   ],
-  "status": "Independent model-assisted final review; human verification needed."
+  "status": "Independent model-assisted final review; human verification needed.",
+  "sourceCorrection": "The current bounded source correction and its actual source conditions are recorded in the linked companions."
 }

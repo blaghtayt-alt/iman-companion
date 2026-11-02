@@ -2908,5 +2908,24 @@
   "additionalScope830": "Nine specified Heart reports in five locales, with separate Uzbek826 and Uzbek828 attribution carriers. Source duties and unresolved notice questions remain without a blanket compliance claim.",
   "additionalScopeSix840": "Six specified Heart reports in five languages. Actual 839 Uzbek/Japanese book identities supersede historical source metadata. Broader source duties and notice questions remain without a blanket compliance claim.",
   "additionalScopeFive848": "Five specified Heart reports in five languages; full selected source contexts and actual source conditions remain attached. No blanket compliance claim.",
-  "additionalScopeLegacy859": "One independently reviewed Heart report in four existing languages. Source conditions remain explicit; no blanket permission or notice is claimed."
+  "additionalScopeLegacy859": "One independently reviewed Heart report in four existing languages. Source conditions remain explicit; no blanket permission or notice is claimed.",
+  "sourceCorrection911": {
+    "scope": "Only two corrected protected reports.",
+    "sourceCarrier": "source-correction911/HEART-SOURCE-CARRIER908.json",
+    "sourceConditions": "source-correction911/HEC-CONDITIONS908.json",
+    "selectedRecords": "source-correction911/SELECTED-SOURCE-RECORDS911.json",
+    "items": [
+      {
+        "locale": "fr",
+        "contentId": "rizq.hadith.01",
+        "parent": "HeartUmarBird-fr-4721"
+      },
+      {
+        "locale": "pt-BR",
+        "contentId": "purpose.hadith.02",
+        "parent": "Heart5845-ptBR-own908"
+      }
+    ],
+    "conditions": "Actual terms and unresolved notification point retained; no blanket permission or waiver claimed."
+  }
 }
