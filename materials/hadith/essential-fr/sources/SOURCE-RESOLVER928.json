@@ -1,0 +1,1459 @@
+{
+  "schema": "french-first-lesson-source-resolver928-v1",
+  "scope": "Finite French first lesson only; historical names are aliases, not separate files.",
+  "originalArabic": "QUALIFIED-ARABIC-ORIGINAL521.json",
+  "historicalArabicParents": "HISTORICAL-ARABIC-PARENT-EXTRACTS928.json",
+  "frenchReading": "PROPOSED-FR-READING-PROJECTION551.json",
+  "all88SelectedParents": "PROPOSED-FR-RELEVANT-PARENTS.json#/parents",
+  "publisherMetadata": "FR-PUBLISHER-METADATA551.json",
+  "sourceConditions": "SOURCE-CONDITIONS-AND-VERSION-RECORD928.json",
+  "sourceContract": "SOURCE-PROJECTION-CONSUMER-CONTRACT928.json",
+  "aliases": {
+    "CANONICAL-QUOTES558.json": "PROPOSED-FR-READING-PROJECTION551.json#/canonicalQuotes",
+    "PUBLIC-SOURCE-INDEX558.json": "PROPOSED-FR-READING-PROJECTION551.json#/publicSourceIndex",
+    "MANDATORY-READING-NOTES558.json": "PROPOSED-FR-READING-PROJECTION551.json#/mandatoryNotes",
+    "FRENCH-SOURCE-APPENDIX558.json": "PROPOSED-FR-READING-PROJECTION551.json#/sourceAppendix",
+    "PUBLIC-PROJECTION558.json": "PROPOSED-FR-READING-PROJECTION551.json"
+  },
+  "rebasedFrenchParentBounds": [
+    {
+      "parentKey": "PDF52",
+      "oldFieldSHA256": "cb16e17428fe616e5509e4cfb2b5cc6c8c5b5d0774f4be7d2915de562ae00e0e",
+      "newFieldSHA256": "49ddc4c5ad556b1cad6fa5d284208cfe17f90f3962bf9ef4d578576446f0ed4d",
+      "extractionFromOld": {
+        "CP": [
+          1559,
+          1638
+        ],
+        "UTF16": [
+          1559,
+          1638
+        ]
+      },
+      "newParentBounds": {
+        "CP": [
+          0,
+          79
+        ],
+        "UTF16": [
+          0,
+          79
+        ]
+      },
+      "selectedNewBounds": {
+        "CP": [
+          2,
+          74
+        ],
+        "UTF16": [
+          2,
+          74
+        ]
+      },
+      "selectedHistoricalBounds": {
+        "CP": [
+          1561,
+          1633
+        ],
+        "UTF16": [
+          1561,
+          1633
+        ]
+      },
+      "allPublisherAndMeaningNotes": "unchanged complete canonical and source parent notes"
+    },
+    {
+      "parentKey": "PDF75",
+      "oldFieldSHA256": "58c09b50995ff9cfdfbc0432d1103db5724b4b1e3f26958be7754af3558fd8e8",
+      "newFieldSHA256": "325921e9fe3468647e310feb6bf910d6a2e8d2293e79f60d426fc6c421e71913",
+      "extractionFromOld": {
+        "CP": [
+          3,
+          148
+        ],
+        "UTF16": [
+          3,
+          148
+        ]
+      },
+      "newParentBounds": {
+        "CP": [
+          0,
+          145
+        ],
+        "UTF16": [
+          0,
+          145
+        ]
+      },
+      "selectedNewBounds": {
+        "CP": [
+          25,
+          113
+        ],
+        "UTF16": [
+          25,
+          113
+        ]
+      },
+      "selectedHistoricalBounds": {
+        "CP": [
+          28,
+          116
+        ],
+        "UTF16": [
+          28,
+          116
+        ]
+      },
+      "allPublisherAndMeaningNotes": "unchanged complete canonical and source parent notes"
+    },
+    {
+      "parentKey": "PDF92",
+      "oldFieldSHA256": "87df5e9bdf9cee1272956e680bac0229f652da81d98fb31ae0c0748e15516202",
+      "newFieldSHA256": "37cbf415c4ac42c8ae7cf7d3929f52a3c1d33bfbd58e36a908656c2a9df96c28",
+      "extractionFromOld": {
+        "CP": [
+          715,
+          1199
+        ],
+        "UTF16": [
+          715,
+          1199
+        ]
+      },
+      "newParentBounds": {
+        "CP": [
+          0,
+          484
+        ],
+        "UTF16": [
+          0,
+          484
+        ]
+      },
+      "selectedNewBounds": {
+        "CP": [
+          116,
+          231
+        ],
+        "UTF16": [
+          116,
+          231
+        ]
+      },
+      "selectedHistoricalBounds": {
+        "CP": [
+          831,
+          946
+        ],
+        "UTF16": [
+          831,
+          946
+        ]
+      },
+      "allPublisherAndMeaningNotes": "unchanged complete canonical and source parent notes"
+    }
+  ],
+  "historicalScanNote": "Prior editionScan paths name private historical scan evidence; no scan is bundled. Edition and source metadata are retained in the publisher metadata and condition records.",
+  "native525SavedExport": "The existing app reader has no native Saved/export producer. This standalone source package does not change or claim one.",
+  "conditions": "Actual source-specific conditions, open duties, versions and unknowns retained; no contact, waiver, blanket grant or certification claimed.",
+  "historicalPrivateEvidenceReferences": [
+    {
+      "sourceAsset": "PROPOSED-FR-READING-PROJECTION551.json",
+      "jsonPath": "$.unit.readingNotes[8].sourceEvidence",
+      "originalValue": "inputs543/PRIMARY-WEB-CAPTURE543.json, complete Ibn Ashur67:9 and finite source decision543",
+      "originalValueSHA256": "6552481cb0356673a6f929d289335bdd7138a20cba8a01192e8bc0ac54b98550",
+      "originalAssetSHA256": "90a9c694b07b2a2ea59dc5ad01ccfce3409293f37f2c83dc03a91f0a7b41e645",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-READING-PROJECTION551.json",
+      "jsonPath": "$.mandatoryNotes[8].sourceEvidence",
+      "originalValue": "inputs543/PRIMARY-WEB-CAPTURE543.json, complete Ibn Ashur67:9 and finite source decision543",
+      "originalValueSHA256": "6552481cb0356673a6f929d289335bdd7138a20cba8a01192e8bc0ac54b98550",
+      "originalAssetSHA256": "90a9c694b07b2a2ea59dc5ad01ccfce3409293f37f2c83dc03a91f0a7b41e645",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-READING-PROJECTION551.json",
+      "jsonPath": "$.sourceAppendix.notes[8].sourceEvidence",
+      "originalValue": "inputs543/PRIMARY-WEB-CAPTURE543.json, complete Ibn Ashur67:9 and finite source decision543",
+      "originalValueSHA256": "6552481cb0356673a6f929d289335bdd7138a20cba8a01192e8bc0ac54b98550",
+      "originalAssetSHA256": "90a9c694b07b2a2ea59dc5ad01ccfce3409293f37f2c83dc03a91f0a7b41e645",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.PDF52.editionScan",
+      "originalValue": "pdf-evidence/EDITION-CONDITIONS-SCAN542.json",
+      "originalValueSHA256": "991c0ed914566148a6924a4acb0a8b963c8fb07da5d8cc6eb52a16d47f494419",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.PDF75.editionScan",
+      "originalValue": "pdf-evidence/EDITION-CONDITIONS-SCAN542.json",
+      "originalValueSHA256": "991c0ed914566148a6924a4acb0a8b963c8fb07da5d8cc6eb52a16d47f494419",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.PDF79.editionScan",
+      "originalValue": "pdf-evidence/EDITION-CONDITIONS-SCAN542.json",
+      "originalValueSHA256": "991c0ed914566148a6924a4acb0a8b963c8fb07da5d8cc6eb52a16d47f494419",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.PDF92.editionScan",
+      "originalValue": "pdf-evidence/EDITION-CONDITIONS-SCAN542.json",
+      "originalValueSHA256": "991c0ed914566148a6924a4acb0a8b963c8fb07da5d8cc6eb52a16d47f494419",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.PDF95.editionScan",
+      "originalValue": "pdf-evidence/EDITION-CONDITIONS-SCAN542.json",
+      "originalValueSHA256": "991c0ed914566148a6924a4acb0a8b963c8fb07da5d8cc6eb52a16d47f494419",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-10.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-10.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-100.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-100.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-101.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-101.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-102.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-102.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-103.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-103.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-104.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-104.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-105.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-105.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-11.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-11.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-12.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-12.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-13.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-13.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-14.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-14.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-15.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-15.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-16.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-16.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-17.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-17.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-18.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-18.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-19.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-19.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-20.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-20.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-21.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-21.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-22.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-22.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-23.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-23.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-24.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-24.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-25.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-25.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-26.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-26.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-29.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-29.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-30.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-30.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-31.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-31.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-34.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-34.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-35.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-35.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-40.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-40.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-41.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-41.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-42.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-42.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-43.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-43.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-44.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-44.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-45.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-45.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-46.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-46.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-48.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-48.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-49.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-49.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-50.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-50.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-53.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-53.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-57.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-57.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-58.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-58.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-59.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-59.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-60.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-60.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-61.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-61.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-62.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-62.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-63.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-63.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-64.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-64.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-69.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-69.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-7.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-7.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-70.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-70.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-71.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-71.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-72.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-72.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-77.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-77.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-78.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-78.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-8.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-8.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-84.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-84.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-85.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-85.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-86.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-86.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-88.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-88.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-89.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-89.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-9.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-9.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-90.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-90.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-91.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-91.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-93.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-93.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-94.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-94.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-97.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-97.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-98.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-98.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-99.versionEvidence",
+      "originalValue": "inputs537/QURAN-VERSION-CHECKS537.json; actual delivery must recheck",
+      "originalValueSHA256": "918f91413917152e6962d5cfda1b0cd496e6d8e2cad65b9cc125167b01b6c5b7",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    },
+    {
+      "sourceAsset": "PROPOSED-FR-RELEVANT-PARENTS.json",
+      "jsonPath": "$.parents.quran-99.transcriptEvidence",
+      "originalValue": "inputs536/QURAN-PUBLISHER-METADATA536.json and inputs543/PRIMARY-WEB-CAPTURE543.json",
+      "originalValueSHA256": "6966a87e8bd8ea5072da0a9c97945d9d6fd3c248a4c1dcea0e744b9518845050",
+      "originalAssetSHA256": "12c285db6830c5f647cfe1b41fbac6061ef7195e0db9d95e26274ff9d14c0a4f",
+      "classification": "HISTORICAL_PRIVATE_EVIDENCE_NOT_BUNDLED",
+      "availableInPackage": false
+    }
+  ]
+}

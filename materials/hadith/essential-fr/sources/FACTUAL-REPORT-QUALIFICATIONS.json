@@ -1,0 +1,88 @@
+{
+  "status": "factual source/variant qualifications for reviewer; not independent chain authentication or publisher endorsement",
+  "qualifications": [
+    {
+      "identities": [
+        27
+      ],
+      "primary": "Ibn Majah 4010; Jabir; complete old woman and jar narrative",
+      "grades": [
+        {
+          "grade": "Hasan",
+          "attributedTo": "Darussalam",
+          "source": "https://sunnah.com/ibnmajah:4010"
+        },
+        {
+          "grade": "Hasan",
+          "attributedTo": "al-Albani as reported by IslamQA Arabic",
+          "source": "https://islamqa.info/ar/answers/289378"
+        }
+      ],
+      "boundary": "No generic reliability phrase or title Sahih Sunan converted into a separate Sahih technical grade. No copied IslamQA commentary; factual attribution only."
+    },
+    {
+      "identities": [
+        73
+      ],
+      "primary": "al-Tirmidhi 3370 and associated source versions",
+      "grades": [
+        {
+          "grade": "Hasan",
+          "attributedTo": "al-Tirmidhi/HadeethEnc per historical Arabic521 qualification"
+        },
+        {
+          "grade": "Daif",
+          "attributedTo": "Darussalam per historical Arabic521 qualification"
+        }
+      ],
+      "boundary": "Preserve separate attributions; no inference of consensus."
+    },
+    {
+      "identities": [
+        76
+      ],
+      "primary": "al-Tirmidhi 3479; Abu Hurayra",
+      "grades": [
+        {
+          "grade": "Daif",
+          "attributedTo": "Darussalam",
+          "source": "https://sunnah.com/tirmidhi:3479"
+        },
+        {
+          "grade": "Hasan",
+          "attributedTo": "al-Albani per historical qualification and IslamQA reported attribution",
+          "source": "https://islamqa.info/en/answers/36902"
+        }
+      ],
+      "boundary": "Original says reportedly; preserve disputed classifications. Do not equate source title with technical grade."
+    },
+    {
+      "identities": [
+        75
+      ],
+      "primary": "Abu Hurayra, Muslim 2675d calling variant, distinct from remembering variant and any Anas/Ahmad report",
+      "boundary": "English bracket and footnote remain exact; pronoun clarification separately retained. French and Turkish source choices keep narrator identity accurate."
+    },
+    {
+      "identities": [
+        79,
+        80,
+        81
+      ],
+      "primary": "Abu Said, Ahmad 11133 in consulted Shamela numbering; no sin or kinship severance, three outcomes and distinct speakers",
+      "boundary": "EN uses separate complete published indirect account and required note; FR direct account and TR own meaning remain their own versions; aliases are not separately re-rendered."
+    },
+    {
+      "identities": [
+        95
+      ],
+      "primary": "Muslim 2679a; publication variants may be separately introduced",
+      "boundary": "FR/TR current texts explicitly mark distinct versions; do not silently fuse them into a claimed one-version quotation. Preserve narrator transitions and reviewer distinctions."
+    },
+    {
+      "contextualReference": "Muslim 2702",
+      "primary": "HadeethEnc Arabic API 4809 / v1.8.0 supplies Abu al-Agharr repentance 100 times; historic Muslim2702a is a related forgiveness-100-times narration",
+      "boundary": "Distinct wordings; no silent substitution. Source conditions and full parent/explanation in PROPOSED-HEC-AR-4809-PARENT.json."
+    }
+  ]
+}

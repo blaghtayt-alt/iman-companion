@@ -1,0 +1,57 @@
+{
+  "scope": "Only source projection of already-qualified essential-01-001 EN521/FR551/TR586, not a new whole translation or simulated MAIN/FINAL.",
+  "localeStatus": {
+    "fr": "Finite exact source projection qualified, subject to enumerated recipient/source conditions.",
+    "en": "Exactness/provenance qualified; actual selected-source C5 notification duty remains open; no condition-complete release claim.",
+    "tr": "Exactness/provenance qualified; actual selected-source C5 notification duty remains open; no condition-complete release claim."
+  },
+  "bodyRules": [
+    "Keep all three49-section bodies/main/titles and all103 identities/115 fields per locale exact. All80 published Quran fields per locale remain the same qualified published edition snapshots.",
+    "Keep all mandatory notes: EN27 full Quran note fields+2 report publisher notes+2 reading clarifications; FR24; TR45. Keep complete full selected publisher/meaning parents offline and in Source/Saved/export.",
+    "EN report79 is the complete493-character indirect account rendered once.80/81 are aliases, never separately rendered direct speech. Keep75 bracket, capital He, complete footnote and separate servant-pronoun clarification.",
+    "Preserve FR report79/80/81 speaker boundaries and TR report aliases, q32 Abu Bakra original vs Ibn Abbas published parallel, q95 introduced variants, and separate attributed3370/3479 assessments without invented grader or majority."
+  ],
+  "sourceResolver": {
+    "english": {
+      "fullQuranParentsAndNotes": "PROPOSED-EN-READING-PROJECTION.json canonicalQuotes[].fullParentsAndCompleteNotes and PROPOSED-EN-SELECTED-PARENTS-NOTES.json QuranEnc.rows",
+      "nonQParents": "PROPOSED-EN-SELECTED-PARENTS-NOTES.json and PROPOSED-EN-SUNNAH-PARENTS.json",
+      "quoteRoutes": "PROPOSED-EN-QUOTE-ROUTES.json; old eligibility/status labels are historical only; report79 grouping is authoritative in reading projection and complete Prayer79 parent.",
+      "privateHistoricalPointers": "PROPOSED-EN-SOURCE-BINDINGS521.json and EN-SOURCE-CONDITIONS-AND-REVIEW.json are historical evidence labels, not public files to fetch or recursively copy. The actual public source resolver is this contract plus pinned selected assets and SOURCE-CONDITIONS-AND-VERSION-RECORD928.json."
+    },
+    "french": {
+      "all88Parents": "PROPOSED-FR-RELEVANT-PARENTS.json parents",
+      "oldCharacterRangeWarning": "Canonical PDF52/PDF75/PDF92 characterRange remains the historical original coordinate space. Apply new projected parent bounds only:52[2,74],75[25,113],92[116,231] CP (UTF16 equal at these bounds). Complete proof ledger FR-REBASED-PARENT-CONTRACT928.json remains private recipient evidence.",
+      "fullRelevantParents": "Ducouret76 two exact context fragments omit running footer only; keep complete source tail with unnamed jugé bon attribution. Convertisto73 retains exact intellectual-property and responsibility sections; do not imply identified translator/scholar.",
+      "metadata": "FR-PUBLISHER-METADATA551.json and current transcripts in SOURCE-CONDITIONS-AND-VERSION-RECORD928.json; missing archived API rows5438/5499 and unknown per-entry transcript remain truthful."
+    },
+    "turkish": {
+      "all88Parents": "PROPOSED-TR-SOURCE-APPENDIX581.json fullSelectedParents; complete object byte-identical to qualified586 public source appendix.",
+      "cosmeticCurrentness": "Retain qualified4:48 and26:76 snapshot words, whitespace and original bounds exactly. The current same-version archive differs only by four whitespace CP and one leading whitespace CP respectively. No new Quran words, retranslation or edition splice.",
+      "printed3:18": "Separate King Fahd Complex/Diyanet print, free/no-sale, printed year/version unknown; do not label QuranEnc source or invent a missing verse18 note.",
+      "fullNotes": "45 complete mandatory notes, full selected HEC record/explanation/hints, own nonQ meaning provenance, and full q32 published parallel/context remain."
+    },
+    "commonArabic": "HISTORICAL-ARABIC-PARENT-EXTRACTS928.json from actual prior521/519 captures and PROPOSED-HEC-AR-4809-PARENT.json for repentance100. The latter is distinct from Muslim2702a forgiveness100; no silent substitution. Bukhari2447 L70 literal capture label removed only, original hash/regex-origin L69 preserved historically; actual Arabic report unchanged."
+  },
+  "conditions": [
+    "This is a finite free noncommercial teaching-source selection. Sunnah permits individual reports/selections for teaching, not scraping or mass books/collections; it supplies no blanket third-party translation grant. Exact prior525/521/519 evidence is used, with author/translator unknown where unknown.",
+    "Keep actual source/publisher credit, version and complete available transcript information inside relevant offline/source/export documents. Currentness observations are static; updates/appropriate-ad conditions remain actual recipient duties, never represented fulfilled by this review.",
+    "Actual HadeethEnc/QuranEnc note reporting terms are preserved. No contact was made. Known unselected historical issues remain historical; actual selected EN8280/TR5328 linguistic notes are separately and precisely disclosed. No blanket all-publisher prohibition follows.",
+    "IslamHouse affirmative historical unchanged-content/source-credit FAQ is assessed jointly with third-party/disclaimer/commercial limits and each selected edition’s front/back matter. No cover rights, ownership guarantee or formal permission letter. English Fiqh75 all-rights-reserved2015 notice remains exact; historical host FAQ is actual positive reuse evidence, not proof that reserved rights disappeared. Its finite exact136-character passage plus219-character full parent, full bracket/footnote/credit is accepted only within this free noncommercial selection, not a whole-book or commercial grant.",
+    "Maach freely reusable edition, Convertisto source-linked short selection limits, Ducouret unnamed grading/source tail and actual French PDF contexts remain their separate source-specific routes. TR printed Quran and sermon parallel remain separate credited publications with their actual restrictions.",
+    "Unknown publication metadata/transcripts remain explicitly unknown. Access alone is neither permission nor proof that no grant exists. No modern substitute or invented author/edition is generated."
+  ],
+  "neverCopy": [
+    "New23 automated Sunnah pages, private-primary-html/**, PROPOSED-CLASSICAL-ARABIC-FULL-PARENTS.json, their receipts/collector/derivatives.",
+    "Separately excluded905-based PROPOSED-COMMON-ARABIC-REPORT-PARENTS.json.",
+    "Private originals, raw HTML/PDF/scans/images, archive CSV/binary files, collection scripts, review workpapers and full private histories."
+  ],
+  "recipientChecks": [
+    "Whole first lesson and all Source/Saved/export/offline notes/context must resolve from exact allowlisted files without private-file fetching.",
+    "Preserve source metadata/full notes and meaning/source roles in all consumers; verify glyphs/direction/scrolling/containment and save/reload.",
+    "Do not expose source audit branding in ordinary reading where user requires clean notes. No reader body is edited here.",
+    "User screenshots remain held until the whole first lesson has been reviewed and installed. No APK/store/GitHub/canonical/runtime/contact work is authorized by928."
+  ],
+  "notices": [],
+  "noPublicationOrContactBy928": true,
+  "role": "Independent gpt-6.1-sol high source review; historical body authorship and review remain separately recorded."
+}

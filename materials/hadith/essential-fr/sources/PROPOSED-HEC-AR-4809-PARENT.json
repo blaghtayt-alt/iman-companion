@@ -1,0 +1,45 @@
+{
+  "status": "private candidate from documented HadeethEnc API, edition conditions and metadata require independent review",
+  "url": "https://hadeethenc.com/api/v1/hadeeths/one/?language=ar&id=4809",
+  "beforePrivate": "PRIVATE-HEC-AR-4809-API.json",
+  "beforeSHA256": "a69efee39051ee38a99fdd672bb2caf7f18a04af0a0385e9bd79f5e4393f6b7a",
+  "includedFields": [
+    "id",
+    "title",
+    "hadeeth",
+    "attribution",
+    "grade",
+    "explanation",
+    "hints",
+    "words_meanings",
+    "reference"
+  ],
+  "excludedFields": [
+    "categories",
+    "translations",
+    "hadeeth_intro"
+  ],
+  "rule": "Retained values copied exactly. Translations and site categories not relevant to the Arabic original are omitted from proposed source carrier; full raw API remains private. HadeethEnc current source/version, notes, attribution, update and ad conditions remain.",
+  "sourceIdentity": "al-Agharr, Muslim 2702, actual repentance 100 times; historically captured Muslim2702a instead phrases seeking forgiveness 100 times and is a related separate version.",
+  "record": {
+    "id": "4809",
+    "title": "يا أيها الناس توبوا إلى الله، فإني أتوب في اليوم إليه مائة مرة",
+    "hadeeth": "عن الْأَغَرِّ رضي الله عنه، وَكَانَ مِنْ أَصْحَابِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «يَا أَيُّهَا النَّاسُ تُوبُوا إِلَى اللهِ، فَإِنِّي أَتُوبُ فِي الْيَوْمِ إِلَيْهِ مِائَةَ مَرَّةٍ».",
+    "attribution": "رواه مسلم",
+    "grade": "صحيح",
+    "explanation": "يَأْمُرُ النبيُّ صلى الله عليه وسلم الناسَ بالإكثار مِن التوبة والاستغفار، ويُخْبِرُ عن نفسه أنه يتوب إلى الله تعالى ويستغفره في اليوم أكثر من مائة مرة، وقد غُفِر له ما تقدم من ذنبه وما تأخر، وفي ذلك كمال الذُّلِّ والتعبد لله جل وعلا.",
+    "hints": [
+      "كلُّ أحدٍ مهما كانت مرتبته ودرجته في الإيمان، فإنَّه يحتاج إلى الرجوع إلى الله تبارك وتعالى، وتكميل نفسه بالتوبة، وأنَّ كلَّ أحدٍ لا يخلو من تقصيرٍ في القيام بحقِّ الله تبارك وتعالى: (وَتُوبُوا إِلَى اللَّهِ جَمِيعًا أَيُّهَ الْمُؤْمِنُونَ).",
+      "التوبة عامة سواء من فعل المحرّمات والذنوب أو من التقصير في فعل الواجبات.",
+      "الإخلاص في التوبة شرط في قبولها، فمن ترك ذنبًا لغير الله لا يكون تائبًا.",
+      "قال النووي: للتوبة ثلاثة شروط: أن يُقْلِع عن المعصية، وأن يَندم على فعلها، وأن يَعزم عزمًا جازمًا ألَّا يعود إلى مثلها أبدًا، فإن كانت المعصية تتعلق بآدمي فلها شرط رابع، وهو: رَدُّ الظلامة إلى صاحبها، أو تحصيل البراءة منه.",
+      "التنبيه على أن استغفار النبي صلى الله عليه وسلم لا يلزم أن يكون لذنوب ارتكبها، ولكن ذلك لكمال عبوديته وتعلقه بذكره سبحانه، واستشعاره عظم حق الله تعالى وتقصير العبد مهما عمل في شكر نعمه، وهو من باب التشريع للأمة من بعده، إلى غير ذلك من الحكم."
+    ],
+    "words_meanings": [],
+    "reference": "صحيح مسلم (4/ 2075) (2702).\nنزهة المتقين شرح رياض الصالحين، لمجموعة من الباحثين (1/ 33).\nشرح رياض الصالحين، لابن عثيمين (1/ 97).\nبهجة الناظرين شرح رياض الصالحين، لسليم الهلالي (1/ 52)."
+  },
+  "archiveTranscript": "#---------------------------\r\n# Translated Prophetic Hadiths\r\n# Language: العربية\r\n# Source: https://hadeethenc.com/ar\r\n# Last update: 2026-10-14 00:00:55 (v1.8.0)\r\n# Check for updates: https://hadeethenc.com/en/check/ar/v1.8.0\r\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\r\n#---------------------------",
+  "archiveMatnEqualsAPI": true,
+  "archiveExplanationEqualsAPI": true,
+  "archiveReceipt": "HEC-AR-ARCHIVE-RECEIPT.json"
+}
