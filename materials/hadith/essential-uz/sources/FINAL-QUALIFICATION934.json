@@ -1,0 +1,248 @@
+{
+  "status": "QUALIFIED_COMPLETE_FIRST_UZBEK_LESSON_FOR_ROOT_REVIEW_AND_PRIVATE_SOLE647_RECIPIENT_STAGE",
+  "unit": "essential-01-001",
+  "locale": "uz",
+  "script": "Cyrillic",
+  "actualFinalRole": "Distinct independent whole FINAL934, different from the MAIN author. Trusted dispatch is role evidence; no invented provider receipts or simulation.",
+  "actualModel": "gpt-6.1-sol",
+  "actualReasoningEffort": "high",
+  "candidate": {
+    "path": "COMPLETE-CANDIDATE-UZ930.json",
+    "bytes": 66303,
+    "sha256": "47cb6930c794fa555c1595a803300489bf79993476e615936cdf28a5549b0e8a"
+  },
+  "continuousReading": {
+    "path": "CONTINUOUS-UZBEK-ONLY930.txt",
+    "bytes": 58337,
+    "sha256": "af09282f3331ce7cc407ff118aefcb6dda3a69deac274fe5250623c7ef228b1e"
+  },
+  "coverage": {
+    "title": true,
+    "completeMainAndReference": true,
+    "sections": 49,
+    "sourceCommentaryCP": 21807,
+    "identities": 103,
+    "fieldsCPUTF16": 115,
+    "QuranFields": 80,
+    "fullQuranParents": 79,
+    "nonQFields": 35,
+    "fullRelevantTargetParents": 99,
+    "completePublisherExplanationBenefitNotes": 10
+  },
+  "editsByFINAL": 0,
+  "actualWholeSemanticReview": "PASS, complete paired reading, no ordinary body semantic correction required. Specific source-only4706 discrepancy recorded without silently changing parent.",
+  "actualSeparateWholeTargetFluency": "PASS, entire31803CP target read separately; no material own-prose correction needed.",
+  "mechanicalReplay": "2176/2176 independent assertions pass, including full input manifests, entire source coverage, all115field CP/UTF16 source/read/carrier bounds, all99parents/notes and actual current source archives.",
+  "sourceQualification": "Finite selected-source exactness and meaningful authorized published choices qualified with actual grants, unknown authors/editions, note-reporting/update/recipient duties explicit. Not all source conditions fulfilled or broad legal clearance.",
+  "actualOpenSourceFacts": {
+    "HEC4706": {
+      "finding": "UZ934-SOURCE-4706-CONTEXT",
+      "scope": "Complete selected publisher source parent outside selected field87; no error in selected Тақво мана бу ерда! or in ordinary body.",
+      "publisher": "HadeethEnc.com",
+      "version": "1.20.0",
+      "sourceURL": "https://hadeethenc.com/api/v1/hadeeths/one/?language=uz&id=4706",
+      "sourceParentId": "hec-uz-4706",
+      "fullTargetParentSHA256": "8ff00d5172c60becfc01d4339681c197f0b10feae6d679baf1ffaab6e849b00b",
+      "printedExact": "уни алдамайди",
+      "printedBounds": {
+        "codePoints": [
+          421,
+          434
+        ],
+        "utf16": [
+          421,
+          434
+        ]
+      },
+      "correspondingArabic": "وَلَا يَخْذُلُهُ",
+      "arabicFullParentSHA256": "7f263d26aaa24aba613fd925dc1472d2c5d0fa29b9a82c2058aa2ab0a61eb7e9",
+      "assessment": "The exact published Uzbek parent says he does not deceive him. The paired Arabic means he does not abandon/fail to help him. These distinct duties must not be silently equated. The publisher’s complete retained Uzbek explanation expressly states not leaving one’s Muslim brother unaided when able to remove oppression. The selected87 quotation only concerns taqwa and is accurate.",
+      "publisherExplanationSupport": "Мусулмон биродарига ёрдам бера оладиган, зулмни ундан кўтара оладиган ўринда уни тарк қилиб қўймаслиги керак.",
+      "completeActualParentEvidence": {
+        "UzbekMatn": {
+          "text": "Абу Ҳурайра разияллоҳу анҳудан ривоят қилинади: Расулуллоҳ соллаллоҳу алайҳи ва саллам: «Бир-бирингизга ҳасад қилманглар, сунъий равишда молнинг нархини оширманглар,\nўзаро нафрат - адоватда бўлманлар, \nбир-бирларингизга тескари ўгирилиб кетманглар. Ҳеч бирингиз бошқа\nбировнинг савдоси устидан савдо қилмасин. Эй Аллоҳнинг қуллари, \nўзаро биродар бўлинглар. Мусулмон-мусулмоннинг биродаридир: У\nбиродарига зулм қилмайди, уни алдамайди ва пастга урмайди. Тақво\nмана бу ерда! – Расулуллоҳ соллаллоҳу алайҳи ва саллам шундай деб уч\nмарта кўкракларига ишора қилдилар. - Кишининг ёмонлигига унинг\nмусулмон биродарини пастга уриши кифоядир. Мусулмоннинг қони, \nмоли ва обрў-номуси бошқа бир мусулмон учун ҳаромдир.",
+          "bounds": {
+            "codePoints": [
+              0,
+              708
+            ],
+            "utf16": [
+              0,
+              708
+            ]
+          },
+          "sha256": "8ff00d5172c60becfc01d4339681c197f0b10feae6d679baf1ffaab6e849b00b"
+        },
+        "ArabicMatn": {
+          "text": "عَنْ أَبِي هُرَيْرَةَ رضي الله عنه قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «لَا تَحَاسَدُوا، وَلَا تَنَاجَشُوا، وَلَا تَبَاغَضُوا، وَلَا تَدَابَرُوا، وَلَا يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ، وَكُونُوا عِبَادَ اللهِ إِخْوَانًا الْمُسْلِمُ أَخُو الْمُسْلِمِ، لَا يَظْلِمُهُ وَلَا يَخْذُلُهُ، وَلَا يَحْقِرُهُ التَّقْوَى هَاهُنَا» وَيُشِيرُ إِلَى صَدْرِهِ ثَلَاثَ مَرَّاتٍ «بِحَسْبِ امْرِئٍ مِنَ الشَّرِّ أَنْ يَحْقِرَ أَخَاهُ الْمُسْلِمَ، كُلُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ حَرَامٌ، دَمُهُ، وَمَالُهُ، وَعِرْضُهُ».",
+          "bounds": {
+            "codePoints": [
+              0,
+              537
+            ],
+            "utf16": [
+              0,
+              537
+            ]
+          },
+          "sha256": "7f263d26aaa24aba613fd925dc1472d2c5d0fa29b9a82c2058aa2ab0a61eb7e9"
+        },
+        "UzbekExplanation": {
+          "text": "Набий соллаллоҳу алайҳи ва саллам мусулмон кишига ўз мусулмон биродарини иззат-ҳурмат қилиш, унга яхши муомала қилишни васият қилдилар ҳамда биродарлик ҳақ-ҳуқуқлари ва одоб-ахлоқ қоидаларидан айримларини баён қилдилар.\nЖумладан: Биринчи васият: бир-бирингларга ҳасад қилманглар! Яъни, бирингиз иккинчингиздаги неъмат йўқ бўлиб кетишини орзу қилмасин. Иккинчи: «Нажш қилманглар», яъни, аслида молни сотиб олиш нияти йўқ. Фақат унинг баҳосини ошириб, фақат сотувчига фойда келтириш ёки харидорга зарар етказиш учун шундай қилишдан тийилинглар. Учинчи: «Бир-бирингизни ёмон кўрманглар». Бу муҳаббатнинг тескариси, бировга зарар етказишни хоҳлаш демакдир. Фақат Аллоҳ таоло йўлидаги ёмон кўриш бундан мустасно, чунки у вожибдир. Тўртинчи: «Бир-бирингиздан юз ўгирманглар», яъни, бирингиз ўз биродарингизга орқа ўгириб, уни тарк этиб кетмасин. Бешинчи васият: «Ҳеч бирингиз бошқа\nбировнинг савдоси устидан савдо қилмангиз», яъни, кимдир бирор молни сотиб олаётганда, унга: «Менда ҳам шунга ўхшаши бор, лекин арзонроқ» ёки «менда ундан ҳам яхшироғи бор, шу нархда» деманглар. Сўнгра Расулуллоҳ саллаллоҳу алайҳи ва саллам умумий васият қилдилар: «Биродар бўлинглар!», яъни, юқорида ман қилинган ишлардан узоқ туриб, муҳаббат ва меҳр-шафқат кўрсатиш, мулойимлик ва илиқ муомалада бўлиш, яхшиликда ҳамкорлик қилиш, қалбларни пок ва самимий тутиш, ҳар доим насиҳат қилиш билан биродар бўлинглар. Бу биродарликнинг талаблари шулардан иборат: Мусулмон биродарига зулм ва тажовуз қилмаслиги. Мусулмон биродарига ёрдам бера оладиган, зулмни ундан кўтара оладиган ўринда уни тарк қилиб қўймаслиги керак. Мусулмон киши ўз биродарини ҳақир санамаслиги, уни камситмаслиги ва менсимаслик кўзи билан қарамаслиги лозим. Чунки бундай ҳолат қалбдаги кибрдан келиб чиқади. Сўнг Пайғамбар саллаллоҳу алайҳи ва саллам уч марта таъкидлаб айтдилар: «Тақво — қалбдадир». Кимнинг қалбида тақво бўлса, у яхши хулқ, Аллоҳдан қўрқиш ва Унинг назоратида эканлигини ҳис қилиш билан безанади. Бундай инсон ҳеч қачон мусулмонни ҳақир санамайди. Зеро, биродарини ҳақирлаш — қалбдаги кибр туфайли юзага чиқадиган энг ёмон сифат ва иллатлардан биридир. Сўнг Пайғамбар саллаллоҳу алайҳи ва саллам олдин айтилган ҳукмни яна бир бор қаттиқроқ таъкидладилар: «Ҳар бир мусулмоннинг бошқа мусулмонга нисбатан қони ҳам, мол-мулки ҳам, обрў-нуфузи ҳам ҳаромдир». Яъни, унинг қони — уни ўлдириш ёки ундан кичикроқ тажовузлар, масалан, жароҳат етказиш, уриш ва шу кабилар орқали ноқонуний йўл билан қон тўкиш; унинг мол-мулки — ҳақсиз олиб қўйиш; унинг обрў-нуфузи эса — уни шахсият жиҳатидан ёки насаби ҳақида ҳақорат қилиб, камситиш ҳаром ҳисобланади.",
+          "bounds": {
+            "codePoints": [
+              0,
+              2605
+            ],
+            "utf16": [
+              0,
+              2605
+            ]
+          },
+          "sha256": "8478cc26f51027eeacf0474b3b71103a3b1755d005d9e819281edc2c33031b71"
+        },
+        "ArabicExplanation": {
+          "text": "أَوْصَى النبيُّ صلى الله عليه وسلم المسلمَ بأخيه المسلم خيرًا، وبيَّن بعض ما يجب عليه من الواجبات والآداب نحوهم؛ ومن ذلك: \n\nالوصية الأولى: لا تحاسدوا بأن يتمَنَّى بعضكم زوال نعمة بعض. \n\nالثانية: لا تناجشوا بأن يزيد في ثمن السلعة وهو لا يريد شراءها؛ وإنما يريد نفع البائع، أو الإضرار بالمشتري. \n\nالثالثة: لا تباغضوا وهي إرادة المضرة وهي ضد المحبة؛ إلا إذا كان البغض في الله تعالى؛ فإنه واجب. \n\nالرابعة: لا تدابروا بأن يعطِيَ كل واحد منكم أخاه دبره وقفاه فيعرض عنه ويهجره. \n\nالخامسة: لا يبع بعضكم على بيع بعضٍ بأن يقول لمن اشترى سلعة: عندي مثلها بأقل منها أو أجود منها بسعرها. \n\nثم أوصى عليه الصلاة والسلام بوصية جامعة فقال: وكونوا كالإخوة بترك ما ذُكِر من منهيات، وببذل المودة والرفق والشفقة والملاطفة والتعاون في الخير، مع صفاء القلوب والنصيحة بكل حال. \n\nومن مقتضيات هذه الأخوة: \n\nألّا يَظلم أخاه المسلم ويعتدي عليه. \n\nوألّا يترك أخاه المسلم يُظلم فيخذله في مقام يستطيع أن ينتصر له، ويرفع عنه الظلم. \n\nوألّا يحتقره ويستقله وينظر إليه بعين الاستنقاص والازدراء؛ وهو ناتج عن كِبر في القلب.\n\nثم بيَّن النبيُّ صلى الله عليه وسلم ثلاث مرات أن التقوى في القلب، ومن كان في قلبه التقوى التي تقتضي حسن الخلق، وخشية الله ومراقبته فإنه لا يحتقر مسلمًا، وكافيه من خصال الشر ورذائل الأخلاق احتقار أخيه المسلم؛ وذلك لكِبرٍ في قلبه. \n\nثم أَكَّدَ صلى الله عليه وسلم على ما مضى بأنَّ كل المسلم على المسلم حرامٌ: دمُه: بأن يعتدي عليه بقتل أو ما دونه كجرح أو ضرب ونحوها، وكذا ماله: بأن يأخذ منه بغير حق، وكذا عِرضه: بأن يذمّه في نفسه أو حسبه.",
+          "bounds": {
+            "codePoints": [
+              0,
+              1422
+            ],
+            "utf16": [
+              0,
+              1422
+            ]
+          },
+          "sha256": "dadabf6c5233c2c57f5e6d605431de8e30fa7d377f56fe82e01cb9a4bcbac830"
+        },
+        "UzbekBenefits": {
+          "text": "Иймоний биродарликнинг барча талабларини бажаришга амр этилган ва унга зид бўлган сўз ҳамда амаллардан қайтарилган.\r\nТақвонинг асоси Аллоҳни таниш, Ундан қўрқиш ва Унинг назоратида эканлигини ҳис қилишдир. Мана шу тақво инсонни яхши амалларга чорлайди.\r\nЗоҳирий амаллардаги залолат, қалбдаги тақво заифлигига далолат қилади.\r\nМусулмонга ҳар қандай азият беришдан қайтарилган.\r\nҲасад — бировдаги неъматини йўқ бўлишини орзу қилишдир. Аммо мусулмон киши бошқадаги неъмат ўзида ҳам бўлишини хоҳлаб, лекин, бошқадан унинг йўқ бўлишини истамаса, бу «ҳавас» деб аталади ва бу яхшиликларда мусобақалашишга туртки беради, шунинг учун бу жоиз.\r\nИнсон табиатан бирор фазилатда бошқа инсон ундан устун бўлишини ёқтирмайди. Агар бошқадан неъматнинг йўқолишини истаса — бу ёмон саналган ҳасад ҳисобланади. Агар ўзи ҳам шу неъматга эга бўлишни ва мусобақалашишни хоҳласа — бу жоиз бўлган ҳавасдир.\r\nАгар харидор қаттиқ алданиб, ҳақиқий нархидан жуда баланд баҳога сотиб олаётган бўлса, харидорни хабардор қилиш биродарининг савдосига аралашиш эмас, насиҳат хисобланади. Фақат ният харидорга яхшилик қилиш бўлиши керак, сотувчига зарар етказиш эмас. Чунки амаллар ниятга боғлиқ.\r\nАгар сотувчи ва харидор ҳали ўзаро рози бўлмаган ва нарх келишилмаган бўлса, савдога савдо қўшиш ҳисобланмайди.\r\nҲадисда қайтарилган «бир-бирини ёмон кўриш» ичига Аллоҳ таоло йўлидаги адоват кирмайди. Чунки Аллоҳ йўлида ёмон кўриш вожибдир ва у иймоннинг энг мустаҳкам арқонларидан биридир.",
+          "bounds": {
+            "codePoints": [
+              0,
+              1455
+            ],
+            "utf16": [
+              0,
+              1455
+            ]
+          },
+          "sha256": "7f3b2077e4663f1380e956985fb66e54578cd86fb3ec40f6bd7efceffb74053d"
+        }
+      },
+      "noticeAuthorship": "Own factual FINAL934 editorial source-review record only, outside unchanged publisher text, outside all Quran/nonQ quotation strings and ordinary commentary. No new Uzbek target passage or ordinary-reader note authored. Not a publisher correction, new edition or Prophetic speech.",
+      "disposition": "Keep full publisher matn/explanation/benefits unchanged, factual source-review record available beside full context in Source/Saved/export. The complete paired source makes the distinction reviewable; do not repair publisher text or discard full notes.",
+      "actualSourceDuty": "HadeethEnc term5: Notify the source (HadeethEnc.com) of any note on the translation; linked platform policy asks scholarly/linguistic corrections be sent.",
+      "actualNotificationPerformed": false,
+      "notificationWaived": false,
+      "contactAuthorized": false,
+      "timingLimit": "No universal contact-per-reuse requirement or before-publication deadline is stated by these quoted terms; none is invented. Source-condition completion is not claimed. Root/sole647 separately judge concrete recipient/distribution scope under actual no-contact instruction.",
+      "arabicClauseBounds": {
+        "codePoints": [
+          296,
+          312
+        ],
+        "utf16": [
+          296,
+          312
+        ]
+      },
+      "publisherExplanationSupportBounds": {
+        "codePoints": [
+          1481,
+          1590
+        ],
+        "utf16": [
+          1481,
+          1590
+        ]
+      },
+      "selected87Unchanged": {
+        "text": "Тақво\nмана бу ерда!",
+        "sha256": "ed495158859c5d2d581ed92d7235f4425042aa95d235701b4b23bca9699bf3a2",
+        "parentBounds": {
+          "codePoints": [
+            454,
+            473
+          ],
+          "utf16": [
+            454,
+            473
+          ]
+        },
+        "readingLocations": [
+          {
+            "unitPart": "en508-p34",
+            "bounds": {
+              "codePoints": [
+                343,
+                362
+              ],
+              "utf16": [
+                343,
+                362
+              ]
+            }
+          }
+        ]
+      },
+      "exactReadableCarrier": {
+        "file": "SOURCE-TEXTS-HADITH930.txt",
+        "fullUzbekParentBounds": {
+          "codePoints": [
+            5379,
+            6087
+          ],
+          "utf16": [
+            5379,
+            6087
+          ]
+        },
+        "fullPublisherNoteBounds": [
+          {
+            "label": "HadeethEnc explanation",
+            "bounds": {
+              "codePoints": [
+                6113,
+                8718
+              ],
+              "utf16": [
+                6113,
+                8718
+              ]
+            },
+            "sha256": "8478cc26f51027eeacf0474b3b71103a3b1755d005d9e819281edc2c33031b71"
+          },
+          {
+            "label": "HadeethEnc benefits",
+            "bounds": {
+              "codePoints": [
+                8741,
+                10196
+              ],
+              "utf16": [
+                8741,
+                10196
+              ]
+            },
+            "sha256": "7f3b2077e4663f1380e956985fb66e54578cd86fb3ec40f6bd7efceffb74053d"
+          }
+        ],
+        "coordinateConvention": "Exact raw-text CP and UTF16, preserving CRLF where supplied. Independently replayed934, no normalization."
+      }
+    },
+    "contactsPerformed": false,
+    "updates": "Static observed current exact source versions only; actual delivery/future update duties remain.",
+    "thirdParty": "Vorislar/unnamed selected editions remain honestly unknown; positive actual source offer assessed only for finite excerpts, no automatic absence or ban."
+  },
+  "recipient": "Recipient integration after independent review must inspect actual source/offline/Saved/export and distribution conditions.",
+  "screenshotHold": "Uzbek Hadith screenshot remains held until this whole first lesson is actually reviewed and installed/available.",
+  "notClaimed": [
+    "Native/human/scholarly/legal certification",
+    "Source notification fulfilled or waived",
+    "Universal contact prerequisite or unstated legal release deadline",
+    "Whole course/all languages/lesson002 completeness",
+    "Runtime/native/source delivery already passed",
+    "Publisher endorsement or own source ownership"
+  ]
+}
