@@ -1,0 +1,676 @@
+{
+  "schema": "nisa-arabic-source-qualification-public-projection-v1",
+  "sourceDocumentSHA256": "137c481825ec82201ca16dc3348c3181b6dc9dd4f064a155f2cfc26a2137d16d",
+  "scope": "Supplied Arabic text and source correspondence; the existing author-candidate status remains. No independent final or scholarly certification is asserted.",
+  "sourceNotesArabic": [
+    "النص يشرح عشرين موضعًا مختارًا ومقدمة، ولا يشرح السورة كلها. أبقيت الآيات٧٩–٨٢ بنصوصها دون تدبر متخيل، وتظل غير متاحة بوصفها تعليقًا.",
+    "الأحاديث والآثار تحفظ بألفاظها وحدودها وسياقها الكامل في الملفات. نُقلت الإحالات الببليوغرافية السبعة عشر من القراءة العادية إلى هذا السجل، دون تغيير الكلمات المقتبسة أو إخفاء المتكلم أو القيد المعنوي.",
+    "فقرة٥٩: التفسير الثاني موجود عند البغوي والنسفي، ويقيدانه بالمنافقين وإخلاص الإيمان قبل القتال. ملاحظةQ400-01ظاهرة قبل الفقرة في القراءة وكل نسخة منفصلة؛ لا تكفي الإحالة في المصدر وحدها. الطبري يختار معنى البيع.",
+    "فقرة١٠١: ذكر الطبري اتخاذ البيوت مساجد، والتوجه بها إلى القبلة، وتقابلها، مع آثار وأسانيد واختيار له. التقارب الاجتماعي والبشارة تطبيق تدبري لا نص مرفوع ولا تفسير حصري للآية.",
+    "فقرة٣٧تبدأ بتخيل مشهد؛ الاعتداء المفترض ليس خبرًا وقع في الحديبية ولا يُنسب إلى راوي حديث الصلح. السياق التاريخي المحتفظ به لا يسوغ تحويل المثال إلى واقعة.",
+    "درجات الروايات منسوبة لأصحابها: الألباني للأدب١٨٨(صحيح الأدب١٣٩) وأبي داود١٤٧٩و٢٥٢٨(صحيح) وأبي داود٤٩١٨(حسن). حكم شعيب الأرناؤوط في ابن حبان٦٥٧٢إسناده صحيح على شرط الصحيح مستقل عن حكم ابن كثير على طريق البزار. ليست هذه مراجعة إسنادية مبتكرة.",
+    "قول كعب بن الأشرف «أنتم خير منه» ليس قول النبي؛ وقول ورقة وتفسير ابن عباس وقول أنس بن النضر وقصة أبي بكر ومقالة الرجل عن العطاء تحتفظ بمتكلميها. نمو المال في الفقرة٥٨ تلخيص لمعنى ولادة الولد ونتاج الخيل في البخاري٤٧٤٢، وليس اقتباسًا حرفيًا مُنشأً للحديث.",
+    "مسلم١٩٠٦a في غازية في سبيل الله تعجلت ثلثي الأجر بالغنيمة؛ والبخاري٤٤١٨ يحفظ خبر كعب وتسويفه وصدقه وتوبته؛ والبخاري٤٧٢٥ يحفظ تسلسل رحلة موسى ونسيان الفتى والنصب بعد المجاوزة؛ والبخاري٤٧٥٠ يحفظ خبر الإفك والنفقة وسياق٢٤:٢٢.",
+    "الأمثلة التطبيقية، بما فيها الحفظ والامتحان والصلح والتفاوض، ليست نصوصًا مروية. وصف النفاق لا يبيح حكمًا قطعيًا على فرد؛ والنفير ومسؤولية الفرد مقيدان بالحذر والمشورة والطاعة المشروعة وعدم الإضرار بالجماعة كما تصرح الفقرات٣٦و٦١و٨١و٨٦و١٠٦.",
+    "المقدمة والأقوال والوجوه التأملية من المصدر المورّد تبقى منسوبة إليه في بيانات المصدر، من غير ادعاء موافقة بشرية أو علمية لكل وجه. الصيغة العربية الموردة ومقدماتها وهوامشها وكل تنسيقها الأصلي محفوظة في وثيقة DOCX وأجزاء XML."
+  ],
+  "visibleNote": {
+    "id": "Q400-01",
+    "key": "4:74",
+    "beforeOriginalParagraph": 59,
+    "precedingOriginalParagraph": 58,
+    "sourceParagraphs": [
+      59
+    ],
+    "insertionIndex": 3,
+    "text": "تقييد للوجه التفسيري الثاني: حُمل هذا الوجه على المنافقين الذين اختاروا الدنيا، فدُعوا إلى أن يخلصوا الإيمان بالله ورسوله ثم يقاتلوا في سبيل الله. وليس معناه أن القتال يصحح النفاق من غير إيمان؛ وما يأتي من أمثلة علاج التردد تطبيق تأملي، لا شرطٌ تفسيري جديد ولا إذنٌ بتجاوز ضوابط العمل المذكورة في السياق.",
+    "mandatoryVisible": true,
+    "mandatoryInEveryDetachedReadingAndExport": true,
+    "sourceViewOnlyQualificationSufficient": false,
+    "reason": "The second documented interpretation in Baghawi/Nasafi specifically addresses hypocrites with sincere faith first; distinguish verse interpretation from subsequent therapeutic applications. Tabari takes the selling reading.",
+    "sources": [
+      "primary400/baghawi4-74.txt",
+      "research334/tafsir-4-74-and-10-87.txt Nasafi lines1143–1148",
+      "primary400/tabari4-74.txt"
+    ]
+  },
+  "hadithSourceAssociations": [
+    {
+      "paragraph": 8,
+      "reference": "Adab al-Mufrad 188",
+      "url": "https://sunnah.com/adab:188",
+      "qualification": "Jabir; al-Albani Sahih, Sahih al-Adab 139; exact wording and complete chain in ibn-hibban-and-adab.json",
+      "capture": "parents-1.json"
+    },
+    {
+      "paragraph": 9,
+      "reference": "Muslim 2742",
+      "url": "https://sunnah.com/muslim:2742",
+      "qualification": "Abu Said, complete preface and Prophetic excerpt",
+      "capture": "parents-1.json"
+    },
+    {
+      "paragraph": 20,
+      "reference": "Abu Dawud 1479",
+      "url": "https://sunnah.com/abudawud:1479",
+      "qualification": "Numan ibn Bashir; al-Albani Sahih; wording includes 40:60 after excerpt",
+      "capture": "parents-1.json"
+    },
+    {
+      "paragraph": 24,
+      "reference": "Ibn Hibban 6572",
+      "url": "https://hdith.com/h/gJRHnBcH6z",
+      "qualification": "Ibn Abbas relates Kaab ibn al-Ashraf story; full chain source Ibn Hibban 6572 in ibn-hibban-and-adab.json; Shuayb al-Arnaut separately calls chain Sahih according to Sahih criterion, captured ibn-hibban-grade-and-hudaybiyyah.json; Kaab quote not Prophetic",
+      "capture": "ibn-hibban-and-adab.json"
+    },
+    {
+      "paragraph": 34,
+      "reference": "Bukhari 789",
+      "url": "https://sunnah.com/bukhari:789",
+      "qualification": "Prophetic prayer wording; retained whole account",
+      "capture": "parents-2.json"
+    },
+    {
+      "paragraph": 41,
+      "reference": "Bukhari 34",
+      "url": "https://sunnah.com/bukhari:34",
+      "qualification": "Abdullah ibn Amr; source quotes a clause of whole report, not blanket judgment",
+      "capture": "parents-2.json"
+    },
+    {
+      "paragraph": 43,
+      "reference": "Bukhari 4418",
+      "url": "https://sunnah.com/bukhari:4418",
+      "qualification": "Kaab ibn Malik account of Tabuk and delay, full Arabic full-parent-1.json",
+      "capture": "full-parent-1.json"
+    },
+    {
+      "paragraph": 46,
+      "reference": "Muslim 1906a",
+      "url": "https://sunnah.com/muslim:1906a",
+      "qualification": "Abdullah ibn Amr; loot and two-thirds reward; full narration",
+      "capture": "parents-3.json"
+    },
+    {
+      "paragraph": 52,
+      "reference": "Bukhari 3",
+      "url": "https://sunnah.com/bukhari:3",
+      "qualification": "Aisha; Waraqa speech in first revelation; source excerpt exact",
+      "capture": "parents-3.json"
+    },
+    {
+      "paragraph": 58,
+      "reference": "Bukhari 4742",
+      "url": "https://sunnah.com/bukhari:4742",
+      "qualification": "Ibn Abbas commentary about man, child and breeding horses, not Prophetic quotation; source summarizes prosperity",
+      "capture": "parents-3.json"
+    },
+    {
+      "paragraph": 114,
+      "reference": "Bukhari 2805–2806",
+      "url": "https://sunnah.com/bukhari:2805",
+      "qualification": "Anas narrates Anas ibn al-Nadr words and events; source quote is Companion words",
+      "capture": "parents-4.json"
+    },
+    {
+      "paragraph": 116,
+      "reference": "Bukhari 4725",
+      "url": "https://sunnah.com/bukhari:4725",
+      "qualification": "Ibn Abbas and Ubay, Musa and Khidr complete parent; no fatigue before passing appointed place",
+      "capture": "full-parent-2.json"
+    },
+    {
+      "paragraph": 132,
+      "reference": "Bukhari 4750",
+      "url": "https://sunnah.com/bukhari:4750",
+      "qualification": "Aisha account, Abu Bakr and Mistah, 24:22; full primary",
+      "capture": "full-parent-3.json"
+    },
+    {
+      "paragraph": 133,
+      "reference": "Muslim 2312a",
+      "url": "https://sunnah.com/muslim:2312a",
+      "qualification": "Anas, flock given between mountains; full parent",
+      "capture": "parents-5.json"
+    },
+    {
+      "paragraph": 134,
+      "reference": "Abu Dawud 2528",
+      "url": "https://sunnah.com/abudawud:2528",
+      "qualification": "Abdullah ibn Amr, parents weeping; al-Albani Sahih",
+      "capture": "parents-5.json"
+    },
+    {
+      "paragraph": 141,
+      "reference": "Abu Dawud 4918",
+      "url": "https://sunnah.com/abudawud:4918",
+      "qualification": "Abu Hurayrah mirror report; al-Albani Hasan",
+      "capture": "parents-5.json"
+    },
+    {
+      "paragraph": 142,
+      "reference": "Muslim 55a",
+      "url": "https://sunnah.com/muslim:55a",
+      "qualification": "Tamim al-Dari, full parent religion is counsel",
+      "capture": "parents-6.json"
+    }
+  ],
+  "bibliographyMoves": [
+    {
+      "id": "B400-8",
+      "paragraph": 8,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [الأدب المفرد للبخاري: ١٨٨، صحيح]",
+      "before": "ومن صور العناية بمن يضعف عن المطالبة بحقه وصية النبي ﷺ بالمملوكين: «أطعموهم مما تأكلون، وألبسوهم من لبوسكم، ولا تعذبوا خلق الله عز وجل» [الأدب المفرد للبخاري: ١٨٨، صحيح]. فالقدرة على إنسان لا تعني إباحة إذلاله، والحقوق لا تُعطى للقوي وحده. والاهتمام بالمأكل والكسوة والرفق يكشف أن العدل ليس شعارًا عامًا؛ بل له أثر في المعاملة اليومية وفي حياة من يكون تحت يد غيره.",
+      "after": "ومن صور العناية بمن يضعف عن المطالبة بحقه وصية النبي ﷺ بالمملوكين: «أطعموهم مما تأكلون، وألبسوهم من لبوسكم، ولا تعذبوا خلق الله عز وجل». فالقدرة على إنسان لا تعني إباحة إذلاله، والحقوق لا تُعطى للقوي وحده. والاهتمام بالمأكل والكسوة والرفق يكشف أن العدل ليس شعارًا عامًا؛ بل له أثر في المعاملة اليومية وفي حياة من يكون تحت يد غيره.",
+      "sourceAssociation": {
+        "paragraph": 8,
+        "reference": "Adab al-Mufrad 188",
+        "url": "https://sunnah.com/adab:188",
+        "qualification": "Jabir; al-Albani Sahih, Sahih al-Adab 139; exact wording and complete chain in ibn-hibban-and-adab.json",
+        "capture": "parents-1.json"
+      }
+    },
+    {
+      "id": "B400-9",
+      "paragraph": 9,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [مسلم: ٢٧٤٢]",
+      "before": "والأسرة من أعظم مواضع هذا البناء؛ فإذا اضطرب المجتمع بقيت الأسرة الصالحة أصلًا يمكن أن ينشأ منه الإصلاح من جديد. وللمرأة دور في تثبيت البيت وحماية أهله من الفتنة، كما قد يُستغل تعلق الرجال والنساء بالشهوات لإفساد العلاقات. لذلك يجمع القرآن بين حفظ حق المرأة وإبراز أثرها، وبين الحذر من تحويل الرغبة إلى طريق يضيع الدين. وقد قال النبي ﷺ: «فاتقوا الدنيا واتقوا النساء، فإن أول فتنة بني إسرائيل كانت في النساء» [مسلم: ٢٧٤٢]. فلا يفصل المؤمن التحذير من الفتنة عن الرعاية والإحسان، ولا يجعل محبته لأهله مبررًا لاتباع الهوى؛ بل يطلب مرضاة الله في عفوه وإصلاحه وحفظه للحقوق.",
+      "after": "والأسرة من أعظم مواضع هذا البناء؛ فإذا اضطرب المجتمع بقيت الأسرة الصالحة أصلًا يمكن أن ينشأ منه الإصلاح من جديد. وللمرأة دور في تثبيت البيت وحماية أهله من الفتنة، كما قد يُستغل تعلق الرجال والنساء بالشهوات لإفساد العلاقات. لذلك يجمع القرآن بين حفظ حق المرأة وإبراز أثرها، وبين الحذر من تحويل الرغبة إلى طريق يضيع الدين. وقد قال النبي ﷺ: «فاتقوا الدنيا واتقوا النساء، فإن أول فتنة بني إسرائيل كانت في النساء». فلا يفصل المؤمن التحذير من الفتنة عن الرعاية والإحسان، ولا يجعل محبته لأهله مبررًا لاتباع الهوى؛ بل يطلب مرضاة الله في عفوه وإصلاحه وحفظه للحقوق.",
+      "sourceAssociation": {
+        "paragraph": 9,
+        "reference": "Muslim 2742",
+        "url": "https://sunnah.com/muslim:2742",
+        "qualification": "Abu Said, complete preface and Prophetic excerpt",
+        "capture": "parents-1.json"
+      }
+    },
+    {
+      "id": "B400-20",
+      "paragraph": 20,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [أبو داود: ١٤٧٩، صحيح]",
+      "before": "وقد يصبح الشعور بالضعف باب قوة حين يدفع إلى الاستعانة بالله بدل الاستسلام للعجز. يرفع الإنسان يديه، ويطأطئ رأسه، ويقر بأنه لا يستقل بما يرجو؛ فتظهر حقيقة الدعاء الذي قال فيه النبي ﷺ: «الدعاء هو العبادة» [أبو داود: ١٤٧٩، صحيح]. ليس الدعاء كلمة تُقال بعد نفاد الحيل فحسب، بل عبودية يعترف فيها العبد بحاجته إلى مدد ربه. وما لا يقدر عليه المخلوق لا يُطلب منه على أنه يملكه؛ وإنما يُتوجه فيه إلى الله، مع معرفة الفارق بين الخالق والمخلوق. فكلما صدق العبد في معرفة ضعفه ازداد افتقارًا، ولم تحمله قوة عارضة على وهم الاستغناء.",
+      "after": "وقد يصبح الشعور بالضعف باب قوة حين يدفع إلى الاستعانة بالله بدل الاستسلام للعجز. يرفع الإنسان يديه، ويطأطئ رأسه، ويقر بأنه لا يستقل بما يرجو؛ فتظهر حقيقة الدعاء الذي قال فيه النبي ﷺ: «الدعاء هو العبادة». ليس الدعاء كلمة تُقال بعد نفاد الحيل فحسب، بل عبودية يعترف فيها العبد بحاجته إلى مدد ربه. وما لا يقدر عليه المخلوق لا يُطلب منه على أنه يملكه؛ وإنما يُتوجه فيه إلى الله، مع معرفة الفارق بين الخالق والمخلوق. فكلما صدق العبد في معرفة ضعفه ازداد افتقارًا، ولم تحمله قوة عارضة على وهم الاستغناء.",
+      "sourceAssociation": {
+        "paragraph": 20,
+        "reference": "Abu Dawud 1479",
+        "url": "https://sunnah.com/abudawud:1479",
+        "qualification": "Numan ibn Bashir; al-Albani Sahih; wording includes 40:60 after excerpt",
+        "capture": "parents-1.json"
+      }
+    },
+    {
+      "id": "B400-24",
+      "paragraph": 24,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [ابن حبان: ٦٥٧٢]",
+      "before": "وفي خبر ابن عباس أن قريشًا سألت كعب بن الأشرف حين قدم مكة، وذكرت أنها أهل السقاية والسدانة، وسألته أن يوازن بينها وبين النبي ﷺ، فقال: «أنتم خير منه»؛ فجاء القرآن بإنكار هذا الميزان [ابن حبان: ٦٥٧٢]. فخدمة الحجيج وما يتصل بها من مكانة لا تجعل الشرك أهدى من الإيمان. والسؤال الذي صيغ في صورة طلب حكم لم يكن يبيح لمن يعرف الكتاب أن يبيع شهادته لإرضاء السائلين.",
+      "after": "وفي خبر ابن عباس أن قريشًا سألت كعب بن الأشرف حين قدم مكة، وذكرت أنها أهل السقاية والسدانة، وسألته أن يوازن بينها وبين النبي ﷺ، فقال: «أنتم خير منه»؛ فجاء القرآن بإنكار هذا الميزان. فخدمة الحجيج وما يتصل بها من مكانة لا تجعل الشرك أهدى من الإيمان. والسؤال الذي صيغ في صورة طلب حكم لم يكن يبيح لمن يعرف الكتاب أن يبيع شهادته لإرضاء السائلين.",
+      "sourceAssociation": {
+        "paragraph": 24,
+        "reference": "Ibn Hibban 6572",
+        "url": "https://hdith.com/h/gJRHnBcH6z",
+        "qualification": "Ibn Abbas relates Kaab ibn al-Ashraf story; full chain source Ibn Hibban 6572 in ibn-hibban-and-adab.json; Shuayb al-Arnaut separately calls chain Sahih according to Sahih criterion, captured ibn-hibban-grade-and-hudaybiyyah.json; Kaab quote not Prophetic",
+        "capture": "ibn-hibban-and-adab.json"
+      }
+    },
+    {
+      "id": "B400-34",
+      "paragraph": 34,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [البخاري: ٧٨٩]",
+      "before": "وقد قال الله في أثر المخذلين: ﴿لو خرجوا فيكم ما زادوكم إلا خبالا﴾ [التوبة: ٤٧]، ثم قال: ﴿وفيكم سماعون لهم﴾ [التوبة: ٤٧]. فالمشكلة ليست وجود الكلام المثبط وحده، بل وجود من يستجيب له. ومن استعمال السماع في معنى الإجابة قول المصلي: «سمع الله لمن حمده» [البخاري: ٧٨٩]؛ فيتبع ذلك بحمد الله، ثم يكون السجود موطن دعائه. فالعبد يتعلم أن السماع قد يبلغ بالقلب مرحلة الاستجابة، وعليه أن ينظر لمن يعطي هذا المدخل إلى عزيمته، لا أن يحسب كل ما يسمعه كلامًا لا أثر له.",
+      "after": "وقد قال الله في أثر المخذلين: ﴿لو خرجوا فيكم ما زادوكم إلا خبالا﴾ [التوبة: ٤٧]، ثم قال: ﴿وفيكم سماعون لهم﴾ [التوبة: ٤٧]. فالمشكلة ليست وجود الكلام المثبط وحده، بل وجود من يستجيب له. ومن استعمال السماع في معنى الإجابة قول المصلي: «سمع الله لمن حمده»؛ فيتبع ذلك بحمد الله، ثم يكون السجود موطن دعائه. فالعبد يتعلم أن السماع قد يبلغ بالقلب مرحلة الاستجابة، وعليه أن ينظر لمن يعطي هذا المدخل إلى عزيمته، لا أن يحسب كل ما يسمعه كلامًا لا أثر له.",
+      "sourceAssociation": {
+        "paragraph": 34,
+        "reference": "Bukhari 789",
+        "url": "https://sunnah.com/bukhari:789",
+        "qualification": "Prophetic prayer wording; retained whole account",
+        "capture": "parents-2.json"
+      }
+    },
+    {
+      "id": "B400-41",
+      "paragraph": 41,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [البخاري: ٣٤]",
+      "before": "وقيل في المبطئ: إنه منافق، وقيل يدخل في هذا الوصف من ضعف إيمانه أو كان في قلبه مرض. وليس وقوع خصلة من خصال النفاق مساويًا في كل حال للنفاق الذي يخرج من الدين؛ فقد قال النبي ﷺ في ذكر أربع خصال: «ومن كانت فيه خصلة منهن كانت فيه خصلة من النفاق حتى يدعها» [البخاري: ٣٤]، وذكر الخيانة والكذب والغدر والفجور في الخصومة. فالخوف من هذه الخصال يدفع إلى إصلاح النفس، لا إلى الاطمئنان لأن الإنسان يرى عنده بعض الخير، ولا إلى إطلاق الأحكام على كل من فتر أو تردد.",
+      "after": "وقيل في المبطئ: إنه منافق، وقيل يدخل في هذا الوصف من ضعف إيمانه أو كان في قلبه مرض. وليس وقوع خصلة من خصال النفاق مساويًا في كل حال للنفاق الذي يخرج من الدين؛ فقد قال النبي ﷺ في ذكر أربع خصال: «ومن كانت فيه خصلة منهن كانت فيه خصلة من النفاق حتى يدعها»، وذكر الخيانة والكذب والغدر والفجور في الخصومة. فالخوف من هذه الخصال يدفع إلى إصلاح النفس، لا إلى الاطمئنان لأن الإنسان يرى عنده بعض الخير، ولا إلى إطلاق الأحكام على كل من فتر أو تردد.",
+      "sourceAssociation": {
+        "paragraph": 41,
+        "reference": "Bukhari 34",
+        "url": "https://sunnah.com/bukhari:34",
+        "qualification": "Abdullah ibn Amr; source quotes a clause of whole report, not blanket judgment",
+        "capture": "parents-2.json"
+      }
+    },
+    {
+      "id": "B400-43",
+      "paragraph": 43,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [البخاري: ٤٤١٨]",
+      "before": "وفي خبر كعب بن مالك رضي الله عنه عن تبوك أنه كان يخرج ليتجهز ثم يرجع ولم يقض شيئًا، ويقول في نفسه إنه قادر على ذلك إذا أراد، حتى مضى الجيش وتأخر عنه [البخاري: ٤٤١٨]. هذه صورة لخطر التسويف حتى على من يعرف قيمة الطاعة: ليست المشكلة أنه قرر منذ البداية ألا يخرج، بل أنه ترك الخطوة الممكنة مرة بعد مرة، فصار التأخر واقعًا لم يكن يتمناه.",
+      "after": "وفي خبر كعب بن مالك رضي الله عنه عن تبوك أنه كان يخرج ليتجهز ثم يرجع ولم يقض شيئًا، ويقول في نفسه إنه قادر على ذلك إذا أراد، حتى مضى الجيش وتأخر عنه. هذه صورة لخطر التسويف حتى على من يعرف قيمة الطاعة: ليست المشكلة أنه قرر منذ البداية ألا يخرج، بل أنه ترك الخطوة الممكنة مرة بعد مرة، فصار التأخر واقعًا لم يكن يتمناه.",
+      "sourceAssociation": {
+        "paragraph": 43,
+        "reference": "Bukhari 4418",
+        "url": "https://sunnah.com/bukhari:4418",
+        "qualification": "Kaab ibn Malik account of Tabuk and delay, full Arabic full-parent-1.json",
+        "capture": "full-parent-1.json"
+      }
+    },
+    {
+      "id": "B400-46",
+      "paragraph": 46,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [مسلم: ١٩٠٦]",
+      "before": "ومن بيان اختلاف الميزانين ما أخبر به النبي ﷺ أن السرية التي تغنم قد تعجلت ثلثي أجرها، وأنها إن لم تصب غنيمة تم لها أجرها [مسلم: ١٩٠٦]. فليس كل فوات دنيوي خسارة عند الله، ولا كل مكسب عاجل هو الفوز كله. والإنسان لا يتمنى البلاء، لكنه لا يتخذ إصابة أهل الطاعة بالمحنة فرصة لمدح تقاعسه. ومن مات في طاعة مشروعة لا يُقاس حاله بمجرد أنه لم يرجع إلى راحة بيته.",
+      "after": "ومن بيان اختلاف الميزانين ما أخبر به النبي ﷺ أن السرية التي تغنم قد تعجلت ثلثي أجرها، وأنها إن لم تصب غنيمة تم لها أجرها. فليس كل فوات دنيوي خسارة عند الله، ولا كل مكسب عاجل هو الفوز كله. والإنسان لا يتمنى البلاء، لكنه لا يتخذ إصابة أهل الطاعة بالمحنة فرصة لمدح تقاعسه. ومن مات في طاعة مشروعة لا يُقاس حاله بمجرد أنه لم يرجع إلى راحة بيته.",
+      "sourceAssociation": {
+        "paragraph": 46,
+        "reference": "Muslim 1906a",
+        "url": "https://sunnah.com/muslim:1906a",
+        "qualification": "Abdullah ibn Amr; loot and two-thirds reward; full narration",
+        "capture": "parents-3.json"
+      }
+    },
+    {
+      "id": "B400-52",
+      "paragraph": 52,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [البخاري: ٣]",
+      "before": "ويقابل هذه النفسية موقف ورقة بن نوفل حين عرف خبر الوحي وأخبر النبي ﷺ بما سيلاقيه؛ قال: «يا ليتني فيها جذعا، ليتني أكون حيا إذ يخرجك قومك» [البخاري: ٣]. و«جذعًا» شابًا قويًا. تمنى القوة والحياة عند الإخراج والأذى، لا عند فتح مكة وظهور النصر. فتظهر المحبة في الاستعداد للحضور حين يحتاج الطريق إلى من يعين، لا في طلب الالتحاق به بعد أن يصير آمنًا مريحًا.",
+      "after": "ويقابل هذه النفسية موقف ورقة بن نوفل حين عرف خبر الوحي وأخبر النبي ﷺ بما سيلاقيه؛ قال: «يا ليتني فيها جذعا، ليتني أكون حيا إذ يخرجك قومك». و«جذعًا» شابًا قويًا. تمنى القوة والحياة عند الإخراج والأذى، لا عند فتح مكة وظهور النصر. فتظهر المحبة في الاستعداد للحضور حين يحتاج الطريق إلى من يعين، لا في طلب الالتحاق به بعد أن يصير آمنًا مريحًا.",
+      "sourceAssociation": {
+        "paragraph": 52,
+        "reference": "Bukhari 3",
+        "url": "https://sunnah.com/bukhari:3",
+        "qualification": "Aisha; Waraqa speech in first revelation; source excerpt exact",
+        "capture": "parents-3.json"
+      }
+    },
+    {
+      "id": "B400-58",
+      "paragraph": 58,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [البخاري: ٤٧٤٢]",
+      "before": "ويكشف القرآن هذا التعلق في قوله: ﴿ومن الناس من يعبد الله على حرف فإن أصابه خير اطمأن به﴾ [الحج: ١١]؛ أي يطمئن إلى الخير الذي أصابه، ويجعل إقباله تابعًا له. وقد وصف ابن عباس رضي الله عنهما رجلًا يقدم المدينة، فإن وُلد له ولد ونما ماله قال: هذا دين صالح، وإن لم يجد ما يرجوه قال: هذا دين سوء [البخاري: ٤٧٤٢]. فهذا لا يزن ما يختاره بصدق الوحي، بل بما يحققه له من حظ حاضر؛ وهي العلة نفسها التي جعلت المبطئ يفرح بالمصيبة إذا نجا منها، ويتحسر على النصر إذا فاته نصيبه.",
+      "after": "ويكشف القرآن هذا التعلق في قوله: ﴿ومن الناس من يعبد الله على حرف فإن أصابه خير اطمأن به﴾ [الحج: ١١]؛ أي يطمئن إلى الخير الذي أصابه، ويجعل إقباله تابعًا له. وقد وصف ابن عباس رضي الله عنهما رجلًا يقدم المدينة، فإن وُلد له ولد ونما ماله قال: هذا دين صالح، وإن لم يجد ما يرجوه قال: هذا دين سوء. فهذا لا يزن ما يختاره بصدق الوحي، بل بما يحققه له من حظ حاضر؛ وهي العلة نفسها التي جعلت المبطئ يفرح بالمصيبة إذا نجا منها، ويتحسر على النصر إذا فاته نصيبه.",
+      "sourceAssociation": {
+        "paragraph": 58,
+        "reference": "Bukhari 4742",
+        "url": "https://sunnah.com/bukhari:4742",
+        "qualification": "Ibn Abbas commentary about man, child and breeding horses, not Prophetic quotation; source summarizes prosperity",
+        "capture": "parents-3.json"
+      }
+    },
+    {
+      "id": "B400-114",
+      "paragraph": 114,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [البخاري: ٢٨٠٥]",
+      "before": "وفي أُحد قال أنس بن النضر رضي الله عنه لسعد بن معاذ: «يا سعد بن معاذ، الجنة ورب النضر، إني أجد ريحها من دون أحد» [البخاري: ٢٨٠٥]. ثم وُجد به بضع وثمانون جراحة من ضرب وطعن ورمي. لم يكن الذي أمامه أمرًا سهلًا، لكن شوقه إلى ما عند الله غيّر ميزان ما يبذله. فهذه المعرفة بالآخرة ليست معلومة محفوظة عن نعيم بعيد؛ إنها رجاء يحضر في أشد ساعات التكليف ويعين صاحبه على الصدق.",
+      "after": "وفي أُحد قال أنس بن النضر رضي الله عنه لسعد بن معاذ: «يا سعد بن معاذ، الجنة ورب النضر، إني أجد ريحها من دون أحد». ثم وُجد به بضع وثمانون جراحة من ضرب وطعن ورمي. لم يكن الذي أمامه أمرًا سهلًا، لكن شوقه إلى ما عند الله غيّر ميزان ما يبذله. فهذه المعرفة بالآخرة ليست معلومة محفوظة عن نعيم بعيد؛ إنها رجاء يحضر في أشد ساعات التكليف ويعين صاحبه على الصدق.",
+      "sourceAssociation": {
+        "paragraph": 114,
+        "reference": "Bukhari 2805–2806",
+        "url": "https://sunnah.com/bukhari:2805",
+        "qualification": "Anas narrates Anas ibn al-Nadr words and events; source quote is Companion words",
+        "capture": "parents-4.json"
+      }
+    },
+    {
+      "id": "B400-116",
+      "paragraph": 116,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [البخاري: ٤٧٢٥]",
+      "before": "وفي رحلة موسى عليه السلام إلى الخضر، لما جاوز مع فتاه المكان المقصود قال: ﴿آتنا غداءنا لقد لقينا من سفرنا هذا نصبا﴾ [الكهف: ٦٢]. وفي الحديث أنه لم يجد النصب حتى جاوز المكان الذي أُمر به [البخاري: ٤٧٢٥]. فيلفت هذا إلى أن صدق قصد الخير لا يُغني عن معرفة الطريق الذي أُمر به صاحبه والوقوف عنده؛ لا يكفي أن تكون الوجهة في الأصل طلب علم، ثم يُهمل ما يهدي إلى موضعه. فمع رجاء الأجر يحتاج المؤمن إلى اتباعٍ يصحح سيره، لا مجرد قوة تدفعه إلى مزيد من الحركة.",
+      "after": "وفي رحلة موسى عليه السلام إلى الخضر، لما جاوز مع فتاه المكان المقصود قال: ﴿آتنا غداءنا لقد لقينا من سفرنا هذا نصبا﴾ [الكهف: ٦٢]. وفي الحديث أنه لم يجد النصب حتى جاوز المكان الذي أُمر به. فيلفت هذا إلى أن صدق قصد الخير لا يُغني عن معرفة الطريق الذي أُمر به صاحبه والوقوف عنده؛ لا يكفي أن تكون الوجهة في الأصل طلب علم، ثم يُهمل ما يهدي إلى موضعه. فمع رجاء الأجر يحتاج المؤمن إلى اتباعٍ يصحح سيره، لا مجرد قوة تدفعه إلى مزيد من الحركة.",
+      "sourceAssociation": {
+        "paragraph": 116,
+        "reference": "Bukhari 4725",
+        "url": "https://sunnah.com/bukhari:4725",
+        "qualification": "Ibn Abbas and Ubay, Musa and Khidr complete parent; no fatigue before passing appointed place",
+        "capture": "full-parent-2.json"
+      }
+    },
+    {
+      "id": "B400-132",
+      "paragraph": 132,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [البخاري: ٤٧٥٠]",
+      "before": "وفي خبر أبي بكر رضي الله عنه مع مسطح، وكان ينفق عليه، أنه أقسم ألا ينفق عليه بعد مشاركته في حديث الإفك، فأنزل الله: ﴿وليعفوا وليصفحوا ألا تحبون أن يغفر الله لكم﴾ [النور: ٢٢]. فقال أبو بكر: بلى، والله إني لأحب أن يغفر الله لي، وعاد إلى النفقة [البخاري: ٤٧٥٠]. كان الأذى شديدًا ومتصلًا بابنته، لكن رجاء مغفرة الله فتح للنفس بابًا لم تفتحه مجرد المقارنة بين مقدار النفقة وسعة المال. فصلة العبد بربه تعينه على بذل يصعب عليه حين لا يرى إلا جرحه.",
+      "after": "وفي خبر أبي بكر رضي الله عنه مع مسطح، وكان ينفق عليه، أنه أقسم ألا ينفق عليه بعد مشاركته في حديث الإفك، فأنزل الله: ﴿وليعفوا وليصفحوا ألا تحبون أن يغفر الله لكم﴾ [النور: ٢٢]. فقال أبو بكر: بلى، والله إني لأحب أن يغفر الله لي، وعاد إلى النفقة. كان الأذى شديدًا ومتصلًا بابنته، لكن رجاء مغفرة الله فتح للنفس بابًا لم تفتحه مجرد المقارنة بين مقدار النفقة وسعة المال. فصلة العبد بربه تعينه على بذل يصعب عليه حين لا يرى إلا جرحه.",
+      "sourceAssociation": {
+        "paragraph": 132,
+        "reference": "Bukhari 4750",
+        "url": "https://sunnah.com/bukhari:4750",
+        "qualification": "Aisha account, Abu Bakr and Mistah, 24:22; full primary",
+        "capture": "full-parent-3.json"
+      }
+    },
+    {
+      "id": "B400-133",
+      "paragraph": 133,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [مسلم: ٢٣١٢]",
+      "before": "وقال تعالى: ﴿قل لو أنتم تملكون خزائن رحمة ربي إذا لأمسكتم خشية الإنفاق وكان الإنسان قتورا﴾ [الإسراء: ١٠٠]. فمهما اتسعت الخزائن لا يزول فقر النفس بالمال وحده. ويقابل هذا حال من وثق بالله فهان عليه العطاء؛ أعطى النبي ﷺ رجلًا غنمًا بين جبلين، فرجع إلى قومه يدعوهم إلى الإسلام ويقول إن محمدًا يعطي عطاء لا يخشى الفاقة [مسلم: ٢٣١٢]. رأى الرجل في العطاء معنى يتجاوز كثرة ما أُعطي: نفسًا لا يحبسها الخوف من النفاد عن الإحسان.",
+      "after": "وقال تعالى: ﴿قل لو أنتم تملكون خزائن رحمة ربي إذا لأمسكتم خشية الإنفاق وكان الإنسان قتورا﴾ [الإسراء: ١٠٠]. فمهما اتسعت الخزائن لا يزول فقر النفس بالمال وحده. ويقابل هذا حال من وثق بالله فهان عليه العطاء؛ أعطى النبي ﷺ رجلًا غنمًا بين جبلين، فرجع إلى قومه يدعوهم إلى الإسلام ويقول إن محمدًا يعطي عطاء لا يخشى الفاقة. رأى الرجل في العطاء معنى يتجاوز كثرة ما أُعطي: نفسًا لا يحبسها الخوف من النفاد عن الإحسان.",
+      "sourceAssociation": {
+        "paragraph": 133,
+        "reference": "Muslim 2312a",
+        "url": "https://sunnah.com/muslim:2312a",
+        "qualification": "Anas, flock given between mountains; full parent",
+        "capture": "parents-5.json"
+      }
+    },
+    {
+      "id": "B400-134",
+      "paragraph": 134,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [أبو داود: ٢٥٢٨، صحيح]",
+      "before": "وإصلاح العلاقة قد يقتضي رجوعًا عمليًا إلى من آذيته، لا الاكتفاء بأنك تقصد طاعة أخرى. جاء رجل يبايع النبي ﷺ على الهجرة وقد ترك أبويه يبكيان، فقال له: «ارجع عليهما فأضحكهما كما أبكيتهما» [أبو داود: ٢٥٢٨، صحيح]. فلم يجعل حسن المقصد سببًا للإصرار على أثر مؤلم يمكن تداركه، ولم يمتنع الرجل من قبول التوجيه لأنه جاء راغبًا في عمل عظيم. وهذه صورة لما تحتاجه علاقات كثيرة: أن يقبل الإنسان أن عليه عملًا يصلح به ما أفسد، لا أن يطلب من الآخرين نسيانه وحدهم.",
+      "after": "وإصلاح العلاقة قد يقتضي رجوعًا عمليًا إلى من آذيته، لا الاكتفاء بأنك تقصد طاعة أخرى. جاء رجل يبايع النبي ﷺ على الهجرة وقد ترك أبويه يبكيان، فقال له: «ارجع عليهما فأضحكهما كما أبكيتهما». فلم يجعل حسن المقصد سببًا للإصرار على أثر مؤلم يمكن تداركه، ولم يمتنع الرجل من قبول التوجيه لأنه جاء راغبًا في عمل عظيم. وهذه صورة لما تحتاجه علاقات كثيرة: أن يقبل الإنسان أن عليه عملًا يصلح به ما أفسد، لا أن يطلب من الآخرين نسيانه وحدهم.",
+      "sourceAssociation": {
+        "paragraph": 134,
+        "reference": "Abu Dawud 2528",
+        "url": "https://sunnah.com/abudawud:2528",
+        "qualification": "Abdullah ibn Amr, parents weeping; al-Albani Sahih",
+        "capture": "parents-5.json"
+      }
+    },
+    {
+      "id": "B400-141",
+      "paragraph": 141,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [أبو داود: ٤٩١٨، حسن]",
+      "before": "وتقرب ذلك صورة المرآة الصادقة: هي لا تبدل ملامح من يقف أمامها إرضاءً له، بخلاف صورة قد يُعبث بها حتى تخفي ما فيها. كذلك الناصح لا يجامل صاحبه بالكذب، ولا يتخذ بيان عيبه طريقًا إلى فضيحته؛ يأتيه بما يعينه على الإصلاح ويحفظ له كرامته. قال النبي ﷺ: «المؤمن مرآة المؤمن» [أبو داود: ٤٩١٨، حسن]. فصدق المرآة وأمانة الأخوة يجتمعان: حقيقة لا تُزوَّر، ونصيحة لا يقودها التشفي أو التزلف.",
+      "after": "وتقرب ذلك صورة المرآة الصادقة: هي لا تبدل ملامح من يقف أمامها إرضاءً له، بخلاف صورة قد يُعبث بها حتى تخفي ما فيها. كذلك الناصح لا يجامل صاحبه بالكذب، ولا يتخذ بيان عيبه طريقًا إلى فضيحته؛ يأتيه بما يعينه على الإصلاح ويحفظ له كرامته. قال النبي ﷺ: «المؤمن مرآة المؤمن». فصدق المرآة وأمانة الأخوة يجتمعان: حقيقة لا تُزوَّر، ونصيحة لا يقودها التشفي أو التزلف.",
+      "sourceAssociation": {
+        "paragraph": 141,
+        "reference": "Abu Dawud 4918",
+        "url": "https://sunnah.com/abudawud:4918",
+        "qualification": "Abu Hurayrah mirror report; al-Albani Hasan",
+        "capture": "parents-5.json"
+      }
+    },
+    {
+      "id": "B400-142",
+      "paragraph": 142,
+      "operation": "Move bibliographic bracket only to source files; retain every reported word and ordinary speaker/condition",
+      "removedExact": " [مسلم: ٥٥]",
+      "before": "ومن معاني النصح الخلوص من الشوائب، كما يخلص العسل مما يشوبه؛ فالنصيحة الصافية لا تحمل في باطنها رغبة في إذلال المنصوح أو شراء رضاه. وقد قال النبي ﷺ: «الدين النصيحة» [مسلم: ٥٥]. حين يقصد الناصح الله يستطيع أن يقول الحق لصديقه، وأن يعترف بحق خصمه، وأن يختار من الأسلوب ما يقرب الإصلاح بدل أن يخفي خطأه باسم المحبة.",
+      "after": "ومن معاني النصح الخلوص من الشوائب، كما يخلص العسل مما يشوبه؛ فالنصيحة الصافية لا تحمل في باطنها رغبة في إذلال المنصوح أو شراء رضاه. وقد قال النبي ﷺ: «الدين النصيحة». حين يقصد الناصح الله يستطيع أن يقول الحق لصديقه، وأن يعترف بحق خصمه، وأن يختار من الأسلوب ما يقرب الإصلاح بدل أن يخفي خطأه باسم المحبة.",
+      "sourceAssociation": {
+        "paragraph": 142,
+        "reference": "Muslim 55a",
+        "url": "https://sunnah.com/muslim:55a",
+        "qualification": "Tamim al-Dari, full parent religion is counsel",
+        "capture": "parents-6.json"
+      }
+    }
+  ],
+  "originalTextPreserved": true,
+  "sourceCorrespondence": [
+    {
+      "key": "4:71",
+      "sourceBodySha256": "e42288363b893064aaa6f2b45b39178f56a830e33dc9189b5a4607175e90594a",
+      "currentBodySha256": "85bbe87ff98d4d7d9970414bbd2a5b3e0ca0d39c647f50e3f91a6bea39f5337c",
+      "effectiveCommentaryAvailable": true,
+      "sourceBodyCharacters": 2122,
+      "currentBodyCharacters": 2107,
+      "sourceParagraphPositionsZeroBased": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "differenceOperations": [
+        {
+          "type": "delete",
+          "source": "[البخاري:٧٨٩]",
+          "current": "",
+          "contextSource": "ومناستعمالالسماعفيمعنىالإجابةقولالمصلي:«سمعاللهلمنحمده»[البخاري:٧٨٩]؛فيتبعذلكبحمدالله،ثميكونالسجودموطندعائه.فالعبديتعلمأنال"
+        }
+      ]
+    },
+    {
+      "key": "4:72",
+      "sourceBodySha256": "c0d3a027672702172c87f78e98eff5346bdb3d8fce0af82de3b6123184ccaedc",
+      "currentBodySha256": "db77869fa23a0f137014093976fcee7ac1aad2ab8d1142b6334b2ca7f99b9b5d",
+      "effectiveCommentaryAvailable": true,
+      "sourceBodyCharacters": 3076,
+      "currentBodyCharacters": 3033,
+      "sourceParagraphPositionsZeroBased": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "differenceOperations": [
+        {
+          "type": "delete",
+          "source": "[البخاري:٣٤]",
+          "current": "",
+          "contextSource": "ربعخصال:«ومنكانتفيهخصلةمنهنكانتفيهخصلةمنالنفاقحتىيدعها»[البخاري:٣٤]،وذكرالخيانةوالكذبوالغدروالفجورفيالخصومة.فالخوفمنهذهالخ"
+        },
+        {
+          "type": "delete",
+          "source": "[البخاري:٤٤١٨]",
+          "current": "",
+          "contextSource": "ئًا،ويقولفينفسهإنهقادرعلىذلكإذاأراد،حتىمضىالجيشوتأخرعنه[البخاري:٤٤١٨].هذهصورةلخطرالتسويفحتىعلىمنيعرفقيمةالطاعة:ليستالمشكلةأن"
+        },
+        {
+          "type": "delete",
+          "source": "[مسلم:١٩٠٦]",
+          "current": "",
+          "contextSource": "ريةالتيتغنمقدتعجلتثلثيأجرها،وأنهاإنلمتصبغنيمةتملهاأجرها[مسلم:١٩٠٦].فليسكلفواتدنيويخسارةعندالله،ولاكلمكسبعاجلهوالفوزكله.وا"
+        }
+      ]
+    },
+    {
+      "key": "4:73",
+      "sourceBodySha256": "449e986a523bf40cbf2125dc5f62b5318b235c2135d90af55091853ed7cf87d8",
+      "currentBodySha256": "8eb44f04e1e4b94ad797ae421d150780a91a221bdf45880fdf04f8b18e7c34bd",
+      "effectiveCommentaryAvailable": true,
+      "sourceBodyCharacters": 1901,
+      "currentBodyCharacters": 1888,
+      "sourceParagraphPositionsZeroBased": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "differenceOperations": [
+        {
+          "type": "delete",
+          "source": "[البخاري:٣]",
+          "current": "",
+          "contextSource": "ماسيلاقيه؛قال:«ياليتنيفيهاجذعا،ليتنيأكونحياإذيخرجكقومك»[البخاري:٣].و«جذعًا»شابًاقويًا.تمنىالقوةوالحياةعندالإخراجوالأذى،لا"
+        }
+      ]
+    },
+    {
+      "key": "4:74",
+      "sourceBodySha256": "66654b2abd525756a0b1e6ed5572856bed2cb8a284a841ce87a574960862d73d",
+      "currentBodySha256": "1afa8f8dac78ee2e6790cd85df9dc78825ebb008bd35b07591b3b20604054c7b",
+      "effectiveCommentaryAvailable": true,
+      "sourceBodyCharacters": 3257,
+      "currentBodyCharacters": 3545,
+      "sourceParagraphPositionsZeroBased": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "differenceOperations": [
+        {
+          "type": "delete",
+          "source": "[البخاري:٤٧٤٢]",
+          "current": "",
+          "contextSource": "هولدونمامالهقال:هذادينصالح،وإنلميجدمايرجوهقال:هذادينسوء[البخاري:٤٧٤٢].فهذالايزنمايختارهبصدقالوحي،بلبمايحققهلهمنحظحاضر؛وهيالع"
+        },
+        {
+          "type": "insert",
+          "source": "",
+          "current": ".تقييدللوجهالتفسيريالثاني:حُملهذاالوجهعلىالمنافقينالذيناختارواالدنيا،فدُعواإلىأنيخلصواالإيمانباللهورسولهثميقاتلوافيسبيلالله.وليسمعناهأنالقتاليصححالنفاقمنغيرإيمان؛ومايأتيمنأمثلةعلاجالترددتطبيقتأملي،لاشرطٌتفسيريجديدولاإذنٌبتجاوزضوابطالعملالمذكورةفيالسياق",
+          "contextSource": "المبطئيفرحبالمصيبةإذانجامنها،ويتحسرعلىالنصرإذافاتهنصيبه.وقيلفي«يشرون»هناوجهآخريُحملفيهاللفظعلىاختيارالدنيابالآ"
+        }
+      ]
+    },
+    {
+      "key": "4:75",
+      "sourceBodySha256": "675776f3a0927b7952ced75b2add4ea026c7700b094b72dacfabea59ae4acc6c",
+      "currentBodySha256": "675776f3a0927b7952ced75b2add4ea026c7700b094b72dacfabea59ae4acc6c",
+      "effectiveCommentaryAvailable": true,
+      "sourceBodyCharacters": 824,
+      "currentBodyCharacters": 824,
+      "sourceParagraphPositionsZeroBased": [
+        65,
+        66
+      ],
+      "differenceOperations": []
+    },
+    {
+      "key": "4:76",
+      "sourceBodySha256": "15cfe9be4df8b42841aea34767eaac0033405666e2e35a9316337ffc1ad4ac70",
+      "currentBodySha256": "15cfe9be4df8b42841aea34767eaac0033405666e2e35a9316337ffc1ad4ac70",
+      "effectiveCommentaryAvailable": true,
+      "sourceBodyCharacters": 1253,
+      "currentBodyCharacters": 1253,
+      "sourceParagraphPositionsZeroBased": [
+        69,
+        70,
+        71
+      ],
+      "differenceOperations": []
+    },
+    {
+      "key": "4:77",
+      "sourceBodySha256": "ec407e0817e50929515a1961a0a74366243c04a431071233d94acb7c011ec8a1",
+      "currentBodySha256": "ec407e0817e50929515a1961a0a74366243c04a431071233d94acb7c011ec8a1",
+      "effectiveCommentaryAvailable": true,
+      "sourceBodyCharacters": 2977,
+      "currentBodyCharacters": 2977,
+      "sourceParagraphPositionsZeroBased": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "differenceOperations": []
+    },
+    {
+      "key": "4:78",
+      "sourceBodySha256": "be2b3df456b663f217fa0ac5c0af4e03f475e538eebccce173b8b86568bd4713",
+      "currentBodySha256": "be2b3df456b663f217fa0ac5c0af4e03f475e538eebccce173b8b86568bd4713",
+      "effectiveCommentaryAvailable": true,
+      "sourceBodyCharacters": 786,
+      "currentBodyCharacters": 786,
+      "sourceParagraphPositionsZeroBased": [
+        84,
+        85
+      ],
+      "differenceOperations": []
+    },
+    {
+      "key": "4:79",
+      "sourceBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "currentBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "effectiveCommentaryAvailable": false,
+      "sourceBodyCharacters": 0,
+      "currentBodyCharacters": 0,
+      "sourceParagraphPositionsZeroBased": [],
+      "differenceOperations": []
+    },
+    {
+      "key": "4:80",
+      "sourceBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "currentBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "effectiveCommentaryAvailable": false,
+      "sourceBodyCharacters": 0,
+      "currentBodyCharacters": 0,
+      "sourceParagraphPositionsZeroBased": [],
+      "differenceOperations": []
+    },
+    {
+      "key": "4:81",
+      "sourceBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "currentBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "effectiveCommentaryAvailable": false,
+      "sourceBodyCharacters": 0,
+      "currentBodyCharacters": 0,
+      "sourceParagraphPositionsZeroBased": [],
+      "differenceOperations": []
+    },
+    {
+      "key": "4:82",
+      "sourceBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "currentBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "effectiveCommentaryAvailable": false,
+      "sourceBodyCharacters": 0,
+      "currentBodyCharacters": 0,
+      "sourceParagraphPositionsZeroBased": [],
+      "differenceOperations": []
+    },
+    {
+      "key": "4:83",
+      "sourceBodySha256": "c3c72bea0ab78b52a89132ba6693f66ede42014ead68963c9571a46ff717fed0",
+      "currentBodySha256": "c3c72bea0ab78b52a89132ba6693f66ede42014ead68963c9571a46ff717fed0",
+      "effectiveCommentaryAvailable": true,
+      "sourceBodyCharacters": 1990,
+      "currentBodyCharacters": 1990,
+      "sourceParagraphPositionsZeroBased": [
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "differenceOperations": []
+    },
+    {
+      "key": "4:84",
+      "sourceBodySha256": "485f130f0b802fbacc1ea7ef324c4b7965706ae319029268a3bf06c17c38f875",
+      "currentBodySha256": "485f130f0b802fbacc1ea7ef324c4b7965706ae319029268a3bf06c17c38f875",
+      "effectiveCommentaryAvailable": true,
+      "sourceBodyCharacters": 1160,
+      "currentBodyCharacters": 1160,
+      "sourceParagraphPositionsZeroBased": [
+        103,
+        104,
+        105
+      ],
+      "differenceOperations": []
+    },
+    {
+      "key": "4:85",
+      "sourceBodySha256": "04d35025693a832518d86481ca3413a68125e7b1d1341288ebf3f932b011f643",
+      "currentBodySha256": "04d35025693a832518d86481ca3413a68125e7b1d1341288ebf3f932b011f643",
+      "effectiveCommentaryAvailable": true,
+      "sourceBodyCharacters": 709,
+      "currentBodyCharacters": 709,
+      "sourceParagraphPositionsZeroBased": [
+        108,
+        109
+      ],
+      "differenceOperations": []
+    }
+  ],
+  "sourceCorrespondenceConclusion": "4:71–78 and 4:83–85 source reflection words, sentences, conditions and quotations correspond in order; 4:75–78 and 4:83–85 are exact as concatenated text. 4:71–74 omit six bracketed reference labels from visible body; the historical source qualifications explicitly record their relocation into the source record. 4:74 includes mandatory visible Q400-01 qualification, documented in source qualifications. 4:79–82 have verse text and headings but no supplied source reflection body, so effective commentary is unavailable and must not be reported as completed reflection. Original verse glyphs may use canonical corpus projection; no new Quran text generated."
+}

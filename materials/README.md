@@ -108,7 +108,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [Brazilian Portuguese · Surah 1 · extended](tadabbur/pt-BR/extended/001.md) — 7 ayah entries and an introduction
 - [Turkish · Surah 1 · extended](tadabbur/tr/extended/001.md) — 7 ayah entries and an introduction
 - [Urdu · Surah 1 · extended](tadabbur/ur/extended/001.md) — 7 ayah entries and an introduction
-- [Arabic · Surah 1 · simplified](tadabbur/ar/simplified/001.md) — 7 ayah entries
+- [Arabic · Surah 1 · simplified](tadabbur/ar/simplified/001.md) — not currently available; earlier material preserved in the archive
 - [Bengali · Surah 1 · simplified](tadabbur/bn/simplified/001.md) — 7 ayah entries
 - [English · Surah 1 · simplified](tadabbur/en/simplified/001.md) — 7 ayah entries
 - [French · Surah 1 · simplified](tadabbur/fr/simplified/001.md) — 7 ayah entries
@@ -118,15 +118,16 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [Turkish · Surah 1 · simplified](tadabbur/tr/simplified/001.md) — 7 ayah entries
 - [Urdu · Surah 1 · simplified](tadabbur/ur/simplified/001.md) — 7 ayah entries
 - [Arabic · Surah 2 · extended](tadabbur/ar/extended/002.md) — 188 ayah entries
-- [Arabic · Surah 2 · simplified](tadabbur/ar/simplified/002.md) — 239 ayah entries
-- [Arabic · Surah 3 · extended](tadabbur/ar/extended/003.md) — 8 ayah entries
-- [Arabic · Surah 4 · extended](tadabbur/ar/extended/004.md) — 15 ayah entries
+- [Arabic · Surah 2 · simplified](tadabbur/ar/simplified/002.md) — 188 ayah entries
+- [Arabic · Surah 3 · extended](tadabbur/ar/extended/003.md) — 53 ayah entries
+- [Arabic · Surah 4 · extended](tadabbur/ar/extended/004.md) — 20 ayah entries and an introduction (source correspondence checked; author-candidate status retained)
+- [Arabic · Surah 4 · simplified](tadabbur/ar/simplified/004.md) — 11 ayah entries (author-candidate status retained)
 - [Arabic · Surah 5 · extended](tadabbur/ar/extended/005.md) — 75 ayah entries
 - [Arabic · Surah 6 · extended](tadabbur/ar/extended/006.md) — 165 ayah entries
 - [Arabic · Surah 7 · extended](tadabbur/ar/extended/007.md) — 206 ayah entries
 - [Arabic · Surah 11 · extended](tadabbur/ar/extended/011.md) — 50 ayah entries and an introduction
-- [Arabic · Surah 12 · extended](tadabbur/ar/extended/012.md) — 111 ayah entries
-- [Arabic · Surah 12 · simplified](tadabbur/ar/simplified/012.md) — 111 ayah entries
+- [Arabic · Surah 12 · extended](tadabbur/ar/extended/012.md) — 110 ayah entries
+- [Arabic · Surah 12 · simplified](tadabbur/ar/simplified/012.md) — 110 ayah entries
 - [Arabic · Surah 13 · extended](tadabbur/ar/extended/013.md) — 43 ayah entries
 - [Arabic · Surah 13 · simplified](tadabbur/ar/simplified/013.md) — 43 ayah entries
 - [Arabic · Surah 14 · extended](tadabbur/ar/extended/014.md) — 52 ayah entries and an introduction
@@ -150,7 +151,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [Brazilian Portuguese · Surah 17 · extended](tadabbur/pt-BR/extended/017.md) — 9 ayah entries
 - [Turkish · Surah 17 · extended](tadabbur/tr/extended/017.md) — 9 ayah entries
 - [Urdu · Surah 17 · extended](tadabbur/ur/extended/017.md) — 9 ayah entries
-- [Arabic · Surah 17 · simplified](tadabbur/ar/simplified/017.md) — 12 ayah entries
+- [Arabic · Surah 17 · simplified](tadabbur/ar/simplified/017.md) — 9 ayah entries
 - [Bengali · Surah 17 · simplified](tadabbur/bn/simplified/017.md) — 9 ayah entries
 - [English · Surah 17 · simplified](tadabbur/en/simplified/017.md) — 9 ayah entries
 - [French · Surah 17 · simplified](tadabbur/fr/simplified/017.md) — 9 ayah entries
@@ -166,7 +167,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [Arabic · Surah 20 · simplified](tadabbur/ar/simplified/020.md) — 37 ayah entries
 - [Arabic · Surah 22 · extended](tadabbur/ar/extended/022.md) — 27 ayah entries
 - [Arabic · Surah 22 · simplified](tadabbur/ar/simplified/022.md) — 27 ayah entries
-- [Arabic · Surah 25 · extended](tadabbur/ar/extended/025.md) — 20 ayah entries
+- [Arabic · Surah 25 · extended](tadabbur/ar/extended/025.md) — 19 ayah entries
 - [Arabic · Surah 25 · simplified](tadabbur/ar/simplified/025.md) — 20 ayah entries
 - [Arabic · Surah 28 · extended](tadabbur/ar/extended/028.md) — 88 ayah entries
 - [Arabic · Surah 29 · extended](tadabbur/ar/extended/029.md) — 69 ayah entries and an introduction
@@ -174,7 +175,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [Arabic · Surah 30 · extended](tadabbur/ar/extended/030.md) — 29 ayah entries
 - [Arabic · Surah 30 · simplified](tadabbur/ar/simplified/030.md) — 29 ayah entries
 - [Arabic · Surah 31 · extended](tadabbur/ar/extended/031.md) — 15 ayah entries
-- [Arabic · Surah 31 · simplified](tadabbur/ar/simplified/031.md) — 19 ayah entries
+- [Arabic · Surah 31 · simplified](tadabbur/ar/simplified/031.md) — 15 ayah entries
 - [Arabic · Surah 33 · extended](tadabbur/ar/extended/033.md) — 4 ayah entries and an introduction
 - [Arabic · Surah 33 · simplified](tadabbur/ar/simplified/033.md) — 4 ayah entries
 - [Bengali · Surah 33 · simplified](tadabbur/bn/simplified/033.md) — 4 ayah entries
@@ -219,7 +220,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [Arabic · Surah 47 · simplified](tadabbur/ar/simplified/047.md) — 38 ayah entries
 - [Arabic · Surah 48 · extended](tadabbur/ar/extended/048.md) — 29 ayah entries
 - [Arabic · Surah 49 · extended](tadabbur/ar/extended/049.md) — 16 ayah entries
-- [Arabic · Surah 49 · simplified](tadabbur/ar/simplified/049.md) — 18 ayah entries
+- [Arabic · Surah 49 · simplified](tadabbur/ar/simplified/049.md) — 16 ayah entries
 - [Arabic · Surah 50 · extended](tadabbur/ar/extended/050.md) — 28 ayah entries
 - [Arabic · Surah 50 · simplified](tadabbur/ar/simplified/050.md) — 28 ayah entries
 - [Arabic · Surah 51 · extended](tadabbur/ar/extended/051.md) — 23 ayah entries
@@ -306,18 +307,18 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [Arabic · Surah 74 · extended](tadabbur/ar/extended/074.md) — 56 ayah entries
 - [Arabic · Surah 75 · extended](tadabbur/ar/extended/075.md) — 40 ayah entries
 - [Arabic · Surah 75 · simplified](tadabbur/ar/simplified/075.md) — 40 ayah entries
-- [Arabic · Surah 78 · extended](tadabbur/ar/extended/078.md) — 40 ayah entries
+- [Arabic · Surah 78 · extended](tadabbur/ar/extended/078.md) — 40 ayah entries and an introduction
 - [Arabic · Surah 79 · extended](tadabbur/ar/extended/079.md) — 46 ayah entries
 - [Arabic · Surah 79 · simplified](tadabbur/ar/simplified/079.md) — 46 ayah entries and an introduction
 - [Arabic · Surah 80 · extended](tadabbur/ar/extended/080.md) — 42 ayah entries
 - [Arabic · Surah 81 · extended](tadabbur/ar/extended/081.md) — 29 ayah entries
-- [Arabic · Surah 82 · extended](tadabbur/ar/extended/082.md) — 19 ayah entries
+- [Arabic · Surah 82 · extended](tadabbur/ar/extended/082.md) — 19 ayah entries and an introduction
 - [Arabic · Surah 83 · extended](tadabbur/ar/extended/083.md) — 36 ayah entries
 - [Arabic · Surah 84 · extended](tadabbur/ar/extended/084.md) — 25 ayah entries
 - [Arabic · Surah 85 · extended](tadabbur/ar/extended/085.md) — 22 ayah entries and an introduction
 - [Arabic · Surah 85 · simplified](tadabbur/ar/simplified/085.md) — 22 ayah entries
 - [Arabic · Surah 86 · extended](tadabbur/ar/extended/086.md) — 17 ayah entries
-- [Arabic · Surah 87 · extended](tadabbur/ar/extended/087.md) — 19 ayah entries
+- [Arabic · Surah 87 · extended](tadabbur/ar/extended/087.md) — 19 ayah entries and an introduction
 - [Arabic · Surah 88 · extended](tadabbur/ar/extended/088.md) — 26 ayah entries
 - [Arabic · Surah 89 · extended](tadabbur/ar/extended/089.md) — 30 ayah entries
 - [Arabic · Surah 90 · extended](tadabbur/ar/extended/090.md) — 20 ayah entries
@@ -344,7 +345,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [Urdu · Surah 93 · simplified](tadabbur/ur/simplified/093.md) — 11 ayah entries
 - [Arabic · Surah 94 · extended](tadabbur/ar/extended/094.md) — 8 ayah entries
 - [Arabic · Surah 95 · extended](tadabbur/ar/extended/095.md) — 8 ayah entries
-- [Arabic · Surah 96 · extended](tadabbur/ar/extended/096.md) — 19 ayah entries
+- [Arabic · Surah 96 · extended](tadabbur/ar/extended/096.md) — 19 ayah entries and an introduction
 - [Arabic · Surah 98 · extended](tadabbur/ar/extended/098.md) — 8 ayah entries and an introduction
 - [Bengali · Surah 98 · extended](tadabbur/bn/extended/098.md) — 8 ayah entries and an introduction
 - [English · Surah 98 · extended](tadabbur/en/extended/098.md) — 8 ayah entries and an introduction
@@ -425,7 +426,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 - [Arabic · Surah 108 · extended](tadabbur/ar/extended/108.md) — 3 ayah entries
 - [Arabic · Surah 111 · extended](tadabbur/ar/extended/111.md) — 5 ayah entries
 - [Arabic · Surah 112 · extended](tadabbur/ar/extended/112.md) — 4 ayah entries and an introduction
-- [Arabic · Surah 112 · simplified](tadabbur/ar/simplified/112.md) — 4 ayah entries and an introduction
+- [Arabic · Surah 112 · simplified](tadabbur/ar/simplified/112.md) — not currently available; earlier material preserved in the archive
 - [Arabic · Surah 113 · extended](tadabbur/ar/extended/113.md) — 5 ayah entries
 - [Arabic · Surah 113 · simplified](tadabbur/ar/simplified/113.md) — 5 ayah entries
 - [Bengali · Surah 113 · simplified](tadabbur/bn/simplified/113.md) — 5 ayah entries
@@ -837,3 +838,8 @@ Our translated summaries, meanings and explanations are **AI translated — need
 ## Heart Reminder: selected Dunya reports
 
 [Selected Heart reports and Quran passages in Uzbek, Thai, Vietnamese, Japanese and Filipino, with source records](hadith/heart-reminder/README.md). This is a partial selection, not the complete Heart collection.
+
+
+## Current Arabic source alignment
+
+The [Arabic source alignment and archive index](tadabbur/ar/archive/940/INDEX.json) identifies current app readings, source-file revisions, preserved earlier public files and documented source qualifications. Earlier public commentary that is not active in the current app remains in the historical archive, without a judgment of its correctness. Al-Fatihah and Al-Ikhlas Simplified are not currently available in the app; their earlier public material remains in the archive. Al-Takathur has current Arabic Extended and Simplified readings. Draft source status remains visible where applicable.
