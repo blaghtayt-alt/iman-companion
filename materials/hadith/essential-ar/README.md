@@ -10,6 +10,8 @@ The historical Hadith collection remains separately available in [the existing a
 
 [Machine-readable catalog](catalog.json)
 
+[Hindi first lesson](../essential-hi/README.md), separately reviewed as a single lesson.
+
 [Bengali first lesson](../essential-bn/README.md), separately reviewed as a single lesson.
 
 [Urdu first lesson](../essential-ur/README.md), separately reviewed as a single lesson.
