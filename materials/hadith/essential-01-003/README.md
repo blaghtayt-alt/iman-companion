@@ -1,6 +1,6 @@
 # Essential Iman · lesson 01-003
 
-The Arabic source and the complete Bengali, English, Filipino, French, German, Hindi, Indonesian, Japanese, Malay, Persian, Portuguese, Russian, Simplified Chinese, Spanish, Turkish, Urdu, Uzbek and Vietnamese readings are installed and published. The Bengali, English, Filipino, French, German, Hindi, Indonesian, Japanese, Malay, Persian, Portuguese, Russian, Simplified Chinese, Spanish, Turkish, Urdu, Uzbek and Vietnamese texts have been independently model-reviewed and need human verification. Other translated languages remain in preparation.
+The Arabic source and the complete Bengali, English, Filipino, French, German, Hindi, Indonesian, Japanese, Malay, Persian, Portuguese, Russian, Simplified Chinese, Spanish, Thai, Turkish, Urdu, Uzbek and Vietnamese readings are installed and published. The Bengali, English, Filipino, French, German, Hindi, Indonesian, Japanese, Malay, Persian, Portuguese, Russian, Simplified Chinese, Spanish, Thai, Turkish, Urdu, Uzbek and Vietnamese texts have been independently model-reviewed and need human verification. All 20 app languages are represented.
 
 - [Arabic source](../essential-ar/01/003.md) · [Source data](../essential-ar/01/003.json)
 - [Japanese reading](../essential-ja/003.md) · [Plain text](../essential-ja/003.txt) · [Structured reading](../essential-ja/003.json) · [Sources and editions](../essential-ja/003-sources.json)
@@ -21,3 +21,4 @@ The Arabic source and the complete Bengali, English, Filipino, French, German, H
 - [Urdu reading](../essential-ur/003.md) · [Plain text](../essential-ur/003.txt) · [Structured reading](../essential-ur/003.json) · [Sources and editions](../essential-ur/003-sources.json)
 - [Simplified Chinese reading](../essential-zh-CN/003.md) · [Plain text](../essential-zh-CN/003.txt) · [Structured reading](../essential-zh-CN/003.json) · [Sources and editions](../essential-zh-CN/003-sources.json)
 - [Bengali reading](../essential-bn/003.md) · [Plain text](../essential-bn/003.txt) · [Structured reading](../essential-bn/003.json) · [Sources and editions](../essential-bn/003-sources.json)
+- [Thai reading](../essential-th/003.md) · [Plain text](../essential-th/003.txt) · [Structured reading](../essential-th/003.json) · [Sources and editions](../essential-th/003-sources.json)
