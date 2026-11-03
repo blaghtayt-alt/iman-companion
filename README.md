@@ -25,7 +25,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 - [Arabic Essential Iman Hadiths: 286 lessons in 12 chapters](materials/hadith/essential-ar/README.md)
 - [Al-Fatiha extended reflections in German, Japanese, Filipino, Hindi, Simplified Chinese, Persian, Thai, Russian, Vietnamese, Spanish and Uzbek](materials/tadabbur/fatiha-extended/README.md).
 - [Essential Iman Hadith 01-002: reviewed reading in all 20 app languages](materials/hadith/essential-01-002/README.md), with source and translation details. Previously published first-lesson source exports remain available in the [Hadith collection](materials/hadith/README.md).
-- [Essential Iman Hadith 01-003 in Arabic, English, Filipino, French, German, Japanese, Persian, Russian, Spanish and Vietnamese](materials/hadith/essential-01-003/README.md), with source and translation details.
+- [Essential Iman Hadith 01-003 in Arabic, English, Filipino, French, German, Japanese, Persian, Russian, Spanish, Uzbek and Vietnamese](materials/hadith/essential-01-003/README.md), with source and translation details.
 - [Heart Reminder: selected reports and Quran passages in five languages](materials/hadith/heart-reminder/README.md)
 - [Historical Hadith reading collection and translations](materials/hadith/README.md)
 - [Sayings of Ibn al-Qayyim](materials/ibn-al-qayyim/README.md)

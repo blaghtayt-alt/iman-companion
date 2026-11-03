@@ -14,7 +14,7 @@
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Arabic Essential Iman Hadiths: 286 lessons in 12 chapters](hadith/essential-ar/README.md)
 - [Essential Iman lesson 01-002 in all 20 app languages](hadith/essential-01-002/README.md)
-- [Essential Iman lesson 01-003 in Arabic, English, Filipino, French, German, Japanese, Persian, Russian, Spanish and Vietnamese](hadith/essential-01-003/README.md)
+- [Essential Iman lesson 01-003 in Arabic, English, Filipino, French, German, Japanese, Persian, Russian, Spanish, Uzbek and Vietnamese](hadith/essential-01-003/README.md)
 - [Reviewed Seerah chapters 1–2 in Uzbek, Thai, Vietnamese, Japanese and Filipino](seerah/reviewed-first-pair/README.md)
 - [Indonesian Essential Hadith: first lesson and sources](hadith/essential-id/README.md)
 - [Historical Hadith collection: published translations and reviewed meanings](hadith/README.md)
@@ -27,25 +27,25 @@ Our translated summaries, meanings and explanations are **AI translated — need
 | Collection | Language | Documents |
 | --- | --- | --- |
 | essential-hadith | Arabic | 286 lesson pages, 12 chapters |
-| essential-hadith | English | 1 lesson |
-| essential-hadith | French | 2 lessons |
-| essential-hadith | Turkish | 1 lesson |
+| essential-hadith | English | 3 lessons |
+| essential-hadith | French | 3 lessons |
+| essential-hadith | Turkish | 2 lessons |
 | essential-hadith | Indonesian | 2 lessons |
 | essential-hadith | Malay | 2 lessons |
 | essential-hadith | Brazilian Portuguese | 2 lessons |
 | essential-hadith | Urdu | 2 lessons |
 | essential-hadith | Bengali | 2 lessons |
 | essential-hadith | Hindi | 2 lessons |
-| essential-hadith | Russian | 2 lessons |
-| essential-hadith | Spanish | 2 lessons |
-| essential-hadith | Persian | 2 lessons |
-| essential-hadith | German | 2 lessons |
-| essential-hadith | Simplified Chinese | 1 lesson |
-| essential-hadith | Uzbek | 2 lessons |
-| essential-hadith | Thai | 1 lesson |
-| essential-hadith | Vietnamese | 1 lesson |
-| essential-hadith | Japanese | 1 lesson |
-| essential-hadith | Filipino | 1 lesson |
+| essential-hadith | Russian | 3 lessons |
+| essential-hadith | Spanish | 3 lessons |
+| essential-hadith | Persian | 3 lessons |
+| essential-hadith | German | 3 lessons |
+| essential-hadith | Simplified Chinese | 2 lessons |
+| essential-hadith | Uzbek | 3 lessons |
+| essential-hadith | Thai | 2 lessons |
+| essential-hadith | Vietnamese | 3 lessons |
+| essential-hadith | Japanese | 3 lessons |
+| essential-hadith | Filipino | 3 lessons |
 | hadith | Arabic | 1 |
 | hadith | German | 1 |
 | hadith | Spanish | 1 |
