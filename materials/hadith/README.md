@@ -2,6 +2,8 @@
 
 The separate [Arabic Essential Iman Hadiths course](essential-ar/README.md) contains 286 lessons in 12 chapters. Its first lesson is available with sources in [French](essential-fr/README.md), [Indonesian](essential-id/README.md), [Malay](essential-ms/README.md) and [Portuguese](essential-pt-BR/README.md) and [Urdu](essential-ur/README.md), [Bengali](essential-bn/README.md), [Hindi](essential-hi/README.md), [Russian](essential-ru/README.md), [Spanish](essential-es/README.md), [Persian](essential-fa/README.md), [German](essential-de/README.md) and [Uzbek](essential-uz/README.md). The historical 303-report Arabic collection below remains available as an archive with its existing per-language coverage.
 
+The complete, independently model-reviewed [second Essential lesson (01-002)](essential-01-002/README.md) is installed locally and published in Arabic and 19 translated languages. Arabic is reused from the existing source export. Human verification of translations remains needed.
+
 These files share the reviewed material currently used in Iman Companion. Suitable published translations are used first. Where a suitable published translation was not found after a targeted search, a translation of the Arabic meaning was prepared and reviewed separately. Explanations are kept outside the Hadith wording.
 
 Independent translations and editorial explanations are **AI translated — needs verification**. Published translations retain their original wording, edition credits and rights. Internal review does not certify them as human-reviewed.

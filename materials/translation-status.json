@@ -484,6 +484,131 @@
       "collection": "under-5",
       "language": "ar",
       "documents": 6
+    },
+    {
+      "collection": "seerah",
+      "language": "uz",
+      "documents": 2
+    },
+    {
+      "collection": "seerah",
+      "language": "th",
+      "documents": 2
+    },
+    {
+      "collection": "seerah",
+      "language": "vi",
+      "documents": 2
+    },
+    {
+      "collection": "seerah",
+      "language": "ja",
+      "documents": 2
+    },
+    {
+      "collection": "seerah",
+      "language": "fil",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "ar",
+      "documents": 286
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "en",
+      "documents": 1
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "fr",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "tr",
+      "documents": 1
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "id",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "ms",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "pt-BR",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "ur",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "bn",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "hi",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "ru",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "es",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "fa",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "de",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "zh-CN",
+      "documents": 1
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "uz",
+      "documents": 2
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "th",
+      "documents": 1
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "vi",
+      "documents": 1
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "ja",
+      "documents": 1
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "fil",
+      "documents": 1
     }
   ],
   "seerahAppCoverage": {
@@ -501,7 +626,12 @@
     "es": 10,
     "fa": 10,
     "de": 9,
-    "zh-CN": 9
+    "zh-CN": 9,
+    "uz": 2,
+    "th": 2,
+    "vi": 2,
+    "ja": 2,
+    "fil": 2
   },
   "hadithReports": {
     "ar": 303,
@@ -702,7 +832,7 @@
       "ms",
       "pt-BR"
     ],
-    "status": "Independently model-reviewed; human verification needed. All other lessons in these two languages remain in preparation."
+    "status": "Independently model-reviewed; human verification needed. See essentialSecond1003 for current coverage."
   },
   "arabicSource878": {
     "extendedPassages": 239,
@@ -715,28 +845,28 @@
     "languages": [
       "ur"
     ],
-    "status": "Independently model-reviewed; human verification needed. Other Urdu lessons remain in preparation."
+    "status": "Independently model-reviewed; human verification needed. See essentialSecond1003 for current coverage."
   },
   "essentialFirst891": {
     "unit": "essential-01-001",
     "languages": [
       "bn"
     ],
-    "status": "Independently model-reviewed; human verification needed. Other Bengali lessons remain in preparation."
+    "status": "Independently model-reviewed; human verification needed. See essentialSecond1003 for current coverage."
   },
   "essentialFirst896": {
     "unit": "essential-01-001",
     "languages": [
       "hi"
     ],
-    "status": "Independently model-reviewed; human verification needed. Other Hindi lessons remain in preparation."
+    "status": "Independently model-reviewed; human verification needed. See essentialSecond1003 for current coverage."
   },
   "essentialFirst898": {
     "unit": "essential-01-001",
     "languages": [
       "ru"
     ],
-    "status": "Independently model-reviewed; human verification needed. Other Russian lessons remain in preparation."
+    "status": "Independently model-reviewed; human verification needed. See essentialSecond1003 for current coverage."
   },
   "sourceCorrection911": {
     "scope": "Selected source corrections and whole Spanish/Persian first lessons only.",
@@ -758,7 +888,7 @@
     "languages": [
       "de"
     ],
-    "status": "Independently model-reviewed; human verification needed. Other German lessons remain in preparation."
+    "status": "Independently model-reviewed; human verification needed. See essentialSecond1003 for current coverage."
   },
   "essentialFirstSource928": {
     "unit": "essential-01-001",
@@ -785,6 +915,48 @@
     "languages": [
       "uz"
     ],
-    "status": "Independently model-reviewed; human verification needed. Other Uzbek lessons remain in preparation."
+    "status": "Independently model-reviewed; human verification needed. See essentialSecond1003 for current coverage."
+  },
+  "essentialSecond1003": {
+    "unit": "essential-01-002",
+    "languages": [
+      "ar",
+      "en",
+      "fr",
+      "tr",
+      "id",
+      "ms",
+      "pt-BR",
+      "ur",
+      "bn",
+      "hi",
+      "ru",
+      "es",
+      "fa",
+      "de",
+      "zh-CN",
+      "uz",
+      "th",
+      "vi",
+      "ja",
+      "fil"
+    ],
+    "status": "Arabic source plus 19 independently model-reviewed translations installed locally and published; human verification needed for translations.",
+    "index": "materials/hadith/essential-01-002/README.md"
+  },
+  "seerahFirstPairs1003": {
+    "chapters": [
+      1,
+      2
+    ],
+    "languages": [
+      "vi",
+      "th",
+      "uz",
+      "ja",
+      "fil"
+    ],
+    "status": "Independently model-reviewed, installed locally and published; human verification needed.",
+    "index": "materials/seerah/reviewed-first-pair/README.md"
   }
 }

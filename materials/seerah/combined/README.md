@@ -1,6 +1,6 @@
 # Combined Seerah summaries
 
-I prepared these summaries for **Iman Companion · رفيق الإيمان**, following Ahmad al-Sayyid’s Seerah lecture sequence. They give readers a connected account with people and events introduced, repetition reduced, and Quran and Hadith references retained. They are not official transcripts or publications endorsed by the lecturer.
+I prepared these summaries for **Iman Companion · رفيق الإيمان**, following [Ahmed al-Sayed (أحمد السيد)](https://www.youtube.com/@alsayyed_ah)’s Seerah lecture sequence. They give readers a connected account with people and events introduced, repetition reduced, and Quran and Hadith references retained. They are not official transcripts or publications endorsed by the lecturer.
 
 ## Reading files
 
@@ -14,6 +14,11 @@ The original nine languages contain chapters 1–22: Arabic, English, French, Tu
 | Persian | [Chapters](../fa/) · [Combined reading file](fa.md) · [JSON](fa.json) | 10 / 22 |
 | German | [Chapters](../de/) · [Combined reading file](de.md) · [JSON](de.json) | 9 / 22 |
 | Simplified Chinese | [Chapters](../zh-CN/) · [Combined reading file](zh-CN.md) · [JSON](zh-CN.json) | 9 / 22 |
+| Uzbek | [Chapter 1](../reviewed-first-pair/uz/01.md) · [Chapter 2](../reviewed-first-pair/uz/02.md) | 2 / 22 |
+| Thai | [Chapter 1](../reviewed-first-pair/th/01.md) · [Chapter 2](../reviewed-first-pair/th/02.md) | 2 / 22 |
+| Vietnamese | [Chapter 1](../reviewed-first-pair/vi/01.md) · [Chapter 2](../reviewed-first-pair/vi/02.md) | 2 / 22 |
+| Japanese | [Chapter 1](../reviewed-first-pair/ja/01.md) · [Chapter 2](../reviewed-first-pair/ja/02.md) | 2 / 22 |
+| Filipino | [Chapter 1](../reviewed-first-pair/fil/01.md) · [Chapter 2](../reviewed-first-pair/fil/02.md) | 2 / 22 |
 
 The Arabic source archive also contains chapters 23–26, listed separately from the 22 app chapters. Missing translations are not filled with another language.
 
