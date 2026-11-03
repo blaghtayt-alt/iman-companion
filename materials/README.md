@@ -14,7 +14,7 @@
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Arabic Essential Iman Hadiths: 286 lessons in 12 chapters](hadith/essential-ar/README.md)
 - [Essential Iman lesson 01-002 in all 20 app languages](hadith/essential-01-002/README.md)
-- [Essential Iman lesson 01-003 in Arabic, Filipino, German, Japanese and Vietnamese](hadith/essential-01-003/README.md)
+- [Essential Iman lesson 01-003 in Arabic, Filipino, German, Japanese, Persian and Vietnamese](hadith/essential-01-003/README.md)
 - [Reviewed Seerah chapters 1–2 in Uzbek, Thai, Vietnamese, Japanese and Filipino](seerah/reviewed-first-pair/README.md)
 - [Indonesian Essential Hadith: first lesson and sources](hadith/essential-id/README.md)
 - [Historical Hadith collection: published translations and reviewed meanings](hadith/README.md)
