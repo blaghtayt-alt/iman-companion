@@ -1,6 +1,6 @@
 # Essential Iman · lesson 01-003
 
-The Arabic source and the complete English, Filipino, French, German, Hindi, Japanese, Persian, Russian, Spanish, Uzbek and Vietnamese readings are installed and published. The English, Filipino, French, German, Hindi, Japanese, Persian, Russian, Spanish, Uzbek and Vietnamese texts have been independently model-reviewed and need human verification. Other translated languages remain in preparation.
+The Arabic source and the complete English, Filipino, French, German, Hindi, Indonesian, Japanese, Malay, Persian, Portuguese, Russian, Simplified Chinese, Spanish, Turkish, Urdu, Uzbek and Vietnamese readings are installed and published. The English, Filipino, French, German, Hindi, Indonesian, Japanese, Malay, Persian, Portuguese, Russian, Simplified Chinese, Spanish, Turkish, Urdu, Uzbek and Vietnamese texts have been independently model-reviewed and need human verification. Other translated languages remain in preparation.
 
 - [Arabic source](../essential-ar/01/003.md) · [Source data](../essential-ar/01/003.json)
 - [Japanese reading](../essential-ja/003.md) · [Plain text](../essential-ja/003.txt) · [Structured reading](../essential-ja/003.json) · [Sources and editions](../essential-ja/003-sources.json)
@@ -14,3 +14,9 @@ The Arabic source and the complete English, Filipino, French, German, Hindi, Jap
 - [French reading](../essential-fr/003.md) · [Plain text](../essential-fr/003.txt) · [Structured reading](../essential-fr/003.json) · [Sources and editions](../essential-fr/003-sources.json)
 - [Uzbek reading](../essential-uz/003.md) · [Plain text](../essential-uz/003.txt) · [Structured reading](../essential-uz/003.json) · [Sources and editions](../essential-uz/003-sources.json)
 - [Hindi reading](../essential-hi/003.md) · [Plain text](../essential-hi/003.txt) · [Structured reading](../essential-hi/003.json) · [Sources and editions](../essential-hi/003-sources.json)
+- [Indonesian reading](../essential-id/003.md) · [Plain text](../essential-id/003.txt) · [Structured reading](../essential-id/003.json) · [Sources and editions](../essential-id/003-sources.json)
+- [Turkish reading](../essential-tr/003.md) · [Plain text](../essential-tr/003.txt) · [Structured reading](../essential-tr/003.json) · [Sources and editions](../essential-tr/003-sources.json)
+- [Malay reading](../essential-ms/003.md) · [Plain text](../essential-ms/003.txt) · [Structured reading](../essential-ms/003.json) · [Sources and editions](../essential-ms/003-sources.json)
+- [Brazilian Portuguese reading](../essential-pt-BR/003.md) · [Plain text](../essential-pt-BR/003.txt) · [Structured reading](../essential-pt-BR/003.json) · [Sources and editions](../essential-pt-BR/003-sources.json)
+- [Urdu reading](../essential-ur/003.md) · [Plain text](../essential-ur/003.txt) · [Structured reading](../essential-ur/003.json) · [Sources and editions](../essential-ur/003-sources.json)
+- [Simplified Chinese reading](../essential-zh-CN/003.md) · [Plain text](../essential-zh-CN/003.txt) · [Structured reading](../essential-zh-CN/003.json) · [Sources and editions](../essential-zh-CN/003-sources.json)
