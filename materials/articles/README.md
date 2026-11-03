@@ -1,4 +1,4 @@
 # Articles
 
 - [Prepared Arabic articles 1–30](prepared-ar/README.md), with Islamic source references. Other languages are in preparation.
-- [Earlier article: The trial in what we await — 20 languages and sources](al-fitnah-al-muntazarah/README.md) (previous collection, retained for reference).
+- [Restored article: The trial in what we await — 20 languages and sources](al-fitnah-al-muntazarah/README.md), available in the current local app.
