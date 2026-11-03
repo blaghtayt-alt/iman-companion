@@ -15,7 +15,7 @@
 - [Arabic Essential Iman Hadiths: 286 lessons in 12 chapters](hadith/essential-ar/README.md)
 - [Essential Iman lesson 01-002 in all 20 app languages](hadith/essential-01-002/README.md)
 - [Essential Iman lesson 01-003 in Arabic, Bengali, English, Filipino, French, German, Hindi, Indonesian, Japanese, Malay, Persian, Portuguese, Russian, Simplified Chinese, Spanish, Thai, Turkish, Urdu, Uzbek and Vietnamese](hadith/essential-01-003/README.md)
-- [Essential Iman lesson 01-004 in Arabic, English, French, German, Indonesian and Japanese](hadith/essential-01-004/README.md)
+- [Essential Iman lesson 01-004 in Arabic, English, French, German, Indonesian, Japanese, Russian and Turkish](hadith/essential-01-004/README.md)
 - [Reviewed Seerah chapters 1–2 in Uzbek, Thai, Vietnamese, Japanese and Filipino](seerah/reviewed-first-pair/README.md)
 - [Indonesian Essential Hadith: first lesson and sources](hadith/essential-id/README.md)
 - [Historical Hadith collection: published translations and reviewed meanings](hadith/README.md)
@@ -30,14 +30,14 @@ Our translated summaries, meanings and explanations are **AI translated — need
 | essential-hadith | Arabic | 286 lesson pages, 12 chapters |
 | essential-hadith | English | 4 lessons |
 | essential-hadith | French | 4 lessons |
-| essential-hadith | Turkish | 3 lessons |
+| essential-hadith | Turkish | 4 lessons |
 | essential-hadith | Indonesian | 4 lessons |
 | essential-hadith | Malay | 3 lessons |
 | essential-hadith | Brazilian Portuguese | 3 lessons |
 | essential-hadith | Urdu | 3 lessons |
 | essential-hadith | Bengali | 3 lessons |
 | essential-hadith | Hindi | 3 lessons |
-| essential-hadith | Russian | 3 lessons |
+| essential-hadith | Russian | 4 lessons |
 | essential-hadith | Spanish | 3 lessons |
 | essential-hadith | Persian | 3 lessons |
 | essential-hadith | German | 4 lessons |

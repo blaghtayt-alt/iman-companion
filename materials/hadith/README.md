@@ -6,7 +6,7 @@ The complete, independently model-reviewed [second Essential lesson (01-002)](es
 
 [Essential lesson 01-003](essential-01-003/README.md) is installed and published in Arabic, Bengali, English, Filipino, French, German, Hindi, Indonesian, Japanese, Malay, Persian, Portuguese, Russian, Simplified Chinese, Spanish, Thai, Turkish, Urdu, Uzbek and Vietnamese; all 20 app languages are represented.
 
-[Essential lesson 01-004](essential-01-004/README.md) is installed and published in Arabic, English, French, German, Indonesian and Japanese; other translations remain in preparation.
+[Essential lesson 01-004](essential-01-004/README.md) is installed and published in Arabic, English, French, German, Indonesian, Japanese, Russian and Turkish; other translations remain in preparation.
 
 These files share the reviewed material currently used in Iman Companion. Suitable published translations are used first. Where a suitable published translation was not found after a targeted search, a translation of the Arabic meaning was prepared and reviewed separately. Explanations are kept outside the Hadith wording.
 
