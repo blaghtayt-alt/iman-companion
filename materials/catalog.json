@@ -17507,6 +17507,17 @@
       "json": "materials/tadabbur/fatiha-extended/uz/reading.json",
       "translationStatus": "ai-translated-needs-verification",
       "status": "current-app-edition"
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "ja",
+      "id": "essential-01-003",
+      "markdown": "materials/hadith/essential-ja/003.md",
+      "json": "materials/hadith/essential-ja/003.json",
+      "translationStatus": "ai-translated-needs-verification",
+      "chapter": 1,
+      "lesson": 3,
+      "status": "current-app-edition"
     }
   ],
   "workInProgress": [
@@ -18260,5 +18271,14 @@
     ],
     "units": 8,
     "index": "materials/tadabbur/fatiha-extended/README.md"
+  },
+  "essentialThird1016": {
+    "unit": "essential-01-003",
+    "languages": [
+      "ar",
+      "ja"
+    ],
+    "status": "Arabic source and independently model-reviewed Japanese reading installed and published; human verification needed for Japanese. Other translations remain in preparation.",
+    "index": "materials/hadith/essential-01-003/README.md"
   }
 }
