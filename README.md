@@ -23,7 +23,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 - [Arabic Maryam Simplified reflections, 19:1–98, with sources](materials/tadabbur/ar/simplified/019.md)
 - Updated Arabic Extended reflections: [Aal Imran](materials/tadabbur/ar/extended/003.md), [Al-Kahf](materials/tadabbur/ar/extended/018.md), [Al-Qasas](materials/tadabbur/ar/extended/028.md), [Ya-Sin](materials/tadabbur/ar/extended/036.md), [At-Taghabun](materials/tadabbur/ar/extended/064.md) and [An-Nazi‘at](materials/tadabbur/ar/extended/079.md).
 - [Arabic Essential Iman Hadiths: 286 lessons in 12 chapters](materials/hadith/essential-ar/README.md)
-- [Al-Fatiha extended reflections in German, Japanese, Filipino, Hindi, Simplified Chinese, Persian, Thai and Russian](materials/tadabbur/fatiha-extended/README.md).
+- [Al-Fatiha extended reflections in German, Japanese, Filipino, Hindi, Simplified Chinese, Persian, Thai, Russian and Vietnamese](materials/tadabbur/fatiha-extended/README.md).
 - [Essential Iman Hadith 01-002: reviewed reading in all 20 app languages](materials/hadith/essential-01-002/README.md), with source and translation details. Previously published first-lesson source exports remain available in the [Hadith collection](materials/hadith/README.md).
 - [Heart Reminder: selected reports and Quran passages in five languages](materials/hadith/heart-reminder/README.md)
 - [Historical Hadith reading collection and translations](materials/hadith/README.md)
