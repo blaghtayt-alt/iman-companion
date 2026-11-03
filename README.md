@@ -66,7 +66,7 @@ If you find a mistake, please open an issue with the language, file, surah and a
 
 ## Articles
 
-- [Prepared Arabic articles 1–20 and their Islamic references](materials/articles/prepared-ar/README.md)
+- [Prepared Arabic articles 1–30 and their Islamic references](materials/articles/prepared-ar/README.md)
 - [Earlier article and its translations](materials/articles/al-fitnah-al-muntazarah/README.md), retained for reference.
 
 ## Current Al-Ikhlas reflections
