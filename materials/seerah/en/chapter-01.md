@@ -98,4 +98,4 @@ The people of Makkah did not know then what would begin some forty years later. 
 
 ## Qur’an 2:129 translation note
 
-[1] The Messenger from the posterity of Ishmael; i.e., Muhammad (ﷺ). The marker [1] refers to this note and is not part of the words to recite. [Full publisher record](sources/quranenc-english-rowwad-2-129.json). This current correction supersedes the earlier quotation in historical exports; those archives remain unchanged.
+[1] The Messenger from the posterity of Ishmael; i.e., Muhammad (ﷺ). [Full publisher record](sources/quranenc-english-rowwad-2-129.json). This current correction supersedes the earlier quotation in historical exports; those archives remain unchanged.
