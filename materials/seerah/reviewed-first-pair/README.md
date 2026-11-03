@@ -11,3 +11,5 @@ These reader texts follow the lecture sequence of [Ahmed al-Sayed (أحمد ال
 | Filipino | [Reading](fil/01.md) · [Details](fil/01.json) | [Reading](fil/02.md) · [Details](fil/02.json) |
 
 Other chapters are not represented by these exports. See [reuse terms](../../REUSE.md).
+
+The Vietnamese chapters 1–2 and Thai chapter 1 show the lecturer’s verified channel credit with their readings. Earlier publication evidence is preserved in history.

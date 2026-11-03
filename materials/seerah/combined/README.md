@@ -29,3 +29,7 @@ The Arabic source archive also contains chapters 23–26, listed separately from
 ## Reuse
 
 These materials are open source. My original editorial contributions are dedicated under CC0 1.0 for personal, teaching and commercial app use. That dedication cannot relicense lectures, outside publications or quoted translations. Keep their source credits and applicable terms; see [reuse notes](../../REUSE.md) and [sources and method](../../SOURCES-AND-METHOD.md).
+
+## Current English source correction
+
+[Chapter 1](../en/chapter-01.md) now uses the exact Rowwad 2:129 translation and its publisher note. Earlier archives remain historical.

@@ -10,7 +10,7 @@ Long before Muhammad ﷺ was born, there were signs that preceded his coming. No
 
 In Makkah, beside the Ka‘bah, the House whose foundations Abraham and Ishmael, peace be upon them, had raised, Abraham, peace be upon him, prayed to his Lord with a supplication that would remain preserved in the Qur’an:
 
-Our Lord, send among them a messenger to recite to them Your revelations, teach them the Book and wisdom, and purify them. You are the All-Mighty, the All-Wise.
+Our Lord, send among them a messenger[1] from among themselves to recite to them Your revelations, teach them the Book and Wisdom, and purify them. You are the All-Mighty, the All-Wise.”
 
 Qur’an 2:129 — Published translation: Rowwad Translation Center
 
@@ -95,3 +95,7 @@ Qur’an 2:126 — Published translation: Rowwad Translation Center
 Abraham, peace be upon him, had prayed for security, and he had prayed for provision. Centuries later, the Qur’an reminded the people of Makkah that the Lord of this House was the One who fed them against hunger and made them secure against fear. Here, the end of this part of the story returns to its beginning: Abraham, peace be upon him, raises the Sacred House, prays for Makkah to receive security and provision, and asks Allah to send among its people a messenger from among themselves. Centuries pass. Jesus, peace be upon him, gives glad tidings of a Messenger to come after him. Knowledge of the expected prophet remains among the People of the Book, and some of it reaches the Arabs. Then an army marches toward the Ka‘bah intending to destroy it, but it is prevented from reaching the House. The Ka‘bah remains standing, Quraysh live with a security that supports their trading journeys, and in that same city, in the Year of the Elephant, Muhammad ibn ‘Abdullah ﷺ is born.
 
 The people of Makkah did not know then what would begin some forty years later. But when these events are read after the Seerah has unfolded, their separate threads can be seen together: a House beside which Abraham, peace be upon him, prayed; a promise preserved in the legacy of the prophets; an event remembered throughout Arabia; and security and provision surrounding the people of the Sacred House. Here begins the story of the child born in Makkah whose father had died before his birth: Muhammad ibn ‘Abdullah ibn ‘Abd al-Muttalib ﷺ.
+
+## Qur’an 2:129 translation note
+
+[1] The Messenger from the posterity of Ishmael; i.e., Muhammad (ﷺ). The marker [1] refers to this note and is not part of the words to recite. [Full publisher record](sources/quranenc-english-rowwad-2-129.json). This current correction supersedes the earlier quotation in historical exports; those archives remain unchanged.
