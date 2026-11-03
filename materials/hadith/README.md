@@ -4,7 +4,7 @@ The separate [Arabic Essential Iman Hadiths course](essential-ar/README.md) cont
 
 The complete, independently model-reviewed [second Essential lesson (01-002)](essential-01-002/README.md) is installed locally and published in Arabic and 19 translated languages. Arabic is reused from the existing source export. Human verification of translations remains needed.
 
-[Essential lesson 01-003](essential-01-003/README.md) is installed and published in Arabic, Filipino, German, Japanese, Persian and Vietnamese; other translations remain in preparation.
+[Essential lesson 01-003](essential-01-003/README.md) is installed and published in Arabic, English, Filipino, German, Japanese, Persian and Vietnamese; other translations remain in preparation.
 
 These files share the reviewed material currently used in Iman Companion. Suitable published translations are used first. Where a suitable published translation was not found after a targeted search, a translation of the Arabic meaning was prepared and reviewed separately. Explanations are kept outside the Hadith wording.
 
