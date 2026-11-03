@@ -4,7 +4,7 @@
 
 - [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Japanese and Filipino units, 39 lessons each and source documents](under-5/README.md)
 
-- [Al-Fatiha extended reflections in German, Japanese, Filipino, Hindi, Simplified Chinese, Persian, Thai, Russian, Vietnamese and Spanish](tadabbur/fatiha-extended/README.md)
+- [Al-Fatiha extended reflections in German, Japanese, Filipino, Hindi, Simplified Chinese, Persian, Thai, Russian, Vietnamese, Spanish and Uzbek](tadabbur/fatiha-extended/README.md)
 - [Japanese Al-Qiyamah reflections: 75:1–40 and sources](tadabbur/ja/extended/075.md)
 - [Arabic Al-A‘la Simplified reflections: 87:1–19 and sources](tadabbur/ar/simplified/087.md)
 - [Arabic Al-‘Alaq Simplified reflections: 96:1–19 and sources](tadabbur/ar/simplified/096.md)
