@@ -1,0 +1,806 @@
+{
+  "language": "zh-CN",
+  "sourceCredit": "原教材：艾哈迈德·阿卜杜勒穆尼姆，《开端》章详细课。经文含义译文：马坚译，苏莱曼及语言专家复核；QuranEnc chinese_suliman v1.0.8-csv.1，2025-10-09。圣训译文：HadeethEnc 中文 v1.16.0，2026-05-10；MyAthkar 中文忧虑与苦难祈祷页；伊亚德·库奈比《佳音》中文网页中的相关段落。后两者的个别中文译者与专门转载条款尚未确定；未声称已获得授权或已完成通知。完整来源、版本、条件、注释、传述差别与评级见随附来源资料。",
+  "sourceDetails": {
+    "conditionsAndVersions": {
+      "QuranAndHadeethEnc": {
+        "quran": {
+          "translator": "Muhammad Ma Jian (马坚); review Muhammad Suliman (苏莱曼) and linguistic specialists, per QuranEnc Chinese catalog",
+          "edition": "chinese_suliman, 1.0.8-csv.1",
+          "archiveTranscript": "Translation Info:\r\n#---------------------------\r\n# Translation of the meanings of the Noble Qur'an\r\n# Language: Chinese\r\n# Translation ID: chinese_suliman\r\n# Source: https://quranenc.com\r\n# URL: https://quranenc.com/en/browse/chinese_suliman\r\n# Last update: 2025-10-09 15:51:38 (v1.0.8-csv.1)\r\n# Check for updates: https://quranenc.com/check/chinese_suliman/v1.0.8-csv.1\r\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\r\n#---------------------------",
+          "sources": [
+            "https://quranenc.com/zh",
+            "https://quranenc.com/en/home/api",
+            "https://quranenc.com/zh/browse/chinese_suliman"
+          ],
+          "conditions": [
+            "No modification, addition or deletion of content",
+            "Clearly refer to publisher and QuranEnc.com",
+            "Mention version number",
+            "Keep transcript information inside document",
+            "Notify QuranEnc of any note on translation",
+            "Update to latest version",
+            "No inappropriate advertising"
+          ],
+          "platformAbout": {
+            "url": "https://quranenc.com/en/home/about",
+            "selfDescription": "Free Quran translation and exegesis portal stating Ahl-us-Sunnah wal-Jamaa methodology and ongoing revision.",
+            "generalIntro": "The platform warns that every human meaning translation falls short of the miraculous Quran and may contain error. Exact English introduction is present on the about page. The modern edition-specific preface/transcript was not exposed on the retrieved edition page/API."
+          },
+          "distinctModernEdition": {
+            "translationKey": "chinese_suliman_modern",
+            "translator": "Muhammad Suliman",
+            "catalogVersion": "v1.0.0,2026-09-16",
+            "selected": false,
+            "qualification": "Distinct from the selected MaJian translation reviewed by MuhammadSuliman. No silent edition replacement or modern archive parity asserted."
+          }
+        },
+        "hadith": {
+          "edition": "Chinese 1.16.0",
+          "archiveTranscript": "#---------------------------\r\n# Translated Prophetic Hadiths\r\n# Language: 中文\r\n# Source: https://hadeethenc.com/zh\r\n# Last update: 2026-05-10 18:02:46 (v1.16.0)\r\n# Check for updates: https://hadeethenc.com/en/check/zh/v1.16.0\r\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\r\n#---------------------------",
+          "sources": [
+            "https://hadeethenc.com/zh",
+            "https://hadeethenc.com/api-docs/"
+          ],
+          "conditions": [
+            "No modification, addition or deletion of content",
+            "Clearly refer to publisher and HadeethEnc.com",
+            "Mention version",
+            "Keep translation version information inside document",
+            "Notify HadeethEnc of any note on translation",
+            "Update to latest version",
+            "No inappropriate advertising"
+          ]
+        }
+      },
+      "selectedSourceFacts": {
+        "Quran": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+        "QuranArchiveTranscript": "Translation Info:\r\n#---------------------------\r\n# Translation of the meanings of the Noble Qur'an\r\n# Language: Chinese\r\n# Translation ID: chinese_suliman\r\n# Source: https://quranenc.com\r\n# URL: https://quranenc.com/en/browse/chinese_suliman\r\n# Last update: 2025-10-09 15:51:38 (v1.0.8-csv.1)\r\n# Check for updates: https://quranenc.com/check/chinese_suliman/v1.0.8-csv.1\r\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\r\n#---------------------------",
+        "HadeethEncArchiveTranscript": "#---------------------------\r\n# Translated Prophetic Hadiths\r\n# Language: 中文\r\n# Source: https://hadeethenc.com/zh\r\n# Last update: 2026-05-10 18:02:46 (v1.16.0)\r\n# Check for updates: https://hadeethenc.com/en/check/zh/v1.16.0\r\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\r\n#---------------------------",
+        "MyAthkar": "Chinese worry prayer page; individual translator/source-specific reuse terms not established.",
+        "EyadQunaibi": "Author official Chinese GoodTidings page; individual translator, source-specific reuse terms and edition history not established."
+      },
+      "sourceQualifications": [
+        "All publisher conditions and selected edition transcripts retained. Excerpts are unchanged; full relevant parents/notes remain available.",
+        "Published words remain distinct from ordinary author explanations and direct Arabic meanings. Translation limitations are not silently repaired or confused with report authentication.",
+        "Platform general Sunni methodology is its self-description, not product-specific scholarly certification."
+      ]
+    },
+    "quotationSelections": {
+      "quranOccurrences": {
+        "Q0": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:1",
+          "text": "至仁至慈",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q1": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:2",
+          "text": "一切赞颂",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q2": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "100:6",
+          "text": "人对于他的养主，确是辜负的。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q3": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "14:34",
+          "text": "如果你们计算安拉的恩惠，你们不能加以统计",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q5": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:2",
+          "text": "众世界的养主",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q7": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "51:47",
+          "text": "天，我曾用力建造它，我确是大能的拓展者；",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q9": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "2:255",
+          "text": "瞌睡不能侵犯他，睡眠不能克服他",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q10": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:2",
+          "text": "众世界",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q11": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:2",
+          "text": "众世界的养主",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q12": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:2",
+          "text": "一切赞颂，全归安拉，众世界的养主，",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q13": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:3",
+          "text": "至仁至慈的，",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q14": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:3",
+          "text": "至仁",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q15": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:3",
+          "text": "至慈",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q17": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:3",
+          "text": "至仁至慈的，",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q18": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:4",
+          "text": "执掌报应日的。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q22": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:4",
+          "text": "执掌报应日的。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q24": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "79:24",
+          "text": "我是你们的至尊的主宰",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q30": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "14:42",
+          "text": "你绝不要以为安拉忽视不义者的行为，他只对他们缓刑到瞪眼的日子，",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q31": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "21:47",
+          "text": "在复活日，我将设置公道的天秤，任何人都不受一点儿冤枉。他的行为虽轻微如芥子，我也要报酬他。我足为清算者。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q32": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "83:35",
+          "text": "他们靠在床上注视着，",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q33": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:4",
+          "text": "执掌报应日的。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q34": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:5",
+          "text": "我们只崇拜你，我们只求你佑助，",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q37": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:5",
+          "text": "我们只求你佑助",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q38": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:5",
+          "text": "崇拜",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q39": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:5",
+          "text": "求你佑助",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q40": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:5",
+          "text": "我们只崇拜你，我们只求你佑助，",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q41": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:6",
+          "text": "求你引导我们上正路，",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q42": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:6",
+          "text": "引导我们",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q44": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:6",
+          "text": "正路",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q45": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "7:175",
+          "text": "你应当对他们宣读那个人的故事，我曾把我的许多迹象赏赐他，但他鄙弃那些迹象，故恶魔赶上他，而他变成了迷误者。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q47": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:6",
+          "text": "引导我们",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q48": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:7",
+          "text": "你所施予恩者的路",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q50": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:7",
+          "text": "你所施予恩者",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q52": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:7",
+          "text": "不是受谴怒者的，也不是迷误者的",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q53": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "51:56",
+          "text": "我创造精灵和人类，只为要他们崇拜我。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q54": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "20:115",
+          "text": "以前，我确已嘱咐阿丹，而他忘记我的嘱咐，我未发现他有任何决心。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q55": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:2",
+          "text": "一切赞颂，全归安拉，众世界的养主，",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q56": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "15:87",
+          "text": "我确已赏赐你常常反复诵读的七节经文和伟大的《古兰经》。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q57": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "15:88",
+          "text": "你不要觊觎我所使他们中各等人所享受的事物",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q6": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "39:6",
+          "text": "他将你们造化在你们的母腹中，在三重黑暗中，一再造化你们。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q8": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "21:30",
+          "text": "不归信者难道不知道吗？天地原是闭塞的，而我开天辟地",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q16": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "10:11",
+          "text": "假若安拉为世人速降灾害，犹如他们急于求福那样，他们的大限必已判定了。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q19": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "1:4",
+          "text": "报应",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q20": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "2:4",
+          "text": "并且他们笃信后世",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q25": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "41:15",
+          "text": "谁比我们能力更强大呢？",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q26": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "19:98",
+          "text": "你能发现那些世代中的任何人，或听见他们所发的微声吗？",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q27": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "40:16",
+          "text": "“今日国权是谁的？”“是独一的统管的安拉的。”",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q28": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "20:111",
+          "text": "所有面孔将对永生自立的主宰表示谦恭",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q29": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "47:4",
+          "text": "假若安拉意欲，他必惩治他们。〔但他命你们抗战，〕以便他以你们互相考验。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q46": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "14:35",
+          "text": "求你使我和我的子孙，远离偶像崇拜。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q49": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "62:3",
+          "text": "还有同属他们却没有赶上他们的其他人。",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q51": {
+          "kind": "publishedQuran",
+          "source": "chinese_suliman, Ma Jian translation reviewed by Muhammad Suliman, v1.0.8-csv.1; distinct from chinese_suliman_modern",
+          "reference": "48:18",
+          "text": "安拉确已喜悦信士们。当时，他们在那棵树下与你订约，他已知道他们的心事，故降镇静于他们",
+          "rationale": "Published exact contiguous wording, scoped to current Arabic after complete parent and notes comparison."
+        },
+        "Q21": {
+          "kind": "twoSeparatelyAttributedPublishedVerses"
+        },
+        "Q4": {
+          "kind": "ordinaryCommentaryNotQuranQuotation",
+          "text": "《山洞》章开篇因降示经典这一恩典赞颂安拉",
+          "rationale": "18:1 publisher has exclusive 只, not forced into current shorter Arabic scope; ordinary accurate commentary, no authored Quran quotation."
+        },
+        "Q23": {
+          "kind": "ordinaryCommentaryNotQuranQuotation",
+          "text": "另一种所含的是君王之意",
+          "rationale": "Distinct valid Malik reading explained as ordinary commentary; selected MaJian parent is not evidence of a separate explicit alternate-reading translation."
+        },
+        "Q35": {
+          "kind": "ordinaryCommentaryNotQuranQuotation",
+          "text": "把表示对象的词提前，强调专一",
+          "rationale": "Arabic grammatical commentary on iyyaka; no fabricated isolated verse translation."
+        },
+        "Q36": {
+          "kind": "ordinaryCommentaryNotQuranQuotation",
+          "text": "一些以物配主者，受到他们所奉的配主者诱惑，把杀害自己的孩子看作美事",
+          "rationale": "Full6:137 published 配主 wording is ambiguous as an agent; ordinary accurate commentary preserves original point without repairing publisher words or presenting generated Quran."
+        },
+        "Q43": {
+          "kind": "ordinaryCommentaryNotQuranQuotation",
+          "text": "原文把“引导我们”与“道路”直接相连",
+          "rationale": "Incomplete grammatical fragment explained as ordinary Arabic commentary, not a newly composed Quran translation."
+        }
+      },
+      "hadithOccurrences": {
+        "H2": {
+          "kind": "publishedHadith",
+          "archiveId": "65099",
+          "text": "我将拜功在我与我的仆人之间一分为二，我的仆人将获得他所祈求的",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[穆斯林辑录]",
+            "takhrij_ar": "رواه مسلم"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/65099",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H3": {
+          "kind": "publishedHadith",
+          "archiveId": "65099",
+          "text": "我的仆人赞颂我了",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[穆斯林辑录]",
+            "takhrij_ar": "رواه مسلم"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/65099",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H6": {
+          "kind": "publishedHadith",
+          "archiveId": "65099",
+          "text": "我的仆人表扬我了",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[穆斯林辑录]",
+            "takhrij_ar": "رواه مسلم"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/65099",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H7": {
+          "kind": "publishedHadith",
+          "archiveId": "4318",
+          "text": "全能的安拉在夜间伸出手来，使白天的罪人悔改；在白天伸出手来，使夜间的罪人悔改",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[穆斯林辑录]",
+            "takhrij_ar": "رواه مسلم"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/4318",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H10": {
+          "kind": "publishedHadith",
+          "archiveId": "65099",
+          "text": "我的仆人推崇我了",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[穆斯林辑录]",
+            "takhrij_ar": "رواه مسلم"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/65099",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H11": {
+          "kind": "publishedHadith",
+          "archiveId": "65099",
+          "text": "我的仆人托付我了",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[穆斯林辑录]",
+            "takhrij_ar": "رواه مسلم"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/65099",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H13": {
+          "kind": "publishedHadith",
+          "archiveId": "4563",
+          "text": "你崇拜真主,好像你看见他一样｡如果你不曾看见他,但他是看见你的",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[穆斯林辑录]",
+            "takhrij_ar": "رواه مسلم"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/4563",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H18": {
+          "kind": "publishedHadith",
+          "archiveId": "4810",
+          "text": "我的仆人们啊!你们都是迷误的,唯我引导者除外,故你们当祈求我的引导,我会引导你们",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[穆斯林辑录]",
+            "takhrij_ar": "رواه مسلم"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/4810",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H19": {
+          "kind": "publishedHadith",
+          "archiveId": "65099",
+          "text": "这是我和我的仆人之间的，我的仆人有他所祈求的",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[穆斯林辑录]",
+            "takhrij_ar": "رواه مسلم"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/65099",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H20": {
+          "kind": "publishedHadith",
+          "archiveId": "5507",
+          "text": "苏卜哈南拉黑里阿最米，苏卜哈南拉黑外比哈木迪黑",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[布哈里和穆斯林共同辑录]",
+            "takhrij_ar": "متفق عليه"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/5507",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H26": {
+          "kind": "publishedHadith",
+          "archiveId": "65099",
+          "text": "这是我的仆人的，我的仆人有他所祈求的",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[穆斯林辑录]",
+            "takhrij_ar": "رواه مسلم"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/65099",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H27": {
+          "kind": "publishedHadith",
+          "archiveId": "5378",
+          "text": "不诵读开端章者没有拜功",
+          "grade": {
+            "grade": "[正确的]",
+            "grade_ar": "صحيح",
+            "takhrij": "[布哈里和穆斯林共同辑录]",
+            "takhrij_ar": "متفق عليه"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/5378",
+          "rationale": "Exact unchanged Chinese report excerpt, after complete Arabic/Chinese matn and all available explanation/benefits/grade/takhrij comparison."
+        },
+        "H8": {
+          "kind": "publishedHadith",
+          "archiveId": "4961",
+          "text": "我的仁慈已经压倒了我的恼怒。",
+          "grade": {
+            "grade": "[健全的圣训]",
+            "grade_ar": "صحيح",
+            "takhrij": "[两大圣训集辑录]",
+            "takhrij_ar": "متفق عليه"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/4961",
+          "rationale": "Exact separately introduced past غلبت variant; not present تغلب or different سبقت. Original Bukhari3194 ghalabat retained."
+        },
+        "H17": {
+          "kind": "publishedHadith",
+          "archiveId": "8280",
+          "text": "我依靠你而存在，我趋向你。",
+          "grade": {
+            "grade": "[健全的圣训]",
+            "grade_ar": "صحيح",
+            "takhrij": "[穆斯林传述]",
+            "takhrij_ar": "رواه مسلم"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/8280",
+          "rationale": "New unchanged contiguous selection from already supplied full parent; original dependence in ability and direction of intent explained outside quote."
+        },
+        "H25": {
+          "kind": "publishedHadith",
+          "archiveId": "4565",
+          "text": "在审判日，一个人将与他所爱的人同在。",
+          "grade": {
+            "grade": "[健全优良的]",
+            "grade_ar": "حسن صحيح",
+            "takhrij": "[伊本·马哲传述 - 提尔米兹传述 - 艾哈迈德传述]",
+            "takhrij_ar": "رواه الترمذي وابن ماجه وأحمد"
+          },
+          "sourceURL": "https://hadeethenc.com/zh/browse/hadith/4565",
+          "rationale": "Distinct authentic Safwan ibnAssal parallel (Tirmidhi/IbnMajah/Ahmad, hasan sahih), with explicit Day phrase; not original IbnMasud Bukhari6169 and not AbuMusa3074. No narrator or wording splice.3074 应 wording assessed but not chosen."
+        },
+        "H14": {
+          "kind": "publishedHadithExcerptInContainingWork",
+          "text": "主啊，我是你的仆人，是你仆人的儿子，是你女仆的儿子。",
+          "sourceURL": "https://myathkar.app/zh/worry/",
+          "rationale": "Complete relevant prayer/notes or containing paragraph retained. Only this discrete quotation is selected; author commentary is not merged into prophetic wording."
+        },
+        "H23": {
+          "kind": "publishedHadithExcerptInContainingWork",
+          "text": "考验将如席子般一条一条地呈现在人心上。",
+          "sourceURL": "https://eyadqunaibi.com/zh/books/%E4%BD%B3%E9%9F%B3",
+          "rationale": "Complete relevant prayer/notes or containing paragraph retained. Only this discrete quotation is selected; author commentary is not merged into prophetic wording."
+        },
+        "H0": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "安拉啊，我盼望你的慈悯，求你不要把我交给自己，哪怕一眨眼的工夫也不要",
+          "rationale": "MyAthkar complete alternative retained but not spliced: two numbered segments and stronger 只; current direct Arabic meaning explained plainly."
+        },
+        "H1": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "你的养主确实喜爱赞颂",
+          "rationale": "Direct complete original Arabic report meaning; no claim this is a published translation, no report/narrator/grade splice."
+        },
+        "H4": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "朝觐就是阿拉法特",
+          "rationale": "Direct complete original Arabic report meaning; no claim this is a published translation, no report/narrator/grade splice."
+        },
+        "H5": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "礼拜中自有使人专注的事务",
+          "rationale": "Direct complete original Arabic report meaning; no claim this is a published translation, no report/narrator/grade splice."
+        },
+        "H9": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "形体如人，却小如微蚁",
+          "rationale": "Direct complete original Arabic report meaning; no claim this is a published translation, no report/narrator/grade splice."
+        },
+        "H12": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "一个人可能说出一句自以为没有问题的话，却因此在火狱中坠落七十年",
+          "rationale": "Direct complete original Arabic report meaning; no claim this is a published translation, no report/narrator/grade splice."
+        },
+        "H15": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "不得在违抗安拉的事上服从；服从只限于正当之事",
+          "rationale": "Direct complete original Arabic report meaning; no claim this is a published translation, no report/narrator/grade splice."
+        },
+        "H16": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "金币与银币的奴仆遭殃了",
+          "rationale": "Direct complete original Arabic report meaning; no claim this is a published translation, no report/narrator/grade splice."
+        },
+        "H21": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "求你不要使今世成为我们最大的牵挂",
+          "rationale": "Direct complete original Arabic report meaning; no claim this is a published translation, no report/narrator/grade splice."
+        },
+        "H22": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "你们当向安拉求宽恕与安康；在确信之后，人未曾得到比安康更好的赐予",
+          "rationale": "Direct complete original Arabic report meaning; no claim this is a published translation, no report/narrator/grade splice."
+        },
+        "H24": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "我的民族中，将始终有一群人坚持并彰显真理；弃他们而去、不予援助的人，不能伤害他们，直至安拉的命令到来，他们仍然如此",
+          "rationale": "Complete HEC3337 AlBarqani continuation retained as assessed alternative; stronger 背信弃义者 and absent final وهم كذلك mean it is not forced into original Muslim1920. Direct original Thawban meaning preserved."
+        },
+        "H28": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "不完整、未完成的礼拜",
+          "rationale": "Direct complete original Arabic report meaning; no claim this is a published translation, no report/narrator/grade splice."
+        },
+        "H29": {
+          "kind": "ownChineseMeaningOfArabicHadithNotPublishedQuotation",
+          "text": "如何知道本章具有这种用途",
+          "rationale": "Direct complete original Arabic report meaning; no claim this is a published translation, no report/narrator/grade splice."
+        }
+      },
+      "currentWholeAyahs": [
+        {
+          "key": "V1:1",
+          "text": "奉至仁至慈的安拉之名　",
+          "selection": {
+            "kind": "publishedWholeCurrentAyah",
+            "reference": "1:1",
+            "fullParent": "奉至仁至慈的安拉之名　"
+          }
+        },
+        {
+          "key": "V1:2",
+          "text": "一切赞颂，全归安拉，众世界的养主，",
+          "selection": {
+            "kind": "publishedWholeCurrentAyah",
+            "reference": "1:2",
+            "fullParent": "一切赞颂，全归安拉，众世界的养主，"
+          }
+        },
+        {
+          "key": "V1:3",
+          "text": "至仁至慈的，",
+          "selection": {
+            "kind": "publishedWholeCurrentAyah",
+            "reference": "1:3",
+            "fullParent": "至仁至慈的，"
+          }
+        },
+        {
+          "key": "V1:4",
+          "text": "执掌报应日的。",
+          "selection": {
+            "kind": "publishedWholeCurrentAyah",
+            "reference": "1:4",
+            "fullParent": "执掌报应日的。"
+          }
+        },
+        {
+          "key": "V1:5",
+          "text": "我们只崇拜你，我们只求你佑助，",
+          "selection": {
+            "kind": "publishedWholeCurrentAyah",
+            "reference": "1:5",
+            "fullParent": "我们只崇拜你，我们只求你佑助，"
+          }
+        },
+        {
+          "key": "V1:6",
+          "text": "求你引导我们上正路，",
+          "selection": {
+            "kind": "publishedWholeCurrentAyah",
+            "reference": "1:6",
+            "fullParent": "求你引导我们上正路，"
+          }
+        },
+        {
+          "key": "V1:7",
+          "text": "你所施予恩者的路，不是受谴怒者的，也不是迷误者的。",
+          "selection": {
+            "kind": "publishedWholeCurrentAyah",
+            "reference": "1:7",
+            "fullParent": "你所施予恩者的路，不是受谴怒者的，也不是迷误者的。"
+          }
+        }
+      ]
+    },
+    "quranQualification": "Exact selected chinese_suliman MaJian translation reviewed by MuhammadSuliman, not distinct modern edition. All36 supplied footnote fields are empty; no claim about the full book. Complete published wording and meaningful brackets preserved. Different HEC embedded verse translations do not replace this edition."
+  }
+}
