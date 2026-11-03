@@ -1,6 +1,6 @@
 # Essential Iman · lesson 01-003
 
-The Arabic source and the complete English, Filipino, French, German, Japanese, Persian, Russian, Spanish, Uzbek and Vietnamese readings are installed and published. The English, Filipino, French, German, Japanese, Persian, Russian, Spanish, Uzbek and Vietnamese texts have been independently model-reviewed and need human verification. Other translated languages remain in preparation.
+The Arabic source and the complete English, Filipino, French, German, Hindi, Japanese, Persian, Russian, Spanish, Uzbek and Vietnamese readings are installed and published. The English, Filipino, French, German, Hindi, Japanese, Persian, Russian, Spanish, Uzbek and Vietnamese texts have been independently model-reviewed and need human verification. Other translated languages remain in preparation.
 
 - [Arabic source](../essential-ar/01/003.md) · [Source data](../essential-ar/01/003.json)
 - [Japanese reading](../essential-ja/003.md) · [Plain text](../essential-ja/003.txt) · [Structured reading](../essential-ja/003.json) · [Sources and editions](../essential-ja/003-sources.json)
@@ -13,3 +13,4 @@ The Arabic source and the complete English, Filipino, French, German, Japanese, 
 - [Spanish reading](../essential-es/003.md) · [Plain text](../essential-es/003.txt) · [Structured reading](../essential-es/003.json) · [Sources and editions](../essential-es/003-sources.json)
 - [French reading](../essential-fr/003.md) · [Plain text](../essential-fr/003.txt) · [Structured reading](../essential-fr/003.json) · [Sources and editions](../essential-fr/003-sources.json)
 - [Uzbek reading](../essential-uz/003.md) · [Plain text](../essential-uz/003.txt) · [Structured reading](../essential-uz/003.json) · [Sources and editions](../essential-uz/003-sources.json)
+- [Hindi reading](../essential-hi/003.md) · [Plain text](../essential-hi/003.txt) · [Structured reading](../essential-hi/003.json) · [Sources and editions](../essential-hi/003-sources.json)
