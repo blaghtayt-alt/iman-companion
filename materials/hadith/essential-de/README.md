@@ -1,7 +1,8 @@
 # Essential Iman Hadiths — German
 
-This package contains only the independently model-reviewed first lesson of the supplied Arabic course. Other German lessons remain in preparation. Human verification remains needed; no scholarly certification or blanket source permission is claimed.
+Lessons 01-001, 01-002 and 01-003 are installed and published. Translated material is independently model-reviewed and needs human verification; no scholarly certification or blanket source permission is claimed. Source editions, conditions and relevant notification duties remain available with the lesson sources.
 
-The Markdown is a derived reading of the exact final projection and all adjacent notes. Selected textual parents, full publisher notes, source versions and conditions are preserved in the five source files; private scans remain outside this package. Some source-specific notification duties remain unfulfilled and updates are ongoing; no blanket permission or waiver is claimed.
-
-[First lesson](001.md) · [Reading data](001.json) · [Selected source files](sources/) · [Arabic course](../essential-ar/README.md)
+- [Lesson 01-001](001.md) · [Source files](sources/)
+- [Lesson 01-002](002.md)
+- [Lesson 01-003](003.md) · [Plain reading](003.txt) · [Structured reading](003.json) · [Sources and editions](003-sources.json)
+- [Arabic course](../essential-ar/README.md)
