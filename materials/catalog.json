@@ -17408,6 +17408,24 @@
       "translationStatus": "ai-translated-needs-verification",
       "chapter": 2,
       "status": "current-app-edition"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "de",
+      "id": "fatiha-extended",
+      "markdown": "materials/tadabbur/fatiha-extended/de/reading.md",
+      "json": "materials/tadabbur/fatiha-extended/de/reading.json",
+      "translationStatus": "ai-translated-needs-verification",
+      "status": "current-app-edition"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "ja",
+      "id": "fatiha-extended",
+      "markdown": "materials/tadabbur/fatiha-extended/ja/reading.md",
+      "json": "materials/tadabbur/fatiha-extended/ja/reading.json",
+      "translationStatus": "ai-translated-needs-verification",
+      "status": "current-app-edition"
     }
   ],
   "workInProgress": [
@@ -18144,5 +18162,13 @@
     ],
     "scope": "Independently model-reviewed, installed locally and published; human verification needed.",
     "index": "materials/seerah/reviewed-first-pair/README.md"
+  },
+  "fatihaExtended1004": {
+    "languages": [
+      "de",
+      "ja"
+    ],
+    "units": 8,
+    "index": "materials/tadabbur/fatiha-extended/README.md"
   }
 }
