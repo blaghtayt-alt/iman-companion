@@ -1,0 +1,2358 @@
+{
+  "language": "es",
+  "sourceCredit": "Material original: Ahmad Abd al-Munim, Al-Fatiha, reflexión detallada.\nQuranEnc spanish_garcia v1.0.2-csv.1, Muhammad Isa Garcia\nHadeethEnc Español v1.23.0",
+  "sourceDetails": {
+    "identitiesConditionsAndVersions": {
+      "language": "es",
+      "originalAuthor": "Ahmad Abd al-Munim",
+      "spanishSourceIdentities": [
+        "QuranEnc spanish_garcia v1.0.2-csv.1, Muhammad Isa Garcia",
+        "HadeethEnc Español v1.23.0"
+      ],
+      "archiveTranscripts": {
+        "QuranEnc": "Translation Info:\r\n#---------------------------\r\n# Translation of the meanings of the Noble Qur'an\r\n# Language: Spanish\r\n# Translation ID: spanish_garcia\r\n# Source: https://quranenc.com\r\n# URL: https://quranenc.com/en/browse/spanish_garcia\r\n# Last update: 2026-02-26 00:14:27 (v1.0.2-csv.1)\r\n# Check for updates: https://quranenc.com/check/spanish_garcia/v1.0.2-csv.1\r\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\r\n#---------------------------",
+        "HadeethEnc": "#---------------------------\n# Translated Prophetic Hadiths\n# Language: Español\n# Source: https://hadeethenc.com/es\n# Last update: 2026-06-22 03:06:16 (v1.23.0)\n# Check for updates: https://hadeethenc.com/en/check/es/v1.23.0\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------"
+      },
+      "completeSourceConditions": {
+        "QuranEnc": {
+          "url": "https://quranenc.com/en/home",
+          "exactSevenConditions": "Terms and Policies Contents of the translations can be downloaded and re-published, with the following terms and conditions: 1. No modification, addition, or deletion of the content. 2. Clearly referring to the publisher and the source (QuranEnc.com). 3. Mentioning the version number when re-publishing the translation. 4. Keeping the transcript information inside the document. 5. Notifying the source (QuranEnc.com) of any note on the translation. 6. Updating the translation according to the latest version issued from the source (QuranEnc.com). 7. Inappropriate advertisements must not be included when displaying translations of the meanings of the Noble Quran.",
+          "sourceEdition": "spanish_garcia v1.0.2-csv.1; Muhammad Isa Garcia; see archive transcript and prior original QuranEnc catalog capture"
+        },
+        "HadeethEnc": {
+          "url": "https://hadeethenc.com/en/home",
+          "exactSevenConditions": "Contents of the translations can be downloaded and republished under the following terms: 1. No modification, addition, or deletion of the content. 2. Clearly refer to the publisher and source (HadeethEnc.com). 3. Mention the version number when republishing the translation. 4. Keep the translation version information inside the document. 5. Notify the source (HadeethEnc.com) of any note on the translation. 6. Update translations according to the latest version issued by the source. 7. Do not include inappropriate advertisements when displaying the content.",
+          "sourceEdition": "Spanish v1.23.0; complete original XLSX transcript retained"
+        },
+        "actualUseScope": "The intended use is free and noncommercial. No publisher contact, notification, consent, or waiver is asserted; whether update or advertising duties have been met for this use is not established."
+      },
+      "supplementarySourceFacts": [
+        {
+          "evidenceId": "ES-SUP-H01",
+          "occurrence": 1,
+          "arabicReportReference": "abudawud:5090",
+          "sourceURL": "https://myathkar.app/es/worry/",
+          "grade": "Page attributes hasan chain to al-Albani.",
+          "conditions": "Individual translator and source-specific reuse conditions are unestablished.",
+          "variantNote": "Two publisher-numbered segments are separate; exact source contains intervening text.",
+          "sourceDescription": "MyAthkar Spanish publication",
+          "sourceContextEvidenceId": "ES-SUP-H01",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H01:/completePublishedSection",
+              "text": "Oh, Al-lah, es Tu misericordia lo que espero,",
+              "codePoints": [
+                251,
+                296
+              ],
+              "utf16": [
+                251,
+                296
+              ]
+            },
+            {
+              "parentRef": "ES-SUP-H01:/completePublishedSection",
+              "text": "así que no me dejes a mí mismo ni siquiera por un abrir y cerrar de ojos,",
+              "codePoints": [
+                425,
+                498
+              ],
+              "utf16": [
+                425,
+                498
+              ]
+            }
+          ],
+          "publisherGradeExcerpt": {
+            "parentRef": "ES-SUP-H01:/completePublishedSection",
+            "text": "cadena buena (hasan), al-Albani",
+            "codePoints": [
+              764,
+              795
+            ],
+            "utf16": [
+              764,
+              795
+            ]
+          },
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H01:/completePublishedSection",
+              "utf8SHA256": "aaa532441835cb42059e8facfc85e106484bdd75518b09ac722962f910558e89",
+              "codePoints": 834
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H02",
+          "occurrence": 2,
+          "arabicReportReference": "adab:859",
+          "variantNote": "Mughira ibn Shu’ba related report, not the identical Al-Aswad ibn Sari Adab859 parent; preserve narrator and comparison.",
+          "relatedHECArchiveIds": [
+            "8296"
+          ],
+          "sourceContextEvidenceId": "ES-SUP-H02",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H02:/source/completeArchiveRow/hadith_text",
+              "text": "Y a nadie le gusta más que Al-lah la alabanza",
+              "codePoints": [
+                679,
+                724
+              ],
+              "utf16": [
+                679,
+                724
+              ]
+            }
+          ],
+          "sourceParentIdentities": []
+        },
+        {
+          "evidenceId": "ES-SUP-H05",
+          "occurrence": 5,
+          "arabicReportReference": "tirmidhi:889",
+          "sourceURL": "https://www.islamweb.com/es/article/147551/El-valle-de-%E2%80%98Arafat",
+          "grade": "The source attributes the wording to al-Tirmidhi and al-Nasa’i.",
+          "conditions": "Specific edition reuse terms not established.",
+          "variantNote": "Separate published short quotation and commentary; preserve inline source typography; this is a source text-node projection.",
+          "sourceCaptureIdentity": {
+            "bytes": 55861
+          },
+          "sourceContextEvidenceId": "ES-SUP-H05",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H05:/completePublishedContainingParagraph",
+              "text": "El Hayy es ‘Arafah",
+              "codePoints": [
+                60,
+                78
+              ],
+              "utf16": [
+                60,
+                78
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H05:/completePublishedContainingParagraph",
+              "utf8SHA256": "99eeba3c70aefd322ba52c458317165001483b849fef96b1b0faf5ae0d0abc3a",
+              "codePoints": 230
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H06",
+          "occurrence": 6,
+          "arabicReportReference": "bukhari:1199",
+          "sourceURL": "https://d1.islamhouse.com/data/es/ih_books/single/es_33_maneras_de_obtener_concentracion.pdf",
+          "edition": "33 formas de desarrollar la concentración durante la oración, al-Munajjid; translator M. Isa García, reviewer Moammar Derman, 2013/1434 as printed",
+          "pdfPage": 65,
+          "grade": "The page attributes the quotation to al-Bukhari, Fath al-Bari 3/72.",
+          "conditions": "Edition-specific reuse conditions are unestablished.",
+          "sourcePDFIdentity": {
+            "bytes": 827839
+          },
+          "printEditionIdentity": {
+            "title": "33 formas de desarrollar la concentración durante la oración",
+            "author": "Shéij Muhámmad Salih al-Munáyyid",
+            "translator": "Lic. M. Isa García",
+            "reviewer": "Moammar Derman",
+            "year": "2013 / 1434, as printed on cover"
+          },
+          "sourceContextEvidenceId": "ES-SUP-H06",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H06:/completeSourcePage",
+              "text": "La oración es una ocupación en sí \nmisma",
+              "codePoints": [
+                777,
+                817
+              ],
+              "utf16": [
+                777,
+                817
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H06:/completeSourcePage",
+              "utf8SHA256": "248bbe9a50e8eff049001fa3e590b301f5328376bc5f82377c86ab0f99ab83cb",
+              "codePoints": 1491
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H09",
+          "occurrence": 9,
+          "arabicReportReference": "bukhari:3194",
+          "variantNote": "HEC Arabic parent distinguishes تغلب, غلبت, سبقت; Spanish renders first and precedence separately without a separately marked past غلبت clause. The PDF 6628 is a Muslim same-narrator related version; Spanish present tense does not establish identical past wording.",
+          "additionalSourcePDFIdentity": {
+            "bytes": 20972733
+          },
+          "printEditionIdentity": {
+            "title": "Sahih Muslim",
+            "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+            "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+            "finalRevision": "Isa Amer",
+            "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+          },
+          "relatedHECArchiveIds": [
+            "4961"
+          ],
+          "sourceContextEvidenceId": "ES-SUP-H09",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H09:/source/completeArchiveRow/hadith_text",
+              "text": "Ciertamente Mi compasión sobrepasa Mi ira",
+              "codePoints": [
+                191,
+                232
+              ],
+              "utf16": [
+                191,
+                232
+              ]
+            },
+            {
+              "parentRef": "ES-SUP-H09:/additionalFullPage",
+              "text": "Ciertamente Mi misericordia vence (supera) \na Mi ira",
+              "codePoints": [
+                2466,
+                2518
+              ],
+              "utf16": [
+                2466,
+                2518
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H09:/additionalFullPage",
+              "utf8SHA256": "e47f30cfb32649b9d7200774c7e9b7109b73ce9806821cd8e82182d254a88364",
+              "codePoints": 4774
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H10",
+          "occurrence": 10,
+          "arabicReportReference": "tirmidhi:2492",
+          "sourceURL": "https://islamqa.info/es/answers/9229",
+          "publisherGrade": "Narrado por at-Tirmidhi, 2492; clasificado como hasan por al-Albaani en Sahih at-Tirmidhi, 2025.",
+          "conditions": "IslamQA terms section 10 restrict redistribution and repurposing of downloaded content without prior consent; no consent or waiver is asserted and no contact made.",
+          "variantNote": "Same report family and named chain in page; exact Arabic parent and full context remain in base. Captured characters include publisher diacritic/encoding artifacts elsewhere in the surrounding paragraph.",
+          "sourceCaptureIdentity": {
+            "bytes": 150233
+          },
+          "sourceContextEvidenceId": "ES-SUP-H10",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H10:/completePublishedContainingParagraph",
+              "text": "los arrogantes se reunirán como hormigas en forma de hombres",
+              "codePoints": [
+                158,
+                218
+              ],
+              "utf16": [
+                158,
+                218
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H10:/completePublishedContainingParagraph",
+              "utf8SHA256": "1d60edffce951d27b4d415deac7e0dd073576329f45bb796ecc42dc8172382da",
+              "codePoints": 484
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H12",
+          "occurrence": 12,
+          "arabicReportReference": "muslim:395a",
+          "edition": "Sahih Muslim, Oficina de Cultura y Difusión Islámica Argentina; translator ‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+          "pdfPage": 129,
+          "localReport": "775",
+          "conditions": "Edition-specific reuse conditions are not established.",
+          "variantNote": "Publisher brackets are original; line break is original PDF extraction. Separate HEC65099 contains the printed typo encomendad and is not corrected.",
+          "sourcePDFIdentity": {
+            "bytes": 20972733
+          },
+          "printEditionIdentity": {
+            "title": "Sahih Muslim",
+            "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+            "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+            "finalRevision": "Isa Amer",
+            "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+          },
+          "sourceContextEvidenceId": "ES-SUP-H12",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H12:/completeSourcePage",
+              "text": "Mi \nsiervo ha confiado [sus asuntos] en Mí",
+              "codePoints": [
+                3555,
+                3597
+              ],
+              "utf16": [
+                3555,
+                3597
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H12:/completeSourcePage",
+              "utf8SHA256": "9da35e059c866fb834c2eb59ca61045389c52beb50fd57d9b579575e3f9df361",
+              "codePoints": 5065
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H13",
+          "occurrence": 13,
+          "arabicReportReference": "tirmidhi:2314",
+          "conditions": "Specific edition reuse conditions not established.",
+          "variantNote": "The PDF specifies the Fire is seventy years deep, not that the person falls for seventy years, and adds Allah’s anger; narrator and grade are not supplied in the table. HEC3479 is the east/west-distance parallel and Spanish adds habla demasiado; neither is the exact Tirmidhi2314 formulation.",
+          "secondSourcePDFIdentity": {
+            "bytes": 520348
+          },
+          "printEditionIdentity": {
+            "title": "Asuntos prohibidos en el Islam",
+            "translator": "Lic. Muhammad Isa García",
+            "sourceCredit": "www.tafseer.info",
+            "year": "2009 / 1430, as printed on cover"
+          },
+          "relatedHECArchiveIds": [
+            "3479"
+          ],
+          "sourceContextEvidenceId": "ES-SUP-H13",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H13:/secondCompletePage",
+              "text": "Un hombre puede decir una palabra, a la que no presta mayor \natención, pero que enfurece a Alá, y por ella será arrojado a un \nFuego del Infierno que tiene setenta años de profundidad",
+              "codePoints": [
+                544,
+                727
+              ],
+              "utf16": [
+                544,
+                727
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H13:/secondCompletePage",
+              "utf8SHA256": "e01774a286658163a48a897c2479590b666f031bd885fa81cfdd14efd4c7dd5e",
+              "codePoints": 2905
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H15",
+          "occurrence": 15,
+          "arabicReportReference": "ahmad3712-dorar",
+          "sourceURL": "https://myathkar.app/es/worry/",
+          "grade": "Page names differing positive and weak-chain judgments; a separate Dorar source separately records an attributed positive Shuayb al-Arnaut judgment in a specified work.",
+          "conditions": "Individual translator and source-specific reuse conditions unestablished.",
+          "variantNote": "Complete eight-part published prayer and its source/Hisn120 order note retained.",
+          "sourceDescription": "MyAthkar Spanish publication",
+          "sourceContextEvidenceId": "ES-SUP-H15",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H15:/completePublishedSection",
+              "text": "Oh, Al-lah, yo soy Tu siervo, hijo de Tu siervo, hijo de Tu sierva.",
+              "codePoints": [
+                325,
+                392
+              ],
+              "utf16": [
+                325,
+                392
+              ]
+            }
+          ],
+          "publisherGradeExcerpt": {
+            "parentRef": "ES-SUP-H15:/completePublishedSection",
+            "text": "Auténtico según al-Albani (as-Sahiha 198) y Ahmad Shakir; también lo autenticaron Ibn Hibban (972) y al-Hakim. Su cadena es débil según ad-Daraqutni (al-'Ilal) y Shu'aib al-Arna'ut: uno de sus narradores, Abu Salama al-Yuhani, es desconocido (mayhul).",
+            "codePoints": [
+              1783,
+              2034
+            ],
+            "utf16": [
+              1783,
+              2034
+            ]
+          },
+          "publisherVersionOrderNote": {
+            "parentRef": "ES-SUP-H15:/completePublishedSection",
+            "text": "Texto según Ahmad 3712; Hisn al-Muslim 120 pone «o que revelaste en Tu Libro» antes de «o que enseñaste a alguna de Tus criaturas».",
+            "codePoints": [
+              2037,
+              2168
+            ],
+            "utf16": [
+              2037,
+              2168
+            ]
+          },
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H15:/completePublishedSection",
+              "utf8SHA256": "96f8867c815d6a042abc9fe38c53e80c2fec26026e982236dd5eca584db7db19",
+              "codePoints": 2169
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H16",
+          "occurrence": 16,
+          "arabicReportReference": "muslim:1840a",
+          "pdfPage": 554,
+          "localReport": "4535",
+          "conditions": "Sahih Muslim Spanish edition reuse conditions not established; HEC conditions preserved.",
+          "variantNote": "PDF 4535 is Ali and includes both ideas but lacks the explicit only; the separately numbered 4536 has solo in its second clause. The variants are separate. HEC6370 is Ibn Umar and lacks the separate positive clause.",
+          "sourcePDFIdentity": {
+            "bytes": 20972733
+          },
+          "printEditionIdentity": {
+            "title": "Sahih Muslim",
+            "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+            "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+            "finalRevision": "Isa Amer",
+            "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+          },
+          "relatedHECArchiveIds": [
+            "6370"
+          ],
+          "sourceContextEvidenceId": "ES-SUP-H16",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H16:/completeSourcePage",
+              "text": "No se debe obedecer en \naquello que implique una desobediencia a Allah. \nLa obediencia es en aquello que es bueno",
+              "codePoints": [
+                771,
+                884
+              ],
+              "utf16": [
+                771,
+                884
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H16:/completeSourcePage",
+              "utf8SHA256": "053885b7e3db12f02720d65ea93a2f4be91862668d5363db3a82a6e9ebf60b7c",
+              "codePoints": 4422
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H17",
+          "occurrence": 17,
+          "arabicReportReference": "bukhari:2887",
+          "variantNote": "Abu Huraira parent includes continuation. Publisher takhrij says Bukhari transmitted something similar; retain full attributed grade and variant note.",
+          "relatedHECArchiveIds": [
+            "5949"
+          ],
+          "sourceContextEvidenceId": "ES-SUP-H17",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H17:/source/completeArchiveRow/hadith_text",
+              "text": "¡Miserable es el esclavo del dinar! ¡Miserable es el esclavo del dirham!",
+              "codePoints": [
+                137,
+                209
+              ],
+              "utf16": [
+                137,
+                209
+              ]
+            }
+          ],
+          "sourceParentIdentities": []
+        },
+        {
+          "evidenceId": "ES-SUP-H18",
+          "occurrence": 18,
+          "arabicReportReference": "muslim:771a",
+          "pdfPage": 219,
+          "localReport": "1695",
+          "conditions": "Edition-specific reuse conditions not established.",
+          "variantNote": "Ali’s complete printed prayer is the same report family, but Spanish reverses the Arabic dependence/return sequence and adds success; this is not an exact literal rendering. An additional independently located official Hisn Spanish page offers an interpretive sentence; its page response capture lacked the indexed body, so it is recorded only as a lead https://risala.prh.gov.sa/es/content/51?translated=true .",
+          "sourcePDFIdentity": {
+            "bytes": 20972733
+          },
+          "printEditionIdentity": {
+            "title": "Sahih Muslim",
+            "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+            "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+            "finalRevision": "Isa Amer",
+            "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+          },
+          "sourceContextEvidenceId": "ES-SUP-H18",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H18:/completeSourcePage",
+              "text": "A Ti recurro y mi éxito está en Ti.",
+              "codePoints": [
+                2655,
+                2690
+              ],
+              "utf16": [
+                2655,
+                2690
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H18:/completeSourcePage",
+              "utf8SHA256": "43c3d7ec89f901fa2e9618ca6b2fe349aec01f44c26cacd4a4e60d5fad20d954",
+              "codePoints": 4903
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H22",
+          "occurrence": 22,
+          "arabicReportReference": "tirmidhi:3502",
+          "sourceURL": "https://islamenc.com/es/books/411",
+          "edition": "Súplicas elocuentes, platform reports version 1.0",
+          "conditions": "Translator and individual edition reuse terms not established.",
+          "variantNote": "The containing paragraph includes the preceding and following prayer clauses and a publisher explanation on another clause; the explanation is not narrated wording.",
+          "sourceCaptureIdentity": {
+            "bytes": 487076
+          },
+          "sourceContextEvidenceId": "ES-SUP-H22",
+          "contextNote": "Two adjacent publisher prayer paragraphs are preserved separately; the second has a publisher explanation on a different phrase.",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H22:sourceElementGroup81",
+              "text": "ni que el mundo sea nuestra mayor preocupación",
+              "codePoints": [
+                334,
+                380
+              ],
+              "utf16": [
+                334,
+                380
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H22:/completePublishedContainingParagraph",
+              "utf8SHA256": "daf28e8db7f03f7e43a8052fb841403a11aa2e1c576895906fee69e97285dfb5",
+              "codePoints": 665
+            },
+            {
+              "parentRef": "ES-SUP-H22:sourceElementGroup80",
+              "utf8SHA256": "a0390e7b43a119c0a11127781c174d91e3c8d5e26d1b5ec5264670abc877c85b",
+              "codePoints": 203
+            },
+            {
+              "parentRef": "ES-SUP-H22:sourceElementGroup81",
+              "utf8SHA256": "daf28e8db7f03f7e43a8052fb841403a11aa2e1c576895906fee69e97285dfb5",
+              "codePoints": 665
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H23",
+          "occurrence": 23,
+          "arabicReportReference": "tirmidhi:3558",
+          "sourceURL": "https://perlasdelislam.blogspot.com/2012/10/la-importancia-de-pedirle-allah-el.html?m=1",
+          "grade": "Page attributes Tirmidhi3558 and hasan sahih to al-Albani.",
+          "conditions": "Translator and individual source reuse terms not established.",
+          "variantNote": "Source parent includes parenthetical explanations and its contextual attribution; the parenthetical explanations and attribution are source text.",
+          "sourceCaptureIdentity": {
+            "bytes": 49959
+          },
+          "sourceContextEvidenceId": "ES-SUP-H23",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H23:/completePublishedQuote",
+              "text": "Pedidle a Allah por al-`Afua (perdón) y al-`Aafiah (bienestar), ya que a nadie le es concedido, después de la certeza (es decir, el Islam), nada mejor que al-`Aafiah (bienestar).",
+              "codePoints": [
+                1,
+                179
+              ],
+              "utf16": [
+                1,
+                179
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H23:/completePublishedQuote",
+              "utf8SHA256": "8bb0bd1d7b8fe72901869e90db32a2f30f25e294510be0ba6ec6d09bc747b67f",
+              "codePoints": 181
+            },
+            {
+              "parentRef": "ES-SUP-H23:/containingArticleProjection",
+              "utf8SHA256": "d6973b4a75b8cf3a3698236da7e681f195c9c63558ee0315d49f4616457417b1",
+              "codePoints": 5901
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H24",
+          "occurrence": 24,
+          "arabicReportReference": "muslim:144a",
+          "pdfPage": 59,
+          "localReport": "267",
+          "conditions": "Spanish Muslim edition reuse conditions not established.",
+          "variantNote": "Same Hudhayfa/Umar narrative, first sentence, full context and page notes1–5. The source line-wrap hyphen and adjacent notes are preserved; extraction order includes notes between columns.",
+          "sourcePDFIdentity": {
+            "bytes": 20972733
+          },
+          "printEditionIdentity": {
+            "title": "Sahih Muslim",
+            "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+            "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+            "finalRevision": "Isa Amer",
+            "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+          },
+          "sourceContextEvidenceId": "ES-SUP-H24",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H24:/completeSourcePage",
+              "text": "Los conflictos (las tentaciones) se irán pre-\nsentando en los corazones de los hombres como \nuna estera que es trenzada junquillo a junquillo",
+              "codePoints": [
+                3224,
+                3365
+              ],
+              "utf16": [
+                3224,
+                3365
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H24:/completeSourcePage",
+              "utf8SHA256": "a5fab691f9e00df3b22bbfe2a13a0b59efab6db5fbe387204010910547bcddb7",
+              "codePoints": 5624
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H25",
+          "occurrence": 25,
+          "arabicReportReference": "muslim:1920",
+          "pdfPage": 573,
+          "localReport": "4715",
+          "conditions": "Spanish Muslim edition reuse conditions not established; HEC conditions preserved.",
+          "variantNote": "Original Thawban Muslim1920 with exact abandonment and final phrase; publisher’s parenthetical is retained. Separate printed Qutayba variant lacks final phrase. HEC3337 is a Barqani parallel and wording traicione is stronger than abandoning support.",
+          "sourcePDFIdentity": {
+            "bytes": 20972733
+          },
+          "printEditionIdentity": {
+            "title": "Sahih Muslim",
+            "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+            "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+            "finalRevision": "Isa Amer",
+            "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+          },
+          "relatedHECArchiveIds": [
+            "3337"
+          ],
+          "sourceContextEvidenceId": "ES-SUP-H25",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H25:/completeSourcePage",
+              "text": "Siempre habrá un grupo de mi co-\nmunidad triunfante en el camino de la verdad. El \nque los abandone no podrá dañarlos. Hasta que \nse cumpla la orden de Allah (o sea: llegue el Día \nde la Resurrección) ellos seguirán así",
+              "codePoints": [
+                2589,
+                2808
+              ],
+              "utf16": [
+                2589,
+                2808
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H25:/completeSourcePage",
+              "utf8SHA256": "113be543f631bbef9657eb8b2a6bfe25e1a54142aef46eff27237eb3347cd931",
+              "codePoints": 4311
+            }
+          ]
+        },
+        {
+          "evidenceId": "ES-SUP-H26",
+          "occurrence": 26,
+          "arabicReportReference": "bukhari:6169",
+          "variantNote": "The complete target row contains both Abu Musa and Ibn Masud variants. The exact base Bukhari6169 parent is Ibn Masud; do not misattribute as Anas.",
+          "relatedHECArchiveIds": [
+            "3074"
+          ],
+          "sourceContextEvidenceId": "ES-SUP-H26",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H26:/source/completeArchiveRow/hadith_text",
+              "text": "El hombre estará con quien ama",
+              "codePoints": [
+                149,
+                179
+              ],
+              "utf16": [
+                149,
+                179
+              ]
+            },
+            {
+              "parentRef": "ES-SUP-H26:/source/completeArchiveRow/hadith_text",
+              "text": "El hombre estará con quien ama",
+              "codePoints": [
+                377,
+                407
+              ],
+              "utf16": [
+                377,
+                407
+              ]
+            },
+            {
+              "parentRef": "ES-SUP-H26:/source/completeArchiveRow/hadith_text",
+              "text": "El hombre estará con quien ama",
+              "codePoints": [
+                761,
+                791
+              ],
+              "utf16": [
+                761,
+                791
+              ]
+            }
+          ],
+          "sourceParentIdentities": []
+        },
+        {
+          "evidenceId": "ES-SUP-H30",
+          "occurrence": 30,
+          "arabicReportReference": "bukhari:5736",
+          "pdfPages": [
+            643,
+            644
+          ],
+          "localReport": "5458",
+          "conditions": "Edition-specific reuse conditions not established.",
+          "variantNote": "Same Abu Said ruqyah incident in a related Muslim parent; source page includes the following separately numbered related version and note1, which must not be merged.",
+          "sourcePDFIdentity": {
+            "bytes": 20972733
+          },
+          "printEditionIdentity": {
+            "title": "Sahih Muslim",
+            "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+            "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+            "finalRevision": "Isa Amer",
+            "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+          },
+          "sourceContextEvidenceId": "ES-SUP-H30",
+          "publishedExactExcerpts": [
+            {
+              "parentRef": "ES-SUP-H30:/completeSourcePages/1/text",
+              "text": "¿Cómo supiste que podía ser usada como con-\njuro?",
+              "codePoints": [
+                170,
+                219
+              ],
+              "utf16": [
+                170,
+                219
+              ]
+            }
+          ],
+          "sourceParentIdentities": [
+            {
+              "parentRef": "ES-SUP-H30:/completeSourcePages/0/text",
+              "utf8SHA256": "5a5ef110735f0c9637a32d83c6a4070ad8925a1ac732a7abd773527563e5d3cb",
+              "codePoints": 4617
+            },
+            {
+              "parentRef": "ES-SUP-H30:/completeSourcePages/1/text",
+              "utf8SHA256": "278d1a19489f86e2bf8c0dca27aac89a9677c6ffc9eec112b3e9faf34ebbc630",
+              "codePoints": 4349
+            }
+          ]
+        }
+      ],
+      "originalCourse": "Al-Fatiha, Arabic Extended introduction and seven verse sections.",
+      "ownNonQuranMeanings": [
+        "H2",
+        "H13",
+        "H23"
+      ],
+      "lexicalExplanation": "H29 khidaj is ordinary explanatory prose, not a published quotation.",
+      "distinctions": {
+        "H1": "Two separately numbered published prayer segments, visibly separated by an ellipsis; not a contiguous source claim.",
+        "H2": "Al-Aswad report, Adab859. Related Mughira8296 has a different narrator/story; its grade is not transferred.",
+        "H9": "Published present-tense mercy-over-anger variant, not a claim that the edition translates the past-tense variant identically.",
+        "H10": "Exact six-word published excerpt. Source-attributed grade and site conditions are retained; the whole site paragraph is not reproduced here.",
+        "H12": "Published entrusted-affairs clause from printed Muslim775; no silent repair of a different edition.",
+        "H13": "Direct meaning of the original explicit seventy-year fall. The different east/west and depth-of-Fire reports are not substituted.",
+        "H14": "Published Umar/Muslim version, distinguished from the original AbuHurayra/Bukhari50 version.",
+        "H15": "Complete published eight-segment prayer and differing taught/revealed order, conflicting named source-grade assessments retained.",
+        "H16": "Both clauses of the same printed Ali4535 report; wording from the separate following4536 is not merged.",
+        "H17": "Published related AbuHurayra money-servant report; its source describes Bukhari attribution as similar wording.",
+        "H18": "Published belonging/turning interpretation. Dependence for capacity and direction of purpose are explained separately outside the unchanged quote.",
+        "H22": "Exact clause from the second of two adjacent published prayers. Both complete prayers and their explanatory note remain separately attributed.",
+        "H23": "Direct original meaning retains pardon, wellbeing and after-certainty. The located individual blog has no identified qualified translator; this is not a global-absence claim.",
+        "H24": "Published Hudhayfa temptation report; complete relevant source report and notes retained.",
+        "H25": "Complete relevant Thawban wording including abandonment and continuation. Parenthetical resurrection explanation belongs to the Spanish edition; separate Qutayba omission remains distinct.",
+        "H26": "The final IbnMasud occurrence within the full3074 source field, not the earlier AbuMusa occurrence.",
+        "H30": "Published AbuSaid related healing incident; two healing incidents remain distinct. Conjuro is explained here as healing recitation, not idolatry.",
+        "C1": "Companion AbuSaid reports what he was told; not a newly attributed direct Prophetic statement. Local353 and its preceding referenced352 context and notes retained.",
+        "H21": "Greatness-first formula matches original Bukhari6406 and HadeethEnc5507. Both Spanish parenthetical meanings belong to the unchanged published H21 selection inside the quotation; ordinary explanatory commentary is separate."
+      }
+    },
+    "sourceSelections": {
+      "C1": {
+        "token": "C1",
+        "kind": "published-companion-statement",
+        "text": "Se me ha dicho que el puente será más fino que un pelo y más afilado que una espada",
+        "reference": "Sahih Muslim Spanish, printed/PDF78, local353; Abu Said Companion addendum",
+        "sourceText": "Se \nme ha dicho que el puente será más fino que un \npelo y más afilado que una espada",
+        "layoutReflow": {
+          "displayOnly": true,
+          "lineEndHyphens": [],
+          "lineBreaksToSpaces": true,
+          "originalSelectionRetained": true,
+          "noLexicalRepair": true
+        },
+        "ordinaryLabel": "Palabras de Abu Saíd al-Judri",
+        "sourceDistinction": "Companion AbuSaid reports what he was told; not a newly attributed direct Prophetic statement. Local353 and its preceding referenced352 context and notes retained.",
+        "publishedParent": {}
+      },
+      "H1": {
+        "token": "H1",
+        "kind": "published-hadith-fragments",
+        "text": "Oh, Al-lah, es Tu misericordia lo que espero … así que no me dejes a mí mismo ni siquiera por un abrir y cerrar de ojos",
+        "parts": [
+          "H1part1",
+          "H1part2"
+        ],
+        "reference": "Abu Dawud5090; MyAthkar published Spanish",
+        "sourceDistinction": "Two separately numbered published prayer segments, visibly separated by an ellipsis; not a contiguous source claim."
+      },
+      "H10": {
+        "token": "H10",
+        "kind": "published-hadith",
+        "text": "como hormigas en forma de hombres",
+        "reference": "Tirmidhi2492; IslamQA Spanish",
+        "sourceDistinction": "Exact six-word published excerpt. Source-attributed grade and site conditions are retained; the whole site paragraph is not reproduced here.",
+        "publishedParent": {}
+      },
+      "H11": {
+        "token": "H11",
+        "kind": "published-hadith",
+        "text": "Mi siervo Me ha glorificado",
+        "reference": "HEC:65099",
+        "publishedParent": {}
+      },
+      "H12": {
+        "token": "H12",
+        "kind": "published-hadith",
+        "text": "Mi siervo ha confiado [sus asuntos] en Mí",
+        "reference": "Spanish print: Sahih Muslim, Oficina de Cultura y Difusión Islámica Argentina; translator ‘Abdu Rahmân Colombo Al-Ÿerrâhî, PDF page 129, report 775",
+        "sourceText": "Mi \nsiervo ha confiado [sus asuntos] en Mí",
+        "layoutReflow": {
+          "displayOnly": true,
+          "lineEndHyphens": [],
+          "lineBreaksToSpaces": true,
+          "originalSelectionRetained": true,
+          "noLexicalRepair": true
+        },
+        "sourceDistinction": "Published entrusted-affairs clause from printed Muslim775; no silent repair of a different edition.",
+        "publishedParent": {}
+      },
+      "H13": {
+        "token": "H13",
+        "kind": "direct-nonQuran-meaning",
+        "text": "Una persona puede pronunciar una palabra en la que no ve nada malo y por ella caer durante setenta años en el Fuego",
+        "reference": "Tirmidhi2314",
+        "arabicOriginalQuote": "«إن الرجل ليتكلم بالكلمة لا يرى بها بأسًا يهوي بها سبعين خريفًا في النار»",
+        "ordinaryLabel": "Traducción propia del significado del hadiz",
+        "excerptQualification": "Fragmento del hadiz",
+        "sourceDistinction": "Direct meaning of the original explicit seventy-year fall. The different east/west and depth-of-Fire reports are not substituted."
+      },
+      "H14": {
+        "token": "H14",
+        "kind": "published-hadith",
+        "text": "Es que adores a Al-lah como si lo vieras, pues, si tú no lo ves, realmente Él te ve",
+        "reference": "HEC:4563",
+        "sourceDistinction": "Published Umar/Muslim version, distinguished from the original AbuHurayra/Bukhari50 version.",
+        "publishedParent": {}
+      },
+      "H15": {
+        "token": "H15",
+        "kind": "published-hadith",
+        "text": "Oh, Al-lah, yo soy Tu siervo, hijo de Tu siervo, hijo de Tu sierva",
+        "reference": "MyAthkar Spanish worry prayer; Ahmad3712",
+        "sourceDistinction": "Complete published eight-segment prayer and differing taught/revealed order, conflicting named source-grade assessments retained.",
+        "publishedParent": {}
+      },
+      "H16": {
+        "token": "H16",
+        "kind": "published-hadith",
+        "text": "No se debe obedecer en aquello que implique una desobediencia a Allah. La obediencia es en aquello que es bueno",
+        "reference": "Spanish print: Sahih Muslim, PDF page 554, report 4535",
+        "sourceText": "No se debe obedecer en \naquello que implique una desobediencia a Allah. \nLa obediencia es en aquello que es bueno",
+        "layoutReflow": {
+          "displayOnly": true,
+          "lineEndHyphens": [],
+          "lineBreaksToSpaces": true,
+          "originalSelectionRetained": true,
+          "noLexicalRepair": true
+        },
+        "sourceDistinction": "Both clauses of the same printed Ali4535 report; wording from the separate following4536 is not merged.",
+        "publishedParent": {}
+      },
+      "H17": {
+        "token": "H17",
+        "kind": "published-hadith",
+        "text": "¡Miserable es el esclavo del dinar! ¡Miserable es el esclavo del dirham!",
+        "reference": "HEC:5949",
+        "sourceDistinction": "Published related AbuHurayra money-servant report; its source describes Bukhari attribution as similar wording.",
+        "publishedParent": {}
+      },
+      "H18": {
+        "token": "H18",
+        "kind": "published-hadith",
+        "text": "A ti yo pertenezco y a Ti me vuelvo",
+        "reference": "HEC:8280:Ali",
+        "sourceDistinction": "Published belonging/turning interpretation. Dependence for capacity and direction of purpose are explained separately outside the unchanged quote.",
+        "publishedParent": {}
+      },
+      "H19": {
+        "token": "H19",
+        "kind": "published-hadith",
+        "text": "¡Oh siervos míos!, todos estáis extraviados, excepto aquel a quien Yo he guiado; así que pedidme que os guíe y os guiaré",
+        "reference": "HEC:4810",
+        "publishedParent": {}
+      },
+      "H1part1": {
+        "token": "H1part1",
+        "kind": "published-hadith",
+        "text": "Oh, Al-lah, es Tu misericordia lo que espero",
+        "reference": "MyAthkar Spanish worry prayer; Abu Dawud5090",
+        "publishedParent": {}
+      },
+      "H1part2": {
+        "token": "H1part2",
+        "kind": "published-hadith",
+        "text": "así que no me dejes a mí mismo ni siquiera por un abrir y cerrar de ojos",
+        "reference": "MyAthkar Spanish worry prayer; Abu Dawud5090",
+        "publishedParent": {}
+      },
+      "H2": {
+        "token": "H2",
+        "kind": "direct-nonQuran-meaning",
+        "text": "Tu Señor ama la alabanza",
+        "reference": "Adab859; alAswad ibn Sari",
+        "arabicOriginalQuote": "«أما إن ربك يحب الحمد»",
+        "ordinaryLabel": "Traducción propia del significado del hadiz",
+        "excerptQualification": "Fragmento del hadiz",
+        "sourceDistinction": "Al-Aswad report, Adab859. Related Mughira8296 has a different narrator/story; its grade is not transferred."
+      },
+      "H20": {
+        "token": "H20",
+        "kind": "published-hadith",
+        "text": "Esto es entre Mi siervo y Yo, y le daré a Mi siervo lo que pide",
+        "reference": "HEC:65099",
+        "publishedParent": {}
+      },
+      "H21": {
+        "token": "H21",
+        "kind": "published-hadith",
+        "text": "\"subhanal-lahi-l 'athim\" (glorificado sea Al-lah, el más grande), \"subhanal-lahi wa bihamdihi\" (glorificado y alabado sea Al-lah)",
+        "reference": "HEC:5507",
+        "publishedParent": {},
+        "sourceDistinction": "Greatness-first formula matches original Bukhari6406 and HadeethEnc5507. Both Spanish parenthetical meanings belong to the unchanged published H21 selection inside the quotation; ordinary explanatory commentary is separate."
+      },
+      "H22": {
+        "token": "H22",
+        "kind": "published-hadith",
+        "text": "ni que el mundo sea nuestra mayor preocupación",
+        "reference": "Súplicas elocuentes, version1.0; Tirmidhi3502",
+        "sourceDistinction": "Exact clause from the second of two adjacent published prayers. Both complete prayers and their explanatory note remain separately attributed.",
+        "publishedParent": {}
+      },
+      "H23": {
+        "token": "H23",
+        "kind": "direct-nonQuran-meaning",
+        "text": "Pedid a Dios el perdón y el bienestar, pues a nadie se le ha concedido, después de la certeza, nada mejor que el bienestar",
+        "reference": "Tirmidhi3558; Abu Bakr",
+        "arabicOriginalQuote": "«سلوا الله العفو والعافية؛ فإن أحدًا لم يعط بعد اليقين خيرًا من العافية»",
+        "ordinaryLabel": "Traducción propia del significado del hadiz",
+        "excerptQualification": "Fragmento del hadiz",
+        "sourceDistinction": "Direct original meaning retains pardon, wellbeing and after-certainty. The located individual blog has no identified qualified translator; this is not a global-absence claim."
+      },
+      "H24": {
+        "token": "H24",
+        "kind": "published-hadith",
+        "text": "Los conflictos (las tentaciones) se irán presentando en los corazones de los hombres como una estera que es trenzada junquillo a junquillo",
+        "reference": "Spanish print: Sahih Muslim, PDF page 59, report 267",
+        "sourceText": "Los conflictos (las tentaciones) se irán pre-\nsentando en los corazones de los hombres como \nuna estera que es trenzada junquillo a junquillo",
+        "layoutReflow": {
+          "displayOnly": true,
+          "lineEndHyphens": [
+            {
+              "selectionCP": [
+                44,
+                46
+              ],
+              "originalParentCP": [
+                3268,
+                3270
+              ],
+              "original": "-\n"
+            }
+          ],
+          "lineBreaksToSpaces": true,
+          "originalSelectionRetained": true,
+          "noLexicalRepair": true
+        },
+        "sourceDistinction": "Published Hudhayfa temptation report; complete relevant source report and notes retained.",
+        "publishedParent": {}
+      },
+      "H25": {
+        "token": "H25",
+        "kind": "published-hadith",
+        "text": "Siempre habrá un grupo de mi comunidad triunfante en el camino de la verdad. El que los abandone no podrá dañarlos. Hasta que se cumpla la orden de Allah (o sea: llegue el Día de la Resurrección) ellos seguirán así",
+        "reference": "Spanish print: Sahih Muslim, PDF page 573, report 4715",
+        "sourceText": "Siempre habrá un grupo de mi co-\nmunidad triunfante en el camino de la verdad. El \nque los abandone no podrá dañarlos. Hasta que \nse cumpla la orden de Allah (o sea: llegue el Día \nde la Resurrección) ellos seguirán así",
+        "layoutReflow": {
+          "displayOnly": true,
+          "lineEndHyphens": [
+            {
+              "selectionCP": [
+                31,
+                33
+              ],
+              "originalParentCP": [
+                2620,
+                2622
+              ],
+              "original": "-\n"
+            }
+          ],
+          "lineBreaksToSpaces": true,
+          "originalSelectionRetained": true,
+          "noLexicalRepair": true
+        },
+        "sourceDistinction": "Complete relevant Thawban wording including abandonment and continuation. Parenthetical resurrection explanation belongs to the Spanish edition; separate Qutayba omission remains distinct.",
+        "publishedParent": {}
+      },
+      "H26": {
+        "token": "H26",
+        "kind": "published-hadith",
+        "text": "El hombre estará con quien ama",
+        "reference": "HEC:3074:Ibn Masud variant",
+        "sourceDistinction": "The final IbnMasud occurrence within the full3074 source field, not the earlier AbuMusa occurrence.",
+        "publishedParent": {}
+      },
+      "H27": {
+        "token": "H27",
+        "kind": "published-hadith",
+        "text": "Esto es para Mi siervo y tiene lo que pide",
+        "reference": "HEC:65099",
+        "publishedParent": {}
+      },
+      "H28": {
+        "token": "H28",
+        "kind": "published-hadith",
+        "text": "La oración de quien no recita en ella la sura \"al fatiha\" es inválida",
+        "reference": "HEC:5378",
+        "publishedParent": {}
+      },
+      "H3": {
+        "token": "H3",
+        "kind": "published-hadith",
+        "text": "He dividido la oración (as-salat) en dos mitades entre mi siervo y Yo, y Mi siervo obtendrá lo que pide",
+        "reference": "HEC:65099",
+        "publishedParent": {}
+      },
+      "H30": {
+        "token": "H30",
+        "kind": "published-hadith",
+        "text": "¿Cómo supiste que podía ser usada como conjuro?",
+        "reference": "Spanish print: Sahih Muslim, PDF page [643, 644], report 5458",
+        "sourceText": "¿Cómo supiste que podía ser usada como con-\njuro?",
+        "layoutReflow": {
+          "displayOnly": true,
+          "lineEndHyphens": [
+            {
+              "selectionCP": [
+                42,
+                44
+              ],
+              "originalParentCP": [
+                212,
+                214
+              ],
+              "original": "-\n"
+            }
+          ],
+          "lineBreaksToSpaces": true,
+          "originalSelectionRetained": true,
+          "noLexicalRepair": true
+        },
+        "sourceDistinction": "Published AbuSaid related healing incident; two healing incidents remain distinct. Conjuro is explained here as healing recitation, not idolatry.",
+        "publishedParent": {}
+      },
+      "H4": {
+        "token": "H4",
+        "kind": "published-hadith",
+        "text": "Mi siervo Me ha alabado",
+        "reference": "HEC:65099",
+        "publishedParent": {}
+      },
+      "H5": {
+        "token": "H5",
+        "kind": "published-hadith",
+        "text": "El Hayy es ‘Arafah",
+        "reference": "IslamWeb Spanish; Tirmidhi/Nasai Arafah report",
+        "publishedParent": {}
+      },
+      "H6": {
+        "token": "H6",
+        "kind": "published-hadith",
+        "text": "La oración es una ocupación en sí misma",
+        "reference": "Spanish print: 33 formas de desarrollar la concentración durante la oración, al-Munajjid; translator M. Isa García, reviewer Moammar Derman, 2013/1434 as printed, PDF page 65, report ",
+        "sourceText": "La oración es una ocupación en sí \nmisma",
+        "layoutReflow": {
+          "displayOnly": true,
+          "lineEndHyphens": [],
+          "lineBreaksToSpaces": true,
+          "originalSelectionRetained": true,
+          "noLexicalRepair": true
+        },
+        "publishedParent": {}
+      },
+      "H7": {
+        "token": "H7",
+        "kind": "published-hadith",
+        "text": "Mi siervo Me ha elogiado",
+        "reference": "HEC:65099",
+        "publishedParent": {}
+      },
+      "H8": {
+        "token": "H8",
+        "kind": "published-hadith",
+        "text": "En verdad, Al-lah extiende Su mano por la noche para que quien pecó durante el día se volviera en arrepentimiento, y extiende Su mano por el día para que quien pecó durante la noche se volviera en arrepentimiento",
+        "reference": "HEC:4318",
+        "publishedParent": {}
+      },
+      "H9": {
+        "token": "H9",
+        "kind": "published-hadith",
+        "text": "Ciertamente Mi compasión sobrepasa Mi ira",
+        "reference": "HEC:4961",
+        "sourceDistinction": "Published present-tense mercy-over-anger variant, not a claim that the edition translates the past-tense variant identically.",
+        "publishedParent": {}
+      },
+      "M1:1": {
+        "token": "M1:1",
+        "kind": "quran",
+        "text": "En el nombre de Dios[1], el Compasivo con toda la creación, el Misericordioso con los creyentes[2].",
+        "reference": "1:1",
+        "publishedParent": {}
+      },
+      "M1:2": {
+        "token": "M1:2",
+        "kind": "quran",
+        "text": "Todas las alabanzas son para Dios, Señor[1] de todo cuanto existe,",
+        "reference": "1:2",
+        "publishedParent": {}
+      },
+      "M1:3": {
+        "token": "M1:3",
+        "kind": "quran",
+        "text": "el Compasivo, el Misericordioso.",
+        "reference": "1:3",
+        "publishedParent": {}
+      },
+      "M1:4": {
+        "token": "M1:4",
+        "kind": "quran",
+        "text": "Soberano absoluto del Día del Juicio Final,",
+        "reference": "1:4",
+        "publishedParent": {}
+      },
+      "M1:5": {
+        "token": "M1:5",
+        "kind": "quran",
+        "text": "solo a Ti te adoramos y solo de Ti imploramos ayuda.",
+        "reference": "1:5",
+        "publishedParent": {}
+      },
+      "M1:6": {
+        "token": "M1:6",
+        "kind": "quran",
+        "text": "¡Guíanos por el camino recto!",
+        "reference": "1:6",
+        "publishedParent": {}
+      },
+      "M1:7": {
+        "token": "M1:7",
+        "kind": "quran",
+        "text": "El camino de los que has colmado con Tus favores, no el de los que han caído en Tu ira, ni el de los que se extraviaron.",
+        "reference": "1:7",
+        "publishedParent": {}
+      },
+      "Q1": {
+        "token": "Q1",
+        "kind": "quran",
+        "text": "el Compasivo con toda la creación, el Misericordioso con los creyentes[2]",
+        "reference": "1:1",
+        "publishedParent": {}
+      },
+      "Q10": {
+        "token": "Q10",
+        "kind": "quran",
+        "text": "No Lo afectan somnolencia ni sueño",
+        "reference": "2:255",
+        "publishedParent": {}
+      },
+      "Q11": {
+        "token": "Q11",
+        "kind": "quran",
+        "text": "todo cuanto existe",
+        "reference": "1:2",
+        "publishedParent": {}
+      },
+      "Q12": {
+        "token": "Q12",
+        "kind": "quran",
+        "text": "Señor[1] de todo cuanto existe",
+        "reference": "1:2",
+        "publishedParent": {}
+      },
+      "Q13": {
+        "token": "Q13",
+        "kind": "quran",
+        "text": "Todas las alabanzas son para Dios, Señor[1] de todo cuanto existe",
+        "reference": "1:2",
+        "publishedParent": {}
+      },
+      "Q14": {
+        "token": "Q14",
+        "kind": "quran",
+        "text": "el Compasivo, el Misericordioso",
+        "reference": "1:3",
+        "publishedParent": {}
+      },
+      "Q15": {
+        "token": "Q15",
+        "kind": "quran",
+        "text": "el Compasivo",
+        "reference": "1:3",
+        "publishedParent": {}
+      },
+      "Q16": {
+        "token": "Q16",
+        "kind": "quran",
+        "text": "el Misericordioso",
+        "reference": "1:3",
+        "publishedParent": {}
+      },
+      "Q17": {
+        "token": "Q17",
+        "kind": "quran",
+        "text": "Si Dios precipitara a la gente el castigo de la misma forma en que la gente se precipita a buscar los bienes materiales, ya les habría llegado su hora",
+        "reference": "10:11",
+        "publishedParent": {}
+      },
+      "Q18": {
+        "token": "Q18",
+        "kind": "quran",
+        "text": "el Compasivo, el Misericordioso",
+        "reference": "1:3",
+        "publishedParent": {}
+      },
+      "Q19": {
+        "token": "Q19",
+        "kind": "quran",
+        "text": "Soberano absoluto del Día del Juicio Final",
+        "reference": "1:4",
+        "publishedParent": {}
+      },
+      "Q2": {
+        "token": "Q2",
+        "kind": "quran",
+        "text": "Todas las alabanzas",
+        "reference": "1:2",
+        "publishedParent": {}
+      },
+      "Q21": {
+        "token": "Q21",
+        "kind": "quran",
+        "text": "y tienen certeza de la existencia de la otra vida",
+        "reference": "2:4",
+        "publishedParent": {}
+      },
+      "Q22A": {
+        "token": "Q22A",
+        "kind": "quran",
+        "text": "Pero [los seres humanos] aman la vida pasajera",
+        "reference": "75:20",
+        "publishedParent": {}
+      },
+      "Q22B": {
+        "token": "Q22B",
+        "kind": "quran",
+        "text": "y descuidan la vida del más allá",
+        "reference": "75:21",
+        "publishedParent": {}
+      },
+      "Q25": {
+        "token": "Q25",
+        "kind": "quran",
+        "text": "Yo soy su Señor supremo",
+        "reference": "79:24",
+        "publishedParent": {}
+      },
+      "Q26": {
+        "token": "Q26",
+        "kind": "quran",
+        "text": "¿Acaso existe alguien más poderoso que nosotros?",
+        "reference": "41:15",
+        "publishedParent": {}
+      },
+      "Q27": {
+        "token": "Q27",
+        "kind": "quran",
+        "text": "¿Acaso puedes ver a alguno de ellos u oír sus murmullos?",
+        "reference": "19:98",
+        "publishedParent": {}
+      },
+      "Q28": {
+        "token": "Q28",
+        "kind": "quran",
+        "text": "“¿Quién es el soberano hoy?” [Y Él mismo responderá:] “Solo Dios, el Único, el Victorioso”",
+        "reference": "40:16",
+        "publishedParent": {}
+      },
+      "Q29": {
+        "token": "Q29",
+        "kind": "quran",
+        "text": "[El Día del Juicio] todos los rostros se humillarán ante Dios, el Viviente, Quien se basta a Sí mismo y se ocupa de toda la creación",
+        "reference": "20:111",
+        "publishedParent": {}
+      },
+      "Q3": {
+        "token": "Q3",
+        "kind": "quran",
+        "text": "que el ser humano es ingrato con su Señor",
+        "reference": "100:6",
+        "publishedParent": {}
+      },
+      "Q30": {
+        "token": "Q30",
+        "kind": "quran",
+        "text": "si Dios hubiera querido, Él mismo los hubiera derrotado, pero quiso ponerlos a prueba [y que se enfrentaran] unos contra otros",
+        "reference": "47:4",
+        "publishedParent": {}
+      },
+      "Q31": {
+        "token": "Q31",
+        "kind": "quran",
+        "text": "No pienses [¡Oh, Mujámmad!] que Dios está distraído de lo que hacen los opresores[1]. Él solo está tolerándolos hasta que llegue el día en el que sus miradas quedarán paralizadas[2]",
+        "reference": "14:42",
+        "publishedParent": {}
+      },
+      "Q32": {
+        "token": "Q32",
+        "kind": "quran",
+        "text": "Y dispondré la balanza de la justicia el Día de la Resurrección, y nadie será oprimido en lo más mínimo. Todas las obras, aunque sean tan ínfimas como un grano de mostaza, serán tenidas en cuenta. Nadie lleva las cuentas mejor que Yo",
+        "reference": "21:47",
+        "publishedParent": {}
+      },
+      "Q33": {
+        "token": "Q33",
+        "kind": "quran",
+        "text": "[Los creyentes] estarán reclinados sobre sofás, contemplando [el Rostro de Dios]",
+        "reference": "83:35",
+        "publishedParent": {}
+      },
+      "Q34": {
+        "token": "Q34",
+        "kind": "quran",
+        "text": "Soberano absoluto del Día del Juicio Final",
+        "reference": "1:4",
+        "publishedParent": {}
+      },
+      "Q35": {
+        "token": "Q35",
+        "kind": "quran",
+        "text": "solo a Ti te adoramos y solo de Ti imploramos ayuda",
+        "reference": "1:5",
+        "publishedParent": {}
+      },
+      "Q37": {
+        "token": "Q37",
+        "kind": "quran",
+        "text": "Así es como a muchos de los idólatras, sus falsas divinidades les hicieron creer que era bueno que mataran a sus propios hijos",
+        "reference": "6:137",
+        "publishedParent": {}
+      },
+      "Q38": {
+        "token": "Q38",
+        "kind": "quran",
+        "text": "y solo de Ti imploramos ayuda",
+        "reference": "1:5",
+        "publishedParent": {}
+      },
+      "Q39": {
+        "token": "Q39",
+        "kind": "quran",
+        "text": "adoramos",
+        "reference": "1:5",
+        "publishedParent": {}
+      },
+      "Q4": {
+        "token": "Q4",
+        "kind": "quran",
+        "text": "Si intentaran contar las bendiciones de Dios no podrían enumerarlas",
+        "reference": "14:34",
+        "publishedParent": {}
+      },
+      "Q40": {
+        "token": "Q40",
+        "kind": "quran",
+        "text": "imploramos ayuda",
+        "reference": "1:5",
+        "publishedParent": {}
+      },
+      "Q41": {
+        "token": "Q41",
+        "kind": "quran",
+        "text": "solo a Ti te adoramos y solo de Ti imploramos ayuda",
+        "reference": "1:5",
+        "publishedParent": {}
+      },
+      "Q42": {
+        "token": "Q42",
+        "kind": "quran",
+        "text": "¡Guíanos por el camino recto!",
+        "reference": "1:6",
+        "publishedParent": {}
+      },
+      "Q43": {
+        "token": "Q43",
+        "kind": "quran",
+        "text": "Guíanos",
+        "reference": "1:6",
+        "publishedParent": {}
+      },
+      "Q45": {
+        "token": "Q45",
+        "kind": "quran",
+        "text": "el camino recto",
+        "reference": "1:6",
+        "publishedParent": {}
+      },
+      "Q46": {
+        "token": "Q46",
+        "kind": "quran",
+        "text": "Y relátales la historia de aquel[1] a quien habiéndole concedido el conocimiento de Mis preceptos, los descuidó, el demonio lo sedujo y fue de los extraviados",
+        "reference": "7:175",
+        "publishedParent": {}
+      },
+      "Q47": {
+        "token": "Q47",
+        "kind": "quran",
+        "text": "y protégeme junto a mi descendencia de caer en la adoración de ídolos[2]",
+        "reference": "14:35",
+        "publishedParent": {}
+      },
+      "Q48": {
+        "token": "Q48",
+        "kind": "quran",
+        "text": "Guíanos",
+        "reference": "1:6",
+        "publishedParent": {}
+      },
+      "Q49": {
+        "token": "Q49",
+        "kind": "quran",
+        "text": "El camino de los que has colmado con Tus favores",
+        "reference": "1:7",
+        "publishedParent": {}
+      },
+      "Q5": {
+        "token": "Q5",
+        "kind": "quran",
+        "text": "¡Alabado sea Dios! Quien ha revelado a Su siervo el Libro",
+        "reference": "18:1",
+        "publishedParent": {}
+      },
+      "Q50": {
+        "token": "Q50",
+        "kind": "quran",
+        "text": "Y [para que Su Mensaje se extienda] a otros que todavía no han llegado[1]",
+        "reference": "62:3",
+        "publishedParent": {}
+      },
+      "Q51": {
+        "token": "Q51",
+        "kind": "quran",
+        "text": "has colmado con Tus favores",
+        "reference": "1:7",
+        "publishedParent": {}
+      },
+      "Q52": {
+        "token": "Q52",
+        "kind": "quran",
+        "text": "Dios quedó complacido con los creyentes cuando te juraron fidelidad bajo el árbol[1]. [Él] sabía [la fe] que había en sus corazones e hizo descender el sosiego sobre ellos",
+        "reference": "48:18",
+        "publishedParent": {}
+      },
+      "Q53": {
+        "token": "Q53",
+        "kind": "quran",
+        "text": "no el de los que han caído en Tu ira, ni el de los que se extraviaron",
+        "reference": "1:7",
+        "publishedParent": {}
+      },
+      "Q54": {
+        "token": "Q54",
+        "kind": "quran",
+        "text": "No he creado a los yinn y a los seres humanos sino para que Me adoren[1]",
+        "reference": "51:56",
+        "publishedParent": {}
+      },
+      "Q55": {
+        "token": "Q55",
+        "kind": "quran",
+        "text": "Ya antes había tomado un compromiso de Adán [de no prestarse a los susurros del demonio], pero lo olvidó [y comió del árbol prohibido], no tuvo una resolución firme",
+        "reference": "20:115",
+        "publishedParent": {}
+      },
+      "Q56": {
+        "token": "Q56",
+        "kind": "quran",
+        "text": "Todas las alabanzas son para Dios, Señor[1] de todo cuanto existe",
+        "reference": "1:2",
+        "publishedParent": {}
+      },
+      "Q57": {
+        "token": "Q57",
+        "kind": "quran",
+        "text": "Te he distinguido con la revelación de los siete versículos que se reiteran[1] como parte del grandioso Corán",
+        "reference": "15:87",
+        "publishedParent": {}
+      },
+      "Q58": {
+        "token": "Q58",
+        "kind": "quran",
+        "text": "No codicies aquello con lo que he agraciado a algunos de los ricos [de los que desmienten el Mensaje]",
+        "reference": "15:88",
+        "publishedParent": {}
+      },
+      "Q6": {
+        "token": "Q6",
+        "kind": "quran",
+        "text": "Señor[1] de todo cuanto existe",
+        "reference": "1:2",
+        "publishedParent": {}
+      },
+      "Q7": {
+        "token": "Q7",
+        "kind": "quran",
+        "text": "Los creó en los vientres de sus madres en períodos sucesivos y en tres tinieblas [el vientre, el útero y la placenta][2]",
+        "reference": "39:6",
+        "publishedParent": {}
+      },
+      "Q8": {
+        "token": "Q8",
+        "kind": "quran",
+        "text": "Yo soy Quien construí el universo con [Mi] poder [creador]; y soy Yo quien lo expande continuamente[1]",
+        "reference": "51:47",
+        "publishedParent": {}
+      },
+      "Q9": {
+        "token": "Q9",
+        "kind": "quran",
+        "text": "¿Acaso los que se niegan a creer no reparan en que los cielos y la Tierra formaban una masa homogénea y la disgregué[1]",
+        "reference": "21:30",
+        "publishedParent": {}
+      }
+    },
+    "quranQualification": null,
+    "supplementaryReportFacts": [
+      {
+        "evidenceId": "ES-SUP-H01",
+        "occurrence": 1,
+        "arabicReportReference": "abudawud:5090",
+        "sourceURL": "https://myathkar.app/es/worry/",
+        "grade": "Page attributes hasan chain to al-Albani.",
+        "conditions": "Individual translator and source-specific reuse conditions are unestablished.",
+        "variantNote": "Two publisher-numbered segments are separate; exact source contains intervening text.",
+        "sourceDescription": "MyAthkar Spanish publication",
+        "sourceContextEvidenceId": "ES-SUP-H01",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H01:/completePublishedSection",
+            "text": "Oh, Al-lah, es Tu misericordia lo que espero,",
+            "codePoints": [
+              251,
+              296
+            ],
+            "utf16": [
+              251,
+              296
+            ]
+          },
+          {
+            "parentRef": "ES-SUP-H01:/completePublishedSection",
+            "text": "así que no me dejes a mí mismo ni siquiera por un abrir y cerrar de ojos,",
+            "codePoints": [
+              425,
+              498
+            ],
+            "utf16": [
+              425,
+              498
+            ]
+          }
+        ],
+        "publisherGradeExcerpt": {
+          "parentRef": "ES-SUP-H01:/completePublishedSection",
+          "text": "cadena buena (hasan), al-Albani",
+          "codePoints": [
+            764,
+            795
+          ],
+          "utf16": [
+            764,
+            795
+          ]
+        },
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H01:/completePublishedSection",
+            "utf8SHA256": "aaa532441835cb42059e8facfc85e106484bdd75518b09ac722962f910558e89",
+            "codePoints": 834
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H02",
+        "occurrence": 2,
+        "arabicReportReference": "adab:859",
+        "variantNote": "Mughira ibn Shu’ba related report, not the identical Al-Aswad ibn Sari Adab859 parent; preserve narrator and comparison.",
+        "relatedHECArchiveIds": [
+          "8296"
+        ],
+        "sourceContextEvidenceId": "ES-SUP-H02",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H02:/source/completeArchiveRow/hadith_text",
+            "text": "Y a nadie le gusta más que Al-lah la alabanza",
+            "codePoints": [
+              679,
+              724
+            ],
+            "utf16": [
+              679,
+              724
+            ]
+          }
+        ],
+        "sourceParentIdentities": []
+      },
+      {
+        "evidenceId": "ES-SUP-H05",
+        "occurrence": 5,
+        "arabicReportReference": "tirmidhi:889",
+        "sourceURL": "https://www.islamweb.com/es/article/147551/El-valle-de-%E2%80%98Arafat",
+        "grade": "The source attributes the wording to al-Tirmidhi and al-Nasa’i.",
+        "conditions": "Specific edition reuse terms not established.",
+        "variantNote": "Separate published short quotation and commentary; preserve inline source typography; this is a source text-node projection.",
+        "sourceCaptureIdentity": {
+          "bytes": 55861
+        },
+        "sourceContextEvidenceId": "ES-SUP-H05",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H05:/completePublishedContainingParagraph",
+            "text": "El Hayy es ‘Arafah",
+            "codePoints": [
+              60,
+              78
+            ],
+            "utf16": [
+              60,
+              78
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H05:/completePublishedContainingParagraph",
+            "utf8SHA256": "99eeba3c70aefd322ba52c458317165001483b849fef96b1b0faf5ae0d0abc3a",
+            "codePoints": 230
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H06",
+        "occurrence": 6,
+        "arabicReportReference": "bukhari:1199",
+        "sourceURL": "https://d1.islamhouse.com/data/es/ih_books/single/es_33_maneras_de_obtener_concentracion.pdf",
+        "edition": "33 formas de desarrollar la concentración durante la oración, al-Munajjid; translator M. Isa García, reviewer Moammar Derman, 2013/1434 as printed",
+        "pdfPage": 65,
+        "grade": "The page attributes the quotation to al-Bukhari, Fath al-Bari 3/72.",
+        "conditions": "Edition-specific reuse conditions are unestablished.",
+        "sourcePDFIdentity": {
+          "bytes": 827839
+        },
+        "printEditionIdentity": {
+          "title": "33 formas de desarrollar la concentración durante la oración",
+          "author": "Shéij Muhámmad Salih al-Munáyyid",
+          "translator": "Lic. M. Isa García",
+          "reviewer": "Moammar Derman",
+          "year": "2013 / 1434, as printed on cover"
+        },
+        "sourceContextEvidenceId": "ES-SUP-H06",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H06:/completeSourcePage",
+            "text": "La oración es una ocupación en sí \nmisma",
+            "codePoints": [
+              777,
+              817
+            ],
+            "utf16": [
+              777,
+              817
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H06:/completeSourcePage",
+            "utf8SHA256": "248bbe9a50e8eff049001fa3e590b301f5328376bc5f82377c86ab0f99ab83cb",
+            "codePoints": 1491
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H09",
+        "occurrence": 9,
+        "arabicReportReference": "bukhari:3194",
+        "variantNote": "HEC Arabic parent distinguishes تغلب, غلبت, سبقت; Spanish renders first and precedence separately without a separately marked past غلبت clause. The PDF 6628 is a Muslim same-narrator related version; Spanish present tense does not establish identical past wording.",
+        "additionalSourcePDFIdentity": {
+          "bytes": 20972733
+        },
+        "printEditionIdentity": {
+          "title": "Sahih Muslim",
+          "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+          "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+          "finalRevision": "Isa Amer",
+          "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+        },
+        "relatedHECArchiveIds": [
+          "4961"
+        ],
+        "sourceContextEvidenceId": "ES-SUP-H09",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H09:/source/completeArchiveRow/hadith_text",
+            "text": "Ciertamente Mi compasión sobrepasa Mi ira",
+            "codePoints": [
+              191,
+              232
+            ],
+            "utf16": [
+              191,
+              232
+            ]
+          },
+          {
+            "parentRef": "ES-SUP-H09:/additionalFullPage",
+            "text": "Ciertamente Mi misericordia vence (supera) \na Mi ira",
+            "codePoints": [
+              2466,
+              2518
+            ],
+            "utf16": [
+              2466,
+              2518
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H09:/additionalFullPage",
+            "utf8SHA256": "e47f30cfb32649b9d7200774c7e9b7109b73ce9806821cd8e82182d254a88364",
+            "codePoints": 4774
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H10",
+        "occurrence": 10,
+        "arabicReportReference": "tirmidhi:2492",
+        "sourceURL": "https://islamqa.info/es/answers/9229",
+        "publisherGrade": "Narrado por at-Tirmidhi, 2492; clasificado como hasan por al-Albaani en Sahih at-Tirmidhi, 2025.",
+        "conditions": "IslamQA terms section 10 restrict redistribution and repurposing of downloaded content without prior consent; no consent or waiver is asserted and no contact made.",
+        "variantNote": "Same report family and named chain in page; exact Arabic parent and full context remain in base. Captured characters include publisher diacritic/encoding artifacts elsewhere in the surrounding paragraph.",
+        "sourceCaptureIdentity": {
+          "bytes": 150233
+        },
+        "sourceContextEvidenceId": "ES-SUP-H10",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H10:/completePublishedContainingParagraph",
+            "text": "los arrogantes se reunirán como hormigas en forma de hombres",
+            "codePoints": [
+              158,
+              218
+            ],
+            "utf16": [
+              158,
+              218
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H10:/completePublishedContainingParagraph",
+            "utf8SHA256": "1d60edffce951d27b4d415deac7e0dd073576329f45bb796ecc42dc8172382da",
+            "codePoints": 484
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H12",
+        "occurrence": 12,
+        "arabicReportReference": "muslim:395a",
+        "edition": "Sahih Muslim, Oficina de Cultura y Difusión Islámica Argentina; translator ‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+        "pdfPage": 129,
+        "localReport": "775",
+        "conditions": "Edition-specific reuse conditions are not established.",
+        "variantNote": "Publisher brackets are original; line break is original PDF extraction. Separate HEC65099 contains the printed typo encomendad and is not corrected.",
+        "sourcePDFIdentity": {
+          "bytes": 20972733
+        },
+        "printEditionIdentity": {
+          "title": "Sahih Muslim",
+          "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+          "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+          "finalRevision": "Isa Amer",
+          "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+        },
+        "sourceContextEvidenceId": "ES-SUP-H12",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H12:/completeSourcePage",
+            "text": "Mi \nsiervo ha confiado [sus asuntos] en Mí",
+            "codePoints": [
+              3555,
+              3597
+            ],
+            "utf16": [
+              3555,
+              3597
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H12:/completeSourcePage",
+            "utf8SHA256": "9da35e059c866fb834c2eb59ca61045389c52beb50fd57d9b579575e3f9df361",
+            "codePoints": 5065
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H13",
+        "occurrence": 13,
+        "arabicReportReference": "tirmidhi:2314",
+        "conditions": "Specific edition reuse conditions not established.",
+        "variantNote": "The PDF specifies the Fire is seventy years deep, not that the person falls for seventy years, and adds Allah’s anger; narrator and grade are not supplied in the table. HEC3479 is the east/west-distance parallel and Spanish adds habla demasiado; neither is the exact Tirmidhi2314 formulation.",
+        "secondSourcePDFIdentity": {
+          "bytes": 520348
+        },
+        "printEditionIdentity": {
+          "title": "Asuntos prohibidos en el Islam",
+          "translator": "Lic. Muhammad Isa García",
+          "sourceCredit": "www.tafseer.info",
+          "year": "2009 / 1430, as printed on cover"
+        },
+        "relatedHECArchiveIds": [
+          "3479"
+        ],
+        "sourceContextEvidenceId": "ES-SUP-H13",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H13:/secondCompletePage",
+            "text": "Un hombre puede decir una palabra, a la que no presta mayor \natención, pero que enfurece a Alá, y por ella será arrojado a un \nFuego del Infierno que tiene setenta años de profundidad",
+            "codePoints": [
+              544,
+              727
+            ],
+            "utf16": [
+              544,
+              727
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H13:/secondCompletePage",
+            "utf8SHA256": "e01774a286658163a48a897c2479590b666f031bd885fa81cfdd14efd4c7dd5e",
+            "codePoints": 2905
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H15",
+        "occurrence": 15,
+        "arabicReportReference": "ahmad3712-dorar",
+        "sourceURL": "https://myathkar.app/es/worry/",
+        "grade": "Page names differing positive and weak-chain judgments; a separate Dorar source separately records an attributed positive Shuayb al-Arnaut judgment in a specified work.",
+        "conditions": "Individual translator and source-specific reuse conditions unestablished.",
+        "variantNote": "Complete eight-part published prayer and its source/Hisn120 order note retained.",
+        "sourceDescription": "MyAthkar Spanish publication",
+        "sourceContextEvidenceId": "ES-SUP-H15",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H15:/completePublishedSection",
+            "text": "Oh, Al-lah, yo soy Tu siervo, hijo de Tu siervo, hijo de Tu sierva.",
+            "codePoints": [
+              325,
+              392
+            ],
+            "utf16": [
+              325,
+              392
+            ]
+          }
+        ],
+        "publisherGradeExcerpt": {
+          "parentRef": "ES-SUP-H15:/completePublishedSection",
+          "text": "Auténtico según al-Albani (as-Sahiha 198) y Ahmad Shakir; también lo autenticaron Ibn Hibban (972) y al-Hakim. Su cadena es débil según ad-Daraqutni (al-'Ilal) y Shu'aib al-Arna'ut: uno de sus narradores, Abu Salama al-Yuhani, es desconocido (mayhul).",
+          "codePoints": [
+            1783,
+            2034
+          ],
+          "utf16": [
+            1783,
+            2034
+          ]
+        },
+        "publisherVersionOrderNote": {
+          "parentRef": "ES-SUP-H15:/completePublishedSection",
+          "text": "Texto según Ahmad 3712; Hisn al-Muslim 120 pone «o que revelaste en Tu Libro» antes de «o que enseñaste a alguna de Tus criaturas».",
+          "codePoints": [
+            2037,
+            2168
+          ],
+          "utf16": [
+            2037,
+            2168
+          ]
+        },
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H15:/completePublishedSection",
+            "utf8SHA256": "96f8867c815d6a042abc9fe38c53e80c2fec26026e982236dd5eca584db7db19",
+            "codePoints": 2169
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H16",
+        "occurrence": 16,
+        "arabicReportReference": "muslim:1840a",
+        "pdfPage": 554,
+        "localReport": "4535",
+        "conditions": "Sahih Muslim Spanish edition reuse conditions not established; HEC conditions preserved.",
+        "variantNote": "PDF 4535 is Ali and includes both ideas but lacks the explicit only; the separately numbered 4536 has solo in its second clause. The variants are separate. HEC6370 is Ibn Umar and lacks the separate positive clause.",
+        "sourcePDFIdentity": {
+          "bytes": 20972733
+        },
+        "printEditionIdentity": {
+          "title": "Sahih Muslim",
+          "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+          "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+          "finalRevision": "Isa Amer",
+          "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+        },
+        "relatedHECArchiveIds": [
+          "6370"
+        ],
+        "sourceContextEvidenceId": "ES-SUP-H16",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H16:/completeSourcePage",
+            "text": "No se debe obedecer en \naquello que implique una desobediencia a Allah. \nLa obediencia es en aquello que es bueno",
+            "codePoints": [
+              771,
+              884
+            ],
+            "utf16": [
+              771,
+              884
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H16:/completeSourcePage",
+            "utf8SHA256": "053885b7e3db12f02720d65ea93a2f4be91862668d5363db3a82a6e9ebf60b7c",
+            "codePoints": 4422
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H17",
+        "occurrence": 17,
+        "arabicReportReference": "bukhari:2887",
+        "variantNote": "Abu Huraira parent includes continuation. Publisher takhrij says Bukhari transmitted something similar; retain full attributed grade and variant note.",
+        "relatedHECArchiveIds": [
+          "5949"
+        ],
+        "sourceContextEvidenceId": "ES-SUP-H17",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H17:/source/completeArchiveRow/hadith_text",
+            "text": "¡Miserable es el esclavo del dinar! ¡Miserable es el esclavo del dirham!",
+            "codePoints": [
+              137,
+              209
+            ],
+            "utf16": [
+              137,
+              209
+            ]
+          }
+        ],
+        "sourceParentIdentities": []
+      },
+      {
+        "evidenceId": "ES-SUP-H18",
+        "occurrence": 18,
+        "arabicReportReference": "muslim:771a",
+        "pdfPage": 219,
+        "localReport": "1695",
+        "conditions": "Edition-specific reuse conditions not established.",
+        "variantNote": "Ali’s complete printed prayer is the same report family, but Spanish reverses the Arabic dependence/return sequence and adds success; this is not an exact literal rendering. An additional independently located official Hisn Spanish page offers an interpretive sentence; its page response capture lacked the indexed body, so it is recorded only as a lead https://risala.prh.gov.sa/es/content/51?translated=true .",
+        "sourcePDFIdentity": {
+          "bytes": 20972733
+        },
+        "printEditionIdentity": {
+          "title": "Sahih Muslim",
+          "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+          "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+          "finalRevision": "Isa Amer",
+          "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+        },
+        "sourceContextEvidenceId": "ES-SUP-H18",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H18:/completeSourcePage",
+            "text": "A Ti recurro y mi éxito está en Ti.",
+            "codePoints": [
+              2655,
+              2690
+            ],
+            "utf16": [
+              2655,
+              2690
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H18:/completeSourcePage",
+            "utf8SHA256": "43c3d7ec89f901fa2e9618ca6b2fe349aec01f44c26cacd4a4e60d5fad20d954",
+            "codePoints": 4903
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H22",
+        "occurrence": 22,
+        "arabicReportReference": "tirmidhi:3502",
+        "sourceURL": "https://islamenc.com/es/books/411",
+        "edition": "Súplicas elocuentes, platform reports version 1.0",
+        "conditions": "Translator and individual edition reuse terms not established.",
+        "variantNote": "The containing paragraph includes the preceding and following prayer clauses and a publisher explanation on another clause; the explanation is not narrated wording.",
+        "sourceCaptureIdentity": {
+          "bytes": 487076
+        },
+        "sourceContextEvidenceId": "ES-SUP-H22",
+        "contextNote": "Two adjacent publisher prayer paragraphs are preserved separately; the second has a publisher explanation on a different phrase.",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H22:sourceElementGroup81",
+            "text": "ni que el mundo sea nuestra mayor preocupación",
+            "codePoints": [
+              334,
+              380
+            ],
+            "utf16": [
+              334,
+              380
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H22:/completePublishedContainingParagraph",
+            "utf8SHA256": "daf28e8db7f03f7e43a8052fb841403a11aa2e1c576895906fee69e97285dfb5",
+            "codePoints": 665
+          },
+          {
+            "parentRef": "ES-SUP-H22:sourceElementGroup80",
+            "utf8SHA256": "a0390e7b43a119c0a11127781c174d91e3c8d5e26d1b5ec5264670abc877c85b",
+            "codePoints": 203
+          },
+          {
+            "parentRef": "ES-SUP-H22:sourceElementGroup81",
+            "utf8SHA256": "daf28e8db7f03f7e43a8052fb841403a11aa2e1c576895906fee69e97285dfb5",
+            "codePoints": 665
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H23",
+        "occurrence": 23,
+        "arabicReportReference": "tirmidhi:3558",
+        "sourceURL": "https://perlasdelislam.blogspot.com/2012/10/la-importancia-de-pedirle-allah-el.html?m=1",
+        "grade": "Page attributes Tirmidhi3558 and hasan sahih to al-Albani.",
+        "conditions": "Translator and individual source reuse terms not established.",
+        "variantNote": "Source parent includes parenthetical explanations and its contextual attribution; the parenthetical explanations and attribution are source text.",
+        "sourceCaptureIdentity": {
+          "bytes": 49959
+        },
+        "sourceContextEvidenceId": "ES-SUP-H23",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H23:/completePublishedQuote",
+            "text": "Pedidle a Allah por al-`Afua (perdón) y al-`Aafiah (bienestar), ya que a nadie le es concedido, después de la certeza (es decir, el Islam), nada mejor que al-`Aafiah (bienestar).",
+            "codePoints": [
+              1,
+              179
+            ],
+            "utf16": [
+              1,
+              179
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H23:/completePublishedQuote",
+            "utf8SHA256": "8bb0bd1d7b8fe72901869e90db32a2f30f25e294510be0ba6ec6d09bc747b67f",
+            "codePoints": 181
+          },
+          {
+            "parentRef": "ES-SUP-H23:/containingArticleProjection",
+            "utf8SHA256": "d6973b4a75b8cf3a3698236da7e681f195c9c63558ee0315d49f4616457417b1",
+            "codePoints": 5901
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H24",
+        "occurrence": 24,
+        "arabicReportReference": "muslim:144a",
+        "pdfPage": 59,
+        "localReport": "267",
+        "conditions": "Spanish Muslim edition reuse conditions not established.",
+        "variantNote": "Same Hudhayfa/Umar narrative, first sentence, full context and page notes1–5. The source line-wrap hyphen and adjacent notes are preserved; extraction order includes notes between columns.",
+        "sourcePDFIdentity": {
+          "bytes": 20972733
+        },
+        "printEditionIdentity": {
+          "title": "Sahih Muslim",
+          "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+          "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+          "finalRevision": "Isa Amer",
+          "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+        },
+        "sourceContextEvidenceId": "ES-SUP-H24",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H24:/completeSourcePage",
+            "text": "Los conflictos (las tentaciones) se irán pre-\nsentando en los corazones de los hombres como \nuna estera que es trenzada junquillo a junquillo",
+            "codePoints": [
+              3224,
+              3365
+            ],
+            "utf16": [
+              3224,
+              3365
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H24:/completeSourcePage",
+            "utf8SHA256": "a5fab691f9e00df3b22bbfe2a13a0b59efab6db5fbe387204010910547bcddb7",
+            "codePoints": 5624
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H25",
+        "occurrence": 25,
+        "arabicReportReference": "muslim:1920",
+        "pdfPage": 573,
+        "localReport": "4715",
+        "conditions": "Spanish Muslim edition reuse conditions not established; HEC conditions preserved.",
+        "variantNote": "Original Thawban Muslim1920 with exact abandonment and final phrase; publisher’s parenthetical is retained. Separate printed Qutayba variant lacks final phrase. HEC3337 is a Barqani parallel and wording traicione is stronger than abandoning support.",
+        "sourcePDFIdentity": {
+          "bytes": 20972733
+        },
+        "printEditionIdentity": {
+          "title": "Sahih Muslim",
+          "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+          "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+          "finalRevision": "Isa Amer",
+          "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+        },
+        "relatedHECArchiveIds": [
+          "3337"
+        ],
+        "sourceContextEvidenceId": "ES-SUP-H25",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H25:/completeSourcePage",
+            "text": "Siempre habrá un grupo de mi co-\nmunidad triunfante en el camino de la verdad. El \nque los abandone no podrá dañarlos. Hasta que \nse cumpla la orden de Allah (o sea: llegue el Día \nde la Resurrección) ellos seguirán así",
+            "codePoints": [
+              2589,
+              2808
+            ],
+            "utf16": [
+              2589,
+              2808
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H25:/completeSourcePage",
+            "utf8SHA256": "113be543f631bbef9657eb8b2a6bfe25e1a54142aef46eff27237eb3347cd931",
+            "codePoints": 4311
+          }
+        ]
+      },
+      {
+        "evidenceId": "ES-SUP-H26",
+        "occurrence": 26,
+        "arabicReportReference": "bukhari:6169",
+        "variantNote": "The complete target row contains both Abu Musa and Ibn Masud variants. The exact base Bukhari6169 parent is Ibn Masud; do not misattribute as Anas.",
+        "relatedHECArchiveIds": [
+          "3074"
+        ],
+        "sourceContextEvidenceId": "ES-SUP-H26",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H26:/source/completeArchiveRow/hadith_text",
+            "text": "El hombre estará con quien ama",
+            "codePoints": [
+              149,
+              179
+            ],
+            "utf16": [
+              149,
+              179
+            ]
+          },
+          {
+            "parentRef": "ES-SUP-H26:/source/completeArchiveRow/hadith_text",
+            "text": "El hombre estará con quien ama",
+            "codePoints": [
+              377,
+              407
+            ],
+            "utf16": [
+              377,
+              407
+            ]
+          },
+          {
+            "parentRef": "ES-SUP-H26:/source/completeArchiveRow/hadith_text",
+            "text": "El hombre estará con quien ama",
+            "codePoints": [
+              761,
+              791
+            ],
+            "utf16": [
+              761,
+              791
+            ]
+          }
+        ],
+        "sourceParentIdentities": []
+      },
+      {
+        "evidenceId": "ES-SUP-H30",
+        "occurrence": 30,
+        "arabicReportReference": "bukhari:5736",
+        "pdfPages": [
+          643,
+          644
+        ],
+        "localReport": "5458",
+        "conditions": "Edition-specific reuse conditions not established.",
+        "variantNote": "Same Abu Said ruqyah incident in a related Muslim parent; source page includes the following separately numbered related version and note1, which must not be merged.",
+        "sourcePDFIdentity": {
+          "bytes": 20972733
+        },
+        "printEditionIdentity": {
+          "title": "Sahih Muslim",
+          "publisher": "Oficina de Cultura y Difusión Islámica, Argentina",
+          "translator": "‘Abdu Rahmân Colombo Al-Ÿerrâhî",
+          "finalRevision": "Isa Amer",
+          "translationBasis": "Front matter describes an English-based translation compared with Arabic."
+        },
+        "sourceContextEvidenceId": "ES-SUP-H30",
+        "publishedExactExcerpts": [
+          {
+            "parentRef": "ES-SUP-H30:/completeSourcePages/1/text",
+            "text": "¿Cómo supiste que podía ser usada como con-\njuro?",
+            "codePoints": [
+              170,
+              219
+            ],
+            "utf16": [
+              170,
+              219
+            ]
+          }
+        ],
+        "sourceParentIdentities": [
+          {
+            "parentRef": "ES-SUP-H30:/completeSourcePages/0/text",
+            "utf8SHA256": "5a5ef110735f0c9637a32d83c6a4070ad8925a1ac732a7abd773527563e5d3cb",
+            "codePoints": 4617
+          },
+          {
+            "parentRef": "ES-SUP-H30:/completeSourcePages/1/text",
+            "utf8SHA256": "278d1a19489f86e2bf8c0dca27aac89a9677c6ffc9eec112b3e9faf34ebbc630",
+            "codePoints": 4349
+          }
+        ]
+      }
+    ]
+  }
+}
