@@ -1,6 +1,6 @@
 # Essential Iman · lesson 01-004
 
-The Arabic source and independently model-reviewed English, French, German, Indonesian, Japanese, Russian and Turkish readings are installed and published. The translations need human verification; other languages remain in preparation.
+The Arabic source and independently model-reviewed English, French, German, Indonesian, Japanese, Persian, Portuguese, Russian and Turkish readings are installed and published. The translations need human verification; other languages remain in preparation.
 
 - [Arabic source](../essential-ar/01/004.md) · [Source data](../essential-ar/01/004.json)
 - [English reading](../essential-en/004.md) · [Plain text](../essential-en/004.txt) · [Structured reading](../essential-en/004.json) · [Sources and editions](../essential-en/004-sources.json)
@@ -10,3 +10,5 @@ The Arabic source and independently model-reviewed English, French, German, Indo
 - [Japanese reading](../essential-ja/004.md) · [Plain text](../essential-ja/004.txt) · [Structured reading](../essential-ja/004.json) · [Sources and editions](../essential-ja/004-sources.json)
 - [Turkish reading](../essential-tr/004.md) · [Plain text](../essential-tr/004.txt) · [Structured reading](../essential-tr/004.json) · [Sources and editions](../essential-tr/004-sources.json)
 - [Russian reading](../essential-ru/004.md) · [Plain text](../essential-ru/004.txt) · [Structured reading](../essential-ru/004.json) · [Sources and editions](../essential-ru/004-sources.json)
+- [Brazilian Portuguese reading](../essential-pt-BR/004.md) · [Plain text](../essential-pt-BR/004.txt) · [Structured reading](../essential-pt-BR/004.json) · [Sources and editions](../essential-pt-BR/004-sources.json)
+- [Persian reading](../essential-fa/004.md) · [Plain text](../essential-fa/004.txt) · [Structured reading](../essential-fa/004.json) · [Sources and editions](../essential-fa/004-sources.json)
