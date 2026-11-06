@@ -2,7 +2,7 @@
   "schema": "new-adult-seerah-source-index-v1",
   "language": "ar",
   "status": "user-supplied-original-source-not-an-independent-scholarly-authentication",
-  "audioStatus": "chapters-1-and-2-available-as-audio-only-addon",
+  "audioStatus": "chapters-1-and-2-available-as-audio-only-addon-chapter-3-available-as-separate-audio-only-addon",
   "chapters": [
     {
       "number": 1,
@@ -35,6 +35,22 @@
         "sha256": "f20fb30208824d0d065f9997c564f5ecdc308bbd0d608e170f38ad6768e95345",
         "reviewScope": "Human checked selected partial-verse transitions; no full human listening of the entire chapter is recorded."
       }
+    },
+    {
+      "number": 3,
+      "id": "new-adult-seerah-ar-03-63aea34d9f8c4bd8",
+      "title": "من بيت خديجة إلى غار حراء",
+      "originalTitle": "من بيت خديجة إلى غار حراء",
+      "titleOverride": false,
+      "sourceName": "Seerah_Chapter_03_AR_TADABBUR_REFINED.docx",
+      "sourceSHA256": "63aea34d9f8c4bd8406b904ab953aacedf54abe8817e2174f0dd0f5411ce2665",
+      "readingPath": "03.md",
+      "readingSHA256": "3d8b4b75e8c521d649271333429182e66f1b3e0226a8aa1759a9f82a1794f22e",
+      "audio": {
+        "asset": "assets/learning/audio/seerah-new-adult/ar/chapter-03-63aea34d9f8c4bd8.opus",
+        "sha256": "8de5f1220572888741a5b36b4e7326951ce8c3068ae5b6609b479e9f529b5971",
+        "reviewScope": "Human checked three selected recitation transitions; no full human listening of the entire chapter is recorded."
+      }
     }
   ],
   "arabicLanguagePack": {
@@ -50,5 +66,12 @@
     "bytes": 29289903,
     "sha256": "d501367179282778d84a98043a6b2e24d2e97573dc3403f0991c8e793fe0ff9c",
     "manifestSha256": "090f53889e8bd28ff06eaef2099522322ec6d7fcc86b173eb3e4fb5397033b1c"
+  },
+  "chapter3AudioAddon": {
+    "file": "iman-ar-seerah-03-0d6552c1fd8758c65e14.zip",
+    "version": "0d6552c1fd8758c65e14",
+    "bytes": 12597214,
+    "sha256": "dabc8e5da0f7765aefe980b0f49391675f6d184b800c3c3275c04e6581f28185",
+    "manifestSha256": "6f8419264b5a5f9d51954732c21830dbce968fc0c6610ec667353b4d538f002c"
   }
 }
