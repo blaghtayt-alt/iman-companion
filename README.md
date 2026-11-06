@@ -39,12 +39,6 @@ Book editions are in preparation. Links appear only after the Word and PDF files
 | [日本語](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/ja/README.md) | 準備中 | 準備中 | 準備中 | 準備中 |
 | [Filipino](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/fil/README.md) | Inihahanda | Inihahanda | Inihahanda | Inihahanda |
 
-### Requested combined editions
-
-| Language | Word | PDF |
-| --- | --- | --- |
-| 日本語 | 準備中 | 準備中 |
-| اردو | تیاری جاری ہے | تیاری جاری ہے |
 <!-- IMAN-BOOK-DOWNLOADS:END -->
 
 [Updated offline language packs](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-24-alp-pages-10-19) are available as release downloads. The approved 19-page Alp Arslan excerpt is included in all 15 languages, with the original Arabic and the correct reading direction for each edition. Books and children’s teaching audio are grouped into one ZIP per language. Existing nine-page app builds need the updated app build to expose the new pages; see the [reader update notes](language-packs/metadata/alp-arslan/reader-update.md). The [earlier combined Seerah archive](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20) contains chapters 1–22 in the original nine languages and chapter 1 in the six newer languages. Current reviewed chapters in Hindi, Russian, Spanish, Persian, German and Simplified Chinese are available directly in the repository. The Arabic archive appendix is labeled separately. See the [combined Seerah notes](materials/seerah/combined/README.md) for sources and coverage.
