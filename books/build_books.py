@@ -203,6 +203,7 @@ def cover_page(doc,cover,width,height):
     return doc.add_section(WD_SECTION.NEW_PAGE)
 
 def build_book(root,out,conf,lang,collection,units,commit):
+    if collection not in COLLECTIONS:raise ValueError('Only public collection books can be built')
     lc={**conf['languages'][lang],**locale(lang)};family,arabic,fonts=fonts_for(conf,lang,root)
     names=load(inside(root,conf['surahNames']['path']))
     if digest(inside(root,conf['surahNames']['path']).read_bytes())!=conf['surahNames']['sha256']:raise ValueError('Surah name source hash mismatch')
@@ -344,23 +345,10 @@ def main():
     result=[]
     for (lang,collection),units in sorted(groups.items()):
         units.sort(key=canonical_key);result.append(build_book(root,out,conf,lang,collection,units,args.commit))
-    pending=[];allunits={ (u['language'],u['collection'],u['id']):u for units in groups.values() for u in units }
-    for recipe in conf.get('combinedRecipes',[]):
-        selected=[];missing=[]
-        for want in recipe['units']:
-            u=allunits.get((recipe['language'],want['collection'],want['id']))
-            if not u or (want.get('sourceHash') and want['sourceHash'] not in u['sourceHashes']):missing.append(want['id']);continue
-            if want.get('ayahCount'):
-                surah=want['id'].split(':',1)[0];keys=[s['ayahKey'] for s in u['sections'] if s.get('ayahKey')]
-                if len(keys)!=want['ayahCount'] or set(keys)!={surah+':'+str(i) for i in range(1,want['ayahCount']+1)}:missing.append(want['id']);continue
-            selected.append(u)
-        if missing:pending.append({'language':recipe['language'],'missingOrWrongRevision':missing});continue
-        selected=sorted([u for u in selected if u['collection']=='tadabbur-extended'],key=canonical_key)+[u for u in selected if u['collection']!='tadabbur-extended']
-        result.append(build_book(root,out,conf,recipe['language'],'combined',selected,args.commit))
     coverage=[{'language':l,'collection':c,'available':(l,c) in groups} for l in conf['languages'] for c in sorted(COLLECTIONS)]
     for book in result:
         book['previewOnly']=bool(manifest.get('previewOnly'))
         if book['collection']=='hadith':book['hadithEdition']='new-extended'
-    (out/'index.json').write_text(json.dumps({'sourceCommit':args.commit,'previewOnly':bool(manifest.get('previewOnly')),'builtAtUTC':datetime.datetime.now(datetime.timezone.utc).isoformat(),'books':result,'coverage':coverage,'pendingCombinedEditions':pending,'emailNotification':'Send the requested completion email only after combined PDF verification; no email is sent by this build script.'},ensure_ascii=False,indent=2),encoding='utf-8')
+    (out/'index.json').write_text(json.dumps({'sourceCommit':args.commit,'previewOnly':bool(manifest.get('previewOnly')),'builtAtUTC':datetime.datetime.now(datetime.timezone.utc).isoformat(),'books':result,'coverage':coverage},ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'books':len(result),'sourceCommit':args.commit,'manifestBound':True}))
 if __name__=='__main__':main()

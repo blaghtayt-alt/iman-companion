@@ -37,6 +37,19 @@ with tempfile.TemporaryDirectory(dir=W,prefix='download-table-test-') as tmp:
  x=deepcopy(index);x['books'][0]['language']='unknown';rejects('Unknown download language',lambda:render(conf,x,folder,'example/fixture','test-only'))
  x=deepcopy(index);x['books'][0]['file']='fixture.pdf';rejects('Non-Word editable asset',lambda:render(conf,x,folder,'example/fixture','test-only'))
  x=deepcopy(index);x['books'][1]['hadithEdition']='legacy-short';rejects('Legacy short Hadith download',lambda:render(conf,x,folder,'example/fixture','test-only'))
+ x=deepcopy(index);x['books'][0]['collection']='combined';rejects('Non-public book cannot become a public download',lambda:render(conf,x,folder,'example/fixture','test-only'))
+ assert table.count('### ')==1 and all(len([line for line in page.splitlines() if line.startswith('| ')])==6 for page in pages.values());passed('Only four public collections appear in every language')
+ from build_books import build_book
+ rejects('Non-public book cannot be built by public builder',lambda:build_book(None,None,None,None,'combined',None,None))
+ blocked=root/'blocked-release';blocked.mkdir();(blocked/'index.json').write_text(json.dumps({'books':[{'collection':'combined'}]}),encoding='utf-8')
+ run=subprocess.run([sys.executable,str(P/'books/check_outputs.py'),'--folder',str(blocked),'--tag','test-only','--repo','example/fixture'],capture_output=True,text=True)
+ assert run.returncode!=0 and 'Only public collection books' in run.stderr;passed('Non-public book cannot be checked for release')
+ from check_outputs import public_export_inputs
+ expected=root/'expected-public';expected.mkdir();(expected/'book.docx').write_bytes(b'test');(expected/'book.pdf').write_bytes(b'test')
+ public_export_inputs({'books':[{'collection':'hadith','file':'book.docx'}]},expected);passed('Indexed public Word and PDF pair is accepted')
+ (blocked/'index.json').write_text(json.dumps({'books':[]}),encoding='utf-8');(blocked/'unindexed.pdf').write_bytes(b'private fixture')
+ run=subprocess.run([sys.executable,str(P/'books/check_outputs.py'),'--folder',str(blocked),'--tag','test-only','--repo','example/fixture'],capture_output=True,text=True)
+ assert run.returncode!=0 and 'Unindexed or missing' in run.stderr;passed('Unindexed files cannot enter the public release')
  target=folder/Path(books[0]['file']).with_suffix('.pdf');saved=target.read_bytes();target.write_bytes(b'changed')
  rejects('Changed PDF asset',lambda:render(conf,index,folder,'example/fixture','test-only'));target.write_bytes(saved)
  x=deepcopy(index);x['books'].append(x['books'][0]);rejects('Duplicate book cell',lambda:render(conf,x,folder,'example/fixture','test-only'))
@@ -50,6 +63,11 @@ with tempfile.TemporaryDirectory(dir=W,prefix='download-table-test-') as tmp:
  fixture=P/'test-fixtures/extended';checkroot=root/'catalog-check'
  for rel in ['materials/hadith/essential-ar/01/001.json','materials/hadith/essential-ar/01/002.json','books/units/current/ar/essential-01-001.json','books/units/current/ar/essential-01-002.json']:
   dest=checkroot/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(fixture/rel,dest)
+ # Restore the exact fixture bytes only when Windows checkout newline conversion is detectable.
+ for n in ['001','002']:
+  unit=json.loads((checkroot/f'books/units/current/ar/essential-01-{n}.json').read_text(encoding='utf-8'))
+  source=checkroot/unit['inputBindings'][0]['path'];data=source.read_bytes();expected=unit['inputBindings'][0]['sha256']
+  if sha(data)!=expected and sha(data.replace(b'\r\n',b'\n'))==expected:source.write_bytes(data.replace(b'\r\n',b'\n'))
  cat=json.loads((fixture/'materials/catalog.json').read_text(encoding='utf-8'));cat['entries'].append({'collection':'seerah','language':'ar','id':'23','status':'source-archive','json':'materials/seerah/ar/source-archive/chapter-23.json'})
  (checkroot/'materials/catalog.json').write_text(json.dumps(cat,ensure_ascii=False),encoding='utf-8')
  run=subprocess.run([sys.executable,str(P/'books/index_units.py'),'--root',str(checkroot),'--commit','test-source'],capture_output=True,text=True)

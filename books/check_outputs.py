@@ -6,9 +6,23 @@ from lxml import etree
 from bibliography import native_text,digits
 from locale_copy import locale,DOWNLOADS
 from urllib.parse import quote
+def public_export_inputs(index,folder):
+    allowed={'tadabbur-extended','articles','seerah','hadith'}
+    if any(book.get('collection') not in allowed for book in index['books']):raise ValueError('Only public collection books can be checked for release')
+    expected=set()
+    for book in index['books']:
+        file=Path(book['file'])
+        if file.name!=book['file'] or file.suffix!='.docx':raise ValueError('Invalid public book filename')
+        pair={file.name,file.with_suffix('.pdf').name}
+        if expected.intersection(pair):raise ValueError('Duplicate public book asset')
+        expected.update(pair)
+    present={p.name for p in folder.iterdir() if p.is_file() and p.suffix.lower() in {'.docx','.pdf'}}
+    if present!=expected:raise ValueError('Unindexed or missing book files cannot be released')
+
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--folder',type=Path,required=True);ap.add_argument('--tag',required=True);ap.add_argument('--repo',required=True);args=ap.parse_args();folder=args.folder
     index=json.loads((folder/'index.json').read_text(encoding='utf-8'));lines=['# 📚',''];pages={}
+    public_export_inputs(index,folder)
     for book in index['books']:
         file=folder/book['file'];pdf=file.with_suffix('.pdf')
         checks=json.loads((folder/(file.name+'.reader-checks.json')).read_text(encoding='utf-8'))

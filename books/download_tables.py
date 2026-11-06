@@ -41,7 +41,7 @@ def verified_books(index,folder,repo,tag):
     for book in index.get('books',[]):
         if book.get('exportVerified') is not True or book.get('previewOnly'):continue
         if book['collection']=='hadith' and book.get('hadithEdition')!='new-extended':raise ValueError('Legacy short Hadith books cannot be current downloads')
-        if book['collection'] not in COLLECTIONS+['combined']:raise ValueError('Unknown downloadable book category')
+        if book['collection'] not in COLLECTIONS:raise ValueError('Unknown downloadable book category')
         if book['language'] not in COPY:raise ValueError('Unknown downloadable book language')
         if Path(book['file']).suffix!='.docx':raise ValueError('Expected an editable Word book asset')
         key=(book['language'],book['collection'])
@@ -72,21 +72,12 @@ def render(conf,index,folder,repo,tag):
                 page.append('| '+' | '.join([cell(label),f'[{DOWNLOADS[lang][0]}]({item["download"]})',f'[{DOWNLOADS[lang][1]}]({item["pdfDownload"]})',digits(str(len(item.get('units',[]))),lang)])+' |')
             else:
                 row.append(cell(pending));page.append('| '+' | '.join([cell(label),pending,pending,'—'])+' |')
-        if lang in {'ja','ur'}:
-            combined=ready.get((lang,'combined'));label=lc['titles']['combined']
-            values=[f'[{DOWNLOADS[lang][0]}]({combined["download"]})',f'[{DOWNLOADS[lang][1]}]({combined["pdfDownload"]})',digits(str(len(combined.get('units',[]))),lang)] if combined else [pending,pending,'—']
-            page.append('| '+cell(label)+' | '+' | '.join(values)+' |')
         root.append('| '+' | '.join(row)+' |')
         if lang!='ar':page+=['',locale(lang)['notice']]
         for line in page:
             # Check visible labels, not URL targets containing technical filenames.
             native_text(re.sub(r'\]\([^)]*\)',']',line),lang)
         pages[lang]='\n'.join(page)+'\n'
-    combined=[(lang,ready.get((lang,'combined'))) for lang in ['ja','ur']]
-    root+=['','### Requested combined editions','','| Language | Word | PDF |','| --- | --- | --- |']
-    for lang,item in combined:
-        values=[f'[{COPY[lang][2]}]({item["download"]})',f'[{COPY[lang][3]}]({item["pdfDownload"]})'] if item else [COPY[lang][5],COPY[lang][5]]
-        root.append('| '+locale(lang)['nativeName']+' | '+' | '.join(values)+' |')
     return '\n'.join(root)+'\n',pages
 
 def merge_readme(original,table):
