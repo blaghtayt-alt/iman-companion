@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "name": "Hold unqualified experimental children Al-Ikhlas lesson",
+  "sourceRuntimeFingerprint": "7ada0af4302b14fb86704f97ee4f745262f030bab0f95db7b1628569d169ec1d",
+  "sourceRuntimeManifestSHA256": "d3cda44cdbc505704611e06f99cfe995874ac20d1b13672fefa8f8d4c9f7d1cd",
+  "heldLessonId": "al-ikhlas",
+  "heldAudioApprovalId": "kids:al-ikhlas",
+  "heldAudioApprovalCount": 8,
+  "files": [
+    {
+      "path": "assets/learning/kids-lessons.js",
+      "sourceSHA256": "820346a3a1d60ffde7a1107740cedc0e8a059005374c7a1573e49cc2096c525d",
+      "sourceBytes": 201900,
+      "targetSHA256": "7daf34595b032123e659d59f2f54d317106285f0e74f44622c99d2438af308f4",
+      "targetBytes": 167243
+    },
+    {
+      "path": "runtime/scripts/content-audio-catalog1036.js",
+      "sourceSHA256": "37e3d7252f3796197c8a49d5316d31fb2c06b4758d5dc7cb0b72b78cb941a491",
+      "sourceBytes": 19715,
+      "targetSHA256": "cb091ee7b42a98eb6c065b7d380f7ec0a36306dedc08bc3d600c0923b93eefe8",
+      "targetBytes": 15109
+    },
+    {
+      "path": "index.html",
+      "sourceSHA256": "6c212544cb5b1a8169290ea37fe82586c47962df5e00a2751a74b744223f5351",
+      "sourceBytes": 354953,
+      "targetSHA256": "1be405c3c8c91cadaa1a449450e6956c5ca0b4f59d831154810034c36dcb39a5",
+      "targetBytes": 354953
+    },
+    {
+      "path": "mobile.html",
+      "sourceSHA256": "51fd455f83d1ed76e0f1534826a594149f446cf40c2c9776dbfab2ff10244a1f",
+      "sourceBytes": 354928,
+      "targetSHA256": "6d005f144dba549d478646dfb4d2ded7cfd44dd86398fdd54055857a2e37791d",
+      "targetBytes": 354928
+    },
+    {
+      "path": "tablet.html",
+      "sourceSHA256": "c7d05c3bee3133ec929a02b1c7b40cc118e58895ec90fa5186eb52fc9ac2702b",
+      "sourceBytes": 354928,
+      "targetSHA256": "2a52e96954bba2f05dbd817a573873f73882b43baf5f75b17c974f98de8b8cf1",
+      "targetBytes": 354928
+    }
+  ],
+  "scope": "Only the experimental children lesson and its eight legacy approval records; canonical Quran, adult reflection, other content, packs, and saved data are unchanged.",
+  "containsPrivateAudio": false,
+  "publicDeploymentPerformedByThisContract": false
+}
