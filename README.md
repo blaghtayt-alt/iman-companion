@@ -14,6 +14,8 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 
 ## Start here
 
+- [Tokyo Camii Japanese reader update: chapters 111–114 only](language-packs/handoffs/tokyo-camii-111-114/README.md)
+
 - [Arabic Quran-reader source reference index](materials/hadith-bank/arabic-quran-reference-index/README.md) — Research index of Arabic Quran-reader citations; candidate links, narrators, and report variants require further verification.
 
 - [Alp Arslan edition metadata](language-packs/metadata/alp-arslan/editions.json) and [delivery notes](language-packs/handoffs/alp-arslan)
