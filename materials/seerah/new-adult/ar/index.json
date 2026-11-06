@@ -2,7 +2,7 @@
   "schema": "new-adult-seerah-source-index-v1",
   "language": "ar",
   "status": "user-supplied-original-source-not-an-independent-scholarly-authentication",
-  "audioStatus": "chapters-1-and-2-available-in-arabic-language-package",
+  "audioStatus": "chapters-1-and-2-available-as-audio-only-addon",
   "chapters": [
     {
       "number": 1,
@@ -43,5 +43,12 @@
     "sha256": "b680b8375bd7b254d4c9c25538401c039ad77e5718502a9fac02708455ce604f",
     "manifestSha256": "9214a38a3638f71c39d04b73c297aa10b99711e54f83746f446fd18089c4fbd8",
     "bytes": 227132677
+  },
+  "arabicAudioAddon": {
+    "file": "iman-ar-seerah-fd55a573d99892e97d5a.zip",
+    "version": "fd55a573d99892e97d5a",
+    "bytes": 29289903,
+    "sha256": "d501367179282778d84a98043a6b2e24d2e97573dc3403f0991c8e793fe0ff9c",
+    "manifestSha256": "090f53889e8bd28ff06eaef2099522322ec6d7fcc86b173eb3e4fb5397033b1c"
   }
 }
