@@ -1,0 +1,39 @@
+{
+  "schema": "iman-material-audio-v1",
+  "playerBase": "https://blaghtayt-alt.github.io/iman-companion/listen/",
+  "entries": [
+    {
+      "materialId": "new-seerah001",
+      "collection": "seerah",
+      "language": "ar",
+      "title": "من عام الفيل إلى طفولة النبي ﷺ",
+      "sourceSHA256": "5db0e71443293cb99af87231dd0cecbdaefa2e737cafa0b1a2479140e5318782",
+      "audioSHA256": "d9c65794bab88cc55d8bec74493e0db1c76ac7e7e5e443587768fd1a3205d4aa",
+      "audioBytes": 15970941,
+      "approved": true,
+      "status": "published",
+      "audioUrl": "https://github.com/blaghtayt-alt/iman-companion/releases/download/material-audio-v1/seerah-ar-001-d9c65794bab88cc5.opus",
+      "origin": {
+        "approvedAppRecord": {
+          "chapterId": "new-adult-seerah-ar-01-5db0e71443293cb9",
+          "locale": "ar",
+          "sourceSHA256": "5db0e71443293cb99af87231dd0cecbdaefa2e737cafa0b1a2479140e5318782",
+          "approved": true,
+          "audioSHA256": "d9c65794bab88cc55d8bec74493e0db1c76ac7e7e5e443587768fd1a3205d4aa",
+          "asset": "assets/learning/audio/seerah-new-adult/ar/chapter-01-5db0e71443293cb9.opus",
+          "packKey": "ar-seerah",
+          "packVersion": "fd55a573d99892e97d5a",
+          "packManifestSHA256": "090f53889e8bd28ff06eaef2099522322ec6d7fcc86b173eb3e4fb5397033b1c"
+        },
+        "packSHA256": "d501367179282778d84a98043a6b2e24d2e97573dc3403f0991c8e793fe0ff9c",
+        "packUrl": "https://github.com/blaghtayt-alt/iman-companion/releases/download/language-packs-2026-10-24-alp-pages-10-19/iman-ar-seerah-fd55a573d99892e97d5a.zip"
+      },
+      "readingSHA256": "6a17792fca0d62b3e675dbb70bb4bbc773677976bd0115d67528e366d39f91f0",
+      "publishedSourceBinding": {
+        "path": "materials/seerah/new-adult/ar/index.json",
+        "sha256": "7306bb63dea06bb5f26b973bf520f2ee218084511792e4cca9751d46252f0ab6"
+      },
+      "reviewScope": "Human checked selected partial-verse transitions; no full human listening of the entire chapter is recorded."
+    }
+  ]
+}
