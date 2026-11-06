@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # 我们盼来的，也可能是考验
 
 人有时盼望摆脱困境，盼望生计宽裕，或盼望多年的心愿终于实现，以为得到这些，考验就会结束。可是，我们热切期待的事物，也可能带来一种尚未准备好面对的考验：顺境的考验。苦难可能过去，感恩、坚守和履行应尽义务的另一场考验却随之开始；长久等待之后得到的东西，会成为一份托付；我们将为是否尽到相关责任受到询问。

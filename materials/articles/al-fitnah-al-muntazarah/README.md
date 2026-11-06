@@ -1,6 +1,9 @@
 # Article: the trial in what we await
 
-One supplied Arabic article and its complete translations in 19 other languages, with the selected source material.
+> **Historical edition:** This standalone article was merged into [the current Arabic article 26](../prepared-ar/26.md). The translations below are historical translations of the earlier standalone text; they are not translations of the merged article.
+
+
+The earlier standalone Arabic article and its historical translations in 19 other languages, with their selected source material.
 
 The Arabic display title was amended by the user; the original source title and original paragraphs remain in the source JSON. The foreign titles and translations retain their individually reviewed forms.
 
@@ -10,7 +13,7 @@ Independent review here is not a claim of formal human or scholarly certificatio
 
 [Machine-readable article catalog](catalog.json)
 
-## Available readings
+## Historical readings
 
 - **ar**: [الفتنة التي نفرح بقدومها](ar/reading.md) · [JSON](ar/source.json)
 

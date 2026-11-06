@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # L’épreuve que peut cacher le soulagement
 
 On peut attendre qu’un soulagement dissipe nos difficultés, espérer une plus grande aisance matérielle ou la réalisation d’un souhait longtemps caressé, et penser qu’une fois ce but atteint, l’épreuve sera terminée. Pourtant, ce que nous attendons avec impatience peut nous réserver une épreuve à laquelle nous ne nous sommes pas préparés : celle de l’aisance. La difficulté peut prendre fin et laisser place à une autre épreuve, qui met en jeu notre reconnaissance, notre constance et l’accomplissement de nos devoirs. Ce qui nous est accordé après une longue attente devient alors un dépôt dont nous aurons à rendre compte.

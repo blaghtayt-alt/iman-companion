@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # La prueba en aquello que anhelamos
 
 Una persona puede esperar un alivio que ponga fin a su angustia, una mayor holgura económica o el cumplimiento de un deseo largamente acariciado, y pensar que alcanzarlo pondrá fin a su prueba. Pero aquello que esperamos con ansia puede traer una prueba para la que no nos hemos preparado: la del bienestar. La dificultad puede terminar y dar paso a otra prueba de gratitud, firmeza y cumplimiento de los derechos; lo que recibimos tras una larga espera se convierte en algo que se nos ha confiado y por cuyo debido cuidado tendremos que responder.

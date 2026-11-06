@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # Kutilgan yengillik ham sinov bo‘lishi mumkin
 
 Inson ba’zan tangligini ketkazadigan yengillikni, rizqi kengayishini yoki uzoq kutgan orzusi ushalishini kutadi. Bunga erishsa, sinovi tugaydi, deb o‘ylaydi. Ammo biz intiqlik bilan kutayotgan narsa o‘zi bilan biz tayyor bo‘lmagan sinovni ham olib kelishi mumkin: farovonlik sinovini. Qiyinchilik tugab, shukr qilish, sobit turish va haqlarni ado etish borasida boshqa bir sinov boshlanishi mumkin. Uzoq kutganimizdan keyin berilgan narsa omonatga aylanadi va uning haqqini qanday ado etganimiz haqida so‘ralamiz.

@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # Ujian di Sebalik Kelegaan yang Dinanti
 
 Ada kalanya seseorang menantikan kelegaan yang menghilangkan kesusahannya, rezeki yang lebih lapang, atau hajat yang sudah lama diharapkan menjadi kenyataan. Dia menyangka bahawa apabila memperolehnya, berakhirlah ujiannya. Namun, perkara yang kita nantikan dengan penuh kerinduan boleh membawa suatu ujian sedangkan kita belum bersedia: ujian kesenangan. Kesusahan boleh berakhir, lalu bermula pula ujian dalam bersyukur, berpegang teguh dan menunaikan hak. Apa yang dikurniakan setelah sekian lama dinanti menjadi amanah, dan kita akan ditanya tentang penunaian haknya.

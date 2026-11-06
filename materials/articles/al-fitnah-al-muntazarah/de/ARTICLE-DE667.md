@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # Die Prüfung im Ersehnten
 
 Ein Mensch wartet vielleicht auf Erleichterung, die seine Bedrängnis beendet, auf einen reichlicheren Lebensunterhalt oder auf die Erfüllung eines lange gehegten Wunsches und glaubt, damit werde seine Prüfung zu Ende sein. Doch was wir sehnsüchtig erwarten, kann eine Prüfung mit sich bringen, auf die wir nicht vorbereitet sind: die Prüfung durch Wohlergehen. So kann die Not enden und eine andere Prüfung beginnen: dankbar und standhaft zu bleiben und die bestehenden Rechte zu wahren; was uns nach langem Warten gegeben wird, ist uns anvertraut, und wir müssen über die Erfüllung der damit verbundenen Pflichten Rechenschaft ablegen.

@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # Điều mong đợi cũng có thể là thử thách
 
 Có khi con người mong khó khăn qua đi, mong sinh kế dư dả hơn hoặc một ước nguyện ấp ủ từ lâu thành hiện thực, rồi cho rằng đạt được điều ấy là kết thúc thử thách của mình. Nhưng điều ta tha thiết chờ đợi có thể mang đến một thử thách mà ta chưa chuẩn bị để đối mặt: thử thách trong thuận cảnh. Gian khó có thể chấm dứt, rồi một thử thách khác bắt đầu, đòi hỏi lòng biết ơn, sự kiên định và việc làm tròn bổn phận. Những gì được ban sau một thời gian dài chờ đợi trở thành điều được giao phó cho chúng ta, và chúng ta sẽ được hỏi đã làm tròn trách nhiệm với nó ra sao.

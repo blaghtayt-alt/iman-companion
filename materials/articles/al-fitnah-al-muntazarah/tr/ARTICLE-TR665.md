@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # Beklenen Ferahlığın Ardındaki İmtihan
 
 İnsan, sıkıntısını giderecek bir ferahlığı, rızkının genişlemesini ya da uzun zamandır umut ettiği bir dileğinin gerçekleşmesini bekleyebilir; beklediğine kavuştuğunda imtihanının da biteceğini düşünebilir. Oysa özlemle beklediğimiz şey, hazırlıklı olmadığımız bir sınavı beraberinde getirebilir: rahatlıkla sınanma. Sıkıntı sona ererken şükür, sebat ve hakları gözetme konusunda yeni bir imtihan başlayabilir. Uzun bir bekleyişin ardından bize verilen şey, hakkını yerine getirip getirmediğimizin sorulacağı bir emanete dönüşür.

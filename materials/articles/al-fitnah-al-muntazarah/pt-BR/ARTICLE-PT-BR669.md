@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # O alívio esperado também pode ser uma provação
 
 Uma pessoa pode esperar um alívio que ponha fim à sua aflição, mais fartura no sustento ou a realização de um desejo antigo, imaginando que, ao conseguir isso, sua provação terá terminado. Mas aquilo que tanto esperamos pode trazer uma prova para a qual não nos preparamos: a prova do bem-estar. A dificuldade pode passar e dar lugar a outra provação, agora na gratidão, na firmeza e no cumprimento de nossos deveres. O que recebemos depois de uma longa espera passa a ser algo confiado a nós, e responderemos pela maneira como cumprimos os deveres que isso envolve.

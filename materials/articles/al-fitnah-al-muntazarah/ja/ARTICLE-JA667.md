@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # 待ち望むものにひそむ試練
 
 苦しみを取り去る救い、糧が豊かに与えられること、長く願ってきた望みの実現を待ち、これさえかなえば試練は終わると思うことがあります。しかし、心待ちにしているものが、備えていなかった試練を伴うこともあります。安楽の中で受ける試練です。苦難が去った後に、感謝し、信念を貫き、義務を果たすという別の試練が始まることがあります。長く待って与えられたものは、果たすべき務めについて問われる預かりものとなるのです。

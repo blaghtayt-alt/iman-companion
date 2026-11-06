@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # Maaari ring maging pagsubok ang inaasam na ginhawa
 
 Kung minsan, naghihintay ang tao ng ginhawang mag-aalis ng kanyang hirap, ng mas maluwag na kabuhayan, o ng katuparan ng matagal na niyang minimithi. Iniisip niyang kapag nakamit niya iyon, matatapos na ang kanyang pagsubok. Ngunit ang sabik nating hinihintay ay maaaring may dalang pagsubok na hindi natin napaghandaan: ang pagsubok sa kaginhawahan. Maaaring matapos ang hirap at magsimula ang panibagong pagsubok sa pasasalamat, katatagan at pagtupad sa mga tungkulin. Ang anumang ibinigay matapos ang mahabang paghihintay ay ipinagkatiwala sa atin, at tatanungin tayo kung paano natin tinupad ang mga pananagutang kaugnay nito.

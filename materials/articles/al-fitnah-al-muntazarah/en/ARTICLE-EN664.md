@@ -1,3 +1,5 @@
+> **Historical edition:** This earlier standalone text was merged into [the current Arabic article 26](../../prepared-ar/26.md). A current translation of the merged article is not published here.
+
 # The Trial We Await
 
 Someone may long for relief from distress, more generous provision, or the fulfilment of a wish they have long hoped for, imagining that attaining it will end their trial. Yet what we eagerly await may bring a test we are unprepared for: the trial of ease. Hardship may pass, only for another test to begin—in gratitude, steadfastness and fulfilling our obligations. What we receive after a long wait becomes a trust whose duties we will be called to account for.
