@@ -1,0 +1,29 @@
+name: Publish Indonesian An-Nas hold pack
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - language-packs/annas-indonesian-hold.json
+      - language-packs/publish-annas-id-hold.py
+      - .github/workflows/publish-annas-id-hold.yml
+permissions:
+  contents: write
+concurrency:
+  group: publish-annas-id-hold
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and verify the clean successor
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python language-packs/publish-annas-id-hold.py --root .
+      - name: Record status
+        run: echo 'Verified pack uploaded; catalog activation is separate.'
