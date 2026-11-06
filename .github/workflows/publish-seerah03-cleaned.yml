@@ -1,0 +1,21 @@
+name: Publish cleaned Seerah 03 audio
+on:
+  push:
+    branches:
+      - delivery/seerah03-cleaned-8edbb86d-20261106
+permissions:
+  contents: write
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download and verify the approved package
+        env:
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          curl --fail --silent --show-error --location "https://raw.githubusercontent.com/blaghtayt-alt/iman-companion/${COMMIT_SHA}/delivery/seerah03-cleaned/iman-ar-seerah-03-8edbb86d718dbd7f9317.zip" --output "iman-ar-seerah-03-8edbb86d718dbd7f9317.zip"
+          echo '8a17b7b722cdcfea1c9492b53ea079c2b66d154be643f8b11fe8b46781f0337e  iman-ar-seerah-03-8edbb86d718dbd7f9317.zip' | sha256sum --check
+      - name: Add the package to the existing language-pack release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload language-packs-2026-10-24-alp-pages-10-19 "iman-ar-seerah-03-8edbb86d718dbd7f9317.zip" --repo blaghtayt-alt/iman-companion
