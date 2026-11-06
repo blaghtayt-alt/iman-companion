@@ -1,0 +1,29 @@
+name: Publish accepted Arabic children Hadith pilot pack
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - language-packs/jibril-human-pilot-ar.json
+      - language-packs/publish-jibril-ar-pack.py
+      - .github/workflows/publish-jibril-ar-pack.yml
+permissions:
+  contents: write
+concurrency:
+  group: publish-jibril-ar-pack
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build, verify and publish the exact tested successor
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python language-packs/publish-jibril-ar-pack.py --root .
+      - name: Record status
+        run: echo 'Verified pack uploaded; catalog activation is a separate guarded operation.'
