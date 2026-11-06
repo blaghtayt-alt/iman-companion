@@ -1,0 +1,19 @@
+name: Validate book download tooling
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: ["books/**", "tests/test_download_tables.py", "test-fixtures/**", ".github/workflows/build-word-books.yml"]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r books/requirements.txt
+      - run: python tests/test_download_tables.py
+# Book production and publication remain disabled until current source-bound
+# units, pinned release assets, Linux rendering, and per-book review are complete.

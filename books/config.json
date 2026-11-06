@@ -1,0 +1,1069 @@
+{
+  "schema": "iman-book-config-v1",
+  "fonts": {
+    "Latin": {
+      "family": "Iman Book Inter",
+      "files": {
+        "Regular": "books/assets/fonts/Inter-Regular.ttf",
+        "Bold": "books/assets/fonts/Inter-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "4bc32cf003b583136af51b21d12aa1e76fef3ea3fb95ab0ce9d72fc65f27244a",
+        "Bold": "5a0d8f3980cf000e5a506afadfa07d6b1f3aa4fa422898ae2fe242701b1a0d6c"
+      }
+    },
+    "Arabic": {
+      "family": "Iman Book Naskh",
+      "files": {
+        "Regular": "books/assets/fonts/Naskh-Regular.ttf",
+        "Bold": "books/assets/fonts/Naskh-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "3d3fb70068126b6da1ee5f96aa1f480384efafdd5e261089fe0082ec7d6bfec3",
+        "Bold": "dbe8a0eef7feec310c2d97c45307313138718e9d03904994aa99bbba22c996be"
+      }
+    },
+    "ArabicBody": {
+      "family": "Iman Book Arabic",
+      "files": {
+        "Regular": "books/assets/fonts/Arabic-Regular.ttf",
+        "Bold": "books/assets/fonts/Arabic-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "d2207abb3fc1dfd10f193b47ccc31faf714225bc73273b3256d0e5e718229129",
+        "Bold": "2fb021963bf40587e11096b5482c54d2935b33f1c92bb16814c1c0305ec4e75f"
+      }
+    },
+    "Urdu": {
+      "family": "Iman Book Urdu",
+      "files": {
+        "Regular": "books/assets/fonts/Urdu-Regular.ttf",
+        "Bold": "books/assets/fonts/Urdu-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "97ae471252d673c9ec4b7a121d70d96a667b9e98822090bcb085c98f7dcbf3d2",
+        "Bold": "12029994e24bb24ba2603b4fbe23f316599f70a4a028e5b3a93de1797aaf4299"
+      }
+    },
+    "Persian": {
+      "family": "Iman Book Persian",
+      "files": {
+        "Regular": "books/assets/fonts/Persian-Regular.ttf",
+        "Bold": "books/assets/fonts/Persian-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "5d67531bb046fb9bab7bcac285feec51d7e379babd99effe8c6059bcddc1f9cf",
+        "Bold": "2682ddeb816f24d2d0b658b3497603836ae2ef9c70d2126b5a27e557eb901417"
+      }
+    },
+    "Bengali": {
+      "family": "Iman Book Bengali",
+      "files": {
+        "Regular": "books/assets/fonts/Bengali-Regular.ttf",
+        "Bold": "books/assets/fonts/Bengali-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "30cdfaa834afea3e38022b2ca264c9613078382ec6e76fe071c4a35a65fee2cb",
+        "Bold": "21e52335096c72f9b93f1e85236089644c437dace7d820f318a08653896990c2"
+      }
+    },
+    "Hindi": {
+      "family": "Iman Book Hindi",
+      "files": {
+        "Regular": "books/assets/fonts/Hindi-Regular.ttf",
+        "Bold": "books/assets/fonts/Hindi-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "e661f7169d4ba8f1d17595c51bcda52f4c0f4535a441ef1efe0c3c8ebf243f19",
+        "Bold": "29d44f78917a5b3368a3935414548b4445bb3531fa53e114f1d0112553581641"
+      }
+    },
+    "Chinese": {
+      "family": "Iman Book Chinese",
+      "files": {
+        "Regular": "books/assets/fonts/Chinese-Regular.ttf",
+        "Bold": "books/assets/fonts/Chinese-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "3584419b1ce51ca41d37211c287b81f03e68ecacc98d28f3c232b77602914411",
+        "Bold": "17ff6f0365e10e639bdc0cecb137179bbf82c6e62e881f990b08830d0d2c9892"
+      }
+    },
+    "Japanese": {
+      "family": "Iman Book Japanese",
+      "files": {
+        "Regular": "books/assets/fonts/Japanese-Regular.ttf",
+        "Bold": "books/assets/fonts/Japanese-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "a078a6fdc15872b63c7cc0b3fba43596d627a39a2ac64ce2b7f8caf462409961",
+        "Bold": "fa39f7bc32812c874906e2bfe332be2f033c1dd1c0ca2d80ac8499cf8a918658"
+      }
+    },
+    "Thai": {
+      "family": "Iman Book Thai",
+      "files": {
+        "Regular": "books/assets/fonts/Thai-Regular.ttf",
+        "Bold": "books/assets/fonts/Thai-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "1a7aecba89f58671f0272f44fe3ca69969364061087277062360d99a6de0f2e4",
+        "Bold": "4c118eee3c171f6ef4d305106b2e0764a6ee9d3b20745f2be9bd99f0ef2bf2f6"
+      }
+    },
+    "Vietnamese": {
+      "family": "Iman Book Vietnamese",
+      "files": {
+        "Regular": "books/assets/fonts/Vietnamese-Regular.ttf",
+        "Bold": "books/assets/fonts/Vietnamese-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "12b55b017d7a69e52643a88b225197f1026271acfe4e86e723721598fe8e4adf",
+        "Bold": "83f64ddc07390865cdfb1a28c80032422b92f0e73f73645943ac6ae145a3be04"
+      }
+    }
+  },
+  "languages": {
+    "en": {
+      "label": "English",
+      "brand": "Iman Companion",
+      "font": "Latin",
+      "contents": "Contents",
+      "hadithLabel": "Hadith",
+      "titles": {
+        "tadabbur-extended": "Quran Reflection",
+        "seerah": "Seerah",
+        "hadith": "Hadith",
+        "articles": "Articles",
+        "combined": "Iman Companion"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/en/Quran_Cover_en_refined_v5_native.png",
+        "seerah": "books/assets/covers/en/Seerah_Cover_en_refined_v5_native.png",
+        "hadith": "books/assets/covers/en/Hadith_Cover_en_refined_v5_native.png",
+        "articles": "books/assets/covers/en/Articles_Cover_en_refined_v5_native.png",
+        "combined": "books/assets/covers/en/Quran_Cover_en_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "3227f77d8ee4549f18f5557f6d9451a67891a68c05c0cdf7c2ffd8a30098f9b6",
+        "seerah": "8cd81f5346fb6c6a329c3aeede4494bab3e9782fb5d6aadcf222e44650760667",
+        "hadith": "39c9ec158567ebca4ceb37dec63103b13fa4599e623ee79be5c14ed1be547cd0",
+        "articles": "f03a173a7c97cef5319b5eeaadef76c96157b165893d00fb8dd5640c3e2e09ce",
+        "combined": "3227f77d8ee4549f18f5557f6d9451a67891a68c05c0cdf7c2ffd8a30098f9b6"
+      },
+      "nativeName": "English",
+      "surahLabel": "Surah",
+      "ayahLabel": "Ayah",
+      "creditsTitle": "Translation and edition credits",
+      "notice": "AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.",
+      "hadithBooks": {
+        "bukhari": "Sahih al-Bukhari",
+        "muslim": "Sahih Muslim",
+        "ahmad": "Musnad Ahmad",
+        "abudawud": "Sunan Abi Dawud",
+        "tirmidhi": "Jami al-Tirmidhi",
+        "nasai": "Sunan al-Nasai",
+        "ibnmajah": "Sunan Ibn Majah",
+        "ibnhibban": "Sahih Ibn Hibban",
+        "malik": "Al-Muwatta of Malik"
+      }
+    },
+    "ar": {
+      "label": "العربية",
+      "brand": "رفيق الإيمان",
+      "font": "ArabicBody",
+      "contents": "المحتويات",
+      "hadithLabel": "الحديث",
+      "titles": {
+        "tadabbur-extended": "تدبر القرآن",
+        "seerah": "السيرة",
+        "hadith": "الحديث",
+        "articles": "مقالات",
+        "combined": "رفيق الإيمان"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/ar/Quran_Cover_ar_refined_v5_native.png",
+        "seerah": "books/assets/covers/ar/Seerah_Cover_ar_refined_v5_native.png",
+        "hadith": "books/assets/covers/ar/Hadith_Cover_ar_refined_v5_native.png",
+        "articles": "books/assets/covers/ar/Articles_Cover_ar_refined_v5_native.png",
+        "combined": "books/assets/covers/ar/Quran_Cover_ar_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "847cd3472571642207fe8f901cca0ece4d43192d6f5ef98e561641d01eb7cc28",
+        "seerah": "0dff885c2bc369bcd59fae1d3a38081880d75c3cfe0d0c972fdf96f0962c9497",
+        "hadith": "b6a19349c6e0ecfe7c2fe02540294ad571052935e497f45592a4dcaf926bb823",
+        "articles": "093af36bb1698014ef83b0bf2c8b5725a65a735dd776e62280b35e014a34ed6c",
+        "combined": "847cd3472571642207fe8f901cca0ece4d43192d6f5ef98e561641d01eb7cc28"
+      },
+      "nativeName": "العربية",
+      "surahLabel": "سورة",
+      "ayahLabel": "آية",
+      "creditsTitle": "مصادر الترجمة والنقول",
+      "notice": "",
+      "hadithBooks": {
+        "bukhari": "صحيح البخاري",
+        "muslim": "صحيح مسلم",
+        "ahmad": "مسند أحمد",
+        "abudawud": "سنن أبي داود",
+        "tirmidhi": "جامع الترمذي",
+        "nasai": "سنن النسائي",
+        "ibnmajah": "سنن ابن ماجه",
+        "ibnhibban": "صحيح ابن حبان",
+        "malik": "موطأ مالك"
+      }
+    },
+    "ur": {
+      "label": "اردو",
+      "brand": "ایمان کا ساتھی",
+      "font": "Urdu",
+      "contents": "فہرست مضامین",
+      "hadithLabel": "حدیث",
+      "titles": {
+        "tadabbur-extended": "تدبرِ قرآن",
+        "seerah": "سیرت",
+        "hadith": "حدیث",
+        "articles": "مضامین",
+        "combined": "ایمانی مطالعہ — مجموعہ"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/ur/Quran_Cover_ur_refined_v5_native.png",
+        "seerah": "books/assets/covers/ur/Seerah_Cover_ur_refined_v5_native.png",
+        "hadith": "books/assets/covers/ur/Hadith_Cover_ur_refined_v5_native.png",
+        "articles": "books/assets/covers/ur/Articles_Cover_ur_refined_v5_native.png",
+        "combined": "books/assets/covers/ur/Quran_Cover_ur_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "81bf03db9f4377cd790e346f3768ad078753472c8dd5897fbc54f3eb0c4cdf71",
+        "seerah": "8333307f6fc0cc368789f3f19ba2d00939ac80c0065834ab8d8eac11b3a3bcd8",
+        "hadith": "224d1fa655d87d0bd2650a2a04aaa80095e15992e410933865732bd9e90260f2",
+        "articles": "f9d7a0e6e7cb1c65e361e499a674b7f4d609d940077784533f9eee34f2bf40de",
+        "combined": "81bf03db9f4377cd790e346f3768ad078753472c8dd5897fbc54f3eb0c4cdf71"
+      },
+      "nativeName": "اردو",
+      "surahLabel": "سورۃ",
+      "ayahLabel": "آیت",
+      "creditsTitle": "تراجم اور اقتباسات کے مصادر",
+      "notice": "مصنوعی ذہانت کی مدد سے ترجمہ کیا گیا ہے؛ تصدیق درکار ہے۔ ماڈل کی مدد سے کی گئی جانچ کسی اہل قاری کے جائزے کا متبادل نہیں ہے۔",
+      "hadithBooks": {
+        "bukhari": "صحیح بخاری",
+        "muslim": "صحیح مسلم",
+        "ahmad": "مسند احمد",
+        "abudawud": "سنن ابی داود",
+        "tirmidhi": "جامع ترمذی",
+        "nasai": "سنن نسائی",
+        "ibnmajah": "سنن ابن ماجہ",
+        "ibnhibban": "صحیح ابن حبان",
+        "malik": "موطأ امام مالک"
+      }
+    },
+    "id": {
+      "label": "Bahasa Indonesia",
+      "brand": "Sahabat Iman",
+      "font": "Latin",
+      "contents": "Daftar Isi",
+      "hadithLabel": "Hadis",
+      "titles": {
+        "tadabbur-extended": "Tadabur Al-Qur’an",
+        "seerah": "Sirah",
+        "hadith": "Hadis",
+        "articles": "Artikel",
+        "combined": "Sahabat Iman"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/id/Quran_Cover_id_refined_v5_native.png",
+        "seerah": "books/assets/covers/id/Seerah_Cover_id_refined_v5_native.png",
+        "hadith": "books/assets/covers/id/Hadith_Cover_id_refined_v5_native.png",
+        "articles": "books/assets/covers/id/Articles_Cover_id_refined_v5_native.png",
+        "combined": "books/assets/covers/id/Quran_Cover_id_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "e04e8f97e2b29dd46840332e5ef050170ed038ba33414de7eee305a8fb05c830",
+        "seerah": "7bff9d1705f4b6cf259d1c783d3377afa4e4e2a3b0f397f9853d4aec244b0947",
+        "hadith": "586f96144133de680d1b27193ee6db54508c924477eeced5aae528e5b923c55f",
+        "articles": "f4a651b42c9ae31df0e23c4d9fef0a09dbbd3937dc18bf5d4314f2cf3a3a805c",
+        "combined": "e04e8f97e2b29dd46840332e5ef050170ed038ba33414de7eee305a8fb05c830"
+      },
+      "nativeName": "Bahasa Indonesia",
+      "surahLabel": "Surah",
+      "ayahLabel": "Ayat",
+      "creditsTitle": "Kredit terjemahan dan edisi",
+      "notice": "Diterjemahkan dengan bantuan kecerdasan buatan dan perlu diverifikasi. Pemeriksaan berbantuan model tidak menggantikan peninjauan oleh pembaca yang berkompeten.",
+      "hadithBooks": {
+        "bukhari": "Sahih al-Bukhari",
+        "muslim": "Sahih Muslim",
+        "ahmad": "Musnad Ahmad",
+        "abudawud": "Sunan Abu Dawud",
+        "tirmidhi": "Jami al-Tirmidzi",
+        "nasai": "Sunan al-Nasai",
+        "ibnmajah": "Sunan Ibnu Majah",
+        "ibnhibban": "Sahih Ibnu Hibban",
+        "malik": "Al-Muwatta Imam Malik"
+      }
+    },
+    "ms": {
+      "label": "Bahasa Melayu",
+      "brand": "Sahabat Iman",
+      "font": "Latin",
+      "contents": "Isi Kandungan",
+      "hadithLabel": "Hadis",
+      "titles": {
+        "tadabbur-extended": "Tadabbur Al-Quran",
+        "seerah": "Sirah",
+        "hadith": "Hadis",
+        "articles": "Artikel",
+        "combined": "Sahabat Iman"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/ms/Quran_Cover_ms_refined_v5_native.png",
+        "seerah": "books/assets/covers/ms/Seerah_Cover_ms_refined_v5_native.png",
+        "hadith": "books/assets/covers/ms/Hadith_Cover_ms_refined_v5_native.png",
+        "articles": "books/assets/covers/ms/Articles_Cover_ms_refined_v5_native.png",
+        "combined": "books/assets/covers/ms/Quran_Cover_ms_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "09347c29438456132ee621865baaf4980004b52feccc89dde60555e507382adb",
+        "seerah": "52af4a0228687c5189cbe47ff6d8259c8e77530aa169a980e6cee98218a7425f",
+        "hadith": "b9f7ea7111208a288b1be9c5d585ef8779143403b9710f532516855c37bd735b",
+        "articles": "f4a651b42c9ae31df0e23c4d9fef0a09dbbd3937dc18bf5d4314f2cf3a3a805c",
+        "combined": "09347c29438456132ee621865baaf4980004b52feccc89dde60555e507382adb"
+      },
+      "nativeName": "Bahasa Melayu",
+      "surahLabel": "Surah",
+      "ayahLabel": "Ayat",
+      "creditsTitle": "Sumber terjemahan dan edisi",
+      "notice": "Terjemahan dengan bantuan kecerdasan buatan — perlu disahkan. Semakan berbantukan model bukan pengganti semakan oleh pembaca yang berkelayakan.",
+      "hadithBooks": {
+        "bukhari": "Sahih al-Bukhari",
+        "muslim": "Sahih Muslim",
+        "ahmad": "Musnad Ahmad",
+        "abudawud": "Sunan Abu Dawud",
+        "tirmidhi": "Jami al-Tirmizi",
+        "nasai": "Sunan al-Nasai",
+        "ibnmajah": "Sunan Ibn Majah",
+        "ibnhibban": "Sahih Ibn Hibban",
+        "malik": "Al-Muwatta Imam Malik"
+      }
+    },
+    "bn": {
+      "label": "বাংলা",
+      "brand": "ঈমানের সাথী",
+      "font": "Bengali",
+      "contents": "সূচিপত্র",
+      "hadithLabel": "হাদিস",
+      "titles": {
+        "tadabbur-extended": "কুরআনের তাদাব্বুর",
+        "seerah": "সীরাত",
+        "hadith": "হাদিস",
+        "articles": "প্রবন্ধ",
+        "combined": "ঈমানের সাথী"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/bn/Quran_Cover_bn_refined_v5_native.png",
+        "seerah": "books/assets/covers/bn/Seerah_Cover_bn_refined_v5_native.png",
+        "hadith": "books/assets/covers/bn/Hadith_Cover_bn_refined_v5_native.png",
+        "articles": "books/assets/covers/bn/Articles_Cover_bn_refined_v5_native.png",
+        "combined": "books/assets/covers/bn/Quran_Cover_bn_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "d0de54de992563f0e383a1ade3658c3c0972fae5c2b32c308706c2df1804df82",
+        "seerah": "349caf5d28c9f8291f6001e4752e899e49f70209e9b757d52c45219c071ab2bd",
+        "hadith": "629357be72c903e6bca80da342d6fe9a767c48f157cd296b61a8096617e4fb42",
+        "articles": "53bbdf791ac7dcd9948b947082db5b6b2db00f3889630f486522f0de5096823f",
+        "combined": "d0de54de992563f0e383a1ade3658c3c0972fae5c2b32c308706c2df1804df82"
+      },
+      "nativeName": "বাংলা",
+      "surahLabel": "সূরা",
+      "ayahLabel": "আয়াত",
+      "creditsTitle": "অনুবাদ ও উদ্ধৃতির উৎস",
+      "notice": "কৃত্রিম বুদ্ধিমত্তার সহায়তায় অনূদিত — যাচাই প্রয়োজন। মডেলের সাহায্যে করা পরীক্ষা কোনো যোগ্য পাঠকের পর্যালোচনার বিকল্প নয়।",
+      "hadithBooks": {
+        "bukhari": "সহিহ বুখারি",
+        "muslim": "সহিহ মুসলিম",
+        "ahmad": "মুসনাদ আহমাদ",
+        "abudawud": "সুনান আবু দাউদ",
+        "tirmidhi": "জামি তিরমিজি",
+        "nasai": "সুনান নাসাঈ",
+        "ibnmajah": "সুনান ইবনে মাজাহ",
+        "ibnhibban": "সহিহ ইবনে হিব্বান",
+        "malik": "মুয়াত্তা ইমাম মালিক"
+      }
+    },
+    "tr": {
+      "label": "Türkçe",
+      "brand": "İman Yoldaşı",
+      "font": "Latin",
+      "contents": "İçindekiler",
+      "hadithLabel": "Hadis",
+      "titles": {
+        "tadabbur-extended": "Kur’an Üzerine Tefekkür",
+        "seerah": "Siyer",
+        "hadith": "Hadis",
+        "articles": "Makaleler",
+        "combined": "İman Yoldaşı"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/tr/Quran_Cover_tr_refined_v5_native.png",
+        "seerah": "books/assets/covers/tr/Seerah_Cover_tr_refined_v5_native.png",
+        "hadith": "books/assets/covers/tr/Hadith_Cover_tr_refined_v5_native.png",
+        "articles": "books/assets/covers/tr/Articles_Cover_tr_refined_v5_native.png",
+        "combined": "books/assets/covers/tr/Quran_Cover_tr_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "d5f1ddb0a0e09404ed55ce5b53481ef10fae5d3c860b67d1bf53588dad829e45",
+        "seerah": "45cfef36b99a426656569845981402229cfe5b2af539c0cdb4dacf53c93d0414",
+        "hadith": "72b3a319992d6e819d466aafdb11fbcbdabb19a1e672f1b9c7839b94b28098ae",
+        "articles": "100d1fea85e21e0cc14d4bb70cbb1ed86ebe93d7cded919f826a54d1fc1ea408",
+        "combined": "d5f1ddb0a0e09404ed55ce5b53481ef10fae5d3c860b67d1bf53588dad829e45"
+      },
+      "nativeName": "Türkçe",
+      "surahLabel": "Sure",
+      "ayahLabel": "Ayet",
+      "creditsTitle": "Çeviri ve baskı kaynakları",
+      "notice": "Yapay zekâ yardımıyla çevrilmiştir; doğrulanması gerekir. Model destekli kontroller, yetkin bir okuyucunun incelemesinin yerini tutmaz.",
+      "hadithBooks": {
+        "bukhari": "Sahih-i Buhârî",
+        "muslim": "Sahih-i Müslim",
+        "ahmad": "Ahmed b. Hanbel’in Müsned’i",
+        "abudawud": "Sünen-i Ebû Dâvûd",
+        "tirmidhi": "Tirmizî’nin Câmi‘i",
+        "nasai": "Sünen-i Nesâî",
+        "ibnmajah": "Sünen-i İbn Mâce",
+        "ibnhibban": "Sahih-i İbn Hibbân",
+        "malik": "İmam Mâlik’in Muvatta’ı"
+      }
+    },
+    "fr": {
+      "label": "Français",
+      "brand": "Compagnon de la Foi",
+      "font": "Latin",
+      "contents": "Sommaire",
+      "hadithLabel": "Hadith",
+      "titles": {
+        "tadabbur-extended": "Réflexion sur le Coran",
+        "seerah": "Sîra",
+        "hadith": "Hadith",
+        "articles": "Articles",
+        "combined": "Compagnon de la Foi"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/fr/Quran_Cover_fr_refined_v5_native.png",
+        "seerah": "books/assets/covers/fr/Seerah_Cover_fr_refined_v5_native.png",
+        "hadith": "books/assets/covers/fr/Hadith_Cover_fr_refined_v5_native.png",
+        "articles": "books/assets/covers/fr/Articles_Cover_fr_refined_v5_native.png",
+        "combined": "books/assets/covers/fr/Quran_Cover_fr_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "73e60d76ba0838dfeecdc7e76a286c98132eb4b1df3458e354dacb8b78b853c4",
+        "seerah": "90af054fa87ff9dbef757c76efd59561348107a6e5a6427904497c3c0e048872",
+        "hadith": "a82bf3710df232386b77ec9bc09085f42b38aa567f08fdd43598fe011f7bb766",
+        "articles": "cfcec1d441a9dc080a8dc2b47abb8f32b5a23099a24b1c0ef546544a5c85d044",
+        "combined": "73e60d76ba0838dfeecdc7e76a286c98132eb4b1df3458e354dacb8b78b853c4"
+      },
+      "nativeName": "Français",
+      "surahLabel": "Sourate",
+      "ayahLabel": "verset",
+      "creditsTitle": "Sources des traductions et des éditions",
+      "notice": "Traduction réalisée avec l’aide de l’intelligence artificielle — à vérifier. Les contrôles assistés par un modèle ne remplacent pas la révision d’un lecteur qualifié.",
+      "hadithBooks": {
+        "bukhari": "Sahîh d’al-Boukhârî",
+        "muslim": "Sahîh de Mouslim",
+        "ahmad": "Mousnad d’Ahmad",
+        "abudawud": "Sounan d’Abou Dâwoud",
+        "tirmidhi": "Jâmi‘ d’at-Tirmidhî",
+        "nasai": "Sounan d’an-Nasâ’î",
+        "ibnmajah": "Sounan d’Ibn Mâjah",
+        "ibnhibban": "Sahîh d’Ibn Hibbân",
+        "malik": "Mouwatta de Mâlik"
+      }
+    },
+    "pt-BR": {
+      "label": "Português",
+      "brand": "Companheiro da Fé",
+      "font": "Latin",
+      "contents": "Sumário",
+      "hadithLabel": "Hadith",
+      "titles": {
+        "tadabbur-extended": "Reflexão sobre o Alcorão",
+        "seerah": "Sira",
+        "hadith": "Hadith",
+        "articles": "Artigos",
+        "combined": "Companheiro da Fé"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/pt-BR/Quran_Cover_pt-BR_refined_v5_native.png",
+        "seerah": "books/assets/covers/pt-BR/Seerah_Cover_pt-BR_refined_v5_native.png",
+        "hadith": "books/assets/covers/pt-BR/Hadith_Cover_pt-BR_refined_v5_native.png",
+        "articles": "books/assets/covers/pt-BR/Articles_Cover_pt-BR_refined_v5_native.png",
+        "combined": "books/assets/covers/pt-BR/Quran_Cover_pt-BR_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "aa8e4e69a00230dc4fe2f48d2131e3520ac451d07b3700311927ea39420cc797",
+        "seerah": "6ec1e04ac255149c2d283926af3802cef425444739cbb09317ea731f70bb6a40",
+        "hadith": "979c2e6e27cc3ebe7ea5c925d13cc06638b3af65ba19816be3c32514466ee237",
+        "articles": "7524ee2b46bd465d1740c5b3273952045d2be3e697f2c1f958f6f3a3f3f09fb2",
+        "combined": "aa8e4e69a00230dc4fe2f48d2131e3520ac451d07b3700311927ea39420cc797"
+      },
+      "nativeName": "Português",
+      "surahLabel": "Surata",
+      "ayahLabel": "versículo",
+      "creditsTitle": "Créditos das traduções e edições",
+      "notice": "Tradução com auxílio de inteligência artificial — requer verificação. As verificações assistidas por modelos não substituem a revisão por um leitor qualificado.",
+      "hadithBooks": {
+        "bukhari": "Sahih de al-Bukhari",
+        "muslim": "Sahih de Muslim",
+        "ahmad": "Musnad de Ahmad",
+        "abudawud": "Sunan de Abu Dawud",
+        "tirmidhi": "Jami de al-Tirmidhi",
+        "nasai": "Sunan de al-Nasai",
+        "ibnmajah": "Sunan de Ibn Majah",
+        "ibnhibban": "Sahih de Ibn Hibban",
+        "malik": "Al-Muwatta de Malik"
+      }
+    },
+    "hi": {
+      "label": "हिन्दी",
+      "brand": "ईमान का साथी",
+      "font": "Hindi",
+      "contents": "विषय-सूची",
+      "hadithLabel": "हदीस",
+      "titles": {
+        "tadabbur-extended": "क़ुरआन पर चिंतन",
+        "seerah": "सीरत",
+        "hadith": "हदीस",
+        "articles": "लेख",
+        "combined": "ईमान का साथी"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/hi/Quran_Cover_hi_refined_v5_native.png",
+        "seerah": "books/assets/covers/hi/Seerah_Cover_hi_refined_v5_native.png",
+        "hadith": "books/assets/covers/hi/Hadith_Cover_hi_refined_v5_native.png",
+        "articles": "books/assets/covers/hi/Articles_Cover_hi_refined_v5_native.png",
+        "combined": "books/assets/covers/hi/Quran_Cover_hi_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "8342f779d10c3815dbf5ea60ec55977192bed681220b4dacec70cdc1b26111fc",
+        "seerah": "bcf357617b9bbc61dffbe0146b88e11a343ca5aada3ceebc28d5e5484faf5bbe",
+        "hadith": "5a9c9c8c1f8dc16abb0d6716c75a225a84efc2fcaa31deb9c4853c25a3addec9",
+        "articles": "5483a21c34473c2506272f9077a136535ee961f22ba4877cf661aec35b19cc67",
+        "combined": "8342f779d10c3815dbf5ea60ec55977192bed681220b4dacec70cdc1b26111fc"
+      },
+      "nativeName": "हिन्दी",
+      "surahLabel": "सूरा",
+      "ayahLabel": "आयत",
+      "creditsTitle": "अनुवाद और उद्धरणों के स्रोत",
+      "notice": "कृत्रिम बुद्धिमत्ता की सहायता से अनूदित — सत्यापन आवश्यक है। मॉडल की सहायता से की गई जाँच किसी योग्य पाठक की समीक्षा का विकल्प नहीं है।",
+      "hadithBooks": {
+        "bukhari": "सहीह बुख़ारी",
+        "muslim": "सहीह मुस्लिम",
+        "ahmad": "मुस्नद अहमद",
+        "abudawud": "सुनन अबू दाऊद",
+        "tirmidhi": "जामि तिर्मिज़ी",
+        "nasai": "सुनन नसाई",
+        "ibnmajah": "सुनन इब्ने माजा",
+        "ibnhibban": "सहीह इब्ने हिब्बान",
+        "malik": "मुवत्ता इमाम मालिक"
+      }
+    },
+    "ru": {
+      "label": "Русский",
+      "brand": "Спутник веры",
+      "font": "Latin",
+      "contents": "Содержание",
+      "hadithLabel": "Хадис",
+      "titles": {
+        "tadabbur-extended": "Размышление над Кораном",
+        "seerah": "Сира",
+        "hadith": "Хадис",
+        "articles": "Статьи",
+        "combined": "Спутник веры"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/ru/Quran_Cover_ru_refined_v5_native.png",
+        "seerah": "books/assets/covers/ru/Seerah_Cover_ru_refined_v5_native.png",
+        "hadith": "books/assets/covers/ru/Hadith_Cover_ru_refined_v5_native.png",
+        "articles": "books/assets/covers/ru/Articles_Cover_ru_refined_v5_native.png",
+        "combined": "books/assets/covers/ru/Quran_Cover_ru_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "d43b2c5979610cb429c518f401ef4ce1c1909246d897025f5878a7d749eb9717",
+        "seerah": "ca30cac5390163671e2b4fc4c55ae82e1272a12b98143356022fb9bf7fb7bda8",
+        "hadith": "49c184bf3b016d7d6f9b50717b8f5b132dba59cef47ee3faa6a7af4db02c26f4",
+        "articles": "4088e37931e27c004609b71d33523729481fd6b82c4a7f1dc9386b0d7e110caa",
+        "combined": "d43b2c5979610cb429c518f401ef4ce1c1909246d897025f5878a7d749eb9717"
+      },
+      "nativeName": "Русский",
+      "surahLabel": "Сура",
+      "ayahLabel": "аят",
+      "creditsTitle": "Источники переводов и изданий",
+      "notice": "Переведено с помощью искусственного интеллекта — требуется проверка. Проверки с помощью модели не заменяют рецензию компетентного читателя.",
+      "hadithBooks": {
+        "bukhari": "Сахих аль-Бухари",
+        "muslim": "Сахих Муслима",
+        "ahmad": "Муснад Ахмада",
+        "abudawud": "Сунан Абу Дауда",
+        "tirmidhi": "Джами ат-Тирмизи",
+        "nasai": "Сунан ан-Насаи",
+        "ibnmajah": "Сунан Ибн Маджи",
+        "ibnhibban": "Сахих Ибн Хиббана",
+        "malik": "Аль-Муватта имама Малика"
+      }
+    },
+    "es": {
+      "label": "Español",
+      "brand": "Compañero de fe",
+      "font": "Latin",
+      "contents": "Índice",
+      "hadithLabel": "Hadiz",
+      "titles": {
+        "tadabbur-extended": "Reflexión sobre el Corán",
+        "seerah": "Sira",
+        "hadith": "Hadiz",
+        "articles": "Artículos",
+        "combined": "Compañero de fe"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/es/Quran_Cover_es_refined_v5_native.png",
+        "seerah": "books/assets/covers/es/Seerah_Cover_es_refined_v5_native.png",
+        "hadith": "books/assets/covers/es/Hadith_Cover_es_refined_v5_native.png",
+        "articles": "books/assets/covers/es/Articles_Cover_es_refined_v5_native.png",
+        "combined": "books/assets/covers/es/Quran_Cover_es_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "6ab6149d192b166c5f9c4d367446452957e25e14ce8437bf1a37a3193a51ec0b",
+        "seerah": "0e1899c61661f0b27a7752c512e748930d1596cc69d093fef31a9bc8b9679859",
+        "hadith": "1e67d123f2c16bb8c4983ef9707200e8b8826d75c0dfa6c2bb798875272c69b3",
+        "articles": "77d8071ad79448c5a1a753817c5ae5574bb0ec872a27260867dee1f10a81d302",
+        "combined": "6ab6149d192b166c5f9c4d367446452957e25e14ce8437bf1a37a3193a51ec0b"
+      },
+      "nativeName": "Español",
+      "surahLabel": "Sura",
+      "ayahLabel": "aleya",
+      "creditsTitle": "Fuentes de las traducciones y ediciones",
+      "notice": "Traducido con ayuda de inteligencia artificial; requiere verificación. Las comprobaciones asistidas por modelos no sustituyen la revisión de un lector cualificado.",
+      "hadithBooks": {
+        "bukhari": "Sahih de Al-Bujari",
+        "muslim": "Sahih de Muslim",
+        "ahmad": "Musnad de Ahmad",
+        "abudawud": "Sunan de Abu Daud",
+        "tirmidhi": "Yami de At-Tirmidhi",
+        "nasai": "Sunan de An-Nasai",
+        "ibnmajah": "Sunan de Ibn Mayah",
+        "ibnhibban": "Sahih de Ibn Hibban",
+        "malik": "Al-Muwatta de Malik"
+      }
+    },
+    "fa": {
+      "label": "فارسی",
+      "brand": "همراه ایمان",
+      "font": "Persian",
+      "contents": "فهرست",
+      "hadithLabel": "حدیث",
+      "titles": {
+        "tadabbur-extended": "تدبر در قرآن",
+        "seerah": "سیره",
+        "hadith": "حدیث",
+        "articles": "مقاله‌ها",
+        "combined": "همراه ایمان"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/fa/Quran_Cover_fa_refined_v5_native.png",
+        "seerah": "books/assets/covers/fa/Seerah_Cover_fa_refined_v5_native.png",
+        "hadith": "books/assets/covers/fa/Hadith_Cover_fa_refined_v5_native.png",
+        "articles": "books/assets/covers/fa/Articles_Cover_fa_refined_v5_native.png",
+        "combined": "books/assets/covers/fa/Quran_Cover_fa_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "652786d6a4c5b6e553d74bb77abd6b7093ca4fa23a9548266e792cb052336fe8",
+        "seerah": "4330fb22dcaa9663174ab683c505ca960af91b3f8f7d3ea53e4c5f730a3f8a2d",
+        "hadith": "69e89a0dd0681eea49618a02c9455c8216b5b78a4a8c59034435e6d5019712ac",
+        "articles": "f156fa6bd95e98ef979bbba41d79ac14d81266cf65d55f187e595471380dd8f6",
+        "combined": "652786d6a4c5b6e553d74bb77abd6b7093ca4fa23a9548266e792cb052336fe8"
+      },
+      "nativeName": "فارسی",
+      "surahLabel": "سوره",
+      "ayahLabel": "آیه",
+      "creditsTitle": "منابع ترجمه و نقل‌قول‌ها",
+      "notice": "این متن با کمک هوش مصنوعی ترجمه شده و نیازمند بررسی است. بررسی به کمک مدل جایگزین بازبینی فردی شایسته نیست.",
+      "hadithBooks": {
+        "bukhari": "صحیح بخاری",
+        "muslim": "صحیح مسلم",
+        "ahmad": "مسند احمد",
+        "abudawud": "سنن ابوداوود",
+        "tirmidhi": "جامع ترمذی",
+        "nasai": "سنن نسائی",
+        "ibnmajah": "سنن ابن ماجه",
+        "ibnhibban": "صحیح ابن حبان",
+        "malik": "موطأ مالک"
+      }
+    },
+    "de": {
+      "label": "Deutsch",
+      "brand": "Begleiter im Glauben",
+      "font": "Latin",
+      "contents": "Inhalt",
+      "hadithLabel": "Hadith",
+      "titles": {
+        "tadabbur-extended": "Betrachtung des Korans",
+        "seerah": "Sīra",
+        "hadith": "Hadith",
+        "articles": "Artikel",
+        "combined": "Begleiter im Glauben"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/de/Quran_Cover_de_refined_v5_native.png",
+        "seerah": "books/assets/covers/de/Seerah_Cover_de_refined_v5_native.png",
+        "hadith": "books/assets/covers/de/Hadith_Cover_de_refined_v5_native.png",
+        "articles": "books/assets/covers/de/Articles_Cover_de_refined_v5_native.png",
+        "combined": "books/assets/covers/de/Quran_Cover_de_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "25573976304491cc205eb1b0868de6b1e5d0ed7a569ff3494e1e6419718e2946",
+        "seerah": "de715e1ed3ee270157be4a15289e1579e88d4d5bf924f278887e477086528bcf",
+        "hadith": "825ec0f486c67c79d79a984de43a223d34f938dce32822651d3cb862ec5dd35f",
+        "articles": "f7deaf60f083281476d81556f259c0c14d99430f86204de6e82c6dd32a603b95",
+        "combined": "25573976304491cc205eb1b0868de6b1e5d0ed7a569ff3494e1e6419718e2946"
+      },
+      "nativeName": "Deutsch",
+      "surahLabel": "Sure",
+      "ayahLabel": "Vers",
+      "creditsTitle": "Quellen der Übersetzungen und Ausgaben",
+      "notice": "Mit künstlicher Intelligenz übersetzt — Überprüfung erforderlich. Modellgestützte Prüfungen ersetzen nicht die Prüfung durch einen fachkundigen Leser.",
+      "hadithBooks": {
+        "bukhari": "Sahih al-Buchari",
+        "muslim": "Sahih Muslim",
+        "ahmad": "Musnad Ahmad",
+        "abudawud": "Sunan Abu Dawud",
+        "tirmidhi": "Dschami at-Tirmidhi",
+        "nasai": "Sunan an-Nasai",
+        "ibnmajah": "Sunan Ibn Madscha",
+        "ibnhibban": "Sahih Ibn Hibban",
+        "malik": "Al-Muwatta von Malik"
+      }
+    },
+    "zh-CN": {
+      "label": "简体中文",
+      "brand": "信仰伙伴",
+      "font": "Chinese",
+      "contents": "目录",
+      "hadithLabel": "圣训",
+      "titles": {
+        "tadabbur-extended": "古兰经参悟",
+        "seerah": "先知生平",
+        "hadith": "圣训",
+        "articles": "文章",
+        "combined": "信仰伙伴"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/zh-CN/Quran_Cover_zh-CN_refined_v5_native.png",
+        "seerah": "books/assets/covers/zh-CN/Seerah_Cover_zh-CN_refined_v5_native.png",
+        "hadith": "books/assets/covers/zh-CN/Hadith_Cover_zh-CN_refined_v5_native.png",
+        "articles": "books/assets/covers/zh-CN/Articles_Cover_zh-CN_refined_v5_native.png",
+        "combined": "books/assets/covers/zh-CN/Quran_Cover_zh-CN_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "07be9ba4415ee91f24bc0d78caa32829d4fee16bcbf871124e778b079123002d",
+        "seerah": "4d829509c9689d8941a3994196c936453d4a8a79a216dffc89be9d946e6a3a75",
+        "hadith": "498d0aac7d684667b3db18bdb204c982ea7d3b5ba652e1de10c3879cff5c69e9",
+        "articles": "30fb9c5da7421e718987f5fb615849d602ec3ab5e5036b4db4ec77841d037b95",
+        "combined": "07be9ba4415ee91f24bc0d78caa32829d4fee16bcbf871124e778b079123002d"
+      },
+      "nativeName": "简体中文",
+      "surahLabel": "章",
+      "ayahLabel": "节",
+      "creditsTitle": "译文与版本来源",
+      "notice": "本资料由人工智能辅助翻译，仍需核实。模型辅助检查不能替代合格读者的审核。",
+      "hadithBooks": {
+        "bukhari": "《布哈里圣训实录》",
+        "muslim": "《穆斯林圣训实录》",
+        "ahmad": "《艾哈迈德圣训集》",
+        "abudawud": "《艾布·达伍德圣训集》",
+        "tirmidhi": "《提尔密济圣训集》",
+        "nasai": "《奈萨仪圣训集》",
+        "ibnmajah": "《伊本·马哲圣训集》",
+        "ibnhibban": "《伊本·希班圣训实录》",
+        "malik": "《马立克穆宛塔圣训集》"
+      }
+    },
+    "uz": {
+      "label": "O‘zbekcha",
+      "brand": "Iymon hamrohi",
+      "font": "Latin",
+      "contents": "Mundarija",
+      "hadithLabel": "Hadis",
+      "titles": {
+        "tadabbur-extended": "Qurʼon Tadabburi",
+        "seerah": "Siyrat",
+        "hadith": "Hadis",
+        "articles": "Maqolalar",
+        "combined": "Iymon hamrohi"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/uz/Quran_Cover_uz_refined_v5_native.png",
+        "seerah": "books/assets/covers/uz/Seerah_Cover_uz_refined_v5_native.png",
+        "hadith": "books/assets/covers/uz/Hadith_Cover_uz_refined_v5_native.png",
+        "articles": "books/assets/covers/uz/Articles_Cover_uz_refined_v5_native.png",
+        "combined": "books/assets/covers/uz/Quran_Cover_uz_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "507a96e026d6b601ee5ea7605497035c66ff9bc8b4600250dee029d2f98bde25",
+        "seerah": "b753e14c81b52f1c968a5cf5824108ddb9f396b10f79a2b5d974b5600725bdb4",
+        "hadith": "ae77adde36748d5b445a02ab6decea2af685270260a124904ff9cdf9ee895f55",
+        "articles": "306aac1abf79f44d056970cf8557a05cdc9c42468e7d904e731955ee7cc38818",
+        "combined": "507a96e026d6b601ee5ea7605497035c66ff9bc8b4600250dee029d2f98bde25"
+      },
+      "nativeName": "O‘zbekcha",
+      "surahLabel": "Sura",
+      "ayahLabel": "oyat",
+      "creditsTitle": "Tarjima va nashr manbalari",
+      "notice": "Sun’iy intellekt yordamida tarjima qilingan, tekshirish talab etiladi. Model yordamidagi tekshiruvlar malakali o‘quvchi ko‘rigini almashtirmaydi.",
+      "hadithBooks": {
+        "bukhari": "Sahih al-Buxoriy",
+        "muslim": "Sahih Muslim",
+        "ahmad": "Musnad Ahmad",
+        "abudawud": "Sunan Abu Dovud",
+        "tirmidhi": "Jome at-Termiziy",
+        "nasai": "Sunan an-Nasoiy",
+        "ibnmajah": "Sunan Ibn Moja",
+        "ibnhibban": "Sahih Ibn Hibbon",
+        "malik": "Imom Molikning Muvatto asari"
+      }
+    },
+    "th": {
+      "label": "ไทย",
+      "brand": "เพื่อนคู่ศรัทธา",
+      "font": "Thai",
+      "contents": "สารบัญ",
+      "hadithLabel": "หะดีษ",
+      "titles": {
+        "tadabbur-extended": "บทใคร่ครวญ อัลกุรอาน",
+        "seerah": "ซีเราะฮ์",
+        "hadith": "หะดีษ",
+        "articles": "บทความ",
+        "combined": "เพื่อนคู่ศรัทธา"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/th/Quran_Cover_th_refined_v5_native.png",
+        "seerah": "books/assets/covers/th/Seerah_Cover_th_refined_v5_native.png",
+        "hadith": "books/assets/covers/th/Hadith_Cover_th_refined_v5_native.png",
+        "articles": "books/assets/covers/th/Articles_Cover_th_refined_v5_native.png",
+        "combined": "books/assets/covers/th/Quran_Cover_th_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "6c98723c050d8ffbc15440638f2ede9d491d91bc1613bf9a61bdae71389f0dd2",
+        "seerah": "ad24ec473b8a07ca52b1fac1340f7df0ac361826189a2acf8eb6b943738c26d3",
+        "hadith": "d7b1e7e2d5af78c8b8c359c4b56cf69c44a4d5c345fbe5e81a1663a0714cadf4",
+        "articles": "5d2637a66b3b92c52e91088b93f843646aa91d5c353326c514b0b75be5988e79",
+        "combined": "6c98723c050d8ffbc15440638f2ede9d491d91bc1613bf9a61bdae71389f0dd2"
+      },
+      "nativeName": "ไทย",
+      "surahLabel": "สูเราะฮ์",
+      "ayahLabel": "อายะฮ์",
+      "creditsTitle": "แหล่งที่มาของคำแปลและฉบับพิมพ์",
+      "notice": "แปลโดยใช้ปัญญาประดิษฐ์ช่วยและยังต้องตรวจสอบ การตรวจด้วยแบบจำลองไม่อาจทดแทนการทบทวนโดยผู้อ่านที่มีความรู้เหมาะสมได้",
+      "hadithBooks": {
+        "bukhari": "เศาะฮีห์อัลบุคอรี",
+        "muslim": "เศาะฮีห์มุสลิม",
+        "ahmad": "มุสนัดอะห์มัด",
+        "abudawud": "สุนันอบูดาวูด",
+        "tirmidhi": "ญามิอ์อัตติรมิซี",
+        "nasai": "สุนันอันนะสาอี",
+        "ibnmajah": "สุนันอิบนุมาญะฮ์",
+        "ibnhibban": "เศาะฮีห์อิบนุหิบบาน",
+        "malik": "อัลมุวัฏเฏาะอ์ของอิมามมาลิก"
+      }
+    },
+    "vi": {
+      "label": "Tiếng Việt",
+      "brand": "Bạn Đồng Hành Đức Tin",
+      "font": "Vietnamese",
+      "contents": "Mục lục",
+      "hadithLabel": "Hadith",
+      "titles": {
+        "tadabbur-extended": "Suy ngẫm về Kinh Qur’an",
+        "seerah": "Tiểu sử Thiên Sứ",
+        "hadith": "Hadith (Thánh huấn)",
+        "articles": "Bài viết",
+        "combined": "Bạn Đồng Hành Đức Tin"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/vi/Quran_Cover_vi_refined_v5_native.png",
+        "seerah": "books/assets/covers/vi/Seerah_Cover_vi_refined_v5_native.png",
+        "hadith": "books/assets/covers/vi/Hadith_Cover_vi_refined_v5_native.png",
+        "articles": "books/assets/covers/vi/Articles_Cover_vi_refined_v5_native.png",
+        "combined": "books/assets/covers/vi/Quran_Cover_vi_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "c75d2fff7cf63a621672a62250d6b1637efc04c9a5c3403a7f6fac5b13075513",
+        "seerah": "f1358ffa854d48870117becefccb2fcb81f556709dda72ecd4389badfc04c2df",
+        "hadith": "fd84ee4887ab073c4bca9278bfff55c0ce777f9dc23620bc67e6da02325b06b0",
+        "articles": "490542f770440941d79e7022de4bd05cf98dcda4719024a41834f72aa329fd08",
+        "combined": "c75d2fff7cf63a621672a62250d6b1637efc04c9a5c3403a7f6fac5b13075513"
+      },
+      "nativeName": "Tiếng Việt",
+      "surahLabel": "Chương",
+      "ayahLabel": "câu",
+      "creditsTitle": "Nguồn bản dịch và ấn bản",
+      "notice": "Bản dịch có sự hỗ trợ của trí tuệ nhân tạo, cần được kiểm chứng. Việc kiểm tra bằng mô hình không thay thế cho sự rà soát của người đọc có đủ kiến thức.",
+      "hadithBooks": {
+        "bukhari": "Bộ Sahih Al-Bukhari",
+        "muslim": "Bộ Sahih Muslim",
+        "ahmad": "Bộ Musnad Ahmad",
+        "abudawud": "Bộ Sunan Abu Dawud",
+        "tirmidhi": "Bộ Jami At-Tirmidhi",
+        "nasai": "Bộ Sunan An-Nasai",
+        "ibnmajah": "Bộ Sunan Ibn Majah",
+        "ibnhibban": "Bộ Sahih Ibn Hibban",
+        "malik": "Bộ Al-Muwatta của Malik"
+      }
+    },
+    "ja": {
+      "label": "日本語",
+      "brand": "信仰のとも",
+      "font": "Japanese",
+      "contents": "目次",
+      "hadithLabel": "ハディース",
+      "titles": {
+        "tadabbur-extended": "クルアーンの 考察",
+        "seerah": "預言者伝",
+        "hadith": "ハディース",
+        "articles": "記事",
+        "combined": "信仰の学び — 合本"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/ja/Quran_Cover_ja_refined_v5_native.png",
+        "seerah": "books/assets/covers/ja/Seerah_Cover_ja_refined_v5_native.png",
+        "hadith": "books/assets/covers/ja/Hadith_Cover_ja_refined_v5_native.png",
+        "articles": "books/assets/covers/ja/Articles_Cover_ja_refined_v5_native.png",
+        "combined": "books/assets/covers/ja/Quran_Cover_ja_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "6e88595f0472ece1a46625078e131566a7ffa8681fa2c4ce0488f1334a6be155",
+        "seerah": "0231428b5180d7d93d3a9d3150640fd2004b6e5906d0711a5c55345e6db8e93a",
+        "hadith": "f558df8284c67be69c92eee98ffbc96ef980d36c36b9c1d8f6b9d8b2f6e48ef4",
+        "articles": "eb1e4f847d8aabda31df61121e9914f86dba4c31585722f3196ae1cb7cd9ce1f",
+        "combined": "6e88595f0472ece1a46625078e131566a7ffa8681fa2c4ce0488f1334a6be155"
+      },
+      "nativeName": "日本語",
+      "surahLabel": "章",
+      "ayahLabel": "節",
+      "creditsTitle": "翻訳と版の出典",
+      "notice": "人工知能の支援により翻訳された内容であり、確認が必要です。モデルによる点検は、適切な知識を持つ読者による確認に代わるものではありません。",
+      "hadithBooks": {
+        "bukhari": "『サヒーフ・アル＝ブハーリー』",
+        "muslim": "『サヒーフ・ムスリム』",
+        "ahmad": "『ムスナド・アフマド』",
+        "abudawud": "『スナン・アブー・ダーウード』",
+        "tirmidhi": "『ジャーミウ・アッ＝ティルミズィー』",
+        "nasai": "『スナン・アン＝ナサーイー』",
+        "ibnmajah": "『スナン・イブン・マージャ』",
+        "ibnhibban": "『サヒーフ・イブン・ヒッバーン』",
+        "malik": "イマーム・マーリクの『ムワッタ』"
+      }
+    },
+    "fil": {
+      "label": "Filipino",
+      "brand": "Kaagapay sa Pananampalataya",
+      "font": "Latin",
+      "contents": "Mga Nilalaman",
+      "hadithLabel": "Hadith",
+      "titles": {
+        "tadabbur-extended": "Pagninilay sa Quran",
+        "seerah": "Seerah",
+        "hadith": "Hadith",
+        "articles": "Mga artikulo",
+        "combined": "Kaagapay sa Pananampalataya"
+      },
+      "covers": {
+        "tadabbur-extended": "books/assets/covers/fil/Quran_Cover_fil_refined_v5_native.png",
+        "seerah": "books/assets/covers/fil/Seerah_Cover_fil_refined_v5_native.png",
+        "hadith": "books/assets/covers/fil/Hadith_Cover_fil_refined_v5_native.png",
+        "articles": "books/assets/covers/fil/Articles_Cover_fil_refined_v5_native.png",
+        "combined": "books/assets/covers/fil/Quran_Cover_fil_refined_v5_native.png"
+      },
+      "coverHashes": {
+        "tadabbur-extended": "1883af3d2d86d24e1f1461c55c853989703913942df9ac220b7707b2b3f1a477",
+        "seerah": "815aa058f8f0bc09314864fc6a28764e106224833c34dad890cbf0c65340b13a",
+        "hadith": "2ba46f594a9a6f4aec1ce23be1d6d6b41a3fc7a5b484a33e60a894a9b9739b81",
+        "articles": "294fd17a3f41fd42d708ef74e5dd215cd48cdb7dbce250e3a1bc9f6cf64cb9e4",
+        "combined": "1883af3d2d86d24e1f1461c55c853989703913942df9ac220b7707b2b3f1a477"
+      },
+      "nativeName": "Filipino",
+      "surahLabel": "Surah",
+      "ayahLabel": "talata",
+      "creditsTitle": "Mga pinagmulan ng salin at edisyon",
+      "notice": "Salin na ginawa sa tulong ng artipisyal na intelihensiya at nangangailangan ng pagsusuri. Hindi mapapalitan ng pagsusuri ng modelo ang pagsusuri ng isang kuwalipikadong mambabasa.",
+      "hadithBooks": {
+        "bukhari": "Sahih ni al-Bukhari",
+        "muslim": "Sahih ni Muslim",
+        "ahmad": "Musnad ni Ahmad",
+        "abudawud": "Sunan ni Abu Dawud",
+        "tirmidhi": "Jami ni al-Tirmidhi",
+        "nasai": "Sunan ni al-Nasai",
+        "ibnmajah": "Sunan ni Ibn Majah",
+        "ibnhibban": "Sahih ni Ibn Hibban",
+        "malik": "Al-Muwatta ni Malik"
+      }
+    }
+  },
+  "quranText": {
+    "path": "books/assets/quran-arabic.json",
+    "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+    "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
+  },
+  "surahNames": {
+    "path": "books/assets/surah-names.json",
+    "sha256": "38f8a540d579db569c15ad8ebb40950ee17107c7ffd5858c7f9eeb7dcd32d5f9"
+  },
+  "combinedRecipes": [
+    {
+      "language": "ja",
+      "units": [
+        {
+          "collection": "tadabbur-extended",
+          "id": "112:extended",
+          "ayahCount": 4
+        },
+        {
+          "collection": "tadabbur-extended",
+          "id": "35:extended",
+          "ayahCount": 45
+        },
+        {
+          "collection": "articles",
+          "id": "article001",
+          "sourceHash": "79fa38429519de69caa796fc4a639c06ee62e832db82d756c0d057c5e221c3c4"
+        },
+        {
+          "collection": "seerah",
+          "id": "new-seerah001",
+          "sourceHash": "5db0e71443293cb99af87231dd0cecbdaefa2e737cafa0b1a2479140e5318782"
+        }
+      ]
+    },
+    {
+      "language": "ur",
+      "units": [
+        {
+          "collection": "tadabbur-extended",
+          "id": "112:extended",
+          "ayahCount": 4
+        },
+        {
+          "collection": "tadabbur-extended",
+          "id": "35:extended",
+          "ayahCount": 45
+        },
+        {
+          "collection": "articles",
+          "id": "article001",
+          "sourceHash": "79fa38429519de69caa796fc4a639c06ee62e832db82d756c0d057c5e221c3c4"
+        },
+        {
+          "collection": "seerah",
+          "id": "new-seerah001",
+          "sourceHash": "5db0e71443293cb99af87231dd0cecbdaefa2e737cafa0b1a2479140e5318782"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Internal source-bound layout/test fixtures only. Two complete extended lessons are not the whole collection. Never install the fixture catalogue or treat it as the live publisher. The SOURCE-README is a frozen preservation test input. Run: python tests/test_download_tables.py
