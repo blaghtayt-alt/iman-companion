@@ -1,0 +1,224 @@
+{
+  "schema": "iman-hadith-source-bank-v1",
+  "language": "uz",
+  "sourceRepository": "blaghtayt-alt/iman-companion",
+  "sourceCommit": "76d8b0bbeed05280b9964748b24437ed2dce0191",
+  "scope": "Whole, already published lesson source records. Source passages and conditions remain in the linked original files; this catalog does not extract or rewrite narrations.",
+  "reviewNotice": "The existing material is model-assisted reviewed and requires human verification; no scholarly certification or additional source permission is claimed.",
+  "records": [
+    {
+      "lessonId": "essential-01-001",
+      "reading": {
+        "path": "materials/hadith/essential-uz/001.json",
+        "gitBlob": "c78a2815cc00f06169b6787be524db74df0f1837",
+        "sha256": "e155141adedabf926827f24b42c5cc3ed0e0f915ac04196f9ef4e75c023973fa",
+        "bytes": 690541
+      },
+      "sourceKind": "published lesson and its complete listed source files",
+      "sourceFiles": [
+        {
+          "path": "materials/hadith/essential-uz/sources/APP-SOURCE-PROJECTION930.json",
+          "sha256": "949c40c5853f34dedc1289c5cbed5d7b2ed4a00965bedf90a9e44e7e1276eb0c",
+          "gitBlob": "3b2f6f8cae320d278c09070ec70ac2acba1debe2",
+          "bytes": 742036
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/COMPLETE-CANDIDATE-UZ930.json",
+          "sha256": "47cb6930c794fa555c1595a803300489bf79993476e615936cdf28a5549b0e8a",
+          "gitBlob": "56bda961b9f5e7a342996bb276d77e2e8f510a86",
+          "bytes": 66303
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/CONTINUOUS-UZBEK-ONLY930.txt",
+          "sha256": "af09282f3331ce7cc407ff118aefcb6dda3a69deac274fe5250623c7ef228b1e",
+          "gitBlob": "01fb03e70e0c2a8fd56a143dce42615b7dc5e002",
+          "bytes": 58337
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/EXACT-115-FIELD-QUOTE-NOTE-BOUNDS930.json",
+          "sha256": "e509c8beeffcd8f7c3441e423ffa6c98e788cc15900db02983cff5ca149dafdc",
+          "gitBlob": "74bc6df582e4f2eafd8ed20a5048b2046d7cef69",
+          "bytes": 269111
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/EXACT-SOURCE-ARABIC930.json",
+          "sha256": "0bd6a7c3275cb36714611a8b9306388c5a4fc474750c45d064d6f1d3d9bb7446",
+          "gitBlob": "6ead8d7fce2f9b144e0ee9363a0a219ba6456912",
+          "bytes": 253638
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/FINAL-QUALIFICATION934.json",
+          "sha256": "938d4db377a1bb41a34d5f9b47d306a5dc6acc6b6033737b1357829d38ee8e72",
+          "gitBlob": "b87c67f66c38a93b946760b34bc298028b99ffe0",
+          "bytes": 21953
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/FINAL-SOURCE-QUALIFICATIONS934.json",
+          "sha256": "36fa3409ea208d695f258246538ed9382a88fcb6a377d69a5f8a340d647c3f14",
+          "gitBlob": "2a7b5c693906b1295f5b0f9ecf503454c2c37643",
+          "bytes": 26000
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/FINAL-SOURCE-REVIEW-FINDING934.json",
+          "sha256": "336c26aca0d17d5174c7a35c8f578fae482d047ba68ce400bca4fddb4064e676",
+          "gitBlob": "a53e93361aa98d32cee5002f571187ff6a3f8271",
+          "bytes": 18427
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/GLOSSARY930.json",
+          "sha256": "8a30921945d754557e5d79d6885118783ce3f5319478d5a6f1fc9c03d9e2da58",
+          "gitBlob": "ffba5e3e805517c362c553bfd122782587d40d77",
+          "bytes": 2980
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/HADITH-REFERENCE-REGISTER930.json",
+          "sha256": "58664d4e7249982fb9b592191084a7506857db528eb8e897e07d4d5b42889064",
+          "gitBlob": "52a01dfc99150dc2fe313355b61198830fcddda3",
+          "bytes": 39532
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/PUBLISHER-AND-ARABIC-PARENTS930.json",
+          "sha256": "c9f04a22c5bce7ee1c4bc80f6785fd2dc9dc8bfbef578d01266d9637e2ceedbc",
+          "gitBlob": "23c6207cf32814e9ed770a5b87adf5a3a3a15942",
+          "bytes": 214993
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/REUSED-COMPLETE-ARABIC-PRIMARY-PARENTS930.json",
+          "sha256": "7edf008a05155554183b5f9c95b6b799aa7d29a1e8fc68f8c8cf4a2126f400f7",
+          "gitBlob": "3bfce6d574efa162e02ec6de4e39752d5565493a",
+          "bytes": 100310
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/SOURCE-CONDITIONS-ACTUAL930.json",
+          "sha256": "3529599a71c6b0e4e7e8743993eec3d593540f715f817913f0398e1ca33b7073",
+          "gitBlob": "ac6bbe35408e265746f8a0b8201dab8e06fc756b",
+          "bytes": 47615
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/SOURCE-NOTES-UZ930.md",
+          "sha256": "9cca7594cb8a9eecde45793ee0a9ffe957c646754bfb879076547ddb1f4fc5e3",
+          "gitBlob": "823ca9f811ae44c69f72330c51e51a0d68d5d118",
+          "bytes": 9405
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/SOURCE-TEXTS-ARABIC-ORIGINALS930.txt",
+          "sha256": "87a02aa8bf150276e14a7b78f4771d96f665006cd9f49c52322a8fbe98afb430",
+          "gitBlob": "ab3b76b75fc4edc6eff083a814a558352a761678",
+          "bytes": 58793
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/SOURCE-TEXTS-CONDITIONS930.txt",
+          "sha256": "c21fda4fdce3c3450c440bfa4cb9a7d81f798d45efbdf38410bf2c646c840b3c",
+          "gitBlob": "346d8e5a22fc9d04358b452f448e6aeb4c32595e",
+          "bytes": 39899
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/SOURCE-TEXTS-HADITH930.txt",
+          "sha256": "481ed9f0b3c0abbed949af1a7063e0192e07ef7f91782331a241c4697ec69a00",
+          "gitBlob": "f0c6f4f32ca58c5222f8d9ab92f83037f92f2fe9",
+          "bytes": 67495
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/SOURCE-TEXTS-QURAN930.txt",
+          "sha256": "e6ddadb1623f9e9ede6edd1ee2e3fd6f325ab24155712ba8967e0182edce9303",
+          "gitBlob": "cfed1ecefbf1ff364851d2daab38c8cb86fd029d",
+          "bytes": 74774
+        },
+        {
+          "path": "materials/hadith/essential-uz/sources/TERRA-CONSUMER-CONTRACT934.json",
+          "sha256": "fb6928d0e4e7c83453c755d64783516b14bab4eebdfcc0f97d34073c2afd348c",
+          "gitBlob": "c665805066c6304a7a9dce7130f9c67d89c39192",
+          "bytes": 2610
+        }
+      ],
+      "sourceEnvelope": null,
+      "publishedReviewStatus": "Independent model-assisted review; human verification remains needed."
+    },
+    {
+      "lessonId": "essential-01-003",
+      "reading": {
+        "path": "materials/hadith/essential-uz/003.json",
+        "gitBlob": "d1e7538e439a3d966e8bf473c0fc88e2c738c1ab",
+        "sha256": "0c65ce9d81b991abec38306cd6251b6dc0a06c46aa2be17ef9b3c5560942b5bd",
+        "bytes": 43361
+      },
+      "sourceKind": "published complete source envelope",
+      "sourceFiles": [],
+      "sourceEnvelope": {
+        "path": "materials/hadith/essential-uz/003-sources.json",
+        "gitBlob": "36b214eeaca9fed488fa2ca83118cd4a1527be9c",
+        "sha256": "9c694f2664049c0d3c323f93c83214ddccbc6c3016564f1bb3314f11bdd6abe5",
+        "bytes": 415884,
+        "members": [
+          {
+            "name": "COMPLETE-ARABIC-UZBEK-MEANING-MAP.json",
+            "sha256": "2c392c2e856f546f44d43f94582b4cef7856445a647912bbcd8a12ab9fb54433",
+            "bytes": 31608
+          },
+          {
+            "name": "EXACT-READER-QUOTE-AND-NOTE-BOUNDS.json",
+            "sha256": "1dcf04ae6f902dbed6218a60d9359abb3744a18a4cb6cb578c494f9d340724dd",
+            "bytes": 53119
+          },
+          {
+            "name": "EXACT-SOURCE-COMPANION-ANCHORS.json",
+            "sha256": "e2644e650ed9e24e2e125b6973e625d6e484dbe5cd9450c56bfbd53f994a1457",
+            "bytes": 105479
+          },
+          {
+            "name": "FULL-ORIGINAL-ARABIC-CONTEXTS.json",
+            "sha256": "e4095c4afc20d5b7829e5fa2e01eaea3201437a59ab5cf8df482a366b08d0fd5",
+            "bytes": 30734
+          },
+          {
+            "name": "FULL-TARGET-PARENTS-AND-NOTES.json",
+            "sha256": "3dc52f1ad54c333dfaa3186451cc61258e45e4b72f4dc5746fe64a3ee7c35216",
+            "bytes": 44352
+          },
+          {
+            "name": "HADITH-SOURCE-COMPANION.txt",
+            "sha256": "660606b3117b2dca06ebcea1d8bfd324458d69a183a54bafcba3b42a0720f1b8",
+            "bytes": 34842
+          },
+          {
+            "name": "ORIGINAL-ARABIC-UNIT.json",
+            "sha256": "e6c30e25fb0c6bc19ccc7285817b7d7261e3a00238cb812b78d7cde9295fb2ff",
+            "bytes": 24904
+          },
+          {
+            "name": "ORIGINAL-SOURCE-COMPANION.txt",
+            "sha256": "16765a31da525370a1e72f2eebd33f187eb2e5986c2dfbba97c242f3fef8c82d",
+            "bytes": 34783
+          },
+          {
+            "name": "QURAN-SOURCE-COMPANION.txt",
+            "sha256": "b9a7ea9981a4a743d7c6bff767e437814b3d8fde4bfc8577a53b579b6a78d686",
+            "bytes": 9558
+          },
+          {
+            "name": "READER-NOTE-ANCHORS.json",
+            "sha256": "31ed472d8c790b23e922ce896ba3a195f5157ce05e64786ff7b624d1959428af",
+            "bytes": 315
+          },
+          {
+            "name": "SOURCE-CREDITS-CONDITIONS-VERSIONS-AND-TRANSCRIPTS.json",
+            "sha256": "62fb2ff7a76a0cab4d19bd3cf6d0826114f8f31ebc25bd8a510a7f8dcbb7a38c",
+            "bytes": 29325
+          }
+        ]
+      }
+    }
+  ],
+  "notIndexed": [
+    {
+      "lesson": "002",
+      "reason": "Published reading exists; a corresponding complete source envelope was not located in this published lesson directory",
+      "reading": {
+        "path": "materials/hadith/essential-uz/002.json",
+        "gitBlob": "3f38dc504f279bef346e837b893e5ffb43124423",
+        "sha256": "c619f29d047d8d03caabf2b075007062f3326df6f773739046e8c20a9fa8e734",
+        "bytes": 86276
+      }
+    }
+  ]
+}

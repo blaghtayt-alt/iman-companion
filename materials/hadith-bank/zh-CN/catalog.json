@@ -1,0 +1,105 @@
+{
+  "schema": "iman-hadith-source-bank-v1",
+  "language": "zh-CN",
+  "sourceRepository": "blaghtayt-alt/iman-companion",
+  "sourceCommit": "76d8b0bbeed05280b9964748b24437ed2dce0191",
+  "scope": "Whole, already published lesson source records. Source passages and conditions remain in the linked original files; this catalog does not extract or rewrite narrations.",
+  "reviewNotice": "The existing material is model-assisted reviewed and requires human verification; no scholarly certification or additional source permission is claimed.",
+  "records": [
+    {
+      "lessonId": "essential-01-003",
+      "reading": {
+        "path": "materials/hadith/essential-zh-CN/003.json",
+        "gitBlob": "d97470c1ae8d5eb9ece1bbc2d4b6016fc095e261",
+        "sha256": "e6124b837b41c1fd84d64a3d41bebd6758361720ed6bbac9ccf4db30ad8a5162",
+        "bytes": 27682
+      },
+      "sourceKind": "published complete source envelope",
+      "sourceFiles": [],
+      "sourceEnvelope": {
+        "path": "materials/hadith/essential-zh-CN/003-sources.json",
+        "gitBlob": "73fc8b495e2fe006b09b6ae56c921fa01244fec0",
+        "sha256": "6982add7ca1daba7286078bffe791d0cb16474b328720dae831523778f48af66",
+        "bytes": 129901,
+        "members": [
+          {
+            "name": "COMPLETE-SIMPLIFIED-CHINESE-CANDIDATE.json",
+            "sha256": "4569c863b8ecfd2c4c06168193ace9516f4460db658ea0588b3879c0697ba232",
+            "bytes": 12188
+          },
+          {
+            "name": "COMPLETE-SIMPLIFIED-CHINESE-READING.txt",
+            "sha256": "472e74ce9faf0e0992f2272a00a080f08918a2e4e1e5e17799fdfe43b973e503",
+            "bytes": 10031
+          },
+          {
+            "name": "FULL-FIVE-SCHOLAR-PARENTS-AND-NOTES.json",
+            "sha256": "6c041afb522b56506cef88d3e2f527fef7f8a85a05ed43b93826cef6457c8c34",
+            "bytes": 23565
+          },
+          {
+            "name": "FULL-ORIGINAL-ARABIC-CONTEXTS.json",
+            "sha256": "3d4d1915bede06eaef422b89dda889e26918de722c4b985f11b8848e0ec02a57",
+            "bytes": 14579
+          },
+          {
+            "name": "FULL-PUBLISHED-TARGET-SOURCE-PARENTS.json",
+            "sha256": "73dfe875929e12554fa612d8e2eb2094ccd0d84ceae830d92b4dc8ba05fd4279",
+            "bytes": 13356
+          },
+          {
+            "name": "HADITH-SELECTED-FULL-PARENTS-AND-NOTES.json",
+            "sha256": "83d672ba9e17e12935b0757885f1f64543945b6d5e3dd0e0cc5c8db4fd6105df",
+            "bytes": 7487
+          },
+          {
+            "name": "HADITH-SOURCE-COMPANION.txt",
+            "sha256": "146131f19d1ca61bef661352921e22022e33e02199b05bf4a6bede76eb97090e",
+            "bytes": 1365
+          },
+          {
+            "name": "ORIGINAL-ARABIC-UNIT.json",
+            "sha256": "cfe44cb94f502a5999b0baa447f31d6ba4b994fafaf4887d6077548da9a594ed",
+            "bytes": 24055
+          },
+          {
+            "name": "QURAN-SELECTED-FULL-PARENTS-AND-NOTES.json",
+            "sha256": "064a63792aa4221be4d9b98d2f6d36b922dd918fb9bbe7e32181982e0e31a7c0",
+            "bytes": 9920
+          },
+          {
+            "name": "QURAN-SOURCE-COMPANION.txt",
+            "sha256": "43fce93650a076d9fbc6f627c1e92285a5010258b40f13d04b6adb0c1c0f005d",
+            "bytes": 2320
+          },
+          {
+            "name": "SOURCE-CONDITIONS-AND-VERSIONS.json",
+            "sha256": "e24e7497baefb2c81e2c50b221f8624d2614fe37f7511c86710a9b26db75691d",
+            "bytes": 3108
+          },
+          {
+            "name": "SOURCE-PUBLICATION-NOTICES.txt",
+            "sha256": "ff6076673043b5e238d56febe00094bacef2d54718b65c0d2a26737a6e58fd5a",
+            "bytes": 566
+          }
+        ]
+      }
+    }
+  ],
+  "notIndexed": [
+    {
+      "lesson": "001",
+      "reason": "No published structured reading at this path"
+    },
+    {
+      "lesson": "002",
+      "reason": "Published reading exists; a corresponding complete source envelope was not located in this published lesson directory",
+      "reading": {
+        "path": "materials/hadith/essential-zh-CN/002.json",
+        "gitBlob": "015146d41c2455c227b9e60bec7286448a587904",
+        "sha256": "1770ca4f4a28bbb13add0b576fe01481df461db46a40ca3a54e6e3f2234b0360",
+        "bytes": 46981
+      }
+    }
+  ]
+}

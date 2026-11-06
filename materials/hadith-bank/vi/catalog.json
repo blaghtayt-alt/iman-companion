@@ -1,0 +1,100 @@
+{
+  "schema": "iman-hadith-source-bank-v1",
+  "language": "vi",
+  "sourceRepository": "blaghtayt-alt/iman-companion",
+  "sourceCommit": "76d8b0bbeed05280b9964748b24437ed2dce0191",
+  "scope": "Whole, already published lesson source records. Source passages and conditions remain in the linked original files; this catalog does not extract or rewrite narrations.",
+  "reviewNotice": "The existing material is model-assisted reviewed and requires human verification; no scholarly certification or additional source permission is claimed.",
+  "records": [
+    {
+      "lessonId": "essential-01-003",
+      "reading": {
+        "path": "materials/hadith/essential-vi/003.json",
+        "gitBlob": "5f46623aef2f14e287e8a66bbcfa2961546ec019",
+        "sha256": "d631d54415dec51cdd73550d61a7f7e3c5c0c2298fb7db5122bc54d22e48b89a",
+        "bytes": 46878
+      },
+      "sourceKind": "published complete source envelope",
+      "sourceFiles": [],
+      "sourceEnvelope": {
+        "path": "materials/hadith/essential-vi/003-sources.json",
+        "gitBlob": "c0524547a20a7ff7c3847afb0b755341dd4b4a43",
+        "sha256": "030758517f5de2ed3344e73bd4673b47d6674e9d1217ccc22ee116038307bfd2",
+        "bytes": 148788,
+        "members": [
+          {
+            "name": "COMPLETE-VIETNAMESE-CANDIDATE.json",
+            "sha256": "406600bf078aba89367b804aab3c5100bb8d4e71aa5d05e8c883eb340cfffc99",
+            "bytes": 18333
+          },
+          {
+            "name": "COMPLETE-VIETNAMESE-READING.txt",
+            "sha256": "9cedcdd4e6d5023f46358ff0e370f0938240134a65c293e05b4e820446c3a60d",
+            "bytes": 16223
+          },
+          {
+            "name": "FULL-FIVE-SCHOLAR-PARENTS-AND-NOTES.json",
+            "sha256": "383830ae2b980cd7bdf29c008df3c0e25f39d0c7dc1d81a0eeacf2b12d771548",
+            "bytes": 23417
+          },
+          {
+            "name": "FULL-ORIGINAL-ARABIC-CONTEXTS.json",
+            "sha256": "5f71ef4f889b8b5a7a82801a8b4ac5335bac41ce93a860b55d3fdb11020d8a6f",
+            "bytes": 10028
+          },
+          {
+            "name": "FULL-PUBLISHED-TARGET-SOURCE-PARENTS.json",
+            "sha256": "8af94d102479545c4cc557cdcf907ed42f94a2e342504bf7762cc36fedd1a218",
+            "bytes": 24040
+          },
+          {
+            "name": "HADITH-SELECTED-FULL-PARENTS-AND-NOTES.json",
+            "sha256": "c156406de548f70203bc0dac9f2fcbf73e3206fe061cee78ce532a67ec372453",
+            "bytes": 2352
+          },
+          {
+            "name": "HADITH-SOURCE-COMPANION.txt",
+            "sha256": "48a3d002640c45223a1d08266ef96fa003f2a22b2d7da91d36cd3a3835dcbf8a",
+            "bytes": 1818
+          },
+          {
+            "name": "ORIGINAL-ARABIC-UNIT.json",
+            "sha256": "cfe44cb94f502a5999b0baa447f31d6ba4b994fafaf4887d6077548da9a594ed",
+            "bytes": 24055
+          },
+          {
+            "name": "QURAN-SELECTED-FULL-PARENTS-AND-NOTES.json",
+            "sha256": "16ff630071276f19cce4a41b84bd70c7c8b789b636c12526e4cf4784df06164c",
+            "bytes": 13801
+          },
+          {
+            "name": "QURAN-SOURCE-COMPANION.txt",
+            "sha256": "5af85b6010979ad7aaca22a5d91dc8ad7d2ad9ff4542c59759b05d2fa46e220a",
+            "bytes": 4465
+          },
+          {
+            "name": "SOURCE-CONDITIONS-AND-VERSIONS.json",
+            "sha256": "7acd6ee09b2b584a9d5ec85556db6a5c63f268595cd7adc7ee699ba4f3c8dd92",
+            "bytes": 3363
+          }
+        ]
+      }
+    }
+  ],
+  "notIndexed": [
+    {
+      "lesson": "001",
+      "reason": "No published structured reading at this path"
+    },
+    {
+      "lesson": "002",
+      "reason": "Published reading exists; a corresponding complete source envelope was not located in this published lesson directory",
+      "reading": {
+        "path": "materials/hadith/essential-vi/002.json",
+        "gitBlob": "cae7a3bae1807c8c503ed7f10d4923fd56a0d927",
+        "sha256": "a310b085fe993a8e21a6836ea34fa188098c6b80863ffde6a7748e3bbbabfaec",
+        "bytes": 62824
+      }
+    }
+  ]
+}

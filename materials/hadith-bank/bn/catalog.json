@@ -1,0 +1,130 @@
+{
+  "schema": "iman-hadith-source-bank-v1",
+  "language": "bn",
+  "sourceRepository": "blaghtayt-alt/iman-companion",
+  "sourceCommit": "76d8b0bbeed05280b9964748b24437ed2dce0191",
+  "scope": "Whole, already published lesson source records. Source passages and conditions remain in the linked original files; this catalog does not extract or rewrite narrations.",
+  "reviewNotice": "The existing material is model-assisted reviewed and requires human verification; no scholarly certification or additional source permission is claimed.",
+  "records": [
+    {
+      "lessonId": "essential-01-001",
+      "reading": {
+        "path": "materials/hadith/essential-bn/001.json",
+        "gitBlob": "010af1bfab2c639205030039eb6f3bbf17fefcdb",
+        "sha256": "acde0d7deb46a39b08fd0ba65ff3709fda53dd7f7064a633a1581e1ad94790db",
+        "bytes": 415612
+      },
+      "sourceKind": "published lesson and its complete listed source files",
+      "sourceFiles": [
+        {
+          "path": "materials/hadith/essential-bn/sources/BENGALI-CONTEXT-GLOSSARY891.json",
+          "sha256": "72d7025ef38e53b0bbc386d7e8d80356b41486ef3d681df787218392888cd2c7",
+          "gitBlob": "73c5236652a720dc7f6bf2620aa4bca12db55d80",
+          "bytes": 3285
+        },
+        {
+          "path": "materials/hadith/essential-bn/sources/LESSON001-BN-PUBLIC-SOURCES891.json",
+          "sha256": "57e9b5a0a687da77b3c298eb1e775d599e891a7881f96dbd51eb51d3e1043129",
+          "gitBlob": "3c56c2ba1c37d14e2f3372a91a65e0a33354d28e",
+          "bytes": 1353354
+        },
+        {
+          "path": "materials/hadith/essential-bn/sources/LESSON001-BN-READING-PROJECTION891.json",
+          "sha256": "182c89f9f3aeabd282ea8b4a9d43e732a99414b6dabf393a7c961c0afb3b1657",
+          "gitBlob": "45258fe28f1bc64aa2aed574d42beef70883f65b",
+          "bytes": 406823
+        },
+        {
+          "path": "materials/hadith/essential-bn/sources/LESSON001-BN-READING891.md",
+          "sha256": "293b80e3d5dd2fb78df1691980d851d131a8d7b0809382238726970ca5aa4229",
+          "gitBlob": "e2e9e39de946129ee0842b5b14738740a1a29d2c",
+          "bytes": 274140
+        },
+        {
+          "path": "materials/hadith/essential-bn/sources/LESSON001-BN-SOURCE-NOTE891.md",
+          "sha256": "59e17ca9436805125aa28eb9de6f853b818282d21f2175f9b786abb5355b8597",
+          "gitBlob": "de1f682761bbc5e987a11d33218899674d7cbda0",
+          "bytes": 3904
+        }
+      ],
+      "sourceEnvelope": null,
+      "publishedReviewStatus": "Independent model-assisted final review; human verification needed."
+    },
+    {
+      "lessonId": "essential-01-003",
+      "reading": {
+        "path": "materials/hadith/essential-bn/003.json",
+        "gitBlob": "8012a6373c966c7d52f02dd5aa5d7509bfe65d0c",
+        "sha256": "c662392dfc5b3a6984c163ecb77b90237076f3c4d6aaa34896ac984e2dd7ecbd",
+        "bytes": 69822
+      },
+      "sourceKind": "published complete source envelope",
+      "sourceFiles": [],
+      "sourceEnvelope": {
+        "path": "materials/hadith/essential-bn/003-sources.json",
+        "gitBlob": "01f5bc9cb550ffc94275a091f74bbbfc665b87b3",
+        "sha256": "6bf380b62c6302ca16bc0141fb024707c65af8e05470337a5bf4f54ee2a40f60",
+        "bytes": 270047,
+        "members": [
+          {
+            "name": "ARABIC-SOURCE-PARENTS.json",
+            "sha256": "60c002dc43d4275aed353c13e7e7cc570b595679835afc2f3529be9c83bc5031",
+            "bytes": 46410
+          },
+          {
+            "name": "BN-PRESENTATION.json",
+            "sha256": "dee36ee239acd78de8ab56b1ef2b4f9ea26a3d8c87cbe2f9777bb84eaacca21f",
+            "bytes": 835
+          },
+          {
+            "name": "CONTINUOUS-BN-READER.txt",
+            "sha256": "d043a3bb1300ee60c78c319d6269bf51a7721cb779a1eadb63a4b490a9ecf01e",
+            "bytes": 23364
+          },
+          {
+            "name": "LESSON.json",
+            "sha256": "124fdb9fd6b4da0b0d1fb1db5c3905df07ae799290aa6f5631c8b05ed08e2f7b",
+            "bytes": 49180
+          },
+          {
+            "name": "LESSON-BN-ORDINARY.json",
+            "sha256": "e843ff7819c7fd927da444f4c2e20bd6f6f9a897a2be37016e8d2290f1af091f",
+            "bytes": 48548
+          },
+          {
+            "name": "ORDINARY-BN-READER.txt",
+            "sha256": "1a916498a76947d395fae039c5f717dda4c4cdc8daac3bf5b6c12c5cd1f1ca9a",
+            "bytes": 23048
+          },
+          {
+            "name": "QUOTATION-SOURCE-MAP.json",
+            "sha256": "d3b6abed30673f6c505b1fabdaaba23771c492d391bcccda9074d54d1c1311c0",
+            "bytes": 20255
+          },
+          {
+            "name": "SOURCE-QUALIFICATIONS.json",
+            "sha256": "e97aec767f130783bb10947523f62e34c55442ebbaf72d7921966ef1cdbab211",
+            "bytes": 2389
+          },
+          {
+            "name": "TARGET-SOURCE-PARENTS.json",
+            "sha256": "f473ecb2a2f11071f2428c43cf69a845cd986f072c340a3df0fcbd236d04a303",
+            "bytes": 48873
+          }
+        ]
+      }
+    }
+  ],
+  "notIndexed": [
+    {
+      "lesson": "002",
+      "reason": "Published reading exists; a corresponding complete source envelope was not located in this published lesson directory",
+      "reading": {
+        "path": "materials/hadith/essential-bn/002.json",
+        "gitBlob": "032d907de0665a5ec12d73509d12400b4857bb2d",
+        "sha256": "62b7a141568821d73ff52f9f685128c17981204ee447de402562194f59ffde3e",
+        "bytes": 167757
+      }
+    }
+  ]
+}

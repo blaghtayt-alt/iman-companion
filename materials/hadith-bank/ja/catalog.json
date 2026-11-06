@@ -1,0 +1,95 @@
+{
+  "schema": "iman-hadith-source-bank-v1",
+  "language": "ja",
+  "sourceRepository": "blaghtayt-alt/iman-companion",
+  "sourceCommit": "76d8b0bbeed05280b9964748b24437ed2dce0191",
+  "scope": "Whole, already published lesson source records. Source passages and conditions remain in the linked original files; this catalog does not extract or rewrite narrations.",
+  "reviewNotice": "The existing material is model-assisted reviewed and requires human verification; no scholarly certification or additional source permission is claimed.",
+  "records": [
+    {
+      "lessonId": "essential-01-003",
+      "reading": {
+        "path": "materials/hadith/essential-ja/003.json",
+        "gitBlob": "ae4078bf6725af559be16ff783d1b6bf9ee96980",
+        "sha256": "d0871c9cd357f7e09d0a9756d58044bff9ffda8fd104160220492400cb474f87",
+        "bytes": 54847
+      },
+      "sourceKind": "published complete source envelope",
+      "sourceFiles": [],
+      "sourceEnvelope": {
+        "path": "materials/hadith/essential-ja/003-sources.json",
+        "gitBlob": "61de06ef0fca1881007e496a7c73aecfe2f8a5fa",
+        "sha256": "09a29e5d907339ec1188012f3daa7a242c5c44df1fe3d6cbc063e4e2a6f9958c",
+        "bytes": 131777,
+        "members": [
+          {
+            "name": "COMPLETE-JAPANESE-READING.txt",
+            "sha256": "2f27001313429c049fe6991f69119884b91fba3a8e251ab11835103203c638ea",
+            "bytes": 17632
+          },
+          {
+            "name": "FULL-FIVE-SCHOLAR-PARENTS-AND-NOTES.json",
+            "sha256": "8c4b6d760ef997922656c5a40794659f87b3ef91cafa29cadf652f854bfea68d",
+            "bytes": 23442
+          },
+          {
+            "name": "FULL-ORIGINAL-ARABIC-CONTEXTS.json",
+            "sha256": "6cf1aa568ba19e880dc0146626008ce8611e9afc922e1d8eb6164808df712e05",
+            "bytes": 27316
+          },
+          {
+            "name": "FULL-SELECTED-TARGET-PARENTS-AND-NOTES.json",
+            "sha256": "3220d0e405a47a0468a1075866da82b4253f93b28e8414eb0981349671826e6b",
+            "bytes": 19197
+          },
+          {
+            "name": "HADITH-FULL-PARENTS-AND-NOTES.json",
+            "sha256": "f4050b80c5731166b667542e513b85d72fa155ea9260e66d6023124f1652a220",
+            "bytes": 2473
+          },
+          {
+            "name": "HADITH-SOURCE-COMPANION.txt",
+            "sha256": "d2f44804291bd2fd9435262b5e5730d72bd6802f4e1b190edf91296b4ede762a",
+            "bytes": 2211
+          },
+          {
+            "name": "ORIGINAL-ARABIC-UNIT.json",
+            "sha256": "cfe44cb94f502a5999b0baa447f31d6ba4b994fafaf4887d6077548da9a594ed",
+            "bytes": 24055
+          },
+          {
+            "name": "QURAN-SOURCE-COMPANION.txt",
+            "sha256": "9b9a3756e23aab8e52290cbd35062ba8619e5d7ba5e7eb926fa828f4aac2ed17",
+            "bytes": 5062
+          },
+          {
+            "name": "SOURCE-CONDITIONS-AND-VERSIONS.json",
+            "sha256": "4eaf9e1c6ffd100a66e1cf6debbc307d8f95b21b6df95784de402754823d0ba4",
+            "bytes": 3894
+          },
+          {
+            "name": "SOURCE-PUBLICATION-NOTICES.txt",
+            "sha256": "3ec60054f8b883e590bbddb91464c93dd18cb43200303dd54e41e2fc93f65975",
+            "bytes": 458
+          }
+        ]
+      }
+    }
+  ],
+  "notIndexed": [
+    {
+      "lesson": "001",
+      "reason": "No published structured reading at this path"
+    },
+    {
+      "lesson": "002",
+      "reason": "Published reading exists; a corresponding complete source envelope was not located in this published lesson directory",
+      "reading": {
+        "path": "materials/hadith/essential-ja/002.json",
+        "gitBlob": "d8ae2d72b5b383683b83f22b0e9539ea1337e17e",
+        "sha256": "38d248d4f64675909100391e434892afd8974770148851a95617661b9c169e18",
+        "bytes": 74522
+      }
+    }
+  ]
+}
