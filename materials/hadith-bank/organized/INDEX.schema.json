@@ -1,0 +1,662 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/blaghtayt-alt/iman-companion/materials/hadith-bank/organized/INDEX.schema.json",
+  "title": "Organized public source and authored topic metadata",
+  "description": "Metadata and source locators; records do not imply authentication, publication of lesson bodies, semantic identity, or source-wide reuse permission.",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "organized-hadith-source-index-v2"
+    },
+    "status": {
+      "type": "string"
+    },
+    "scopeNotes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "packageCatalogCommit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "sourceCommit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "quranCitationCatalogCommit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "quranCatalogSHA256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "packages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/package"
+      }
+    },
+    "readingsOnly": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/reading"
+      }
+    },
+    "sourceRecords": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceRecord"
+      }
+    },
+    "quranCitationKeys": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/citationKey"
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/chapter"
+      }
+    },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/lesson"
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "status",
+    "scopeNotes",
+    "packageCatalogCommit",
+    "sourceCommit",
+    "quranCitationCatalogCommit",
+    "quranCatalogSHA256",
+    "packages",
+    "readingsOnly",
+    "sourceRecords",
+    "quranCitationKeys",
+    "chapters",
+    "lessons"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "file": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "gitBlob": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        }
+      },
+      "required": [
+        "url",
+        "sha256",
+        "bytes",
+        "gitBlob"
+      ],
+      "additionalProperties": false
+    },
+    "member": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "name",
+        "sha256",
+        "bytes"
+      ],
+      "additionalProperties": false
+    },
+    "envelope": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "gitBlob": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "members": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/member"
+          }
+        }
+      },
+      "required": [
+        "url",
+        "sha256",
+        "bytes",
+        "gitBlob",
+        "members"
+      ],
+      "additionalProperties": false
+    },
+    "chapter": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "originalTitle": {
+          "type": "string"
+        },
+        "displayTitles": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "number",
+        "originalTitle",
+        "displayTitles"
+      ],
+      "additionalProperties": false
+    },
+    "lesson": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "chapterId": {
+          "type": "string"
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "originalTitle": {
+          "type": "string"
+        },
+        "displayTitleArabic": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewStatus": {
+          "enum": [
+            "pending",
+            null
+          ]
+        },
+        "runtimeCatalogStatus": {
+          "type": "string"
+        },
+        "publishedPackageIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "readingOnlyIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "chapterId",
+        "number",
+        "originalTitle",
+        "displayTitleArabic",
+        "reviewStatus",
+        "runtimeCatalogStatus",
+        "publishedPackageIds",
+        "readingOnlyIds"
+      ],
+      "additionalProperties": false
+    },
+    "package": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "lessonId": {
+          "type": "string"
+        },
+        "sourceKind": {
+          "type": "string"
+        },
+        "readingMetadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "publishedReviewStatus": {
+          "type": "string"
+        },
+        "locators": {
+          "type": "object",
+          "properties": {
+            "reading": {
+              "$ref": "#/$defs/file"
+            },
+            "readingJsonPointer": {
+              "type": "string",
+              "pattern": "^(|/.*)$"
+            },
+            "sourceFiles": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/file"
+              }
+            },
+            "sourceEnvelope": {
+              "$ref": "#/$defs/envelope"
+            }
+          },
+          "required": [
+            "reading",
+            "readingJsonPointer",
+            "sourceFiles"
+          ],
+          "additionalProperties": false
+        },
+        "recordType": {
+          "const": "published_lesson_source_package"
+        }
+      },
+      "required": [
+        "id",
+        "language",
+        "lessonId",
+        "sourceKind",
+        "readingMetadata",
+        "publishedReviewStatus",
+        "locators",
+        "recordType"
+      ],
+      "additionalProperties": false
+    },
+    "reading": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "lessonId": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "readingMetadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "reading": {
+          "$ref": "#/$defs/file"
+        },
+        "recordType": {
+          "const": "published_reading_without_located_complete_envelope"
+        }
+      },
+      "required": [
+        "id",
+        "language",
+        "lessonId",
+        "status",
+        "reason",
+        "readingMetadata",
+        "reading",
+        "recordType"
+      ],
+      "additionalProperties": false
+    },
+    "sourceRecord": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "lessonId": {
+          "type": "string"
+        },
+        "metadata": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "locator": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "file": {
+                  "$ref": "#/$defs/file"
+                },
+                "jsonPointer": {
+                  "type": "string",
+                  "pattern": "^(|/.*)$"
+                }
+              },
+              "required": [
+                "file",
+                "jsonPointer"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "envelope": {
+                  "$ref": "#/$defs/file"
+                },
+                "member": {
+                  "type": "string"
+                },
+                "memberSha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "memberJsonPointer": {
+                  "type": "string",
+                  "pattern": "^(|/.*)$"
+                }
+              },
+              "required": [
+                "envelope",
+                "member",
+                "memberSha256",
+                "memberJsonPointer"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        "publication": {
+          "type": "string"
+        },
+        "recordType": {
+          "const": "source_metadata"
+        },
+        "contentClassification": {
+          "const": "unclassified"
+        },
+        "quotationScope": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "language",
+        "lessonId",
+        "metadata",
+        "locator",
+        "publication",
+        "recordType",
+        "contentClassification",
+        "quotationScope"
+      ],
+      "additionalProperties": false
+    },
+    "occurrence": {
+      "type": "object",
+      "properties": {
+        "surah": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 114
+        },
+        "ayahOrReaderKey": {
+          "type": "string"
+        },
+        "mode": {
+          "type": "string"
+        },
+        "sourceReferenceAsPrinted": {
+          "type": "string"
+        },
+        "reader": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "repository": {
+                  "type": "string"
+                },
+                "commit": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{40}$"
+                },
+                "path": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "pattern": "^https://"
+                },
+                "verification": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "repository",
+                "commit",
+                "path",
+                "url",
+                "verification"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceTypeStatus": {
+          "type": "string"
+        },
+        "religiousMeaningReviewStatus": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "surah",
+        "ayahOrReaderKey",
+        "mode",
+        "sourceReferenceAsPrinted",
+        "reader",
+        "sourceTypeStatus"
+      ],
+      "additionalProperties": false
+    },
+    "citationKey": {
+      "type": "object",
+      "properties": {
+        "familyId": {
+          "type": "string"
+        },
+        "variantId": {
+          "type": "string"
+        },
+        "contentKind": {
+          "enum": [
+            "unclassified_report_or_saying",
+            "companion_saying_attributed_not_prophetic",
+            "prophetic_report_with_historical_narration"
+          ]
+        },
+        "kindNote": {
+          "type": "string"
+        },
+        "sourceBook": {
+          "type": "string"
+        },
+        "numberAsIndexed": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "numberingStatus": {
+          "type": "string"
+        },
+        "narrator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sourceSpecificGrades": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": {
+              "type": [
+                "string",
+                "number",
+                "boolean",
+                "null"
+              ]
+            }
+          }
+        },
+        "primarySourceLinks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": {
+              "type": [
+                "string",
+                "number",
+                "boolean",
+                "null"
+              ]
+            }
+          }
+        },
+        "nativePublications": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": {
+              "type": [
+                "string",
+                "number",
+                "boolean",
+                "null"
+              ]
+            }
+          }
+        },
+        "sourceUseStatus": {
+          "type": "string"
+        },
+        "transmissionStatus": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "language": {
+          "const": "ar"
+        },
+        "occurrences": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/occurrence"
+          }
+        },
+        "recordType": {
+          "const": "quran_reader_citation_key"
+        }
+      },
+      "required": [
+        "familyId",
+        "variantId",
+        "contentKind",
+        "kindNote",
+        "sourceBook",
+        "numberAsIndexed",
+        "numberingStatus",
+        "narrator",
+        "sourceSpecificGrades",
+        "primarySourceLinks",
+        "nativePublications",
+        "sourceUseStatus",
+        "transmissionStatus",
+        "id",
+        "language",
+        "occurrences",
+        "recordType"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

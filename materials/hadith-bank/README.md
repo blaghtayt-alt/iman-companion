@@ -25,3 +25,7 @@ These language catalogs point to whole, already published lesson readings and th
 ## Arabic Quran-reader citation research
 
 - [Arabic Quran-reader source reference index](arabic-quran-reference-index/README.md) — Research index of Arabic Quran-reader citations; candidate links, narrators, and report variants require further verification.
+
+## Explore authored topics and source references
+
+- [Browse the organized source bank](organized/README.md) — Search the authored chapter and lesson titles, published package references, and Quran-reader citation metadata. Topic titles alone do not imply publication, approval, or one authenticated hadith per lesson.

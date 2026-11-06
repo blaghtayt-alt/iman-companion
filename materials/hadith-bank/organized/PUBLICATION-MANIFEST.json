@@ -1,0 +1,48 @@
+{
+  "schema": "organized-public-handoff-manifest-v2",
+  "status": "prepared for sole-integrator review; not deployed by this handoff",
+  "targetDirectory": "materials/hadith-bank/organized",
+  "allowlist": [
+    {
+      "path": "materials/hadith-bank/organized/README.md",
+      "sha256": "87467fbea95110d7a1d5472a8282081b91de436ab9a9d284c57d24c888d9e5d4",
+      "bytes": 4247
+    },
+    {
+      "path": "materials/hadith-bank/organized/BROWSE.md",
+      "sha256": "922c8f59bfd6585852b06c983b77ad2fb5678b896ce780bcd00514c1179d4c26",
+      "bytes": 42552
+    },
+    {
+      "path": "materials/hadith-bank/organized/INDEX.json",
+      "sha256": "8bb5c9fe432e483e80e864c83ec16fc5ec88e7197219f5adac1de26a5eb8154b",
+      "bytes": 2739873
+    },
+    {
+      "path": "materials/hadith-bank/organized/INDEX.schema.json",
+      "sha256": "e48dc956b29d04c6795a307ce0974340d67578f5bf58d66374db560a8f56a5eb",
+      "bytes": 15504
+    },
+    {
+      "path": "materials/hadith-bank/organized/search.py",
+      "sha256": "bb11234ce3bb66290d3a0b28b32a8fe4c19724756af0bf8bf1bd9f93e824f024",
+      "bytes": 5422
+    }
+  ],
+  "manifestSelf": {
+    "path": "materials/hadith-bank/organized/PUBLICATION-MANIFEST.json",
+    "hashLocation": "The SHA-256 of this manifest is recorded in the separate integration handoff to avoid self-reference."
+  },
+  "publicationBoundaries": [
+    "Only the listed files and this manifest are in the organized public payload.",
+    "No private inventories, build tools, validation files, session data, new source-body copies, or internal paths are included.",
+    "Authored title metadata is navigation; it does not establish publication or review of a lesson body.",
+    "No source-reference number or normalized title establishes narration identity."
+  ],
+  "baselines": {
+    "sourcePackageCommit": "76d8b0bbeed05280b9964748b24437ed2dce0191",
+    "existingBankCatalogCommit": "5cf37322fc6f06e541d20fe13b47f9405bab3c03",
+    "existingBankIndexGitBlob": "b00c1a7ff82a17edb546d86a8d668133e19780c4",
+    "arabicQuranCitationCommit": "99758d5faacb0be935676dd216d0f230ddd73dcd"
+  }
+}
