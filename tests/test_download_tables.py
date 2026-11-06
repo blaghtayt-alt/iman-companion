@@ -55,5 +55,9 @@ with tempfile.TemporaryDirectory(dir=W,prefix='download-table-test-') as tmp:
  run=subprocess.run([sys.executable,str(P/'books/index_units.py'),'--root',str(checkroot),'--commit','test-source'],capture_output=True,text=True)
  assert run.returncode==0,run.stderr
  m=json.loads((checkroot/'books/manifest.json').read_text(encoding='utf-8'));assert len(m['units'])==2 and m['previewOnly'] is True;passed('Source archives excluded and sample catalogue flagged as preview')
+ # A production-shaped catalogue cannot bypass reconciliation merely by supplying units.
+ cat['languages']={'ar':'Arabic'};cat['scope']='production';(checkroot/'materials/catalog.json').write_text(json.dumps(cat,ensure_ascii=False),encoding='utf-8')
+ run=subprocess.run([sys.executable,str(P/'books/index_units.py'),'--root',str(checkroot),'--commit','test-source'],capture_output=True,text=True)
+ assert run.returncode!=0 and 'Production indexing held' in run.stderr;passed('Production indexing held until current catalogue reconciliation')
 receipt={'passedChecks':len(results),'results':results,'scope':'Download table generation, actual staged-asset hash guards, README preservation, native labels and source archive eligibility. Synthetic byte fixtures only test link generation; no books or online changes were made by these tests.'}
 (P/'DOWNLOAD-TABLE-VERIFICATION.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps({'passedChecks':len(results)}))

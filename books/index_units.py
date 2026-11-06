@@ -11,6 +11,11 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--commit',required=True);args=p.parse_args();root=args.root.resolve()
     units=[];seen=set();covered=set()
     catalog=json.loads((root/'materials/catalog.json').read_text(encoding='utf-8-sig'))
+    # The current public catalogue still needs reconciliation against the app's
+    # rewritten Seerah and other current-source decisions. Do not infer current
+    # status from catalogue fields alone or make a production manifest yet.
+    if catalog.get('languages') and 'preview' not in str(catalog.get('scope','')).lower():
+        raise ValueError('Production indexing held: reconcile current catalogue and complete source-bound review first')
     scope={'tadabbur','articles','seerah','essential-hadith'}
     def eligible(e):
         excluded={'held','withdrawn','archived','archive','source-archive','historical','superseded','not-currently-available','draft','work-in-progress'}
