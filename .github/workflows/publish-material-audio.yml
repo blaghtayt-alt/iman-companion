@@ -1,0 +1,46 @@
+name: Publish material audio player
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['materials/audio/publish.json', 'materials/seerah/new-adult/**', 'books/publish_material_audio.py', 'docs/listen/**', '.github/workflows/publish-material-audio.yml']
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: material-audio-publication
+  cancel-in-progress: true
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify existing published source and expose exact audio bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python books/publish_material_audio.py --root .
+      - name: Publish native player registry
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- materials/audio/registry.json docs/listen/materials.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish exact material audio player links'
+            git fetch origin main
+            git rebase origin/main
+            python books/publish_material_audio.py --root . --verify-only
+            git push origin HEAD:refs/heads/main
+          fi
+          gh api --method POST repos/${{ github.repository }}/pages/builds
+      - name: Record publication result
+        run: |
+          python -c "import json; d=json.load(open('docs/listen/materials.json')); print(json.dumps({'publishedPlayerEntries':len(d['entries']),'playerBase':d['playerBase']}))"
