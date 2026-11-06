@@ -8,7 +8,8 @@ import argparse,json,hashlib,sys
 from build_books import check_unit,inside
 def sha(b):return hashlib.sha256(b).hexdigest()
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--commit',required=True);args=p.parse_args();root=args.root.resolve()
+    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--commit',required=True);p.add_argument('--language');p.add_argument('--collection',choices=['tadabbur-extended','articles','seerah','hadith']);args=p.parse_args();root=args.root.resolve()
+    if bool(args.language)!=bool(args.collection):raise ValueError('Select a language and collection together')
     units=[];seen=set();covered=set()
     catalog=json.loads((root/'materials/catalog.json').read_text(encoding='utf-8-sig'))
     # The current public catalogue still needs reconciliation against the app's
@@ -20,9 +21,12 @@ def main():
     def eligible(e):
         excluded={'held','withdrawn','archived','archive','source-archive','historical','superseded','not-currently-available','draft','work-in-progress'}
         return e.get('collection') in scope and (e.get('collection')!='tadabbur' or e.get('mode')=='extended') and not e.get('archived') and e.get('current',True) is not False and not any(str(e.get(k,'')).lower() in excluded for k in ['status','publicationStatus','translationStatus']) and not any('/source-archive/' in str(e.get(k,'')) for k in ['json','markdown'])
-    expected={(e['collection'],e['language'],str(e['id'])) for e in catalog['entries'] if eligible(e)}
+    collectionmap={'tadabbur':'tadabbur-extended','articles':'articles','seerah':'seerah','essential-hadith':'hadith'}
+    def within(e):return not args.language or (e.get('language')==args.language and collectionmap.get(e.get('collection'))==args.collection)
+    expected={(e['collection'],e['language'],str(e['id'])) for e in catalog['entries'] if eligible(e) and within(e)}
     for file in sorted((root/'books/units/current').rglob('*.json')):
         raw=file.read_bytes();unit=json.loads(raw)
+        if args.language and (unit.get('language')!=args.language or unit.get('collection')!=args.collection):continue
         record={k:unit[k] for k in ['language','collection','id']};record.update(path=file.relative_to(root).as_posix(),sha256=sha(raw))
         check_unit(unit,record)
         # Explicit live bindings make the reader snapshot reproducible and prevent
@@ -43,7 +47,7 @@ def main():
         seen.add(key);units.append(record)
     if not units:raise ValueError('No published normalized reader units are available')
     if covered!=expected:raise ValueError('New catalogue materials lack book reader units: '+repr(sorted(expected-covered)[:12]))
-    result={'schema':'iman-book-manifest-v1','sourceCommit':args.commit,'previewOnly':not bool(catalog.get('languages')) or 'preview' in str(catalog.get('scope','')).lower(),'units':units}
+    result={'schema':'iman-book-manifest-v1','sourceCommit':args.commit,'previewOnly':not bool(catalog.get('languages')) or 'preview' in str(catalog.get('scope','')).lower(),'units':units,'scope':{'language':args.language,'collection':args.collection} if args.language else None}
     (root/'books/manifest.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'boundUnits':len(units)}))
 if __name__=='__main__':main()

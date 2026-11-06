@@ -73,9 +73,23 @@ with tempfile.TemporaryDirectory(dir=W,prefix='download-table-test-') as tmp:
  run=subprocess.run([sys.executable,str(P/'books/index_units.py'),'--root',str(checkroot),'--commit','test-source'],capture_output=True,text=True)
  assert run.returncode==0,run.stderr
  m=json.loads((checkroot/'books/manifest.json').read_text(encoding='utf-8'));assert len(m['units'])==2 and m['previewOnly'] is True;passed('Source archives excluded and sample catalogue flagged as preview')
+ # Scope coverage to one actual language and collection, without accepting partial groups.
+ cat['entries'].append({'collection':'seerah','language':'ar','id':'unreconciled','status':'published','json':'materials/seerah/unreviewed.json'})
+ (checkroot/'materials/catalog.json').write_text(json.dumps(cat,ensure_ascii=False),encoding='utf-8')
+ command=[sys.executable,str(P/'books/index_units.py'),'--root',str(checkroot),'--commit','test-source']
+ run=subprocess.run(command+['--language','ar','--collection','hadith'],capture_output=True,text=True)
+ m=json.loads((checkroot/'books/manifest.json').read_text(encoding='utf-8'))
+ assert run.returncode==0 and m['previewOnly'] is True and len(m['units'])==2 and m['scope']=={'language':'ar','collection':'hadith'};passed('An unrelated collection does not block the selected group')
+ run=subprocess.run(command,capture_output=True,text=True);assert run.returncode!=0 and 'lack book reader units' in run.stderr;passed('Unscoped indexing checks every eligible group')
+ cat['entries'].append({'collection':'essential-hadith','language':'ar','id':'missing','json':'missing.json'})
+ (checkroot/'materials/catalog.json').write_text(json.dumps(cat,ensure_ascii=False),encoding='utf-8')
+ run=subprocess.run(command+['--language','ar','--collection','hadith'],capture_output=True,text=True);assert run.returncode!=0 and 'lack book reader units' in run.stderr;passed('Missing selected-group unit blocks that group')
+ cat['entries'].pop();run=subprocess.run(command+['--language','ar'],capture_output=True,text=True);assert run.returncode!=0 and 'Select a language and collection together' in run.stderr;passed('Incomplete scope selection is rejected')
  # A production-shaped catalogue cannot bypass reconciliation merely by supplying units.
  cat['languages']={'ar':'Arabic'};cat['scope']='production';(checkroot/'materials/catalog.json').write_text(json.dumps(cat,ensure_ascii=False),encoding='utf-8')
  run=subprocess.run([sys.executable,str(P/'books/index_units.py'),'--root',str(checkroot),'--commit','test-source'],capture_output=True,text=True)
  assert run.returncode!=0 and 'Production indexing held' in run.stderr;passed('Production indexing held until current catalogue reconciliation')
+ run=subprocess.run(command+['--language','ar','--collection','hadith'],capture_output=True,text=True)
+ assert run.returncode!=0 and 'Production indexing held' in run.stderr;passed('Scoped indexing cannot bypass production review')
 receipt={'passedChecks':len(results),'results':results,'scope':'Download table generation, actual staged-asset hash guards, README preservation, native labels and source archive eligibility. Synthetic byte fixtures only test link generation; no books or online changes were made by these tests.'}
 (P/'DOWNLOAD-TABLE-VERIFICATION.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps({'passedChecks':len(results)}))
