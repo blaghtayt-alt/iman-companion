@@ -1,0 +1,29 @@
+name: Publish clean language-pack successors
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - language-packs/attin-draft-hold.json
+      - language-packs/publish_clean_attin_packs.py
+      - .github/workflows/publish-clean-attin-packs.yml
+permissions:
+  contents: write
+concurrency:
+  group: publish-clean-attin-packs
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify predecessors and publish exact clean successors
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python language-packs/publish_clean_attin_packs.py --root .
+      - name: Record activation status
+        run: echo 'Clean files are verified; catalog activation is a separate guarded step.'
