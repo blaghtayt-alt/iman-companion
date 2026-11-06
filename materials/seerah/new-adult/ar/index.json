@@ -48,8 +48,15 @@
       "readingSHA256": "3d8b4b75e8c521d649271333429182e66f1b3e0226a8aa1759a9f82a1794f22e",
       "audio": {
         "asset": "assets/learning/audio/seerah-new-adult/ar/chapter-03-63aea34d9f8c4bd8.opus",
+        "sha256": "c8e01ece3689582152a0fa88545977fb9a49790c2614f806ef631f82f5c857fd",
+        "reviewScope": "Owner approved a 30-second cleaned narration sample and previously checked three recitation transitions; no full human listening of the cleaned chapter is recorded.",
+        "processing": "Narration-only gentle denoising; recitation was not denoised, and final Opus encoding was regenerated."
+      },
+      "previousAudio": {
+        "asset": "assets/learning/audio/seerah-new-adult/ar/chapter-03-63aea34d9f8c4bd8.opus",
         "sha256": "8de5f1220572888741a5b36b4e7326951ce8c3068ae5b6609b479e9f529b5971",
-        "reviewScope": "Human checked three selected recitation transitions; no full human listening of the entire chapter is recorded."
+        "reviewScope": "Human checked three selected recitation transitions; no full human listening of the entire chapter is recorded.",
+        "status": "superseded-retained-for-history-and-rollback"
       }
     }
   ],
@@ -68,10 +75,18 @@
     "manifestSha256": "090f53889e8bd28ff06eaef2099522322ec6d7fcc86b173eb3e4fb5397033b1c"
   },
   "chapter3AudioAddon": {
+    "file": "iman-ar-seerah-03-8edbb86d718dbd7f9317.zip",
+    "version": "8edbb86d718dbd7f9317",
+    "bytes": 12435307,
+    "sha256": "8a17b7b722cdcfea1c9492b53ea079c2b66d154be643f8b11fe8b46781f0337e",
+    "manifestSha256": "46c54fa11a57b4c9d259637a0030939489e9ea2078ef09edf7f8f54f5bb634e2"
+  },
+  "previousChapter3AudioAddon": {
     "file": "iman-ar-seerah-03-0d6552c1fd8758c65e14.zip",
     "version": "0d6552c1fd8758c65e14",
     "bytes": 12597214,
     "sha256": "dabc8e5da0f7765aefe980b0f49391675f6d184b800c3c3275c04e6581f28185",
-    "manifestSha256": "6f8419264b5a5f9d51954732c21830dbce968fc0c6610ec667353b4d538f002c"
+    "manifestSha256": "6f8419264b5a5f9d51954732c21830dbce968fc0c6610ec667353b4d538f002c",
+    "status": "superseded-retained-for-history-and-rollback"
   }
 }
