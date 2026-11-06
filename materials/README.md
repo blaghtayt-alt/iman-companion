@@ -15,6 +15,7 @@
 - [Arabic An-Naba Simplified reflections: 78:1–40 and sources](tadabbur/ar/simplified/078.md)
 - [Arabic Maryam Simplified reflections: 19:1–98 and sources](tadabbur/ar/simplified/019.md)
 
+- [Revised adult Seerah: Arabic chapters 1–2 and audio package](seerah/new-adult/ar/README.md)
 - [Seerah: chapters and language coverage](seerah/combined/README.md)
 - [Arabic Essential Iman Hadiths: 286 lessons in 12 chapters](hadith/essential-ar/README.md)
 - [Essential Iman lesson 01-002 in all 20 app languages](hadith/essential-01-002/README.md)
