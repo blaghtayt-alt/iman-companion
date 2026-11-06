@@ -1,5 +1,9 @@
 # Material index
 
+## Source reference index
+
+- [Arabic Quran-reader source reference index](hadith-bank/arabic-quran-reference-index/README.md) — Research index of Arabic Quran-reader citations; candidate links, narrators, and report variants require further verification.
+
 ## Current reading collections
 
 - [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Japanese and Filipino units, 39 lessons each and source documents](under-5/README.md)

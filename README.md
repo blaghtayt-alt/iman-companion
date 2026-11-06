@@ -14,6 +14,8 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 
 ## Start here
 
+- [Arabic Quran-reader source reference index](materials/hadith-bank/arabic-quran-reference-index/README.md) — Research index of Arabic Quran-reader citations; candidate links, narrators, and report variants require further verification.
+
 - [Alp Arslan edition metadata](language-packs/metadata/alp-arslan/editions.json) and [delivery notes](language-packs/handoffs/alp-arslan)
 - [Seerah chapters and current language coverage](materials/seerah/combined/README.md)
 - [Japanese Al-Qiyamah reflections, 75:1–40, with sources](materials/tadabbur/ja/extended/075.md)
