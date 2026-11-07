@@ -1,0 +1,30 @@
+{
+  "schema": "iman-native-page-glyphs-v1",
+  "fontTools": "4.51.0",
+  "fonts": {
+    "DigitsArabic": {
+      "family": "Iman Book DigitsArabic",
+      "files": {
+        "Regular": "books/assets/ornaments/DigitsArabic-Regular.ttf",
+        "Bold": "books/assets/ornaments/DigitsArabic-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "63788c05505099c00cbfe79b7b8f343b1b325c28ebe27f049a60f8a501f11968",
+        "Bold": "0e9d679a48ea21bbb106df60c5b46611cfe6352c228bf68ffe64337345a8a2d1"
+      }
+    },
+    "DigitsPersian": {
+      "family": "Iman Book DigitsPersian",
+      "files": {
+        "Regular": "books/assets/ornaments/DigitsPersian-Regular.ttf",
+        "Bold": "books/assets/ornaments/DigitsPersian-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "b8142013eb1d08e74fa22431eaa2b886a333b8dff0fd012fa85ad498b4586b86",
+        "Bold": "e4a6865062c945996d334d4ff36168b45da172c60019e15da59bf4d4ad779148"
+      }
+    }
+  },
+  "semanticValueUnchanged": true,
+  "purpose": "Normal PAGE results keep their numeric value; glyphs use the book language independently of Word numeral preferences. Original copyright/license name records retained."
+}

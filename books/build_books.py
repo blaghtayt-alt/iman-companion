@@ -83,6 +83,8 @@ def fonts_for(conf,lang,root):
     ar=conf['fonts']['Arabic']
     result={}
     extra=[conf['fonts'][k]for k in['SymbolsLTR','SymbolsRTL']if k in conf['fonts']]
+    native={'ar':'DigitsArabic','ur':'DigitsPersian','fa':'DigitsPersian'}.get(lang)
+    if native and native in conf['fonts']:extra.append(conf['fonts'][native])
     for family in [f,ar,conf['fonts']['Latin'],*extra]:
         styles={}
         for style,relative in family['files'].items():

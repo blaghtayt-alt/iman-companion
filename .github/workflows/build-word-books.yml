@@ -30,6 +30,7 @@ jobs:
           python tests/test_book_fonts.py
           python books/test_script_fonts.py
           python books/test_word_layout_check.py
+          python books/test_native_word_footer.py
           python books/test_book_edition_scope.py
           python tests/test_article_adapter.py
           python tests/test_articles_export.py
