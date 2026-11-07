@@ -175,7 +175,8 @@ def write_catalog(root,out,ready,bundles):
           'digits':NATIVE_DIGITS.get(language,'0123456789'),'font':font_assets(root,conf,language),'books':[],'bundle':bundles.get(language)}
         for book in inventory(ready,language):
             pdf=source_file(root,out,book,'pdf')
-            row['books'].append({'language':language,'collection':book['collection'],'title':lc['titles'][book['collection']],
+            title=book['collectionLabel'] if book.get('editionScope') else lc['titles'][book['collection']]
+            row['books'].append({'language':language,'collection':book['collection'],'title':title,
               'cover':cover_asset(root,pdf,book['pdfSha256']),'docx':book['download'],'pdf':book['pdfDownload'],
               'sha256':book['sha256'],'pdfSha256':book['pdfSha256'],'units':len(book['units']),'pages':book.get('pages'),
               'audio':len(book.get('audioPanels',[])),'contents':[{'id':u['id'],'title':u['title']}for u in book['units']]})

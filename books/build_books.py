@@ -223,7 +223,7 @@ def cover_page(doc,cover,width,height):
     inline.getparent().replace(inline,anchor)
     return doc.add_section(WD_SECTION.NEW_PAGE)
 
-def build_book(root,out,conf,lang,collection,units,commit):
+def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
     if collection not in COLLECTIONS:raise ValueError('Only public collection books can be built')
     lc={**conf['languages'][lang],**locale(lang)};family,arabic,fonts=fonts_for(conf,lang,root)
     audio_registry=load_registry(root,conf);audio_panels=[]
@@ -268,7 +268,10 @@ def build_book(root,out,conf,lang,collection,units,commit):
     normal=doc.styles['Normal'];normal.paragraph_format.line_spacing_rule=WD_LINE_SPACING.AT_LEAST;normal.paragraph_format.line_spacing=Pt(line);normal.paragraph_format.space_after=Pt(7);normal.paragraph_format.widow_control=True
     for name,n in [('Title',26),('Heading 1',22),('Heading 2',17),('Heading 3',13)]:
         style=doc.styles[name];style.font.size=Pt(n);style.font.bold=True;style.font.color.rgb=RGBColor.from_string(ROLES['heading']);style.paragraph_format.keep_with_next=True
-    p=sec.header.paragraphs[0];direction(p,lang);add_text(p,lc['brand']+' · '+title,lang,family,arabic,8,'heading')
+    scope_titles=[u['title'] for u in units] if edition_report else []
+    scope_summary=(scope_titles[0]+(f' (+{len(scope_titles)-1})' if len(scope_titles)>1 else '')) if scope_titles else ''
+    scoped_label=title+(' · '+scope_summary if scope_summary else '')
+    p=sec.header.paragraphs[0];direction(p,lang);add_text(p,lc['brand']+' · '+scoped_label,lang,family,arabic,8,'heading')
     p=sec.footer.paragraphs[0];direction(p,'en',True)
     if lang in RTL:
         from native_pagination import append_native_number
@@ -276,6 +279,8 @@ def build_book(root,out,conf,lang,collection,units,commit):
     else:
         r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'begin'});el(r._r,'w:instrText').text=' PAGE ';el(r._r,'w:fldChar',{'w:fldCharType':'end'})
     p=doc.add_paragraph(style='Title');direction(p,lang);add_text(p,title,lang,family,arabic,26,'heading',True)
+    if scope_summary:
+        p=doc.add_paragraph();direction(p,lang);add_text(p,scope_summary,lang,family,arabic,17,'heading',True)
     p=doc.add_paragraph();direction(p,lang);add_text(p,lc['brand'],lang,family,arabic,size)
     if lang!='ar':
         p=doc.add_paragraph();direction(p,lang);add_text(p,lc['notice'],lang,family,arabic,10)
@@ -356,6 +361,9 @@ def build_book(root,out,conf,lang,collection,units,commit):
         native_text(label,lang)
         public_units.append({'id':u['id'],'title':label,'sourceHashes':u['sourceHashes'],'readerTextSHA256':u['readerTextSHA256']})
     result={'language':lang,'languageLabel':lc['nativeName'],'collection':collection,'collectionLabel':title,'file':target.name,'sha256':digest(target.read_bytes()),'units':public_units,'sourceCommit':commit,'bodyColor':'#000000','rtl':lang in RTL,'arabicAyahs':'centered','quranReferences':'directly after quoted ayah','referencePresentation':'original Hadith collection and number in footnotes; no retrieval-site labels','footnoteCount':len(notes.texts),'hadithCount':hadith_count,'audioPanels':audio_panels}
+    if edition_report:
+        result['collectionLabel']=scoped_label
+        result['editionScope']={'policy':edition_report['policy'],'includedMaterialTitles':scope_titles,'includedMaterialIds':[u['id'] for u in units]}
     if collection=='seerah':
         checks=[u.get('referenceReadiness') for u in units]
         result['referenceReadiness']={'units':len(units),'auditedUnits':sum(isinstance(x,dict) for x in checks),'unboundQuranSegments':sum(x.get('unboundQuranSegments',0) for x in checks if isinstance(x,dict)),'unboundHadithSegments':sum(x.get('unboundHadithSegments',0) for x in checks if isinstance(x,dict))}
@@ -373,6 +381,12 @@ def main():
     if manifest['sourceCommit']!=args.commit:raise ValueError('Manifest not bound to checked-out source commit')
     if not manifest.get('previewOnly'):
         if digest((root/'materials/catalog.json').read_bytes())!=manifest.get('catalogSHA256') or digest((root/'books/reviewed-books.json').read_bytes())!=manifest.get('reviewedBooksSHA256'):raise ValueError('Reviewed source scope changed after indexing')
+        if manifest.get('editionReconciliation'):
+            from book_edition_scope import select
+            scope=manifest['scope'];declarations=load(root/'books/reviewed-books.json')['books']
+            declaration=next(d for d in declarations if (d['language'],d['collection'])==(scope['language'],scope['collection']))
+            _,report=select(root,load(root/'materials/catalog.json'),declaration)
+            if report!=manifest['editionReconciliation']:raise ValueError('Reviewed edition evidence changed after indexing')
     groups={};identities=set()
     for record in manifest['units']:
         identity=(record['language'],record['collection'],record['id'])
@@ -386,7 +400,7 @@ def main():
     if not groups:raise ValueError('No approved complete units; no empty books will be published')
     result=[]
     for (lang,collection),units in sorted(groups.items()):
-        units.sort(key=canonical_key);result.append(build_book(root,out,conf,lang,collection,units,args.commit))
+        units.sort(key=canonical_key);result.append(build_book(root,out,conf,lang,collection,units,args.commit,manifest.get('editionReconciliation')))
     coverage=[{'language':l,'collection':c,'available':(l,c) in groups} for l in conf['languages'] for c in sorted(COLLECTIONS)]
     for book in result:
         book['previewOnly']=bool(manifest.get('previewOnly'))

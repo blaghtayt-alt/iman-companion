@@ -63,7 +63,7 @@ def render_ready(conf,ready,repo,bundles=None):
     """Render independently verified immutable pairs across different releases."""
     languages=conf['languages']
     if set(languages)!=set(COPY):raise ValueError('Download labels must cover all 20 configured languages')
-    intro=('Book editions are in preparation. Links appear only after the Word and PDF files have been verified.' if not ready else 'Each download contains the currently available complete published material in that language. The language pages show how many items are included. New extended Hadith lessons and extended Quran reflections use the approved book layout.')
+    intro=('Book editions are in preparation. Links appear only after the Word and PDF files have been verified.' if not ready else 'Each book contains the verified material listed on its language page. New extended Hadith lessons and extended Quran reflections use the approved book layout.')
     root=['### Books by language','',intro,'', '| Language | '+' | '.join(HEADERS)+' |','| --- | --- | --- | --- | --- |'];pages={}
     if bundles is not None:
         if set(bundles)-set(languages):raise ValueError('Unknown combined-download language')
@@ -82,13 +82,22 @@ def render_ready(conf,ready,repo,bundles=None):
         for text in COPY[lang]:native_text(text,lang)
         native=locale(lang)['nativeName'];row=[f'[{cell(native)}](https://github.com/{repo}/blob/main/books/downloads/{quote(lang)}/README.md)']
         page=['# '+title,'',native,'','| '+' | '.join([booklabel,editable,reading,count])+' |','| --- | --- | --- | --- |']
+        edition_details=[]
         for collection in COLLECTIONS:
-            item=ready.get((lang,collection));label=lc['titles'][collection];native_text(label,lang)
+            item=ready.get((lang,collection));label=lc['titles'][collection]
+            if item and item.get('editionScope'):
+                label=item['collectionLabel'];titles=item['editionScope']['includedMaterialTitles']
+                if not isinstance(titles,list) or not titles:raise ValueError('Edition must identify its included material')
+                for included in titles:native_text(included,lang)
+                edition_details.append((label,titles))
+            native_text(label,lang)
             if item:
                 row.append(f'[{cell(editable)}]({item["download"]}) · [{cell(reading)}]({item["pdfDownload"]})')
                 page.append('| '+' | '.join([cell(label),f'[{DOWNLOADS[lang][0]}]({item["download"]})',f'[{DOWNLOADS[lang][1]}]({item["pdfDownload"]})',digits(str(len(item.get('units',[]))),lang)])+' |')
             else:
                 row.append(cell(pending));page.append('| '+' | '.join([cell(label),pending,pending,'—'])+' |')
+        for edition_label,titles in edition_details:
+            page+=['','## '+cell(edition_label),'']+['- '+cell(t) for t in titles]
         if bundles is not None:
             together,merged,zipped=BUNDLE_COPY[lang]
             for text in BUNDLE_COPY[lang]:native_text(text,lang)
