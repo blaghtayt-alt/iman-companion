@@ -1,0 +1,46 @@
+{
+  "schema": "iman-book-manifest-v1",
+  "sourceCommit": "9cceec8be6a3b6c7957e6d0c189c9bb514498483",
+  "previewOnly": false,
+  "units": [
+    {
+      "language": "hi",
+      "collection": "tadabbur-extended",
+      "id": "112:extended",
+      "path": "books/units/generated/hi-tadabbur-extended-e8ec3bb55ab89058/112%3Aextended.json",
+      "sha256": "19fb2ec936c116ef1789765fa1730be5add9cfd00c864a468f0564061a60fd09"
+    }
+  ],
+  "scope": {
+    "language": "hi",
+    "collection": "tadabbur-extended"
+  },
+  "catalogSHA256": "d7e38d5e603f94532e3c6dc7ec362b986d5ad127749503c97e5a0c03005e9996",
+  "reviewedBooksSHA256": "79786c172941418a9145cb4e8cbe8be9991655210c9898dccae8de5ef4463373",
+  "editionReconciliation": {
+    "schema": "iman-reviewed-edition-reconciliation-v1",
+    "policy": "reviewed-source-edition-v1",
+    "language": "hi",
+    "collection": "tadabbur-extended",
+    "sourceReviewBindings": [
+      {
+        "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
+        "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+      }
+    ],
+    "selected": [
+      {
+        "collection": "tadabbur",
+        "language": "hi",
+        "id": "112:extended",
+        "basis": {
+          "kind": "existing-source-review",
+          "recordSHA256": "1d7654ebdc8ff7f5571a6a902651cb562eeab061640e93ea1b50d8b29e31cd01"
+        }
+      }
+    ],
+    "unknownLegacyRows": [],
+    "unknownRowsApproved": false,
+    "unknownRowsHeld": false
+  }
+}

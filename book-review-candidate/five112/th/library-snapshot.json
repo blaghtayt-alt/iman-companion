@@ -1,0 +1,115 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "th",
+        "languageLabel": "ไทย",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "บทใคร่ครวญ อัลกุรอาน · ใคร่ครวญซูเราะฮ์อัลอิคลาศ",
+        "file": "Iman_Companion_th_tadabbur-extended.docx",
+        "sha256": "11654556aa031f0ea8a3c7d90b174e7b7e6c3f275fa13c09a492f5d8dc9ad45c",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "ใคร่ครวญซูเราะฮ์อัลอิคลาศ",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "100079842684e7573f8835a0eb209093549e5825bfe77c5d8bc966d2603f8742"
+          }
+        ],
+        "sourceCommit": "9cceec8be6a3b6c7957e6d0c189c9bb514498483",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 19,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "editionScope": {
+          "policy": "reviewed-source-edition-v1",
+          "includedMaterialTitles": [
+            "ใคร่ครวญซูเราะฮ์อัลอิคลาศ"
+          ],
+          "includedMaterialIds": [
+            "112:extended"
+          ]
+        },
+        "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 24,
+        "wordContentsVerification": {
+          "pages": 24,
+          "matchedEntries": 5,
+          "docxSHA256": "11654556aa031f0ea8a3c7d90b174e7b7e6c3f275fa13c09a492f5d8dc9ad45c",
+          "receiptSHA256": "b6099e3a65f855b9e2f2052457936b1d2433c671264d544e9c948eaf04d2fb49",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
+        "audioQRVerification": [],
+        "pages": 19,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_th_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_th_tadabbur-extended.pdf",
+        "pdfSha256": "9613db9394bea928482f0a7a3b778ded30ca9ece634ec2646cba39a0e76a400a",
+        "exportVerified": true
+      },
+      "snapshot": {
+        "catalogSHA256": "dbdc32c17587a4ffb3bbee33a55e1cf8c8bc425c57651b6e7e5035d281372c91",
+        "scopeSettingsSHA256": "82a1c6c3a6a3d586e6c793a5ad32daac219edeedb3f55790f92b70c3da3177a7",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/th/112-001.json",
+            "sha256": "75c73a9109f6ab506be7ede84d30ad6eee67ade377eb415e6803cfcdffdb3b8f"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/th/112-002.json",
+            "sha256": "9194e23c4745f5b600245fbb100ce00dff93fb7a15f26d25c38c57957e31a4c5"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/th/112-003.json",
+            "sha256": "a53d5efc6e9fc93906c63997513979c73d53b0a23f5aa9991c66343d8180db7f"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/th/112-004.json",
+            "sha256": "9bff2cd9bcfd72e54483d151226c9ec4f7024117c6eac2581a9b8fd287f027b1"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/th/IKHLAS-TH-PUBLIC-SOURCES737.json",
+            "sha256": "6de67cdc3518a2ce73146972df4da7b39a3bda92c2c134b55bd3fec4d05c22aa"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/th/IKHLAS-TH-SOURCE-NOTE737.md",
+            "sha256": "e6079dd0b155f71c57bc042f74422e175efcb826d2d584283db5b66ca8cd7b8d"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/th/THAI-CONTEXT-GLOSSARY737.json",
+            "sha256": "67fb2672b80c4937cf717e00e59d8b0a11aaae8fd9a138e137b3a35e9b83642c"
+          },
+          {
+            "path": "materials/tadabbur/th/extended/112.json",
+            "sha256": "0e3bdda88553c00461b3c52e7c7b125f459bc37ac26dcb92c96004410abb6c0d"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "schema": "iman-book-manifest-v1",
+  "sourceCommit": "9cceec8be6a3b6c7957e6d0c189c9bb514498483",
+  "previewOnly": false,
+  "units": [
+    {
+      "language": "ar",
+      "collection": "tadabbur-extended",
+      "id": "112:extended",
+      "path": "books/units/generated/ar-tadabbur-extended-12211531c40f7fed/112%3Aextended.json",
+      "sha256": "1648468b65b7292d1079e5dc806884321483d6ae6e77e1f6baabf4ebf5a25f7b"
+    }
+  ],
+  "scope": {
+    "language": "ar",
+    "collection": "tadabbur-extended"
+  },
+  "catalogSHA256": "d7e38d5e603f94532e3c6dc7ec362b986d5ad127749503c97e5a0c03005e9996",
+  "reviewedBooksSHA256": "79786c172941418a9145cb4e8cbe8be9991655210c9898dccae8de5ef4463373",
+  "editionReconciliation": {
+    "schema": "iman-reviewed-edition-reconciliation-v1",
+    "policy": "reviewed-source-edition-v1",
+    "language": "ar",
+    "collection": "tadabbur-extended",
+    "sourceReviewBindings": [
+      {
+        "path": "materials/tadabbur/ikhlas-112/arabic-current-reader-binding.json",
+        "sha256": "cef592d357eb0b4ffa6170c6d2eace44e05829df4216919b61601bf8f202a887"
+      }
+    ],
+    "selected": [
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "112:extended",
+        "basis": {
+          "kind": "existing-source-review",
+          "recordSHA256": "f0dcc7093f214f56677a122df6b50bb2d04db9db3139d44f7d17603c4c66ba2e"
+        }
+      }
+    ],
+    "unknownLegacyRows": [
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "1:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "2:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "3:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "4:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "5:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "6:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "7:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "11:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "12:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "13:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "14:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "15:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "17:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "18:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "19:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "20:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "22:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "25:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "28:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "29:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "30:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "31:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "33:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "34:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "35:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "36:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "40:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "41:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "42:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "43:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "45:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "47:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "48:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "49:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "50:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "51:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "55:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "57:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "58:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "61:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "62:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "63:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "64:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "66:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "67:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "68:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "70:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "71:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "72:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "73:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "74:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "75:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "78:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "79:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "80:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "81:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "82:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "83:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "84:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "85:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "86:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "87:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "88:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "89:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "90:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "91:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "92:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "93:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "94:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "95:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "96:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "98:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "99:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "100:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "101:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "102:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "103:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "104:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "107:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "108:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "111:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "113:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ar",
+        "id": "114:extended",
+        "reviewBinding": "UNKNOWN"
+      }
+    ],
+    "unknownRowsApproved": false,
+    "unknownRowsHeld": false
+  }
+}

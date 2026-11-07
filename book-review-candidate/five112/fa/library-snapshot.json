@@ -1,0 +1,115 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "fa",
+        "languageLabel": "فارسی",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "تدبر در قرآن · تأمل در سورهٔ اخلاص",
+        "file": "Iman_Companion_fa_tadabbur-extended.docx",
+        "sha256": "78941b1d4710c5e64a0ce7985e07f408286ae6d8a3bdd677079b92c962c6f2fb",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "تأمل در سورهٔ اخلاص",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "f0c78f8861b4ccede1b4ec7062f4550ad3fd77785c1c52424373d273b705ad4d"
+          }
+        ],
+        "sourceCommit": "9cceec8be6a3b6c7957e6d0c189c9bb514498483",
+        "bodyColor": "#000000",
+        "rtl": true,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 18,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "editionScope": {
+          "policy": "reviewed-source-edition-v1",
+          "includedMaterialTitles": [
+            "تأمل در سورهٔ اخلاص"
+          ],
+          "includedMaterialIds": [
+            "112:extended"
+          ]
+        },
+        "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 21,
+        "wordContentsVerification": {
+          "pages": 21,
+          "matchedEntries": 5,
+          "docxSHA256": "78941b1d4710c5e64a0ce7985e07f408286ae6d8a3bdd677079b92c962c6f2fb",
+          "receiptSHA256": "320fa2bc3bb186aa435377d5787b8d0983ad56dca8688341323c3e1c44c9ce54",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
+        "audioQRVerification": [],
+        "pages": 20,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_fa_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_fa_tadabbur-extended.pdf",
+        "pdfSha256": "17666306c90ece11fc4b8152c9a29ea463073eb29c23bc01cef11bd9603ebd77",
+        "exportVerified": true
+      },
+      "snapshot": {
+        "catalogSHA256": "19b64f069ba10ee02caa412152c3e60dd279c22bf6876089e6cba371b7c5ed24",
+        "scopeSettingsSHA256": "8638ad07d5a32182bcab774e9a7ff918f79386aaca3b4aaa00cdb3becdcbf0c9",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/fa/extended/112.json",
+            "sha256": "7cdf74ac8d95772ebbda09a963039ed97ba201ef7966a1fdeb657dcf545eba1e"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fa/112-001.json",
+            "sha256": "64c28270465a200fcc54bd6110142fa5123b1371756e536695bf40bf245fe6be"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fa/112-002.json",
+            "sha256": "c618f3be98c33a7d211a3f86d31a4bddefa9907d33a21b6fcd9ccf12a4f3f727"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fa/112-003.json",
+            "sha256": "8d53060d24e0f061296a3b9c91669d092217fd5b92130287fc4b717c3fb8917c"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fa/112-004.json",
+            "sha256": "82b1b607cae1915d61882ae0806bb925d03cb8c68cf8d1a1e837e675dcba679e"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fa/IKHLAS-FA-PUBLIC-SOURCES720.json",
+            "sha256": "52285e8e93cd9b726d65f6226fca542200257c94332596128a50693cb88bcd93"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fa/IKHLAS-FA-SOURCE-NOTE720.md",
+            "sha256": "4acb2ed88cf04fd3b311d7b2217c1383c333eaf600005bbe6f1f043d6a4fe0fb"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fa/PERSIAN-CONTEXT-GLOSSARY720.json",
+            "sha256": "afb99cf525da4e600e312bc47ae0ef9a919df8c2703c40b87e218ea60a4b5202"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          }
+        ]
+      }
+    }
+  ]
+}

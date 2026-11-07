@@ -1,0 +1,115 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "hi",
+        "languageLabel": "हिन्दी",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "क़ुरआन पर चिंतन · सूरा इख़लास — मनन",
+        "file": "Iman_Companion_hi_tadabbur-extended.docx",
+        "sha256": "7f7851b17122cd983a98932708c909cbd3874c0794f6619d77c96006d922733d",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "सूरा इख़लास — मनन",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "4df9ae376d03fad4a6904451c37f16b95c94b2dde41d5d415de94927e58afe44"
+          }
+        ],
+        "sourceCommit": "9cceec8be6a3b6c7957e6d0c189c9bb514498483",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 36,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "editionScope": {
+          "policy": "reviewed-source-edition-v1",
+          "includedMaterialTitles": [
+            "सूरा इख़लास — मनन"
+          ],
+          "includedMaterialIds": [
+            "112:extended"
+          ]
+        },
+        "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 23,
+        "wordContentsVerification": {
+          "pages": 23,
+          "matchedEntries": 5,
+          "docxSHA256": "7f7851b17122cd983a98932708c909cbd3874c0794f6619d77c96006d922733d",
+          "receiptSHA256": "684c13a376db1b5b2c09d2b4d200e416b04460dce892864db790c11f837dff42",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
+        "audioQRVerification": [],
+        "pages": 20,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_hi_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_hi_tadabbur-extended.pdf",
+        "pdfSha256": "d67ccc4cd7009ff4025a2e26e41f39c7e1ba2f242b8cf9603ae8739ce0201c19",
+        "exportVerified": true
+      },
+      "snapshot": {
+        "catalogSHA256": "b0b8d016ac12a0b59012fe635ac034faff60c2641986b4ba270e61637356d6fe",
+        "scopeSettingsSHA256": "cef38f6c5c2813774b4d0f249d288a4c8a850865fa40b09624c8d11d36229fa8",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/hi/extended/112.json",
+            "sha256": "1f6c554431df1c0e39eadfcb0390a8d4c42608e3c454822cf06ed70405d82991"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/hi/112-001.json",
+            "sha256": "5c46e2eb61cb62543db0d234e0dbf530c4f820770bf9d139e937b0d329e82676"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/hi/112-002.json",
+            "sha256": "664dd995705bec8f5206fdccdcb8fa8227472585cd4cd3e15b8800806cbb4fb3"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/hi/112-003.json",
+            "sha256": "dd93c0960926fc197aac298c0aa928c71b5491d3a04dfba089f7e83958f3ae1d"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/hi/112-004.json",
+            "sha256": "c05e7df82c771b8d2e94261dadde6ecf023dfd91c01d36be41ecd54a41eb5265"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/hi/HINDI-CONTEXT-GLOSSARY707.json",
+            "sha256": "8961db1a4f1e097796ba68016b14e67136b6a24b4c6f6c812b1394a7e03eb19b"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/hi/IKHLAS-HI-PUBLIC-SOURCES707.json",
+            "sha256": "933ac4df26197e1ecb2686da22622a84251d274b69cd458393eb63567d05b0e7"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/hi/IKHLAS-HI-SOURCE-NOTE707.md",
+            "sha256": "67e4d051ff11fce6e2df68d9ca6e723b07941867fa799808c3eea8e6a66cba37"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          }
+        ]
+      }
+    }
+  ]
+}

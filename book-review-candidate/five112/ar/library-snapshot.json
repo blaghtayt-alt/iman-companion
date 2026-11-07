@@ -1,0 +1,91 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "ar",
+        "languageLabel": "العربية",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "تدبر القرآن · تدبر سورة الإخلاص",
+        "file": "Iman_Companion_ar_tadabbur-extended.docx",
+        "sha256": "d14e8555e706d54210d646811a023932c8433f25e11205bbf696b3113b5e9c45",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "تدبر سورة الإخلاص",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "8de33a992fc900f2f297e2eb4f1c722c3947ed805b304d3c79ba85cc0357d7e9"
+          }
+        ],
+        "sourceCommit": "9cceec8be6a3b6c7957e6d0c189c9bb514498483",
+        "bodyColor": "#000000",
+        "rtl": true,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 23,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "editionScope": {
+          "policy": "reviewed-source-edition-v1",
+          "includedMaterialTitles": [
+            "تدبر سورة الإخلاص"
+          ],
+          "includedMaterialIds": [
+            "112:extended"
+          ]
+        },
+        "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 16,
+        "wordContentsVerification": {
+          "pages": 16,
+          "matchedEntries": 5,
+          "docxSHA256": "d14e8555e706d54210d646811a023932c8433f25e11205bbf696b3113b5e9c45",
+          "receiptSHA256": "7030d47fb1248eae397d57cc352be5bf7dd4769764bde58fc332389a7ffd6410",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
+        "audioQRVerification": [],
+        "pages": 16,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_ar_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_ar_tadabbur-extended.pdf",
+        "pdfSha256": "bb1a18dab1bee6bb2fc1f5a1e3edb3c316f0437511677df3b7b844a84fa95110",
+        "exportVerified": true
+      },
+      "snapshot": {
+        "catalogSHA256": "7b15ed7d8b3aba310f1bdaa67aea7ac6d3d6f3ba02677da74f332032c6d0cae8",
+        "scopeSettingsSHA256": "a2524ce39ce0389fe3851173644f8ec854d775126843cd36abbf50eb9b2d204e",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "books/assets/surah-names-native-20261107.json",
+            "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
+          },
+          {
+            "path": "materials/tadabbur/ar/extended/112.json",
+            "sha256": "f429d52b2be3fe591e973d5141504d8c654d6cab4a9094b6b967a95c4dc8770c"
+          },
+          {
+            "path": "materials/tadabbur/ikhlas-112/arabic-current-reader-binding.json",
+            "sha256": "cef592d357eb0b4ffa6170c6d2eace44e05829df4216919b61601bf8f202a887"
+          }
+        ]
+      }
+    }
+  ]
+}
