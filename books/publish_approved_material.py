@@ -87,7 +87,12 @@ def prepare(root,handoff_file):
     prior=inside(root,unit_relative)
     if prior.exists()and prior.read_bytes()!=unit_raw:
         old=prior.read_bytes();writes['books/units/history/'+sha(old)+'.json']=old
-    receipt={'schema':'iman-book-source-publication-receipt-v1','material':approval['material'],'canonicalOrder':order,'readerUnit':entry['bookReaderUnit'],'approvalId':approval['approvalId'],'sourceBindings':handoff['sourceBindings'],'files':sorted(writes),'sourceApprovalCreated':False,'scopeReleaseHoldsChanged':False}
+    required={**inputs,**reviewed,reader_binding['path']:reader_binding['sha256']}
+    if handoff.get('approvedAudioIntake')is not None:
+        from approved_reader_audio import source_intake
+        audio_path,audio_raw,audio_inputs=source_intake(root,unit,unit_relative,handoff['approvedAudioIntake'])
+        writes[audio_path]=audio_raw;required.update(audio_inputs)
+    receipt={'schema':'iman-book-source-publication-receipt-v1','material':approval['material'],'canonicalOrder':order,'readerUnit':entry['bookReaderUnit'],'approvalId':approval['approvalId'],'sourceBindings':handoff['sourceBindings'],'generatedFiles':sorted(writes),'requiredInputs':[{'path':p,'sha256':digest}for p,digest in sorted(required.items())],'files':sorted(set(writes)|set(required)),'sourceApprovalCreated':False,'scopeReleaseHoldsChanged':False}
     return writes,receipt
 
 def apply(root,handoff_file):

@@ -27,6 +27,8 @@ def scopes(root):
 def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
     out.mkdir(parents=True,exist_ok=True)
     report={'sourceCommit':commit,'built':[],'unchanged':[],'failed':[]}
+    approved_audio=root/'books/.cache/approved-audio-intake-report.json'
+    report['approvedAudioIntakeErrors']=read(approved_audio).get('errors',[])if approved_audio.exists()else[]
     existing=read(root/'books/published-library.json')if(root/'books/published-library.json').exists()else{'schema':SCHEMA,'entries':[]}
     previous={scope_key(row['book']):row for row in existing['entries']}
     for declaration in scopes(root):
@@ -97,7 +99,8 @@ def ensure_main(root,commit):
 def managed_paths(root=None):
     from download_page import managed_paths as download_paths
     from locale_copy import COPY
-    return ['README.md','books/published-library.json','books/config.json','materials/audio/registry.json','docs/listen/materials.json']+[f'books/downloads/{language}/README.md'for language in COPY]+(download_paths(root)if root else[])
+    audio_history=[p.relative_to(root).as_posix()for p in sorted((root/'materials/audio/intake-history').glob('*.json'))if re.fullmatch('[a-f0-9]{64}[.]json',p.name)]if root else[]
+    return ['README.md','books/published-library.json','books/config.json','materials/audio/publish.json','materials/audio/registry.json','docs/listen/materials.json']+[f'books/downloads/{language}/README.md'for language in COPY]+(download_paths(root)if root else[])+audio_history
 
 def publish(root,out,commit,repo,tag,execute=run):
     entries,assets=candidates(root,out,tag)
@@ -126,7 +129,7 @@ def publish(root,out,commit,repo,tag,execute=run):
         execute(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'],root)
         execute(['git','commit','-m','Update verified book downloads and material audio players'],root)
         execute(['git','push','origin','HEAD:refs/heads/main'],root)
-    result={'verifiedBookPairs':count,'newPairs':len(entries),'staleScopesRemoved':stale,'nativeLanguagePages':20,'tablesCommitted':bool(changed),'failedScopes':read(out/'build-report.json')['failed']}
+    result={'verifiedBookPairs':count,'newPairs':len(entries),'staleScopesRemoved':stale,'nativeLanguagePages':20,'tablesCommitted':bool(changed),'failedScopes':read(out/'build-report.json')['failed'],'approvedAudioIntakeErrors':read(out/'build-report.json').get('approvedAudioIntakeErrors',[])}
     result['downloadPage']=downloads
     (out/'publication-report.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     return result
