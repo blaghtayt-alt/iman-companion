@@ -9,6 +9,7 @@ from reader_xml import body_text
 from urllib.parse import quote
 from check_audio_qr import validate_audio_qr
 from font_integrity import verify as verify_embedded_fonts
+from toc_sync import reconcile as verify_toc_targets
 def require_complete_references(book):
     if book.get('collection')!='seerah':return
     check=book.get('referenceReadiness')
@@ -102,6 +103,8 @@ def main():
                 body=etree.fromstring(z.read('word/document.xml'))
                 validate_footnotes(notes,body,checks['footnotes'],book['language'])
         if not pdf.exists():raise ValueError('Missing rendered PDF')
+        toc=verify_toc_targets(file,pdf,book['language'])
+        if toc['mismatches']:raise ValueError('Contents page numbers do not match PDF link targets')
         doc=pdfplumber.open(pdf)
         if len(doc.pages)<3:raise ValueError('Unexpected short/empty book')
         if book['language'] in {'ar','ur','fa'} and len(doc.pages)>=10000:raise ValueError('Native pagination needs more than four digit positions')

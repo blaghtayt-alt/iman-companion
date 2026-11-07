@@ -74,6 +74,12 @@ jobs:
           /usr/bin/python3 books/render_uno.py --folder "$RUNNER_TEMP/reviewed-book"
           python books/native_pagination.py --root . --folder "$RUNNER_TEMP/reviewed-book"
           /usr/bin/python3 books/render_uno.py --folder "$RUNNER_TEMP/reviewed-book" --keep-contents
+          for attempt in 1 2 3 4; do
+            if python books/toc_sync.py --folder "$RUNNER_TEMP/reviewed-book"; then break; fi
+            python books/toc_sync.py --folder "$RUNNER_TEMP/reviewed-book" --write
+            /usr/bin/python3 books/render_uno.py --folder "$RUNNER_TEMP/reviewed-book" --keep-contents
+          done
+          python books/toc_sync.py --folder "$RUNNER_TEMP/reviewed-book"
           python books/restore_book_fonts.py --root . --folder "$RUNNER_TEMP/reviewed-book"
           python books/check_outputs.py --folder "$RUNNER_TEMP/reviewed-book" --root . --tag book-candidate --repo "$GITHUB_REPOSITORY"
           python books/published_library.py --root . capture --folder "$RUNNER_TEMP/reviewed-book"
