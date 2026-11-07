@@ -9,6 +9,8 @@ sha=lambda raw:hashlib.sha256(raw).hexdigest()
 def families(conf,lang):
     selected=[conf['fonts'][conf['languages'][lang]['font']],conf['fonts']['Arabic'],conf['fonts']['Latin']]
     selected.extend(conf['fonts'][key]for key in['SymbolsLTR','SymbolsRTL']if key in conf['fonts'])
+    native={'ar':'DigitsArabic','ur':'DigitsPersian','fa':'DigitsPersian'}.get(lang)
+    if native and native in conf['fonts']:selected.append(conf['fonts'][native])
     return {f['family']:f for f in selected}
 
 def verify(file,conf,lang):

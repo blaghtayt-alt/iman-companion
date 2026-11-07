@@ -49,6 +49,8 @@ def scope_settings(root,key,unit_ids):
     if language is None:raise ValueError('Missing book language settings')
     scoped['languages']={key[0]:language}
     fonts=scoped.get('fonts',{});needed={n for n in (language.get('font'),'Arabic','Latin') if isinstance(n,str)}
+    native={'ar':'DigitsArabic','ur':'DigitsPersian','fa':'DigitsPersian'}.get(key[0])
+    if native and native in fonts:needed.add(native)
     if fonts:scoped['fonts']={name:fonts[name] for name in sorted(needed) if name in fonts}
     setting=scoped.pop('audioRegistry',None);audio=[]
     if setting:
