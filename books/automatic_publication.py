@@ -24,6 +24,11 @@ def scopes(root):
         if row.get('state')=='reviewed-current'and row.get('automaticBuild')is True and row.get('automaticRelease')is True:rows.append(row)
     return rows
 
+def require_word_layout(declaration,folder,book,language):
+    if declaration.get('requireActualWordLayout') is True:
+        from word_layout_check import verify_pair
+        book['independentWordLayoutVerification']=verify_pair(folder/book['file'],folder/Path(book['file']).with_suffix('.pdf'),language)
+
 def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
     out.mkdir(parents=True,exist_ok=True)
     report={'sourceCommit':commit,'built':[],'unchanged':[],'failed':[]}
@@ -62,6 +67,7 @@ def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
             if len(index['books'])!=1 or scope_key(index['books'][0])!=key:raise ValueError('Scoped build emitted a different book')
             book=index['books'][0]
             book['contentsTargetVerification']=check_contents(folder/book['file'],folder/Path(book['file']).with_suffix('.pdf'))
+            require_word_layout(declaration,folder,book,language)
             (folder/'index.json').write_text(json.dumps(index,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
             snapshot=capture(root,index)
             (folder/'library-snapshot.json').write_text(json.dumps(snapshot,ensure_ascii=False,indent=2)+'\n',encoding='utf8')

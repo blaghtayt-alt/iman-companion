@@ -64,4 +64,9 @@ class PublicationChecks(unittest.TestCase):
     def test_personal_or_undeclared_scopes_never_enter_publication(self):
         self.write('books/reviewed-books.json',{'schema':'iman-reviewed-books-v1','books':[{'language':'ja','collection':'combined','state':'reviewed-current','automaticBuild':True,'automaticRelease':True}]})
         with self.assertRaisesRegex(ValueError,'Non-public'):auto.scopes(self.root)
+    def test_required_actual_word_layout_cannot_be_omitted(self):
+        book={'file':'missing.docx'}
+        with self.assertRaises((FileNotFoundError,ValueError)):
+            auto.require_word_layout({'requireActualWordLayout':True},self.out,book,'en')
+        self.assertNotIn('independentWordLayoutVerification',book)
 if __name__=='__main__':unittest.main()
