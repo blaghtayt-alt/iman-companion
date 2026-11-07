@@ -4,7 +4,7 @@
 
 | Книга | Редактируемая книга | Версия для чтения | Включённые материалы |
 | --- | --- | --- | --- |
-| Размышление над Кораном | Готовится | Готовится | — |
+| Размышление над Кораном | [Скачать редактируемую книгу](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.docx) | [Скачать версию для чтения](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.pdf) | 1 |
 | Хадис | Готовится | Готовится | — |
 | Сира | Готовится | Готовится | — |
 | Статьи | Готовится | Готовится | — |

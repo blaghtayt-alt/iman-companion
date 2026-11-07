@@ -1,4 +1,272 @@
 {
   "schema": "iman-published-book-library-v1",
-  "entries": []
+  "entries": [
+    {
+      "book": {
+        "language": "fil",
+        "languageLabel": "Filipino",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "Pagninilay sa Quran",
+        "file": "Iman_Companion_fil_tadabbur-extended.docx",
+        "sha256": "5b0367ae60216e830a06c70a22c9ddb4b4ff46627870cdb1bde40fda8ce2eb50",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "Pagbubulay-bulay sa Kabanatang Al-Ikhlas",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "23e950de68af6f9aaea71578f6bc3e4a10ac26ba1b1fcc931f5f6506236818fe"
+          }
+        ],
+        "sourceCommit": "2c56add45122b8386fada6f9bc27c034a612efd6",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 23,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "previewOnly": false,
+        "audioQRVerification": [],
+        "pages": 25,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_fil_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_fil_tadabbur-extended.pdf",
+        "pdfSha256": "5e8fe91a6bdc3c84dd8340dc91ca1c4166430aacf3e12d06584dc69b6e2e431a",
+        "exportVerified": true,
+        "contentsTargetVerification": {
+          "matchedEntries": 5
+        }
+      },
+      "snapshot": {
+        "catalogSHA256": "be187a5a0d89190ab09d839f6fa3b650d61d0a1ca004856696d125b05808acec",
+        "scopeSettingsSHA256": "1d04eb6b803356fa34e06fbafb87fceb99c35eae0e6cdb924b33992a32c9063e",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/fil/extended/112.json",
+            "sha256": "52db0cf6ae8c4b164479e4a60686096b6afdbba7c766ba036b39d5038e8e3bd6"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/112-001.json",
+            "sha256": "ae31ae24a492dbb58f29d8376a6471b2ab57d96de38ecf5383308c7b02b74579"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/112-002.json",
+            "sha256": "ae6e285d04ac7652718bc94c2acccdb0b7522d93f98cbb4bbf2d4289561bc225"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/112-003.json",
+            "sha256": "84a91fba1f283298e5141927ae188f293cd43ed6ffe52e5dcb784eb58aca58f4"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/112-004.json",
+            "sha256": "4d7d33f7bdb4cc92a741d8b1bc55782582082ed18d1b7dcd854929fd022141b1"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/FILIPINO-CONTEXT-GLOSSARY746.json",
+            "sha256": "1e8255a77c6e9fc1cbe4578d01470f0442d58fcfcac3bf6b83c94a7fc462f586"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/IKHLAS-FIL-PUBLIC-SOURCES746.json",
+            "sha256": "d16811d2d8d7b2e908232c1bc5a1a5cc9f137e15271ec53b738e2c2cd975fef7"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/IKHLAS-FIL-SOURCE-NOTE746.md",
+            "sha256": "9e843c5d48f710b6778076a29693fd321a6bf28fc94c921eb8b920717740a68f"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          }
+        ]
+      },
+      "releaseTag": "books-42339566724-1"
+    },
+    {
+      "book": {
+        "language": "ru",
+        "languageLabel": "Русский",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "Размышление над Кораном",
+        "file": "Iman_Companion_ru_tadabbur-extended.docx",
+        "sha256": "d63f0fefd007df9070034d3331a5192b0bf94f8c7c83bc58155d5007957eb7dd",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "Сура «Аль-Ихляс» — размышление",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "8f38d93390b59d33667101081d62aac6b69cba533005c4ef2dcb8e69e58c6d30"
+          }
+        ],
+        "sourceCommit": "2c56add45122b8386fada6f9bc27c034a612efd6",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 17,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "previewOnly": false,
+        "audioQRVerification": [],
+        "pages": 21,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.pdf",
+        "pdfSha256": "d6967ae885a0d93f52c641c7afd40c326515fac64a8de0b6f865fb966f3d1261",
+        "exportVerified": true,
+        "contentsTargetVerification": {
+          "matchedEntries": 5
+        }
+      },
+      "snapshot": {
+        "catalogSHA256": "76d45b1aa2046f5a2677a9f931b9615b8a5b85b340216320b7dd7e039b185654",
+        "scopeSettingsSHA256": "07e4803d281b07bfddb4db40d820b376f42b48f670b812ae0bc86a0d59d243e7",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/ru/extended/112.json",
+            "sha256": "32e2adc26b00c61a6864b5e526ab57025a94e07087a9268cd66e6bc9df71f1c6"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ru/112-001.json",
+            "sha256": "171caea9693623183b21444aac9253ab38c732004def9866aa91fdd7af147bec"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ru/112-002.json",
+            "sha256": "c7cdf18cb874b8b46d4999ea4f0b7ce36c9f8537b41b16091aaf65de193683a8"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ru/112-003.json",
+            "sha256": "80bb07a2357b90e344a3586555075f8fe420039e2f4c3e091251cb8d6ec39cfb"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ru/112-004.json",
+            "sha256": "bf1c46a0e1f786e24ada89e89ce4bebc4b65824e67d0047816a4d542037409cb"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ru/IKHLAS-RU-PUBLIC-SOURCES710.json",
+            "sha256": "0883f7477e97334a20426a888bd554dd1f3b0fbcd672a298cc2bbe4a793d3dc3"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ru/IKHLAS-RU-SOURCE-NOTE710.md",
+            "sha256": "8690a92c6c6baf223221ce4d1f13a8dc2dea8f3931f2f09a552dec027eb060ab"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ru/RUSSIAN-CONTEXT-GLOSSARY710.json",
+            "sha256": "845a513efa4802f8d35577e3e0653e669d99797d95158ef38543b409b04ccc98"
+          }
+        ]
+      },
+      "releaseTag": "books-42339566724-1"
+    },
+    {
+      "book": {
+        "language": "vi",
+        "languageLabel": "Tiếng Việt",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "Suy ngẫm về Kinh Qur’an",
+        "file": "Iman_Companion_vi_tadabbur-extended.docx",
+        "sha256": "18e75fa2176940964a7a0d232bc13fb89098c11615dfdbb142703ad6d606fdbf",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "Suy ngẫm chương Al-Ikhlas",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "8868a81f0c3c0cc89a6cedc3761aae627372d242b22cbdbf6cf24c3622c77774"
+          }
+        ],
+        "sourceCommit": "2c56add45122b8386fada6f9bc27c034a612efd6",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 19,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "previewOnly": false,
+        "audioQRVerification": [],
+        "pages": 21,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_vi_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_vi_tadabbur-extended.pdf",
+        "pdfSha256": "cf531be28d4ced2eb20103c5128bf785e85e8c4a7f334327233ed168bf343300",
+        "exportVerified": true,
+        "contentsTargetVerification": {
+          "matchedEntries": 5
+        }
+      },
+      "snapshot": {
+        "catalogSHA256": "7dc0e0f42c28d0b47e4736b7e88741e4b9d6767dd0530db70274b270b0a22983",
+        "scopeSettingsSHA256": "955a2b60a0b6a0a4475e98a1655d80a47f48f6838864bf426a58d8652dc16f23",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/112-001.json",
+            "sha256": "4e243d5f27afaa58a4723b161082988c41b074e627b5bd69ea4c5a2ffa77b7ef"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/112-002.json",
+            "sha256": "1f8e67092290aed80dc682222e59b59be02faa33ba99f5f41e19837f4a7669a7"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/112-003.json",
+            "sha256": "e10c0890fa871aa858de8bb8c37c52b002bbf3eb4dc164b7261c5f67d64a79ae"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/112-004.json",
+            "sha256": "613c512c3e960219e44edc258388d398b7050ad115ed441ef435ce6344d73be6"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/IKHLAS-VI-PUBLIC-SOURCES741.json",
+            "sha256": "95017229f51f9601cb2ede20ad02986133e16d237682427b5cc5343cc30eeb80"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/IKHLAS-VI-SOURCE-NOTE741.md",
+            "sha256": "5326aa40f2d93a2e3410c9d01e9e360062f4d886c41862ce791e2f438446addb"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/VIETNAMESE-CONTEXT-GLOSSARY741.json",
+            "sha256": "cd5370b8f209b7ee2e9db60c41e3211400aba39ac24312edb51f79cb6d2f18f8"
+          },
+          {
+            "path": "materials/tadabbur/vi/extended/112.json",
+            "sha256": "2432060bd767b4eca67abcd714deed6b070744c995f98e34fdb39110a12c5774"
+          }
+        ]
+      },
+      "releaseTag": "books-42339566724-1"
+    }
+  ]
 }

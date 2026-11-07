@@ -4,7 +4,7 @@ Tiếng Việt
 
 | Sách | Sách có thể chỉnh sửa | Bản để đọc | Nội dung được đưa vào |
 | --- | --- | --- | --- |
-| Suy ngẫm về Kinh Qur’an | Đang chuẩn bị | Đang chuẩn bị | — |
+| Suy ngẫm về Kinh Qur’an | [Tải sách có thể chỉnh sửa](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_vi_tadabbur-extended.docx) | [Tải bản để đọc](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_vi_tadabbur-extended.pdf) | 1 |
 | Hadith (Thánh huấn) | Đang chuẩn bị | Đang chuẩn bị | — |
 | Tiểu sử Thiên Sứ | Đang chuẩn bị | Đang chuẩn bị | — |
 | Bài viết | Đang chuẩn bị | Đang chuẩn bị | — |

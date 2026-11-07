@@ -14,7 +14,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 <!-- IMAN-BOOK-DOWNLOADS:START -->
 ### Books by language
 
-Book editions are in preparation. Links appear only after the Word and PDF files have been verified.
+Each download contains the currently available complete published material in that language. The language pages show how many items are included. New extended Hadith lessons and extended Quran reflections use the approved book layout.
 
 | Language | Quran reflections · extended | Hadith · new extended | Seerah | Articles |
 | --- | --- | --- | --- | --- |
@@ -28,16 +28,16 @@ Book editions are in preparation. Links appear only after the Word and PDF files
 | [Français](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/fr/README.md) | En préparation | En préparation | En préparation | En préparation |
 | [Português](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/pt-BR/README.md) | Em preparação | Em preparação | Em preparação | Em preparação |
 | [हिन्दी](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/hi/README.md) | तैयार की जा रही है | तैयार की जा रही है | तैयार की जा रही है | तैयार की जा रही है |
-| [Русский](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/ru/README.md) | Готовится | Готовится | Готовится | Готовится |
+| [Русский](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/ru/README.md) | [Редактируемая книга](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.docx) · [Версия для чтения](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.pdf) | Готовится | Готовится | Готовится |
 | [Español](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/es/README.md) | En preparación | En preparación | En preparación | En preparación |
 | [فارسی](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/fa/README.md) | در حال آماده‌سازی | در حال آماده‌سازی | در حال آماده‌سازی | در حال آماده‌سازی |
 | [Deutsch](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/de/README.md) | In Vorbereitung | In Vorbereitung | In Vorbereitung | In Vorbereitung |
 | [简体中文](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/zh-CN/README.md) | 准备中 | 准备中 | 准备中 | 准备中 |
 | [O‘zbekcha](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/uz/README.md) | Tayyorlanmoqda | Tayyorlanmoqda | Tayyorlanmoqda | Tayyorlanmoqda |
 | [ไทย](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/th/README.md) | กำลังจัดเตรียม | กำลังจัดเตรียม | กำลังจัดเตรียม | กำลังจัดเตรียม |
-| [Tiếng Việt](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/vi/README.md) | Đang chuẩn bị | Đang chuẩn bị | Đang chuẩn bị | Đang chuẩn bị |
+| [Tiếng Việt](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/vi/README.md) | [Sách có thể chỉnh sửa](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_vi_tadabbur-extended.docx) · [Bản để đọc](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_vi_tadabbur-extended.pdf) | Đang chuẩn bị | Đang chuẩn bị | Đang chuẩn bị |
 | [日本語](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/ja/README.md) | 準備中 | 準備中 | 準備中 | 準備中 |
-| [Filipino](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/fil/README.md) | Inihahanda | Inihahanda | Inihahanda | Inihahanda |
+| [Filipino](https://github.com/blaghtayt-alt/iman-companion/blob/main/books/downloads/fil/README.md) | [Nae-edit na aklat](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_fil_tadabbur-extended.docx) · [Kopyang pambasa](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_fil_tadabbur-extended.pdf) | Inihahanda | Inihahanda | Inihahanda |
 <!-- IMAN-BOOK-DOWNLOADS:END -->
 
 [Updated offline language packs](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-24-alp-pages-10-19) are available as release downloads. The approved 19-page Alp Arslan excerpt is included in all 15 languages, with the original Arabic and the correct reading direction for each edition. Books and children’s teaching audio are grouped into one ZIP per language. Existing nine-page app builds need the updated app build to expose the new pages; see the [reader update notes](language-packs/metadata/alp-arslan/reader-update.md). The [earlier combined Seerah archive](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20) contains chapters 1–22 in the original nine languages and chapter 1 in the six newer languages. Current reviewed chapters in Hindi, Russian, Spanish, Persian, German and Simplified Chinese are available directly in the repository. The Arabic archive appendix is labeled separately. See the [combined Seerah notes](materials/seerah/combined/README.md) for sources and coverage.
