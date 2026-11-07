@@ -5,6 +5,7 @@ from urllib.parse import quote
 from locale_copy import locale,DOWNLOADS
 from bibliography import native_text,digits
 from download_bundle_copy import BUNDLE_COPY
+from preparation_copy import LIMITED
 
 COLLECTIONS=['tadabbur-extended','hadith','seerah','articles']
 HEADERS=['Quran reflections · extended','Hadith · new extended','Seerah','Articles']
@@ -85,14 +86,16 @@ def render_ready(conf,ready,repo,bundles=None):
         edition_details=[]
         for collection in COLLECTIONS:
             item=ready.get((lang,collection));label=lc['titles'][collection]
-            if item and item.get('editionScope'):
-                label=item['collectionLabel'];titles=item['editionScope']['includedMaterialTitles']
+            if item and (item.get('editionScope') or item.get('availability')):
+                label=item.get('collectionLabel',label);titles=[u['title'] for u in item['units']]
                 if not isinstance(titles,list) or not titles:raise ValueError('Edition must identify its included material')
                 for included in titles:native_text(included,lang)
                 edition_details.append((label,titles))
+                if item.get('availability'):
+                    edition_details.append((LIMITED[lang],[]))
             native_text(label,lang)
             if item:
-                row.append(f'[{cell(editable)}]({item["download"]}) · [{cell(reading)}]({item["pdfDownload"]})')
+                row.append(f'[{cell(editable)}]({item["download"]}) · [{cell(reading)}]({item["pdfDownload"]})'+(' *' if item.get('availability') else ''))
                 page.append('| '+' | '.join([cell(label),f'[{DOWNLOADS[lang][0]}]({item["download"]})',f'[{DOWNLOADS[lang][1]}]({item["pdfDownload"]})',digits(str(len(item.get('units',[]))),lang)])+' |')
             else:
                 row.append(cell(pending));page.append('| '+' | '.join([cell(label),pending,pending,'—'])+' |')
@@ -113,6 +116,7 @@ def render_ready(conf,ready,repo,bundles=None):
             # Check visible labels, not URL targets containing technical filenames.
             native_text(re.sub(r'\]\([^)]*\)',']',line),lang)
         pages[lang]='\n'.join(page)+'\n'
+    if any(item.get('availability') for item in ready.values()):root+=['','* Verified earlier edition: only the listed contents are included; new material is awaiting release checks.']
     return '\n'.join(root)+'\n',pages
 
 def merge_readme(original,table):

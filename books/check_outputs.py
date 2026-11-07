@@ -77,11 +77,11 @@ def validate_toc(body,language,minimum_entries):
     if len(entries)<minimum_entries:raise ValueError('Missing contents entries')
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--folder',type=Path,required=True);ap.add_argument('--tag',required=True);ap.add_argument('--repo',required=True);ap.add_argument('--root',type=Path,default=Path('.'));ap.add_argument('--review-only',action='store_true');args=ap.parse_args();folder=args.folder
+    ap=argparse.ArgumentParser();ap.add_argument('--folder',type=Path,required=True);ap.add_argument('--tag',required=True);ap.add_argument('--repo',required=True);ap.add_argument('--root',type=Path,default=Path('.'));ap.add_argument('--review-only',action='store_true');ap.add_argument('--prepare-only',action='store_true');args=ap.parse_args();folder=args.folder
     index=json.loads((folder/'index.json').read_text(encoding='utf-8'));index['previewOnly']=bool(index.get('previewOnly') or args.review_only);lines=['# 📚',''];pages={}
     public_export_inputs(index,folder)
     for book in index['books']:
-        if not index['previewOnly']:require_complete_references(book)
+        if not index['previewOnly'] and not args.prepare_only:require_complete_references(book)
         file=folder/book['file'];pdf=file.with_suffix('.pdf')
         checks=json.loads((folder/(file.name+'.reader-checks.json')).read_text(encoding='utf-8'))
         if isinstance(checks,list):checks={'body':checks,'footnotes':[]}
@@ -128,7 +128,7 @@ def main():
         url=f"https://github.com/{args.repo}/releases/download/{quote(args.tag,safe='')}/{quote(file.name,safe='')}"
         book['download']=url;download=f'[Word]({url})'
         book['pdfDownload']=f"https://github.com/{args.repo}/releases/download/{quote(args.tag,safe='')}/{quote(pdf.name,safe='')}"
-        book['pdfSha256']=hashlib.sha256(pdf.read_bytes()).hexdigest();book['exportVerified']=True;book['previewOnly']=bool(index.get('previewOnly'))
+        book['pdfSha256']=hashlib.sha256(pdf.read_bytes()).hexdigest();book['exportVerified']=not args.prepare_only;book['preparationVerified']=True;book['previewOnly']=bool(index.get('previewOnly'))
         download+=f" · [PDF]({book['pdfDownload']})"
         lang=book['language'];lc=locale(lang);page=pages.setdefault(lang,['# '+book['languageLabel'],''])
         page+=['## '+book['collectionLabel'],'',f'[{DOWNLOADS[lang][0]}]({url})','']

@@ -183,6 +183,9 @@ def write_catalog(root,out,ready,bundles):
               'cover':cover_asset(root,pdf,book['pdfSha256']),'docx':book['download'],'pdf':book['pdfDownload'],
               'sha256':book['sha256'],'pdfSha256':book['pdfSha256'],'units':len(book['units']),'pages':book.get('pages'),
               'audio':len(book.get('audioPanels',[])),'contents':[{'id':u['id'],'title':u['title']}for u in book['units']]})
+            if book.get('availability'):
+                from preparation_copy import LIMITED
+                row['books'][-1].update({'availability':book['availability'],'statusLabel':LIMITED[language]})
         languages[language]=row
     catalog={'schema':'iman-book-downloads-v1','languages':languages};path=root/'docs/books/catalog.json'
     previous=read(path)if path.exists()else{}

@@ -43,10 +43,11 @@ with tempfile.TemporaryDirectory(prefix='library-fixture-',dir=W) as temp:
  isolated,ready,stale=merge(root,library,[],'example/fixture',remote.__getitem__)
  assert set(ready)=={('ar','articles')} and stale==[('ar','seerah')];checks.append('Unrelated article book survives a newly published Seerah audio identity')
  audio_path.write_bytes(old_audio);conf=old_conf;write_json('books/config.json',conf)
- # A new item changes only one scope; the stale book loses its current-download link.
+ # A purely additive item retains the exact checked earlier edition, labeled
+ # with its real included units while the replacement is awaiting release QC.
  catalog['entries'].append({'collection':'seerah','language':'ar','id':'seerah-2','status':'published'});write_json('materials/catalog.json',catalog)
  current_library,ready,stale=merge(root,library,[],'example/fixture',remote.__getitem__)
- assert set(ready)=={('ar','articles')} and stale==[('ar','seerah')];checks.append('New material invalidates only its stale book while preserving other current books')
+ assert set(ready)=={('ar','articles'),('ar','seerah')} and not stale and ready[('ar','seerah')]['availability']['newMaterialsIncluded'] is False;checks.append('Additive material preserves a truthful limited earlier edition until replacement passes')
  rejects('A stale new candidate cannot be published',lambda:merge(root,existing,[seerah],'example/fixture',remote.__getitem__))
  catalog['entries'].pop();write_json('materials/catalog.json',catalog)
  tampered=deepcopy(remote);tampered[article['releaseTag']]['assets'][0]['digest']='sha256:'+'0'*64

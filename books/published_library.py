@@ -19,12 +19,11 @@ def scope_key(book):
     key=(book.get('language'),book.get('collection'))
     if key[0] not in COPY or key[1] not in COLLECTIONS:raise ValueError('Non-public book scope in library')
     return key
-def scope_catalog(root,key):
-    scoped_declaration=declaration(root,key)
+def catalog_members(root,key,for_release=True):
+    scoped_declaration=declaration(root,key,for_release)
     if scoped_declaration.get('scopePolicy') is not None:
-        from book_edition_scope import select,scope_fingerprint
-        rows,report=select(root,read(root/'materials/catalog.json'),scoped_declaration)
-        return scope_fingerprint(rows,report)
+        from book_edition_scope import select
+        return select(root,read(root/'materials/catalog.json'),scoped_declaration)
     collections={'tadabbur-extended':'tadabbur','hadith':'essential-hadith','seerah':'seerah','articles':'articles'}
     edition=scoped_declaration.get('edition')
     retired={'held','withdrawn','archived','archive','source-archive','historical','superseded','not-currently-available','draft','work-in-progress'}
@@ -36,12 +35,19 @@ def scope_catalog(root,key):
             and not any(str(e.get(k,'')).lower() in retired for k in ['status','publicationStatus','translationStatus'])
             and not any('/source-archive/' in str(e.get(k,'')) for k in ['json','markdown']))
     rows=[e for e in read(root/'materials/catalog.json')['entries'] if current(e)]
+    return rows,None
+def catalog_fingerprint(rows,report):
+    if report is not None:
+        from book_edition_scope import scope_fingerprint
+        return scope_fingerprint(rows,report)
     return sha(json.dumps(sorted(rows,key=lambda e:str(e['id'])),sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())
-def declaration(root,key):
+def scope_catalog(root,key,for_release=True):
+    return catalog_fingerprint(*catalog_members(root,key,for_release))
+def declaration(root,key,for_release=True):
     data=read(root/'books/reviewed-books.json')
     if data.get('schema')!='iman-reviewed-books-v1':raise ValueError('Invalid book declarations')
     rows=[e for e in data['books'] if (e.get('language'),e.get('collection'))==key]
-    if len(rows)!=1 or rows[0].get('state')!='reviewed-current' or rows[0].get('automaticBuild') is not True or rows[0].get('automaticRelease') is not True:raise ValueError('Scope is not enabled for reviewed automatic publication')
+    if len(rows)!=1 or rows[0].get('state')!='reviewed-current' or rows[0].get('automaticBuild') is not True or (for_release and rows[0].get('automaticRelease') is not True):raise ValueError('Scope is not enabled for reviewed automatic publication')
     return rows[0]
 def scope_settings(root,key,unit_ids):
     """Bind the settings and audio relevant to this book, not other scopes."""
@@ -61,15 +67,16 @@ def scope_settings(root,key,unit_ids):
         audio=[row for row in registry.get('entries',[]) if row.get('language')==key[0] and row.get('collection')==key[1] and row.get('materialId') in unit_ids]
         audio.sort(key=lambda r:(r.get('materialId',''),r.get('sourceSHA256',''),r.get('audioSHA256','')))
     return sha(json.dumps({'config':scoped,'audio':audio},ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf8'))
-def capture(root,index):
+def capture(root,index,preparation=False):
     """Run immediately after final checks in each scoped build, before artifact upload."""
     if index.get('previewOnly') is not False or not re.fullmatch('[a-f0-9]{40}',index.get('sourceCommit','')):raise ValueError('Only production candidates have library snapshots')
     manifest=read(root/'books/manifest.json')
     if manifest.get('sourceCommit')!=index['sourceCommit'] or manifest.get('previewOnly') is not False:raise ValueError('Candidate does not match its production source manifest')
     result=[]
     for book in index['books']:
-        key=scope_key(book);declaration(root,key)
-        if book.get('exportVerified') is not True or book.get('previewOnly') is not False:raise ValueError('Candidate has not passed final export checks')
+        key=scope_key(book);declaration(root,key,for_release=not preparation)
+        verified='preparationVerified' if preparation else 'exportVerified'
+        if book.get(verified) is not True or book.get('previewOnly') is not False:raise ValueError('Candidate has not passed final export checks')
         bindings={}
         units=[]
         for row in manifest['units']:
@@ -83,15 +90,70 @@ def capture(root,index):
                 bindings[binding['path']]=binding['sha256']
         if not units or sorted(units)!=sorted((u['id'],u['readerTextSHA256'],u['sourceHashes']) for u in book['units']):raise ValueError('Library snapshot omits or changes a checked unit')
         unit_ids=sorted(u[0] for u in units)
-        snapshot={'catalogSHA256':scope_catalog(root,key),'scopeSettingsSHA256':scope_settings(root,key,unit_ids),'unitIds':unit_ids,'bindings':[{'path':p,'sha256':h} for p,h in sorted(bindings.items())]}
+        snapshot={'catalogSHA256':scope_catalog(root,key,for_release=not preparation),'scopeSettingsSHA256':scope_settings(root,key,unit_ids),'unitIds':unit_ids,'bindings':[{'path':p,'sha256':h} for p,h in sorted(bindings.items())]}
+        rows,report=catalog_members(root,key,for_release=not preparation)
+        snapshot['catalogMemberKeys']=[{k:r[k] for k in ('collection','language','id')} for r in rows]
+        if report is not None:snapshot['catalogEvidence']=copy.deepcopy(report['sourceReviewBindings'])
         result.append({'book':book,'snapshot':snapshot})
     if len({scope_key(e['book']) for e in result})!=len(result):raise ValueError('Duplicate scoped candidate')
-    return {'schema':SCHEMA,'entries':result}
+    return {'schema':'iman-prepared-book-snapshots-v1' if preparation else SCHEMA,'entries':result}
 def current(root,entry):
     try:
         key=scope_key(entry['book']);declaration(root,key);snapshot=entry['snapshot']
         return snapshot['catalogSHA256']==scope_catalog(root,key) and bool(snapshot['bindings']) and bool(snapshot['unitIds']) and snapshot['scopeSettingsSHA256']==scope_settings(root,key,snapshot['unitIds']) and all(HEX.fullmatch(b['sha256']) and sha(inside(root,b['path']).read_bytes())==b['sha256'] for b in snapshot['bindings'])
     except (ValueError,OSError,KeyError):return False
+def limited_continuity(root,entry):
+    """An additive extension may retain ONLY the exact previously checked edition.
+
+    Reconstruct its original membership fingerprint from the live catalogue.
+    Changed/removed/held old members, review evidence, inputs, settings or audio
+    fail closed. Unknown or ambiguous legacy membership cannot use this path.
+    """
+    if current(root,entry):return False
+    try:
+        book=entry['book'];key=scope_key(book);declaration(root,key)
+        snapshot=entry['snapshot'];ids=set(snapshot['unitIds'])
+        if not ids or len(ids)!=len(snapshot['unitIds']) or not snapshot['bindings']:return False
+        if snapshot['scopeSettingsSHA256']!=scope_settings(root,key,sorted(ids)):return False
+        if not all(HEX.fullmatch(b['sha256']) and sha(inside(root,b['path']).read_bytes())==b['sha256'] for b in snapshot['bindings']):return False
+        declared=declaration(root,key)
+        from book_edition_scope import available,MAP,select,pinned
+        rows=[r for r in read(root/'materials/catalog.json')['entries'] if available(r) and (r.get('language'),MAP[r['collection']])==key and (not declared.get('edition') or r.get('edition')==declared['edition'])]
+        # New snapshots bind catalogue identities explicitly; historical units
+        # with identical catalogue/unit IDs can also be reconstructed exactly.
+        members=snapshot.get('catalogMemberKeys')
+        if members is None:
+            if not ids.issubset({str(r['id']) for r in rows}):return False
+            members=[{'collection':r['collection'],'language':r['language'],'id':r['id']} for r in rows if str(r['id']) in ids]
+        identity=lambda r:(r['collection'],r['language'],str(r['id']))
+        wanted={identity(r) for r in members}
+        old=[r for r in rows if identity(r) in wanted]
+        if len(old)!=len(wanted) or len(rows)<=len(old):return False
+        report=None
+        if declared.get('scopePolicy')is not None:
+            evidence=declared.get('sourceReviewBindings',[])
+            prior=snapshot.get('catalogEvidence')
+            if prior is None:
+                # Historical releases stored only the resulting opaque scope
+                # hash. Reconstruct the old evidence from files contributing
+                # to old identities, then demand that EXACT old hash again.
+                prior=[]
+                for item in evidence:
+                    try:data=json.loads(pinned(root,item))
+                    except (ValueError,OSError):continue
+                    identities=set()
+                    if data.get('schema')=='iman-existing-source-review-bindings-v1':
+                        identities={(r['collection'],r['language'],str(r['materialId'])+(':extended' if r.get('collection')=='tadabbur' and r.get('mode')=='extended' else '')) for r in data.get('records',[])}
+                    elif data.get('schema')=='iman-arabic-current-reader-source-binding-v1':
+                        identities={('tadabbur','ar',s['key'].split(':')[0]+':extended') for s in data.get('sections',[])}
+                    if wanted & identities:prior.append(item)
+            if any(item not in evidence for item in prior):return False
+            for item in prior:pinned(root,item)
+            old_declaration=copy.deepcopy(declared);old_declaration['sourceReviewBindings']=prior
+            selected,report=select(root,{'entries':old},old_declaration)
+            if {identity(r) for r in selected}!=wanted:return False
+        return catalog_fingerprint(old,report)==snapshot['catalogSHA256']
+    except (ValueError,OSError,KeyError,TypeError):return False
 def asset_names(book):
     key=scope_key(book);expected=f'Iman_Companion_{key[0]}_{key[1]}.docx'
     if book.get('file')!=expected:raise ValueError('Unexpected public book asset name')
@@ -115,7 +177,12 @@ def merge(root,existing,candidates,repo,release_fetch):
         key=scope_key(entry['book'])
         if key in seen:raise ValueError('Duplicate existing library scope')
         seen.add(key)
-        if current(root,entry):selected[key]=entry
+        if current(root,entry):
+            clean=copy.deepcopy(entry);clean.pop('availability',None);selected[key]=clean
+        elif limited_continuity(root,entry):
+            retained=copy.deepcopy(entry)
+            retained['availability']={'state':'verified-limited-edition','updatePending':True,'includedUnitIds':entry['snapshot']['unitIds'],'newMaterialsIncluded':False}
+            selected[key]=retained
         else:stale.append(key)
     for entry in candidates:
         key=scope_key(entry['book'])
@@ -129,6 +196,7 @@ def merge(root,existing,candidates,repo,release_fetch):
         if not re.fullmatch('[A-Za-z0-9._-]{1,120}',tag):raise ValueError('Invalid book release tag')
         if tag not in releases:releases[tag]=release_fetch(tag)
         ready[key]=verify_pair(entry,repo,releases[tag])
+        if entry.get('availability'):ready[key]['availability']=entry['availability']
     return {'schema':SCHEMA,'entries':[selected[k] for k in sorted(selected)]},ready,stale
 def stage(root,library,ready,repo):
     table,pages=render_ready(read(root/'books/config.json'),ready,repo)

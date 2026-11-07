@@ -62,6 +62,7 @@ export async function mount(){
       const card=document.createElement('article');card.className='book';card.dataset.collection=book.collection;
       const wrap=document.createElement('div');wrap.className='cover-wrap';const image=document.createElement('img');image.className='cover';image.src=localAsset(book.cover);image.alt=book.title;image.width=432;image.height=648;image.loading=current.books.indexOf(book)===0?'eager':'lazy';wrap.append(image);card.append(wrap);
       const heading=document.createElement('h2');heading.textContent=book.title;card.append(heading);
+      if(book.statusLabel){const status=document.createElement('p');status.className='notice';status.textContent=book.statusLabel;card.append(status);}
       if(book.contents?.length){const contents=document.createElement('details');contents.className='contents';const summary=document.createElement('summary');summary.textContent=current.included;const list=document.createElement('ul');for(const unit of book.contents){const item=document.createElement('li');item.textContent=unit.title;list.append(item);}contents.append(summary,list);card.append(contents);}
       const meta=document.createElement('p');meta.className='metadata';const count=document.createElement('span');count.textContent=`${current.included}: ${number(book.units,current)}`;meta.append(count);
       if(book.pages){const pages=document.createElement('span');pages.textContent=`${copy.pages}: ${number(book.pages,current)}`;meta.append(pages);}card.append(meta);
