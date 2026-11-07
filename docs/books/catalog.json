@@ -102,8 +102,33 @@
         "regular": "assets/fonts/97ae471252d673c9ec4b7a121d70d96a667b9e98822090bcb085c98f7dcbf3d2.ttf",
         "bold": "assets/fonts/12029994e24bb24ba2603b4fbe23f316599f70a4a028e5b3a93de1797aaf4299.ttf"
       },
-      "books": [],
-      "bundle": null
+      "books": [
+        {
+          "language": "ur",
+          "collection": "tadabbur-extended",
+          "title": "تدبرِ قرآن · سورۂ اخلاص — تدبر",
+          "cover": "assets/covers/dab4b2387ad2d67da482bb3e55cce134ac3a120d5ca4b01aa54a6a7965064074.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.pdf",
+          "sha256": "cfd90ebbe3ce3e29263dbff5759bfce7485c5628a674249de37baaecd8a86f55",
+          "pdfSha256": "dab4b2387ad2d67da482bb3e55cce134ac3a120d5ca4b01aa54a6a7965064074",
+          "units": 1,
+          "pages": 41,
+          "audio": 0,
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "سورۂ اخلاص — تدبر"
+            }
+          ]
+        }
+      ],
+      "bundle": {
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1-bundles/Iman_Companion_ur_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.pdf",
+        "parts": 1
+      }
     },
     "id": {
       "language": "id",
@@ -837,5 +862,5 @@
       }
     }
   },
-  "updated": "2026-11-07T09:22:36+00:00"
+  "updated": "2026-11-07T09:34:12+00:00"
 }
