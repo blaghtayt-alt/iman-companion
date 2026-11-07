@@ -1,0 +1,68 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "f284fd79ef9948ce03eaf43a17306d25dc3078895f0a875b0936f95fbd356075",
+  "catalogEntry": {
+    "collection": "tadabbur",
+    "language": "fil",
+    "id": "112:extended",
+    "markdown": "materials/tadabbur/fil/extended/112.md",
+    "json": "materials/tadabbur/fil/extended/112.json",
+    "translationStatus": "independently-reviewed-whole-surah-translation",
+    "surah": 112,
+    "mode": "extended",
+    "ayahs": 4,
+    "ayahKeys": [
+      "112:1",
+      "112:2",
+      "112:3",
+      "112:4"
+    ],
+    "hasIntroduction": false,
+    "sourceHashes": [
+      "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+    ],
+    "sourceConditions": "materials/tadabbur/sources/112/fil/IKHLAS-FIL-SOURCE-NOTE746.md"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/tadabbur/fil/extended/112.json",
+      "sha256": "52db0cf6ae8c4b164479e4a60686096b6afdbba7c766ba036b39d5038e8e3bd6"
+    },
+    {
+      "path": "materials/tadabbur/fil/extended/112.md",
+      "sha256": "fd5bc68e3aa588b0495a366ad90c1641e8c3e24d619c031f79f5ef0d8bcf57bc"
+    }
+  ],
+  "canonicalOrder": 112,
+  "readerUnit": {
+    "path": "materials/book-publication-readers/fil/tadabbur-extended/112-extended-v2.json",
+    "sha256": "d0503aaba4a52128f99e7082bddfd54edf2ebdbfccc4ae2bf575357d24265144"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "FINAL746",
+    "reviewer": {
+      "kind": "independent-model-review",
+      "id": "agent697 / FINAL746",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    "material": {
+      "collection": "tadabbur",
+      "language": "fil",
+      "id": "112:extended"
+    },
+    "readerTextSHA256": "23e950de68af6f9aaea71578f6bc3e4a10ac26ba1b1fcc931f5f6506236818fe",
+    "reviewArtifacts": [
+      {
+        "path": "materials/tadabbur/sources/112/fil/IKHLAS-FIL-SOURCE-NOTE746.md",
+        "sha256": "9e843c5d48f710b6778076a29693fd321a6bf28fc94c921eb8b920717740a68f"
+      },
+      {
+        "path": "materials/tadabbur/sources/112/fil/IKHLAS-FIL-PUBLIC-SOURCES746.json",
+        "sha256": "d16811d2d8d7b2e908232c1bc5a1a5cc9f137e15271ec53b738e2c2cd975fef7"
+      }
+    ]
+  }
+}
