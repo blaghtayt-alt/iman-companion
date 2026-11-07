@@ -33,6 +33,22 @@ or guessed into a book. The source producer must emit the envelope as part of it
 normal approved publication transaction. Installing this consumer alone does not
 prove that every external source producer has adopted that contract.
 
+For a Git-based source publication, `source_publication_transaction.py` is a
+single-commit entry point. Supply the approved envelope and the exact expected
+Git head and the expected remote URL. Add `expectedSourceBase` to the envelope
+with one `{path, sha256}` entry for each source binding: use the prior tracked
+source SHA-256 observed for the review, or `null` only for a genuinely new path.
+The publisher validates the exact source,
+review and reader bytes, verifies the catalogue and source baselines, and puts
+the sources, original public-safe review evidence, normalized reader, catalogue,
+scope and intake history into one commit. `--publish` pushes that commit as a
+fast-forward; without it the command validates only. The user's working tree
+and ordinary Git index are not changed. An advanced head, source, review record
+or local input aborts rather than replacing later work. Use an exact-byte checkout (without automatic newline
+conversion) and include only evidence already authorized for public release.
+The command requires the source publisher's existing Git authentication; it
+does not install credentials or infer reviews from an uploaded source.
+
 ## Membership and order
 
 Quran books use canonical surah order and exact canonical Arabic ayahs. Full
