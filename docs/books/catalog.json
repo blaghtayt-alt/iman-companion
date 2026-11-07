@@ -63,27 +63,359 @@
         {
           "language": "ar",
           "collection": "tadabbur-extended",
-          "title": "تدبر القرآن · تدبر سورة الإخلاص",
-          "cover": "assets/covers/bb1a18dab1bee6bb2fc1f5a1e3edb3c316f0437511677df3b7b844a84fa95110.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_ar_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_ar_tadabbur-extended.pdf",
-          "sha256": "d14e8555e706d54210d646811a023932c8433f25e11205bbf696b3113b5e9c45",
-          "pdfSha256": "bb1a18dab1bee6bb2fc1f5a1e3edb3c316f0437511677df3b7b844a84fa95110",
-          "units": 1,
-          "pages": 16,
+          "title": "تدبر القرآن",
+          "cover": "assets/covers/c3fefca174fe94b4096ebfb6511ece1b402b5369f0a44c0b9a7e0c043f3638ab.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.pdf",
+          "sha256": "6277c6bc29a8c32ba8533c8a743d7d7a778291a8dc11cd61a3b9d265ec2338e6",
+          "pdfSha256": "c3fefca174fe94b4096ebfb6511ece1b402b5369f0a44c0b9a7e0c043f3638ab",
+          "units": 84,
+          "pages": 3041,
           "audio": 0,
           "contents": [
             {
+              "id": "1:extended",
+              "title": "سورة الفاتحة"
+            },
+            {
+              "id": "2:extended",
+              "title": "سورة البقرة · الآيات المتاحة"
+            },
+            {
+              "id": "3:extended",
+              "title": "سورة آل عمران · الآيات المتاحة"
+            },
+            {
+              "id": "4:extended",
+              "title": "سورة النساء · الآيات المتاحة"
+            },
+            {
+              "id": "5:extended",
+              "title": "سورة المائدة · الآيات المتاحة"
+            },
+            {
+              "id": "6:extended",
+              "title": "سورة الأنعام"
+            },
+            {
+              "id": "7:extended",
+              "title": "سورة الأعراف"
+            },
+            {
+              "id": "11:extended",
+              "title": "سورة هود · الآيات المتاحة"
+            },
+            {
+              "id": "12:extended",
+              "title": "سورة يوسف · الآيات المتاحة"
+            },
+            {
+              "id": "13:extended",
+              "title": "سورة الرعد"
+            },
+            {
+              "id": "14:extended",
+              "title": "سورة إبراهيم"
+            },
+            {
+              "id": "15:extended",
+              "title": "سورة الحجر · الآيات المتاحة"
+            },
+            {
+              "id": "17:extended",
+              "title": "سورة الإسراء · الآيات المتاحة"
+            },
+            {
+              "id": "18:extended",
+              "title": "سورة الكهف"
+            },
+            {
+              "id": "19:extended",
+              "title": "سورة مريم"
+            },
+            {
+              "id": "20:extended",
+              "title": "سورة طه · الآيات المتاحة"
+            },
+            {
+              "id": "22:extended",
+              "title": "سورة الحج · الآيات المتاحة"
+            },
+            {
+              "id": "25:extended",
+              "title": "سورة الفرقان · الآيات المتاحة"
+            },
+            {
+              "id": "28:extended",
+              "title": "سورة القصص"
+            },
+            {
+              "id": "29:extended",
+              "title": "سورة العنكبوت"
+            },
+            {
+              "id": "30:extended",
+              "title": "سورة الروم · الآيات المتاحة"
+            },
+            {
+              "id": "31:extended",
+              "title": "سورة لقمان · الآيات المتاحة"
+            },
+            {
+              "id": "33:extended",
+              "title": "سورة الأحزاب · الآيات المتاحة"
+            },
+            {
+              "id": "34:extended",
+              "title": "سورة سبأ"
+            },
+            {
+              "id": "35:extended",
+              "title": "سورة فاطر"
+            },
+            {
+              "id": "36:extended",
+              "title": "سورة يس"
+            },
+            {
+              "id": "40:extended",
+              "title": "سورة غافر · الآيات المتاحة"
+            },
+            {
+              "id": "41:extended",
+              "title": "سورة فصلت · الآيات المتاحة"
+            },
+            {
+              "id": "42:extended",
+              "title": "سورة الشورى · الآيات المتاحة"
+            },
+            {
+              "id": "43:extended",
+              "title": "سورة الزخرف · الآيات المتاحة"
+            },
+            {
+              "id": "45:extended",
+              "title": "سورة الجاثية · الآيات المتاحة"
+            },
+            {
+              "id": "47:extended",
+              "title": "سورة محمد"
+            },
+            {
+              "id": "48:extended",
+              "title": "سورة الفتح"
+            },
+            {
+              "id": "49:extended",
+              "title": "سورة الحجرات · الآيات المتاحة"
+            },
+            {
+              "id": "50:extended",
+              "title": "سورة ق · الآيات المتاحة"
+            },
+            {
+              "id": "51:extended",
+              "title": "سورة الذاريات · الآيات المتاحة"
+            },
+            {
+              "id": "55:extended",
+              "title": "سورة الرحمن · الآيات المتاحة"
+            },
+            {
+              "id": "57:extended",
+              "title": "سورة الحديد"
+            },
+            {
+              "id": "58:extended",
+              "title": "سورة المجادلة"
+            },
+            {
+              "id": "61:extended",
+              "title": "سورة الصف"
+            },
+            {
+              "id": "62:extended",
+              "title": "سورة الجمعة"
+            },
+            {
+              "id": "63:extended",
+              "title": "سورة المنافقون"
+            },
+            {
+              "id": "64:extended",
+              "title": "سورة التغابن"
+            },
+            {
+              "id": "66:extended",
+              "title": "سورة التحريم · الآيات المتاحة"
+            },
+            {
+              "id": "67:extended",
+              "title": "سورة الملك"
+            },
+            {
+              "id": "68:extended",
+              "title": "سورة القلم · الآيات المتاحة"
+            },
+            {
+              "id": "70:extended",
+              "title": "سورة المعارج"
+            },
+            {
+              "id": "71:extended",
+              "title": "سورة نوح"
+            },
+            {
+              "id": "72:extended",
+              "title": "سورة الجن"
+            },
+            {
+              "id": "73:extended",
+              "title": "سورة المزمل"
+            },
+            {
+              "id": "74:extended",
+              "title": "سورة المدثر"
+            },
+            {
+              "id": "75:extended",
+              "title": "سورة القيامة"
+            },
+            {
+              "id": "78:extended",
+              "title": "سورة النبأ"
+            },
+            {
+              "id": "79:extended",
+              "title": "سورة النازعات"
+            },
+            {
+              "id": "80:extended",
+              "title": "سورة عبس"
+            },
+            {
+              "id": "81:extended",
+              "title": "سورة التكوير"
+            },
+            {
+              "id": "82:extended",
+              "title": "سورة الانفطار"
+            },
+            {
+              "id": "83:extended",
+              "title": "سورة المطففين"
+            },
+            {
+              "id": "84:extended",
+              "title": "سورة الانشقاق"
+            },
+            {
+              "id": "85:extended",
+              "title": "سورة البروج"
+            },
+            {
+              "id": "86:extended",
+              "title": "سورة الطارق"
+            },
+            {
+              "id": "87:extended",
+              "title": "سورة الأعلى"
+            },
+            {
+              "id": "88:extended",
+              "title": "سورة الغاشية"
+            },
+            {
+              "id": "89:extended",
+              "title": "سورة الفجر"
+            },
+            {
+              "id": "90:extended",
+              "title": "سورة البلد"
+            },
+            {
+              "id": "91:extended",
+              "title": "سورة الشمس"
+            },
+            {
+              "id": "92:extended",
+              "title": "سورة الليل"
+            },
+            {
+              "id": "93:extended",
+              "title": "سورة الضحى"
+            },
+            {
+              "id": "94:extended",
+              "title": "سورة الشرح"
+            },
+            {
+              "id": "95:extended",
+              "title": "سورة التين"
+            },
+            {
+              "id": "96:extended",
+              "title": "سورة العلق"
+            },
+            {
+              "id": "98:extended",
+              "title": "سورة البينة"
+            },
+            {
+              "id": "99:extended",
+              "title": "سورة الزلزلة"
+            },
+            {
+              "id": "100:extended",
+              "title": "سورة العاديات"
+            },
+            {
+              "id": "101:extended",
+              "title": "سورة القارعة"
+            },
+            {
+              "id": "102:extended",
+              "title": "سورة التكاثر"
+            },
+            {
+              "id": "103:extended",
+              "title": "سورة العصر"
+            },
+            {
+              "id": "104:extended",
+              "title": "سورة الهمزة"
+            },
+            {
+              "id": "107:extended",
+              "title": "سورة الماعون"
+            },
+            {
+              "id": "108:extended",
+              "title": "سورة الكوثر"
+            },
+            {
+              "id": "111:extended",
+              "title": "سورة المسد"
+            },
+            {
               "id": "112:extended",
               "title": "تدبر سورة الإخلاص"
+            },
+            {
+              "id": "113:extended",
+              "title": "سورة الفلق"
+            },
+            {
+              "id": "114:extended",
+              "title": "سورة الناس"
             }
           ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1-bundles/Iman_Companion_ar_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_ar_tadabbur-extended.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_ar_tadabbur-extended.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107-bundles/Iman_Companion_ar_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.pdf",
         "parts": 1
       }
     },
@@ -464,7 +796,16 @@
               "id": "112:extended",
               "title": "Сура «Аль-Ихляс» — размышление"
             }
-          ]
+          ],
+          "availability": {
+            "state": "verified-limited-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended"
+            ],
+            "newMaterialsIncluded": false
+          },
+          "statusLabel": "Проверенное издание. Новые материалы ожидают проверки перед выпуском; включено только указанное содержание."
         }
       ],
       "bundle": {
@@ -765,7 +1106,16 @@
               "id": "112:extended",
               "title": "Suy ngẫm chương Al-Ikhlas"
             }
-          ]
+          ],
+          "availability": {
+            "state": "verified-limited-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended"
+            ],
+            "newMaterialsIncluded": false
+          },
+          "statusLabel": "Ấn bản đã được kiểm tra. Tài liệu mới đang chờ kiểm tra trước khi phát hành; chỉ có những nội dung đã liệt kê."
         }
       ],
       "bundle": {
@@ -851,7 +1201,16 @@
               "id": "112:extended",
               "title": "Pagbubulay-bulay sa Kabanatang Al-Ikhlas"
             }
-          ]
+          ],
+          "availability": {
+            "state": "verified-limited-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended"
+            ],
+            "newMaterialsIncluded": false
+          },
+          "statusLabel": "Nasuring edisyon. Hinihintay ng bagong materyal ang pagsusuri bago ilathala; ang nakalistang nilalaman lamang ang kasama."
         }
       ],
       "bundle": {
@@ -862,5 +1221,5 @@
       }
     }
   },
-  "updated": "2026-11-07T09:34:12+00:00"
+  "updated": "2026-11-07T14:11:51+00:00"
 }

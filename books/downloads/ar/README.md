@@ -7,19 +7,102 @@
 
 | الكتاب | نسخة قابلة للتحرير | نسخة للقراءة | المواد المشمولة |
 | --- | --- | --- | --- |
-| تدبر القرآن · تدبر سورة الإخلاص | [تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_ar_tadabbur-extended.docx) | [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_ar_tadabbur-extended.pdf) | ١ |
+| تدبر القرآن | [تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.docx) | [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.pdf) | ٨٤ |
 | الحديث | قيد الإعداد | قيد الإعداد | — |
 | السيرة | قيد الإعداد | قيد الإعداد | — |
 | مقالات | قيد الإعداد | قيد الإعداد | — |
 
-## تدبر القرآن · تدبر سورة الإخلاص
+## تدبر القرآن
 
+- سورة الفاتحة
+- سورة البقرة · الآيات المتاحة
+- سورة آل عمران · الآيات المتاحة
+- سورة النساء · الآيات المتاحة
+- سورة المائدة · الآيات المتاحة
+- سورة الأنعام
+- سورة الأعراف
+- سورة هود · الآيات المتاحة
+- سورة يوسف · الآيات المتاحة
+- سورة الرعد
+- سورة إبراهيم
+- سورة الحجر · الآيات المتاحة
+- سورة الإسراء · الآيات المتاحة
+- سورة الكهف
+- سورة مريم
+- سورة طه · الآيات المتاحة
+- سورة الحج · الآيات المتاحة
+- سورة الفرقان · الآيات المتاحة
+- سورة القصص
+- سورة العنكبوت
+- سورة الروم · الآيات المتاحة
+- سورة لقمان · الآيات المتاحة
+- سورة الأحزاب · الآيات المتاحة
+- سورة سبأ
+- سورة فاطر
+- سورة يس
+- سورة غافر · الآيات المتاحة
+- سورة فصلت · الآيات المتاحة
+- سورة الشورى · الآيات المتاحة
+- سورة الزخرف · الآيات المتاحة
+- سورة الجاثية · الآيات المتاحة
+- سورة محمد
+- سورة الفتح
+- سورة الحجرات · الآيات المتاحة
+- سورة ق · الآيات المتاحة
+- سورة الذاريات · الآيات المتاحة
+- سورة الرحمن · الآيات المتاحة
+- سورة الحديد
+- سورة المجادلة
+- سورة الصف
+- سورة الجمعة
+- سورة المنافقون
+- سورة التغابن
+- سورة التحريم · الآيات المتاحة
+- سورة الملك
+- سورة القلم · الآيات المتاحة
+- سورة المعارج
+- سورة نوح
+- سورة الجن
+- سورة المزمل
+- سورة المدثر
+- سورة القيامة
+- سورة النبأ
+- سورة النازعات
+- سورة عبس
+- سورة التكوير
+- سورة الانفطار
+- سورة المطففين
+- سورة الانشقاق
+- سورة البروج
+- سورة الطارق
+- سورة الأعلى
+- سورة الغاشية
+- سورة الفجر
+- سورة البلد
+- سورة الشمس
+- سورة الليل
+- سورة الضحى
+- سورة الشرح
+- سورة التين
+- سورة العلق
+- سورة البينة
+- سورة الزلزلة
+- سورة العاديات
+- سورة القارعة
+- سورة التكاثر
+- سورة العصر
+- سورة الهمزة
+- سورة الماعون
+- سورة الكوثر
+- سورة المسد
 - تدبر سورة الإخلاص
+- سورة الفلق
+- سورة الناس
 
 ## تنزيل الكتب معًا
 
 كتاب واحد يجمع المواد
 
-[تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_ar_tadabbur-extended.docx) · [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_ar_tadabbur-extended.pdf)
+[تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.docx) · [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.pdf)
 
-[ملف مضغوط للكتب المنفصلة](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1-bundles/Iman_Companion_ar_all-books.zip)
+[ملف مضغوط للكتب المنفصلة](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107-bundles/Iman_Companion_ar_all-books.zip)

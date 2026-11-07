@@ -12,6 +12,13 @@ Filipino
 | Seerah | Inihahanda | Inihahanda | — |
 | Mga artikulo | Inihahanda | Inihahanda | — |
 
+## Pagninilay sa Quran
+
+- Pagbubulay-bulay sa Kabanatang Al-Ikhlas
+
+## Nasuring edisyon. Hinihintay ng bagong materyal ang pagsusuri bago ilathala; ang nakalistang nilalaman lamang ang kasama.
+
+
 ## I-download nang sabay
 
 Isang pinagsamang edisyon

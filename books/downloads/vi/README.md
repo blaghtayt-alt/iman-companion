@@ -12,6 +12,13 @@ Tiếng Việt
 | Tiểu sử Thiên Sứ | Đang chuẩn bị | Đang chuẩn bị | — |
 | Bài viết | Đang chuẩn bị | Đang chuẩn bị | — |
 
+## Suy ngẫm về Kinh Qur’an
+
+- Suy ngẫm chương Al-Ikhlas
+
+## Ấn bản đã được kiểm tra. Tài liệu mới đang chờ kiểm tra trước khi phát hành; chỉ có những nội dung đã liệt kê.
+
+
 ## Tải cùng nhau
 
 Một ấn bản gộp
