@@ -25,6 +25,7 @@ jobs:
       - name: Validate source fidelity, references, QR matching and publication
         run: |
           python tests/test_download_tables.py
+          python books/test_bundle_tables.py
           python tests/test_book_render_validation.py
           python tests/test_book_fonts.py
           python books/test_script_fonts.py

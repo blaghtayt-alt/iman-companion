@@ -4,6 +4,7 @@ import argparse,json,re,hashlib
 from urllib.parse import quote
 from locale_copy import locale,DOWNLOADS
 from bibliography import native_text,digits
+from download_bundle_copy import BUNDLE_COPY
 
 COLLECTIONS=['tadabbur-extended','hadith','seerah','articles']
 HEADERS=['Quran reflections · extended','Hadith · new extended','Seerah','Articles']
@@ -58,12 +59,24 @@ def verified_books(index,folder,repo,tag):
 def render(conf,index,folder,repo,tag):
     return render_ready(conf,verified_books(index,folder,repo,tag),repo)
 
-def render_ready(conf,ready,repo):
+def render_ready(conf,ready,repo,bundles=None):
     """Render independently verified immutable pairs across different releases."""
     languages=conf['languages']
     if set(languages)!=set(COPY):raise ValueError('Download labels must cover all 20 configured languages')
     intro=('Book editions are in preparation. Links appear only after the Word and PDF files have been verified.' if not ready else 'Each download contains the currently available complete published material in that language. The language pages show how many items are included. New extended Hadith lessons and extended Quran reflections use the approved book layout.')
     root=['### Books by language','',intro,'', '| Language | '+' | '.join(HEADERS)+' |','| --- | --- | --- | --- | --- |'];pages={}
+    if bundles is not None:
+        if set(bundles)-set(languages):raise ValueError('Unknown combined-download language')
+        root[-2]+=' Combined downloads |';root[-1]+=' --- |'
+        for lang,item in bundles.items():
+            parts=[b for (language,_),b in ready.items()if language==lang]
+            if not parts or item.get('parts')!=len(parts):raise ValueError('Combined-download inventory differs from current books')
+            for ext in ['zip','docx','pdf']:
+                url=item.get(ext,'');prefix=f'https://github.com/{repo}/releases/download/'
+                if not url.startswith(prefix)or any(c in url for c in ['?','#','\n','\r']):raise ValueError('Invalid combined-download release URL')
+                allowed={f'Iman_Companion_{lang}_all-books.{ext}'}
+                if ext!='zip'and len(parts)==1:allowed.add(parts[0]['file']if ext=='docx'else str(Path(parts[0]['file']).with_suffix('.pdf')))
+                if url.rsplit('/',1)[-1]not in allowed:raise ValueError('Combined-download file belongs to another language or scope')
     for lang,lc in languages.items():
         title,booklabel,editable,reading,count,pending=COPY[lang]
         for text in COPY[lang]:native_text(text,lang)
@@ -76,6 +89,15 @@ def render_ready(conf,ready,repo):
                 page.append('| '+' | '.join([cell(label),f'[{DOWNLOADS[lang][0]}]({item["download"]})',f'[{DOWNLOADS[lang][1]}]({item["pdfDownload"]})',digits(str(len(item.get('units',[]))),lang)])+' |')
             else:
                 row.append(cell(pending));page.append('| '+' | '.join([cell(label),pending,pending,'—'])+' |')
+        if bundles is not None:
+            together,merged,zipped=BUNDLE_COPY[lang]
+            for text in BUNDLE_COPY[lang]:native_text(text,lang)
+            item=bundles.get(lang)
+            if item:
+                chooser=f'https://blaghtayt-alt.github.io/iman-companion/books/?lang={quote(lang)}'
+                row.append(f'[{cell(together)}]({chooser})')
+                page+=['','## '+together,'',merged,'',f'[{DOWNLOADS[lang][0]}]({item["docx"]}) · [{DOWNLOADS[lang][1]}]({item["pdf"]})','',f'[{zipped}]({item["zip"]})']
+            else:row.append(cell(pending))
         root.append('| '+' | '.join(row)+' |')
         if lang!='ar':page+=['',locale(lang)['notice']]
         for line in page:

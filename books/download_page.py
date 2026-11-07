@@ -185,6 +185,13 @@ def write_catalog(root,out,ready,bundles):
     if {k:v for k,v in previous.items()if k!='updated'}==catalog:catalog['updated']=previous['updated']
     else:catalog['updated']=datetime.now(timezone.utc).isoformat(timespec='seconds')
     path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    # Regenerate all native tables from the same verified book and bundle inventory.
+    from download_tables import render_ready,merge_readme
+    table,pages=render_ready(conf,ready,REPO,bundles=bundles)
+    readme=root/'README.md'
+    if readme.exists():readme.write_text(merge_readme(readme.read_text(encoding='utf8'),table),encoding='utf8')
+    for language,body in pages.items():
+        page=root/'books/downloads'/language/'README.md';page.parent.mkdir(parents=True,exist_ok=True);page.write_text(body,encoding='utf8')
     for language in languages:
         page=root/'books/downloads'/language/'README.md'
         if not page.exists():continue
