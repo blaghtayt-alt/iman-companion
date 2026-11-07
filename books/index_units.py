@@ -53,6 +53,9 @@ def main():
         elif declaration.get('adapter')=='reviewed-ikhlas-v1':
             from adapt_ikhlas import generate
             normalized=generate(root,catalog,declaration)
+        elif declaration.get('adapter')=='arabic-current-ikhlas-v1':
+            from adapt_ar_ikhlas import generate
+            normalized=generate(root,catalog,declaration)
         else:raise ValueError('No registered reviewed source adapter for scope')
         published_ids={u['id']for u in scoped_units}
         normalized=[u for u in normalized if u['id']not in published_ids]

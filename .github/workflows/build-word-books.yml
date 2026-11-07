@@ -32,6 +32,7 @@ jobs:
           python books/test_word_layout_check.py
           python books/test_native_word_footer.py
           python books/test_book_edition_scope.py
+          python books/test_ar_ikhlas_adapter.py
           python tests/test_article_adapter.py
           python tests/test_articles_export.py
           python tests/test_seerah_adapter.py
