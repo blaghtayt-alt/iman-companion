@@ -1,6 +1,6 @@
 from copy import deepcopy
 import unittest
-from book_reference_projection import binding,place,index_projection
+from book_reference_projection import binding,place,index_projection,annotate
 from book_edition_scope import sha
 
 class ProjectionTests(unittest.TestCase):
@@ -23,6 +23,18 @@ class ProjectionTests(unittest.TestCase):
         result=place(row,row['reference_object'],{'blocks':[source]},converted,'ar',self.names,self.quran,set(),set())
         self.assertEqual(result['placement'],'exact literal source quote');self.assertEqual(''.join(s['text'] for s in converted[0]['spans']),text)
         self.assertEqual([s['verseKeys'] for s in converted[0]['spans'] if not s.get('text')],[['1:2']])
+    def test_later_quote_preserves_earlier_zero_width_citation(self):
+        text='alpha bravo';block={'text':text,'spans':[{'text':text,'role':'body'}]};cite={'book':'muslim','number':'395'}
+        annotate(block,0,5,'alpha',{'citations':[cite]});annotate(block,6,11,'bravo',{'verseKeys':['1:1']})
+        self.assertEqual(''.join(s['text'] for s in block['spans']),text)
+        self.assertEqual([s['citations'] for s in block['spans'] if s.get('citations')],[[cite]])
+        self.assertIn(['1:1'],[s['verseKeys'] for s in block['spans'] if s.get('verseKeys')])
+    def test_later_quote_preserves_earlier_zero_width_note(self):
+        text='alpha bravo';block={'text':text,'spans':[{'text':text,'role':'body'}]}
+        annotate(block,0,5,'alpha',{'noteTexts':['source note']});annotate(block,6,11,'bravo',{'citations':[{'book':'muslim','number':'395'}]})
+        self.assertEqual(''.join(s['text'] for s in block['spans']),text)
+        self.assertEqual([s['noteTexts'] for s in block['spans'] if s.get('noteTexts')],[['source note']])
+        self.assertEqual(len([s for s in block['spans'] if s.get('citations')]),1)
     def test_section_attribution_does_not_fabricate_a_quote_anchor(self):
         row=self.row('named_scholar_book_or_commentary',{'literal_source':'زاد المعاد، فصل الرقية'});converted=[{'kind':'paragraph','text':'نص كامل.'}]
         result=place(row,row['reference_object'],{'blocks':[]},converted,'ar',self.names,self.quran,set(),set())

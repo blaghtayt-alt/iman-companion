@@ -62,6 +62,8 @@ def annotate(block,start,end,selected,meta):
     out=[];cursor=0;inserted=False
     for original in block.get('spans') or [{'text':block['text'],'role':block.get('role','body')}]:
         text=original['text'];right=cursor+len(text)
+        if not text:
+            out.append(deepcopy(original));continue
         cuts=sorted({cursor,right,max(cursor,min(right,start)),max(cursor,min(right,end))})
         for a,b in zip(cuts,cuts[1:]):
             if a==b:continue
