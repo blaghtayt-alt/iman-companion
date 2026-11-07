@@ -1,0 +1,105 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "fil",
+        "languageLabel": "Filipino",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "Pagninilay sa Quran",
+        "file": "Iman_Companion_fil_tadabbur-extended.docx",
+        "sha256": "672413a3ac06f38c837d932f4207d0a9f548bf295fb623ed737ba42fe17c136c",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "Pagbubulay-bulay sa Kabanatang Al-Ikhlas",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "23e950de68af6f9aaea71578f6bc3e4a10ac26ba1b1fcc931f5f6506236818fe"
+          }
+        ],
+        "sourceCommit": "7d49e51763b9665c8d98aaa46eac6946caf9979f",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 23,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "previewOnly": false,
+        "audioQRVerification": [],
+        "pages": 25,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-7d49e517/Iman_Companion_fil_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-7d49e517/Iman_Companion_fil_tadabbur-extended.pdf",
+        "pdfSha256": "aac04c4ecc26a94ab3f9e68386d01ac971fe08be31af018d1142338a9f7635ae",
+        "exportVerified": true,
+        "contentsTargetVerification": {
+          "matchedEntries": 5
+        }
+      },
+      "snapshot": {
+        "catalogSHA256": "77d10b23563535eaa7fc8fa3b8e9ea2d0578ba9408f39429d44021dcc5d10010",
+        "scopeSettingsSHA256": "1d04eb6b803356fa34e06fbafb87fceb99c35eae0e6cdb924b33992a32c9063e",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/book-publication-approvals/d71ae6b7df48735e214aa324645e99448e8f3b8fcde64321aa9d37a1442e5d01.json",
+            "sha256": "d71ae6b7df48735e214aa324645e99448e8f3b8fcde64321aa9d37a1442e5d01"
+          },
+          {
+            "path": "materials/book-publication-readers/fil/tadabbur-extended/112-extended-v2.json",
+            "sha256": "d0503aaba4a52128f99e7082bddfd54edf2ebdbfccc4ae2bf575357d24265144"
+          },
+          {
+            "path": "materials/tadabbur/fil/extended/112.json",
+            "sha256": "52db0cf6ae8c4b164479e4a60686096b6afdbba7c766ba036b39d5038e8e3bd6"
+          },
+          {
+            "path": "materials/tadabbur/fil/extended/112.md",
+            "sha256": "fd5bc68e3aa588b0495a366ad90c1641e8c3e24d619c031f79f5ef0d8bcf57bc"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/112-001.json",
+            "sha256": "ae31ae24a492dbb58f29d8376a6471b2ab57d96de38ecf5383308c7b02b74579"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/112-002.json",
+            "sha256": "ae6e285d04ac7652718bc94c2acccdb0b7522d93f98cbb4bbf2d4289561bc225"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/112-003.json",
+            "sha256": "84a91fba1f283298e5141927ae188f293cd43ed6ffe52e5dcb784eb58aca58f4"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/112-004.json",
+            "sha256": "4d7d33f7bdb4cc92a741d8b1bc55782582082ed18d1b7dcd854929fd022141b1"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/FILIPINO-CONTEXT-GLOSSARY746.json",
+            "sha256": "1e8255a77c6e9fc1cbe4578d01470f0442d58fcfcac3bf6b83c94a7fc462f586"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/IKHLAS-FIL-PUBLIC-SOURCES746.json",
+            "sha256": "d16811d2d8d7b2e908232c1bc5a1a5cc9f137e15271ec53b738e2c2cd975fef7"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/fil/IKHLAS-FIL-SOURCE-NOTE746.md",
+            "sha256": "9e843c5d48f710b6778076a29693fd321a6bf28fc94c921eb8b920717740a68f"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          }
+        ]
+      }
+    }
+  ]
+}
