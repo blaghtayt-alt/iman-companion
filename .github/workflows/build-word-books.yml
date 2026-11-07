@@ -27,6 +27,7 @@ jobs:
           python tests/test_download_tables.py
           python tests/test_book_render_validation.py
           python tests/test_book_fonts.py
+          python books/test_script_fonts.py
           python tests/test_article_adapter.py
           python tests/test_articles_export.py
           python tests/test_seerah_adapter.py
@@ -63,6 +64,7 @@ jobs:
           python books/install_assets.py --root .
           mkdir -p "$HOME/.local/share/fonts/iman-books"
           cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
           fc-cache -f
           command -v google-chrome || command -v chromium
       - name: Publish exact audio assets and retire changed or withdrawn voices
