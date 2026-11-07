@@ -22,6 +22,8 @@ def record(root,index,folder,commit,holds):
 
 class PreparationTests(unittest.TestCase):
     def setUp(self):
+        self.env=patch.dict('os.environ',{'GITHUB_RUN_ID':'','GITHUB_RUN_ATTEMPT':'','GITHUB_REPOSITORY':''})
+        self.env.start();self.addCleanup(self.env.stop)
         self.fixture=SourcePublishingTests();self.fixture.setUp();self.root=self.fixture.root
         conf=read(Path(__file__).parent/'config.json');conf.pop('audioRegistry',None)
         self.fixture.write('books/config.json',conf);self.commit='a'*40
