@@ -4,10 +4,10 @@ on:
   repository_dispatch:
     types: [published-material]
   pull_request:
-    paths: ['books/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', '.github/workflows/build-word-books.yml']
+    paths: ['books/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
   push:
     branches: [main]
-    paths: ['books/**', 'tests/**', 'materials/**', 'docs/listen/**', '.github/workflows/build-word-books.yml']
+    paths: ['books/**', 'tests/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
 permissions:
   contents: read
 concurrency:
@@ -34,6 +34,9 @@ jobs:
           python tests/test_material_audio.py
           python tests/test_automatic_publication.py
           node tests/test_player.mjs
+          python -m unittest discover -s books -p test_download_page.py
+          python -m unittest discover -s books -p test_source_publisher.py
+          node books/test_download_page.mjs
   publish:
     needs: validate
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
@@ -89,5 +92,5 @@ jobs:
           path=Path(os.environ['RUNNER_TEMP'])/'current-books/publication-report.json'
           result=json.loads(path.read_text(encoding='utf8'))
           print(json.dumps(result,ensure_ascii=False))
-          if result['failedScopes']:raise SystemExit('Working book pairs were published; one or more other scopes need repair. See publication-report.json.')
+          if result['failedScopes'] or result.get('downloadPage',{}).get('failedBundles'):raise SystemExit('Working book pairs were published; one or more other scopes need repair. See publication-report.json.')
           PY
