@@ -1,0 +1,133 @@
+{
+  "schema": "iman-arabic-current-reader-source-binding-v1",
+  "scope": "Four current Arabic extended Al-Ikhlas ayah and commentary sections only, in order. This establishes literal source continuity and the existing bounded integration QC; it does not create a new review, decide source rights, approve a finished book or include other surahs.",
+  "sourceCommit": "cda69e70809decb4d13a18a706300a8a67df6ae0",
+  "sourceOriginalSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+  "sourceJSON": {
+    "path": "materials/tadabbur/ar/extended/112.json",
+    "sha256": "f429d52b2be3fe591e973d5141504d8c654d6cab4a9094b6b967a95c4dc8770c"
+  },
+  "sourceMarkdown": {
+    "path": "materials/tadabbur/ar/extended/112.md",
+    "sha256": "941e6bddf529f8b96f7496402f690bbae245216f2696335febdb2098ec5aa9f0",
+    "disposition": "Contains two different four-section sets and must not be used as the current four-section reader without separate reconciliation."
+  },
+  "introduction": {
+    "disposition": "The separately supplied introduction is outside this four-section binding; current-reader equivalence remains unestablished. Its existing source and records are preserved.",
+    "differentSourceSHA256": "de2e648932c5b01662bc314dc0c17cd183eccc874ab72f974753d87b94e17567"
+  },
+  "currentApp": {
+    "runtimeFingerprint": "7364154d7509e5f290ab9b3a92dcfa37efeffbf1ba60070779502ecfc80c8365",
+    "dataPath": "runtime/content/ikhlas-arabic647-data.js",
+    "dataSHA256": "953b811e4a6b70148827bfeb233403434426428dcc0494de951f0d5cf85cbd66",
+    "adapterPath": "runtime/scripts/ikhlas-arabic647.js",
+    "adapterSHA256": "c456bb4429cb10d6430e5cee03ca34a2ed18e0c2d2e6c5725ce54080df837383"
+  },
+  "comparison": "Each section text and complete runs are byte-for-byte equal between the current source JSON and the installed app data; run text reconstructs each source block.",
+  "hashEncoding": "UTF-8; canonical JSON uses sorted keys, no extra whitespace and unescaped Unicode.",
+  "sections": [
+    {
+      "key": "112:1",
+      "entryCanonicalJSONSHA256": "d5833ded06c68d3035228fb87c68e882d90459a2180f2a997a36f1bb7ce40d0a",
+      "blocks": [
+        {
+          "role": "ayah",
+          "kind": "ayah",
+          "sourceParagraph": 3,
+          "textSHA256": "336360a0b79b5d9dd8368d7688a9344cfba81f4c55ee75ab0433ef400dddee1c",
+          "runsCanonicalJSONSHA256": "864ba8f3b4d532cb6a300e3c6606368a8912a65af3b618804167bf6166bb2e02",
+          "characters": 26
+        },
+        {
+          "role": "commentary",
+          "kind": "paragraph",
+          "sourceParagraph": 4,
+          "textSHA256": "0aa02000b70dba7d033a0f4c20e11df88f1e66386afc19bcc2ec43c36ad29b0b",
+          "runsCanonicalJSONSHA256": "55094a32514a7b17b5eca88dcd63b55c07ff30a5752a8bb617bd1e5acf127bc2",
+          "characters": 5596
+        }
+      ]
+    },
+    {
+      "key": "112:2",
+      "entryCanonicalJSONSHA256": "61221ffba26b51910ef601a69ae0566604f189a4f3a8e8c40f6011b42afb2d45",
+      "blocks": [
+        {
+          "role": "ayah",
+          "kind": "ayah",
+          "sourceParagraph": 6,
+          "textSHA256": "1dfd2661c6bbc7401407419b64921c53bf5a1e789c79a8f1768f75806926cf8d",
+          "runsCanonicalJSONSHA256": "41d1259de6af0ad082124069edf302ff1c847590f26003c0312a28b6d93aa6fc",
+          "characters": 19
+        },
+        {
+          "role": "commentary",
+          "kind": "paragraph",
+          "sourceParagraph": 7,
+          "textSHA256": "0e52ce79655bc58a3d312dd1b507e4923692274e729fd9e1905dfd1bb1898b1f",
+          "runsCanonicalJSONSHA256": "fe324afd41bd0782f25c3dbd45927145a8bf0e5ae2a011cb68224a094892b9b8",
+          "characters": 7678
+        }
+      ]
+    },
+    {
+      "key": "112:3",
+      "entryCanonicalJSONSHA256": "8850448411cba46cedaa279d44eb1f356fddd4f55d92307bd01739253129acaa",
+      "blocks": [
+        {
+          "role": "ayah",
+          "kind": "ayah",
+          "sourceParagraph": 9,
+          "textSHA256": "0157fe71be9771e54ea0bf82b199defffe45a8e4b2d53569b7d0f094c81bfef5",
+          "runsCanonicalJSONSHA256": "8782500b15c32e2c81c1635c1e97764c5257fe911967f3b9e0c145a20d399697",
+          "characters": 28
+        },
+        {
+          "role": "commentary",
+          "kind": "paragraph",
+          "sourceParagraph": 10,
+          "textSHA256": "1de2a93f1eb1fdb4a0f65b5fbeaff65be814f55b1fc57754e34bbc102a0e08cc",
+          "runsCanonicalJSONSHA256": "28484d88d4e8de76809d23dcee2b5732a28fb55ce050644f071774ba8a00a4bd",
+          "characters": 2444
+        }
+      ]
+    },
+    {
+      "key": "112:4",
+      "entryCanonicalJSONSHA256": "1520b821d0394c67ac5921c2192af2c9b29a08af8e4a3fc0e382ee0eb5e4c407",
+      "blocks": [
+        {
+          "role": "ayah",
+          "kind": "ayah",
+          "sourceParagraph": 12,
+          "textSHA256": "5e9f47091c369c827aef53cf2fc2273cb11b0b9c8be317422c83f0a122d78290",
+          "runsCanonicalJSONSHA256": "cfa222b006b722e94a84ad812c5438ad4941f63f5012a1fc6a5255ce0a08da35",
+          "characters": 37
+        },
+        {
+          "role": "commentary",
+          "kind": "paragraph",
+          "sourceParagraph": 13,
+          "textSHA256": "0114d547276339e279a5c9ef811afde6eaa246a208e81c6cde91ed9b5c1c63e6",
+          "runsCanonicalJSONSHA256": "226b491476d97b36c1cb49b95eed35f5b400cc08dbab27f55e807f4d782c4712",
+          "characters": 3648
+        }
+      ]
+    }
+  ],
+  "existingIntegrationEvidence": [
+    {
+      "record": "SOURCE112.json",
+      "sha256": "1bddb0c357aef5c08d8a47020de4af7cf1de4a9abdd5bf8dbe7b7d4ddec95dc8"
+    },
+    {
+      "record": "ROOT-VISUAL-REVIEW112.json",
+      "sha256": "f29ec73342db4afa97159e79799404944b874f5f1cb587d9a6098465ab9ba338"
+    },
+    {
+      "record": "DELIVERY112.json",
+      "sha256": "d2d8932acca1be9315eb3c97d03dbb0c854dbd7459a5819aabdcca0ed463ce02"
+    }
+  ],
+  "conditions": "Recheck the source and current app binding before use. Preserve all existing holds, superseded exclusions, original files and source conditions. Word/PDF formatting requires its own validation."
+}
