@@ -132,6 +132,9 @@ def publish_bundles(root,out,ready,commit,repo,tag,execute):
             release_cache.pop(bundle_tag,None)
             for language,entry in pending.items():verified_bundle(entry,inventory(ready,language),repo,fetch);selected[language]=entry
         except Exception as error:errors.extend({'language':lang,'error':str(error)}for lang in pending)
+    # Keep the published inventory in locale order even when a transaction
+    # mixes reused releases with newly created bundles.
+    selected={language:selected[language] for language in COPY if language in selected}
     links={}
     for language,entry in selected.items():links[language]=verified_bundle(entry,inventory(ready,language),repo,fetch)
     path.write_text(json.dumps({'schema':SCHEMA,'languages':selected},ensure_ascii=False,indent=2)+'\n',encoding='utf8')

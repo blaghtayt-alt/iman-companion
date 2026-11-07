@@ -291,6 +291,7 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
         for text in credits:
             p=doc.add_paragraph();direction(p,lang);add_text(p,text,lang,family,arabic,10)
     p=doc.add_paragraph(style='BookContentsTitle');direction(p,lang);add_text(p,lc['contents'],lang,family,arabic,22,'heading',True)
+    if lang=='ur':p.paragraph_format.page_break_before=True
     p=doc.add_paragraph();direction(p,lang);r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'begin'});r=p.add_run();el(r._r,'w:instrText').text=' TOC \\o "1-2" \\h \\z \\u ';r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'separate'});r=p.add_run(' ');r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'end'})
     preserved=[];notes=Footnotes(doc,lang,family,arabic);hadith_count=0;last_chapter=None
     for unit_index,unit in enumerate(units):

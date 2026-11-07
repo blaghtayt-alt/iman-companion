@@ -22,12 +22,12 @@ class WordLayoutChecks(unittest.TestCase):
   doc.save(self.file);self.data={'schema':'iman-word-layout-readback-v1','testFixtureOnly':True,'docxSHA256':hashlib.sha256(self.file.read_bytes()).hexdigest(),'engine':{'application':'Microsoft Word','version':'synthetic-contract-fixture','build':'not-a-real-readback'},'readOnly':True,'savedByWord':False,'pages':4,'contents':[{'anchor':'fixture'+str(n),'cachedPage':n+3,'actualPage':n+3,'physicalPage':n+3}for n in range(2)]};self.write()
  def tearDown(self):self.temp.cleanup()
  def write(self):self.receipt.write_text(json.dumps(self.data),encoding='utf8')
- def pdf(self,bad=False,wrong_visible=False):
+ def pdf(self,bad=False,wrong_visible=False,baseline_shift=0):
   file=self.root/'SYNTHETIC.pdf';writer=PdfWriter()
   for _ in range(3):writer.add_blank_page(width=432,height=648)
   painted=[]
   for n,target in enumerate([2,3]):
-   annotation=DictionaryObject({NameObject('/Subtype'):NameObject('/Link'),NameObject('/Rect'):ArrayObject([NumberObject(10),NumberObject(497-n*20),NumberObject(315),NumberObject(512-n*20)]),NameObject('/Dest'):ArrayObject([writer.pages[target-1].indirect_reference,NameObject('/Fit')]),NameObject('/Contents'):TextStringObject('Synthetic\t'+str(99 if bad and n==0 else target))});writer.pages[0].setdefault(NameObject('/Annots'),ArrayObject()).append(writer._add_object(annotation));painted.append(f'BT /F1 10 Tf 300 {500-n*20} Td ({99 if wrong_visible and n==0 else target}) Tj ET')
+   annotation=DictionaryObject({NameObject('/Subtype'):NameObject('/Link'),NameObject('/Rect'):ArrayObject([NumberObject(10),NumberObject(497-n*20),NumberObject(315),NumberObject(512-n*20)]),NameObject('/Dest'):ArrayObject([writer.pages[target-1].indirect_reference,NameObject('/Fit')]),NameObject('/Contents'):TextStringObject('Synthetic\t'+str(99 if bad and n==0 else target))});writer.pages[0].setdefault(NameObject('/Annots'),ArrayObject()).append(writer._add_object(annotation));painted.append(f'BT /F1 10 Tf 300 {500-n*20+baseline_shift} Td ({99 if wrong_visible and n==0 else target}) Tj ET')
   font=DictionaryObject({NameObject('/Type'):NameObject('/Font'),NameObject('/Subtype'):NameObject('/Type1'),NameObject('/BaseFont'):NameObject('/Helvetica')});writer.pages[0][NameObject('/Resources')]=DictionaryObject({NameObject('/Font'):DictionaryObject({NameObject('/F1'):writer._add_object(font)})});stream=DecodedStreamObject();stream.set_data('\n'.join(painted).encode());writer.pages[0][NameObject('/Contents')]=writer._add_object(stream)
   with file.open('wb')as stream:writer.write(stream)
   return file
@@ -60,4 +60,9 @@ class WordLayoutChecks(unittest.TestCase):
  def test_valid_link_metadata_cannot_hide_wrong_painted_pdf_number(self):
   pdf=self.pdf(wrong_visible=True);check_pdf(self.file,pdf)
   with self.assertRaises(ValueError):verify_pair(self.file,pdf,'en')
+ def test_overlapping_digit_cell_need_not_have_its_centre_inside_link(self):
+  result=verify_pair(self.file,self.pdf(baseline_shift=-9),'en');self.assertEqual(result['pdf']['visibleLabelsMatched'],2)
+ def test_overlap_rule_still_rejects_wrong_or_separate_painted_numbers(self):
+  for kwargs in [{'baseline_shift':-9,'wrong_visible':True},{'baseline_shift':-40}]:
+   with self.assertRaises(ValueError):verify_pair(self.file,self.pdf(**kwargs),'en')
 if __name__=='__main__':unittest.main()

@@ -37,6 +37,11 @@ class PublicationTests(unittest.TestCase):
             self.assertEqual(set(archive.namelist()),{'Iman_Companion_ru_tadabbur-extended.docx','Iman_Companion_ru_tadabbur-extended.pdf'});self.assertEqual(archive.read('Iman_Companion_ru_tadabbur-extended.docx'),b'checked editable bytes')
     def test_unchanged_reuses_verified_release(self):
         ready=self.ready();first,_=self.publish(ready);self.commands.clear();second,errors=self.publish(ready,'second');self.assertEqual(first,second);self.assertFalse(errors);self.assertFalse(any(c[1]=='release'for c in self.commands))
+    def test_mixed_new_and_existing_bundles_keep_stable_locale_order(self):
+        ru=self.ready();self.publish(ru);ready={**ru,**self.ready('en')};self.publish(ready,'new')
+        path=self.root/'books/published-bundles.json';first=path.read_bytes()
+        self.assertEqual(list(json.loads(first)['languages']),[l for l in COPY if l in {'en','ru'}])
+        self.publish(ready,'unchanged');self.assertEqual(path.read_bytes(),first)
     def test_withdrawal_removes_only_matching_locale(self):
         ready={**self.ready(),**self.ready('vi')};self.publish(ready);links,errors=self.publish({k:v for k,v in ready.items()if k[0]!='ru'},'withdrawal');self.assertEqual(set(links),{'vi'});self.assertFalse(errors)
         data=json.loads((self.root/'books/published-bundles.json').read_bytes());self.assertEqual(set(data['languages']),{'vi'})
