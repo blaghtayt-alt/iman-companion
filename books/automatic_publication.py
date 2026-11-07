@@ -94,9 +94,10 @@ def ensure_main(root,commit):
     remote=run(['git','ls-remote','origin','refs/heads/main'],root).split()
     if not remote or remote[0]!=commit:raise ValueError('Newer main exists; its queued workflow must publish the latest sources')
 
-def managed_paths():
+def managed_paths(root=None):
+    from download_page import managed_paths as download_paths
     from locale_copy import COPY
-    return ['README.md','books/published-library.json','books/config.json','materials/audio/registry.json','docs/listen/materials.json']+[f'books/downloads/{language}/README.md'for language in COPY]
+    return ['README.md','books/published-library.json','books/config.json','materials/audio/registry.json','docs/listen/materials.json']+[f'books/downloads/{language}/README.md'for language in COPY]+(download_paths(root)if root else[])
 
 def publish(root,out,commit,repo,tag,execute=run):
     entries,assets=candidates(root,out,tag)
@@ -113,7 +114,10 @@ def publish(root,out,commit,repo,tag,execute=run):
     library,ready,stale=merge(root,existing,entries,repo,fetch)
     ensure_main(root,commit)
     count=stage(root,library,ready,repo)
-    files=[p for p in managed_paths()if(root/p).is_file()]
+    from download_page import publish as publish_download_page
+    downloads=publish_download_page(root,out,ready,commit,repo,tag,execute)
+    ensure_main(root,commit)
+    files=[p for p in managed_paths(root)if(root/p).is_file()]
     execute(['git','add','--',*files],root)
     changed=execute(['git','diff','--cached','--name-only'],root).splitlines()
     if not set(changed).issubset(set(files)):raise ValueError('Unexpected staged publication file')
@@ -123,6 +127,7 @@ def publish(root,out,commit,repo,tag,execute=run):
         execute(['git','commit','-m','Update verified book downloads and material audio players'],root)
         execute(['git','push','origin','HEAD:refs/heads/main'],root)
     result={'verifiedBookPairs':count,'newPairs':len(entries),'staleScopesRemoved':stale,'nativeLanguagePages':20,'tablesCommitted':bool(changed),'failedScopes':read(out/'build-report.json')['failed']}
+    result['downloadPage']=downloads
     (out/'publication-report.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     return result
 

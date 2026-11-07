@@ -37,7 +37,9 @@ class PublicationChecks(unittest.TestCase):
     def report(self,built,failed=None):
         (self.out/'build-report.json').write_text(json.dumps({'sourceCommit':self.commit,'built':built,'unchanged':[],'failed':failed or[]}),encoding='utf8')
     def publish(self):
-        with patch.object(auto,'ensure_main'):return auto.publish(self.root,self.out,self.commit,self.repo,self.tag,execute=self.execute)
+        # These lifecycle fixtures are deliberately not real font/PDF books.
+        # The download page/bundle transport has its own real and fixture tests.
+        with patch.object(auto,'ensure_main'),patch('download_page.publish',return_value={'failedBundles':[]}):return auto.publish(self.root,self.out,self.commit,self.repo,self.tag,execute=self.execute)
     def test_verified_new_pair_preserves_other_release_and_updates_all_native_pages(self):
         old,_=self.entry('ar','books-fixture-1');new,row=self.entry('en',self.tag);self.write('books/published-library.json',{'schema':SCHEMA,'entries':[old]});self.report([row]);result=self.publish()
         self.assertEqual(result['verifiedBookPairs'],2);self.assertEqual(len(list((self.root/'books/downloads').glob('*/README.md'))),20)
