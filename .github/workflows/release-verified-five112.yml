@@ -1,4 +1,5 @@
 name: Publish five verified reflection editions
+# Retry after stabilizing the verified bundle inventory order.
 on:
   pull_request:
     paths: ['.github/workflows/release-verified-five112.yml', '.github/scripts/publish_verified_five112.py']

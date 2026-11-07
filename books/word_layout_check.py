@@ -55,7 +55,9 @@ def visible_pdf_contents(pdf,language):
                 key=(page_index,content,target);chars=groups.setdefault(key,{})
                 for c in visual.pages[page_index].chars:
                     x=(c['x0']+c['x1'])/2;y=(c['y0']+c['y1'])/2
-                    if float(rect[0])-1<=x<=float(rect[2])+1 and float(rect[1])-2<=y<=float(rect[3])+2 and c['text'].isdecimal():chars[(c['x0'],c['y0'],c['text'])]=c
+                    # Nastaliq digit cells extend below the link rectangle;
+                    # require real glyph-box overlap rather than its centre.
+                    if float(rect[0])-1<=x<=float(rect[2])+1 and c['y1']>=float(rect[1])-2 and c['y0']<=float(rect[3])+2 and c['text'].isdecimal():chars[(c['x0'],c['y0'],c['text'])]=c
         for(_,_,target),by_position in groups.items():
             numbers=[]
             for c in sorted(by_position.values(),key=lambda c:(round((c['y0']+c['y1'])/2),c['x0'])):
