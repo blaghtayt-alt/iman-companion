@@ -1,0 +1,115 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "zh-CN",
+        "languageLabel": "简体中文",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "古兰经参悟 · 《忠诚章》默想",
+        "file": "Iman_Companion_zh-CN_tadabbur-extended.docx",
+        "sha256": "eca0ce4834d688429f0edffeb9487a3d26b6ed694bd0c955babb2d5aff34c23a",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "《忠诚章》默想",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "7a99dc3f97bf763800686c5ea66494b3d62402c3e55a85e6526f4bf9567ba74c"
+          }
+        ],
+        "sourceCommit": "038ccc555bb03e9442d4e6aa65c7d644e0713ef6",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 19,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "editionScope": {
+          "policy": "reviewed-source-edition-v1",
+          "includedMaterialTitles": [
+            "《忠诚章》默想"
+          ],
+          "includedMaterialIds": [
+            "112:extended"
+          ]
+        },
+        "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 16,
+        "wordContentsVerification": {
+          "pages": 16,
+          "matchedEntries": 5,
+          "docxSHA256": "eca0ce4834d688429f0edffeb9487a3d26b6ed694bd0c955babb2d5aff34c23a",
+          "receiptSHA256": "1e9d6529e84d179b94a912b8cf1acb6ad6335dca81f8e3a102b318893441cc33",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
+        "audioQRVerification": [],
+        "pages": 14,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_zh-CN_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_zh-CN_tadabbur-extended.pdf",
+        "pdfSha256": "880a1b60bd205c74c14d2ecead2ce173ba8f99e71dfdbd6c7120ba381481defa",
+        "exportVerified": true
+      },
+      "snapshot": {
+        "catalogSHA256": "c4328103f8acc135d0c851b78261308d7e657a62948ba2fb5b1891a74a558d2e",
+        "scopeSettingsSHA256": "5a7db5dc8775e389bdb90eef333bc62a56a1ebe7e56f6e62a761e20850b2a913",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/zh-CN/112-001.json",
+            "sha256": "768644490343899b08f14444a3a15dd5eefc5e0bf9ed7448b06c4343d6dd3abe"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/zh-CN/112-002.json",
+            "sha256": "23e10d9980ac9dfb6e152578c649f775a574d8513697528a6dd3866a38c1ea94"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/zh-CN/112-003.json",
+            "sha256": "14e66db61fef796e385c81d313fc0d8bd734f761c3b47b5fed2b0b0542086122"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/zh-CN/112-004.json",
+            "sha256": "ea760900f8878435618cb002b0d6d5bda24a503f6e64667fb9bc7efaef7ea9ae"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/zh-CN/CHINESE-CONTEXT-GLOSSARY729.json",
+            "sha256": "2209d85ba1729ff055d8b14297beb7e3a9ff2f03798550abf5e130c5c7750819"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/zh-CN/IKHLAS-ZH-PUBLIC-SOURCES729.json",
+            "sha256": "98f8278790d609fa8e0cc7db6b82ce5bc56b54c6e1e918c699b3150441e0e985"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/zh-CN/IKHLAS-ZH-SOURCE-NOTE729.md",
+            "sha256": "21f4afb1d00bc159bd0c22d9a77d9f4039618068cfe19300339969bdbdcf6d01"
+          },
+          {
+            "path": "materials/tadabbur/zh-CN/extended/112.json",
+            "sha256": "07b1726f98f4cf0c5f724c625b9284c7af065cc4d19ae16853778b0ea7ac12c3"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "Betrachtung des Korans · Sure Al-Ikhlas – Betrachtungen",
+        "file": "Iman_Companion_de_tadabbur-extended.docx",
+        "sha256": "2c8103062c59f2b1de114230d07eb4ff20b0c49fa31e6f93debef8ee9fe91d8d",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "Sure Al-Ikhlas – Betrachtungen",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "40589fa3fbf416cb071263fe340e9d83804e5796f6b9a90cc5cf649f18b3cf42"
+          }
+        ],
+        "sourceCommit": "038ccc555bb03e9442d4e6aa65c7d644e0713ef6",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 17,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "editionScope": {
+          "policy": "reviewed-source-edition-v1",
+          "includedMaterialTitles": [
+            "Sure Al-Ikhlas – Betrachtungen"
+          ],
+          "includedMaterialIds": [
+            "112:extended"
+          ]
+        },
+        "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 23,
+        "wordContentsVerification": {
+          "pages": 23,
+          "matchedEntries": 5,
+          "docxSHA256": "2c8103062c59f2b1de114230d07eb4ff20b0c49fa31e6f93debef8ee9fe91d8d",
+          "receiptSHA256": "4123aa2ea1385ead486e4c69c4d3b2191285e4c4f3b86591e52bfb70b5528cf1",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
+        "audioQRVerification": [],
+        "pages": 23,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_de_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_de_tadabbur-extended.pdf",
+        "pdfSha256": "634e98b66a4c81a2c867e097136ec744f306c358b503ac77530486b15539b6a3",
+        "exportVerified": true
+      },
+      "snapshot": {
+        "catalogSHA256": "53f338e7b02abde448f57d941c6ff12417303abbc00cf44d66646ce954371c5e",
+        "scopeSettingsSHA256": "07b61038f054d7b66fb2bbf07fe5ac65bfa34740701b9d357be64f8e2f9731d8",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/de/extended/112.json",
+            "sha256": "86aa9d52acf779a724d8e78d35730dcbcac4cec7cd63de1604ca751ffb93b683"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/de/112-001.json",
+            "sha256": "83efaa8644228694c8cd2ae06bec164b961ff30054211c1f9212764644306e84"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/de/112-002.json",
+            "sha256": "64f457b69e8e4fe49df41d1b94e7ca9c11b8f8f8eb2548c18a421d017b3e50b9"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/de/112-003.json",
+            "sha256": "e4324a451aa20dae4a0df12a59ad117d6896dee8866e5396668029c345022731"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/de/112-004.json",
+            "sha256": "150a9516d2220844a5f01c72b0c7e8c0fdda351412d51efc3a33aa5b597f795c"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/de/GERMAN-CONTEXT-GLOSSARY724.json",
+            "sha256": "0993729c11bafafa6ce9ec4c6f4c911b525f8abfc074a210efae171906f2c1ae"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/de/IKHLAS-DE-PUBLIC-SOURCES724.json",
+            "sha256": "e089a1f0c26e98afa225475e41d9285a6d7f18ffb055ff40784104e145d680f2"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/de/IKHLAS-DE-SOURCE-NOTE724.md",
+            "sha256": "0aa8659615237c4cce38e24c264979d54c7f1dc9a3cbec4d11fc9fb158a99e02"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "uz",
+        "languageLabel": "O‘zbekcha",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "Qurʼon Tadabburi · Ixlos surasi — ma’nolari ustida tafakkur",
+        "file": "Iman_Companion_uz_tadabbur-extended.docx",
+        "sha256": "a79d41198c566707774c878ecb4434dc56b67686587fe19d84378065c4670954",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "Ixlos surasi — ma’nolari ustida tafakkur",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "a8477fca96c70cd35fdc98e640e1f221e24374fc0f1cb05ef2616758a438c4bf"
+          }
+        ],
+        "sourceCommit": "038ccc555bb03e9442d4e6aa65c7d644e0713ef6",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 18,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "editionScope": {
+          "policy": "reviewed-source-edition-v1",
+          "includedMaterialTitles": [
+            "Ixlos surasi — ma’nolari ustida tafakkur"
+          ],
+          "includedMaterialIds": [
+            "112:extended"
+          ]
+        },
+        "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 21,
+        "wordContentsVerification": {
+          "pages": 21,
+          "matchedEntries": 5,
+          "docxSHA256": "a79d41198c566707774c878ecb4434dc56b67686587fe19d84378065c4670954",
+          "receiptSHA256": "d9356ffabb6c561af4098f84d59bac93ab351eb646789d5738c6c06ffd451339",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
+        "audioQRVerification": [],
+        "pages": 21,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_uz_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_uz_tadabbur-extended.pdf",
+        "pdfSha256": "eb9677baadeccd7e348d2330bdbcafeb31996cc798a7adfd2aa0c51a12edab0e",
+        "exportVerified": true
+      },
+      "snapshot": {
+        "catalogSHA256": "449c87a9e9dbae300dd652fa3c5652935050978d536b9bdabb33e8d4ab96c985",
+        "scopeSettingsSHA256": "47e7833a2077fbc2e5bb67ffa6169b7e53d00aa5da757b96835010e1ff75d3dd",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/uz/112-001.json",
+            "sha256": "0dda3ea34bc40f36c9ebbaff87f31abbdfe1afc971d66f6bf7961b109ee89d89"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/uz/112-002.json",
+            "sha256": "62743d5ca58adc0450a3a29beb13641e78b446e55c9479f185ae5391df882f98"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/uz/112-003.json",
+            "sha256": "47c80dc193c920106d1b56fbc63fdafb9d7753747676321723efba1c97b089d5"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/uz/112-004.json",
+            "sha256": "1c08800b57e7c21f34ae7bd7688748d0d3c0f970b8f91c2f246750b24097dba9"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/uz/IKHLAS-UZ-PUBLIC-SOURCES735S1.json",
+            "sha256": "cb5e46bd8bc8257a5c9696d679c64dcf125c8f5637d80c9c06d90b65ba8bec74"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/uz/IKHLAS-UZ-SOURCE-NOTE735S1.md",
+            "sha256": "10220ed24e0f5c9d52d76796d2b0e009693b738b4f3bedf9a83ee27cc63ad45f"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/uz/UZBEK-CONTEXT-GLOSSARY735.json",
+            "sha256": "ea5d4ed0a92da905a7b2695f6123a1a9c4487046dfef681b934edfb63eb136c9"
+          },
+          {
+            "path": "materials/tadabbur/uz/extended/112.json",
+            "sha256": "01472608e82df9f82c2ed091e0eb39d6fa5652cff7747a8bf9d4441d1fec86b2"
+          }
+        ]
+      }
+    }
+  ]
+}

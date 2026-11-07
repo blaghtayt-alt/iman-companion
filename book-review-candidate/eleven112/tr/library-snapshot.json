@@ -1,0 +1,115 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "tr",
+        "languageLabel": "Türkçe",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "Kur’an Üzerine Tefekkür · İhlâs Suresi — Tefekkür",
+        "file": "Iman_Companion_tr_tadabbur-extended.docx",
+        "sha256": "2ec89546602527e60b7072a31ddaae8a9c24de5dd4c0db10dd8207cdad166dd5",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "İhlâs Suresi — Tefekkür",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "e6c2475ee8692280bf90e244832c728a4d0341e559ac5b2f3b139942d168ac4b"
+          }
+        ],
+        "sourceCommit": "038ccc555bb03e9442d4e6aa65c7d644e0713ef6",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 16,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "editionScope": {
+          "policy": "reviewed-source-edition-v1",
+          "includedMaterialTitles": [
+            "İhlâs Suresi — Tefekkür"
+          ],
+          "includedMaterialIds": [
+            "112:extended"
+          ]
+        },
+        "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 20,
+        "wordContentsVerification": {
+          "pages": 20,
+          "matchedEntries": 5,
+          "docxSHA256": "2ec89546602527e60b7072a31ddaae8a9c24de5dd4c0db10dd8207cdad166dd5",
+          "receiptSHA256": "bb494cbed3fd28b56a57687379c02dfbc14661464c9434a269add567d352c1c5",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
+        "audioQRVerification": [],
+        "pages": 19,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_tr_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_tr_tadabbur-extended.pdf",
+        "pdfSha256": "956a3a809f2e4b778644b8f87a60eada46e87d62c2e82606b2d9b50bfd3f364b",
+        "exportVerified": true
+      },
+      "snapshot": {
+        "catalogSHA256": "75f4f33da04ba9e974789cb93c459f5fbb3069b684bb5bf8406f18ca031213af",
+        "scopeSettingsSHA256": "0ab6b468a7fbe5378310acff9266a11d830b264d34719b4a7b29d2c66f6a5636",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/tr/112-001.json",
+            "sha256": "b3637101b6692667aa06791863b66bb0f7ebeb92dd76fbea5cc16855817a8940"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/tr/112-002.json",
+            "sha256": "cd75705ea3fabfafa54d923c61a3b23f2b86da302b8991e9f424146defe671e8"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/tr/112-003.json",
+            "sha256": "999414ff3ef55757237339b4f16283f13a7065ac408ebc64bd4e55df3c93bdfa"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/tr/112-004.json",
+            "sha256": "301e1721fc286ab7bccd459b97673848b54406c7ef42a17aa44e1b3c7cf3a552"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/tr/CURRENT-ARABIC-IKHLAS687.json",
+            "sha256": "04d3326549b1ada2b6886cb8da54e9a80ca0e9b4909ad05af9337ed816d3d7f7"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/tr/IKHLAS-TR-PUBLIC-SOURCES687.json",
+            "sha256": "cf2d314077c96af035febe1b02bfc3dcb7244ee9feaef0cde33058caf551cfad"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/tr/IKHLAS-TR-SOURCE-NOTE687.md",
+            "sha256": "3bf7d0fdb00e3b4c5e2a202c3be381431850f75b6ca0baf0d8a337a24c5a1d11"
+          },
+          {
+            "path": "materials/tadabbur/tr/extended/112.json",
+            "sha256": "6670615a51f863004e8928256cc08cf882dc8e05da88220bfd5b89dc6d1e7245"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "es",
+        "languageLabel": "Español",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "Reflexión sobre el Corán · Sura Al-Ijlás — Reflexión",
+        "file": "Iman_Companion_es_tadabbur-extended.docx",
+        "sha256": "e16b1ee07f869a8c7edd08235a593889b580bd31894d26423507b7e1fd107a45",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "Sura Al-Ijlás — Reflexión",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "79637f49d831b3e7fdc0c5a6aec2e173c998cc65ef286aec3b2eae5a97f58ea9"
+          }
+        ],
+        "sourceCommit": "038ccc555bb03e9442d4e6aa65c7d644e0713ef6",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 24,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "editionScope": {
+          "policy": "reviewed-source-edition-v1",
+          "includedMaterialTitles": [
+            "Sura Al-Ijlás — Reflexión"
+          ],
+          "includedMaterialIds": [
+            "112:extended"
+          ]
+        },
+        "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 22,
+        "wordContentsVerification": {
+          "pages": 22,
+          "matchedEntries": 5,
+          "docxSHA256": "e16b1ee07f869a8c7edd08235a593889b580bd31894d26423507b7e1fd107a45",
+          "receiptSHA256": "3b7398c69fb4c5ebd7b3410569776f2f87d50224e1e3fce6359ef095d0549faa",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
+        "audioQRVerification": [],
+        "pages": 22,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_es_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_es_tadabbur-extended.pdf",
+        "pdfSha256": "07ae02b22d4ea480b33199915fdb55108dfb736ef140a0fe17c1035b289cdfc4",
+        "exportVerified": true
+      },
+      "snapshot": {
+        "catalogSHA256": "06bfc7b687a389a86d7e436090012568f51d30b032515dbbe5f979a65b4c9435",
+        "scopeSettingsSHA256": "07e92f5335ee390c44b61c2a5de16f962d35cec4c8d5bd1f40ada1f54a8ace9f",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/es/extended/112.json",
+            "sha256": "c1d2fa0bb2dd568dfd3518feb7a04bfed01214f4f6a55fdd873453d3016092d9"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/es/112-001.json",
+            "sha256": "e72c191101c0997f04247709297824d0880a383bc782d89c3a719b91cc31247e"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/es/112-002.json",
+            "sha256": "39305c4dc38dd942a0817b3d4347dce456b3671d58e2d6f699d6de84688c5e52"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/es/112-003.json",
+            "sha256": "9e6ab5d0ab7186373490b634ed5c95eaa31f45c0c3a84f14813247793c2a344a"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/es/112-004.json",
+            "sha256": "235537151e8cd3ed63e687e5481ee61d9608d939978472cbcc8e529571b5153d"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/es/IKHLAS-ES-PUBLIC-SOURCES714.json",
+            "sha256": "671c8a611717651f201c2560c981fa5f05bc11a6d7374ca4bf4e1f9d6653c0e3"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/es/IKHLAS-ES-SOURCE-NOTE714.md",
+            "sha256": "549546d378919fc9e2fef62e2a5eb5e8ddbd03c9d7ba557004d2b040492f076e"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/es/SPANISH-CONTEXT-GLOSSARY714.json",
+            "sha256": "abf155c937264957a38a42fe2adaae7b44bf64ad42ba602a3ee7a5ebcd84ad19"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          }
+        ]
+      }
+    }
+  ]
+}

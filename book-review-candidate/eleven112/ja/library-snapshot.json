@@ -1,0 +1,111 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "ja",
+        "languageLabel": "日本語",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "クルアーンの 考察 · イフラース章を思い巡らす",
+        "file": "Iman_Companion_ja_tadabbur-extended.docx",
+        "sha256": "df997aa7d1f54d6db0b11fa742681f17e45fb27fba861d3fd6223983faed5bb6",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "イフラース章を思い巡らす",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "6b5c97c7ba4006525f3c9cf3aec776fdb2e176f38355e007779c3c5c78296008"
+          }
+        ],
+        "sourceCommit": "038ccc555bb03e9442d4e6aa65c7d644e0713ef6",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 27,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "editionScope": {
+          "policy": "reviewed-source-edition-v1",
+          "includedMaterialTitles": [
+            "イフラース章を思い巡らす"
+          ],
+          "includedMaterialIds": [
+            "112:extended"
+          ]
+        },
+        "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 21,
+        "wordContentsVerification": {
+          "pages": 21,
+          "matchedEntries": 5,
+          "docxSHA256": "df997aa7d1f54d6db0b11fa742681f17e45fb27fba861d3fd6223983faed5bb6",
+          "receiptSHA256": "48b4862e689fd983bdfe3b32925f760f098659552c3bdce3d77b9075af784b77",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
+        "audioQRVerification": [],
+        "pages": 20,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_ja_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-REVIEWED-EDITION-038ccc55/Iman_Companion_ja_tadabbur-extended.pdf",
+        "pdfSha256": "e960b71c71c7db02d9fc89a176c88a611ad41087d64de028f9e68f9948d9719d",
+        "exportVerified": true
+      },
+      "snapshot": {
+        "catalogSHA256": "53dd1ab675ae8e086a49058a3c3cf9d52cb0f3f54ea3b451d079f11504a03efd",
+        "scopeSettingsSHA256": "649b0343e9361be1eead1efea46068a340e783a58ffb4ace91013f32e5cb4f9c",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/ja/extended/112.json",
+            "sha256": "7b63aba9c67ddd3a543b36c29682b318fae4eed519a2894d5c09092940c28328"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/112-001.json",
+            "sha256": "e3f698d141b84491e15116a7ab74f44106a1fb97f8b4dbe106a66e0b7fb24a74"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/112-002.json",
+            "sha256": "881c1699654ede1bd1f443639a3dca04eb101decfc1520f78ecb7902773ac666"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/112-003.json",
+            "sha256": "fd80ee2f4fccb5c03e6b598cb8efb46f174093f7ff6014fd175288a80187d095"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/112-004.json",
+            "sha256": "d504063a2a9d67af5514f50654db08c6c9caeccfc1c1b3f30bd367adfd248052"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/JAPANESE-CONTEXT-GLOSSARY745.json",
+            "sha256": "1ff0effd90a4cbc9dd7550a05e736b585db798856fff7cfeaa5b7d10ca9dc7ac"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/SOURCE-NOTE745.md",
+            "sha256": "722043721c18bfea8ee92ed39bc8b9d342b642e34e512eaa7bf6a1fd4a455ab6"
+          }
+        ]
+      }
+    }
+  ]
+}
