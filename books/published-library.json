@@ -198,7 +198,7 @@
         "collection": "tadabbur-extended",
         "collectionLabel": "Suy ngẫm về Kinh Qur’an",
         "file": "Iman_Companion_vi_tadabbur-extended.docx",
-        "sha256": "18e75fa2176940964a7a0d232bc13fb89098c11615dfdbb142703ad6d606fdbf",
+        "sha256": "92486ba98a6ae1099143cde94da88a474a28fe674a5b2af77d9a8338e82481e6",
         "units": [
           {
             "id": "112:extended",
@@ -209,7 +209,7 @@
             "readerTextSHA256": "8868a81f0c3c0cc89a6cedc3761aae627372d242b22cbdbf6cf24c3622c77774"
           }
         ],
-        "sourceCommit": "2c56add45122b8386fada6f9bc27c034a612efd6",
+        "sourceCommit": "7d49e51763b9665c8d98aaa46eac6946caf9979f",
         "bodyColor": "#000000",
         "rtl": false,
         "arabicAyahs": "centered",
@@ -219,15 +219,29 @@
         "hadithCount": 0,
         "audioPanels": [],
         "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 22,
+        "wordContentsVerification": {
+          "pages": 22,
+          "matchedEntries": 5,
+          "docxSHA256": "92486ba98a6ae1099143cde94da88a474a28fe674a5b2af77d9a8338e82481e6",
+          "receiptSHA256": "a0e4f9ac970d36be19bbf7af0cb689ad30ff6e9b8e568ebfe97793b3e1a8ff0c",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
         "audioQRVerification": [],
         "pages": 21,
-        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_vi_tadabbur-extended.docx",
-        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_vi_tadabbur-extended.pdf",
-        "pdfSha256": "cf531be28d4ced2eb20103c5128bf785e85e8c4a7f334327233ed168bf343300",
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-vi112-42354197246-1/Iman_Companion_vi_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-vi112-42354197246-1/Iman_Companion_vi_tadabbur-extended.pdf",
+        "pdfSha256": "bfa6d15ac1e3b1bc31c36e04535d15a5323b0238b8f7190f58f4bce83224ce25",
         "exportVerified": true,
-        "contentsTargetVerification": {
-          "matchedEntries": 5
-        }
+        "pdfPages": 21
       },
       "snapshot": {
         "catalogSHA256": "7dc0e0f42c28d0b47e4736b7e88741e4b9d6767dd0530db70274b270b0a22983",
@@ -278,7 +292,7 @@
           }
         ]
       },
-      "releaseTag": "books-42339566724-1"
+      "releaseTag": "verified-vi112-42354197246-1"
     }
   ]
 }

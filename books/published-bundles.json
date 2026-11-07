@@ -27,32 +27,6 @@
         "mergedEditionAliasesSingleBook": true
       }
     },
-    "vi": {
-      "fingerprint": "4b2af6e0870fa6e7c5e94637fd5a5ceac3e6e59d044b0d6912fae7e8cb3590c4",
-      "releaseTag": "books-42342406668-1-bundles",
-      "parts": [
-        {
-          "language": "vi",
-          "collection": "tadabbur-extended",
-          "sha256": "18e75fa2176940964a7a0d232bc13fb89098c11615dfdbb142703ad6d606fdbf",
-          "pdfSha256": "cf531be28d4ced2eb20103c5128bf785e85e8c4a7f334327233ed168bf343300"
-        }
-      ],
-      "assets": [
-        {
-          "name": "Iman_Companion_vi_all-books.zip",
-          "bytes": 6515561,
-          "sha256": "be2b8fd7ba38c4461899128363bf74befb862b12e175fa7b65b035c2d0e56a05"
-        }
-      ],
-      "verification": {
-        "zipFiles": {
-          "Iman_Companion_vi_tadabbur-extended.docx": "18e75fa2176940964a7a0d232bc13fb89098c11615dfdbb142703ad6d606fdbf",
-          "Iman_Companion_vi_tadabbur-extended.pdf": "cf531be28d4ced2eb20103c5128bf785e85e8c4a7f334327233ed168bf343300"
-        },
-        "mergedEditionAliasesSingleBook": true
-      }
-    },
     "fil": {
       "fingerprint": "2f042c951b2109421210ab8b1ae71e35935bd87344900232e11635aff60676be",
       "releaseTag": "verified-fil112-42351274157-1-bundles",
@@ -75,6 +49,32 @@
         "zipFiles": {
           "Iman_Companion_fil_tadabbur-extended.docx": "672413a3ac06f38c837d932f4207d0a9f548bf295fb623ed737ba42fe17c136c",
           "Iman_Companion_fil_tadabbur-extended.pdf": "aac04c4ecc26a94ab3f9e68386d01ac971fe08be31af018d1142338a9f7635ae"
+        },
+        "mergedEditionAliasesSingleBook": true
+      }
+    },
+    "vi": {
+      "fingerprint": "723b3066a21c85815f3179113adc0be9b7aa1654f94c81ba2309c3b65a630372",
+      "releaseTag": "verified-vi112-42354197246-1-bundles",
+      "parts": [
+        {
+          "language": "vi",
+          "collection": "tadabbur-extended",
+          "sha256": "92486ba98a6ae1099143cde94da88a474a28fe674a5b2af77d9a8338e82481e6",
+          "pdfSha256": "bfa6d15ac1e3b1bc31c36e04535d15a5323b0238b8f7190f58f4bce83224ce25"
+        }
+      ],
+      "assets": [
+        {
+          "name": "Iman_Companion_vi_all-books.zip",
+          "bytes": 6533832,
+          "sha256": "e40fd5870e6eb03d34db63f7e4eacdb3f07b98dceeeb330aec4f06b134d0be03"
+        }
+      ],
+      "verification": {
+        "zipFiles": {
+          "Iman_Companion_vi_tadabbur-extended.docx": "92486ba98a6ae1099143cde94da88a474a28fe674a5b2af77d9a8338e82481e6",
+          "Iman_Companion_vi_tadabbur-extended.pdf": "bfa6d15ac1e3b1bc31c36e04535d15a5323b0238b8f7190f58f4bce83224ce25"
         },
         "mergedEditionAliasesSingleBook": true
       }
