@@ -1,0 +1,107 @@
+{
+  "schema": "iman-published-book-library-v1",
+  "entries": [
+    {
+      "book": {
+        "language": "vi",
+        "languageLabel": "Tiếng Việt",
+        "collection": "tadabbur-extended",
+        "collectionLabel": "Suy ngẫm về Kinh Qur’an",
+        "file": "Iman_Companion_vi_tadabbur-extended.docx",
+        "sha256": "92486ba98a6ae1099143cde94da88a474a28fe674a5b2af77d9a8338e82481e6",
+        "units": [
+          {
+            "id": "112:extended",
+            "title": "Suy ngẫm chương Al-Ikhlas",
+            "sourceHashes": [
+              "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8"
+            ],
+            "readerTextSHA256": "8868a81f0c3c0cc89a6cedc3761aae627372d242b22cbdbf6cf24c3622c77774"
+          }
+        ],
+        "sourceCommit": "7d49e51763b9665c8d98aaa46eac6946caf9979f",
+        "bodyColor": "#000000",
+        "rtl": false,
+        "arabicAyahs": "centered",
+        "quranReferences": "directly after quoted ayah",
+        "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+        "footnoteCount": 19,
+        "hadithCount": 0,
+        "audioPanels": [],
+        "previewOnly": false,
+        "pdfContentsVerification": {
+          "matchedEntries": 5,
+          "visibleLabelsMatched": 5
+        },
+        "wordPages": 22,
+        "wordContentsVerification": {
+          "pages": 22,
+          "matchedEntries": 5,
+          "docxSHA256": "92486ba98a6ae1099143cde94da88a474a28fe674a5b2af77d9a8338e82481e6",
+          "receiptSHA256": "a0e4f9ac970d36be19bbf7af0cb689ad30ff6e9b8e568ebfe97793b3e1a8ff0c",
+          "engine": {
+            "application": "Microsoft Word",
+            "version": "16.0",
+            "build": "16.0.18925"
+          }
+        },
+        "audioQRVerification": [],
+        "pages": 21,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-7d49e517-VI/Iman_Companion_vi_tadabbur-extended.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/CANDIDATE-7d49e517-VI/Iman_Companion_vi_tadabbur-extended.pdf",
+        "pdfSha256": "bfa6d15ac1e3b1bc31c36e04535d15a5323b0238b8f7190f58f4bce83224ce25",
+        "exportVerified": true,
+        "pdfPages": 21
+      },
+      "snapshot": {
+        "catalogSHA256": "7dc0e0f42c28d0b47e4736b7e88741e4b9d6767dd0530db70274b270b0a22983",
+        "scopeSettingsSHA256": "955a2b60a0b6a0a4475e98a1655d80a47f48f6838864bf426a58d8652dc16f23",
+        "unitIds": [
+          "112:extended"
+        ],
+        "bindings": [
+          {
+            "path": "books/assets/quran-arabic.json",
+            "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+            "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/112-001.json",
+            "sha256": "4e243d5f27afaa58a4723b161082988c41b074e627b5bd69ea4c5a2ffa77b7ef"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/112-002.json",
+            "sha256": "1f8e67092290aed80dc682222e59b59be02faa33ba99f5f41e19837f4a7669a7"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/112-003.json",
+            "sha256": "e10c0890fa871aa858de8bb8c37c52b002bbf3eb4dc164b7261c5f67d64a79ae"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/112-004.json",
+            "sha256": "613c512c3e960219e44edc258388d398b7050ad115ed441ef435ce6344d73be6"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/IKHLAS-VI-PUBLIC-SOURCES741.json",
+            "sha256": "95017229f51f9601cb2ede20ad02986133e16d237682427b5cc5343cc30eeb80"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/IKHLAS-VI-SOURCE-NOTE741.md",
+            "sha256": "5326aa40f2d93a2e3410c9d01e9e360062f4d886c41862ce791e2f438446addb"
+          },
+          {
+            "path": "materials/tadabbur/sources/112/vi/VIETNAMESE-CONTEXT-GLOSSARY741.json",
+            "sha256": "cd5370b8f209b7ee2e9db60c41e3211400aba39ac24312edb51f79cb6d2f18f8"
+          },
+          {
+            "path": "materials/tadabbur/vi/extended/112.json",
+            "sha256": "2432060bd767b4eca67abcd714deed6b070744c995f98e34fdb39110a12c5774"
+          }
+        ]
+      }
+    }
+  ]
+}
