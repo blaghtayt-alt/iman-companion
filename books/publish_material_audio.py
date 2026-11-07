@@ -26,6 +26,9 @@ def read_release(tag):
         raise RuntimeError('Could not read audio release: '+r.stderr[-1000:])
     return json.loads(r.stdout)
 def validate_source(root,record):
+    if record.get('origin',{}).get('approvedReaderAudio'):
+        from approved_reader_audio import validate_source as validate_reader_audio
+        return validate_reader_audio(root,record)
     if record.get('collection')!='seerah' or record.get('approved') is not True:raise ValueError('Only the declared already-published Seerah audio is supported by this adapter')
     language=record['language'];index_path=root/'materials/seerah/new-adult'/language/'index.json'
     if not index_path.resolve().is_relative_to(root.resolve()):raise ValueError('Invalid audio source path')
@@ -69,7 +72,7 @@ def reconcile_registry(root,old,published,seed):
         key=(previous['materialId'],previous['language'],previous['sourceSHA256'])
         if key in replacements:continue
         record=dict(previous)
-        if record.get('collection')=='seerah'and record.get('origin',{}).get('approvedAppRecord'):
+        if record.get('origin',{}).get('approvedReaderAudio')or(record.get('collection')=='seerah'and record.get('origin',{}).get('approvedAppRecord')):
             matching=seed_by_scope.get(key[:2])
             invalid_seed=matching is not None and(retired(matching)or matching.get('approved')is not True or matching.get('audioSHA256')!=record.get('audioSHA256')or matching.get('sourceSHA256')!=record.get('sourceSHA256'))
             try:validate_source(root,record)
@@ -82,14 +85,16 @@ def public_manifest(registry):
     return {'schema':'iman-material-audio-v1','playerBase':PLAYER,'entries':[{k:r[k] for k in keys if k in r} for r in registry['entries'] if r.get('status')=='published' and r.get('approved') is True]}
 def main():
     p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--verify-only',action='store_true');args=p.parse_args();root=args.root.resolve()
+    from approved_reader_audio import discover
+    automatic_intakes=discover(root,apply=not args.verify_only)
     seed=json.loads((root/'materials/audio/publish.json').read_text(encoding='utf-8'))
     if seed.get('schema')!='iman-material-audio-v1' or seed.get('playerBase')!=PLAYER:raise ValueError('Invalid audio publication input')
     selected,retired_records=select_current_sources(root,seed['entries'])
     if args.verify_only:
         registry=json.loads((root/'materials/audio/registry.json').read_bytes())
         for record in registry['entries']:
-            if record.get('status')=='published'and record.get('collection')=='seerah':validate_source(root,record)
-        print(json.dumps({'verifiedCurrentPublishedAudioInputs':len(selected),'retiredInputs':retired_records}));return
+            if record.get('status')=='published'and(record.get('collection')=='seerah'or record.get('origin',{}).get('approvedReaderAudio')):validate_source(root,record)
+        print(json.dumps({'verifiedCurrentPublishedAudioInputs':len(selected),'retiredInputs':retired_records,'automaticIntakes':automatic_intakes}));return
     release=read_release('material-audio-v1')
     if release is None and selected:
         gh('release','create','material-audio-v1','--repo',REPO,'--target',os.environ['GITHUB_SHA'],'--title','Material audio player files','--notes','Unchanged recordings from the published material audio packs. Source and listening-review conditions remain with the materials.','--latest=false');release=read_release('material-audio-v1')
@@ -101,7 +106,7 @@ def main():
             if asset:
                 if asset.get('digest')!='sha256:'+record['audioSHA256'] or asset['size']!=record['audioBytes']:raise ValueError('Existing immutable audio asset differs; refusing overwrite')
             else:
-                archive=cache/pack['file']
+                archive=cache/(pack['sha256']+'.zip')
                 if not archive.exists():
                     with urllib.request.urlopen(record['origin']['packUrl'],timeout=90) as response,archive.open('wb') as output:
                         while chunk:=response.read(1024*1024):output.write(chunk)
@@ -121,5 +126,5 @@ def main():
     registry=reconcile_registry(root,old,published,seed['entries'])
     target.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (root/'docs/listen/materials.json').write_text(json.dumps(public_manifest(registry),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(json.dumps({'publishedDirectAudio':len(published),'playerBase':PLAYER,'sourceApprovalChanged':False,'retiredInputs':retired_records}))
+    print(json.dumps({'publishedDirectAudio':len(published),'playerBase':PLAYER,'sourceApprovalChanged':False,'retiredInputs':retired_records,'automaticIntakes':automatic_intakes}))
 if __name__=='__main__':main()

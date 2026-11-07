@@ -2,3 +2,7 @@
 books/source-projections/ar-seerah-new.json -text
 materials/seerah/new-adult/ar/*.md -text
 books/assets/surah-names-native-20261107.json -text
+
+# Keep newly generated approval bindings byte-stable across systems.
+materials/audio/approved-intakes/** -text
+materials/audio/intake-history/*.json -text

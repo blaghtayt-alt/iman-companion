@@ -38,6 +38,7 @@ jobs:
           node tests/test_player.mjs
           python -m unittest discover -s books -p test_download_page.py
           python -m unittest discover -s books -p test_source_publisher.py
+          python books/test_approved_reader_audio.py
           node books/test_download_page.mjs
   publish:
     needs: validate
@@ -95,5 +96,5 @@ jobs:
           path=Path(os.environ['RUNNER_TEMP'])/'current-books/publication-report.json'
           result=json.loads(path.read_text(encoding='utf8'))
           print(json.dumps(result,ensure_ascii=False))
-          if result['failedScopes'] or result.get('downloadPage',{}).get('failedBundles'):raise SystemExit('Working book pairs were published; one or more other scopes need repair. See publication-report.json.')
+          if result['failedScopes'] or result.get('downloadPage',{}).get('failedBundles') or result.get('approvedAudioIntakeErrors'):raise SystemExit('Working book pairs were published; one or more other scopes need repair. See publication-report.json.')
           PY

@@ -19,6 +19,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install approved source validators
+        run: python -m pip install -r books/requirements.txt
       - name: Verify existing published source and expose exact audio bytes
         env:
           GH_TOKEN: ${{ github.token }}
@@ -30,7 +32,8 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- materials/audio/registry.json docs/listen/materials.json
+          git add -- materials/audio/publish.json materials/audio/registry.json docs/listen/materials.json
+          if test -d materials/audio/intake-history; then git add -- materials/audio/intake-history; fi
           if ! git diff --cached --quiet; then
             git commit -m 'Publish exact material audio player links'
             git fetch origin main
