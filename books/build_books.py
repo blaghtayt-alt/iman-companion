@@ -18,12 +18,14 @@ from locale_copy import locale
 from reader_xml import body_text
 from material_audio import load_registry,add_audio_panel
 from bibliography import native_text,digits,hadith_citation,quran_reference,edition_credit,expand_verse_key
+from book_typography import SYMBOLS,SYMBOL_LTR,SYMBOL_RTL,quotation_mirrors,block_mirrors,span_mirrors
 
 SCHEMA='iman-book-unit-v1'
 ROLES={'body':'000000','meaning':'000000','example':'000000','note':'000000','current-ayah':'7C3AED','quran':'7C3AED','related':'2563EB','hadith':'2563EB','scholar':'A95300','heading':'064534'}
 RTL={'ar','ur','fa'}
 KINDS={'paragraph','heading','ayah','translation','quotation','note','credit','list-item'}
 COLLECTIONS={'tadabbur-extended','articles','seerah','hadith'}
+ARABIC_RUN=r'[\u0600-\u06ff\u0750-\u077f\u0870-\u08ff\ufb50-\ufdff\ufe70-\ufeff]'
 
 def digest(data):return hashlib.sha256(data).hexdigest()
 def load(path):return json.loads(path.read_text(encoding='utf-8-sig'))
@@ -80,7 +82,8 @@ def fonts_for(conf,lang,root):
     f=conf['fonts'][conf['languages'][lang]['font']]
     ar=conf['fonts']['Arabic']
     result={}
-    for family in [f,ar,conf['fonts']['Latin']]:
+    extra=[conf['fonts'][k]for k in['SymbolsLTR','SymbolsRTL']if k in conf['fonts']]
+    for family in [f,ar,conf['fonts']['Latin'],*extra]:
         styles={}
         for style,relative in family['files'].items():
             p=inside(root,relative)
@@ -115,23 +118,34 @@ def embed_fonts(file,fonts,footnotes=None):
     with zipfile.ZipFile(file,'w',zipfile.ZIP_DEFLATED) as z:
         for n,b in parts.items():z.writestr(n,b)
 
-def add_text(p,text,lang,family,arabic,size=11,color='body',bold=False):
+def add_text(p,text,lang,family,arabic,size=11,color='body',bold=False,ornament_mirrors=None):
     # Split script runs explicitly so embedded fonts travel with the file.
     number=r'[0-9\u0660-\u0669\u06f0-\u06f9]+(?:[:/–\-][0-9\u0660-\u0669\u06f0-\u06f9]+)*'
-    pieces=[]
+    pieces=[];offset=0
+    mirrors=quotation_mirrors(text,lang)if ornament_mirrors is None else ornament_mirrors
     for segment in re.split('('+number+')',text):
-        if re.fullmatch(number,segment):pieces.append((segment,True))
-        else:pieces.extend((piece,False) for piece in re.split(r'([\u0600-\u06ff\u0750-\u077f\u08a0-\u08ff]+(?:\s+[\u0600-\u06ff\u0750-\u077f\u08a0-\u08ff]+)*)',segment))
-    for piece,is_number in pieces:
+        if re.fullmatch(number,segment):pieces.append((segment,True,offset));offset+=len(segment)
+        else:
+            for token in re.split('(['+SYMBOLS+'])',segment):
+                if token in SYMBOLS and token:pieces.append((token,False,offset));offset+=len(token)
+                else:
+                    for piece in re.split('('+ARABIC_RUN+'+(?:\\s+'+ARABIC_RUN+'+)*)',token):pieces.append((piece,False,offset));offset+=len(piece)
+    for piece,is_number,position in pieces:
         if not piece:continue
-        is_ar=bool(re.search(r'[\u0600-\u06ff]',piece));font=family if lang in RTL else (arabic if is_ar else family)
+        is_ar=bool(re.search(ARABIC_RUN,piece));font=family if lang in RTL else (arabic if is_ar else family)
+        if piece in SYMBOLS and piece:font=SYMBOL_LTR if piece!='\ufdfa'and mirrors.get(position,lang not in RTL)else SYMBOL_RTL
         if lang in RTL and re.search('[A-Za-z]',piece) and not is_ar:font='Iman Book Inter'
         r=p.add_run(piece);r.font.name=font;r.font.size=Pt(size);r.bold=bold;r.font.color.rgb=RGBColor.from_string(ROLES.get(color,ROLES['body']))
         rp=r._r.get_or_add_rPr();rf=rp.find(qn('w:rFonts'))
         if rf is None:rf=el(rp,'w:rFonts')
         for a in ['ascii','hAnsi','eastAsia','cs']:rf.set(qn('w:'+a),font)
         el(rp,'w:szCs',{'w:val':round(size*2)});el(rp,'w:bCs',{'w:val':int(bold)})
-        el(rp,'w:rtl',{'w:val':0 if is_number else (1 if is_ar or (lang in RTL and not re.search('[A-Za-z]',piece)) else 0)})
+        # The exceptional ornate parentheses are neutral punctuation, even though
+        # their codepoints belong to Arabic Presentation Forms. Keep the book's
+        # neutral-run direction; the selected symbol face handles glyph painting.
+        is_ornament=piece in {'\ufd3e','\ufd3f'}
+        run_rtl=(lang in RTL) if is_ornament else (is_ar or (lang in RTL and not re.search('[A-Za-z]',piece)))
+        el(rp,'w:rtl',{'w:val':0 if is_number else int(run_rtl)})
         el(rp,'w:lang',{'w:val':lang,'w:eastAsia':lang,'w:bidi':'ar-SA' if is_ar else lang})
 
 def direction(p,lang,center=False):
@@ -273,6 +287,7 @@ def build_book(root,out,conf,lang,collection,units,commit):
     p=doc.add_paragraph();direction(p,lang);r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'begin'});r=p.add_run();el(r._r,'w:instrText').text=' TOC \\o "1-2" \\h \\z \\u ';r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'separate'});r=p.add_run(' ');r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'end'})
     preserved=[];notes=Footnotes(doc,lang,family,arabic);hadith_count=0;last_chapter=None
     for unit_index,unit in enumerate(units):
+        unit_mirrors=block_mirrors(unit,lang)
         aggregate_hadith=unit['collection']=='hadith' and any(s.get('hadith') is True for s in unit['sections'])
         display_title=unit['title']
         if unit['collection']=='hadith' and not aggregate_hadith:
@@ -312,8 +327,9 @@ def build_book(root,out,conf,lang,collection,units,commit):
                 if kind in {'ayah','translation','heading'}:p.paragraph_format.keep_with_next=True
                 spans=b.get('spans') or [{'text':b['text'],'role':b.get('role','current-ayah' if kind in {'ayah','translation'} else ('related' if kind=='quotation' else 'body'))}]
                 if collection=='seerah' and kind=='paragraph' and any(s.get('role')=='quran' for s in spans) and all(s.get('role')=='quran' or not s.get('text','').strip() for s in spans):direction(p,'ar',True)
+                mirror_maps=span_mirrors(spans,unit_mirrors[id(b)])
                 for span_index,span in enumerate(spans):
-                    add_text(p,span['text'],'ar' if kind=='ayah' else lang,arabic if kind=='ayah' else family,arabic,blocksize,span.get('role','body'),kind=='heading' or span.get('bold',False));preserved.append(span['text'])
+                    add_text(p,span['text'],'ar' if kind=='ayah' else lang,arabic if kind=='ayah' else family,arabic,blocksize,span.get('role','body'),kind=='heading' or span.get('bold',False),ornament_mirrors=mirror_maps[span_index]);preserved.append(span['text'])
                     if kind not in {'ayah','translation'}:
                         keys=span.get('verseKeys',[])
                         if not keys and span.get('role')=='current-ayah' and section.get('ayahKey'):keys=[section['ayahKey']]

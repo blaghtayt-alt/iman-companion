@@ -1,0 +1,47 @@
+{
+  "schema": "iman-ornament-font-derivation-v1",
+  "fontTools": "4.51.0",
+  "sourceFonts": {
+    "family": "Iman Book Naskh",
+    "files": {
+      "Regular": "books/assets/fonts/Naskh-Regular.ttf",
+      "Bold": "books/assets/fonts/Naskh-Bold.ttf"
+    },
+    "sha256": {
+      "Regular": "3d3fb70068126b6da1ee5f96aa1f480384efafdd5e261089fe0082ec7d6bfec3",
+      "Bold": "dbe8a0eef7feec310c2d97c45307313138718e9d03904994aa99bbba22c996be"
+    }
+  },
+  "fonts": {
+    "SymbolsLTR": {
+      "family": "Iman Book Symbols LTR",
+      "files": {
+        "Regular": "books/assets/ornaments/Symbols-LTR-Regular.ttf",
+        "Bold": "books/assets/ornaments/Symbols-LTR-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "7e4ce15377cd31370221fd426f32a3164690d6089e1a2fad32553af1ea5d93f4",
+        "Bold": "33be14a31cd70d0026380fdf44758d3fa9340bf3c180b7177adae6efe8ad9bd4"
+      }
+    },
+    "SymbolsRTL": {
+      "family": "Iman Book Symbols RTL",
+      "files": {
+        "Regular": "books/assets/ornaments/Symbols-RTL-Regular.ttf",
+        "Bold": "books/assets/ornaments/Symbols-RTL-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "b5bf85daaa6bab61cedcff7339d22a6600f6d32b118031f796487c5104846736",
+        "Bold": "79a6ebe8577e22913cc0fae5ac8f2de65828fcf408a966d76838db1488425aec"
+      }
+    }
+  },
+  "retainedUnicode": [
+    "U+0020",
+    "U+FD3E",
+    "U+FD3F",
+    "U+FDFA"
+  ],
+  "directionProjection": "LTR face exchanges only the two ornate-parenthesis glyphs. RTL face retains them. Unicode characters and approved source strings remain unchanged.",
+  "license": "Original copyright and license name records are retained in every derived face."
+}
