@@ -33,7 +33,6 @@ jobs:
           python tests/test_published_library.py
           python tests/test_material_audio.py
           python tests/test_automatic_publication.py
-          python tests/test_audio_discovery.py
           node tests/test_player.mjs
   publish:
     needs: validate
@@ -65,7 +64,6 @@ jobs:
           command -v google-chrome || command -v chromium
       - name: Publish exact audio assets and retire changed or withdrawn voices
         run: |
-          python books/discover_material_audio.py --root .
           python books/publish_material_audio.py --root .
           python books/sync_material_audio.py --root . --verify-remote
       - name: Generate current material books and insert every applicable QR
