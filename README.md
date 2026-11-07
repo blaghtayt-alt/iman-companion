@@ -14,7 +14,7 @@ The collection includes tadabbur summaries, Seerah summaries, Hadith reading mat
 <!-- IMAN-BOOK-DOWNLOADS:START -->
 ### Books by language
 
-Each download contains the currently available complete published material in that language. The language pages show how many items are included. New extended Hadith lessons and extended Quran reflections use the approved book layout.
+Each book contains the verified material listed on its language page. New extended Hadith lessons and extended Quran reflections use the approved book layout.
 
 | Language | Quran reflections · extended | Hadith · new extended | Seerah | Articles | Combined downloads |
 | --- | --- | --- | --- | --- | --- |
