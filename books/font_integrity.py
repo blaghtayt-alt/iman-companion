@@ -64,6 +64,8 @@ def restore(file,conf,lang,root):
     settings=etree.fromstring(parts['word/settings.xml']);embedded=settings.find(q(W,'embedTrueTypeFonts'))
     if embedded is None:embedded=etree.SubElement(settings,q(W,'embedTrueTypeFonts'))
     embedded.set(q(W,'val'),'true');parts['word/settings.xml']=etree.tostring(settings,xml_declaration=True,encoding='UTF-8',standalone=True)
+    from script_font_slots import repair_parts
+    repair_parts(parts,conf,lang)
     tmp=file.with_name(file.name+'.font-pending')
     if tmp.exists():raise ValueError('Foreign temporary file exists')
     try:
