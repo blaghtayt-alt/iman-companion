@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {LABELS,selectRecording,safeAudioUrl,digits} from '../docs/listen/player.mjs';
+const record={materialId:'test-material-1',collection:'articles',language:'en',title:'Test material',sourceSHA256:'a'.repeat(64),readingSHA256:'b'.repeat(64),audioSHA256:'c'.repeat(64),audioBytes:100,approved:true,status:'published',audioUrl:'https://github.com/blaghtayt-alt/iman-companion/releases/download/test-fixture/test-cccccccccccccccc.opus'};
+const registry={schema:'iman-material-audio-v1',entries:[record]};const identity={materialId:record.materialId,language:record.language,sourceSHA256:record.sourceSHA256};
+assert.equal(selectRecording(registry,identity)?.audioSHA256,record.audioSHA256);
+for(const changed of [{language:'ar'},{materialId:'different'},{sourceSHA256:'d'.repeat(64)}])assert.equal(selectRecording(registry,{...identity,...changed}),null);
+for(const status of ['held','withdrawn','draft','awaiting-individual-audio-publication'])assert.equal(selectRecording({...registry,entries:[{...record,status}]},identity),null);
+assert.equal(selectRecording({...registry,entries:[record,record]},identity),null);
+assert.equal(safeAudioUrl('https://example.org/test.opus',record.audioSHA256),false);assert.equal(safeAudioUrl(record.audioUrl+'?x=1',record.audioSHA256),false);
+assert.equal(Object.keys(LABELS).length,20);for(const lang of ['ar','ur','fa','bn','hi','ru','zh-CN','th','ja'])assert.doesNotMatch(LABELS[lang].join(' '),/[A-Za-z]/);
+assert.equal(digits('12:35','ar'),'١٢:٣٥');assert.equal(digits('12:35','ur'),'۱۲:۳۵');assert.equal(digits('12:35','fa'),'۱۲:۳۵');console.log('Player identity and native-label checks passed');

@@ -12,19 +12,40 @@ def main():
     if bool(args.language)!=bool(args.collection):raise ValueError('Select a language and collection together')
     units=[];seen=set();covered=set()
     catalog=json.loads((root/'materials/catalog.json').read_text(encoding='utf-8-sig'))
-    # The current public catalogue still needs reconciliation against the app's
-    # rewritten Seerah and other current-source decisions. Do not infer current
-    # status from catalogue fields alone or make a production manifest yet.
-    if catalog.get('languages') and 'preview' not in str(catalog.get('scope','')).lower():
-        raise ValueError('Production indexing held: reconcile current catalogue and complete source-bound review first')
+    production=bool(catalog.get('languages')) and 'preview' not in str(catalog.get('scope','')).lower()
+    generated=[];scope_edition=None
+    if production:
+        if not args.language:raise ValueError('Production indexing held: select an independently reviewed book scope')
+        declarations_path=root/'books/reviewed-books.json'
+        if not declarations_path.is_file():raise ValueError('Production indexing held: no reviewed-book declarations')
+        declarations=json.loads(declarations_path.read_text(encoding='utf8'))
+        if declarations.get('schema')!='iman-reviewed-books-v1':raise ValueError('Invalid reviewed-book declarations')
+        matches=[d for d in declarations.get('books',[]) if d.get('language')==args.language and d.get('collection')==args.collection]
+        if len(matches)!=1 or matches[0].get('state')!='reviewed-current' or matches[0].get('automaticBuild') is not True:raise ValueError('Production indexing held: book scope has no current reviewed declaration')
+        declaration=matches[0]
+        if declaration.get('adapter')=='arabic-articles-v1':
+            from adapt_ar_articles import generate
+        elif declaration.get('adapter')=='arabic-new-seerah-v1':
+            from adapt_ar_seerah import generate
+            scope_edition=declaration.get('edition')
+            if scope_edition!='new-adult':raise ValueError('Unexpected reviewed Seerah edition')
+        else:raise ValueError('No registered reviewed source adapter for scope')
+        normalized=generate(root,catalog,declaration)
+        destination=root/'books/units/generated'/(args.language+'-'+args.collection+'-'+declaration['projectionSHA256'][:12]);destination.mkdir(parents=True,exist_ok=True)
+        for unit in normalized:
+            file=destination/(unit['id']+'.json');raw=(json.dumps(unit,ensure_ascii=False,indent=2)+'\n').encode('utf8')
+            if file.exists():
+                if file.read_bytes()!=raw:raise ValueError('Existing generated unit differs; preserve and review it: '+str(file))
+            else:file.write_bytes(raw)
+            generated.append(file)
     scope={'tadabbur','articles','seerah','essential-hadith'}
     def eligible(e):
         excluded={'held','withdrawn','archived','archive','source-archive','historical','superseded','not-currently-available','draft','work-in-progress'}
         return e.get('collection') in scope and (e.get('collection')!='tadabbur' or e.get('mode')=='extended') and not e.get('archived') and e.get('current',True) is not False and not any(str(e.get(k,'')).lower() in excluded for k in ['status','publicationStatus','translationStatus']) and not any('/source-archive/' in str(e.get(k,'')) for k in ['json','markdown'])
     collectionmap={'tadabbur':'tadabbur-extended','articles':'articles','seerah':'seerah','essential-hadith':'hadith'}
-    def within(e):return not args.language or (e.get('language')==args.language and collectionmap.get(e.get('collection'))==args.collection)
+    def within(e):return not args.language or (e.get('language')==args.language and collectionmap.get(e.get('collection'))==args.collection and (not scope_edition or e.get('edition')==scope_edition))
     expected={(e['collection'],e['language'],str(e['id'])) for e in catalog['entries'] if eligible(e) and within(e)}
-    for file in sorted((root/'books/units/current').rglob('*.json')):
+    for file in sorted(list((root/'books/units/current').rglob('*.json'))+generated):
         raw=file.read_bytes();unit=json.loads(raw)
         if args.language and (unit.get('language')!=args.language or unit.get('collection')!=args.collection):continue
         record={k:unit[k] for k in ['language','collection','id']};record.update(path=file.relative_to(root).as_posix(),sha256=sha(raw))
@@ -48,6 +69,9 @@ def main():
     if not units:raise ValueError('No published normalized reader units are available')
     if covered!=expected:raise ValueError('New catalogue materials lack book reader units: '+repr(sorted(expected-covered)[:12]))
     result={'schema':'iman-book-manifest-v1','sourceCommit':args.commit,'previewOnly':not bool(catalog.get('languages')) or 'preview' in str(catalog.get('scope','')).lower(),'units':units,'scope':{'language':args.language,'collection':args.collection} if args.language else None}
+    if production:
+        result['catalogSHA256']=sha((root/'materials/catalog.json').read_bytes())
+        result['reviewedBooksSHA256']=sha((root/'books/reviewed-books.json').read_bytes())
     (root/'books/manifest.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'boundUnits':len(units)}))
 if __name__=='__main__':main()

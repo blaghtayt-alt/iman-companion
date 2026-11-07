@@ -53,22 +53,17 @@ def native_toc(input_file,output_file,lang,font):
     W='http://schemas.openxmlformats.org/wordprocessingml/2006/main';ns={'w':W}
     with zipfile.ZipFile(input_file) as z:parts={n:z.read(n) for n in z.namelist()}
     root=etree.fromstring(parts['word/document.xml']);changed=0
-    for instr in list(root.findall('.//{'+W+'}instrText')):
-        text=(instr.text or '').strip()
-        if not text.startswith('PAGEREF '):continue
-        parent=instr.getparent().getparent();siblings=list(parent);code_index=siblings.index(instr.getparent())
-        start=code_index
-        while start>=0 and not siblings[start].findall('.//{'+W+'}fldChar'):start-=1
-        end=code_index+1
-        while end<len(siblings):
-            chars=siblings[end].findall('.//{'+W+'}fldChar')
-            if any(c.get('{'+W+'}fldCharType')=='end' for c in chars):break
-            end+=1
-        if start<0 or end>=len(siblings):raise ValueError('Unexpected TOC field structure')
-        instruction=re.sub(r'\\\*\s+\w+','',text).strip()
-        for old in siblings[start:end+1]:parent.remove(old)
-        for i,node in enumerate(native_number_nodes(instruction,lang,font)):parent.insert(start+i,node)
-        changed+=1
+    for paragraph in root.findall('.//{'+W+'}p'):
+        style=paragraph.find('./{'+W+'}pPr/{'+W+'}pStyle')
+        if style is None or style.get('{'+W+'}val') not in {'TOC1','TOC2','TOC 1','TOC 2'}:continue
+        nodes=list(paragraph.iter());tabs=[i for i,n in enumerate(nodes) if n.tag=='{'+W+'}tab']
+        if not tabs:raise ValueError('TOC entry has no page-number separator')
+        tail=[n for n in nodes[tabs[-1]+1:] if n.tag=='{'+W+'}t' and (n.text or '').strip()]
+        if len(tail)!=1 or not (tail[0].text or '').strip().isdigit():raise ValueError('Unexpected TOC page-number structure')
+        value=tail[0].text
+        if not value.isascii() or not value.isdigit() or int(value)<1:raise ValueError('Unexpected TOC page number')
+        tail[0].text=value.translate(str.maketrans('0123456789',NATIVE_DIGITS[lang]));changed+=1
+    if not changed:raise ValueError('No refreshed TOC entries found')
     parts['word/document.xml']=etree.tostring(root,xml_declaration=True,encoding='UTF-8',standalone=True)
     settings=etree.fromstring(parts['word/settings.xml'])
     for e in settings.findall('{'+W+'}updateFields'):e.set('{'+W+'}val','false')

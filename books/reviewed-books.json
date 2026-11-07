@@ -1,0 +1,17 @@
+{
+  "schema": "iman-reviewed-books-v1",
+  "books": [
+    {
+      "language": "ar",
+      "collection": "articles",
+      "adapter": "arabic-articles-v1",
+      "state": "reviewed-current",
+      "projection": "books/source-projections/ar-articles.json",
+      "projectionSHA256": "cf7716c11593dcade22e4f017522d55722223011b09dcbadf134b1d3d5fa3752",
+      "materialIndex": "materials/articles/prepared-ar/index.json",
+      "reviewBasis": "The 47 currently installed Arabic article readings and Islamic-only reference lists were compared against the public article index and Markdown. This records source eligibility, not scholarly certification or finished-book layout approval.",
+      "automaticBuild": true,
+      "automaticRelease": true
+    }
+  ]
+}

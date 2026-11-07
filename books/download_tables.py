@@ -56,7 +56,11 @@ def verified_books(index,folder,repo,tag):
     return ready
 
 def render(conf,index,folder,repo,tag):
-    languages=conf['languages'];ready=verified_books(index,folder,repo,tag)
+    return render_ready(conf,verified_books(index,folder,repo,tag),repo)
+
+def render_ready(conf,ready,repo):
+    """Render independently verified immutable pairs across different releases."""
+    languages=conf['languages']
     if set(languages)!=set(COPY):raise ValueError('Download labels must cover all 20 configured languages')
     intro=('Book editions are in preparation. Links appear only after the Word and PDF files have been verified.' if not ready else 'Each download contains the currently available complete published material in that language. The language pages show how many items are included. New extended Hadith lessons and extended Quran reflections use the approved book layout.')
     root=['### Books by language','',intro,'', '| Language | '+' | '.join(HEADERS)+' |','| --- | --- | --- | --- | --- |'];pages={}
