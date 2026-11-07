@@ -1,8 +1,8 @@
 """Isolated local Git tests; all materials and review records are fixtures."""
 from pathlib import Path
-import json,subprocess,unittest
+import json,subprocess,tempfile,unittest
 import test_source_publisher as source_fixtures
-from source_publication_transaction import plan,commit_and_push
+from source_publication_transaction import plan,commit_and_push,bundle
 from published_library import sha
 
 def git(root,*args):
@@ -67,6 +67,14 @@ class SourceTransactionTests(unittest.TestCase):
         (self.root/data['sourceBindings'][0]['path']).write_text('{"newer":"fixture"}',encoding='utf8')
         with self.assertRaisesRegex(ValueError,'Local publication input changed'):commit_and_push(self.root,head,files,'Obsolete fixture',git(self.root,'remote','get-url','origin'),guards)
         self.assertEqual(git(self.remote,'rev-parse','main'),self.head)
+    def test_connector_bundle_is_exact_and_rejects_tampering(self):
+        handoff,_=self.handoff();head,files,receipt,_=plan(self.root,handoff,self.head)
+        with tempfile.TemporaryDirectory() as temp:
+            out=Path(temp)/'private-bundle';manifest=bundle(self.root,out,head,files,receipt)
+            self.assertEqual(bundle(self.root,out,head,files,receipt,verify=True),manifest)
+            (out/'objects'/manifest['files'][0]['blob']).write_bytes(b'changed')
+            with self.assertRaisesRegex(ValueError,'Bundled source bytes changed'):bundle(self.root,out,head,files,receipt,verify=True)
+        with self.assertRaisesRegex(ValueError,'outside the repository'):bundle(self.root,self.root/'bundle',head,files,receipt)
     def test_draft_or_wrong_language_cannot_create_a_transaction(self):
         handoff,data=self.handoff();data['approval']['wholeMaterial']=False;handoff.write_text(json.dumps(data),encoding='utf8')
         with self.assertRaisesRegex(ValueError,'whole-material approval'):plan(self.root,handoff,self.head)

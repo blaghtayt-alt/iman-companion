@@ -99,6 +99,28 @@ def unchanged(root,guards):
         path=safe(root,relative);actual=hashlib.sha256(path.read_bytes()).hexdigest() if path.is_file() else None
         if actual!=expected:raise ValueError('Local publication input changed during publication: '+relative)
 
+def bundle_data(head,files,receipt):
+    rows=[]
+    for i,(relative,data) in enumerate(sorted(files.items())):
+        header=b'blob '+str(len(data)).encode()+b'\0'
+        rows.append({'path':relative,'blob':f'{i:06d}.bin','bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'gitBlobSHA1':hashlib.sha1(header+data).hexdigest()})
+    return {'schema':'iman-source-publication-bundle-v1','expectedHead':head,'material':receipt['material'],'files':rows}
+
+def bundle(root,out,head,files,receipt,verify=False):
+    out=out.resolve()
+    if out.is_relative_to(root):raise ValueError('Use a private bundle directory outside the repository')
+    expected=bundle_data(head,files,receipt)
+    if verify:
+        if not out.is_dir() or json.loads((out/'manifest.json').read_bytes())!=expected:raise ValueError('Source publication bundle changed')
+        for row in expected['files']:
+            file=out/'objects'/row['blob']
+            if file.is_symlink() or not file.is_file() or hashlib.sha256(file.read_bytes()).hexdigest()!=row['sha256']:raise ValueError('Bundled source bytes changed')
+    else:
+        out.mkdir(exist_ok=False);(out/'objects').mkdir()
+        for row in expected['files']:(out/'objects'/row['blob']).write_bytes(files[row['path']])
+        (out/'manifest.json').write_bytes(bytes_json(expected))
+    return expected
+
 def commit_and_push(root,head,files,message,expected_remote,guards):
     root=root.resolve();actual_remote=git(root,'remote','get-url','origin').stdout.decode('utf8').strip()
     if not expected_remote or actual_remote!=expected_remote:raise ValueError('Publication remote differs from the expected repository')
@@ -124,9 +146,12 @@ def commit_and_push(root,head,files,message,expected_remote,guards):
         if os.path.isfile(index):os.unlink(index)
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--handoff',type=Path,required=True);p.add_argument('--expected-head',required=True);p.add_argument('--expected-remote');p.add_argument('--message',default='Publish reviewed source and book reader');p.add_argument('--publish',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--handoff',type=Path,required=True);p.add_argument('--expected-head',required=True);p.add_argument('--expected-remote');p.add_argument('--message',default='Publish reviewed source and book reader')
+    actions=p.add_mutually_exclusive_group();actions.add_argument('--publish',action='store_true');actions.add_argument('--bundle-out',type=Path);actions.add_argument('--verify-bundle',type=Path);a=p.parse_args()
     root=a.root.resolve();head,files,receipt,guards=plan(root,a.handoff,a.expected_head)
     result={'schema':'iman-source-publication-transaction-v1','expectedHead':head,'material':receipt['material'],'paths':sorted(files),'published':False}
     if a.publish:result.update({'commit':commit_and_push(root,head,files,a.message,a.expected_remote,guards),'published':True})
+    if a.bundle_out:bundle(root,a.bundle_out,head,files,receipt);result['bundle']=str(a.bundle_out.resolve())
+    if a.verify_bundle:bundle(root,a.verify_bundle,head,files,receipt,verify=True);result['bundleVerified']=True
     print(json.dumps(result,ensure_ascii=True))
 if __name__=='__main__':main()

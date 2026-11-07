@@ -49,6 +49,18 @@ conversion) and include only evidence already authorized for public release.
 The command requires the source publisher's existing Git authentication; it
 does not install credentials or infer reviews from an uploaded source.
 
+When the publisher uses the authenticated GitHub connector instead of local Git
+credentials, `source_publication_connector.cjs` wraps the same transaction. Load
+the wrapper from `git show <exact-head>:books/source_publication_connector.cjs`,
+not from an unchecked working copy, then call `publishReviewedSourceWithConnector`
+with `root`, `handoff`, `expectedHead`, a new private `bundle` directory, the
+absolute `python` executable and a commit `message`. The caller supplies the
+existing connector tools interface. The bridge verifies every book Python module
+against the exact Git head, runs in isolated Python mode, checks the immutable
+bundle and current source inputs again before publishing, and advances `main`
+only as a fast-forward with the expected head. Changed source or code aborts.
+This provides a safe entry point; external source producers still need to adopt it.
+
 ## Membership and order
 
 Quran books use canonical surah order and exact canonical Arabic ayahs. Full
