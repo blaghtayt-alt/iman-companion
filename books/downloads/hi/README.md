@@ -1,5 +1,8 @@
 # पुस्तकें डाउनलोड करें
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[पुस्तकें डाउनलोड करें](https://blaghtayt-alt.github.io/iman-companion/books/?lang=hi)
+
 हिन्दी
 
 | पुस्तक | संपादन योग्य पुस्तक | पढ़ने की प्रति | शामिल सामग्री |

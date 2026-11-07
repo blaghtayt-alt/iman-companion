@@ -1,5 +1,8 @@
 # کتابیں ڈاؤن لوڈ کریں
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[کتابیں ڈاؤن لوڈ کریں](https://blaghtayt-alt.github.io/iman-companion/books/?lang=ur)
+
 اردو
 
 | کتاب | قابل تدوین کتاب | مطالعے کی نقل | شامل مواد |

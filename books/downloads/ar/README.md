@@ -1,5 +1,8 @@
 # تنزيل الكتب
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[تنزيل الكتب](https://blaghtayt-alt.github.io/iman-companion/books/?lang=ar)
+
 العربية
 
 | الكتاب | نسخة قابلة للتحرير | نسخة للقراءة | المواد المشمولة |

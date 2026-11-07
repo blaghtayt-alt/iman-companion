@@ -1,5 +1,8 @@
 # Unduhan buku
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[Unduhan buku](https://blaghtayt-alt.github.io/iman-companion/books/?lang=id)
+
 Bahasa Indonesia
 
 | Buku | Buku yang dapat disunting | Salinan bacaan | Materi yang disertakan |

@@ -1,5 +1,8 @@
 # 书籍下载
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[书籍下载](https://blaghtayt-alt.github.io/iman-companion/books/?lang=zh-CN)
+
 简体中文
 
 | 书籍 | 可编辑书籍 | 阅读版 | 收录内容 |

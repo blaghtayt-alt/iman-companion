@@ -1,5 +1,8 @@
 # Скачать книги
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[Скачать книги](https://blaghtayt-alt.github.io/iman-companion/books/?lang=ru)
+
 Русский
 
 | Книга | Редактируемая книга | Версия для чтения | Включённые материалы |

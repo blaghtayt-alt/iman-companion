@@ -1,5 +1,8 @@
 # Tải sách
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[Tải sách](https://blaghtayt-alt.github.io/iman-companion/books/?lang=vi)
+
 Tiếng Việt
 
 | Sách | Sách có thể chỉnh sửa | Bản để đọc | Nội dung được đưa vào |

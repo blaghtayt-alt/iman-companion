@@ -1,5 +1,8 @@
 # Kitap indirmeleri
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[Kitap indirmeleri](https://blaghtayt-alt.github.io/iman-companion/books/?lang=tr)
+
 Türkçe
 
 | Kitap | Düzenlenebilir kitap | Okuma nüshası | İçerilen metinler |

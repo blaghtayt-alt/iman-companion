@@ -1,5 +1,8 @@
 # Muat turun buku
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[Muat turun buku](https://blaghtayt-alt.github.io/iman-companion/books/?lang=ms)
+
 Bahasa Melayu
 
 | Buku | Buku boleh sunting | Salinan bacaan | Bahan yang disertakan |

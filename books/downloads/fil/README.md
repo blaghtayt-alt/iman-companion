@@ -1,5 +1,8 @@
 # Mga aklat na mada-download
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[Mga aklat na mada-download](https://blaghtayt-alt.github.io/iman-companion/books/?lang=fil)
+
 Filipino
 
 | Aklat | Nae-edit na aklat | Kopyang pambasa | Mga nilalaman |

@@ -1,5 +1,8 @@
 # Téléchargement des livres
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[Téléchargement des livres](https://blaghtayt-alt.github.io/iman-companion/books/?lang=fr)
+
 Français
 
 | Livre | Livre modifiable | Version de lecture | Textes inclus |

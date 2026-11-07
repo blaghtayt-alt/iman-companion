@@ -1,5 +1,8 @@
 # ดาวน์โหลดหนังสือ
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[ดาวน์โหลดหนังสือ](https://blaghtayt-alt.github.io/iman-companion/books/?lang=th)
+
 ไทย
 
 | หนังสือ | หนังสือที่แก้ไขได้ | ฉบับอ่าน | เนื้อหาที่รวมไว้ |

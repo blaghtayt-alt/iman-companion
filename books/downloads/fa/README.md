@@ -1,5 +1,8 @@
 # دریافت کتاب‌ها
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[دریافت کتاب‌ها](https://blaghtayt-alt.github.io/iman-companion/books/?lang=fa)
+
 فارسی
 
 | کتاب | کتاب ویرایش‌پذیر | نسخهٔ مطالعه | مطالب موجود |

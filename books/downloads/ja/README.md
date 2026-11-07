@@ -1,5 +1,8 @@
 # 書籍のダウンロード
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[書籍のダウンロード](https://blaghtayt-alt.github.io/iman-companion/books/?lang=ja)
+
 日本語
 
 | 書籍 | 編集可能な書籍 | 閲覧用の書籍 | 収録内容 |

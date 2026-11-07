@@ -1,5 +1,8 @@
 # বই ডাউনলোড
 
+<!-- IMAN-DOWNLOAD-INTERFACE -->
+[বই ডাউনলোড](https://blaghtayt-alt.github.io/iman-companion/books/?lang=bn)
+
 বাংলা
 
 | বই | সম্পাদনাযোগ্য বই | পাঠের অনুলিপি | অন্তর্ভুক্ত বিষয় |
