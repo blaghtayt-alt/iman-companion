@@ -12,4 +12,12 @@
 | Сира | Готовится | Готовится | — |
 | Статьи | Готовится | Готовится | — |
 
+## Скачать вместе
+
+Одно объединённое издание
+
+[Скачать редактируемую книгу](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.docx) · [Скачать версию для чтения](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.pdf)
+
+[Архив отдельных книг](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42342406668-1-bundles/Iman_Companion_ru_all-books.zip)
+
 Переведено с помощью искусственного интеллекта — требуется проверка. Проверки с помощью модели не заменяют рецензию компетентного читателя.
