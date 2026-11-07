@@ -20,8 +20,13 @@ def scope_key(book):
     if key[0] not in COPY or key[1] not in COLLECTIONS:raise ValueError('Non-public book scope in library')
     return key
 def scope_catalog(root,key):
+    scoped_declaration=declaration(root,key)
+    if scoped_declaration.get('scopePolicy') is not None:
+        from book_edition_scope import select,scope_fingerprint
+        rows,report=select(root,read(root/'materials/catalog.json'),scoped_declaration)
+        return scope_fingerprint(rows,report)
     collections={'tadabbur-extended':'tadabbur','hadith':'essential-hadith','seerah':'seerah','articles':'articles'}
-    edition=declaration(root,key).get('edition')
+    edition=scoped_declaration.get('edition')
     retired={'held','withdrawn','archived','archive','source-archive','historical','superseded','not-currently-available','draft','work-in-progress'}
     def current(e):
         return (e.get('language')==key[0] and e.get('collection')==collections[key[1]]

@@ -18,7 +18,7 @@ def main():
     units=[];seen=set();covered=set()
     catalog=json.loads((root/'materials/catalog.json').read_text(encoding='utf-8-sig'))
     production=bool(catalog.get('languages')) and 'preview' not in str(catalog.get('scope','')).lower()
-    generated=[];scope_edition=None
+    generated=[];scope_edition=None;edition_report=None;edition_rows=None
     if production:
         if not args.language:raise ValueError('Production indexing held: select an independently reviewed book scope')
         declarations_path=root/'books/reviewed-books.json'
@@ -28,12 +28,14 @@ def main():
         matches=[d for d in declarations.get('books',[]) if d.get('language')==args.language and d.get('collection')==args.collection]
         if len(matches)!=1 or matches[0].get('state')!='reviewed-current' or matches[0].get('automaticBuild') is not True:raise ValueError('Production indexing held: book scope has no current reviewed declaration')
         declaration=matches[0]
+        from book_edition_scope import select
+        edition_rows,edition_report=select(root,catalog,declaration)
         scope_edition=declaration.get('edition')
         if args.collection=='seerah'and scope_edition!='new-adult':raise ValueError('Only new adult Seerah belongs in the current book')
         current_units=[json.loads(f.read_bytes())for f in(root/'books/units/current').rglob('*.json')]
         scoped_units=[u for u in current_units if(u.get('language'),u.get('collection'))==(args.language,args.collection)]
         publisher_coverage={(b['collection'],b['language'],str(b['id']))for u in scoped_units for b in u.get('catalogBindings',[])}
-        expected_scope={(e['collection'],e['language'],str(e['id']))for e in catalog['entries']if eligible(e)and(e['language'],COLLECTION_MAP[e['collection']])==(args.language,args.collection)and(not scope_edition or e.get('edition')==scope_edition)}
+        expected_scope={(e['collection'],e['language'],str(e['id']))for e in edition_rows}
         # A source-publishing transaction already supplied every exact approved
         # reader snapshot. No collection-specific manual adapter is needed.
         if expected_scope.issubset(publisher_coverage) and scoped_units:
@@ -64,7 +66,7 @@ def main():
             generated.append(file)
     collectionmap=COLLECTION_MAP
     def within(e):return not args.language or (e.get('language')==args.language and collectionmap.get(e.get('collection'))==args.collection and (not scope_edition or e.get('edition')==scope_edition))
-    expected={(e['collection'],e['language'],str(e['id'])) for e in catalog['entries'] if eligible(e) and within(e)}
+    expected={(e['collection'],e['language'],str(e['id'])) for e in (edition_rows if edition_rows is not None else catalog['entries']) if eligible(e) and within(e)}
     for file in sorted(list((root/'books/units/current').rglob('*.json'))+generated):
         raw=file.read_bytes();unit=json.loads(raw)
         if args.language and (unit.get('language')!=args.language or unit.get('collection')!=args.collection):continue
@@ -104,6 +106,8 @@ def main():
     if production:
         result['catalogSHA256']=sha((root/'materials/catalog.json').read_bytes())
         result['reviewedBooksSHA256']=sha((root/'books/reviewed-books.json').read_bytes())
+    if edition_report is not None:
+        result['editionReconciliation']=edition_report
     (root/'books/manifest.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'boundUnits':len(units)}))
 if __name__=='__main__':main()
