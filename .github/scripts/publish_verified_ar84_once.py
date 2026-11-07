@@ -53,18 +53,29 @@ def main():
  oldbundles=read(root/'books/published-bundles.json');OUT.mkdir(parents=True,exist_ok=False);folder=OUT/'ar-tadabbur-extended';folder.mkdir()
  for name in [DOC,PDF]:shutil.copyfile(CANDIDATE/name,folder/name)
  ensure_main(root,HEAD)
- run(['gh','release','create',TAG,'--repo',REPO,'--target',SOURCE,'--draft','--latest=false','--title','Reviewed Arabic reflections: 84 current sections','--notes','Arabic reflections cover 84 sections: 59 include all ayah numbers, and 25 contain selected ayahs. Material for 30 surahs is not prepared. This is not a complete Quran edition.'],root)
- for name in [DOC,PDF]:run(['gh','release','upload',TAG,folder/name,'--repo',REPO],root)
- remote={a['name']:a for a in draft(TAG).get('assets',[])}
+ probe=subprocess.run(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'],cwd=root,capture_output=True,text=True,encoding='utf8')
+ if probe.returncode==0:
+  release=json.loads(probe.stdout)
+  if release.get('tag_name')!=TAG or release.get('target_commitish')!=SOURCE or release.get('draft') is not False or release.get('prerelease') is not False:raise ValueError('Existing release identity differs')
+ else:
+  if '404' not in probe.stderr:raise ValueError('Cannot check existing release: '+probe.stderr[-500:])
+  run(['gh','release','create',TAG,'--repo',REPO,'--target',SOURCE,'--draft','--latest=false','--title','Reviewed Arabic reflections: 84 current sections','--notes','Arabic reflections cover 84 sections: 59 include all ayah numbers, and 25 contain selected ayahs. Material for 30 surahs is not prepared. This is not a complete Quran edition.'],root)
+  for name in [DOC,PDF]:run(['gh','release','upload',TAG,folder/name,'--repo',REPO],root)
+  release=draft(TAG)
+ remote={a['name']:a for a in release.get('assets',[])}
  if set(remote)!={DOC,PDF}:raise ValueError('Release asset set differs')
  for name,digest in [(DOC,EXPECTED_DOC),(PDF,EXPECTED_PDF)]:
   x=remote[name]
   if x.get('state')!='uploaded' or x.get('size')!=(folder/name).stat().st_size or x.get('digest')!='sha256:'+digest:raise ValueError('Release bytes differ: '+name)
- ensure_main(root,HEAD);run(['gh','release','edit',TAG,'--repo',REPO,'--draft=false','--latest=false'],root)
+ if release.get('draft') is True:
+  ensure_main(root,HEAD);run(['gh','release','edit',TAG,'--repo',REPO,'--draft=false','--latest=false'],root)
  incoming=copy.deepcopy(snap['entries'][0]);incoming['releaseTag']=TAG;incoming['book']['download']=release_url(REPO,TAG,DOC);incoming['book']['pdfDownload']=release_url(REPO,TAG,PDF)
  fetch=lambda tag:json.loads(run(['gh','api',f'repos/{REPO}/releases/tags/{tag}'],root))
  library,ready,stale=merge(root,existing,[incoming],REPO,fetch);after={scope_key(e['book']):e for e in library['entries']}
- if stale or len(ready)!=20 or set(after)!=set(before) or any(after[k]!=v for k,v in before.items() if k!=('ar','tadabbur-extended')):raise ValueError('Existing book inventory changed')
+ if stale or len(ready)!=20 or set(after)!=set(before):raise ValueError('Existing book inventory changed')
+ for k,v in before.items():
+  if k==('ar','tadabbur-extended'):continue
+  if any(after[k].get(field)!=value for field,value in v.items()) or set(after[k])-set(v)-{'availability'}:raise ValueError('Existing book entry changed: '+str(k))
  links,errors=publish_bundles(root,OUT,ready,SOURCE,REPO,TAG,run)
  if errors or len(links)!=20:raise ValueError('Combined book checks failed: '+str(errors))
  newbundles=read(root/'books/published-bundles.json')
