@@ -18,7 +18,11 @@ class PublicationTests(unittest.TestCase):
         elif args[:3]==['gh','release','upload']:
             tag=args[3];file=Path(args[4]);self.releases[tag]['assets'].append({'name':file.name,'size':file.stat().st_size,'state':'uploaded','digest':'sha256:'+('0'*64 if self.corrupt else sha(file.read_bytes())),'browser_download_url':release_url(REPO,tag,file.name)})
         elif args[:3]==['gh','release','edit']:self.releases[args[3]]['draft']=False
-        elif args[:2]==['gh','api']:return json.dumps(self.releases[args[2].rsplit('/',1)[-1]])
+        elif args[:2]==['gh','api']:
+            if '/releases?per_page=' in args[2]:return json.dumps(list(self.releases.values()))
+            release=self.releases[args[2].rsplit('/',1)[-1]]
+            if release['draft']:raise RuntimeError('GitHub does not resolve drafts by tag')
+            return json.dumps(release)
         else:raise AssertionError('Unexpected command')
         return ''
     def ready(self,lang='ru',collection='tadabbur-extended'):

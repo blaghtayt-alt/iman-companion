@@ -95,6 +95,16 @@ def publish_bundles(root,out,ready,commit,repo,tag,execute):
     def fetch(t):
         if t not in release_cache:release_cache[t]=json.loads(execute(['gh','api',f'repos/{repo}/releases/tags/{t}'],root))
         return release_cache[t]
+    def fetch_draft(t):
+        # GitHub does not expose a draft through the releases/tags endpoint.
+        # List releases under the authenticated token and match the exact tag.
+        for page in range(1,101):
+            rows=json.loads(execute(['gh','api',f'repos/{repo}/releases?per_page=100&page={page}'],root))
+            matches=[r for r in rows if r.get('tag_name')==t and r.get('draft') is True]
+            if len(matches)>1:raise ValueError('Duplicate draft bundle release')
+            if matches:return matches[0]
+            if len(rows)<100:break
+        raise ValueError('Uploaded draft bundle release is missing')
     bundle_tag=tag+'-bundles'
     for language in COPY:
         books=inventory(ready,language)
@@ -112,7 +122,7 @@ def publish_bundles(root,out,ready,commit,repo,tag,execute):
         try:
             execute(['gh','release','create',bundle_tag,'--repo',repo,'--target',commit,'--draft','--latest=false','--title','Combined language book downloads','--notes','The merged edition and ZIP include only the complete current published books in the selected language.'],root)
             for file in assets:execute(['gh','release','upload',bundle_tag,file,'--repo',repo],root)
-            release=fetch(bundle_tag)
+            release=fetch_draft(bundle_tag)
             if release.get('draft')is not True:raise ValueError('Bundle draft was unexpectedly public')
             remote={a['name']:a for a in release.get('assets',[])}
             for file in assets:
