@@ -58,7 +58,7 @@
       "adapter": "reviewed-ikhlas-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
       "quranText": {
         "path": "books/assets/quran-arabic.json",
@@ -66,14 +66,14 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "releaseHold": "Verify this final native Word/PDF pair, each format’s contents destinations, page bounds, fonts and source/notes before release.",
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [
         {
           "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
           "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
         }
-      ]
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "fa",
@@ -104,7 +104,7 @@
       "adapter": "reviewed-ikhlas-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
       "quranText": {
         "path": "books/assets/quran-arabic.json",
@@ -112,14 +112,14 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "releaseHold": "Verify this final native Word/PDF pair, each format’s contents destinations, page bounds, fonts and source/notes before release.",
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [
         {
           "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
           "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
         }
-      ]
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "zh-CN",
@@ -127,7 +127,7 @@
       "adapter": "reviewed-ikhlas-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
       "quranText": {
         "path": "books/assets/quran-arabic.json",
@@ -135,14 +135,14 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "releaseHold": "Verify this final native Word/PDF pair, each format’s contents destinations, page bounds, fonts and source/notes before release.",
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [
         {
           "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
           "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
         }
-      ]
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "uz",
@@ -150,7 +150,7 @@
       "adapter": "reviewed-ikhlas-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
       "quranText": {
         "path": "books/assets/quran-arabic.json",
@@ -158,14 +158,14 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "releaseHold": "Verify this final native Word/PDF pair, each format’s contents destinations, page bounds, fonts and source/notes before release.",
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [
         {
           "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
           "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
         }
-      ]
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "th",
@@ -239,7 +239,7 @@
       "adapter": "reviewed-ikhlas-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
       "quranText": {
         "path": "books/assets/quran-arabic.json",
@@ -247,14 +247,14 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "releaseHold": "Verify this final native Word/PDF pair, each format’s contents destinations, page bounds, fonts and source/notes before release.",
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [
         {
           "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
           "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
         }
-      ]
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "fr",
@@ -262,7 +262,7 @@
       "adapter": "reviewed-ikhlas-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
       "quranText": {
         "path": "books/assets/quran-arabic.json",
@@ -270,14 +270,14 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "releaseHold": "Verify this final native Word/PDF pair, each format’s contents destinations, page bounds, fonts and source/notes before release.",
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [
         {
           "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
           "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
         }
-      ]
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "tr",
@@ -285,7 +285,7 @@
       "adapter": "reviewed-ikhlas-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
       "quranText": {
         "path": "books/assets/quran-arabic.json",
@@ -293,14 +293,14 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "releaseHold": "Verify this final native Word/PDF pair, each format’s contents destinations, page bounds, fonts and source/notes before release.",
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [
         {
           "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
           "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
         }
-      ]
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "id",
@@ -308,7 +308,7 @@
       "adapter": "reviewed-ikhlas-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
       "quranText": {
         "path": "books/assets/quran-arabic.json",
@@ -316,14 +316,14 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "releaseHold": "Verify this final native Word/PDF pair, each format’s contents destinations, page bounds, fonts and source/notes before release.",
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [
         {
           "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
           "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
         }
-      ]
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "ms",
@@ -331,7 +331,7 @@
       "adapter": "reviewed-ikhlas-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
       "quranText": {
         "path": "books/assets/quran-arabic.json",
@@ -339,14 +339,14 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "releaseHold": "Verify this final native Word/PDF pair, each format’s contents destinations, page bounds, fonts and source/notes before release.",
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [
         {
           "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
           "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
         }
-      ]
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "pt-BR",
@@ -354,7 +354,7 @@
       "adapter": "reviewed-ikhlas-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
       "quranText": {
         "path": "books/assets/quran-arabic.json",
@@ -362,14 +362,14 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "releaseHold": "Verify this final native Word/PDF pair, each format’s contents destinations, page bounds, fonts and source/notes before release.",
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [
         {
           "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
           "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
         }
-      ]
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "ur",
@@ -423,7 +423,7 @@
       "adapter": "reviewed-ikhlas-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
       "quranText": {
         "path": "books/assets/quran-arabic.json",
@@ -431,14 +431,14 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "releaseHold": "Verify this final native Word/PDF pair, each format’s contents destinations, page bounds, fonts and source/notes before release.",
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [
         {
           "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
           "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
         }
-      ]
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "ar",

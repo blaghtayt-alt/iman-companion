@@ -7,9 +7,21 @@
 
 | 書籍 | 編集可能な書籍 | 閲覧用の書籍 | 収録内容 |
 | --- | --- | --- | --- |
-| クルアーンの 考察 | 準備中 | 準備中 | — |
+| クルアーンの 考察 · イフラース章を思い巡らす | [編集可能な書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.docx) | [閲覧用の書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.pdf) | 1 |
 | ハディース | 準備中 | 準備中 | — |
 | 預言者伝 | 準備中 | 準備中 | — |
 | 記事 | 準備中 | 準備中 | — |
+
+## クルアーンの 考察 · イフラース章を思い巡らす
+
+- イフラース章を思い巡らす
+
+## まとめてダウンロード
+
+一冊にまとめた版
+
+[編集可能な書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.docx) · [閲覧用の書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.pdf)
+
+[個別の本をまとめた圧縮ファイル](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1-bundles/Iman_Companion_ja_all-books.zip)
 
 人工知能の支援により翻訳された内容であり、確認が必要です。モデルによる点検は、適切な知識を持つ読者による確認に代わるものではありません。
