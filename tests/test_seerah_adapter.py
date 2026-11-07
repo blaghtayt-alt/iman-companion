@@ -19,8 +19,11 @@ class NewSeerahChecks(unittest.TestCase):
     def tearDown(self):self.temp.cleanup()
     def test_exact_current_edition_and_real_audio_binding(self):
         units=generate(self.root,self.catalog,self.declaration);self.assertEqual([u['id'] for u in units],['new-seerah001','new-seerah002','new-seerah003']);self.assertEqual(sum(u['referenceReadiness']['unboundQuranSegments'] for u in units),28);self.assertEqual(sum(u['referenceReadiness']['unboundHadithSegments'] for u in units),24)
-        registry=json.loads((ROOT/'materials/audio/registry.json').read_bytes());self.assertEqual(audio_for_unit(units[0],registry)['materialId'],'new-seerah001');self.assertIsNone(audio_for_unit(units[1],registry));self.assertIsNone(audio_for_unit(units[2],registry))
+        seed=json.loads((ROOT/'materials/audio/publish.json').read_bytes())
+        registry={**seed,'entries':[{**record,'status':'published'} for record in seed['entries']]}
+        for unit in units:self.assertEqual(audio_for_unit(unit,registry)['materialId'],unit['id'])
         changed=deepcopy(units[0]);changed['sourceHashes']=['f'*64];self.assertIsNone(audio_for_unit(changed,registry))
+        registry['entries'][1]['status']='withdrawn';self.assertIsNone(audio_for_unit(units[1],registry))
     def test_real_unresolved_references_block_release(self):
         units=generate(self.root,self.catalog,self.declaration);book={'collection':'seerah','units':[{'id':u['id']} for u in units],'referenceReadiness':{'units':3,'auditedUnits':3,'unboundQuranSegments':28,'unboundHadithSegments':24}}
         with self.assertRaisesRegex(ValueError,'source citations are incomplete'):require_complete_references(book)
