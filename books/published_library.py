@@ -30,7 +30,7 @@ def catalog_members(root,key,for_release=True):
     def current(e):
         return (e.get('language')==key[0] and e.get('collection')==collections[key[1]]
             and (not edition or e.get('edition')==edition)
-            and (key[1]!='tadabbur-extended' or e.get('mode')=='extended')
+            and (key[1]!='tadabbur-extended' or __import__('quran_scope').extended(e))
             and not e.get('archived') and e.get('current',True) is not False
             and not any(str(e.get(k,'')).lower() in retired for k in ['status','publicationStatus','translationStatus'])
             and not any('/source-archive/' in str(e.get(k,'')) for k in ['json','markdown']))
@@ -143,7 +143,8 @@ def limited_continuity(root,entry):
                     except (ValueError,OSError):continue
                     identities=set()
                     if data.get('schema')=='iman-existing-source-review-bindings-v1':
-                        identities={(r['collection'],r['language'],str(r['materialId'])+(':extended' if r.get('collection')=='tadabbur' and r.get('mode')=='extended' else '')) for r in data.get('records',[])}
+                        from quran_scope import review_catalog_id
+                        identities={(r['collection'],r['language'],review_catalog_id(r)) for r in data.get('records',[])}
                     elif data.get('schema')=='iman-arabic-current-reader-source-binding-v1':
                         identities={('tadabbur','ar',s['key'].split(':')[0]+':extended') for s in data.get('sections',[])}
                     if wanted & identities:prior.append(item)

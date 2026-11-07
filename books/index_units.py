@@ -10,8 +10,8 @@ from build_books import check_unit,inside
 def sha(b):return hashlib.sha256(b).hexdigest()
 COLLECTION_MAP={'tadabbur':'tadabbur-extended','articles':'articles','seerah':'seerah','essential-hadith':'hadith'}
 def eligible(e):
-    excluded={'held','withdrawn','archived','archive','source-archive','historical','superseded','not-currently-available','draft','work-in-progress'}
-    return e.get('collection')in COLLECTION_MAP and(e.get('collection')!='tadabbur'or e.get('mode')=='extended')and not e.get('archived')and e.get('current',True)is not False and not any(str(e.get(k,'')).lower()in excluded for k in['status','publicationStatus','translationStatus'])and not any('/source-archive/'in str(e.get(k,''))for k in['json','markdown'])
+    from book_edition_scope import available
+    return available(e)
 def main():
     p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--commit',required=True);p.add_argument('--language');p.add_argument('--collection',choices=['tadabbur-extended','articles','seerah','hadith']);args=p.parse_args();root=args.root.resolve()
     if bool(args.language)!=bool(args.collection):raise ValueError('Select a language and collection together')
@@ -52,6 +52,9 @@ def main():
             normalized=generate(root,catalog,declaration)
         elif declaration.get('adapter')=='reviewed-ikhlas-v1':
             from adapt_ikhlas import generate
+            normalized=generate(root,catalog,declaration)
+        elif declaration.get('adapter')=='reviewed-structured-quran-v1':
+            from adapt_reviewed_quran import generate
             normalized=generate(root,catalog,declaration)
         elif declaration.get('adapter')=='arabic-current-ikhlas-v1':
             from adapt_ar_ikhlas import generate

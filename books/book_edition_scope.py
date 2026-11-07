@@ -6,6 +6,7 @@ transactions. Every eligible member still needs a complete reader adapter.
 """
 from pathlib import Path
 import hashlib, json, re
+from quran_scope import extended,review_catalog_id
 
 POLICY = 'reviewed-source-edition-v1'
 MAP = {'tadabbur':'tadabbur-extended','articles':'articles','seerah':'seerah','essential-hadith':'hadith'}
@@ -23,7 +24,7 @@ def pinned(root,binding):
         raise ValueError('Changed edition review/source input: '+str(binding.get('path')))
     return raw
 def available(row):
-    return row.get('collection') in MAP and (row.get('collection')!='tadabbur' or row.get('mode')=='extended') and not row.get('archived') and row.get('current',True) is not False and not any(str(row.get(k,'')).lower() in RETIRED for k in ('status','publicationStatus','translationStatus')) and not any('/source-archive/' in str(row.get(k,'')) for k in ('json','markdown'))
+    return row.get('collection') in MAP and not row.get('archived') and row.get('current',True) is not False and not any(str(row.get(k,'')).lower() in RETIRED for k in ('status','publicationStatus','translationStatus')) and not any('/source-archive/' in str(row.get(k,'')) for k in ('json','markdown')) and (row.get('collection')!='tadabbur' or extended(row))
 
 def typed_basis(root,row):
     """A declared publisher snapshot must be exact; malformed ones never fall back."""
@@ -72,7 +73,7 @@ def select(root,catalog,declaration):
         if data.get('schema')=='iman-existing-source-review-bindings-v1':
             for record in data.get('records',[]):
                 if record.get('language')!=lang or MAP.get(record.get('collection'))!=collection: continue
-                ident=str(record['materialId'])+(':extended' if record.get('collection')=='tadabbur' and record.get('mode')=='extended' else '')
+                ident=review_catalog_id(record)
                 identity=(record['collection'],lang,ident)
                 if identity in historical: raise ValueError('Duplicate historical review identity')
                 if not record.get('existingWholeReview',{}).get('handoffSHA256') or not record.get('historicalPublication',{}).get('commit') or not record.get('sourceFiles') or not record.get('sourceConditions'):

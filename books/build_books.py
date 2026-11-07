@@ -160,6 +160,11 @@ def direction(p,lang,center=False):
     # Logical start is physical right for Arabic, Urdu and Persian.
     el(pp,'w:jc',{'w:val':'center' if center else 'start'})
 
+def add_bookmark(paragraph,name,ident):
+    start=OxmlElement('w:bookmarkStart');start.set(qn('w:id'),str(ident));start.set(qn('w:name'),name)
+    paragraph._p.insert(1 if paragraph._p.find(qn('w:pPr'))is not None else 0,start)
+    el(paragraph._p,'w:bookmarkEnd',{'w:id':ident})
+
 def reference_text(text):
     text=re.sub(r'\[([^\]]+)\]\(https?://[^)]+\)',r'\1',text)
     text=re.sub(r'https?://\S+|\bwww\.\S+','',text)
@@ -271,7 +276,9 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
     for name,n in [('Title',26),('Heading 1',22),('Heading 2',17),('Heading 3',13)]:
         style=doc.styles[name];style.font.size=Pt(n);style.font.bold=True;style.font.color.rgb=RGBColor.from_string(ROLES['heading']);style.paragraph_format.keep_with_next=True
     scope_titles=[u['title'] for u in units] if edition_report else []
+    multi_surah=collection=='tadabbur-extended' and len(units)>1
     scope_summary=(scope_titles[0]+(f' (+{len(scope_titles)-1})' if len(scope_titles)>1 else '')) if scope_titles else ''
+    if multi_surah:scope_summary=''
     scoped_label=title+(' · '+scope_summary if scope_summary else '')
     p=sec.header.paragraphs[0];direction(p,lang);add_text(p,lc['brand']+' · '+scoped_label,lang,family,arabic,8,'heading')
     p=sec.footer.paragraphs[0];direction(p,'en',True)
@@ -292,7 +299,9 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
             p=doc.add_paragraph();direction(p,lang);add_text(p,text,lang,family,arabic,10)
     p=doc.add_paragraph(style='BookContentsTitle');direction(p,lang);add_text(p,lc['contents'],lang,family,arabic,22,'heading',True)
     if lang=='ur':p.paragraph_format.page_break_before=True
-    p=doc.add_paragraph();direction(p,lang);r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'begin'});r=p.add_run();el(r._r,'w:instrText').text=' TOC \\o "1-2" \\h \\z \\u ';r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'separate'});r=p.add_run(' ');r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'end'})
+    contents_levels='1-1' if multi_surah else '1-2'
+    contents_extra='' if multi_surah else '\\u '
+    p=doc.add_paragraph();direction(p,lang);r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'begin'});r=p.add_run();el(r._r,'w:instrText').text=' TOC \\o "'+contents_levels+'" \\h \\z '+contents_extra;r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'separate'});r=p.add_run(' ');r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'end'})
     preserved=[];notes=Footnotes(doc,lang,family,arabic);hadith_count=0;last_chapter=None
     for unit_index,unit in enumerate(units):
         unit_mirrors=block_mirrors(unit,lang)
@@ -307,6 +316,10 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
             native_text(chapter_title,lang);p=doc.add_paragraph(style='Heading 1');p.paragraph_format.page_break_before=True;direction(p,lang);add_text(p,chapter_title,lang,family,arabic,20,'heading',True);audio_heading_paragraphs.append(p);new_page=False
         p=doc.add_paragraph(style='Heading 2' if chapter_title else 'Heading 1');p.paragraph_format.page_break_before=new_page;direction(p,lang);add_text(p,display_title,lang,family,arabic,18 if unit['collection']=='hadith' else 22,'heading',True)
         audio_heading_paragraphs.append(p)
+        if unit['collection']=='tadabbur-extended':add_bookmark(p,'surah_'+str(unit['surah']).zfill(3),1000000+unit['surah'])
+        if unit.get('coverageLabel'):
+            native_text(unit['coverageLabel'],lang);coverage_paragraph=doc.add_paragraph();direction(coverage_paragraph,lang)
+            coverage_paragraph.paragraph_format.keep_with_next=True;add_text(coverage_paragraph,unit['coverageLabel'],lang,family,arabic,11,'body')
         if unit['collection']=='hadith' and not aggregate_hadith and not unit.get('titleIsReference') and unit['title']!=lc['hadithLabel']:
             p=doc.add_paragraph(style='Heading 3' if chapter_title else 'Heading 2');direction(p,lang);add_text(p,unit['title'],lang,family,arabic,15,'heading',True)
             audio_heading_paragraphs.append(p)
@@ -315,11 +328,17 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
         last_chapter=unit.get('chapter')
         last_content=p
         for section in unit['sections']:
+            for scope_note in unit.get('sourceScopeNotes',[]):
+                if scope_note['beforeSection']!=section.get('ayahKey'):continue
+                p=doc.add_paragraph();direction(p,lang);p.paragraph_format.keep_with_next=True
+                add_text(p,scope_note['label']+'\n',lang,family,arabic,11,'heading',True);add_text(p,scope_note['text'],lang,family,arabic,11,'body');preserved.append(scope_note['text'])
             section_title=section.get('heading','')
             if aggregate_hadith and section.get('hadith') is True:
                 hadith_count+=1;section_title=f"{lc['hadithLabel']} {digits(hadith_count,lang)}"
             if section_title and section_title.strip()!=unit['title'].strip():
                 p=doc.add_paragraph(style='Heading 2');direction(p,lang);add_text(p,section_title,lang,family,arabic,17,'heading',True);last_content=p
+                if section.get('ayahKey'):
+                    surah_number,ayah_number=map(int,section['ayahKey'].split(':'));add_bookmark(p,f'ayah_{surah_number:03d}_{ayah_number:03d}',1100000+surah_number*1000+ayah_number)
                 if aggregate_hadith and section.get('hadith') is True and section.get('heading') and not section.get('titleIsReference'):
                     p=doc.add_paragraph(style='Heading 3');direction(p,lang);add_text(p,section['heading'],lang,family,arabic,14,'heading',True);last_content=p
             for b in section['blocks']:
@@ -340,7 +359,8 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
                     add_text(p,span['text'],'ar' if kind=='ayah' else lang,arabic if kind=='ayah' else family,arabic,blocksize,span.get('role','body'),kind=='heading' or span.get('bold',False),ornament_mirrors=mirror_maps[span_index]);preserved.append(span['text'])
                     if kind not in {'ayah','translation'}:
                         keys=span.get('verseKeys',[])
-                        if not keys and span.get('role')=='current-ayah' and section.get('ayahKey'):keys=[section['ayahKey']]
+                        if span.get('explicitSourceReferencePlaced'):keys=[]
+                        if not keys and span.get('role')=='current-ayah' and section.get('ayahKey') and not span.get('explicitSourceReferencePlaced'):keys=[section['ayahKey']]
                         if keys:add_text(p,' '+'؛ '.join(quran_reference(key,lang,names) for key in keys),lang,family,arabic,10,'body')
                     for citation in span.get('citations',[]):notes.add(p,hadith_citation(citation,lang),group='span-'+str(span_index))
                     for note_index,note in enumerate(span.get('noteTexts',[])):notes.add(p,note,group='source-note-'+str(span_index)+'-'+str(note_index))
@@ -367,6 +387,18 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
     if edition_report:
         result['collectionLabel']=scoped_label
         result['editionScope']={'policy':edition_report['policy'],'includedMaterialTitles':scope_titles,'includedMaterialIds':[u['id'] for u in units]}
+    if collection=='tadabbur-extended' and any(u.get('referenceReadiness')is not None for u in units):
+        checks=[]
+        for u in units:
+            check=u.get('referenceReadiness')
+            if check is None and u.get('provenance',{}).get('adapter') in {'reviewed-ikhlas-v1','arabic-current-ikhlas-v1'}:
+                # These existing adapters validate their complete source-bound
+                # quotation maps/original-book identities, not arbitrary rows.
+                check={'unboundQuranSegments':0,'unboundHadithSegments':0,'unboundScholarSegments':0,'unresolvedSourceReferenceCount':0}
+            checks.append(check)
+        result['referenceReadiness']={'units':len(units),'auditedUnits':sum(isinstance(c,dict) for c in checks)}
+        for field in ['unboundQuranSegments','unboundHadithSegments','unboundScholarSegments','unresolvedSourceReferenceCount']:
+            result['referenceReadiness'][field]=sum(c.get(field,0) for c in checks if isinstance(c,dict))
     if collection=='seerah':
         checks=[u.get('referenceReadiness') for u in units]
         result['referenceReadiness']={'units':len(units),'auditedUnits':sum(isinstance(x,dict) for x in checks),'unboundQuranSegments':sum(x.get('unboundQuranSegments',0) for x in checks if isinstance(x,dict)),'unboundHadithSegments':sum(x.get('unboundHadithSegments',0) for x in checks if isinstance(x,dict))}

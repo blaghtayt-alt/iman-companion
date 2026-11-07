@@ -28,12 +28,16 @@ def toc_nodes(root):
 def linked_pages(pdf,count):
  reader=PdfReader(pdf);page_ids={p.indirect_reference.idnum:i+1 for i,p in enumerate(reader.pages)};out=[]
  for page in reader.pages:
-  links=[]
+  links=[];seen=set()
   for ref in page.get('/Annots',[]):
    item=ref.get_object();dest=item.get('/Dest');rect=item.get('/Rect')
+   if dest is None and item.get('/A',{}).get('/S')=='/GoTo':dest=item['/A'].get('/D')
    if item.get('/Subtype')!='/Link' or not isinstance(dest,list) or not dest or not rect:continue
    page_ref=dest[0];number=page_ids.get(getattr(page_ref,'idnum',None))
    if number is None:raise ValueError('Contents link target is not a PDF page')
+   identity=(getattr(page_ref,'idnum',None),getattr(page_ref,'generation',None),tuple(str(x)for x in dest[1:]))
+   if identity in seen:continue
+   seen.add(identity)
    links.append((float(rect[3]),number))
   out.extend(n for _,n in sorted(links,reverse=True))
   if len(out)>=count:break

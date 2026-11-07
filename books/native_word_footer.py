@@ -88,4 +88,5 @@ def verify_rendered_footer(pdf,root,language):
             if not text.isdecimal() or int(text)!=index+1 or any(c['fontname']not in matched for c in chars):raise ValueError('Wrong native Word footer at physical page '+str(index+1))
             if any(c['x0']<0 or c['x1']>page.width or c['top']<0 or c['bottom']>page.height for c in chars):raise ValueError('Native Word footer outside page')
             checked.append(index+1)
+            page.close()  # Release rendered-page caches before processing the next page.
     return {'proofSHA256':hashlib.sha256(pdf.read_bytes()).hexdigest(),'pagesChecked':checked,'allTenNativeGlyphOutlinesExact':True,'allPrintedValuesMatchPhysicalPage':True}

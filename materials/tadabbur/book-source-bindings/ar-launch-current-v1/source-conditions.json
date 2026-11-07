@@ -1,0 +1,6287 @@
+{
+  "schema": "iman-current-arabic-source-conditions-v1",
+  "scope": "Exact current Arabic source literal and structural QC; not new semantic/scholarly certification, translation review or finished-book/release approval.",
+  "sourceAuditSHA256": "448499b9d601acada5995d693beda83180d2fc03a50edccff21b17d81f6320d3",
+  "sourceHandoffSHA256": "dc0acde7a951e538f0fe2cb1a1f05f65a965dbe24d0d87876adb0bc9c765c3bf",
+  "currentSourceCommit": "8e5dbbd2bdffa604cccc21bd2a49d501f18d5255",
+  "sourceApprovalCreated": false,
+  "conditions": [
+    {
+      "id": "1:extended",
+      "surah": 1,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "introduction": {
+        "surah": 1,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 6,
+        "activeBlocks": 6,
+        "blocksEqual": true,
+        "source": "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500",
+        "catalogSource": "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "All supplied Arabic/source meanings compared and all8complete translations separately reviewed. Model-assisted, not human certification.",
+          "reviewedAt": "2026-10-13"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Fatiha_Tadabbur_AR_Source_Rich_Restored.docx",
+          "sha256": "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500",
+          "sourceHeadingsRecognized": 7,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 1,
+          "unitCounts": {
+            "different": 7
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "2:extended",
+      "surah": 2,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        180,
+        183,
+        186,
+        188,
+        196,
+        229,
+        233,
+        237,
+        238,
+        239
+      ],
+      "introduction": {
+        "surah": 2,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Baqarah_Tadabbur_AR_FINAL_Source_Rich_KAHF_LEVEL_Ayat_1-239.docx",
+          "sha256": "924cd3074cb57c681e633121c3c21d1a93ec678d28fab73592f9d633bb3d6e0f",
+          "sourceHeadingsRecognized": 239,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 2,
+          "unitCounts": {
+            "equal-whitespace-normalized": 185,
+            "different": 3,
+            "no-source-body": 51
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "3:extended",
+      "surah": 3,
+      "active": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        31,
+        33,
+        103,
+        110,
+        123,
+        133,
+        134,
+        135,
+        136,
+        139,
+        140,
+        141,
+        142,
+        144,
+        145,
+        146,
+        147,
+        148,
+        152,
+        153,
+        154,
+        155,
+        156,
+        158,
+        164,
+        165,
+        166,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        179,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "introduction": {
+        "surah": 3,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source-mechanically-integrated"
+        },
+        {
+          "status": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Aal_Imran_Tadabbur_AR_Rebuilt_Source_Rich.docx",
+          "sha256": "ff7c42def7bb54c78ba047c08497bba33c90eec4ade4165cd92ae98fbf0be5ec",
+          "sourceHeadingsRecognized": 55,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 3,
+          "unitCounts": {
+            "equal-whitespace-normalized": 47,
+            "different": 6,
+            "no-source-body": 2
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "ELIGIBLE_SUCCESSORS_STAGED_877_ROOT_MERGE_PENDING"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "4:extended",
+      "surah": 4,
+      "active": [
+        27,
+        28,
+        51,
+        61,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        83,
+        84,
+        85,
+        104,
+        105,
+        107,
+        128,
+        135
+      ],
+      "introduction": {
+        "surah": 4,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 5,
+        "activeBlocks": 5,
+        "blocksEqual": true,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "status": "author-candidate-awaiting-distinct-final"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_An_Nisa_Tadabbur_AR_FINAL_Revised_Source_Rich_Merged.docx",
+          "sha256": "137c481825ec82201ca16dc3348c3181b6dc9dd4f064a155f2cfc26a2137d16d",
+          "sourceHeadingsRecognized": 24,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 4,
+          "unitCounts": {
+            "equal-whitespace-normalized": 11,
+            "different": 9,
+            "no-source-body": 4
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "5:extended",
+      "surah": 5,
+      "active": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        30,
+        38,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        82,
+        83,
+        84,
+        85,
+        87,
+        89,
+        90,
+        94,
+        100,
+        101,
+        102,
+        109
+      ],
+      "introduction": {
+        "surah": 5,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al-Maida_Tadabbur_AR_FINAL_Source_Rich.docx",
+          "sha256": "86c1fed0b3167c6197d5997739644f91f4a5a3dffc259b96ab78285db23e9a35",
+          "sourceHeadingsRecognized": 120,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 5,
+          "unitCounts": {
+            "equal-whitespace-normalized": 75,
+            "no-source-body": 45
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "6:extended",
+      "surah": 6,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "introduction": {
+        "surah": 6,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Anam_Part_4_Ayat_99-132_Tadabbur_AR_Source_Rich.docx",
+          "sha256": "eec21da1b083646d749117d84ce28034c58fdc9fb34f68de388cf44473bfc550",
+          "sourceHeadingsRecognized": 34,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 6,
+          "unitCounts": {
+            "equal-whitespace-normalized": 34
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        },
+        {
+          "path": "Surah_Al_Anam_Part_3_Ayat_66-98_Tadabbur_AR_Source_Rich.docx",
+          "sha256": "8a9043b70b50ae7f3e4fb5e5de40ead7062707e428725d59ac56e2dfd7a6ff10",
+          "sourceHeadingsRecognized": 33,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 6,
+          "unitCounts": {
+            "equal-whitespace-normalized": 33
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        },
+        {
+          "path": "Surah_Al_Anam_Part_1_Ayat_1-32_Tadabbur_AR_Source_Rich.docx",
+          "sha256": "b834fa4e084ef83bd36e1d996a65ed4dc602539639d17e21f38cd46e52a75111",
+          "sourceHeadingsRecognized": 32,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 6,
+          "unitCounts": {
+            "equal-whitespace-normalized": 32
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        },
+        {
+          "path": "Surah_Al_Anam_Part_2_Ayat_33-65_Tadabbur_AR_Source_Rich.docx",
+          "sha256": "06bd681f7a0106ebd90fc52904409b32b22bbadb6ee2257dca7ce5d641365d0d",
+          "sourceHeadingsRecognized": 33,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 6,
+          "unitCounts": {
+            "equal-whitespace-normalized": 33
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        },
+        {
+          "path": "Surah_Al_Anam_Part_5_Ayat_133-165_Tadabbur_AR_Source_Rich.docx",
+          "sha256": "2966b4baa02441e438f0d8fcf776ee29f489b00db974cb4472cdaa8da384cbb9",
+          "sourceHeadingsRecognized": 33,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 6,
+          "unitCounts": {
+            "equal-whitespace-normalized": 33
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "7:extended",
+      "surah": 7,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ],
+      "introduction": {
+        "surah": 7,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Araf_Part_3_Ayat_103-154_Tadabbur_AR_Source_Rich.docx",
+          "sha256": "3471aa83427f76ba1591947b7d9c50e4c42febb7b2728eccc86a8f62a4bf80dd",
+          "sourceHeadingsRecognized": 52,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 7,
+          "unitCounts": {
+            "equal-whitespace-normalized": 52
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        },
+        {
+          "path": "Surah_Al_Araf_Part_2_Ayat_54-102_Tadabbur_AR_Source_Rich.docx",
+          "sha256": "365f44817bed2c34d1df050dc135001c3ff6d7ab2cb1aa1e6918ec547d6b8838",
+          "sourceHeadingsRecognized": 49,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 7,
+          "unitCounts": {
+            "equal-whitespace-normalized": 49
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        },
+        {
+          "path": "Surah_Al_Araf_Part_1_Ayat_1-53_Tadabbur_AR_Source_Rich.docx",
+          "sha256": "434fb9e80da4e886327f75522d01836014bb4e0d9662ed47948fddcab0bdd13c",
+          "sourceHeadingsRecognized": 53,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 7,
+          "unitCounts": {
+            "equal-whitespace-normalized": 53
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        },
+        {
+          "path": "Surah_Al_Araf_Part_4_Ayat_155-206_Tadabbur_AR_Source_Rich.docx",
+          "sha256": "bd53b4f4026e8c1567cec4184ac24ed27feadbd63b3c47929db10d6c4bdbea1e",
+          "sourceHeadingsRecognized": 52,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 7,
+          "unitCounts": {
+            "equal-whitespace-normalized": 52
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "11:extended",
+      "surah": 11,
+      "active": [
+        1,
+        2,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        24,
+        27,
+        28,
+        29,
+        32,
+        37,
+        38,
+        40,
+        42,
+        43,
+        53,
+        54,
+        55,
+        56,
+        61,
+        62,
+        63,
+        64,
+        72,
+        73,
+        76,
+        77,
+        80,
+        84,
+        87,
+        88,
+        91,
+        93,
+        98,
+        101,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        120,
+        121,
+        122,
+        123
+      ],
+      "introduction": {
+        "surah": 11,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 5,
+        "activeBlocks": 5,
+        "blocksEqual": true,
+        "source": "7bade287fa0ab9d860eed77ba8ecb1a3128bbe01c6991430d4e22c2cce1086c3",
+        "catalogSource": "7bade287fa0ab9d860eed77ba8ecb1a3128bbe01c6991430d4e22c2cce1086c3"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Hud_Tadabbur_AR_FINAL_Revised_Source_Rich.docx",
+          "sha256": "7bade287fa0ab9d860eed77ba8ecb1a3128bbe01c6991430d4e22c2cce1086c3",
+          "sourceHeadingsRecognized": 50,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 11,
+          "unitCounts": {
+            "equal-whitespace-normalized": 50
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "EXPLICIT_HUD_HOLD"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "12:extended",
+      "surah": 12,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "introduction": {
+        "surah": 12,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Yusuf_Tadabbur_AR_Source_Rich_Restored.docx",
+          "sha256": "9490c589d2215b4b9b48bbeb1fb68c1bb59def1c8127d80d463752717afa2940",
+          "sourceHeadingsRecognized": 111,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 12,
+          "unitCounts": {
+            "equal-whitespace-normalized": 110,
+            "no-source-body": 1
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "13:extended",
+      "surah": 13,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "introduction": {
+        "surah": 13,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Ar-Rad_Tadabbur_AR_Source_Rich_Refined_Style_RICHER.docx",
+          "sha256": "d7f62519db15f3f48f031de236c19189b78c5f0d2df0fa820ab2bc92fe4ac076",
+          "sourceHeadingsRecognized": 43,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 13,
+          "unitCounts": {
+            "equal-whitespace-normalized": 43
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "14:extended",
+      "surah": 14,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "introduction": {
+        "surah": 14,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 7,
+        "activeBlocks": 7,
+        "blocksEqual": true,
+        "source": "7c053fb91a4d08dbd1fe159df8b50f387df9b7340fc3f21879d6c8581a3eac67",
+        "catalogSource": "7c053fb91a4d08dbd1fe159df8b50f387df9b7340fc3f21879d6c8581a3eac67"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-introduction"
+        },
+        {
+          "internalReviewStatus": "source-rich-arabic-imported"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Ibrahim_Tadabbur_AR_Complete_Ayat_1_52.docx",
+          "sha256": "7c053fb91a4d08dbd1fe159df8b50f387df9b7340fc3f21879d6c8581a3eac67",
+          "sourceHeadingsRecognized": 52,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 14,
+          "unitCounts": {
+            "equal-whitespace-normalized": 52
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "15:extended",
+      "surah": 15,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        26,
+        27,
+        39,
+        42,
+        72,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "introduction": {
+        "surah": 15,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "Complete supplied Arabic reread and meaning map; original commentary preserved except recorded mockery clarification and document footer metadata. Main and inline Quran quotations compared with canonical text; cited Hadith narration checked. Eight complete source-based translations independently reviewed. Model-assisted review, not human certification.",
+          "reviewedAt": "2026-10-11"
+        },
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "Complete supplied Arabic reread and meaning map; original commentary preserved except recorded mockery clarification and document footer metadata. Main and inline Quran quotations compared with canonical text; cited Hadith narration checked. Eight complete source-based translations independently reviewed. Model-assisted review, not human certification.",
+          "reviewedAt": "2026-10-11",
+          "editorialClarifications": [
+            {
+              "old": "هم يعترفون ضمنًا بأن هناك «ذكرًا» نزل عليه",
+              "new": "هم يرددون، على سبيل السخرية لا الإقرار بالإيمان، دعوى أن هناك «ذكرًا» نزل عليه",
+              "reason": "Clarify mockery rather than sincere belief; compare Quran15:6 context and published explanation."
+            }
+          ]
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Al Hijr Tadabbur AR source rich.docx",
+          "sha256": "0b3913a833f4f0c976d1ed72beb35055de27ebeb20e29703a9e616c509d13027",
+          "sourceHeadingsRecognized": 41,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 15,
+          "unitCounts": {
+            "equal-whitespace-normalized": 39,
+            "different": 2
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "17:extended",
+      "surah": 17,
+      "active": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "introduction": {
+        "surah": 17,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al-Isra_Tadabbur_AR_FINAL_Source_Rich.docx",
+          "sha256": "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1",
+          "sourceHeadingsRecognized": 12,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 17,
+          "unitCounts": {
+            "no-source-body": 3,
+            "equal-whitespace-normalized": 9
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "18:extended",
+      "surah": 18,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "introduction": {
+        "surah": 18,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "reviewScope": "514-qualified supplied Arabic commentary and six separate editorial notes; runtime source integrity gate remains required.",
+          "status": "qualified-source514",
+          "mandatoryReadingNotes": []
+        },
+        {
+          "reviewScope": "514-qualified supplied Arabic commentary and six separate editorial notes; runtime source integrity gate remains required.",
+          "status": "qualified-source514",
+          "mandatoryReadingNotes": [
+            {
+              "id": "kahf509-n10",
+              "key": "18:10",
+              "type": "narration-wording-boundary",
+              "requiredInArabicReading": true,
+              "placement": "separate_note_after_commentary",
+              "text": "تنبيه في النقل: وردت مقدمة الحديث هنا بصياغة المصدر بالمعنى؛ واللفظ في الروايتين اللتين روجعتا: «أما أحدهم فأوى إلى الله فآواه الله». فلا تُنسب عبارة «أما الأول» إلى لفظ هاتين الروايتين على أنها نقل حرفي.",
+              "basis": [
+                "https://sunnah.com/bukhari:66",
+                "https://sunnah.com/muslim:2176a"
+              ],
+              "doesNotRewriteSource": true,
+              "kind": "reading-note",
+              "role": "editorial-clarification",
+              "sourceSha256": "9de4497c73648202f7877cca6333f5aebb70e627fde266efd2a3cce519b50dc6",
+              "anchorCommentarySHA256": "22a28e1e762dde71da3b5d7a3f961ffaa5d8a5233338e5bbbc4acf09d5470d9c",
+              "textSHA256": "da1c6753a3f2da8b629c4cdbd26a8c0fec05edddabd52caf843c9194d057413c"
+            }
+          ]
+        },
+        {
+          "reviewScope": "514-qualified supplied Arabic commentary and six separate editorial notes; runtime source integrity gate remains required.",
+          "status": "qualified-source514",
+          "mandatoryReadingNotes": [
+            {
+              "id": "kahf509-n13",
+              "key": "18:13",
+              "type": "narration-wording-boundary",
+              "requiredInArabicReading": true,
+              "placement": "separate_note_after_commentary",
+              "text": "تنبيه في النقل: أصل خبر التقرب ثابت في الأحاديث الصحيحة، وله ألفاظ مروية متعددة في الشرط وحرف الجر؛ فلا يُفهم من الاختصار هنا أن جميع الروايات جاءت بلفظ واحد، ولا أن اختلاف لفظ رواية صحيحة يقدح في أصل الخبر.",
+              "basis": [
+                "https://sunnah.com/bukhari:7405",
+                "https://sunnah.com/muslim:2675a",
+                "https://sunnah.com/muslim:2687a"
+              ],
+              "doesNotRewriteSource": true,
+              "kind": "reading-note",
+              "role": "editorial-clarification",
+              "sourceSha256": "9de4497c73648202f7877cca6333f5aebb70e627fde266efd2a3cce519b50dc6",
+              "anchorCommentarySHA256": "8d68e0f23f71d5ec3fc0e432adde58bdf9aa6e55259d9a5f4f12efcda790a57a",
+              "textSHA256": "e4173ef32e97b46269c1b8f779eaaa3fa65d5e9392f7d6d3050ef6ae651a8aea"
+            }
+          ]
+        },
+        {
+          "reviewScope": "514-qualified supplied Arabic commentary and six separate editorial notes; runtime source integrity gate remains required.",
+          "status": "qualified-source514",
+          "mandatoryReadingNotes": [
+            {
+              "id": "kahf509-n16",
+              "key": "18:16",
+              "type": "speaker-attribution-clarification",
+              "requiredInArabicReading": true,
+              "placement": "separate_note_after_commentary",
+              "text": "تنبيه على العبارة: المراد نجاة إبراهيم من النار بأمر الله؛ فالله هو الذي أمر النار وجعلها بردًا وسلامًا عليه، وليس في الآية أن إبراهيم هو الذي خاطب النار بهذا الأمر.",
+              "basis": [
+                "https://quran.ksu.edu.sa/tafseer/qortobi/sura21-aya69.html"
+              ],
+              "doesNotRewriteSource": true,
+              "kind": "reading-note",
+              "role": "editorial-clarification",
+              "sourceSha256": "9de4497c73648202f7877cca6333f5aebb70e627fde266efd2a3cce519b50dc6",
+              "anchorCommentarySHA256": "045b17a2b4c9c32111484241cc85109df2d01288d966527ca53b57d4d64b8327",
+              "textSHA256": "8a383d7a935c60fed19226d95fb3194bdeb865ca90afcffb761a8bac7fbb4f1d"
+            }
+          ]
+        },
+        {
+          "reviewScope": "514-qualified supplied Arabic commentary and six separate editorial notes; runtime source integrity gate remains required.",
+          "status": "qualified-source514",
+          "mandatoryReadingNotes": [
+            {
+              "id": "kahf509-n29",
+              "key": "18:29",
+              "type": "threat-scope-clarification",
+              "requiredInArabicReading": true,
+              "placement": "separate_note_after_commentary",
+              "text": "تنبيه في نطاق المعنى: فسّر ابن كثير الظالمين في هذا السياق بالكافرين بالله ورسوله وكتابه. والمقابلة هنا بظلم المضطهدين تأمل وعظي، فلا تُفهم حكمًا على كل ظالم أو على كل من قصر في إغاثة مظلوم بالخلود في النار، ولا تعيينًا لمصير شخص بعينه.",
+              "basis": [
+                "https://quran.ksu.edu.sa/tafseer/katheer/sura18-aya29.html"
+              ],
+              "doesNotRewriteSource": true,
+              "kind": "reading-note",
+              "role": "editorial-clarification",
+              "sourceSha256": "9de4497c73648202f7877cca6333f5aebb70e627fde266efd2a3cce519b50dc6",
+              "anchorCommentarySHA256": "898c99c2b90decad60ae02dd93e889dbeae7186067daf5ce946a6c2474c94c49",
+              "textSHA256": "b080d0caf533aa9c0ae9fbdfef18a6807a4692432b267abbeb9fa8d28a2726be"
+            }
+          ]
+        },
+        {
+          "reviewScope": "514-qualified supplied Arabic commentary and six separate editorial notes; runtime source integrity gate remains required.",
+          "status": "supplied-arabic-source",
+          "mandatoryReadingNotes": []
+        },
+        {
+          "reviewScope": "514-qualified supplied Arabic commentary and six separate editorial notes; runtime source integrity gate remains required.",
+          "status": "qualified-source514",
+          "mandatoryReadingNotes": [
+            {
+              "id": "kahf509-n42",
+              "key": "18:42",
+              "type": "source-syntax-meaning-clarification",
+              "requiredInArabicReading": true,
+              "placement": "separate_note_after_commentary",
+              "text": "تنبيه على الصياغة: المقصود من المثال النفسي التحذير من أن يجعل الإنسان أمانه كله في مال أو شخص أو وظيفة؛ ويبين ذلك ما بعده من وصف انهيار النفس عند فقده، لا التوجيه إلى هذا التعلق.",
+              "basis": [
+                "complete supplied 18:42 paragraph and its following explanation"
+              ],
+              "doesNotRewriteSource": true,
+              "kind": "reading-note",
+              "role": "editorial-clarification",
+              "sourceSha256": "9de4497c73648202f7877cca6333f5aebb70e627fde266efd2a3cce519b50dc6",
+              "anchorCommentarySHA256": "ce79975d2dcfc98800f8f0678a84a7fdf135bf3966e0f41b9e5b5e01d1190c4c",
+              "textSHA256": "f9aac971697433a71ac7d8d1deb568160e5b132296e6fb3555a8ff6947846761"
+            }
+          ]
+        },
+        {
+          "reviewScope": "514-qualified supplied Arabic commentary and six separate editorial notes; runtime source integrity gate remains required.",
+          "status": "qualified-source514",
+          "mandatoryReadingNotes": [
+            {
+              "id": "kahf509-n55",
+              "key": "18:55",
+              "type": "qiraat-meaning-distinction",
+              "requiredInArabicReading": true,
+              "placement": "separate_note_after_commentary",
+              "text": "تنبيه في القراءات: يذكر الطبري قراءة «قُبُلًا» بضم القاف والباء، ويشرحها بألوان وضروب من العذاب؛ ويذكر قراءة «قِبَلًا» بكسر القاف وفتح الباء بمعنى العيان والمواجهة، مع نقله وجوهًا أخرى في التأويل. فذكر المعنيين هنا لا يعني أنهما ضبط واحد، ولا يُغيّر النص القرآني الرئيس المحفوظ في هذه القراءة.",
+              "basis": [
+                "https://quran.ksu.edu.sa/tafseer/tabary/sura18-aya55.html"
+              ],
+              "doesNotRewriteSource": true,
+              "kind": "reading-note",
+              "role": "editorial-clarification",
+              "sourceSha256": "9de4497c73648202f7877cca6333f5aebb70e627fde266efd2a3cce519b50dc6",
+              "anchorCommentarySHA256": "b96996fa07903abf9605084c0050a00671695e1892c7af555b8a0116f08c0750",
+              "textSHA256": "05e1b4ce969aedb72369d3e0510e9a68cd10d072f2627990b724f5dc9913dfed"
+            }
+          ]
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Kahf_Tadabbur_AR_FINAL_Merged_All_Sources.docx",
+          "sha256": "1d29ab433adb5259aeac38a96c728b1211805004f5b8de77eb1a72447afb7876",
+          "sourceHeadingsRecognized": 110,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 18,
+          "unitCounts": {
+            "equal-whitespace-normalized": 109,
+            "different": 1
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "ELIGIBLE_18_34_SUCCESSOR_STAGED_877_OTHER_BODY_EQUAL"
+        }
+      ],
+      "specialDisposition": "18:34 uses revised 1d29 source while 109 verses retain prior source ID; preserve verified revision"
+    },
+    {
+      "id": "19:extended",
+      "surah": 19,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "introduction": {
+        "surah": 19,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Maryam_Tadabbur_AR_Current_Work (1).docx",
+          "sha256": "17de95995e618b1a9a3c208bcf38159b087a055e8080a925bed2517e5a305918",
+          "sourceHeadingsRecognized": 98,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 19,
+          "unitCounts": {
+            "equal-whitespace-normalized": 97,
+            "different": 1
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        },
+        {
+          "path": "Surah_Maryam_Tadabbur_AR_FINAL.docx",
+          "sha256": "17de95995e618b1a9a3c208bcf38159b087a055e8080a925bed2517e5a305918",
+          "sourceHeadingsRecognized": 98,
+          "classification": "SIMPLIFIED_IN_872_AUDIT",
+          "surah": 19,
+          "sourceBodyMap": "work\\arabic872\\simplified-batch1\\surah-019-17de95995e61.json",
+          "sourceUnits": 98,
+          "sourceBodyAbsent": [],
+          "sourceBodyVsPreviousRuntimeMismatch": [
+            "19:91"
+          ],
+          "disposition": "EXISTING_BODY_DIFFERENCES_OR_END_LABELS_PRESERVE_CURRENT_SEE_872"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "20:extended",
+      "surah": 20,
+      "active": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "introduction": {
+        "surah": 20,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Taha_Tadabbur_AR_FINAL_Source_Rich_REVISED.docx",
+          "sha256": "292396e5a6db3a4c0ae98d3a159edd17e20ec383d148f526ecc92460bb26691e",
+          "sourceHeadingsRecognized": 37,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 20,
+          "unitCounts": {
+            "equal-whitespace-normalized": 36,
+            "different": 1
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "22:extended",
+      "surah": 22,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        24,
+        25,
+        26,
+        27,
+        39,
+        40,
+        72,
+        75,
+        76,
+        77,
+        78
+      ],
+      "introduction": {
+        "surah": 22,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al-Hajj_Tadabbur_AR_FINAL_Source_Rich_REVISED.docx",
+          "sha256": "a97871f650d47e2c5c344df6b43eba1f4101eda505efc3bcd924501427e132b0",
+          "sourceHeadingsRecognized": 27,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 22,
+          "unitCounts": {
+            "equal-whitespace-normalized": 26,
+            "different": 1
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "25:extended",
+      "surah": 25,
+      "active": [
+        1,
+        7,
+        10,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        35,
+        36,
+        53,
+        61,
+        63,
+        64,
+        67,
+        68,
+        72,
+        73
+      ],
+      "introduction": {
+        "surah": 25,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Furqan_Tadabbur_AR_Source_Rich_Restored.docx",
+          "sha256": "e442a14eacc9fa1f7fb4cf34fe28cf5f90e70ae5f968c4db4ed38c2c2071009b",
+          "sourceHeadingsRecognized": 20,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 25,
+          "unitCounts": {
+            "equal-whitespace-normalized": 19,
+            "no-source-body": 1
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "28:extended",
+      "surah": 28,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "introduction": {
+        "surah": 28,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source-mechanically-integrated"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Qasas_Tadabbur_AR_FINAL_Revised_Source_Rich_Merged.docx",
+          "sha256": "7d4e14bd8aafbcba26cf2174c633096d30999703f350e16a9fcf52a81987a224",
+          "sourceHeadingsRecognized": 88,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 28,
+          "unitCounts": {
+            "different": 88
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "ELIGIBLE_SUCCESSORS_STAGED_877_ROOT_MERGE_PENDING"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "29:extended",
+      "surah": 29,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "introduction": {
+        "surah": 29,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 6,
+        "activeBlocks": 6,
+        "blocksEqual": true,
+        "source": "eb5a753c45d9258366ba20d41734d6a3b6e4a071b3ddb59046085bf653eae28b",
+        "catalogSource": "eb5a753c45d9258366ba20d41734d6a3b6e4a071b3ddb59046085bf653eae28b"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic"
+        },
+        {
+          "status": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Ankabut_Tadabbur_AR_FINAL_Source_Rich_Merged.docx",
+          "sha256": "eb5a753c45d9258366ba20d41734d6a3b6e4a071b3ddb59046085bf653eae28b",
+          "sourceHeadingsRecognized": 69,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 29,
+          "unitCounts": {
+            "equal-whitespace-normalized": 67,
+            "different": 2
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "30:extended",
+      "surah": 30,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        19,
+        20,
+        22,
+        23,
+        24,
+        25,
+        30,
+        31,
+        32,
+        33,
+        34,
+        39,
+        41,
+        46,
+        47,
+        48,
+        49,
+        50,
+        54,
+        60
+      ],
+      "introduction": {
+        "surah": 30,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Ar-Rum_Tadabbur_AR_FINAL_Source_Rich.docx",
+          "sha256": "cb5acad2e7234ebdcd262f4d6445fefa0764ef937d2db0528f16b5e361cf2044",
+          "sourceHeadingsRecognized": 29,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 30,
+          "unitCounts": {
+            "equal-whitespace-normalized": 29
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "31:extended",
+      "surah": 31,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "introduction": {
+        "surah": 31,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Luqman_Tadabbur_AR_Source_Rich_Refined_Style.docx",
+          "sha256": "08aa5104c2c3356282a4f3f0707f2f5e87ff8a2731e749c311bcb4c5c382b147",
+          "sourceHeadingsRecognized": 19,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 31,
+          "unitCounts": {
+            "equal-whitespace-normalized": 15,
+            "no-source-body": 4
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "33:extended",
+      "surah": 33,
+      "active": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "introduction": {
+        "surah": 33,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 9,
+        "activeBlocks": 9,
+        "blocksEqual": true,
+        "source": "38bad7a2fbbc546cdf231b5adeda2cfe5906e79279567cdc84f87a373380a893",
+        "catalogSource": "38bad7a2fbbc546cdf231b5adeda2cfe5906e79279567cdc84f87a373380a893"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-introduction"
+        },
+        {
+          "internalReviewStatus": "source-rich-arabic-imported"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Ahzab_Ayat_9-12_Tadabbur_AR_Source_Rich_Restored.docx",
+          "sha256": "38bad7a2fbbc546cdf231b5adeda2cfe5906e79279567cdc84f87a373380a893",
+          "sourceHeadingsRecognized": 4,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 33,
+          "unitCounts": {
+            "equal-whitespace-normalized": 4
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "34:extended",
+      "surah": 34,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "introduction": {
+        "surah": 34,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Saba_Tadabbur_AR_Source_Rich_Refined_Style.docx",
+          "sha256": "796aacd7dae8ab81daa54af5df40332459a2bb02a7f5acf91a98655e9b76dfa9",
+          "sourceHeadingsRecognized": 54,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 34,
+          "unitCounts": {
+            "equal-whitespace-normalized": 54
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "35:extended",
+      "surah": 35,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "introduction": {
+        "surah": 35,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {}
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Fatir_Tadabbur_AR_Restored_Source_Rich.docx",
+          "sha256": "16e193d4b6e3d2dc3ad5d74924043f841a2ebfa73f688b14b0ff2e05d86fb1b3",
+          "sourceHeadingsRecognized": 45,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 35,
+          "unitCounts": {
+            "different": 45
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": "45 section hashes absent in catalog; current runtime and explicit source index use restored 16e193d4 source; prior qualification retained"
+    },
+    {
+      "id": "36:extended",
+      "surah": 36,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "introduction": {
+        "surah": 36,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source-mechanically-integrated"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Yasin_Tadabbur_AR_Rebuilt_Source_Rich.docx",
+          "sha256": "20a3ec8fb0b2161b5bd1ada4b713d2975b8b377d0a8bac81ad848851cdd575b4",
+          "sourceHeadingsRecognized": 83,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 36,
+          "unitCounts": {
+            "different": 83
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "ELIGIBLE_SUCCESSORS_STAGED_877_ROOT_MERGE_PENDING"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "40:extended",
+      "surah": 40,
+      "active": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "introduction": {
+        "surah": 40,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "Full supplied Arabic source and canonical quotations checked; all eight complete translations separately reviewed. Model-assisted, not human certification.",
+          "reviewedAt": "2026-10-11"
+        },
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "Full supplied Arabic source and canonical quotations checked; all eight complete translations separately reviewed. Model-assisted, not human certification.",
+          "reviewedAt": "2026-10-11",
+          "editorialClarifications": [
+            {
+              "key": "40:24",
+              "old": "﴿ءَايَـٰتِنَا وَسُلْطَـٰنٍ مُّبِينٍ﴾",
+              "new": "﴿بِـَٔايَـٰتِنَا وَسُلْطَـٰنٍ مُّبِينٍ﴾",
+              "reason": "Restore canonical attached preposition in quoted40:23; no commentary meaning changed.",
+              "source": "Bundled verified Quran40:23"
+            }
+          ]
+        },
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "Full supplied Arabic source and canonical quotations checked; all eight complete translations separately reviewed. Model-assisted, not human certification.",
+          "reviewedAt": "2026-10-11",
+          "editorialClarifications": [
+            {
+              "key": "40:26",
+              "old": "[التوبة: 111]",
+              "new": "[النساء: 74]",
+              "reason": "Killed or victorious is4:74, not9:111.",
+              "evidenceFile": "quranenc-4-74.json",
+              "evidenceSha256": "f53772b9dc10bf644e34a33c8b59ab83c96c8d3cca5c9324f67b57e2dd47bbed"
+            }
+          ]
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Ghafir_Tadabbur_AR_FINAL_Source_Rich.docx",
+          "sha256": "96fa02dd76420feb0974fe3a06a28529af6fcb827c09d9b66eb91987c4d82ac9",
+          "sourceHeadingsRecognized": 33,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 40,
+          "unitCounts": {
+            "equal-whitespace-normalized": 31,
+            "different": 2
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "41:extended",
+      "surah": 41,
+      "active": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "introduction": {
+        "surah": 41,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Fussilat_Tadabbur_AR_FINAL_Source_Rich_KAHF_LEVEL_REVISED.docx",
+          "sha256": "7692b89dfcc41b968cf52039050a4d1e72044b17807275b490dc14e4a1b95d25",
+          "sourceHeadingsRecognized": 12,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 41,
+          "unitCounts": {
+            "equal-whitespace-normalized": 12
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "42:extended",
+      "surah": 42,
+      "active": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "introduction": {
+        "surah": 42,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 10,
+        "activeBlocks": 10,
+        "blocksEqual": true,
+        "source": "481b086a9f7629e134e4985e772f97684f6b5a80a5a4b5755f7110b9accf721a",
+        "catalogSource": "481b086a9f7629e134e4985e772f97684f6b5a80a5a4b5755f7110b9accf721a"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Ash_Shura_Tadabbur_AR_FINAL_Source_Rich_PDF_Reviewed.docx",
+          "sha256": "481b086a9f7629e134e4985e772f97684f6b5a80a5a4b5755f7110b9accf721a",
+          "sourceHeadingsRecognized": 5,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 42,
+          "unitCounts": {
+            "equal-whitespace-normalized": 4,
+            "different": 1
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "43:extended",
+      "surah": 43,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        43,
+        44,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        81,
+        87,
+        88,
+        89
+      ],
+      "introduction": {
+        "surah": 43,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Az-Zukhruf_Tadabbur_AR_FINAL_Source_Rich_REVISED.docx",
+          "sha256": "ccab6d75d5836dfdd9bbc6250d3b0d1feb1f9b7741053fca69b443a91a127f15",
+          "sourceHeadingsRecognized": 47,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 43,
+          "unitCounts": {
+            "equal-whitespace-normalized": 47
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "45:extended",
+      "surah": 45,
+      "active": [
+        6,
+        8,
+        9,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        32,
+        37
+      ],
+      "introduction": {
+        "surah": 45,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 4,
+        "activeBlocks": 4,
+        "blocksEqual": true,
+        "source": "fe4de9a8443b4c38c14dc2b5c98f122b922175018be136e9cb8aa4b0dcf450c0",
+        "catalogSource": "fe4de9a8443b4c38c14dc2b5c98f122b922175018be136e9cb8aa4b0dcf450c0"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Jathiyah_Tadabbur_AR_FINAL_Source_Rich_Merged.docx",
+          "sha256": "fe4de9a8443b4c38c14dc2b5c98f122b922175018be136e9cb8aa4b0dcf450c0",
+          "sourceHeadingsRecognized": 10,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 45,
+          "unitCounts": {
+            "equal-whitespace-normalized": 9,
+            "different": 1
+          },
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\JATHIYAH-HEADING-REPAIR881.json",
+          "disposition": "FIFTEEN_BODIES_MATCH_CURRENT_AFTER_FIVE_QUALIFIED_HEADINGS_REPARSED"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "47:extended",
+      "surah": 47,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "introduction": {
+        "surah": 47,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Muhammad_Tadabbur_AR_FINAL_Source_Rich.docx",
+          "sha256": "337c1f2f073dc8afa7d21a5e094c3fc11dc94e63be0b30604bcd48ff865243d6",
+          "sourceHeadingsRecognized": 38,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 47,
+          "unitCounts": {
+            "equal-whitespace-normalized": 38
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "48:extended",
+      "surah": 48,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "introduction": {
+        "surah": 48,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Fath_Tadabbur_AR_Source_Rich_Refined_Style.docx",
+          "sha256": "715409e49012476f4c322c3205cdbed10c44afcda5e3da8e996403850e1dee4c",
+          "sourceHeadingsRecognized": 29,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 48,
+          "unitCounts": {
+            "equal-whitespace-normalized": 29
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "49:extended",
+      "surah": 49,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "introduction": {
+        "surah": 49,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al-Hujurat_Tadabbur_AR_Source_Rich_Refined_Style.docx",
+          "sha256": "03512a3044398e863da505cb7d4fff73c03d59f6897759eb6679afc41ba5a477",
+          "sourceHeadingsRecognized": 18,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 49,
+          "unitCounts": {
+            "equal-whitespace-normalized": 16,
+            "no-source-body": 2
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "50:extended",
+      "surah": 50,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        41,
+        42,
+        45
+      ],
+      "introduction": {
+        "surah": 50,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Qaf_Tadabbur_AR_FINAL_Source_Rich.docx",
+          "sha256": "0c89d33eeab17f8b44ef14818d21ee7b3eacf55cb3d794f050136dca3e8d06e2",
+          "sourceHeadingsRecognized": 28,
+          "classification": "PRESERVED_SOURCE_COPY",
+          "disposition": "BYTE_IDENTICAL_TO_AUDITED_SOURCE",
+          "duplicateOf": [
+            "Surah_Qaf_Tadabbur_AR_FINAL_Source_Rich.docx"
+          ]
+        },
+        {
+          "path": "Surah_Qaf_Tadabbur_AR_FINAL_Source_Rich.docx",
+          "sha256": "0c89d33eeab17f8b44ef14818d21ee7b3eacf55cb3d794f050136dca3e8d06e2",
+          "sourceHeadingsRecognized": 28,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 50,
+          "unitCounts": {
+            "equal-whitespace-normalized": 28
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "51:extended",
+      "surah": 51,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "introduction": {
+        "surah": 51,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Adh-Dhariyat_Tadabbur_AR_FINAL_Source_Rich.docx",
+          "sha256": "61408988902e3ae559bf10beee8984a62b3dba9bee6dfea6fd6732a8b2dd6c02",
+          "sourceHeadingsRecognized": 23,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 51,
+          "unitCounts": {
+            "equal-whitespace-normalized": 23
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "55:extended",
+      "surah": 55,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "introduction": {
+        "surah": 55,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "Complete source, semantic, fluency and quotation review by separate agents; model-assisted, not human certification.",
+          "reviewedAt": "2026-10-13"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Ar-Rahman_Intro_Tadabbur_AR_Source_Rich_Refined_Style.docx",
+          "sha256": "d372fbf8afb2d4f9607a9cfc9298f33a349527ceadd25648588d6b62950d7db2",
+          "sourceHeadingsRecognized": 9,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 55,
+          "unitCounts": {
+            "different": 9
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "57:extended",
+      "surah": 57,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "introduction": {
+        "surah": 57,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al-Hadid_Tadabbur_AR_FINAL_Source_Rich.docx",
+          "sha256": "e6382c6abed220ceaa4aa4a4f3935bb87b329e1486d30cd110d5b471df57fa19",
+          "sourceHeadingsRecognized": 29,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 57,
+          "unitCounts": {
+            "equal-whitespace-normalized": 29
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "58:extended",
+      "surah": 58,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "introduction": {
+        "surah": 58,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al-Mujadilah_Tadabbur_AR_Source_Rich_Refined_Style.docx",
+          "sha256": "55555e96560bb5865f6825b0f654c542b0dc07b951b2130c09ab9704f7e09f76",
+          "sourceHeadingsRecognized": 22,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 58,
+          "unitCounts": {
+            "equal-whitespace-normalized": 22
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "61:extended",
+      "surah": 61,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "introduction": {
+        "surah": 61,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_As-Saff_Tadabbur_AR_FINAL_Source_Rich_REVISED.docx",
+          "sha256": "5d95b5bd26f2e987d6f0574d7c922b8293f159088d07f8bdee0067223ca24914",
+          "sourceHeadingsRecognized": 14,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 61,
+          "unitCounts": {
+            "equal-whitespace-normalized": 13,
+            "different": 1
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "62:extended",
+      "surah": 62,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "introduction": {
+        "surah": 62,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "Complete source, semantic, fluency and quotation review by separate agents; model-assisted, not human certification.",
+          "reviewedAt": "2026-10-13"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al-Jumuah_Tadabbur_AR_FINAL_Source_Rich_KAHF_LEVEL_REVISED.docx",
+          "sha256": "28ac75cd5ce73e638c09d376674702d55b2e89613ddefba61e905e713bdf0e04",
+          "sourceHeadingsRecognized": 11,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 62,
+          "unitCounts": {
+            "different": 11
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "63:extended",
+      "surah": 63,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "introduction": {
+        "surah": 63,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "Complete supplied Source Rich reflection compared with Arabic; model-assisted review, not independent human certification.",
+          "reviewedAt": "2026-10-05"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al-Munafiqun_Tadabbur_AR_FINAL_Source_Rich_REVISED.docx",
+          "sha256": "d8effcb0741d74bfe2a2fbf869c278898fe407c0f42792a9e435c6caafba87e4",
+          "sourceHeadingsRecognized": 11,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 63,
+          "unitCounts": {
+            "equal-whitespace-normalized": 8,
+            "different": 3
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "64:extended",
+      "surah": 64,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "introduction": {
+        "surah": 64,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source-mechanically-integrated"
+        },
+        {
+          "status": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_At_Taghabun_Tadabbur_AR_FINAL_Merged_All_Sources.docx",
+          "sha256": "9948b744c9c454c1877236964fefd1ca057d3c6df80269ddaa9299c5ea87fbd5",
+          "sourceHeadingsRecognized": 18,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 64,
+          "unitCounts": {
+            "different": 15,
+            "equal-whitespace-normalized": 3
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "ELIGIBLE_SUCCESSORS_STAGED_877_ROOT_MERGE_PENDING"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "66:extended",
+      "surah": 66,
+      "active": [
+        10,
+        11,
+        12
+      ],
+      "introduction": {
+        "surah": 66,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_At-Tahrim_Tadabbur_AR_FINAL_Source_Verified.docx",
+          "sha256": "7bf98efedc44f512ba3dbc655284308083afc28313f3167bbf55386efe9b7a9f",
+          "sourceHeadingsRecognized": 3,
+          "classification": "SIMPLIFIED_IN_872_AUDIT",
+          "surah": 66,
+          "sourceBodyMap": "work\\arabic872\\simplified-batch1\\surah-066-7bf98efedc44.json",
+          "sourceUnits": 3,
+          "sourceBodyAbsent": [],
+          "sourceBodyVsPreviousRuntimeMismatch": [
+            "66:10",
+            "66:11",
+            "66:12"
+          ],
+          "disposition": "UNLABELLED_FIRST_READER_MODE_AMBIGUOUS_ALREADY_PRESENT_EXTENDED"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "67:extended",
+      "surah": 67,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "introduction": {
+        "surah": 67,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 6,
+        "activeBlocks": 6,
+        "blocksEqual": true,
+        "source": "aacc43193a73c2a5adcf896388e76a6512c89933d33bcd3201216e4156d48b19",
+        "catalogSource": "aacc43193a73c2a5adcf896388e76a6512c89933d33bcd3201216e4156d48b19"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Mulk_Tadabbur_AR_FINAL_Source_Rich_Merged_All_Sources.docx",
+          "sha256": "aacc43193a73c2a5adcf896388e76a6512c89933d33bcd3201216e4156d48b19",
+          "sourceHeadingsRecognized": 30,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 67,
+          "unitCounts": {
+            "equal-whitespace-normalized": 30
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "68:extended",
+      "surah": 68,
+      "active": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "introduction": {
+        "surah": 68,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "Complete Arabic comparison and fluency pass by translator, different-agent review, and coordinating-agent reconciliation. Model-assisted editorial work; no human or institutional certification.",
+          "reviewedAt": "2026-10-05"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al-Qalam_Tadabbur_AR_FINAL_Source_Verified.docx",
+          "sha256": "564bef45e15a553bd6756cbdea81406e8099fb105d46dc9d7cf1020bf697b4c7",
+          "sourceHeadingsRecognized": 20,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 68,
+          "unitCounts": {
+            "equal-whitespace-normalized": 18,
+            "different": 2
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "70:extended",
+      "surah": 70,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "introduction": {
+        "surah": 70,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Maarij_Tadabbur_AR_Source_Rich_Refined_Style.docx",
+          "sha256": "9e04c95455b7200efeb0aca1f8ae69d533397592db981c8d5de1647d8edb2126",
+          "sourceHeadingsRecognized": 44,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 70,
+          "unitCounts": {
+            "equal-whitespace-normalized": 44
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "71:extended",
+      "surah": 71,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "introduction": {
+        "surah": 71,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 4,
+        "activeBlocks": 4,
+        "blocksEqual": true,
+        "source": "c91b59f795ad937cb187406bd510bd14b8cb97292ae9ba5e0f80990842a9c644",
+        "catalogSource": "c91b59f795ad937cb187406bd510bd14b8cb97292ae9ba5e0f80990842a9c644"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Nuh_Tadabbur_AR_FINAL_Source_Rich_PDF_Reviewed.docx",
+          "sha256": "c91b59f795ad937cb187406bd510bd14b8cb97292ae9ba5e0f80990842a9c644",
+          "sourceHeadingsRecognized": 28,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 71,
+          "unitCounts": {
+            "equal-whitespace-normalized": 28
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "72:extended",
+      "surah": 72,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "introduction": {
+        "surah": 72,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al-Jinn_Tadabbur_AR_FINAL_Source_Rich.docx",
+          "sha256": "b6b351f820eed07fcf5c6ec98563444e3788480a7b5f4ca1c59facb5a7f72bdc",
+          "sourceHeadingsRecognized": 28,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 72,
+          "unitCounts": {
+            "equal-whitespace-normalized": 28
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "73:extended",
+      "surah": 73,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "introduction": {
+        "surah": 73,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Muzzammil_Tadabbur_AR.docx",
+          "sha256": "4f7c37b40438963a966e424bea5c6e9a6fdcc6a9f5eadfabbea22c3590422cb8",
+          "sourceHeadingsRecognized": 20,
+          "classification": "UNLABELLED_ARABIC_VERSE_DOCUMENT",
+          "surah": 73,
+          "sourceBodyCount": 20,
+          "bodyEqualAnyCurrentMode": 19,
+          "differentBodyKeys": [
+            "73:6"
+          ],
+          "noCurrentModeKeys": [],
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\SKIPPED-ARABIC-BODIES881.json",
+          "disposition": "INSTALLED_BODY_WITH_SMALL_EXISTING_WORDING_DIFFERENCES_PRESERVE_CURRENT"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "74:extended",
+      "surah": 74,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "introduction": {
+        "surah": 74,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Muddaththir_Tadabbur_AR.docx",
+          "sha256": "50f3fe5dd5a12a979166934729a10b02056526f891102137e5d2b29611803034",
+          "sourceHeadingsRecognized": 56,
+          "classification": "UNLABELLED_ARABIC_VERSE_DOCUMENT",
+          "surah": 74,
+          "sourceBodyCount": 56,
+          "bodyEqualAnyCurrentMode": 55,
+          "differentBodyKeys": [
+            "74:1"
+          ],
+          "noCurrentModeKeys": [],
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\SKIPPED-ARABIC-BODIES881.json",
+          "disposition": "INSTALLED_BODY_WITH_SMALL_EXISTING_WORDING_DIFFERENCES_PRESERVE_CURRENT"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "75:extended",
+      "surah": 75,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "introduction": {
+        "surah": 75,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "source-rich-arabic-imported",
+          "reviewScope": "Supplied Arabic source imported with complete paragraph preservation, canonical main-ayah replacement, structural validation and targeted lecture-framing corrections. Full semantic and quotation review remains pending; not Astra-complete."
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Qiyamah_Tadabbur_AR_Source_Rich_Refined_Style.docx",
+          "sha256": "12341226df4eece427c2b99ef0808a6989162041674bcf669062b52c1722a136",
+          "sourceHeadingsRecognized": 40,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 75,
+          "unitCounts": {
+            "equal-whitespace-normalized": 40
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "78:extended",
+      "surah": 78,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "introduction": {
+        "surah": 78,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 3,
+        "activeBlocks": 3,
+        "blocksEqual": true,
+        "source": "401ae36fca52448e73b9b17438cfbd2fe3656fe28db82736689717e1b9e2a085",
+        "catalogSource": "401ae36fca52448e73b9b17438cfbd2fe3656fe28db82736689717e1b9e2a085"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "status": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_An_Naba_Tadabbur_AR_FINAL_Revised_Source_Rich.docx",
+          "sha256": "401ae36fca52448e73b9b17438cfbd2fe3656fe28db82736689717e1b9e2a085",
+          "sourceHeadingsRecognized": 40,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 78,
+          "unitCounts": {
+            "equal-whitespace-normalized": 40
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "79:extended",
+      "surah": 79,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "introduction": {
+        "surah": 79,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source-mechanically-integrated"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_An_Naziat_Tadabbur_AR_FINAL_Source_Rich_REVISED.docx",
+          "sha256": "7caf88eae386da4fdbdc3bca53a2f644eb1841268dfec35fbc9685c70ee28f23",
+          "sourceHeadingsRecognized": 46,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 79,
+          "unitCounts": {
+            "equal-whitespace-normalized": 45,
+            "different": 1
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        },
+        {
+          "path": "Surah_Al_Naziat_Tadabbur_AR_FINAL_Reviewed_Refined (1).docx",
+          "sha256": "93b05e87a276c9a75e814950fb7e07e4a82237004f75bd41d9339782e9911177",
+          "sourceHeadingsRecognized": 46,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 79,
+          "unitCounts": {
+            "different": 46
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "ELIGIBLE_SUCCESSORS_STAGED_877_ROOT_MERGE_PENDING"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "80:extended",
+      "surah": 80,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "introduction": {
+        "surah": 80,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Abasa_Tadabbur_AR_FINAL_Merged.docx",
+          "sha256": "7b31a59320edc92a0e82c4b194a066711e18a7ee3c720fd11d6a1813359cf7d0",
+          "sourceHeadingsRecognized": 42,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 80,
+          "unitCounts": {
+            "equal-whitespace-normalized": 42
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "81:extended",
+      "surah": 81,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "introduction": {
+        "surah": 81,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [],
+      "specialDisposition": null
+    },
+    {
+      "id": "82:extended",
+      "surah": 82,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "introduction": {
+        "surah": 82,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 3,
+        "activeBlocks": 3,
+        "blocksEqual": true,
+        "source": "c62589f6d7ae1dd28dcb91deffe8682474b0baeacad457e695785e7da57bbd5b",
+        "catalogSource": "c62589f6d7ae1dd28dcb91deffe8682474b0baeacad457e695785e7da57bbd5b"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "status": "supplied-arabic"
+        },
+        {
+          "publicationStatus": "supplied-arabic-source-with-visible-qualifications"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Infitar_Tadabbur_AR_FINAL_Revised_Source_Rich_Merged.docx",
+          "sha256": "c62589f6d7ae1dd28dcb91deffe8682474b0baeacad457e695785e7da57bbd5b",
+          "sourceHeadingsRecognized": 19,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 82,
+          "unitCounts": {
+            "different": 2,
+            "equal-whitespace-normalized": 17
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": "19 verses and intro have distinct source SHA; preserve separately"
+    },
+    {
+      "id": "83:extended",
+      "surah": 83,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "introduction": {
+        "surah": 83,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [],
+      "specialDisposition": null
+    },
+    {
+      "id": "84:extended",
+      "surah": 84,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "introduction": {
+        "surah": 84,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [],
+      "specialDisposition": null
+    },
+    {
+      "id": "85:extended",
+      "surah": 85,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "introduction": {
+        "surah": 85,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 3,
+        "activeBlocks": 3,
+        "blocksEqual": true,
+        "source": "154db5b35d624f5f7e7779993f28edb91b98fee6d58c2f24fbdb0f2b995e8011",
+        "catalogSource": "154db5b35d624f5f7e7779993f28edb91b98fee6d58c2f24fbdb0f2b995e8011"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Buruj_Tadabbur_AR_FINAL_Source_Rich_PDF_Reviewed.docx",
+          "sha256": "154db5b35d624f5f7e7779993f28edb91b98fee6d58c2f24fbdb0f2b995e8011",
+          "sourceHeadingsRecognized": 22,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 85,
+          "unitCounts": {
+            "equal-whitespace-normalized": 22
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "86:extended",
+      "surah": 86,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "introduction": {
+        "surah": 86,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [],
+      "specialDisposition": null
+    },
+    {
+      "id": "87:extended",
+      "surah": 87,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "introduction": {
+        "surah": 87,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 4,
+        "activeBlocks": 4,
+        "blocksEqual": true,
+        "source": "2cb714d5151f7769e6b8fd8f6937ec2c28dbf7e22fd29297e04fbc2a04134ba9",
+        "catalogSource": "2cb714d5151f7769e6b8fd8f6937ec2c28dbf7e22fd29297e04fbc2a04134ba9"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "status": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Ala_Tadabbur_AR_FINAL_Revised_Source_Rich.docx",
+          "sha256": "2cb714d5151f7769e6b8fd8f6937ec2c28dbf7e22fd29297e04fbc2a04134ba9",
+          "sourceHeadingsRecognized": 19,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 87,
+          "unitCounts": {
+            "equal-whitespace-normalized": 19
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "88:extended",
+      "surah": 88,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "introduction": {
+        "surah": 88,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [],
+      "specialDisposition": null
+    },
+    {
+      "id": "89:extended",
+      "surah": 89,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "introduction": {
+        "surah": 89,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [],
+      "specialDisposition": null
+    },
+    {
+      "id": "90:extended",
+      "surah": 90,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "introduction": {
+        "surah": 90,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Balad_Tadabbur_AR_FINAL_Merged_Two_Lectures.docx",
+          "sha256": "54a0927ce94c9081fc793bcb6e7beff5c9e946f0d16c64ade5de645caec58c94",
+          "sourceHeadingsRecognized": 20,
+          "classification": "UNLABELLED_ARABIC_VERSE_DOCUMENT",
+          "surah": 90,
+          "sourceBodyCount": 20,
+          "bodyEqualAnyCurrentMode": 19,
+          "differentBodyKeys": [
+            "90:2"
+          ],
+          "noCurrentModeKeys": [],
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\SKIPPED-ARABIC-BODIES881.json",
+          "disposition": "INSTALLED_BODY_WITH_SMALL_EXISTING_WORDING_DIFFERENCES_PRESERVE_CURRENT"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "91:extended",
+      "surah": 91,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "introduction": {
+        "surah": 91,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 3,
+        "activeBlocks": 3,
+        "blocksEqual": true,
+        "source": "8e3ceb97891de1f7c79ae00bde755452403b823c823937074c57679d278b0a60",
+        "catalogSource": "8e3ceb97891de1f7c79ae00bde755452403b823c823937074c57679d278b0a60"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Ash_Shams_Tadabbur_AR_FINAL_Source_Rich_Merged.docx",
+          "sha256": "8e3ceb97891de1f7c79ae00bde755452403b823c823937074c57679d278b0a60",
+          "sourceHeadingsRecognized": 15,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 91,
+          "unitCounts": {
+            "equal-whitespace-normalized": 15
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "92:extended",
+      "surah": 92,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "introduction": {
+        "surah": 92,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "publicationStatus": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [],
+      "specialDisposition": null
+    },
+    {
+      "id": "93:extended",
+      "surah": 93,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "introduction": {
+        "surah": 93,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 3,
+        "activeBlocks": 3,
+        "blocksEqual": true,
+        "source": "5f7e52faf5bf8cf08d0649bc64a4c50dfeb77337b527a583949b86ec84ea6d86",
+        "catalogSource": "5f7e52faf5bf8cf08d0649bc64a4c50dfeb77337b527a583949b86ec84ea6d86"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "Complete source, semantic, fluency and quotation review by separate agents; model-assisted, not human certification.",
+          "reviewedAt": "2026-10-13"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Ad_Duha_Tadabbur_AR_FINAL_Source_Rich_PDF_Reviewed.docx",
+          "sha256": "5f7e52faf5bf8cf08d0649bc64a4c50dfeb77337b527a583949b86ec84ea6d86",
+          "sourceHeadingsRecognized": 11,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 93,
+          "unitCounts": {
+            "different": 9,
+            "equal-whitespace-normalized": 2
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "94:extended",
+      "surah": 94,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "introduction": {
+        "surah": 94,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Ash_Sharh_Tadabbur_AR_FINAL.docx",
+          "sha256": "6efbf7ede310bff69d53706a8e158578e25db551f7e4a9472d5fdc81c9b050db",
+          "sourceHeadingsRecognized": 8,
+          "classification": "UNLABELLED_ARABIC_VERSE_DOCUMENT",
+          "surah": 94,
+          "sourceBodyCount": 8,
+          "bodyEqualAnyCurrentMode": 8,
+          "differentBodyKeys": [],
+          "noCurrentModeKeys": [],
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\SKIPPED-ARABIC-BODIES881.json",
+          "disposition": "BODY_EQUAL_IN_CURRENT_READER"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "95:extended",
+      "surah": 95,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "introduction": {
+        "surah": 95,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewedAt": "2026-10-05"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_At_Tin_Tadabbur_AR_FINAL.docx",
+          "sha256": "a214320500fdca034d031a1a0cd1e9920e9739bc4df83bf377923753fd4ec9b2",
+          "sourceHeadingsRecognized": 8,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 95,
+          "unitCounts": {
+            "different": 5,
+            "equal-whitespace-normalized": 3
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "EXPLICITLY_NOT_YET_SOURCE_RICH"
+        }
+      ],
+      "specialDisposition": "Adult ID is active and catalog text matches runtime; child-specific text/audio holds must not be generalized to adult. Inventory only; no activation done."
+    },
+    {
+      "id": "96:extended",
+      "surah": 96,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "introduction": {
+        "surah": 96,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 4,
+        "activeBlocks": 4,
+        "blocksEqual": true,
+        "source": "54259a415fb70a6a33bcbe6173127c401ee5fa384425d5526da306385ef812be",
+        "catalogSource": "54259a415fb70a6a33bcbe6173127c401ee5fa384425d5526da306385ef812be"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "status": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Alaq_Tadabbur_AR_FINAL_Four_Sources_Seamless_Merged (1).docx",
+          "sha256": "54259a415fb70a6a33bcbe6173127c401ee5fa384425d5526da306385ef812be",
+          "sourceHeadingsRecognized": 19,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 96,
+          "unitCounts": {
+            "equal-whitespace-normalized": 19
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "98:extended",
+      "surah": 98,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "introduction": {
+        "surah": 98,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 17,
+        "activeBlocks": 17,
+        "blocksEqual": true,
+        "source": "5e1536772c43ead55eb4913ff711ea3ba83ecfcb86961bb67d6459058a3b96be",
+        "catalogSource": "5e1536772c43ead55eb4913ff711ea3ba83ecfcb86961bb67d6459058a3b96be"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewedAt": "2026-10-15"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Bayyinah_Tadabbur_AR_FINAL_Source_Rich_Merged.docx",
+          "sha256": "5e1536772c43ead55eb4913ff711ea3ba83ecfcb86961bb67d6459058a3b96be",
+          "sourceHeadingsRecognized": 8,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 98,
+          "unitCounts": {
+            "different": 8
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "99:extended",
+      "surah": 99,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "introduction": {
+        "surah": 99,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 1,
+        "activeBlocks": 1,
+        "blocksEqual": true,
+        "source": "44c4ad6ff93b277631016e915f4bc625427fc276989066c535c2cae8a5598d36",
+        "catalogSource": "44c4ad6ff93b277631016e915f4bc625427fc276989066c535c2cae8a5598d36"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewScope": "Full source comparison and separate agent semantic/fluency/quotation review; model-assisted, not human certification.",
+          "reviewedAt": "2026-10-13"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Az_Zalzalah_Tadabbur_AR_Source_Rich_Restored.docx",
+          "sha256": "44c4ad6ff93b277631016e915f4bc625427fc276989066c535c2cae8a5598d36",
+          "sourceHeadingsRecognized": 8,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 99,
+          "unitCounts": {
+            "different": 8
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "100:extended",
+      "surah": 100,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "introduction": {
+        "surah": 100,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 5,
+        "activeBlocks": 5,
+        "blocksEqual": true,
+        "source": "efabbd43e93c1c7d99fb25763e94afd2e8dce6bc09f5b500b64151602c6677e4",
+        "catalogSource": "efabbd43e93c1c7d99fb25763e94afd2e8dce6bc09f5b500b64151602c6677e4"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Adiyat_Tadabbur_AR_FINAL_Source_Rich_Merged.docx",
+          "sha256": "efabbd43e93c1c7d99fb25763e94afd2e8dce6bc09f5b500b64151602c6677e4",
+          "sourceHeadingsRecognized": 11,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 100,
+          "unitCounts": {
+            "equal-whitespace-normalized": 11
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "101:extended",
+      "surah": 101,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "introduction": {
+        "surah": 101,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 5,
+        "activeBlocks": 5,
+        "blocksEqual": true,
+        "source": "a8e60a1324f0ce584efbc0c2ea14c5f4bc94aaab4b24a6220f5c70e7d748aa91",
+        "catalogSource": "a8e60a1324f0ce584efbc0c2ea14c5f4bc94aaab4b24a6220f5c70e7d748aa91"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewedAt": "2026-10-15"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Qariah_Tadabbur_AR_FINAL_Source_Rich_Merged.docx",
+          "sha256": "a8e60a1324f0ce584efbc0c2ea14c5f4bc94aaab4b24a6220f5c70e7d748aa91",
+          "sourceHeadingsRecognized": 11,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 101,
+          "unitCounts": {
+            "equal-whitespace-normalized": 11
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "102:extended",
+      "surah": 102,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "introduction": {
+        "surah": 102,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 6,
+        "activeBlocks": 6,
+        "blocksEqual": true,
+        "source": "0512e6e0cd0d2c224706da0a57d9a6125f28302ebc0eb154bd398ed7ca655418",
+        "catalogSource": "0512e6e0cd0d2c224706da0a57d9a6125f28302ebc0eb154bd398ed7ca655418"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_At_Takathur_Tadabbur_AR_FINAL_Two_Lecturers_Seamless_Merged.docx",
+          "sha256": "0512e6e0cd0d2c224706da0a57d9a6125f28302ebc0eb154bd398ed7ca655418",
+          "sourceHeadingsRecognized": 8,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 102,
+          "unitCounts": {
+            "equal-whitespace-normalized": 8
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "103:extended",
+      "surah": 103,
+      "active": [
+        1,
+        2,
+        3
+      ],
+      "introduction": {
+        "surah": 103,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "reviewed",
+          "reviewedAt": "2026-10-15"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Asr_Tadabbur_AR_FINAL.docx",
+          "sha256": "17b8a1264b250031d420fb54f830642ba6782adbf72b62ac776db01767110908",
+          "sourceHeadingsRecognized": 3,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 103,
+          "unitCounts": {
+            "equal-whitespace-normalized": 3
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        },
+        {
+          "path": "Surah_Al_Asr_Tadabbur_AR_FINAL.docx",
+          "sha256": "17b8a1264b250031d420fb54f830642ba6782adbf72b62ac776db01767110908",
+          "sourceHeadingsRecognized": 3,
+          "classification": "ANCILLARY_SOURCE_SCRIPT_OUTPUT",
+          "disposition": "EXCLUDED_FROM_AUTHORIZED_SOURCE_RICH_OR_EXPLICIT_SIMPLIFIED_SCOPE",
+          "sourceBodyCount": 3,
+          "bodyEqualAnyCurrentMode": 3,
+          "duplicateOf": [
+            "Surah_Al_Asr_Tadabbur_AR_FINAL.docx"
+          ],
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\ANCESTOR-BODIES881.json"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "104:extended",
+      "surah": 104,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "introduction": {
+        "surah": 104,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Humazah_Tadabbur_AR_FINAL.docx",
+          "sha256": "5962e16ca30bb76bdf0f50fd211df514b46a4f1a8789ff26b4dccccae9b1a360",
+          "sourceHeadingsRecognized": 9,
+          "classification": "UNLABELLED_ARABIC_VERSE_DOCUMENT",
+          "surah": 104,
+          "sourceBodyCount": 9,
+          "bodyEqualAnyCurrentMode": 9,
+          "differentBodyKeys": [],
+          "noCurrentModeKeys": [],
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\SKIPPED-ARABIC-BODIES881.json",
+          "disposition": "BODY_EQUAL_IN_CURRENT_READER"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "107:extended",
+      "surah": 107,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "introduction": {
+        "surah": 107,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Maun_Tadabbur_AR_FINAL.docx",
+          "sha256": "107119c1e424f30a39a28755a356179efb34dce8dbdfb5405e2dd6dd99b46de9",
+          "sourceHeadingsRecognized": 7,
+          "classification": "UNLABELLED_ARABIC_VERSE_DOCUMENT",
+          "surah": 107,
+          "sourceBodyCount": 7,
+          "bodyEqualAnyCurrentMode": 7,
+          "differentBodyKeys": [],
+          "noCurrentModeKeys": [],
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\SKIPPED-ARABIC-BODIES881.json",
+          "disposition": "BODY_EQUAL_IN_CURRENT_READER"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "108:extended",
+      "surah": 108,
+      "active": [
+        1,
+        2,
+        3
+      ],
+      "introduction": {
+        "surah": 108,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Kawthar_Tadabbur_AR_FINAL.docx",
+          "sha256": "68c2e242ab9f1231af2ba085a3c5241950e7334ad0f74d62a79966a89ea4e931",
+          "sourceHeadingsRecognized": 3,
+          "classification": "UNLABELLED_ARABIC_VERSE_DOCUMENT",
+          "surah": 108,
+          "sourceBodyCount": 3,
+          "bodyEqualAnyCurrentMode": 3,
+          "differentBodyKeys": [],
+          "noCurrentModeKeys": [],
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\SKIPPED-ARABIC-BODIES881.json",
+          "disposition": "BODY_EQUAL_IN_CURRENT_READER"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "111:extended",
+      "surah": 111,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "introduction": {
+        "surah": 111,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Masad_Tadabbur_AR_FINAL.docx",
+          "sha256": "95ec85d18f2220c5f80bdcfab7899a8810bec12944033836987c78af1b333863",
+          "sourceHeadingsRecognized": 5,
+          "classification": "UNLABELLED_ARABIC_VERSE_DOCUMENT",
+          "surah": 111,
+          "sourceBodyCount": 5,
+          "bodyEqualAnyCurrentMode": 5,
+          "differentBodyKeys": [],
+          "noCurrentModeKeys": [],
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\SKIPPED-ARABIC-BODIES881.json",
+          "disposition": "BODY_EQUAL_IN_CURRENT_READER"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "112:extended",
+      "surah": 112,
+      "active": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "introduction": {
+        "surah": 112,
+        "catalog": true,
+        "active": true,
+        "catalogBlocks": 8,
+        "activeBlocks": 8,
+        "blocksEqual": true,
+        "source": "de2e648932c5b01662bc314dc0c17cd183eccc874ab72f974753d87b94e17567",
+        "catalogSource": "de2e648932c5b01662bc314dc0c17cd183eccc874ab72f974753d87b94e17567"
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "supplied-arabic-source"
+        },
+        {
+          "status": "supplied-arabic-source"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Ikhlas_Tadabbur_AR_Source_Rich.docx",
+          "sha256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+          "sourceHeadingsRecognized": 4,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 112,
+          "unitCounts": {
+            "equal-whitespace-normalized": 4
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_EQUAL_TO_CHECKED_EXTENDED_READING_SEE_871"
+        },
+        {
+          "path": "Surah_Al_Ikhlas_Tadabbur_AR_FINAL_Three_Sources_Source_Rich_Seamless.docx",
+          "sha256": "de2e648932c5b01662bc314dc0c17cd183eccc874ab72f974753d87b94e17567",
+          "sourceHeadingsRecognized": 4,
+          "classification": "EXTENDED_IN_871_AUDIT",
+          "surah": 112,
+          "unitCounts": {
+            "different": 4
+          },
+          "bodyEvidence": "work/arabic871/extended-batch1/BODY-COMPARISON871.json",
+          "disposition": "SOURCE_BODY_DIFFERENCES_REQUIRE_EXISTING_CONTEXT_PRESERVATION_SEE_871_AND_881"
+        }
+      ],
+      "specialDisposition": "retain 112 four-section adapter; separate de2e intro provenance; do not reuse duplicate mixed Markdown"
+    },
+    {
+      "id": "113:extended",
+      "surah": 113,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "introduction": {
+        "surah": 113,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_Al_Falaq_Tadabbur_AR_FINAL_Merged.docx",
+          "sha256": "64d9ddcee2a0e13a9dc79a82e98964fed87c61b1dd6624adac37bcd9baf11870",
+          "sourceHeadingsRecognized": 5,
+          "classification": "UNLABELLED_ARABIC_VERSE_DOCUMENT",
+          "surah": 113,
+          "sourceBodyCount": 5,
+          "bodyEqualAnyCurrentMode": 5,
+          "differentBodyKeys": [],
+          "noCurrentModeKeys": [],
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\SKIPPED-ARABIC-BODIES881.json",
+          "disposition": "BODY_EQUAL_IN_CURRENT_READER"
+        }
+      ],
+      "specialDisposition": null
+    },
+    {
+      "id": "114:extended",
+      "surah": 114,
+      "active": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "introduction": {
+        "surah": 114,
+        "catalog": false,
+        "active": false,
+        "catalogBlocks": 0,
+        "activeBlocks": 0,
+        "blocksEqual": false,
+        "source": null,
+        "catalogSource": null
+      },
+      "distinctCatalogReviewAndConditions": [
+        {
+          "internalReviewStatus": "provided"
+        }
+      ],
+      "historicalOriginalDispositions881": [
+        {
+          "path": "Surah_An_Nas_Tadabbur_AR_FINAL.docx",
+          "sha256": "e0baf3b9b574327513bf83b749ee8eea57d5f082f3aa3de5bef7eab2e7190e2c",
+          "sourceHeadingsRecognized": 6,
+          "classification": "UNLABELLED_ARABIC_VERSE_DOCUMENT",
+          "surah": 114,
+          "sourceBodyCount": 6,
+          "bodyEqualAnyCurrentMode": 6,
+          "differentBodyKeys": [],
+          "noCurrentModeKeys": [],
+          "bodyEvidence": "work\\arabic881\\completion-audit1\\SKIPPED-ARABIC-BODIES881.json",
+          "disposition": "BODY_EQUAL_IN_CURRENT_READER"
+        }
+      ],
+      "specialDisposition": "Adult ID is active and catalog text matches runtime; child-specific text/audio holds must not be generalized to adult. Inventory only; no activation done."
+    }
+  ],
+  "baqarahClericalCorrection": {
+    "baseHead": "f34134b2de6adf0fc7634cb6cbba9b63680606af",
+    "previousRuntime": {
+      "fingerprint": "7364154d7509e5f290ab9b3a92dcfa37efeffbf1ba60070779502ecfc80c8365",
+      "manifestSHA256": "9b85063446b64435f56165f6f924b4a35bbea8936682cb479b52b21db3764594",
+      "path": "app-7364154d7509e5f290ab",
+      "privateListeningReview": true,
+      "publicDistributionAllowed": false,
+      "scope": "PRIVATE LISTENING REVIEW ONLY: Display-only ornament bridge for current Al-Ikhlas reader; all prior text and holds preserved."
+    },
+    "latestSHA256": "0190bbd9ab7dd93bbdceed05cdfe497d99cf20f96c22fd75f3f0394ce9742f03",
+    "changes": {
+      "tadabbur-content.js": {
+        "beforeSHA256": "6921c125c0744b8f775e1fbc85671d317f1b1b7757d805e9585cf17a6f3ddb6c",
+        "afterSHA256": "0b45e3abccca9b08383c6a36cce1ffe8640e83dbb2cd6b6b1858ddc172924452",
+        "beforeBytes": 39651465,
+        "afterBytes": 39650427
+      },
+      "002.json": {
+        "beforeSHA256": "4ae870c9fc1cf69b4d57e36d2be39f9fbce0c7ed3e36db595dcb35fae5126ccc",
+        "afterSHA256": "3c6913792a959b6e6c555161133614f17bb690125076be5562d6618ad5fe4c38",
+        "beforeBytes": 844414,
+        "afterBytes": 842998
+      },
+      "002.md": {
+        "beforeSHA256": "f22bcc8a88db0a9aec3fd34656159e0cf61ad23dfcb4ec8a0e327579d3570a36",
+        "afterSHA256": "8f61dfd0d38f85043a32f8cbf586d501791bc18576ee459cfd19cbe30fb9fabe",
+        "beforeBytes": 323979,
+        "afterBytes": 323267
+      }
+    },
+    "scope": "Remove misplaced section cover metadata at 2:59 and 2:120, misplaced part heading at 2:177, and correct Arabic wording at 2:77. All other parsed content preserved."
+  },
+  "coverageClaim": "84 current supplied surah sections, 2867 selected ayahs; not the whole Quran. Exact coverage is pinned per record. Existing source holds/qualifications remain in their specific scopes. Separate Ikhlas introduction is excluded."
+}

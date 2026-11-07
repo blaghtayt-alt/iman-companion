@@ -44,7 +44,9 @@ def prepare(root,handoff_file,transaction_base=None):
     catalog=json.loads(catalog_raw);entry=deepcopy(handoff.get('catalogEntry',{}));collection,language,ident=key(entry)
     if collection not in MAP or language not in COPY or not ident or not available(entry):raise ValueError('Only a current public material can be registered')
     if key(approval.get('material',{}))!=key(entry):raise ValueError('Approval is for a different material or language')
-    if collection=='tadabbur'and entry.get('mode')!='extended':raise ValueError('Only extended Quran reflections enter current books')
+    if collection=='tadabbur':
+        from quran_scope import canonical_surah
+        if canonical_surah(entry)is None:raise ValueError('Only extended Quran reflections enter current books')
     if collection=='seerah'and entry.get('edition')!='new-adult':raise ValueError('Only new adult Seerah enters current books')
     for name in['json','markdown']:
         if entry.get(name)and entry[name]not in source:raise ValueError('Approval does not bind the actual catalogue '+name)
@@ -63,8 +65,7 @@ def prepare(root,handoff_file,transaction_base=None):
     quran=read(root/'books/assets/quran-arabic.json')
     if type(order)is not int or order<1 or order!=handoff.get('canonicalOrder'):raise ValueError('Missing explicit canonical source order')
     if collection=='tadabbur':
-        match=re.fullmatch(r'(\d{1,3}):extended',ident)
-        if not match or order!=int(match[1])or not 1<=order<=114:raise ValueError('Surah must use its canonical Quran order')
+        if order!=canonical_surah(entry):raise ValueError('Surah must use its canonical Quran order')
         if unit.get('surah',order)!=order:raise ValueError('Reader surah differs from its canonical catalogue order')
         from reviewed_coverage import validate
         validate(unit,quran,approval)

@@ -12,10 +12,11 @@ from font_integrity import verify as verify_embedded_fonts
 from toc_sync import reconcile as verify_toc_targets
 from word_layout_check import verify_pair as verify_contents_pair
 def require_complete_references(book):
-    if book.get('collection')!='seerah':return
+    if book.get('collection')!='seerah' and book.get('referenceReadiness')is None:return
     check=book.get('referenceReadiness')
     if not isinstance(check,dict) or check.get('units')!=len(book.get('units',[])) or check.get('auditedUnits')!=len(book.get('units',[])) or not book.get('units') or check.get('unboundQuranSegments')!=0 or check.get('unboundHadithSegments')!=0:
         raise ValueError('Seerah source citations are incomplete; a layout proof cannot be published as a complete book')
+    if any(check.get(field,0) for field in ['unboundScholarSegments','unresolvedSourceReferenceCount']):raise ValueError('Original source references are not completely mapped; preparation cannot be released yet')
 def public_export_inputs(index,folder):
     allowed={'tadabbur-extended','articles','seerah','hadith'}
     if any(book.get('collection') not in allowed for book in index['books']):raise ValueError('Only public collection books can be checked for release')
@@ -121,6 +122,7 @@ def main():
             for word in page.extract_words():
                 if '\ufffd' in word['text']:raise ValueError('Replacement glyph in exported book')
                 if word['x0'] < -1 or word['top'] < -1 or word['x1'] > page.width+1 or word['bottom'] > page.height+1:raise ValueError('Text outside page bounds')
+            page.close()  # Release per-page rendering caches during long-book validation.
         book['audioQRVerification']=validate_audio_qr(file,doc,book.get('audioPanels',[]))
         book['pages']=len(doc.pages);doc.close();book['sha256']=hashlib.sha256(file.read_bytes()).hexdigest()
         font_conf=json.loads((args.root/'books/config.json').read_text(encoding='utf8'))

@@ -443,7 +443,7 @@
     {
       "language": "ar",
       "collection": "tadabbur-extended",
-      "adapter": "arabic-current-ikhlas-v1",
+      "adapter": "reviewed-structured-quran-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -452,13 +452,17 @@
         {
           "path": "materials/tadabbur/ikhlas-112/arabic-current-reader-binding.json",
           "sha256": "cef592d357eb0b4ffa6170c6d2eace44e05829df4216919b61601bf8f202a887"
+        },
+        {
+          "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
+          "sha256": "8de1900c4f19f24b093d388f398ab9510397153f7b9b8d0e94ffed4a1b965f76"
         }
       ],
       "arabicReaderBinding": {
         "path": "materials/tadabbur/ikhlas-112/arabic-current-reader-binding.json",
         "sha256": "cef592d357eb0b4ffa6170c6d2eace44e05829df4216919b61601bf8f202a887"
       },
-      "reviewBasis": "The source-owner current-reader binding records the exact four current Arabic647 ayah/commentary sections and their existing bounded source/QC continuity. This is a narrow current-reader edition; neither the separate introduction nor mixed Markdown nor other surahs is included. No new scholarly/translation or finished-book approval is created.",
+      "reviewBasis": "Existing source-owner literal/structural current-Arabic QC for the exact supplied 84 current scopes, with their selected ayahs, source conditions and bounded bibliographic projections. Separate Ikhlas introduction excluded; source-specific conditions retained. No new scholarly, translation, actual Word, visual or release approval is created.",
       "requireActualWordLayout": true
     }
   ]
