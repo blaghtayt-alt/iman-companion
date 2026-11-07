@@ -4,7 +4,7 @@ Run by the repository-owned workflow. Source approval remains with the existing
 published source units; this controller never creates a translation approval.
 """
 from pathlib import Path
-import argparse,hashlib,json,os,re,subprocess,sys
+import argparse,hashlib,json,os,re,subprocess,sys,shutil
 from published_library import SCHEMA,asset_names,capture,current,merge,read,sha,stage,scope_key
 from check_contents_targets import check as check_contents
 
@@ -13,7 +13,7 @@ def run(args,root,**kwargs):
     if result.returncode:raise RuntimeError('Command failed: '+str(args[0])+' '+str(args[1])+'\n'+result.stderr[-3500:]+'\n'+result.stdout[-1000:])
     return result.stdout
 
-def scopes(root):
+def scopes(root,for_release=False):
     declarations=read(root/'books/reviewed-books.json')
     if declarations.get('schema')!='iman-reviewed-books-v1':raise ValueError('Invalid book source declarations')
     rows=[];seen=set()
@@ -21,7 +21,7 @@ def scopes(root):
         key=scope_key(row)
         if key in seen:raise ValueError('Duplicate book source declaration')
         seen.add(key)
-        if row.get('state')=='reviewed-current'and row.get('automaticBuild')is True and row.get('automaticRelease')is True:rows.append(row)
+        if row.get('state')=='reviewed-current'and row.get('automaticBuild')is True and (not for_release or row.get('automaticRelease')is True):rows.append(row)
     return rows
 
 def require_word_layout(declaration,folder,book,language):
@@ -34,15 +34,19 @@ def require_word_layout(declaration,folder,book,language):
         book['independentWordLayoutVerification']=result
 
 def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
+    from preparation_queue import load as load_queue,still_prepared,record,update
     out.mkdir(parents=True,exist_ok=True)
-    report={'sourceCommit':commit,'built':[],'unchanged':[],'failed':[]}
+    report={'sourceCommit':commit,'built':[],'prepared':[],'unchanged':[],'failed':[]}
     approved_audio=root/'books/.cache/approved-audio-intake-report.json'
     report['approvedAudioIntakeErrors']=read(approved_audio).get('errors',[])if approved_audio.exists()else[]
     existing=read(root/'books/published-library.json')if(root/'books/published-library.json').exists()else{'schema':SCHEMA,'entries':[]}
     previous={scope_key(row['book']):row for row in existing['entries']}
+    pending={scope_key(row):row for row in load_queue(root)['entries']};new_pending=[];completed=[]
     for declaration in scopes(root):
         language,collection=key=scope_key(declaration)
         if key in previous and current(root,previous[key]):report['unchanged'].append({'language':language,'collection':collection});continue
+        if key in pending and still_prepared(root,pending[key]):
+            report['unchanged'].append({'language':language,'collection':collection,'state':pending[key]['state']});continue
         folder=out/(language+'-'+collection);folder.mkdir(exist_ok=True)
         identity={'language':language,'collection':collection}
         try:
@@ -54,7 +58,9 @@ def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
               [sys.executable,'books/native_pagination.py','--root',root,'--folder',folder],
               [uno_python,'books/render_uno.py','--folder',folder,'--keep-contents'],
             ]
-            for command in commands:run(command,root)
+            for i,command in enumerate(commands):
+                run(command,root)
+                if i==0:shutil.copy2(root/'books/manifest.json',folder/'source-manifest.json')
             # Reconcile cached TOC page labels with actual PDF destinations.
             # Re-render after each correction and refuse non-convergence.
             for attempt in range(4):
@@ -66,19 +72,29 @@ def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
                     run([uno_python,'books/render_uno.py','--folder',folder,'--keep-contents'],root)
             run([sys.executable,'books/toc_sync.py','--folder',folder],root)
             run([sys.executable,'books/restore_book_fonts.py','--root',root,'--folder',folder],root)
-            run([sys.executable,'books/check_outputs.py','--root',root,'--folder',folder,'--tag',tag,'--repo',repo],root)
+            run([sys.executable,'books/check_outputs.py','--root',root,'--folder',folder,'--tag',tag,'--repo',repo,'--prepare-only'],root)
             index=read(folder/'index.json')
             if len(index['books'])!=1 or scope_key(index['books'][0])!=key:raise ValueError('Scoped build emitted a different book')
             book=index['books'][0]
             book['contentsTargetVerification']=check_contents(folder/book['file'],folder/Path(book['file']).with_suffix('.pdf'))
-            require_word_layout(declaration,folder,book,language)
+            holds=[]
+            if declaration.get('automaticRelease')is not True:holds.append({'check':'scope-release-hold','reason':declaration.get('releaseHold','Release declaration remains disabled')})
+            from check_outputs import require_complete_references
+            try:require_complete_references(book)
+            except ValueError as error:holds.append({'check':'source-references','reason':str(error)})
+            # New Linux renders are preparation artifacts. Never let older
+            # declarations silently bypass real Word QC on a changed edition.
+            receipt=(folder/book['file']).with_name(book['file']+'.word-layout.json')
+            if not receipt.is_file():holds.append({'check':'actual-word-layout','reason':'Awaiting owned Microsoft Word final-file pagination and layout receipt'})
+            else:require_word_layout({'requireActualWordLayout':True},folder,book,language)
+            holds.append({'check':'final-visual-inspection','reason':'Prepared files need final visual release acceptance; no approval is generated by this job'})
             (folder/'index.json').write_text(json.dumps(index,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-            snapshot=capture(root,index)
-            (folder/'library-snapshot.json').write_text(json.dumps(snapshot,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-            report['built'].append({**identity,'folder':folder.name})
+            queued=record(root,index,folder,commit,holds);new_pending.append(queued)
+            report['prepared'].append({**identity,'folder':folder.name,'state':queued['state'],'inputFingerprint':queued['inputFingerprint'],'pendingChecks':holds})
         except Exception as error:
             report['failed'].append({**identity,'error':str(error)})
             (folder/'BUILD-ERROR.txt').write_text(str(error),encoding='utf8')
+    update(root,new_pending,completed)
     (out/'build-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     return report
 
@@ -110,7 +126,10 @@ def managed_paths(root=None):
     from download_page import managed_paths as download_paths
     from locale_copy import COPY
     audio_history=[p.relative_to(root).as_posix()for p in sorted((root/'materials/audio/intake-history').glob('*.json'))if re.fullmatch('[a-f0-9]{64}[.]json',p.name)]if root else[]
-    return ['README.md','books/published-library.json','books/config.json','materials/audio/publish.json','materials/audio/registry.json','docs/listen/materials.json']+[f'books/downloads/{language}/README.md'for language in COPY]+(download_paths(root)if root else[])+audio_history
+    intake=root/'books/.cache/material-intake-report.json' if root else None
+    transaction_files=read(intake).get('generatedFiles',[]) if intake and intake.exists() else []
+    if any(not p.startswith(('books/units/current/','books/units/history/','materials/book-publication-approvals/','materials/book-publication-intake-history/','materials/audio/')) and p not in {'materials/catalog.json','books/reviewed-books.json'} for p in transaction_files):raise ValueError('Unexpected source transaction output')
+    return ['README.md','books/published-library.json','books/prepared-library.json','books/config.json','materials/audio/publish.json','materials/audio/registry.json','docs/listen/materials.json']+[f'books/downloads/{language}/README.md'for language in COPY]+(download_paths(root)if root else[])+audio_history+transaction_files
 
 def publish(root,out,commit,repo,tag,execute=run):
     entries,assets=candidates(root,out,tag)
@@ -139,8 +158,11 @@ def publish(root,out,commit,repo,tag,execute=run):
         execute(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'],root)
         execute(['git','commit','-m','Update verified book downloads and material audio players'],root)
         execute(['git','push','origin','HEAD:refs/heads/main'],root)
-    result={'verifiedBookPairs':count,'newPairs':len(entries),'staleScopesRemoved':stale,'nativeLanguagePages':20,'tablesCommitted':bool(changed),'failedScopes':read(out/'build-report.json')['failed'],'approvedAudioIntakeErrors':read(out/'build-report.json').get('approvedAudioIntakeErrors',[])}
+    build_report=read(out/'build-report.json')
+    result={'verifiedBookPairs':count,'newPairs':len(entries),'preparedAwaitingReleaseQC':build_report.get('prepared',[]),'staleScopesRemoved':stale,'nativeLanguagePages':20,'tablesCommitted':bool(changed),'failedScopes':build_report['failed'],'approvedAudioIntakeErrors':build_report.get('approvedAudioIntakeErrors',[])}
     result['downloadPage']=downloads
+    intake=root/'books/.cache/material-intake-report.json'
+    result['sourceTransactionErrors']=read(intake).get('errors',[]) if intake.exists() else []
     (out/'publication-report.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     return result
 

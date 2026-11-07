@@ -34,6 +34,7 @@ jobs:
           python books/test_script_font_slots.py
           python books/test_book_edition_scope.py
           python books/test_ar_ikhlas_adapter.py
+          python books/test_preparation_lifecycle.py
           python tests/test_article_adapter.py
           python tests/test_articles_export.py
           python tests/test_seerah_adapter.py
@@ -53,6 +54,7 @@ jobs:
     permissions:
       contents: write
       pages: write
+      actions: read
     env:
       GH_TOKEN: ${{ github.token }}
       BOOK_TAG: books-${{ github.run_id }}-${{ github.run_attempt }}
@@ -74,6 +76,8 @@ jobs:
           cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
           fc-cache -f
           command -v google-chrome || command -v chromium
+      - name: Register exact reviewed source transactions and first collection scopes
+        run: python books/material_publication_intake.py --root .
       - name: Publish exact audio assets and retire changed or withdrawn voices
         run: |
           python books/publish_material_audio.py --root .
@@ -92,7 +96,7 @@ jobs:
           name: current-book-publication-${{ github.run_id }}-${{ github.run_attempt }}
           path: ${{ runner.temp }}/current-books/
           if-no-files-found: warn
-          retention-days: 7
+          retention-days: 90
       - name: Report any individual scope that still needs repair
         run: |
           python - <<'PY'
@@ -101,5 +105,5 @@ jobs:
           path=Path(os.environ['RUNNER_TEMP'])/'current-books/publication-report.json'
           result=json.loads(path.read_text(encoding='utf8'))
           print(json.dumps(result,ensure_ascii=False))
-          if result['failedScopes'] or result.get('downloadPage',{}).get('failedBundles') or result.get('approvedAudioIntakeErrors'):raise SystemExit('Working book pairs were published; one or more other scopes need repair. See publication-report.json.')
+          if result['failedScopes'] or result.get('downloadPage',{}).get('failedBundles') or result.get('approvedAudioIntakeErrors') or result.get('sourceTransactionErrors'):raise SystemExit('Working book pairs were published; one or more other scopes need repair. See publication-report.json.')
           PY

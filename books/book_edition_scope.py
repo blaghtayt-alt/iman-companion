@@ -37,6 +37,9 @@ def typed_basis(root,row):
     handoff=json.loads(pinned(root,approval_binding)); approval=handoff.get('approval',{})
     if handoff.get('schema')!='iman-approved-material-publication-v1' or approval.get('decision')!='approved' or approval.get('wholeMaterial') is not True or not approval.get('reviewer') or not approval.get('approvalId') or approval.get('approvalId')!=approval_binding.get('approvalId') or key(approval.get('material',{}))!=key(row) or approval.get('readerTextSHA256')!=unit.get('readerTextSHA256'):
         raise ValueError('Publisher unit lacks its exact whole-material approval')
+    original=json.loads(pinned(root,handoff.get('readerUnit',{})))
+    immutable=lambda value:{k:v for k,v in value.items() if k not in {'inputBindings','publicationApproval'}}
+    if immutable(original)!=immutable(unit):raise ValueError('Publisher projection differs from the approved reader snapshot')
     inputs={}
     for item in unit.get('inputBindings',[]):
         if item['path'] in inputs: raise ValueError('Duplicate publisher input binding')
@@ -62,7 +65,8 @@ def select(root,catalog,declaration):
     historical={}
     evidence=[]
     bindings=declaration.get('sourceReviewBindings',[])
-    if not bindings: raise ValueError('A bounded edition requires source-owner review evidence')
+    # A first typed publication carries its own exact whole-material evidence.
+    # Empty historical evidence never makes untyped legacy rows eligible.
     for binding in bindings:
         data=json.loads(pinned(root,binding));evidence.append(binding)
         if data.get('schema')=='iman-existing-source-review-bindings-v1':

@@ -1,0 +1,22 @@
+"""Native notices for an unchanged verified edition awaiting an additive update."""
+LIMITED={
+'en':'Verified edition. New material is awaiting release checks; only the listed contents are included.',
+'ar':'نسخة موثقة. تنتظر المواد الجديدة فحوص الإصدار؛ تشمل هذه النسخة المحتويات المذكورة فقط.',
+'ur':'تصدیق شدہ نسخہ۔ نیا مواد اشاعت کی جانچ کا منتظر ہے؛ اس نسخے میں صرف درج شدہ مواد شامل ہے۔',
+'id':'Edisi terverifikasi. Materi baru menunggu pemeriksaan penerbitan; hanya isi yang tercantum yang disertakan.',
+'ms':'Edisi yang disahkan. Bahan baharu menunggu semakan penerbitan; hanya kandungan yang disenaraikan disertakan.',
+'bn':'যাচাইকৃত সংস্করণ। নতুন উপকরণ প্রকাশের যাচাইয়ের অপেক্ষায় আছে; কেবল তালিকাভুক্ত বিষয়গুলো এতে রয়েছে।',
+'tr':'Doğrulanmış baskı. Yeni içerikler yayın kontrollerini bekliyor; yalnızca listelenen içerikler dahildir.',
+'fr':'Édition vérifiée. Les nouveaux textes attendent les contrôles de publication ; seuls les contenus indiqués sont inclus.',
+'pt-BR':'Edição verificada. Novos materiais aguardam as verificações de publicação; apenas os conteúdos listados estão incluídos.',
+'hi':'सत्यापित संस्करण। नई सामग्री प्रकाशन जाँच की प्रतीक्षा में है; इसमें केवल सूचीबद्ध सामग्री शामिल है।',
+'ru':'Проверенное издание. Новые материалы ожидают проверки перед выпуском; включено только указанное содержание.',
+'es':'Edición verificada. Los nuevos materiales esperan las comprobaciones de publicación; solo se incluye el contenido indicado.',
+'fa':'نسخهٔ بررسی‌شده. مطالب تازه در انتظار بررسی انتشار هستند؛ این نسخه فقط مطالب فهرست‌شده را شامل می‌شود.',
+'de':'Geprüfte Ausgabe. Neue Inhalte warten auf die Freigabeprüfung; nur die aufgeführten Inhalte sind enthalten.',
+'zh-CN':'已核验版本。新增资料尚待发布检查；本版仅收录所列内容。',
+'uz':'Tekshirilgan nashr. Yangi materiallar nashr tekshiruvini kutmoqda; faqat ro‘yxatdagi mazmun kiritilgan.',
+'th':'ฉบับที่ตรวจสอบแล้ว เนื้อหาใหม่กำลังรอการตรวจสอบก่อนเผยแพร่ ฉบับนี้มีเฉพาะเนื้อหาที่ระบุไว้เท่านั้น',
+'vi':'Ấn bản đã được kiểm tra. Tài liệu mới đang chờ kiểm tra trước khi phát hành; chỉ có những nội dung đã liệt kê.',
+'ja':'確認済みの版です。新しい資料は公開前の確認を待っています。本版には記載された内容のみが収録されています。',
+'fil':'Nasuring edisyon. Hinihintay ng bagong materyal ang pagsusuri bago ilathala; ang nakalistang nilalaman lamang ang kasama.'}

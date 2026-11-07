@@ -32,14 +32,15 @@ def bindings(root,rows):
         result[relative]=row['sha256']
     return result
 
-def prepare(root,handoff_file):
+def prepare(root,handoff_file,transaction_base=None):
     raw=handoff_file.read_bytes();handoff=json.loads(raw)
     if handoff.get('schema')!='iman-approved-material-publication-v1':raise ValueError('Unsupported publication handoff')
     approval=handoff.get('approval',{})
     if approval.get('decision')!='approved'or approval.get('wholeMaterial')is not True or not approval.get('approvalId')or not approval.get('reviewer'):raise ValueError('An existing explicit whole-material approval is required')
     reviewed=bindings(root,approval.get('reviewArtifacts',[]));source=bindings(root,handoff.get('sourceBindings',[]))
     catalog_path=root/'materials/catalog.json';catalog_raw=catalog_path.read_bytes()
-    if sha(catalog_raw)!=handoff.get('expectedCatalogSHA256'):raise ValueError('Catalogue advanced; rebase the publication handoff before applying')
+    expected=handoff.get('expectedCatalogSHA256')
+    if expected!=sha(catalog_raw) and (transaction_base is None or expected!=transaction_base):raise ValueError('Catalogue advanced; rebase the publication handoff before applying')
     catalog=json.loads(catalog_raw);entry=deepcopy(handoff.get('catalogEntry',{}));collection,language,ident=key(entry)
     if collection not in MAP or language not in COPY or not ident or not available(entry):raise ValueError('Only a current public material can be registered')
     if key(approval.get('material',{}))!=key(entry):raise ValueError('Approval is for a different material or language')
@@ -64,13 +65,12 @@ def prepare(root,handoff_file):
     if collection=='tadabbur':
         match=re.fullmatch(r'(\d{1,3}):extended',ident)
         if not match or order!=int(match[1])or not 1<=order<=114:raise ValueError('Surah must use its canonical Quran order')
-        ayahs=[int(s['ayahKey'].split(':')[1])for s in unit.get('sections',[])if s.get('ayahKey')]
-        if ayahs!=sorted(set(ayahs))or any(s.get('ayahKey','').split(':')[0]!=str(order)for s in unit.get('sections',[])if s.get('ayahKey')):raise ValueError('Quran sections are out of canonical ayah order')
-        expected=sorted(int(k.split(':')[1])for k in quran if k.split(':')[0]==str(order))
-        if not expected or ayahs!=expected:raise ValueError('A whole surah must include every canonical ayah exactly once')
+        if unit.get('surah',order)!=order:raise ValueError('Reader surah differs from its canonical catalogue order')
+        from reviewed_coverage import validate
+        validate(unit,quran,approval)
     elif collection in{'seerah','essential-hadith'}:
-        numbers=re.findall(r'\d+',ident)
-        if not numbers or order!=int(numbers[-1]):raise ValueError('Lesson must retain its canonical source number')
+        from material_order import validate_publication
+        validate_publication(unit,ident)
     if collection=='essential-hadith'and not any(b.get('citations')or any(s.get('citations')for s in b.get('spans',[]))for section in unit['sections']for b in section['blocks']):raise ValueError('Extended Hadith requires its verified original collection and narration number')
     check_unit(unit,unitkey,quran)
     approval_relative='materials/book-publication-approvals/'+sha(raw)+'.json'
@@ -84,6 +84,18 @@ def prepare(root,handoff_file):
     if matches:catalog['entries'][matches[0]]=entry
     else:catalog['entries'].append(entry)
     writes={approval_relative:raw,unit_relative:unit_raw,'materials/catalog.json':bytes_json(catalog)}
+    # A first approved typed material creates only a preparation declaration.
+    # Existing declarations and their release/source holds are never modified.
+    declared_path=root/'books/reviewed-books.json'
+    declarations=read(declared_path) if declared_path.exists() else {'schema':'iman-reviewed-books-v1','books':[]}
+    if declarations.get('schema')!='iman-reviewed-books-v1':raise ValueError('Invalid book source declarations')
+    declared=[d for d in declarations['books'] if (d.get('language'),d.get('collection'))==(language,MAP[collection])]
+    if len(declared)>1:raise ValueError('Duplicate book scope declaration')
+    created=not declared
+    if created:
+        declaration={'language':language,'collection':MAP[collection],'adapter':'published-reader-units-v1','state':'reviewed-current','scopePolicy':'reviewed-source-edition-v1','sourceReviewBindings':[], 'automaticBuild':True,'automaticRelease':False,'requireActualWordLayout':True,'releaseHold':'New collection is automatically prepared from exact whole-material approvals; final Word and visual release checks remain required.'}
+        if collection=='seerah':declaration['edition']='new-adult'
+        declarations['books'].append(declaration);writes['books/reviewed-books.json']=bytes_json(declarations)
     prior=inside(root,unit_relative)
     if prior.exists()and prior.read_bytes()!=unit_raw:
         old=prior.read_bytes();writes['books/units/history/'+sha(old)+'.json']=old
@@ -92,11 +104,11 @@ def prepare(root,handoff_file):
         from approved_reader_audio import source_intake
         audio_path,audio_raw,audio_inputs=source_intake(root,unit,unit_relative,handoff['approvedAudioIntake'])
         writes[audio_path]=audio_raw;required.update(audio_inputs)
-    receipt={'schema':'iman-book-source-publication-receipt-v1','material':approval['material'],'canonicalOrder':order,'readerUnit':entry['bookReaderUnit'],'approvalId':approval['approvalId'],'sourceBindings':handoff['sourceBindings'],'generatedFiles':sorted(writes),'requiredInputs':[{'path':p,'sha256':digest}for p,digest in sorted(required.items())],'files':sorted(set(writes)|set(required)),'sourceApprovalCreated':False,'scopeReleaseHoldsChanged':False}
+    receipt={'schema':'iman-book-source-publication-receipt-v1','material':approval['material'],'canonicalOrder':order,'readerUnit':entry['bookReaderUnit'],'approvalId':approval['approvalId'],'sourceBindings':handoff['sourceBindings'],'generatedFiles':sorted(writes),'requiredInputs':[{'path':p,'sha256':digest}for p,digest in sorted(required.items())],'files':sorted(set(writes)|set(required)),'sourceApprovalCreated':False,'scopeReleaseHoldsChanged':False,'preparationScopeCreated':created}
     return writes,receipt
 
-def apply(root,handoff_file):
-    writes,receipt=prepare(root,handoff_file)
+def apply(root,handoff_file,transaction_base=None):
+    writes,receipt=prepare(root,handoff_file,transaction_base)
     # Validate everything before changing any file. Git publication must include
     # this entire list and the source bindings, so remote readers see one commit.
     for relative,raw in writes.items():atomic(inside(root,relative),raw)

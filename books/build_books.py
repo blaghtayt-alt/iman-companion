@@ -41,6 +41,7 @@ def check_unit(unit,record,quran=None):
     if unit.get('schema')!=SCHEMA:raise ValueError('Unsupported book input schema')
     for key in ['language','collection','id']:
         if unit[key]!=record[key]:raise ValueError('Manifest identity mismatch: '+key)
+    if not isinstance(unit['id'],str) or not unit['id'].strip():raise ValueError('Reader unit needs a nonempty string identity')
     if unit['collection'] not in COLLECTIONS:raise ValueError('Unknown collection')
     if unit['collection']=='hadith' and (type(unit.get('order')) is not int or unit['order']<=0):raise ValueError('Hadith unit needs its canonical positive source order')
     if unit['collection']=='hadith' and (unit.get('hadithEdition')!='new-extended' or any(b.get('collection')!='essential-hadith' for b in unit.get('catalogBindings',[]))):raise ValueError('Only the new extended Essential Iman Hadith lessons belong in this book; reject the legacy short collection')
@@ -191,14 +192,13 @@ class Footnotes:
 def canonical_key(unit):
     nums=[int(x) for x in re.findall(r'\d+',unit['id'])]
     if unit['collection']=='tadabbur-extended':
-        n=unit.get('surah',nums[0] if nums else None)
-        if not isinstance(n,int) or not 1<=n<=114:raise ValueError('Quran unit needs a valid surah number')
+        n=unit.get('surah',unit.get('order',nums[0] if nums else None))
+        if type(n)is not int or not 1<=n<=114:raise ValueError('Quran unit needs a valid surah number')
+        if unit.get('order',n)!=n or (nums and nums[0]!=n):raise ValueError('Conflicting canonical surah order')
         return (n,nums[1] if len(nums)>1 else 0)
-    if unit['collection'] in {'seerah','articles'}:
-        n=unit.get('chapter',unit.get('number',unit.get('order',0)))
-        if not isinstance(n,int) or n<=0:raise ValueError('Article/Seerah unit needs its actual source number')
-        return (int(n),unit['id'])
-    return (int(unit.get('order',0)),int(unit.get('chapter',0)),int(unit.get('lesson',unit.get('number',nums[-1] if nums else 0))),unit['id'])
+    from material_order import position
+    _,value=position(unit)
+    return (*value,unit['id'])
 
 def cover_page(doc,cover,width,height):
     """Place the untouched cover at the page edges using its original 2:3 ratio."""
@@ -403,6 +403,8 @@ def main():
     if not groups:raise ValueError('No approved complete units; no empty books will be published')
     result=[]
     for (lang,collection),units in sorted(groups.items()):
+        from material_order import validate_group
+        validate_group(units)
         units.sort(key=canonical_key);result.append(build_book(root,out,conf,lang,collection,units,args.commit,manifest.get('editionReconciliation')))
     coverage=[{'language':l,'collection':c,'available':(l,c) in groups} for l in conf['languages'] for c in sorted(COLLECTIONS)]
     for book in result:
