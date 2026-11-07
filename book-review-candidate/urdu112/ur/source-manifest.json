@@ -1,0 +1,131 @@
+{
+  "schema": "iman-book-manifest-v1",
+  "sourceCommit": "9cceec8be6a3b6c7957e6d0c189c9bb514498483",
+  "previewOnly": false,
+  "units": [
+    {
+      "language": "ur",
+      "collection": "tadabbur-extended",
+      "id": "112:extended",
+      "path": "books/units/generated/ur-tadabbur-extended-85f5e4a5c105f392/112%3Aextended.json",
+      "sha256": "77480ea26918a67aecfec970b9750e16c223caffe2bdcd45395ac4e7017592d6"
+    }
+  ],
+  "scope": {
+    "language": "ur",
+    "collection": "tadabbur-extended"
+  },
+  "catalogSHA256": "d7e38d5e603f94532e3c6dc7ec362b986d5ad127749503c97e5a0c03005e9996",
+  "reviewedBooksSHA256": "79786c172941418a9145cb4e8cbe8be9991655210c9898dccae8de5ef4463373",
+  "editionReconciliation": {
+    "schema": "iman-reviewed-edition-reconciliation-v1",
+    "policy": "reviewed-source-edition-v1",
+    "language": "ur",
+    "collection": "tadabbur-extended",
+    "sourceReviewBindings": [
+      {
+        "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
+        "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+      }
+    ],
+    "selected": [
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "112:extended",
+        "basis": {
+          "kind": "existing-source-review",
+          "recordSHA256": "db5f919c01719f289da0bf37362f5c5374732e0a3ba9736351bc6d12c40f11d1"
+        }
+      }
+    ],
+    "unknownLegacyRows": [
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "1:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "15:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "17:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "40:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "55:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "61:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "62:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "63:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "68:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "93:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "98:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "99:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "101:extended",
+        "reviewBinding": "UNKNOWN"
+      },
+      {
+        "collection": "tadabbur",
+        "language": "ur",
+        "id": "103:extended",
+        "reviewBinding": "UNKNOWN"
+      }
+    ],
+    "unknownRowsApproved": false,
+    "unknownRowsHeld": false
+  }
+}
