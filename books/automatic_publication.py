@@ -27,7 +27,11 @@ def scopes(root):
 def require_word_layout(declaration,folder,book,language):
     if declaration.get('requireActualWordLayout') is True:
         from word_layout_check import verify_pair
-        book['independentWordLayoutVerification']=verify_pair(folder/book['file'],folder/Path(book['file']).with_suffix('.pdf'),language)
+        docx=folder/book['file'];receipt=docx.with_name(docx.name+'.word-layout.json')
+        if not receipt.is_file():raise ValueError('Actual Word layout receipt is required for this edition')
+        result=verify_pair(docx,folder/Path(book['file']).with_suffix('.pdf'),language)
+        if result.get('word') is None:raise ValueError('Actual Word layout receipt was not verified')
+        book['independentWordLayoutVerification']=result
 
 def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
     out.mkdir(parents=True,exist_ok=True)

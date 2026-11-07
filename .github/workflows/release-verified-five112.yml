@@ -1,0 +1,50 @@
+name: Publish five verified reflection editions
+on:
+  pull_request:
+    paths: ['.github/workflows/release-verified-five112.yml', '.github/scripts/publish_verified_five112.py']
+  push:
+    branches: [main]
+    paths: ['.github/workflows/release-verified-five112.yml']
+permissions:
+  contents: read
+concurrency:
+  group: current-books-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      pages: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RELEASE_TAG: verified-five112-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: 7d4515e6b86c6fc259cf8e2f8c717d89e6fd13e8
+          path: candidate-source
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned assets and dependencies
+        run: |
+          python -m pip install -r books/requirements.txt
+          python books/install_assets.py --root .
+      - name: Check exact candidates and current source
+        if: github.event_name == 'pull_request'
+        run: python .github/scripts/publish_verified_five112.py --candidate candidate-source/book-review-candidate/five112 --out "$RUNNER_TEMP/verified-five112"
+      - name: Publish checked pairs and update download tables
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          python .github/scripts/publish_verified_five112.py --candidate candidate-source/book-review-candidate/five112 --out "$RUNNER_TEMP/verified-five112" --publish --commit "$GITHUB_SHA" --tag "$RELEASE_TAG"
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
+      - name: Preserve verification artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verified-five112-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/verified-five112/
+          if-no-files-found: ignore
+          retention-days: 7
