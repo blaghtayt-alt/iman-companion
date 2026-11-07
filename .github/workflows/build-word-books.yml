@@ -7,7 +7,7 @@ on:
     paths: ['books/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', '.github/workflows/build-word-books.yml']
   push:
     branches: [main]
-    paths: ['books/**', 'materials/**', 'docs/listen/**', '.github/workflows/build-word-books.yml']
+    paths: ['books/**', 'tests/**', 'materials/**', 'docs/listen/**', '.github/workflows/build-word-books.yml']
 permissions:
   contents: read
 concurrency:
