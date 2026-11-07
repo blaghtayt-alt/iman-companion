@@ -1,0 +1,29 @@
+name: Publish children's An-Nas hold packs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - language-packs/annas-human-hold.json
+      - language-packs/publish_clean_annas_packs.py
+      - .github/workflows/publish-clean-annas-packs.yml
+permissions:
+  contents: write
+concurrency:
+  group: publish-clean-annas-packs
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify current predecessor archives and publish exact hold successors
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python language-packs/publish_clean_annas_packs.py --root .
+      - name: Record activation status
+        run: echo 'Clean archives verified; catalog activation is a separate guarded step.'
