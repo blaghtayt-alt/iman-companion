@@ -40,7 +40,7 @@
         }
       },
       "snapshot": {
-        "catalogSHA256": "be187a5a0d89190ab09d839f6fa3b650d61d0a1ca004856696d125b05808acec",
+        "catalogSHA256": "77d10b23563535eaa7fc8fa3b8e9ea2d0578ba9408f39429d44021dcc5d10010",
         "scopeSettingsSHA256": "1d04eb6b803356fa34e06fbafb87fceb99c35eae0e6cdb924b33992a32c9063e",
         "unitIds": [
           "112:extended"
@@ -51,8 +51,20 @@
             "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
           },
           {
+            "path": "materials/book-publication-approvals/d71ae6b7df48735e214aa324645e99448e8f3b8fcde64321aa9d37a1442e5d01.json",
+            "sha256": "d71ae6b7df48735e214aa324645e99448e8f3b8fcde64321aa9d37a1442e5d01"
+          },
+          {
+            "path": "materials/book-publication-readers/fil/tadabbur-extended/112-extended-v2.json",
+            "sha256": "d0503aaba4a52128f99e7082bddfd54edf2ebdbfccc4ae2bf575357d24265144"
+          },
+          {
             "path": "materials/tadabbur/fil/extended/112.json",
             "sha256": "52db0cf6ae8c4b164479e4a60686096b6afdbba7c766ba036b39d5038e8e3bd6"
+          },
+          {
+            "path": "materials/tadabbur/fil/extended/112.md",
+            "sha256": "fd5bc68e3aa588b0495a366ad90c1641e8c3e24d619c031f79f5ef0d8bcf57bc"
           },
           {
             "path": "materials/tadabbur/sources/112/fil/112-001.json",
