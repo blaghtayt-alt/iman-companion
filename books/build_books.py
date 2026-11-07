@@ -15,10 +15,12 @@ from docx.oxml.ns import qn
 from docx.text.paragraph import Paragraph
 from lxml import etree
 from locale_copy import locale
+from reader_xml import body_text
+from material_audio import load_registry,add_audio_panel
 from bibliography import native_text,digits,hadith_citation,quran_reference,edition_credit,expand_verse_key
 
 SCHEMA='iman-book-unit-v1'
-ROLES={'body':'000000','meaning':'000000','example':'000000','note':'000000','current-ayah':'7C3AED','quran':'7C3AED','related':'2563EB','hadith':'2563EB','heading':'064534'}
+ROLES={'body':'000000','meaning':'000000','example':'000000','note':'000000','current-ayah':'7C3AED','quran':'7C3AED','related':'2563EB','hadith':'2563EB','scholar':'A95300','heading':'064534'}
 RTL={'ar','ur','fa'}
 KINDS={'paragraph','heading','ayah','translation','quotation','note','credit','list-item'}
 COLLECTIONS={'tadabbur-extended','articles','seerah','hadith'}
@@ -62,6 +64,8 @@ def check_unit(unit,record,quran=None):
             if b.get('role','body') not in ROLES or any(s.get('role','body') not in ROLES for s in b.get('spans',[])):raise ValueError('Unknown semantic color role')
             if b.get('sourceCredit'):raise ValueError('Replace legacy website sourceCredit with original-book citations or a localized translationCredit')
             if b['kind'] not in {'ayah','credit'}:native_text(b['text'],unit['language'])
+            for span in b.get('spans',[]):
+                for note in span.get('noteTexts',[]):native_text(note,unit['language'])
             if b.get('translationCredit'):edition_credit(b['translationCredit'],unit['language'])
             for citation in b.get('citations',[]):hadith_citation(citation,unit['language'])
             if b['kind']=='credit' and not b.get('citations'):raise ValueError('Reference needs original collection and narration number')
@@ -186,12 +190,15 @@ def cover_page(doc,cover,width,height):
     sec.top_margin=sec.bottom_margin=sec.left_margin=sec.right_margin=0
     sec.header_distance=sec.footer_distance=0
     p=doc.add_paragraph();p.paragraph_format.space_before=p.paragraph_format.space_after=Pt(0);p.paragraph_format.line_spacing=Pt(1)
-    inline=p.add_run().add_picture(str(cover),width=width,height=height)._inline
+    # LibreOffice can round a custom 9-inch page up by about 1.2 pt. Keep the
+    # source image's 2:3 ratio and add a small centered bleed so it still covers
+    # the entire rendered page without stretching the artwork.
+    inline=p.add_run().add_picture(str(cover),width=width+Pt(4/3),height=height+Pt(2))._inline
     anchor=OxmlElement('wp:anchor')
     for k,v in {'distT':0,'distB':0,'distL':0,'distR':0,'simplePos':0,'relativeHeight':0,'behindDoc':1,'locked':0,'layoutInCell':1,'allowOverlap':1}.items():anchor.set(k,str(v))
     el(anchor,'wp:simplePos',{'x':0,'y':0})
     for axis in ['H','V']:
-        pos=el(anchor,'wp:position'+axis,{'relativeFrom':'page'});el(pos,'wp:posOffset').text='0'
+        pos=el(anchor,'wp:position'+axis,{'relativeFrom':'page'});el(pos,'wp:posOffset').text=str(-Pt(2/3) if axis=='H' else 0)
     for tag in ['wp:extent','wp:effectExtent']:
         item=inline.find(qn(tag))
         if item is not None:anchor.append(deepcopy(item))
@@ -205,6 +212,7 @@ def cover_page(doc,cover,width,height):
 def build_book(root,out,conf,lang,collection,units,commit):
     if collection not in COLLECTIONS:raise ValueError('Only public collection books can be built')
     lc={**conf['languages'][lang],**locale(lang)};family,arabic,fonts=fonts_for(conf,lang,root)
+    audio_registry=load_registry(root,conf);audio_panels=[]
     names=load(inside(root,conf['surahNames']['path']))
     if digest(inside(root,conf['surahNames']['path']).read_bytes())!=conf['surahNames']['sha256']:raise ValueError('Surah name source hash mismatch')
     for field in ['brand','notice','contents','hadithLabel','creditsTitle']:native_text(lc[field],lang)
@@ -262,7 +270,7 @@ def build_book(root,out,conf,lang,collection,units,commit):
         for text in credits:
             p=doc.add_paragraph();direction(p,lang);add_text(p,text,lang,family,arabic,10)
     p=doc.add_paragraph(style='BookContentsTitle');direction(p,lang);add_text(p,lc['contents'],lang,family,arabic,22,'heading',True)
-    p=doc.add_paragraph();direction(p,lang);r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'begin'});el(r._r,'w:instrText').text=' TOC \\o "1-2" \\h \\z \\u ';el(r._r,'w:fldChar',{'w:fldCharType':'end'})
+    p=doc.add_paragraph();direction(p,lang);r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'begin'});r=p.add_run();el(r._r,'w:instrText').text=' TOC \\o "1-2" \\h \\z \\u ';r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'separate'});r=p.add_run(' ');r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'end'})
     preserved=[];notes=Footnotes(doc,lang,family,arabic);hadith_count=0;last_chapter=None
     for unit_index,unit in enumerate(units):
         aggregate_hadith=unit['collection']=='hadith' and any(s.get('hadith') is True for s in unit['sections'])
@@ -271,11 +279,16 @@ def build_book(root,out,conf,lang,collection,units,commit):
             hadith_count+=1;display_title=f"{lc['hadithLabel']} {digits(hadith_count,lang)}"
         new_page=unit_index==0 or unit['collection']!='hadith' or (unit.get('chapter') is not None and unit.get('chapter')!=last_chapter)
         chapter_title=unit.get('chapterTitle') if unit['collection']=='hadith' else None
+        audio_heading_paragraphs=[]
         if chapter_title and (unit_index==0 or unit.get('chapter')!=last_chapter):
-            native_text(chapter_title,lang);p=doc.add_paragraph(style='Heading 1');p.paragraph_format.page_break_before=True;direction(p,lang);add_text(p,chapter_title,lang,family,arabic,20,'heading',True);new_page=False
+            native_text(chapter_title,lang);p=doc.add_paragraph(style='Heading 1');p.paragraph_format.page_break_before=True;direction(p,lang);add_text(p,chapter_title,lang,family,arabic,20,'heading',True);audio_heading_paragraphs.append(p);new_page=False
         p=doc.add_paragraph(style='Heading 2' if chapter_title else 'Heading 1');p.paragraph_format.page_break_before=new_page;direction(p,lang);add_text(p,display_title,lang,family,arabic,18 if unit['collection']=='hadith' else 22,'heading',True)
+        audio_heading_paragraphs.append(p)
         if unit['collection']=='hadith' and not aggregate_hadith and not unit.get('titleIsReference') and unit['title']!=lc['hadithLabel']:
             p=doc.add_paragraph(style='Heading 3' if chapter_title else 'Heading 2');direction(p,lang);add_text(p,unit['title'],lang,family,arabic,15,'heading',True)
+            audio_heading_paragraphs.append(p)
+        panel=add_audio_panel(doc,unit,audio_registry,family,arabic,add_text,direction,heading_paragraphs=audio_heading_paragraphs,fonts=fonts,cache_root=root/'books/.cache/audio-cards')
+        if panel:audio_panels.append(panel)
         last_chapter=unit.get('chapter')
         last_content=p
         for section in unit['sections']:
@@ -298,6 +311,7 @@ def build_book(root,out,conf,lang,collection,units,commit):
                 blocksize=21 if kind=='ayah' else (10 if kind in {'note','credit'} else size)
                 if kind in {'ayah','translation','heading'}:p.paragraph_format.keep_with_next=True
                 spans=b.get('spans') or [{'text':b['text'],'role':b.get('role','current-ayah' if kind in {'ayah','translation'} else ('related' if kind=='quotation' else 'body'))}]
+                if collection=='seerah' and kind=='paragraph' and any(s.get('role')=='quran' for s in spans) and all(s.get('role')=='quran' or not s.get('text','').strip() for s in spans):direction(p,'ar',True)
                 for span_index,span in enumerate(spans):
                     add_text(p,span['text'],'ar' if kind=='ayah' else lang,arabic if kind=='ayah' else family,arabic,blocksize,span.get('role','body'),kind=='heading' or span.get('bold',False));preserved.append(span['text'])
                     if kind not in {'ayah','translation'}:
@@ -305,6 +319,7 @@ def build_book(root,out,conf,lang,collection,units,commit):
                         if not keys and span.get('role')=='current-ayah' and section.get('ayahKey'):keys=[section['ayahKey']]
                         if keys:add_text(p,' '+'؛ '.join(quran_reference(key,lang,names) for key in keys),lang,family,arabic,10,'body')
                     for citation in span.get('citations',[]):notes.add(p,hadith_citation(citation,lang),group='span-'+str(span_index))
+                    for note_index,note in enumerate(span.get('noteTexts',[])):notes.add(p,note,group='source-note-'+str(span_index)+'-'+str(note_index))
                 if kind=='ayah':
                     ref=quran_reference(b['verseKey'],lang,names)
                     if lang not in RTL:ref='\u200e'+ref+'\u200e'
@@ -312,7 +327,7 @@ def build_book(root,out,conf,lang,collection,units,commit):
                 for citation in b.get('citations',[]):notes.add(p,hadith_citation(citation,lang))
     settings=doc.settings.element;el(settings,'w:updateFields',{'w:val':'true'});el(settings,'w:embedTrueTypeFonts',{'w:val':'true'})
     target=out/f'Iman_Companion_{lang}_{collection}.docx';doc.save(target);embed_fonts(target,fonts,notes.root if notes.texts else None)
-    rendered=''.join(Document(target).element.body.xpath('.//w:t/text()'))
+    rendered=body_text(Document(target).element.body)
     offset=0
     for text in preserved:
         index=rendered.find(text,offset)
@@ -324,7 +339,13 @@ def build_book(root,out,conf,lang,collection,units,commit):
         label=f"{lc['hadithLabel']} {digits(i,lang)}" if u['collection']=='hadith' and u.get('titleIsReference') else u['title']
         native_text(label,lang)
         public_units.append({'id':u['id'],'title':label,'sourceHashes':u['sourceHashes'],'readerTextSHA256':u['readerTextSHA256']})
-    return {'language':lang,'languageLabel':lc['nativeName'],'collection':collection,'collectionLabel':title,'file':target.name,'sha256':digest(target.read_bytes()),'units':public_units,'sourceCommit':commit,'bodyColor':'#000000','rtl':lang in RTL,'arabicAyahs':'centered','quranReferences':'directly after quoted ayah','referencePresentation':'original Hadith collection and number in footnotes; no retrieval-site labels','footnoteCount':len(notes.texts),'hadithCount':hadith_count}
+    result={'language':lang,'languageLabel':lc['nativeName'],'collection':collection,'collectionLabel':title,'file':target.name,'sha256':digest(target.read_bytes()),'units':public_units,'sourceCommit':commit,'bodyColor':'#000000','rtl':lang in RTL,'arabicAyahs':'centered','quranReferences':'directly after quoted ayah','referencePresentation':'original Hadith collection and number in footnotes; no retrieval-site labels','footnoteCount':len(notes.texts),'hadithCount':hadith_count,'audioPanels':audio_panels}
+    if collection=='seerah':
+        checks=[u.get('referenceReadiness') for u in units]
+        result['referenceReadiness']={'units':len(units),'auditedUnits':sum(isinstance(x,dict) for x in checks),'unboundQuranSegments':sum(x.get('unboundQuranSegments',0) for x in checks if isinstance(x,dict)),'unboundHadithSegments':sum(x.get('unboundHadithSegments',0) for x in checks if isinstance(x,dict))}
+        if result['referenceReadiness']['auditedUnits']!=len(units) or result['referenceReadiness']['unboundQuranSegments'] or result['referenceReadiness']['unboundHadithSegments']:
+            result['quranReferences']='source references incomplete';result['referencePresentation']='source references incomplete; review candidate only'
+    return result
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--root',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);ap.add_argument('--commit',required=True);args=ap.parse_args()
@@ -334,13 +355,18 @@ def main():
     if digest(quranfile.read_bytes())!=conf['quranText']['sha256']:raise ValueError('Canonical Arabic text hash mismatch')
     quran=load(quranfile)
     if manifest['sourceCommit']!=args.commit:raise ValueError('Manifest not bound to checked-out source commit')
+    if not manifest.get('previewOnly'):
+        if digest((root/'materials/catalog.json').read_bytes())!=manifest.get('catalogSHA256') or digest((root/'books/reviewed-books.json').read_bytes())!=manifest.get('reviewedBooksSHA256'):raise ValueError('Reviewed source scope changed after indexing')
     groups={};identities=set()
     for record in manifest['units']:
         identity=(record['language'],record['collection'],record['id'])
         if identity in identities:raise ValueError('Duplicate book unit')
         identities.add(identity);source=inside(root,record['path']);raw=source.read_bytes()
         if digest(raw)!=record['sha256']:raise ValueError('Manifest input hash mismatch')
-        unit=load(source);check_unit(unit,record,quran);groups.setdefault(identity[:2],[]).append(unit)
+        unit=load(source);check_unit(unit,record,quran)
+        for binding in unit.get('inputBindings',[]):
+            if digest(inside(root,binding['path']).read_bytes())!=binding['sha256']:raise ValueError('Book source changed after indexing: '+binding['path'])
+        groups.setdefault(identity[:2],[]).append(unit)
     if not groups:raise ValueError('No approved complete units; no empty books will be published')
     result=[]
     for (lang,collection),units in sorted(groups.items()):

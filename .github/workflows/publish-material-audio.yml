@@ -1,12 +1,10 @@
 name: Publish material audio player
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['materials/audio/publish.json', 'materials/seerah/new-adult/**', 'books/publish_material_audio.py', 'docs/listen/**', '.github/workflows/publish-material-audio.yml']
 permissions:
   contents: write
   pages: write
+  actions: write
 concurrency:
   group: material-audio-publication
   cancel-in-progress: true
@@ -44,3 +42,7 @@ jobs:
       - name: Record publication result
         run: |
           python -c "import json; d=json.load(open('docs/listen/materials.json')); print(json.dumps({'publishedPlayerEntries':len(d['entries']),'playerBase':d['playerBase']}))"
+      - name: Refresh books after manual audio publication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run build-word-books.yml --ref main

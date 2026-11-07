@@ -1,0 +1,76 @@
+"""Generate the reviewed Arabic article book inputs from current public sources.
+
+A source update must also update the independently checked reader projection. This
+adapter never infers semantic colors, references, or current status from prose.
+"""
+from pathlib import Path
+import hashlib,json,re
+from build_books import check_unit,inside
+from bibliography import native_text
+
+def sha(raw):return hashlib.sha256(raw).hexdigest()
+def read(path):return json.loads(path.read_bytes())
+def visible_markdown(text):return re.sub(r'\[([^\]]+)\]\(https?://[^)]+\)',r'\1',text)
+def current_record(row):
+    retired={'held','withdrawn','archived','archive','source-archive','historical','superseded','not-currently-available','draft','work-in-progress'}
+    return not row.get('archived') and row.get('current',True) is not False and not any(str(row.get(k,'')).lower() in retired for k in ('status','publicationStatus','translationStatus'))
+
+def generate(root,catalog,declaration):
+    if (declaration.get('language'),declaration.get('collection'),declaration.get('adapter'))!=('ar','articles','arabic-articles-v1'):raise ValueError('Unsupported reviewed source adapter')
+    projection_path=inside(root,declaration['projection']);raw=projection_path.read_bytes()
+    if sha(raw)!=declaration.get('projectionSHA256'):raise ValueError('Reviewed article projection changed')
+    projection=json.loads(raw)
+    if projection.get('schema')!='iman-reviewed-article-projection-v1' or projection.get('language')!='ar' or projection.get('collection')!='articles':raise ValueError('Invalid reviewed article projection')
+    allrows=[e for e in catalog['entries'] if e.get('collection')=='articles' and e.get('language')=='ar']
+    rows=[e for e in allrows if e.get('translationStatus')=='supplied-arabic-current' and current_record(e)]
+    entries={e['id']:e for e in rows};reviewed=projection['articles'];byid={a['id']:a for a in reviewed}
+    known_ids={e['id'] for e in allrows if 'id' in e}
+    if len(entries)!=len(rows) or len(byid)!=len(reviewed) or not set(entries).issubset(byid) or not set(byid).issubset(known_ids) or not entries:raise ValueError('Current article coverage changed or is ambiguous')
+    numbers=[e.get('number') or e.get('position') for e in rows]
+    if any(not isinstance(n,int) or isinstance(n,bool) or n<1 for n in numbers) or len(set(numbers))!=len(numbers):raise ValueError('Current article order is missing or ambiguous')
+    index_path=inside(root,declaration['materialIndex']);index=read(index_path);active_index=[x for x in index['articles'] if current_record(x)];indexed={x['id']:x for x in active_index}
+    if len(indexed)!=len(active_index) or set(entries)!=set(indexed):raise ValueError('Article index coverage changed')
+    output=[]
+    for ident in sorted(entries,key=lambda x:(entries[x].get('number') or entries[x].get('position') or 0,x)):
+        e=entries[ident];a=byid[ident];i=indexed[ident];number=e.get('number') or e.get('position')
+        if number!=a['number'] or e.get('title')!=a['title'] or i.get('title')!=a['title'] or e.get('sourceHashes')!=[a['sourceSHA256']] or i.get('preparedSourceSHA256')!=a['sourceSHA256'] or e.get('readingSHA256')!=a['readingSHA256'] or i.get('readingSHA256')!=a['readingSHA256']:raise ValueError('Reviewed article identity changed: '+ident)
+        if e.get('index')!=declaration['materialIndex'] or str(Path(declaration['materialIndex']).parent / i.get('path','')).replace('\\','/')!=e.get('markdown'):raise ValueError('Article source path or index changed: '+ident)
+        material=inside(root,e['markdown'])
+        if sha(material.read_bytes())!=a['materialSHA256']:raise ValueError('Article source bytes changed: '+ident)
+        parts=material.read_text(encoding='utf8').split('\n\n')
+        heading=next((k for k,v in enumerate(parts) if v.strip() in ('## المراجع','## مراجع الشواهد')),None)
+        paragraphs=a['paragraphs'];refs=a['references']
+        if heading is None or parts[0]!='# '+a['title'] or [re.sub(r'^## ','',x).strip('\n') for x in parts[1:heading]]!=[p['text'] for p in paragraphs]:raise ValueError('Article body differs from the reviewed reader: '+ident)
+        if [('heading' if x.startswith('## ') else 'body') for x in parts[1:heading]]!=[p['kind'] for p in paragraphs]:raise ValueError('Article heading structure changed: '+ident)
+        if [visible_markdown(x).strip() for x in parts[heading+1:] if x.strip()]!=[x['text'].strip() for x in refs]:raise ValueError('Article references differ from the reviewed reader: '+ident)
+        if sha((a['title']+'\n\n'+'\n\n'.join(p['text'] for p in paragraphs)).encode('utf8'))!=a['readingSHA256']:raise ValueError('Article reader hash mismatch: '+ident)
+        refmap={r['id']:r for r in refs if r['id']}
+        if len(refmap)!=sum(bool(r['id']) for r in refs):raise ValueError('Duplicate article reference number')
+        def citation(r):
+            text=''.join(x['text'] for x in r['segments'] if not x.get('externalLink')) if r['segments'] else r['text']
+            return native_text(text.strip(),'ar')
+        blocks=[];referenced=set()
+        rolemap={'plain':'body','quran':'quran','hadith':'hadith','scholar':'scholar'}
+        for para in paragraphs:
+            if para['kind'] not in {'heading','body'}:raise ValueError('Unknown article paragraph type')
+            spans=[]
+            for seg in para['segments']:
+                if seg['role'] not in rolemap:raise ValueError('Unknown reviewed article segment')
+                span={'text':seg['text'],'role':rolemap[seg['role']]}
+                if seg.get('note'):
+                    if seg['note'] not in refmap:raise ValueError('Article reference marker is not bound')
+                    referenced.add(seg['note'])
+                    span['noteTexts']=[citation(refmap[seg['note']])]
+                spans.append(span)
+            if ''.join(x['text'] for x in spans)!=para['text']:raise ValueError('Article semantic spans do not match body')
+            blocks.append({'kind':'heading' if para['kind']=='heading' else 'paragraph','text':para['text'],'spans':spans})
+        # Preserve source entries without a reader anchor as one lesson-level
+        # footnote attached after the final body paragraph. Do not duplicate
+        # anchored references as ordinary body text or invent an anchor.
+        unanchored=[citation(r) for r in refs if not r['id'] or r['id'] not in referenced]
+        if unanchored:blocks.append({'kind':'note','text':'؛ '.join(unanchored)})
+        sections=[{'blocks':blocks}]
+        alltext=''.join(b['text'] for section in sections for b in section['blocks'])
+        unit={'schema':'iman-book-unit-v1','id':ident,'language':'ar','collection':'articles','number':number,'title':a['title'],'complete':True,'reviewGate':'published-current','sourceHashes':[a['sourceSHA256']],'inputBindings':[{'path':e['markdown'],'sha256':sha(material.read_bytes())},{'path':declaration['materialIndex'],'sha256':sha(index_path.read_bytes())},{'path':declaration['projection'],'sha256':sha(raw)}],'catalogBindings':[{'collection':'articles','language':'ar','id':ident}],'sections':sections,'readerTextSHA256':sha(alltext.encode('utf8')),'provenance':{'readingSHA256':a['readingSHA256'],'projectionSHA256':sha(raw),'sourceIdentity':e.get('sourceIdentity')}}
+        check_unit(unit,{'language':'ar','collection':'articles','id':ident});output.append(unit)
+    return output
