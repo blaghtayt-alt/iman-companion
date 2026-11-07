@@ -66,7 +66,13 @@ class PublicationChecks(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Non-public'):auto.scopes(self.root)
     def test_required_actual_word_layout_cannot_be_omitted(self):
         book={'file':'missing.docx'}
-        with self.assertRaises((FileNotFoundError,ValueError)):
+        with self.assertRaisesRegex(ValueError,'Actual Word layout receipt is required'):
             auto.require_word_layout({'requireActualWordLayout':True},self.out,book,'en')
+        self.assertNotIn('independentWordLayoutVerification',book)
+    def test_pdf_fallback_cannot_satisfy_required_word_layout(self):
+        book={'file':'candidate.docx'};(self.out/'candidate.docx.word-layout.json').write_text('{}',encoding='utf8')
+        with patch('word_layout_check.verify_pair',return_value={'word':None,'pdf':{}}):
+            with self.assertRaisesRegex(ValueError,'receipt was not verified'):
+                auto.require_word_layout({'requireActualWordLayout':True},self.out,book,'en')
         self.assertNotIn('independentWordLayoutVerification',book)
 if __name__=='__main__':unittest.main()
