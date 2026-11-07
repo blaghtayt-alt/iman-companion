@@ -1,0 +1,962 @@
+{
+  "schema": "iman-existing-source-review-bindings-v1",
+  "scope": "Evidence of existing whole reviews for the separately identified 112 extended edition only. This inventory is not a full collection inventory, does not approve a book format or audio, and does not alter any holds, superseded exclusions or source conditions. Other materials retain their existing statuses.",
+  "sourceCommit": "11407d90313982bea77d980bc006594030f54d69",
+  "records": [
+    {
+      "collection": "tadabbur",
+      "language": "en",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/en/extended/112.md",
+          "sha256": "855d5cb05da88e0a90c8893c27f55f0c1e0a5deff06956283b607da44ff348f8",
+          "reviewedSHA256": "855d5cb05da88e0a90c8893c27f55f0c1e0a5deff06956283b607da44ff348f8"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/en/extended/112.json",
+          "sha256": "bcbeced88621c542cd55adac7de919cfaed0b5b44e5a9aeda28da11f8618bca8",
+          "reviewedSHA256": "bcbeced88621c542cd55adac7de919cfaed0b5b44e5a9aeda28da11f8618bca8"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/en/IKHLAS-EN-SOURCE-NOTE679.md",
+          "sha256": "39eb1531c4520c50deabec3dfc73b700629d283e697390a600efe1d9a1ced351"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/en/IKHLAS-EN-PUBLIC-SOURCES679.json",
+          "sha256": "015275691ed44a778976712622d600ffbdf35ddebcb598d8d6bd75890254c621"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 679,
+        "handoffSHA256": "9a4657942a38db8de5530af484c6e965d8f1a8e7b831a97af12e6e857669cbff",
+        "identityAsRecorded": {
+          "actual_roles": {
+            "main": "Different actor /root/ja_qiyamah_author657 actualSol6.1High677",
+            "independent_final": "/root/under5_id_author565 actualSol6.1High679",
+            "recipient": "Separate actual TerraXhigh647; no runtime claim"
+          }
+        },
+        "statusAsRecorded": "QUALIFIED complete updated English Ikhlas source/meaning/fluency; no material holds; recipient mechanics/publication not performed"
+      },
+      "historicalPublication": {
+        "commit": "698577fd699c7442864bd67e09fd9d09ea8a1f10",
+        "receiptSHA256": "60b44c8a9a4ab50e4f53060cd85825def1ae7dc87bd1a6262b41c3808188bf95",
+        "preparedInventorySHA256": "92a3de69fef6cedf114e43e135fd0c8730d075d3ed551c59e0fb1953eac251a9"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "fr",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/fr/extended/112.md",
+          "sha256": "d730acdeac2a206dbe63be71a8b837aa1d4212bfcbd0c8a7f6a12bf30eb3fdc3",
+          "reviewedSHA256": "d730acdeac2a206dbe63be71a8b837aa1d4212bfcbd0c8a7f6a12bf30eb3fdc3"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/fr/extended/112.json",
+          "sha256": "030bc70e46402699d61654bc8d76ece6b6e08758189b70b72e03953822d7f2ba",
+          "reviewedSHA256": "030bc70e46402699d61654bc8d76ece6b6e08758189b70b72e03953822d7f2ba"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/fr/IKHLAS-FR-SOURCE-NOTE682.md",
+          "sha256": "0fea8f0e666747bae5627f4293c2adacae1c857a1c55592bb1fff29e6e2ba627"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/fr/IKHLAS-FR-PUBLIC-SOURCES682.json",
+          "sha256": "c8fcfa50ca0a6cac0dc1f3844adb54dd68418c43da756aa91e3fb85633e51e33"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 682,
+        "handoffSHA256": "cb53bd248e3c65d2aac87925f86851b65007a0bc9e481daac9e9489b127fe64f",
+        "identityAsRecorded": {
+          "actual_roles": {
+            "main": "Differentactor657 actualSol6.1High MAIN680",
+            "independent_final": "Reviewer565 actualSol6.1High scope682",
+            "recipient": "SeparateactualTerraXhigh647; not yet runtime pass"
+          }
+        },
+        "statusAsRecorded": "QUALIFIED complete current French Ikhlas source/meaning/fluency; no material holds; actual recipient mechanics/publication not performed"
+      },
+      "historicalPublication": {
+        "commit": "698577fd699c7442864bd67e09fd9d09ea8a1f10",
+        "receiptSHA256": "60b44c8a9a4ab50e4f53060cd85825def1ae7dc87bd1a6262b41c3808188bf95",
+        "preparedInventorySHA256": "92a3de69fef6cedf114e43e135fd0c8730d075d3ed551c59e0fb1953eac251a9"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "tr",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/tr/extended/112.md",
+          "sha256": "03c951a21f4ad257bb38992670c678c9caf49f08d6125a17f9e3ca659a25a4d1",
+          "reviewedSHA256": "03c951a21f4ad257bb38992670c678c9caf49f08d6125a17f9e3ca659a25a4d1"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/tr/extended/112.json",
+          "sha256": "6670615a51f863004e8928256cc08cf882dc8e05da88220bfd5b89dc6d1e7245",
+          "reviewedSHA256": "6670615a51f863004e8928256cc08cf882dc8e05da88220bfd5b89dc6d1e7245"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/tr/IKHLAS-TR-SOURCE-NOTE687.md",
+          "sha256": "3bf7d0fdb00e3b4c5e2a202c3be381431850f75b6ca0baf0d8a337a24c5a1d11"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/tr/IKHLAS-TR-PUBLIC-SOURCES687.json",
+          "sha256": "cf2d314077c96af035febe1b02bfc3dcb7244ee9feaef0cde33058caf551cfad"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 687,
+        "handoffSHA256": "542204721f8ebfa31a37d4f5a63d5cfb4a7fc11b203caffc2d3aab28adf3fadb",
+        "identityAsRecorded": {
+          "actual_roles": {
+            "main": "Differentactor657 actualSol6.1High MAIN683",
+            "independent_final": "Reviewer565 actualSol6.1High scope687",
+            "recipient": "SeparateactualTerraXhigh647, no runtimepass claimed"
+          }
+        },
+        "statusAsRecorded": "QUALIFIED complete current Turkish Ikhlas source/meaning/fluency; no material holds; actual recipient mechanics/publication remain"
+      },
+      "historicalPublication": {
+        "commit": "698577fd699c7442864bd67e09fd9d09ea8a1f10",
+        "receiptSHA256": "60b44c8a9a4ab50e4f53060cd85825def1ae7dc87bd1a6262b41c3808188bf95",
+        "preparedInventorySHA256": "92a3de69fef6cedf114e43e135fd0c8730d075d3ed551c59e0fb1953eac251a9"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "id",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/id/extended/112.md",
+          "sha256": "18de51d7938702f770198aadbf428aabc063b4bbf4d0eb5367ff0c79415fe512",
+          "reviewedSHA256": "18de51d7938702f770198aadbf428aabc063b4bbf4d0eb5367ff0c79415fe512"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/id/extended/112.json",
+          "sha256": "10f95c14b21b067050089bb2da138bf6cbca27d4f8390dc83f3751a22ffd6658",
+          "reviewedSHA256": "10f95c14b21b067050089bb2da138bf6cbca27d4f8390dc83f3751a22ffd6658"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/id/IKHLAS-ID-SOURCE-NOTE689.md",
+          "sha256": "36f337bfbfe9107c07a155abd9a22522ca28e6d7f2c0fe9de8e3e979518443eb"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/id/IKHLAS-ID-PUBLIC-SOURCES689.json",
+          "sha256": "94f3d91ec7df984d4cd0c41c20371c3e5b675a28851a2568499fba9862baabfc"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 689,
+        "handoffSHA256": "2a1383637450080f04e4070dc4566d7805b7e3e47c1fc1d6d6f55ce4ca8f3649",
+        "identityAsRecorded": {
+          "actual_roles": {
+            "main": "Differentactor657actualSol6.1HighMAIN686",
+            "independent_final": "Reviewer565actualSol6.1High689",
+            "recipient": "SeparateactualTerraXhigh647"
+          }
+        },
+        "statusAsRecorded": "QUALIFIED wholecurrentIndonesianIkhlas source/meaning/fluency; no materialholds; actualrecipientmechanics/publicationseparate"
+      },
+      "historicalPublication": {
+        "commit": "c2e96bea00d18d2391f2979306f637880c171ca4",
+        "receiptSHA256": "a55ff70eb82f1d1338b3fc677170cc50c3557709404a09c4f47a3238be7588af",
+        "preparedInventorySHA256": "99609678c3997673859c3138f7e471fab9b1b67b07d917b459e445808147c174"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "ms",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/ms/extended/112.md",
+          "sha256": "45c8ccd8fce6fb3f640cfe33f948e855f9c27007dd64baee0220f34261d56c40",
+          "reviewedSHA256": "45c8ccd8fce6fb3f640cfe33f948e855f9c27007dd64baee0220f34261d56c40"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/ms/extended/112.json",
+          "sha256": "03511419004006749da71ecb8f04ab41234d3a2ac11b0e16f3a6c1ba28b5b75b",
+          "reviewedSHA256": "03511419004006749da71ecb8f04ab41234d3a2ac11b0e16f3a6c1ba28b5b75b"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/ms/IKHLAS-MS-SOURCE-NOTE692.md",
+          "sha256": "f00341e843e449276598ca5f2ff13a1acb9995f19b8069ab5f26e2e1661acc01"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/ms/IKHLAS-MS-PUBLIC-SOURCES692.json",
+          "sha256": "4e7b119bd3d0206230c6f05120a46d8908d81dd1b0e339502e1da6b4c68bd2ab"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 692,
+        "handoffSHA256": "419296080f4683b79e3e31098b871e13bb1db68757f35f48e1159e8228dfdac7",
+        "identityAsRecorded": {
+          "actual_roles": {
+            "main": "Different actor657 actual Sol6.1 High MAIN690",
+            "independent_final": "Reviewer565 actual Sol6.1 High692",
+            "recipient": "Separate actual TerraXhigh647"
+          }
+        },
+        "statusAsRecorded": "QUALIFIED whole current Malay Ikhlas source/meaning/fluency; no material holds. Actual recipient mechanics/publication separate."
+      },
+      "historicalPublication": {
+        "commit": "698c31d10ce902632aac23a857830569feb921cf",
+        "receiptSHA256": "d06c2f0845a7f9fa80da7d05029843315f1b3799c1cf9d2fcee64d0e062ad964",
+        "preparedInventorySHA256": "a827ace0685a40213f43eb24f5512f82656b85ea23dcb54814a8ea30932b4d9d"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "pt-BR",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/pt-BR/extended/112.md",
+          "sha256": "f843c0fa1bec4193cbaee84d78f83fb7029dd07af03d1acbd5c4f528e7cc4a33",
+          "reviewedSHA256": "f843c0fa1bec4193cbaee84d78f83fb7029dd07af03d1acbd5c4f528e7cc4a33"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/pt-BR/extended/112.json",
+          "sha256": "d98971cf36cf88b6e7639252745d0a7165fec95811d71c27a3f92df8f1ac0e06",
+          "reviewedSHA256": "d98971cf36cf88b6e7639252745d0a7165fec95811d71c27a3f92df8f1ac0e06"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/pt-BR/IKHLAS-PT-SOURCE-NOTE695.md",
+          "sha256": "55e793631876aa4dabef37a6e697cdb8ae87c5a2baa0c5db86cd37b80846240e"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/pt-BR/IKHLAS-PT-PUBLIC-SOURCES695.json",
+          "sha256": "3c03985a541b45fc7ad2f139ea81ca558b5c7526ffc06e2ea4c30fff27be7c34"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 695,
+        "handoffSHA256": "cb7676e2794fe04638a4ab89b57c9d633c978e6ca14ff6f998ef6ee0e482cbed",
+        "identityAsRecorded": {
+          "actual_roles": {
+            "main": "Different actor657 actual Sol6.1 High MAIN693",
+            "independent_final": "Reviewer565 actual Sol6.1 High695",
+            "recipient": "Separate actual TerraXhigh647"
+          }
+        },
+        "statusAsRecorded": "QUALIFIED whole current Brazilian Portuguese Ikhlas source/meaning/fluency; no material holds. Actual recipient mechanics/publication separate."
+      },
+      "historicalPublication": {
+        "commit": "698c31d10ce902632aac23a857830569feb921cf",
+        "receiptSHA256": "d06c2f0845a7f9fa80da7d05029843315f1b3799c1cf9d2fcee64d0e062ad964",
+        "preparedInventorySHA256": "a827ace0685a40213f43eb24f5512f82656b85ea23dcb54814a8ea30932b4d9d"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "ur",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/ur/extended/112.md",
+          "sha256": "180dbe6f702164e243142bea32241fdd70c2c9072f3b687f54e49e84086fbc5b",
+          "reviewedSHA256": "180dbe6f702164e243142bea32241fdd70c2c9072f3b687f54e49e84086fbc5b"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/ur/extended/112.json",
+          "sha256": "9eb98eed7611c9a0570508ab7e2c78ac5f7329559aeaa609c717e30bf1d30ff7",
+          "reviewedSHA256": "9eb98eed7611c9a0570508ab7e2c78ac5f7329559aeaa609c717e30bf1d30ff7"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/ur/IKHLAS-UR-SOURCE-NOTE701.md",
+          "sha256": "b40a997609d956f17ceb8bbd5ead1e44fff88c585a97f4c34c9260570ebeb901"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/ur/IKHLAS-UR-PUBLIC-SOURCES701.json",
+          "sha256": "8f510515b235721c6df9e1a3f853bfb20d0a4d0456b9030c637ec33238b1dde7"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 701,
+        "handoffSHA256": "0a93b8f0dfc201552b0f2c406ab0f09fd316cbb35829f8e252dfc4367dc56955",
+        "identityAsRecorded": {
+          "actual_role": "Distinct actual gpt-6.1-sol High reviewer701, not MAIN697 author"
+        },
+        "statusAsRecorded": "WHOLE FINAL701 EDITORIAL PASS; READY FOR ROOT INTEGRATION/RUNTIME CHECK; NOT INTEGRATED OR PUBLISHED"
+      },
+      "historicalPublication": {
+        "commit": "c1dc5c2e091505e75ccaef9eb6e4d599576e53fc",
+        "receiptSHA256": "67d70e3c3b0fcbfd8fa9256d8c6debdac43d8b58a65dfb223d9f66d90e668f84",
+        "preparedInventorySHA256": "1d537501bc92db5847a385e96aa1c1f41370615de689e6778de473092dafd67a"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "bn",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/bn/extended/112.md",
+          "sha256": "96fea8bd2e8418ee0a38b9bc03693ff6b8cdd18d679c51f826acb604f7c45f26",
+          "reviewedSHA256": "96fea8bd2e8418ee0a38b9bc03693ff6b8cdd18d679c51f826acb604f7c45f26"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/bn/extended/112.json",
+          "sha256": "55f6b635f56a490058c6931decbcd1f2811cdb4951ccf963e828e5a654b4e036",
+          "reviewedSHA256": "55f6b635f56a490058c6931decbcd1f2811cdb4951ccf963e828e5a654b4e036"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/bn/IKHLAS-BN-SOURCE-NOTE704.md",
+          "sha256": "77ff1a5a261f143c46c117b148153325c97b266335fda20f7f04ad55a262f7a1"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/bn/IKHLAS-BN-PUBLIC-SOURCES704.json",
+          "sha256": "f8f00b0fdea98eb0f8ae048d9a28f4f6a9b1816fca3daa3faa57f10c2b4c1852"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 704,
+        "handoffSHA256": "334f69243179dc9b918564c3e47d00bdf67d7f22959c710d6693812ecbc68f6e",
+        "identityAsRecorded": {
+          "actual_role": {
+            "actor": "/root/ikhlas_ur_author697",
+            "model": "gpt-6.1-sol",
+            "reasoning": "high",
+            "role": "DISTINCT FINAL, not MAIN700 author565",
+            "no_human_native_scholarly_certification": true
+          }
+        },
+        "statusAsRecorded": "WHOLE_DISTINCT_FINAL_TEXT_SOURCE_QUALIFIED_READY_FOR_ACTUAL_TERRA_RUNTIME"
+      },
+      "historicalPublication": {
+        "commit": "f4fc99057a10e9a792d30e226ffbb8f6ee70db36",
+        "receiptSHA256": "1e131ea9e5ebd1dee1bf6b567e1a9025549549f68001e98ccd345c18f164b165",
+        "preparedInventorySHA256": "af8c26d05191696d6c2843440be846a8bcdbcf3bb8549b6c9130532bf9e6609f"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "hi",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/hi/extended/112.md",
+          "sha256": "5545df5aff6dd8851062813be26b563927a76d0345135c48ce255d3b59469235",
+          "reviewedSHA256": "5545df5aff6dd8851062813be26b563927a76d0345135c48ce255d3b59469235"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/hi/extended/112.json",
+          "sha256": "1f6c554431df1c0e39eadfcb0390a8d4c42608e3c454822cf06ed70405d82991",
+          "reviewedSHA256": "1f6c554431df1c0e39eadfcb0390a8d4c42608e3c454822cf06ed70405d82991"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/hi/IKHLAS-HI-SOURCE-NOTE707.md",
+          "sha256": "67e4d051ff11fce6e2df68d9ca6e723b07941867fa799808c3eea8e6a66cba37"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/hi/IKHLAS-HI-PUBLIC-SOURCES707.json",
+          "sha256": "933ac4df26197e1ecb2686da22622a84251d274b69cd458393eb63567d05b0e7"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 707,
+        "handoffSHA256": "0c40670bac01e23f2e319a821371b978855cc7d8f49fcdfe92af39a0ae9c76fc",
+        "identityAsRecorded": {
+          "actual_roles": {
+            "main": "Different actual actor701 MAIN703, gpt-6.1-sol High; Hindi originalauthor.",
+            "independent_final": "Reviewer565 actual gpt-6.1-sol High FINAL707; not HindiMAINauthor.",
+            "recipient": "Separate actualTerraXHIGH647 after this wholequalification.",
+            "human_native_scholarly_certification": false
+          }
+        },
+        "statusAsRecorded": "QUALIFIED complete current Hindi Ikhlas source/meaning/fluency by distinct actual final707; no material holds. Actual recipient runtime/publication remains."
+      },
+      "historicalPublication": {
+        "commit": "c10f361983fff622b421ca91ffa71652afb152b9",
+        "receiptSHA256": "1332cd2f17e143f5ebd744ae03b98860b6f2ee06f173c1dcdb01a7f1dd7c5afe",
+        "preparedInventorySHA256": "973f10cb452c151fb9552897b6c4ee4870aba6091e217b2c718480138f1e7865"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "ru",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/ru/extended/112.md",
+          "sha256": "b3ff76b2690bdc2a4a9eaebba4dd407ac5618c65ce7e9bd27bb8a927fa00c2e0",
+          "reviewedSHA256": "b3ff76b2690bdc2a4a9eaebba4dd407ac5618c65ce7e9bd27bb8a927fa00c2e0"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/ru/extended/112.json",
+          "sha256": "32e2adc26b00c61a6864b5e526ab57025a94e07087a9268cd66e6bc9df71f1c6",
+          "reviewedSHA256": "32e2adc26b00c61a6864b5e526ab57025a94e07087a9268cd66e6bc9df71f1c6"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/ru/IKHLAS-RU-SOURCE-NOTE710.md",
+          "sha256": "8690a92c6c6baf223221ce4d1f13a8dc2dea8f3931f2f09a552dec027eb060ab"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/ru/IKHLAS-RU-PUBLIC-SOURCES710.json",
+          "sha256": "0883f7477e97334a20426a888bd554dd1f3b0fbcd672a298cc2bbe4a793d3dc3"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 710,
+        "handoffSHA256": "09938f9e21e164c73f52e33549526a7b18bcd07d09539e93ef9aedcf58ca3a2a",
+        "identityAsRecorded": {
+          "actual_final": {
+            "actor": "/root/ikhlas_ur_author697",
+            "model": "gpt-6.1-sol",
+            "reasoning": "high",
+            "different_from_MAIN708": true,
+            "human_native_scholarly_certification": false
+          }
+        },
+        "statusAsRecorded": "WHOLE_DISTINCT_FINAL_TEXT_SOURCE_QUALIFIED_READY_FOR_ACTUAL_TERRA_RUNTIME"
+      },
+      "historicalPublication": {
+        "commit": "9696509ae76f4bc5711ac8c26cfd33795905876c",
+        "receiptSHA256": "6f458b35c054ce0f417f7c6e4452df44e40377cd8ee87aebd3debdab2fced9d2",
+        "preparedInventorySHA256": "cd7a39be678dd1aa13350d777af3c774ea1c676700f3bfc13c9f68c803ddbf14"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "es",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/es/extended/112.md",
+          "sha256": "2979b4dfa13d8bd7c954be8f4b0db16a11d7f09a22128b1b9a411f8dbc5b109f",
+          "reviewedSHA256": "2979b4dfa13d8bd7c954be8f4b0db16a11d7f09a22128b1b9a411f8dbc5b109f"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/es/extended/112.json",
+          "sha256": "c1d2fa0bb2dd568dfd3518feb7a04bfed01214f4f6a55fdd873453d3016092d9",
+          "reviewedSHA256": "c1d2fa0bb2dd568dfd3518feb7a04bfed01214f4f6a55fdd873453d3016092d9"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/es/IKHLAS-ES-SOURCE-NOTE714.md",
+          "sha256": "549546d378919fc9e2fef62e2a5eb5e8ddbd03c9d7ba557004d2b040492f076e"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/es/IKHLAS-ES-PUBLIC-SOURCES714.json",
+          "sha256": "671c8a611717651f201c2560c981fa5f05bc11a6d7374ca4bf4e1f9d6653c0e3"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 714,
+        "handoffSHA256": "0d618e3547dca0d8a8e106af749ec7a2a546ada87c117f74d8f5daf0c1d4ec0d",
+        "identityAsRecorded": {
+          "actual_FINAL": "Actor565 actual gpt-6.1-sol High distinct FINAL714; did not author MAIN711"
+        },
+        "statusAsRecorded": "WHOLE_CURRENT_SPANISH_IKHLAS_SOURCE_MEANING_FLUENCY_QUALIFIED_DISTINCT_FINAL714_RUNTIME_REMAINS"
+      },
+      "historicalPublication": {
+        "commit": "9696509ae76f4bc5711ac8c26cfd33795905876c",
+        "receiptSHA256": "6f458b35c054ce0f417f7c6e4452df44e40377cd8ee87aebd3debdab2fced9d2",
+        "preparedInventorySHA256": "cd7a39be678dd1aa13350d777af3c774ea1c676700f3bfc13c9f68c803ddbf14"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "fa",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/fa/extended/112.md",
+          "sha256": "d9eb7eb62fb2df0353fe5fc532f11d311d77d50897d9de1fbef5309e992d9e2c",
+          "reviewedSHA256": "d9eb7eb62fb2df0353fe5fc532f11d311d77d50897d9de1fbef5309e992d9e2c"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/fa/extended/112.json",
+          "sha256": "7cdf74ac8d95772ebbda09a963039ed97ba201ef7966a1fdeb657dcf545eba1e",
+          "reviewedSHA256": "7cdf74ac8d95772ebbda09a963039ed97ba201ef7966a1fdeb657dcf545eba1e"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/fa/IKHLAS-FA-SOURCE-NOTE720.md",
+          "sha256": "4acb2ed88cf04fd3b311d7b2217c1383c333eaf600005bbe6f1f043d6a4fe0fb"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/fa/IKHLAS-FA-PUBLIC-SOURCES720.json",
+          "sha256": "52285e8e93cd9b726d65f6226fca542200257c94332596128a50693cb88bcd93"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 720,
+        "handoffSHA256": "8065f55523c05679807970825e0d87d2a2c5f362e1f04ed2e022ca41f4563926",
+        "identityAsRecorded": {
+          "actual_FINAL": "Actor565 actualSol6.1High distinctFINAL720, didnotauthorMAIN717"
+        },
+        "statusAsRecorded": "WHOLE_CURRENT_PERSIAN_IKHLAS_SOURCE_MEANING_FLUENCY_QUALIFIED_DISTINCT_FINAL720_RUNTIME_REMAINS"
+      },
+      "historicalPublication": {
+        "commit": "9696509ae76f4bc5711ac8c26cfd33795905876c",
+        "receiptSHA256": "6f458b35c054ce0f417f7c6e4452df44e40377cd8ee87aebd3debdab2fced9d2",
+        "preparedInventorySHA256": "cd7a39be678dd1aa13350d777af3c774ea1c676700f3bfc13c9f68c803ddbf14"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "de",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/de/extended/112.md",
+          "sha256": "7cae0f559591edff93fede56be38571b6d378902679ae8e5282f7cb357122938",
+          "reviewedSHA256": "7cae0f559591edff93fede56be38571b6d378902679ae8e5282f7cb357122938"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/de/extended/112.json",
+          "sha256": "86aa9d52acf779a724d8e78d35730dcbcac4cec7cd63de1604ca751ffb93b683",
+          "reviewedSHA256": "86aa9d52acf779a724d8e78d35730dcbcac4cec7cd63de1604ca751ffb93b683"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/de/IKHLAS-DE-SOURCE-NOTE724.md",
+          "sha256": "0aa8659615237c4cce38e24c264979d54c7f1dc9a3cbec4d11fc9fb158a99e02"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/de/IKHLAS-DE-PUBLIC-SOURCES724.json",
+          "sha256": "e089a1f0c26e98afa225475e41d9285a6d7f18ffb055ff40784104e145d680f2"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 724,
+        "handoffSHA256": "4b3c307decb47158f99fd6a9d7162146c4c7bb72ea4159ab592ce4282d8ad654",
+        "identityAsRecorded": {
+          "actual_FINAL": "Actor565 actualgpt-6.1-sol High distinctFINAL724, didnotauthor719"
+        },
+        "statusAsRecorded": "WHOLE_CURRENT_GERMAN_IKHLAS_SOURCE_MEANING_FLUENCY_QUALIFIED_DISTINCT_FINAL724_RUNTIME_REMAINS"
+      },
+      "historicalPublication": {
+        "commit": "68ce0c4f370ef217d5707c3238e45b26a28603ae",
+        "receiptSHA256": "3ff03300474d12fb4d8b970dd2746bd588ee4c3c6ce9e3c243775b7d280de421",
+        "preparedInventorySHA256": "04b4843abe0640d50c2c51d665310d1e012ee32cea1d5c72b536afd957f39db6"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "zh-CN",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/zh-CN/extended/112.md",
+          "sha256": "531a519e44b5edba97cf2b539940fc1d73132cf2d174e52613f5ff88b2c2a94c",
+          "reviewedSHA256": "531a519e44b5edba97cf2b539940fc1d73132cf2d174e52613f5ff88b2c2a94c"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/zh-CN/extended/112.json",
+          "sha256": "07b1726f98f4cf0c5f724c625b9284c7af065cc4d19ae16853778b0ea7ac12c3",
+          "reviewedSHA256": "07b1726f98f4cf0c5f724c625b9284c7af065cc4d19ae16853778b0ea7ac12c3"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/zh-CN/IKHLAS-ZH-SOURCE-NOTE729.md",
+          "sha256": "21f4afb1d00bc159bd0c22d9a77d9f4039618068cfe19300339969bdbdcf6d01"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/zh-CN/IKHLAS-ZH-PUBLIC-SOURCES729.json",
+          "sha256": "98f8278790d609fa8e0cc7db6b82ce5bc56b54c6e1e918c699b3150441e0e985"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 729,
+        "handoffSHA256": "c5a7c2c3097e40a328187d346005160b9839ebe7acd97151bb7ed03f7cf01fd2",
+        "identityAsRecorded": {
+          "actual_reviewer": "Actual gpt-6.1-sol High FINAL729, different from actual author701 MAIN723"
+        },
+        "statusAsRecorded": "WHOLE_CHINESE_IKHLAS_DISTINCT_FINAL_TEXT_SOURCE_QUALIFIED_RUNTIME_PENDING"
+      },
+      "historicalPublication": {
+        "commit": "d7feb485ae63bd2cd022ebcda23ae65c188b97e9",
+        "receiptSHA256": "de467cb85dc69062b3b6cd51f6d6b4229ec0ad1e93b8cc8b3da58ae705c60429",
+        "preparedInventorySHA256": "698efe63810a62140f635805f9820d9fedf2f543aeeae12f4f639bb4ee681fbc"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "uz",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/uz/extended/112.md",
+          "sha256": "e3dcd86ce38bb45fde5db2c661abe52b8b0001ed56db0c0698d163a7d09957f9",
+          "reviewedSHA256": "e3dcd86ce38bb45fde5db2c661abe52b8b0001ed56db0c0698d163a7d09957f9"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/uz/extended/112.json",
+          "sha256": "01472608e82df9f82c2ed091e0eb39d6fa5652cff7747a8bf9d4441d1fec86b2",
+          "reviewedSHA256": "01472608e82df9f82c2ed091e0eb39d6fa5652cff7747a8bf9d4441d1fec86b2"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/uz/IKHLAS-UZ-SOURCE-NOTE735S1.md",
+          "sha256": "10220ed24e0f5c9d52d76796d2b0e009693b738b4f3bedf9a83ee27cc63ad45f"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/uz/IKHLAS-UZ-PUBLIC-SOURCES735S1.json",
+          "sha256": "cb5e46bd8bc8257a5c9696d679c64dcf125c8f5637d80c9c06d90b65ba8bec74"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 735,
+        "handoffSHA256": "4ad9eb6b29bed7559669d561398892689892b3c022108823e1c3012ac7f47a4a",
+        "identityAsRecorded": {
+          "actual_reviewer": {
+            "actor": "/root/ikhlas_ur_author697",
+            "model": "gpt-6.1-sol",
+            "reasoning_effort": "high",
+            "distinct_from_MAIN731_author565": true,
+            "not_human_native_scholarly_certification": true
+          }
+        },
+        "statusAsRecorded": "WHOLE_DISTINCT_FINAL735_TEXT_SOURCE_QUALIFIED_RUNTIME_PENDING"
+      },
+      "historicalPublication": {
+        "commit": "7117f459063e00bc9da1270e466dfe24346763e9",
+        "receiptSHA256": "106bf5889b44d5aff12a7f187156dfefeec91d06794ce262ed4562889b0b700b",
+        "preparedInventorySHA256": "88c726158293602b1985dae20b8b9164ecd8f88eb227725e65e86dda27cc0a79"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "th",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/th/extended/112.md",
+          "sha256": "4ed5f28a078b750128519a6a0eafcba7c7a4e7dbda6dee03130a7056f08b0a53",
+          "reviewedSHA256": "4ed5f28a078b750128519a6a0eafcba7c7a4e7dbda6dee03130a7056f08b0a53"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/th/extended/112.json",
+          "sha256": "0e3bdda88553c00461b3c52e7c7b125f459bc37ac26dcb92c96004410abb6c0d",
+          "reviewedSHA256": "0e3bdda88553c00461b3c52e7c7b125f459bc37ac26dcb92c96004410abb6c0d"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/th/IKHLAS-TH-SOURCE-NOTE737.md",
+          "sha256": "e6079dd0b155f71c57bc042f74422e175efcb826d2d584283db5b66ca8cd7b8d"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/th/IKHLAS-TH-PUBLIC-SOURCES737.json",
+          "sha256": "6de67cdc3518a2ce73146972df4da7b39a3bda92c2c134b55bd3fec4d05c22aa"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 737,
+        "handoffSHA256": "0924fb2409e893bdea090a9797d3f3f44556ae6739b5c38030cfb00e97058b50",
+        "identityAsRecorded": {
+          "actual_actor": {
+            "reviewer": "/root/under5_id_author565",
+            "model": "gpt-6.1-sol",
+            "effort": "high",
+            "role": "DISTINCT independent FINAL737; actual MAIN734 different actor701"
+          }
+        },
+        "statusAsRecorded": "WHOLE_DISTINCT_FINAL_TEXT_AND_BOUNDED_SOURCE_QUALIFIED_WITH_EXPLICIT_BROADER_GRANT_LIMIT"
+      },
+      "historicalPublication": {
+        "commit": "5a2eae8b2059346f0ac69710e93719f9a93437fb",
+        "receiptSHA256": "06d1f6cfd50f93fc7c789572fe609cb3b45979a35eb0c6a5e920a4fade8e4ed0",
+        "preparedInventorySHA256": "86dfc5ea960c3dccbb7abe69cc8ed33ce89c0520d3944efd5990bba9e001453a"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "vi",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/vi/extended/112.md",
+          "sha256": "9953c2a36df5f7027d4d492a906776db6a5fbdfc0f31b0ce484772109943db57",
+          "reviewedSHA256": "9953c2a36df5f7027d4d492a906776db6a5fbdfc0f31b0ce484772109943db57"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/vi/extended/112.json",
+          "sha256": "2432060bd767b4eca67abcd714deed6b070744c995f98e34fdb39110a12c5774",
+          "reviewedSHA256": "2432060bd767b4eca67abcd714deed6b070744c995f98e34fdb39110a12c5774"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/vi/IKHLAS-VI-SOURCE-NOTE741.md",
+          "sha256": "5326aa40f2d93a2e3410c9d01e9e360062f4d886c41862ce791e2f438446addb"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/vi/IKHLAS-VI-PUBLIC-SOURCES741.json",
+          "sha256": "95017229f51f9601cb2ede20ad02986133e16d237682427b5cc5343cc30eeb80"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 741,
+        "handoffSHA256": "e0bcbc8e9c121e48c8fb048213fe0bf4ff93eeba999c9fb18a84750a9eba947c",
+        "identityAsRecorded": {
+          "actual_role": {
+            "model": "gpt-6.1-sol",
+            "effort": "high",
+            "actor": "Actual /root/under5_id_author565",
+            "role": "DISTINCT FINAL741; MAIN738 actual different actor701"
+          }
+        },
+        "statusAsRecorded": "WHOLE_DISTINCT_FINAL_TEXT_SOURCE_IDENTITY_MEANING_FLUENCY_QUALIFIED_WITH_EXPLICIT_BROADER_GRANT_LIMIT"
+      },
+      "historicalPublication": {
+        "commit": "088597cba752c2d0c46394c27e463b192f8eb7ba",
+        "receiptSHA256": "0bf46301708310970640317603ad50c71de65bdfa58919a539f28ba666456bfc",
+        "preparedInventorySHA256": "3d20ebce28a6700782d6ed8fe629c608775530aad9c94f25e0a289e545f1766f"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "ja",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/ja/extended/112.md",
+          "sha256": "72d3cab28930e6887a1e27102173806f760a80fd19eabd74263861eb49030a56",
+          "reviewedSHA256": "72d3cab28930e6887a1e27102173806f760a80fd19eabd74263861eb49030a56"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/ja/extended/112.json",
+          "sha256": "7b63aba9c67ddd3a543b36c29682b318fae4eed519a2894d5c09092940c28328",
+          "reviewedSHA256": "7b63aba9c67ddd3a543b36c29682b318fae4eed519a2894d5c09092940c28328"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/ja/SOURCE-NOTE745.md",
+          "sha256": "722043721c18bfea8ee92ed39bc8b9d342b642e34e512eaa7bf6a1fd4a455ab6"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/ja/IKHLAS-JA-PUBLIC-SOURCES745.json",
+          "sha256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 745,
+        "handoffSHA256": "6b5d73b7037bee8cff99cb81957a4fc8c7c2fa4f2df79a6c18ca5565c0ba1f48",
+        "identityAsRecorded": {
+          "actual_roles": {
+            "SOURCE": "Actualgpt-6.1-terraMedium SOURCE740",
+            "MAIN": "Actualgpt-6.1-solHigh differentactor697 MAIN742",
+            "FINAL": "Actualgpt-6.1-solHigh /root/under5_id_author565 DISTINCT FINAL745",
+            "INTEGRATION": "Actualsolegpt-6.1-terraXHIGH /root/arabic_integrate647 separately"
+          }
+        },
+        "statusAsRecorded": "WHOLE_SOURCE_IDENTITY_MEANING_FLUENCY_QUALIFIED_WITH_EXPLICIT_BROADER_GRANT_LIMITS"
+      },
+      "historicalPublication": {
+        "commit": "91756c4f2499ddd3f669fab5b71cf3832f7e97ce",
+        "receiptSHA256": "4f60fdc72ec6bd2872dcb7950738b3d27afcaa8b25bb2c8916f0a5c9b0edeb15",
+        "preparedInventorySHA256": "b248477ead8f468904498fffae93847d55049db2d9e475ea38f85dbd187d4b58"
+      }
+    },
+    {
+      "collection": "tadabbur",
+      "language": "fil",
+      "materialId": "112",
+      "mode": "extended",
+      "canonicalOrder": 112,
+      "sourceRevisionSHA256": "12cf622c81771c36561eb3b7112f4ff88d6f6f16530041eed3f69f1475cacda8",
+      "sourceFiles": [
+        {
+          "role": "markdown",
+          "path": "materials/tadabbur/fil/extended/112.md",
+          "sha256": "fd5bc68e3aa588b0495a366ad90c1641e8c3e24d619c031f79f5ef0d8bcf57bc",
+          "reviewedSHA256": "fd5bc68e3aa588b0495a366ad90c1641e8c3e24d619c031f79f5ef0d8bcf57bc"
+        },
+        {
+          "role": "json_projection",
+          "path": "materials/tadabbur/fil/extended/112.json",
+          "sha256": "52db0cf6ae8c4b164479e4a60686096b6afdbba7c766ba036b39d5038e8e3bd6",
+          "reviewedSHA256": "52db0cf6ae8c4b164479e4a60686096b6afdbba7c766ba036b39d5038e8e3bd6"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "role": "sourceNotes",
+          "path": "materials/tadabbur/sources/112/fil/IKHLAS-FIL-SOURCE-NOTE746.md",
+          "sha256": "9e843c5d48f710b6778076a29693fd321a6bf28fc94c921eb8b920717740a68f"
+        },
+        {
+          "role": "publicSourceRecords",
+          "path": "materials/tadabbur/sources/112/fil/IKHLAS-FIL-PUBLIC-SOURCES746.json",
+          "sha256": "d16811d2d8d7b2e908232c1bc5a1a5cc9f137e15271ec53b738e2c2cd975fef7"
+        }
+      ],
+      "existingWholeReview": {
+        "number": 746,
+        "handoffSHA256": "feab846ea53b85ac669ffb395ac55492790901c323f86214bd7ab0399970265a",
+        "identityAsRecorded": {
+          "actual_final": "Actual parent-dispatched gpt-6.1-sol High agent697, different FINAL746; not author701 or SOURCE743 researcher676."
+        },
+        "statusAsRecorded": "WHOLE_DIFFERENT_ACTUAL_FINAL746_FROZEN_PENDING_ROOT647_RUNTIME"
+      },
+      "historicalPublication": {
+        "commit": "bf93d9b2036bd0eb43530d9815f864ae01004e79",
+        "receiptSHA256": "625062fad94469ddece501071fa7a07c1d7045c9e54b338c2bf1b364f802ce4a",
+        "preparedInventorySHA256": "e59603289342e2eb5161a8c6bf2409182d5d46ec2473151be5bb283555d3dad8"
+      }
+    }
+  ]
+}
