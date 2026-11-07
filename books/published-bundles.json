@@ -1,4 +1,83 @@
 {
   "schema": "iman-published-book-bundles-v1",
-  "languages": {}
+  "languages": {
+    "ru": {
+      "fingerprint": "10341ce0bb9e942a9bc6118929c9c2cff69180b143cd5cfd6400da96a0d06597",
+      "releaseTag": "books-42342406668-1-bundles",
+      "parts": [
+        {
+          "language": "ru",
+          "collection": "tadabbur-extended",
+          "sha256": "d63f0fefd007df9070034d3331a5192b0bf94f8c7c83bc58155d5007957eb7dd",
+          "pdfSha256": "d6967ae885a0d93f52c641c7afd40c326515fac64a8de0b6f865fb966f3d1261"
+        }
+      ],
+      "assets": [
+        {
+          "name": "Iman_Companion_ru_all-books.zip",
+          "bytes": 6291963,
+          "sha256": "5553f99da4e31fc6e8c2ef7407a94843c10df1fe36454ce6d666eb9d4587e74c"
+        }
+      ],
+      "verification": {
+        "zipFiles": {
+          "Iman_Companion_ru_tadabbur-extended.docx": "d63f0fefd007df9070034d3331a5192b0bf94f8c7c83bc58155d5007957eb7dd",
+          "Iman_Companion_ru_tadabbur-extended.pdf": "d6967ae885a0d93f52c641c7afd40c326515fac64a8de0b6f865fb966f3d1261"
+        },
+        "mergedEditionAliasesSingleBook": true
+      }
+    },
+    "vi": {
+      "fingerprint": "4b2af6e0870fa6e7c5e94637fd5a5ceac3e6e59d044b0d6912fae7e8cb3590c4",
+      "releaseTag": "books-42342406668-1-bundles",
+      "parts": [
+        {
+          "language": "vi",
+          "collection": "tadabbur-extended",
+          "sha256": "18e75fa2176940964a7a0d232bc13fb89098c11615dfdbb142703ad6d606fdbf",
+          "pdfSha256": "cf531be28d4ced2eb20103c5128bf785e85e8c4a7f334327233ed168bf343300"
+        }
+      ],
+      "assets": [
+        {
+          "name": "Iman_Companion_vi_all-books.zip",
+          "bytes": 6515561,
+          "sha256": "be2b8fd7ba38c4461899128363bf74befb862b12e175fa7b65b035c2d0e56a05"
+        }
+      ],
+      "verification": {
+        "zipFiles": {
+          "Iman_Companion_vi_tadabbur-extended.docx": "18e75fa2176940964a7a0d232bc13fb89098c11615dfdbb142703ad6d606fdbf",
+          "Iman_Companion_vi_tadabbur-extended.pdf": "cf531be28d4ced2eb20103c5128bf785e85e8c4a7f334327233ed168bf343300"
+        },
+        "mergedEditionAliasesSingleBook": true
+      }
+    },
+    "fil": {
+      "fingerprint": "4adfdd6cb05d190140a90b91a31f4d522496cee2a4f9c46fb166ed375485bd41",
+      "releaseTag": "books-42342406668-1-bundles",
+      "parts": [
+        {
+          "language": "fil",
+          "collection": "tadabbur-extended",
+          "sha256": "5b0367ae60216e830a06c70a22c9ddb4b4ff46627870cdb1bde40fda8ce2eb50",
+          "pdfSha256": "5e8fe91a6bdc3c84dd8340dc91ca1c4166430aacf3e12d06584dc69b6e2e431a"
+        }
+      ],
+      "assets": [
+        {
+          "name": "Iman_Companion_fil_all-books.zip",
+          "bytes": 6291565,
+          "sha256": "98d38791d5d255b72e3a2567541084cf57d338f053eaeae768d222dde3b4acb6"
+        }
+      ],
+      "verification": {
+        "zipFiles": {
+          "Iman_Companion_fil_tadabbur-extended.docx": "5b0367ae60216e830a06c70a22c9ddb4b4ff46627870cdb1bde40fda8ce2eb50",
+          "Iman_Companion_fil_tadabbur-extended.pdf": "5e8fe91a6bdc3c84dd8340dc91ca1c4166430aacf3e12d06584dc69b6e2e431a"
+        },
+        "mergedEditionAliasesSingleBook": true
+      }
+    }
+  }
 }
