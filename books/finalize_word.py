@@ -11,6 +11,9 @@ from lxml import etree
 from locale_copy import COPY,NATIVE_DIGITS
 from word_layout_check import contents,verify,W
 
+def word_page_digits(language):
+    return NATIVE_DIGITS.get(language,'0123456789') if language in {'ar','ur','fa'} else '0123456789'
+
 def processes():
     return{int(n)for n in subprocess.check_output(['powershell','-NoProfile','-Command','(Get-Process WINWORD -ErrorAction SilentlyContinue).Id']).split()}
 
@@ -45,7 +48,7 @@ def _finalize_staged(file,language,proof_dir=None,root=None):
                     proof_dir.mkdir(parents=True,exist_ok=True);doc.ExportAsFixedFormat(str((proof_dir/'Word-visual-proof.pdf').resolve()),17)
             finally:doc.Close(False)
             if passed:break
-            targets={x['anchor']:x['actualPage']for x in checked};native=str.maketrans('0123456789',NATIVE_DIGITS.get(language,'0123456789'));old=deepcopy(document_root)
+            targets={x['anchor']:x['actualPage']for x in checked};native=str.maketrans('0123456789',word_page_digits(language));old=deepcopy(document_root)
             def cache_nodes(body):
                 for p in body.iter(W+'p'):
                     style=p.find('./'+W+'pPr/'+W+'pStyle')

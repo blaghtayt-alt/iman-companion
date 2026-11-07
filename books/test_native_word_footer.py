@@ -77,6 +77,10 @@ class NativeFooterTests(unittest.TestCase):
         with patch('finalize_word._finalize_staged',side_effect=staged_work),patch('finalize_word.verify'),patch('finalize_word.os.replace',side_effect=fail_receipt):
             with self.assertRaisesRegex(PermissionError,'receipt locked'):finalize(self.file,'fa',root=self.root)
         self.assertEqual(self.file.read_bytes(),original);self.assertEqual(old_receipt.read_bytes(),b'old receipt')
+    def test_word_contents_uses_existing_native_digit_policy(self):
+        from finalize_word import word_page_digits
+        self.assertEqual(word_page_digits('bn'),'0123456789');self.assertEqual(word_page_digits('hi'),'0123456789')
+        self.assertEqual(word_page_digits('fa'),'۰۱۲۳۴۵۶۷۸۹');self.assertEqual(word_page_digits('ar'),'٠١٢٣٤٥٦٧٨٩')
     def test_rtl_font_changes_invalidate_only_matching_scope(self):
         from published_library import scope_settings
         conf={'languages':{'ar':{'font':'Arabic'},'ru':{'font':'Latin'}},'fonts':{'Arabic':{'sha256':'a'},'Latin':{'sha256':'l'},'DigitsArabic':{'sha256':'first'}}}
