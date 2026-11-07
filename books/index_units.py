@@ -5,6 +5,7 @@ published. A changed material cannot reuse a stale normalized book unit.
 """
 from pathlib import Path
 import argparse,json,hashlib,sys
+from urllib.parse import quote
 from build_books import check_unit,inside
 def sha(b):return hashlib.sha256(b).hexdigest()
 def main():
@@ -29,11 +30,14 @@ def main():
             from adapt_ar_seerah import generate
             scope_edition=declaration.get('edition')
             if scope_edition!='new-adult':raise ValueError('Unexpected reviewed Seerah edition')
+        elif declaration.get('adapter')=='reviewed-ikhlas-v1':
+            from adapt_ikhlas import generate
         else:raise ValueError('No registered reviewed source adapter for scope')
         normalized=generate(root,catalog,declaration)
-        destination=root/'books/units/generated'/(args.language+'-'+args.collection+'-'+declaration['projectionSHA256'][:12]);destination.mkdir(parents=True,exist_ok=True)
+        generation_sha=sha(json.dumps(normalized,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf8'))
+        destination=root/'books/units/generated'/(args.language+'-'+args.collection+'-'+generation_sha[:16]);destination.mkdir(parents=True,exist_ok=True)
         for unit in normalized:
-            file=destination/(unit['id']+'.json');raw=(json.dumps(unit,ensure_ascii=False,indent=2)+'\n').encode('utf8')
+            file=destination/(quote(unit['id'],safe='')+'.json');raw=(json.dumps(unit,ensure_ascii=False,indent=2)+'\n').encode('utf8')
             if file.exists():
                 if file.read_bytes()!=raw:raise ValueError('Existing generated unit differs; preserve and review it: '+str(file))
             else:file.write_bytes(raw)

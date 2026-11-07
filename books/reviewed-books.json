@@ -11,7 +11,181 @@
       "materialIndex": "materials/articles/prepared-ar/index.json",
       "reviewBasis": "The 47 currently installed Arabic article readings and Islamic-only reference lists were compared against the public article index and Markdown. This records source eligibility, not scholarly certification or finished-book layout approval.",
       "automaticBuild": true,
-      "automaticRelease": true
+      "automaticRelease": false,
+      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+    },
+    {
+      "language": "hi",
+      "collection": "tadabbur-extended",
+      "adapter": "reviewed-ikhlas-v1",
+      "state": "reviewed-current",
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
+      "quranText": {
+        "path": "books/assets/quran-arabic.json",
+        "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+        "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
+      },
+      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification.",
+      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+    },
+    {
+      "language": "ru",
+      "collection": "tadabbur-extended",
+      "adapter": "reviewed-ikhlas-v1",
+      "state": "reviewed-current",
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
+      "quranText": {
+        "path": "books/assets/quran-arabic.json",
+        "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+        "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
+      },
+      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification.",
+      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+    },
+    {
+      "language": "es",
+      "collection": "tadabbur-extended",
+      "adapter": "reviewed-ikhlas-v1",
+      "state": "reviewed-current",
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
+      "quranText": {
+        "path": "books/assets/quran-arabic.json",
+        "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+        "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
+      },
+      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification.",
+      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+    },
+    {
+      "language": "fa",
+      "collection": "tadabbur-extended",
+      "adapter": "reviewed-ikhlas-v1",
+      "state": "reviewed-current",
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
+      "quranText": {
+        "path": "books/assets/quran-arabic.json",
+        "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+        "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
+      },
+      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification.",
+      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+    },
+    {
+      "language": "de",
+      "collection": "tadabbur-extended",
+      "adapter": "reviewed-ikhlas-v1",
+      "state": "reviewed-current",
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
+      "quranText": {
+        "path": "books/assets/quran-arabic.json",
+        "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+        "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
+      },
+      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification.",
+      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+    },
+    {
+      "language": "zh-CN",
+      "collection": "tadabbur-extended",
+      "adapter": "reviewed-ikhlas-v1",
+      "state": "reviewed-current",
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
+      "quranText": {
+        "path": "books/assets/quran-arabic.json",
+        "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+        "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
+      },
+      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification.",
+      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+    },
+    {
+      "language": "uz",
+      "collection": "tadabbur-extended",
+      "adapter": "reviewed-ikhlas-v1",
+      "state": "reviewed-current",
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
+      "quranText": {
+        "path": "books/assets/quran-arabic.json",
+        "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+        "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
+      },
+      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification.",
+      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+    },
+    {
+      "language": "th",
+      "collection": "tadabbur-extended",
+      "adapter": "reviewed-ikhlas-v1",
+      "state": "reviewed-current",
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
+      "quranText": {
+        "path": "books/assets/quran-arabic.json",
+        "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+        "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
+      },
+      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification.",
+      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+    },
+    {
+      "language": "vi",
+      "collection": "tadabbur-extended",
+      "adapter": "reviewed-ikhlas-v1",
+      "state": "reviewed-current",
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
+      "quranText": {
+        "path": "books/assets/quran-arabic.json",
+        "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+        "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
+      },
+      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification.",
+      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+    },
+    {
+      "language": "fil",
+      "collection": "tadabbur-extended",
+      "adapter": "reviewed-ikhlas-v1",
+      "state": "reviewed-current",
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "citationMapSHA256": "abaefe6637fbe50cbf54323f75a5f8cab69b18cff0e8416b82ab78dad57c21a0",
+      "quranText": {
+        "path": "books/assets/quran-arabic.json",
+        "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+        "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
+      },
+      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification.",
+      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+    },
+    {
+      "language": "ar",
+      "collection": "seerah",
+      "edition": "new-adult",
+      "adapter": "arabic-new-seerah-v1",
+      "state": "reviewed-current",
+      "projection": "books/source-projections/ar-seerah-new.json",
+      "projectionSHA256": "c2c74a6973e398721556639ea123c16f86667192d7590cafb85d44a8a8db0d82",
+      "materialIndex": "materials/seerah/new-adult/ar/index.json",
+      "reviewBasis": "The three current supplied Arabic chapters and their structured app-reader segments match the exact published chapter identities and reading bytes. This is source eligibility, not scholarly certification or a claim of complete human audio listening.",
+      "automaticBuild": true,
+      "automaticRelease": false
     }
   ]
 }

@@ -1,13 +1,18 @@
-name: Build reviewed book candidates
+name: Publish current multilingual books
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [published-material]
   pull_request:
-    paths: ["books/**", "tests/**", "test-fixtures/**", "materials/**", "docs/listen/**", ".github/workflows/build-word-books.yml"]
+    paths: ['books/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', '.github/workflows/build-word-books.yml']
   push:
     branches: [main]
-    paths: ["books/**", "materials/**", "docs/listen/**", ".github/workflows/build-word-books.yml"]
+    paths: ['books/**', 'materials/**', 'docs/listen/**', '.github/workflows/build-word-books.yml']
 permissions:
   contents: read
+concurrency:
+  group: current-books-${{ github.ref }}
+  cancel-in-progress: false
 jobs:
   validate:
     runs-on: ubuntu-24.04
@@ -15,81 +20,76 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.12'
       - run: python -m pip install -r books/requirements.txt
-      - run: python tests/test_download_tables.py
-      - run: python tests/test_book_render_validation.py
-      - run: python tests/test_book_fonts.py
-      - run: python tests/test_article_adapter.py
-      - run: python tests/test_articles_export.py
-      - run: python tests/test_published_library.py
-      - run: python tests/test_material_audio.py
-      - run: node tests/test_player.mjs
-      - name: Select only declared reviewed books
-        id: scopes
+      - name: Validate source fidelity, references, QR matching and publication
         run: |
-          python - <<'PY'
-          import json,os
-          data=json.load(open('books/reviewed-books.json',encoding='utf8'))
-          assert data['schema']=='iman-reviewed-books-v1'
-          rows=[{'language':x['language'],'collection':x['collection']} for x in data['books'] if x.get('state')=='reviewed-current' and x.get('automaticBuild') is True]
-          assert rows and len({(x['language'],x['collection']) for x in rows})==len(rows)
-          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf8') as out:out.write('matrix='+json.dumps({'include':rows},separators=(',',':'))+'\n')
-          PY
-    outputs:
-      matrix: ${{ steps.scopes.outputs.matrix }}
-  build-reviewed:
+          python tests/test_download_tables.py
+          python tests/test_book_render_validation.py
+          python tests/test_book_fonts.py
+          python tests/test_article_adapter.py
+          python tests/test_articles_export.py
+          python tests/test_seerah_adapter.py
+          python tests/test_published_library.py
+          python tests/test_material_audio.py
+          python tests/test_automatic_publication.py
+          python tests/test_audio_discovery.py
+          node tests/test_player.mjs
+  publish:
     needs: validate
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
     timeout-minutes: 90
-    strategy:
-      fail-fast: false
-      matrix: ${{ fromJson(needs.validate.outputs.matrix) }}
+    permissions:
+      contents: write
+      pages: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      BOOK_TAG: books-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-      - name: Install renderer and Python dependencies
+          python-version: '3.12'
+      - name: Install renderer and verified fonts and covers
         run: |
           sudo apt-get update
           sudo apt-get install -y libreoffice-writer python3-uno fontconfig
           python -m pip install -r books/requirements.txt
-      - name: Install verified fonts and covers
-        run: |
           python books/install_assets.py --root .
           mkdir -p "$HOME/.local/share/fonts/iman-books"
           cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
           fc-cache -f
-      - name: Verify audio and generate reviewed source units
-        env:
-          BOOK_LANGUAGE: ${{ matrix.language }}
-          BOOK_COLLECTION: ${{ matrix.collection }}
+          command -v google-chrome || command -v chromium
+      - name: Publish exact audio assets and retire changed or withdrawn voices
         run: |
+          python books/discover_material_audio.py --root .
+          python books/publish_material_audio.py --root .
           python books/sync_material_audio.py --root . --verify-remote
-          python books/index_units.py --root . --commit "$GITHUB_SHA" --language "$BOOK_LANGUAGE" --collection "$BOOK_COLLECTION"
-          python books/build_books.py --root . --out "$RUNNER_TEMP/reviewed-book" --commit "$GITHUB_SHA"
-      - name: Render and check the candidate
+      - name: Generate current material books and insert every applicable QR
         run: |
-          /usr/bin/python3 books/render_uno.py --folder "$RUNNER_TEMP/reviewed-book"
-          python books/native_pagination.py --root . --folder "$RUNNER_TEMP/reviewed-book"
-          /usr/bin/python3 books/render_uno.py --folder "$RUNNER_TEMP/reviewed-book" --keep-contents
-          for attempt in 1 2 3 4; do
-            if python books/toc_sync.py --folder "$RUNNER_TEMP/reviewed-book"; then break; fi
-            python books/toc_sync.py --folder "$RUNNER_TEMP/reviewed-book" --write
-            /usr/bin/python3 books/render_uno.py --folder "$RUNNER_TEMP/reviewed-book" --keep-contents
-          done
-          python books/toc_sync.py --folder "$RUNNER_TEMP/reviewed-book"
-          python books/restore_book_fonts.py --root . --folder "$RUNNER_TEMP/reviewed-book"
-          python books/check_outputs.py --folder "$RUNNER_TEMP/reviewed-book" --root . --tag book-candidate --repo "$GITHUB_REPOSITORY"
-          python books/published_library.py --root . capture --folder "$RUNNER_TEMP/reviewed-book"
-      - name: Preserve the candidate and diagnostics for review
+          python books/automatic_publication.py build --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
+      - name: Release verified pairs and regenerate the persistent download tables
+        run: |
+          python books/automatic_publication.py publish --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
+      - name: Preserve build and publication receipts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: reviewed-book-candidate-${{ matrix.language }}-${{ matrix.collection }}
-          path: ${{ runner.temp }}/reviewed-book/
+          name: current-book-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/current-books/
           if-no-files-found: warn
           retention-days: 7
-# These artifacts are explicitly review-only. Public releases and download links
-# remain disabled until each rendered book and any direct-player dependencies pass review.
+      - name: Report any individual scope that still needs repair
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          path=Path(os.environ['RUNNER_TEMP'])/'current-books/publication-report.json'
+          result=json.loads(path.read_text(encoding='utf8'))
+          print(json.dumps(result,ensure_ascii=False))
+          if result['failedScopes']:raise SystemExit('Working book pairs were published; one or more other scopes need repair. See publication-report.json.')
+          PY

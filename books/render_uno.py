@@ -45,8 +45,6 @@ def main():
                 if doc is None:raise RuntimeError('Cannot open '+str(file))
                 try:
                     doc.getTextFields().refresh();indexes=doc.getDocumentIndexes()
-                    if not args.keep_contents:
-                        for i in range(indexes.getCount()):indexes.getByIndex(i).update()
                     if languages[file.name] in {'ar','ur','fa'}:
                         center=uno.Enum('com.sun.star.style.ParagraphAdjust','CENTER');right=uno.Enum('com.sun.star.style.ParagraphAdjust','RIGHT')
                         paragraphs=doc.getText().createEnumeration()
@@ -58,6 +56,19 @@ def main():
                                 paragraph.ParaAdjust=center if keep_center else right
                     native_footer(doc,languages[file.name])
                     doc.calculateAll() if hasattr(doc,'calculateAll') else None
+                    if not args.keep_contents:
+                        # Contents must reflect the final paragraph direction,
+                        # footer and complete layout, including long footnotes.
+                        # Updating the index first leaves stale Urdu page caches.
+                        previous=None;cursor=doc.getCurrentController().getViewCursor()
+                        for attempt in range(5):
+                            cursor.jumpToLastPage();page_count=cursor.getPage();cursor.jumpToFirstPage()
+                            doc.getTextFields().refresh()
+                            for i in range(indexes.getCount()):indexes.getByIndex(i).update()
+                            state=(page_count,tuple(indexes.getByIndex(i).getAnchor().getString()for i in range(indexes.getCount())))
+                            if state==previous:break
+                            previous=state
+                        else:raise ValueError('Contents pagination did not converge')
                     doc.store()
                     doc.storeToURL(file.with_suffix('.pdf').as_uri(),(prop('FilterName','writer_pdf_Export'),prop('Overwrite',True)))
                 finally:doc.close(True)
