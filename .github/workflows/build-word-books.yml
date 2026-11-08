@@ -46,6 +46,7 @@ jobs:
           python tests/test_merge_public_books_styles.py
           python tests/test_merge_public_books_fonts.py
           python tests/test_renderer_pin.py
+          python tests/test_toc_hyperlinks.py
           python tests/test_word_page_breaks.py
           python tests/test_source_credits.py
           python tests/test_source_reference_preservation.py
@@ -85,6 +86,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -101,11 +104,19 @@ jobs:
           fc-cache -f
           IMAN_BOOK_FONT_PROOF=1 python tests/test_numeric_reference_runs.py
           python tests/check_renderer_citations.py --root . --out "$RUNNER_TEMP/renderer-citations"
+      - name: Prove native contents links through both renderer passes
+        env:
+          TOC_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git show "${TOC_BASE_SHA}:books/render_uno.py" > "$RUNNER_TEMP/baseline-render_uno.py"
+          python tests/check_renderer_toc.py --root . --out "$RUNNER_TEMP/renderer-toc" --baseline-renderer "$RUNNER_TEMP/baseline-render_uno.py"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: exact-source-citation-renderer-regression-not-publication
-          path: ${{ runner.temp }}/renderer-citations/
+          path: |
+            ${{ runner.temp }}/renderer-citations/
+            ${{ runner.temp }}/renderer-toc/
           retention-days: 7
   publish:
     needs: validate
