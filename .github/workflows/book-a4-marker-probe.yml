@@ -11,8 +11,14 @@ concurrency:
   cancel-in-progress: true
 jobs:
   marker-probe:
+    name: LO ${{ matrix.renderer }} / ${{ matrix.fallback }} fonts
     runs-on: ubuntu-24.04
     timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        renderer: ['24.2', '26.8.2']
+        fallback: ['default', 'controlled']
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,12 +26,33 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install the production renderer and diagnostics
+      - name: Install baseline dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y libreoffice-writer python3-uno fontconfig
           python -m pip install -r books/requirements.txt PyMuPDF==1.28.2
-          soffice --version
+      - name: Extract pinned released LibreOffice 26.8.2
+        if: matrix.renderer == '26.8.2'
+        run: |
+          office_root="$RUNNER_TEMP/released-lo-26.8.2"
+          package_root="$RUNNER_TEMP/released-lo-packages"
+          mkdir -p "$office_root" "$package_root"
+          archive="$RUNNER_TEMP/LibreOffice_26.8.2_Linux_x86-64_deb.tar.gz"
+          curl --fail --location --retry 3 'https://download.documentfoundation.org/libreoffice/stable/26.8.2/deb/x86_64/LibreOffice_26.8.2_Linux_x86-64_deb.tar.gz' --output "$archive"
+          python - "$archive" <<'PY'
+          from pathlib import Path
+          import hashlib, sys
+          file = Path(sys.argv[1])
+          actual = hashlib.sha256(file.read_bytes()).hexdigest()
+          assert actual == '8290c8f46cb33d6df8f681cb796e0697461ea070f86ec55b63c94d7eb9d9a476', actual
+          print('Official LibreOffice archive SHA256:', actual)
+          PY
+          tar -xzf "$archive" -C "$package_root"
+          for package in "$package_root"/LibreOffice_*/DEBS/*.deb; do
+            dpkg-deb -x "$package" "$office_root"
+          done
+          test -x "$office_root/opt/libreoffice26.8/program/soffice"
+          echo "$office_root/opt/libreoffice26.8/program" >> "$GITHUB_PATH"
       - name: Install exact approved fonts
         run: |
           python books/install_assets.py --root .
@@ -33,13 +60,21 @@ jobs:
           cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
           cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
           fc-cache -f
-      - name: Exercise source-preserving marker variants
+          python books/diagnostics/article-a4-marker-probe/prepare_font_comparison.py --root . --out "$RUNNER_TEMP/font-comparison" --mode '${{ matrix.fallback }}'
+          if [ '${{ matrix.fallback }}' = 'controlled' ]; then
+            echo "FONTCONFIG_FILE=$RUNNER_TEMP/font-comparison/fonts.conf" >> "$GITHUB_ENV"
+          fi
+      - name: Record and exercise the renderer
         run: |
-          python books/diagnostics/article-a4-marker-probe/a4_marker_probe.py --root . --fixture books/diagnostics/article-a4-marker-probe/fixture-a4.b64 --out "$RUNNER_TEMP/marker-diagnostics"
+          soffice --version
+          fc-list -f '%{family}: %{file}\n' > "$RUNNER_TEMP/font-comparison/font-list.txt"
+          fc-match -s -f '%{family}: %{file}\n' 'Iman Book Arabic:charset=005b-005d' > "$RUNNER_TEMP/font-comparison/bracket-fallback.txt"
+          python books/diagnostics/article-a4-marker-probe/a4_marker_probe.py --root . --fixture books/diagnostics/article-a4-marker-probe/fixture-a4.b64 --out "$RUNNER_TEMP/marker-diagnostics" --expected-renderer '${{ matrix.renderer }}' --variants prepared-baseline,builder-baseline,marker-naskh
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: diagnostic-a4-markers-lo24-2-not-publication
-          path: ${{ runner.temp }}/marker-diagnostics/
+          name: diagnostic-a4-markers-${{ matrix.renderer }}-${{ matrix.fallback }}-not-publication
+          path: |
+            ${{ runner.temp }}/marker-diagnostics/
+            ${{ runner.temp }}/font-comparison/
           retention-days: 7
-
