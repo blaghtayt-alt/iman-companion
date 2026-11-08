@@ -1,0 +1,44 @@
+name: Diagnostic A4 numeric marker roundtrip
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/book-marker-probe.yml'
+      - 'books/diagnostics/article-a4-marker-probe/**'
+permissions:
+  contents: read
+concurrency:
+  group: diagnostic-a4-marker-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+jobs:
+  marker-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install the production renderer and diagnostics
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-writer python3-uno fontconfig
+          python -m pip install -r books/requirements.txt PyMuPDF==1.28.2
+          soffice --version
+      - name: Install exact approved fonts
+        run: |
+          python books/install_assets.py --root .
+          mkdir -p "$HOME/.local/share/fonts/iman-books"
+          cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          fc-cache -f
+      - name: Exercise source-preserving marker variants
+        run: |
+          python books/diagnostics/article-a4-marker-probe/marker_roundtrip_probe.py --root . --fixture books/diagnostics/article-a4-marker-probe/fixture.b64 --out "$RUNNER_TEMP/marker-diagnostics"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: diagnostic-a4-markers-lo24-2-not-publication
+          path: ${{ runner.temp }}/marker-diagnostics/
+          retention-days: 7
