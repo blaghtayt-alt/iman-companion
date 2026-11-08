@@ -22,6 +22,6 @@
 
 [قابل تدوین کتاب ڈاؤن لوڈ کریں](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.docx) · [مطالعے کی نقل ڈاؤن لوڈ کریں](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.pdf)
 
-[الگ کتابوں کی زِپ فائل](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1-bundles/Iman_Companion_ur_all-books.zip)
+[الگ کتابوں کی زِپ فائل](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42507456521-1-bundles/Iman_Companion_ur_all-books.zip)
 
 مصنوعی ذہانت کی مدد سے ترجمہ کیا گیا ہے؛ تصدیق درکار ہے۔ ماڈل کی مدد سے کی گئی جانچ کسی اہل قاری کے جائزے کا متبادل نہیں ہے۔

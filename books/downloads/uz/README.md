@@ -22,6 +22,6 @@ Bitta jamlangan kitob
 
 [Tahrirlanadigan kitobni yuklab olish](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_uz_tadabbur-extended.docx) · [O‘qish nusxasini yuklab olish](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_uz_tadabbur-extended.pdf)
 
-[Alohida kitoblar ZIP arxivi](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1-bundles/Iman_Companion_uz_all-books.zip)
+[Alohida kitoblar ZIP arxivi](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42507456521-1-bundles/Iman_Companion_uz_all-books.zip)
 
 Sun’iy intellekt yordamida tarjima qilingan, tekshirish talab etiladi. Model yordamidagi tekshiruvlar malakali o‘quvchi ko‘rigini almashtirmaydi.

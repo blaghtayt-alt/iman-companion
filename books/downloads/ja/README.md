@@ -22,6 +22,6 @@
 
 [編集可能な書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.docx) · [閲覧用の書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.pdf)
 
-[個別の本をまとめた圧縮ファイル](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1-bundles/Iman_Companion_ja_all-books.zip)
+[個別の本をまとめた圧縮ファイル](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42507456521-1-bundles/Iman_Companion_ja_all-books.zip)
 
 人工知能の支援により翻訳された内容であり、確認が必要です。モデルによる点検は、適切な知識を持つ読者による確認に代わるものではありません。

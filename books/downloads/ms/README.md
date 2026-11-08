@@ -22,6 +22,6 @@ Satu edisi gabungan
 
 [Muat turun buku boleh sunting](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ms_tadabbur-extended.docx) · [Muat turun salinan bacaan](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ms_tadabbur-extended.pdf)
 
-[ZIP buku berasingan](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1-bundles/Iman_Companion_ms_all-books.zip)
+[ZIP buku berasingan](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42507456521-1-bundles/Iman_Companion_ms_all-books.zip)
 
 Terjemahan dengan bantuan kecerdasan buatan — perlu disahkan. Semakan berbantukan model bukan pengganti semakan oleh pembaca yang berkelayakan.

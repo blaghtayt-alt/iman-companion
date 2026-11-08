@@ -22,6 +22,6 @@
 
 [دریافت کتاب ویرایش‌پذیر](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_fa_tadabbur-extended.docx) · [دریافت نسخهٔ مطالعه](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_fa_tadabbur-extended.pdf)
 
-[پروندهٔ فشردهٔ کتاب‌های جداگانه](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1-bundles/Iman_Companion_fa_all-books.zip)
+[پروندهٔ فشردهٔ کتاب‌های جداگانه](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42507456521-1-bundles/Iman_Companion_fa_all-books.zip)
 
 این متن با کمک هوش مصنوعی ترجمه شده و نیازمند بررسی است. بررسی به کمک مدل جایگزین بازبینی فردی شایسته نیست.

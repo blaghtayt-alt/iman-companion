@@ -22,6 +22,6 @@
 
 [下载可编辑书籍](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_zh-CN_tadabbur-extended.docx) · [下载阅读版](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_zh-CN_tadabbur-extended.pdf)
 
-[分册压缩包](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1-bundles/Iman_Companion_zh-CN_all-books.zip)
+[分册压缩包](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42507456521-1-bundles/Iman_Companion_zh-CN_all-books.zip)
 
 本资料由人工智能辅助翻译，仍需核实。模型辅助检查不能替代合格读者的审核。
