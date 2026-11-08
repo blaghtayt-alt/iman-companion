@@ -2,7 +2,7 @@ name: Diagnostic A4 numeric marker roundtrip
 on:
   pull_request:
     paths:
-      - '.github/workflows/book-marker-probe.yml'
+      - '.github/workflows/book-a4-marker-probe.yml'
       - 'books/diagnostics/article-a4-marker-probe/**'
 permissions:
   contents: read
@@ -35,10 +35,11 @@ jobs:
           fc-cache -f
       - name: Exercise source-preserving marker variants
         run: |
-          python books/diagnostics/article-a4-marker-probe/marker_roundtrip_probe.py --root . --fixture books/diagnostics/article-a4-marker-probe/fixture.b64 --out "$RUNNER_TEMP/marker-diagnostics"
+          python books/diagnostics/article-a4-marker-probe/a4_marker_probe.py --root . --fixture books/diagnostics/article-a4-marker-probe/fixture-a4.b64 --out "$RUNNER_TEMP/marker-diagnostics"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: diagnostic-a4-markers-lo24-2-not-publication
           path: ${{ runner.temp }}/marker-diagnostics/
           retention-days: 7
+
