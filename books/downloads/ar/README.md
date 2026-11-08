@@ -8,9 +8,9 @@
 | الكتاب | نسخة قابلة للتحرير | نسخة للقراءة | المواد المشمولة |
 | --- | --- | --- | --- |
 | تدبر القرآن | [تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.docx) | [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.pdf) | ٨٤ |
-| الحديث | قيد الإعداد | قيد الإعداد | — |
-| السيرة | [تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42490802872-1/Iman_Companion_ar_seerah.docx) | [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42490802872-1/Iman_Companion_ar_seerah.pdf) | ٣ |
-| مقالات | قيد الإعداد | قيد الإعداد | — |
+| الحديث | [تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42514521077-1/Iman_Companion_ar_hadith.docx) | [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42514521077-1/Iman_Companion_ar_hadith.pdf) | ٢٨٦ |
+| السيرة | [تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42514521077-1/Iman_Companion_ar_seerah.docx) | [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42514521077-1/Iman_Companion_ar_seerah.pdf) | ٣ |
+| مقالات | [تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42514521077-1/Iman_Companion_ar_articles.docx) | [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42514521077-1/Iman_Companion_ar_articles.pdf) | ٤٧ |
 
 ## تدبر القرآن
 
@@ -103,6 +103,6 @@
 
 كتاب واحد يجمع المواد
 
-[تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42507456521-1-bundles/Iman_Companion_ar_all-books.docx) · [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42507456521-1-bundles/Iman_Companion_ar_all-books.pdf)
+[تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42514521077-1-bundles/Iman_Companion_ar_all-books.docx) · [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42514521077-1-bundles/Iman_Companion_ar_all-books.pdf)
 
-[ملف مضغوط للكتب المنفصلة](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42507456521-1-bundles/Iman_Companion_ar_all-books.zip)
+[ملف مضغوط للكتب المنفصلة](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42514521077-1-bundles/Iman_Companion_ar_all-books.zip)
