@@ -410,14 +410,36 @@
               "title": "سورة الناس"
             }
           ]
+        },
+        {
+          "language": "ar",
+          "collection": "seerah",
+          "title": "السيرة",
+          "cover": "assets/covers/ad043f7838c3979212cbe99425c989f5ee0a4863dc59947532aef6bba17d4d42.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42490802872-1/Iman_Companion_ar_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42490802872-1/Iman_Companion_ar_seerah.pdf",
+          "sha256": "ffba41f9a4839b29fa91f977d433ca7b8cc1253ab51f5ccd04064842b464ea4e",
+          "pdfSha256": "ad043f7838c3979212cbe99425c989f5ee0a4863dc59947532aef6bba17d4d42",
+          "units": 3,
+          "pages": 61,
+          "audio": 3,
+          "contents": [
+            {
+              "id": "new-seerah001",
+              "title": "من عام الفيل إلى طفولة النبي ﷺ"
+            },
+            {
+              "id": "new-seerah002",
+              "title": "حالُ العرب قبل البعثة ونشأةُ رسولِ الله ﷺ"
+            },
+            {
+              "id": "new-seerah003",
+              "title": "من بيت خديجة إلى غار حراء"
+            }
+          ]
         }
       ],
-      "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107-bundles/Iman_Companion_ar_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.pdf",
-        "parts": 1
-      }
+      "bundle": null
     },
     "ur": {
       "language": "ur",
@@ -1221,5 +1243,5 @@
       }
     }
   },
-  "updated": "2026-11-07T14:11:51+00:00"
+  "updated": "2026-11-08T14:41:45+00:00"
 }

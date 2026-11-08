@@ -9,7 +9,7 @@
 | --- | --- | --- | --- |
 | تدبر القرآن | [تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.docx) | [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.pdf) | ٨٤ |
 | الحديث | قيد الإعداد | قيد الإعداد | — |
-| السيرة | قيد الإعداد | قيد الإعداد | — |
+| السيرة | [تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42490802872-1/Iman_Companion_ar_seerah.docx) | [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42490802872-1/Iman_Companion_ar_seerah.pdf) | ٣ |
 | مقالات | قيد الإعداد | قيد الإعداد | — |
 
 ## تدبر القرآن
@@ -98,11 +98,3 @@
 - تدبر سورة الإخلاص
 - سورة الفلق
 - سورة الناس
-
-## تنزيل الكتب معًا
-
-كتاب واحد يجمع المواد
-
-[تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.docx) · [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107/Iman_Companion_ar_tadabbur-extended.pdf)
-
-[ملف مضغوط للكتب المنفصلة](https://github.com/blaghtayt-alt/iman-companion/releases/download/arabic-reflections-84-20261107-bundles/Iman_Companion_ar_all-books.zip)
