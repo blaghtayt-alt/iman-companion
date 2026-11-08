@@ -22,7 +22,7 @@ from lxml import etree
 from PIL import Image
 from pypdf import PdfReader, PdfWriter
 from pypdf.annotations import Link
-from pypdf.generic import DecodedStreamObject, NameObject
+from pypdf.generic import ArrayObject, DecodedStreamObject, NameObject
 
 from download_page import REPO, inventory, publish_bundles, write_catalog
 from download_tables import COLLECTIONS, COPY, release_url, verified_books
@@ -146,7 +146,10 @@ def make_pdf(path, collection, audio_url):
         stream.set_data(('% synthetic ' + collection + ' page ' + str(page_number) +
                          '\nq 0.2 0.5 0.4 rg 20 20 50 50 re f Q\n').encode())
         page[NameObject('/Contents')] = writer._add_object(stream)
-    writer.add_annotation(0, Link(rect=(10, 10, 60, 30), target_page_index=1))
+    internal = writer.add_annotation(0, Link(rect=(10, 10, 60, 30), target_page_index=1))
+    # pypdf 6.10 leaves a numeric page index here. Bind the fixture's local
+    # destination to the existing page object explicitly across supported versions.
+    internal[NameObject('/Dest')] = ArrayObject([writer.pages[1].indirect_reference, NameObject('/Fit')])
     writer.add_annotation(1, Link(rect=(10, 10, 60, 30), url=audio_url))
     writer.add_outline_item('Fixture chapter', 1)
     writer.write(path)
