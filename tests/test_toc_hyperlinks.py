@@ -1,149 +1,287 @@
-"""Strict renderer-format tests; no fabricated Word or PDF link acceptance."""
+"""Fail-closed cache, link and source-target guards for native TOC regeneration."""
+from copy import deepcopy
 from pathlib import Path
+from tempfile import TemporaryDirectory
 from types import SimpleNamespace
+from unittest.mock import patch
 import sys
 import unittest
+import xml.etree.ElementTree as ET
+import zipfile
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'books'))
-from toc_hyperlinks import (CONTENT_INDEX, LINK_END, LINK_START, TOKEN_SEQUENCE,
-                            ensure_contents_hyperlinks, linked_format)
+import toc_hyperlinks as toc
 
 
-def prop(name, value):
-    return SimpleNamespace(Name=name, Value=value)
+def element(parent, local_name, value=None, **attrs):
+    node = ET.SubElement(parent, toc.tag(local_name), {toc.tag(k): v for k, v in attrs.items()})
+    node.text = value
+    return node
 
 
-def token(kind, **properties):
-    return (prop('TokenType', kind),) + tuple(prop(k, v) for k, v in properties.items())
+def document():
+    root = ET.Element(toc.tag('document'))
+    body = element(root, 'body')
+    for i in range(2):
+        p = element(body, 'p')
+        properties = element(p, 'pPr')
+        element(properties, 'pStyle', val='TOC1')
+        element(element(properties, 'tabs'), 'tab', val='right', pos='9600')
+        link = element(p, 'hyperlink', anchor='target' + str(i))
+        element(element(link, 'r'), 't', 'Same heading')
+        element(element(link, 'r'), 'tab')
+        element(element(link, 'r'), 't', '٢')
+    for i in range(2):
+        p = element(body, 'p')
+        element(element(p, 'pPr'), 'pStyle', val='Heading1')
+        element(p, 'bookmarkStart', id=str(i), name='target' + str(i))
+        element(element(p, 'r'), 'br')
+        element(element(p, 'r'), 't', 'Same heading')
+        element(p, 'bookmarkEnd', id=str(i))
+    return root
 
 
-def entry():
-    return (token('TokenEntryNumber', CharacterStyleName='Number', ChapterLevel=2),
-            token('TokenEntryText', CharacterStyleName='Index Link'),
-            token('TokenTabStop', TabStopRightAligned=True, TabStopFillCharacter='.',
-                  TabStopPosition=16700),
-            token('TokenPageNumber', CharacterStyleName='Page digits'))
+def save(path, root):
+    with zipfile.ZipFile(path, 'w') as archive:
+        archive.writestr('word/document.xml', ET.tostring(root))
 
 
-class Levels:
-    def __init__(self, values):
-        self.values = list(values)
-        self.writes = []
+class CachedXML(unittest.TestCase):
+    def setUp(self):
+        self.temp = TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.path = Path(self.temp.name) / 'book.docx'
+        self.root = document()
+        save(self.path, self.root)
 
-    def getCount(self):
-        return len(self.values)
+    def read(self):
+        save(self.path, self.root)
+        return toc.read_cached_contents(self.path)
 
-    def getByIndex(self, i):
-        return self.values[i]
+    def test_duplicate_titles_and_same_page_keep_distinct_source_bindings(self):
+        rows = self.read()
+        self.assertEqual([r['cache'] for r in rows], ['٢', '٢'])
+        self.assertEqual([r['prefix'] for r in rows], ['Same heading\t'] * 2)
+        self.assertEqual([r['target']['sourceParagraphOrdinal'] for r in rows], [0, 1])
+        self.assertEqual([r['target']['text'] for r in rows], ['\nSame heading'] * 2)
+        toc.verify_cached_contents(self.path, rows)
 
-    def replaceByIndex(self, i, value):
-        self.writes.append(i)
-        self.values[i] = value
+    def test_missing_duplicate_or_external_anchors_are_rejected(self):
+        for mode in ('missing', 'duplicate', 'external'):
+            with self.subTest(mode=mode):
+                self.root = document()
+                link = self.root.find('.//' + toc.tag('hyperlink'))
+                if mode == 'missing':
+                    link.set(toc.tag('anchor'), 'absent')
+                elif mode == 'external':
+                    link.set('{' + toc.R + '}id', 'rId7')
+                else:
+                    bookmark = self.root.find('.//' + toc.tag('bookmarkStart'))
+                    self.root.find(toc.tag('body')).append(deepcopy(bookmark))
+                with self.assertRaisesRegex(ValueError, 'target'):
+                    self.read()
+
+    def test_no_or_multiple_links_are_rejected(self):
+        for count in (0, 2):
+            self.root = document()
+            paragraph = list(self.root.find(toc.tag('body')))[0]
+            link = paragraph.find(toc.tag('hyperlink'))
+            if count == 0: paragraph.remove(link)
+            else: paragraph.append(deepcopy(link))
+            with self.subTest(count=count), self.assertRaisesRegex(ValueError, 'unique'):
+                self.read()
+
+    def test_non_numeric_or_missing_tail_is_rejected(self):
+        for value in ('', 'page two', '0', '-2', ' 2'):
+            self.root = document()
+            link = self.root.find('.//' + toc.tag('hyperlink'))
+            list(link.iter(toc.tag('t')))[-1].text = value
+            with self.subTest(value=value), self.assertRaisesRegex(ValueError, 'numeric cache'):
+                self.read()
+
+    def test_post_store_detects_swapped_same_title_same_page_links(self):
+        original = self.read()
+        links = list(self.root.iter(toc.tag('hyperlink')))
+        links[0].set(toc.tag('anchor'), 'target1')
+        links[1].set(toc.tag('anchor'), 'target0')
+        save(self.path, self.root)
+        with self.assertRaisesRegex(ValueError, 'source target changed'):
+            toc.verify_cached_contents(self.path, original)
+
+    def test_post_store_detects_moved_targets_between_identical_source_paragraphs(self):
+        original = self.read()
+        marks = list(self.root.iter(toc.tag('bookmarkStart')))
+        marks[0].set(toc.tag('name'), 'target1')
+        marks[1].set(toc.tag('name'), 'target0')
+        save(self.path, self.root)
+        with self.assertRaisesRegex(ValueError, 'source target changed'):
+            toc.verify_cached_contents(self.path, original)
+
+    def test_post_store_detects_changed_cache(self):
+        original = self.read()
+        link = self.root.find('.//' + toc.tag('hyperlink'))
+        list(link.iter(toc.tag('t')))[-1].text = '٣'
+        save(self.path, self.root)
+        with self.assertRaises(ValueError):
+            toc.verify_cached_contents(self.path, original)
+
+    def test_genuinely_absent_toc_is_allowed(self):
+        root = ET.Element(toc.tag('document'))
+        element(element(element(root, 'body'), 'p'), 'r')
+        save(self.path, root)
+        self.assertEqual(toc.read_cached_contents(self.path), [])
+        toc.verify_cached_contents(self.path, [])
+
+    def test_missing_caches_for_simple_or_split_complex_toc_field_fail(self):
+        for simple in (True, False):
+            root = ET.Element(toc.tag('document'))
+            p = element(element(root, 'body'), 'p')
+            if simple:
+                element(p, 'fldSimple', instr=' TOC \\o "1-2" ')
+            else:
+                element(element(p, 'r'), 'fldChar', fldCharType='begin')
+                element(element(p, 'r'), 'instrText', ' TO')
+                element(element(p, 'r'), 'instrText', 'C \\o "1-2" ')
+                element(element(p, 'r'), 'fldChar', fldCharType='separate')
+                element(element(p, 'r'), 'fldChar', fldCharType='end')
+            save(self.path, root)
+            with self.subTest(simple=simple), self.assertRaisesRegex(ValueError, 'entries are missing'):
+                toc.read_cached_contents(self.path)
+
+
+class FullCursor:
+    def __init__(self, paragraph):
+        self.paragraph = paragraph
+
+    def getString(self):
+        return self.paragraph.text
+
+    def getPropertyValue(self, name):
+        assert name == 'HyperLinkURL'
+        return self.paragraph.url
+
+
+class TailCursor:
+    def __init__(self, paragraph):
+        self.paragraph = paragraph
+        self.start = None
+
+    def goLeft(self, units, select):
+        assert select
+        encoded = self.paragraph.text.encode('utf-16-le')
+        self.start = len(encoded) - 2 * units
+        return self.start >= 0
+
+    def getString(self):
+        return self.paragraph.text.encode('utf-16-le')[self.start:].decode('utf-16-le')
+
+    def setString(self, value):
+        if self.paragraph.fail_edit:
+            raise RuntimeError('simulated edit failure')
+        self.paragraph.edits.append(value)
+        prefix = self.paragraph.text.encode('utf-16-le')[:self.start].decode('utf-16-le')
+        self.paragraph.text = prefix + value
+
+
+class Paragraph:
+    def __init__(self, text, url=''):
+        self.text, self.url = text, url
+        self.edits, self.fail_edit = [], False
+
+    def getEnd(self):
+        return self
+
+    def getText(self):
+        return self
+
+    def createTextCursorByRange(self, end):
+        assert end is self
+        return TailCursor(self)
 
 
 class Index:
-    def __init__(self, levels, service=CONTENT_INDEX):
-        self.LevelFormat = levels
-        self.service = service
+    def __init__(self, rows):
+        self.rows = rows
+        self.IsProtected = True
+        self.calls = 0
+        self.on_update = lambda: None
 
     def getServiceName(self):
-        return self.service
+        return toc.CONTENT_INDEX
+
+    def update(self):
+        self.calls += 1
+        self.on_update()
 
 
-class Indexes:
-    def __init__(self, *values):
-        self.values = values
+class NativeCacheGuards(unittest.TestCase):
+    def setUp(self):
+        self.paragraph = Paragraph('Same heading\t٨٨')
+        self.index = Index([self.paragraph])
+        self.indexes = [self.index]
+        self.doc = SimpleNamespace(getDocumentIndexes=lambda: SimpleNamespace(
+            getCount=lambda: len(self.indexes), getByIndex=lambda n: self.indexes[n]))
+        self.saved = [{'prefix': 'Same heading\t', 'cache': '٨٨', 'anchor': 'target0'}]
+        self.mock = patch.object(toc, '_native_rows',
+            side_effect=lambda index: [(p, FullCursor(p)) for p in index.rows])
+        self.mock.start()
+        self.addCleanup(self.mock.stop)
 
-    def getCount(self):
-        return len(self.values)
+    def generated(self):
+        self.paragraph.text = 'Same heading\t2'
+        self.paragraph.url = '#target0'
 
-    def getByIndex(self, i):
-        return self.values[i]
+    def test_exact_distinct_cache_survives_repeated_native_regeneration(self):
+        self.index.on_update = self.generated
+        for _ in range(2):
+            self.paragraph.url = ''
+            self.assertEqual(toc.refresh_cached_contents(self.doc, self.saved), 1)
+            self.assertEqual(self.paragraph.text, 'Same heading\t٨٨')
+            self.assertEqual(self.paragraph.url, '#target0')
+            self.assertTrue(self.index.IsProtected)
+        self.assertEqual(self.paragraph.edits, ['٨٨', '٨٨'])
 
+    def test_already_intact_import_avoids_regeneration(self):
+        self.paragraph.url = '#target0'
+        self.assertEqual(toc.refresh_cached_contents(self.doc, self.saved), 0)
+        self.assertEqual(self.index.calls, 0)
 
-class Uno:
-    def __init__(self):
-        self.calls = []
+    def test_changed_imported_title_cache_or_target_fails_before_update(self):
+        for text, url in (('Other\t٨٨', ''), ('Same heading\t٨٩', ''),
+                          ('Same heading\t٨٨', '#wrong')):
+            self.paragraph.text, self.paragraph.url = text, url
+            with self.subTest(text=text, url=url), self.assertRaisesRegex(ValueError, 'Imported'):
+                toc.refresh_cached_contents(self.doc, self.saved)
+        self.assertEqual(self.index.calls, 0)
 
-    def Any(self, type_name, value):
-        return SimpleNamespace(type_name=type_name, value=value)
+    def test_changed_regenerated_prefix_target_or_count_is_rejected_before_tail_edit(self):
+        for mode in ('prefix', 'target', 'count'):
+            self.paragraph.text, self.paragraph.url = 'Same heading\t٨٨', ''
+            self.index.rows = [self.paragraph]
+            def changed():
+                self.generated()
+                if mode == 'prefix': self.paragraph.text = 'Other\t2'
+                if mode == 'target': self.paragraph.url = '#wrong'
+                if mode == 'count': self.index.rows = []
+            self.index.on_update = changed
+            with self.subTest(mode=mode), self.assertRaisesRegex(ValueError, 'Regenerated'):
+                toc.refresh_cached_contents(self.doc, self.saved)
+        self.assertEqual(self.paragraph.edits, [])
 
-    def invoke(self, target, method, args):
-        level, typed = args
-        assert method == 'replaceByIndex'
-        assert typed.type_name == TOKEN_SEQUENCE
-        self.calls.append((target, method, level, typed.type_name))
-        target.replaceByIndex(level, typed.value)
+    def test_protection_is_restored_when_native_tail_edit_raises(self):
+        self.index.on_update = self.generated
+        self.paragraph.fail_edit = True
+        with self.assertRaisesRegex(RuntimeError, 'simulated'):
+            toc.refresh_cached_contents(self.doc, self.saved)
+        self.assertTrue(self.index.IsProtected)
 
-
-class ContentsHyperlinks(unittest.TestCase):
-    def test_missing_links_wrap_every_existing_token_without_mutation(self):
-        before = entry()
-        after = linked_format(before, prop)
-        self.assertEqual([p.Value for p in after[0] if p.Name == 'TokenType'], [LINK_START])
-        self.assertEqual([p.Value for p in after[-1] if p.Name == 'TokenType'], [LINK_END])
-        self.assertEqual(after[1:-1], before)
-        for original, retained in zip(before, after[1:-1]):
-            self.assertIs(original, retained)
-
-    def test_whole_entry_links_are_idempotent_and_preserve_link_properties(self):
-        before = (token(LINK_START, CharacterStyleName='Existing start'),) + entry() + (
-            token(LINK_END, CharacterStyleName='Existing end'),)
-        self.assertEqual(linked_format(before, prop), before)
-        self.assertIs(linked_format(before, prop)[0], before[0])
-        self.assertIs(linked_format(before, prop)[-1], before[-1])
-
-    def test_partial_link_expands_only_delimiters_and_preserves_all_properties(self):
-        content = entry()
-        start, end = token(LINK_START, CharacterStyleName='Existing'), token(LINK_END)
-        before = (content[0], start, content[1], end) + content[2:]
-        after = linked_format(before, prop)
-        self.assertEqual(after, (start,) + content + (end,))
-        self.assertIs(after[0], start)
-
-    def test_unbalanced_reversed_or_multiple_links_are_rejected(self):
-        cases = ((token(LINK_START),) + entry(),
-                 entry() + (token(LINK_END),),
-                 (token(LINK_END),) + entry() + (token(LINK_START),),
-                 (token(LINK_START), token(LINK_START)) + entry() +
-                 (token(LINK_END), token(LINK_END)))
-        for value in cases:
-            with self.subTest(value=value), self.assertRaisesRegex(ValueError, 'ambiguous'):
-                linked_format(value, prop)
-
-    def test_missing_or_repeated_content_tokens_are_rejected(self):
-        for value in (entry()[:-1], entry()[2:], entry() + (token('TokenPageNumber'),),
-                      entry() + (token('TokenEntryText'),)):
-            with self.subTest(value=value), self.assertRaisesRegex(ValueError, 'one entry'):
-                linked_format(value, prop)
-
-    def test_malformed_token_type_is_rejected(self):
-        for malformed in ((prop('Other', 'x'),),
-                          (prop('TokenType', 'TokenText'), prop('TokenType', 'TokenEntryText'))):
-            with self.subTest(value=malformed), self.assertRaisesRegex(ValueError, 'unique type'):
-                linked_format(entry() + (malformed,), prop)
-
-    def test_only_content_levels_after_header_change_and_second_call_is_noop(self):
-        header = (token('TokenText', Text='Contents'),)
-        levels = Levels([header, entry(), entry()])
-        other = Levels([header, ()])
-        uno = Uno()
-        indexes = Indexes(Index(levels), Index(other, 'com.sun.star.text.Bibliography'))
-        self.assertEqual(ensure_contents_hyperlinks(indexes, uno, prop), 2)
-        self.assertIs(levels.values[0], header)
-        self.assertEqual(levels.writes, [1, 2])
-        self.assertEqual(other.writes, [])
-        self.assertEqual(ensure_contents_hyperlinks(indexes, uno, prop), 0)
-        self.assertEqual(len(uno.calls), 2)
-
-    def test_later_invalid_index_prevents_all_mutation(self):
-        valid = Levels([(), entry()])
-        invalid = Levels([(), (token('TokenEntryText'),)])
-        uno = Uno()
-        with self.assertRaises(ValueError):
-            ensure_contents_hyperlinks(Indexes(Index(valid), Index(invalid)), uno, prop)
-        self.assertEqual(uno.calls, [])
-        self.assertEqual(valid.writes, [])
+    def test_no_toc_requires_both_empty_snapshot_and_no_native_index(self):
+        with self.assertRaisesRegex(ValueError, 'no validated cached rows'):
+            toc.refresh_cached_contents(self.doc, [])
+        self.indexes.clear()
+        self.assertEqual(toc.refresh_cached_contents(self.doc, []), 0)
+        with self.assertRaisesRegex(ValueError, 'row count'):
+            toc.refresh_cached_contents(self.doc, self.saved)
 
 
 if __name__ == '__main__':

@@ -7,7 +7,7 @@ from pathlib import Path
 import argparse,subprocess,tempfile,time,socket,json
 import uno
 from renderer_pin import verify_renderer
-from toc_hyperlinks import ensure_contents_hyperlinks
+from toc_hyperlinks import read_cached_contents,refresh_cached_contents,verify_cached_contents
 from com.sun.star.beans import PropertyValue
 def prop(k,v):p=PropertyValue();p.Name=k;p.Value=v;return p
 def native_footer(doc,language):
@@ -44,12 +44,11 @@ def main():
             else:raise RuntimeError('LibreOffice did not start')
             desktop=context.ServiceManager.createInstanceWithContext('com.sun.star.frame.Desktop',context)
             for file in sorted(folder.glob('*.docx')):
+                cached=read_cached_contents(file) if args.keep_contents else None
                 doc=desktop.loadComponentFromURL(file.as_uri(),'_blank',0,(prop('Hidden',True),prop('ReadOnly',False),prop('UpdateDocMode',0 if args.keep_contents else 3)))
                 if doc is None:raise RuntimeError('Cannot open '+str(file))
                 try:
                     indexes=doc.getDocumentIndexes()
-                    # Preserve native link generation on both refresh and keep-contents saves.
-                    ensure_contents_hyperlinks(indexes,uno,prop)
                     doc.getTextFields().refresh()
                     if languages[file.name] in {'ar','ur','fa'}:
                         center=uno.Enum('com.sun.star.style.ParagraphAdjust','CENTER');right=uno.Enum('com.sun.star.style.ParagraphAdjust','RIGHT')
@@ -75,7 +74,12 @@ def main():
                             if state==previous:break
                             previous=state
                         else:raise ValueError('Contents pagination did not converge')
+                    else:
+                        # Native DOCX import drops cached TOC links. Regenerate their
+                        # real targets while retaining exact reconciled page labels.
+                        refresh_cached_contents(doc,cached)
                     doc.store()
+                    if cached is not None:verify_cached_contents(file,cached)
                     doc.storeToURL(file.with_suffix('.pdf').as_uri(),(prop('FilterName','writer_pdf_Export'),prop('Overwrite',True)))
                 finally:doc.close(True)
         finally:

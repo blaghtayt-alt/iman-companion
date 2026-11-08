@@ -1,4 +1,4 @@
-"""Prove native TOC links survive both passes of the exact pinned renderer.
+"""Prove native TOC links and exact caches survive repeated renderer saves.
 
 Optional baseline input records the old renderer's first/keep-pass behavior.
 Only the current renderer must pass; no checker or candidate gate is bypassed.
@@ -152,6 +152,7 @@ def inspect(path):
             if any(etree.QName(k).localname == 'id' for k in link.attrib):
                 raise ValueError('TOC hyperlink unexpectedly uses an external relationship')
         result['labels'] = [n.text.strip() for n in nodes]
+        result['anchors'] = [p.find('.//' + tag('hyperlink')).get(tag('anchor')) for p in rows]
         result['pdfDestinations'] = linked_pages(path.with_suffix('.pdf'), len(rows))
         if [int(n) for n in result['labels']] != result['pdfDestinations']:
             raise ValueError('TOC cached labels differ from actual PDF destinations')
@@ -160,41 +161,108 @@ def inspect(path):
     return result
 
 
+def cached_labels(path):
+    """Read exact numeric caches even when the baseline importer lost links."""
+    xml = etree.fromstring(read_parts(path)['word/document.xml'])
+    result = []
+    for paragraph in xml.iter(tag('p')):
+        if style(paragraph) not in TOC:
+            continue
+        nodes = list(paragraph.iter())
+        tabs = [i for i, node in enumerate(nodes) if node.tag == tag('tab')]
+        assert tabs, 'Contents entry has no tab'
+        values = [node.text for node in nodes[tabs[-1] + 1:]
+                  if node.tag == tag('t') and (node.text or '').strip()]
+        assert len(values) == 1 and values[0].isdecimal(), values
+        result.append(values[0])
+    assert len(result) == 3, result
+    return result
+
+
+def set_diagnostic_caches(path, labels):
+    """Deliberately wrong caches test keep semantics; never publication input."""
+    parts = read_parts(path)
+    xml = etree.fromstring(parts['word/document.xml'])
+    nodes = toc_nodes(xml)
+    assert len(nodes) == len(labels) == 3
+    for node, label in zip(nodes, labels):
+        assert label.isdecimal() and int(label) > 4
+        node.text = label
+    parts['word/document.xml'] = etree.tostring(
+        xml, xml_declaration=True, encoding='UTF-8', standalone=True)
+    with zipfile.ZipFile(path, 'w', zipfile.ZIP_DEFLATED) as archive:
+        for name, value in parts.items():
+            archive.writestr(name, value)
+
+
 def exercise(root, out, renderer, language, required):
     file = make_fixture(out / 'input', language)
     original = reader_text(file)
     result = {'language': language, 'rendererSHA256': hashlib.sha256(renderer.read_bytes()).hexdigest()}
     environment = dict(os.environ, PYTHONPATH=str(root / 'books'))
-    before_keep = None
-    for phase, flags in (('first-pass', []), ('keep-contents', ['--keep-contents'])):
+    original_anchors = None
+
+    def render_phase(phase, flags, expected_labels=None, intentional_mismatch=False):
         subprocess.run(['/usr/bin/python3', str(renderer), '--folder', str(file.parent), *flags],
                        cwd=root, env=environment, check=True)
         state = inspect(file)
         state['readerTextPreserved'] = reader_text(file) == original
-        (out / (phase + '.json')).write_text(json.dumps(state, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-        if required:
-            assert state['entries'] == 3, state
-            assert 'validationError' not in state, state
-            assert state['pdfDestinations'] == [2, 3, 4], 'Links do not follow the known heading page order'
-            assert state['readerTextPreserved'], 'Body/footnote reader text changed'
-            if before_keep is not None:
-                assert state['labels'] == before_keep, 'Keep-contents changed native cached page labels'
-                state['nativeLabelsPreserved'] = True
+        if expected_labels is not None:
+            state['cachedLabelsPreserved'] = state.get('labels') == expected_labels
+        if intentional_mismatch:
+            state['intentionalDiagnosticCacheMismatch'] = True
         result[phase] = state
-        snapshot = out / phase; snapshot.mkdir(parents=True, exist_ok=True)
+        (out / (phase + '.json')).write_text(
+            json.dumps(state, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        snapshot = out / phase
+        snapshot.mkdir(parents=True, exist_ok=True)
         shutil.copy2(file, snapshot / file.name)
         shutil.copy2(file.with_suffix('.pdf'), snapshot / file.with_suffix('.pdf').name)
-        if phase == 'first-pass' and language == 'ar':
-            native_toc(file, file, language, 'Iman Book Naskh')
-            # Read the actual caches without depending on intact baseline hyperlinks.
-            xml = etree.fromstring(read_parts(file)['word/document.xml'])
-            before_keep = []
-            for p in xml.iter(tag('p')):
-                if style(p) not in TOC: continue
-                nodes = list(p.iter()); tabs = [i for i, n in enumerate(nodes) if n.tag == tag('tab')]
-                text = [n.text.strip() for n in nodes[tabs[-1] + 1:] if n.tag == tag('t') and (n.text or '').strip()]
-                assert len(text) == 1 and all(c in '٠١٢٣٤٥٦٧٨٩' for c in text[0]), text
-                before_keep.append(text[0])
+        if required:
+            assert state['entries'] == 3 and state['linksPerEntry'] == [1, 1, 1], state
+            assert state.get('pdfDestinations') == [2, 3, 4], 'Links do not follow known heading pages'
+            assert state['readerTextPreserved'], 'Body/footnote reader text changed'
+            if original_anchors is not None:
+                assert state['anchors'] == original_anchors, 'Native link target identity changed'
+            if expected_labels is not None:
+                assert state['cachedLabelsPreserved'], 'Keep-contents changed exact cached page labels'
+            if intentional_mismatch:
+                assert state.get('validationError') == 'TOC cached labels differ from actual PDF destinations', state
+            else:
+                assert 'validationError' not in state, state
+        return state
+
+    first = render_phase('first-pass', [])
+    original_anchors = first.get('anchors')
+    if language == 'ar':
+        native_toc(file, file, language, 'Iman Book Naskh')
+    expected = cached_labels(file)
+    if language == 'ar':
+        assert all(all(c in '٠١٢٣٤٥٦٧٨٩' for c in label) for label in expected), expected
+    render_phase('keep-contents', ['--keep-contents'], expected)
+    if not required:
+        return result
+    render_phase('repeat-keep-contents', ['--keep-contents'], expected)
+
+    # Values intentionally differ from regenerated page numbers. This proves
+    # that keep preserves exact caches instead of merely transliterating them.
+    distinct = ['٢١', '٣١', '٤١'] if language == 'ar' else ['21', '31', '41']
+    set_diagnostic_caches(file, distinct)
+    render_phase('distinct-cache-keep', ['--keep-contents'], distinct, True)
+    render_phase('distinct-cache-repeat', ['--keep-contents'], distinct, True)
+
+    # Exercise the actual production reconciliation command, then require a
+    # fully valid final DOCX/PDF pair again after another native keep save.
+    sync = subprocess.run([sys.executable, str(root / 'books/toc_sync.py'),
+                           '--folder', str(file.parent), '--write'],
+                          cwd=root, env=environment, check=True, text=True, capture_output=True)
+    reconciled = json.loads(sync.stdout)
+    assert len(reconciled) == 1 and reconciled[0]['entries'] == 3 and reconciled[0]['mismatches'] == 3, reconciled
+    result['tocSyncWrite'] = reconciled
+    (out / 'toc-sync-write.json').write_text(
+        json.dumps(reconciled, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    assert cached_labels(file) == expected, 'Production reconciliation did not restore exact expected labels'
+    render_phase('reconciled-keep', ['--keep-contents'], expected)
     return result
 
 
