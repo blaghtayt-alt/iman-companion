@@ -4,7 +4,7 @@ Run by the repository-owned workflow. Source approval remains with the existing
 published source units; this controller never creates a translation approval.
 """
 from pathlib import Path
-import argparse,hashlib,json,os,re,subprocess,sys,shutil
+import argparse,hashlib,json,os,re,subprocess,sys,shutil,tempfile
 from published_library import SCHEMA,asset_names,capture,current,merge,read,sha,stage,scope_key
 from check_contents_targets import check as check_contents
 
@@ -38,6 +38,14 @@ def requires_qr_layout_update(book):
     if not book.get('audioPanels'):return False
     from build_books import expected_page_layout
     return book.get('pageLayout')!=expected_page_layout()
+
+def retain_failed_preparation(out,folder,error):
+    """Keep diagnostics outside the paths reserved for checked candidate pairs."""
+    (folder/'BUILD-ERROR.txt').write_text(str(error),encoding='utf8')
+    failed=out/'failed-preparations';failed.mkdir(exist_ok=True)
+    retained=Path(tempfile.mkdtemp(prefix=folder.name+'-',dir=failed))/folder.name
+    folder.rename(retained)
+    return retained.relative_to(out).as_posix()
 
 def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
     from preparation_queue import load as load_queue,still_prepared,record,update,summaries
@@ -103,8 +111,10 @@ def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
             queued=record(root,index,folder,commit,holds);new_pending.append(queued)
             report['prepared'].append({**identity,'folder':folder.name,'state':queued['state'],'inputFingerprint':queued['inputFingerprint'],'pendingChecks':holds})
         except Exception as error:
-            report['failed'].append({**identity,'error':str(error)})
-            (folder/'BUILD-ERROR.txt').write_text(str(error),encoding='utf8')
+            # Partial files have no valid preparation snapshot. They must not
+            # shadow an older verified edition with the same public filenames.
+            retained=retain_failed_preparation(out,folder,error)
+            report['failed'].append({**identity,'error':str(error),'folder':retained})
     update(root,new_pending,completed)
     report['preparedAwaitingReleaseQC']=summaries(root)
     (out/'build-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')

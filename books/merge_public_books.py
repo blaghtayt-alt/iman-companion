@@ -28,13 +28,38 @@ def normal_notes(parts,body):
 
 FONT_EMBEDS=tuple(q('embed'+style)for style in('Regular','Bold','Italic','BoldItalic'))
 
-def font_index(table):
+def font_index(table,shared_duplicates=()):
     result={}
     for font in table.findall(q('font')):
         name=font.get(q('name'))
-        if not name or name.casefold()in result:raise ValueError('Missing or duplicate Word font family')
+        if not name:raise ValueError('Missing or duplicate Word font family')
+        if name.casefold()in result:
+            if name.casefold()in shared_duplicates:continue
+            raise ValueError('Missing or duplicate Word font family')
         result[name.casefold()]=font
     return result
+
+def shared_unembedded_font_duplicates(first,second):
+    """Retain identical legacy metadata groups without admitting face conflicts."""
+    def groups(table):
+        result={}
+        for font in table.findall(q('font')):
+            name=font.get(q('name'))
+            if not name:raise ValueError('Missing or duplicate Word font family')
+            result.setdefault(name.casefold(),[]).append(font)
+        return result
+    left=groups(first);right=groups(second)
+    duplicates={name for rows in(left,right)for name,fonts in rows.items()if len(fonts)>1}
+    for name in duplicates:
+        old=left.get(name,[]);new=right.get(name,[])
+        if any(node.tag in FONT_EMBEDS or any(k.startswith('{'+R+'}')for k in node.attrib)
+               for font in old+new for node in font.iter()):
+            raise ValueError('Duplicate embedded Word font family')
+        # The ordered metadata group must be identical in both constituents.
+        # No row is removed or normalized: the first book's complete group stays.
+        if [etree.tostring(n,method='c14n',exclusive=True)for n in old]!=[etree.tostring(n,method='c14n',exclusive=True)for n in new]:
+            raise ValueError('Unmatched or incompatible duplicate Word font metadata')
+    return duplicates
 
 def font_embeddings(parts,font,relationships):
     """Compare the actual font bytes, independently of obfuscation keys/IDs."""
@@ -65,7 +90,8 @@ def merge_fonts(parts,source,index,copy_part,content_type):
     name='word/fontTable.xml';rels_name=relpath(name)
     if name not in source:return
     table=xml(parts[name])if name in parts else etree.Element(q('fonts'),nsmap={'w':W})
-    incoming=xml(source[name]);existing=font_index(table);font_index(incoming)
+    incoming=xml(source[name]);duplicates=shared_unembedded_font_duplicates(table,incoming)
+    existing=font_index(table,duplicates);font_index(incoming,duplicates)
     rels=xml(parts[rels_name])if rels_name in parts else etree.Element('{'+P+'}Relationships',nsmap={None:P})
     source_rels=xml(source[rels_name])if rels_name in source else[]
     def identities(nodes):
@@ -107,6 +133,58 @@ def merge_fonts(parts,source,index,copy_part,content_type):
     parts[name]=serialized(table);parts[rels_name]=serialized(rels)
 
 STYLE_REFERENCES={q(n)for n in('pStyle','rStyle','tblStyle','basedOn','next','link','styleLink','numStyleLink')}
+
+def numbering_definitions(root):
+    """Index plain list definitions without interpreting or normalizing them."""
+    abstracts={};numbers={}
+    for node in root:
+        if node.tag not in(q('abstractNum'),q('num')):
+            raise ValueError('Unsupported automatic numbering definition')
+        target,attribute,minimum=(abstracts,'abstractNumId',0)if node.tag==q('abstractNum')else(numbers,'numId',1)
+        ident=node.get(q(attribute),'')
+        if not re.fullmatch(r'0|[1-9][0-9]*',ident)or int(ident)<minimum or ident in target:
+            raise ValueError('Missing or duplicate automatic numbering identity')
+        target[ident]=node
+    for node in root.iter():
+        if node.tag in STYLE_REFERENCES or node.tag==q('lvlPicBulletId')or any(k.startswith('{'+R+'}')for k in node.attrib):
+            raise ValueError('Unsupported picture or style-linked automatic numbering')
+    for node in numbers.values():
+        refs=node.findall(q('abstractNumId'))
+        if len(refs)!=1 or refs[0].get(q('val'))not in abstracts:
+            raise ValueError('Unresolved automatic numbering definition')
+    return abstracts,numbers
+
+def isolate_unused_numbering(target,source,styles):
+    """Preserve both inactive list libraries when renderers serialize differently.
+
+    Active list numbering is rejected before this helper is reached. Physical
+    left and logical start alignment can differ in RTL text, so keep their exact
+    definitions and bind incoming unused styles to separate numeric identities.
+    """
+    if source is None:
+        if any(n.get(q('val'))not in(None,'0')for n in styles.iter(q('numId'))):
+            raise ValueError('Unresolved automatic numbering style reference')
+        return {}
+    if semantic(target)==semantic(source):return {}
+    old_abstracts,old_numbers=numbering_definitions(target)
+    abstracts,numbers=numbering_definitions(source)
+    for node in styles.iter(q('numId')):
+        if node.get(q('val'))!='0'and node.get(q('val'))not in numbers:
+            raise ValueError('Unresolved automatic numbering style reference')
+    def identities(existing,incoming):
+        next_id=max([int(n)for n in existing]+[0])+1
+        return{old:str(next_id+i)for i,old in enumerate(incoming)}
+    abstract_ids=identities(old_abstracts,abstracts);number_ids=identities(old_numbers,numbers)
+    for ident,node in abstracts.items():
+        copied=deepcopy(node);copied.set(q('abstractNumId'),abstract_ids[ident]);target.append(copied)
+    for ident,node in numbers.items():
+        copied=deepcopy(node);copied.set(q('numId'),number_ids[ident])
+        ref=copied.find(q('abstractNumId'));ref.set(q('val'),abstract_ids[ref.get(q('val'))]);target.append(copied)
+    # OOXML requires all abstract definitions before concrete instances.
+    target[:]=[n for n in target if n.tag==q('abstractNum')]+[n for n in target if n.tag==q('num')]
+    for node in styles.iter(q('numId')):
+        if node.get(q('val'))in number_ids:node.set(q('val'),number_ids[node.get(q('val'))])
+    return {'abstractNumIds':abstract_ids,'numIds':number_ids}
 
 def style_index(styles):
     result={}
@@ -263,10 +341,8 @@ def merge_docx(inputs,output):
             dependencies={n.get(q('val'))for n in style.iter()if n.tag in STYLE_REFERENCES}-active
             active.update(dependencies);pending.extend(dependencies)
         sources.append((parts,document,body))
-    numbering=[semantic(xml(source['word/numbering.xml']))if'word/numbering.xml'in source else None for source,_,_ in sources]
-    if any(item!=numbering[0]for item in numbering[1:]):
-        raise ValueError('Constituent books use incompatible automatic numbering definitions')
     parts,document,body=sources[0];parts=dict(parts);rels=xml(parts['word/_rels/document.xml.rels']);types=xml(parts['[Content_Types].xml']);styles=xml(parts['word/styles.xml'])
+    numbering=xml(parts['word/numbering.xml'])if'word/numbering.xml'in parts else etree.Element(q('numbering'),nsmap={'w':W})
     expected_text=''.join(body_text(source_body)for _,_,source_body in sources)
     def payloads(source,source_body):
         relationships={n.get('Id'):n for n in xml(source['word/_rels/document.xml.rels'])};result=[]
@@ -340,9 +416,13 @@ def merge_docx(inputs,output):
                 if re.search(r'\\b\s',instruction.text):raise ValueError('Unexpected existing contents range')
                 instruction.text=(instruction.text or'')+' \\b '+scope+' '
     scope_toc(body,'m1_')
-    style_remaps=[]
+    style_remaps=[];numbering_remaps=[]
     for index,(source,_,source_body)in enumerate(sources[1:],2):
-        source_body=deepcopy(source_body);source_styles=BookStyles(styles,xml(source['word/styles.xml']),index)
+        incoming_styles=xml(source['word/styles.xml'])
+        incoming_numbering=xml(source['word/numbering.xml'])if'word/numbering.xml'in source else None
+        number_ids=isolate_unused_numbering(numbering,incoming_numbering,incoming_styles)
+        if number_ids:numbering_remaps.append({'part':index,**number_ids})
+        source_body=deepcopy(source_body);source_styles=BookStyles(styles,incoming_styles,index)
         if 'word/numbering.xml'in source and any(n.tag in STYLE_REFERENCES and n.get(q('val'))in source_styles.ids for n in xml(source['word/numbering.xml']).iter()):
             raise ValueError('Cannot isolate a style referenced by shared automatic numbering definitions')
         source_styles.rewrite(source_body)
@@ -406,6 +486,9 @@ def merge_docx(inputs,output):
     for tag in ['{http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing}docPr','{http://schemas.openxmlformats.org/drawingml/2006/picture}cNvPr']:
         for i,node in enumerate(body.iter(tag),1):node.set('id',str(i))
     if body_text(body)!=expected_text:raise ValueError('Combined Word reader text changed')
+    if any('word/numbering.xml'in source for source,_,_ in sources):
+        parts['word/numbering.xml']=serialized(numbering)
+        relationship(R+'/numbering','numbering.xml');content_type('word/numbering.xml','application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml')
     parts['word/document.xml']=serialized(document);parts['word/styles.xml']=serialized(styles);parts['word/footnotes.xml']=serialized(footnotes);parts['word/_rels/document.xml.rels']=serialized(rels);parts['[Content_Types].xml']=serialized(types)
     if normal_notes(parts,body)!=expected_notes:raise ValueError('Combined Word footnotes changed or were reordered')
     if payloads(parts,body)!=expected_payloads:raise ValueError('Combined Word changed a cover, QR image or clickable audio link')
@@ -414,7 +497,7 @@ def merge_docx(inputs,output):
     update.set(q('val'),'false');parts['word/settings.xml']=serialized(settings)
     with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED)as archive:
         for name,raw in parts.items():archive.writestr(name,raw)
-    return {'parts':len(inputs),'sourceBodyExactlyPreserved':True,'sourceFootnotesExactlyPreserved':len(expected_notes),'imagesAndAudioLinksVerified':len(expected_payloads),'independentBookPagination':True,'isolatedStyles':style_remaps}
+    return {'parts':len(inputs),'sourceBodyExactlyPreserved':True,'sourceFootnotesExactlyPreserved':len(expected_notes),'imagesAndAudioLinksVerified':len(expected_payloads),'independentBookPagination':True,'isolatedStyles':style_remaps,'isolatedNumbering':numbering_remaps}
 
 def page_annotations(reader,page,offset=0):
     """Comparable links, with resolved physical pages rather than object IDs."""
