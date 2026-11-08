@@ -14,6 +14,7 @@ from material_order import validate_group,validate_publication
 from reviewed_coverage import validate as validate_coverage
 from preparation_queue import record as capture_prepared,update,load,still_prepared,artifact_available,summaries,complete
 import automatic_publication as auto
+import preparation_queue as queue
 
 def record(root,index,folder,commit,holds):
     # Explicit transport fixtures, never actual rendered-book evidence.
@@ -43,6 +44,87 @@ class PreparationTests(unittest.TestCase):
     def remote(self,entry,tag='fixture-checked'):
         from published_library import asset_names,release_url
         return {'tag_name':tag,'draft':False,'prerelease':False,'assets':[{'name':name,'state':'uploaded','size':1,'digest':'sha256:'+entry['book'][hashkey],'browser_download_url':release_url('example/fixture',tag,name)} for name,hashkey in asset_names(entry['book'])]}
+    def test_supplemental_font_pin_change_rebuilds_queued_scope_without_new_approval(self):
+        self.first();published,index=self.checked();folder=self.root/'font-cache';folder.mkdir()
+        row=record(self.root,index,folder,self.commit,[{'check':'actual-word-layout'}])
+        update(self.root,[row],[])
+        bindings=published['snapshot']['bindings']
+        preserved={b['path']:(self.root/b['path']).read_bytes() for b in bindings}
+        for path in ('materials/catalog.json','books/reviewed-books.json'):
+            preserved[path]=(self.root/path).read_bytes()
+        self.assertTrue(still_prepared(self.root,row))
+        with patch.object(auto,'run') as run:
+            unchanged=auto.build(self.root,self.root/'font-unchanged',self.commit,'example/fixture','fixture-tag')
+        run.assert_not_called();self.assertEqual(len(unchanged['unchanged']),1)
+        conf=read(self.root/'books/config.json');conf['fonts']['Japanese']['sha256']['Regular']='f'*64
+        self.write('books/config.json',conf)
+        self.assertFalse(still_prepared(self.root,row))
+        # The existing verified snapshot contract remains unchanged.
+        self.assertTrue(current(self.root,published))
+        with patch.object(auto,'run',side_effect=RuntimeError('Fixture rebuild requested')) as run:
+            rebuilt=auto.build(self.root,self.root/'font-rebuild',self.commit,'example/fixture','fixture-tag')
+        run.assert_called_once();self.assertEqual(str(run.call_args.args[0][1]),'books/index_units.py')
+        self.assertFalse(rebuilt['unchanged']);self.assertEqual(len(rebuilt['failed']),1)
+        self.assertFalse(rebuilt['built']);self.assertFalse(rebuilt['prepared'])
+        pending=load(self.root)['entries'][0]
+        self.assertEqual(pending['state'],'superseded-source-awaiting-preparation')
+        self.assertFalse(pending['releaseVerified'])
+        for path,raw in preserved.items():self.assertEqual((self.root/path).read_bytes(),raw,path)
+
+    def test_all_configured_supplemental_font_definitions_invalidate_preparation(self):
+        self.first();_,index=self.checked();folder=self.root/'font-definitions';folder.mkdir()
+        row=record(self.root,index,folder,self.commit,[]);original=read(self.root/'books/config.json')
+        for name in ('Japanese','SymbolsLTR','SymbolsRTL'):
+            for setting in ('pin','path','family'):
+                with self.subTest(font=name,setting=setting):
+                    conf=deepcopy(original);definition=conf['fonts'][name]
+                    if setting=='pin':definition['sha256']['Regular']='f'*64
+                    elif setting=='path':definition['files']['Regular']='books/assets/fonts/fixture-changed.ttf'
+                    else:definition['family']='Fixture changed family'
+                    self.write('books/config.json',conf)
+                    self.assertNotEqual(queue.signature(self.root,('fil','articles')),row['inputFingerprint'])
+                    self.assertFalse(still_prepared(self.root,row))
+        self.write('books/config.json',original);self.assertTrue(still_prepared(self.root,row))
+
+    def test_fallback_pin_changes_affect_all_dependent_locales_only(self):
+        self.first();original=read(self.root/'books/config.json')
+        declared=queue.declaration(self.root,('fil','articles'),for_release=False)
+        members=queue.catalog_members(self.root,('fil','articles'),for_release=False)
+        # Reuse the same fixture source selection solely to isolate each locale's
+        # cache settings. These synthetic selections do not create approvals.
+        with patch.object(queue,'declaration',return_value=declared),patch.object(queue,'catalog_members',return_value=members):
+            languages=('th','fil','vi','en','ar')
+            before={language:queue.signature(self.root,(language,'articles')) for language in languages}
+            conf=deepcopy(original);conf['fonts']['Japanese']['sha256']['Regular']='f'*64
+            self.write('books/config.json',conf)
+            after={language:queue.signature(self.root,(language,'articles')) for language in languages}
+        for language in ('th','fil','vi'):self.assertNotEqual(before[language],after[language],language)
+        for language in ('en','ar'):self.assertEqual(before[language],after[language],language)
+
+    def test_missing_required_fallback_font_rejects_cached_preparation(self):
+        self.first();_,index=self.checked();folder=self.root/'missing-fallback';folder.mkdir()
+        row=record(self.root,index,folder,self.commit,[]);original=read(self.root/'books/config.json')
+        for missing in ('absent','empty','null'):
+            with self.subTest(definition=missing):
+                conf=deepcopy(original)
+                if missing=='absent':conf['fonts'].pop('Japanese')
+                else:conf['fonts']['Japanese']={} if missing=='empty' else None
+                self.write('books/config.json',conf)
+                with self.assertRaisesRegex(ValueError,'required preparation fallback font: Japanese'):
+                    queue.signature(self.root,('fil','articles'))
+                self.assertFalse(still_prepared(self.root,row))
+
+    def test_optional_symbol_font_presence_is_bound_without_requiring_it(self):
+        self.first();_,index=self.checked();original=read(self.root/'books/config.json')
+        conf=deepcopy(original)
+        for name in ('SymbolsLTR','SymbolsRTL'):conf['fonts'].pop(name)
+        self.write('books/config.json',conf);folder=self.root/'optional-symbols';folder.mkdir()
+        row=record(self.root,index,folder,self.commit,[]);self.assertTrue(still_prepared(self.root,row))
+        for name in ('SymbolsLTR','SymbolsRTL'):
+            with self.subTest(font=name):
+                changed=deepcopy(conf);changed['fonts'][name]=original['fonts'][name]
+                self.write('books/config.json',changed);self.assertFalse(still_prepared(self.root,row))
+
     def test_first_typed_article_creates_build_only_scope_without_historical_allowlist(self):
         self.write('books/reviewed-books.json',{'schema':'iman-reviewed-books-v1','books':[]})
         receipt,_=self.first(8);self.assertTrue(receipt['preparationScopeCreated']);self.assertFalse(receipt['sourceApprovalCreated'])
