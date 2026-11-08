@@ -24,6 +24,72 @@ from zipfile import ZipFile
 
 W = 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
 R = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships'
+CONTENT_INDEX = 'com.sun.star.text.ContentIndex'
+PARAGRAPH = 'com.sun.star.text.Paragraph'
+
+
+def label_native_contents(doc):
+    """Label existing native links with their current visible row, without editing it.
+
+    Run after the DOCX is saved and immediately before PDF export. The
+    renderer uses HyperLinkName for PDF link accessibility text. A complete
+    row includes its literal tab and current native page digits, which the
+    unchanged PDF validators compare with the real link destination.
+    These PDF labels must not be saved back into the editable DOCX: actual
+    Word finalization may subsequently change its own numeric page caches.
+    """
+    indexes = doc.getDocumentIndexes()
+    bookmarks = doc.getBookmarks()
+    changes = []
+    for number in range(indexes.getCount()):
+        index = indexes.getByIndex(number)
+        if index.getServiceName() != CONTENT_INDEX:
+            continue
+        styles = {getattr(index, 'ParaStyleLevel' + str(level)) for level in range(1, 11)}
+        paragraphs = index.getAnchor().createEnumeration()
+        while paragraphs.hasMoreElements():
+            paragraph = paragraphs.nextElement()
+            if not paragraph.supportsService(PARAGRAPH):
+                continue
+            value = paragraph.getString()
+            if not value or paragraph.ParaStyleName == index.ParaStyleHeading:
+                continue
+            if paragraph.ParaStyleName not in styles:
+                raise ValueError('Unexpected paragraph in native contents index')
+            parts = []
+            portions = paragraph.createEnumeration()
+            while portions.hasMoreElements():
+                portion = portions.nextElement()
+                literal = portion.getString()
+                if literal:
+                    parts.append((literal, portion.HyperLinkURL))
+            if ''.join(text for text, _ in parts) != value:
+                raise ValueError('Native contents portions do not match the visible row')
+            urls = {url for _, url in parts}
+            if not any(urls):
+                # Do not create a missing link. The unchanged final contents
+                # validators must still reject this, including the control.
+                continue
+            if len(urls) != 1:
+                raise ValueError('Native contents row is not one complete hyperlink')
+            url = next(iter(urls))
+            if not isinstance(url, str) or not url.startswith('#') or not bookmarks.hasByName(url[1:]):
+                raise ValueError('Native contents link has no existing internal bookmark')
+            title, separator, page = value.rpartition('\t')
+            if not separator or not title.strip() or not page.strip().isdecimal() or int(page.strip()) < 1:
+                raise ValueError('Native contents row has no numeric page cache')
+            cursor = paragraph.getText().createTextCursorByRange(paragraph.getStart())
+            cursor.gotoRange(paragraph.getEnd(), True)
+            if cursor.getString() != value or cursor.HyperLinkURL != url:
+                raise ValueError('Native contents cursor does not cover the exact linked row')
+            changes.append((cursor, value, url))
+    # Validate every row before assigning any label. Never assign String or
+    # HyperLinkURL: reader text, page caches and targets belong to the index.
+    for cursor, value, url in changes:
+        cursor.HyperLinkName = value
+        if cursor.getString() != value or cursor.HyperLinkURL != url or cursor.HyperLinkName != value:
+            raise ValueError('Native contents accessibility label changed its text or target')
+    return len(changes)
 
 
 def children(node, name):

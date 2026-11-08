@@ -1,4 +1,5 @@
 from pathlib import Path
+from types import SimpleNamespace
 import sys
 import tempfile
 import unittest
@@ -7,7 +8,8 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'books'))
-from normalize_toc_hyperlinks import R, W, normalize, normalize_document_xml
+from normalize_toc_hyperlinks import (CONTENT_INDEX, PARAGRAPH, R, W,
+                                      label_native_contents, normalize, normalize_document_xml)
 from toc_sync import toc_nodes
 from word_layout_check import contents
 from lxml import etree
@@ -104,6 +106,105 @@ class TocHyperlinkImportTests(unittest.TestCase):
     def test_doctype_is_rejected(self):
         with self.assertRaisesRegex(ValueError, 'DTD'):
             normalize_document_xml(fixture().replace(b'<w:document', b'<!DOCTYPE w:document><w:document', 1))
+
+
+class Enumeration:
+    def __init__(self, values):
+        self.values = list(values)
+
+    def hasMoreElements(self):
+        return bool(self.values)
+
+    def nextElement(self):
+        return self.values.pop(0)
+
+
+class NativeParagraph:
+    def __init__(self, parts, style='Contents 1'):
+        self.parts = parts
+        self.ParaStyleName = style
+        self.HyperLinkName = 'old label'
+        self.value = ''.join(text for text, _ in parts)
+
+    @property
+    def HyperLinkURL(self):
+        urls = {url for text, url in self.parts if text}
+        return next(iter(urls)) if len(urls) == 1 else None
+
+    def getString(self):
+        return self.value
+
+    def supportsService(self, name):
+        return name == PARAGRAPH
+
+    def createEnumeration(self):
+        return Enumeration([SimpleNamespace(getString=lambda text=text: text, HyperLinkURL=url)
+                            for text, url in self.parts])
+
+    def getStart(self):
+        return self
+
+    getEnd = getText = getStart
+
+    def createTextCursorByRange(self, start):
+        assert start is self
+        return self
+
+    def gotoRange(self, end, expand):
+        assert end is self and expand is True
+
+
+def native_document(rows, bookmarks=('chapter',), service=CONTENT_INDEX):
+    index = SimpleNamespace(getServiceName=lambda: service, ParaStyleHeading='Contents Heading',
+                            getAnchor=lambda: SimpleNamespace(createEnumeration=lambda: Enumeration(rows)),
+                            **{'ParaStyleLevel' + str(n): 'Contents ' + str(n) for n in range(1, 11)})
+    return SimpleNamespace(getDocumentIndexes=lambda: SimpleNamespace(getCount=lambda: 1, getByIndex=lambda _: index),
+                           getBookmarks=lambda: SimpleNamespace(hasByName=lambda name: name in bookmarks))
+
+
+class NativeContentsLabelsTests(unittest.TestCase):
+    def test_complete_current_row_labels_all_fragments_without_changing_text_url_or_cache(self):
+        heading = NativeParagraph([('Contents', '')], style='Contents Heading')
+        row = NativeParagraph([('عنوان طويل', '#chapter'), ('\t', '#chapter'), ('١٦', '#chapter')])
+        before = (row.getString(), row.HyperLinkURL, list(row.parts))
+        self.assertEqual(label_native_contents(native_document([heading, row])), 1)
+        self.assertEqual(row.HyperLinkName, 'عنوان طويل\t١٦')
+        self.assertEqual((row.getString(), row.HyperLinkURL, row.parts), before)
+        self.assertEqual(heading.HyperLinkName, 'old label')
+        # A later keep-contents cache is read afresh, never from old tooltips.
+        row.parts[-1] = ('٢٣', '#chapter')
+        row.value = 'عنوان طويل\t٢٣'
+        self.assertEqual(label_native_contents(native_document([row])), 1)
+        self.assertEqual(row.HyperLinkName, 'عنوان طويل\t٢٣')
+
+    def test_unlinked_rows_remain_unlinked_for_the_unchanged_final_validator(self):
+        row = NativeParagraph([('Title\t3', '')])
+        self.assertEqual(label_native_contents(native_document([row])), 0)
+        self.assertEqual(row.HyperLinkName, 'old label')
+        self.assertEqual(row.HyperLinkURL, '')
+
+    def test_non_contents_indexes_are_never_labeled(self):
+        row = NativeParagraph([('Bibliography\t3', '#chapter')])
+        self.assertEqual(label_native_contents(native_document([row], service='com.sun.star.text.Bibliography')), 0)
+        self.assertEqual(row.HyperLinkName, 'old label')
+
+    def test_external_missing_partial_and_mixed_targets_fail_before_any_label_changes(self):
+        cases = [[('Title\t3', 'https://example.com')], [('Title\t3', '#missing')],
+                 [('Title', '#chapter'), ('\t3', '')], [('Title', '#chapter'), ('\t3', '#other')]]
+        for parts in cases:
+            valid = NativeParagraph([('Good\t2', '#chapter')])
+            invalid = NativeParagraph(parts)
+            with self.subTest(parts=parts), self.assertRaises(ValueError):
+                label_native_contents(native_document([valid, invalid]))
+            self.assertEqual(valid.HyperLinkName, 'old label')
+            self.assertEqual(invalid.HyperLinkName, 'old label')
+
+    def test_missing_native_page_cache_or_unknown_index_style_is_rejected(self):
+        for value in ('Title 3', 'Title\t0', 'Title\tXVI', '\t٣'):
+            with self.subTest(value=value), self.assertRaisesRegex(ValueError, 'numeric page cache'):
+                label_native_contents(native_document([NativeParagraph([(value, '#chapter')])]))
+        with self.assertRaisesRegex(ValueError, 'Unexpected paragraph'):
+            label_native_contents(native_document([NativeParagraph([('Title\t3', '#chapter')], style='Body Text')]))
 
 
 if __name__ == '__main__':
