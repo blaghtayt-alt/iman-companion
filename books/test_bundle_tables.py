@@ -31,4 +31,6 @@ class BundleTables(unittest.TestCase):
  def test_removed_locale_never_leaves_an_active_combined_link(self):
   ready={k:v for k,v in self.ready.items()if k[0]!='fil'};bundles={k:v for k,v in self.bundles.items()if k!='fil'}
   table,pages=render_ready(self.conf,ready,'example/test',bundles);self.assertNotIn('/Iman_Companion_fil_',pages['fil']);self.assertNotIn('?lang=fil',table)
-if __name__=='__main__':unittest.main()
+if __name__=='__main__':
+ from test_merge_public_books import MergePublicBooks
+ unittest.main()

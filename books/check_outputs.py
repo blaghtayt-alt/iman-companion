@@ -90,6 +90,35 @@ def validate_toc(body,language,minimum_entries):
         entries.append(tail[0])
     if len(entries)<minimum_entries:raise ValueError('Missing contents entries')
 
+def validate_page_layout(word,pdf,book):
+    """Check physical paper size and complete, proportionate cover placement."""
+    layout=book.get('pageLayout')
+    cover=pdf.pages[0]
+    if layout is None:
+        # Historical verified editions used a full-bleed 6-by-9-inch cover.
+        if not any(i['x0']<=.5 and i['top']<=.5 and i['x1']>=cover.width-.5 and i['bottom']>=cover.height-.5 for i in cover.images):
+            raise ValueError('Cover does not reach every page edge')
+        return
+    if not isinstance(layout,dict) or layout.get('schema')!='iman-book-page-layout-v1' or (layout.get('paper'),layout.get('widthMM'),layout.get('heightMM'),layout.get('coverFit'))!=('A4',210,297,'contain'):
+        raise ValueError('Unsupported physical book page layout')
+    for section in word.sections:
+        if abs(section.page_width.mm-210)>.1 or abs(section.page_height.mm-297)>.1:
+            raise ValueError('Editable Word book is not on A4 paper')
+    for page in pdf.pages:
+        if abs(page.width-210*72/25.4)>1 or abs(page.height-297*72/25.4)>1:
+            raise ValueError('Rendered PDF book is not on A4 paper')
+    for item in cover.images:
+        width=item['x1']-item['x0'];height=item['bottom']-item['top']
+        if not width or not height:continue
+        source_size=item.get('srcsize')
+        if not source_size or len(source_size)!=2 or not source_size[1]:continue
+        centered=abs(item['x0']+item['x1']-cover.width)<=2 and abs(item['top']+item['bottom']-cover.height)<=2
+        contained=min(item['x0'],item['top'])>=-1 and item['x1']<=cover.width+1 and item['bottom']<=cover.height+1
+        fitted=abs(width-cover.width)<=2 or abs(height-cover.height)<=2
+        proportional=abs(width/height-source_size[0]/source_size[1])<=.002
+        if centered and contained and fitted and proportional:return
+    raise ValueError('A4 cover is cropped, distorted or incorrectly positioned')
+
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--folder',type=Path,required=True);ap.add_argument('--tag',required=True);ap.add_argument('--repo',required=True);ap.add_argument('--root',type=Path,default=Path('.'));ap.add_argument('--review-only',action='store_true');ap.add_argument('--prepare-only',action='store_true');args=ap.parse_args();folder=args.folder
     index=json.loads((folder/'index.json').read_text(encoding='utf-8'));index['previewOnly']=bool(index.get('previewOnly') or args.review_only);lines=['# 📚',''];pages={}
@@ -105,7 +134,10 @@ def main():
             location=rendered.find(text,offset)
             if location<0:raise ValueError('Reader text changed or reordered during Word refresh')
             offset=location+len(text)
-        native_text(rendered,book['language'])
+        if checks.get('sourceLiteralProofs'):
+            from source_literal_text import check_text
+            check_text(args.root,rendered,book['language'],checks['sourceLiteralProofs'])
+        else:native_text(rendered,book['language'])
         with zipfile.ZipFile(file) as z:
             validate_toc(etree.fromstring(z.read('word/document.xml')),book['language'],len(book['units']))
             for name in z.namelist():
@@ -124,8 +156,7 @@ def main():
         doc=pdfplumber.open(pdf)
         if len(doc.pages)<3:raise ValueError('Unexpected short/empty book')
         if book['language'] in {'ar','ur','fa'} and len(doc.pages)>=10000:raise ValueError('Native pagination needs more than four digit positions')
-        cover=doc.pages[0]
-        if not any(i['x0']<=.5 and i['top']<=.5 and i['x1']>=cover.width-.5 and i['bottom']>=cover.height-.5 for i in cover.images):raise ValueError('Cover does not reach every page edge')
+        validate_page_layout(Document(file),doc,book)
         for n,page in enumerate(doc.pages):
             if n==0:continue # illustrated cover
             if book['language'] in {'ar','ur','fa'}:

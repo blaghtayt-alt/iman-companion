@@ -73,7 +73,7 @@ def prepare(root,handoff_file,transaction_base=None):
         from material_order import validate_publication
         validate_publication(unit,ident)
     if collection=='essential-hadith'and not any(b.get('citations')or any(s.get('citations')for s in b.get('spans',[]))for section in unit['sections']for b in section['blocks']):raise ValueError('Extended Hadith requires its verified original collection and narration number')
-    check_unit(unit,unitkey,quran)
+    check_unit(unit,unitkey,quran,root=root)
     approval_relative='materials/book-publication-approvals/'+sha(raw)+'.json'
     combined={**inputs,**reviewed,reader_binding['path']:reader_binding['sha256'],approval_relative:sha(raw)}
     unit['inputBindings']=[{'path':p,'sha256':digest}for p,digest in sorted(combined.items())]

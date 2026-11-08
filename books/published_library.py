@@ -97,10 +97,28 @@ def capture(root,index,preparation=False):
         result.append({'book':book,'snapshot':snapshot})
     if len({scope_key(e['book']) for e in result})!=len(result):raise ValueError('Duplicate scoped candidate')
     return {'schema':'iman-prepared-book-snapshots-v1' if preparation else SCHEMA,'entries':result}
+def matching_catalog_snapshot(rows,report,snapshot):
+    """Recognize an unchanged old edition after adding exact review bindings.
+
+    Older verified releases recorded the literal member-row fingerprint, before
+    bounded review inventories were introduced. A new, independently checked
+    inventory may confirm precisely those same members. This is a metadata
+    migration only: it cannot add a reader, change a source row, or establish
+    review for an unknown member. Existing source/settings hashes are still
+    checked by the caller.
+    """
+    if catalog_fingerprint(rows,report)==snapshot['catalogSHA256']:return True
+    if report is None or 'catalogEvidence' in snapshot:return False
+    identities=[str(row['id']) for row in rows]
+    if len(identities)!=len(set(identities)) or sorted(identities)!=sorted(snapshot.get('unitIds',[])):return False
+    if len(report.get('selected',[]))!=len(rows):return False
+    return catalog_fingerprint(rows,None)==snapshot['catalogSHA256']
+
 def current(root,entry):
     try:
         key=scope_key(entry['book']);declaration(root,key);snapshot=entry['snapshot']
-        return snapshot['catalogSHA256']==scope_catalog(root,key) and bool(snapshot['bindings']) and bool(snapshot['unitIds']) and snapshot['scopeSettingsSHA256']==scope_settings(root,key,snapshot['unitIds']) and all(HEX.fullmatch(b['sha256']) and sha(inside(root,b['path']).read_bytes())==b['sha256'] for b in snapshot['bindings'])
+        rows,report=catalog_members(root,key)
+        return matching_catalog_snapshot(rows,report,snapshot) and bool(snapshot['bindings']) and bool(snapshot['unitIds']) and snapshot['scopeSettingsSHA256']==scope_settings(root,key,snapshot['unitIds']) and all(HEX.fullmatch(b['sha256']) and sha(inside(root,b['path']).read_bytes())==b['sha256'] for b in snapshot['bindings'])
     except (ValueError,OSError,KeyError):return False
 def limited_continuity(root,entry):
     """An additive extension may retain ONLY the exact previously checked edition.
@@ -153,7 +171,7 @@ def limited_continuity(root,entry):
             old_declaration=copy.deepcopy(declared);old_declaration['sourceReviewBindings']=prior
             selected,report=select(root,{'entries':old},old_declaration)
             if {identity(r) for r in selected}!=wanted:return False
-        return catalog_fingerprint(old,report)==snapshot['catalogSHA256']
+        return matching_catalog_snapshot(old,report,snapshot)
     except (ValueError,OSError,KeyError,TypeError):return False
 def asset_names(book):
     key=scope_key(book);expected=f'Iman_Companion_{key[0]}_{key[1]}.docx'

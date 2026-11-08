@@ -52,7 +52,15 @@
         "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
-      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification."
+      "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
+          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+        }
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "es",
@@ -205,7 +213,15 @@
         "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
-      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification."
+      "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
+          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+        }
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "fil",
@@ -220,7 +236,15 @@
         "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
-      "reviewBasis": "Existing currently published independently reviewed whole Ikhlas target/source units; deterministic source-preserving book adapter checked across all 19 target languages. Real 19-language two-pass Word/PDF layout proofs, native references, pinned fonts and footnote fidelity checked. Operational book-format review only, not a new translation approval or scholarly certification."
+      "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Older unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
+          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+        }
+      ],
+      "requireActualWordLayout": true
     },
     {
       "language": "ar",
@@ -484,6 +508,367 @@
       "automaticRelease": true,
       "requireActualWordLayout": true,
       "requireFinalVisualAcceptance": true
+    },
+    {
+      "language": "bn",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "de",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "en",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "es",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "fa",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "fil",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "fr",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "hi",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "id",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "ja",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "ms",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "pt-BR",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "ru",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "th",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "tr",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "ur",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "uz",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "vi",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "zh-CN",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "reviewed-translated-essential-hadith-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/translated-essential-hadith.json",
+          "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
     }
   ]
 }

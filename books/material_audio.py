@@ -96,7 +96,7 @@ def add_audio_panel(doc,unit,registry,family,arabic,add_text,direction,heading_p
     card,metrics=render_card(url,lang,fonts[family]['Bold'],cache_root)
     section=doc.sections[-1];available=section.page_width-section.left_margin-section.right_margin
     card_width=Mm(metrics['widthMM']);card_column_width=card_width+Mm(4);gap=Mm(8);title_width=available-card_column_width-gap
-    if title_width<Mm(52):raise ValueError('Audio card leaves too little title space')
+    if title_width<Mm(65):raise ValueError('Audio card leaves too little title space; use an A4 content page')
     first=heading_paragraphs[0]._p
     anchor=doc.add_paragraph();anchor.paragraph_format.page_break_before=force_new_page
     anchor.paragraph_format.keep_with_next=True;anchor.paragraph_format.space_before=Pt(0);anchor.paragraph_format.space_after=Pt(0);anchor.paragraph_format.line_spacing=Pt(1)
@@ -143,4 +143,4 @@ def add_audio_panel(doc,unit,registry,family,arabic,add_text,direction,heading_p
     # Give both the editable Word image and its PDF annotation the direct URL.
     linked_run(p,run,url)
     spacer=doc.add_paragraph();spacer.paragraph_format.space_after=Pt(19);spacer.paragraph_format.space_before=Pt(0);spacer.paragraph_format.line_spacing=Pt(1)
-    return {'materialId':unit['id'],'language':lang,'sourceSHA256':record['sourceSHA256'],'audioSHA256':record['audioSHA256'],'playerUrl':url,'qrSHA256':hashlib.sha256(card.read_bytes()).hexdigest(),'layout':'modern-corner-v2','corner':'top-left' if rtl else 'top-right','cardWidthMM':metrics['widthMM'],'cardHeightMM':metrics['heightMM'],'printedQRModuleMM':metrics['printedModuleMM']}
+    return {'materialId':unit['id'],'language':lang,'sourceSHA256':record['sourceSHA256'],'audioSHA256':record['audioSHA256'],'playerUrl':url,'qrSHA256':hashlib.sha256(card.read_bytes()).hexdigest(),'layout':'modern-corner-a4-v3','corner':'top-left' if rtl else 'top-right','cardWidthMM':metrics['widthMM'],'cardHeightMM':metrics['heightMM'],'qrSideMM':metrics['qrSideMM'],'quietZoneModules':metrics['quietZoneModules'],'printedQRModuleMM':metrics['printedModuleMM']}

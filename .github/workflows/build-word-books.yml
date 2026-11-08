@@ -60,6 +60,7 @@ jobs:
           python tests/test_article_reference_fidelity.py
           python tests/test_seerah_adapter.py
           python tests/test_hadith_adapter.py
+          python tests/test_translated_hadith_adapter.py
           python tests/test_mixed_material_adapters.py
           python tests/test_finalize_prepared.py
           python tests/test_release_candidate_intake.py
@@ -67,6 +68,8 @@ jobs:
           python tests/test_published_library.py
           python tests/test_material_audio.py
           python tests/test_automatic_publication.py
+          python tests/test_edition_migration.py
+          python tests/test_a4_audio_layout.py
           node tests/test_player.mjs
           python -m unittest discover -s books -p test_download_page.py
           python books/test_multicollection_publication.py
@@ -125,6 +128,7 @@ jobs:
           python books/sync_material_audio.py --root . --verify-remote
       - name: Generate current material books and insert every applicable QR
         run: |
+          python books/multilingual_readiness.py --root . --out "$RUNNER_TEMP/current-books/language-readiness.json"
           python books/automatic_publication.py build --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
       - name: Retrieve and verify exact owned-desktop candidate bundle
         id: finalized_transfer
@@ -177,6 +181,17 @@ jobs:
           result=json.loads(path.read_text(encoding='utf8'))
           print(json.dumps(result,ensure_ascii=False))
           lines=['## Current book publication','',f"Verified public pairs: {result['verifiedBookPairs']}. New pairs: {result['newPairs']}.",'']
+          readiness=result.get('languageReadiness',{})
+          if readiness:
+              lines.extend([f"Automatic source intake covers {readiness['languageCount']} languages and {readiness['scopeCount']} language/category combinations. {readiness['automaticPreparationScopes']} currently have eligible source material.",''])
+              waiting=[row for row in readiness.get('scopes',[]) if row['state']!='automatic-preparation-ready']
+              if waiting:
+                  lines.extend(['### Source material still required','', '| Language / collection | State | Reason |','| --- | --- | --- |'])
+                  for row in waiting:
+                      reason=str(row.get('reason','')).replace('|','\\|').replace('\n',' ')
+                      lines.append(f"| {row['language']}/{row['collection']} | {row['state']} | {reason} |")
+                  lines.append('')
+          if result.get('preparedAwaitingReleaseQC'):lines.extend(['### Prepared editions awaiting release checks',''])
           for row in result.get('preparedAwaitingReleaseQC',[]):
               scope=row['language']+'/'+row['collection']
               checks=', '.join(check['check'] for check in row.get('pendingChecks',[]))

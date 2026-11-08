@@ -26,33 +26,141 @@ def normal_notes(parts,body):
     notes={n.get(q('id')):n for n in xml(parts['word/footnotes.xml'])if n.get(q('type'))in(None,'normal')}
     return[''.join(n.itertext())for ref in body.iter(q('footnoteReference'))for n in[notes[ref.get(q('id'))]]]
 
-def default_style(style):
-    # Unknown on/off values are protected too: only an explicit false is safe.
-    return style.get(q('default'))not in(None,'0','false','off')
+STYLE_REFERENCES={q(n)for n in('pStyle','rStyle','tblStyle','basedOn','next','link','styleLink','numStyleLink')}
 
-def referenced_style_ids(sources):
-    """Protect direct, dependent and implicit styles in every constituent.
+def style_index(styles):
+    result={}
+    for style in styles.findall(q('style')):
+        ident=style.get(q('styleId'))
+        if not ident or ident in result:raise ValueError('Missing or duplicate Word style identity')
+        result[ident]=style
+    return result
 
-    Scan all Word XML parts, including notes, headers, numbering and styles.
-    A dependency from an unused style is deliberately still protected. Compute
-    this union before merging so a later constituent cannot activate an earlier
-    conflicting declaration that appeared unused at the time.
+def default_styles(styles):
+    result={}
+    for style in styles.findall(q('style')):
+        value=style.get(q('default'))
+        if value not in(None,'0','false','off','1','true','on'):
+            raise ValueError('Unsupported Word default style flag: '+str(value))
+        if value not in('1','true','on'):continue
+        kind=style.get(q('type'))
+        if kind in result:raise ValueError('Duplicate default Word style')
+        result[kind]=style.get(q('styleId'))
+    return result
+
+class BookStyles:
+    """Isolate differing style trees without changing either book's formatting.
+
+    Word can normalize unused built-in styles differently in two verified files.
+    Those differences must not prevent an anthology or silently replace a style
+    used by the other book. A dependent style also needs its own identity when
+    its base, linked style, or next style is isolated.
     """
-    references={q(tag)for tag in('pStyle','rStyle','tblStyle','basedOn','link','next','styleLink','numStyleLink')}
-    used=set()
-    for parts in sources:
-        for name,raw in parts.items():
-            if not(name.startswith('word/')and name.endswith('.xml')):continue
-            for node in xml(raw).iter():
-                ident=node.get(q('val'))if node.tag in references else None
-                if node.tag==q('style')and default_style(node):ident=node.get(q('styleId'))
-                if ident:used.add(ident)
-    return used
+    def __init__(self,target,source,index):
+        first=target.find(q('docDefaults'));second=source.find(q('docDefaults'))
+        if (semantic(first)if first is not None else None)!=(semantic(second)if second is not None else None):
+            raise ValueError('Constituent books use incompatible document style defaults')
+        existing=style_index(target);incoming=style_index(source)
+        target_defaults=default_styles(target);source_defaults=default_styles(source)
+        # A source with no default for a kind must not inherit a previous book's
+        # default. Explicit incoming defaults can be bound below; an absent one
+        # has no style identity that can safely be substituted.
+        if set(target_defaults)-set(source_defaults):
+            raise ValueError('Constituent books use incompatible implicit style defaults')
+        existing_names={n.get(q('val'),'').casefold():ident for ident,style in existing.items()for n in style.findall(q('name'))}
+        separate={ident for ident,style in incoming.items()if ident in existing and semantic(existing[ident])!=semantic(style)}
+        separate.update(ident for ident,style in incoming.items()for n in style.findall(q('name'))
+                        if n.get(q('val'),'').casefold()in existing_names and existing_names[n.get(q('val'),'').casefold()]!=ident)
+        while True:
+            changed={ident for ident,style in incoming.items()if ident in existing
+                     and any(n.tag in STYLE_REFERENCES and n.get(q('val'))in separate for n in style.iter())}
+            if changed<=separate:break
+            separate.update(changed)
+        used=set(existing)|set(incoming);self.ids={};self.names={}
+        for ident in sorted(separate):
+            base='m'+str(index)+'_'+hashlib.sha256(ident.encode()).hexdigest()[:24];new=base;suffix=1
+            while new in used:new=base+'_'+str(suffix);suffix+=1
+            self.ids[ident]=new;used.add(new)
+        self.defaults={kind:self.ids.get(ident,ident)for kind,ident in source_defaults.items()
+                       if self.ids.get(ident,ident)!=target_defaults.get(kind)}
+        for ident,style in incoming.items():
+            if ident in existing and ident not in self.ids:continue
+            copied=deepcopy(style)
+            if ident in self.ids:
+                copied.set(q('styleId'),self.ids[ident])
+                name=copied.find(q('name'))
+                old=name.get(q('val'))if name is not None else ident
+                new=old+' (Book '+str(index)+' '+hashlib.sha256(ident.encode()).hexdigest()[:8]+')'
+                if name is None:name=etree.Element(q('name'));copied.insert(0,name)
+                name.set(q('val'),new)
+                self.names[old.casefold()]=new;self.names[ident.casefold()]=new
+                aliases=copied.find(q('aliases'))
+                if aliases is not None:
+                    renamed=[]
+                    for alias in aliases.get(q('val'),'').split(','):
+                        alias=alias.strip()
+                        if not alias:continue
+                        renamed.append(alias+' (Book '+str(index)+' '+hashlib.sha256(ident.encode()).hexdigest()[:8]+')')
+                        self.names[alias.casefold()]=renamed[-1]
+                    aliases.set(q('val'),','.join(renamed))
+            # Only the first book supplies package-wide defaults. Unstyled
+            # content in a later book is bound to its own default explicitly.
+            copied.attrib.pop(q('default'),None)
+            self.references(copied);target.append(copied)
 
-def unused_character_conflict(first,second,used):
-    return(first.get(q('type'))==second.get(q('type'))=='character'
-           and not default_style(first)and not default_style(second)
-           and first.get(q('styleId'))not in used)
+    def references(self,root):
+        for node in root.iter():
+            if node.tag in STYLE_REFERENCES and node.get(q('val'))in self.ids:
+                node.set(q('val'),self.ids[node.get(q('val'))])
+
+    def instruction(self,text):
+        # STYLEREF and TOC's style list refer to names, rather than style IDs.
+        # Leave other field operands (bookmarks, URLs, etc.) completely alone.
+        def replace_name(value):return self.names.get(value.casefold(),value)
+        if re.match(r'^\s*STYLEREF\b',text,re.I):
+            def replace(match):
+                old=match.group(2)if match.group(2)is not None else match.group(3)
+                new=replace_name(old)
+                return match.group(1)+('"'+new+'"'if new!=old or match.group(2)is not None else old)
+            return re.sub(r'(^\s*STYLEREF\s+)(?:"([^"]+)"|([^\s\\]+))',replace,text,count=1,flags=re.I)
+        if re.match(r'^\s*TOC\b',text,re.I):
+            def replace(match):
+                fields=match.group(2).split(',')
+                for index in range(0,len(fields),2):
+                    old=fields[index];value=old.strip();new=replace_name(value)
+                    if value!=new:fields[index]=old[:len(old)-len(old.lstrip())]+new+old[len(old.rstrip()):]
+                return match.group(1)+'"'+','.join(fields)+'"'
+            return re.sub(r'(\\t\s+)"([^"]*)"',replace,text,flags=re.I)
+        return text
+
+    def rewrite(self,root):
+        self.references(root)
+        for kind,element,properties,reference in [('paragraph','p','pPr','pStyle'),('character','r','rPr','rStyle'),('table','tbl','tblPr','tblStyle')]:
+            if kind not in self.defaults:continue
+            for node in root.iter(q(element)):
+                prop=node.find(q(properties))
+                if prop is None:prop=etree.Element(q(properties));node.insert(0,prop)
+                if prop.find(q(reference))is None:prop.insert(0,etree.Element(q(reference),{q('val'):self.defaults[kind]}))
+        if not self.names:return
+        stack=[]
+        def rewrite_field(nodes):
+            text=''.join(n.text or''for n in nodes);changed=self.instruction(text)
+            if nodes and changed!=text:
+                nodes[0].text=changed
+                for node in nodes[1:]:node.text=''
+        for node in root.iter():
+            if node.tag==q('fldSimple'):
+                value=node.get(q('instr'))
+                if value is not None:node.set(q('instr'),self.instruction(value))
+            elif node.tag==q('fldChar'):
+                kind=node.get(q('fldCharType'))
+                if kind=='begin':stack.append([])
+                elif kind in('separate','end')and stack:
+                    if stack[-1]is not None:rewrite_field(stack[-1]);stack[-1]=None
+                    if kind=='end':stack.pop()
+            elif node.tag==q('instrText'):
+                if stack and stack[-1]is not None:stack[-1].append(node)
+                elif not stack:rewrite_field([node])
 
 def merge_docx(inputs,output):
     if len(inputs)<2:raise ValueError('A single public book can use its existing verified file')
@@ -60,9 +168,24 @@ def merge_docx(inputs,output):
     for file in inputs:
         with zipfile.ZipFile(file)as archive:parts={n:archive.read(n)for n in archive.namelist()}
         document=xml(parts['word/document.xml']);body=document.find(q('body'))
-        if any(n.get(q('val'))not in(None,'0')for n in body.findall('.//'+q('numPr')+'/'+q('numId'))):raise ValueError('Unsupported automatic list numbering in a combined book')
+        source_styles=xml(parts['word/styles.xml']);by_style=style_index(source_styles)
+        active=set(default_styles(source_styles).values())
+        for name,raw in parts.items():
+            if not(name.startswith('word/')and name.endswith('.xml'))or name in('word/styles.xml','word/numbering.xml','word/stylesWithEffects.xml'):continue
+            tree=xml(raw)
+            if any(n.get(q('val'))not in(None,'0')for n in tree.findall('.//'+q('numPr')+'/'+q('numId'))):raise ValueError('Unsupported automatic list numbering in a combined book')
+            active.update(n.get(q('val'))for n in tree.iter()if n.tag in STYLE_REFERENCES)
+        pending=list(active)
+        while pending:
+            style=by_style.get(pending.pop())
+            if style is None:continue
+            if any(n.get(q('val'))not in(None,'0')for n in style.findall('.//'+q('numPr')+'/'+q('numId'))):raise ValueError('Unsupported automatic list numbering in a combined book')
+            dependencies={n.get(q('val'))for n in style.iter()if n.tag in STYLE_REFERENCES}-active
+            active.update(dependencies);pending.extend(dependencies)
         sources.append((parts,document,body))
-    used_styles=referenced_style_ids(source for source,_,_ in sources)
+    numbering=[semantic(xml(source['word/numbering.xml']))if'word/numbering.xml'in source else None for source,_,_ in sources]
+    if any(item!=numbering[0]for item in numbering[1:]):
+        raise ValueError('Constituent books use incompatible automatic numbering definitions')
     parts,document,body=sources[0];parts=dict(parts);rels=xml(parts['word/_rels/document.xml.rels']);types=xml(parts['[Content_Types].xml']);styles=xml(parts['word/styles.xml'])
     expected_text=''.join(body_text(source_body)for _,_,source_body in sources)
     def payloads(source,source_body):
@@ -137,14 +260,13 @@ def merge_docx(inputs,output):
                 if re.search(r'\\b\s',instruction.text):raise ValueError('Unexpected existing contents range')
                 instruction.text=(instruction.text or'')+' \\b '+scope+' '
     scope_toc(body,'m1_')
+    style_remaps=[]
     for index,(source,_,source_body)in enumerate(sources[1:],2):
-        source_body=deepcopy(source_body);source_styles=xml(source['word/styles.xml']);existing={n.get(q('styleId')):n for n in styles}
-        for style in source_styles:
-            ident=style.get(q('styleId'))
-            if ident is None:continue
-            if ident in existing:
-                if semantic(existing[ident])!=semantic(style)and not unused_character_conflict(existing[ident],style,used_styles):raise ValueError('Constituent books use incompatible paragraph styles: '+ident)
-            else:styles.append(deepcopy(style))
+        source_body=deepcopy(source_body);source_styles=BookStyles(styles,xml(source['word/styles.xml']),index)
+        if 'word/numbering.xml'in source and any(n.tag in STYLE_REFERENCES and n.get(q('val'))in source_styles.ids for n in xml(source['word/numbering.xml']).iter()):
+            raise ValueError('Cannot isolate a style referenced by shared automatic numbering definitions')
+        source_styles.rewrite(source_body)
+        if source_styles.ids:style_remaps.append({'part':index,'styles':source_styles.ids})
         common={'word/styles.xml':'word/styles.xml','word/fontTable.xml':'word/fontTable.xml','word/settings.xml':'word/settings.xml','word/footnotes.xml':'word/footnotes.xml','word/numbering.xml':'word/numbering.xml'}
         common.update({n:n for n in source if n.startswith('word/theme/')and n in parts});mapped=dict(common)
         overrides={n.get('PartName','').lstrip('/'):n.get('ContentType')for n in xml(source['[Content_Types].xml'])if n.tag=='{'+C+'}Override'}
@@ -152,6 +274,8 @@ def merge_docx(inputs,output):
             if name in mapped:return mapped[name]
             if name not in source:raise ValueError('Unresolved Word package dependency')
             target=posixpath.join(posixpath.dirname(name),'m'+str(index)+'-'+posixpath.basename(name));mapped[name]=target;parts[target]=source[name]
+            if name.endswith('.xml'):
+                copied_xml=xml(source[name]);source_styles.rewrite(copied_xml);parts[target]=serialized(copied_xml)
             if name in overrides:content_type(target,overrides[name])
             relationships=relpath(name)
             if relationships in source:
@@ -186,7 +310,7 @@ def merge_docx(inputs,output):
             old=ref.get(q('id'))
             if old not in note_ids:
                 if old not in normal:raise ValueError('Missing source footnote')
-                note_ids[old]=str(next_note);next_note+=1;note=deepcopy(normal[old]);note.set(q('id'),note_ids[old]);footnotes.append(note)
+                note_ids[old]=str(next_note);next_note+=1;note=deepcopy(normal[old]);note.set(q('id'),note_ids[old]);source_styles.rewrite(note);footnotes.append(note)
             ref.set(q('id'),note_ids[old])
         set_part_sections(source_body);scope_toc(source_body,'m'+str(index)+'_')
         final=body.find(q('sectPr'))
@@ -209,7 +333,7 @@ def merge_docx(inputs,output):
     update.set(q('val'),'false');parts['word/settings.xml']=serialized(settings)
     with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED)as archive:
         for name,raw in parts.items():archive.writestr(name,raw)
-    return {'parts':len(inputs),'sourceBodyExactlyPreserved':True,'sourceFootnotesExactlyPreserved':len(expected_notes),'imagesAndAudioLinksVerified':len(expected_payloads),'independentBookPagination':True}
+    return {'parts':len(inputs),'sourceBodyExactlyPreserved':True,'sourceFootnotesExactlyPreserved':len(expected_notes),'imagesAndAudioLinksVerified':len(expected_payloads),'independentBookPagination':True,'isolatedStyles':style_remaps}
 
 def page_annotations(reader,page,offset=0):
     """Comparable links, with resolved physical pages rather than object IDs."""

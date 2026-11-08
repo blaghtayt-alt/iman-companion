@@ -136,11 +136,45 @@ its reference hold is resolved. Generate a fresh preparation with those exact
 bindings before the final Word and visual checks. `automaticRelease` by itself
 cannot supply Word receipts, complete missing references, or grant visual acceptance.
 
+The translated Essential Hadith adapter separately covers fifty existing
+independently model-reviewed lessons across all nineteen non-Arabic languages.
+Its pinned inventory selects only the exact language sets in the published
+01-002, 01-003 and 01-004 review groups. It preserves full reader text, original
+lesson numbers, translator footnotes, credits and human-verification
+qualifications. A non-native publisher name or reference locator is allowed
+only through an exact source JSON pointer, source/inventory hashes and text
+offsets; ordinary native-language furniture validation remains strict. The
+heterogeneous 01-001 wrappers keep their existing pending status and are not
+inferred to be finished from a generic catalogue tag.
+
 Historical standalone article translations and legacy Seerah editions do not
-join these current Arabic books. Other languages' Essential Hadith materials
-retain their existing translation/source qualifications; this Arabic adapter
-does not reinterpret their different schemas. The exact approved normalized
-reader transaction above remains the path for adding such language scopes.
+join the current editions. The exact approved normalized reader transaction
+above remains the automatic path for later material in any of the twenty
+languages and four collections. `books/multilingual_readiness.py` reports every
+one of these eighty combinations, including missing current translations,
+unbound rows and explicit holds. The workflow saves that report as
+`language-readiness.json` and includes it in both build and publication reports.
+The initial installed-source inventory has forty-two ready scopes: Quran and
+Hadith in twenty languages, plus current Arabic Seerah and Articles.
+
+### A4 and audio layout
+
+All fresh builds use A4 (210 by 297 mm), 18 mm body margins and 8 mm header/footer
+distances. The source cover is centered and contained without distortion or
+cropping. On the first page of an audio-backed material, a non-splitting title
+and card row reserves the card's space in normal document flow. Its QR is at
+least 38 mm square including four clear modules, with printed modules at least
+0.6 mm wide. Long material identifiers enlarge the card instead of reducing
+scan size. PDF checks verify actual page dimensions, cover proportions, printed
+QR size and whitespace, decoded exact targets, and non-overlap with text.
+
+The audio-layout upgrade queues affected existing books, while retaining their
+old verified pair until the new exact files pass finalization. It does not
+invalidate or force a rebuild of unrelated unchanged books without audio.
+Russian, Vietnamese and Filipino Quran declarations now use the same bounded
+review inventory as the other translated Quran editions. Their previously
+verified pairs remain current only if the exact old member rows, pinned source
+bytes and settings still match; an unbound legacy Fatiha row gains no approval.
 
 Both `build-report.json` and `publication-report.json` include
 `preparedAwaitingReleaseQC` for the **entire** pending queue, including unchanged
