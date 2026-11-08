@@ -109,6 +109,7 @@ jobs:
           TOC_BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
           git show "${TOC_BASE_SHA}:books/render_uno.py" > "$RUNNER_TEMP/baseline-render_uno.py"
+          python tests/probe_renderer_toc_stages.py --root . --out "$RUNNER_TEMP/renderer-toc/stage-probe"
           python tests/check_renderer_toc.py --root . --out "$RUNNER_TEMP/renderer-toc" --baseline-renderer "$RUNNER_TEMP/baseline-render_uno.py"
       - uses: actions/upload-artifact@v4
         if: always()
