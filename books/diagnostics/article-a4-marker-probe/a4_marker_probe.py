@@ -18,7 +18,9 @@ VARIANTS = ['prepared-baseline', 'builder-baseline', 'marker-naskh', 'fit-text',
             'quote-field-locked', 'marker-language-en', 'kinsoku-ar', 'kinsoku-en',
             'uno-forbidden-en', 'uno-keep-together']
 DIGITS = '0123456789٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹'
-MARKERS = re.compile(r'\[[0-9\u0660-\u0669\u06f0-\u06f9\s,،:/–\-]+\]|\([0-9\u0660-\u0669\u06f0-\u06f9\s,،:/–\-]+\)')
+MARKER_INNER = r'[0-9\u0660-\u0669\u06f0-\u06f9\s,،:/–\-]+'
+MARKERS = re.compile('|'.join(re.escape(left) + MARKER_INNER + re.escape(right)
+                              for left, right in [('[' , ']'), (']', '['), ('(', ')'), (')', '(')]))
 
 
 def sha(data):
@@ -207,7 +209,7 @@ def pdf_evidence(file, png_dir, marker):
             row = {'page': number, 'text': match.group(), 'singleBaseline': max(ys) - min(ys) <= .75,
                    'characters': matched, 'sumAdvanceWidthPoints': sum(c['bbox'][2] - c['bbox'][0] for c in matched)}
             all_markers.append(row)
-            if match.group()[0] == marker[0] and sorted(c for c in match.group() if c in DIGITS) == expected_digits:
+            if match.group()[0] in {marker[0], marker[-1]} and sorted(c for c in match.group() if c in DIGITS) == expected_digits:
                 target_matches.append(row)
     complete = len(target_matches) == 1 and target_matches[0]['singleBaseline']
     return {'pages': len(pdf), 'sha256': sha(file.read_bytes()), 'targetMatches': target_matches,
