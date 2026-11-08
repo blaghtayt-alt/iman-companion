@@ -53,6 +53,9 @@ def main():
         elif declaration.get('adapter')=='arabic-essential-hadith-v1':
             from adapt_ar_hadith import generate
             normalized=generate(root,catalog,declaration,excluded_catalog_keys=publisher_coverage & expected_scope)
+        elif declaration.get('adapter')=='reviewed-translated-essential-hadith-v1':
+            from adapt_translated_hadith import generate
+            normalized=generate(root,catalog,declaration,excluded_catalog_keys=publisher_coverage & expected_scope)
         elif declaration.get('adapter')=='reviewed-ikhlas-v1':
             from adapt_ikhlas import generate
             normalized=generate(root,catalog,declaration)
@@ -80,7 +83,7 @@ def main():
         raw=file.read_bytes();unit=json.loads(raw)
         if args.language and (unit.get('language')!=args.language or unit.get('collection')!=args.collection):continue
         record={k:unit[k] for k in ['language','collection','id']};record.update(path=file.relative_to(root).as_posix(),sha256=sha(raw))
-        check_unit(unit,record)
+        check_unit(unit,record,root=root)
         # Explicit live bindings make the reader snapshot reproducible and prevent
         # a corrected/withdrawn source from leaving an older book online as latest.
         if not unit.get('inputBindings'):raise ValueError('Missing live input bindings: '+str(file))

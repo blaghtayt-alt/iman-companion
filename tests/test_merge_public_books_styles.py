@@ -1,4 +1,4 @@
-"""Conservative style compatibility and exact-reader preservation in DOCX merges."""
+"""Style isolation, fail-closed globals and exact-reader preservation in DOCX merges."""
 from copy import deepcopy
 from pathlib import Path
 import hashlib
@@ -84,21 +84,41 @@ class MergeStyleChecks(unittest.TestCase):
 
     def add_reference(self,file,part,tag):
         parts=self.parts(file)
-        tree=merge.xml(parts[part])if part in parts else etree.Element(q('fixture'),nsmap={'w':W})
-        etree.SubElement(tree,q(tag),{q('val'):STYLE})
+        if part in parts:
+            tree=merge.xml(parts[part])
+            content=next(note for note in tree if note.get(q('type'))in(None,'normal'))if part=='word/footnotes.xml'else tree
+            run=next(content.iter(q('r')))
+        else:
+            kind={'word/endnotes.xml':'endnotes','word/header1.xml':'header','word/footer1.xml':'footer','word/comments.xml':'comments','word/glossary/document.xml':'glossaryDocument'}[part]
+            root_tag={'header':'hdr','footer':'ftr','glossaryDocument':'glossaryDocument'}.get(kind,kind)
+            tree=etree.Element(q(root_tag),nsmap={'w':W})
+            run=etree.SubElement(etree.SubElement(tree,q('p')),q('r'))
+            etree.SubElement(run,q('t')).text='Referenced part '+part
+            relationships=merge.xml(parts['word/_rels/document.xml.rels'])
+            etree.SubElement(relationships,'{'+merge.P+'}Relationship',Id='fixture-part',Type=merge.R+'/'+kind,Target=part.removeprefix('word/'))
+            parts['word/_rels/document.xml.rels']=merge.serialized(relationships)
+            types=merge.xml(parts['[Content_Types].xml'])
+            etree.SubElement(types,'{'+merge.C+'}Override',PartName='/'+part,ContentType='application/vnd.openxmlformats-officedocument.wordprocessingml.'+kind+'+xml')
+            parts['[Content_Types].xml']=merge.serialized(types)
+        prop=run.find(q('rPr'))
+        if prop is None:prop=etree.SubElement(run,q('rPr'))
+        etree.SubElement(prop,q(tag),{q('val'):STYLE})
         parts[part]=merge.serialized(tree)
         self.write_parts(file,parts)
 
-    def reject(self,inputs):
-        with self.assertRaisesRegex(ValueError,'incompatible.*'+STYLE):
+    def reject(self,inputs,reason):
+        with self.assertRaisesRegex(ValueError,reason):
             merge.merge_docx(inputs,self.output)
         self.assertFalse(self.output.exists())
 
-    def normalized_runs(self,body):
+    def normalized_runs(self,body,reverse_styles=None):
         result=[]
         for run in body.iter(q('r')):
             run=deepcopy(run)
             for reference in run.iter(q('footnoteReference')):reference.set(q('id'),'NORMALIZED')
+            for reference in run.iter(q('rStyle')):
+                value=reference.get(q('val'))
+                if reverse_styles and value in reverse_styles:reference.set(q('val'),reverse_styles[value])
             result.append(merge.semantic(run))
         return result
 
@@ -127,39 +147,93 @@ class MergeStyleChecks(unittest.TestCase):
         self.assertTrue(result['sourceBodyExactlyPreserved'])
         self.assertEqual(result['sourceFootnotesExactlyPreserved'],2)
 
-    def test_used_character_difference_in_either_constituent_is_rejected(self):
+    def test_used_character_difference_preserves_both_styles_and_exact_runs(self):
         for used_source in (0,1):
             with self.subTest(used_source=used_source):
-                self.reject([self.fixture('first',True,use=used_source==0),self.fixture('second',use=used_source==1)])
+                inputs=[self.fixture('first',True,use=used_source==0),self.fixture('second',use=used_source==1)]
+                originals=[self.parts(file)for file in inputs]
+                result=merge.merge_docx(inputs,self.output);parts=self.parts(self.output)
+                mapping=result['isolatedStyles'][0]['styles'];self.assertIn(STYLE,mapping)
+                styles=merge.style_index(merge.xml(parts['word/styles.xml']))
+                self.assertEqual(styles[STYLE].find('.//'+q('vertAlign')).get(q('val')),'superscript')
+                self.assertIsNone(styles[mapping[STYLE]].find('.//'+q('vertAlign')))
+                body=merge.xml(parts['word/document.xml']).find(q('body'))
+                original_runs=[run for original in originals for run in self.normalized_runs(merge.xml(original['word/document.xml']).find(q('body')))]
+                self.assertEqual(self.normalized_runs(body,{new:old for old,new in mapping.items()}),original_runs)
+                self.assertEqual(self.normalized_notes(parts),[note for original in originals for note in self.normalized_notes(original)])
 
     def test_third_constituent_use_protects_earlier_conflict(self):
-        self.reject([self.fixture('first',True),self.fixture('second'),self.fixture('third',True,use=True)])
+        result=merge.merge_docx([self.fixture('first',True),self.fixture('second'),self.fixture('third',True,use=True)],self.output)
+        self.assertEqual([item['part']for item in result['isolatedStyles']],[2])
+        parts=self.parts(self.output);doc=merge.xml(parts['word/document.xml'])
+        run=next(run for run in doc.iter(q('r'))if ''.join(run.itertext()).startswith('  third'))
+        self.assertEqual(run.find('./'+q('rPr')+'/'+q('rStyle')).get(q('val')),STYLE)
+        self.assertEqual(merge.style_index(merge.xml(parts['word/styles.xml']))[STYLE].find('.//'+q('vertAlign')).get(q('val')),'superscript')
 
-    def test_references_in_every_word_xml_part_are_protected(self):
+    def test_references_in_every_copied_word_xml_part_are_remapped(self):
         for part in ('word/document.xml','word/footnotes.xml','word/endnotes.xml','word/header1.xml','word/footer1.xml','word/comments.xml','word/glossary/document.xml'):
             with self.subTest(part=part):
                 first=self.fixture('first',True);second=self.fixture('second')
-                self.add_reference(second,part,'rStyle');self.reject([first,second])
+                self.add_reference(second,part,'rStyle')
+                result=merge.merge_docx([first,second],self.output)
+                new=result['isolatedStyles'][0]['styles'][STYLE]
+                target=part if part in('word/document.xml','word/footnotes.xml')else str(Path(part).with_name('m2-'+Path(part).name))
+                copied=merge.xml(self.parts(self.output)[target])
+                self.assertEqual([node.get(q('val'))for node in copied.iter(q('rStyle'))],[new])
 
-    def test_all_style_dependency_kinds_are_protected_even_when_owner_unused(self):
-        for tag in ('pStyle','tblStyle','basedOn','link','next','styleLink','numStyleLink'):
+    def test_style_dependencies_are_isolated_even_when_owner_unused(self):
+        for tag in ('basedOn','link','next'):
             with self.subTest(tag=tag):
                 first=self.fixture('first',True);second=self.fixture('second')
-                self.add_reference(second,'word/numbering.xml'if tag in('styleLink','numStyleLink')else'word/styles.xml',tag)
-                self.reject([first,second])
+                for file in(first,second):
+                    parts=self.parts(file);styles=merge.xml(parts['word/styles.xml'])
+                    dependent=etree.SubElement(styles,q('style'),{q('type'):'character',q('styleId'):'Dependent'})
+                    etree.SubElement(dependent,q(tag),{q('val'):STYLE})
+                    parts['word/styles.xml']=merge.serialized(styles);self.write_parts(file,parts)
+                result=merge.merge_docx([first,second],self.output)
+                mapping=result['isolatedStyles'][0]['styles'];self.assertIn('Dependent',mapping)
+                styles=merge.style_index(merge.xml(self.parts(self.output)['word/styles.xml']))
+                self.assertEqual(styles['Dependent'].find(q(tag)).get(q('val')),STYLE)
+                self.assertEqual(styles[mapping['Dependent']].find(q(tag)).get(q('val')),mapping[STYLE])
 
-    def test_dependency_in_third_constituent_protects_earlier_conflict(self):
-        inputs=[self.fixture('first',True),self.fixture('second'),self.fixture('third',True)]
-        self.add_reference(inputs[2],'word/styles.xml','basedOn');self.reject(inputs)
+    def test_shared_numbering_style_references_still_fail_closed(self):
+        for tag in ('pStyle','styleLink','numStyleLink'):
+            with self.subTest(tag=tag):
+                inputs=[self.fixture('first',True),self.fixture('second')]
+                for file in inputs:
+                    parts=self.parts(file);numbering=etree.Element(q('numbering'),nsmap={'w':W})
+                    definition=etree.SubElement(numbering,q('abstractNum'),{q('abstractNumId'):'1'})
+                    etree.SubElement(definition,q(tag),{q('val'):STYLE})
+                    parts['word/numbering.xml']=merge.serialized(numbering);self.write_parts(file,parts)
+                self.reject(inputs,'shared automatic numbering')
 
-    def test_default_character_styles_are_never_ignored(self):
-        for value in ('1','true','on','unexpected'):
-            for default_source in (0,1):
-                with self.subTest(value=value,default_source=default_source):
-                    self.reject([self.fixture('first',True,default=value if default_source==0 else None),self.fixture('second',default=value if default_source==1 else None)])
+    def test_default_character_styles_are_explicitly_preserved(self):
+        for value in ('1','true','on'):
+            with self.subTest(value=value):
+                result=merge.merge_docx([self.fixture('first',True,default=value),self.fixture('second',default=value)],self.output)
+                mapping=result['isolatedStyles'][0]['styles'];parts=self.parts(self.output)
+                styles=merge.style_index(merge.xml(parts['word/styles.xml']))
+                self.assertEqual(styles[STYLE].get(q('default')),value)
+                self.assertIsNone(styles[mapping[STYLE]].get(q('default')))
+                body=merge.xml(parts['word/document.xml'])
+                for run in body.iter(q('r')):
+                    if 'second'in ''.join(run.itertext()):self.assertEqual(run.find('./'+q('rPr')+'/'+q('rStyle')).get(q('val')),mapping[STYLE])
+
+    def test_unknown_default_flags_and_unrepresentable_absent_defaults_fail_closed(self):
+        for default_source in (0,1):
+            with self.subTest(default_source=default_source):
+                self.reject([self.fixture('first',True,default='unexpected'if default_source==0 else None),self.fixture('second',default='unexpected'if default_source==1 else None)],'default style flag')
+        self.reject([self.fixture('first',True,default='1'),self.fixture('second')],'incompatible implicit style defaults')
 
     def test_default_in_later_constituent_protects_earlier_conflict(self):
-        self.reject([self.fixture('first',True),self.fixture('second'),self.fixture('third',True,default='1')])
+        result=merge.merge_docx([self.fixture('first',True),self.fixture('second'),self.fixture('third',True,default='1')],self.output)
+        mapping=next(item['styles']for item in result['isolatedStyles']if item['part']==3)
+        parts=self.parts(self.output);styles=merge.style_index(merge.xml(parts['word/styles.xml']))
+        self.assertFalse(any(style.get(q('default'))in('1','true','on')for style in styles.values()if style.get(q('type'))=='character'))
+        for run in merge.xml(parts['word/document.xml']).iter(q('r')):
+            text=''.join(run.itertext());reference=run.find('./'+q('rPr')+'/'+q('rStyle'))
+            if 'third'in text:self.assertEqual(reference.get(q('val')),mapping[STYLE])
+            elif text:self.assertIsNone(reference)
 
     def test_explicit_false_default_flag_is_not_implicit_use(self):
         for value in ('0','false','off'):
@@ -167,12 +241,33 @@ class MergeStyleChecks(unittest.TestCase):
                 merge.merge_docx([self.fixture('first',True,default=value),self.fixture('second',default=value)],self.output)
                 self.assertTrue(self.output.exists());self.output.unlink()
 
-    def test_unused_paragraph_or_table_style_conflicts_still_fail(self):
+    def test_unused_style_conflicts_keep_each_constituent_definition(self):
         for kind in ('paragraph','table','numbering'):
-            with self.subTest(kind=kind):self.reject([self.fixture('first',True,kind),self.fixture('second',kind=kind)])
+            with self.subTest(kind=kind):
+                result=merge.merge_docx([self.fixture('first',True,kind),self.fixture('second',kind=kind)],self.output)
+                styles=merge.style_index(merge.xml(self.parts(self.output)['word/styles.xml']))
+                new=result['isolatedStyles'][0]['styles'][STYLE]
+                self.assertEqual(styles[new].get(q('type')),kind)
+                self.assertIsNone(styles[new].find('.//'+q('vertAlign')))
+                self.assertIsNotNone(styles[STYLE].find('.//'+q('vertAlign')))
 
-    def test_type_mismatch_cannot_be_ignored(self):
-        self.reject([self.fixture('first',True,'character'),self.fixture('second',kind='paragraph')])
+    def test_conflicting_style_types_are_separate(self):
+        result=merge.merge_docx([self.fixture('first',True,'character'),self.fixture('second',kind='paragraph')],self.output)
+        styles=merge.style_index(merge.xml(self.parts(self.output)['word/styles.xml']))
+        self.assertEqual(styles[STYLE].get(q('type')),'character')
+        self.assertEqual(styles[result['isolatedStyles'][0]['styles'][STYLE]].get(q('type')),'paragraph')
+
+    def test_global_defaults_and_inherited_list_numbering_still_fail_closed(self):
+        first=self.fixture('first');second=self.fixture('second')
+        parts=self.parts(second);styles=merge.xml(parts['word/styles.xml'])
+        defaults=etree.SubElement(styles,q('docDefaults'));etree.SubElement(defaults,q('rPrDefault'))
+        parts['word/styles.xml']=merge.serialized(styles);self.write_parts(second,parts)
+        self.reject([first,second],'incompatible document style defaults')
+        second=self.fixture('second');parts=self.parts(second);styles=merge.xml(parts['word/styles.xml'])
+        normal=merge.style_index(styles)['Normal'];props=etree.SubElement(normal,q('pPr'))
+        etree.SubElement(etree.SubElement(props,q('numPr')),q('numId'),{q('val'):'1'})
+        parts['word/styles.xml']=merge.serialized(styles);self.write_parts(second,parts)
+        self.reject([first,second],'automatic list numbering')
 
     def test_identical_used_character_style_is_still_compatible(self):
         merge.merge_docx([self.fixture('first',True,use=True),self.fixture('second',True,use=True)],self.output)

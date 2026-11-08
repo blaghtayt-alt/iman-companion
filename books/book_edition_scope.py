@@ -86,12 +86,22 @@ def select(root,catalog,declaration):
             ids={s['key'].split(':')[0] for s in data['sections']}
             if len(ids)!=1: raise ValueError('Arabic binding mixes surahs')
             historical[('tadabbur','ar',next(iter(ids))+':extended')]=(data,[data['sourceJSON']])
+        elif data.get('schema')=='iman-existing-translated-hadith-source-bindings-v1':
+            if collection!='hadith' or lang=='ar':raise ValueError('Translated Hadith source binding in another edition')
+            for record in data.get('records',[]):
+                if record.get('language')!=lang:continue
+                identity=('essential-hadith',lang,str(record.get('id')))
+                if identity in historical:raise ValueError('Duplicate translated Hadith review identity')
+                historical[identity]=(record,record.get('sourceFiles',[])+record.get('sourceConditions',[]))
         else: raise ValueError('Unsupported source-owner review evidence schema')
     selected=[]; unknown=[]; decisions=[]
     for row in potential:
         basis=typed_basis(root,row)
         if basis is None and key(row) in historical:
             record,files=historical[key(row)]
+            if record.get('existingPublication',{}).get('catalogField'):
+                from reviewed_hadith_sources import validate_record
+                validate_record(root,record,row,catalog)
             revision=record.get('sourceRevisionSHA256',record.get('sourceOriginalSHA256'))
             if revision and revision not in row.get('sourceHashes',[]): raise ValueError('Catalogue source revision differs from historical review')
             for item in files:

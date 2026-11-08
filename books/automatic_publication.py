@@ -33,10 +33,18 @@ def require_word_layout(declaration,folder,book,language):
         if result.get('word') is None:raise ValueError('Actual Word layout receipt was not verified')
         book['independentWordLayoutVerification']=result
 
+def requires_qr_layout_update(book):
+    """Queue the larger A4 QR without withdrawing an unchanged verified book."""
+    if not book.get('audioPanels'):return False
+    from build_books import expected_page_layout
+    return book.get('pageLayout')!=expected_page_layout()
+
 def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
     from preparation_queue import load as load_queue,still_prepared,record,update,summaries
     out.mkdir(parents=True,exist_ok=True)
     report={'sourceCommit':commit,'built':[],'prepared':[],'unchanged':[],'failed':[]}
+    readiness=out/'language-readiness.json'
+    if readiness.is_file():report['languageReadiness']=read(readiness)
     approved_audio=root/'books/.cache/approved-audio-intake-report.json'
     report['approvedAudioIntakeErrors']=read(approved_audio).get('errors',[])if approved_audio.exists()else[]
     existing=read(root/'books/published-library.json')if(root/'books/published-library.json').exists()else{'schema':SCHEMA,'entries':[]}
@@ -44,7 +52,7 @@ def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
     pending={scope_key(row):row for row in load_queue(root)['entries']};new_pending=[];completed=[]
     for declaration in scopes(root):
         language,collection=key=scope_key(declaration)
-        if key in previous and current(root,previous[key]):report['unchanged'].append({'language':language,'collection':collection});continue
+        if key in previous and current(root,previous[key]) and not requires_qr_layout_update(previous[key]['book']):report['unchanged'].append({'language':language,'collection':collection});continue
         if key in pending and still_prepared(root,pending[key]):
             report['unchanged'].append({'language':language,'collection':collection,'state':pending[key]['state']});continue
         folder=out/(language+'-'+collection);folder.mkdir(exist_ok=True)
@@ -179,6 +187,7 @@ def publish(root,out,commit,repo,tag,execute=run):
     result['finalizedIntakeErrors']=build_report.get('finalizedIntakeErrors',[])
     intake=root/'books/.cache/material-intake-report.json'
     result['sourceTransactionErrors']=read(intake).get('errors',[]) if intake.exists() else []
+    if 'languageReadiness' in build_report:result['languageReadiness']=build_report['languageReadiness']
     (out/'publication-report.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     return result
 

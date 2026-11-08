@@ -4,6 +4,29 @@ import zipfile
 from PIL import Image
 import zxingcpp
 
+CARD_LAYOUTS={'modern-corner-v2','modern-corner-a4-v3'}
+
+def validate_card_geometry(panel,item,page):
+    """Reject shrinking, clipping and text collisions in the printed layout."""
+    if panel.get('layout') not in CARD_LAYOUTS:return
+    width=item['x1']-item['x0'];height=item['bottom']-item['top']
+    if min(item['x0'],item['top'])<-.5 or item['x1']>page.width+.5 or item['bottom']>page.height+.5:
+        raise ValueError('Audio card extends outside the printed page')
+    if panel.get('layout')=='modern-corner-a4-v3':
+        width_mm=width*25.4/72;height_mm=height*25.4/72
+        if abs(width_mm-panel['cardWidthMM'])>.6 or abs(height_mm-panel['cardHeightMM'])>.6:
+            raise ValueError('A4 audio card was scaled or distorted during export')
+        scale=min(width_mm/panel['cardWidthMM'],height_mm/panel['cardHeightMM'])
+        if panel.get('printedQRModuleMM',0)*scale<.6 or panel.get('qrSideMM',0)*scale<35:
+            raise ValueError('Printed A4 audio QR is too small for easy scanning')
+        if panel.get('quietZoneModules',0)<4:raise ValueError('Audio QR lacks its clear quiet zone')
+    if item['top']>125:raise ValueError('Audio card is not at the top of the lesson page')
+    if panel['corner']=='top-left' and item['x0']>75:raise ValueError('RTL audio card is not at the left corner')
+    if panel['corner']=='top-right' and item['x1']<page.width-75:raise ValueError('LTR audio card is not at the right corner')
+    for word in page.extract_words():
+        if min(word['x1'],item['x1'])-max(word['x0'],item['x0'])>.5 and min(word['bottom'],item['bottom'])-max(word['top'],item['top'])>.5:
+            raise ValueError('Audio card overlaps the lesson text')
+
 def complete_card_border(bitmap):
     """Check the visible rendered frame, which can clip while a QR still scans."""
     pixels=bitmap.convert('RGB');w,h=pixels.size;strip=max(3,round(min(w,h)*.028))
@@ -35,24 +58,20 @@ def validate_audio_qr(docx,pdf,panels):
             except (OSError,ValueError):continue
     if not expected.issubset(word):raise ValueError('Audio QR missing or unreadable in editable Word book')
     for number,page in enumerate(pdf.pages,1):
-        # QR images are square, small, and on content pages. The cover is untouched.
+        # Include enlarged A4 cards and historical compact cards, not cover art.
         for item in page.images:
             width=item['x1']-item['x0'];height=item['bottom']-item['top']
-            if not(45<width<190 and 40<height<140 and .8<=width/height<=2.5):continue
+            if not(45<width<280 and 40<height<210 and .8<=width/height<=2.5):continue
             bounds=(max(0,item['x0']-2),max(0,item['top']-2),min(page.width,item['x1']+2),min(page.height,item['bottom']+2))
             bitmap=page.crop(bounds).to_image(resolution=240,antialias=False).original
             for result in zxingcpp.read_barcodes(bitmap):
                 if result.text in expected:
                     panel=next(p for p in panels if p['playerUrl']==result.text)
-                    if panel.get('layout')=='modern-corner-v2':
+                    if panel.get('layout') in CARD_LAYOUTS:
                         scale=bitmap.width/(bounds[2]-bounds[0])
                         visible_card=bitmap.crop((round((item['x0']-bounds[0])*scale),round((item['top']-bounds[1])*scale),round((item['x1']-bounds[0])*scale),round((item['bottom']-bounds[1])*scale)))
                         if not complete_card_border(visible_card):raise ValueError('Audio card border is clipped in the rendered PDF')
-                        if item['top']>125:raise ValueError('Audio card is not at the top of the lesson page')
-                        if panel['corner']=='top-left' and item['x0']>75:raise ValueError('RTL audio card is not at the left corner')
-                        if panel['corner']=='top-right' and item['x1']<page.width-75:raise ValueError('LTR audio card is not at the right corner')
-                        for word in page.extract_words():
-                            if min(word['x1'],item['x1'])-max(word['x0'],item['x0'])>.5 and min(word['bottom'],item['bottom'])-max(word['top'],item['top'])>.5:raise ValueError('Audio card overlaps the lesson text')
+                        validate_card_geometry(panel,item,page)
                     printed[result.text]=number
     if set(printed)!=expected:raise ValueError('Audio QR missing or unreadable in rendered PDF')
     return [{'playerUrl':url,'page':printed[url]} for url in sorted(expected)]

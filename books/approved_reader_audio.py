@@ -55,7 +55,7 @@ def _validate_source(root,record,pending_intake=None):
     if not unit_path.is_relative_to((root/'books/units/current').resolve()):raise ValueError('Audio must bind a current normalized public reader')
     unit_raw=unit_path.read_bytes();unit=json.loads(unit_raw)
     if(unit.get('id'),unit.get('language'),unit.get('collection'))!=(record['materialId'],record['language'],record['collection']):raise ValueError('Recording belongs to a different material, language or book')
-    check_unit(unit,{'id':record['materialId'],'language':record['language'],'collection':record['collection']},read(root/'books/assets/quran-arabic.json'))
+    check_unit(unit,{'id':record['materialId'],'language':record['language'],'collection':record['collection']},read(root/'books/assets/quran-arabic.json'),root=root)
     inputs=bindings(root,unit.get('inputBindings',[]))
     if record['sourceSHA256']not in unit['sourceHashes']:raise ValueError('Recording source revision is no longer current')
     if record.get('readerTextSHA256')and record['readerTextSHA256']!=unit['readerTextSHA256']:raise ValueError('Current reader text changed after recording approval')

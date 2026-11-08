@@ -13,6 +13,13 @@ The Arabic adapters cover 47 Articles, 286 Hadith lessons in 12 chapters, and
 the three current supplied adult Seerah chapters. Historical, held, and
 superseded material does not become eligible merely because a file exists.
 
+All twenty configured languages use the same automatic source intake for all
+four categories. The translated Hadith adapter also prepares the fifty already
+reviewed translations of lessons 01-002 through 01-004 across the other nineteen
+languages, preserving each language's actual lesson subset and original source
+qualifications. It does not fill gaps with another language or silently include
+unfinished lesson 01-001 wrappers.
+
 ## What happens automatically
 
 An approved material publication or a relevant push to `main` runs the same
@@ -27,6 +34,29 @@ existing adapters without replacing unrelated current material.
 check. `published-library.json` records verified public pairs. Successful
 publication removes only the completed scopes from the preparation queue and
 regenerates the applicable category links and language bundles.
+
+Each run saves `language-readiness.json` and reports all eighty language/category
+combinations in its publication receipt. It distinguishes eligible source,
+unbound material, explicit holds, legacy editions, and missing current
+translations. When an approved source transaction supplies the first current
+material for a missing language/category, the same workflow creates its scope
+and prepares it automatically.
+
+## A4 pages and scannable audio codes
+
+New book builds use true A4 pages (210 by 297 mm) with 18 mm body margins. The
+original cover is centered and fitted without stretching or cropping. Each
+applicable material's opening page reserves a separate title and audio-card row,
+so the card cannot float over reader text. The QR is at least 38 mm square,
+including a four-module clear border; longer identifiers enlarge the card
+instead of shrinking its modules. Right-to-left and left-to-right languages
+place the card on the appropriate outer side.
+
+Existing audio books are queued for the A4/QR upgrade. Their previous verified
+downloads stay available until the replacement passes its Word, PDF and visual
+checks. Unchanged books without audio retain their verified files until their
+next normal rebuild. A code is inserted only when an exact matching approved
+audio asset exists.
 
 ## Completing a prepared edition
 

@@ -1,4 +1,4 @@
-"""Render a real QR and native app type into a compact modern corner card.
+"""Render a real QR and native app type into a printable opening-page card.
 
 The AI-generated design is a visual reference only. Every barcode pixel here is
 generated locally and every caption is shaped with the actual pinned app font.
@@ -10,6 +10,10 @@ from PIL import Image
 import qrcode
 
 PIXELS_PER_MM=12
+QR_BOX_PIXELS=8
+QR_BORDER_MODULES=4
+MIN_CARD_WIDTH_MM=70
+MIN_CARD_HEIGHT_MM=45
 SHORT_CAPTIONS={
 'en':'Scan to\nlisten','ar':'امسح\nللاستماع','ur':'اسکین کریں\nاور سنیں',
 'id':'Pindai\n& dengar','ms':'Imbas\n& dengar','bn':'স্ক্যান করে\nশুনুন',
@@ -26,17 +30,26 @@ def chrome_binary():
         if candidate and Path(candidate).is_file():return str(candidate)
     raise RuntimeError('Audio card rendering needs headless Chrome; set IMAN_BOOK_CHROME to its installed executable')
 
+def qr_artwork(url):
+    """Return unscaled QR pixels and their physical print dimensions."""
+    qr=qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_M,box_size=QR_BOX_PIXELS,border=QR_BORDER_MODULES)
+    qr.add_data(url);qr.make(fit=True)
+    image=qr.make_image(fill_color='black',back_color='white').convert('RGB')
+    return image,{'qrModules':len(qr.get_matrix()),'qrSideMM':image.width/PIXELS_PER_MM,'quietZoneModules':QR_BORDER_MODULES,'printedModuleMM':QR_BOX_PIXELS/PIXELS_PER_MM}
+
 def render_card(url,language,font_path,cache_root):
     font_path=Path(font_path);cache_root=Path(cache_root).resolve();cache_root.mkdir(parents=True,exist_ok=True)
     caption=SHORT_CAPTIONS[language]
-    key=hashlib.sha256(('corner-audio-v2-emerald-caption|'+url+'|'+language+'|'+caption).encode()+font_path.read_bytes()).hexdigest()
+    key=hashlib.sha256(('corner-audio-v3-a4-large|'+url+'|'+language+'|'+caption).encode()+font_path.read_bytes()).hexdigest()
     target=cache_root/(key+'.png');metrics=cache_root/(key+'.json')
     if target.is_file() and metrics.is_file():return target,json.loads(metrics.read_text(encoding='utf-8'))
-    qr=qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_M,box_size=5,border=4);qr.add_data(url);qr.make(fit=True)
-    image=qr.make_image(fill_color='black',back_color='white').convert('RGB');qr_size=image.width
-    width=max(600,qr_size+315);height=max(360,qr_size+44)
-    # Keep a legible 11 pt caption and >=0.42 mm printed QR modules; do not shrink.
-    if width/PIXELS_PER_MM>61:raise ValueError('Material ID is too long for a compact printable audio code')
+    image,qr_metrics=qr_artwork(url);qr_size=image.width
+    width=max(MIN_CARD_WIDTH_MM*PIXELS_PER_MM,qr_size+315)
+    height=max(MIN_CARD_HEIGHT_MM*PIXELS_PER_MM,qr_size+44)
+    # The QR grows with the encoded identity; never shrink it to fit the card.
+    # 8 pixels per module at 12 px/mm gives 0.67 mm printed modules and keeps
+    # the four-module white quiet zone separate from the decorative frame.
+    if width/PIXELS_PER_MM>95:raise ValueError('Material ID is too long for the printable audio code')
     qr_buffer=BytesIO();image.save(qr_buffer,format='PNG')
     font=base64.b64encode(font_path.read_bytes()).decode();qr_data=base64.b64encode(qr_buffer.getvalue()).decode()
     text_left=22+qr_size+14;text_width=width-text_left-22
@@ -67,7 +80,7 @@ document.fonts.ready.then(()=>{{const e=document.querySelector('.caption'),b=e.g
         with Image.open(capture) as screenshot:
             if screenshot.width<width or screenshot.height<height:raise ValueError('Corner card screenshot is clipped')
             screenshot.crop((0,0,width,height)).convert('RGB').save(target,format='PNG')
-        data={'widthMM':width/PIXELS_PER_MM,'heightMM':height/PIXELS_PER_MM,'qrModules':len(qr.get_matrix()),'printedModuleMM':5/PIXELS_PER_MM,'captionFontPt':46*72/(PIXELS_PER_MM*25.4),'caption':caption,'fontSHA256':hashlib.sha256(font_path.read_bytes()).hexdigest()}
+        data={'widthMM':width/PIXELS_PER_MM,'heightMM':height/PIXELS_PER_MM,**qr_metrics,'captionFontPt':46*72/(PIXELS_PER_MM*25.4),'caption':caption,'fontSHA256':hashlib.sha256(font_path.read_bytes()).hexdigest()}
         metrics.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8');return target,data
     finally:
         # Only the owned temporary directory below the already checked cache root.

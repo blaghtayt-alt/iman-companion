@@ -7,13 +7,14 @@ from pathlib import Path
 import argparse,hashlib,json,re,sys,zipfile,uuid,datetime
 from copy import deepcopy
 from docx import Document
-from docx.shared import Inches,Pt,RGBColor
+from docx.shared import Mm,Pt,RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH,WD_LINE_SPACING
 from docx.enum.section import WD_SECTION
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.text.paragraph import Paragraph
 from lxml import etree
+from PIL import Image
 from locale_copy import locale
 from reader_xml import body_text
 from material_audio import load_registry,add_audio_panel
@@ -26,6 +27,9 @@ RTL={'ar','ur','fa'}
 KINDS={'paragraph','heading','ayah','translation','quotation','note','credit','list-item'}
 COLLECTIONS={'tadabbur-extended','articles','seerah','hadith'}
 ARABIC_RUN=r'[\u0600-\u06ff\u0750-\u077f\u0870-\u08ff\ufb50-\ufdff\ufe70-\ufeff]'
+PAGE_LAYOUT={'schema':'iman-book-page-layout-v1','paper':'A4','widthMM':210,'heightMM':297,'contentMarginMM':18,'coverFit':'contain'}
+
+def expected_page_layout():return dict(PAGE_LAYOUT)
 
 def digest(data):return hashlib.sha256(data).hexdigest()
 def load(path):return json.loads(path.read_text(encoding='utf-8-sig'))
@@ -37,13 +41,14 @@ def inside(root,relative):
     file=(root/relative).resolve()
     if root.resolve() not in file.parents:raise ValueError('Input escapes repository: '+relative)
     return file
-def check_unit(unit,record,quran=None):
+def check_unit(unit,record,quran=None,*,root=None):
     if unit.get('schema')!=SCHEMA:raise ValueError('Unsupported book input schema')
     for key in ['language','collection','id']:
         if unit[key]!=record[key]:raise ValueError('Manifest identity mismatch: '+key)
     if not isinstance(unit['id'],str) or not unit['id'].strip():raise ValueError('Reader unit needs a nonempty string identity')
     if unit['collection'] not in COLLECTIONS:raise ValueError('Unknown collection')
     if unit['collection']=='hadith' and (type(unit.get('order')) is not int or unit['order']<=0):raise ValueError('Hadith unit needs its canonical positive source order')
+    if unit.get('sourceLessonNumber') is not None and (unit['collection']!='hadith' or type(unit['sourceLessonNumber']) is not int or unit['sourceLessonNumber']<1 or unit['sourceLessonNumber']!=unit.get('lesson')):raise ValueError('Visible Hadith lesson number must match its explicit source position')
     if unit['collection']=='hadith' and (unit.get('hadithEdition')!='new-extended' or any(b.get('collection')!='essential-hadith' for b in unit.get('catalogBindings',[]))):raise ValueError('Only the new extended Essential Iman Hadith lessons belong in this book; reject the legacy short collection')
     if unit.get('complete') is not True or unit.get('reviewGate')!='published-current':raise ValueError('Unit not cleared for current publication')
     if not unit.get('sourceHashes') or not all(re.fullmatch('[a-f0-9]{64}',x) for x in unit['sourceHashes']):raise ValueError('Missing source binding')
@@ -67,7 +72,13 @@ def check_unit(unit,record,quran=None):
             if b.get('role','body') not in ROLES or any(s.get('role','body') not in ROLES for s in b.get('spans',[])):raise ValueError('Unknown semantic color role')
             if b.get('sourceCredit'):raise ValueError('Replace legacy website sourceCredit with original-book citations or a localized translationCredit')
             if b.get('preservedIdentifiers') and b['kind']!='note':raise ValueError('Source identifiers may only exempt literal reference notes')
-            if b['kind'] not in {'ayah','credit'}:native_text(b['text'],unit['language'],preserved_identifiers=b.get('preservedIdentifiers',()) if b['kind']=='note' else ())
+            if b.get('sourceLiteralProof'):
+                if b['kind'] not in {'paragraph','quotation','list-item'}:raise ValueError('Source-literal exceptions are limited to exact reader paragraphs')
+                proof=b['sourceLiteralProof']
+                if proof.get('materialId')!=unit['id'] or proof.get('source') not in unit.get('inputBindings',[]) or proof.get('inventory') not in unit.get('inputBindings',[]):raise ValueError('Source literal is not bound to this complete reader unit')
+                from source_literal_text import check_text
+                check_text(root,b['text'],unit['language'],[proof],exact=True)
+            elif b['kind'] not in {'ayah','credit'}:native_text(b['text'],unit['language'],preserved_identifiers=b.get('preservedIdentifiers',()) if b['kind']=='note' else ())
             for span in b.get('spans',[]):
                 note_texts=span.get('noteTexts',[]);note_identifiers=span.get('noteIdentifiers',[[] for _ in note_texts])
                 if not isinstance(note_identifiers,list) or len(note_identifiers)!=len(note_texts):raise ValueError('Source note identifier bindings do not match the notes')
@@ -212,20 +223,21 @@ def canonical_key(unit):
     return (*value,unit['id'])
 
 def cover_page(doc,cover,width,height):
-    """Place the untouched cover at the page edges using its original 2:3 ratio."""
+    """Center the complete, untouched cover on the page without cropping it."""
     sec=doc.sections[0];sec.page_width=width;sec.page_height=height
     sec.top_margin=sec.bottom_margin=sec.left_margin=sec.right_margin=0
     sec.header_distance=sec.footer_distance=0
     p=doc.add_paragraph();p.paragraph_format.space_before=p.paragraph_format.space_after=Pt(0);p.paragraph_format.line_spacing=Pt(1)
-    # LibreOffice can round a custom 9-inch page up by about 1.2 pt. Keep the
-    # source image's 2:3 ratio and add a small centered bleed so it still covers
-    # the entire rendered page without stretching the artwork.
-    inline=p.add_run().add_picture(str(cover),width=width+Pt(4/3),height=height+Pt(2))._inline
+    with Image.open(cover) as image:pixel_width,pixel_height=image.size
+    scale=min(width/pixel_width,height/pixel_height)
+    picture_width=round(pixel_width*scale);picture_height=round(pixel_height*scale)
+    inline=p.add_run().add_picture(str(cover),width=picture_width,height=picture_height)._inline
     anchor=OxmlElement('wp:anchor')
     for k,v in {'distT':0,'distB':0,'distL':0,'distR':0,'simplePos':0,'relativeHeight':0,'behindDoc':1,'locked':0,'layoutInCell':1,'allowOverlap':1}.items():anchor.set(k,str(v))
     el(anchor,'wp:simplePos',{'x':0,'y':0})
     for axis in ['H','V']:
-        pos=el(anchor,'wp:position'+axis,{'relativeFrom':'page'});el(pos,'wp:posOffset').text=str(-Pt(2/3) if axis=='H' else 0)
+        offset=(width-picture_width)/2 if axis=='H' else (height-picture_height)/2
+        pos=el(anchor,'wp:position'+axis,{'relativeFrom':'page'});el(pos,'wp:posOffset').text=str(round(offset))
     for tag in ['wp:extent','wp:effectExtent']:
         item=inline.find(qn(tag))
         if item is not None:anchor.append(deepcopy(item))
@@ -254,9 +266,9 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
     title=lc['titles'][collection];size=13 if lang=='ur' else (12 if lang in RTL|{'bn','hi','th'} else 11);line=28 if lang=='ur' else (22 if lang in RTL else 18)
     cover=inside(root,lc['covers'][collection]);expected=lc['coverHashes'][collection]
     if digest(cover.read_bytes())!=expected:raise ValueError('Cover hash mismatch')
-    doc=Document();sec=cover_page(doc,cover,Inches(6),Inches(9))
-    sec.page_width=Inches(6);sec.page_height=Inches(9)
-    sec.top_margin=sec.bottom_margin=Inches(.62);sec.left_margin=sec.right_margin=Inches(.58);sec.header_distance=sec.footer_distance=Inches(.28)
+    doc=Document();sec=cover_page(doc,cover,Mm(210),Mm(297))
+    sec.page_width=Mm(210);sec.page_height=Mm(297)
+    sec.top_margin=sec.bottom_margin=Mm(18);sec.left_margin=sec.right_margin=Mm(18);sec.header_distance=sec.footer_distance=Mm(8)
     sec.header.is_linked_to_previous=False;sec.footer.is_linked_to_previous=False;sec.different_first_page_header_footer=False
     for name in ['TOC 1','TOC 2']:
         if name not in doc.styles:doc.styles.add_style(name,1)
@@ -314,7 +326,7 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
         aggregate_hadith=unit['collection']=='hadith' and any(s.get('hadith') is True for s in unit['sections'])
         display_title=unit['title']
         if unit['collection']=='hadith' and not aggregate_hadith:
-            hadith_count+=1;display_title=f"{lc['hadithLabel']} {digits(hadith_count,lang)}"
+            hadith_count+=1;display_title=f"{lc['hadithLabel']} {digits(unit.get('sourceLessonNumber',hadith_count),lang)}"
         new_page=unit_index==0 or unit['collection']!='hadith' or (unit.get('chapter') is not None and unit.get('chapter')!=last_chapter)
         chapter_title=unit.get('chapterTitle') if unit['collection']=='hadith' else None
         audio_heading_paragraphs=[]
@@ -383,13 +395,14 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
         index=rendered.find(text,offset)
         if index<0:raise ValueError('Reader text lost or reordered in Word serialization')
         offset=index+len(text)
-    (out/(target.name+'.reader-checks.json')).write_text(json.dumps({'body':preserved,'footnotes':notes.texts,'footnoteIdentifiers':notes.identifiers},ensure_ascii=False),encoding='utf-8')
+    source_literal_proofs=[b['sourceLiteralProof'] for unit in units for section in unit['sections'] for b in section['blocks'] if b.get('sourceLiteralProof')]
+    (out/(target.name+'.reader-checks.json')).write_text(json.dumps({'body':preserved,'footnotes':notes.texts,'footnoteIdentifiers':notes.identifiers,'sourceLiteralProofs':source_literal_proofs},ensure_ascii=False),encoding='utf-8')
     public_units=[]
     for i,u in enumerate(units,1):
         label=f"{lc['hadithLabel']} {digits(i,lang)}" if u['collection']=='hadith' and u.get('titleIsReference') else u['title']
         native_text(label,lang)
         public_units.append({'id':u['id'],'title':label,'sourceHashes':u['sourceHashes'],'readerTextSHA256':u['readerTextSHA256']})
-    result={'language':lang,'languageLabel':lc['nativeName'],'collection':collection,'collectionLabel':title,'file':target.name,'sha256':digest(target.read_bytes()),'units':public_units,'sourceCommit':commit,'bodyColor':'#000000','rtl':lang in RTL,'arabicAyahs':'centered','quranReferences':'directly after quoted ayah','referencePresentation':'original Hadith collection and number in footnotes; no retrieval-site labels','footnoteCount':len(notes.texts),'hadithCount':hadith_count,'audioPanels':audio_panels}
+    result={'language':lang,'languageLabel':lc['nativeName'],'collection':collection,'collectionLabel':title,'file':target.name,'sha256':digest(target.read_bytes()),'units':public_units,'sourceCommit':commit,'bodyColor':'#000000','rtl':lang in RTL,'arabicAyahs':'centered','quranReferences':'directly after quoted ayah','referencePresentation':'original Hadith collection and number in footnotes; no retrieval-site labels','footnoteCount':len(notes.texts),'hadithCount':hadith_count,'audioPanels':audio_panels,'pageLayout':expected_page_layout()}
     if edition_report:
         result['collectionLabel']=scoped_label
         result['editionScope']={'policy':edition_report['policy'],'includedMaterialTitles':scope_titles,'includedMaterialIds':[u['id'] for u in units]}
@@ -450,7 +463,7 @@ def main():
         if identity in identities:raise ValueError('Duplicate book unit')
         identities.add(identity);source=inside(root,record['path']);raw=source.read_bytes()
         if digest(raw)!=record['sha256']:raise ValueError('Manifest input hash mismatch')
-        unit=load(source);check_unit(unit,record,quran)
+        unit=load(source);check_unit(unit,record,quran,root=root)
         for binding in unit.get('inputBindings',[]):
             if digest(inside(root,binding['path']).read_bytes())!=binding['sha256']:raise ValueError('Book source changed after indexing: '+binding['path'])
         groups.setdefault(identity[:2],[]).append(unit)
