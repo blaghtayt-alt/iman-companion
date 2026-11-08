@@ -53,9 +53,21 @@ def reader_text(path):
     paragraphs = [''.join(t.text or '' for t in p.iter(tag('t')))
                   for p in body.iter(tag('p')) if style(p) not in TOC]
     notes = etree.fromstring(parts['word/footnotes.xml'])
+    anchors = [n.get(tag('id')) for n in body.iter(tag('footnoteReference'))]
+    definitions = {}
+    for note in notes:
+        role = note.get(tag('type'), 'normal')
+        if role in {'separator', 'continuationSeparator', 'continuationNotice'}:
+            continue
+        ident = note.get(tag('id'))
+        if role != 'normal' or ident is None or ident in definitions:
+            raise ValueError('Invalid or duplicate normal footnote definition')
+        definitions[ident] = note
+    if set(anchors) != set(definitions):
+        raise ValueError('Missing or orphan normal footnote definition')
     return {'body': [p for p in paragraphs if p.strip()],
-            'footnotes': [''.join(t.text or '' for t in n.iter(tag('t')))
-                          for n in notes if int(n.get(tag('id'))) > 0]}
+            'footnotes': [''.join(t.text or '' for t in definitions[ident].iter(tag('t')))
+                          for ident in anchors]}
 
 
 def make_fixture(folder, language):
