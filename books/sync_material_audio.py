@@ -1,6 +1,6 @@
 """Bind published material audio and refresh the generated direct-player registry."""
 from pathlib import Path
-import argparse,hashlib,json,urllib.request
+import argparse,hashlib,json,os,urllib.request
 from urllib.parse import urlsplit
 from material_audio import PLAYER_BASE,validate_record
 
@@ -13,7 +13,10 @@ def verify_remote(entries,fetch=None):
         if tag not in cached:
             url='https://api.github.com/repos/blaghtayt-alt/iman-companion/releases/tags/'+tag
             if fetch is None:
-                request=urllib.request.Request(url,headers={'User-Agent':'Iman-Companion-book-builder','Accept':'application/vnd.github+json'})
+                headers={'User-Agent':'Iman-Companion-book-builder','Accept':'application/vnd.github+json'}
+                request=urllib.request.Request(url,headers=headers)
+                token=os.environ.get('GH_TOKEN')
+                if token:request.add_unredirected_header('Authorization','Bearer '+token)
                 with urllib.request.urlopen(request,timeout=30) as response:release=json.load(response)
             else:release=fetch(url)
             if release.get('draft') or release.get('tag_name')!=tag:raise ValueError('Audio release is not published under its pinned tag')

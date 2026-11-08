@@ -1,7 +1,10 @@
-import sys,unittest
+import json,os,sys,unittest
 from copy import deepcopy
 from pathlib import Path
 from io import BytesIO
+from unittest.mock import patch
+from urllib.error import HTTPError
+from urllib.request import HTTPRedirectHandler
 from PIL import Image
 import zxingcpp
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'books'))
@@ -38,6 +41,45 @@ class MaterialAudioChecks(unittest.TestCase):
             with self.assertRaises(ValueError):verify_remote([self.record],fetch=lambda _,v=changed:v)
         changed=deepcopy(release);changed['draft']=True
         with self.assertRaises(ValueError):verify_remote([self.record],fetch=lambda _:changed)
+    def remote_release(self):
+        return {'draft':False,'tag_name':'test-fixture','assets':[{'browser_download_url':self.record['audioUrl'],'state':'uploaded','size':100,'digest':'sha256:'+self.record['audioSHA256']}]}
+    def test_remote_verification_authenticates_only_the_fixed_release_api(self):
+        response=BytesIO(json.dumps(self.remote_release()).encode())
+        with patch.dict(os.environ,{'GH_TOKEN':'fixture-token'},clear=True),patch('sync_material_audio.urllib.request.urlopen',return_value=response) as opened:
+            verify_remote([self.record,self.record])
+        opened.assert_called_once()
+        request=opened.call_args.args[0]
+        self.assertEqual(request.full_url,'https://api.github.com/repos/blaghtayt-alt/iman-companion/releases/tags/test-fixture')
+        self.assertEqual(request.get_header('Authorization'),'Bearer fixture-token')
+        self.assertEqual(request.get_header('Accept'),'application/vnd.github+json')
+        self.assertEqual(opened.call_args.kwargs,{'timeout':30})
+    def test_api_authorization_is_not_forwarded_to_a_download_redirect(self):
+        response=BytesIO(json.dumps(self.remote_release()).encode())
+        with patch.dict(os.environ,{'GH_TOKEN':'fixture-token'},clear=True),patch('sync_material_audio.urllib.request.urlopen',return_value=response) as opened:
+            verify_remote([self.record])
+        request=opened.call_args.args[0]
+        redirected=HTTPRedirectHandler().redirect_request(request,None,302,'Found',{},self.record['audioUrl'])
+        self.assertEqual(request.get_header('Authorization'),'Bearer fixture-token')
+        self.assertEqual(redirected.full_url,self.record['audioUrl'])
+        self.assertIsNone(redirected.get_header('Authorization'))
+    def test_remote_verification_without_gh_token_has_no_fallback_authorization(self):
+        for environment in ({'GITHUB_TOKEN':'unused-token'},{'GH_TOKEN':'','GITHUB_TOKEN':'unused-token'}):
+            with self.subTest(environment=tuple(environment)):
+                response=BytesIO(json.dumps(self.remote_release()).encode())
+                with patch.dict(os.environ,environment,clear=True),patch('sync_material_audio.urllib.request.urlopen',return_value=response) as opened:
+                    verify_remote([self.record])
+                self.assertIsNone(opened.call_args.args[0].get_header('Authorization'))
+    def test_authenticated_remote_verification_still_rejects_changed_digest(self):
+        release=self.remote_release();release['assets'][0]['digest']='sha256:'+'d'*64
+        with patch.dict(os.environ,{'GH_TOKEN':'fixture-token'},clear=True),patch('sync_material_audio.urllib.request.urlopen',return_value=BytesIO(json.dumps(release).encode())):
+            with self.assertRaisesRegex(ValueError,'Audio release asset identity cannot be verified'):
+                verify_remote([self.record])
+    def test_authenticated_failure_is_not_retried_anonymously(self):
+        failure=HTTPError('https://api.github.com/repos/blaghtayt-alt/iman-companion/releases/tags/test-fixture',403,'rate limit exceeded',{},None)
+        with patch.dict(os.environ,{'GH_TOKEN':'fixture-token'},clear=True),patch('sync_material_audio.urllib.request.urlopen',side_effect=failure) as opened:
+            with self.assertRaises(HTTPError) as caught:verify_remote([self.record])
+        opened.assert_called_once()
+        self.assertNotIn('fixture-token',str(caught.exception))
     def test_all_labels_are_native(self):
         for lang,labels in CAPTIONS.items():
             for label in labels:native_text(label,lang)
