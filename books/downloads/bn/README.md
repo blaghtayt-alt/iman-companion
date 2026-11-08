@@ -22,6 +22,6 @@
 
 [সম্পাদনাযোগ্য বই ডাউনলোড করুন](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_bn_tadabbur-extended.docx) · [পাঠের অনুলিপি ডাউনলোড করুন](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_bn_tadabbur-extended.pdf)
 
-[আলাদা বইগুলোর জিপ ফাইল](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1-bundles/Iman_Companion_bn_all-books.zip)
+[আলাদা বইগুলোর জিপ ফাইল](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42493574788-1-bundles/Iman_Companion_bn_all-books.zip)
 
 কৃত্রিম বুদ্ধিমত্তার সহায়তায় অনূদিত — যাচাই প্রয়োজন। মডেলের সাহায্যে করা পরীক্ষা কোনো যোগ্য পাঠকের পর্যালোচনার বিকল্প নয়।

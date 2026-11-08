@@ -98,3 +98,11 @@
 - تدبر سورة الإخلاص
 - سورة الفلق
 - سورة الناس
+
+## تنزيل الكتب معًا
+
+كتاب واحد يجمع المواد
+
+[تنزيل الكتاب القابل للتحرير](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42493574788-1-bundles/Iman_Companion_ar_all-books.docx) · [تنزيل نسخة القراءة](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42493574788-1-bundles/Iman_Companion_ar_all-books.pdf)
+
+[ملف مضغوط للكتب المنفصلة](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42493574788-1-bundles/Iman_Companion_ar_all-books.zip)
