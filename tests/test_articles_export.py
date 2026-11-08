@@ -29,4 +29,18 @@ class ArticleExport(unittest.TestCase):
  def test_changed_reference_fails(self):
   self.article['references'][0]['text']='[1] Different';self.write_reader()
   with self.assertRaises(ValueError):export(self.root,self.reader)
+ def source_identifiers(self):
+  doi='DOI: 10.1002/wps.20499'
+  self.article['references']=[{'id':'1','text':'[1] مرجع المصدر','segments':[]},{'id':'','text':doi,'segments':[],'continuationOf':'1','preservedIdentifiers':[doi]}]
+  (self.root/'materials/articles/prepared-ar/01.md').write_text('# Article\n\nChecked reader text.\n\n## المراجع\n\n[1] مرجع المصدر\n\n'+doi,encoding='utf8')
+  self.write_reader()
+ def test_explicit_identifier_and_continuation_bindings_survive_export(self):
+  self.source_identifiers();ref=export(self.root,self.reader)['articles'][0]['references'][1]
+  self.assertEqual(ref['continuationOf'],'1');self.assertEqual(ref['preservedIdentifiers'],['DOI: 10.1002/wps.20499'])
+ def test_changed_identifier_binding_is_rejected(self):
+  self.source_identifiers();self.article['references'][1]['preservedIdentifiers']=['DOI: 10.1002/wps.20498'];self.write_reader()
+  with self.assertRaisesRegex(ValueError,'exact complete token'):export(self.root,self.reader)
+ def test_orphan_reference_continuation_is_rejected(self):
+  self.source_identifiers();self.article['references'][1]['continuationOf']='2';self.write_reader()
+  with self.assertRaisesRegex(ValueError,'continuation'):export(self.root,self.reader)
 if __name__=='__main__':unittest.main()

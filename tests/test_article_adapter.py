@@ -23,7 +23,7 @@ class ArticleAdapterChecks(unittest.TestCase):
         self.assertEqual([b['text'] for b in blocks if b['kind']!='note'],[p['text'] for p in self.article['paragraphs']])
         note_texts=[t for b in blocks for span in b.get('spans',[]) for t in span.get('noteTexts',[])]+[b['text'] for b in blocks if b['kind']=='note']
         for ref in self.article['references']:
-            text=''.join(s['text'] for s in ref['segments'] if not s.get('externalLink')) if ref['segments'] else ref['text']
+            text=''.join(s['text'] for s in ref['segments']) if ref['segments'] else ref['text']
             self.assertTrue(any(text.strip() in note for note in note_texts),text)
     def test_changed_source_or_review_projection_is_held(self):
         path=self.root/self.catalog['entries'][0]['markdown'];path.write_bytes(path.read_bytes()+b' ')

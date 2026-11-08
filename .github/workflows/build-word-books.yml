@@ -54,6 +54,7 @@ jobs:
           node books/test_source_publication_connector.cjs
           python tests/test_article_adapter.py
           python tests/test_articles_export.py
+          python tests/test_article_reference_fidelity.py
           python tests/test_seerah_adapter.py
           python tests/test_hadith_adapter.py
           python tests/test_mixed_material_adapters.py

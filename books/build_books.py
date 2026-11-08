@@ -66,9 +66,12 @@ def check_unit(unit,record,quran=None):
             if b.get('spans') and ''.join(s['text'] for s in b['spans'])!=b['text']:raise ValueError('Span text differs from reader text')
             if b.get('role','body') not in ROLES or any(s.get('role','body') not in ROLES for s in b.get('spans',[])):raise ValueError('Unknown semantic color role')
             if b.get('sourceCredit'):raise ValueError('Replace legacy website sourceCredit with original-book citations or a localized translationCredit')
-            if b['kind'] not in {'ayah','credit'}:native_text(b['text'],unit['language'])
+            if b.get('preservedIdentifiers') and b['kind']!='note':raise ValueError('Source identifiers may only exempt literal reference notes')
+            if b['kind'] not in {'ayah','credit'}:native_text(b['text'],unit['language'],preserved_identifiers=b.get('preservedIdentifiers',()) if b['kind']=='note' else ())
             for span in b.get('spans',[]):
-                for note in span.get('noteTexts',[]):native_text(note,unit['language'])
+                note_texts=span.get('noteTexts',[]);note_identifiers=span.get('noteIdentifiers',[[] for _ in note_texts])
+                if not isinstance(note_identifiers,list) or len(note_identifiers)!=len(note_texts):raise ValueError('Source note identifier bindings do not match the notes')
+                for note,identifiers in zip(note_texts,note_identifiers):native_text(note,unit['language'],preserved_identifiers=identifiers)
             if b.get('translationCredit'):edition_credit(b['translationCredit'],unit['language'])
             for citation in b.get('citations',[]):hadith_citation(citation,unit['language'])
             if b['kind']=='credit' and not b.get('citations'):raise ValueError('Reference needs original collection and narration number')
@@ -175,15 +178,15 @@ def reference_text(text):
 
 class Footnotes:
     def __init__(self,doc,lang,family,arabic):
-        self.doc=doc;self.lang=lang;self.family=family;self.arabic=arabic;self.texts=[];self.anchors={};self.root=OxmlElement('w:footnotes')
+        self.doc=doc;self.lang=lang;self.family=family;self.arabic=arabic;self.texts=[];self.identifiers=[];self.anchors={};self.root=OxmlElement('w:footnotes')
         for number,kind in [(-1,'separator'),(0,'continuationSeparator')]:
             note=el(self.root,'w:footnote',{'w:id':number,'w:type':kind});el(el(note,'w:p'),'w:r');el(note[0][0],'w:'+kind)
-    def add(self,anchor,text,group=None):
-        text=reference_text(text)
+    def add(self,anchor,text,group=None,*,preserved_identifiers=()):
+        text=native_text(reference_text(text),self.lang,preserved_identifiers=preserved_identifiers)
         key=(anchor._p,group)
         if key in self.anchors:
-            index,note=self.anchors[key];paragraph=Paragraph(note[-1],self.doc._body);separator='؛ ' if self.lang in RTL else '; ';add_text(paragraph,separator+text,self.lang,self.family,self.arabic,9,'note');self.texts[index]+=separator+text;return
-        number=len(self.texts)+1;self.texts.append(text)
+            index,note=self.anchors[key];paragraph=Paragraph(note[-1],self.doc._body);separator='؛ ' if self.lang in RTL else '; ';add_text(paragraph,separator+text,self.lang,self.family,self.arabic,9,'note');self.texts[index]+=separator+text;self.identifiers[index]=list(dict.fromkeys([*self.identifiers[index],*preserved_identifiers]));return
+        number=len(self.texts)+1;self.texts.append(text);self.identifiers.append(list(preserved_identifiers))
         r=anchor.add_run();r.font.size=Pt(9);rp=r._r.get_or_add_rPr();el(rp,'w:vertAlign',{'w:val':'superscript'});el(rp,'w:rtl',{'w:val':0});el(rp,'w:rFonts',{'w:ascii':'Iman Book Inter','w:hAnsi':'Iman Book Inter','w:cs':'Iman Book Inter'});el(r._r,'w:footnoteReference',{'w:id':number})
         note=el(self.root,'w:footnote',{'w:id':number});p=self.paragraph(note)
         run=p.add_run();run.font.name='Iman Book Inter';run.font.size=Pt(9);el(run._r.get_or_add_rPr(),'w:vertAlign',{'w:val':'superscript'});el(run._r,'w:footnoteRef')
@@ -348,7 +351,7 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
                     for citation in b['citations']:notes.add(last_content,hadith_citation(citation,lang))
                     continue
                 if kind=='note':
-                    notes.add(last_content,native_text(b['text'],lang));continue
+                    notes.add(last_content,b['text'],preserved_identifiers=b.get('preservedIdentifiers',()));continue
                 p=doc.add_paragraph(style='Heading 3' if kind=='heading' else None);direction(p,'ar' if kind=='ayah' else lang,kind=='ayah');last_content=p
                 blocksize=21 if kind=='ayah' else (10 if kind in {'note','credit'} else size)
                 if kind in {'ayah','translation','heading'}:p.paragraph_format.keep_with_next=True
@@ -363,7 +366,7 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
                         if not keys and span.get('role')=='current-ayah' and section.get('ayahKey') and not span.get('explicitSourceReferencePlaced'):keys=[section['ayahKey']]
                         if keys:add_text(p,' '+'؛ '.join(quran_reference(key,lang,names) for key in keys),lang,family,arabic,10,'body')
                     for citation in span.get('citations',[]):notes.add(p,hadith_citation(citation,lang),group='span-'+str(span_index))
-                    for note_index,note in enumerate(span.get('noteTexts',[])):notes.add(p,note,group='source-note-'+str(span_index)+'-'+str(note_index))
+                    for note_index,note in enumerate(span.get('noteTexts',[])):notes.add(p,note,group='source-note-'+str(span_index)+'-'+str(note_index),preserved_identifiers=span.get('noteIdentifiers',[[] for _ in span.get('noteTexts',[])])[note_index])
                 if kind=='ayah':
                     ref=quran_reference(b['verseKey'],lang,names)
                     if lang not in RTL:ref='\u200e'+ref+'\u200e'
@@ -377,7 +380,7 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
         index=rendered.find(text,offset)
         if index<0:raise ValueError('Reader text lost or reordered in Word serialization')
         offset=index+len(text)
-    (out/(target.name+'.reader-checks.json')).write_text(json.dumps({'body':preserved,'footnotes':notes.texts},ensure_ascii=False),encoding='utf-8')
+    (out/(target.name+'.reader-checks.json')).write_text(json.dumps({'body':preserved,'footnotes':notes.texts,'footnoteIdentifiers':notes.identifiers},ensure_ascii=False),encoding='utf-8')
     public_units=[]
     for i,u in enumerate(units,1):
         label=f"{lc['hadithLabel']} {digits(i,lang)}" if u['collection']=='hadith' and u.get('titleIsReference') else u['title']

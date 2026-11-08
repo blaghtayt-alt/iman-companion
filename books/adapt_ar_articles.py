@@ -5,12 +5,47 @@ adapter never infers semantic colors, references, or current status from prose.
 """
 from pathlib import Path
 import hashlib,json,re
-from build_books import check_unit,inside
+from build_books import check_unit,inside,reference_text
 from bibliography import native_text
 
 def sha(raw):return hashlib.sha256(raw).hexdigest()
 def read(path):return json.loads(path.read_bytes())
 def visible_markdown(text):return re.sub(r'\[([^\]]+)\]\(https?://[^)]+\)',r'\1',text)
+
+def reference_groups(refs):
+    """Keep explicitly supplied continuation paragraphs with their source note.
+
+    An ordinary unnumbered bibliography paragraph stays unanchored. Only an
+    explicit, contiguous continuationOf binding joins a numbered source.
+    """
+    numbered={r['id']:r for r in refs if r['id']}
+    if len(numbered)!=sum(bool(r['id']) for r in refs):raise ValueError('Duplicate article reference number')
+    groups={key:[value] for key,value in numbered.items()};previous=None
+    for ref in refs:
+        if ref.get('segments') and ''.join(s['text'] for s in ref['segments'])!=ref['text']:raise ValueError('Article reference spans differ from their source text')
+        parent=ref.get('continuationOf')
+        if parent is not None:
+            if ref['id'] or not isinstance(parent,str) or not parent or parent not in numbered or previous!=parent:raise ValueError('Article reference continuation is not bound to its preceding source')
+            groups[parent].append(ref)
+        else:previous=ref['id'] or None
+    return groups
+
+def validate_reference_markers(paragraph,groups):
+    """Fail on orphaned source numbers instead of exporting a dangling marker."""
+    spans=[];offset=0
+    for segment in paragraph['segments']:
+        spans.append((offset,offset+len(segment['text']),segment.get('note')))
+        offset+=len(segment['text'])
+    digits=r'[0-9\u0660-\u0669]+'
+    for marker in re.finditer(r'\[('+digits+r'(?:\s*[،,]\s*'+digits+r')*)\]',paragraph['text']):
+        numbers=list(re.finditer(digits,marker.group(1)))
+        for item in numbers:
+            number=item.group()
+            if number not in groups:raise ValueError('Article source marker has no reference: '+number)
+            # A composite marker has a distinct source-note span on each number.
+            # Single-number markers retain their whole-bracket binding check.
+            left,right=(marker.start(),marker.end()) if len(numbers)==1 else (marker.start(1)+item.start(),marker.start(1)+item.end())
+            if not any(start<=left and end>=right and note==number for start,end,note in spans):raise ValueError('Article source marker is not bound to its reference: '+number)
 def current_record(row):
     retired={'held','withdrawn','archived','archive','source-archive','historical','superseded','not-currently-available','draft','work-in-progress'}
     return not row.get('archived') and row.get('current',True) is not False and not any(str(row.get(k,'')).lower() in retired for k in ('status','publicationStatus','translationStatus'))
@@ -74,15 +109,19 @@ def generate(root,catalog,declaration,*,excluded_catalog_keys=()):
         if [('heading' if x.startswith('## ') else 'body') for x in parts[1:heading]]!=[p['kind'] for p in paragraphs]:raise ValueError('Article heading structure changed: '+ident)
         if [visible_markdown(x).strip() for x in parts[heading+1:] if x.strip()]!=[x['text'].strip() for x in refs]:raise ValueError('Article references differ from the reviewed reader: '+ident)
         if sha((a['title']+'\n\n'+'\n\n'.join(p['text'] for p in paragraphs)).encode('utf8'))!=a['readingSHA256']:raise ValueError('Article reader hash mismatch: '+ident)
-        refmap={r['id']:r for r in refs if r['id']}
-        if len(refmap)!=sum(bool(r['id']) for r in refs):raise ValueError('Duplicate article reference number')
+        refmap=reference_groups(refs)
         def citation(r):
-            text=''.join(x['text'] for x in r['segments'] if not x.get('externalLink')) if r['segments'] else r['text']
-            return native_text(text.strip(),'ar')
+            # Link targets are retrieval furniture; their visible source titles
+            # are still part of the citation and must not be deleted.
+            text=''.join(x['text'] for x in r['segments']) if r['segments'] else r['text']
+            return native_text(reference_text(text),'ar',preserved_identifiers=r.get('preservedIdentifiers',()))
+        def numbered_citation(number):return '\n'.join(citation(r) for r in refmap[number])
+        def numbered_identifiers(number):return list(dict.fromkeys(value for r in refmap[number] for value in r.get('preservedIdentifiers',())))
         blocks=[];referenced=set()
         rolemap={'plain':'body','quran':'quran','hadith':'hadith','scholar':'scholar'}
         for para in paragraphs:
             if para['kind'] not in {'heading','body'}:raise ValueError('Unknown article paragraph type')
+            validate_reference_markers(para,refmap)
             spans=[]
             for seg in para['segments']:
                 if seg['role'] not in rolemap:raise ValueError('Unknown reviewed article segment')
@@ -90,15 +129,20 @@ def generate(root,catalog,declaration,*,excluded_catalog_keys=()):
                 if seg.get('note'):
                     if seg['note'] not in refmap:raise ValueError('Article reference marker is not bound')
                     referenced.add(seg['note'])
-                    span['noteTexts']=[citation(refmap[seg['note']])]
+                    span['noteTexts']=[numbered_citation(seg['note'])]
+                    identifiers=numbered_identifiers(seg['note'])
+                    if identifiers:span['noteIdentifiers']=[identifiers]
                 spans.append(span)
             if ''.join(x['text'] for x in spans)!=para['text']:raise ValueError('Article semantic spans do not match body')
             blocks.append({'kind':'heading' if para['kind']=='heading' else 'paragraph','text':para['text'],'spans':spans})
         # Preserve source entries without a reader anchor as one lesson-level
         # footnote attached after the final body paragraph. Do not duplicate
         # anchored references as ordinary body text or invent an anchor.
-        unanchored=[citation(r) for r in refs if not r['id'] or r['id'] not in referenced]
-        if unanchored:blocks.append({'kind':'note','text':'؛ '.join(unanchored)})
+        unanchored_refs=[r for r in refs if not r.get('continuationOf') and (not r['id'] or r['id'] not in referenced)]
+        unanchored=[numbered_citation(r['id']) if r['id'] else citation(r) for r in unanchored_refs]
+        if unanchored:
+            identifiers=list(dict.fromkeys(value for r in unanchored_refs for value in (numbered_identifiers(r['id']) if r['id'] else r.get('preservedIdentifiers',()))))
+            blocks.append({'kind':'note','text':'؛ '.join(unanchored),**({'preservedIdentifiers':identifiers} if identifiers else {})})
         sections=[{'blocks':blocks}]
         alltext=''.join(b['text'] for section in sections for b in section['blocks'])
         unit={'schema':'iman-book-unit-v1','id':ident,'language':'ar','collection':'articles','number':number,'title':a['title'],'complete':True,'reviewGate':'published-current','sourceHashes':[a['sourceSHA256']],'inputBindings':[{'path':e['markdown'],'sha256':sha(material.read_bytes())},{'path':declaration['materialIndex'],'sha256':sha(index_path.read_bytes())},{'path':declaration['projection'],'sha256':sha(raw)}],'catalogBindings':[{'collection':'articles','language':'ar','id':ident}],'sections':sections,'readerTextSHA256':sha(alltext.encode('utf8')),'provenance':{'readingSHA256':a['readingSHA256'],'projectionSHA256':sha(raw),'sourceIdentity':e.get('sourceIdentity')}}

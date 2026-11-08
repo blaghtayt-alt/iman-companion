@@ -10,9 +10,22 @@ ARABIC_SOURCE_CREDITS=(
     'حقوق النص القرآني ©\u00a02007–2026\u202c مشروع تنزيل. يُسمح بنسخه وتوزيعه كما هو، مع ذكر المصدر والمحافظة على النص دون تغيير. tanzil.net',
 )
 
-def native_text(text,lang):
-    if re.search(r'https?://|www\.|QuranEnc|HadeethEnc|sunnah\.com|[a-z]+_[a-z]+',text,re.I):raise ValueError('Website/internal edition label leaked into reader text')
+def native_text(text,lang,*,preserved_identifiers=()):
+    """Validate localized text, preserving explicitly source-bound identifiers.
+
+    The default remains strict. Only complete DOI, Asset Recovery Watch case,
+    or Lxx/Txx original-source locator identifiers declared on a pinned reference
+    may be passed by adapters;
+    the same values travel with that note through rendering and final checks.
+    """
+    if not isinstance(preserved_identifiers,(list,tuple)) or any(not isinstance(value,str) for value in preserved_identifiers) or len(set(preserved_identifiers))!=len(preserved_identifiers):raise ValueError('Invalid preserved source identifier list')
     checked=text
+    for value in preserved_identifiers:
+        if not re.fullmatch(r'(?:ARW-[1-9][0-9]*|DOI: 10\.[0-9]{4,9}/[-._;()/:A-Za-z0-9]+|[LT][0-9]{2})',value):raise ValueError('Unsupported preserved source identifier syntax')
+        token=re.compile(r'(?<![A-Za-z0-9_./:-])'+re.escape(value)+r'(?![A-Za-z0-9_/;:\-]|\.[A-Za-z0-9])')
+        checked,count=token.subn('',checked)
+        if not count:raise ValueError('Preserved source identifier is not an exact complete token in its reference')
+    if re.search(r'https?://|www\.|QuranEnc|HadeethEnc|sunnah\.com|[a-z]+_[a-z]+',checked,re.I):raise ValueError('Website/internal edition label leaked into reader text')
     if lang=='ar':
         for credit in ARABIC_SOURCE_CREDITS:checked=checked.replace(credit,'')
     if lang in NON_LATIN and any(c.isalpha() and 'LATIN' in unicodedata.name(c,'') for c in checked):raise ValueError('Untranslated Latin-script text in '+lang+' book furniture or reader text')
