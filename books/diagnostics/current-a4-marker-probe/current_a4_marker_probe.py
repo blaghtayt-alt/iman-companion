@@ -207,11 +207,13 @@ def pdf_evidence(file, png_dir, marker):
                     continue
                 chars.append({'char': chr(cp), 'origin': list(origin), 'bbox': list(bbox), 'font': span.get('font')})
         text = ''.join(c['char'] for c in chars)
+        prior_targets = len(target_matches)
         for match in MARKERS.finditer(text):
             painted = chars[match.start():match.end()]
             matched = [c for c in painted if not c['char'].isspace() and c['char'] != '.']
             ys = [c['origin'][1] for c in matched]
             row = {'page': number, 'text': match.group(), 'singleBaseline': max(ys) - min(ys) <= .75,
+                   'locator': 'paint-order-regex',
                    'characters': matched, 'paintOrderInterleaves': [c for c in painted if c['char'] == '.'],
                    'sumAdvanceWidthPoints': sum(c['bbox'][2] - c['bbox'][0] for c in matched)}
             digits = sorted((c for c in matched if c['char'] in DIGITS), key=lambda c: c['origin'][0])
@@ -221,6 +223,42 @@ def pdf_evidence(file, png_dir, marker):
             all_markers.append(row)
             if match.group()[0] in {marker[0], marker[-1]} and sorted(c for c in match.group() if c in DIGITS) == expected_digits:
                 target_matches.append(row)
+        if len(target_matches) == prior_targets and all(c in DIGITS for c in marker[1:-1]):
+            # A first-save PDF can paint a closing parenthesis in a later text
+            # object, after intervening body text. Resolve only a compact exact
+            # digit sequence with uniquely adjacent enclosing delimiters. A
+            # split/missing/distant bracket cannot satisfy this geometry check.
+            for occurrence in re.finditer(re.escape(expected_visual_digits), text):
+                if occurrence.start() and text[occurrence.start() - 1] in DIGITS:
+                    continue
+                if occurrence.end() < len(text) and text[occurrence.end()] in DIGITS:
+                    continue
+                digits = chars[occurrence.start():occurrence.end()]
+                if max(c['origin'][1] for c in digits) - min(c['origin'][1] for c in digits) > .75:
+                    continue
+                ordered = sorted(digits, key=lambda c: c['origin'][0])
+                if ''.join(c['char'] for c in ordered) != expected_visual_digits:
+                    continue
+                left_edge = min(c['bbox'][0] for c in digits)
+                right_edge = max(c['bbox'][2] for c in digits)
+                baseline = digits[0]['origin'][1]
+                delimiters = [c for c in chars if c['char'] in {marker[0], marker[-1]} and abs(c['origin'][1] - baseline) <= .75]
+                left = [c for c in delimiters if abs(c['bbox'][2] - left_edge) <= 3]
+                right = [c for c in delimiters if abs(c['bbox'][0] - right_edge) <= 3]
+                pairs = [(a, b) for a in left for b in right if a is not b and
+                         (a['char'], b['char']) in {(marker[0], marker[-1]), (marker[-1], marker[0])} and
+                         all(a['origin'][0] < c['origin'][0] < b['origin'][0] for c in digits)]
+                if len(pairs) != 1:
+                    continue
+                a, b = pairs[0]
+                matched = [a, *ordered, b]
+                row = {'page': number, 'text': marker, 'singleBaseline': True,
+                       'locator': 'unique-adjacent-glyph-geometry', 'characters': matched,
+                       'paintOrderInterleaves': [], 'digitsInVisualOrder': expected_visual_digits,
+                       'digitsEnclosed': True,
+                       'sumAdvanceWidthPoints': sum(c['bbox'][2] - c['bbox'][0] for c in matched)}
+                target_matches.append(row)
+                all_markers.append(row)
     complete = len(target_matches) == 1 and target_matches[0]['singleBaseline'] and target_matches[0]['digitsEnclosed'] and target_matches[0]['digitsInVisualOrder'] == expected_visual_digits
     return {'pages': len(pdf), 'sha256': sha(file.read_bytes()), 'targetMatches': target_matches,
             'allBodyNumericMarkers': all_markers, 'markerCompleteSingleLine': complete,
