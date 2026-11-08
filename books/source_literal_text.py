@@ -8,7 +8,7 @@ introduced and no new prose receives an exception.
 import hashlib
 import json
 from bibliography import native_text
-from reviewed_hadith_sources import SCHEMA as REVIEW_SCHEMA, source_pointer
+from reviewed_hadith_sources import SCHEMA as REVIEW_SCHEMA, source_pointer, validate_record
 
 SCHEMA = 'iman-source-literal-text-v1'
 
@@ -29,11 +29,21 @@ def proof_for(record, inventory_binding, source_binding, start, end, text):
 
 
 def exact_literal(root, proof):
-    from book_edition_scope import pinned
+    from book_edition_scope import POLICY, available, pinned
     if root is None:
         raise ValueError('Source-literal validation requires the exact repository inputs')
     if proof.get('schema') != SCHEMA:
         raise ValueError('Unsupported source-literal proof')
+    declarations = json.loads((root / 'books/reviewed-books.json').read_bytes())
+    scopes = [row for row in declarations.get('books', [])
+              if (row.get('language'), row.get('collection')) == (proof.get('language'), 'hadith')]
+    if (declarations.get('schema') != 'iman-reviewed-books-v1' or len(scopes) != 1
+            or proof.get('language') == 'ar'
+            or scopes[0].get('state') != 'reviewed-current'
+            or scopes[0].get('automaticBuild') is not True
+            or scopes[0].get('scopePolicy') != POLICY
+            or proof.get('inventory') not in scopes[0].get('sourceReviewBindings', [])):
+        raise ValueError('Source literal lacks an active translated-Hadith review inventory binding')
     inventory = json.loads(pinned(root, proof.get('inventory', {})))
     if inventory.get('schema') != REVIEW_SCHEMA:
         raise ValueError('Literal text has no bound reviewed translation inventory')
@@ -42,6 +52,13 @@ def exact_literal(root, proof):
     if len(matches) != 1:
         raise ValueError('Literal text has no unique reviewed source record')
     record = matches[0]
+    catalog = json.loads((root / 'materials/catalog.json').read_bytes())
+    rows = [row for row in catalog.get('entries', [])
+            if (row.get('collection'), row.get('language'), row.get('id'))
+            == ('essential-hadith', proof.get('language'), proof.get('materialId'))]
+    if len(rows) != 1 or not available(rows[0]):
+        raise ValueError('Literal text has no unique available current source record')
+    validate_record(root, record, rows[0], catalog)
     if proof.get('source') not in record.get('sourceFiles', []) or proof.get('source', {}).get('path') != record.get('catalogEntry', {}).get('json'):
         raise ValueError('Literal source is outside the reviewed reader')
     if proof.get('pointer') != record.get('readingPointer'):

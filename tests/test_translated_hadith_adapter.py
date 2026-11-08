@@ -2,7 +2,9 @@
 from copy import deepcopy
 import json
 from pathlib import Path
+from shutil import copyfile
 import sys
+from tempfile import TemporaryDirectory
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -13,7 +15,7 @@ from book_edition_scope import select
 from build_books import check_unit
 from multilingual_readiness import inventory
 from reviewed_hadith_sources import ADAPTER
-from source_literal_text import check_text, exact_literal
+from source_literal_text import check_text, exact_literal, sha
 
 
 class TranslatedHadithTests(unittest.TestCase):
@@ -24,6 +26,25 @@ class TranslatedHadithTests(unittest.TestCase):
         cls.scopes = {row['language']: row for row in cls.declarations if row.get('adapter') == ADAPTER}
         cls.units = {language: generate(ROOT, cls.catalog, declaration) for language, declaration in cls.scopes.items()}
 
+    def write(self, root, relative, value):
+        path = root / relative
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(value, ensure_ascii=False), encoding='utf8')
+
+    def literal_fixture(self, root):
+        """Copy exact existing inputs into an isolated, mutable review fixture."""
+        unit = deepcopy(self.units['ja'][0])
+        for binding in unit['inputBindings']:
+            path = root / binding['path']
+            path.parent.mkdir(parents=True, exist_ok=True)
+            copyfile(ROOT / binding['path'], path)
+        self.write(root, 'books/reviewed-books.json',
+                   {'schema': 'iman-reviewed-books-v1', 'books': [self.scopes['ja']]})
+        self.write(root, 'materials/catalog.json', self.catalog)
+        block = next(block for section in unit['sections'] for block in section['blocks']
+                     if block.get('sourceLiteralProof'))
+        return unit, block
+
     def test_all_nineteen_translated_languages_prepare_exact_fifty_lessons(self):
         self.assertEqual(len(self.units), 19)
         self.assertEqual(sum(len(value) for value in self.units.values()), 50)
@@ -33,6 +54,7 @@ class TranslatedHadithTests(unittest.TestCase):
             for unit in units:
                 self.assertFalse(unit['provenance']['sourceApprovalCreated'])
                 self.assertFalse(unit['provenance']['humanCertification'])
+                check_unit(unit, unit, root=ROOT)
 
     def test_complete_readings_preserve_every_character_except_structural_whitespace(self):
         import re
@@ -143,6 +165,66 @@ class TranslatedHadithTests(unittest.TestCase):
         tampered['inputBindings'] = []
         with self.assertRaisesRegex(ValueError, 'not bound'):
             check_unit(tampered, tampered, root=ROOT)
+
+    def test_literal_rejects_caller_inventory_even_when_its_hash_is_bound_to_unit(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            unit, block = self.literal_fixture(root)
+            proof = block['sourceLiteralProof']
+            self.assertEqual(exact_literal(root, proof), block['text'])
+            old = proof['inventory']
+            path = root / 'materials/caller-inventory.json'
+            path.write_bytes((root / old['path']).read_bytes())
+            forged = {'path': path.relative_to(root).as_posix(), 'sha256': sha(path.read_bytes())}
+            unit['inputBindings'] = [forged if binding == old else binding for binding in unit['inputBindings']]
+            for section in unit['sections']:
+                for item in section['blocks']:
+                    if item.get('sourceLiteralProof'):
+                        item['sourceLiteralProof']['inventory'] = forged
+            with self.assertRaisesRegex(ValueError, 'active translated-Hadith review inventory'):
+                check_unit(unit, unit, root=root)
+
+    def test_literal_requires_active_scope_and_unwithdrawn_review_binding(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            _, block = self.literal_fixture(root)
+            proof = block['sourceLiteralProof']
+            for field, value in [('sourceReviewBindings', []), ('state', 'held'), ('automaticBuild', False)]:
+                with self.subTest(field=field):
+                    declaration = deepcopy(self.scopes['ja'])
+                    declaration[field] = value
+                    self.write(root, 'books/reviewed-books.json',
+                               {'schema': 'iman-reviewed-books-v1', 'books': [declaration]})
+                    with self.assertRaisesRegex(ValueError, 'active translated-Hadith review inventory'):
+                        exact_literal(root, proof)
+            declaration = deepcopy(self.scopes['ja'])
+            declaration['automaticRelease'] = False
+            self.write(root, 'books/reviewed-books.json',
+                       {'schema': 'iman-reviewed-books-v1', 'books': [declaration]})
+            self.assertEqual(exact_literal(root, proof), block['text'])
+
+    def test_literal_revalidates_current_source_and_original_review_qualification(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            _, block = self.literal_fixture(root)
+            proof = block['sourceLiteralProof']
+            for change in ('held', 'removed', 'source', 'review'):
+                with self.subTest(change=change):
+                    catalog = deepcopy(self.catalog)
+                    row = next(row for row in catalog['entries']
+                               if (row.get('collection'), row.get('language'), row.get('id'))
+                               == ('essential-hadith', 'ja', proof['materialId']))
+                    if change == 'held':
+                        row['status'] = 'held'
+                    elif change == 'removed':
+                        catalog['entries'].remove(row)
+                    elif change == 'source':
+                        row['json'] = 'materials/unreviewed-replacement.json'
+                    else:
+                        catalog['essentialSecond1003']['scope'] = 'Review withdrawn; private draft only.'
+                    self.write(root, 'materials/catalog.json', catalog)
+                    with self.assertRaises(ValueError):
+                        exact_literal(root, proof)
 
     def test_literal_proofs_count_each_repeated_source_paragraph(self):
         block = next(block for block in self.units['ja'][0]['sections'][0]['blocks'] if block.get('sourceLiteralProof'))
