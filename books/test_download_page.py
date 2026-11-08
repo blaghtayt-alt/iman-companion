@@ -1,6 +1,8 @@
 from pathlib import Path
+from io import BytesIO
+from unittest.mock import patch
 import copy,json,tempfile,unittest,zipfile
-from download_page import publish_bundles,REPO,write_catalog
+from download_page import publish_bundles,REPO,write_catalog,source_file
 from download_tables import release_url,COPY,COLLECTIONS
 from published_library import sha
 from locale_copy import locale
@@ -31,6 +33,39 @@ class PublicationTests(unittest.TestCase):
         return {(lang,collection):{'language':lang,'collection':collection,'file':name,'sha256':sha(word),'pdfSha256':sha(pdf),'exportVerified':True,'previewOnly':False,'hadithEdition':'new-extended','download':release_url(REPO,'original',name),'pdfDownload':release_url(REPO,'original',Path(name).with_suffix('.pdf').name)}}
     def publish(self,ready,tag='test'):
         return publish_bundles(self.root,self.out,ready,'0'*40,REPO,tag,self.execute)
+    def prepared_replacement(self,book):
+        # Synthetic transport bytes only, never a real book or release approval.
+        from preparation_queue import record
+        def write(relative,value):
+            path=self.root/relative;path.parent.mkdir(parents=True,exist_ok=True)
+            path.write_text(json.dumps(value),encoding='utf8');return path
+        language,collection=book['language'],book['collection'];commit='a'*40
+        conf=json.loads((Path(__file__).parent/'config.json').read_bytes());conf.pop('audioRegistry',None);conf['fonts']={}
+        write('books/config.json',conf)
+        write('books/reviewed-books.json',{'schema':'iman-reviewed-books-v1','books':[
+            {'language':language,'collection':collection,'state':'reviewed-current','automaticBuild':True,'automaticRelease':True,'edition':'new-adult'}]})
+        source=write('materials/source.json',{'text':'Synthetic reviewed source fixture.'})
+        write('materials/catalog.json',{'entries':[{'collection':collection,'language':language,'id':'fixture-new','status':'published','edition':'new-adult','json':'materials/source.json'}]})
+        unit={'id':'fixture-new','readerTextSHA256':sha(b'Synthetic reader text.'),'sourceHashes':[sha(source.read_bytes())],
+              'inputBindings':[{'path':'materials/source.json','sha256':sha(source.read_bytes())}]}
+        unit_file=write('books/units/fixture.json',unit)
+        manifest={'sourceCommit':commit,'previewOnly':False,'scope':{'language':language,'collection':collection},
+                  'units':[{'language':language,'collection':collection,'id':unit['id'],'path':'books/units/fixture.json','sha256':sha(unit_file.read_bytes())}]}
+        write('books/manifest.json',manifest)
+        folder=self.out/(language+'-'+collection)
+        pair={book['file']:b'new prepared A4 Word fixture',Path(book['file']).with_suffix('.pdf').name:b'new prepared A4 PDF fixture'}
+        for name,raw in pair.items():(folder/name).write_bytes(raw)
+        candidate=copy.deepcopy(book);candidate.update(sourceCommit=commit,preparationVerified=True,exportVerified=False,
+            units=[{k:unit[k]for k in('id','readerTextSHA256','sourceHashes')}],
+            sha256=sha(pair[book['file']]),pdfSha256=sha(pair[Path(book['file']).with_suffix('.pdf').name]))
+        index={'sourceCommit':commit,'previewOnly':False,'books':[candidate]}
+        relative=folder.relative_to(self.root)
+        write(relative/'index.json',index);write(relative/'source-manifest.json',manifest)
+        write(relative/(book['file']+'.reader-checks.json'),{'body':['Synthetic reader text.'],'footnotes':[]})
+        with patch.dict('os.environ',{'GITHUB_RUN_ID':'','GITHUB_RUN_ATTEMPT':'','GITHUB_REPOSITORY':''}):
+            queued=record(self.root,index,folder,commit,[{'check':'actual-word-layout'},{'check':'final-visual-inspection'}])
+        write('books/prepared-library.json',{'schema':'iman-book-preparation-queue-v1','entries':[queued]})
+        return folder,pair
     def test_one_book_has_both_choices_and_exact_zip(self):
         ready=self.ready();links,errors=self.publish(ready);self.assertFalse(errors);self.assertEqual(links['ru']['docx'],ready[('ru','tadabbur-extended')]['download']);self.assertEqual(links['ru']['parts'],1)
         with zipfile.ZipFile(self.out/'public-bundles/ru/Iman_Companion_ru_all-books.zip')as archive:
@@ -49,6 +84,46 @@ class PublicationTests(unittest.TestCase):
         ready=self.ready();self.publish(ready);book=ready[('ru','tadabbur-extended')];file=self.out/'ru-tadabbur-extended'/book['file'];file.write_bytes(b'new checked book');book['sha256']=sha(file.read_bytes());links,errors=self.publish(ready,'updated');self.assertFalse(errors);self.assertIn('/updated-bundles/',links['ru']['zip'])
     def test_changed_local_book_is_not_packaged(self):
         ready=self.ready();(self.out/'ru-tadabbur-extended'/ready[('ru','tadabbur-extended')]['file']).write_bytes(b'changed after validation');links,errors=self.publish(ready);self.assertFalse(links);self.assertEqual(len(errors),1);self.assertFalse(self.releases)
+    def test_old_verified_pair_uses_separate_cache_while_prepared_pair_stays_intact(self):
+        ready=self.ready('ar','seerah');book=ready[('ar','seerah')]
+        book['units']=[{'id':'fixture-old','title':'فصل سابق'}]
+        originals={book['file']:b'checked editable bytes',Path(book['file']).with_suffix('.pdf').name:b'checked PDF bytes'}
+        folder,prepared=self.prepared_replacement(book)
+        def fetch(request,**kwargs):return BytesIO(originals[request.full_url.rsplit('/',1)[-1]])
+        with patch('download_page.urlopen',side_effect=fetch)as remote:
+            links,errors=self.publish(ready)
+            self.assertFalse(errors);self.assertEqual(links['ar']['docx'],book['download'])
+            self.assertEqual(remote.call_count,2)
+            with zipfile.ZipFile(self.out/'public-bundles/ar/Iman_Companion_ar_all-books.zip')as archive:
+                self.assertEqual({name:archive.read(name)for name in archive.namelist()},originals)
+            with patch('download_page.font_assets',return_value={}),patch('download_page.cover_asset',return_value='assets/fixture.webp')as cover:
+                catalog=write_catalog(self.root,self.out,ready,links)
+            self.assertEqual(catalog['languages']['ar']['books'][0]['pdfSha256'],book['pdfSha256'])
+            pdf_cache=self.root/'books/.cache/download-pairs'/book['pdfSha256']/Path(book['file']).with_suffix('.pdf').name
+            self.assertEqual(cover.call_args.args[1],pdf_cache)
+            self.assertEqual(remote.call_count,2)
+        self.assertEqual({name:(folder/name).read_bytes()for name in prepared},prepared)
+        for name,raw in originals.items():self.assertEqual((self.root/'books/.cache/download-pairs'/sha(raw)/name).read_bytes(),raw)
+    def test_mutating_either_prepared_file_still_rejects_local_collision(self):
+        ready=self.ready('ar','seerah');book=ready[('ar','seerah')]
+        for changed,requested in [('docx','pdf'),('pdf','docx')]:
+            with self.subTest(changed=changed):
+                folder,_=self.prepared_replacement(book)
+                (folder/Path(book['file']).with_suffix('.'+changed).name).write_bytes(b'mutated after preparation')
+                with patch('download_page.urlopen')as remote:
+                    with self.assertRaisesRegex(ValueError,'Local checked book changed'):source_file(self.root,self.out,book,requested)
+                    remote.assert_not_called()
+    def test_local_preparation_marker_without_trusted_queue_is_rejected(self):
+        ready=self.ready('ar','seerah');book=ready[('ar','seerah')];self.prepared_replacement(book)
+        (self.root/'books/prepared-library.json').unlink()
+        with patch('download_page.urlopen')as remote:
+            with self.assertRaisesRegex(ValueError,'Local checked book changed'):source_file(self.root,self.out,book,'pdf')
+            remote.assert_not_called()
+    def test_wrong_released_bytes_are_rejected_without_changing_prepared_pair(self):
+        ready=self.ready('ar','seerah');book=ready[('ar','seerah')];folder,prepared=self.prepared_replacement(book)
+        with patch('download_page.urlopen',return_value=BytesIO(b'wrong published download')):
+            with self.assertRaisesRegex(ValueError,'Downloaded book differs from its published hash'):source_file(self.root,self.out,book,'pdf')
+        self.assertEqual({name:(folder/name).read_bytes()for name in prepared},prepared)
     def test_changed_remote_hash_is_not_advertised(self):
         self.corrupt=True;links,errors=self.publish(self.ready());self.assertFalse(links);self.assertEqual(len(errors),1);self.assertTrue(self.releases['test-bundles']['draft'])
     def test_legacy_hadith_and_preview_never_enter_zip(self):

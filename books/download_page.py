@@ -28,13 +28,28 @@ def fingerprint(root,books):
       'merger':sha((root/'books/merge_public_books.py').read_bytes()),'version':1}
     return sha(json.dumps(payload,sort_keys=True,separators=(',',':')).encode())
 
+def prepared_replacement(root,folder,book,name,digest):
+    """Recognize a checked pending pair without treating it as released bytes."""
+    from finalize_prepared import plan
+    try:
+        # The existing handoff validator binds both files to the current queue,
+        # source inputs, settings and immutable preparation snapshot. A local
+        # index or preparation flag alone must never bypass a changed-file error.
+        handoff=plan(root,folder)
+        return (handoff['language'],handoff['collection'])==(book['language'],book['collection']) and handoff['preparation'].get(name)==digest
+    except (ValueError,OSError,KeyError,TypeError):return False
+
 def source_file(root,out,book,extension):
     name=Path(book['file']).with_suffix('.'+extension).name;hashkey='sha256'if extension=='docx'else'pdfSha256';digest=book[hashkey]
     if not re.fullmatch('[a-f0-9]{64}',digest):raise ValueError('Invalid source book digest')
     path=out/(book['language']+'-'+book['collection'])/name
     if path.is_file():
-        if sha(path.read_bytes())!=digest:raise ValueError('Local checked book changed')
-        return path
+        local_digest=sha(path.read_bytes())
+        if local_digest==digest:return path
+        if not prepared_replacement(root,path.parent,book,name,local_digest):raise ValueError('Local checked book changed')
+        # A pending A4 replacement can share this filename with the retained
+        # verified edition. Preserve the candidate and fetch the released hash
+        # into its separate cache below; never publish or overwrite the candidate.
     cache=root/'books/.cache/download-pairs'/digest/name
     if cache.is_file()and sha(cache.read_bytes())==digest:return cache
     url=book['download'if extension=='docx'else'pdfDownload']
