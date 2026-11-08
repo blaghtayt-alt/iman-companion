@@ -16,7 +16,7 @@ import pymupdf
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 BASE = 'b60f28e3027fb2274e9fc777c92be68f0c78bc06'
 FIXTURE_SHA = '7dd022448d514417d0db22c4564cb16b64f1586112882b48a90b2676d5dfc1b1'
-VARIANTS = ['prepared-baseline', 'builder-baseline', 'dir', 'bdo', 'dir-nbsp', 'bdo-nbsp', 'rtl-marker']
+VARIANTS = ['prepared-baseline', 'builder-baseline', 'naskh-ltr', 'naskh-rtl', 'naskh-nbsp', 'word-wrap-on', 'word-wrap-off', 'uno-no-line-break']
 
 
 def sha(data):
@@ -89,6 +89,17 @@ def variant(source_file, source, name, target):
             value.set('{http://www.w3.org/XML/1998/namespace}space', 'preserve')
         if name == 'rtl-marker':
             marker.find(W + 'rPr/' + W + 'rtl').set(W + 'val', '1')
+        if name.startswith('naskh-'):
+            fonts = marker.find(W + 'rPr/' + W + 'rFonts')
+            for slot in ('ascii', 'hAnsi', 'cs', 'eastAsia'):
+                fonts.set(W + slot, 'Iman Book Naskh')
+            if name == 'naskh-rtl':
+                marker.find(W + 'rPr/' + W + 'rtl').set(W + 'val', '1')
+        if name.startswith('word-wrap-'):
+            props = p._p.find(W + 'pPr')
+            value = OxmlElement('w:wordWrap')
+            value.set(W + 'val', '1' if name.endswith('-on') else '0')
+            props.append(value)
         if name.startswith(('dir', 'bdo')):
             container = OxmlElement('w:' + name.split('-')[0])
             container.set(W + 'val', 'ltr')
@@ -178,6 +189,29 @@ def main():
     source_file = fixtures / 'source-prepared.docx'
     source = json.loads((fixtures / 'source.json').read_text())
     expected_notes = notes(unpack(source_file))
+    renderer = root / 'books/render_uno.py'
+    hook = '''\ndef diagnostic_no_line_break(doc):
+    descriptor = doc.createSearchDescriptor()
+    descriptor.SearchString = '[١٦]'
+    descriptor.SearchRegularExpression = False
+    ranges = doc.findAll(descriptor)
+    report = []
+    for index in range(ranges.getCount()):
+        found = ranges.getByIndex(index)
+        info = found.getPropertySetInfo()
+        available = info.hasPropertyByName('CharNoLineBreak')
+        report.append({'text': found.String, 'CharNoLineBreakAvailable': available})
+        if not available:
+            raise RuntimeError('Writer range does not implement CharNoLineBreak')
+        found.setPropertyValue('CharNoLineBreak', True)
+    print('DIAGNOSTIC NO LINE BREAK ' + json.dumps(report, ensure_ascii=False), flush=True)
+\n'''
+    original_renderer = renderer.read_text()
+    assert original_renderer.count('                    native_footer(doc,languages[file.name])') == 1
+    diagnostic_renderer = out / 'diagnostic_render_no_line_break.py'
+    diagnostic_renderer.write_text(original_renderer.replace('def main():', hook + 'def main():').replace(
+        '                    native_footer(doc,languages[file.name])',
+        '                    diagnostic_no_line_break(doc)\n                    native_footer(doc,languages[file.name])'))
     report = {'schema': 'iman-marker-roundtrip-diagnostic-v1', 'diagnosticOnly': True, 'publicationAcceptance': False,
               'baseCommit': BASE, 'diagnosticCommit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=root, text=True).strip(),
               'renderer': version, 'fixtureBundleSHA256': FIXTURE_SHA,
@@ -197,9 +231,10 @@ def main():
         report['variants'][name] = row
         row['stages']['before'] = snapshot(file, evidence, 'before', source['text'], expected_notes)
         try:
+            selected_renderer = str(diagnostic_renderer) if name == 'uno-no-line-break' else 'books/render_uno.py'
             commands = [
-                ('roundtrip-1', ['/usr/bin/python3', 'books/render_uno.py', '--folder', str(work)]),
-                ('roundtrip-2', ['/usr/bin/python3', 'books/render_uno.py', '--folder', str(work), '--keep-contents']),
+                ('roundtrip-1', ['/usr/bin/python3', selected_renderer, '--folder', str(work)]),
+                ('roundtrip-2', ['/usr/bin/python3', selected_renderer, '--folder', str(work), '--keep-contents']),
                 ('font-restored', [sys.executable, 'books/restore_book_fonts.py', '--root', str(root), '--folder', str(work)]),
                 ('page-break-normalized', [sys.executable, 'books/normalize_word_page_breaks.py', '--folder', str(work)]),
             ]
@@ -225,8 +260,9 @@ def main():
     report['candidateVariants'] = [name for name, row in report['variants'].items() if 'baseline' not in name
         and row['state'] == 'completed' and all(s['literalBodyExact'] and s['footnoteTextsExact']
             and s.get('pdf', {'markerCompleteSingleLine': True})['markerCompleteSingleLine'] for s in row['stages'].values())]
-    report['conclusion'] = ('Inspect candidate images and expand to whole Articles before implementation.' if report['baselineReproduced']
-                            else 'Inconclusive small fixture: render complete Articles through exact production stages.')
+    report['conclusion'] = ('Inspect candidate images and expand to whole Articles before implementation.' if report['baselineReproduced'] and report['candidateVariants']
+                           else 'No candidate repaired the reproducible fixture.' if report['baselineReproduced']
+                           else 'Inconclusive small fixture: render complete Articles through exact production stages.')
     (out / 'report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2))
     print(json.dumps({'baselineReproduced': report['baselineReproduced'], 'candidateVariants': report['candidateVariants'],
                       'conclusion': report['conclusion']}), flush=True)
