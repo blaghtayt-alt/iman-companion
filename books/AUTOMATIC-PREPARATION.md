@@ -110,8 +110,116 @@ source or metadata commit cannot publish an old-head candidate.
 
 Actual Word finalization and final visual release acceptance remain release
 steps on the existing owned desktop. The optional desktop worker is not part of
-this deployment. This patch automates preparation and queueing; it does not
-install an unattended Windows bridge or claim unattended visual approval.
+this deployment. The checked handoff below connects those completed checks to
+the existing publisher; it does not install an unattended Windows bridge or
+claim unattended visual approval.
+
+### Current material adapters
+
+The current Arabic Articles adapter covers the 47 installed article readings.
+The new-adult Seerah adapter covers its three current chapters. The Arabic
+Essential Hadith adapter now covers all 286 lessons in 12 chapters under
+`materials/hadith/essential-ar/`. Its compact source projection binds the exact
+catalogue, chapter JSON, lesson JSON and Markdown bytes. It carries all chapter
+introductions and bibliographies once per chapter, source formatting roles,
+reference qualifications, and original provenance. Source-reference preservation
+is audited separately from machine classification: exact original book/page
+notes, shared citations and repeated quoted phrases remain valid source content
+even when the narrow parser cannot assign a structured identity. Such cases are
+reported as nonblocking classification/placement diagnostics. A website record
+ID is never substituted for an original narration number.
+
+Articles and Hadith are eligible for the finalization intake with mandatory
+actual Word and visual checks. Seerah also prepares automatically, but its
+existing source-reference hold remains enabled. Clear that hold only
+after its exact reference projection is complete, then generate a fresh
+preparation. Merely changing `automaticRelease` cannot supply Word receipts,
+complete missing references, or grant visual acceptance.
+
+Historical standalone article translations and legacy Seerah editions do not
+join these current Arabic books. Other languages' Essential Hadith materials
+retain their existing translation/source qualifications; this Arabic adapter
+does not reinterpret their different schemas. The exact approved normalized
+reader transaction above remains the path for adding such language scopes.
+
+Both `build-report.json` and `publication-report.json` include
+`preparedAwaitingReleaseQC` for the **entire** pending queue, including unchanged
+and superseded preparations. Each entry names its included unit count, pending
+checks and artifact run. Prospective release URLs inside preparation metadata
+are never presented as public downloads.
+
+### Finalized candidate handoff
+
+Use the latest committed preparation queue and the matching Actions artifact.
+Keep each downloaded scope folder unchanged as `prepared/`; make a separate
+`candidate/` copy for Word finalization. The original DOCX and the final Word
+DOCX have separate hashes because the Word finalizer may change numeric contents
+caches and native page-number furniture. Reader text, footnotes, QR content and
+unrelated package parts must remain unchanged.
+
+For an Arabic Articles candidate, run these commands from an exact current
+checkout on the owned Windows desktop (paths are illustrative):
+
+```powershell
+python books/finalize_prepared.py plan --root . --prepared review-bundle/ar-articles/prepared --handoff review-bundle/ar-articles/handoff.json
+python books/finalize_word.py --root . --docx review-bundle/ar-articles/candidate/Iman_Companion_ar_articles.docx --language ar --proof-dir review-bundle/ar-articles/candidate/word-proof
+python books/finalize_prepared.py acceptance-template --handoff review-bundle/ar-articles/handoff.json --candidate review-bundle/ar-articles/candidate --acceptance review-bundle/ar-articles/visual-acceptance.json
+```
+
+The template binds the exact final DOCX, PDF, Word receipt and Word visual proof,
+but leaves all acceptance fields false. After inspecting both complete final
+formats, the actual reviewer records their identity, timezone-aware review time
+and explicit acceptance in that file. Keep the canonical PDF separate from
+`candidate/word-proof/Word-visual-proof.pdf`; their pagination can legitimately
+differ. The finalizer checks both independently.
+
+Create `review-bundle/bundle.json` describing one or more independently checked
+scopes. Every path is relative to that bundle directory:
+
+```json
+{
+  "schema": "iman-finalized-book-intake-v1",
+  "scopes": [{
+    "language": "ar",
+    "collection": "articles",
+    "prepared": "ar-articles/prepared",
+    "candidate": "ar-articles/candidate",
+    "handoff": "ar-articles/handoff.json",
+    "acceptance": "ar-articles/visual-acceptance.json"
+  }]
+}
+```
+
+Package the bundle with the repository helper. It adds an exact per-file
+inventory, validates confined paths and prints the archive SHA256. Upload that
+ZIP through the desktop's existing GitHub authentication to an owner-created
+**draft** release. The draft is only a transfer location, not a public book.
+
+```powershell
+python books/release_candidate_intake.py pack --bundle review-bundle --out finalized-books.zip
+gh release create book-review-20261108 --repo blaghtayt-alt/iman-companion --draft --latest=false --title "Book review transfer" --notes "Exact owned-desktop candidate bundle; not public downloads."
+gh release upload book-review-20261108 finalized-books.zip --repo blaghtayt-alt/iman-companion
+gh workflow run build-word-books.yml --repo blaghtayt-alt/iman-companion --ref main -f finalized_release=book-review-20261108 -f finalized_asset=finalized-books.zip -f finalized_sha256=REPLACE_WITH_PRINTED_SHA256
+```
+
+Use a new transfer tag or asset for a new candidate; do not overwrite evidence.
+The existing workflow downloads only the named ZIP, verifies its exact hash and
+payload inventory, then calls the finalization intake. It reindexes the original
+source, validates the current scoped fingerprint, reruns export/font/reference/
+contents checks, checks the actual Word receipt and final visual acceptance,
+and adds successful candidates to `build-report.json` under `built`. The sole
+publisher then uploads immutable public pairs, verifies their remote hashes,
+regenerates the four-category tables and affected language bundles, and removes
+only successfully published scopes from the preparation queue. An individual
+candidate QC failure remains in the report while other valid scopes continue.
+
+Expired artifacts, changed sources, changed rendering code, changed scope
+declarations or changed relevant settings require a fresh preparation. An old
+desktop bundle cannot override the new queue. Unrelated changes in another
+language do not invalidate an unchanged scoped handoff. No intake command
+creates source approval, toggles a release hold, or accepts its own visual
+template. A rejected transfer or malformed bundle is reported as an intake
+failure; independent preparation and existing verified downloads still continue.
 
 ## Preserving existing verified downloads
 

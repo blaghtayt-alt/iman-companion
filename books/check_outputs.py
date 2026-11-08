@@ -12,10 +12,19 @@ from font_integrity import verify as verify_embedded_fonts
 from toc_sync import reconcile as verify_toc_targets
 from word_layout_check import verify_pair as verify_contents_pair
 def require_complete_references(book):
+    preservation=book.get('sourceReferencePreservation')
+    if preservation is not None:
+        if not isinstance(preservation,dict) or preservation.get('schema')!='iman-source-reference-preservation-v1' or preservation.get('auditMode')!='literal-source-and-qualification-fidelity':raise ValueError('Invalid source-reference preservation evidence')
+        units=len(book.get('units',[]))
+        if not units or preservation.get('units')!=units or preservation.get('auditedUnits',0)+preservation.get('approvedPublisherUnits',0)!=units:raise ValueError('Source-reference preservation omits a reader unit')
+        for source,preserved,lost in (('sourceReferences','preservedReferences','lostReferences'),('sourceQualifications','preservedQualifications','lostQualifications'),('sourceParagraphs','preservedParagraphs','lostParagraphs')):
+            values=[preservation.get(field) for field in (source,preserved,lost)]
+            if any(type(value) is not int or value<0 for value in values) or values[0]!=values[1] or values[2]!=0:raise ValueError('Supplied source references, qualifications or paragraphs were not completely preserved')
     if book.get('collection')!='seerah' and book.get('referenceReadiness')is None:return
     check=book.get('referenceReadiness')
     if not isinstance(check,dict) or check.get('units')!=len(book.get('units',[])) or check.get('auditedUnits')!=len(book.get('units',[])) or not book.get('units') or check.get('unboundQuranSegments')!=0 or check.get('unboundHadithSegments')!=0:
-        raise ValueError('Seerah source citations are incomplete; a layout proof cannot be published as a complete book')
+        label={'seerah':'Seerah','hadith':'Hadith','articles':'Article'}.get(book.get('collection'),'Book')
+        raise ValueError(label+' source citations are incomplete; a layout proof cannot be published as a complete book')
     if any(check.get(field,0) for field in ['unboundScholarSegments','unresolvedSourceReferenceCount']):raise ValueError('Original source references are not completely mapped; preparation cannot be released yet')
 def public_export_inputs(index,folder):
     allowed={'tadabbur-extended','articles','seerah','hadith'}

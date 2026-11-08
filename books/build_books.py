@@ -404,6 +404,22 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
         result['referenceReadiness']={'units':len(units),'auditedUnits':sum(isinstance(x,dict) for x in checks),'unboundQuranSegments':sum(x.get('unboundQuranSegments',0) for x in checks if isinstance(x,dict)),'unboundHadithSegments':sum(x.get('unboundHadithSegments',0) for x in checks if isinstance(x,dict))}
         if result['referenceReadiness']['auditedUnits']!=len(units) or result['referenceReadiness']['unboundQuranSegments'] or result['referenceReadiness']['unboundHadithSegments']:
             result['quranReferences']='source references incomplete';result['referencePresentation']='source references incomplete; review candidate only'
+    if collection=='hadith' and any(u.get('sourceReferencePreservation') is not None for u in units):
+        checks=[u.get('sourceReferencePreservation') for u in units]
+        if any(c is not None and (not isinstance(c,dict) or c.get('schema')!='iman-source-reference-preservation-v1' or c.get('auditMode')!='literal-source-and-qualification-fidelity') for c in checks):raise ValueError('Unsupported source-reference preservation evidence')
+        preservation={'schema':'iman-source-reference-preservation-v1','auditMode':'literal-source-and-qualification-fidelity',
+          'units':len(units),'auditedUnits':sum(isinstance(c,dict) for c in checks),
+          'approvedPublisherUnits':sum(c is None and bool(u.get('publicationApproval')) for u,c in zip(units,checks))}
+        for field in ('sourceReferences','preservedReferences','sourceQualifications','preservedQualifications',
+                      'sourceParagraphs','preservedParagraphs','lostReferences','lostQualifications','lostParagraphs'):
+            preservation[field]=sum(c.get(field,0) for c in checks if isinstance(c,dict))
+        result['sourceReferencePreservation']=preservation
+        diagnostics={'auditMode':'parser-placement-only-not-source-validity'}
+        for field in ('quranGroupsWithoutImmediateTypedReference','quotationGroupsWithoutImmediateReference','literalReferencesWithoutTypedClassification'):
+            diagnostics[field]=sum(u.get('sourceReferenceDiagnostics',{}).get(field,0) for u in units)
+        result['sourceReferenceDiagnostics']=diagnostics
+        result['quranReferences']='supplied reference positions preserved; recognized explicit labels formatted canonically'
+        result['referencePresentation']='supplied original source references and qualifications preserved; structured identities only when unambiguous'
     return result
 
 def main():

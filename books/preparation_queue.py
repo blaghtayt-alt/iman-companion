@@ -50,6 +50,31 @@ def load(root):
     if len({scope_key(r) for r in result['entries']})!=len(result['entries']):raise ValueError('Duplicate preparation queue scope')
     return result
 
+def summaries(root):
+    """Report the whole queue, including unchanged and stale pending editions.
+
+    Candidate snapshots are intentionally excluded: their prospective release
+    URLs are not downloads. Keep the artifact location and exact pending checks
+    visible on retry, without rendering again or querying artifact transport.
+    """
+    result=[]
+    for row in load(root)['entries']:
+        item={key:copy.deepcopy(row[key]) for key in (
+            'language','collection','sourceCommit','inputFingerprint','state',
+            'folder','pendingChecks','artifact') if key in row}
+        item['releaseVerified']=False
+        item['includedUnits']=len(row.get('candidate',{}).get('snapshot',{}).get('unitIds',[]))
+        result.append(item)
+    return result
+
+def complete(root,keys):
+    """Remove only successfully released scopes, preserving other queue records."""
+    keys=set(keys)
+    if not keys:return
+    queue=load(root)
+    queue['entries']=[row for row in queue['entries'] if scope_key(row) not in keys]
+    (root/PATH).write_text(json.dumps(queue,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+
 def still_prepared(root,row):
     try:
         if row.get('artifact') and not artifact_available(row['artifact']):return False

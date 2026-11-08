@@ -11,8 +11,10 @@
       "materialIndex": "materials/articles/prepared-ar/index.json",
       "reviewBasis": "The 47 currently installed Arabic article readings and Islamic-only reference lists were compared against the public article index and Markdown. This records source eligibility, not scholarly certification or finished-book layout approval.",
       "automaticBuild": true,
-      "automaticRelease": false,
-      "releaseHold": "Word rendering and contents pagination must be verified on the final release candidate."
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "materialIndexSHA256": "3419e53386895008ddcb0542ab5189ab1aa354ebba3d51b6477fad9e6b3ab81e"
     },
     {
       "language": "hi",
@@ -231,7 +233,11 @@
       "materialIndex": "materials/seerah/new-adult/ar/index.json",
       "reviewBasis": "The three current supplied Arabic chapters and their structured app-reader segments match the exact published chapter identities and reading bytes. This is source eligibility, not scholarly certification or a claim of complete human audio listening.",
       "automaticBuild": true,
-      "automaticRelease": false
+      "automaticRelease": false,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "releaseHold": "Bind the 28 Quran and 24 Hadith source segments to verified references before exact final Word/PDF and visual release checks.",
+      "materialIndexSHA256": "7306bb63dea06bb5f26b973bf520f2ee218084511792e4cca9751d46252f0ab6"
     },
     {
       "language": "en",
@@ -464,6 +470,21 @@
       },
       "reviewBasis": "Existing source-owner literal/structural current-Arabic QC for the exact supplied 84 current scopes, with their selected ayahs, source conditions and bounded bibliographic projections. Separate Ikhlas introduction excluded; source-specific conditions retained. No new scholarly, translation, actual Word, visual or release approval is created.",
       "requireActualWordLayout": true
+    },
+    {
+      "language": "ar",
+      "collection": "hadith",
+      "hadithEdition": "new-extended",
+      "adapter": "arabic-essential-hadith-v1",
+      "state": "reviewed-current",
+      "materialIndex": "materials/hadith/essential-ar/catalog.json",
+      "projection": "books/source-projections/ar-essential-hadith.json",
+      "projectionSHA256": "48e259a076a556842fc57184d9c4571d7e54416ab04b06142d78679ae371e04c",
+      "reviewBasis": "Exact current supplied Arabic Essential Hadith source JSON and Markdown, catalogue identities, chapter introductions, bibliographies, source formatting and reference qualifications are hash-bound and preserved. Literal source reference preservation is audited separately from parser classification. This is faithful book conversion of existing supplied material, not new scholarly certification, translation approval or final Word/visual acceptance.",
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true
     }
   ]
 }

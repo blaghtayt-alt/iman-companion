@@ -34,7 +34,7 @@ def require_word_layout(declaration,folder,book,language):
         book['independentWordLayoutVerification']=result
 
 def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
-    from preparation_queue import load as load_queue,still_prepared,record,update
+    from preparation_queue import load as load_queue,still_prepared,record,update,summaries
     out.mkdir(parents=True,exist_ok=True)
     report={'sourceCommit':commit,'built':[],'prepared':[],'unchanged':[],'failed':[]}
     approved_audio=root/'books/.cache/approved-audio-intake-report.json'
@@ -81,7 +81,7 @@ def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
             if declaration.get('automaticRelease')is not True:holds.append({'check':'scope-release-hold','reason':declaration.get('releaseHold','Release declaration remains disabled')})
             from check_outputs import require_complete_references
             try:require_complete_references(book)
-            except ValueError as error:holds.append({'check':'source-references','reason':str(error)})
+            except ValueError as error:holds.append({'check':'source-references','reason':str(error),'readiness':book.get('referenceReadiness') or book.get('sourceReferencePreservation')})
             # New Linux renders are preparation artifacts. Never let older
             # declarations silently bypass real Word QC on a changed edition.
             receipt=(folder/book['file']).with_name(book['file']+'.word-layout.json')
@@ -95,6 +95,7 @@ def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
             report['failed'].append({**identity,'error':str(error)})
             (folder/'BUILD-ERROR.txt').write_text(str(error),encoding='utf8')
     update(root,new_pending,completed)
+    report['preparedAwaitingReleaseQC']=summaries(root)
     (out/'build-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     return report
 
@@ -110,6 +111,12 @@ def candidates(root,out,tag):
             if key in seen or key!=(row['language'],row['collection']):raise ValueError('Duplicate or incorrect candidate scope')
             seen.add(key)
             if not current(root,entry):raise ValueError('Candidate source or audio changed after the build')
+            from published_library import declaration
+            declared=declaration(root,key)
+            require_word_layout(declared,folder,entry['book'],key[0])
+            if declared.get('requireFinalVisualAcceptance') is True:
+                from finalize_prepared import verify_final_visual_acceptance
+                verify_final_visual_acceptance(folder,entry['book'])
             for name,hashkey in asset_names(entry['book']):
                 path=folder/name
                 if not path.is_file()or sha(path.read_bytes())!=entry['book'].get(hashkey):raise ValueError('Candidate file changed after final checks')
@@ -144,6 +151,8 @@ def publish(root,out,commit,repo,tag,execute=run):
     def fetch(release_tag):return json.loads(execute(['gh','api',f'repos/{repo}/releases/tags/{release_tag}'],root))
     existing=read(root/'books/published-library.json')if(root/'books/published-library.json').exists()else{'schema':SCHEMA,'entries':[]}
     library,ready,stale=merge(root,existing,entries,repo,fetch)
+    from preparation_queue import complete,summaries
+    complete(root,[scope_key(entry['book']) for entry in entries])
     ensure_main(root,commit)
     count=stage(root,library,ready,repo)
     from download_page import publish as publish_download_page
@@ -159,18 +168,23 @@ def publish(root,out,commit,repo,tag,execute=run):
         execute(['git','commit','-m','Update verified book downloads and material audio players'],root)
         execute(['git','push','origin','HEAD:refs/heads/main'],root)
     build_report=read(out/'build-report.json')
-    result={'verifiedBookPairs':count,'newPairs':len(entries),'preparedAwaitingReleaseQC':build_report.get('prepared',[]),'staleScopesRemoved':stale,'nativeLanguagePages':20,'tablesCommitted':bool(changed),'failedScopes':build_report['failed'],'approvedAudioIntakeErrors':build_report.get('approvedAudioIntakeErrors',[])}
+    result={'verifiedBookPairs':count,'newPairs':len(entries),'preparedAwaitingReleaseQC':summaries(root),'staleScopesRemoved':stale,'nativeLanguagePages':20,'tablesCommitted':bool(changed),'failedScopes':build_report['failed'],'approvedAudioIntakeErrors':build_report.get('approvedAudioIntakeErrors',[])}
     result['downloadPage']=downloads
+    result['finalizedIntakeErrors']=build_report.get('finalizedIntakeErrors',[])
     intake=root/'books/.cache/material-intake-report.json'
     result['sourceTransactionErrors']=read(intake).get('errors',[]) if intake.exists() else []
     (out/'publication-report.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     return result
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('action',choices=['build','publish']);parser.add_argument('--root',type=Path,required=True);parser.add_argument('--out',type=Path,required=True);parser.add_argument('--commit',required=True);parser.add_argument('--repo',required=True);parser.add_argument('--tag',required=True);parser.add_argument('--uno-python',default='/usr/bin/python3');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('action',choices=['build','finalize','publish']);parser.add_argument('--root',type=Path,required=True);parser.add_argument('--out',type=Path,required=True);parser.add_argument('--commit',required=True);parser.add_argument('--repo',required=True);parser.add_argument('--tag',required=True);parser.add_argument('--uno-python',default='/usr/bin/python3');parser.add_argument('--finalized-dir',type=Path);args=parser.parse_args()
     if not re.fullmatch('[a-f0-9]{40}',args.commit)or not re.fullmatch('[A-Za-z0-9._-]+/[A-Za-z0-9._-]+',args.repo)or not re.fullmatch('[A-Za-z0-9._-]{1,120}',args.tag):raise ValueError('Invalid publication identity')
     root=args.root.resolve();out=args.out.resolve()
     if args.action=='build':result=build(root,out,args.commit,args.repo,args.tag,args.uno_python)
+    elif args.action=='finalize':
+        if args.finalized_dir is None:raise ValueError('Finalization requires an extracted checked-candidate bundle')
+        from release_candidate_intake import process
+        result=process(root,args.finalized_dir.resolve(),out,args.commit,args.repo,args.tag)
     else:result=publish(root,out,args.commit,args.repo,args.tag)
     print(json.dumps(result,ensure_ascii=False))
 if __name__=='__main__':main()

@@ -44,12 +44,15 @@ def main():
             normalized=[]  # The final coverage check explains missing units.
         elif declaration.get('adapter')=='arabic-articles-v1':
             from adapt_ar_articles import generate
-            normalized=generate(root,catalog,declaration)
+            normalized=generate(root,catalog,declaration,excluded_catalog_keys=publisher_coverage & expected_scope)
         elif declaration.get('adapter')=='arabic-new-seerah-v1':
             from adapt_ar_seerah import generate
             scope_edition=declaration.get('edition')
             if scope_edition!='new-adult':raise ValueError('Unexpected reviewed Seerah edition')
-            normalized=generate(root,catalog,declaration)
+            normalized=generate(root,catalog,declaration,excluded_catalog_keys=publisher_coverage & expected_scope)
+        elif declaration.get('adapter')=='arabic-essential-hadith-v1':
+            from adapt_ar_hadith import generate
+            normalized=generate(root,catalog,declaration,excluded_catalog_keys=publisher_coverage & expected_scope)
         elif declaration.get('adapter')=='reviewed-ikhlas-v1':
             from adapt_ikhlas import generate
             normalized=generate(root,catalog,declaration)

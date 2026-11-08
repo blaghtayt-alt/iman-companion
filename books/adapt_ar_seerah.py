@@ -2,19 +2,22 @@
 import hashlib,json
 from pathlib import Path
 from build_books import check_unit,inside
-from adapt_ar_articles import current_record
+from adapt_ar_articles import current_record,approved_exclusions,require_mixed_index_binding
 def sha(raw):return hashlib.sha256(raw).hexdigest()
-def generate(root,catalog,declaration):
+def generate(root,catalog,declaration,*,excluded_catalog_keys=()):
     if (declaration.get('language'),declaration.get('collection'),declaration.get('adapter'),declaration.get('edition'))!=('ar','seerah','arabic-new-seerah-v1','new-adult'):raise ValueError('Unsupported Seerah source adapter')
+    excluded=approved_exclusions(root,catalog,declaration,excluded_catalog_keys)
+    require_mixed_index_binding(root,declaration,excluded)
     projection_path=inside(root,declaration['projection']);raw=projection_path.read_bytes()
     if sha(raw)!=declaration.get('projectionSHA256'):raise ValueError('Reviewed Seerah projection changed')
     projection=json.loads(raw)
     if (projection.get('schema'),projection.get('language'),projection.get('collection'),projection.get('edition'))!=('iman-reviewed-seerah-projection-v1','ar','seerah','new-adult'):raise ValueError('Unexpected Seerah projection')
-    allrows=[e for e in catalog['entries'] if e.get('collection')=='seerah' and e.get('language')=='ar' and e.get('edition')=='new-adult'];rows=[e for e in allrows if current_record(e)];entries={e['id']:e for e in rows};reviewed=projection['chapters'];byid={a['id']:a for a in reviewed};known={e['id'] for e in allrows}
+    allrows=[e for e in catalog['entries'] if e.get('collection')=='seerah' and e.get('language')=='ar' and e.get('edition')=='new-adult'];rows=[e for e in allrows if current_record(e) and str(e['id']) not in excluded];entries={e['id']:e for e in rows};reviewed=projection['chapters'];byid={a['id']:a for a in reviewed};known={e['id'] for e in allrows}
     if len(entries)!=len(rows) or len(byid)!=len(reviewed) or not entries or not set(entries).issubset(byid) or not set(byid).issubset(known):raise ValueError('Current Seerah coverage changed or is ambiguous')
     index_path=inside(root,declaration['materialIndex']);index=json.loads(index_path.read_bytes())
     if index.get('schema')!='new-adult-seerah-source-index-v1' or index.get('language')!='ar':raise ValueError('Unexpected Seerah index')
-    current_index=[x for x in index['chapters'] if current_record(x)];indexed={x['id']:x for x in current_index}
+    excluded_chapters={a['chapterId'] for a in reviewed if str(a['id']) in excluded}
+    current_index=[x for x in index['chapters'] if current_record(x) and x['id'] not in excluded_chapters];indexed={x['id']:x for x in current_index}
     if len(indexed)!=len(current_index) or {x.get('sourceChapterId') for x in rows}!=set(indexed):raise ValueError('Current Seerah index coverage changed')
     numbers=[e.get('chapter') for e in rows]
     if any(not isinstance(n,int) or isinstance(n,bool) or n<1 for n in numbers) or len(set(numbers))!=len(numbers):raise ValueError('Current Seerah order is missing or ambiguous')
