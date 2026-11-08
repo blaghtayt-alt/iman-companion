@@ -72,6 +72,9 @@ def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
                     run([uno_python,'books/render_uno.py','--folder',folder,'--keep-contents'],root)
             run([sys.executable,'books/toc_sync.py','--folder',folder],root)
             run([sys.executable,'books/restore_book_fonts.py','--root',root,'--folder',folder],root)
+            # Word can compress RTL text that shares a paragraph with a terminal page break.
+            # Normalize equivalent paragraph boundaries before the immutable handoff.
+            run([sys.executable,'books/normalize_word_page_breaks.py','--folder',folder],root)
             run([sys.executable,'books/check_outputs.py','--root',root,'--folder',folder,'--tag',tag,'--repo',repo,'--prepare-only'],root)
             index=read(folder/'index.json')
             if len(index['books'])!=1 or scope_key(index['books'][0])!=key:raise ValueError('Scoped build emitted a different book')

@@ -127,10 +127,13 @@ def embed_fonts(file,fonts,footnotes=None):
 def add_text(p,text,lang,family,arabic,size=11,color='body',bold=False,ornament_mirrors=None):
     # Split script runs explicitly so embedded fonts travel with the file.
     number=r'[0-9\u0660-\u0669\u06f0-\u06f9]+(?:[:/–\-][0-9\u0660-\u0669\u06f0-\u06f9]+)*'
+    # Keep a literal citation marker in the same LTR run as its number. Mixing
+    # RTL brackets with an LTR number lets the brackets break onto another line.
+    numeric=r'\['+number+r'(?:\s*[,،]\s*'+number+r')*\]|'+number
     pieces=[];offset=0
     mirrors=quotation_mirrors(text,lang)if ornament_mirrors is None else ornament_mirrors
-    for segment in re.split('('+number+')',text):
-        if re.fullmatch(number,segment):pieces.append((segment,True,offset));offset+=len(segment)
+    for segment in re.split('('+numeric+')',text):
+        if re.fullmatch(numeric,segment):pieces.append((segment,True,offset));offset+=len(segment)
         else:
             for token in re.split('(['+SYMBOLS+'])',segment):
                 if token in SYMBOLS and token:pieces.append((token,False,offset));offset+=len(token)

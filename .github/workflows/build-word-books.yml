@@ -41,6 +41,9 @@ jobs:
           python books/test_bundle_tables.py
           python tests/test_book_render_validation.py
           python tests/test_book_fonts.py
+          python tests/test_numeric_reference_runs.py
+          python tests/test_merge_public_books_styles.py
+          python tests/test_word_page_breaks.py
           python tests/test_source_credits.py
           python tests/test_source_reference_preservation.py
           python books/test_script_fonts.py

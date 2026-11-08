@@ -37,6 +37,8 @@ jobs:
           /usr/bin/python3 books/render_uno.py --folder "$RUNNER_TEMP/iman-book-preview/dist"
           python books/native_pagination.py --root "$RUNNER_TEMP/iman-book-preview" --folder "$RUNNER_TEMP/iman-book-preview/dist"
           /usr/bin/python3 books/render_uno.py --folder "$RUNNER_TEMP/iman-book-preview/dist" --keep-contents
+          python books/restore_book_fonts.py --root "$RUNNER_TEMP/iman-book-preview" --folder "$RUNNER_TEMP/iman-book-preview/dist"
+          python books/normalize_word_page_breaks.py --folder "$RUNNER_TEMP/iman-book-preview/dist"
           python books/check_outputs.py --folder "$RUNNER_TEMP/iman-book-preview/dist" --tag internal-preview --repo "$GITHUB_REPOSITORY"
           python -c 'import json,os; d=json.load(open(os.path.join(os.environ["RUNNER_TEMP"],"iman-book-preview/dist/index.json"))); assert d["previewOnly"] is True'
       - uses: actions/upload-artifact@v4
