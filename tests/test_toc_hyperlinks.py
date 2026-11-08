@@ -158,7 +158,7 @@ class FullCursor:
 
     def getPropertyValue(self, name):
         assert name == 'HyperLinkURL'
-        return self.paragraph.url
+        return '' if self.paragraph.tail_link_lost else self.paragraph.url
 
 
 class TailCursor:
@@ -175,18 +175,39 @@ class TailCursor:
     def getString(self):
         return self.paragraph.text.encode('utf-16-le')[self.start:].decode('utf-16-le')
 
+    def getPropertyValue(self, name):
+        if name == 'HyperLinkURL':
+            return '' if self.paragraph.tail_link_lost else self.paragraph.url
+        return self.paragraph.link_styles[name]
+
+    def setPropertyValue(self, name, value):
+        self.paragraph.link_writes.append((name, value))
+        if name == 'HyperLinkURL':
+            self.paragraph.url = value
+            self.paragraph.tail_link_lost = False
+        else:
+            self.paragraph.link_styles[name] = value
+
     def setString(self, value):
         if self.paragraph.fail_edit:
             raise RuntimeError('simulated edit failure')
         self.paragraph.edits.append(value)
         prefix = self.paragraph.text.encode('utf-16-le')[:self.start].decode('utf-16-le')
-        self.paragraph.text = prefix + value
+        self.paragraph.text = prefix + value + ('X' if self.paragraph.corrupt_edit else '')
+        self.paragraph.tail_link_lost = True
 
 
 class Paragraph:
     def __init__(self, text, url=''):
         self.text, self.url = text, url
         self.edits, self.fail_edit = [], False
+        self.corrupt_edit, self.tail_link_lost = False, False
+        self.link_styles = {'VisitedCharStyleName': 'Original visited',
+                            'UnvisitedCharStyleName': 'Original unvisited'}
+        self.link_writes = []
+
+    def getString(self):
+        return self.text
 
     def getEnd(self):
         return self
@@ -230,6 +251,7 @@ class NativeCacheGuards(unittest.TestCase):
     def generated(self):
         self.paragraph.text = 'Same heading\t2'
         self.paragraph.url = '#target0'
+        self.paragraph.tail_link_lost = False
 
     def test_exact_distinct_cache_survives_repeated_native_regeneration(self):
         self.index.on_update = self.generated
@@ -245,6 +267,22 @@ class NativeCacheGuards(unittest.TestCase):
         self.paragraph.url = '#target0'
         self.assertEqual(toc.refresh_cached_contents(self.doc, self.saved), 0)
         self.assertEqual(self.index.calls, 0)
+
+    def test_tail_replacement_restores_only_the_captured_native_link_properties(self):
+        self.index.on_update = self.generated
+        toc.refresh_cached_contents(self.doc, self.saved)
+        self.assertEqual(self.paragraph.link_writes, [
+            ('HyperLinkURL', '#target0'), ('VisitedCharStyleName', 'Original visited'),
+            ('UnvisitedCharStyleName', 'Original unvisited')])
+        self.assertEqual(self.paragraph.text, 'Same heading\t٨٨')
+
+    def test_changed_replacement_text_fails_before_reapplying_link_properties(self):
+        self.index.on_update = self.generated
+        self.paragraph.corrupt_edit = True
+        with self.assertRaisesRegex(ValueError, 'exact generated numeric cache'):
+            toc.refresh_cached_contents(self.doc, self.saved)
+        self.assertEqual(self.paragraph.link_writes, [])
+        self.assertTrue(self.index.IsProtected)
 
     def test_changed_imported_title_cache_or_target_fails_before_update(self):
         for text, url in (('Other\t٨٨', ''), ('Same heading\t٨٩', ''),

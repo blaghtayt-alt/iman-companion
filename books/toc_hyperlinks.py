@@ -147,6 +147,14 @@ def _native_rows(index):
     return rows
 
 
+def _tail_cursor(paragraph, cache):
+    cursor = paragraph.getText().createTextCursorByRange(paragraph.getEnd())
+    units = len(cache.encode('utf-16-le')) // 2
+    if not cursor.goLeft(units, True) or cursor.getString() != cache:
+        raise ValueError('Cannot select the exact generated numeric cache')
+    return cursor
+
+
 def refresh_cached_contents(doc, expected):
     """Regenerate real native targets and restore only validated numeric tails."""
     indexes = doc.getDocumentIndexes()
@@ -181,25 +189,37 @@ def refresh_cached_contents(doc, expected):
         if cursor.getPropertyValue('HyperLinkURL') != '#' + saved['anchor']:
             raise ValueError('Regenerated contents target changed')
         if cache != saved['cache']:
-            tail = paragraph.getText().createTextCursorByRange(paragraph.getEnd())
-            units = len(cache.encode('utf-16-le')) // 2
-            if not tail.goLeft(units, True) or tail.getString() != cache:
-                raise ValueError('Cannot select the exact generated numeric cache')
-            edits.append((tail, saved['cache']))
+            tail = _tail_cursor(paragraph, cache)
+            properties = {name: tail.getPropertyValue(name) for name in
+                          ('HyperLinkURL', 'VisitedCharStyleName', 'UnvisitedCharStyleName')}
+            if (properties['HyperLinkURL'] != '#' + saved['anchor']
+                    or any(not isinstance(value, str) for value in properties.values())):
+                raise ValueError('Generated numeric cache has ambiguous link properties')
+            edits.append((paragraph, tail, saved, properties))
     protected = [(index, index.IsProtected) for index in contents]
     try:
         for index, _ in protected:
             index.IsProtected = False
-        for tail, cache in edits:
-            tail.setString(cache)
+        for paragraph, tail, saved, properties in edits:
+            tail.setString(saved['cache'])
+            replacement = _tail_cursor(paragraph, saved['cache'])
+            if paragraph.getString() != saved['prefix'] + saved['cache']:
+                raise ValueError('Numeric cache replacement changed contents row text')
+            # Preserve the numeric span's hyperlink attributes across replacement,
+            # using only the exact native properties captured before that edit.
+            for name, value in properties.items():
+                replacement.setPropertyValue(name, value)
     finally:
         for index, value in protected:
             index.IsProtected = value
     restored = [row for index in contents for row in _native_rows(index)]
     if len(restored) != len(expected):
         raise ValueError('Restored contents row count changed')
-    for (_, cursor), saved in zip(restored, expected):
-        if (cursor.getString() != saved['prefix'] + saved['cache']
-                or cursor.getPropertyValue('HyperLinkURL') != '#' + saved['anchor']):
-            raise ValueError('Restoring the numeric cache changed its contents link')
+    for number, ((_, cursor), saved) in enumerate(zip(restored, expected), 1):
+        if cursor.getString() != saved['prefix'] + saved['cache']:
+            raise ValueError('Restoring numeric cache changed contents text at row ' + str(number))
+        url = cursor.getPropertyValue('HyperLinkURL')
+        if url != '#' + saved['anchor']:
+            raise ValueError('Restoring numeric cache changed contents URL at row '
+                             + str(number) + ': ' + repr(url))
     return len(edits)
