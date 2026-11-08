@@ -52,7 +52,11 @@ jobs:
             dpkg-deb -x "$package" "$office_root"
           done
           test -x "$office_root/opt/libreoffice26.8/program/soffice"
-          echo "$office_root/opt/libreoffice26.8/program" >> "$GITHUB_PATH"
+          office_bin="$RUNNER_TEMP/released-lo-bin"
+          mkdir -p "$office_bin"
+          printf '#!/usr/bin/env bash\nexec "%s" "$@"\n' "$office_root/opt/libreoffice26.8/program/soffice" > "$office_bin/soffice"
+          chmod +x "$office_bin/soffice"
+          echo "$office_bin" >> "$GITHUB_PATH"
       - name: Install exact approved fonts
         run: |
           python books/install_assets.py --root .
