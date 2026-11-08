@@ -1,10 +1,11 @@
 """Literal numeric citations must keep their brackets in the number's run."""
 from io import BytesIO
 from pathlib import Path
-import json, sys, unittest, zipfile
+import hashlib, json, os, sys, unittest, zipfile
 from docx import Document
 from docx.oxml.ns import qn
 from lxml import etree
+from fontTools.ttLib import TTFont
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'books'))
@@ -85,7 +86,42 @@ class NumericReferenceRuns(unittest.TestCase):
         self.assertEqual(markers[0].find('w:rPr/w:rtl', ns).get(qn('w:val')), '0')
         fonts = markers[0].find('w:rPr/w:rFonts', ns)
         self.assertEqual({fonts.get(qn('w:' + slot)) for slot in ['ascii', 'hAnsi', 'eastAsia', 'cs']},
-                         {'Iman Book Arabic'})
+                         {'Iman Book Naskh'})
+
+    def test_complete_citation_selects_one_pinned_face(self):
+        for marker in ['[15]','[١٥]','[۱۵]','[١،٢]','[1, 2]','[٢–٤]','[١:٢]']:
+            with self.subTest(marker=marker):
+                _,p=self.paragraph(marker)
+                self.assertEqual([r.text for r in p.runs],[marker])
+                run=p.runs[0];family=run.font.name
+                self.assertEqual(family,'Iman Book Inter'if marker.isascii()else'Iman Book Naskh')
+
+    @unittest.skipUnless(os.environ.get('IMAN_BOOK_FONT_PROOF')=='1','Actual glyph proof runs after pinned assets are installed')
+    def test_installed_pinned_citation_faces_cover_every_literal_glyph(self):
+        conf=json.loads((ROOT/'books/config.json').read_bytes())
+        definitions={value['family']:value for value in conf['fonts'].values()}
+        for marker in ['[15]','[١٥]','[۱۵]','[١،٢]','[1, 2]','[٢–٤]','[١:٢]']:
+            _,p=self.paragraph(marker);definition=definitions[p.runs[0].font.name]
+            for style,relative in definition['files'].items():
+                with self.subTest(marker=marker,style=style):
+                    file=ROOT/relative
+                    self.assertEqual(hashlib.sha256(file.read_bytes()).hexdigest(),definition['sha256'][style])
+                    with TTFont(file)as font:self.assertFalse(set(map(ord,marker))-set(font.getBestCmap()))
+
+    def test_libreoffice_split_native_marker_keeps_the_full_face_after_restore(self):
+        # LibreOffice saves brackets and native digits separately even when
+        # authored in one run. The complete pinned face must survive that save.
+        doc=Document();p=doc.add_paragraph()
+        for text in ('[','١٥',']'):
+            run=p.add_run(text);run.font.name='Iman Book Naskh'
+        output=BytesIO();doc.save(output);output.seek(0)
+        with zipfile.ZipFile(output)as archive:parts={n:archive.read(n)for n in archive.namelist()}
+        conf=json.loads((ROOT/'books/config.json').read_bytes());repair_parts(parts,conf,'ar')
+        root=etree.fromstring(parts['word/document.xml']);ns={'w':qn('w:p').split('}')[0][1:]}
+        self.assertEqual(''.join(root.xpath('.//w:body//w:t/text()',namespaces=ns)),'[١٥]')
+        digits=root.xpath('.//w:r[w:t="١٥"]',namespaces=ns)[0]
+        fonts=digits.find('w:rPr/w:rFonts',ns)
+        self.assertEqual({fonts.get(qn('w:'+slot))for slot in ['ascii','hAnsi','eastAsia','cs']},{'Iman Book Naskh'})
 
 
 if __name__ == '__main__':

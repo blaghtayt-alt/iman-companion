@@ -11,6 +11,7 @@ No text, source marker, field, paragraph order or reference is rewritten.
 from copy import deepcopy
 from lxml import etree
 import re
+from script_fallbacks import fallback_runs,has_fallbacks
 
 W='http://schemas.openxmlformats.org/wordprocessingml/2006/main';q=lambda name:'{'+W+'}'+name
 SCRIPTS={'th':r'[\u0e00-\u0e7f]','bn':r'[\u0980-\u09ff]','hi':r'[\u0900-\u097f]','ar':r'[\u0600-\u06ff\u0750-\u077f]','ur':r'[\u0600-\u06ff\u0750-\u077f]','fa':r'[\u0600-\u06ff\u0750-\u077f]'}
@@ -70,6 +71,8 @@ def _isolate_fallback_chars(run):
             node=deepcopy(child)
             if chunk is not None:
                 node.text=chunk
+                if chunk and (chunk[0].isspace() or chunk[-1].isspace()):
+                    node.set('{http://www.w3.org/XML/1998/namespace}space','preserve')
                 if index!=len(chunks)-1:node.tail=None
             if not groups or groups[-1][0]!=control:groups.append((control,[]))
             groups[-1][1].append(node)
@@ -84,17 +87,69 @@ def _isolate_fallback_chars(run):
         parent.insert(position+offset,new)
     parent.remove(run)
 
+
+def _set_pinned_fallback(run,key,conf):
+    pr=run.find(q('rPr'))
+    if pr is None:pr=etree.Element(q('rPr'));run.insert(0,pr)
+    fonts=pr.find(q('rFonts'))
+    if fonts is None:fonts=etree.Element(q('rFonts'));pr.insert(0,fonts)
+    for attr in list(fonts.attrib):
+        if attr.endswith('Theme'):del fonts.attrib[attr]
+    for slot in ('ascii','hAnsi','eastAsia','cs'):fonts.set(q(slot),conf['fonts'][key]['family'])
+    _neutral_fallback_run(run)
+    if key=='Arabic':
+        fonts.set(q('hint'),'cs');etree.SubElement(pr,q('cs'),{q('val'):'1'})
+        pr.find(q('rtl')).set(q('val'),'1')
+
+
+def _isolate_pinned_fallbacks(run,language,conf):
+    """Keep source characters, field markers and anchors in their exact order."""
+    children=[node for node in run if node.tag!=q('rPr')];groups=[]
+    for child in children:
+        chunks=(list(fallback_runs(child.text or '',language)) or [('',None)]) if child.tag==q('t') else [(None,None)]
+        for index,(chunk,key) in enumerate(chunks):
+            node=deepcopy(child)
+            if chunk is not None:
+                node.text=chunk
+                if chunk and (chunk[0].isspace() or chunk[-1].isspace()):
+                    node.set('{http://www.w3.org/XML/1998/namespace}space','preserve')
+                if index!=len(chunks)-1:node.tail=None
+            if not groups or groups[-1][0]!=key:groups.append((key,[]))
+            groups[-1][1].append(node)
+    if not any(key is not None for key,_ in groups):return
+    if len(groups)==1:
+        _set_pinned_fallback(run,groups[0][0],conf);return
+    parent=run.getparent();position=parent.index(run)
+    for offset,(key,nodes) in enumerate(groups):
+        new=deepcopy(run)
+        for child in list(new):
+            if child.tag!=q('rPr'):new.remove(child)
+        new.text=None;new.tail=run.tail if offset==len(groups)-1 else None;new.extend(nodes)
+        if key is not None:_set_pinned_fallback(new,key,conf)
+        parent.insert(position+offset,new)
+    parent.remove(run)
+
 def repair_parts(parts,conf,language):
-    if language not in SCRIPTS:return {}
-    main=conf['fonts'][conf['languages'][language]['font']]['family'];arabic=conf['fonts']['Arabic']['family'];counts={}
+    if language not in SCRIPTS and not has_fallbacks(language):return {}
+    main=conf['fonts'][conf['languages'][language]['font']]['family'] if language in SCRIPTS else None
+    arabic=conf['fonts']['Arabic']['family'];counts={}
     protected={conf['fonts'][k]['family']for k in ('DigitsArabic','DigitsPersian','SymbolsLTR','SymbolsRTL')if k in conf['fonts']}
     for name,raw in list(parts.items()):
         if not(name.startswith('word/')and name.endswith('.xml')):continue
         root=etree.fromstring(raw);before=etree.tostring(root);content=_reader_content(root)
         hinted=0
+        if language=='th' and name=='word/styles.xml':
+            # Live PAGE/TOC results inherit their style when Word refreshes
+            # fields. Keep Thai in the complex-script slots and give generated
+            # ASCII the same pinned Latin face used by authored number runs.
+            for fonts in root.iter(q('rFonts')):
+                if main in {fonts.get(q(slot)) for slot in ('ascii','hAnsi','eastAsia','cs')}:
+                    for slot in ('ascii','hAnsi'):
+                        fonts.set(q(slot),conf['fonts']['Latin']['family']);fonts.attrib.pop(q(slot+'Theme'),None)
+        for run in list(root.iter(q('r'))):_isolate_pinned_fallbacks(run,language,conf)
         for run in root.iter(q('r')):
             text=''.join(n.text or ''for n in run.findall(q('t')))
-            if not re.search(SCRIPTS[language],text):continue
+            if language not in SCRIPTS or not re.search(SCRIPTS[language],text):continue
             pr=run.find(q('rPr'))
             if pr is None:pr=etree.Element(q('rPr'));run.insert(0,pr)
             fonts=pr.find(q('rFonts'))

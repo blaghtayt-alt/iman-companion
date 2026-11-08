@@ -14,8 +14,7 @@ jobs:
           python-version: "3.12"
       - name: Install renderer
         run: |
-          sudo apt-get update
-          sudo apt-get install -y libreoffice-writer python3-uno fontconfig
+          python books/renderer_pin.py --install
           python -m pip install -r books/requirements.txt
       - name: Load the pinned, approved design assets
         run: |

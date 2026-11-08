@@ -6,6 +6,7 @@ profile. Output Word files retain editable text and embedded fonts.
 from pathlib import Path
 import argparse,subprocess,tempfile,time,socket,json
 import uno
+from renderer_pin import verify_renderer
 from com.sun.star.beans import PropertyValue
 def prop(k,v):p=PropertyValue();p.Name=k;p.Value=v;return p
 def native_footer(doc,language):
@@ -27,6 +28,7 @@ def native_footer(doc,language):
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--folder',type=Path,required=True);ap.add_argument('--keep-contents',action='store_true');args=ap.parse_args();folder=args.folder.resolve()
+    verify_renderer()
     languages={b['file']:b['language'] for b in json.loads((folder/'index.json').read_text(encoding='utf-8'))['books']}
     with socket.socket() as s:s.bind(('127.0.0.1',0));port=s.getsockname()[1]
     with tempfile.TemporaryDirectory() as temp:

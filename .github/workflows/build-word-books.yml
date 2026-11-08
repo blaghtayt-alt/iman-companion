@@ -41,8 +41,11 @@ jobs:
           python books/test_bundle_tables.py
           python tests/test_book_render_validation.py
           python tests/test_book_fonts.py
+          python tests/test_script_fallbacks.py
           python tests/test_numeric_reference_runs.py
           python tests/test_merge_public_books_styles.py
+          python tests/test_merge_public_books_fonts.py
+          python tests/test_renderer_pin.py
           python tests/test_word_page_breaks.py
           python tests/test_source_credits.py
           python tests/test_source_reference_preservation.py
@@ -76,6 +79,34 @@ jobs:
           python -m unittest discover -s books -p test_source_publisher.py
           python books/test_approved_reader_audio.py
           node books/test_download_page.mjs
+  renderer-regression:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install the exact fixed renderer and its matching UNO bridge
+        run: |
+          python books/renderer_pin.py --install
+          python -m pip install -r books/requirements.txt
+      - name: Install pinned fonts and prove exact source citation wrapping
+        run: |
+          python books/install_assets.py --root .
+          mkdir -p "$HOME/.local/share/fonts/iman-books"
+          cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          fc-cache -f
+          IMAN_BOOK_FONT_PROOF=1 python tests/test_numeric_reference_runs.py
+          python tests/check_renderer_citations.py --root . --out "$RUNNER_TEMP/renderer-citations"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: exact-source-citation-renderer-regression-not-publication
+          path: ${{ runner.temp }}/renderer-citations/
+          retention-days: 7
   publish:
     needs: validate
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
@@ -111,14 +142,15 @@ jobs:
           PY
       - name: Install renderer and verified fonts and covers
         run: |
-          sudo apt-get update
-          sudo apt-get install -y libreoffice-writer python3-uno fontconfig
+          python books/renderer_pin.py --install
           python -m pip install -r books/requirements.txt
           python books/install_assets.py --root .
+          IMAN_BOOK_FONT_PROOF=1 python tests/test_numeric_reference_runs.py
           mkdir -p "$HOME/.local/share/fonts/iman-books"
           cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
           cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
           fc-cache -f
+          python tests/check_renderer_citations.py --root . --out "$RUNNER_TEMP/renderer-citations"
           command -v google-chrome || command -v chromium
       - name: Register exact reviewed source transactions and first collection scopes
         run: python books/material_publication_intake.py --root .
