@@ -5,7 +5,7 @@ An extracted case is useful only when its unmodified baseline reproduces.
 """
 from pathlib import Path
 from copy import deepcopy
-import argparse, base64, hashlib, io, json, re, shutil, subprocess, sys, zipfile
+import argparse, base64, hashlib, io, json, os, re, shutil, subprocess, sys, zipfile
 from lxml import etree
 from docx import Document
 from docx.oxml import OxmlElement
@@ -14,7 +14,7 @@ import pymupdf
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 FIXTURE_SHA = '915f5b01586686cbd442df6abb82d835995f01aec92d4af61c32516f374d76f9'
 BASE = '9f756bee7d599fd4b15f527ce1100bb02b79f47c'
-VARIANTS = ['prepared-baseline', 'builder-baseline', 'fit-text', 'fit-text-rtl',
+VARIANTS = ['prepared-baseline', 'builder-baseline', 'marker-naskh', 'fit-text', 'fit-text-rtl',
             'quote-field-locked', 'marker-language-en', 'kinsoku-ar', 'kinsoku-en',
             'uno-forbidden-en', 'uno-keep-together']
 DIGITS = '0123456789٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹'
@@ -43,9 +43,12 @@ def literal(parts):
 
 def notes(parts):
     doc = etree.fromstring(parts['word/document.xml'])
+    anchors = list(doc.iter(W + 'footnoteReference'))
+    if not anchors:
+        return []
     definitions = {n.get(W + 'id'): ''.join(t.text or '' for t in n.iter(W + 't'))
                    for n in etree.fromstring(parts['word/footnotes.xml'])}
-    return [definitions[n.get(W + 'id')] for n in doc.iter(W + 'footnoteReference')]
+    return [definitions[n.get(W + 'id')] for n in anchors]
 
 
 def run_text(node):
@@ -129,7 +132,10 @@ def variant(source_file, case, name, target, width_points):
             assert not anchors
         elif not name.startswith('uno-'):
             first, nodes = marker_nodes(paragraph._p, case['marker'])
-            if name.startswith('fit-text'):
+            if name == 'marker-naskh':
+                for run in nodes:
+                    set_property(run, 'rFonts', {slot: 'Iman Book Naskh' for slot in ['ascii', 'hAnsi', 'cs', 'eastAsia']})
+            elif name.startswith('fit-text'):
                 assert width_points and width_points > 0
                 for run in nodes:
                     set_property(run, 'fitText', {'id': 901, 'val': round(width_points * 20)})
@@ -282,13 +288,18 @@ def main():
     ap.add_argument('--root', type=Path, required=True)
     ap.add_argument('--out', type=Path, required=True)
     ap.add_argument('--fixture', type=Path, required=True)
+    ap.add_argument('--expected-renderer', default='24.2')
+    ap.add_argument('--variants', default=','.join(VARIANTS))
     args = ap.parse_args()
     root, out = args.root.resolve(), args.out.resolve()
     sys.path.insert(0, str(root / 'books'))
     out.mkdir(parents=True, exist_ok=True)
     version = subprocess.check_output(['soffice', '--version'], text=True).strip()
-    if '24.2' not in version:
-        raise RuntimeError('The production LO 24.2 engine is required: ' + version)
+    if args.expected_renderer not in version:
+        raise RuntimeError('Unexpected diagnostic renderer: ' + version)
+    variants = args.variants.split(',')
+    assert len(variants) == len(set(variants)) and set(variants) <= set(VARIANTS)
+    assert variants[:2] == ['prepared-baseline', 'builder-baseline']
     data = base64.b64decode(args.fixture.read_text())
     assert sha(data) == FIXTURE_SHA
     fixtures = out / 'fixture'
@@ -301,7 +312,10 @@ def main():
     report = {'schema': 'iman-a4-marker-roundtrip-diagnostic-v1', 'diagnosticOnly': True,
               'publicationAcceptance': False, 'baseCommit': BASE,
               'diagnosticCommit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=root, text=True).strip(),
-              'renderer': version, 'fixtureBundleSHA256': FIXTURE_SHA, 'source': source,
+              'renderer': version, 'expectedRenderer': args.expected_renderer,
+              'fontconfigFile': os.environ.get('FONTCONFIG_FILE'),
+              'fontconfigSHA256': sha(Path(os.environ['FONTCONFIG_FILE']).read_bytes()) if os.environ.get('FONTCONFIG_FILE') else None,
+              'fixtureBundleSHA256': FIXTURE_SHA, 'source': source,
               'note': 'Exact current A4 paragraph fixtures, without TOC. Both actual production render_uno saves, font restoration, and page-break normalization run. UNO-only variants explicitly record their diagnostic hook.',
               'cases': {}}
     for case in source['cases']:
@@ -310,7 +324,7 @@ def main():
         expected_notes = notes(unpack(source_file))
         rows = report['cases'][case['id']] = {'variants': {}}
         width_points = None
-        for name in VARIANTS:
+        for name in variants:
             directory = out / case['id'] / name
             work, evidence = directory / 'work', directory / 'evidence'
             work.mkdir(parents=True)
