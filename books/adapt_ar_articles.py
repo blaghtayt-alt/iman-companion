@@ -15,20 +15,50 @@ def current_record(row):
     retired={'held','withdrawn','archived','archive','source-archive','historical','superseded','not-currently-available','draft','work-in-progress'}
     return not row.get('archived') and row.get('current',True) is not False and not any(str(row.get(k,'')).lower() in retired for k in ('status','publicationStatus','translationStatus'))
 
-def generate(root,catalog,declaration):
+def approved_exclusions(root,catalog,declaration,excluded_catalog_keys=()):
+    """Exclude only independently bound whole-material publisher snapshots.
+
+    A normalized file's presence, identifier, or self-asserted reviewGate is not
+    an approval. Callers pass current catalogue identities, never unit filenames.
+    """
+    if not excluded_catalog_keys:return set()
+    from book_edition_scope import typed_basis
+    collection={'articles':'articles','seerah':'seerah','hadith':'essential-hadith'}[declaration['collection']]
+    requested=set()
+    for identity in excluded_catalog_keys:
+        if not isinstance(identity,(tuple,list)) or len(identity)!=3:raise ValueError('Invalid adapter exclusion identity')
+        key=(identity[0],identity[1],str(identity[2]))
+        if key[:2]!=(collection,declaration['language']):raise ValueError('Adapter exclusion belongs to another collection')
+        matches=[r for r in catalog['entries'] if (r.get('collection'),r.get('language'),str(r.get('id')))==key]
+        if len(matches)!=1 or not current_record(matches[0]) or (declaration.get('edition') and matches[0].get('edition')!=declaration['edition']):raise ValueError('Adapter exclusion is not one current catalogue identity')
+        if typed_basis(root,matches[0]) is None:raise ValueError('Adapter exclusion requires an exact approved publisher snapshot')
+        requested.add(key[2])
+    return requested
+
+def require_mixed_index_binding(root,declaration,excluded_ids):
+    """A per-material approval never approves changes to a shared legacy index."""
+    if excluded_ids:
+        expected=declaration.get('materialIndexSHA256','')
+        if not re.fullmatch('[a-f0-9]{64}',expected) or sha(inside(root,declaration['materialIndex']).read_bytes())!=expected:
+            raise ValueError('Mixed adapter shared material index needs its unchanged exact binding')
+
+def generate(root,catalog,declaration,*,excluded_catalog_keys=()):
     if (declaration.get('language'),declaration.get('collection'),declaration.get('adapter'))!=('ar','articles','arabic-articles-v1'):raise ValueError('Unsupported reviewed source adapter')
+    excluded=approved_exclusions(root,catalog,declaration,excluded_catalog_keys)
+    require_mixed_index_binding(root,declaration,excluded)
     projection_path=inside(root,declaration['projection']);raw=projection_path.read_bytes()
     if sha(raw)!=declaration.get('projectionSHA256'):raise ValueError('Reviewed article projection changed')
     projection=json.loads(raw)
     if projection.get('schema')!='iman-reviewed-article-projection-v1' or projection.get('language')!='ar' or projection.get('collection')!='articles':raise ValueError('Invalid reviewed article projection')
     allrows=[e for e in catalog['entries'] if e.get('collection')=='articles' and e.get('language')=='ar']
-    rows=[e for e in allrows if e.get('translationStatus')=='supplied-arabic-current' and current_record(e)]
+    if excluded and any(current_record(e) and str(e['id']) not in excluded and e.get('translationStatus')!='supplied-arabic-current' for e in allrows):raise ValueError('Uncovered current article has no eligible legacy source or approved publisher snapshot')
+    rows=[e for e in allrows if e.get('translationStatus')=='supplied-arabic-current' and current_record(e) and str(e['id']) not in excluded]
     entries={e['id']:e for e in rows};reviewed=projection['articles'];byid={a['id']:a for a in reviewed}
     known_ids={e['id'] for e in allrows if 'id' in e}
     if len(entries)!=len(rows) or len(byid)!=len(reviewed) or not set(entries).issubset(byid) or not set(byid).issubset(known_ids) or not entries:raise ValueError('Current article coverage changed or is ambiguous')
     numbers=[e.get('number') or e.get('position') for e in rows]
     if any(not isinstance(n,int) or isinstance(n,bool) or n<1 for n in numbers) or len(set(numbers))!=len(numbers):raise ValueError('Current article order is missing or ambiguous')
-    index_path=inside(root,declaration['materialIndex']);index=read(index_path);active_index=[x for x in index['articles'] if current_record(x)];indexed={x['id']:x for x in active_index}
+    index_path=inside(root,declaration['materialIndex']);index=read(index_path);active_index=[x for x in index['articles'] if current_record(x) and str(x['id']) not in excluded];indexed={x['id']:x for x in active_index}
     if len(indexed)!=len(active_index) or set(entries)!=set(indexed):raise ValueError('Article index coverage changed')
     output=[]
     for ident in sorted(entries,key=lambda x:(entries[x].get('number') or entries[x].get('position') or 0,x)):

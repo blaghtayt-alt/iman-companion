@@ -11,8 +11,18 @@ for(const lang of LANGUAGES){
   const wrong=structuredClone(catalog);wrong.languages[lang].books[0].docx=file('docx').replace(`_${lang}_`,'_unknown_');assert.throws(()=>viewModel(wrong,lang));
   assert.equal(downloadURL(file('pdf')+'?redirect=other',lang,'pdf'),null);assert.equal(downloadURL(file('pdf').replace('https:','http:'),lang,'pdf'),null);
   const empty={schema:catalog.schema,languages:{[lang]:{language:lang,books:[],bundle:null}}};assert.equal(viewModel(empty,lang).books.length,0);assert.equal(viewModel(empty,lang).bundle,null);
+  const collections=['tadabbur-extended','hadith','seerah','articles'];
+  const multiple=structuredClone(catalog),row=multiple.languages[lang];
+  row.books=collections.map(collection=>({...book,collection,docx:file('docx').replace('tadabbur-extended',collection),pdf:file('pdf').replace('tadabbur-extended',collection)}));
+  row.bundle={...row.bundle,parts:4,docx:file('docx').replace('tadabbur-extended','all-books'),pdf:file('pdf').replace('tadabbur-extended','all-books')};
+  assert.deepEqual(viewModel(multiple,lang).books.map(item=>item.collection),collections);assert.equal(viewModel(multiple,lang).bundle.docx,row.bundle.docx);
+  for(const collection of collections){
+    const switched=structuredClone(multiple);switched.languages[lang].books.find(item=>item.collection===collection).pdf=file('pdf').replace(`_${lang}_`,'_unknown_');assert.throws(()=>viewModel(switched,lang));
+  }
+  const partial=structuredClone(multiple);partial.languages[lang].bundle.parts=3;assert.throws(()=>viewModel(partial,lang));
+  const duplicate=structuredClone(multiple);duplicate.languages[lang].books[3]=duplicate.languages[lang].books[2];assert.throws(()=>viewModel(duplicate,lang));
   assert.ok(Object.values(COPY[lang]).every(x=>typeof x==='string'&&x.length));
   if(['ar','ur','fa','bn','hi','ru','zh-CN','th','ja'].includes(lang))assert.ok(Object.values(COPY[lang]).every(x=>!/[A-Za-z]/.test(x)),lang+' copy leaked English');
 }
 assert.equal(canonicalLanguage('pt_BR'),'pt-BR');assert.equal(canonicalLanguage('zh-Hans'),'zh-CN');assert.equal(canonicalLanguage('tl'),'fil');assert.equal(canonicalLanguage('ar-SA'),'ar');assert.equal(resolveLanguage('?lang=ja',['ar']),'ja');
-console.log('20 native download routes, book identities, combined choices and empty-language behavior passed.');
+console.log('20 native download routes, four-category inventories, book identities, combined choices and empty-language behavior passed.');

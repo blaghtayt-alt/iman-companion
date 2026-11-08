@@ -58,6 +58,14 @@ class PublicationChecks(unittest.TestCase):
         self.assertEqual(result['verifiedBookPairs'],0);self.assertEqual(result['staleScopesRemoved'],[('ar','articles')]);self.assertFalse(any(c[:3]==['gh','release','create']for c in self.commands))
     def test_one_failed_scope_does_not_prevent_working_pair_publication(self):
         _,row=self.entry('en',self.tag);self.report([row],[{'language':'ar','collection':'seerah','error':'source incomplete'}]);result=self.publish();self.assertEqual(result['newPairs'],1);self.assertEqual(len(result['failedScopes']),1)
+    def test_rejected_candidate_transfer_keeps_existing_verified_downloads_and_reports_failure(self):
+        old,_=self.entry('ar','books-fixture-1');self.write('books/published-library.json',{'schema':SCHEMA,'entries':[old]});self.report([])
+        report=auto.read(self.out/'build-report.json');report['finalizedIntakeErrors']=[{'error':'Fixture archive hash mismatch'}]
+        (self.out/'build-report.json').write_text(json.dumps(report),encoding='utf8')
+        result=self.publish()
+        self.assertEqual(result['verifiedBookPairs'],1);self.assertEqual(result['newPairs'],0)
+        self.assertEqual(result['finalizedIntakeErrors'],report['finalizedIntakeErrors'])
+        self.assertFalse(any(c[:3]==['gh','release','create'] for c in self.commands))
     def test_newer_main_is_rejected(self):
         with patch.object(auto,'run',side_effect=[self.commit+'\n','c'*40+'\trefs/heads/main\n']):
             with self.assertRaisesRegex(ValueError,'Newer main'):auto.ensure_main(self.root,self.commit)

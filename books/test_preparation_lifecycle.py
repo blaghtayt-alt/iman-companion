@@ -12,7 +12,7 @@ from book_edition_scope import select
 from build_books import canonical_key
 from material_order import validate_group,validate_publication
 from reviewed_coverage import validate as validate_coverage
-from preparation_queue import record as capture_prepared,update,load,still_prepared,artifact_available
+from preparation_queue import record as capture_prepared,update,load,still_prepared,artifact_available,summaries,complete
 import automatic_publication as auto
 
 def record(root,index,folder,commit,holds):
@@ -163,6 +163,24 @@ class PreparationTests(unittest.TestCase):
         with patch.object(auto,'run',side_effect=AssertionError('Unchanged queue must not invoke the renderer')):
             again=auto.build(self.root,self.root/'retry',self.commit,'example/fixture','fixture-tag2')
         self.assertEqual(len(again['unchanged']),1);self.assertFalse(again['prepared']);self.assertFalse(again['failed'])
+        self.assertEqual(len(again['preparedAwaitingReleaseQC']),1)
+        status=again['preparedAwaitingReleaseQC'][0]
+        self.assertEqual(status['pendingChecks'],result['prepared'][0]['pendingChecks'])
+        self.assertEqual(status['includedUnits'],1)
+        self.assertFalse(status['releaseVerified'])
+        self.assertNotIn('candidate',status)
+        self.assertNotIn('localArtifacts',status)
+
+    def test_queue_summary_keeps_artifact_location_and_only_completed_scope_is_removed(self):
+        self.first();_,index=self.checked();folder=self.root/'pending';folder.mkdir()
+        row=record(self.root,index,folder,self.commit,[{'check':'actual-word-layout','reason':'Fixture pending check'}])
+        row['artifact']={'runURL':'https://github.com/example/fixture/actions/runs/123','name':'fixture-artifact'}
+        other=deepcopy(row);other['language']='ar';other['collection']='seerah'
+        self.write('books/prepared-library.json',{'schema':'iman-book-preparation-queue-v1','entries':[row,other]})
+        before=summaries(self.root)
+        self.assertEqual(before[0]['artifact'],row['artifact'])
+        complete(self.root,[('fil','articles')])
+        self.assertEqual(load(self.root)['entries'],[other])
     def test_release_capture_does_not_accept_build_only_scope(self):
         self.first();_,index=self.checked();declared=read(self.root/'books/reviewed-books.json');declared['books'][0]['automaticRelease']=False;self.write('books/reviewed-books.json',declared)
         self.assertEqual(capture(self.root,index,preparation=True)['schema'],'iman-prepared-book-snapshots-v1')

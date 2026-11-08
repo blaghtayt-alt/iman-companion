@@ -1,9 +1,21 @@
 import re,unicodedata
 from locale_copy import locale,NON_LATIN,NATIVE_DIGITS,SURAH_OVERRIDES
 
+# These exact supplied attribution paragraphs occur in the Arabic Essential
+# Hadith chapter bibliographies. Preserve their published license names and
+# source address verbatim; do not grant a general Latin-text exception.
+ARABIC_SOURCE_CREDITS=(
+    'نصوص الآيات بالرسم العثماني من مشروع تنزيل، مع عزو السورة والآية والمحافظة على النص القرآني كما نشره المشروع. Tanzil Quran Text — CC BY 3.0',
+    'حقوق النص القرآني ©\u00a0\u202a2007–2026\u202c مشروع تنزيل. يُسمح بنسخه وتوزيعه كما هو، مع ذكر المصدر والمحافظة على النص دون تغيير. tanzil.net',
+    'حقوق النص القرآني ©\u00a02007–2026\u202c مشروع تنزيل. يُسمح بنسخه وتوزيعه كما هو، مع ذكر المصدر والمحافظة على النص دون تغيير. tanzil.net',
+)
+
 def native_text(text,lang):
     if re.search(r'https?://|www\.|QuranEnc|HadeethEnc|sunnah\.com|[a-z]+_[a-z]+',text,re.I):raise ValueError('Website/internal edition label leaked into reader text')
-    if lang in NON_LATIN and any(c.isalpha() and 'LATIN' in unicodedata.name(c,'') for c in text):raise ValueError('Untranslated Latin-script text in '+lang+' book furniture or reader text')
+    checked=text
+    if lang=='ar':
+        for credit in ARABIC_SOURCE_CREDITS:checked=checked.replace(credit,'')
+    if lang in NON_LATIN and any(c.isalpha() and 'LATIN' in unicodedata.name(c,'') for c in checked):raise ValueError('Untranslated Latin-script text in '+lang+' book furniture or reader text')
     return text
 
 def digits(value,lang):

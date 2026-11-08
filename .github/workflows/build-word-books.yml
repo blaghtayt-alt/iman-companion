@@ -1,6 +1,19 @@
 name: Publish current multilingual books
 on:
   workflow_dispatch:
+    inputs:
+      finalized_release:
+        description: 'Optional draft release tag containing the finalized candidate ZIP'
+        required: false
+        type: string
+      finalized_asset:
+        description: 'Exact ZIP asset filename; supply all three finalized inputs together'
+        required: false
+        type: string
+      finalized_sha256:
+        description: 'SHA256 of the exact candidate ZIP from the owned Word review'
+        required: false
+        type: string
   repository_dispatch:
     types: [published-material]
   pull_request:
@@ -28,6 +41,8 @@ jobs:
           python books/test_bundle_tables.py
           python tests/test_book_render_validation.py
           python tests/test_book_fonts.py
+          python tests/test_source_credits.py
+          python tests/test_source_reference_preservation.py
           python books/test_script_fonts.py
           python books/test_word_layout_check.py
           python books/test_native_word_footer.py
@@ -40,11 +55,16 @@ jobs:
           python tests/test_article_adapter.py
           python tests/test_articles_export.py
           python tests/test_seerah_adapter.py
+          python tests/test_hadith_adapter.py
+          python tests/test_mixed_material_adapters.py
+          python tests/test_finalize_prepared.py
+          python tests/test_release_candidate_intake.py
           python tests/test_published_library.py
           python tests/test_material_audio.py
           python tests/test_automatic_publication.py
           node tests/test_player.mjs
           python -m unittest discover -s books -p test_download_page.py
+          python books/test_multicollection_publication.py
           python -m unittest discover -s books -p test_source_publisher.py
           python books/test_approved_reader_audio.py
           node books/test_download_page.mjs
@@ -60,6 +80,9 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       BOOK_TAG: books-${{ github.run_id }}-${{ github.run_attempt }}
+      FINALIZED_RELEASE: ${{ inputs.finalized_release || '' }}
+      FINALIZED_ASSET: ${{ inputs.finalized_asset || '' }}
+      FINALIZED_SHA256: ${{ inputs.finalized_sha256 || '' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -67,6 +90,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate optional finalized candidate identity
+        run: |
+          python - <<'PY'
+          import os,re
+          release,asset,digest=[os.environ[k] for k in ('FINALIZED_RELEASE','FINALIZED_ASSET','FINALIZED_SHA256')]
+          if any((release,asset,digest)):
+              if not (re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]{0,119}',release)
+                      and re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]{0,159}\.zip',asset)
+                      and re.fullmatch(r'[a-f0-9]{64}',digest)):
+                  raise SystemExit('Provide a safe release tag, exact ZIP basename and lowercase SHA256 together.')
+          PY
       - name: Install renderer and verified fonts and covers
         run: |
           sudo apt-get update
@@ -87,6 +121,31 @@ jobs:
       - name: Generate current material books and insert every applicable QR
         run: |
           python books/automatic_publication.py build --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
+      - name: Retrieve and verify exact owned-desktop candidate bundle
+        id: finalized_transfer
+        if: inputs.finalized_release != '' && github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        run: |
+          mkdir -p "$RUNNER_TEMP/finalized-input"
+          gh release download "$FINALIZED_RELEASE" --repo "$GITHUB_REPOSITORY" --pattern "$FINALIZED_ASSET" --dir "$RUNNER_TEMP/finalized-input"
+          python books/release_candidate_intake.py extract --archive "$RUNNER_TEMP/finalized-input/$FINALIZED_ASSET" --sha256 "$FINALIZED_SHA256" --out "$RUNNER_TEMP/finalized-candidates"
+      - name: Verify Word, visual acceptance and unchanged sources before release intake
+        id: finalized_intake
+        if: steps.finalized_transfer.outcome == 'success'
+        continue-on-error: true
+        run: |
+          python books/automatic_publication.py finalize --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG" --finalized-dir "$RUNNER_TEMP/finalized-candidates"
+      - name: Record rejected candidate transfer while retaining independent books
+        if: steps.finalized_transfer.outcome == 'failure' || steps.finalized_intake.outcome == 'failure'
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          path=Path(os.environ['RUNNER_TEMP'])/'current-books/build-report.json'
+          report=json.loads(path.read_bytes())
+          report.setdefault('finalizedIntakeErrors',[]).append({'error':'The finalized candidate transfer or envelope was rejected. See the transfer/intake step logs; existing verified pairs and independent preparations continue.'})
+          path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+          PY
       - name: Release verified pairs and regenerate the persistent download tables
         run: |
           python books/automatic_publication.py publish --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
@@ -107,5 +166,13 @@ jobs:
           path=Path(os.environ['RUNNER_TEMP'])/'current-books/publication-report.json'
           result=json.loads(path.read_text(encoding='utf8'))
           print(json.dumps(result,ensure_ascii=False))
-          if result['failedScopes'] or result.get('downloadPage',{}).get('failedBundles') or result.get('approvedAudioIntakeErrors') or result.get('sourceTransactionErrors'):raise SystemExit('Working book pairs were published; one or more other scopes need repair. See publication-report.json.')
+          lines=['## Current book publication','',f"Verified public pairs: {result['verifiedBookPairs']}. New pairs: {result['newPairs']}.",'']
+          for row in result.get('preparedAwaitingReleaseQC',[]):
+              scope=row['language']+'/'+row['collection']
+              checks=', '.join(check['check'] for check in row.get('pendingChecks',[]))
+              lines.append(f"- **{scope}**: {row['includedUnits']} units; {row['state']}. Pending: {checks}.")
+              artifact=row.get('artifact',{})
+              if artifact.get('runURL'):lines.append(f"  [Preparation artifact run]({artifact['runURL']})")
+          Path(os.environ['GITHUB_STEP_SUMMARY']).write_text('\n'.join(lines)+'\n',encoding='utf8')
+          if result['failedScopes'] or result.get('downloadPage',{}).get('failedBundles') or result.get('approvedAudioIntakeErrors') or result.get('sourceTransactionErrors') or result.get('finalizedIntakeErrors'):raise SystemExit('Working book pairs were published; one or more other scopes or candidate transfers need repair. See publication-report.json.')
           PY
