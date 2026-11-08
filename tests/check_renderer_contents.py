@@ -2,8 +2,8 @@
 
 This read-only CI regression creates diagnostic books only. It does not call
 the publication controller, write a preparation queue, or create acceptance.
-The negative control disables only tooltip attribute ordering on an isolated
-copy, and must reproduce the pinned renderer's loss of cached TOC links.
+The negative control disables only optional TOC tooltip omission on an exact
+isolated copy, and must reproduce the pinned renderer's cached-link loss.
 """
 from copy import deepcopy
 from pathlib import Path
@@ -62,38 +62,10 @@ def document_evidence(file):
     ordered_notes = [notes[ref.get(W + 'id')] for ref in root.iter(W + 'footnoteReference')]
     links = [link for paragraph in root.iter(W + 'p') if toc_paragraph(paragraph)
              for link in paragraph.iter(W + 'hyperlink')]
-    if any(W + 'tooltip' in link.attrib and list(link.attrib)[-1] != W + 'tooltip' for link in links):
-        raise ValueError('Saved TOC tooltip does not follow its anchor')
     return {'docxSHA256': digest(file.read_bytes()), 'contents': rows, 'contentsTitles': titles,
             'literalBodySHA256': digest(literal.encode()),
             'orderedNotesSHA256': digest(json.dumps(ordered_notes, ensure_ascii=False).encode()),
             'noteCount': len(ordered_notes), 'tooltipLinks': sum(W + 'tooltip' in link.attrib for link in links)}
-
-
-def legacy_tooltip_order(file):
-    """Make the negative control logically identical but reproduce bad ordering."""
-    parts = unpack(file)
-    root = etree.fromstring(parts['word/document.xml'])
-    before = etree.tostring(root, method='c14n')
-    changed = 0
-    for paragraph in root.iter(W + 'p'):
-        if not toc_paragraph(paragraph):
-            continue
-        for link in paragraph.iter(W + 'hyperlink'):
-            if W + 'tooltip' not in link.attrib or W + 'anchor' not in link.attrib:
-                continue
-            attrs = dict(link.attrib)
-            link.attrib.clear()
-            link.set(W + 'tooltip', attrs.pop(W + 'tooltip'))
-            link.attrib.update(attrs)
-            changed += 1
-    if not changed or etree.tostring(root, method='c14n') != before:
-        raise ValueError('Cannot create an exact attribute-order negative control')
-    parts['word/document.xml'] = etree.tostring(root, encoding='UTF-8', xml_declaration=True, standalone=True)
-    with zipfile.ZipFile(file, 'w', zipfile.ZIP_DEFLATED) as archive:
-        for name, raw in parts.items():
-            archive.writestr(name, raw)
-    return changed
 
 
 def main():
@@ -160,6 +132,8 @@ def main():
 
             snapshot('roundtrip-1')
             if language == 'en':
+                if not original['tooltipLinks']:
+                    raise ValueError('The negative control has no optional TOC tooltip to reproduce the import bug')
                 control = out / 'negative-control'
                 control.mkdir()
                 control_file = control / file.name
@@ -167,7 +141,6 @@ def main():
                 control_index = deepcopy(index)
                 control_index.update(diagnosticOnly=True, previewOnly=True)
                 (control / 'index.json').write_text(json.dumps(control_index), encoding='utf8')
-                count = legacy_tooltip_order(control_file)
                 driver = out / 'negative-control-import.py'
                 driver.write_text('import sys\nsys.path.insert(0, ' + repr(str(root / 'books')) + ')\n'
                                   'import render_uno\n'
@@ -175,16 +148,23 @@ def main():
                                   'render_uno.main()\n', encoding='utf8')
                 run(['/usr/bin/python3', driver, '--folder', control, '--keep-contents'], out / 'negative-control.log')
                 rejected = None
+                with zipfile.ZipFile(control_file) as archive:
+                    control_root = etree.fromstring(archive.read('word/document.xml'))
+                counts = [len(list(paragraph.iter(W + 'hyperlink')))
+                          for paragraph in control_root.iter(W + 'p') if toc_paragraph(paragraph)]
                 try:
-                    with zipfile.ZipFile(control_file) as archive:
-                        contents(etree.fromstring(archive.read('word/document.xml')))
+                    contents(control_root)
                 except ValueError as error:
                     rejected = str(error)
-                report['negativeControl'] = {'tooltipLinks': count, 'missingLinksRejected': rejected,
+                report['negativeControl'] = {'disabled': 'optional-contents-tooltip-omission',
+                                             'inputDocxSHA256': original['docxSHA256'],
+                                             'inputTooltipLinks': original['tooltipLinks'],
+                                             'outputLinksPerEntry': counts,
+                                             'missingLinksRejected': rejected,
                                              'docxSHA256': digest(control_file.read_bytes()),
                                              'pdfSHA256': digest(control_file.with_suffix('.pdf').read_bytes())}
-                if not rejected:
-                    raise ValueError('Pinned renderer did not reproduce the unnormalized TOC import failure')
+                if not rejected or counts != [0] * len(original['contents']):
+                    raise ValueError('Pinned renderer did not reproduce the TOC-tooltip import failure')
                 save()
 
             run([sys.executable, 'books/native_pagination.py', '--root', root, '--folder', book_folder], folder / 'native-pagination.log')

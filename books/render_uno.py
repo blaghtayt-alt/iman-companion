@@ -76,7 +76,6 @@ def main():
                     doc.store()
                     doc.storeToURL(file.with_suffix('.pdf').as_uri(),(prop('FilterName','writer_pdf_Export'),prop('Overwrite',True)))
                 finally:doc.close(True)
-                normalize_toc_hyperlinks(file)
         finally:
             if desktop:desktop.terminate()
             process.terminate()

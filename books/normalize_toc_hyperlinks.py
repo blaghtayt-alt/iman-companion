@@ -1,15 +1,18 @@
 """Preserve cached TOC hyperlinks when the pinned Writer imports a DOCX.
 
-Writer tdf#168053 parses a tooltip preceding an internal anchor as part of
-the target. Reordering that XML attribute is semantically neutral: no text,
-target, tooltip, relationship, or other property is changed. Keep this small
-compatibility pass around both sides of each Writer save until the pinned
-renderer includes upstream commit 2776654bbb109af114a44fe00ec9771e4ad2d99d.
+Writer tdf#168053 combines an optional tooltip with the internal hyperlink
+command, then misparses its quoted target. Omit only that optional attribute
+on an already valid internal contents link before import. Visible text,
+native page digits, bookmarks, relationships and other properties stay exact.
+XML attribute reordering does not fix the renderer's internal command order.
+Remove this compatibility pass once the pinned renderer includes upstream
+commit 2776654bbb109af114a44fe00ec9771e4ad2d99d and the real-book gate passes.
 
 Only the standard library is used, so the system Python UNO process can run
 this without sharing the publication virtual environment's dependencies.
 """
 from io import BytesIO
+from collections import Counter
 import os
 from pathlib import Path
 import re
@@ -20,6 +23,7 @@ from xml.parsers import expat
 from zipfile import ZipFile
 
 W = 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
+R = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships'
 
 
 def children(node, name):
@@ -29,7 +33,7 @@ def children(node, name):
 
 
 def normalize_document_xml(raw):
-    """Return XML and the number of attributes moved; all values stay exact."""
+    """Omit optional TOC tooltips; never create or infer a missing link target."""
     if b'<!DOCTYPE' in raw:
         raise ValueError('Document XML must not contain a DTD')
     document = minidom.parseString(raw)
@@ -37,6 +41,8 @@ def normalize_document_xml(raw):
     if root.namespaceURI != W or root.localName != 'document':
         raise ValueError('Not a Word document XML part')
     jobs = {}
+    bookmarks = Counter(node.getAttributeNS(W, 'name')
+                        for node in root.getElementsByTagNameNS(W, 'bookmarkStart'))
     links = root.getElementsByTagNameNS(W, 'hyperlink')
     for index, link in enumerate(links):
         paragraph = link.parentNode
@@ -49,15 +55,20 @@ def normalize_document_xml(raw):
         if len(styles) != 1 or not re.fullmatch(r'TOC\s*[1-9]', styles[0].getAttributeNS(W, 'val')):
             continue
         tooltip = link.getAttributeNodeNS(W, 'tooltip')
-        if tooltip is None or not link.hasAttributeNS(W, 'anchor'):
+        if tooltip is None:
             continue
-        if link.attributes.item(link.attributes.length - 1) is not tooltip:
-            jobs[index] = tooltip.name.encode('UTF-8')
+        anchor = link.getAttributeNS(W, 'anchor')
+        if (not anchor or bookmarks[anchor] != 1
+                or link.hasAttributeNS(R, 'id')
+                or len(paragraph.getElementsByTagNameNS(W, 'hyperlink')) != 1):
+            raise ValueError('Contents tooltip has no unique internal bookmark link')
+        jobs[index] = tooltip.name.encode('UTF-8')
+        link.removeAttributeNS(W, 'tooltip')
     if not jobs:
         return raw, 0
-    # Copy the original attribute bytes rather than serialize the DOM. This
-    # also retains character references in tooltip values, namespace aliases,
-    # comments, all XML whitespace, and every unrelated byte.
+    # Delete only the original optional attribute bytes, without serializing
+    # the DOM. Namespace prefixes, entities, comments, text, and every other
+    # attribute retain their original bytes and order.
     edits = []
     seen = 0
     parser = expat.ParserCreate(namespace_separator='|')
@@ -89,7 +100,7 @@ def normalize_document_xml(raw):
         if len(selected) != 1 or end >= len(raw):
             raise ValueError('Cannot preserve exact TOC hyperlink attribute bytes')
         match = selected[0]
-        repaired = tag[:match.start()] + tag[match.end():attrs[-1].end()] + match[0] + tag[attrs[-1].end():]
+        repaired = tag[:match.start()] + tag[match.end():]
         edits.append((begin, end + 1, repaired))
 
     parser.StartElementHandler = start
@@ -99,9 +110,9 @@ def normalize_document_xml(raw):
     result = raw
     for begin, end, repaired in reversed(edits):
         result = result[:begin] + repaired + result[end:]
-    # C14N sorts attributes. Equality therefore proves that this pass changed
-    # attribute order only, including every unknown element and attribute.
-    if canonicalize(raw) != canonicalize(result):
+    # The DOM has only the selected optional attributes removed. Canonical
+    # equality verifies that no reader text, target, or other property changed.
+    if canonicalize(document.toxml(encoding='UTF-8')) != canonicalize(result):
         raise ValueError('Unexpected XML change while normalizing TOC hyperlinks')
     return result, len(edits)
 
