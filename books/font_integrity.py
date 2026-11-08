@@ -2,21 +2,38 @@
 from pathlib import Path,PurePosixPath
 import hashlib,json,uuid,zipfile
 from lxml import etree
+from script_fallbacks import extra_font_keys,FONT_FAMILIES
 W='http://schemas.openxmlformats.org/wordprocessingml/2006/main';R='http://schemas.openxmlformats.org/officeDocument/2006/relationships';P='http://schemas.openxmlformats.org/package/2006/relationships';CT='http://schemas.openxmlformats.org/package/2006/content-types'
 q=lambda ns,name:'{'+ns+'}'+name
 sha=lambda raw:hashlib.sha256(raw).hexdigest()
 
-def families(conf,lang):
+def families(conf,lang,parts=None):
     selected=[conf['fonts'][conf['languages'][lang]['font']],conf['fonts']['Arabic'],conf['fonts']['Latin']]
     selected.extend(conf['fonts'][key]for key in['SymbolsLTR','SymbolsRTL']if key in conf['fonts'])
     native={'ar':'DigitsArabic','ur':'DigitsPersian','fa':'DigitsPersian'}.get(lang)
     if native and native in conf['fonts']:selected.append(conf['fonts'][native])
+    # Older verified books do not acquire new mandatory font members merely
+    # because a new renderer can use an additional face. When the face is
+    # present or explicitly selected, verify/restore its exact existing pin.
+    requested=set()
+    for name,raw in (parts or {}).items():
+        if not(name.startswith('word/')and name.endswith('.xml')):continue
+        tree=etree.fromstring(raw)
+        requested.update(node.get(q(W,'name')) for node in tree.iter(q(W,'font')))
+        for node in tree.iter(q(W,'rFonts')):
+            requested.update(node.get(q(W,slot)) for slot in ('ascii','hAnsi','eastAsia','cs'))
+    for key in extra_font_keys(lang):
+        family=conf['fonts'].get(key,{}).get('family',FONT_FAMILIES[key])
+        if family in requested:
+            if key not in conf['fonts']:raise ValueError('Missing pinned fallback font: '+key)
+            selected.append(conf['fonts'][key])
     return {f['family']:f for f in selected}
 
 def verify(file,conf,lang):
     with zipfile.ZipFile(file) as z:
         table=etree.fromstring(z.read('word/fontTable.xml'));rels=etree.fromstring(z.read('word/_rels/fontTable.xml.rels'));relationships={r.get('Id'):r for r in rels}
-        for family,definition in families(conf,lang).items():
+        parts={name:z.read(name) for name in z.namelist() if name.startswith('word/') and name.endswith('.xml')}
+        for family,definition in families(conf,lang,parts).items():
             nodes=[n for n in table if n.get(q(W,'name'))==family]
             if len(nodes)!=1:raise ValueError('Missing or ambiguous pinned font: '+family)
             for style,expected in definition['sha256'].items():
@@ -34,10 +51,12 @@ def verify(file,conf,lang):
 
 def restore(file,conf,lang,root):
     with zipfile.ZipFile(file) as z:parts={n:z.read(n) for n in z.namelist()}
+    from script_font_slots import repair_parts
+    repair_parts(parts,conf,lang)
     table=etree.fromstring(parts['word/fontTable.xml'])
     rels=etree.fromstring(parts['word/_rels/fontTable.xml.rels']) if 'word/_rels/fontTable.xml.rels' in parts else etree.Element(q(P,'Relationships'),nsmap={None:P})
     used={r.get('Id') for r in rels}
-    for family,definition in families(conf,lang).items():
+    for family,definition in families(conf,lang,parts).items():
         nodes=[n for n in table if n.get(q(W,'name'))==family]
         if len(nodes)>1:raise ValueError('Ambiguous font table entry')
         node=nodes[0] if nodes else etree.SubElement(table,q(W,'font'),{q(W,'name'):family})
@@ -64,8 +83,6 @@ def restore(file,conf,lang,root):
     settings=etree.fromstring(parts['word/settings.xml']);embedded=settings.find(q(W,'embedTrueTypeFonts'))
     if embedded is None:embedded=etree.SubElement(settings,q(W,'embedTrueTypeFonts'))
     embedded.set(q(W,'val'),'true');parts['word/settings.xml']=etree.tostring(settings,xml_declaration=True,encoding='UTF-8',standalone=True)
-    from script_font_slots import repair_parts
-    repair_parts(parts,conf,lang)
     tmp=file.with_name(file.name+'.font-pending')
     if tmp.exists():raise ValueError('Foreign temporary file exists')
     try:

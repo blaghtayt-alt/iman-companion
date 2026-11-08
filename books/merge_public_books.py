@@ -5,7 +5,7 @@ anthology of the public books in one language, not a personal selected edition.
 """
 from pathlib import Path
 from copy import deepcopy
-import posixpath,re,zipfile,hashlib
+import posixpath,re,zipfile,hashlib,uuid
 from lxml import etree
 from pypdf import PdfReader,PdfWriter
 from reader_xml import body_text
@@ -25,6 +25,86 @@ def normal_notes(parts,body):
     if 'word/footnotes.xml'not in parts:return []
     notes={n.get(q('id')):n for n in xml(parts['word/footnotes.xml'])if n.get(q('type'))in(None,'normal')}
     return[''.join(n.itertext())for ref in body.iter(q('footnoteReference'))for n in[notes[ref.get(q('id'))]]]
+
+FONT_EMBEDS=tuple(q('embed'+style)for style in('Regular','Bold','Italic','BoldItalic'))
+
+def font_index(table):
+    result={}
+    for font in table.findall(q('font')):
+        name=font.get(q('name'))
+        if not name or name.casefold()in result:raise ValueError('Missing or duplicate Word font family')
+        result[name.casefold()]=font
+    return result
+
+def font_embeddings(parts,font,relationships):
+    """Compare the actual font bytes, independently of obfuscation keys/IDs."""
+    result={}
+    for node in font:
+        if node.tag not in FONT_EMBEDS:continue
+        if node.tag in result:raise ValueError('Duplicate embedded Word font style')
+        rel=relationships.get(node.get('{'+R+'}id'))
+        if rel is None or rel.get('Type')!=R+'/font' or rel.get('TargetMode')=='External':
+            raise ValueError('Invalid embedded Word font relationship')
+        target=resolved('word/fontTable.xml',rel.get('Target',''))
+        if not target.startswith('word/fonts/')or target not in parts:raise ValueError('Unresolved embedded Word font')
+        data=bytearray(parts[target])
+        try:key=uuid.UUID(node.get(q('fontKey'),'').strip('{}')).bytes[::-1]
+        except ValueError as error:raise ValueError('Invalid embedded Word font key')from error
+        if len(data)<32:raise ValueError('Truncated embedded Word font')
+        for i in range(32):data[i]^=key[i%16]
+        result[node.tag]=(node,target,hashlib.sha256(data).hexdigest())
+    return result
+
+def merge_fonts(parts,source,index,copy_part,content_type):
+    """Keep new pinned families and faces when appending a translated book.
+
+    Font names are global in a Word package. Two different faces with the same
+    family/style cannot be isolated through relationship IDs, so reject those
+    conflicts rather than changing either book's appearance.
+    """
+    name='word/fontTable.xml';rels_name=relpath(name)
+    if name not in source:return
+    table=xml(parts[name])if name in parts else etree.Element(q('fonts'),nsmap={'w':W})
+    incoming=xml(source[name]);existing=font_index(table);font_index(incoming)
+    rels=xml(parts[rels_name])if rels_name in parts else etree.Element('{'+P+'}Relationships',nsmap={None:P})
+    source_rels=xml(source[rels_name])if rels_name in source else[]
+    def identities(nodes):
+        result={}
+        for rel in nodes:
+            ident=rel.get('Id')
+            if not ident or ident in result:raise ValueError('Missing or duplicate Word font relationship')
+            result[ident]=rel
+        return result
+    relationships=identities(rels);source_relationships=identities(source_rels)
+    known={key:font_embeddings(parts,font,relationships)for key,font in existing.items()}
+    types=xml(source['[Content_Types].xml'])
+    defaults={n.get('Extension'):n.get('ContentType')for n in types if n.tag=='{'+C+'}Default'}
+    overrides={n.get('PartName','').lstrip('/'):n.get('ContentType')for n in types if n.tag=='{'+C+'}Override'}
+    for font in incoming.findall(q('font')):
+        family=font.get(q('name'));key=family.casefold();embeddings=font_embeddings(source,font,source_relationships)
+        if key not in existing:
+            copied=deepcopy(font)
+            for child in list(copied):
+                if child.tag in FONT_EMBEDS:copied.remove(child)
+            table.append(copied);existing[key]=copied;known[key]={}
+        for style,(node,target,digest)in embeddings.items():
+            if style in known[key]:
+                if known[key][style][2]!=digest:raise ValueError('Constituent books use incompatible embedded font: '+family+' '+etree.QName(style).localname)
+                continue
+            destination=copy_part(target)
+            kind=overrides.get(target)or defaults.get(posixpath.splitext(target)[1].lstrip('.'))
+            if not kind:raise ValueError('Missing embedded Word font content type')
+            content_type(destination,kind)
+            ident='m'+str(index)+'-font-'+str(len(relationships)+1)
+            while ident in relationships:ident+='x'
+            rel=etree.SubElement(rels,'{'+P+'}Relationship',Id=ident,Type=R+'/font',Target=posixpath.relpath(destination,'word'))
+            relationships[ident]=rel;copied=deepcopy(node);copied.set('{'+R+'}id',ident);existing[key].append(copied)
+            known[key][style]=(copied,destination,digest)
+        target_font=existing[key]
+        target_font[:]=[n for n in target_font if n.tag not in FONT_EMBEDS]+sorted(
+            [n for n in target_font if n.tag in FONT_EMBEDS],key=lambda n:FONT_EMBEDS.index(n.tag))
+    content_type(name,'application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml')
+    parts[name]=serialized(table);parts[rels_name]=serialized(rels)
 
 STYLE_REFERENCES={q(n)for n in('pStyle','rStyle','tblStyle','basedOn','next','link','styleLink','numStyleLink')}
 
@@ -285,6 +365,7 @@ def merge_docx(inputs,output):
                     destination=copy_part(resolved(name,rel.get('Target')));rel.set('Target',posixpath.relpath(destination,posixpath.dirname(target)))
                 parts[relpath(target)]=serialized(copied)
             return target
+        merge_fonts(parts,source,index,copy_part,content_type)
         source_rels=xml(source['word/_rels/document.xml.rels']);rid_map={}
         for rel in source_rels:
             if rel.get('TargetMode')=='External':rid_map[rel.get('Id')]=relationship(rel.get('Type'),rel.get('Target'),True)

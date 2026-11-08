@@ -20,6 +20,7 @@ from reader_xml import body_text
 from material_audio import load_registry,add_audio_panel
 from bibliography import native_text,digits,hadith_citation,quran_reference,edition_credit,expand_verse_key
 from book_typography import SYMBOLS,SYMBOL_LTR,SYMBOL_RTL,quotation_mirrors,block_mirrors,span_mirrors
+from script_fallbacks import FONT_FAMILIES,extra_font_keys,fallback_runs
 
 SCHEMA='iman-book-unit-v1'
 ROLES={'body':'000000','meaning':'000000','example':'000000','note':'000000','current-ayah':'7C3AED','quran':'7C3AED','related':'2563EB','hadith':'2563EB','scholar':'A95300','heading':'064534'}
@@ -98,6 +99,7 @@ def fonts_for(conf,lang,root):
     ar=conf['fonts']['Arabic']
     result={}
     extra=[conf['fonts'][k]for k in['SymbolsLTR','SymbolsRTL']if k in conf['fonts']]
+    extra.extend(conf['fonts'][key] for key in extra_font_keys(lang))
     native={'ar':'DigitsArabic','ur':'DigitsPersian','fa':'DigitsPersian'}.get(lang)
     if native and native in conf['fonts']:extra.append(conf['fonts'][native])
     for family in [f,ar,conf['fonts']['Latin'],*extra]:
@@ -150,11 +152,20 @@ def add_text(p,text,lang,family,arabic,size=11,color='body',bold=False,ornament_
                 if token in SYMBOLS and token:pieces.append((token,False,offset));offset+=len(token)
                 else:
                     for piece in re.split('('+ARABIC_RUN+'+(?:\\s+'+ARABIC_RUN+'+)*)',token):pieces.append((piece,False,offset));offset+=len(piece)
+    selected=[]
     for piece,is_number,position in pieces:
+        for fragment,key in fallback_runs(piece,lang):
+            selected.append((fragment,is_number,position,key));position+=len(fragment)
+    for piece,is_number,position,fallback in selected:
         if not piece:continue
         is_ar=bool(re.search(ARABIC_RUN,piece));font=family if lang in RTL else (arabic if is_ar else family)
         if piece in SYMBOLS and piece:font=SYMBOL_LTR if piece!='\ufdfa'and mirrors.get(position,lang not in RTL)else SYMBOL_RTL
         if lang in RTL and re.search('[A-Za-z]',piece) and not is_ar:font='Iman Book Inter'
+        # A grouped citation also needs one face covering every glyph. The
+        # Arabic app face lacks ASCII brackets; renderer fallback can split
+        # the marker again. These already embedded faces cover the whole run.
+        if is_number and piece.startswith('['):font=arabic if is_ar else 'Iman Book Inter'
+        if fallback:font=FONT_FAMILIES[fallback]
         r=p.add_run(piece);r.font.name=font;r.font.size=Pt(size);r.bold=bold;r.font.color.rgb=RGBColor.from_string(ROLES.get(color,ROLES['body']))
         rp=r._r.get_or_add_rPr();rf=rp.find(qn('w:rFonts'))
         if rf is None:rf=el(rp,'w:rFonts')
@@ -280,6 +291,11 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
             for a in list(rf.attrib):
                 if a.endswith('Theme'):del rf.attrib[a]
             for a in ['ascii','hAnsi','eastAsia','cs']:rf.set(qn('w:'+a),family)
+            # Generated TOC/PAGE text has no authored runs to split. Thai
+            # letters use the native complex-script face; generated ASCII
+            # digits and punctuation use the pinned Latin style slots.
+            if lang=='th':
+                for a in ['ascii','hAnsi']:rf.set(qn('w:'+a),FONT_FAMILIES['Latin'])
             if lang in RTL and style.name in {'Normal','TOC 1','TOC 2'}:
                 pp=style._element.get_or_add_pPr()
                 bidi=pp.find(qn('w:bidi'))
@@ -304,7 +320,11 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
         from native_pagination import append_native_number
         append_native_number(p,'PAGE',lang,family)
     else:
-        r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'begin'});el(r._r,'w:instrText').text=' PAGE ';el(r._r,'w:fldChar',{'w:fldCharType':'end'})
+        r=p.add_run()
+        if lang=='th':
+            rf=el(r._r.get_or_add_rPr(),'w:rFonts')
+            for a in ['ascii','hAnsi','eastAsia','cs']:rf.set(qn('w:'+a),FONT_FAMILIES['Latin'])
+        el(r._r,'w:fldChar',{'w:fldCharType':'begin'});el(r._r,'w:instrText').text=' PAGE ';el(r._r,'w:fldChar',{'w:fldCharType':'end'})
     p=doc.add_paragraph(style='Title');direction(p,lang);add_text(p,title,lang,family,arabic,26,'heading',True)
     if scope_summary:
         p=doc.add_paragraph();direction(p,lang);add_text(p,scope_summary,lang,family,arabic,17,'heading',True)
