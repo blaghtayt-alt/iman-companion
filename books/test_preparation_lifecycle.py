@@ -255,11 +255,42 @@ class PreparationTests(unittest.TestCase):
     def test_render_failure_preserves_old_verified_limited_edition(self):
         self.first();old,_=self.checked();old['releaseTag']='fixture-checked';self.first(2)
         self.write('books/published-library.json',{'schema':SCHEMA,'entries':[old]})
-        with patch.object(auto,'run',side_effect=RuntimeError('Fixture render failed')):
-            report=auto.build(self.root,self.root/'failed-render',self.commit,'example/fixture','fixture-tag')
-        self.assertEqual(len(report['failed']),1);self.assertFalse(report['prepared'])
+        out=self.root/'failed-render';folder=out/'fil-articles';name=old['book']['file'];retained=[]
+        for attempt in (1,2):
+            partial_word=('incomplete-word-'+str(attempt)).encode();partial_pdf=('incomplete-pdf-'+str(attempt)).encode()
+            def execute(args,root):
+                if str(args[1])=='books/render_uno.py':
+                    (folder/name).write_bytes(partial_word)
+                    (folder/Path(name).with_suffix('.pdf')).write_bytes(partial_pdf)
+                    raise RuntimeError('Fixture render failed')
+                return ''
+            with patch.object(auto,'run',side_effect=execute):
+                report=auto.build(self.root,out,self.commit,'example/fixture','fixture-tag')
+            self.assertEqual(len(report['failed']),1);self.assertFalse(report['prepared']);self.assertFalse(report['built'])
+            failure=report['failed'][0];saved=out/failure['folder'];retained.append(saved)
+            self.assertTrue(saved.is_relative_to(out/'failed-preparations'));self.assertFalse(folder.exists())
+            self.assertEqual((saved/name).read_bytes(),partial_word)
+            self.assertEqual((saved/Path(name).with_suffix('.pdf')).read_bytes(),partial_pdf)
+            self.assertEqual((saved/'BUILD-ERROR.txt').read_text(),'Fixture render failed')
+            self.assertFalse((saved/'prepared-snapshot.json').exists());self.assertFalse(load(self.root)['entries'])
+        self.assertNotEqual(*retained)
+        self.assertEqual((retained[0]/name).read_bytes(),b'incomplete-word-1')
         remote=self.remote(old);_,ready,stale=merge(self.root,{'schema':SCHEMA,'entries':[old]},[],'example/fixture',lambda _:remote)
         self.assertFalse(stale);self.assertEqual(ready[('fil','articles')]['sha256'],old['book']['sha256'])
+        # Exercise the real public-file selector after the failed build: it must
+        # fetch the retained release, without using or overwriting partial bytes.
+        from download_page import source_file,REPO
+        from published_library import release_url
+        from io import BytesIO
+        book=ready[('fil','articles')]
+        for extension,raw,field in [('docx',b'fixture-word','download'),('pdf',b'fixture-pdf','pdfDownload')]:
+            book[field]=release_url(REPO,old['releaseTag'],Path(name).with_suffix('.'+extension).name)
+            with patch('download_page.urlopen',return_value=BytesIO(raw)) as fetch:
+                public=source_file(self.root,out,book,extension)
+            fetch.assert_called_once();self.assertEqual(public.read_bytes(),raw)
+            self.assertTrue(public.is_relative_to(self.root/'books/.cache/download-pairs'))
+        self.assertEqual((retained[0]/name).read_bytes(),b'incomplete-word-1')
+        self.assertEqual((retained[1]/name).read_bytes(),b'incomplete-word-2')
     def test_locale_isolation_and_other_collection_changes_do_not_requeue_prepared_book(self):
         self.first();_,index=self.checked();folder=self.root/'isolated';folder.mkdir();row=record(self.root,index,folder,self.commit,[])
         catalog=read(self.root/'materials/catalog.json');catalog['entries'].append({'collection':'seerah','language':'en','id':'new-seerah099','json':'unrelated.json'});self.write('materials/catalog.json',catalog)

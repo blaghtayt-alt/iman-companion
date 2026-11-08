@@ -113,5 +113,64 @@ class MergePublicBookFonts(unittest.TestCase):
                 with self.assertRaises(ValueError):merge_docx([self.first,self.second],self.output)
                 self.assertFalse(self.output.exists())
 
+    def add_legacy_symbol_metadata(self,path):
+        parts=read_parts(path);table=xml(parts['word/fontTable.xml'])
+        for family,pitch in [('roman','variable'),('auto','default')]:
+            font=etree.SubElement(table,q('font'),{q('name'):'Symbol'})
+            etree.SubElement(font,q('charset'),{q('val'):'02'})
+            etree.SubElement(font,q('family'),{q('val'):family})
+            etree.SubElement(font,q('pitch'),{q('val'):pitch})
+        parts['word/fontTable.xml']=serialized(table);write_parts(path,parts)
+
+    def test_identical_ordered_unembedded_duplicates_are_retained_unchanged(self):
+        for path in(self.first,self.second):
+            self.fixture(path,path.stem,{'Pinned Base':{'Regular':b'a'*64}})
+            self.add_legacy_symbol_metadata(path)
+        original=read_parts(self.first);hashes=[hashlib.sha256(p.read_bytes()).hexdigest()for p in(self.first,self.second)]
+        def metadata(parts):return[etree.tostring(n,method='c14n',exclusive=True)for n in xml(parts['word/fontTable.xml'])if n.get(q('name'))=='Symbol']
+        expected=metadata(original);self.assertEqual(len(expected),2)
+        merge_docx([self.first,self.second],self.output)
+        self.assertEqual(metadata(read_parts(self.output)),expected)
+        self.assertEqual(decoded_fonts(self.output),{('Pinned Base','embedRegular'):b'a'*64})
+        self.assertEqual(hashes,[hashlib.sha256(p.read_bytes()).hexdigest()for p in(self.first,self.second)])
+
+    def test_changed_reordered_missing_or_unmatched_duplicate_metadata_is_rejected(self):
+        for defect in('changed','reordered','one-row','no-rows','target-only','source-only'):
+            with self.subTest(defect=defect):
+                for path in(self.first,self.second):
+                    self.fixture(path,path.stem,{'Pinned Base':{'Regular':b'a'*64}})
+                    if not(defect=='target-only'and path==self.second or defect=='source-only'and path==self.first):
+                        self.add_legacy_symbol_metadata(path)
+                parts=read_parts(self.second);table=xml(parts['word/fontTable.xml']);rows=[n for n in table if n.get(q('name'))=='Symbol']
+                if defect=='changed':rows[1].find(q('pitch')).set(q('val'),'fixed')
+                if defect=='reordered':
+                    for row in rows:table.remove(row)
+                    table.extend(reversed(rows))
+                if defect=='one-row':table.remove(rows[1])
+                if defect=='no-rows':
+                    for row in rows:table.remove(row)
+                parts['word/fontTable.xml']=serialized(table);write_parts(self.second,parts)
+                with self.assertRaisesRegex(ValueError,'duplicate Word font metadata'):merge_docx([self.first,self.second],self.output)
+                self.assertFalse(self.output.exists())
+
+    def test_identical_embedded_duplicate_groups_remain_rejected(self):
+        for path in(self.first,self.second):
+            self.fixture(path,path.stem,{'Pinned Base':{'Regular':b'a'*64}})
+            parts=read_parts(path);table=xml(parts['word/fontTable.xml']);table.append(deepcopy(table[0]))
+            parts['word/fontTable.xml']=serialized(table);write_parts(path,parts)
+        with self.assertRaisesRegex(ValueError,'Duplicate embedded Word font family'):merge_docx([self.first,self.second],self.output)
+        self.assertFalse(self.output.exists())
+
+    def test_missing_family_name_cannot_use_duplicate_metadata_exception(self):
+        for path in(self.first,self.second):
+            self.fixture(path,path.stem,{'Pinned Base':{'Regular':b'a'*64}})
+            self.add_legacy_symbol_metadata(path)
+            parts=read_parts(path);table=xml(parts['word/fontTable.xml'])
+            for node in table:
+                if node.get(q('name'))=='Symbol':node.attrib.pop(q('name'))
+            parts['word/fontTable.xml']=serialized(table);write_parts(path,parts)
+        with self.assertRaisesRegex(ValueError,'Missing or duplicate Word font family'):merge_docx([self.first,self.second],self.output)
+        self.assertFalse(self.output.exists())
+
 
 if __name__=='__main__':unittest.main()

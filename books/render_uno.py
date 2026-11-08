@@ -7,6 +7,7 @@ from pathlib import Path
 import argparse,subprocess,tempfile,time,socket,json
 import uno
 from renderer_pin import verify_renderer
+from normalize_toc_hyperlinks import normalize as normalize_toc_hyperlinks
 from com.sun.star.beans import PropertyValue
 def prop(k,v):p=PropertyValue();p.Name=k;p.Value=v;return p
 def native_footer(doc,language):
@@ -43,6 +44,7 @@ def main():
             else:raise RuntimeError('LibreOffice did not start')
             desktop=context.ServiceManager.createInstanceWithContext('com.sun.star.frame.Desktop',context)
             for file in sorted(folder.glob('*.docx')):
+                normalize_toc_hyperlinks(file)
                 doc=desktop.loadComponentFromURL(file.as_uri(),'_blank',0,(prop('Hidden',True),prop('ReadOnly',False),prop('UpdateDocMode',0 if args.keep_contents else 3)))
                 if doc is None:raise RuntimeError('Cannot open '+str(file))
                 try:
@@ -74,6 +76,7 @@ def main():
                     doc.store()
                     doc.storeToURL(file.with_suffix('.pdf').as_uri(),(prop('FilterName','writer_pdf_Export'),prop('Overwrite',True)))
                 finally:doc.close(True)
+                normalize_toc_hyperlinks(file)
         finally:
             if desktop:desktop.terminate()
             process.terminate()

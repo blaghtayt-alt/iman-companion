@@ -45,7 +45,9 @@ jobs:
           python tests/test_numeric_reference_runs.py
           python tests/test_merge_public_books_styles.py
           python tests/test_merge_public_books_fonts.py
+          python tests/test_merge_public_books_numbering.py
           python tests/test_renderer_pin.py
+          python tests/test_toc_hyperlink_import.py
           python tests/test_word_page_breaks.py
           python tests/test_source_credits.py
           python tests/test_source_reference_preservation.py
@@ -82,7 +84,7 @@ jobs:
   renderer-regression:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -101,11 +103,19 @@ jobs:
           fc-cache -f
           IMAN_BOOK_FONT_PROOF=1 python tests/test_numeric_reference_runs.py
           python tests/check_renderer_citations.py --root . --out "$RUNNER_TEMP/renderer-citations"
+      - name: Prove complete LTR, RTL, Thai and Urdu preparation with live contents links
+        run: python tests/check_renderer_contents.py --root . --out "$RUNNER_TEMP/renderer-contents"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: exact-source-citation-renderer-regression-not-publication
           path: ${{ runner.temp }}/renderer-citations/
+          retention-days: 7
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: complete-book-contents-renderer-regression-not-publication
+          path: ${{ runner.temp }}/renderer-contents/
           retention-days: 7
   publish:
     needs: validate
