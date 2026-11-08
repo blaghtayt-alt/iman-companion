@@ -8,8 +8,9 @@ from copy import deepcopy
 import argparse, base64, hashlib, io, json, shutil, subprocess, sys, zipfile
 from lxml import etree
 from docx import Document
-from docx.oxml import OxmlElement
+from docx.oxml import OxmlElement, parse_xml
 from docx.oxml.ns import qn
+from docx.text.paragraph import Paragraph
 import pymupdf
 
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
@@ -62,8 +63,12 @@ def variant(source_file, source, name, target):
     from build_books import add_text
     parts = unpack(source_file)
     if name != 'prepared-baseline':
-        doc = Document(source_file)
-        p = doc.paragraphs[0]
+        # Operate on the original XML directly: the reduced fixture deliberately
+        # omits unused package media, so loading its relationship graph is not
+        # necessary for exercising the production text builder.
+        xml = parse_xml(parts['word/document.xml'])
+        owner = Document()
+        p = Paragraph(xml.find(W + 'body').find(W + 'p'), owner._body)
         anchors = [deepcopy(r) for r in p._p.findall(W + 'r') if r.find(W + 'footnoteReference') is not None]
         assert len(anchors) == 1
         for child in list(p._p):
@@ -92,7 +97,7 @@ def variant(source_file, source, name, target):
             for child in list(p._p)[position:]:
                 container.append(child)
             p._p.insert(position, container)
-        parts['word/document.xml'] = etree.tostring(doc.element, xml_declaration=True, encoding='UTF-8', standalone=True)
+        parts['word/document.xml'] = etree.tostring(xml, xml_declaration=True, encoding='UTF-8', standalone=True)
     assert literal(parts) == source['text'], name
     assert notes(parts) == notes(unpack(source_file)), name
     save_parts(target, parts)
