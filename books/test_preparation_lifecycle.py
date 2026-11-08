@@ -171,6 +171,60 @@ class PreparationTests(unittest.TestCase):
         self.assertNotIn('candidate',status)
         self.assertNotIn('localArtifacts',status)
 
+    def test_controller_normalizes_word_boundaries_after_last_render_before_capture(self):
+        self.first();_,index=self.checked();index['books'][0]['exportVerified']=False
+        out=self.root/'normalized-controller';folder=out/'fil-articles';folder.mkdir(parents=True)
+        self.write('normalized-controller/fil-articles/index.json',index)
+        word=folder/index['books'][0]['file'];word.write_bytes(b'fixture-word')
+        word.with_suffix('.pdf').write_bytes(b'fixture-pdf')
+        normalized=b'fixture-word-normalized';commands=[];toc_attempts=0
+        def execute(args,root):
+            nonlocal toc_attempts
+            args=[str(x) for x in args];commands.append(args);script=args[1]
+            if script=='books/toc_sync.py' and '--write' not in args:
+                toc_attempts+=1
+                if toc_attempts==1:raise RuntimeError('Fixture contents need one final render')
+            if script=='books/normalize_word_page_breaks.py':word.write_bytes(normalized)
+            if script=='books/check_outputs.py':
+                self.assertEqual(word.read_bytes(),normalized)
+                index['books'][0]['sha256']=sha(word.read_bytes())
+                self.write('normalized-controller/fil-articles/index.json',index)
+            return ''
+        with patch.object(auto,'run',side_effect=execute),patch.object(auto,'check_contents',return_value={'fixture':True}):
+            result=auto.build(self.root,out,self.commit,'example/fixture','fixture-tag')
+        self.assertFalse(result['failed']);self.assertEqual(len(result['prepared']),1);self.assertFalse(result['built'])
+        scripts=[c[1] for c in commands];normalize=scripts.index('books/normalize_word_page_breaks.py')
+        self.assertEqual(scripts.count('books/normalize_word_page_breaks.py'),1)
+        renders=[i for i,s in enumerate(scripts) if s=='books/render_uno.py']
+        self.assertEqual(len(renders),3);self.assertLess(max(renders),normalize)
+        self.assertLess(scripts.index('books/restore_book_fonts.py'),normalize)
+        self.assertLess(normalize,scripts.index('books/check_outputs.py'))
+        queued=load(self.root)['entries'];self.assertEqual(len(queued),1)
+        self.assertEqual(queued[0]['candidate']['book']['sha256'],sha(normalized))
+        self.assertEqual(queued[0]['localArtifacts'][0]['sha256'],sha(normalized))
+        self.assertFalse(queued[0]['releaseVerified'])
+        self.assertTrue({'actual-word-layout','final-visual-inspection'}.issubset({r['check'] for r in queued[0]['pendingChecks']}))
+
+    def test_word_boundary_normalization_failure_does_not_capture_preparation(self):
+        self.first();_,index=self.checked();index['books'][0]['exportVerified']=False
+        out=self.root/'failed-normalization';folder=out/'fil-articles';folder.mkdir(parents=True)
+        self.write('failed-normalization/fil-articles/index.json',index)
+        word=folder/index['books'][0]['file'];word.write_bytes(b'fixture-word')
+        word.with_suffix('.pdf').write_bytes(b'fixture-pdf');commands=[]
+        def execute(args,root):
+            args=[str(x) for x in args];commands.append(args)
+            if args[1]=='books/normalize_word_page_breaks.py':raise RuntimeError('Fixture page-break normalization failed')
+            return ''
+        with patch.object(auto,'run',side_effect=execute),patch('preparation_queue.record') as capture,patch.object(auto,'check_contents') as contents:
+            result=auto.build(self.root,out,self.commit,'example/fixture','fixture-tag')
+        self.assertEqual(len(result['failed']),1)
+        self.assertEqual(result['failed'][0]['language'],'fil');self.assertEqual(result['failed'][0]['collection'],'articles')
+        self.assertIn('Fixture page-break normalization failed',result['failed'][0]['error'])
+        self.assertFalse(result['prepared']);self.assertFalse(result['built'])
+        capture.assert_not_called();contents.assert_not_called()
+        self.assertNotIn('books/check_outputs.py',[c[1] for c in commands])
+        self.assertFalse((folder/'prepared-snapshot.json').exists());self.assertFalse(load(self.root)['entries'])
+
     def test_queue_summary_keeps_artifact_location_and_only_completed_scope_is_removed(self):
         self.first();_,index=self.checked();folder=self.root/'pending';folder.mkdir()
         row=record(self.root,index,folder,self.commit,[{'check':'actual-word-layout','reason':'Fixture pending check'}])
@@ -255,3 +309,4 @@ class OrderingCoverageTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Conflicting canonical surah'):canonical_key({'collection':'tadabbur-extended','id':'18:extended','order':18,'surah':35})
 
 if __name__=='__main__':unittest.main()
+

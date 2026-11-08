@@ -26,6 +26,34 @@ def normal_notes(parts,body):
     notes={n.get(q('id')):n for n in xml(parts['word/footnotes.xml'])if n.get(q('type'))in(None,'normal')}
     return[''.join(n.itertext())for ref in body.iter(q('footnoteReference'))for n in[notes[ref.get(q('id'))]]]
 
+def default_style(style):
+    # Unknown on/off values are protected too: only an explicit false is safe.
+    return style.get(q('default'))not in(None,'0','false','off')
+
+def referenced_style_ids(sources):
+    """Protect direct, dependent and implicit styles in every constituent.
+
+    Scan all Word XML parts, including notes, headers, numbering and styles.
+    A dependency from an unused style is deliberately still protected. Compute
+    this union before merging so a later constituent cannot activate an earlier
+    conflicting declaration that appeared unused at the time.
+    """
+    references={q(tag)for tag in('pStyle','rStyle','tblStyle','basedOn','link','next','styleLink','numStyleLink')}
+    used=set()
+    for parts in sources:
+        for name,raw in parts.items():
+            if not(name.startswith('word/')and name.endswith('.xml')):continue
+            for node in xml(raw).iter():
+                ident=node.get(q('val'))if node.tag in references else None
+                if node.tag==q('style')and default_style(node):ident=node.get(q('styleId'))
+                if ident:used.add(ident)
+    return used
+
+def unused_character_conflict(first,second,used):
+    return(first.get(q('type'))==second.get(q('type'))=='character'
+           and not default_style(first)and not default_style(second)
+           and first.get(q('styleId'))not in used)
+
 def merge_docx(inputs,output):
     if len(inputs)<2:raise ValueError('A single public book can use its existing verified file')
     sources=[]
@@ -34,6 +62,7 @@ def merge_docx(inputs,output):
         document=xml(parts['word/document.xml']);body=document.find(q('body'))
         if any(n.get(q('val'))not in(None,'0')for n in body.findall('.//'+q('numPr')+'/'+q('numId'))):raise ValueError('Unsupported automatic list numbering in a combined book')
         sources.append((parts,document,body))
+    used_styles=referenced_style_ids(source for source,_,_ in sources)
     parts,document,body=sources[0];parts=dict(parts);rels=xml(parts['word/_rels/document.xml.rels']);types=xml(parts['[Content_Types].xml']);styles=xml(parts['word/styles.xml'])
     expected_text=''.join(body_text(source_body)for _,_,source_body in sources)
     def payloads(source,source_body):
@@ -114,7 +143,7 @@ def merge_docx(inputs,output):
             ident=style.get(q('styleId'))
             if ident is None:continue
             if ident in existing:
-                if semantic(existing[ident])!=semantic(style):raise ValueError('Constituent books use incompatible paragraph styles: '+ident)
+                if semantic(existing[ident])!=semantic(style)and not unused_character_conflict(existing[ident],style,used_styles):raise ValueError('Constituent books use incompatible paragraph styles: '+ident)
             else:styles.append(deepcopy(style))
         common={'word/styles.xml':'word/styles.xml','word/fontTable.xml':'word/fontTable.xml','word/settings.xml':'word/settings.xml','word/footnotes.xml':'word/footnotes.xml','word/numbering.xml':'word/numbering.xml'}
         common.update({n:n for n in source if n.startswith('word/theme/')and n in parts});mapped=dict(common)
