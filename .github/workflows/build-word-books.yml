@@ -66,6 +66,11 @@ jobs:
           python tests/test_seerah_adapter.py
           python tests/test_hadith_adapter.py
           python tests/test_translated_hadith_adapter.py
+          python tests/test_current_hadith_first.py
+          python tests/test_current_hadith_five.py
+          python tests/test_current_reviewed_quran.py
+          python tests/test_current_source_literal_render.py
+          python books/test_book_content_coverage.py
           python tests/test_mixed_material_adapters.py
           python tests/test_finalize_prepared.py
           python tests/test_release_candidate_intake.py

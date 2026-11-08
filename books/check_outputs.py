@@ -1,4 +1,5 @@
 from pathlib import Path
+from collections import Counter
 import json,argparse,hashlib,zipfile
 import pdfplumber
 from docx import Document
@@ -39,7 +40,7 @@ def public_export_inputs(index,folder):
     present={p.name for p in folder.iterdir() if p.is_file() and p.suffix.lower() in {'.docx','.pdf'}}
     if present!=expected:raise ValueError('Unindexed or missing book files cannot be released')
 
-def validate_footnotes(notes,body,expected,lang,*,preserved_identifiers=()):
+def validate_footnotes(notes,body,expected,lang,*,preserved_identifiers=(),source_literal_proofs=(),root=None):
     W='http://schemas.openxmlformats.org/wordprocessingml/2006/main'
     tag=lambda n:'{'+W+'}'+n
     actual={}
@@ -56,7 +57,7 @@ def validate_footnotes(notes,body,expected,lang,*,preserved_identifiers=()):
         for p in note.findall('.//'+tag('p')):
             paragraphs.append(''.join((n.text or '') if n.tag==tag('t') else ('\n' if n.tag==tag('br') else '') for n in p.iter()))
         text='\n'.join(paragraphs)
-        if 'http://' in text or 'https://' in text or note.findall('.//'+tag('hyperlink')):raise ValueError('Reference links remain in footnotes')
+        if note.findall('.//'+tag('hyperlink')):raise ValueError('Reference links remain in footnotes')
         actual[note_id]=text
     refs=[]
     for ref in body.findall('.//'+tag('footnoteReference')):
@@ -67,9 +68,47 @@ def validate_footnotes(notes,body,expected,lang,*,preserved_identifiers=()):
     if preserved_identifiers:
         if len(preserved_identifiers)!=len(expected):raise ValueError('Footnote identifier bindings do not match the notes')
     else:preserved_identifiers=[[] for _ in expected]
-    for note_id,identifiers in zip(refs,preserved_identifiers):native_text(actual[note_id],lang,preserved_identifiers=identifiers)
+    if not isinstance(source_literal_proofs,(list,tuple)):raise ValueError('Invalid footnote literal bindings')
+    if source_literal_proofs:
+        if len(source_literal_proofs)!=len(expected):raise ValueError('Footnote literal bindings do not match the notes')
+    else:source_literal_proofs=[[] for _ in expected]
+    for note_id,identifiers,proofs in zip(refs,preserved_identifiers,source_literal_proofs):
+        if proofs:
+            from source_literal_text import check_text,proof_list
+            check_text(root,actual[note_id],lang,proof_list(proofs))
+        else:
+            if 'http://' in actual[note_id] or 'https://' in actual[note_id]:raise ValueError('Reference links remain in footnotes')
+            native_text(actual[note_id],lang,preserved_identifiers=identifiers)
     # The generator deliberately inserts one space after the footnote marker.
     if any(actual[note_id]!=' '+text for note_id,text in zip(refs,expected)):raise ValueError('Footnote text changed or reordered during Word refresh')
+
+def validate_source_hyperlinks(body, relationships, expected, language, root):
+    if not expected:return
+    W='http://schemas.openxmlformats.org/wordprocessingml/2006/main'
+    R='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
+    from source_literal_text import check_text,proof_list
+    required=Counter()
+    for link in expected:
+        check_text(root,link['url'],language,proof_list(link.get('sourceLiteralProof')),exact=True)
+        required[(link['text'],link['url'])]+=1
+    targets={item.get('Id'):item.get('Target') for item in relationships
+             if item.get('Type')==R+'/hyperlink' and item.get('TargetMode')=='External'}
+    actual=Counter((''.join(node.itertext('{'+W+'}t')),targets.get(node.get('{'+R+'}id')))
+                   for node in body.iter('{'+W+'}hyperlink'))
+    if required-actual:raise ValueError('Required original source credit links changed or disappeared')
+
+def validate_pdf_source_hyperlinks(actual, expected):
+    from urllib.parse import urlsplit
+    def root_path(url):
+        parsed=urlsplit(url)
+        # PDF exporters may add the equivalent root slash. Do not normalize
+        # scheme/host spelling, query, fragment, encoding or a nonempty path.
+        if parsed.scheme in {'http','https'} and parsed.netloc and not parsed.path:
+            position=len(parsed.scheme)+3+len(parsed.netloc)
+            return url[:position]+'/'+url[position:]
+        return url
+    required=Counter(root_path(link['url']) for link in expected)
+    if required-Counter(root_path(url) for url in actual):raise ValueError('Required original source credit links are missing from PDF')
 
 def validate_toc(body,language,minimum_entries):
     W='http://schemas.openxmlformats.org/wordprocessingml/2006/main'
@@ -139,6 +178,9 @@ def main():
             check_text(args.root,rendered,book['language'],checks['sourceLiteralProofs'])
         else:native_text(rendered,book['language'])
         with zipfile.ZipFile(file) as z:
+            validate_source_hyperlinks(etree.fromstring(z.read('word/document.xml')),
+                                      etree.fromstring(z.read('word/_rels/document.xml.rels')),
+                                      checks.get('sourceHyperlinks',[]),book['language'],args.root)
             validate_toc(etree.fromstring(z.read('word/document.xml')),book['language'],len(book['units']))
             for name in z.namelist():
                 if name.startswith(('word/header','word/footer')) and name.endswith('.xml'):
@@ -148,7 +190,7 @@ def main():
             with zipfile.ZipFile(file) as z:
                 notes=etree.fromstring(z.read('word/footnotes.xml'));W='http://schemas.openxmlformats.org/wordprocessingml/2006/main'
                 body=etree.fromstring(z.read('word/document.xml'))
-                validate_footnotes(notes,body,checks['footnotes'],book['language'],preserved_identifiers=checks.get('footnoteIdentifiers',()))
+                validate_footnotes(notes,body,checks['footnotes'],book['language'],preserved_identifiers=checks.get('footnoteIdentifiers',()),source_literal_proofs=checks.get('footnoteLiteralProofs',()),root=args.root)
         if not pdf.exists():raise ValueError('Missing rendered PDF')
         contents=verify_contents_pair(file,pdf,book['language']);book['pdfContentsVerification']=contents['pdf']
         if contents['word']:
@@ -157,7 +199,10 @@ def main():
         if len(doc.pages)<3:raise ValueError('Unexpected short/empty book')
         if book['language'] in {'ar','ur','fa'} and len(doc.pages)>=10000:raise ValueError('Native pagination needs more than four digit positions')
         validate_page_layout(Document(file),doc,book)
+        source_link_targets=[]
         for n,page in enumerate(doc.pages):
+            if checks.get('sourceHyperlinks'):
+                source_link_targets.extend(link.get('uri') for link in page.hyperlinks if link.get('uri'))
             if n==0:continue # illustrated cover
             if book['language'] in {'ar','ur','fa'}:
                 footer=''.join(c['text'] for c in sorted((c for c in page.chars if c['top']>page.height-34),key=lambda c:c['x0'])).strip()
@@ -167,6 +212,7 @@ def main():
                 if '\ufffd' in word['text']:raise ValueError('Replacement glyph in exported book')
                 if word['x0'] < -1 or word['top'] < -1 or word['x1'] > page.width+1 or word['bottom'] > page.height+1:raise ValueError('Text outside page bounds')
             page.close()  # Release per-page rendering caches during long-book validation.
+        validate_pdf_source_hyperlinks(source_link_targets,checks.get('sourceHyperlinks',[]))
         book['audioQRVerification']=validate_audio_qr(file,doc,book.get('audioPanels',[]))
         book['pages']=len(doc.pages);doc.close();book['sha256']=hashlib.sha256(file.read_bytes()).hexdigest()
         font_conf=json.loads((args.root/'books/config.json').read_text(encoding='utf8'))

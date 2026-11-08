@@ -186,6 +186,8 @@ def cover_asset(root,pdf,digest):
 
 def write_catalog(root,out,ready,bundles):
     conf=read(root/'books/config.json');languages={}
+    from book_content_coverage import download_coverage
+    coverage=download_coverage(root,ready,conf=conf)
     for language,labels in COPY.items():
         lc=conf['languages'][language]
         row={'language':language,'name':locale(language)['nativeName'],'brand':lc['brand'],'title':labels[0],
@@ -194,10 +196,13 @@ def write_catalog(root,out,ready,bundles):
         for book in inventory(ready,language):
             pdf=source_file(root,out,book,'pdf')
             title=book['collectionLabel'] if book.get('editionScope') else lc['titles'][book['collection']]
+            content_scope=coverage[(language,book['collection'])]
+            unit_labels=content_scope['presentation']['unitLabels']
             row['books'].append({'language':language,'collection':book['collection'],'title':title,
               'cover':cover_asset(root,pdf,book['pdfSha256']),'docx':book['download'],'pdf':book['pdfDownload'],
               'sha256':book['sha256'],'pdfSha256':book['pdfSha256'],'units':len(book['units']),'pages':book.get('pages'),
-              'audio':len(book.get('audioPanels',[])),'contents':[{'id':u['id'],'title':u['title']}for u in book['units']]})
+              'audio':len(book.get('audioPanels',[])),'coverage':content_scope,
+              'contents':[{'id':u['id'],'title':u['title'],**({'numberLabel':unit_labels[str(u['id'])]} if str(u['id']) in unit_labels else {})}for u in book['units']]})
             if book.get('availability'):
                 from preparation_copy import LIMITED
                 row['books'][-1].update({'availability':book['availability'],'statusLabel':LIMITED[language]})
@@ -209,7 +214,7 @@ def write_catalog(root,out,ready,bundles):
     path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     # Regenerate all native tables from the same verified book and bundle inventory.
     from download_tables import render_ready,merge_readme
-    table,pages=render_ready(conf,ready,REPO,bundles=bundles)
+    table,pages=render_ready(conf,ready,REPO,bundles=bundles,coverage=coverage)
     readme=root/'README.md'
     if readme.exists():readme.write_text(merge_readme(readme.read_text(encoding='utf8'),table),encoding='utf8')
     for language,body in pages.items():

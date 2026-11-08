@@ -55,7 +55,7 @@ def expand_verse_key(key):
     if not 1<=s<=114 or not 1<=a<=end<=286:raise ValueError('Invalid Quran range')
     return [str(s)+':'+str(n) for n in range(a,end+1)]
 
-def quran_reference(key,lang,names):
+def quran_reference(key,lang,names,*,allow_numbered=False):
     match=re.fullmatch(r'(\d{1,3}):(\d{1,3})(?:[-–](\d{1,3}))?',key)
     if not match:raise ValueError('Invalid Quran reference')
     expand_verse_key(key);s,a=map(int,match.groups()[:2]);end=int(match[3]) if match[3] else None;lc=locale(lang)
@@ -63,14 +63,18 @@ def quran_reference(key,lang,names):
     if not 1<=s<=114 or a<1:raise ValueError('Invalid Quran chapter/ayah number')
     name=SURAH_OVERRIDES.get(lang,{}).get(s) or (names.get(lang,[])[s-1] if len(names.get(lang,[]))>=s else '')
     if lang in NON_LATIN and any(c.isalpha() and 'LATIN' in unicodedata.name(c,'') for c in name):name=''
-    if not name:raise ValueError(f'Missing verified native surah name for {lang} chapter {s}; do not publish an English fallback')
+    # Current reviewed Bengali readers include chapters whose installed name
+    # table has only a Latin transliteration. A caller explicitly authorized for
+    # that reader may use its canonical number with existing native furniture.
+    # All other callers still require the verified native name.
+    if not name and not (lang=='bn' and allow_numbered is True):raise ValueError(f'Missing verified native surah name for {lang} chapter {s}; do not publish an English fallback')
     if lang=='ja':text=f'（{name} 第{s}章・第{ayah_text}節）' if name else f'（第{s}章・第{ayah_text}節）'
     elif lang=='zh-CN':text=f'（{name}，第{s}章第{ayah_text}节）' if name else f'（第{s}章第{ayah_text}节）'
     elif end and lang in {'ar','ur','fa'}:
         plural,to={'ar':('الآيات','إلى'),'ur':('آیات','تا'),'fa':('آیه‌های','تا')}[lang]
         text=f"({lc['surahLabel']} {name} {digits(s,lang)}، {plural} {digits(a,lang)} {to} {digits(end,lang)})"
     elif name:text=f"({lc['surahLabel']} {name}{'،' if lang in {'ar','ur','fa'} else ','} {digits(s,lang)}:{digits(ayah_text,lang)})"
-    else:text=f"({lc['surahLabel']} {digits(s,lang)}، {lc['ayahLabel']} {digits(a,lang)})"
+    else:text=f"({lc['surahLabel']} {digits(s,lang)}, {lc['ayahLabel']} {digits(ayah_text,lang)})"
     # Keep a compact citation together when the quotation ends near a margin.
     return native_text(text,lang).replace(' ','\u00a0')
 

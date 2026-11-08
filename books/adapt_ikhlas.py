@@ -5,6 +5,7 @@ revision supplies citation identities; it never supplies target-language prose.
 """
 from pathlib import Path
 from copy import deepcopy
+from collections import Counter
 import hashlib,json,re,unicodedata
 from build_books import check_unit,inside
 from bibliography import native_text,expand_verse_key
@@ -159,6 +160,45 @@ def target_citation_rows(payloads,paragraphs,language,native_books):
         if any('parallel' in s.get('type','')for s in segments) and not found.get(ident,{}).get('citations'):raise ValueError('Published parallel quotation lacks target-specific original collection metadata: '+ident)
     return found
 
+def preservation_evidence(paragraphs,rendered_paragraphs,aliases,notes,sections):
+    """Audit actual output against the already-verified current source reading.
+
+    A split quotation shares one report citation, while each explicit Quran
+    binding retains its verse keys. Non-Hadith examples remain ordinary prose.
+    This reports the existing source proof; it creates no editorial approval.
+    """
+    source_paragraphs={p['id']:paragraph_text(p) for p in paragraphs}
+    if len(source_paragraphs)!=len(paragraphs) or source_paragraphs!=rendered_paragraphs:
+        raise ValueError('Current Ikhlas paragraphs were not completely preserved')
+    def reference_keys(ident,meta):
+        if meta.get('verseKeys'):
+            yield ('quran',ident),json.dumps(meta['verseKeys'],sort_keys=True,ensure_ascii=False)
+        if meta.get('citations'):
+            family=re.match(r'N:\d+',ident)
+            if not family:raise ValueError('Hadith citation has no original quotation binding')
+            yield ('hadith',family[0]),json.dumps(meta['citations'],sort_keys=True,ensure_ascii=False)
+    expected={key:value for ident,meta in aliases.items() for key,value in reference_keys(ident,meta)}
+    rendered={};rendered_notes=[]
+    for section in sections:
+        for block in section['blocks']:
+            for span in block.get('spans',[]):
+                rendered_notes.extend(span.get('noteTexts',[]))
+                ident=span.get('sourceBinding')
+                if ident:
+                    for key,value in reference_keys(ident,span):
+                        if key in rendered and rendered[key]!=value:raise ValueError('Conflicting rendered Ikhlas source identity')
+                        rendered[key]=value
+    if expected!=rendered:raise ValueError('Current Ikhlas source references were not completely preserved')
+    if Counter(row['text'] for row in notes.values())!=Counter(rendered_notes):
+        raise ValueError('Current Ikhlas publisher or contextual notes were not completely preserved')
+    return {'schema':'iman-source-reference-preservation-v1',
+            'auditMode':'literal-source-and-qualification-fidelity',
+            'referenceIdentityBasis':'Existing verified quotation bindings and original collection/verse identities; split report fragments share their citation.',
+            'sourceParagraphs':len(source_paragraphs),'preservedParagraphs':len(rendered_paragraphs),
+            'sourceReferences':len(expected),'preservedReferences':len(rendered),
+            'sourceQualifications':len(notes),'preservedQualifications':len(rendered_notes),
+            'lostParagraphs':0,'lostReferences':0,'lostQualifications':0}
+
 def generate(root,catalog,declaration):
     language=declaration['language']
     if declaration.get('adapter')!='reviewed-ikhlas-v1' or declaration.get('collection')!='tadabbur-extended' or language=='ar':raise ValueError('Unsupported reviewed Ikhlas scope')
@@ -201,7 +241,7 @@ def generate(root,catalog,declaration):
             if not merged:merged=deepcopy(base.get('citations',[]))
             aliases[ident]={**base,'citations':merged}
             if target.get('verseKeys'):aliases[ident]['verseKeys']=target['verseKeys']
-    notes=note_rows(source_units);used=set();note_anchors=[];source_sentences=[];rendered_sentences=[];last_family={}
+    notes=note_rows(source_units);used=set();note_anchors=[];source_sentences=[];rendered_sentences=[];last_family={};rendered_paragraphs={}
     for p in allparagraphs:
         for s in p.get('sentences',[]):
             for seg in s['segments']:
@@ -230,6 +270,7 @@ def generate(root,catalog,declaration):
             for segment in sentence['segments']:
                 ident=segment.get('binding');meta=deepcopy(aliases.get(ident,{}));kind=segment.get('type','commentary')
                 span={'text':segment['text'],'role':'quran' if (ident and ident.startswith('Q:') and 'grammar' not in kind) or kind=='quran_quoted_in_report' else 'hadith' if meta.get('citations') else 'body'}
+                if ident:span['sourceBinding']=ident
                 if meta.get('verseKeys'):span['verseKeys']=meta['verseKeys']
                 if meta.get('citations') and ident==last_family[re.match(r'N:\d+',ident)[0]]:span['citations']=meta['citations']
                 ns=matching_notes(sentence['id'],segment)
@@ -244,14 +285,17 @@ def generate(root,catalog,declaration):
         if text[cursor:]:spans.append({'text':text[cursor:],'role':'body'})
         if spans:chunks.append({'kind':'paragraph','text':''.join(x['text']for x in spans),'spans':spans})
         if ''.join(b['text']for b in chunks)!=text:raise ValueError('Source paragraph changed during book formatting')
+        rendered_paragraphs[paragraph['id']]=''.join(b['text']for b in chunks)
         return chunks
     first=source_units[0]['paragraphs'];title=paragraph_text(first[0]);native_text(title,language);sections=[]
     subtitle=paragraph_text(first[1]);native_text(subtitle,language)
+    rendered_paragraphs[first[0]['id']]=title;rendered_paragraphs[first[1]['id']]=subtitle
     if subtitle!=title:sections.append({'blocks':[{'kind':'paragraph','text':subtitle,'role':'body'}]})
     for index,unit in enumerate(source_units,1):
         ps=unit['paragraphs'];main=next((i for i,p in enumerate(ps) if p.get('kind')=='quran_heading'),None)
         if main is None or main==0:raise ValueError('Published main verse translation is missing')
         heading=paragraph_text(ps[main-1]);translation_blocks=convert(ps[main])
+        rendered_paragraphs[ps[main-1]['id']]=heading
         if len(translation_blocks)!=1:raise ValueError('Main Quran translation was unexpectedly split')
         translation=translation_blocks[0];translation['kind']='translation';translation['translationCredit']={'language':language,'text':native_credit(unit['credits']['quran'],language)}
         blocks=[{'kind':'ayah','verseKey':f'112:{index}','text':quran[f'112:{index}'],'role':'current-ayah'},translation]
@@ -267,5 +311,6 @@ def generate(root,catalog,declaration):
     unit={'schema':'iman-book-unit-v1','id':record['id'],'language':language,'collection':'tadabbur-extended','surah':112,'title':title,'complete':True,'reviewGate':'published-current','sourceHashes':[REVISION],'inputBindings':[{'path':p,'sha256':h}for p,h in sorted(bindings.items())],'catalogBindings':[{'collection':'tadabbur','language':language,'id':record['id']}],'translationCredits':[{'language':language,'text':c}for c in credits],'sections':sections,'readerTextSHA256':sha(reader.encode()),'provenance':{'adapter':'reviewed-ikhlas-v1','sourceSentences':len(source_sentences),'exactSentenceWordsPreserved':source_sentences==rendered_sentences,'sourceNotes':len(notes),'explicitlyAnchoredNotes':len(used),'lessonLevelNotes':len(remaining),'fullCurrentReading':record['json'],'wholeSurahAyahs':4,'originalCitationMap':{'path':MASTER,'sha256':declaration['citationMapSHA256']}}}
     unit['provenance']['targetCitationBindings']={ident:row['evidence']for ident,row in target_citations.items()}
     unit['provenance']['noteAnchors']=note_anchors
+    unit['sourceReferencePreservation']=preservation_evidence(allparagraphs,rendered_paragraphs,aliases,notes,sections)
     check_unit(unit,{'id':record['id'],'language':language,'collection':'tadabbur-extended'},quran)
     return [unit]

@@ -136,7 +136,8 @@ def limited_continuity(root,entry):
         if not all(HEX.fullmatch(b['sha256']) and sha(inside(root,b['path']).read_bytes())==b['sha256'] for b in snapshot['bindings']):return False
         declared=declaration(root,key)
         from book_edition_scope import available,MAP,select,pinned
-        rows=[r for r in read(root/'materials/catalog.json')['entries'] if available(r) and (r.get('language'),MAP[r['collection']])==key and (not declared.get('edition') or r.get('edition')==declared['edition'])]
+        catalog=read(root/'materials/catalog.json')
+        rows=[r for r in catalog['entries'] if available(r) and (r.get('language'),MAP[r['collection']])==key and (not declared.get('edition') or r.get('edition')==declared['edition'])]
         # New snapshots bind catalogue identities explicitly; historical units
         # with identical catalogue/unit IDs can also be reconstructed exactly.
         members=snapshot.get('catalogMemberKeys')
@@ -169,7 +170,14 @@ def limited_continuity(root,entry):
             if any(item not in evidence for item in prior):return False
             for item in prior:pinned(root,item)
             old_declaration=copy.deepcopy(declared);old_declaration['sourceReviewBindings']=prior
-            selected,report=select(root,{'entries':old},old_declaration)
+            # Source validators need the original publication metadata and
+            # related source-language rows, even when this edition's members
+            # are narrowed to its exact previously released identities.
+            old_catalog={**catalog,'entries':[r for r in catalog['entries']
+                if (r.get('language'),MAP.get(r.get('collection')))!=key
+                or (declared.get('edition') and r.get('edition')!=declared['edition'])
+                or identity(r) in wanted]}
+            selected,report=select(root,old_catalog,old_declaration)
             if {identity(r) for r in selected}!=wanted:return False
         return matching_catalog_snapshot(old,report,snapshot)
     except (ValueError,OSError,KeyError,TypeError):return False

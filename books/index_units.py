@@ -66,6 +66,13 @@ def main():
             from adapt_ar_ikhlas import generate
             normalized=generate(root,catalog,declaration)
         else:raise ValueError('No registered reviewed source adapter for scope')
+        from current_source_registry import supplemental_records
+        supplemental=supplemental_records(root,declaration)
+        modules=[]
+        for identity,_,_,module in supplemental:
+            if identity in expected_scope and module not in modules:modules.append(module)
+        for module in modules:
+            normalized.extend(module.generate(root,catalog,declaration,excluded_catalog_keys=publisher_coverage & expected_scope))
         published_ids={u['id']for u in scoped_units}
         normalized=[u for u in normalized if u['id']not in published_ids]
         generation_sha=sha(json.dumps(normalized,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf8'))

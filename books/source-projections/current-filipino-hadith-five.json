@@ -1,0 +1,63 @@
+{
+  "schema": "iman-current-filipino-hadith-five-source-bindings-v1",
+  "sourceCommit": "80c666acc4ca8c87f6f6b0fc2df82be31b4f4792",
+  "sourceApprovalCreated": false,
+  "records": [
+    {
+      "collection": "essential-hadith",
+      "language": "fil",
+      "id": "essential-01-005",
+      "chapter": 1,
+      "lesson": 5,
+      "catalogEntry": {
+        "collection": "essential-hadith",
+        "language": "fil",
+        "id": "essential-01-005",
+        "json": "materials/hadith/essential-fil/005.json",
+        "markdown": "materials/hadith/essential-fil/005.txt",
+        "chapter": 1,
+        "lesson": 5,
+        "translationStatus": "ai-translated-needs-verification",
+        "status": "current-app-edition"
+      },
+      "sourceFiles": [
+        {
+          "path": "materials/hadith/essential-fil/005.json",
+          "sha256": "c344eb798971f89fefbb47234d5c8c9ebda9cdd37b0c2f5b294e348eec2f13b4"
+        },
+        {
+          "path": "materials/hadith/essential-fil/005.txt",
+          "sha256": "f5354a1002fa48a2cf371062770bc049eed774d364e09dbd41443eeb21a00e84"
+        }
+      ],
+      "sourceConditions": [
+        {
+          "path": "materials/hadith/essential-01-005/README.md",
+          "sha256": "80944ceebd4b04a3f425e92451cec36cbb2847f9d7a6def2e88b009278d35f1b"
+        },
+        {
+          "path": "materials/hadith/essential-ar/01/005.json",
+          "sha256": "6c452963c77379f7d24cfa62f587f9d35b743b68a7f2fe4517057f3453931bae"
+        },
+        {
+          "path": "materials/hadith/essential-ar/01/005.md",
+          "sha256": "65fbf7bdcc1b504e42f15892ddf7427401c8af9b140428ef4729fd4988f1d53f"
+        }
+      ],
+      "readingPointer": [
+        "reader"
+      ],
+      "existingPublication": {
+        "commit": "27ca53b72b0183faa91fb5620df8b02950c01f02",
+        "gitBlobs": {
+          "materials/hadith/essential-fil/005.json": "ee370f395e11b38a70ec27a900959dde80b6b479",
+          "materials/hadith/essential-fil/005.txt": "9f9d0469170d5e96afef8d549e130c8cf3037f88",
+          "materials/hadith/essential-01-005/README.md": "4df52748d7cecc72cfef0e3d668cd0108d67fe01"
+        },
+        "arabicSourceCanonicalSHA256": "49de5e705e8268207b692c781db16bc9be0d83d9f69683947dc8a92a5b4a62be"
+      },
+      "readerSHA256": "f5354a1002fa48a2cf371062770bc049eed774d364e09dbd41443eeb21a00e84",
+      "qualification": "Existing published reviewed ordinary text, with its original embedded source notes and attribution. Human verification remains needed. No new translation or finished-book approval is created."
+    }
+  ]
+}

@@ -12,6 +12,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH,WD_LINE_SPACING
 from docx.enum.section import WD_SECTION
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
+from docx.opc.constants import RELATIONSHIP_TYPE as RT
 from docx.text.paragraph import Paragraph
 from lxml import etree
 from PIL import Image
@@ -42,6 +43,40 @@ def inside(root,relative):
     file=(root/relative).resolve()
     if root.resolve() not in file.parents:raise ValueError('Input escapes repository: '+relative)
     return file
+
+def checked_credit(credit, unit, root):
+    if not credit.get('sourceLiteralProof'):
+        return edition_credit(credit, unit['language'])
+    if credit.get('language') != unit['language'] or not isinstance(credit.get('text'), str) or not credit['text'].strip():
+        raise ValueError('Translation credit must preserve its actual language and text')
+    from source_literal_text import check_bound_text
+    return check_bound_text(root, credit['text'], unit, credit['sourceLiteralProof'])
+
+def checked_source_links(unit, section, block, root):
+    links = block.get('hyperlinks', [])
+    if not links:
+        return []
+    if (section.get('sourceOnlyContext') is not True or block.get('sourceOnlyContext') is not True
+            or block.get('kind') != 'paragraph' or block.get('spans') or block.get('citations')
+            or not block.get('sourceLiteralProof') or not isinstance(links, list)):
+        raise ValueError('Source credit links need a separate exact source-context paragraph')
+    from source_literal_text import check_bound_text
+    from urllib.parse import urlsplit
+    previous = 0
+    for link in links:
+        start, end, url = link.get('start'), link.get('end'), link.get('url')
+        if (type(start) is not int or type(end) is not int
+                or not previous <= start < end <= len(block['text']) or not isinstance(url, str)):
+            raise ValueError('Invalid or overlapping exact source credit link')
+        parsed = urlsplit(url)
+        if parsed.scheme not in {'http', 'https'} or not parsed.netloc or parsed.username or parsed.password:
+            raise ValueError('Source credit link must retain an original public web address')
+        check_bound_text(root, url, unit, link.get('sourceLiteralProof'), exact=True)
+        previous = end
+    from source_literal_text import check_link_associations
+    check_link_associations(root, unit, block)
+    return links
+
 def check_unit(unit,record,quran=None,*,root=None):
     if unit.get('schema')!=SCHEMA:raise ValueError('Unsupported book input schema')
     for key in ['language','collection','id']:
@@ -55,6 +90,7 @@ def check_unit(unit,record,quran=None,*,root=None):
     if not unit.get('sourceHashes') or not all(re.fullmatch('[a-f0-9]{64}',x) for x in unit['sourceHashes']):raise ValueError('Missing source binding')
     if not unit.get('title') or not unit.get('sections'):raise ValueError('Empty reader unit')
     if not unit.get('titleIsReference'):native_text(unit['title'],unit['language'])
+    for credit in unit.get('translationCredits',[]):checked_credit(credit,unit,root)
     alltext=[]
     for section in unit['sections']:
         if section.get('heading') and not section.get('titleIsReference'):native_text(section['heading'],unit['language'])
@@ -67,6 +103,7 @@ def check_unit(unit,record,quran=None,*,root=None):
             if quran is not None and blocks[0]['text']!=quran.get(section['ayahKey']):raise ValueError('Arabic ayah differs from approved canonical text')
             if unit['language']!='ar' and not (blocks[1].get('translationCredit') or unit.get('translationCredits')):raise ValueError('Published translator/edition credit missing')
         for b in blocks:
+            checked_source_links(unit,section,b,root)
             if b['kind'] not in KINDS:raise ValueError('Unknown reader block: '+b['kind'])
             if not isinstance(b.get('text'),str):raise ValueError('Non-text reader block')
             if b.get('spans') and ''.join(s['text'] for s in b['spans'])!=b['text']:raise ValueError('Span text differs from reader text')
@@ -74,17 +111,21 @@ def check_unit(unit,record,quran=None,*,root=None):
             if b.get('sourceCredit'):raise ValueError('Replace legacy website sourceCredit with original-book citations or a localized translationCredit')
             if b.get('preservedIdentifiers') and b['kind']!='note':raise ValueError('Source identifiers may only exempt literal reference notes')
             if b.get('sourceLiteralProof'):
-                if b['kind'] not in {'paragraph','quotation','list-item'}:raise ValueError('Source-literal exceptions are limited to exact reader paragraphs')
-                proof=b['sourceLiteralProof']
-                if proof.get('materialId')!=unit['id'] or proof.get('source') not in unit.get('inputBindings',[]) or proof.get('inventory') not in unit.get('inputBindings',[]):raise ValueError('Source literal is not bound to this complete reader unit')
-                from source_literal_text import check_text
-                check_text(root,b['text'],unit['language'],[proof],exact=True)
+                if b['kind'] not in {'paragraph','quotation','list-item','translation','note','heading'}:raise ValueError('Source-literal exceptions are limited to exact reader text')
+                from source_literal_text import check_bound_text
+                check_bound_text(root,b['text'],unit,b['sourceLiteralProof'],exact=True)
             elif b['kind'] not in {'ayah','credit'}:native_text(b['text'],unit['language'],preserved_identifiers=b.get('preservedIdentifiers',()) if b['kind']=='note' else ())
             for span in b.get('spans',[]):
                 note_texts=span.get('noteTexts',[]);note_identifiers=span.get('noteIdentifiers',[[] for _ in note_texts])
                 if not isinstance(note_identifiers,list) or len(note_identifiers)!=len(note_texts):raise ValueError('Source note identifier bindings do not match the notes')
-                for note,identifiers in zip(note_texts,note_identifiers):native_text(note,unit['language'],preserved_identifiers=identifiers)
-            if b.get('translationCredit'):edition_credit(b['translationCredit'],unit['language'])
+                note_proofs=span.get('noteLiteralProofs',[None for _ in note_texts])
+                if not isinstance(note_proofs,list) or len(note_proofs)!=len(note_texts):raise ValueError('Source note literal bindings do not match the notes')
+                for note,identifiers,proofs in zip(note_texts,note_identifiers,note_proofs):
+                    if proofs:
+                        from source_literal_text import check_bound_text
+                        check_bound_text(root,note,unit,proofs)
+                    else:native_text(note,unit['language'],preserved_identifiers=identifiers)
+            if b.get('translationCredit'):checked_credit(b['translationCredit'],unit,root)
             for citation in b.get('citations',[]):hadith_citation(citation,unit['language'])
             if b['kind']=='credit' and not b.get('citations'):raise ValueError('Reference needs original collection and narration number')
             if quran is not None:
@@ -201,17 +242,40 @@ def reference_text(text):
     if not text:raise ValueError('Reference needs a readable source name after removal of web links')
     return text
 
+def add_source_link_text(paragraph, text, links, lang, family, arabic, size=11, *, ornament_mirrors=None):
+    """Keep source credit words exact while retaining required clickable URLs."""
+    mirrors = quotation_mirrors(text, lang) if ornament_mirrors is None else ornament_mirrors
+    cursor = 0
+    for link in [*links, {'start': len(text), 'end': len(text), 'url': None}]:
+        start, end = link['start'], link['end']
+        if cursor < start:
+            add_text(paragraph, text[cursor:start], lang, family, arabic, size,
+                     ornament_mirrors={pos-cursor:value for pos,value in mirrors.items() if cursor <= pos < start})
+        if start < end:
+            count = len(paragraph._p)
+            add_text(paragraph, text[start:end], lang, family, arabic, size,
+                     ornament_mirrors={pos-start:value for pos,value in mirrors.items() if start <= pos < end})
+            hyperlink = OxmlElement('w:hyperlink')
+            hyperlink.set(qn('r:id'), paragraph.part.relate_to(link['url'], RT.HYPERLINK, is_external=True))
+            for run in list(paragraph._p)[count:]:
+                hyperlink.append(run)
+            paragraph._p.append(hyperlink)
+        cursor = end
+
 class Footnotes:
-    def __init__(self,doc,lang,family,arabic):
-        self.doc=doc;self.lang=lang;self.family=family;self.arabic=arabic;self.texts=[];self.identifiers=[];self.anchors={};self.root=OxmlElement('w:footnotes')
+    def __init__(self,doc,lang,family,arabic,*,source_root=None):
+        self.doc=doc;self.lang=lang;self.family=family;self.arabic=arabic;self.texts=[];self.identifiers=[];self.literal_proofs=[];self.source_root=source_root;self.anchors={};self.root=OxmlElement('w:footnotes')
         for number,kind in [(-1,'separator'),(0,'continuationSeparator')]:
             note=el(self.root,'w:footnote',{'w:id':number,'w:type':kind});el(el(note,'w:p'),'w:r');el(note[0][0],'w:'+kind)
-    def add(self,anchor,text,group=None,*,preserved_identifiers=()):
-        text=native_text(reference_text(text),self.lang,preserved_identifiers=preserved_identifiers)
+    def add(self,anchor,text,group=None,*,preserved_identifiers=(),source_literal_proofs=None):
+        from source_literal_text import proof_list,check_text
+        proofs=proof_list(source_literal_proofs)
+        if proofs:check_text(self.source_root,text,self.lang,proofs)
+        else:text=native_text(reference_text(text),self.lang,preserved_identifiers=preserved_identifiers)
         key=(anchor._p,group)
         if key in self.anchors:
-            index,note=self.anchors[key];paragraph=Paragraph(note[-1],self.doc._body);separator='؛ ' if self.lang in RTL else '; ';add_text(paragraph,separator+text,self.lang,self.family,self.arabic,9,'note');self.texts[index]+=separator+text;self.identifiers[index]=list(dict.fromkeys([*self.identifiers[index],*preserved_identifiers]));return
-        number=len(self.texts)+1;self.texts.append(text);self.identifiers.append(list(preserved_identifiers))
+            index,note=self.anchors[key];paragraph=Paragraph(note[-1],self.doc._body);separator='؛ ' if self.lang in RTL else '; ';add_text(paragraph,separator+text,self.lang,self.family,self.arabic,9,'note');self.texts[index]+=separator+text;self.identifiers[index]=list(dict.fromkeys([*self.identifiers[index],*preserved_identifiers]));self.literal_proofs[index].extend(proofs);return
+        number=len(self.texts)+1;self.texts.append(text);self.identifiers.append(list(preserved_identifiers));self.literal_proofs.append(proofs)
         r=anchor.add_run();r.font.size=Pt(9);rp=r._r.get_or_add_rPr();el(rp,'w:vertAlign',{'w:val':'superscript'});el(rp,'w:rtl',{'w:val':0});el(rp,'w:rFonts',{'w:ascii':'Iman Book Inter','w:hAnsi':'Iman Book Inter','w:cs':'Iman Book Inter'});el(r._r,'w:footnoteReference',{'w:id':number})
         note=el(self.root,'w:footnote',{'w:id':number});p=self.paragraph(note)
         run=p.add_run();run.font.name='Iman Book Inter';run.font.size=Pt(9);el(run._r.get_or_add_rPr(),'w:vertAlign',{'w:val':'superscript'});el(run._r,'w:footnoteRef')
@@ -267,13 +331,17 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
     if digest(inside(root,conf['surahNames']['path']).read_bytes())!=conf['surahNames']['sha256']:raise ValueError('Surah name source hash mismatch')
     for field in ['brand','notice','contents','hadithLabel','creditsTitle']:native_text(lc[field],lang)
     native_text(lc['titles'][collection],lang)
-    credits=[]
+    credits=[];credit_literal_proofs=[]
     for unit in units:
         entries=list(unit.get('translationCredits',[]))
         entries.extend(b['translationCredit'] for section in unit['sections'] for b in section['blocks'] if b.get('translationCredit'))
         for item in entries:
-            text=edition_credit(item,lang)
-            if text not in credits:credits.append(text)
+            text=checked_credit(item,unit,root)
+            if text not in credits:
+                credits.append(text)
+                if item.get('sourceLiteralProof'):
+                    from source_literal_text import proof_list
+                    credit_literal_proofs.extend(proof_list(item['sourceLiteralProof']))
     title=lc['titles'][collection];size=13 if lang=='ur' else (12 if lang in RTL|{'bn','hi','th'} else 11);line=28 if lang=='ur' else (22 if lang in RTL else 18)
     cover=inside(root,lc['covers'][collection]);expected=lc['coverHashes'][collection]
     if digest(cover.read_bytes())!=expected:raise ValueError('Cover hash mismatch')
@@ -340,9 +408,13 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
     contents_levels='1-1' if multi_surah else '1-2'
     contents_extra='' if multi_surah else '\\u '
     p=doc.add_paragraph();direction(p,lang);r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'begin'});r=p.add_run();el(r._r,'w:instrText').text=' TOC \\o "'+contents_levels+'" \\h \\z '+contents_extra;r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'separate'});r=p.add_run(' ');r=p.add_run();el(r._r,'w:fldChar',{'w:fldCharType':'end'})
-    preserved=[];notes=Footnotes(doc,lang,family,arabic);hadith_count=0;last_chapter=None
+    preserved=[];notes=Footnotes(doc,lang,family,arabic,source_root=root);hadith_count=0;last_chapter=None
     for unit_index,unit in enumerate(units):
         unit_mirrors=block_mirrors(unit,lang)
+        allow_numbered_surah=False
+        if lang=='bn':
+            from current_reviewed_quran import ADAPTER as current_quran_adapter
+            allow_numbered_surah=unit.get('provenance',{}).get('adapter')==current_quran_adapter
         aggregate_hadith=unit['collection']=='hadith' and any(s.get('hadith') is True for s in unit['sections'])
         display_title=unit['title']
         if unit['collection']=='hadith' and not aggregate_hadith:
@@ -386,10 +458,13 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
                     for citation in b['citations']:notes.add(last_content,hadith_citation(citation,lang))
                     continue
                 if kind=='note':
-                    notes.add(last_content,b['text'],preserved_identifiers=b.get('preservedIdentifiers',()));continue
+                    notes.add(last_content,b['text'],preserved_identifiers=b.get('preservedIdentifiers',()),source_literal_proofs=b.get('sourceLiteralProof'));continue
                 p=doc.add_paragraph(style='Heading 3' if kind=='heading' else None);direction(p,'ar' if kind=='ayah' else lang,kind=='ayah');last_content=p
                 blocksize=21 if kind=='ayah' else (10 if kind in {'note','credit'} else size)
                 if kind in {'ayah','translation','heading'}:p.paragraph_format.keep_with_next=True
+                if b.get('hyperlinks'):
+                    add_source_link_text(p,b['text'],b['hyperlinks'],lang,family,arabic,blocksize,ornament_mirrors=unit_mirrors[id(b)])
+                    preserved.append(b['text']);continue
                 spans=b.get('spans') or [{'text':b['text'],'role':b.get('role','current-ayah' if kind in {'ayah','translation'} else ('related' if kind=='quotation' else 'body'))}]
                 if collection=='seerah' and kind=='paragraph' and any(s.get('role')=='quran' for s in spans) and all(s.get('role')=='quran' or not s.get('text','').strip() for s in spans):direction(p,'ar',True)
                 mirror_maps=span_mirrors(spans,unit_mirrors[id(b)])
@@ -399,11 +474,12 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
                         keys=span.get('verseKeys',[])
                         if span.get('explicitSourceReferencePlaced'):keys=[]
                         if not keys and span.get('role')=='current-ayah' and section.get('ayahKey') and not span.get('explicitSourceReferencePlaced'):keys=[section['ayahKey']]
-                        if keys:add_text(p,' '+'؛ '.join(quran_reference(key,lang,names) for key in keys),lang,family,arabic,10,'body')
+                        if keys:add_text(p,' '+'؛ '.join(quran_reference(key,lang,names,allow_numbered=allow_numbered_surah) for key in keys),lang,family,arabic,10,'body')
                     for citation in span.get('citations',[]):notes.add(p,hadith_citation(citation,lang),group='span-'+str(span_index))
-                    for note_index,note in enumerate(span.get('noteTexts',[])):notes.add(p,note,group='source-note-'+str(span_index)+'-'+str(note_index),preserved_identifiers=span.get('noteIdentifiers',[[] for _ in span.get('noteTexts',[])])[note_index])
+                    for note_index,note in enumerate(span.get('noteTexts',[])):
+                        notes.add(p,note,group='source-note-'+str(span_index)+'-'+str(note_index),preserved_identifiers=span.get('noteIdentifiers',[[] for _ in span.get('noteTexts',[])])[note_index],source_literal_proofs=span.get('noteLiteralProofs',[None for _ in span.get('noteTexts',[])])[note_index])
                 if kind=='ayah':
-                    ref=quran_reference(b['verseKey'],lang,names)
+                    ref=quran_reference(b['verseKey'],lang,names,allow_numbered=allow_numbered_surah)
                     if lang not in RTL:ref='\u200e'+ref+'\u200e'
                     add_text(p,' '+ref,lang,family,arabic,10,'body')
                 for citation in b.get('citations',[]):notes.add(p,hadith_citation(citation,lang))
@@ -415,8 +491,9 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
         index=rendered.find(text,offset)
         if index<0:raise ValueError('Reader text lost or reordered in Word serialization')
         offset=index+len(text)
-    source_literal_proofs=[b['sourceLiteralProof'] for unit in units for section in unit['sections'] for b in section['blocks'] if b.get('sourceLiteralProof')]
-    (out/(target.name+'.reader-checks.json')).write_text(json.dumps({'body':preserved,'footnotes':notes.texts,'footnoteIdentifiers':notes.identifiers,'sourceLiteralProofs':source_literal_proofs},ensure_ascii=False),encoding='utf-8')
+    source_literal_proofs=credit_literal_proofs+[b['sourceLiteralProof'] for unit in units for section in unit['sections'] for b in section['blocks'] if b.get('sourceLiteralProof') and b['kind']!='note']
+    source_hyperlinks=[{'text':b['text'][link['start']:link['end']],'url':link['url'],'sourceLiteralProof':link['sourceLiteralProof']} for unit in units for section in unit['sections'] for b in section['blocks'] for link in b.get('hyperlinks',[])]
+    (out/(target.name+'.reader-checks.json')).write_text(json.dumps({'body':preserved,'footnotes':notes.texts,'footnoteIdentifiers':notes.identifiers,'footnoteLiteralProofs':notes.literal_proofs,'sourceLiteralProofs':source_literal_proofs,'sourceHyperlinks':source_hyperlinks},ensure_ascii=False),encoding='utf-8')
     public_units=[]
     for i,u in enumerate(units,1):
         label=f"{lc['hadithLabel']} {digits(i,lang)}" if u['collection']=='hadith' and u.get('titleIsReference') else u['title']
@@ -443,7 +520,7 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
         result['referenceReadiness']={'units':len(units),'auditedUnits':sum(isinstance(x,dict) for x in checks),'unboundQuranSegments':sum(x.get('unboundQuranSegments',0) for x in checks if isinstance(x,dict)),'unboundHadithSegments':sum(x.get('unboundHadithSegments',0) for x in checks if isinstance(x,dict))}
         if result['referenceReadiness']['auditedUnits']!=len(units) or result['referenceReadiness']['unboundQuranSegments'] or result['referenceReadiness']['unboundHadithSegments']:
             result['quranReferences']='source references incomplete';result['referencePresentation']='source references incomplete; review candidate only'
-    if collection=='hadith' and any(u.get('sourceReferencePreservation') is not None for u in units):
+    if collection in {'hadith','tadabbur-extended'} and any(u.get('sourceReferencePreservation') is not None for u in units):
         checks=[u.get('sourceReferencePreservation') for u in units]
         if any(c is not None and (not isinstance(c,dict) or c.get('schema')!='iman-source-reference-preservation-v1' or c.get('auditMode')!='literal-source-and-qualification-fidelity') for c in checks):raise ValueError('Unsupported source-reference preservation evidence')
         preservation={'schema':'iman-source-reference-preservation-v1','auditMode':'literal-source-and-qualification-fidelity',

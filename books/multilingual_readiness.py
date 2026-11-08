@@ -4,6 +4,7 @@ import argparse
 import json
 
 from book_edition_scope import MAP, available, select
+from book_content_coverage import discover_readers, scope_coverage
 
 COLLECTIONS = ('tadabbur-extended', 'hadith', 'seerah', 'articles')
 
@@ -13,6 +14,11 @@ def inventory(root):
     config = json.loads((root / 'books/config.json').read_bytes())
     catalog = json.loads((root / 'materials/catalog.json').read_bytes())
     declarations = json.loads((root / 'books/reviewed-books.json').read_bytes())
+    published_path = root / 'books/published-library.json'
+    published = json.loads(published_path.read_bytes()) if published_path.is_file() else {'entries': []}
+    downloads = {(entry['book']['language'], entry['book']['collection']): entry['book']
+                 for entry in published.get('entries', [])}
+    discovery = discover_readers(root, config['languages'], catalog)
     by_scope = {}
     for row in declarations.get('books', []):
         identity = row.get('language'), row.get('collection')
@@ -32,6 +38,8 @@ def inventory(root):
             historical = [row for row in catalog.get('historicalArticleEntries', {}).get('entries', [])
                           if collection == 'articles' and row.get('language') == language]
             declaration = by_scope.get((language, collection))
+            selected = []
+            selection_error = None
             item = {'language': language, 'collection': collection,
                     'automaticApprovedSourceIntake': True,
                     'currentSourceUnits': len(current), 'eligibleUnits': 0,
@@ -61,6 +69,7 @@ def inventory(root):
                 except Exception as error:
                     item['state'] = 'source-binding-error'
                     item['reason'] = str(error)
+                    selection_error = str(error)
             elif declaration:
                 item['state'] = 'explicit-scope-hold'
                 item['reason'] = declaration.get('releaseHold', 'Existing scope is not declared for automatic preparation.')
@@ -72,11 +81,18 @@ def inventory(root):
                 item['reason'] = ('Only legacy Seerah editions are present; the current new-adult edition is not installed in this language.'
                     if legacy else 'Only superseded standalone article translations are present; they are not translations of the current merged edition.'
                     if historical else 'No current source material is installed for this language/category.')
+            item['coverage'] = scope_coverage(root, language, collection, catalog, declaration,
+                selected=selected, book=downloads.get((language, collection)), discovered=discovery,
+                selection_error=selection_error)
+            item['unregisteredSourceUnits'] = len(item['coverage']['unregisteredSourceIds'])
+            item['absentEarlierLessons'] = item['coverage']['absentEarlierLessons']
             rows.append(item)
     return {'schema': 'iman-multilingual-book-readiness-v1',
             'languages': list(config['languages']), 'languageCount': len(config['languages']),
             'scopeCount': len(rows), 'scopes': rows,
             'automaticPreparationScopes': sum(row['state'] == 'automatic-preparation-ready' for row in rows),
+            'unregisteredSourceUnits': sum(row['unregisteredSourceUnits'] for row in rows),
+            'scopesWithUnincludedCurrentMaterial': sum(bool(row['coverage']['missingCurrent']) for row in rows),
             'sourceApprovalCreated': False, 'sourceQualificationsChanged': False,
             'futureSourcePath': 'Exact reviewed source publications enter via materials/book-publication-intake with their normalized reader and original approval evidence.'}
 

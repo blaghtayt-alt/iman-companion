@@ -63,7 +63,7 @@ def select(root,catalog,declaration):
     if len({key(r) for r in potential})!=len(potential): raise ValueError('Duplicate edition catalogue identity')
     if declaration.get('scopePolicy') is None: return potential,None
     if declaration.get('scopePolicy')!=POLICY: raise ValueError('Unsupported reviewed edition scope policy')
-    historical={}
+    historical={};current_validators={}
     evidence=[]
     bindings=declaration.get('sourceReviewBindings',[])
     # A first typed publication carries its own exact whole-material evidence.
@@ -93,7 +93,19 @@ def select(root,catalog,declaration):
                 identity=('essential-hadith',lang,str(record.get('id')))
                 if identity in historical:raise ValueError('Duplicate translated Hadith review identity')
                 historical[identity]=(record,record.get('sourceFiles',[])+record.get('sourceConditions',[]))
-        else: raise ValueError('Unsupported source-owner review evidence schema')
+        else:
+            from current_source_registry import format_for
+            spec=format_for(data.get('schema'))
+            if spec is None:raise ValueError('Unsupported source-owner review evidence schema')
+            module,catalogue_collection,book_collection=spec
+            if collection!=book_collection:raise ValueError('Current source inventory belongs to another edition')
+            for record in data.get('records',[]):
+                if record.get('language')!=lang:continue
+                if record.get('collection')!=catalogue_collection:raise ValueError('Current source inventory collection differs')
+                identity=(catalogue_collection,lang,str(record.get('id')))
+                if identity in historical:raise ValueError('Duplicate historical review identity')
+                historical[identity]=(record,record.get('sourceFiles',[])+record.get('sourceConditions',[]))
+                current_validators[identity]=module.validate_record
     selected=[]; unknown=[]; decisions=[]
     for row in potential:
         basis=typed_basis(root,row)
@@ -102,6 +114,7 @@ def select(root,catalog,declaration):
             if record.get('existingPublication',{}).get('catalogField'):
                 from reviewed_hadith_sources import validate_record
                 validate_record(root,record,row,catalog)
+            if key(row) in current_validators:current_validators[key(row)](root,record,row,catalog)
             revision=record.get('sourceRevisionSHA256',record.get('sourceOriginalSHA256'))
             if revision and revision not in row.get('sourceHashes',[]): raise ValueError('Catalogue source revision differs from historical review')
             for item in files:

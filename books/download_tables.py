@@ -60,7 +60,7 @@ def verified_books(index,folder,repo,tag):
 def render(conf,index,folder,repo,tag):
     return render_ready(conf,verified_books(index,folder,repo,tag),repo)
 
-def render_ready(conf,ready,repo,bundles=None):
+def render_ready(conf,ready,repo,bundles=None,coverage=None):
     """Render independently verified immutable pairs across different releases."""
     languages=conf['languages']
     if set(languages)!=set(COPY):raise ValueError('Download labels must cover all 20 configured languages')
@@ -84,8 +84,11 @@ def render_ready(conf,ready,repo,bundles=None):
         native=locale(lang)['nativeName'];row=[f'[{cell(native)}](https://github.com/{repo}/blob/main/books/downloads/{quote(lang)}/README.md)']
         page=['# '+title,'',native,'','| '+' | '.join([booklabel,editable,reading,count])+' |','| --- | --- | --- | --- |']
         edition_details=[]
+        coverage_details=[]
         for collection in COLLECTIONS:
             item=ready.get((lang,collection));label=lc['titles'][collection]
+            content_scope=(coverage or {}).get((lang,collection))
+            content_copy=content_scope.get('presentation',{}) if content_scope else {}
             if item and (item.get('editionScope') or item.get('availability')):
                 label=item.get('collectionLabel',label);titles=[u['title'] for u in item['units']]
                 if not isinstance(titles,list) or not titles:raise ValueError('Edition must identify its included material')
@@ -95,12 +98,22 @@ def render_ready(conf,ready,repo,bundles=None):
                     edition_details.append((LIMITED[lang],[]))
             native_text(label,lang)
             if item:
-                row.append(f'[{cell(editable)}]({item["download"]}) · [{cell(reading)}]({item["pdfDownload"]})'+(' *' if item.get('availability') else ''))
-                page.append('| '+' | '.join([cell(label),f'[{DOWNLOADS[lang][0]}]({item["download"]})',f'[{DOWNLOADS[lang][1]}]({item["pdfDownload"]})',digits(str(len(item.get('units',[]))),lang)])+' |')
+                if content_scope and content_scope.get('includedIds')!=[str(unit['id']) for unit in item['units']]:
+                    raise ValueError('Download coverage differs from the verified book contents')
+                row.append(f'[{cell(editable)}]({item["download"]}) · [{cell(reading)}]({item["pdfDownload"]})'+(' *' if item.get('availability') else '')+(' †' if content_copy.get('statusLabel') else ''))
+                included_count=digits(str(len(item.get('units',[]))),lang)
+                if content_copy.get('includedLabel'):
+                    included_count+=' · '+content_copy['includedLabel']
+                    coverage_details.append((label,content_copy))
+                page.append('| '+' | '.join([cell(label),f'[{DOWNLOADS[lang][0]}]({item["download"]})',f'[{DOWNLOADS[lang][1]}]({item["pdfDownload"]})',cell(included_count)])+' |')
             else:
                 row.append(cell(pending));page.append('| '+' | '.join([cell(label),pending,pending,'—'])+' |')
         for edition_label,titles in edition_details:
             page+=['','## '+cell(edition_label),'']+['- '+cell(t) for t in titles]
+        for edition_label,scope_copy in coverage_details:
+            page+=['','### '+cell(edition_label),'',scope_copy['includedLabel']]
+            if scope_copy.get('statusLabel'):page+=['',scope_copy['statusLabel']]
+            if scope_copy.get('notes'):page+=['']+['- '+cell(note) for note in scope_copy['notes']]
         if bundles is not None:
             together,merged,zipped=BUNDLE_COPY[lang]
             for text in BUNDLE_COPY[lang]:native_text(text,lang)
@@ -117,6 +130,8 @@ def render_ready(conf,ready,repo,bundles=None):
             native_text(re.sub(r'\]\([^)]*\)',']',line),lang)
         pages[lang]='\n'.join(page)+'\n'
     if any(item.get('availability') for item in ready.values()):root+=['','* Verified earlier edition: only the listed contents are included; new material is awaiting release checks.']
+    if any(item.get('presentation',{}).get('statusLabel') for item in (coverage or {}).values()):
+        root+=['','† Partial contents or coverage check pending. Each language page lists the exact included lesson or surah numbers and the material not included in that download.']
     return '\n'.join(root)+'\n',pages
 
 def merge_readme(original,table):
@@ -132,7 +147,9 @@ def merge_readme(original,table):
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--root',type=Path,required=True);ap.add_argument('--folder',type=Path,required=True);ap.add_argument('--repo',required=True);ap.add_argument('--tag',required=True);args=ap.parse_args()
     conf=json.loads((args.root/'books/config.json').read_text(encoding='utf-8'));index=json.loads((args.folder/'index.json').read_text(encoding='utf-8'))
-    table,pages=render(conf,index,args.folder,args.repo,args.tag)
+    from book_content_coverage import download_coverage
+    ready=verified_books(index,args.folder,args.repo,args.tag)
+    table,pages=render_ready(conf,ready,args.repo,coverage=download_coverage(args.root,ready,conf=conf))
     (args.folder/'README_DOWNLOADS.md').write_text(table,encoding='utf-8')
     for lang,page in pages.items():
         target=args.folder/'readme-pages'/lang/'README.md';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(page,encoding='utf-8')
