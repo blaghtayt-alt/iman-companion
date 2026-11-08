@@ -5,6 +5,7 @@ exact input page-number caches. Titles, row order, anchors and source targets
 must remain identical. Existing Word/PDF publication validators remain strict.
 """
 from collections import Counter
+import json
 import re
 import xml.etree.ElementTree as ET
 import zipfile
@@ -155,6 +156,29 @@ def _tail_cursor(paragraph, cache):
     return cursor
 
 
+def _link_properties(cursor):
+    names = ['HyperLinkURL', 'VisitedCharStyleName', 'UnvisitedCharStyleName']
+    info = cursor.getPropertySetInfo()
+    names.extend(name for name in ('HyperLinkName', 'HyperLinkTarget')
+                 if info.hasPropertyByName(name))
+    return {name: cursor.getPropertyValue(name) for name in names}
+
+
+def _link_spans(paragraph):
+    spans = []
+    portions = paragraph.createEnumeration()
+    while portions.hasMoreElements():
+        portion = portions.nextElement()
+        info = portion.getPropertySetInfo()
+        item = {'text': portion.getString()}
+        for name in ('TextPortionType', 'HyperLinkURL', 'HyperLinkName', 'HyperLinkTarget',
+                     'VisitedCharStyleName', 'UnvisitedCharStyleName'):
+            if info.hasPropertyByName(name):
+                item[name] = portion.getPropertyValue(name)
+        spans.append(item)
+    return spans
+
+
 def refresh_cached_contents(doc, expected):
     """Regenerate real native targets and restore only validated numeric tails."""
     indexes = doc.getDocumentIndexes()
@@ -190,17 +214,20 @@ def refresh_cached_contents(doc, expected):
             raise ValueError('Regenerated contents target changed')
         if cache != saved['cache']:
             tail = _tail_cursor(paragraph, cache)
-            properties = {name: tail.getPropertyValue(name) for name in
-                          ('HyperLinkURL', 'VisitedCharStyleName', 'UnvisitedCharStyleName')}
+            properties = _link_properties(cursor)
             if (properties['HyperLinkURL'] != '#' + saved['anchor']
+                    or tail.getPropertyValue('HyperLinkURL') != properties['HyperLinkURL']
                     or any(not isinstance(value, str) for value in properties.values())):
                 raise ValueError('Generated numeric cache has ambiguous link properties')
-            edits.append((paragraph, tail, saved, properties))
+            before_spans = _link_spans(paragraph) if len(edits) < 3 else None
+            edits.append((paragraph, tail, saved, properties, before_spans))
     protected = [(index, index.IsProtected) for index in contents]
+    coalesced = 0
+    samples = []
     try:
         for index, _ in protected:
             index.IsProtected = False
-        for paragraph, tail, saved, properties in edits:
+        for paragraph, tail, saved, properties, before_spans in edits:
             tail.setString(saved['cache'])
             replacement = _tail_cursor(paragraph, saved['cache'])
             if paragraph.getString() != saved['prefix'] + saved['cache']:
@@ -209,6 +236,25 @@ def refresh_cached_contents(doc, expected):
             # using only the exact native properties captured before that edit.
             for name, value in properties.items():
                 replacement.setPropertyValue(name, value)
+            whole = paragraph.getText().createTextCursorByRange(paragraph.getStart())
+            whole.gotoRange(paragraph.getEnd(), True)
+            url = whole.getPropertyValue('HyperLinkURL')
+            if url != properties['HyperLinkURL']:
+                spans = _link_spans(paragraph)
+                if (whole.getString() != saved['prefix'] + saved['cache']
+                        or ''.join(span['text'] for span in spans) != whole.getString()
+                        or any(span.get('HyperLinkURL') != properties['HyperLinkURL']
+                               for span in spans if span['text'])):
+                    raise ValueError('Numeric edit changed native link spans: ' + repr(spans))
+                # Mixed range state can result from distinct native hyperlink
+                # attributes with the same URL. Reapply only the properties
+                # proven uniform across this entire generated row before editing.
+                for name, value in properties.items():
+                    whole.setPropertyValue(name, value)
+                coalesced += 1
+                if len(samples) < 3:
+                    samples.append({'anchor': saved['anchor'], 'before': before_spans,
+                                    'afterNumericEdit': spans, 'restoredProperties': properties})
     finally:
         for index, value in protected:
             index.IsProtected = value
@@ -222,4 +268,7 @@ def refresh_cached_contents(doc, expected):
         if url != '#' + saved['anchor']:
             raise ValueError('Restoring numeric cache changed contents URL at row '
                              + str(number) + ': ' + repr(url))
+    if coalesced:
+        print(json.dumps({'schema': 'iman-toc-link-metadata-coalescing-v1',
+                          'rows': coalesced, 'samples': samples}, ensure_ascii=True))
     return len(edits)

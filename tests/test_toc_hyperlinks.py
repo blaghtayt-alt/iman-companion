@@ -4,6 +4,7 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 from types import SimpleNamespace
 from unittest.mock import patch
+import json
 import sys
 import unittest
 import xml.etree.ElementTree as ET
@@ -157,8 +158,26 @@ class FullCursor:
         return self.paragraph.text
 
     def getPropertyValue(self, name):
-        assert name == 'HyperLinkURL'
-        return '' if self.paragraph.tail_link_lost else self.paragraph.url
+        if name == 'HyperLinkURL':
+            if self.paragraph.tail_link_lost: return ''
+            if self.paragraph.mixed_full and self.paragraph.edits: return None
+            return self.paragraph.url
+        return self.paragraph.link_styles[name]
+
+    def getPropertySetInfo(self):
+        return SimpleNamespace(hasPropertyByName=lambda name: name in {
+            'HyperLinkURL', *self.paragraph.link_styles})
+
+    def gotoRange(self, end, select):
+        assert end is self.paragraph and select
+
+    def setPropertyValue(self, name, value):
+        self.paragraph.whole_link_writes.append((name, value))
+        if name == 'HyperLinkURL':
+            self.paragraph.url = value
+            self.paragraph.mixed_full = False
+        else:
+            self.paragraph.link_styles[name] = value
 
 
 class TailCursor:
@@ -202,9 +221,12 @@ class Paragraph:
         self.text, self.url = text, url
         self.edits, self.fail_edit = [], False
         self.corrupt_edit, self.tail_link_lost = False, False
+        self.mixed_full, self.bad_portion = False, False
         self.link_styles = {'VisitedCharStyleName': 'Original visited',
-                            'UnvisitedCharStyleName': 'Original unvisited'}
+                            'UnvisitedCharStyleName': 'Original unvisited',
+                            'HyperLinkName': 'Native name', 'HyperLinkTarget': 'Native target'}
         self.link_writes = []
+        self.whole_link_writes = []
 
     def getString(self):
         return self.text
@@ -212,12 +234,30 @@ class Paragraph:
     def getEnd(self):
         return self
 
+    def getStart(self):
+        return ('start', self)
+
     def getText(self):
         return self
 
     def createTextCursorByRange(self, end):
+        if end == ('start', self): return FullCursor(self)
         assert end is self
         return TailCursor(self)
+
+    def createEnumeration(self):
+        texts = [self.text] if not self.edits else list(self.text.rpartition('\t'))
+        items = []
+        for number, text in enumerate(texts):
+            properties = {**self.link_styles, 'TextPortionType': 'Text',
+                          'HyperLinkURL': '#unexpected' if self.bad_portion and self.edits and number == 0 else self.url}
+            items.append(SimpleNamespace(getString=lambda text=text: text,
+                getPropertySetInfo=lambda properties=properties: SimpleNamespace(
+                    hasPropertyByName=lambda name: name in properties),
+                getPropertyValue=lambda name, properties=properties: properties[name]))
+        pending = list(items)
+        return SimpleNamespace(hasMoreElements=lambda: bool(pending),
+                               nextElement=lambda: pending.pop(0))
 
 
 class Index:
@@ -273,8 +313,26 @@ class NativeCacheGuards(unittest.TestCase):
         toc.refresh_cached_contents(self.doc, self.saved)
         self.assertEqual(self.paragraph.link_writes, [
             ('HyperLinkURL', '#target0'), ('VisitedCharStyleName', 'Original visited'),
-            ('UnvisitedCharStyleName', 'Original unvisited')])
+            ('UnvisitedCharStyleName', 'Original unvisited'), ('HyperLinkName', 'Native name'),
+            ('HyperLinkTarget', 'Native target')])
         self.assertEqual(self.paragraph.text, 'Same heading\t٨٨')
+
+    def test_mixed_aggregate_with_exact_portion_urls_is_coalesced_to_original_properties(self):
+        self.index.on_update = self.generated
+        self.paragraph.mixed_full = True
+        with patch('builtins.print') as printed:
+            toc.refresh_cached_contents(self.doc, self.saved)
+        self.assertEqual(self.paragraph.whole_link_writes, self.paragraph.link_writes)
+        self.assertFalse(self.paragraph.mixed_full)
+        self.assertEqual(json.loads(printed.call_args.args[0])['rows'], 1)
+
+    def test_unexpected_portion_url_fails_before_whole_row_coalescing(self):
+        self.index.on_update = self.generated
+        self.paragraph.mixed_full = self.paragraph.bad_portion = True
+        with self.assertRaisesRegex(ValueError, 'changed native link spans'):
+            toc.refresh_cached_contents(self.doc, self.saved)
+        self.assertEqual(self.paragraph.whole_link_writes, [])
+        self.assertTrue(self.index.IsProtected)
 
     def test_changed_replacement_text_fails_before_reapplying_link_properties(self):
         self.index.on_update = self.generated
