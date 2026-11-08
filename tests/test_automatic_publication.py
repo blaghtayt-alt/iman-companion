@@ -83,4 +83,20 @@ class PublicationChecks(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'receipt was not verified'):
                 auto.require_word_layout({'requireActualWordLayout':True},self.out,book,'en')
         self.assertNotIn('independentWordLayoutVerification',book)
+    def test_connector_consumption_waits_for_successful_remote_pair_verification(self):
+        _,row=self.entry('en',self.tag);self.report([row]);self.remote[self.tag]['assets'][0]['digest']='sha256:'+'0'*64
+        with patch('connector_candidate_transfer.record_published') as consume:
+            with self.assertRaisesRegex(ValueError,'differs'):self.publish()
+            consume.assert_not_called()
+    def test_connector_receipt_is_staged_with_the_normal_library_commit(self):
+        _,row=self.entry('en',self.tag);self.report([row])
+        relative='materials/book-finalization-intake-history/'+'a'*64+'.json'
+        def consume(root,out,entries,repo):
+            self.assertTrue(any(c[:2]==['gh','api'] for c in self.commands))
+            self.assertEqual(repo,self.repo);self.assertEqual(len(entries),1)
+            self.write(relative,{'fixture':'synthetic publication receipt'})
+        with patch('connector_candidate_transfer.record_published',side_effect=consume):
+            self.publish()
+        add=next(c for c in self.commands if c[:2]==['git','add'])
+        self.assertIn(relative,add);self.assertIn('books/published-library.json',add)
 if __name__=='__main__':unittest.main()

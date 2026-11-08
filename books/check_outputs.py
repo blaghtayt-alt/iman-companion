@@ -39,7 +39,7 @@ def public_export_inputs(index,folder):
     present={p.name for p in folder.iterdir() if p.is_file() and p.suffix.lower() in {'.docx','.pdf'}}
     if present!=expected:raise ValueError('Unindexed or missing book files cannot be released')
 
-def validate_footnotes(notes,body,expected,lang):
+def validate_footnotes(notes,body,expected,lang,*,preserved_identifiers=()):
     W='http://schemas.openxmlformats.org/wordprocessingml/2006/main'
     tag=lambda n:'{'+W+'}'+n
     actual={}
@@ -56,7 +56,6 @@ def validate_footnotes(notes,body,expected,lang):
         for p in note.findall('.//'+tag('p')):
             paragraphs.append(''.join((n.text or '') if n.tag==tag('t') else ('\n' if n.tag==tag('br') else '') for n in p.iter()))
         text='\n'.join(paragraphs)
-        native_text(text,lang)
         if 'http://' in text or 'https://' in text or note.findall('.//'+tag('hyperlink')):raise ValueError('Reference links remain in footnotes')
         actual[note_id]=text
     refs=[]
@@ -64,6 +63,11 @@ def validate_footnotes(notes,body,expected,lang):
         try:refs.append(int(ref.get(tag('id'))))
         except (TypeError,ValueError):raise ValueError('Invalid footnote reference')
     if len(refs)!=len(expected) or len(set(refs))!=len(refs) or set(refs)!=set(actual):raise ValueError('Broken or missing footnote anchors')
+    if not isinstance(preserved_identifiers,(list,tuple)):raise ValueError('Invalid footnote identifier bindings')
+    if preserved_identifiers:
+        if len(preserved_identifiers)!=len(expected):raise ValueError('Footnote identifier bindings do not match the notes')
+    else:preserved_identifiers=[[] for _ in expected]
+    for note_id,identifiers in zip(refs,preserved_identifiers):native_text(actual[note_id],lang,preserved_identifiers=identifiers)
     # The generator deliberately inserts one space after the footnote marker.
     if any(actual[note_id]!=' '+text for note_id,text in zip(refs,expected)):raise ValueError('Footnote text changed or reordered during Word refresh')
 
@@ -112,7 +116,7 @@ def main():
             with zipfile.ZipFile(file) as z:
                 notes=etree.fromstring(z.read('word/footnotes.xml'));W='http://schemas.openxmlformats.org/wordprocessingml/2006/main'
                 body=etree.fromstring(z.read('word/document.xml'))
-                validate_footnotes(notes,body,checks['footnotes'],book['language'])
+                validate_footnotes(notes,body,checks['footnotes'],book['language'],preserved_identifiers=checks.get('footnoteIdentifiers',()))
         if not pdf.exists():raise ValueError('Missing rendered PDF')
         contents=verify_contents_pair(file,pdf,book['language']);book['pdfContentsVerification']=contents['pdf']
         if contents['word']:

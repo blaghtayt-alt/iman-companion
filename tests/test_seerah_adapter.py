@@ -18,14 +18,27 @@ class NewSeerahChecks(unittest.TestCase):
         (self.root/'books/units/current').mkdir(parents=True)
     def tearDown(self):self.temp.cleanup()
     def test_exact_current_edition_and_real_audio_binding(self):
-        units=generate(self.root,self.catalog,self.declaration);self.assertEqual([u['id'] for u in units],['new-seerah001','new-seerah002','new-seerah003']);self.assertEqual(sum(u['referenceReadiness']['unboundQuranSegments'] for u in units),28);self.assertEqual(sum(u['referenceReadiness']['unboundHadithSegments'] for u in units),24)
+        units=generate(self.root,self.catalog,self.declaration);self.assertEqual([u['id'] for u in units],['new-seerah001','new-seerah002','new-seerah003'])
+        spans=[span for unit in units for section in unit['sections'] for block in section['blocks'] for span in block['spans']]
+        quran=[span for span in spans if span['role']=='quran'];hadith=[span for span in spans if span['role']=='hadith']
+        self.assertEqual(len(quran),28);self.assertEqual(len(hadith),24)
+        self.assertTrue(all(span.get('verseKeys') for span in quran));self.assertTrue(all(span.get('citations') or span.get('noteTexts') for span in hadith))
+        self.assertTrue(all(unit['referenceReadiness']=={'unboundQuranSegments':0,'unboundHadithSegments':0} for unit in units))
         seed=json.loads((ROOT/'materials/audio/publish.json').read_bytes())
         registry={**seed,'entries':[{**record,'status':'published'} for record in seed['entries']]}
         for unit in units:self.assertEqual(audio_for_unit(unit,registry)['materialId'],unit['id'])
         changed=deepcopy(units[0]);changed['sourceHashes']=['f'*64];self.assertIsNone(audio_for_unit(changed,registry))
         registry['entries'][1]['status']='withdrawn';self.assertIsNone(audio_for_unit(units[1],registry))
     def test_real_unresolved_references_block_release(self):
-        units=generate(self.root,self.catalog,self.declaration);book={'collection':'seerah','units':[{'id':u['id']} for u in units],'referenceReadiness':{'units':3,'auditedUnits':3,'unboundQuranSegments':28,'unboundHadithSegments':24}}
+        path=self.root/self.declaration['projection'];projection=json.loads(path.read_bytes())
+        spans=[span for chapter in projection['chapters'] for paragraph in chapter['paragraphs'] for span in paragraph['segments']]
+        next(span for span in spans if span['role']=='quran').pop('verseKeys')
+        hadith=next(span for span in spans if span['role']=='hadith');hadith.pop('citations',None);hadith.pop('noteTexts',None)
+        dump(path,projection);self.declaration['projectionSHA256']=hashlib.sha256(path.read_bytes()).hexdigest()
+        units=generate(self.root,self.catalog,self.declaration)
+        readiness={'units':len(units),'auditedUnits':len(units),**{key:sum(unit['referenceReadiness'][key] for unit in units) for key in ('unboundQuranSegments','unboundHadithSegments')}}
+        self.assertEqual(readiness['unboundQuranSegments'],1);self.assertEqual(readiness['unboundHadithSegments'],1)
+        book={'collection':'seerah','units':[{'id':u['id']} for u in units],'referenceReadiness':readiness}
         with self.assertRaisesRegex(ValueError,'source citations are incomplete'):require_complete_references(book)
         book['referenceReadiness']['unboundQuranSegments']=book['referenceReadiness']['unboundHadithSegments']=0;require_complete_references(book)
         book['referenceReadiness']['auditedUnits']=2

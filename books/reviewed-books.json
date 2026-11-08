@@ -7,14 +7,14 @@
       "adapter": "arabic-articles-v1",
       "state": "reviewed-current",
       "projection": "books/source-projections/ar-articles.json",
-      "projectionSHA256": "cf7716c11593dcade22e4f017522d55722223011b09dcbadf134b1d3d5fa3752",
+      "projectionSHA256": "b029bb5764d4b3a5a544063d08139d19f2e57ad90181dd929c62700567236898",
       "materialIndex": "materials/articles/prepared-ar/index.json",
-      "reviewBasis": "The 47 currently installed Arabic article readings and Islamic-only reference lists were compared against the public article index and Markdown. This records source eligibility, not scholarly certification or finished-book layout approval.",
+      "reviewBasis": "The 47 published Arabic article bodies and semantic roles remain exact. All 47 original DOCX bibliographies were checked against complete registered source hashes. Missing or truncated source attributions and qualifications in 16 articles are restored; the projection embeds original text, links, positions, exact anchor proofs and an omission ledger for editorial format instructions retained only as provenance. Its canonical reader hash identifies the derivative export input, not an app deployment. This records source fidelity and eligibility, not new scholarly certification or finished-book layout approval.",
       "automaticBuild": true,
       "automaticRelease": true,
       "requireActualWordLayout": true,
       "requireFinalVisualAcceptance": true,
-      "materialIndexSHA256": "3419e53386895008ddcb0542ab5189ab1aa354ebba3d51b6477fad9e6b3ab81e"
+      "materialIndexSHA256": "0d0803b8407e38dfbb99c81f574f875428fd49bcb6427c831e471dbf7b18fc45"
     },
     {
       "language": "hi",
@@ -229,14 +229,13 @@
       "adapter": "arabic-new-seerah-v1",
       "state": "reviewed-current",
       "projection": "books/source-projections/ar-seerah-new.json",
-      "projectionSHA256": "c2c74a6973e398721556639ea123c16f86667192d7590cafb85d44a8a8db0d82",
+      "projectionSHA256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
       "materialIndex": "materials/seerah/new-adult/ar/index.json",
       "reviewBasis": "The three current supplied Arabic chapters and their structured app-reader segments match the exact published chapter identities and reading bytes. This is source eligibility, not scholarly certification or a claim of complete human audio listening.",
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "requireActualWordLayout": true,
       "requireFinalVisualAcceptance": true,
-      "releaseHold": "Bind the 28 Quran and 24 Hadith source segments to verified references before exact final Word/PDF and visual release checks.",
       "materialIndexSHA256": "7306bb63dea06bb5f26b973bf520f2ee218084511792e4cca9751d46252f0ab6"
     },
     {

@@ -54,11 +54,13 @@ jobs:
           node books/test_source_publication_connector.cjs
           python tests/test_article_adapter.py
           python tests/test_articles_export.py
+          python tests/test_article_reference_fidelity.py
           python tests/test_seerah_adapter.py
           python tests/test_hadith_adapter.py
           python tests/test_mixed_material_adapters.py
           python tests/test_finalize_prepared.py
           python tests/test_release_candidate_intake.py
+          python tests/test_connector_candidate_transfer.py
           python tests/test_published_library.py
           python tests/test_material_audio.py
           python tests/test_automatic_publication.py
@@ -135,8 +137,13 @@ jobs:
         continue-on-error: true
         run: |
           python books/automatic_publication.py finalize --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG" --finalized-dir "$RUNNER_TEMP/finalized-candidates"
+      - name: Intake finalized candidates transferred through the GitHub connector
+        id: connector_intake
+        continue-on-error: true
+        run: |
+          python books/connector_candidate_transfer.py process --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
       - name: Record rejected candidate transfer while retaining independent books
-        if: steps.finalized_transfer.outcome == 'failure' || steps.finalized_intake.outcome == 'failure'
+        if: steps.finalized_transfer.outcome == 'failure' || steps.finalized_intake.outcome == 'failure' || steps.connector_intake.outcome == 'failure'
         run: |
           python - <<'PY'
           import json,os

@@ -129,12 +129,12 @@ even when the narrow parser cannot assign a structured identity. Such cases are
 reported as nonblocking classification/placement diagnostics. A website record
 ID is never substituted for an original narration number.
 
-Articles and Hadith are eligible for the finalization intake with mandatory
-actual Word and visual checks. Seerah also prepares automatically, but its
-existing source-reference hold remains enabled. Clear that hold only
-after its exact reference projection is complete, then generate a fresh
-preparation. Merely changing `automaticRelease` cannot supply Word receipts,
-complete missing references, or grant visual acceptance.
+Articles, Hadith and the three current adult Seerah chapters are eligible for
+finalization with mandatory actual Word and visual checks. All 28 Quran and
+24 Hadith quotation segments in that Seerah edition now have source bindings;
+its reference hold is resolved. Generate a fresh preparation with those exact
+bindings before the final Word and visual checks. `automaticRelease` by itself
+cannot supply Word receipts, complete missing references, or grant visual acceptance.
 
 Historical standalone article translations and legacy Seerah editions do not
 join these current Arabic books. Other languages' Essential Hadith materials
@@ -220,6 +220,78 @@ language do not invalidate an unchanged scoped handoff. No intake command
 creates source approval, toggles a release hold, or accepts its own visual
 template. A rejected transfer or malformed bundle is reported as an intake
 failure; independent preparation and existing verified downloads still continue.
+
+## Transfer through the connected GitHub account
+
+A desktop GitHub login is not required when the connected account can create
+Git blobs and commits. The same publisher accepts pinned transfer manifests
+under `materials/book-finalization-intake/<archiveSHA256>.json` on a normal
+source push. This is a transport option; it supplies no Word or visual approval.
+
+First complete the current preparation's actual Word and visual checks. Then
+make a minimal transfer on the owned desktop, before uploading any bytes:
+
+```powershell
+python books/connector_candidate_transfer.py prepare --root . --bundle review-bundle --out connector-transfer --repo blaghtayt-alt/iman-companion
+```
+
+The command checks the current handoff and supplied acceptance, copies only
+the six required preparation files, four final candidate files, and exact
+handoff/acceptance files, and packages them through the existing archive helper.
+It excludes local diagnostic logs, process audits, and other files. Required
+metadata containing `localArtifacts` or absolute machine paths is rejected.
+It does not sanitize or rewrite accepted evidence. Use a committed Actions
+preparation; keep local audits outside the review bundle. Review the actual
+reviewer identity in the acceptance before public transfer.
+
+The output contains `finalized-books.zip`, ordered `chunks/0000.b64` files,
+and a ready manifest named for the archive SHA256. Each manifest has this form:
+
+```json
+{
+  "schema": "iman-book-connector-transfer-v1",
+  "repository": "blaghtayt-alt/iman-companion",
+  "archiveSHA256": "<64 lowercase hex digits>",
+  "archiveBytes": 12345,
+  "chunks": [
+    {"blobSHA": "<40 lowercase hex digits>", "sha256": "<64 lowercase hex digits>", "bytes": 12345}
+  ],
+  "scopes": [
+    {"language": "ar", "collection": "articles", "sourceCommit": "<preparation commit>", "inputFingerprint": "<exact preparation fingerprint>"}
+  ]
+}
+```
+
+For each ordered chunk, call the existing GitHub connector's `create_blob`
+with `encoding: "base64"`, the unchanged file content, and this repository.
+The returned blob SHA must equal the precomputed `blobSHA`; stop on any
+mismatch. Upload every chunk before committing the unchanged manifest to its
+printed `commitPath`. Do not put chunk data or desktop paths in that manifest.
+Use a reviewed branch/PR or an authorized fast-forward with the current expected
+head. The manifest's relevant main push starts the existing workflow; there is
+no separate scheduler, credential or inbound service.
+
+The workflow retrieves only the named Git blobs from its own repository.
+It independently checks each Git object SHA, SHA256 and exact byte count,
+then the ordered archive's SHA256, size, safe ZIP inventory and exact declared
+scopes. It rejects stale preparations, ambiguous pending transfers and extra
+payload files. The existing finalizer still validates the current source,
+unchanged reader content, real Word receipt and exact final visual acceptance.
+Individual failed transfers remain visible without preventing independent
+valid pairs from reaching the normal publisher.
+
+Only after the normal publisher verifies the public pair assets does it write
+a per-scope receipt under `materials/book-finalization-intake-history/`, in the
+same commit as the catalog/library update. Already consumed scopes are skipped
+without downloading their chunks again; a failed scope is not consumed.
+Historical manifests and receipts stay immutable evidence. The transport limit
+is 512 MiB per archive, 8 MiB per chunk and 4,096 ordered chunks; the default
+upload chunk is 512 KiB.
+
+Merge all renderer and transfer code before generating fresh preparations:
+the preparation signature includes every non-test `books/*.py` module.
+A later metadata-only transfer commit can use an unchanged current preparation.
+Do not advance main while its publication job is running.
 
 ## Preserving existing verified downloads
 

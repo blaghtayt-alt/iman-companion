@@ -136,7 +136,8 @@ def managed_paths(root=None):
     intake=root/'books/.cache/material-intake-report.json' if root else None
     transaction_files=read(intake).get('generatedFiles',[]) if intake and intake.exists() else []
     if any(not p.startswith(('books/units/current/','books/units/history/','materials/book-publication-approvals/','materials/book-publication-intake-history/','materials/audio/')) and p not in {'materials/catalog.json','books/reviewed-books.json'} for p in transaction_files):raise ValueError('Unexpected source transaction output')
-    return ['README.md','books/published-library.json','books/prepared-library.json','books/config.json','materials/audio/publish.json','materials/audio/registry.json','docs/listen/materials.json']+[f'books/downloads/{language}/README.md'for language in COPY]+(download_paths(root)if root else[])+audio_history+transaction_files
+    connector_history=[p.relative_to(root).as_posix() for p in sorted((root/'materials/book-finalization-intake-history').glob('*.json')) if re.fullmatch('[a-f0-9]{64}[.]json',p.name)] if root else []
+    return ['README.md','books/published-library.json','books/prepared-library.json','books/config.json','materials/audio/publish.json','materials/audio/registry.json','docs/listen/materials.json']+[f'books/downloads/{language}/README.md'for language in COPY]+(download_paths(root)if root else[])+audio_history+transaction_files+connector_history
 
 def publish(root,out,commit,repo,tag,execute=run):
     entries,assets=candidates(root,out,tag)
@@ -157,6 +158,8 @@ def publish(root,out,commit,repo,tag,execute=run):
     count=stage(root,library,ready,repo)
     from download_page import publish as publish_download_page
     downloads=publish_download_page(root,out,ready,commit,repo,tag,execute)
+    from connector_candidate_transfer import record_published
+    record_published(root,out,entries,repo)
     ensure_main(root,commit)
     files=[p for p in managed_paths(root)if(root/p).is_file()]
     execute(['git','add','--',*files],root)
