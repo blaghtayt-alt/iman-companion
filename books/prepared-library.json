@@ -4,8 +4,8 @@
     {
       "language": "ar",
       "collection": "articles",
-      "sourceCommit": "b60f28e3027fb2274e9fc777c92be68f0c78bc06",
-      "inputFingerprint": "94cce3d5d78365dfb861e6de33c77317f3eb94c3914538c8f82554053a59bcd2",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "5d7d2855f8b0325861a252cc691c84f2492c182edeff61a191fb0fc2388865b0",
       "state": "prepared-awaiting-release-qc",
       "releaseVerified": false,
       "pendingChecks": [
@@ -25,7 +25,7 @@
           "collection": "articles",
           "collectionLabel": "مقالات",
           "file": "Iman_Companion_ar_articles.docx",
-          "sha256": "833178735420722e8aca2b6a3ed41f3b4683fcfa1b1814f74ac399a1c28733d8",
+          "sha256": "2864cf5cf297509df7b0e44d8fe327a3b727fc2bcb24a8873f9d9c0a0ddc3544",
           "units": [
             {
               "id": "prepared-ar-79fa38429519de69",
@@ -404,7 +404,7 @@
               "readerTextSHA256": "5d7c7146eb2d9e040a2258306982a6fbb37951f64057b93bf74f64f761c88860"
             }
           ],
-          "sourceCommit": "b60f28e3027fb2274e9fc777c92be68f0c78bc06",
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
           "bodyColor": "#000000",
           "rtl": true,
           "arabicAyahs": "centered",
@@ -413,15 +413,23 @@
           "footnoteCount": 504,
           "hadithCount": 0,
           "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
           "previewOnly": false,
           "pdfContentsVerification": {
             "matchedEntries": 47
           },
           "audioQRVerification": [],
-          "pages": 655,
-          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42493574788-1/Iman_Companion_ar_articles.docx",
-          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42493574788-1/Iman_Companion_ar_articles.pdf",
-          "pdfSha256": "73c9322568cbdf3403a9daaacf46efa4b015fe01da7240bab676e89949e949bc",
+          "pages": 385,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ar_articles.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ar_articles.pdf",
+          "pdfSha256": "2627738849a545cd6cf81aec8ec3179d0e9d8a92bcf0019c0ee1bfcad32c273f",
           "exportVerified": false,
           "preparationVerified": true,
           "contentsTargetVerification": {
@@ -919,20 +927,20 @@
       },
       "folder": "ar-articles",
       "artifact": {
-        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42493574788",
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
         "repository": "blaghtayt-alt/iman-companion",
-        "runId": "42493574788",
-        "name": "current-book-publication-42493574788-1",
-        "createdAt": "2026-11-08T15:16:31.429728+00:00",
-        "expiresAt": "2027-02-06T15:16:31.429728+00:00",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:55:20.852963+00:00",
+        "expiresAt": "2027-02-06T15:55:20.852963+00:00",
         "retentionDays": 90
       }
     },
     {
       "language": "ar",
       "collection": "hadith",
-      "sourceCommit": "b60f28e3027fb2274e9fc777c92be68f0c78bc06",
-      "inputFingerprint": "3ba5e94e6119c8f6a54eed66462a1d33e8d77f3329098789e027911f34c70c39",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "8aa6b63d35fe4f1c237275be6c4828b49864ca4665fb30695664176e5456987b",
       "state": "prepared-awaiting-release-qc",
       "releaseVerified": false,
       "pendingChecks": [
@@ -952,7 +960,7 @@
           "collection": "hadith",
           "collectionLabel": "الحديث",
           "file": "Iman_Companion_ar_hadith.docx",
-          "sha256": "fc30078a6b16438b8e888dd9b6d0e1d6a4d746a6dd0a9c174f78b7a2ff9808f8",
+          "sha256": "a55fc61b915f9c6d276d3452c11ad7086f60a4bffcd5813bbdceeaa9f543c984",
           "units": [
             {
               "id": "essential-01-001",
@@ -3243,7 +3251,7 @@
               "readerTextSHA256": "2a8fcd5720570c118d5a5f53e9dcc82260915be1c4b079d2108fa220b5c200e3"
             }
           ],
-          "sourceCommit": "b60f28e3027fb2274e9fc777c92be68f0c78bc06",
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
           "bodyColor": "#000000",
           "rtl": true,
           "arabicAyahs": "centered",
@@ -3252,6 +3260,14 @@
           "footnoteCount": 1929,
           "hadithCount": 286,
           "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
           "sourceReferencePreservation": {
             "schema": "iman-source-reference-preservation-v1",
             "auditMode": "literal-source-and-qualification-fidelity",
@@ -3280,10 +3296,10 @@
             "matchedEntries": 298
           },
           "audioQRVerification": [],
-          "pages": 1035,
-          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42493574788-1/Iman_Companion_ar_hadith.docx",
-          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42493574788-1/Iman_Companion_ar_hadith.pdf",
-          "pdfSha256": "c9aa4c6399ec2359e39e7598fa3360ad902fe04ecbc378138299d034ed881b11",
+          "pages": 580,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ar_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ar_hadith.pdf",
+          "pdfSha256": "f4715ac56b5ea43181de607312388a7f4b6b39b6dda1154d0e4a5595366b7852",
           "exportVerified": false,
           "preparationVerified": true,
           "contentsTargetVerification": {
@@ -7419,12 +7435,4043 @@
       },
       "folder": "ar-hadith",
       "artifact": {
-        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42493574788",
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
         "repository": "blaghtayt-alt/iman-companion",
-        "runId": "42493574788",
-        "name": "current-book-publication-42493574788-1",
-        "createdAt": "2026-11-08T15:22:21.515768+00:00",
-        "expiresAt": "2027-02-06T15:22:21.515768+00:00",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:58:14.080548+00:00",
+        "expiresAt": "2027-02-06T15:58:14.080548+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "ar",
+      "collection": "seerah",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "3454512e81f3cac0e0c4c4c40a46a58c357bd2edb8c06c79cd1b2170b41ccf0f",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "ar",
+          "languageLabel": "العربية",
+          "collection": "seerah",
+          "collectionLabel": "السيرة",
+          "file": "Iman_Companion_ar_seerah.docx",
+          "sha256": "75b1b0aee6483a13f276bbc0ceb588c12f7f3487266fc44019167b60282b23b6",
+          "units": [
+            {
+              "id": "new-seerah001",
+              "title": "من عام الفيل إلى طفولة النبي ﷺ",
+              "sourceHashes": [
+                "5db0e71443293cb99af87231dd0cecbdaefa2e737cafa0b1a2479140e5318782"
+              ],
+              "readerTextSHA256": "ca6a30b6b1173b73e62739815337aec9ad61fd462fdf6667707f4b9b88fc0887"
+            },
+            {
+              "id": "new-seerah002",
+              "title": "حالُ العرب قبل البعثة ونشأةُ رسولِ الله ﷺ",
+              "sourceHashes": [
+                "90e336e187e075927877c1aa8518621a0941e6b7ec9d8cd6cea8add1dd07734b"
+              ],
+              "readerTextSHA256": "b62505ab90f591cd641ccf19e997b352d182e0a0141fdee729a5f49462943932"
+            },
+            {
+              "id": "new-seerah003",
+              "title": "من بيت خديجة إلى غار حراء",
+              "sourceHashes": [
+                "63aea34d9f8c4bd8406b904ab953aacedf54abe8817e2174f0dd0f5411ce2665"
+              ],
+              "readerTextSHA256": "8a21e723732352a2fc65b0486d67b98c5d89151b819869a8c911ac346cdfed21"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": true,
+          "arabicAyahs": "centered",
+          "quranReferences": "directly after quoted ayah",
+          "referencePresentation": "original Hadith collection and number in footnotes; no retrieval-site labels",
+          "footnoteCount": 24,
+          "hadithCount": 0,
+          "audioPanels": [
+            {
+              "materialId": "new-seerah001",
+              "language": "ar",
+              "sourceSHA256": "5db0e71443293cb99af87231dd0cecbdaefa2e737cafa0b1a2479140e5318782",
+              "audioSHA256": "d9c65794bab88cc55d8bec74493e0db1c76ac7e7e5e443587768fd1a3205d4aa",
+              "playerUrl": "https://blaghtayt-alt.github.io/iman-companion/listen/?m=new-seerah001&lang=ar&v=5db0e71443293cb99af87231dd0cecbdaefa2e737cafa0b1a2479140e5318782",
+              "qrSHA256": "45b10ebc5a4f3e66788c14acfe5c978486eb459df8b4665e5502ac10549fdb33",
+              "layout": "modern-corner-a4-v3",
+              "corner": "top-left",
+              "cardWidthMM": 70.0,
+              "cardHeightMM": 45.0,
+              "qrSideMM": 38.0,
+              "quietZoneModules": 4,
+              "printedQRModuleMM": 0.6666666666666666
+            },
+            {
+              "materialId": "new-seerah002",
+              "language": "ar",
+              "sourceSHA256": "90e336e187e075927877c1aa8518621a0941e6b7ec9d8cd6cea8add1dd07734b",
+              "audioSHA256": "f20fb30208824d0d065f9997c564f5ecdc308bbd0d608e170f38ad6768e95345",
+              "playerUrl": "https://blaghtayt-alt.github.io/iman-companion/listen/?m=new-seerah002&lang=ar&v=90e336e187e075927877c1aa8518621a0941e6b7ec9d8cd6cea8add1dd07734b",
+              "qrSHA256": "fd5b0b1c85e0a573bf1ea67db4281626dcbe783aa781c328767f67ad4379b851",
+              "layout": "modern-corner-a4-v3",
+              "corner": "top-left",
+              "cardWidthMM": 70.0,
+              "cardHeightMM": 45.0,
+              "qrSideMM": 38.0,
+              "quietZoneModules": 4,
+              "printedQRModuleMM": 0.6666666666666666
+            },
+            {
+              "materialId": "new-seerah003",
+              "language": "ar",
+              "sourceSHA256": "63aea34d9f8c4bd8406b904ab953aacedf54abe8817e2174f0dd0f5411ce2665",
+              "audioSHA256": "c8e01ece3689582152a0fa88545977fb9a49790c2614f806ef631f82f5c857fd",
+              "playerUrl": "https://blaghtayt-alt.github.io/iman-companion/listen/?m=new-seerah003&lang=ar&v=63aea34d9f8c4bd8406b904ab953aacedf54abe8817e2174f0dd0f5411ce2665",
+              "qrSHA256": "99021b6c7a8de7d8996511d86ae2d457edce1535922accab970ce246effeff6e",
+              "layout": "modern-corner-a4-v3",
+              "corner": "top-left",
+              "cardWidthMM": 70.0,
+              "cardHeightMM": 45.0,
+              "qrSideMM": 38.0,
+              "quietZoneModules": 4,
+              "printedQRModuleMM": 0.6666666666666666
+            }
+          ],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "referenceReadiness": {
+            "units": 3,
+            "auditedUnits": 3,
+            "unboundQuranSegments": 0,
+            "unboundHadithSegments": 0
+          },
+          "previewOnly": false,
+          "pdfContentsVerification": {
+            "matchedEntries": 3
+          },
+          "audioQRVerification": [
+            {
+              "playerUrl": "https://blaghtayt-alt.github.io/iman-companion/listen/?m=new-seerah001&lang=ar&v=5db0e71443293cb99af87231dd0cecbdaefa2e737cafa0b1a2479140e5318782",
+              "page": 3
+            },
+            {
+              "playerUrl": "https://blaghtayt-alt.github.io/iman-companion/listen/?m=new-seerah002&lang=ar&v=90e336e187e075927877c1aa8518621a0941e6b7ec9d8cd6cea8add1dd07734b",
+              "page": 16
+            },
+            {
+              "playerUrl": "https://blaghtayt-alt.github.io/iman-companion/listen/?m=new-seerah003&lang=ar&v=63aea34d9f8c4bd8406b904ab953aacedf54abe8817e2174f0dd0f5411ce2665",
+              "page": 27
+            }
+          ],
+          "pages": 37,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ar_seerah.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ar_seerah.pdf",
+          "pdfSha256": "401c29543a123b11887b84c6d6212ed92affa1cd04815baeb7d55c1531f40aa5",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 3
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "11f2196fdcc1a933088c8bee6c51c0aee6bf91d549ee0242ff86ae84fa39fc01",
+          "scopeSettingsSHA256": "596fbabc11e8fa04779f875025665951f15922653e8b25cb1b7502ff0711cc09",
+          "unitIds": [
+            "new-seerah001",
+            "new-seerah002",
+            "new-seerah003"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/ar-seerah-new.json",
+              "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc"
+            },
+            {
+              "path": "materials/seerah/new-adult/ar/01.md",
+              "sha256": "6a17792fca0d62b3e675dbb70bb4bbc773677976bd0115d67528e366d39f91f0"
+            },
+            {
+              "path": "materials/seerah/new-adult/ar/02.md",
+              "sha256": "51e8f11093fd9e8bb6af2e715f1c638f28ae2f2539ee2e97e0f53c7002aaeb8f"
+            },
+            {
+              "path": "materials/seerah/new-adult/ar/03.md",
+              "sha256": "3d8b4b75e8c521d649271333429182e66f1b3e0226a8aa1759a9f82a1794f22e"
+            },
+            {
+              "path": "materials/seerah/new-adult/ar/index.json",
+              "sha256": "7306bb63dea06bb5f26b973bf520f2ee218084511792e4cca9751d46252f0ab6"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "seerah",
+              "language": "ar",
+              "id": "new-seerah001"
+            },
+            {
+              "collection": "seerah",
+              "language": "ar",
+              "id": "new-seerah002"
+            },
+            {
+              "collection": "seerah",
+              "language": "ar",
+              "id": "new-seerah003"
+            }
+          ]
+        }
+      },
+      "folder": "ar-seerah",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:55:34.740524+00:00",
+        "expiresAt": "2027-02-06T15:55:34.740524+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "bn",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "fa003974cd1fbc0fdd0d0030807a1e78e741e194f43a6b02216d2a7770cd71d8",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "bn",
+          "languageLabel": "বাংলা",
+          "collection": "hadith",
+          "collectionLabel": "হাদিস · আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব (+1)",
+          "file": "Iman_Companion_bn_hadith.docx",
+          "sha256": "676b82af04eee63bf8555420c99e9233487a683ae501f5693c46e7339ff06c8b",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব",
+              "sourceHashes": [
+                "62b7a141568821d73ff52f9f685128c17981204ee447de402562194f59ffde3e"
+              ],
+              "readerTextSHA256": "fd36383f50713481710898fc86b9771748e7e715c97b1529e347e369ff642af3"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "অন্তরসমূহ পরম দয়াময়ের নিয়ন্ত্রণাধীন",
+              "sourceHashes": [
+                "c662392dfc5b3a6984c163ecb77b90237076f3c4d6aaa34896ac984e2dd7ecbd"
+              ],
+              "readerTextSHA256": "ab7cdc0811e7a77e0bad476585dc33cc0dd5ba1a324abb4149f3003ac6c22c2f"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 2,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব",
+              "অন্তরসমূহ পরম দয়াময়ের নিয়ন্ত্রণাধীন"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 2,
+            "auditedUnits": 2,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 2,
+            "preservedReferences": 2,
+            "sourceQualifications": 20,
+            "preservedQualifications": 20,
+            "sourceParagraphs": 61,
+            "preservedParagraphs": 61,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 4
+          },
+          "audioQRVerification": [],
+          "pages": 13,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_bn_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_bn_hadith.pdf",
+          "pdfSha256": "520d74b6a39feb5b29b586892d27cb5e7de682ee545aafb48bfcf856909efeca",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 4
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "50d9470366dedf775bb28d71cd0210e2899f67c9ac7f96728a9afe9b88dce92d",
+          "scopeSettingsSHA256": "dab5e64a1adfb36f29b5eeb52b08bb91e77167d168ac6e8711f577a933181285",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-bn/002.json",
+              "sha256": "62b7a141568821d73ff52f9f685128c17981204ee447de402562194f59ffde3e"
+            },
+            {
+              "path": "materials/hadith/essential-bn/002.md",
+              "sha256": "758e82a092c2656ce063b09daa241669ad21189e3439de13ec0aac54354feed1"
+            },
+            {
+              "path": "materials/hadith/essential-bn/003-sources.json",
+              "sha256": "6bf380b62c6302ca16bc0141fb024707c65af8e05470337a5bf4f54ee2a40f60"
+            },
+            {
+              "path": "materials/hadith/essential-bn/003.json",
+              "sha256": "c662392dfc5b3a6984c163ecb77b90237076f3c4d6aaa34896ac984e2dd7ecbd"
+            },
+            {
+              "path": "materials/hadith/essential-bn/003.md",
+              "sha256": "bbe4dd730cb295520238d6607d7da3376f346e83ffcacd69fe80c4519af80970"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "bn",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "bn",
+              "id": "essential-01-003"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "bn-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:58:19.719489+00:00",
+        "expiresAt": "2027-02-06T15:58:19.719489+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "de",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "7d3e7ca01064b0692f2f40a8ec3acca9763f273a14c09a8d7b08d3ae1177a125",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "de",
+          "languageLabel": "Deutsch",
+          "collection": "hadith",
+          "collectionLabel": "Hadith · Allahs Größe und ihre Wirkung auf Herz und Handeln (+2)",
+          "file": "Iman_Companion_de_hadith.docx",
+          "sha256": "dbe6e4e057078d2729a7090760c9d8411fadc6f512c54cbae561a5e1e791b0f0",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "Allahs Größe und ihre Wirkung auf Herz und Handeln",
+              "sourceHashes": [
+                "69028f7d8c887ade7292a20d662887306068d8677fb9f08492f1a4d8b1fcc235"
+              ],
+              "readerTextSHA256": "a3651109f5147c2f6b09c0b561c8629cf8e34bed8395d2b9ce44a5965ed92126"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Die Herzen stehen unter der Lenkung des Allerbarmers",
+              "sourceHashes": [
+                "268fe6e88813c711a2aabc4838f1af9c38fb3814d016d763e2e5debbc7600f2a"
+              ],
+              "readerTextSHA256": "8049ebf2da732cdb7d7a5a32c81b477dcad045eebd4c831e8195946b042ba317"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Im Glauben standhaft bleiben und ein abirrendes Herz erkennen",
+              "sourceHashes": [
+                "fcff557ad74a2c776e6aabb882f26ba6d80148cfa3896aac72bf4a8e19a3018d"
+              ],
+              "readerTextSHA256": "5b8b8129ea09be5fdc8348eeecfe7f0027591353d7898238ff5b4d056e611b5b"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "Allahs Größe und ihre Wirkung auf Herz und Handeln",
+              "Die Herzen stehen unter der Lenkung des Allerbarmers",
+              "Im Glauben standhaft bleiben und ein abirrendes Herz erkennen"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 3,
+            "preservedReferences": 3,
+            "sourceQualifications": 3,
+            "preservedQualifications": 3,
+            "sourceParagraphs": 66,
+            "preservedParagraphs": 66,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 16,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_de_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_de_hadith.pdf",
+          "pdfSha256": "eea80b351504d5be7886fad7cd5f5d52e0ccbb424985965e9106de56097d355a",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "659c43e2d5b68439e5af06599774d25754daf9d60e886048912fce0d68ff1ca1",
+          "scopeSettingsSHA256": "07b61038f054d7b66fb2bbf07fe5ac65bfa34740701b9d357be64f8e2f9731d8",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-de/002.json",
+              "sha256": "69028f7d8c887ade7292a20d662887306068d8677fb9f08492f1a4d8b1fcc235"
+            },
+            {
+              "path": "materials/hadith/essential-de/002.md",
+              "sha256": "7f87a46d2ab755c76853307d034406999828f7f75c05e5280ee446ad049ed57d"
+            },
+            {
+              "path": "materials/hadith/essential-de/003-sources.json",
+              "sha256": "d703906e805ce567461d9223fd7d665cf08e5aacc7484159b9750a5c27b03313"
+            },
+            {
+              "path": "materials/hadith/essential-de/003.json",
+              "sha256": "268fe6e88813c711a2aabc4838f1af9c38fb3814d016d763e2e5debbc7600f2a"
+            },
+            {
+              "path": "materials/hadith/essential-de/003.md",
+              "sha256": "bb490c1f20227f17cca641c08b81faa2803472247e53463a4d637f5a558ec55a"
+            },
+            {
+              "path": "materials/hadith/essential-de/004-sources.json",
+              "sha256": "491e20dd9150c9773ea9629b907d2db00936a4317decf4867f192fd242b002d1"
+            },
+            {
+              "path": "materials/hadith/essential-de/004.json",
+              "sha256": "fcff557ad74a2c776e6aabb882f26ba6d80148cfa3896aac72bf4a8e19a3018d"
+            },
+            {
+              "path": "materials/hadith/essential-de/004.md",
+              "sha256": "f570eda497d94ca863f552e04b576b809013f3d1ef71a4a100329cbbc1955df2"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "de",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "de",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "de",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "de-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:58:24.379062+00:00",
+        "expiresAt": "2027-02-06T15:58:24.379062+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "en",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "4271db888289a759a83b247240112f7cde0232d1305393aaa6cfa272a48ff989",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "en",
+          "languageLabel": "English",
+          "collection": "hadith",
+          "collectionLabel": "Hadith · Allah’s greatness and its effect on the heart and our deeds (+2)",
+          "file": "Iman_Companion_en_hadith.docx",
+          "sha256": "f5c3879ca17d1f002cd4a05c3c5a87155a3961dd75777615b4d78ecda1d18b42",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "Allah’s greatness and its effect on the heart and our deeds",
+              "sourceHashes": [
+                "c604108686a2d61cafd429f9e49153c158c14b2bf91bf1ae03468d29ce24b90f"
+              ],
+              "readerTextSHA256": "7c90abb3801b0a6fff09284396c3ebab3e0235d4deb633b77877ea3143512fcf"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "All hearts are under the control of the Most Compassionate",
+              "sourceHashes": [
+                "e90a5d811fe28075e26b9a82a8ff0beb8d5cb561eeb9f6aa9b80b45bfe57b6d4"
+              ],
+              "readerTextSHA256": "475582d405f49f00a6c2b595bea7c8949e5cff094216242a1983263b858d7fa1"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Steadfastness in religion and recognizing a heart that has strayed",
+              "sourceHashes": [
+                "9264e68870d9f6581485ae05e26f6fedaf5c46984cea5cd4f545da9869f67657"
+              ],
+              "readerTextSHA256": "89ed7cf50e16da2a2c11fbfd29c617bdc2d9638ffa51fc7a78f71c63062022f5"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 8,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "Allah’s greatness and its effect on the heart and our deeds",
+              "All hearts are under the control of the Most Compassionate",
+              "Steadfastness in religion and recognizing a heart that has strayed"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 15,
+            "preservedReferences": 15,
+            "sourceQualifications": 45,
+            "preservedQualifications": 45,
+            "sourceParagraphs": 121,
+            "preservedParagraphs": 121,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 18,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_en_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_en_hadith.pdf",
+          "pdfSha256": "c49ee2a3e37c69ece2129c991d85e3350233b079b58a1d2ac64e47a13acb9342",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "87d9be003ba22a40a58c455374312bcc287bf2bd8145785293f473cc1b4e3f8f",
+          "scopeSettingsSHA256": "a1543529634102362803b4802a96834e1675da6eaa69075c56d81d8be3bacfc5",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-en/002.json",
+              "sha256": "c604108686a2d61cafd429f9e49153c158c14b2bf91bf1ae03468d29ce24b90f"
+            },
+            {
+              "path": "materials/hadith/essential-en/002.md",
+              "sha256": "d7f01b5051b9a8b6468cc727bbbc61b9a6a7c2d2a98a68f73c9ea9fac56ad78d"
+            },
+            {
+              "path": "materials/hadith/essential-en/003-sources.json",
+              "sha256": "cedf681c53690ec77d81a7b39bc3fd5ddfbf667e70eaa1dad5fb661d54cf4eeb"
+            },
+            {
+              "path": "materials/hadith/essential-en/003.json",
+              "sha256": "e90a5d811fe28075e26b9a82a8ff0beb8d5cb561eeb9f6aa9b80b45bfe57b6d4"
+            },
+            {
+              "path": "materials/hadith/essential-en/003.md",
+              "sha256": "3e704871a5848c298b09ce6a7503d04be1be348b41cfc7c6880fea352500393c"
+            },
+            {
+              "path": "materials/hadith/essential-en/004-sources.json",
+              "sha256": "1184fc8ffc8cb5d26063610cd5072a6a5285c2cd14e98676b7d65fed44ab350b"
+            },
+            {
+              "path": "materials/hadith/essential-en/004.json",
+              "sha256": "9264e68870d9f6581485ae05e26f6fedaf5c46984cea5cd4f545da9869f67657"
+            },
+            {
+              "path": "materials/hadith/essential-en/004.md",
+              "sha256": "136f355c9a068b956f1b0758467d54a0b901fc40e7cc58a00a71d6a60dec0553"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "en",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "en",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "en",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "en-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:58:29.263845+00:00",
+        "expiresAt": "2027-02-06T15:58:29.263845+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "es",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "b7c7aca4ddec6c0fee4fc9bc928669e994519d93e7a5df4a46f7f303114ee29c",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "es",
+          "languageLabel": "Español",
+          "collection": "hadith",
+          "collectionLabel": "Hadiz · La grandeza de Allah y su efecto en el corazón y las obras (+2)",
+          "file": "Iman_Companion_es_hadith.docx",
+          "sha256": "89c3cd4af06548cbb3a6abadb9edce13f9241d43372ee5b04ef9310df6f75a4c",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "La grandeza de Allah y su efecto en el corazón y las obras",
+              "sourceHashes": [
+                "cb9d5105bdeb42e1b285c0c24684417eb80b1d599950186ddfd061992385e416"
+              ],
+              "readerTextSHA256": "c03426339d1a1e0e573a3d220b23fcf45079d97fa2c5bd922da8f567ac084446"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Los corazones están bajo el dominio del Clemente",
+              "sourceHashes": [
+                "93037b4cb5e680835e4737fbf10a63d4488688c013739ecec161aa5c7404cfd2"
+              ],
+              "readerTextSHA256": "8fb9446debb27edcfa3e44a283373e52262193d099567ca4a1f853a97daefb31"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Firmeza en la religión y cómo reconocer un corazón desviado",
+              "sourceHashes": [
+                "217502d0bd954e064f8006e870856b976799c32ef15d422ab92352efe58a8fd4"
+              ],
+              "readerTextSHA256": "02fc8019b0fec29e1198d5d8d8001bfde5e6b1b5439e9d14590cf450b244f07b"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "La grandeza de Allah y su efecto en el corazón y las obras",
+              "Los corazones están bajo el dominio del Clemente",
+              "Firmeza en la religión y cómo reconocer un corazón desviado"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 3,
+            "preservedReferences": 3,
+            "sourceQualifications": 16,
+            "preservedQualifications": 16,
+            "sourceParagraphs": 80,
+            "preservedParagraphs": 80,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 16,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_es_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_es_hadith.pdf",
+          "pdfSha256": "6cb95f0ee0fa1de72906eaf085f9e269301eaa82b8b408ebfb4c5ceef4b606fa",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "402dff9623eb8cce9e582a43d7d9f78bbab8bf73cbca1e60f3bf57e4ce486551",
+          "scopeSettingsSHA256": "07e92f5335ee390c44b61c2a5de16f962d35cec4c8d5bd1f40ada1f54a8ace9f",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-es/002.json",
+              "sha256": "cb9d5105bdeb42e1b285c0c24684417eb80b1d599950186ddfd061992385e416"
+            },
+            {
+              "path": "materials/hadith/essential-es/002.md",
+              "sha256": "8014b615c4a7244b6b1976d67b442c3447f00e9e91fccb1fb5e15637b47c530f"
+            },
+            {
+              "path": "materials/hadith/essential-es/003-sources.json",
+              "sha256": "9640e49610471c7dd75da87c4f45668c89ea895d1dfb9ee2734395dab334ee0a"
+            },
+            {
+              "path": "materials/hadith/essential-es/003.json",
+              "sha256": "93037b4cb5e680835e4737fbf10a63d4488688c013739ecec161aa5c7404cfd2"
+            },
+            {
+              "path": "materials/hadith/essential-es/003.md",
+              "sha256": "dc82972d8f34270506cdbb8e2bd7e5c86854d514472605e90c6fe5b180f65f5a"
+            },
+            {
+              "path": "materials/hadith/essential-es/004-sources.json",
+              "sha256": "25fb8b7a5b85e0a17d46c064ef085d4a71769e542cb21e0df3991fd5987b2f96"
+            },
+            {
+              "path": "materials/hadith/essential-es/004.json",
+              "sha256": "217502d0bd954e064f8006e870856b976799c32ef15d422ab92352efe58a8fd4"
+            },
+            {
+              "path": "materials/hadith/essential-es/004.md",
+              "sha256": "2471722bd878288b89880697054a36e033a9026e82ba21302bd05dd7672d045e"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "es",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "es",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "es",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "es-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:58:33.927852+00:00",
+        "expiresAt": "2027-02-06T15:58:33.927852+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "fa",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "10c3eeed569a4f29662b63b6253ea5bab10d1b136174c304ec0d8ee6a9a5b524",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "fa",
+          "languageLabel": "فارسی",
+          "collection": "hadith",
+          "collectionLabel": "حدیث · عظمت الله و اثر آن بر دل و عمل (+2)",
+          "file": "Iman_Companion_fa_hadith.docx",
+          "sha256": "99f7fd74470d82f97d9aa94ee01237c1957da47f82f236517b66eda3b7c9ac31",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "عظمت الله و اثر آن بر دل و عمل",
+              "sourceHashes": [
+                "bd6171aa9eb451131851c1c695bb78e6d777400a8d838f0088c6c9bbbbf817d7"
+              ],
+              "readerTextSHA256": "979e3f5ed954a66343d13a8d272071ae19c22e712d3621cad943e83b734071bf"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "دل‌ها در اختیار و تدبیر رحمان‌اند",
+              "sourceHashes": [
+                "7849426c0abb81ea4f5b4e3468c52927d794c763aaddd7faeacfe0c448b9bcde"
+              ],
+              "readerTextSHA256": "cc62d8712204086c32d0ceadb3864360e70c1e477be67404dd0083914eb6e797"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "استواری در دین و شناخت ویژگی‌های دلِ منحرف",
+              "sourceHashes": [
+                "870a4d4c133888c08c5481ec886f2929ae32ba95d9372a18db6b9fb4100cb71d"
+              ],
+              "readerTextSHA256": "c3877ffeb32390fc364fb5461d81940e4a6559b07a7fa66023429268de204c19"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": true,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "عظمت الله و اثر آن بر دل و عمل",
+              "دل‌ها در اختیار و تدبیر رحمان‌اند",
+              "استواری در دین و شناخت ویژگی‌های دلِ منحرف"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 3,
+            "preservedReferences": 3,
+            "sourceQualifications": 3,
+            "preservedQualifications": 3,
+            "sourceParagraphs": 65,
+            "preservedParagraphs": 65,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 14,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_fa_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_fa_hadith.pdf",
+          "pdfSha256": "12fc79af6195584e65b46bf3169b860b4ef67316bc4ec0be6c1672c48fd8d272",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "a7fab638d58577b1c440764eb3efe093826b5e66581d1e5d5262140389dfd0b6",
+          "scopeSettingsSHA256": "8638ad07d5a32182bcab774e9a7ff918f79386aaca3b4aaa00cdb3becdcbf0c9",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-fa/002.json",
+              "sha256": "bd6171aa9eb451131851c1c695bb78e6d777400a8d838f0088c6c9bbbbf817d7"
+            },
+            {
+              "path": "materials/hadith/essential-fa/002.md",
+              "sha256": "e7ac0ba3353f7d6fd5ebbfb3f5f76d4c3fa6dd5b69b4c1dbb5701bebe5f03c7f"
+            },
+            {
+              "path": "materials/hadith/essential-fa/003-sources.json",
+              "sha256": "8f292dcf61a7c91a3584ce2f636264e2fce26be8cfbd37d20e6a19e0f3b32ebd"
+            },
+            {
+              "path": "materials/hadith/essential-fa/003.json",
+              "sha256": "7849426c0abb81ea4f5b4e3468c52927d794c763aaddd7faeacfe0c448b9bcde"
+            },
+            {
+              "path": "materials/hadith/essential-fa/003.md",
+              "sha256": "7262b886fbece57de0dd79ab3581b20773a7044ca4d33ebfeabc34ca542a111b"
+            },
+            {
+              "path": "materials/hadith/essential-fa/004-sources.json",
+              "sha256": "ff5f8fa6b688ac97034bf8b0a0bb94488c2d11df88d419744c6cd36aa10d9261"
+            },
+            {
+              "path": "materials/hadith/essential-fa/004.json",
+              "sha256": "870a4d4c133888c08c5481ec886f2929ae32ba95d9372a18db6b9fb4100cb71d"
+            },
+            {
+              "path": "materials/hadith/essential-fa/004.md",
+              "sha256": "53b48e8b0025b0754dbc7bca357af2d05c2f64c6b4a340a876ded0ed5643b26a"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "fa",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "fa",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "fa",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "fa-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:58:40.140400+00:00",
+        "expiresAt": "2027-02-06T15:58:40.140400+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "fil",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "3add1c67406e38d3dbda6d340a569a7282f064c49b1a3a1702ba58f3aa98ac0d",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "fil",
+          "languageLabel": "Filipino",
+          "collection": "hadith",
+          "collectionLabel": "Hadith · Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa (+1)",
+          "file": "Iman_Companion_fil_hadith.docx",
+          "sha256": "2aae5ff05ca61a539add45a623f4be0a639e8b0e78de55c731cddd1309831bad",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa",
+              "sourceHashes": [
+                "8d588d86aadf44eb14eec928733dc78e0e7833f1f0711fc426a4b94b31d5c5be"
+              ],
+              "readerTextSHA256": "fe6a00ba95cb4f3b4e701da5bbac1bc6cd43872f751cb897edd9d83001d32276"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Ang mga puso ay nasa ilalim ng pamamahala ng Napakamaawain",
+              "sourceHashes": [
+                "2d3a604595ae5fdcdb342768c4f99f6d847ac5db112a4baa29533bacb5bb7120"
+              ],
+              "readerTextSHA256": "e46a4fb945a3b9e05152ce980212e7dc7c784ec7608533e4fb55a96c41902671"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 2,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa",
+              "Ang mga puso ay nasa ilalim ng pamamahala ng Napakamaawain"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 2,
+            "auditedUnits": 2,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 2,
+            "preservedReferences": 2,
+            "sourceQualifications": 25,
+            "preservedQualifications": 25,
+            "sourceParagraphs": 66,
+            "preservedParagraphs": 66,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 4
+          },
+          "audioQRVerification": [],
+          "pages": 13,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_fil_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_fil_hadith.pdf",
+          "pdfSha256": "046baf712d7ae857683b3613073050a0ec4f8f30ca957d3c447ecbf57bdd8ede",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 4
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "b5993f25542501fb99e76d69aaf4e7c04d3e46b7d92af2eee59c1ea00a76d593",
+          "scopeSettingsSHA256": "1d04eb6b803356fa34e06fbafb87fceb99c35eae0e6cdb924b33992a32c9063e",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-fil/002.json",
+              "sha256": "8d588d86aadf44eb14eec928733dc78e0e7833f1f0711fc426a4b94b31d5c5be"
+            },
+            {
+              "path": "materials/hadith/essential-fil/002.md",
+              "sha256": "1835dc33283e3d2d5d141836ec27273ee060891792fc493699d629b8d851deef"
+            },
+            {
+              "path": "materials/hadith/essential-fil/003-sources.json",
+              "sha256": "f3bec0ea5648afc4d0ade976008fd3f14e66a8fb9583438b600bb65ff733452c"
+            },
+            {
+              "path": "materials/hadith/essential-fil/003.json",
+              "sha256": "2d3a604595ae5fdcdb342768c4f99f6d847ac5db112a4baa29533bacb5bb7120"
+            },
+            {
+              "path": "materials/hadith/essential-fil/003.md",
+              "sha256": "9e8d3881539a1b25dadf29114e8c992585c7073dffa9457c4ced61d5df12bf18"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "fil",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "fil",
+              "id": "essential-01-003"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "fil-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:58:44.594609+00:00",
+        "expiresAt": "2027-02-06T15:58:44.594609+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "fr",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "06ff0d0c6729a8b2a8c7c28d3c575c88777121a0ee719b391f16de19fd373b9e",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "fr",
+          "languageLabel": "Français",
+          "collection": "hadith",
+          "collectionLabel": "Hadith · La grandeur d’Allah et ses effets sur le cœur et les actes (+2)",
+          "file": "Iman_Companion_fr_hadith.docx",
+          "sha256": "1bbb1f32ef9d62ecb1e867c057287ecc0a2012f39622117f5251b866e45482f3",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "La grandeur d’Allah et ses effets sur le cœur et les actes",
+              "sourceHashes": [
+                "356a7496dfbb68f2264dc25a17ba658b92a000f099dc3b15c4ec931e11da4509"
+              ],
+              "readerTextSHA256": "9bc13f59d6a403508c66553bf71ea932bbbfb3b28d1be26d4245e124a8b3c340"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Les cœurs sont sous l’autorité du Tout Miséricordieux",
+              "sourceHashes": [
+                "60a58d9810c30b5bb10ec3b0e2c20351616855fb9dbf9756ffcc338da75b129d"
+              ],
+              "readerTextSHA256": "07dbda17d4c13cb588f87ab865012faf98b0fd697b0961dd72200bc3cf0d8e3b"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Rester ferme dans la religion et reconnaître les états d’un cœur déviant",
+              "sourceHashes": [
+                "4a7429f2e77a19c092ed7c841ab4f2e23e3d227bc79adfd0094c11ee87b212af"
+              ],
+              "readerTextSHA256": "ce7100f427f1a02e939d797da1eed248b8ad9eaceb72e0b9341f63df263f29c9"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 5,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "La grandeur d’Allah et ses effets sur le cœur et les actes",
+              "Les cœurs sont sous l’autorité du Tout Miséricordieux",
+              "Rester ferme dans la religion et reconnaître les états d’un cœur déviant"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 15,
+            "preservedReferences": 15,
+            "sourceQualifications": 16,
+            "preservedQualifications": 16,
+            "sourceParagraphs": 101,
+            "preservedParagraphs": 101,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 17,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_fr_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_fr_hadith.pdf",
+          "pdfSha256": "96e02be9cd4fd765f0feba30a0f0167cf622571d2614ff98b6c2e8164cb6212a",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "696060cd9a908e25da31f4da1f852116253283d12922a7eb81781a5506b80dce",
+          "scopeSettingsSHA256": "62f575581be410d9d2fbba1a45ab4d6e7839e29cb590686202969b7e3551d104",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-fr/002.json",
+              "sha256": "356a7496dfbb68f2264dc25a17ba658b92a000f099dc3b15c4ec931e11da4509"
+            },
+            {
+              "path": "materials/hadith/essential-fr/002.md",
+              "sha256": "cb2a531cbaf4caaf31fcb26ca848c65271e5f2f6706c2fbcfdfdb2a25a05cba4"
+            },
+            {
+              "path": "materials/hadith/essential-fr/003-sources.json",
+              "sha256": "a362e0fdc488b49d133e72dea182832a09a0026084da72f993098a4ecce79b82"
+            },
+            {
+              "path": "materials/hadith/essential-fr/003.json",
+              "sha256": "60a58d9810c30b5bb10ec3b0e2c20351616855fb9dbf9756ffcc338da75b129d"
+            },
+            {
+              "path": "materials/hadith/essential-fr/003.md",
+              "sha256": "b104dde5761b7e9bee55efc475917d5a70fcc9e0196b5c978749499283149b4a"
+            },
+            {
+              "path": "materials/hadith/essential-fr/004-sources.json",
+              "sha256": "40f16bf57d0c55232a03d91e30caaecf31465343f00c56ca8ae64607960ee12b"
+            },
+            {
+              "path": "materials/hadith/essential-fr/004.json",
+              "sha256": "4a7429f2e77a19c092ed7c841ab4f2e23e3d227bc79adfd0094c11ee87b212af"
+            },
+            {
+              "path": "materials/hadith/essential-fr/004.md",
+              "sha256": "4f4a74d62dadedeb0176e355d3ebc5bca414b103db39394d747a2171bc2f4340"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "fr",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "fr",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "fr",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "fr-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:58:49.679181+00:00",
+        "expiresAt": "2027-02-06T15:58:49.679181+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "hi",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "ad8624d6181ef9d0cdcc89d2e9d6da86746e0f395d0f70f84ecc64159013bfaa",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "hi",
+          "languageLabel": "हिन्दी",
+          "collection": "hadith",
+          "collectionLabel": "हदीस · अल्लाह की महानता और दिल व कर्मों पर उसका प्रभाव (+1)",
+          "file": "Iman_Companion_hi_hadith.docx",
+          "sha256": "c8e5142943a670671a462cbeb66269d1af28358040e1861c3dcae527d31f88d0",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "अल्लाह की महानता और दिल व कर्मों पर उसका प्रभाव",
+              "sourceHashes": [
+                "56c5ed441a0546bcd1c11ecfaa7195193c5bed24e5f2e0117dff0e1138848982"
+              ],
+              "readerTextSHA256": "93dbf6b34472d178781ac1858b84cf55ee5a8bd946b8124e478007979e0c2f4e"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "दिल परम दयावान के नियंत्रण में हैं",
+              "sourceHashes": [
+                "4d5f7efc20eced1312d722c5850bea750646470c4d5e21975e1614d3436e21d5"
+              ],
+              "readerTextSHA256": "1e89571500bd1c5034f0ecbec0d6b1c154f4b2a9c62a946c23ac9347084eb89f"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 2,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "अल्लाह की महानता और दिल व कर्मों पर उसका प्रभाव",
+              "दिल परम दयावान के नियंत्रण में हैं"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 2,
+            "auditedUnits": 2,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 2,
+            "preservedReferences": 2,
+            "sourceQualifications": 13,
+            "preservedQualifications": 13,
+            "sourceParagraphs": 52,
+            "preservedParagraphs": 52,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 4
+          },
+          "audioQRVerification": [],
+          "pages": 9,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_hi_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_hi_hadith.pdf",
+          "pdfSha256": "5c3213baf489ca99b174f575f382e778a72a966207a22d6b4d33ec785d6e97d0",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 4
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "a39b3da5a8c27b830c437daaeacc2ebbd5f9385cdc9ac0ef6a164660231f251f",
+          "scopeSettingsSHA256": "cef38f6c5c2813774b4d0f249d288a4c8a850865fa40b09624c8d11d36229fa8",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-hi/002.json",
+              "sha256": "56c5ed441a0546bcd1c11ecfaa7195193c5bed24e5f2e0117dff0e1138848982"
+            },
+            {
+              "path": "materials/hadith/essential-hi/002.md",
+              "sha256": "4affbea7a307f3f492a666887934aabe37226fefb8c94162e52abd9b70f120c6"
+            },
+            {
+              "path": "materials/hadith/essential-hi/003-sources.json",
+              "sha256": "26a1ecebafb4a3abfa2aa30a2f89ee9ff6b2bce4362d60ad127a99334f556e97"
+            },
+            {
+              "path": "materials/hadith/essential-hi/003.json",
+              "sha256": "4d5f7efc20eced1312d722c5850bea750646470c4d5e21975e1614d3436e21d5"
+            },
+            {
+              "path": "materials/hadith/essential-hi/003.md",
+              "sha256": "06f8e2a6b922da899d62348c421d9000b9fc84eecd29c485b62f1046cc826f2b"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "hi",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "hi",
+              "id": "essential-01-003"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "hi-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:58:54.750909+00:00",
+        "expiresAt": "2027-02-06T15:58:54.750909+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "id",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "5959ebf97bea06f27de5f29d162c68dbd2f16eecceffc0fb1b815147bdf9a068",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "id",
+          "languageLabel": "Bahasa Indonesia",
+          "collection": "hadith",
+          "collectionLabel": "Hadis · Keagungan Allah dan Pengaruhnya terhadap Hati dan Amal (+2)",
+          "file": "Iman_Companion_id_hadith.docx",
+          "sha256": "301cbfcb9762fadc2319129993de52b5257f9c215076b0ecb9c6c2f1565d07b8",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "Keagungan Allah dan Pengaruhnya terhadap Hati dan Amal",
+              "sourceHashes": [
+                "d8c6566a8d6f18b6db0a9d8d468a7ee2250c71cb2d9150e8181daf387f834fcb"
+              ],
+              "readerTextSHA256": "6acae25eacaad55d11da02a34fd1e479ed9d1f64cbf8d164ceebf4866bdf4541"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Hati berada dalam pengaturan Ar-Rahman",
+              "sourceHashes": [
+                "c91b2d09cedea5cce9f3609aa0d50cd5ffc4d52e92114d40845f3da14b205925"
+              ],
+              "readerTextSHA256": "d8cd4196a4ee48b8b146eace7e6c0abdf097929516fa28be6437af68e0e38d11"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Teguh dalam agama dan mengenali keadaan hati yang menyimpang",
+              "sourceHashes": [
+                "077c19e18c4c2961689aabbe99c9a03231679480c41a763765b71aeb0a65f5cd"
+              ],
+              "readerTextSHA256": "8493021f3b2e45f8614136362c9d39c10f2e34f42aad498bc7a90b8c1718cc28"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "Keagungan Allah dan Pengaruhnya terhadap Hati dan Amal",
+              "Hati berada dalam pengaturan Ar-Rahman",
+              "Teguh dalam agama dan mengenali keadaan hati yang menyimpang"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 3,
+            "preservedReferences": 3,
+            "sourceQualifications": 24,
+            "preservedQualifications": 24,
+            "sourceParagraphs": 87,
+            "preservedParagraphs": 87,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 19,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_id_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_id_hadith.pdf",
+          "pdfSha256": "34fb71e58c70b6008651b2ccc744a0a95ba3529d4c9b20550bb486540e7a3cd2",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "cb8f0aaeac9150eb0cc1a74ab22b5a0aa634c67aa50b209dfade234fc4b25a93",
+          "scopeSettingsSHA256": "03ee9f1afa59bfc68132c06e92bde090c1ba75080dc2db244e367f4bf24fb487",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-id/002.json",
+              "sha256": "d8c6566a8d6f18b6db0a9d8d468a7ee2250c71cb2d9150e8181daf387f834fcb"
+            },
+            {
+              "path": "materials/hadith/essential-id/002.md",
+              "sha256": "4e3fa2833575be7e58ba95df8771e92c84d3a466aedfa61f55ca279274e2dfba"
+            },
+            {
+              "path": "materials/hadith/essential-id/003-sources.json",
+              "sha256": "6e2e7bb26202c5e0ecbe2af3d00543a5929b7e8e681f56d8d0005b25a83bbf3c"
+            },
+            {
+              "path": "materials/hadith/essential-id/003.json",
+              "sha256": "c91b2d09cedea5cce9f3609aa0d50cd5ffc4d52e92114d40845f3da14b205925"
+            },
+            {
+              "path": "materials/hadith/essential-id/003.md",
+              "sha256": "e8057f5b0b3972e6f1386f13464dc5ff49192bdc31264b805ca2507098b5a14f"
+            },
+            {
+              "path": "materials/hadith/essential-id/004-sources.json",
+              "sha256": "4844af4dd5d94ef57c5929ad66819dffb6b2c2fe662e940910f803ed896ff62e"
+            },
+            {
+              "path": "materials/hadith/essential-id/004.json",
+              "sha256": "077c19e18c4c2961689aabbe99c9a03231679480c41a763765b71aeb0a65f5cd"
+            },
+            {
+              "path": "materials/hadith/essential-id/004.md",
+              "sha256": "aa9ea09f6d3b3d65fd7c9ede4e3d82f3066b5012780f25cf2f72f074e318a328"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "id",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "id",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "id",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "id-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:58:59.546712+00:00",
+        "expiresAt": "2027-02-06T15:58:59.546712+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "ja",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "e15d88120d8d38f4931fbee8885d54d6a22068a3ef47ee3716fd4cd66ad7e3e7",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "ja",
+          "languageLabel": "日本語",
+          "collection": "hadith",
+          "collectionLabel": "ハディース · アッラーの偉大さが心と行いにもたらすもの (+2)",
+          "file": "Iman_Companion_ja_hadith.docx",
+          "sha256": "cde718224761bf558737c8dad568913a875fce583c0628387554f3071d156b82",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "アッラーの偉大さが心と行いにもたらすもの",
+              "sourceHashes": [
+                "38d248d4f64675909100391e434892afd8974770148851a95617661b9c169e18"
+              ],
+              "readerTextSHA256": "03fe8e2d623f8c0831e07548a255bd0e1cc3c305286d4b537322b7b6aa608b5e"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "心は、慈悲あまねきお方の御心のままに移り変わる",
+              "sourceHashes": [
+                "d0871c9cd357f7e09d0a9756d58044bff9ffda8fd104160220492400cb474f87"
+              ],
+              "readerTextSHA256": "fac0bc1493e52a9583d85ef9c6a4b4230018db897192aa2ee7b966a73b6eeaef"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "信仰を堅く保ち、道を逸れた心の特徴を知る",
+              "sourceHashes": [
+                "1b2f2e555097c967e508cb4cf556524317c48e9c332a7f2bd2512534939c97a7"
+              ],
+              "readerTextSHA256": "b963071124e48ae69b4ff3f90bf352ff8e3068988d4511eebaf7181e76ef8737"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "アッラーの偉大さが心と行いにもたらすもの",
+              "心は、慈悲あまねきお方の御心のままに移り変わる",
+              "信仰を堅く保ち、道を逸れた心の特徴を知る"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 3,
+            "preservedReferences": 3,
+            "sourceQualifications": 82,
+            "preservedQualifications": 82,
+            "sourceParagraphs": 189,
+            "preservedParagraphs": 189,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 25,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ja_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ja_hadith.pdf",
+          "pdfSha256": "f5b88cbc572a20290bc39137b153525922475116576c67cc5c1d57b23fce10b2",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "b1a38510833f5396cb6de5eecc3894b170d3239b42de509d9759c01ec7c20205",
+          "scopeSettingsSHA256": "649b0343e9361be1eead1efea46068a340e783a58ffb4ace91013f32e5cb4f9c",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-ja/002.json",
+              "sha256": "38d248d4f64675909100391e434892afd8974770148851a95617661b9c169e18"
+            },
+            {
+              "path": "materials/hadith/essential-ja/002.md",
+              "sha256": "70cec73510b9ba4cd183e1fbe08b229a1c806a1acf3f5c67f0138847123fe863"
+            },
+            {
+              "path": "materials/hadith/essential-ja/003-sources.json",
+              "sha256": "09a29e5d907339ec1188012f3daa7a242c5c44df1fe3d6cbc063e4e2a6f9958c"
+            },
+            {
+              "path": "materials/hadith/essential-ja/003.json",
+              "sha256": "d0871c9cd357f7e09d0a9756d58044bff9ffda8fd104160220492400cb474f87"
+            },
+            {
+              "path": "materials/hadith/essential-ja/003.md",
+              "sha256": "33475022dfc2fdefa78818284096511018a8b351f44aa023bb6dc45e0fd77c34"
+            },
+            {
+              "path": "materials/hadith/essential-ja/004-sources.json",
+              "sha256": "3c7c2f81aa9e2762e9709b49396861ad5e5df3c4a3b1b4c60d6596edade6354f"
+            },
+            {
+              "path": "materials/hadith/essential-ja/004.json",
+              "sha256": "1b2f2e555097c967e508cb4cf556524317c48e9c332a7f2bd2512534939c97a7"
+            },
+            {
+              "path": "materials/hadith/essential-ja/004.md",
+              "sha256": "659098eddc9bd31254b2950fec7311f61669d3d6413a63bb312b01028dc6a015"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "ja",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "ja",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "ja",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "ja-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:59:06.949525+00:00",
+        "expiresAt": "2027-02-06T15:59:06.949525+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "ms",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "c5d88d0c3ac0e9e1750c9a4805346e0a4d42e98fea1df9e7a79aa8f200bfad47",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "ms",
+          "languageLabel": "Bahasa Melayu",
+          "collection": "hadith",
+          "collectionLabel": "Hadis · Keagungan Allah dan Kesannya terhadap Hati dan Amal (+2)",
+          "file": "Iman_Companion_ms_hadith.docx",
+          "sha256": "eb56806181cea4b7b4ec3ab070df9e98ee33336c01281f9f8834a8afa30042f9",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "Keagungan Allah dan Kesannya terhadap Hati dan Amal",
+              "sourceHashes": [
+                "a816b235b3ca578d12b512d232f833b102711b9d8c5c76ca4383b14fe5639af6"
+              ],
+              "readerTextSHA256": "3319cbff3f6069da901d0abb443ff65c41b41e46cd24cd00532f2f59100d8b55"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Hati berada di bawah pengaturan Ar-Rahman",
+              "sourceHashes": [
+                "7e6f5fc54aa5bf04adfeaf3181ab6efa7eeaee9525b432f61c20bffdfd092061"
+              ],
+              "readerTextSHA256": "17c9edfa0a38cc4d3b5092d616db5e6b05b5ac3aed8c610f345f90aa656f30ed"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Teguh dalam agama dan mengenali keadaan hati yang menyimpang",
+              "sourceHashes": [
+                "7997c2680c14b51a68a450b3a58d3b9e401249d7e32bd8e40b59fdb85f304996"
+              ],
+              "readerTextSHA256": "5aeab87e2a0854cbaeb1048b2ccff00c772a8b1dc109ede09b9f2c2db7db782c"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "Keagungan Allah dan Kesannya terhadap Hati dan Amal",
+              "Hati berada di bawah pengaturan Ar-Rahman",
+              "Teguh dalam agama dan mengenali keadaan hati yang menyimpang"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 3,
+            "preservedReferences": 3,
+            "sourceQualifications": 8,
+            "preservedQualifications": 8,
+            "sourceParagraphs": 78,
+            "preservedParagraphs": 78,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 20,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ms_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ms_hadith.pdf",
+          "pdfSha256": "aa4f1fa3573cce791e05674bec0177a97d44e22ed6562e7983017c0ffa1f8989",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "da82f5ed9fcfdb8d8a92480fa131c60d8e36b392e3ad5489678f7a61facdfb67",
+          "scopeSettingsSHA256": "d2bd770db5dd3543013fce5423356093486bdf0cdb215f4c74d6f2e049ac3dbd",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-ms/002.json",
+              "sha256": "a816b235b3ca578d12b512d232f833b102711b9d8c5c76ca4383b14fe5639af6"
+            },
+            {
+              "path": "materials/hadith/essential-ms/002.md",
+              "sha256": "365793c528b16dbda4d9a6fa51143d0eea0a443965290c6a6bcebb24dd9bd40b"
+            },
+            {
+              "path": "materials/hadith/essential-ms/003-sources.json",
+              "sha256": "1aa63fa1a981250a7092ef8a7251a5f2d9152cb7ee26f55c8f77014209666113"
+            },
+            {
+              "path": "materials/hadith/essential-ms/003.json",
+              "sha256": "7e6f5fc54aa5bf04adfeaf3181ab6efa7eeaee9525b432f61c20bffdfd092061"
+            },
+            {
+              "path": "materials/hadith/essential-ms/003.md",
+              "sha256": "8506e6463163f00f273f974ec0427f0cadcffe74f502fc3b8d21ba12b7906f6b"
+            },
+            {
+              "path": "materials/hadith/essential-ms/004-sources.json",
+              "sha256": "b8d76a83041424458759f6d86144e402e4085ef6d86ae940585885071bced372"
+            },
+            {
+              "path": "materials/hadith/essential-ms/004.json",
+              "sha256": "7997c2680c14b51a68a450b3a58d3b9e401249d7e32bd8e40b59fdb85f304996"
+            },
+            {
+              "path": "materials/hadith/essential-ms/004.md",
+              "sha256": "c8561c24a45a8ad66859e5c6d3f649708a281b206e11b50248fd8fbaf8384762"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "ms",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "ms",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "ms",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "ms-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:59:11.794507+00:00",
+        "expiresAt": "2027-02-06T15:59:11.794507+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "pt-BR",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "d80183eabe05f2539eef0b85c6a3d5928940b3f63edbf4bb020e6489f0aa2f90",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "pt-BR",
+          "languageLabel": "Português",
+          "collection": "hadith",
+          "collectionLabel": "Hadith · A grandeza de Allah e seu efeito no coração e nas ações (+2)",
+          "file": "Iman_Companion_pt-BR_hadith.docx",
+          "sha256": "9a4d390bd7fe821df46dabe94857551b332fc377d51ca1a1d2b7c4e9bab287ba",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "A grandeza de Allah e seu efeito no coração e nas ações",
+              "sourceHashes": [
+                "041147e6052bb242026bd716e799105123320e5a3bba12d75d7c696eeb4eb5ae"
+              ],
+              "readerTextSHA256": "8baf03211cec45b542c8ec8d2036613c944c482a1ad20ef0d6ca1fec423a3a57"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Os corações estão sob o controle do Misericordioso",
+              "sourceHashes": [
+                "1297ed90b21e6289cb3b658367e042cb9cae25360468c22db8a183b214863c7a"
+              ],
+              "readerTextSHA256": "a2ca59868fc2f3f644cb44cca9919ecefe1535078429b7c3128d84668867e8a0"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Permanecer firme na religião e conhecer as características do coração desviado",
+              "sourceHashes": [
+                "a10aef6d9d6091acbbc7666e0c281aa312687163ffa72ec5e4e3e82d175df6c8"
+              ],
+              "readerTextSHA256": "48572d0b664b4fc2fa5c7186d8368fb257eaec84ce2a6ac3816d62cf5c14cc46"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "A grandeza de Allah e seu efeito no coração e nas ações",
+              "Os corações estão sob o controle do Misericordioso",
+              "Permanecer firme na religião e conhecer as características do coração desviado"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 3,
+            "preservedReferences": 3,
+            "sourceQualifications": 27,
+            "preservedQualifications": 27,
+            "sourceParagraphs": 97,
+            "preservedParagraphs": 97,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 17,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_pt-BR_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_pt-BR_hadith.pdf",
+          "pdfSha256": "b7e19034117e95f985e266a2e33695a72ba49ed672191ce04e7d3271f4350bd6",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "fe1ea9b947d17beddb3d86ca43359514f3559666dce3f26ddcaba094ed3d9f8f",
+          "scopeSettingsSHA256": "8ba1a13f8e8b432ea6208ae1b6133cd2084432cb82e99091a75a5e28136b19b4",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-pt-BR/002.json",
+              "sha256": "041147e6052bb242026bd716e799105123320e5a3bba12d75d7c696eeb4eb5ae"
+            },
+            {
+              "path": "materials/hadith/essential-pt-BR/002.md",
+              "sha256": "8779608e574b508e78de46a5d0318ff060e04bf4b949a98a25c767fd634eef04"
+            },
+            {
+              "path": "materials/hadith/essential-pt-BR/003-sources.json",
+              "sha256": "01af08acf7f05b13f5ca648486bd0b98c69f4d4069f319f54f03c5899619ee53"
+            },
+            {
+              "path": "materials/hadith/essential-pt-BR/003.json",
+              "sha256": "1297ed90b21e6289cb3b658367e042cb9cae25360468c22db8a183b214863c7a"
+            },
+            {
+              "path": "materials/hadith/essential-pt-BR/003.md",
+              "sha256": "25d0db794b585eddb11acc3183b4d202b00609663269380c5dcc0a1dd2035aaf"
+            },
+            {
+              "path": "materials/hadith/essential-pt-BR/004-sources.json",
+              "sha256": "b7d0bdf31e5c2d0d538d56099e927fd33c482efe7d57bed594863432ff18316e"
+            },
+            {
+              "path": "materials/hadith/essential-pt-BR/004.json",
+              "sha256": "a10aef6d9d6091acbbc7666e0c281aa312687163ffa72ec5e4e3e82d175df6c8"
+            },
+            {
+              "path": "materials/hadith/essential-pt-BR/004.md",
+              "sha256": "226d040e0ba942174774a20d8202b2daacf542125ca58cccd3224ec73b9f538a"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "pt-BR",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "pt-BR",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "pt-BR",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "pt-BR-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:59:16.545635+00:00",
+        "expiresAt": "2027-02-06T15:59:16.545635+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "ru",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "f1833db3514f2dbc546749077d8fed1f385adc6933d6ef1afb5dbc6546d10df3",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "ru",
+          "languageLabel": "Русский",
+          "collection": "hadith",
+          "collectionLabel": "Хадис · Величие Аллаха и его влияние на сердце и поступки (+2)",
+          "file": "Iman_Companion_ru_hadith.docx",
+          "sha256": "0e4c4504b97d6cee1e0b8d52bcbffa3d7826950e4df407801c513307ad03426d",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "Величие Аллаха и его влияние на сердце и поступки",
+              "sourceHashes": [
+                "1647f2103b48fef7613a9674e16eb88d02ea5c7c659e72794d69852aafe443bf"
+              ],
+              "readerTextSHA256": "c45cedea91f6083796b92cd3849e3c9326e3ec21c5591f6f9127a993418f2600"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Сердца подвластны Милостивому",
+              "sourceHashes": [
+                "487d95a9e00216209d0b881cee986931e3079ebdbb35526b1dcbb4c3332a018f"
+              ],
+              "readerTextSHA256": "23e2002c6a44e573446ead604041c9ab9631831772a0c84b5df7cd122bfd1ba5"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Стойкость в религии и распознавание отклонившегося сердца",
+              "sourceHashes": [
+                "d82590229b9895b580b63409036a2ee6df065063f48088fc0c4a82088abf88ac"
+              ],
+              "readerTextSHA256": "ecbc69d20aba882800ce3a4243c99cf748f981e9e6962ef428b80688a8457961"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "Величие Аллаха и его влияние на сердце и поступки",
+              "Сердца подвластны Милостивому",
+              "Стойкость в религии и распознавание отклонившегося сердца"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 3,
+            "preservedReferences": 3,
+            "sourceQualifications": 4,
+            "preservedQualifications": 4,
+            "sourceParagraphs": 67,
+            "preservedParagraphs": 67,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 15,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ru_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ru_hadith.pdf",
+          "pdfSha256": "939fe89fa530847ae533061cd71b46bf2b655dae2c75d9f2259decc90c3ee74e",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "3554084b4902c90e465c9217be4871f26dd352cff7ec807284e9a95c67c1c0a2",
+          "scopeSettingsSHA256": "07e4803d281b07bfddb4db40d820b376f42b48f670b812ae0bc86a0d59d243e7",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-ru/002.json",
+              "sha256": "1647f2103b48fef7613a9674e16eb88d02ea5c7c659e72794d69852aafe443bf"
+            },
+            {
+              "path": "materials/hadith/essential-ru/002.md",
+              "sha256": "fae7baed1894269dfe791fc00ab51d1ff8d24b030fbc7055e2ac7d7e5a2df136"
+            },
+            {
+              "path": "materials/hadith/essential-ru/003-sources.json",
+              "sha256": "2ee7a1459335df042caba842ca312a8e6071d198dbfc7354ce737db49d3d5bab"
+            },
+            {
+              "path": "materials/hadith/essential-ru/003.json",
+              "sha256": "487d95a9e00216209d0b881cee986931e3079ebdbb35526b1dcbb4c3332a018f"
+            },
+            {
+              "path": "materials/hadith/essential-ru/003.md",
+              "sha256": "b8c3fafeb572a7dae535a9f6400a97686ddc19d27e24bcec23ee8d7cef1b1a87"
+            },
+            {
+              "path": "materials/hadith/essential-ru/004-sources.json",
+              "sha256": "f28ef824bfc3c497e13423e8b80648722db5aa8ded3f433fc3d3b5a469b9ddc9"
+            },
+            {
+              "path": "materials/hadith/essential-ru/004.json",
+              "sha256": "d82590229b9895b580b63409036a2ee6df065063f48088fc0c4a82088abf88ac"
+            },
+            {
+              "path": "materials/hadith/essential-ru/004.md",
+              "sha256": "35fe48c485f4e8801dbccf050a6698a1267d158b6bf516d1386a26a7123fc44b"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "ru",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "ru",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "ru",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "ru-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:59:21.059715+00:00",
+        "expiresAt": "2027-02-06T15:59:21.059715+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "th",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "ee26e384498ce74d78ac88bbfd208a1610f361266e1ec0f361769336b0e94709",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "th",
+          "languageLabel": "ไทย",
+          "collection": "hadith",
+          "collectionLabel": "หะดีษ · ความยิ่งใหญ่ของอัลลอฮ์และผลต่อหัวใจและการปฏิบัติ (+1)",
+          "file": "Iman_Companion_th_hadith.docx",
+          "sha256": "e6ec1f7514928d95f13728c9fc6e9f7603cfeaf0ee7f24628b1511198d7eb779",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "ความยิ่งใหญ่ของอัลลอฮ์และผลต่อหัวใจและการปฏิบัติ",
+              "sourceHashes": [
+                "22b74559244847fbff21c2f21374ab31699fcc39e4b84aefea4680a5c36ffab6"
+              ],
+              "readerTextSHA256": "ff1aa6745e83efee13d883be0dda364b4969e33d2959c3594d0ef8bc50768ab2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "หัวใจอยู่ภายใต้การผันเปลี่ยนของพระผู้ทรงกรุณาปรานี",
+              "sourceHashes": [
+                "d32ba834eaa323b4762c80526d2e6a9133a17040d6e05329a65b4b4c9f2228c2"
+              ],
+              "readerTextSHA256": "2f9812af9e1dc302829e94a2bc56c3a04401a0c492c1d901bc4808cf0ee45f25"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 2,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "ความยิ่งใหญ่ของอัลลอฮ์และผลต่อหัวใจและการปฏิบัติ",
+              "หัวใจอยู่ภายใต้การผันเปลี่ยนของพระผู้ทรงกรุณาปรานี"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 2,
+            "auditedUnits": 2,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 2,
+            "preservedReferences": 2,
+            "sourceQualifications": 4,
+            "preservedQualifications": 4,
+            "sourceParagraphs": 45,
+            "preservedParagraphs": 45,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 4
+          },
+          "audioQRVerification": [],
+          "pages": 9,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_th_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_th_hadith.pdf",
+          "pdfSha256": "89a064c3f74389fda780b0993577149ef483298c48b79215a72d76cf81c184e9",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 4
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "fe45a0f6d359855eff78ff479907df0d4bb8766d9e949a5a1ca485cea056d015",
+          "scopeSettingsSHA256": "82a1c6c3a6a3d586e6c793a5ad32daac219edeedb3f55790f92b70c3da3177a7",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-th/002.json",
+              "sha256": "22b74559244847fbff21c2f21374ab31699fcc39e4b84aefea4680a5c36ffab6"
+            },
+            {
+              "path": "materials/hadith/essential-th/002.md",
+              "sha256": "c9ff9a1fdb21440c16c83e9192421f1d1836383fb236899c21c166462f081696"
+            },
+            {
+              "path": "materials/hadith/essential-th/003-sources.json",
+              "sha256": "e3dcd4be67fceedc90b6d7d244aa841c102d8ee92e93730133f8c3de4088334e"
+            },
+            {
+              "path": "materials/hadith/essential-th/003.json",
+              "sha256": "d32ba834eaa323b4762c80526d2e6a9133a17040d6e05329a65b4b4c9f2228c2"
+            },
+            {
+              "path": "materials/hadith/essential-th/003.md",
+              "sha256": "b957e075a3bf4c3c02697cf824c8bf2d9b1656d09205606bfa41d2ba0b0596e4"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "th",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "th",
+              "id": "essential-01-003"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "th-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:59:26.068391+00:00",
+        "expiresAt": "2027-02-06T15:59:26.068391+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "tr",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "d19b6fc1277f7dec50d45226492affb0d93c241dd701a4208e6d869dfbd0a64a",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "tr",
+          "languageLabel": "Türkçe",
+          "collection": "hadith",
+          "collectionLabel": "Hadis · Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi (+2)",
+          "file": "Iman_Companion_tr_hadith.docx",
+          "sha256": "e3097892e71e885ed7c34a1a1674095baad8b0353d82f1ff6dd874907bedd969",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi",
+              "sourceHashes": [
+                "2d23c5fbe69297a824583c627ddb8e30013b49aaab7629ebcee6d9f49e5ae925"
+              ],
+              "readerTextSHA256": "2654efb8878a98da102f3559fb281304191f70803b289bfd13b765fef2fa7089"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Kalpler Rahmân’ın tasarrufu altındadır",
+              "sourceHashes": [
+                "9b0409531caaf8c42fde1844a3dd9d8234ad320a04b6ef3d900ffbb40a31f665"
+              ],
+              "readerTextSHA256": "782d699701d804e10dd080392a4d95cd0ee5bd0236869406e445ab8c24c8a9fd"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Dinde sebat etmek ve haktan sapan kalbin hâllerini tanımak",
+              "sourceHashes": [
+                "43bc9d0ca2b108aaa3cd288a1913d47584d6389c59f29048e8ee29cd8c538e88"
+              ],
+              "readerTextSHA256": "7c9063b1f9a2486e709aef52d7382c07a57df1b282bdb167648e5ac0fdbb0299"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi",
+              "Kalpler Rahmân’ın tasarrufu altındadır",
+              "Dinde sebat etmek ve haktan sapan kalbin hâllerini tanımak"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 3,
+            "preservedReferences": 3,
+            "sourceQualifications": 8,
+            "preservedQualifications": 8,
+            "sourceParagraphs": 75,
+            "preservedParagraphs": 75,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 15,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_tr_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_tr_hadith.pdf",
+          "pdfSha256": "1d1a579a713a46eb3d64c3b37b0963b7edabef9bcf29f53e4915f4325836d4a6",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "67a6787e424bc47a3902825a945e9761d87c8879fbecb610f018e17779558aa8",
+          "scopeSettingsSHA256": "0ab6b468a7fbe5378310acff9266a11d830b264d34719b4a7b29d2c66f6a5636",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-tr/002.json",
+              "sha256": "2d23c5fbe69297a824583c627ddb8e30013b49aaab7629ebcee6d9f49e5ae925"
+            },
+            {
+              "path": "materials/hadith/essential-tr/002.md",
+              "sha256": "8c6a0d2c271873e7f340d1659d497f3d086d05c83139d6b2e3b5a69dbfdb45ec"
+            },
+            {
+              "path": "materials/hadith/essential-tr/003-sources.json",
+              "sha256": "9647d4b76ff94447fae3922f73ef9891a23e9b883eb7c969311e7de1551b5532"
+            },
+            {
+              "path": "materials/hadith/essential-tr/003.json",
+              "sha256": "9b0409531caaf8c42fde1844a3dd9d8234ad320a04b6ef3d900ffbb40a31f665"
+            },
+            {
+              "path": "materials/hadith/essential-tr/003.md",
+              "sha256": "29103d827f11b922f64cab7e440f7e7856abf89a2b829b05fbf2308fba8d4659"
+            },
+            {
+              "path": "materials/hadith/essential-tr/004-sources.json",
+              "sha256": "aced28eb62359aaeca72fb797e0d7b5911e0a4e245249e05ee6181549c3da7fc"
+            },
+            {
+              "path": "materials/hadith/essential-tr/004.json",
+              "sha256": "43bc9d0ca2b108aaa3cd288a1913d47584d6389c59f29048e8ee29cd8c538e88"
+            },
+            {
+              "path": "materials/hadith/essential-tr/004.md",
+              "sha256": "337d0351c1ab2b23099fb339d15272635716237ff060c94e53340267f7506279"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "tr",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "tr",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "tr",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "tr-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:59:30.614920+00:00",
+        "expiresAt": "2027-02-06T15:59:30.614920+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "ur",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "bc7f9ab69ebc34c34de01739b69e9d66ce1ed157acffb154b8cdc90639581603",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "ur",
+          "languageLabel": "اردو",
+          "collection": "hadith",
+          "collectionLabel": "حدیث · اللہ کی عظمت اور دل و عمل پر اس کے اثرات (+1)",
+          "file": "Iman_Companion_ur_hadith.docx",
+          "sha256": "ffd12602771030cbad91e6ff3af715fe0d8cef643f21d4d6a65ab4e59deeacd5",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "اللہ کی عظمت اور دل و عمل پر اس کے اثرات",
+              "sourceHashes": [
+                "e4c3753ce4fa4be3ce15b15d77f8dcedf9d2495b673349ca3cd4dfbd01591182"
+              ],
+              "readerTextSHA256": "da73aed545b1d3e966b7364d390a0390f09b27880e02e5f4fe644b5a9b970fa9"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "دل رحمن کے تصرف کے تحت ہیں",
+              "sourceHashes": [
+                "14d72776c1b8fa8edfdc3b0d258723a55fec72cb8e7203e2dc52910d4759b686"
+              ],
+              "readerTextSHA256": "0187b41fb141939332f78bd20f5c8ec88562897c05338c13e9cbf3a7d05b2617"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": true,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 2,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "اللہ کی عظمت اور دل و عمل پر اس کے اثرات",
+              "دل رحمن کے تصرف کے تحت ہیں"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 2,
+            "auditedUnits": 2,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 2,
+            "preservedReferences": 2,
+            "sourceQualifications": 30,
+            "preservedQualifications": 30,
+            "sourceParagraphs": 69,
+            "preservedParagraphs": 69,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 4
+          },
+          "audioQRVerification": [],
+          "pages": 21,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ur_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_ur_hadith.pdf",
+          "pdfSha256": "a6170bf5b313dc4e3fc6cb8a1b900d7c8825b2f4754d1c1768c3d95dd7809e63",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 4
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "872635797ac948b40f4bc21572fcdeecb6e3d5b9de03bdf5408a51ee1689567f",
+          "scopeSettingsSHA256": "fdce36b8a40cbb7047610204c5409dd67723cce26c1b5da5dfb0ee0c0e99e207",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-ur/002.json",
+              "sha256": "e4c3753ce4fa4be3ce15b15d77f8dcedf9d2495b673349ca3cd4dfbd01591182"
+            },
+            {
+              "path": "materials/hadith/essential-ur/002.md",
+              "sha256": "ac836c0b875e370fbb68557c223588d8ab8025763ffb0c9147b9ecf307380752"
+            },
+            {
+              "path": "materials/hadith/essential-ur/003-sources.json",
+              "sha256": "f21f3d01b4384d561d4ec92d00d2e690e66da2f4829e1f0285216e843cfb4ae3"
+            },
+            {
+              "path": "materials/hadith/essential-ur/003.json",
+              "sha256": "14d72776c1b8fa8edfdc3b0d258723a55fec72cb8e7203e2dc52910d4759b686"
+            },
+            {
+              "path": "materials/hadith/essential-ur/003.md",
+              "sha256": "396df899fd74ea191cdb8532a03f9b07a55c5a12fd3f30397e1b3d4f7227aec0"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "ur",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "ur",
+              "id": "essential-01-003"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "ur-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:59:38.584600+00:00",
+        "expiresAt": "2027-02-06T15:59:38.584600+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "uz",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "18e7a77856d6117390b157302099c2fb866da7a74668e83664de615d366ae581",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "uz",
+          "languageLabel": "O‘zbekcha",
+          "collection": "hadith",
+          "collectionLabel": "Hadis · Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири (+2)",
+          "file": "Iman_Companion_uz_hadith.docx",
+          "sha256": "4d60b5b19d4c828a328a0e9cc3b075e8696032965ee842a2dc70ec672218c6dc",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири",
+              "sourceHashes": [
+                "c619f29d047d8d03caabf2b075007062f3326df6f773739046e8c20a9fa8e734"
+              ],
+              "readerTextSHA256": "2af64d927dd228c3b6ff2df4d0a63dbe57f89757e96dcdd873054373c645c128"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Қалблар Раҳмон тасарруфида",
+              "sourceHashes": [
+                "0c65ce9d81b991abec38306cd6251b6dc0a06c46aa2be17ef9b3c5560942b5bd"
+              ],
+              "readerTextSHA256": "bb741526f18788efa5dff5e62f3c6c9a5a9798c2b6c5c76e4ad450b47a8e4413"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Dinda sobit turish va og‘gan qalb sifatlarini bilish",
+              "sourceHashes": [
+                "d5fb065645b8271738e9044327a10531d179aef7a7d85c853665aa622a52e5dd"
+              ],
+              "readerTextSHA256": "2f8408114abeb10b092975d4f732525e64b50af7aa64b6e7ec326c85be072227"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 3,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири",
+              "Қалблар Раҳмон тасарруфида",
+              "Dinda sobit turish va og‘gan qalb sifatlarini bilish"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 3,
+            "auditedUnits": 3,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 3,
+            "preservedReferences": 3,
+            "sourceQualifications": 4,
+            "preservedQualifications": 4,
+            "sourceParagraphs": 67,
+            "preservedParagraphs": 67,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 6
+          },
+          "audioQRVerification": [],
+          "pages": 15,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_uz_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_uz_hadith.pdf",
+          "pdfSha256": "f062a7a85df6294b23ac98d871259ead7c509f0190b1fe5374c3acac7f0ead66",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 6
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "9e46e15e70cbde1092016297234cc20015e407e0b448d0793143354e3d74efde",
+          "scopeSettingsSHA256": "47e7833a2077fbc2e5bb67ffa6169b7e53d00aa5da757b96835010e1ff75d3dd",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003",
+            "essential-01-004"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-01-004/README.md",
+              "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+            },
+            {
+              "path": "materials/hadith/essential-uz/002.json",
+              "sha256": "c619f29d047d8d03caabf2b075007062f3326df6f773739046e8c20a9fa8e734"
+            },
+            {
+              "path": "materials/hadith/essential-uz/002.md",
+              "sha256": "7316de3c6391c3bb10fffd402e865036be54fd15acb6d0c7faf8f110ffb49396"
+            },
+            {
+              "path": "materials/hadith/essential-uz/003-sources.json",
+              "sha256": "9c694f2664049c0d3c323f93c83214ddccbc6c3016564f1bb3314f11bdd6abe5"
+            },
+            {
+              "path": "materials/hadith/essential-uz/003.json",
+              "sha256": "0c65ce9d81b991abec38306cd6251b6dc0a06c46aa2be17ef9b3c5560942b5bd"
+            },
+            {
+              "path": "materials/hadith/essential-uz/003.md",
+              "sha256": "62fbb4816374b4a81ec6e31c703e10c15597308e8c6a9a68aca56fe2020b36bd"
+            },
+            {
+              "path": "materials/hadith/essential-uz/004-sources.json",
+              "sha256": "94fdad69e2ebf6e3e9621f2ba663f04b7c237868cc02566d390e7b07a65d4d43"
+            },
+            {
+              "path": "materials/hadith/essential-uz/004.json",
+              "sha256": "d5fb065645b8271738e9044327a10531d179aef7a7d85c853665aa622a52e5dd"
+            },
+            {
+              "path": "materials/hadith/essential-uz/004.md",
+              "sha256": "5a218a5cc2a221ac84fab306831c3e31383df2cfdd0dda5026559ef571338603"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "uz",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "uz",
+              "id": "essential-01-003"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "uz",
+              "id": "essential-01-004"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "uz-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:59:43.126826+00:00",
+        "expiresAt": "2027-02-06T15:59:43.126826+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "vi",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "05ab6b372ace4a6bc77ed2d0bf622292cb0f243279abb59cc7a349b9e0997a98",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "vi",
+          "languageLabel": "Tiếng Việt",
+          "collection": "hadith",
+          "collectionLabel": "Hadith (Thánh huấn) · Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động (+1)",
+          "file": "Iman_Companion_vi_hadith.docx",
+          "sha256": "379012757a5b6957efdb3ea5f432619c7b27792af3e41215c9e4bbaa79d47b37",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động",
+              "sourceHashes": [
+                "a310b085fe993a8e21a6836ea34fa188098c6b80863ffde6a7748e3bbbabfaec"
+              ],
+              "readerTextSHA256": "c01621f3fed4bb0182de5474b3be06bf5fdf836ce1ef669af766eb655a7944c1"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Mọi trái tim đều do Đấng Ar-Rahman định đoạt",
+              "sourceHashes": [
+                "d631d54415dec51cdd73550d61a7f7e3c5c0c2298fb7db5122bc54d22e48b89a"
+              ],
+              "readerTextSHA256": "394dbe517a81ff2e3819d5c55fa3057d80cb26d960c7240e00268276ca07c7df"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 2,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động",
+              "Mọi trái tim đều do Đấng Ar-Rahman định đoạt"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 2,
+            "auditedUnits": 2,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 2,
+            "preservedReferences": 2,
+            "sourceQualifications": 7,
+            "preservedQualifications": 7,
+            "sourceParagraphs": 57,
+            "preservedParagraphs": 57,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 4
+          },
+          "audioQRVerification": [],
+          "pages": 11,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_vi_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_vi_hadith.pdf",
+          "pdfSha256": "ed28bbb4fc545c8222d02eff370b81a544af1ed5f74a5887ddfce41e06c5f056",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 4
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "bfc835b1171921ab59f01441efd42ea8471495b42c5db375cca05ead469f3aa2",
+          "scopeSettingsSHA256": "955a2b60a0b6a0a4475e98a1655d80a47f48f6838864bf426a58d8652dc16f23",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-vi/002.json",
+              "sha256": "a310b085fe993a8e21a6836ea34fa188098c6b80863ffde6a7748e3bbbabfaec"
+            },
+            {
+              "path": "materials/hadith/essential-vi/002.md",
+              "sha256": "365f1f372a40b12101341de02bcb1312d589aa362f7ba99b57d37631e420ed4f"
+            },
+            {
+              "path": "materials/hadith/essential-vi/003-sources.json",
+              "sha256": "030758517f5de2ed3344e73bd4673b47d6674e9d1217ccc22ee116038307bfd2"
+            },
+            {
+              "path": "materials/hadith/essential-vi/003.json",
+              "sha256": "d631d54415dec51cdd73550d61a7f7e3c5c0c2298fb7db5122bc54d22e48b89a"
+            },
+            {
+              "path": "materials/hadith/essential-vi/003.md",
+              "sha256": "244e29be11871167e56cde5dcef8debfd2cc8d94aa0e0518c0e5092f71d1fc2d"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "vi",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "vi",
+              "id": "essential-01-003"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "vi-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:59:47.329924+00:00",
+        "expiresAt": "2027-02-06T15:59:47.329924+00:00",
+        "retentionDays": 90
+      }
+    },
+    {
+      "language": "zh-CN",
+      "collection": "hadith",
+      "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+      "inputFingerprint": "5869c78fe304502275a68c9f0cad55224badebf911609e12337196efe7c6a1b5",
+      "state": "prepared-awaiting-release-qc",
+      "releaseVerified": false,
+      "pendingChecks": [
+        {
+          "check": "actual-word-layout",
+          "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
+        },
+        {
+          "check": "final-visual-inspection",
+          "reason": "Prepared files need final visual release acceptance; no approval is generated by this job"
+        }
+      ],
+      "candidate": {
+        "book": {
+          "language": "zh-CN",
+          "languageLabel": "简体中文",
+          "collection": "hadith",
+          "collectionLabel": "圣训 · 安拉的伟大及其对内心与行为的影响 (+1)",
+          "file": "Iman_Companion_zh-CN_hadith.docx",
+          "sha256": "0dee52f79be7eec1be2948d2fc8d6e2d9541b96126a20b7d0cc5b11d6aded1c2",
+          "units": [
+            {
+              "id": "essential-01-002",
+              "title": "安拉的伟大及其对内心与行为的影响",
+              "sourceHashes": [
+                "1770ca4f4a28bbb13add0b576fe01481df461db46a40ca3a54e6e3f2234b0360"
+              ],
+              "readerTextSHA256": "7e3576b93a2c46847f1636cb605ef915de18f55ca4fd2671eeb0240553d422b2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "人心由至仁主掌管",
+              "sourceHashes": [
+                "e6124b837b41c1fd84d64a3d41bebd6758361720ed6bbac9ccf4db30ad8a5162"
+              ],
+              "readerTextSHA256": "49bbee76c5fdc866d82ed17ca85b6c979d970fac93aa3beba75063e06e84357e"
+            }
+          ],
+          "sourceCommit": "4d67eb5da879059adcfa6eede1d14a5ebb4858b6",
+          "bodyColor": "#000000",
+          "rtl": false,
+          "arabicAyahs": "centered",
+          "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
+          "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
+          "footnoteCount": 0,
+          "hadithCount": 2,
+          "audioPanels": [],
+          "pageLayout": {
+            "schema": "iman-book-page-layout-v1",
+            "paper": "A4",
+            "widthMM": 210,
+            "heightMM": 297,
+            "contentMarginMM": 18,
+            "coverFit": "contain"
+          },
+          "editionScope": {
+            "policy": "reviewed-source-edition-v1",
+            "includedMaterialTitles": [
+              "安拉的伟大及其对内心与行为的影响",
+              "人心由至仁主掌管"
+            ],
+            "includedMaterialIds": [
+              "essential-01-002",
+              "essential-01-003"
+            ]
+          },
+          "sourceReferencePreservation": {
+            "schema": "iman-source-reference-preservation-v1",
+            "auditMode": "literal-source-and-qualification-fidelity",
+            "units": 2,
+            "auditedUnits": 2,
+            "approvedPublisherUnits": 0,
+            "sourceReferences": 2,
+            "preservedReferences": 2,
+            "sourceQualifications": 6,
+            "preservedQualifications": 6,
+            "sourceParagraphs": 47,
+            "preservedParagraphs": 47,
+            "lostReferences": 0,
+            "lostQualifications": 0,
+            "lostParagraphs": 0
+          },
+          "sourceReferenceDiagnostics": {
+            "auditMode": "parser-placement-only-not-source-validity",
+            "quranGroupsWithoutImmediateTypedReference": 0,
+            "quotationGroupsWithoutImmediateReference": 0,
+            "literalReferencesWithoutTypedClassification": 0
+          },
+          "previewOnly": false,
+          "hadithEdition": "new-extended",
+          "pdfContentsVerification": {
+            "matchedEntries": 4
+          },
+          "audioQRVerification": [],
+          "pages": 8,
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_zh-CN_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1/Iman_Companion_zh-CN_hadith.pdf",
+          "pdfSha256": "8b5d816fbda525338443768653d6f3f5ae7ccc8c6d56933c898829c8c98e17df",
+          "exportVerified": false,
+          "preparationVerified": true,
+          "contentsTargetVerification": {
+            "matchedEntries": 4
+          }
+        },
+        "snapshot": {
+          "catalogSHA256": "2dbfaf0235b9d33013f5db01a527b12fc9ff60da9766beb85f8c5b11b3f8d9eb",
+          "scopeSettingsSHA256": "5a7db5dc8775e389bdb90eef333bc62a56a1ebe7e56f6e62a761e20850b2a913",
+          "unitIds": [
+            "essential-01-002",
+            "essential-01-003"
+          ],
+          "bindings": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            },
+            {
+              "path": "materials/hadith/essential-01-002/README.md",
+              "sha256": "32f4c2f4b62dd04e57d8dd85576b4aeb2777d53302bd3b3a7147dc543e54cb3c"
+            },
+            {
+              "path": "materials/hadith/essential-01-003/README.md",
+              "sha256": "f077650e6b4cfea554a1dbe30a42269989d857e0a61e73720876d6c4b8ae8d4b"
+            },
+            {
+              "path": "materials/hadith/essential-zh-CN/002.json",
+              "sha256": "1770ca4f4a28bbb13add0b576fe01481df461db46a40ca3a54e6e3f2234b0360"
+            },
+            {
+              "path": "materials/hadith/essential-zh-CN/002.md",
+              "sha256": "f0387162e1050291be5c291e9c09e72a8f528d3847eafec4c790d54059f4d1e6"
+            },
+            {
+              "path": "materials/hadith/essential-zh-CN/003-sources.json",
+              "sha256": "6982add7ca1daba7286078bffe791d0cb16474b328720dae831523778f48af66"
+            },
+            {
+              "path": "materials/hadith/essential-zh-CN/003.json",
+              "sha256": "e6124b837b41c1fd84d64a3d41bebd6758361720ed6bbac9ccf4db30ad8a5162"
+            },
+            {
+              "path": "materials/hadith/essential-zh-CN/003.md",
+              "sha256": "58b1a0b71c3af971067c5f28e1447e0273c53bce792ce1b7a86ae04fe0c5a07d"
+            }
+          ],
+          "catalogMemberKeys": [
+            {
+              "collection": "essential-hadith",
+              "language": "zh-CN",
+              "id": "essential-01-002"
+            },
+            {
+              "collection": "essential-hadith",
+              "language": "zh-CN",
+              "id": "essential-01-003"
+            }
+          ],
+          "catalogEvidence": [
+            {
+              "path": "books/source-projections/translated-essential-hadith.json",
+              "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+            }
+          ]
+        }
+      },
+      "folder": "zh-CN-hadith",
+      "artifact": {
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42496985051",
+        "repository": "blaghtayt-alt/iman-companion",
+        "runId": "42496985051",
+        "name": "current-book-publication-42496985051-1",
+        "createdAt": "2026-11-08T15:59:55.105157+00:00",
+        "expiresAt": "2027-02-06T15:59:55.105157+00:00",
         "retentionDays": 90
       }
     }

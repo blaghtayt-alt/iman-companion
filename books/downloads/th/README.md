@@ -22,6 +22,6 @@
 
 [ดาวน์โหลดหนังสือที่แก้ไขได้](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_th_tadabbur-extended.docx) · [ดาวน์โหลดฉบับอ่าน](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_th_tadabbur-extended.pdf)
 
-[ไฟล์บีบอัดหนังสือแยกเล่ม](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42493574788-1-bundles/Iman_Companion_th_all-books.zip)
+[ไฟล์บีบอัดหนังสือแยกเล่ม](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1-bundles/Iman_Companion_th_all-books.zip)
 
 แปลโดยใช้ปัญญาประดิษฐ์ช่วยและยังต้องตรวจสอบ การตรวจด้วยแบบจำลองไม่อาจทดแทนการทบทวนโดยผู้อ่านที่มีความรู้เหมาะสมได้

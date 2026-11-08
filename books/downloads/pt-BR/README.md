@@ -22,6 +22,6 @@ Uma edição reunida
 
 [Baixar livro editável](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_pt-BR_tadabbur-extended.docx) · [Baixar versão de leitura](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_pt-BR_tadabbur-extended.pdf)
 
-[ZIP dos livros separados](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42493574788-1-bundles/Iman_Companion_pt-BR_all-books.zip)
+[ZIP dos livros separados](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42496985051-1-bundles/Iman_Companion_pt-BR_all-books.zip)
 
 Tradução com auxílio de inteligência artificial — requer verificação. As verificações assistidas por modelos não substituem a revisão por um leitor qualificado.

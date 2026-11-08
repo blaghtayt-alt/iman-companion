@@ -2,8 +2,8 @@
   "schema": "iman-published-book-bundles-v1",
   "languages": {
     "en": {
-      "fingerprint": "f5d1f2e56fa4d2e3b8e664a44842a98f7dad04b34d72c336f612f24156eaa41d",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "4fc7f932a1966a65021b7ff8af16caf5ae871a1038a6064f3d0b06b294efdb01",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "en",
@@ -28,8 +28,8 @@
       }
     },
     "ar": {
-      "fingerprint": "f2a76f62db9750d361b94c44179ee013b9d5eb1286d2426acba8afa3a5a72b79",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "66f7d6444df5f4b5ce9c16c3cc0e1247304dca0a996c6e2b24882bc68183301b",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "ar",
@@ -52,8 +52,8 @@
         },
         {
           "name": "Iman_Companion_ar_all-books.docx",
-          "bytes": 13548186,
-          "sha256": "3e1566450c32352226d87154909d7ba8ab69117108d1f1a8c194c678e08ecaf9"
+          "bytes": 13548287,
+          "sha256": "7d2c2a13192c4b6f291cbc3ab7009c203b170fd9ccb6d766bf76587110158587"
         },
         {
           "name": "Iman_Companion_ar_all-books.pdf",
@@ -73,7 +73,15 @@
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 1803,
           "imagesAndAudioLinksVerified": 14,
-          "independentBookPagination": true
+          "independentBookPagination": true,
+          "isolatedStyles": [
+            {
+              "part": 2,
+              "styles": {
+                "EndnoteCharacters": "m2_97bd42d5c4511f6b6acfa163"
+              }
+            }
+          ]
         },
         "pdf": {
           "parts": 2,
@@ -88,8 +96,8 @@
       }
     },
     "ur": {
-      "fingerprint": "9d5501018c9a6988d0deca4c7e031e0d4a476681850c4f63789221b76dda95bd",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "66e0cac17ad54a87125166dd10b5b4b8b9b9b4ecd6b0d33464f0875d4c7b73db",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "ur",
@@ -114,8 +122,8 @@
       }
     },
     "id": {
-      "fingerprint": "ec61d4602876b26c273109c32f2118b7060f04b2d56a33a1d75cfd5acdd60783",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "3f1a9cf72a7906590ed282c9c1b6a92170e05de4a201c1002750f93b8fbeaaed",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "id",
@@ -140,8 +148,8 @@
       }
     },
     "ms": {
-      "fingerprint": "59d80405ab821ad6012e56276c251d23c658121c9654e6ff8025247e2a80f103",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "8b0a61c01c0fc2dcd32aac66b845c1dc87ed722c22084d77bd7581f07442de5b",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "ms",
@@ -166,8 +174,8 @@
       }
     },
     "bn": {
-      "fingerprint": "b94c60436dc5bb0d3ed31fdb175b877a52155e53e3d233bb18dbe57cccd2cbff",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "b381fd9a5fe6b39109c6babc8c635d15675c61d465ac71e6dedd0c706fe48e6c",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "bn",
@@ -192,8 +200,8 @@
       }
     },
     "tr": {
-      "fingerprint": "5216b435d4f19b8da01962c6cd7e97e5edf22b9556798eef4eeaec90cca9e4b4",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "bb757bbbe31e6b615074103e085b7120687c4a9598ed2c9be698da5a1ee08f57",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "tr",
@@ -218,8 +226,8 @@
       }
     },
     "fr": {
-      "fingerprint": "decca5c759adb6549ad70a254cca236c5d5bfeacffe3e1ae7fa0eeb61e2da309",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "c26d21ad34f53110d9a5f9db234d1c88dec1b8e9bc9fcc5a9a8e2fdce34eae2b",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "fr",
@@ -244,8 +252,8 @@
       }
     },
     "pt-BR": {
-      "fingerprint": "59f337d4f9db20d9eca63f67cd96162fafa20158c6f0d8297565e9bc1dcd2568",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "9ce209471eb3246f2fdc9f98807265a636d4d2b5910fa672049b472e4eeb52f4",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "pt-BR",
@@ -270,8 +278,8 @@
       }
     },
     "hi": {
-      "fingerprint": "dacc527c071f97407e721741320eb7c749804d62687b3cf075dbdc6914f28e25",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "a9399569761916384dc1342b144d624aa9106f1373ced0bbce04a0fb81ec77d5",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "hi",
@@ -296,8 +304,8 @@
       }
     },
     "ru": {
-      "fingerprint": "54cde9e4955625b92523dd17b8cf407e335dedf72a04660239383bcc3fd13461",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "b58ff4d4357aa66af7d69711daaa667fc4e966b593c82c6e3226cf6b7dee6a9e",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "ru",
@@ -322,8 +330,8 @@
       }
     },
     "es": {
-      "fingerprint": "6e804f25c7c4ade1527ffcfb4a30399bdfd2cb7fa9f3b14d724ef9aa226f0202",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "161f78a09fb2cf4247d08ccf9141f2b867ee2953a460166dd05ebc0d4d902b83",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "es",
@@ -348,8 +356,8 @@
       }
     },
     "fa": {
-      "fingerprint": "42fd2a59164e4ded31a4a25c348f53ad1187c0d7fea80300c81744499386804b",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "6214efa4c3b47add0cbdebbe74035fb0460cd741a07c3de7350ef9106b4d9bad",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "fa",
@@ -374,8 +382,8 @@
       }
     },
     "de": {
-      "fingerprint": "1ce6a3d380945d86314d5040b38f183ce095a60168d043c7a58f18a791454cba",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "ce59793eb1d7eb983dd8bb1fb6b1b560c3741a885738a2f333e5d23fb3189f81",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "de",
@@ -400,8 +408,8 @@
       }
     },
     "zh-CN": {
-      "fingerprint": "a4db68b38e3d2071c73e882be99f7e265f3b620bc9e8aeda56e762963a142a24",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "c37931026ff694078b5d360d6ef873b67802c7f2c0303cf1350d1e7f88dd9080",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "zh-CN",
@@ -426,8 +434,8 @@
       }
     },
     "uz": {
-      "fingerprint": "b21655d75419e642cfad50b861e0d3d6aa928641019b4e2e6dfbc27ada67ada7",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "914ce3ce51cf8aae67fef2b550ba2c79ea467c6d3c90697cb76caca343cba0d5",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "uz",
@@ -452,8 +460,8 @@
       }
     },
     "th": {
-      "fingerprint": "58e78fefb0411af1e2e9490e1e82f25c669f5f0fc7213be7866b6ab6b34c21ff",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "23aa4d523ea5670680edd6c174f9aae44ae7df5fd63f24d8f5f2ba40b1f47b90",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "th",
@@ -478,8 +486,8 @@
       }
     },
     "vi": {
-      "fingerprint": "e54efb3c1652f9a93e2f5867494c0b1b146099767e0208e80ba5f2695c5f73e4",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "fdbee891fd5b714834e03bcac7d332797129a8ad03a9279054f2e44de9a32325",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "vi",
@@ -504,8 +512,8 @@
       }
     },
     "ja": {
-      "fingerprint": "d5f382bc5e13db3b0a2efa735e34bc26248f703a217c3f2180600b3f9ddbbd0f",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "b8cdc0cfb262e42b9bc7204be974ef8dba986bc9b06f5d64ebe573a53de3cefe",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "ja",
@@ -530,8 +538,8 @@
       }
     },
     "fil": {
-      "fingerprint": "79745a2c1024ff033369229b639121375ebf36391218ac26fe665b1c0ec0b882",
-      "releaseTag": "books-42493574788-1-bundles",
+      "fingerprint": "dc10169581cc3a226875952116b7ed956c584af786e75c1388700c05ea0926fe",
+      "releaseTag": "books-42496985051-1-bundles",
       "parts": [
         {
           "language": "fil",
