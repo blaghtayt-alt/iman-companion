@@ -175,7 +175,8 @@ class CoverageTests(unittest.TestCase):
         table, pages = render_ready(self.conf, ready, 'example/test', coverage={('ja', 'hadith'): result})
         self.assertIn('収録: ハディース 2–4', pages['ja'])
         self.assertIn('更新版の公開待ち: ハディース 1', pages['ja'])
-        self.assertIn('† Partial contents', table)
+        self.assertNotIn('†', table)
+        self.assertIn('Each language page lists the exact included lesson or surah numbers', table)
         self.assertEqual(ready, before)
         result['includedIds'].append('essential-01-001')
         with self.assertRaisesRegex(ValueError, 'differs from the verified book'):

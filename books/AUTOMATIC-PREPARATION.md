@@ -108,11 +108,42 @@ check the exact local pair bytes. The current source-push job serializes work;
 the sole publisher rechecks main before release/table commits, so a competing
 source or metadata commit cannot publish an old-head candidate.
 
+Each external command has a ten-minute limit. The Linux controller gives it a
+dedicated process group and retires that group on timeout, including descendants
+that outlive the command or close their output pipes. A timed-out scope keeps its
+partial files under `failed-preparations`; it gains no preparation or release
+snapshot, and other scopes continue. The preparation phase has a seventy-minute
+budget within the ninety-minute job, reserving time for queue updates, publication
+bookkeeping and artifact upload. Unattempted scopes after that budget are reported
+for retry rather than accepted as prepared.
+
+The controller flushes scope and command progress and atomically checkpoints
+`build-report.json` between scopes. A runner interruption leaves completed
+per-folder preparation snapshots and an explicitly incomplete report for recovery;
+it does not commit the queue or grant release approval. Publication rejects an
+incomplete checkpoint. Before the pinned Linux renderer imports a document, a
+guarded package pass replaces only the exact generated RTL page-number formula
+with an ordinary live PAGE field. Every other package part is preserved. Unknown
+footer content fails without modifying the file. The existing native footer,
+field refresh, contents convergence and source checks still run in their original
+order.
+
+Pinned font and cover archives use the authenticated GitHub release-asset API
+when the existing `GH_TOKEN` is available. The installer resolves the exact tag,
+filename and public URL, bounds metadata and binary transfers, and still verifies
+the original SHA-256 before extracting anything. The renderer regression step
+uses its existing read-only repository token. Environments without that token
+retain the original public URLs with bounded reads; archive pins are unchanged.
+
 Actual Word finalization and final visual release acceptance remain release
 steps on the existing owned desktop. The optional desktop worker is not part of
 this deployment. The checked handoff below connects those completed checks to
 the existing publisher; it does not install an unattended Windows bridge or
 claim unattended visual approval.
+
+Use the [batch Word finalization guide](../docs/WORD-BATCH-FINALIZATION.md) to
+stage an exact artifact, run the owned Word finalizer serially and resume
+completed scopes. Visual acceptance and publication remain separate steps.
 
 ### Current material adapters
 
@@ -195,10 +226,6 @@ checks and artifact run. Prospective release URLs inside preparation metadata
 are never presented as public downloads.
 
 ### Finalized candidate handoff
-
-For several preparations, use the [batch Word finalization guide](../docs/WORD-BATCH-FINALIZATION.md).
-The local helper stages exact queued inputs, runs the existing Word finalizer
-serially, and resumes completed scopes. Visual acceptance remains explicit.
 
 Use the latest committed preparation queue and the matching Actions artifact.
 Keep each downloaded scope folder unchanged as `prepared/`; make a separate

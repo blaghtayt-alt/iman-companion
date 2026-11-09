@@ -1,11 +1,111 @@
 """Publication lifecycle fixtures. Fixture bytes are not real books or releases."""
 from pathlib import Path
 from copy import deepcopy
+from contextlib import redirect_stderr,redirect_stdout
+from io import StringIO
 from unittest.mock import patch
-import json,tempfile,sys,unittest
+import json,os,signal,subprocess,tempfile,sys,threading,time,unittest
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'books'))
 import automatic_publication as auto
 from published_library import capture,scope_key,SCHEMA,sha,release_url
+
+class CommandRunnerChecks(unittest.TestCase):
+    """Real owned processes, never renderer or publication approval fixtures."""
+    def setUp(self):
+        self.temp=tempfile.TemporaryDirectory();self.root=Path(self.temp.name)
+        self.addCleanup(self.temp.cleanup)
+        self.addCleanup(self.kill_fixture_processes)
+    def kill_fixture_processes(self):
+        for path in self.root.glob('*.pid'):
+            try:os.kill(int(path.read_text()),signal.SIGKILL)
+            except (ProcessLookupError,FileNotFoundError,ValueError):pass
+    @staticmethod
+    def running(pid):
+        # A killed, adopted child can remain a zombie until the CI init reaps it.
+        stat=Path('/proc')/str(pid)/'stat'
+        if stat.is_file():
+            try:
+                if stat.read_text().rsplit(')',1)[1].split()[0]=='Z':return False
+            except FileNotFoundError:return False
+        try:os.kill(pid,0)
+        except ProcessLookupError:return False
+        return True
+    def assert_stopped(self,pid):
+        deadline=time.monotonic()+.75
+        while self.running(pid) and time.monotonic()<deadline:time.sleep(.01)
+        self.assertFalse(self.running(pid),'Owned process survived command timeout: '+str(pid))
+    def run_timeout_fixture(self,mode):
+        script=self.root/'owned-process-tree.py'
+        script.write_text('''from pathlib import Path
+import os,signal,sys,time
+root=Path(sys.argv[1]);mode=sys.argv[2]
+(root/'parent.pid').write_text(str(os.getpid()))
+if mode=='stubborn':signal.signal(signal.SIGTERM,signal.SIG_IGN)
+child=os.fork()
+if child==0:
+    if mode in {'stubborn','redirected'}:signal.signal(signal.SIGTERM,signal.SIG_IGN)
+    if mode=='redirected':
+        null=os.open(os.devnull,os.O_RDWR)
+        for fd in (0,1,2):os.dup2(null,fd)
+        if null>2:os.close(null)
+    (root/'child.pid').write_text(str(os.getpid()))
+    while True:signal.pause()
+while not (root/'child.pid').exists():time.sleep(.005)
+print('unique child stdout',flush=True)
+print('unique child stderr',file=sys.stderr,flush=True)
+if mode=='orphan-pipes':
+    (root/'parent-exited').write_text('parent exits before inherited pipes close')
+    os._exit(0)
+while True:signal.pause()
+''',encoding='utf8')
+        # A cleanup guard bounds the test even if group termination regresses.
+        guard=threading.Timer(5,self.kill_fixture_processes);guard.daemon=True;guard.start()
+        started=time.monotonic()
+        try:
+            with patch.object(auto,'COMMAND_TERMINATE_GRACE_SECONDS',.1),redirect_stderr(StringIO()):
+                with self.assertRaises(auto.CommandTimeoutError) as caught:
+                    auto.run([sys.executable,script,self.root,mode],self.root,timeout=1)
+        finally:guard.cancel()
+        self.assertLess(time.monotonic()-started,4)
+        self.assertEqual(str(caught.exception).count('unique child stdout'),1)
+        self.assertEqual(str(caught.exception).count('unique child stderr'),1)
+        parent=int((self.root/'parent.pid').read_text());child=int((self.root/'child.pid').read_text())
+        return parent,child
+    def test_success_preserves_utf8_stdin_and_stdout_without_progress_prefix(self):
+        script=self.root/'echo-json.py'
+        script.write_text('import json,sys\nprint(json.dumps({"value":sys.stdin.read()},ensure_ascii=False))\nprint("child diagnostics",file=sys.stderr)\n',encoding='utf8')
+        progress=StringIO();ambient_stdout=StringIO();payload='日本語 / العربية\nexact input\n'
+        with redirect_stderr(progress),redirect_stdout(ambient_stdout):
+            result=auto.run([sys.executable,script],self.root,timeout=2,input=payload)
+        self.assertEqual(json.loads(result),{'value':payload})
+        self.assertEqual(ambient_stdout.getvalue(),'')
+        self.assertIn('[command:start]',progress.getvalue());self.assertIn('[command:end]',progress.getvalue())
+        self.assertNotIn('[command:',result);self.assertNotIn('child diagnostics',result)
+    def test_nonzero_command_preserves_both_diagnostic_streams(self):
+        script=self.root/'failure.py'
+        script.write_text('import sys\nprint("stdout evidence")\nprint("stderr evidence",file=sys.stderr)\nsys.exit(7)\n',encoding='utf8')
+        with redirect_stderr(StringIO()),self.assertRaises(RuntimeError) as caught:
+            auto.run([sys.executable,script],self.root,timeout=2)
+        self.assertNotIsInstance(caught.exception,auto.CommandTimeoutError)
+        self.assertIn('stdout evidence',str(caught.exception));self.assertIn('stderr evidence',str(caught.exception))
+    @unittest.skipUnless(os.name=='posix' and hasattr(os,'fork'),'Owned POSIX process group fixture')
+    def test_timeout_kills_descendant_holding_pipes_after_parent_exits(self):
+        parent,child=self.run_timeout_fixture('orphan-pipes')
+        self.assertTrue((self.root/'parent-exited').is_file())
+        self.assert_stopped(parent);self.assert_stopped(child)
+    @unittest.skipUnless(os.name=='posix' and hasattr(os,'fork'),'Owned POSIX process group fixture')
+    def test_timeout_escalates_stubborn_tree_without_killing_unrelated_process(self):
+        survivor=subprocess.Popen([sys.executable,'-c','import signal\nwhile True:signal.pause()'],
+            stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,start_new_session=True)
+        try:
+            parent,child=self.run_timeout_fixture('stubborn')
+            self.assert_stopped(parent);self.assert_stopped(child);self.assertIsNone(survivor.poll())
+        finally:
+            survivor.kill();survivor.wait(timeout=2)
+    @unittest.skipUnless(os.name=='posix' and hasattr(os,'fork'),'Owned POSIX process group fixture')
+    def test_timeout_kills_stubborn_descendant_even_when_its_pipes_are_redirected(self):
+        parent,child=self.run_timeout_fixture('redirected')
+        self.assert_stopped(parent);self.assert_stopped(child)
 
 class PublicationChecks(unittest.TestCase):
     def setUp(self):
@@ -49,6 +149,15 @@ class PublicationChecks(unittest.TestCase):
         _,row=self.entry('en',self.tag);self.report([row]);(self.out/row['folder']/'Iman_Companion_en_articles.pdf').write_bytes(b'changed')
         with self.assertRaisesRegex(ValueError,'changed after final checks'):self.publish()
         self.assertEqual(self.commands,[])
+    def test_incomplete_checkpoint_cannot_start_publication(self):
+        _,row=self.entry('en',self.tag);self.report([row])
+        report=auto.read(self.out/'build-report.json');report['buildComplete']=False
+        self.write('candidate-output/build-report.json',report)
+        with self.assertRaisesRegex(ValueError,'incomplete|complete'):
+            self.publish()
+        self.assertEqual(self.commands,[])
+        self.assertEqual((self.root/'README.md').read_text(),'# Fixture\n')
+        self.assertFalse((self.root/'books/published-library.json').exists())
     def test_remote_digest_mismatch_never_commits_links(self):
         _,row=self.entry('en',self.tag);self.report([row]);self.remote[self.tag]['assets'][0]['digest']='sha256:'+'0'*64
         with self.assertRaisesRegex(ValueError,'differs'):self.publish()

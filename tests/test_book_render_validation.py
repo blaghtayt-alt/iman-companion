@@ -43,6 +43,15 @@ class RenderChecks(unittest.TestCase):
     def test_literal_line_breaks_and_tabs_survive(self):
         body=etree.fromstring(('<w:body xmlns:w="'+W+'"><w:p><w:r><w:t>A</w:t><w:br/><w:t>B</w:t><w:tab/><w:t>C</w:t><w:br w:type="page"/></w:r></w:p></w:body>').encode())
         self.assertEqual(body_text(body),'A\nB\tC')
+    def test_literal_soft_hyphen_survives_word_element_serialization(self):
+        expected="Yüce Al\u00adlah'ı"
+        before=etree.fromstring(('<w:body xmlns:w="'+W+'"><w:p><w:r><w:t>'+expected+'</w:t></w:r></w:p></w:body>').encode())
+        after=etree.fromstring(('<w:body xmlns:w="'+W+'"><w:p><w:r><w:t>Yüce Al</w:t><w:softHyphen/><w:t>lah\'ı</w:t></w:r></w:p></w:body>').encode())
+        self.assertEqual(body_text(before),expected)
+        self.assertEqual(body_text(after),expected)
+        marker=after.find('.//'+Q('softHyphen'));marker.getparent().remove(marker)
+        self.assertEqual(body_text(after),"Yüce Allah'ı")
+        self.assertNotIn(expected,body_text(after))
     def test_contents_links_and_native_digits(self):
         root=toc_fixture();validate_toc(root,'ar',1)
         broken=deepcopy(root);broken.find('.//'+Q('hyperlink')).set(Q('anchor'),'missing')

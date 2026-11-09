@@ -260,7 +260,7 @@ class PreparationTests(unittest.TestCase):
         word=folder/index['books'][0]['file'];word.write_bytes(b'fixture-word')
         word.with_suffix('.pdf').write_bytes(b'fixture-pdf')
         normalized=b'fixture-word-normalized';commands=[];toc_attempts=0
-        def execute(args,root):
+        def execute(args,root,**kwargs):
             nonlocal toc_attempts
             args=[str(x) for x in args];commands.append(args);script=args[1]
             if script=='books/toc_sync.py' and '--write' not in args:
@@ -287,13 +287,74 @@ class PreparationTests(unittest.TestCase):
         self.assertFalse(queued[0]['releaseVerified'])
         self.assertTrue({'actual-word-layout','final-visual-inspection'}.issubset({r['check'] for r in queued[0]['pendingChecks']}))
 
+    def test_timeout_retains_failed_scope_and_checkpoints_before_next_preparation(self):
+        self.first();_,index=self.checked();index['books'][0]['exportVerified']=False
+        out=self.root/'bounded-controller';folder=out/'fil-articles';folder.mkdir(parents=True)
+        self.write('bounded-controller/fil-articles/index.json',index)
+        word=folder/index['books'][0]['file'];word.write_bytes(b'fixture-word');word.with_suffix('.pdf').write_bytes(b'fixture-pdf')
+        declared=auto.scopes(self.root)[0];observed=[]
+        def execute(args,root,**kwargs):
+            args=[str(x) for x in args];self.assertGreater(kwargs['timeout'],0);self.assertLessEqual(kwargs['timeout'],600)
+            if args[1]=='books/render_uno.py' and args[args.index('--folder')+1].endswith('ar-articles'):
+                (out/'ar-articles'/'partial.docx').write_bytes(b'incomplete-fixture')
+                raise auto.CommandTimeoutError('Command timed out after 600s: fixture renderer')
+            if args[1]=='books/index_units.py' and args[args.index('--language')+1]=='fil':
+                checkpoint=read(out/'build-report.json');observed.append(checkpoint)
+                self.assertFalse(checkpoint['buildComplete']);self.assertEqual(checkpoint['activeScope'],{'language':'fil','collection':'articles'})
+                self.assertEqual(len(checkpoint['failed']),1);self.assertFalse(checkpoint['prepared'])
+                self.assertEqual((out/checkpoint['failed'][0]['folder']/'partial.docx').read_bytes(),b'incomplete-fixture')
+            return ''
+        with patch.object(auto,'scopes',return_value=[{**declared,'language':'ar'},declared]),patch.object(auto,'run',side_effect=execute),patch.object(auto,'check_contents',return_value={'fixture':True}):
+            result=auto.build(self.root,out,self.commit,'example/fixture','fixture-tag')
+        self.assertEqual(len(observed),1);self.assertTrue(result['buildComplete']);self.assertNotIn('activeScope',result)
+        self.assertEqual(len(result['failed']),1);self.assertEqual(len(result['prepared']),1);self.assertFalse(result['built'])
+        queued=load(self.root)['entries'];self.assertEqual([r['language'] for r in queued],['fil']);self.assertFalse(queued[0]['releaseVerified'])
+        self.assertTrue({'actual-word-layout','final-visual-inspection'}.issubset({r['check'] for r in queued[0]['pendingChecks']}))
+        self.assertFalse((out/result['failed'][0]['folder']/'prepared-snapshot.json').exists())
+
+    def test_interrupted_later_scope_leaves_completed_snapshot_and_incomplete_report(self):
+        self.first();_,index=self.checked();index['books'][0]['exportVerified']=False
+        out=self.root/'interrupted-controller';folder=out/'fil-articles';folder.mkdir(parents=True)
+        self.write('interrupted-controller/fil-articles/index.json',index)
+        word=folder/index['books'][0]['file'];word.write_bytes(b'fixture-word');word.with_suffix('.pdf').write_bytes(b'fixture-pdf')
+        declared=auto.scopes(self.root)[0]
+        def execute(args,root,**kwargs):
+            args=[str(x) for x in args]
+            if args[1]=='books/index_units.py' and args[args.index('--language')+1]=='ar':raise KeyboardInterrupt('Fixture runner interruption')
+            return ''
+        with patch.object(auto,'scopes',return_value=[declared,{**declared,'language':'ar'}]),patch.object(auto,'run',side_effect=execute),patch.object(auto,'check_contents',return_value={'fixture':True}):
+            with self.assertRaises(KeyboardInterrupt):auto.build(self.root,out,self.commit,'example/fixture','fixture-tag')
+        checkpoint=read(out/'build-report.json');self.assertFalse(checkpoint['buildComplete']);self.assertFalse(checkpoint['built'])
+        self.assertEqual(checkpoint['activeScope'],{'language':'ar','collection':'articles'})
+        self.assertEqual([r['language'] for r in checkpoint['prepared']],['fil'])
+        self.assertTrue((folder/'prepared-snapshot.json').is_file());self.assertFalse((folder/'library-snapshot.json').exists())
+        self.assertFalse((out/'ar-articles'/'prepared-snapshot.json').exists());self.assertFalse(load(self.root)['entries'])
+
+    def test_exhausted_batch_budget_skips_commands_and_finishes_diagnostic_report(self):
+        self.first();self.checked();out=self.root/'expired-controller'
+        with patch.object(auto,'run') as execute:
+            result=auto.build(self.root,out,self.commit,'example/fixture','fixture-tag',build_timeout=0)
+        execute.assert_not_called();self.assertTrue(result['buildComplete'])
+        self.assertEqual(len(result['failed']),1);self.assertIn('time budget exhausted',result['failed'][0]['error'])
+        self.assertFalse(result['prepared']);self.assertFalse(result['built']);self.assertFalse(load(self.root)['entries'])
+
+    def test_contents_timeout_is_not_retried_as_a_label_mismatch(self):
+        self.first();self.checked();out=self.root/'contents-timeout';commands=[]
+        def execute(args,root,**kwargs):
+            args=[str(x) for x in args];commands.append(args)
+            if args[1]=='books/toc_sync.py':raise auto.CommandTimeoutError('Fixture contents timeout')
+            return ''
+        with patch.object(auto,'run',side_effect=execute):result=auto.build(self.root,out,self.commit,'example/fixture','fixture-tag')
+        self.assertEqual(sum(c[1]=='books/toc_sync.py' for c in commands),1);self.assertFalse(any('--write' in c for c in commands))
+        self.assertEqual(len(result['failed']),1);self.assertFalse(result['prepared']);self.assertFalse(load(self.root)['entries'])
+
     def test_word_boundary_normalization_failure_does_not_capture_preparation(self):
         self.first();_,index=self.checked();index['books'][0]['exportVerified']=False
         out=self.root/'failed-normalization';folder=out/'fil-articles';folder.mkdir(parents=True)
         self.write('failed-normalization/fil-articles/index.json',index)
         word=folder/index['books'][0]['file'];word.write_bytes(b'fixture-word')
         word.with_suffix('.pdf').write_bytes(b'fixture-pdf');commands=[]
-        def execute(args,root):
+        def execute(args,root,**kwargs):
             args=[str(x) for x in args];commands.append(args)
             if args[1]=='books/normalize_word_page_breaks.py':raise RuntimeError('Fixture page-break normalization failed')
             return ''
@@ -340,7 +401,7 @@ class PreparationTests(unittest.TestCase):
         out=self.root/'failed-render';folder=out/'fil-articles';name=old['book']['file'];retained=[]
         for attempt in (1,2):
             partial_word=('incomplete-word-'+str(attempt)).encode();partial_pdf=('incomplete-pdf-'+str(attempt)).encode()
-            def execute(args,root):
+            def execute(args,root,**kwargs):
                 if str(args[1])=='books/render_uno.py':
                     (folder/name).write_bytes(partial_word)
                     (folder/Path(name).with_suffix('.pdf')).write_bytes(partial_pdf)

@@ -38,18 +38,17 @@ jobs:
       - name: Validate source fidelity, references, QR matching and publication
         run: |
           python tests/test_download_tables.py
-          python tests/test_download_display.py
-          python tests/test_finalize_word_batch.py
-          python tests/test_install_pinned_assets.py
           python books/test_bundle_tables.py
           python tests/test_book_render_validation.py
           python tests/test_book_fonts.py
+          python tests/test_install_assets.py
           python tests/test_script_fallbacks.py
           python tests/test_numeric_reference_runs.py
           python tests/test_merge_public_books_styles.py
           python tests/test_merge_public_books_fonts.py
           python tests/test_merge_public_books_numbering.py
           python tests/test_renderer_pin.py
+          python tests/test_native_footer_import.py
           python tests/test_toc_hyperlink_import.py
           python tests/test_word_page_breaks.py
           python tests/test_source_credits.py
@@ -76,6 +75,7 @@ jobs:
           python books/test_book_content_coverage.py
           python tests/test_mixed_material_adapters.py
           python tests/test_finalize_prepared.py
+          python tests/test_finalize_word_batch.py
           python tests/test_release_candidate_intake.py
           python tests/test_connector_candidate_transfer.py
           python tests/test_published_library.py
@@ -106,7 +106,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          python tools/install_pinned_assets.py --root .
+          python books/install_assets.py --root .
           mkdir -p "$HOME/.local/share/fonts/iman-books"
           cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
           cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
@@ -164,7 +164,7 @@ jobs:
         run: |
           python books/renderer_pin.py --install
           python -m pip install -r books/requirements.txt
-          python tools/install_pinned_assets.py --root .
+          python books/install_assets.py --root .
           IMAN_BOOK_FONT_PROOF=1 python tests/test_numeric_reference_runs.py
           mkdir -p "$HOME/.local/share/fonts/iman-books"
           cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
@@ -215,7 +215,6 @@ jobs:
       - name: Release verified pairs and regenerate the persistent download tables
         run: |
           python books/automatic_publication.py publish --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
-          python tools/update_download_display.py --root . --publish
           gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
       - name: Preserve build and publication receipts
         if: always()
