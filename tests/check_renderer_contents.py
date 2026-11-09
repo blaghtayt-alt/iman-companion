@@ -27,7 +27,7 @@ from toc_sync import linked_pages, reconcile
 from word_layout_check import contents
 
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
-SCOPES = [('en', 'hadith'), ('ar', 'seerah'), ('th', 'hadith'), ('ur', 'hadith'), ('bn', 'tadabbur-extended'), ('uz', 'hadith')]
+SCOPES = [('en', 'hadith'), ('ar', 'seerah'), ('th', 'hadith'), ('ur', 'hadith'), ('bn', 'tadabbur-extended'), ('uz', 'hadith'), ('fr', 'tadabbur-extended')]
 
 
 def digest(raw):

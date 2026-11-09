@@ -95,6 +95,29 @@ def note_rows(units):
                 if ident not in notes:notes[ident]=deepcopy(row)
     return notes
 
+def note_display_text(row):
+    """Render the one source-declared break sequence without parsing HTML.
+
+    The reviewed French note explicitly identifies its three ``<br />``
+    tokens as paragraph-break metadata. Keep its original row and every word
+    intact, and turn only those exact tokens into native Word breaks. The
+    complete text and metadata pins prevent this exception from applying to
+    another note, a changed qualification, or arbitrary publisher markup.
+    """
+    text=row['text']
+    if row.get('id')!='quran-2-3-fullnote':return text
+    metadata={'id':'quran-2-3-fullnote','type':'publisher_meaning_note','verse':'2:3',
+        'required_for':[{'binding':'Q:74','sentence':'p08.s36'}],
+        'scope':'Complete original single note field, verse-local marker; embedded <br /> is inert explicit paragraph-break metadata, never arbitrary HTML. No note text omitted.'}
+    if ({key:value for key,value in row.items() if key!='text'}!=metadata
+            or sha(text.encode())!='e259c0a50b6d4b559b9d4c01dc35c3e9d259f5f42f5c8fe71b8877e35652ed3c'
+            or text.count('<br />')!=3 or '\n' in text):
+        raise ValueError('Source-declared French note breaks differ from their exact reviewed binding')
+    display=text.replace('<br />','\n')
+    if display.replace('\n','<br />')!=text:
+        raise ValueError('Source note break projection is not reversible')
+    return display
+
 def target_citation_rows(payloads,paragraphs,language,native_books):
     """Use explicit target-source bindings for published parallel report identities.
 
@@ -189,7 +212,7 @@ def preservation_evidence(paragraphs,rendered_paragraphs,aliases,notes,sections)
                         if key in rendered and rendered[key]!=value:raise ValueError('Conflicting rendered Ikhlas source identity')
                         rendered[key]=value
     if expected!=rendered:raise ValueError('Current Ikhlas source references were not completely preserved')
-    if Counter(row['text'] for row in notes.values())!=Counter(rendered_notes):
+    if Counter(note_display_text(row) for row in notes.values())!=Counter(rendered_notes):
         raise ValueError('Current Ikhlas publisher or contextual notes were not completely preserved')
     return {'schema':'iman-source-reference-preservation-v1',
             'auditMode':'literal-source-and-qualification-fidelity',
@@ -258,7 +281,7 @@ def generate(root,catalog,declaration):
             contextual=row.get('sentence')==sentence and not required and not row.get('binding')
             verse=(row.get('verse') or row.get('reference')) in keys and not required and not row.get('sentence') and not row.get('binding')
             if exact or contextual or verse:
-                out.append(native_text(row['text'],language));used.add(key)
+                out.append(native_text(note_display_text(row),language));used.add(key)
                 note_anchors.append({'id':key,'sentence':sentence,'binding':ident,'basis':'explicit-binding' if exact else 'explicit-sentence' if contextual else 'explicit-verse'})
         return out
     def convert(paragraph):
@@ -305,12 +328,18 @@ def generate(root,catalog,declaration):
         sections.append({'heading':heading,'ayahKey':f'112:{index}','blocks':blocks})
     # Contextual/publisher notes with no explicit quote anchor remain real Word
     # footnotes on the final source sentence, never ordinary text below a lesson.
-    remaining=[native_text(row['text'],language) for ident,row in notes.items() if ident not in used]
+    remaining=[native_text(note_display_text(row),language) for ident,row in notes.items() if ident not in used]
     if remaining:sections[-1]['blocks'][-1]['spans'][-1].setdefault('noteTexts',[]).extend(remaining)
     reader=''.join(b['text']for s in sections for b in s['blocks'])
     unit={'schema':'iman-book-unit-v1','id':record['id'],'language':language,'collection':'tadabbur-extended','surah':112,'title':title,'complete':True,'reviewGate':'published-current','sourceHashes':[REVISION],'inputBindings':[{'path':p,'sha256':h}for p,h in sorted(bindings.items())],'catalogBindings':[{'collection':'tadabbur','language':language,'id':record['id']}],'translationCredits':[{'language':language,'text':c}for c in credits],'sections':sections,'readerTextSHA256':sha(reader.encode()),'provenance':{'adapter':'reviewed-ikhlas-v1','sourceSentences':len(source_sentences),'exactSentenceWordsPreserved':source_sentences==rendered_sentences,'sourceNotes':len(notes),'explicitlyAnchoredNotes':len(used),'lessonLevelNotes':len(remaining),'fullCurrentReading':record['json'],'wholeSurahAyahs':4,'originalCitationMap':{'path':MASTER,'sha256':declaration['citationMapSHA256']}}}
     unit['provenance']['targetCitationBindings']={ident:row['evidence']for ident,row in target_citations.items()}
     unit['provenance']['noteAnchors']=note_anchors
+    presentation=[{'id':ident,'sourceTextSHA256':sha(row['text'].encode()),
+        'displayTextSHA256':sha(note_display_text(row).encode()),
+        'sourceSemantics':row['scope'],'sourceToken':'<br />',
+        'nativeWordBreaks':3,'exactSourceReconstruction':True}
+        for ident,row in notes.items() if note_display_text(row)!=row['text']]
+    if presentation:unit['provenance']['sourceNotePresentation']=presentation
     unit['sourceReferencePreservation']=preservation_evidence(allparagraphs,rendered_paragraphs,aliases,notes,sections)
     check_unit(unit,{'id':record['id'],'language':language,'collection':'tadabbur-extended'},quran)
     return [unit]
