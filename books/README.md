@@ -19,10 +19,17 @@ translations of lessons 01-002 through 01-004, eleven eligible first-lesson
 readers and the current Filipino lesson 01-005. Each language retains its actual
 lesson subset, original numbering and source qualifications. The reviewed Quran
 adapters also restore 124 current units previously omitted by the exporters.
-Together these changes select 625 units across the 42 existing book editions.
+Together these changes selected 625 units across the 42 existing book editions.
 French Hadith 1 remains pending its distinct final review; absent first-lesson
 readers are reported explicitly. See [the source coverage record](current-reviewed-imports.md)
 for the exact restored material, exclusions and release status.
+
+The current reviewed Seerah adapter additionally selects 68 existing chapters
+across eleven languages, bringing the preparation inventory to 693 units and
+53 scopes. It preserves the original lecture sequence separately from the
+revised Arabic adult edition. The six chapter-1 question-hash holds remain
+explicit; supplied source-reference gaps, actual Word layout and final visual
+checks still govern release. See [the Seerah integration record](../docs/current-reviewed-seerah-integration.md).
 
 ## What happens automatically
 
@@ -45,6 +52,14 @@ unbound material, explicit holds, legacy editions, and missing current
 translations. When an approved source transaction supplies the first current
 material for a missing language/category, the same workflow creates its scope
 and prepares it automatically.
+
+The same report also partitions every catalog row and lists collections without
+a book adapter, with their original status claims and source-file presence.
+Those entries do not become approved or obsolete through the report. The
+[current-app reconciliation ledger](../docs/current-app-material-reconciliation.md)
+records the additional children’s lessons, sayings, reminder readers and
+historical collections, including the limits of comparing them without the
+latest app source package.
 
 ## A4 pages and scannable audio codes
 

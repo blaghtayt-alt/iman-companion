@@ -143,8 +143,40 @@ class CoverageTests(unittest.TestCase):
         new = {'collection': 'seerah', 'language': 'ar', 'id': 'new-seerah001', 'chapter': 1, 'edition': 'new-adult'}
         result = scope_coverage(self.root, 'ar', 'seerah', {'entries': [old, new]}, selected=[new], book=self.book([new], 'ar', 'seerah'))
         self.assertEqual(result['legacyExcluded'], 1)
+        self.assertEqual(result['otherEditionSources'][0]['id'], '1')
+        self.assertIsNone(result['otherEditionSources'][0]['edition'])
         self.assertEqual(result['sourceIds'], ['new-seerah001'])
         self.assertFalse(result['missingCurrent'])
+
+    def test_reviewed_translated_seerah_is_visible_while_its_book_is_pending(self):
+        rows = [{'collection': 'seerah', 'language': 'ja', 'id': str(number),
+                 'chapter': number, 'edition': 'current-lecture-sequence'} for number in (1, 2)]
+        declaration = {'language': 'ja', 'collection': 'seerah', 'edition': 'current-lecture-sequence'}
+        result = scope_coverage(self.root, 'ja', 'seerah', {'entries': rows}, declaration, selected=rows)
+        self.assertEqual(result['sourceIds'], ['1', '2'])
+        self.assertEqual(result['selectedIds'], ['1', '2'])
+        self.assertEqual(result['includedIds'], [])
+        self.assertEqual([row['reason'] for row in result['missingCurrent']], ['awaiting-book-release'] * 2)
+        self.assertFalse(result['sourceApprovalCreated'])
+        released = scope_coverage(self.root, 'ja', 'seerah', {'entries': rows}, declaration,
+                                  selected=rows, book=self.book(rows, 'ja', 'seerah'))
+        self.assertEqual(released['includedNumbers'], {'1': 1, '2': 2})
+        self.assertFalse(released['missingCurrent'])
+
+    def test_seerah_lecture_editions_and_unclassified_rows_are_kept_separate(self):
+        rows = [{'collection': 'seerah', 'language': 'ja', 'id': '1', 'chapter': 1,
+                 'edition': 'current-lecture-sequence'},
+                {'collection': 'seerah', 'language': 'ja', 'id': 'new-seerah001', 'chapter': 1,
+                 'edition': 'new-adult'},
+                {'collection': 'seerah', 'language': 'ja', 'id': 'unbound-1', 'chapter': 1}]
+        declaration = {'language': 'ja', 'collection': 'seerah', 'edition': 'current-lecture-sequence'}
+        result = scope_coverage(self.root, 'ja', 'seerah', {'entries': rows}, declaration, selected=rows[:1])
+        self.assertEqual(result['sourceIds'], ['1'])
+        self.assertEqual(result['legacyExcluded'], 2)
+        self.assertEqual([row['id'] for row in result['otherEditionSources']], ['new-seerah001', 'unbound-1'])
+        unbound = scope_coverage(self.root, 'ja', 'seerah', {'entries': rows[:1]}, selected=[])
+        self.assertEqual(unbound['missingCurrent'][0]['reason'], 'source-not-bound')
+        self.assertEqual(unbound['selectedIds'], [])
 
     def test_bad_reader_identity_stays_visible_as_a_diagnostic_error(self):
         row = self.row(2)

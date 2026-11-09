@@ -3,10 +3,45 @@ from pathlib import Path
 import argparse
 import json
 
-from book_edition_scope import MAP, available, select
+from book_edition_scope import MAP, available, current_seerah_rows, select
 from book_content_coverage import discover_readers, scope_coverage
 
 COLLECTIONS = ('tadabbur-extended', 'hadith', 'seerah', 'articles')
+
+
+def unmapped_material_scopes(root, catalog):
+    """Keep every other app-material collection visible without inventing approval.
+
+    Catalogue flags are copied as claims, not interpreted as review evidence.
+    A missing adapter says nothing about whether the app still uses the reader;
+    that requires the actual app baseline and original review records.
+    """
+    groups = {}
+    for row in catalog.get('entries', []):
+        if row.get('collection') in MAP:
+            continue
+        identity = str(row.get('language', '')), str(row.get('collection', ''))
+        item = groups.setdefault(identity, {'language': identity[0], 'collection': identity[1],
+            'exportState': 'no-book-collection-adapter', 'sourceApprovalCreated': False,
+            'currentAppReconciliation': 'requires-current-app-source-and-original-review-evidence',
+            'materials': []})
+        sources = []
+        for field in ('json', 'markdown'):
+            if row.get(field):
+                path = (root / row[field]).resolve()
+                sources.append({'field': field, 'path': row[field],
+                                'installed': path.is_relative_to(root) and path.is_file()})
+        item['materials'].append({'id': row.get('id'), 'sourceFiles': sources,
+            'catalogClaims': {field: row[field] for field in
+                ('status', 'publicationStatus', 'translationStatus', 'current', 'archived', 'edition')
+                if field in row}})
+    result = []
+    for identity in sorted(groups):
+        item = groups[identity]
+        item['materials'].sort(key=lambda row: str(row['id']))
+        item['materialCount'] = len(item['materials'])
+        result.append(item)
+    return result
 
 
 def inventory(root):
@@ -32,12 +67,11 @@ def inventory(root):
                         if row.get('language') == language and MAP.get(row.get('collection')) == collection]
             current = [row for row in material if available(row)]
             legacy = []
+            declaration = by_scope.get((language, collection))
             if collection == 'seerah':
-                legacy = [row for row in current if row.get('edition') != 'new-adult']
-                current = [row for row in current if row.get('edition') == 'new-adult']
+                current, legacy = current_seerah_rows(current, declaration)
             historical = [row for row in catalog.get('historicalArticleEntries', {}).get('entries', [])
                           if collection == 'articles' and row.get('language') == language]
-            declaration = by_scope.get((language, collection))
             selected = []
             selection_error = None
             item = {'language': language, 'collection': collection,
@@ -78,7 +112,7 @@ def inventory(root):
                 item['reason'] = 'Source rows exist, but no exact supported whole-material review/reader declaration is installed.'
             else:
                 item['state'] = 'waiting-for-current-source'
-                item['reason'] = ('Only legacy Seerah editions are present; the current new-adult edition is not installed in this language.'
+                item['reason'] = ('Seerah source rows exist, but their current edition and exact review bindings have not been reconciled for book preparation.'
                     if legacy else 'Only superseded standalone article translations are present; they are not translations of the current merged edition.'
                     if historical else 'No current source material is installed for this language/category.')
             item['coverage'] = scope_coverage(root, language, collection, catalog, declaration,
@@ -87,12 +121,22 @@ def inventory(root):
             item['unregisteredSourceUnits'] = len(item['coverage']['unregisteredSourceIds'])
             item['absentEarlierLessons'] = item['coverage']['absentEarlierLessons']
             rows.append(item)
+    unmapped = unmapped_material_scopes(root, catalog)
+    total = len(catalog.get('entries', []))
+    mapped_count = sum(row.get('collection') in MAP for row in catalog.get('entries', []))
+    unmapped_count = sum(row['materialCount'] for row in unmapped)
+    if mapped_count + unmapped_count != total:
+        raise ValueError('Material catalogue partition omitted a source row')
     return {'schema': 'iman-multilingual-book-readiness-v1',
             'languages': list(config['languages']), 'languageCount': len(config['languages']),
             'scopeCount': len(rows), 'scopes': rows,
             'automaticPreparationScopes': sum(row['state'] == 'automatic-preparation-ready' for row in rows),
             'unregisteredSourceUnits': sum(row['unregisteredSourceUnits'] for row in rows),
             'scopesWithUnincludedCurrentMaterial': sum(bool(row['coverage']['missingCurrent']) for row in rows),
+            'catalogPartition': {'totalMaterials': total, 'mappedCollectionMaterials': mapped_count,
+                                 'unmappedCollectionMaterials': unmapped_count,
+                                 'unaccountedMaterials': 0},
+            'unmappedMaterialScopes': unmapped,
             'sourceApprovalCreated': False, 'sourceQualificationsChanged': False,
             'futureSourcePath': 'Exact reviewed source publications enter via materials/book-publication-intake with their normalized reader and original approval evidence.'}
 

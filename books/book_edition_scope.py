@@ -11,6 +11,20 @@ from quran_scope import extended,review_catalog_id
 POLICY = 'reviewed-source-edition-v1'
 MAP = {'tadabbur':'tadabbur-extended','articles':'articles','seerah':'seerah','essential-hadith':'hadith'}
 RETIRED = {'held','withdrawn','archived','archive','source-archive','historical','superseded','not-currently-available','draft','work-in-progress'}
+CURRENT_SEERAH_EDITIONS = frozenset({'new-adult', 'current-lecture-sequence'})
+
+def current_seerah_rows(rows, declaration=None):
+    """Partition explicitly identified editions without approving their readers.
+
+    A declaration selects one lecture edition; source-review validation still
+    decides which of its chapters may enter a book. Unclassified source rows
+    remain visible separately and are not presumed withdrawn or superseded.
+    """
+    edition = (declaration or {}).get('edition')
+    editions = {edition} if edition in CURRENT_SEERAH_EDITIONS else (set() if edition else CURRENT_SEERAH_EDITIONS)
+    return ([row for row in rows if row.get('edition') in editions],
+            [row for row in rows if row.get('edition') not in editions])
+
 def sha(raw): return hashlib.sha256(raw).hexdigest()
 def canonical(value): return json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf8')
 def key(row): return row.get('collection'),row.get('language'),str(row.get('id'))
@@ -59,6 +73,8 @@ def typed_basis(root,row):
 
 def select(root,catalog,declaration):
     lang=declaration['language']; collection=declaration['collection']; edition=declaration.get('edition')
+    if collection=='seerah' and edition and edition not in CURRENT_SEERAH_EDITIONS:
+        raise ValueError('Unsupported current Seerah edition')
     potential=[r for r in catalog['entries'] if available(r) and (r.get('language'),MAP[r['collection']])==(lang,collection) and (not edition or r.get('edition')==edition)]
     if len({key(r) for r in potential})!=len(potential): raise ValueError('Duplicate edition catalogue identity')
     if declaration.get('scopePolicy') is None: return potential,None

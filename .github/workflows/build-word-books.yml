@@ -71,6 +71,7 @@ jobs:
           python tests/test_current_hadith_first.py
           python tests/test_current_hadith_five.py
           python tests/test_current_reviewed_quran.py
+          python tests/test_current_reviewed_seerah.py
           python tests/test_current_source_literal_render.py
           python books/test_book_content_coverage.py
           python tests/test_mixed_material_adapters.py
@@ -78,6 +79,7 @@ jobs:
           python tests/test_finalize_word_batch.py
           python tests/test_recover_prepared_batch.py
           python tests/test_material_inventory_counts.py
+          python tests/test_material_catalog_partition.py
           python tests/test_release_candidate_intake.py
           python tests/test_connector_candidate_transfer.py
           python tests/test_published_library.py
@@ -115,7 +117,7 @@ jobs:
           fc-cache -f
           IMAN_BOOK_FONT_PROOF=1 python tests/test_numeric_reference_runs.py
           python tests/check_renderer_citations.py --root . --out "$RUNNER_TEMP/renderer-citations"
-      - name: Prove complete LTR, RTL, Thai and Urdu preparation with live contents links
+      - name: Prove complete LTR, RTL, Thai, Urdu, Bengali and Uzbek preparation with live contents links
         run: python tests/check_renderer_contents.py --root . --out "$RUNNER_TEMP/renderer-contents"
       - uses: actions/upload-artifact@v4
         if: always()
@@ -129,6 +131,44 @@ jobs:
           name: complete-book-contents-renderer-regression-not-publication
           path: ${{ runner.temp }}/renderer-contents/
           retention-days: 7
+  reviewed-seerah-renderer:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - group: first-pairs
+            scopes: '--scope ja/seerah --scope vi/seerah --scope th/seerah --scope uz/seerah --scope fil/seerah'
+          - group: lecture-a
+            scopes: '--scope hi/seerah --scope ru/seerah --scope es/seerah'
+          - group: lecture-b
+            scopes: '--scope fa/seerah --scope de/seerah --scope zh-CN/seerah'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install exact renderer, dependencies and pinned design assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python books/renderer_pin.py --install
+          python -m pip install -r books/requirements.txt
+          python books/install_assets.py --root .
+          mkdir -p "$HOME/.local/share/fonts/iman-books"
+          cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          fc-cache -f
+      - name: Check complete reviewed Seerah chapters and preserved source context
+        run: python tests/check_renderer_contents.py --root . --out "$RUNNER_TEMP/seerah-${{ matrix.group }}" ${{ matrix.scopes }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reviewed-seerah-${{ matrix.group }}-diagnostic-not-publication
+          path: ${{ runner.temp }}/seerah-${{ matrix.group }}/
+          retention-days: 14
   publish:
     needs: validate
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'

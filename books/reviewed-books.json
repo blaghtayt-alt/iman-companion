@@ -993,6 +993,221 @@
       "requireActualWordLayout": true,
       "requireFinalVisualAcceptance": true,
       "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "de",
+      "collection": "seerah",
+      "edition": "current-lecture-sequence",
+      "adapter": "current-reviewed-seerah-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/current-reviewed-seerah.json",
+          "sha256": "35958ff73c09f0455082c2143d48ce8f5d15a342a766e76921dea0ed62e819fe"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing per-language lecture-sequence reader chapters and their original public source, integration and model-review qualifications are bound by a finite inventory. The existing chapter numbers, source text, questions, notes, source credits, publisher conditions and human-verification caveats remain unchanged. These are separate language editions, not translations of the revised Arabic new-adult chapters. This conversion creates no new translation approval, human certification or finished-book acceptance.",
+      "releaseHold": "Chapter 1 question review bindings remain unreconciled: the recorded finalQuestionsSha256 does not reconstruct from the current exported questions, and individual existing review hash bindings are unresolved for S1, S2, S33, S34 and S35. Exact current question text and all original recorded hashes are retained for preparation. Normalization equivalence has not been established. Reconcile the exact historical question review evidence before release; a successful render or outer reviewed label does not clear this hold."
+    },
+    {
+      "language": "es",
+      "collection": "seerah",
+      "edition": "current-lecture-sequence",
+      "adapter": "current-reviewed-seerah-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/current-reviewed-seerah.json",
+          "sha256": "35958ff73c09f0455082c2143d48ce8f5d15a342a766e76921dea0ed62e819fe"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing per-language lecture-sequence reader chapters and their original public source, integration and model-review qualifications are bound by a finite inventory. The existing chapter numbers, source text, questions, notes, source credits, publisher conditions and human-verification caveats remain unchanged. These are separate language editions, not translations of the revised Arabic new-adult chapters. This conversion creates no new translation approval, human certification or finished-book acceptance.",
+      "releaseHold": "Chapter 1 aggregate question review binding remains unreconciled: the recorded finalQuestionsSha256 does not reconstruct from the current exported questions. All five individual question translations have exact original review bindings, including the demonstrated original id-plus-translation object for S33, S34 and S35; this does not resolve the separate aggregate claim. Exact current question text and all original recorded hashes are retained for preparation. Aggregate normalization equivalence has not been established. Reconcile the historical aggregate question review evidence before release; a successful render or outer reviewed label does not clear this hold."
+    },
+    {
+      "language": "fa",
+      "collection": "seerah",
+      "edition": "current-lecture-sequence",
+      "adapter": "current-reviewed-seerah-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/current-reviewed-seerah.json",
+          "sha256": "35958ff73c09f0455082c2143d48ce8f5d15a342a766e76921dea0ed62e819fe"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing per-language lecture-sequence reader chapters and their original public source, integration and model-review qualifications are bound by a finite inventory. The existing chapter numbers, source text, questions, notes, source credits, publisher conditions and human-verification caveats remain unchanged. These are separate language editions, not translations of the revised Arabic new-adult chapters. This conversion creates no new translation approval, human certification or finished-book acceptance.",
+      "releaseHold": "Chapter 1 aggregate question review binding remains unreconciled: the recorded finalQuestionsSha256 does not reconstruct from the current exported questions. All five individual question translations have exact original review bindings, including the demonstrated original id-plus-translation object for S33, S34 and S35; this does not resolve the separate aggregate claim. Exact current question text and all original recorded hashes are retained for preparation. Aggregate normalization equivalence has not been established. Reconcile the historical aggregate question review evidence before release; a successful render or outer reviewed label does not clear this hold."
+    },
+    {
+      "language": "fil",
+      "collection": "seerah",
+      "edition": "current-lecture-sequence",
+      "adapter": "current-reviewed-seerah-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/current-reviewed-seerah.json",
+          "sha256": "35958ff73c09f0455082c2143d48ce8f5d15a342a766e76921dea0ed62e819fe"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing per-language lecture-sequence reader chapters and their original public source, integration and model-review qualifications are bound by a finite inventory. The existing chapter numbers, source text, questions, notes, source credits, publisher conditions and human-verification caveats remain unchanged. These are separate language editions, not translations of the revised Arabic new-adult chapters. This conversion creates no new translation approval, human certification or finished-book acceptance."
+    },
+    {
+      "language": "hi",
+      "collection": "seerah",
+      "edition": "current-lecture-sequence",
+      "adapter": "current-reviewed-seerah-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/current-reviewed-seerah.json",
+          "sha256": "35958ff73c09f0455082c2143d48ce8f5d15a342a766e76921dea0ed62e819fe"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing per-language lecture-sequence reader chapters and their original public source, integration and model-review qualifications are bound by a finite inventory. The existing chapter numbers, source text, questions, notes, source credits, publisher conditions and human-verification caveats remain unchanged. These are separate language editions, not translations of the revised Arabic new-adult chapters. This conversion creates no new translation approval, human certification or finished-book acceptance.",
+      "releaseHold": "Chapter 1 aggregate question review binding remains unreconciled: the recorded finalQuestionsSha256 does not reconstruct from the current exported questions. All five individual question translations have exact original review bindings, including the demonstrated original id-plus-translation object for S33, S34 and S35; this does not resolve the separate aggregate claim. Exact current question text and all original recorded hashes are retained for preparation. Aggregate normalization equivalence has not been established. Reconcile the historical aggregate question review evidence before release; a successful render or outer reviewed label does not clear this hold."
+    },
+    {
+      "language": "ja",
+      "collection": "seerah",
+      "edition": "current-lecture-sequence",
+      "adapter": "current-reviewed-seerah-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/current-reviewed-seerah.json",
+          "sha256": "35958ff73c09f0455082c2143d48ce8f5d15a342a766e76921dea0ed62e819fe"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing per-language lecture-sequence reader chapters and their original public source, integration and model-review qualifications are bound by a finite inventory. The existing chapter numbers, source text, questions, notes, source credits, publisher conditions and human-verification caveats remain unchanged. These are separate language editions, not translations of the revised Arabic new-adult chapters. This conversion creates no new translation approval, human certification or finished-book acceptance."
+    },
+    {
+      "language": "ru",
+      "collection": "seerah",
+      "edition": "current-lecture-sequence",
+      "adapter": "current-reviewed-seerah-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/current-reviewed-seerah.json",
+          "sha256": "35958ff73c09f0455082c2143d48ce8f5d15a342a766e76921dea0ed62e819fe"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing per-language lecture-sequence reader chapters and their original public source, integration and model-review qualifications are bound by a finite inventory. The existing chapter numbers, source text, questions, notes, source credits, publisher conditions and human-verification caveats remain unchanged. These are separate language editions, not translations of the revised Arabic new-adult chapters. This conversion creates no new translation approval, human certification or finished-book acceptance.",
+      "releaseHold": "Chapter 1 aggregate question review binding remains unreconciled: the recorded finalQuestionsSha256 does not reconstruct from the current exported questions. All five individual question translations have exact original review bindings, including the demonstrated original id-plus-translation object for S33, S34 and S35; this does not resolve the separate aggregate claim. Exact current question text and all original recorded hashes are retained for preparation. Aggregate normalization equivalence has not been established. Reconcile the historical aggregate question review evidence before release; a successful render or outer reviewed label does not clear this hold."
+    },
+    {
+      "language": "th",
+      "collection": "seerah",
+      "edition": "current-lecture-sequence",
+      "adapter": "current-reviewed-seerah-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/current-reviewed-seerah.json",
+          "sha256": "35958ff73c09f0455082c2143d48ce8f5d15a342a766e76921dea0ed62e819fe"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing per-language lecture-sequence reader chapters and their original public source, integration and model-review qualifications are bound by a finite inventory. The existing chapter numbers, source text, questions, notes, source credits, publisher conditions and human-verification caveats remain unchanged. These are separate language editions, not translations of the revised Arabic new-adult chapters. This conversion creates no new translation approval, human certification or finished-book acceptance."
+    },
+    {
+      "language": "uz",
+      "collection": "seerah",
+      "edition": "current-lecture-sequence",
+      "adapter": "current-reviewed-seerah-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/current-reviewed-seerah.json",
+          "sha256": "35958ff73c09f0455082c2143d48ce8f5d15a342a766e76921dea0ed62e819fe"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing per-language lecture-sequence reader chapters and their original public source, integration and model-review qualifications are bound by a finite inventory. The existing chapter numbers, source text, questions, notes, source credits, publisher conditions and human-verification caveats remain unchanged. These are separate language editions, not translations of the revised Arabic new-adult chapters. This conversion creates no new translation approval, human certification or finished-book acceptance."
+    },
+    {
+      "language": "vi",
+      "collection": "seerah",
+      "edition": "current-lecture-sequence",
+      "adapter": "current-reviewed-seerah-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/current-reviewed-seerah.json",
+          "sha256": "35958ff73c09f0455082c2143d48ce8f5d15a342a766e76921dea0ed62e819fe"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": true,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing per-language lecture-sequence reader chapters and their original public source, integration and model-review qualifications are bound by a finite inventory. The existing chapter numbers, source text, questions, notes, source credits, publisher conditions and human-verification caveats remain unchanged. These are separate language editions, not translations of the revised Arabic new-adult chapters. This conversion creates no new translation approval, human certification or finished-book acceptance."
+    },
+    {
+      "language": "zh-CN",
+      "collection": "seerah",
+      "edition": "current-lecture-sequence",
+      "adapter": "current-reviewed-seerah-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [
+        {
+          "path": "books/source-projections/current-reviewed-seerah.json",
+          "sha256": "35958ff73c09f0455082c2143d48ce8f5d15a342a766e76921dea0ed62e819fe"
+        }
+      ],
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "requireActualWordLayout": true,
+      "requireFinalVisualAcceptance": true,
+      "reviewBasis": "Exact existing per-language lecture-sequence reader chapters and their original public source, integration and model-review qualifications are bound by a finite inventory. The existing chapter numbers, source text, questions, notes, source credits, publisher conditions and human-verification caveats remain unchanged. These are separate language editions, not translations of the revised Arabic new-adult chapters. This conversion creates no new translation approval, human certification or finished-book acceptance.",
+      "releaseHold": "Chapter 1 question review bindings remain unreconciled: the recorded finalQuestionsSha256 does not reconstruct from the current exported questions, and individual existing review hash bindings are unresolved for S1, S2, S33, S34 and S35. Exact current question text and all original recorded hashes are retained for preparation. Normalization equivalence has not been established. Reconcile the exact historical question review evidence before release; a successful render or outer reviewed label does not clear this hold."
     }
   ]
 }

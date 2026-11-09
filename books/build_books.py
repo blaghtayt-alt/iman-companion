@@ -286,8 +286,8 @@ class Footnotes:
         p.paragraph_format.line_spacing_rule=WD_LINE_SPACING.AT_LEAST;p.paragraph_format.line_spacing=Pt(18 if self.lang=='ur' else 12);p.paragraph_format.space_after=Pt(3)
         return p
     def wrap_trailing_markers(self):
-        """Let long Urdu footnote-marker tails paginate without changing source text."""
-        if self.lang!='ur':return 0
+        """Let dense Urdu/Bengali note tails paginate without changing source text."""
+        if self.lang not in {'ur','bn'}:return 0
         changed=0
         for paragraph in dict.fromkeys(anchor for anchor,group in self.anchors):
             markers=[]
@@ -296,7 +296,7 @@ class Footnotes:
                 if run.tag!=qn('w:r') or len(content)!=1 or content[0].tag!=qn('w:footnoteReference'):break
                 markers.append(run)
             markers.reverse()
-            # Each Urdu note needs at least an 18pt first line. Dozens of
+            # Each note needs at least a 12pt (Urdu: 18pt) first line. Dozens of
             # adjacent markers can demand more footnote space than one page.
             # Break only generated marker tails, after all source words; no
             # reference moves to a different paragraph or changes identity.
@@ -536,10 +536,12 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
             result['referenceReadiness'][field]=sum(c.get(field,0) for c in checks if isinstance(c,dict))
     if collection=='seerah':
         checks=[u.get('referenceReadiness') for u in units]
-        result['referenceReadiness']={'units':len(units),'auditedUnits':sum(isinstance(x,dict) for x in checks),'unboundQuranSegments':sum(x.get('unboundQuranSegments',0) for x in checks if isinstance(x,dict)),'unboundHadithSegments':sum(x.get('unboundHadithSegments',0) for x in checks if isinstance(x,dict))}
-        if result['referenceReadiness']['auditedUnits']!=len(units) or result['referenceReadiness']['unboundQuranSegments'] or result['referenceReadiness']['unboundHadithSegments']:
+        result['referenceReadiness']={'units':len(units),'auditedUnits':sum(isinstance(x,dict) for x in checks)}
+        for field in ['unboundQuranSegments','unboundHadithSegments','unboundScholarSegments','unresolvedSourceReferenceCount']:
+            result['referenceReadiness'][field]=sum(x.get(field,0) for x in checks if isinstance(x,dict))
+        if result['referenceReadiness']['auditedUnits']!=len(units) or any(result['referenceReadiness'][field] for field in ['unboundQuranSegments','unboundHadithSegments','unboundScholarSegments','unresolvedSourceReferenceCount']):
             result['quranReferences']='source references incomplete';result['referencePresentation']='source references incomplete; review candidate only'
-    if collection in {'hadith','tadabbur-extended'} and any(u.get('sourceReferencePreservation') is not None for u in units):
+    if collection in {'hadith','tadabbur-extended','seerah'} and any(u.get('sourceReferencePreservation') is not None for u in units):
         checks=[u.get('sourceReferencePreservation') for u in units]
         if any(c is not None and (not isinstance(c,dict) or c.get('schema')!='iman-source-reference-preservation-v1' or c.get('auditMode')!='literal-source-and-qualification-fidelity') for c in checks):raise ValueError('Unsupported source-reference preservation evidence')
         preservation={'schema':'iman-source-reference-preservation-v1','auditMode':'literal-source-and-qualification-fidelity',

@@ -154,7 +154,17 @@ does not apply the proposal or publish a book.
 ### Current material adapters
 
 The current Arabic Articles adapter covers the 47 installed article readings.
-The new-adult Seerah adapter covers its three current chapters. The Arabic
+The new-adult Seerah adapter covers its three current Arabic chapters. The
+current reviewed lecture-sequence adapter separately covers 68 existing chapters
+in eleven languages. Its explicit source projection preserves exact existing
+review hashes, complete reader text and questions, public source notes and
+original human-verification qualifications. Six chapter-1 question-hash bindings
+remain unreconciled and keep their scope release holds; any unresolved source
+quotation associations also remain release checks. These language editions do
+not become translations of the revised Arabic adult edition. See the
+[Seerah integration record](../docs/current-reviewed-seerah-integration.md).
+
+The Arabic
 Essential Hadith adapter now covers all 286 lessons in 12 chapters under
 `materials/hadith/essential-ar/`. Its compact source projection binds the exact
 catalogue, chapter JSON, lesson JSON and Markdown bytes. It carries all chapter
@@ -191,20 +201,27 @@ The current Quran adapters restore 124 eligible units: 112 entries-map scopes,
 eleven complete Fatiha packets and the complete Japanese Qiyamah packet. Their
 inventories bind current Arabic revisions, exact source text, citations and
 qualifications. Selected-ayah material stays explicitly partial. These adapters
-bring the current selection to 625 units; [current-reviewed-imports.md](current-reviewed-imports.md)
-records the 136 additions, affected 31 editions and exact exclusions. Previously
+previously brought the selection to 625 units; [current-reviewed-imports.md](current-reviewed-imports.md)
+records the 136 additions, affected 31 editions and exact exclusions. The 68
+reviewed Seerah chapters extend this to 693 units across 53 preparation scopes. Previously
 published pairs retain their original membership until expanded files pass the
 normal Word and final visual checks.
 
-Historical standalone article translations and legacy Seerah editions do not
-join the current editions. The exact approved normalized reader transaction
+Explicitly superseded standalone article translations and Seerah rows without
+reconciled current-edition review bindings do not join the selected editions.
+Unclassified Seerah rows are not presumed obsolete. The exact approved normalized reader transaction
 above remains the automatic path for later material in any of the twenty
 languages and four collections. `books/multilingual_readiness.py` reports every
 one of these eighty combinations, including missing current translations,
 unbound rows and explicit holds. The workflow saves that report as
 `language-readiness.json` and includes it in both build and publication reports.
-The initial installed-source inventory has forty-two ready scopes: Quran and
-Hadith in twenty languages, plus current Arabic Seerah and Articles.
+The inventory now has fifty-three preparation scopes: Quran and Hadith in twenty
+languages, Arabic Seerah and Articles, and eleven additional reviewed Seerah
+editions. The report also includes every collection without a book adapter in
+`unmappedMaterialScopes` and verifies a complete `catalogPartition`. Their exact
+catalogue claims remain visible without creating source approval or inferring
+the current app's contents from an older export. See the
+[current-app reconciliation ledger](../docs/current-app-material-reconciliation.md).
 
 ### A4 and audio layout
 

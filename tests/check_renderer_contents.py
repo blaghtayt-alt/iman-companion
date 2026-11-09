@@ -27,7 +27,7 @@ from toc_sync import linked_pages, reconcile
 from word_layout_check import contents
 
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
-SCOPES = [('en', 'hadith'), ('ar', 'seerah'), ('th', 'hadith'), ('ur', 'hadith')]
+SCOPES = [('en', 'hadith'), ('ar', 'seerah'), ('th', 'hadith'), ('ur', 'hadith'), ('bn', 'tadabbur-extended'), ('uz', 'hadith')]
 
 
 def digest(raw):
@@ -72,8 +72,16 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--root', type=Path, default=ROOT)
     parser.add_argument('--out', type=Path, required=True)
+    parser.add_argument('--scope', action='append', metavar='LANGUAGE/COLLECTION',
+                        help='Render this complete declared scope; repeat for an explicit diagnostic set.')
     args = parser.parse_args()
     root, out = args.root.resolve(), args.out.resolve()
+    scopes = [tuple(value.split('/')) for value in args.scope] if args.scope else SCOPES
+    languages = json.loads((root / 'books/config.json').read_bytes())['languages']
+    if (any(len(scope) != 2 or scope[0] not in languages or scope[1] not in
+            {'hadith', 'seerah', 'articles', 'tadabbur-extended'} for scope in scopes)
+            or len(set(scopes)) != len(scopes)):
+        raise ValueError('Diagnostic scopes must be unique supported language/collection pairs')
     out.mkdir(parents=True, exist_ok=False)
     report = {'diagnosticOnly': True, 'publicationAcceptance': False,
               'renderer': verify_packages(), 'scopes': {}, 'passed': False}
@@ -92,7 +100,7 @@ def main():
             raise RuntimeError(log.name + ': ' + result.stderr[-2000:] + result.stdout[-1000:])
 
     try:
-        for language, collection in SCOPES:
+        for language, collection in scopes:
             key = language + '-' + collection
             folder = out / key
             folder.mkdir()
@@ -107,6 +115,8 @@ def main():
             ]
             for stage, command in commands:
                 run(command, folder / (stage + '.log'))
+                if stage == 'index':
+                    shutil.copy2(root / 'books/manifest.json', folder / 'source-manifest.json')
             index = json.loads((book_folder / 'index.json').read_bytes())
             if len(index['books']) != 1:
                 raise ValueError('Renderer regression scope produced multiple books')

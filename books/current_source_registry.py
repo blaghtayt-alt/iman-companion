@@ -14,6 +14,8 @@ FORMATS = {
         ('current_reviewed_quran', 'tadabbur', 'tadabbur-extended'),
     'iman-current-filipino-hadith-five-source-bindings-v1':
         ('current_hadith_five', 'essential-hadith', 'hadith'),
+    'iman-current-reviewed-seerah-source-bindings-v1':
+        ('current_reviewed_seerah', 'seerah', 'seerah'),
 }
 
 

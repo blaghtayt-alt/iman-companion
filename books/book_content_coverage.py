@@ -10,7 +10,7 @@ import json
 import re
 
 from bibliography import digits, native_text
-from book_edition_scope import MAP, RETIRED, available, pinned, select
+from book_edition_scope import MAP, RETIRED, available, current_seerah_rows, pinned, select
 from locale_copy import locale
 
 SCHEMA = 'iman-book-content-coverage-v1'
@@ -260,8 +260,7 @@ def scope_coverage(root, language, collection, catalog, declaration=None, *,
     current = [row for row in material if available(row)]
     legacy = []
     if collection == 'seerah':
-        legacy = [row for row in current if row.get('edition') != 'new-adult']
-        current = [row for row in current if row.get('edition') == 'new-adult']
+        current, legacy = current_seerah_rows(current, declaration)
     elif declaration and declaration.get('edition'):
         current = [row for row in current if row.get('edition') == declaration['edition']]
     if selected is None:
@@ -334,6 +333,12 @@ def scope_coverage(root, language, collection, catalog, declaration=None, *,
               'missingCurrent': missing, 'absentEarlierLessons': absent,
               'unregisteredSourceIds': [row['id'] for row in missing if row['reason'] == 'source-not-catalogued'],
               'competingSources': competing, 'legacyExcluded': len(legacy),
+              'otherEditionSources': [{'id': str(row['id']), 'edition': row.get('edition'),
+                  'sourcePaths': _paths(row),
+                  'reason': 'outside-the-explicitly-selected-current-edition',
+                  'catalogClaims': {field: row[field] for field in
+                      ('status', 'publicationStatus', 'translationStatus', 'current', 'archived')
+                      if field in row}} for row in legacy],
               'errors': errors, 'sourceApprovalCreated': False,
               'sourceQualificationsChanged': False}
     result['state'] = ('check-pending' if errors else 'partial' if missing or absent else

@@ -70,10 +70,11 @@ def _validate_current(root, module, record, row, catalog, catalog_digest):
         _, digest = _read(root, binding.get('path', ''), binding.get('sha256', ''))
         dependencies.append((binding['path'], digest))
         directories.add(inside(root, binding['path']).parent)
-    status = root / 'materials/translation-status.json'
-    if status.is_file():
-        dependencies.append(('materials/translation-status.json',
-                             _read(root, 'materials/translation-status.json')[1]))
+    # Current-format validators can also enforce declaration-level holds. A
+    # changed release declaration must invalidate a warmed source validation.
+    for relative in ('materials/translation-status.json', 'books/reviewed-books.json'):
+        if (root / relative).is_file():
+            dependencies.append((relative, _read(root, relative)[1]))
     cache_key = (str(root.resolve()), module.__name__, sha(canonical(record)),
                  catalog_digest, tuple(dependencies),
                  tuple((str(path), _stamp(path)) for path in sorted(directories)))

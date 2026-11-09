@@ -133,6 +133,43 @@ class CurrentLiteralRendering(unittest.TestCase):
         with self.assertRaises(ValueError):
             checked_source_links(unit, {'sourceOnlyContext': True}, block, ROOT)
 
+    def test_docx_root_slash_keeps_exact_source_label_destination_and_count(self):
+        _, block = self.source_link()
+        doc = Document(); paragraph = doc.add_paragraph()
+        add_source_link_text(paragraph, block['text'], block['hyperlinks'], 'uz',
+                             'Iman Book Inter', 'Iman Book Noto Naskh Arabic')
+        expected = [{'text': block['text'][link['start']:link['end']], 'url': link['url'],
+                     'sourceLiteralProof': link['sourceLiteralProof']} for link in block['hyperlinks']]
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / 'source-credit.docx'; doc.save(path)
+            with zipfile.ZipFile(path) as archive:
+                body = etree.fromstring(archive.read('word/document.xml'))
+                relationships = etree.fromstring(archive.read('word/_rels/document.xml.rels'))
+        home = next(item for item in relationships if item.get('Target') == 'https://muslim.uz')
+        # Exact transformation observed in production run 42572834270 after UNO.
+        home.set('Target', 'https://muslim.uz/')
+        validate_source_hyperlinks(body, relationships, expected, 'uz', ROOT)
+        for changed in ('http://muslim.uz/', 'https://other.example/', 'https://MUSLIM.uz/',
+                        'https://muslim.uz/other', 'https://muslim.uz/%2F',
+                        'https://muslim.uz/?source=1', 'https://muslim.uz/#credit'):
+            with self.subTest(changed=changed):
+                home.set('Target', changed)
+                with self.assertRaisesRegex(ValueError, 'changed or disappeared'):
+                    validate_source_hyperlinks(body, relationships, expected, 'uz', ROOT)
+        home.set('Target', 'https://muslim.uz/')
+        with self.assertRaisesRegex(ValueError, 'changed or disappeared'):
+            validate_source_hyperlinks(body, relationships, expected + [expected[0]], 'uz', ROOT)
+        altered = deepcopy(body)
+        W = 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
+        label = next(node for node in altered.iter('{' + W + '}t')
+                     if node.text == expected[0]['text'])
+        label.text += '!'
+        with self.assertRaisesRegex(ValueError, 'changed or disappeared'):
+            validate_source_hyperlinks(altered, relationships, expected, 'uz', ROOT)
+        relationships.remove(home)
+        with self.assertRaisesRegex(ValueError, 'changed or disappeared'):
+            validate_source_hyperlinks(body, relationships, expected, 'uz', ROOT)
+
     def test_pdf_root_slash_is_equivalent_but_destination_changes_are_not(self):
         expected = [{'url': 'https://muslim.uz'}, {'url': 'https://muslim.uz/article?source=1#credit'}]
         validate_pdf_source_hyperlinks(['https://muslim.uz/', expected[1]['url']], expected)

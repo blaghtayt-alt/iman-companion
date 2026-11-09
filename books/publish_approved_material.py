@@ -47,7 +47,9 @@ def prepare(root,handoff_file,transaction_base=None):
     if collection=='tadabbur':
         from quran_scope import canonical_surah
         if canonical_surah(entry)is None:raise ValueError('Only extended Quran reflections enter current books')
-    if collection=='seerah'and entry.get('edition')!='new-adult':raise ValueError('Only new adult Seerah enters current books')
+    if collection=='seerah':
+        from book_edition_scope import CURRENT_SEERAH_EDITIONS
+        if entry.get('edition') not in CURRENT_SEERAH_EDITIONS:raise ValueError('A supported explicit current Seerah edition is required')
     for name in['json','markdown']:
         if entry.get(name)and entry[name]not in source:raise ValueError('Approval does not bind the actual catalogue '+name)
     if not entry.get('json')and not entry.get('markdown'):raise ValueError('Catalogue material has no bound public source')
@@ -92,6 +94,11 @@ def prepare(root,handoff_file,transaction_base=None):
     if declarations.get('schema')!='iman-reviewed-books-v1':raise ValueError('Invalid book source declarations')
     declared=[d for d in declarations['books'] if (d.get('language'),d.get('collection'))==(language,MAP[collection])]
     if len(declared)>1:raise ValueError('Duplicate book scope declaration')
+    if collection=='seerah':
+        if declared and declared[0].get('edition')!=entry.get('edition'):
+            raise ValueError('Approved Seerah source belongs to a different declared lecture edition')
+        if not declared and entry.get('edition')!='new-adult':
+            raise ValueError('Current Seerah lecture translations require their existing reviewed edition declaration')
     created=not declared
     if created:
         declaration={'language':language,'collection':MAP[collection],'adapter':'published-reader-units-v1','state':'reviewed-current','scopePolicy':'reviewed-source-edition-v1','sourceReviewBindings':[], 'automaticBuild':True,'automaticRelease':False,'requireActualWordLayout':True,'releaseHold':'New collection is automatically prepared from exact whole-material approvals; final Word and visual release checks remain required.'}

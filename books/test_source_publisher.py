@@ -58,4 +58,41 @@ class SourcePublishingTests(unittest.TestCase):
     def test_tampered_registered_reader_is_detected(self):
         file,_=self.handoff();apply(self.root,file);path=self.root/'books/units/current/fil/articles/article001.json';unit=json.loads(path.read_bytes());unit['title']='Binagong pamagat';path.write_bytes(bytes_json(unit));self.assertIn('approved catalogue binding',self.index(False))
 
+    def seerah_handoff(self, edition='current-lecture-sequence', declared=True):
+        file,data=self.handoff()
+        material={'collection':'seerah','language':'fil','id':'1'}
+        data['catalogEntry'].update(material,edition=edition)
+        data['approval']['material']=material
+        reader=self.root/data['readerUnit']['path'];unit=json.loads(reader.read_bytes())
+        unit.update(collection='seerah',id='1',chapter=1,edition=edition,catalogBindings=[material])
+        reader.write_bytes(bytes_json(unit));data['readerUnit']['sha256']=sha(reader.read_bytes())
+        self.write('handoff.json',data)
+        declaration={'language':'fil','collection':'seerah','adapter':'published-reader-units-v1',
+                     'state':'reviewed-current','edition':'current-lecture-sequence',
+                     'scopePolicy':'reviewed-source-edition-v1','sourceReviewBindings':[],
+                     'automaticBuild':True,'automaticRelease':False,'requireActualWordLayout':True,
+                     'requireFinalVisualAcceptance':True,'releaseHold':'Synthetic unresolved review binding'}
+        self.write('books/reviewed-books.json',{'schema':'iman-reviewed-books-v1','books':[declaration] if declared else []})
+        return file,declaration
+
+    def test_exact_approved_lecture_update_preserves_edition_and_release_holds(self):
+        file,declaration=self.seerah_handoff();receipt=apply(self.root,file)
+        self.assertFalse(receipt['sourceApprovalCreated'])
+        self.assertFalse(receipt['preparationScopeCreated'])
+        self.assertEqual(json.loads((self.root/'books/reviewed-books.json').read_bytes())['books'],[declaration])
+        result=subprocess.run([sys.executable,str(Path(__file__).parent/'index_units.py'),'--root',str(self.root),
+            '--commit','0'*40,'--language','fil','--collection','seerah'],capture_output=True,text=True,encoding='utf8')
+        self.assertEqual(result.returncode,0,result.stderr)
+        self.assertEqual([row['id'] for row in json.loads((self.root/'books/manifest.json').read_bytes())['units']],['1'])
+
+    def test_a_different_lecture_edition_cannot_replace_the_declared_scope(self):
+        file,_=self.seerah_handoff(edition='new-adult')
+        with self.assertRaisesRegex(ValueError,'different declared lecture edition'):apply(self.root,file)
+        self.assertFalse((self.root/'books/units/current').exists())
+
+    def test_lecture_translation_cannot_create_its_own_edition_declaration(self):
+        file,_=self.seerah_handoff(declared=False)
+        with self.assertRaisesRegex(ValueError,'existing reviewed edition declaration'):apply(self.root,file)
+        self.assertFalse((self.root/'books/units/current').exists())
+
 if __name__=='__main__':unittest.main()
