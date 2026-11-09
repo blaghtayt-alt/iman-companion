@@ -16,6 +16,7 @@ import sys
 import zipfile
 
 from lxml import etree
+from pypdf import PdfReader
 import pypdfium2
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,7 +28,7 @@ from toc_sync import linked_pages, reconcile
 from word_layout_check import contents
 
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
-SCOPES = [('en', 'hadith'), ('ar', 'seerah'), ('th', 'hadith'), ('ur', 'hadith'), ('bn', 'tadabbur-extended'), ('uz', 'hadith'), ('fr', 'tadabbur-extended')]
+SCOPES = [('en', 'hadith'), ('ar', 'seerah'), ('th', 'hadith'), ('ur', 'hadith'), ('bn', 'tadabbur-extended'), ('uz', 'hadith'), ('fr', 'tadabbur-extended'), ('en', 'tadabbur-extended')]
 
 
 def digest(raw):
@@ -66,6 +67,28 @@ def document_evidence(file):
             'literalBodySHA256': digest(literal.encode()),
             'orderedNotesSHA256': digest(json.dumps(ordered_notes, ensure_ascii=False).encode()),
             'noteCount': len(ordered_notes), 'tooltipLinks': sum(W + 'tooltip' in link.attrib for link in links)}
+
+
+def dense_note_layout_evidence(root, file, pdf, language):
+    """Prove the reviewed sentence tail no longer occupies isolated word pages."""
+    source = json.loads((root / f'materials/tadabbur/{language}/extended/098.json').read_bytes())
+    text = source['entries']['98:1']['blocks'][34]['text']
+    ending = {'en': 'carry this proof to others.', 'fr': 'porter cette preuve aux gens.'}[language]
+    if not text.endswith(ending):
+        raise ValueError('Dense-note regression no longer matches the reviewed paragraph')
+    with zipfile.ZipFile(file) as archive:
+        body = etree.fromstring(archive.read('word/document.xml'))
+    paragraph, = [paragraph for paragraph in body.iter(W + 'p')
+                   if ''.join(node.text or '' for node in paragraph.iter(W + 't')) == text]
+    expected_refs, expected_breaks = {'en': (53, 6), 'fr': (46, 5)}[language]
+    if (len(list(paragraph.iter(W + 'footnoteReference'))), len(list(paragraph.iter(W + 'br')))) != (expected_refs, expected_breaks):
+        raise ValueError('Dense-note source paragraph lost its exact references or bounded marker breaks')
+    pages = [number + 1 for number, page in enumerate(PdfReader(pdf).pages)
+             if ending in ' '.join((page.extract_text() or '').split())]
+    if len(pages) != 1:
+        raise ValueError('Reviewed sentence ending still splits across isolated word pages')
+    return {'sourceParagraphSHA256': digest(text.encode()), 'references': expected_refs,
+            'nativeMarkerBreaks': expected_breaks, 'completeSentenceEndingPage': pages[0]}
 
 
 def main():
@@ -131,7 +154,7 @@ def main():
                 save()
 
             snapshot('roundtrip-1')
-            if language == 'en':
+            if (language, collection) == ('en', 'hadith'):
                 if not original['tooltipLinks']:
                     raise ValueError('The negative control has no optional TOC tooltip to reproduce the import bug')
                 control = out / 'negative-control'
@@ -189,6 +212,8 @@ def main():
             final_index = json.loads((book_folder / 'index.json').read_bytes())
             row['pages'] = final_index['books'][0]['pages']
             row['audioQRVerification'] = final_index['books'][0]['audioQRVerification']
+            if language in {'en', 'fr'} and collection == 'tadabbur-extended':
+                row['denseNoteLayout'] = dense_note_layout_evidence(root, file, pdf, language)
             visuals = folder / 'final-pages'
             visuals.mkdir()
             document = pypdfium2.PdfDocument(pdf)

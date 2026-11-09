@@ -1,4 +1,4 @@
-"""Bound dense Bengali/Urdu marker tails while preserving their footnote bindings."""
+"""Bound proven dense marker tails while preserving their source/footnote bindings."""
 from io import BytesIO
 from pathlib import Path
 import sys
@@ -71,6 +71,48 @@ class FootnoteMarkerLayoutTests(unittest.TestCase):
                            preserved_identifiers=notes.identifiers,
                            source_literal_proofs=notes.literal_proofs)
 
+    def test_actual_english_french_source_paragraph_and_all_notes_survive_wrapping(self):
+        import current_reviewed_quran as current
+        inventory = current.read(ROOT, current.PROJECTION)
+        catalog = current.read(ROOT, 'materials/catalog.json')
+        evidence = current.binding(ROOT, current.PROJECTION)
+        for language, count, breaks in (('en', 53, 6), ('fr', 46, 5)):
+            with self.subTest(language=language):
+                source = current.read(ROOT, f'materials/tadabbur/{language}/extended/098.json')
+                text = source['entries']['98:1']['blocks'][34]['text']
+                self.assertNotIn('\n', text)
+                record = next(row for row in inventory['records']
+                              if (row['language'], row['id']) == (language, '98:extended'))
+                unit = current.normalize(ROOT, catalog, record['catalogEntry'], record, evidence)
+                block, = [block for section in unit['sections'] for block in section['blocks']
+                          if block.get('text') == text]
+                document = Document()
+                paragraph = document.add_paragraph()
+                notes = Footnotes(document, language, 'Iman Book Inter', 'Iman Book Naskh', source_root=ROOT)
+                for span_index, span in enumerate(block['spans']):
+                    paragraph.add_run(span['text'])
+                    for index, note in enumerate(span.get('noteTexts', [])):
+                        notes.add(paragraph, note, group=f'source-{span_index}-{index}',
+                                  source_literal_proofs=span['noteLiteralProofs'][index])
+                self.assertEqual(len(notes.texts), count)
+                self.assertEqual(body_text(paragraph._p), text)
+                before = etree.tostring(paragraph._p)
+                note_bytes = etree.tostring(notes.root)
+                text_nodes = list(paragraph._p.iter(qn('w:t')))
+                references = list(paragraph._p.iter(qn('w:footnoteReference')))
+                self.assertEqual(notes.wrap_trailing_markers(), breaks)
+                self.assertEqual(list(paragraph._p.iter(qn('w:t'))), text_nodes)
+                self.assertEqual(list(paragraph._p.iter(qn('w:footnoteReference'))), references)
+                self.assertEqual(etree.tostring(notes.root), note_bytes)
+                self.assertEqual(body_text(paragraph._p), text + '\n' * breaks)
+                self.assertEqual(notes.wrap_trailing_markers(), 0)
+                stream = BytesIO();document.save(stream);stream.seek(0)
+                validate_footnotes(notes.root, Document(stream).element.body, notes.texts, language,
+                                   preserved_identifiers=notes.identifiers,
+                                   source_literal_proofs=notes.literal_proofs, root=ROOT)
+                for br in list(paragraph._p.iter(qn('w:br'))):br.getparent().remove(br)
+                self.assertEqual(etree.tostring(paragraph._p), before)
+
     def test_boundary_counts_and_repeated_pass_are_stable(self):
         for count, expected in ((0, 0), (1, 0), (8, 0), (9, 1), (16, 1), (17, 2)):
             with self.subTest(count=count):
@@ -108,7 +150,7 @@ class FootnoteMarkerLayoutTests(unittest.TestCase):
         self.assertEqual(etree.tostring(document.element.body), before)
 
     def test_other_languages_are_unchanged(self):
-        for language in ('ar', 'fa', 'en', 'hi'):
+        for language in ('ar', 'fa', 'de', 'hi', 'ja'):
             with self.subTest(language=language):
                 document, paragraph, notes = self.fixture(20, language)
                 before = etree.tostring(document.element.body)
