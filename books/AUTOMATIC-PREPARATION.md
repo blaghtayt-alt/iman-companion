@@ -121,7 +121,7 @@ The controller flushes scope and command progress and atomically checkpoints
 `build-report.json` between scopes. A runner interruption leaves completed
 per-folder preparation snapshots and an explicitly incomplete report for recovery;
 it does not commit the queue or grant release approval. Publication rejects an
-incomplete checkpoint. During Urdu generation, long terminal runs of generated
+incomplete checkpoint. During Bengali and Urdu generation, long terminal runs of generated
 footnote markers gain a line break after every eight references. Only marker-only
 tails after all source words are eligible; inline annotations remain unchanged.
 Every source text node, reference ID/order and footnote body is preserved. This
@@ -135,11 +135,29 @@ the original SHA-256 before extracting anything. The renderer regression step
 uses its existing read-only repository token. Environments without that token
 retain the original public URLs with bounded reads; archive pins are unchanged.
 
+After rendering, an exact source-credit URL is restored if the renderer only
+added a slash to its bare HTTP(S) origin. Restoration requires the original
+source proof and the same label and occurrence count. Ambiguous or unrelated
+shared relationships and changed destinations remain failures. Only the matching
+relationship target is changed; the reader XML, source text and strict link
+validator remain unchanged. The later Word proof path preserves those prepared
+relationships without saving a rewritten document through Word.
+
 Actual Word finalization and final visual release acceptance remain release
 steps on the existing owned desktop. The optional desktop worker is not part of
 this deployment. The checked handoff below connects those completed checks to
 the existing publisher; it does not install an unattended Windows bridge or
 claim unattended visual approval.
+
+Use the [batch Word finalization guide](../docs/WORD-BATCH-FINALIZATION.md) to
+stage an exact artifact, run the owned Word finalizer serially and resume
+completed scopes. Visual acceptance and publication remain separate steps.
+
+If a run stops before its preparation queue is saved, use the
+[preparation recovery guide](../docs/PREPARATION-RECOVERY.md) to validate its exact
+saved artifact against the current sources and generate a proposed queue. The
+recovery command preserves existing queue records and all release checks; it
+does not apply the proposal or publish a book.
 
 ### Current material adapters
 

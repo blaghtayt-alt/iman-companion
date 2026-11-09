@@ -17,7 +17,7 @@ import sys
 import threading
 import time
 
-SOURCE_COMMIT = "1a129c5414dbc1cf7cef5e1fdb16f1b3cbb2561e"
+SOURCE_COMMIT = "e4bc14bf16c071fd977069de1ca367af92f07285"
 REPOSITORY = "blaghtayt-alt/iman-companion"
 CHILD_TIMEOUT = 300
 
@@ -161,7 +161,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, required=True)
     parser.add_argument("--out", type=Path, required=True)
-    parser.add_argument("--language", choices=("en", "hi", "tr", "ur"), required=True)
+    parser.add_argument("--language", choices=("bn", "en", "hi", "tr", "ur", "uz"), required=True)
+    parser.add_argument("--collection", choices=("tadabbur-extended", "hadith"), required=True)
     args = parser.parse_args()
     root, out = args.root.resolve(), args.out.resolve()
     out.mkdir(parents=True, exist_ok=True)
@@ -176,7 +177,7 @@ def main():
     sys.path.insert(0, str(root / "books"))
     import automatic_publication
     original_scopes = automatic_publication.scopes
-    scope = (args.language, "tadabbur-extended")
+    scope = (args.language, args.collection)
 
     def selected_scopes(path, for_release=False):
         result = [row for row in original_scopes(path, for_release)

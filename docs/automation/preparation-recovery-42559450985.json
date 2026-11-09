@@ -1,0 +1,333 @@
+{
+  "schema": "iman-preparation-recovery-audit-v1",
+  "sourceRepository": "blaghtayt-alt/iman-companion",
+  "sourceCommit": "1a129c5414dbc1cf7cef5e1fdb16f1b3cbb2561e",
+  "workflowRun": 42559450985,
+  "workflowConclusion": "cancelled",
+  "artifact": {
+    "id": 13652142220,
+    "name": "current-book-publication-42559450985-1",
+    "sizeBytes": 112091511,
+    "fileCount": 139,
+    "sha256": "6540c15dd212dea44528852c5367c3a6d8a574922ead6a9b0eb0a398da98c823"
+  },
+  "recoveredCount": 14,
+  "queueSHA256": "fe50b0171c88da921b58cfcb8de9416967860d10e0dd4164aa10b4dd38b49ef2",
+  "validation": "Original finalize_prepared.plan on an isolated copy of current sources and original artifact; rows retained exactly as captured.",
+  "releaseVerified": false,
+  "wordExecuted": false,
+  "visualAcceptanceGranted": false,
+  "excluded": [
+    {
+      "language": "ur",
+      "collection": "tadabbur-extended",
+      "reason": "Interrupted folder has no prepared snapshot"
+    },
+    {
+      "language": "hi",
+      "collection": "tadabbur-extended",
+      "reason": "Build failed: missing verified native surah name for chapter 51"
+    },
+    {
+      "language": "tr",
+      "collection": "tadabbur-extended",
+      "reason": "Preparation failed: reader text changed or reordered during Word refresh"
+    }
+  ],
+  "scopes": [
+    {
+      "language": "de",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "90626785ccfb44e94cc225650089ff12285eb270dd5a1b66bd4ac56eb00ce234",
+      "includedUnits": 2,
+      "sourceBindings": 18,
+      "preparedSnapshotSHA256": "1af04f472b27e796b144fb6e3ae4531d6632924781dc91a778cce7b4e48706f8",
+      "handoffSHA256": "34453e2c7b9eca222e45698f411bdff54f5d0cb240db40afdf0a18b1fb3c2e35",
+      "files": {
+        "Iman_Companion_de_tadabbur-extended.docx": "ac7871ff7758daebd6e6294988ca384bf92fbe0c3fca4daa93f6673655bb92df",
+        "Iman_Companion_de_tadabbur-extended.pdf": "4ab9708989fb76041ecbeb9ab328986bc6821345219758f2666e5cee950aa183",
+        "Iman_Companion_de_tadabbur-extended.docx.reader-checks.json": "fa3be252acecef2c1e2d0a8defad2aadb346b56d207388172eb6b4b82b634c12",
+        "index.json": "fb3916e876d121dc30bd0e58b082b5a52ea531ea982f0a2a216fa154c548a5f0",
+        "source-manifest.json": "f826f2c9892defe65104f59c14faa7376f9e7dba3f7fba02f51388b849968d5d",
+        "prepared-snapshot.json": "1af04f472b27e796b144fb6e3ae4531d6632924781dc91a778cce7b4e48706f8"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "en",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "9a21b5149767933fb9acb573d9e74b86d9c4912962550e44d382de587841ba7a",
+      "includedUnits": 15,
+      "sourceBindings": 68,
+      "preparedSnapshotSHA256": "2ee64ec04f9ba6764e22fda8bd2507c603dbf09ad57129cd91e423bd3ed61fd8",
+      "handoffSHA256": "ab158859562eeb9efc34cbc7bbd4545bfbadddff30cb477a57bc42d8bbd6be5d",
+      "files": {
+        "Iman_Companion_en_tadabbur-extended.docx": "bac6223af26bec59bee4c2ddc42d2e5a5efa1cf92263ca28400d1e18533b6cdb",
+        "Iman_Companion_en_tadabbur-extended.pdf": "2fcbf7ae8a082e1b4a23f22a43ebc001b461c0aa5fd3f24c3a27eb4b47249288",
+        "Iman_Companion_en_tadabbur-extended.docx.reader-checks.json": "64198575368a66822bb55dd0b944aae443808b47f10cfdafd44a6a98de433084",
+        "index.json": "bcc769bedddde265f21b0d8e4341677a5cfdc60657ba39fcdd90e6da8b933dae",
+        "source-manifest.json": "5db827744242f7fac9dd6961bb3f7634a1bd26f9e0f53aabfa5cd08a409da52c",
+        "prepared-snapshot.json": "2ee64ec04f9ba6764e22fda8bd2507c603dbf09ad57129cd91e423bd3ed61fd8"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "es",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "fc5ea5897c56dd403cb342ccd754cf08c4c20f3809e29890ab69392476c1b0f0",
+      "includedUnits": 2,
+      "sourceBindings": 18,
+      "preparedSnapshotSHA256": "d5f58b9806047c2303b4ea349ce42734982ed42474f063304e7dfa4a82c996ac",
+      "handoffSHA256": "f80d6e6505addd4eb55c062972fe9f7e90664a41d9b72686ce54609927a2993e",
+      "files": {
+        "Iman_Companion_es_tadabbur-extended.docx": "02986f9931c312933240d49bb90e4cfd0d77070ff3729735de44dc4744334379",
+        "Iman_Companion_es_tadabbur-extended.pdf": "748df03870fa77796c3cea469c2dc46aa5ed49f7de82929a464ee98ba0970369",
+        "Iman_Companion_es_tadabbur-extended.docx.reader-checks.json": "da71f4b2120d8653376b8db2c2a0beaf53137df4f414b36788727fab518245f7",
+        "index.json": "a7b90afceeb962cb68308e5213a806af202bca4a46f69139c107cd732683adba",
+        "source-manifest.json": "65cf5f556c9a1892c11d99aebf7360b6ee9336dd44759ab9e3795891ccec251f",
+        "prepared-snapshot.json": "d5f58b9806047c2303b4ea349ce42734982ed42474f063304e7dfa4a82c996ac"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "fa",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "8ab0cc4186e5e9eeb252b6faeebdeb0321cb3b926a3c87c1fe1d6945c1877a24",
+      "includedUnits": 2,
+      "sourceBindings": 18,
+      "preparedSnapshotSHA256": "40947849158dae8b8d3af1440e46bba6cbd144c85e32af853a266bd0d4f7e4da",
+      "handoffSHA256": "f74c4b70a723eaa8bb48e0ab506db745564d324f6aea40e166b740243c610420",
+      "files": {
+        "Iman_Companion_fa_tadabbur-extended.docx": "7ddf356122442e44d6abb273c5893c2d96bddd5f0c3028f9175fb15ad11051d3",
+        "Iman_Companion_fa_tadabbur-extended.pdf": "198c2c6259f35c88962eaa87f271826d54eadb6360513ee15ade38d7d6ea6e93",
+        "Iman_Companion_fa_tadabbur-extended.docx.reader-checks.json": "041b22823f6c1c51b0cc235b745db4f9a86b857e9376aac3e7a1ae7e9122b858",
+        "index.json": "0ee5686b9b3553be3c8984005c02a36a9017ef8d0f7929908614d260ff6272b5",
+        "source-manifest.json": "8c41d20596fa9324e29eeecbfc248c4a4a0587890279d42a0693113b743a3eb7",
+        "prepared-snapshot.json": "40947849158dae8b8d3af1440e46bba6cbd144c85e32af853a266bd0d4f7e4da"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "fil",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "28fa847e5ad6d65681800d1d47cb3cee152fa050a8e62906b77d8b91e102d0a9",
+      "includedUnits": 2,
+      "sourceBindings": 21,
+      "preparedSnapshotSHA256": "11cbca33ad4f64fbba2b3b114f1c028a39926a1c157d2250335e471722d4509d",
+      "handoffSHA256": "0a32ab7ae8d2162615bd78408e47f10eb43d2a64626debdcc6ce1d7b5e5d2c0b",
+      "files": {
+        "Iman_Companion_fil_tadabbur-extended.docx": "e90f027d7231ad914a222d33e702b06d9dc7e3ebb0afebb45b4e16b050f96ee7",
+        "Iman_Companion_fil_tadabbur-extended.pdf": "b9c6d5b68d7dc74bd49db536150d8cfbce6dcc4cdf567ea68c3669aefc9efdca",
+        "Iman_Companion_fil_tadabbur-extended.docx.reader-checks.json": "33d7620213eba83a4b42062d6a0a7d0c4867c740a1c66009b505622e3d2170c3",
+        "index.json": "750a8ebb3927fb99128ca392d809ca758a876c048cb36e2ec76eaa5058c36439",
+        "source-manifest.json": "fd835b64b7c750dd8d781b1a690c00d759b94a6b575d931241da4e7d37255d2d",
+        "prepared-snapshot.json": "11cbca33ad4f64fbba2b3b114f1c028a39926a1c157d2250335e471722d4509d"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "fr",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "ff76129f822ed868395f0922e6b5648f271a5f8feecceb0acec937ff5cf35344",
+      "includedUnits": 15,
+      "sourceBindings": 68,
+      "preparedSnapshotSHA256": "687f8304b8d0a01775be0bd19065b47fd93df9183c17a6e8a9b468423a1fdbf9",
+      "handoffSHA256": "3986f0eaaced31e3645d755437ce9c630b5e571d0f31c51a004b35aef218d7f3",
+      "files": {
+        "Iman_Companion_fr_tadabbur-extended.docx": "e58785ab019c16580cec391f6b5862ea4acc95a18cd7cfe68d2b1a446ee8b1bf",
+        "Iman_Companion_fr_tadabbur-extended.pdf": "904ee2e9f9beb5074289543540c1cfc9dfe944ebb6468b30e29257cf201ff88d",
+        "Iman_Companion_fr_tadabbur-extended.docx.reader-checks.json": "9d488a95c4867441a940fead865fb1f78724261393a4ad62655e60c11105950e",
+        "index.json": "3686629777d73a239bc0b145dc751432873b7d26feb3a5399304e2423e5cf246",
+        "source-manifest.json": "0869bb7d617b16736b6ba40ceefe0931cf7566ec4f96d723b11a335fb27f8429",
+        "prepared-snapshot.json": "687f8304b8d0a01775be0bd19065b47fd93df9183c17a6e8a9b468423a1fdbf9"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "id",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "3a217b4e86cdf4d767ccef752be6039abaea484f3ac4d1c71948940c03df3280",
+      "includedUnits": 15,
+      "sourceBindings": 68,
+      "preparedSnapshotSHA256": "ecc651d3ee02f0c2ffd77af32a6b0133d88ade500742923e6227b1e6649e4c31",
+      "handoffSHA256": "30257b05039e783b9ca1fb57e523b79bd0cb66b822bda22ac02162727573ca7d",
+      "files": {
+        "Iman_Companion_id_tadabbur-extended.docx": "0b633477f8c49b74dfd7350d4d8684a29d00a49e837599536115d37e8ac87ae6",
+        "Iman_Companion_id_tadabbur-extended.pdf": "d80b19d56f79fecc28e631a6484a3db345d1562998c1102917080311ad7d1dcf",
+        "Iman_Companion_id_tadabbur-extended.docx.reader-checks.json": "f4e08775bc81b0a611d1528a44151e63aa28e43f2927a22cb516fbad735dec1c",
+        "index.json": "a2e83897ba241ff5027a4373149828b1d9b1353d4ae42581e4df21ffebe6fccf",
+        "source-manifest.json": "024906e616d4c9e46b878c73b3ba49f843a3629df9f438a067ec6edcd4f321ba",
+        "prepared-snapshot.json": "ecc651d3ee02f0c2ffd77af32a6b0133d88ade500742923e6227b1e6649e4c31"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "ms",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "26b9e463eaf07f17794b2a360c7a7511673a690bc3d20ab9a84c998b12a382f3",
+      "includedUnits": 15,
+      "sourceBindings": 68,
+      "preparedSnapshotSHA256": "2de29d50c5dcff44a37a91319816d8ba5139a7d22317d6d6d85cbfd192b01cc9",
+      "handoffSHA256": "b37c71e34f1e11e987f7117bb320eba4ba2c20d3ea78f20d40a10a513ecc1a0c",
+      "files": {
+        "Iman_Companion_ms_tadabbur-extended.docx": "70a68fc08c9f75b6a7af6cc55e057c9560c126df25d2114feee3ca7e5a1d0b9f",
+        "Iman_Companion_ms_tadabbur-extended.pdf": "f4d579d08d0163ca05cdd5297406b120b15238afbf8a8fe43539d1ef648f5a13",
+        "Iman_Companion_ms_tadabbur-extended.docx.reader-checks.json": "dccbd143de3bd207cc01ec3cd32560f669d2aff91a687b737b3b73af442eccc2",
+        "index.json": "875b74cdecc5b78ca1e38d665f6897e608aa8fb33ffa893afc90f3ed927c58d0",
+        "source-manifest.json": "2d7d44a66bc95161d339b71b74f19914228c35322476ebdfa5ba2c0df42bca08",
+        "prepared-snapshot.json": "2de29d50c5dcff44a37a91319816d8ba5139a7d22317d6d6d85cbfd192b01cc9"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "pt-BR",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "6433860e73212882e1e50f052965def6103f5e73f23aad2053b421e1f3e8d192",
+      "includedUnits": 15,
+      "sourceBindings": 68,
+      "preparedSnapshotSHA256": "668134074be41270f4000dcb3fa9457f75ffcf9130d357907f265f2a4470ce92",
+      "handoffSHA256": "8234eaa299be7c8e99331b3c6a75a4e2731a51b871f014447b4a8e15c4e9616d",
+      "files": {
+        "Iman_Companion_pt-BR_tadabbur-extended.docx": "ac86474ee2b020b08c0d59a38c13b84f66a8646b02b45aa148d3a0ce1b45e6a1",
+        "Iman_Companion_pt-BR_tadabbur-extended.pdf": "1f855cb917d08723acb03715470d95e1c6606f83a01684dbe54b198f697ec614",
+        "Iman_Companion_pt-BR_tadabbur-extended.docx.reader-checks.json": "88e27058a740fe5d3a753861d9ce82c063ffba72bb5579f3b1302cc6bdce42f0",
+        "index.json": "27de149282e4a898f293c07218988a23ce3cf48fcbeeace5219fc30061757ff7",
+        "source-manifest.json": "5c2c04f747f5e96be338a5bf7d5a00cb115eb2f5299e29f0cabb91ff2eac45c3",
+        "prepared-snapshot.json": "668134074be41270f4000dcb3fa9457f75ffcf9130d357907f265f2a4470ce92"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "ru",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "ba52392b7a2d19a5ac66f5907fb9f95d1cf0f94f141caef983955d48e29d026a",
+      "includedUnits": 2,
+      "sourceBindings": 18,
+      "preparedSnapshotSHA256": "40e5db745114a6507d8b34f775b677117989e7c93631b2fb108148d8b01c35b3",
+      "handoffSHA256": "8e595977b26dabdb9852947a4cd7ff52fa2f350403d7174d27c345d69721d720",
+      "files": {
+        "Iman_Companion_ru_tadabbur-extended.docx": "96ae5647db2123ecc97a62b35b110d5666ff38393879372fec2fc101134410f1",
+        "Iman_Companion_ru_tadabbur-extended.pdf": "ddbe55d9c3ca1e7c19d788226c03c1f97fa8ec253c299096457bd27de3e811c5",
+        "Iman_Companion_ru_tadabbur-extended.docx.reader-checks.json": "0b411c4c41e196124900ab0e0411b736fb8a3064511e5847c084d4775feda631",
+        "index.json": "a569740674b84e66ce355b60fa093e5187f07a33f9a5f984b8d30629fc5e951c",
+        "source-manifest.json": "535163a07a9fa7fab788c98c6c5e2addf44b427e9babd49603c01f735ce1d980",
+        "prepared-snapshot.json": "40e5db745114a6507d8b34f775b677117989e7c93631b2fb108148d8b01c35b3"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "th",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "9e715f31cb84753f109688737c8ab1ddcfc930b7e372de6c354265df57256f00",
+      "includedUnits": 2,
+      "sourceBindings": 18,
+      "preparedSnapshotSHA256": "50c487962063b0cbec4a8099ab1387e8db64ea41147e8db9f6e65b31a741eaf8",
+      "handoffSHA256": "9a624f8fb7e8816ab81a28e5c4970378bf941ac2f10370dfe3d13ab9c0ad9880",
+      "files": {
+        "Iman_Companion_th_tadabbur-extended.docx": "41161f0b44a56d7a7e900afada078fdf2a703c958f8dd26bd4e3da04c456e044",
+        "Iman_Companion_th_tadabbur-extended.pdf": "0f2e10d9012e9a499c64fc1a56af63202003f1fc6f301e0f258acb6dbdab7142",
+        "Iman_Companion_th_tadabbur-extended.docx.reader-checks.json": "dd3f7c7cd613b98987ec9c63689ca530e0635b8d60dc4cdd2b9bd782ccf4dac6",
+        "index.json": "59d32a3f0485e7d3f5347a2f9cd0dedea380e3451223453604618dcc1d733ee6",
+        "source-manifest.json": "5f88d7e0498ad7059d1f8981a8677e4485aba85dca3a5e7ced5668d3b74455a7",
+        "prepared-snapshot.json": "50c487962063b0cbec4a8099ab1387e8db64ea41147e8db9f6e65b31a741eaf8"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "uz",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "de549d40e38ef77400ab01d00a9be7b7dfa0514a82369ca4f02c90f8b2c67f77",
+      "includedUnits": 2,
+      "sourceBindings": 18,
+      "preparedSnapshotSHA256": "5e2da105432798ad072fb286cf63c8dc876d4b8a91a4e4a31fbcf4e349e0bb2f",
+      "handoffSHA256": "c32d73235006a54878fc178a606f1982b2a736488b6303b046f7ecf7f5a1049f",
+      "files": {
+        "Iman_Companion_uz_tadabbur-extended.docx": "4d86d483acc9270642ed7609762fdb78841c431aa457108eeee3013b75ed9d24",
+        "Iman_Companion_uz_tadabbur-extended.pdf": "cbca7e4231c5dc79d5bc281d2f569fc865fa340e055740d1387c7af44b1a1f62",
+        "Iman_Companion_uz_tadabbur-extended.docx.reader-checks.json": "98f1a77fc106b246c189bef9464f095889d3e1198be6dd9689f53721129d1403",
+        "index.json": "5df0e82f55caf40ea7b49d2ce089e0780362b2e939633d2f8a1278db9628f82b",
+        "source-manifest.json": "26c2a8d75997de9c939c37e014386349e49cd58c494ce7b76a962e64226d2997",
+        "prepared-snapshot.json": "5e2da105432798ad072fb286cf63c8dc876d4b8a91a4e4a31fbcf4e349e0bb2f"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "vi",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "beddf34dd390591386321acf0c74b0ef825a35901b1a744a5c59853d37fbf177",
+      "includedUnits": 2,
+      "sourceBindings": 18,
+      "preparedSnapshotSHA256": "324839071b7d4920bb84d969a6c497d7897e38a5f39f0a9f6b65240e8ff20fd9",
+      "handoffSHA256": "0f07ef17c211171fa823b689b7151e1bdc5b2b9d818c5482af527576cbd35cbf",
+      "files": {
+        "Iman_Companion_vi_tadabbur-extended.docx": "d3a03e0412e5d690214cdfbeafb7d6e3941ed0c70e2087783aac0da00cee7ae9",
+        "Iman_Companion_vi_tadabbur-extended.pdf": "6a76c0783546b1447e32f756a8dec0ec162cb9ecf5bc83e7eaad97b5ef20eabe",
+        "Iman_Companion_vi_tadabbur-extended.docx.reader-checks.json": "740c0b34062853adebd4272ec844713a40846c80ed625f34abcf27d9e18127ae",
+        "index.json": "07d5e11a0788d075aaff559e39eb47622f8ecf5c2158077c349cff50082e6391",
+        "source-manifest.json": "f4a00f4719fa7383e6a5ce5a6b28467a7474aad9aedd0037aa42ecec5f1d9c3d",
+        "prepared-snapshot.json": "324839071b7d4920bb84d969a6c497d7897e38a5f39f0a9f6b65240e8ff20fd9"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    },
+    {
+      "language": "zh-CN",
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "aaa8fda07d4f909cda67c2fcb32e6ccd5f6d2ec137576f9f1a7456cbc68669f3",
+      "includedUnits": 2,
+      "sourceBindings": 18,
+      "preparedSnapshotSHA256": "dfb2db6c8c79e3b8f3724ca2de17d6d7a08632db236a1ff420fba6b0e149e29a",
+      "handoffSHA256": "c47ccb348d9b11f33f01760eae5cd8344bd9ae09ebb8f99f5e53b6ad06244832",
+      "files": {
+        "Iman_Companion_zh-CN_tadabbur-extended.docx": "e42abd06717b26bb6b622096e0bbc74cb394de06bd3f6ca74191089f5e86f65c",
+        "Iman_Companion_zh-CN_tadabbur-extended.pdf": "c95951b016a7aaa816a023a3fc1507dcf11b561eb6b933a2eac35d9329191187",
+        "Iman_Companion_zh-CN_tadabbur-extended.docx.reader-checks.json": "8e75fdd94f0a8626832551ab91277a27469b46b25fe281f7070c5751913e8c17",
+        "index.json": "6144b4981312653e630a9c716adf631f9ffc6e2acb55865421f803de9af1265d",
+        "source-manifest.json": "bd0acf78b07628331419607a24e71b185aef10559fa8314c01fe5601a62157a3",
+        "prepared-snapshot.json": "dfb2db6c8c79e3b8f3724ca2de17d6d7a08632db236a1ff420fba6b0e149e29a"
+      },
+      "pendingChecks": [
+        "actual-word-layout",
+        "final-visual-inspection"
+      ]
+    }
+  ]
+}
