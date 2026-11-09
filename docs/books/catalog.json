@@ -29,13 +29,6 @@
           "units": 1,
           "pages": 22,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "Surah Al-Ikhlas — Reflections",
-              "numberLabel": "Surah 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "en",
@@ -244,6 +237,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "Surah Al-Ikhlas — Reflections",
+              "numberLabel": "Surah 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -266,23 +266,6 @@
           "units": 3,
           "pages": 18,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "Allah’s greatness and its effect on the heart and our deeds",
-              "numberLabel": "Hadith 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "All hearts are under the control of the Most Compassionate",
-              "numberLabel": "Hadith 3"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "Steadfastness in religion and recognizing a heart that has strayed",
-              "numberLabel": "Hadith 4"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "en",
@@ -349,7 +332,24 @@
                 "essential-01-004": "Hadith 4"
               }
             }
-          }
+          },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "Allah’s greatness and its effect on the heart and our deeds",
+              "numberLabel": "Hadith 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "All hearts are under the control of the Most Compassionate",
+              "numberLabel": "Hadith 3"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Steadfastness in religion and recognizing a heart that has strayed",
+              "numberLabel": "Hadith 4"
+            }
+          ]
         }
       ],
       "bundle": {
@@ -387,428 +387,6 @@
           "units": 84,
           "pages": 3041,
           "audio": 0,
-          "contents": [
-            {
-              "id": "1:extended",
-              "title": "سورة الفاتحة",
-              "numberLabel": "سورة ١"
-            },
-            {
-              "id": "2:extended",
-              "title": "سورة البقرة · الآيات المتاحة",
-              "numberLabel": "سورة ٢"
-            },
-            {
-              "id": "3:extended",
-              "title": "سورة آل عمران · الآيات المتاحة",
-              "numberLabel": "سورة ٣"
-            },
-            {
-              "id": "4:extended",
-              "title": "سورة النساء · الآيات المتاحة",
-              "numberLabel": "سورة ٤"
-            },
-            {
-              "id": "5:extended",
-              "title": "سورة المائدة · الآيات المتاحة",
-              "numberLabel": "سورة ٥"
-            },
-            {
-              "id": "6:extended",
-              "title": "سورة الأنعام",
-              "numberLabel": "سورة ٦"
-            },
-            {
-              "id": "7:extended",
-              "title": "سورة الأعراف",
-              "numberLabel": "سورة ٧"
-            },
-            {
-              "id": "11:extended",
-              "title": "سورة هود · الآيات المتاحة",
-              "numberLabel": "سورة ١١"
-            },
-            {
-              "id": "12:extended",
-              "title": "سورة يوسف · الآيات المتاحة",
-              "numberLabel": "سورة ١٢"
-            },
-            {
-              "id": "13:extended",
-              "title": "سورة الرعد",
-              "numberLabel": "سورة ١٣"
-            },
-            {
-              "id": "14:extended",
-              "title": "سورة إبراهيم",
-              "numberLabel": "سورة ١٤"
-            },
-            {
-              "id": "15:extended",
-              "title": "سورة الحجر · الآيات المتاحة",
-              "numberLabel": "سورة ١٥"
-            },
-            {
-              "id": "17:extended",
-              "title": "سورة الإسراء · الآيات المتاحة",
-              "numberLabel": "سورة ١٧"
-            },
-            {
-              "id": "18:extended",
-              "title": "سورة الكهف",
-              "numberLabel": "سورة ١٨"
-            },
-            {
-              "id": "19:extended",
-              "title": "سورة مريم",
-              "numberLabel": "سورة ١٩"
-            },
-            {
-              "id": "20:extended",
-              "title": "سورة طه · الآيات المتاحة",
-              "numberLabel": "سورة ٢٠"
-            },
-            {
-              "id": "22:extended",
-              "title": "سورة الحج · الآيات المتاحة",
-              "numberLabel": "سورة ٢٢"
-            },
-            {
-              "id": "25:extended",
-              "title": "سورة الفرقان · الآيات المتاحة",
-              "numberLabel": "سورة ٢٥"
-            },
-            {
-              "id": "28:extended",
-              "title": "سورة القصص",
-              "numberLabel": "سورة ٢٨"
-            },
-            {
-              "id": "29:extended",
-              "title": "سورة العنكبوت",
-              "numberLabel": "سورة ٢٩"
-            },
-            {
-              "id": "30:extended",
-              "title": "سورة الروم · الآيات المتاحة",
-              "numberLabel": "سورة ٣٠"
-            },
-            {
-              "id": "31:extended",
-              "title": "سورة لقمان · الآيات المتاحة",
-              "numberLabel": "سورة ٣١"
-            },
-            {
-              "id": "33:extended",
-              "title": "سورة الأحزاب · الآيات المتاحة",
-              "numberLabel": "سورة ٣٣"
-            },
-            {
-              "id": "34:extended",
-              "title": "سورة سبأ",
-              "numberLabel": "سورة ٣٤"
-            },
-            {
-              "id": "35:extended",
-              "title": "سورة فاطر",
-              "numberLabel": "سورة ٣٥"
-            },
-            {
-              "id": "36:extended",
-              "title": "سورة يس",
-              "numberLabel": "سورة ٣٦"
-            },
-            {
-              "id": "40:extended",
-              "title": "سورة غافر · الآيات المتاحة",
-              "numberLabel": "سورة ٤٠"
-            },
-            {
-              "id": "41:extended",
-              "title": "سورة فصلت · الآيات المتاحة",
-              "numberLabel": "سورة ٤١"
-            },
-            {
-              "id": "42:extended",
-              "title": "سورة الشورى · الآيات المتاحة",
-              "numberLabel": "سورة ٤٢"
-            },
-            {
-              "id": "43:extended",
-              "title": "سورة الزخرف · الآيات المتاحة",
-              "numberLabel": "سورة ٤٣"
-            },
-            {
-              "id": "45:extended",
-              "title": "سورة الجاثية · الآيات المتاحة",
-              "numberLabel": "سورة ٤٥"
-            },
-            {
-              "id": "47:extended",
-              "title": "سورة محمد",
-              "numberLabel": "سورة ٤٧"
-            },
-            {
-              "id": "48:extended",
-              "title": "سورة الفتح",
-              "numberLabel": "سورة ٤٨"
-            },
-            {
-              "id": "49:extended",
-              "title": "سورة الحجرات · الآيات المتاحة",
-              "numberLabel": "سورة ٤٩"
-            },
-            {
-              "id": "50:extended",
-              "title": "سورة ق · الآيات المتاحة",
-              "numberLabel": "سورة ٥٠"
-            },
-            {
-              "id": "51:extended",
-              "title": "سورة الذاريات · الآيات المتاحة",
-              "numberLabel": "سورة ٥١"
-            },
-            {
-              "id": "55:extended",
-              "title": "سورة الرحمن · الآيات المتاحة",
-              "numberLabel": "سورة ٥٥"
-            },
-            {
-              "id": "57:extended",
-              "title": "سورة الحديد",
-              "numberLabel": "سورة ٥٧"
-            },
-            {
-              "id": "58:extended",
-              "title": "سورة المجادلة",
-              "numberLabel": "سورة ٥٨"
-            },
-            {
-              "id": "61:extended",
-              "title": "سورة الصف",
-              "numberLabel": "سورة ٦١"
-            },
-            {
-              "id": "62:extended",
-              "title": "سورة الجمعة",
-              "numberLabel": "سورة ٦٢"
-            },
-            {
-              "id": "63:extended",
-              "title": "سورة المنافقون",
-              "numberLabel": "سورة ٦٣"
-            },
-            {
-              "id": "64:extended",
-              "title": "سورة التغابن",
-              "numberLabel": "سورة ٦٤"
-            },
-            {
-              "id": "66:extended",
-              "title": "سورة التحريم · الآيات المتاحة",
-              "numberLabel": "سورة ٦٦"
-            },
-            {
-              "id": "67:extended",
-              "title": "سورة الملك",
-              "numberLabel": "سورة ٦٧"
-            },
-            {
-              "id": "68:extended",
-              "title": "سورة القلم · الآيات المتاحة",
-              "numberLabel": "سورة ٦٨"
-            },
-            {
-              "id": "70:extended",
-              "title": "سورة المعارج",
-              "numberLabel": "سورة ٧٠"
-            },
-            {
-              "id": "71:extended",
-              "title": "سورة نوح",
-              "numberLabel": "سورة ٧١"
-            },
-            {
-              "id": "72:extended",
-              "title": "سورة الجن",
-              "numberLabel": "سورة ٧٢"
-            },
-            {
-              "id": "73:extended",
-              "title": "سورة المزمل",
-              "numberLabel": "سورة ٧٣"
-            },
-            {
-              "id": "74:extended",
-              "title": "سورة المدثر",
-              "numberLabel": "سورة ٧٤"
-            },
-            {
-              "id": "75:extended",
-              "title": "سورة القيامة",
-              "numberLabel": "سورة ٧٥"
-            },
-            {
-              "id": "78:extended",
-              "title": "سورة النبأ",
-              "numberLabel": "سورة ٧٨"
-            },
-            {
-              "id": "79:extended",
-              "title": "سورة النازعات",
-              "numberLabel": "سورة ٧٩"
-            },
-            {
-              "id": "80:extended",
-              "title": "سورة عبس",
-              "numberLabel": "سورة ٨٠"
-            },
-            {
-              "id": "81:extended",
-              "title": "سورة التكوير",
-              "numberLabel": "سورة ٨١"
-            },
-            {
-              "id": "82:extended",
-              "title": "سورة الانفطار",
-              "numberLabel": "سورة ٨٢"
-            },
-            {
-              "id": "83:extended",
-              "title": "سورة المطففين",
-              "numberLabel": "سورة ٨٣"
-            },
-            {
-              "id": "84:extended",
-              "title": "سورة الانشقاق",
-              "numberLabel": "سورة ٨٤"
-            },
-            {
-              "id": "85:extended",
-              "title": "سورة البروج",
-              "numberLabel": "سورة ٨٥"
-            },
-            {
-              "id": "86:extended",
-              "title": "سورة الطارق",
-              "numberLabel": "سورة ٨٦"
-            },
-            {
-              "id": "87:extended",
-              "title": "سورة الأعلى",
-              "numberLabel": "سورة ٨٧"
-            },
-            {
-              "id": "88:extended",
-              "title": "سورة الغاشية",
-              "numberLabel": "سورة ٨٨"
-            },
-            {
-              "id": "89:extended",
-              "title": "سورة الفجر",
-              "numberLabel": "سورة ٨٩"
-            },
-            {
-              "id": "90:extended",
-              "title": "سورة البلد",
-              "numberLabel": "سورة ٩٠"
-            },
-            {
-              "id": "91:extended",
-              "title": "سورة الشمس",
-              "numberLabel": "سورة ٩١"
-            },
-            {
-              "id": "92:extended",
-              "title": "سورة الليل",
-              "numberLabel": "سورة ٩٢"
-            },
-            {
-              "id": "93:extended",
-              "title": "سورة الضحى",
-              "numberLabel": "سورة ٩٣"
-            },
-            {
-              "id": "94:extended",
-              "title": "سورة الشرح",
-              "numberLabel": "سورة ٩٤"
-            },
-            {
-              "id": "95:extended",
-              "title": "سورة التين",
-              "numberLabel": "سورة ٩٥"
-            },
-            {
-              "id": "96:extended",
-              "title": "سورة العلق",
-              "numberLabel": "سورة ٩٦"
-            },
-            {
-              "id": "98:extended",
-              "title": "سورة البينة",
-              "numberLabel": "سورة ٩٨"
-            },
-            {
-              "id": "99:extended",
-              "title": "سورة الزلزلة",
-              "numberLabel": "سورة ٩٩"
-            },
-            {
-              "id": "100:extended",
-              "title": "سورة العاديات",
-              "numberLabel": "سورة ١٠٠"
-            },
-            {
-              "id": "101:extended",
-              "title": "سورة القارعة",
-              "numberLabel": "سورة ١٠١"
-            },
-            {
-              "id": "102:extended",
-              "title": "سورة التكاثر",
-              "numberLabel": "سورة ١٠٢"
-            },
-            {
-              "id": "103:extended",
-              "title": "سورة العصر",
-              "numberLabel": "سورة ١٠٣"
-            },
-            {
-              "id": "104:extended",
-              "title": "سورة الهمزة",
-              "numberLabel": "سورة ١٠٤"
-            },
-            {
-              "id": "107:extended",
-              "title": "سورة الماعون",
-              "numberLabel": "سورة ١٠٧"
-            },
-            {
-              "id": "108:extended",
-              "title": "سورة الكوثر",
-              "numberLabel": "سورة ١٠٨"
-            },
-            {
-              "id": "111:extended",
-              "title": "سورة المسد",
-              "numberLabel": "سورة ١١١"
-            },
-            {
-              "id": "112:extended",
-              "title": "تدبر سورة الإخلاص",
-              "numberLabel": "سورة ١١٢"
-            },
-            {
-              "id": "113:extended",
-              "title": "سورة الفلق",
-              "numberLabel": "سورة ١١٣"
-            },
-            {
-              "id": "114:extended",
-              "title": "سورة الناس",
-              "numberLabel": "سورة ١١٤"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ar",
@@ -1343,7 +921,429 @@
                 "114:extended": "سورة ١١٤"
               }
             }
-          }
+          },
+          "contents": [
+            {
+              "id": "1:extended",
+              "title": "سورة الفاتحة",
+              "numberLabel": "سورة ١"
+            },
+            {
+              "id": "2:extended",
+              "title": "سورة البقرة · الآيات المتاحة",
+              "numberLabel": "سورة ٢"
+            },
+            {
+              "id": "3:extended",
+              "title": "سورة آل عمران · الآيات المتاحة",
+              "numberLabel": "سورة ٣"
+            },
+            {
+              "id": "4:extended",
+              "title": "سورة النساء · الآيات المتاحة",
+              "numberLabel": "سورة ٤"
+            },
+            {
+              "id": "5:extended",
+              "title": "سورة المائدة · الآيات المتاحة",
+              "numberLabel": "سورة ٥"
+            },
+            {
+              "id": "6:extended",
+              "title": "سورة الأنعام",
+              "numberLabel": "سورة ٦"
+            },
+            {
+              "id": "7:extended",
+              "title": "سورة الأعراف",
+              "numberLabel": "سورة ٧"
+            },
+            {
+              "id": "11:extended",
+              "title": "سورة هود · الآيات المتاحة",
+              "numberLabel": "سورة ١١"
+            },
+            {
+              "id": "12:extended",
+              "title": "سورة يوسف · الآيات المتاحة",
+              "numberLabel": "سورة ١٢"
+            },
+            {
+              "id": "13:extended",
+              "title": "سورة الرعد",
+              "numberLabel": "سورة ١٣"
+            },
+            {
+              "id": "14:extended",
+              "title": "سورة إبراهيم",
+              "numberLabel": "سورة ١٤"
+            },
+            {
+              "id": "15:extended",
+              "title": "سورة الحجر · الآيات المتاحة",
+              "numberLabel": "سورة ١٥"
+            },
+            {
+              "id": "17:extended",
+              "title": "سورة الإسراء · الآيات المتاحة",
+              "numberLabel": "سورة ١٧"
+            },
+            {
+              "id": "18:extended",
+              "title": "سورة الكهف",
+              "numberLabel": "سورة ١٨"
+            },
+            {
+              "id": "19:extended",
+              "title": "سورة مريم",
+              "numberLabel": "سورة ١٩"
+            },
+            {
+              "id": "20:extended",
+              "title": "سورة طه · الآيات المتاحة",
+              "numberLabel": "سورة ٢٠"
+            },
+            {
+              "id": "22:extended",
+              "title": "سورة الحج · الآيات المتاحة",
+              "numberLabel": "سورة ٢٢"
+            },
+            {
+              "id": "25:extended",
+              "title": "سورة الفرقان · الآيات المتاحة",
+              "numberLabel": "سورة ٢٥"
+            },
+            {
+              "id": "28:extended",
+              "title": "سورة القصص",
+              "numberLabel": "سورة ٢٨"
+            },
+            {
+              "id": "29:extended",
+              "title": "سورة العنكبوت",
+              "numberLabel": "سورة ٢٩"
+            },
+            {
+              "id": "30:extended",
+              "title": "سورة الروم · الآيات المتاحة",
+              "numberLabel": "سورة ٣٠"
+            },
+            {
+              "id": "31:extended",
+              "title": "سورة لقمان · الآيات المتاحة",
+              "numberLabel": "سورة ٣١"
+            },
+            {
+              "id": "33:extended",
+              "title": "سورة الأحزاب · الآيات المتاحة",
+              "numberLabel": "سورة ٣٣"
+            },
+            {
+              "id": "34:extended",
+              "title": "سورة سبأ",
+              "numberLabel": "سورة ٣٤"
+            },
+            {
+              "id": "35:extended",
+              "title": "سورة فاطر",
+              "numberLabel": "سورة ٣٥"
+            },
+            {
+              "id": "36:extended",
+              "title": "سورة يس",
+              "numberLabel": "سورة ٣٦"
+            },
+            {
+              "id": "40:extended",
+              "title": "سورة غافر · الآيات المتاحة",
+              "numberLabel": "سورة ٤٠"
+            },
+            {
+              "id": "41:extended",
+              "title": "سورة فصلت · الآيات المتاحة",
+              "numberLabel": "سورة ٤١"
+            },
+            {
+              "id": "42:extended",
+              "title": "سورة الشورى · الآيات المتاحة",
+              "numberLabel": "سورة ٤٢"
+            },
+            {
+              "id": "43:extended",
+              "title": "سورة الزخرف · الآيات المتاحة",
+              "numberLabel": "سورة ٤٣"
+            },
+            {
+              "id": "45:extended",
+              "title": "سورة الجاثية · الآيات المتاحة",
+              "numberLabel": "سورة ٤٥"
+            },
+            {
+              "id": "47:extended",
+              "title": "سورة محمد",
+              "numberLabel": "سورة ٤٧"
+            },
+            {
+              "id": "48:extended",
+              "title": "سورة الفتح",
+              "numberLabel": "سورة ٤٨"
+            },
+            {
+              "id": "49:extended",
+              "title": "سورة الحجرات · الآيات المتاحة",
+              "numberLabel": "سورة ٤٩"
+            },
+            {
+              "id": "50:extended",
+              "title": "سورة ق · الآيات المتاحة",
+              "numberLabel": "سورة ٥٠"
+            },
+            {
+              "id": "51:extended",
+              "title": "سورة الذاريات · الآيات المتاحة",
+              "numberLabel": "سورة ٥١"
+            },
+            {
+              "id": "55:extended",
+              "title": "سورة الرحمن · الآيات المتاحة",
+              "numberLabel": "سورة ٥٥"
+            },
+            {
+              "id": "57:extended",
+              "title": "سورة الحديد",
+              "numberLabel": "سورة ٥٧"
+            },
+            {
+              "id": "58:extended",
+              "title": "سورة المجادلة",
+              "numberLabel": "سورة ٥٨"
+            },
+            {
+              "id": "61:extended",
+              "title": "سورة الصف",
+              "numberLabel": "سورة ٦١"
+            },
+            {
+              "id": "62:extended",
+              "title": "سورة الجمعة",
+              "numberLabel": "سورة ٦٢"
+            },
+            {
+              "id": "63:extended",
+              "title": "سورة المنافقون",
+              "numberLabel": "سورة ٦٣"
+            },
+            {
+              "id": "64:extended",
+              "title": "سورة التغابن",
+              "numberLabel": "سورة ٦٤"
+            },
+            {
+              "id": "66:extended",
+              "title": "سورة التحريم · الآيات المتاحة",
+              "numberLabel": "سورة ٦٦"
+            },
+            {
+              "id": "67:extended",
+              "title": "سورة الملك",
+              "numberLabel": "سورة ٦٧"
+            },
+            {
+              "id": "68:extended",
+              "title": "سورة القلم · الآيات المتاحة",
+              "numberLabel": "سورة ٦٨"
+            },
+            {
+              "id": "70:extended",
+              "title": "سورة المعارج",
+              "numberLabel": "سورة ٧٠"
+            },
+            {
+              "id": "71:extended",
+              "title": "سورة نوح",
+              "numberLabel": "سورة ٧١"
+            },
+            {
+              "id": "72:extended",
+              "title": "سورة الجن",
+              "numberLabel": "سورة ٧٢"
+            },
+            {
+              "id": "73:extended",
+              "title": "سورة المزمل",
+              "numberLabel": "سورة ٧٣"
+            },
+            {
+              "id": "74:extended",
+              "title": "سورة المدثر",
+              "numberLabel": "سورة ٧٤"
+            },
+            {
+              "id": "75:extended",
+              "title": "سورة القيامة",
+              "numberLabel": "سورة ٧٥"
+            },
+            {
+              "id": "78:extended",
+              "title": "سورة النبأ",
+              "numberLabel": "سورة ٧٨"
+            },
+            {
+              "id": "79:extended",
+              "title": "سورة النازعات",
+              "numberLabel": "سورة ٧٩"
+            },
+            {
+              "id": "80:extended",
+              "title": "سورة عبس",
+              "numberLabel": "سورة ٨٠"
+            },
+            {
+              "id": "81:extended",
+              "title": "سورة التكوير",
+              "numberLabel": "سورة ٨١"
+            },
+            {
+              "id": "82:extended",
+              "title": "سورة الانفطار",
+              "numberLabel": "سورة ٨٢"
+            },
+            {
+              "id": "83:extended",
+              "title": "سورة المطففين",
+              "numberLabel": "سورة ٨٣"
+            },
+            {
+              "id": "84:extended",
+              "title": "سورة الانشقاق",
+              "numberLabel": "سورة ٨٤"
+            },
+            {
+              "id": "85:extended",
+              "title": "سورة البروج",
+              "numberLabel": "سورة ٨٥"
+            },
+            {
+              "id": "86:extended",
+              "title": "سورة الطارق",
+              "numberLabel": "سورة ٨٦"
+            },
+            {
+              "id": "87:extended",
+              "title": "سورة الأعلى",
+              "numberLabel": "سورة ٨٧"
+            },
+            {
+              "id": "88:extended",
+              "title": "سورة الغاشية",
+              "numberLabel": "سورة ٨٨"
+            },
+            {
+              "id": "89:extended",
+              "title": "سورة الفجر",
+              "numberLabel": "سورة ٨٩"
+            },
+            {
+              "id": "90:extended",
+              "title": "سورة البلد",
+              "numberLabel": "سورة ٩٠"
+            },
+            {
+              "id": "91:extended",
+              "title": "سورة الشمس",
+              "numberLabel": "سورة ٩١"
+            },
+            {
+              "id": "92:extended",
+              "title": "سورة الليل",
+              "numberLabel": "سورة ٩٢"
+            },
+            {
+              "id": "93:extended",
+              "title": "سورة الضحى",
+              "numberLabel": "سورة ٩٣"
+            },
+            {
+              "id": "94:extended",
+              "title": "سورة الشرح",
+              "numberLabel": "سورة ٩٤"
+            },
+            {
+              "id": "95:extended",
+              "title": "سورة التين",
+              "numberLabel": "سورة ٩٥"
+            },
+            {
+              "id": "96:extended",
+              "title": "سورة العلق",
+              "numberLabel": "سورة ٩٦"
+            },
+            {
+              "id": "98:extended",
+              "title": "سورة البينة",
+              "numberLabel": "سورة ٩٨"
+            },
+            {
+              "id": "99:extended",
+              "title": "سورة الزلزلة",
+              "numberLabel": "سورة ٩٩"
+            },
+            {
+              "id": "100:extended",
+              "title": "سورة العاديات",
+              "numberLabel": "سورة ١٠٠"
+            },
+            {
+              "id": "101:extended",
+              "title": "سورة القارعة",
+              "numberLabel": "سورة ١٠١"
+            },
+            {
+              "id": "102:extended",
+              "title": "سورة التكاثر",
+              "numberLabel": "سورة ١٠٢"
+            },
+            {
+              "id": "103:extended",
+              "title": "سورة العصر",
+              "numberLabel": "سورة ١٠٣"
+            },
+            {
+              "id": "104:extended",
+              "title": "سورة الهمزة",
+              "numberLabel": "سورة ١٠٤"
+            },
+            {
+              "id": "107:extended",
+              "title": "سورة الماعون",
+              "numberLabel": "سورة ١٠٧"
+            },
+            {
+              "id": "108:extended",
+              "title": "سورة الكوثر",
+              "numberLabel": "سورة ١٠٨"
+            },
+            {
+              "id": "111:extended",
+              "title": "سورة المسد",
+              "numberLabel": "سورة ١١١"
+            },
+            {
+              "id": "112:extended",
+              "title": "تدبر سورة الإخلاص",
+              "numberLabel": "سورة ١١٢"
+            },
+            {
+              "id": "113:extended",
+              "title": "سورة الفلق",
+              "numberLabel": "سورة ١١٣"
+            },
+            {
+              "id": "114:extended",
+              "title": "سورة الناس",
+              "numberLabel": "سورة ١١٤"
+            }
+          ]
         },
         {
           "language": "ar",
@@ -1357,1438 +1357,6 @@
           "units": 286,
           "pages": 589,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-001",
-              "title": "عدل الله وغناه وافتقار عباده إليه",
-              "numberLabel": "الحديث ١:١"
-            },
-            {
-              "id": "essential-01-002",
-              "title": "عظمة الله وأثرها في القلب والعمل",
-              "numberLabel": "الحديث ١:٢"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "القلوب تحت تصريف الرحمن",
-              "numberLabel": "الحديث ١:٣"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "الثبات على الدين ومعرفة أوصاف القلب الزائغ",
-              "numberLabel": "الحديث ١:٤"
-            },
-            {
-              "id": "essential-01-005",
-              "title": "الله الأول وافتقار الخلق إليه",
-              "numberLabel": "الحديث ١:٥"
-            },
-            {
-              "id": "essential-01-006",
-              "title": "معرفة أسماء الله وإحصاؤها",
-              "numberLabel": "الحديث ١:٦"
-            },
-            {
-              "id": "essential-01-007",
-              "title": "العمل والتيسير إلى طريق السعادة",
-              "numberLabel": "الحديث ١:٧"
-            },
-            {
-              "id": "essential-01-008",
-              "title": "سبق التقدير والعمل والخاتمة",
-              "numberLabel": "الحديث ١:٨"
-            },
-            {
-              "id": "essential-01-009",
-              "title": "شمول القدر للعمل والقدرة والإرادة",
-              "numberLabel": "الحديث ١:٩"
-            },
-            {
-              "id": "essential-01-010",
-              "title": "كتابة المقادير وطمأنينة الإيمان بالقدر",
-              "numberLabel": "الحديث ١:١٠"
-            },
-            {
-              "id": "essential-01-011",
-              "title": "الكبرياء والعظمة لله وحده",
-              "numberLabel": "الحديث ١:١١"
-            },
-            {
-              "id": "essential-01-012",
-              "title": "عدل الله ورحمته وثبات القلب على القدر",
-              "numberLabel": "الحديث ١:١٢"
-            },
-            {
-              "id": "essential-01-013",
-              "title": "يد الله ملأى سعة الجود وميزان العدل",
-              "numberLabel": "الحديث ١:١٣"
-            },
-            {
-              "id": "essential-01-014",
-              "title": "عظمة العرش والكرسي ومعرفة قدر المخلوق",
-              "numberLabel": "الحديث ١:١٤"
-            },
-            {
-              "id": "essential-01-015",
-              "title": "رحمتي غلبت غضبي معرفة تفتح الرجاء وتصلح العمل",
-              "numberLabel": "الحديث ١:١٥"
-            },
-            {
-              "id": "essential-01-016",
-              "title": "أطيط السماء وعبادة الملائكة",
-              "numberLabel": "الحديث ١:١٦"
-            },
-            {
-              "id": "essential-01-017",
-              "title": "القسم بمقلب القلوب والخوف من الزيغ",
-              "numberLabel": "الحديث ١:١٧"
-            },
-            {
-              "id": "essential-01-018",
-              "title": "الإيمان بالقدر ويقين القلب",
-              "numberLabel": "الحديث ١:١٨"
-            },
-            {
-              "id": "essential-01-019",
-              "title": "التفكر في الآلاء وتصحيح مسار الفكر",
-              "numberLabel": "الحديث ١:١٩"
-            },
-            {
-              "id": "essential-01-020",
-              "title": "مراقبة الله في الخلوة ومحاسبة النفس",
-              "numberLabel": "الحديث ١:٢٠"
-            },
-            {
-              "id": "essential-01-021",
-              "title": "التوحيد الصادق حياة القلب ونوره",
-              "numberLabel": "الحديث ١:٢١"
-            },
-            {
-              "id": "essential-01-022",
-              "title": "الشرك أعظم أدواء القلب وأكبر الكبائر",
-              "numberLabel": "الحديث ١:٢٢"
-            },
-            {
-              "id": "essential-01-023",
-              "title": "الخوف من الشرك وتعلم ما يحفظ القلب",
-              "numberLabel": "الحديث ١:٢٣"
-            },
-            {
-              "id": "essential-01-024",
-              "title": "حرمة اليمين الكاذبة وحقوق الله والعباد",
-              "numberLabel": "الحديث ١:٢٤"
-            },
-            {
-              "id": "essential-01-025",
-              "title": "من معرفة الخالق إلى تصديق رسوله وعبادته",
-              "numberLabel": "الحديث ١:٢٥"
-            },
-            {
-              "id": "essential-01-026",
-              "title": "الميثاق والفطرة وحجة الرسالة",
-              "numberLabel": "الحديث ١:٢٦"
-            },
-            {
-              "id": "essential-01-027",
-              "title": "عجز الخلق وكمال قدرة الخالق",
-              "numberLabel": "الحديث ١:٢٧"
-            },
-            {
-              "id": "essential-01-028",
-              "title": "الحي القيوم لا ينام وتعرض عليه الأعمال",
-              "numberLabel": "الحديث ١:٢٨"
-            },
-            {
-              "id": "essential-01-029",
-              "title": "الافتقار إلى الرب المحيط بكل شيء",
-              "numberLabel": "الحديث ١:٢٩"
-            },
-            {
-              "id": "essential-01-030",
-              "title": "طي السماوات وزوال التجبر",
-              "numberLabel": "الحديث ١:٣٠"
-            },
-            {
-              "id": "essential-01-031",
-              "title": "الملك الحق وسقوط دعوى ملوك الأرض",
-              "numberLabel": "الحديث ١:٣١"
-            },
-            {
-              "id": "essential-01-032",
-              "title": "خضوع الملائكة لكلام الله وحقيقة استراق السمع",
-              "numberLabel": "الحديث ١:٣٢"
-            },
-            {
-              "id": "essential-01-033",
-              "title": "كمال القدرة والوحدانية وتنزيه الله عن الولد",
-              "numberLabel": "الحديث ١:٣٣"
-            },
-            {
-              "id": "essential-01-034",
-              "title": "التفكر الذي يثمر الذكر والشكر والخشية",
-              "numberLabel": "الحديث ١:٣٤"
-            },
-            {
-              "id": "essential-01-035",
-              "title": "تعظيم الله وصيانة اللسان عن سب الدهر",
-              "numberLabel": "الحديث ١:٣٥"
-            },
-            {
-              "id": "essential-01-036",
-              "title": "سجود الشمس وتسخير الكون واغتنام زمن الإيمان",
-              "numberLabel": "الحديث ١:٣٦"
-            },
-            {
-              "id": "essential-01-037",
-              "title": "إحاطة سمع الله وخطر الظن الفاسد به",
-              "numberLabel": "الحديث ١:٣٧"
-            },
-            {
-              "id": "essential-01-038",
-              "title": "مفاتح الغيب وحدود علم الإنسان",
-              "numberLabel": "الحديث ١:٣٨"
-            },
-            {
-              "id": "essential-01-039",
-              "title": "الحمد لله الذي وسع سمعه الأصوات",
-              "numberLabel": "الحديث ١:٣٩"
-            },
-            {
-              "id": "essential-01-040",
-              "title": "كل يوم هو في شأن افتقار الخلق ودوام التدبير",
-              "numberLabel": "الحديث ١:٤٠"
-            },
-            {
-              "id": "essential-02-001",
-              "title": "إنما الأعمال بالنيات وإنما لكل امرئ ما نوى",
-              "numberLabel": "الحديث ٢:١"
-            },
-            {
-              "id": "essential-02-002",
-              "title": "من أحدث في أمرنا هذا ما ليس منه فهو رد",
-              "numberLabel": "الحديث ٢:٢"
-            },
-            {
-              "id": "essential-02-003",
-              "title": "ولكن ينظر إلى قلوبكم وأعمالكم",
-              "numberLabel": "الحديث ٢:٣"
-            },
-            {
-              "id": "essential-02-004",
-              "title": "موعظة بليغة وجلت منها القلوب",
-              "numberLabel": "الحديث ٢:٤"
-            },
-            {
-              "id": "essential-02-005",
-              "title": "أسعد الناس بالشفاعة من أخلص التوحيد بقلبه",
-              "numberLabel": "الحديث ٢:٥"
-            },
-            {
-              "id": "essential-02-006",
-              "title": "صدق النية وبلوغ منازل الشهداء",
-              "numberLabel": "الحديث ٢:٦"
-            },
-            {
-              "id": "essential-02-007",
-              "title": "إخلاص القلب ونصحه ولزوم الجماعة",
-              "numberLabel": "الحديث ٢:٧"
-            },
-            {
-              "id": "essential-02-008",
-              "title": "صدق الشهادة وصدق القلب والعمل",
-              "numberLabel": "الحديث ٢:٨"
-            },
-            {
-              "id": "essential-02-009",
-              "title": "عاجل بشرى المؤمن وثمرة العمل الصالح",
-              "numberLabel": "الحديث ٢:٩"
-            },
-            {
-              "id": "essential-03-001",
-              "title": "حسن الظن بالله واليقين بإجابته",
-              "numberLabel": "الحديث ٣:١"
-            },
-            {
-              "id": "essential-03-002",
-              "title": "اليقين والمعافاة وصلاح القلب والعمل",
-              "numberLabel": "الحديث ٣:٢"
-            },
-            {
-              "id": "essential-03-003",
-              "title": "حسن الظن الذي يثمر عملا ورجاء صادقا",
-              "numberLabel": "الحديث ٣:٣"
-            },
-            {
-              "id": "essential-03-004",
-              "title": "حسن الظن بالله عند الموت واعتدال الخوف والرجاء",
-              "numberLabel": "الحديث ٣:٤"
-            },
-            {
-              "id": "essential-03-005",
-              "title": "سلامة التوكل من الطيرة والتعلق بالأوهام",
-              "numberLabel": "الحديث ٣:٥"
-            },
-            {
-              "id": "essential-03-006",
-              "title": "الفأل الصالح وأثر الكلمة الحسنة في القلب",
-              "numberLabel": "الحديث ٣:٦"
-            },
-            {
-              "id": "essential-03-007",
-              "title": "المؤمن القوي والحرص على النافع مع الاستعانة بالله",
-              "numberLabel": "الحديث ٣:٧"
-            },
-            {
-              "id": "essential-03-008",
-              "title": "اليقين الذي يهون المصائب ويحفظ الدين",
-              "numberLabel": "الحديث ٣:٨"
-            },
-            {
-              "id": "essential-03-009",
-              "title": "كمال التوكل ودخول الجنة بغير حساب",
-              "numberLabel": "الحديث ٣:٩"
-            },
-            {
-              "id": "essential-03-010",
-              "title": "التوكل والسعي في طلب الرزق",
-              "numberLabel": "الحديث ٣:١٠"
-            },
-            {
-              "id": "essential-03-011",
-              "title": "ذكر الخروج من المنزل وتجديد التوكل",
-              "numberLabel": "الحديث ٣:١١"
-            },
-            {
-              "id": "essential-03-012",
-              "title": "وعد الله بالعون لمن يريد العفاف وأداء الحقوق",
-              "numberLabel": "الحديث ٣:١٢"
-            },
-            {
-              "id": "essential-04-001",
-              "title": "ولاية الله وطريق نيل محبته",
-              "numberLabel": "الحديث ٤:١"
-            },
-            {
-              "id": "essential-04-002",
-              "title": "اجتماع الخوف والرجاء في القلب حتى لقاء الله",
-              "numberLabel": "الحديث ٤:٢"
-            },
-            {
-              "id": "essential-04-003",
-              "title": "الاستعداد للقاء الله والفرح بمحبته وفضله",
-              "numberLabel": "الحديث ٤:٣"
-            },
-            {
-              "id": "essential-04-004",
-              "title": "محبة صفات الرحمن وقراءة سورة الإخلاص",
-              "numberLabel": "الحديث ٤:٤"
-            },
-            {
-              "id": "essential-04-005",
-              "title": "محبة سورة الإخلاص التي تثمر دخول الجنة",
-              "numberLabel": "الحديث ٤:٥"
-            },
-            {
-              "id": "essential-04-006",
-              "title": "حلاوة الإيمان والأسباب التي تغذي محبة الله",
-              "numberLabel": "الحديث ٤:٦"
-            },
-            {
-              "id": "essential-04-007",
-              "title": "محبة الرسول وصدق الاتباع",
-              "numberLabel": "الحديث ٤:٧"
-            },
-            {
-              "id": "essential-04-008",
-              "title": "محبة الرسول وكثرة ذكره والشوق إلى لقائه",
-              "numberLabel": "الحديث ٤:٨"
-            },
-            {
-              "id": "essential-04-009",
-              "title": "تقديم محبة الرسول على النفس ولزوم هديه",
-              "numberLabel": "الحديث ٤:٩"
-            },
-            {
-              "id": "essential-04-010",
-              "title": "خطر اليأس والقنوط وفتح القلب لرحمة الله",
-              "numberLabel": "الحديث ٤:١٠"
-            },
-            {
-              "id": "essential-04-011",
-              "title": "معرفة رحمة الله وعقوبته وتحقيق الرجاء والخوف",
-              "numberLabel": "الحديث ٤:١١"
-            },
-            {
-              "id": "essential-04-012",
-              "title": "محبة المؤمنين في الله وسلامة القلب لهم",
-              "numberLabel": "الحديث ٤:١٢"
-            },
-            {
-              "id": "essential-04-013",
-              "title": "إخلاص المحبة والعطاء وكمال الإيمان",
-              "numberLabel": "الحديث ٤:١٣"
-            },
-            {
-              "id": "essential-04-014",
-              "title": "المرء مع من أحب وأثر الصحبة في القلب والعمل",
-              "numberLabel": "الحديث ٤:١٤"
-            },
-            {
-              "id": "essential-04-015",
-              "title": "خشية الله وسعة رحمته وقدرته على بعث خلقه",
-              "numberLabel": "الحديث ٤:١٥"
-            },
-            {
-              "id": "essential-05-001",
-              "title": "تعاهد القلب ودوام الاستغفار",
-              "numberLabel": "الحديث ٥:١"
-            },
-            {
-              "id": "essential-05-002",
-              "title": "أثر الذنوب في القلب وعودة صفائه بالتوبة",
-              "numberLabel": "الحديث ٥:٢"
-            },
-            {
-              "id": "essential-05-003",
-              "title": "جهاد النفس ومحاسبتها وأثر الإيمان في حقوق الناس",
-              "numberLabel": "الحديث ٥:٣"
-            },
-            {
-              "id": "essential-05-004",
-              "title": "التقوى وتدارك السيئة بالحسنة وحسن الخلق",
-              "numberLabel": "الحديث ٥:٤"
-            },
-            {
-              "id": "essential-05-005",
-              "title": "سعة فضل الله وقبول التوبة",
-              "numberLabel": "الحديث ٥:٥"
-            },
-            {
-              "id": "essential-06-001",
-              "title": "إن لله ما أخذ الصبر مع الرحمة",
-              "numberLabel": "الحديث ٦:١"
-            },
-            {
-              "id": "essential-06-002",
-              "title": "العفاف وغنى النفس وعطاء الصبر",
-              "numberLabel": "الحديث ٦:٢"
-            },
-            {
-              "id": "essential-06-003",
-              "title": "الصبر على أذى الناس وأسباب العفو",
-              "numberLabel": "الحديث ٦:٣"
-            },
-            {
-              "id": "essential-06-004",
-              "title": "شكر نعمة المطر ونسبتها إلى الله",
-              "numberLabel": "الحديث ٦:٤"
-            },
-            {
-              "id": "essential-06-005",
-              "title": "كنوز القلب الشاكر واللسان الذاكر والزوجة الصالحة",
-              "numberLabel": "الحديث ٦:٥"
-            },
-            {
-              "id": "essential-06-006",
-              "title": "خير المؤمن بين الصبر والشكر",
-              "numberLabel": "الحديث ٦:٦"
-            },
-            {
-              "id": "essential-06-007",
-              "title": "الصبر عند الصدمة الأولى وعلاج ألم المصيبة",
-              "numberLabel": "الحديث ٦:٧"
-            },
-            {
-              "id": "essential-06-008",
-              "title": "الصبر الجميل والاستعانة بالله عند البهتان",
-              "numberLabel": "الحديث ٦:٨"
-            },
-            {
-              "id": "essential-06-009",
-              "title": "نعمة العافية والماء وإيقاظ القلب بذكر الآلاء",
-              "numberLabel": "الحديث ٦:٩"
-            },
-            {
-              "id": "essential-06-010",
-              "title": "السؤال عن النعيم وحفظ النعم بالشكر",
-              "numberLabel": "الحديث ٦:١٠"
-            },
-            {
-              "id": "essential-06-011",
-              "title": "حقيقة الرضا بالله وحلاوة الإيمان",
-              "numberLabel": "الحديث ٦:١١"
-            },
-            {
-              "id": "essential-06-012",
-              "title": "الرضا الذي يقود إلى الجنة وطلب رضوان الله",
-              "numberLabel": "الحديث ٦:١٢"
-            },
-            {
-              "id": "essential-06-013",
-              "title": "إعلان الرضا عند سماع الأذان",
-              "numberLabel": "الحديث ٦:١٣"
-            },
-            {
-              "id": "essential-06-014",
-              "title": "كلمات الرضا والتسليم لله في أحوال الحياة",
-              "numberLabel": "الحديث ٦:١٤"
-            },
-            {
-              "id": "essential-06-015",
-              "title": "شكر النعمة وحسن النظر إلى ما آتاك الله",
-              "numberLabel": "الحديث ٦:١٥"
-            },
-            {
-              "id": "essential-06-016",
-              "title": "الصبر على الضر وتفويض الحياة والموت إلى الله",
-              "numberLabel": "الحديث ٦:١٦"
-            },
-            {
-              "id": "essential-06-017",
-              "title": "الثبات على الدين حين تشتد الفتن",
-              "numberLabel": "الحديث ٦:١٧"
-            },
-            {
-              "id": "essential-07-001",
-              "title": "مثقال حبة في القلب خطر الكبر وقيمة الإيمان",
-              "numberLabel": "الحديث ٧:١"
-            },
-            {
-              "id": "essential-07-002",
-              "title": "كراهية الوساوس ودفعها من صريح الإيمان",
-              "numberLabel": "الحديث ٧:٢"
-            },
-            {
-              "id": "essential-07-003",
-              "title": "قطع الوسواس في الخالق والاعتصام بالله",
-              "numberLabel": "الحديث ٧:٣"
-            },
-            {
-              "id": "essential-07-004",
-              "title": "القلب أصل الصلاح الحلال والورع وسلامة الباطن",
-              "numberLabel": "الحديث ٧:٤"
-            },
-            {
-              "id": "essential-07-005",
-              "title": "استقامة القلب واللسان وأثرها في الإيمان",
-              "numberLabel": "الحديث ٧:٥"
-            },
-            {
-              "id": "essential-07-006",
-              "title": "تجديد الإيمان سقي القلب وصيانته مما يضعفه",
-              "numberLabel": "الحديث ٧:٦"
-            },
-            {
-              "id": "essential-07-007",
-              "title": "قلب تتقلب به الخواطر ويثبته الإيمان",
-              "numberLabel": "الحديث ٧:٧"
-            },
-            {
-              "id": "essential-07-008",
-              "title": "سرعة تقلب القلب وحاجته إلى عمارة دائمة",
-              "numberLabel": "الحديث ٧:٨"
-            },
-            {
-              "id": "essential-07-009",
-              "title": "القلوب أوعية لين يقبل الحق وثبات يحفظه",
-              "numberLabel": "الحديث ٧:٩"
-            },
-            {
-              "id": "essential-07-010",
-              "title": "الحمد لله الذي رد كيد الشيطان إلى الوسوسة",
-              "numberLabel": "الحديث ٧:١٠"
-            },
-            {
-              "id": "essential-07-011",
-              "title": "تمييز لمة الملك من لمة الشيطان",
-              "numberLabel": "الحديث ٧:١١"
-            },
-            {
-              "id": "essential-07-012",
-              "title": "سوء الظن حين تتحول الأوهام إلى خصومة",
-              "numberLabel": "الحديث ٧:١٢"
-            },
-            {
-              "id": "essential-07-013",
-              "title": "خصال النفاق العملي حين يخالف الباطن ظاهر القول",
-              "numberLabel": "الحديث ٧:١٣"
-            },
-            {
-              "id": "essential-07-014",
-              "title": "المهلكات الثلاث العجب والشح والهوى",
-              "numberLabel": "الحديث ٧:١٤"
-            },
-            {
-              "id": "essential-07-015",
-              "title": "لا تغضب وصية تجمع ضبط النفس وحسن الخلق",
-              "numberLabel": "الحديث ٧:١٥"
-            },
-            {
-              "id": "essential-07-016",
-              "title": "الشح والإيمان قلب يصدق بوعد الله ويبذل الخير",
-              "numberLabel": "الحديث ٧:١٦"
-            },
-            {
-              "id": "essential-07-017",
-              "title": "الضحك بقدر بشر الوجه وحياة القلب",
-              "numberLabel": "الحديث ٧:١٧"
-            },
-            {
-              "id": "essential-07-018",
-              "title": "طمأنينة القلب إلى البر وضوابط استفتائه",
-              "numberLabel": "الحديث ٧:١٨"
-            },
-            {
-              "id": "essential-07-019",
-              "title": "رحمة اليتيم تلين القلب",
-              "numberLabel": "الحديث ٧:١٩"
-            },
-            {
-              "id": "essential-07-020",
-              "title": "قلب المؤمن أحق باسم الكرم",
-              "numberLabel": "الحديث ٧:٢٠"
-            },
-            {
-              "id": "essential-07-021",
-              "title": "سحابة القلب تعاهد النور وسرعة العودة",
-              "numberLabel": "الحديث ٧:٢١"
-            },
-            {
-              "id": "essential-07-022",
-              "title": "سد مداخل الشيطان وصيانة القلوب من سوء الظن",
-              "numberLabel": "الحديث ٧:٢٢"
-            },
-            {
-              "id": "essential-07-023",
-              "title": "العفو عن حديث النفس وحراسة الخواطر",
-              "numberLabel": "الحديث ٧:٢٣"
-            },
-            {
-              "id": "essential-07-024",
-              "title": "الشيطان يقعد على طرق الخير وحروز القلب منه",
-              "numberLabel": "الحديث ٧:٢٤"
-            },
-            {
-              "id": "essential-07-025",
-              "title": "التساؤل عن الخالق وخبر النبي عما سيقع",
-              "numberLabel": "الحديث ٧:٢٥"
-            },
-            {
-              "id": "essential-07-026",
-              "title": "ساعة وساعة يقظة القلب مع شؤون الحياة",
-              "numberLabel": "الحديث ٧:٢٦"
-            },
-            {
-              "id": "essential-07-027",
-              "title": "قرين الإنسان ومعونة الله على الشيطان",
-              "numberLabel": "الحديث ٧:٢٧"
-            },
-            {
-              "id": "essential-07-028",
-              "title": "اليقظة لمدخل الشيطان عند الغيرة",
-              "numberLabel": "الحديث ٧:٢٨"
-            },
-            {
-              "id": "essential-07-029",
-              "title": "علاج الشهوة بالرحمة والغيرة وطهارة القلب",
-              "numberLabel": "الحديث ٧:٢٩"
-            },
-            {
-              "id": "essential-07-030",
-              "title": "علامات النفاق والخوف الذي يحفظ الإيمان",
-              "numberLabel": "الحديث ٧:٣٠"
-            },
-            {
-              "id": "essential-07-031",
-              "title": "صلاة المنافق حين تضعف صلة القلب بالصلاة",
-              "numberLabel": "الحديث ٧:٣١"
-            },
-            {
-              "id": "essential-07-032",
-              "title": "ست خصال للجنة وأسباب الثبات أمام الشهوة",
-              "numberLabel": "الحديث ٧:٣٢"
-            },
-            {
-              "id": "essential-07-033",
-              "title": "رفعة المتواضع وهوان المستكبر",
-              "numberLabel": "الحديث ٧:٣٣"
-            },
-            {
-              "id": "essential-07-034",
-              "title": "العجب بالنعمة بين زهرة المظهر وزوال الملك",
-              "numberLabel": "الحديث ٧:٣٤"
-            },
-            {
-              "id": "essential-07-035",
-              "title": "حين يكشف التقصير عيب العجب بالطاعة",
-              "numberLabel": "الحديث ٧:٣٥"
-            },
-            {
-              "id": "essential-07-036",
-              "title": "سلامة القلب من الحسد وحفظ أخوة الإيمان",
-              "numberLabel": "الحديث ٧:٣٦"
-            },
-            {
-              "id": "essential-07-037",
-              "title": "حين يجمع الغضب الشر كيف يوقف المؤمن أثره؟",
-              "numberLabel": "الحديث ٧:٣٧"
-            },
-            {
-              "id": "essential-07-038",
-              "title": "الاعتصام بالإيمان بالله ورسله عند ورود الشبهة",
-              "numberLabel": "الحديث ٧:٣٨"
-            },
-            {
-              "id": "essential-07-039",
-              "title": "ثلاث خصال تنقي القلب الإخلاص والنصيحة ولزوم الجماعة",
-              "numberLabel": "الحديث ٧:٣٩"
-            },
-            {
-              "id": "essential-08-001",
-              "title": "ثلاثة من أهل الجنة: عادل، رحيم، عفيف",
-              "numberLabel": "الحديث ٨:١"
-            },
-            {
-              "id": "essential-08-002",
-              "title": "المسلم أخو المسلم",
-              "numberLabel": "الحديث ٨:٢"
-            },
-            {
-              "id": "essential-08-003",
-              "title": "الراحمون يرحمهم الرحمن",
-              "numberLabel": "الحديث ٨:٣"
-            },
-            {
-              "id": "essential-08-004",
-              "title": "المؤمن للمؤمن كالبنيان",
-              "numberLabel": "الحديث ٨:٤"
-            },
-            {
-              "id": "essential-08-005",
-              "title": "من حسن إسلام المرء تركه ما لا يعنيه",
-              "numberLabel": "الحديث ٨:٥"
-            },
-            {
-              "id": "essential-08-006",
-              "title": "القلب النقي واللسان الصدوق",
-              "numberLabel": "الحديث ٨:٦"
-            },
-            {
-              "id": "essential-08-007",
-              "title": "أن تحب لأخيك ما تحب لنفسك",
-              "numberLabel": "الحديث ٨:٧"
-            },
-            {
-              "id": "essential-08-008",
-              "title": "النهي عن الغيبة وتتبع العورات",
-              "numberLabel": "الحديث ٨:٨"
-            },
-            {
-              "id": "essential-08-009",
-              "title": "الصدق يهدي إلى البر",
-              "numberLabel": "الحديث ٨:٩"
-            },
-            {
-              "id": "essential-08-010",
-              "title": "المؤمنون كالجسد الواحد",
-              "numberLabel": "الحديث ٨:١٠"
-            },
-            {
-              "id": "essential-08-011",
-              "title": "فضل الصدقة والعفو والتواضع",
-              "numberLabel": "الحديث ٨:١١"
-            },
-            {
-              "id": "essential-08-012",
-              "title": "أثر الجليس الصالح والجليس السوء",
-              "numberLabel": "الحديث ٨:١٢"
-            },
-            {
-              "id": "essential-08-013",
-              "title": "من لا يرحم الناس لا يرحمه الله",
-              "numberLabel": "الحديث ٨:١٣"
-            },
-            {
-              "id": "essential-08-014",
-              "title": "خسران من خلا قلبه من الرحمة",
-              "numberLabel": "الحديث ٨:١٤"
-            },
-            {
-              "id": "essential-08-015",
-              "title": "الحياء من الإيمان",
-              "numberLabel": "الحديث ٨:١٥"
-            },
-            {
-              "id": "essential-08-016",
-              "title": "حياء النبي ﷺ",
-              "numberLabel": "الحديث ٨:١٦"
-            },
-            {
-              "id": "essential-08-017",
-              "title": "الاستحياء من الله حق الحياء",
-              "numberLabel": "الحديث ٨:١٧"
-            },
-            {
-              "id": "essential-08-018",
-              "title": "من استحيا من الله استحيا الله منه",
-              "numberLabel": "الحديث ٨:١٨"
-            },
-            {
-              "id": "essential-08-019",
-              "title": "استحِ من الله كما تستحي من رجل صالح",
-              "numberLabel": "الحديث ٨:١٩"
-            },
-            {
-              "id": "essential-08-020",
-              "title": "الله أحق أن يستحيا منه",
-              "numberLabel": "الحديث ٨:٢٠"
-            },
-            {
-              "id": "essential-08-021",
-              "title": "فضل كظم الغيظ عند القدرة",
-              "numberLabel": "الحديث ٨:٢١"
-            },
-            {
-              "id": "essential-08-022",
-              "title": "سلامة الناس من الأذى وهجر ما نهى الله عنه",
-              "numberLabel": "الحديث ٨:٢٢"
-            },
-            {
-              "id": "essential-08-023",
-              "title": "أجر الشفاعة في قضاء الحوائج",
-              "numberLabel": "الحديث ٨:٢٣"
-            },
-            {
-              "id": "essential-08-024",
-              "title": "أنزلوا الناس منازلهم",
-              "numberLabel": "الحديث ٨:٢٤"
-            },
-            {
-              "id": "essential-08-025",
-              "title": "الإحسان في كل شيء",
-              "numberLabel": "الحديث ٨:٢٥"
-            },
-            {
-              "id": "essential-08-026",
-              "title": "الأدب الحسن أعظم ما يهديه الوالد إلى ولده",
-              "numberLabel": "الحديث ٨:٢٦"
-            },
-            {
-              "id": "essential-08-027",
-              "title": "لا يلدغ المؤمن من جحر واحد مرتين",
-              "numberLabel": "الحديث ٨:٢٧"
-            },
-            {
-              "id": "essential-08-028",
-              "title": "حسن التدبير والورع وشرف الخلق",
-              "numberLabel": "الحديث ٨:٢٨"
-            },
-            {
-              "id": "essential-08-029",
-              "title": "النصر والرزق ببركة الضعفاء",
-              "numberLabel": "الحديث ٨:٢٩"
-            },
-            {
-              "id": "essential-08-030",
-              "title": "قلة الأكفاء مع كثرة الناس",
-              "numberLabel": "الحديث ٨:٣٠"
-            },
-            {
-              "id": "essential-09-001",
-              "title": "يا مقلب القلوب، ثبت قلبي على دينك",
-              "numberLabel": "الحديث ٩:١"
-            },
-            {
-              "id": "essential-09-002",
-              "title": "رب أعني ولا تعن علي",
-              "numberLabel": "الحديث ٩:٢"
-            },
-            {
-              "id": "essential-09-003",
-              "title": "اللهم اجعل القرآن ربيع قلبي",
-              "numberLabel": "الحديث ٩:٣"
-            },
-            {
-              "id": "essential-09-004",
-              "title": "اللهم اجعل في قلبي نورا",
-              "numberLabel": "الحديث ٩:٤"
-            },
-            {
-              "id": "essential-09-005",
-              "title": "ادعوا الله وأنتم موقنون بالإجابة",
-              "numberLabel": "الحديث ٩:٥"
-            },
-            {
-              "id": "essential-09-006",
-              "title": "اللهم اغسل قلبي بماء الثلج والبرد",
-              "numberLabel": "الحديث ٩:٦"
-            },
-            {
-              "id": "essential-09-007",
-              "title": "اللهم باعد بيني وبين خطاياي",
-              "numberLabel": "الحديث ٩:٧"
-            },
-            {
-              "id": "essential-09-008",
-              "title": "اللهم آت نفسي تقواها",
-              "numberLabel": "الحديث ٩:٨"
-            },
-            {
-              "id": "essential-09-009",
-              "title": "من أجاب المؤذن من قلبه دخل الجنة",
-              "numberLabel": "الحديث ٩:٩"
-            },
-            {
-              "id": "essential-09-010",
-              "title": "اللهم لك الحمد أنت نور السماوات والأرض",
-              "numberLabel": "الحديث ٩:١٠"
-            },
-            {
-              "id": "essential-09-011",
-              "title": "ما أنزل الله داء إلا أنزل له شفاء",
-              "numberLabel": "الحديث ٩:١١"
-            },
-            {
-              "id": "essential-09-012",
-              "title": "اللهم إني أسألك الهدى والتقى والعفاف والغنى",
-              "numberLabel": "الحديث ٩:١٢"
-            },
-            {
-              "id": "essential-09-013",
-              "title": "اللهم لك الحمد كله",
-              "numberLabel": "الحديث ٩:١٣"
-            },
-            {
-              "id": "essential-09-014",
-              "title": "سبحان ذي الجبروت والملكوت",
-              "numberLabel": "الحديث ٩:١٤"
-            },
-            {
-              "id": "essential-09-015",
-              "title": "اللهم إني أعوذ بك من شر قلبي",
-              "numberLabel": "الحديث ٩:١٥"
-            },
-            {
-              "id": "essential-09-016",
-              "title": "اللهم إني أعوذ بك من قلب لا يخشع",
-              "numberLabel": "الحديث ٩:١٦"
-            },
-            {
-              "id": "essential-09-017",
-              "title": "اللهم طهرني بالثلج والبرد والماء البارد",
-              "numberLabel": "الحديث ٩:١٧"
-            },
-            {
-              "id": "essential-09-018",
-              "title": "اللهم مقلب القلوب، ثبت قلبي على دينك",
-              "numberLabel": "الحديث ٩:١٨"
-            },
-            {
-              "id": "essential-09-019",
-              "title": "الرؤيا الصالحة وما يفعله من رأى ما يكره",
-              "numberLabel": "الحديث ٩:١٩"
-            },
-            {
-              "id": "essential-09-020",
-              "title": "دعاء السفر والرجوع منه",
-              "numberLabel": "الحديث ٩:٢٠"
-            },
-            {
-              "id": "essential-09-021",
-              "title": "اشف أنت الشافي",
-              "numberLabel": "الحديث ٩:٢١"
-            },
-            {
-              "id": "essential-09-022",
-              "title": "ربنا لك الحمد ملء السماوات والأرض",
-              "numberLabel": "الحديث ٩:٢٢"
-            },
-            {
-              "id": "essential-10-001",
-              "title": "حديث جبريل: الإسلام والإيمان والإحسان",
-              "numberLabel": "الحديث ١٠:١"
-            },
-            {
-              "id": "essential-10-002",
-              "title": "الدين النصيحة",
-              "numberLabel": "الحديث ١٠:٢"
-            },
-            {
-              "id": "essential-10-003",
-              "title": "ما يرضاه الله لعباده وما يكرهه لهم",
-              "numberLabel": "الحديث ١٠:٣"
-            },
-            {
-              "id": "essential-10-004",
-              "title": "واعظ الله في قلب كل مسلم",
-              "numberLabel": "الحديث ١٠:٤"
-            },
-            {
-              "id": "essential-10-005",
-              "title": "القلوب أمام غيث الوحي",
-              "numberLabel": "الحديث ١٠:٥"
-            },
-            {
-              "id": "essential-10-006",
-              "title": "كاد قلبي أن يطير",
-              "numberLabel": "الحديث ١٠:٦"
-            },
-            {
-              "id": "essential-10-007",
-              "title": "للصائم فرحتان",
-              "numberLabel": "الحديث ١٠:٧"
-            },
-            {
-              "id": "essential-10-008",
-              "title": "الطهور شطر الإيمان",
-              "numberLabel": "الحديث ١٠:٨"
-            },
-            {
-              "id": "essential-10-009",
-              "title": "سبعة يظلهم الله يوم القيامة",
-              "numberLabel": "الحديث ١٠:٩"
-            },
-            {
-              "id": "essential-10-010",
-              "title": "شعب الإيمان من التوحيد إلى إماطة الأذى",
-              "numberLabel": "الحديث ١٠:١٠"
-            },
-            {
-              "id": "essential-10-011",
-              "title": "قل آمنت بالله فاستقم",
-              "numberLabel": "الحديث ١٠:١١"
-            },
-            {
-              "id": "essential-10-012",
-              "title": "من يرد الله به خيرًا يفقهه في الدين",
-              "numberLabel": "الحديث ١٠:١٢"
-            },
-            {
-              "id": "essential-10-013",
-              "title": "صلوا كما رأيتموني أصلي",
-              "numberLabel": "الحديث ١٠:١٣"
-            },
-            {
-              "id": "essential-10-014",
-              "title": "خمس خصائص اختص الله بها نبيه ﷺ",
-              "numberLabel": "الحديث ١٠:١٤"
-            },
-            {
-              "id": "essential-10-015",
-              "title": "العذر لا يقطع أجر الطاعة المعتادة",
-              "numberLabel": "الحديث ١٠:١٥"
-            },
-            {
-              "id": "essential-10-016",
-              "title": "إذا أمرتكم بأمر فأتوا منه ما استطعتم",
-              "numberLabel": "الحديث ١٠:١٦"
-            },
-            {
-              "id": "essential-10-017",
-              "title": "تفرغ لعبادتي",
-              "numberLabel": "الحديث ١٠:١٧"
-            },
-            {
-              "id": "essential-10-018",
-              "title": "أقيموا صفوفكم",
-              "numberLabel": "الحديث ١٠:١٨"
-            },
-            {
-              "id": "essential-10-019",
-              "title": "التهاون بصلاة الجمعة حتى يُطبع على القلب",
-              "numberLabel": "الحديث ١٠:١٩"
-            },
-            {
-              "id": "essential-10-020",
-              "title": "القرآن يجمع القلوب فلا تجعلوه سببًا للخصومة",
-              "numberLabel": "الحديث ١٠:٢٠"
-            },
-            {
-              "id": "essential-10-021",
-              "title": "الموعظة النافعة تراعي حال السامع",
-              "numberLabel": "الحديث ١٠:٢١"
-            },
-            {
-              "id": "essential-10-022",
-              "title": "قليل من الموعظة عظيم الأثر",
-              "numberLabel": "الحديث ١٠:٢٢"
-            },
-            {
-              "id": "essential-10-023",
-              "title": "موعظة النساء يوم العيد",
-              "numberLabel": "الحديث ١٠:٢٣"
-            },
-            {
-              "id": "essential-10-024",
-              "title": "حين يوقظ القرآن القلب للإيمان",
-              "numberLabel": "الحديث ١٠:٢٤"
-            },
-            {
-              "id": "essential-10-025",
-              "title": "أهل القرآن أهل الله وخاصته",
-              "numberLabel": "الحديث ١٠:٢٥"
-            },
-            {
-              "id": "essential-10-026",
-              "title": "خيركم من تعلم القرآن وعلمه",
-              "numberLabel": "الحديث ١٠:٢٦"
-            },
-            {
-              "id": "essential-10-027",
-              "title": "الغبطة بقارئ القرآن والمنفق في الحق",
-              "numberLabel": "الحديث ١٠:٢٧"
-            },
-            {
-              "id": "essential-10-028",
-              "title": "أربعة أمثال لأحوال الناس مع القرآن",
-              "numberLabel": "الحديث ١٠:٢٨"
-            },
-            {
-              "id": "essential-10-029",
-              "title": "المؤمن كالنخلة: نفع وبركة وثبات",
-              "numberLabel": "الحديث ١٠:٢٩"
-            },
-            {
-              "id": "essential-10-030",
-              "title": "وصية النبي ﷺ بكتاب الله",
-              "numberLabel": "الحديث ١٠:٣٠"
-            },
-            {
-              "id": "essential-10-031",
-              "title": "الصلاة تكفّر الذنوب إذا أُحسن أداؤها",
-              "numberLabel": "الحديث ١٠:٣١"
-            },
-            {
-              "id": "essential-10-032",
-              "title": "النبي ﷺ يرى المصلين من وراء ظهره",
-              "numberLabel": "الحديث ١٠:٣٢"
-            },
-            {
-              "id": "essential-10-033",
-              "title": "طريق الجنة: التوحيد وأداء الفرائض",
-              "numberLabel": "الحديث ١٠:٣٣"
-            },
-            {
-              "id": "essential-10-034",
-              "title": "أجر الدعوة إلى الهدى ووزر الدعوة إلى الضلال",
-              "numberLabel": "الحديث ١٠:٣٤"
-            },
-            {
-              "id": "essential-10-035",
-              "title": "الطهارة شرط لصحة الصلاة",
-              "numberLabel": "الحديث ١٠:٣٥"
-            },
-            {
-              "id": "essential-10-036",
-              "title": "عشر خصال من الفطرة",
-              "numberLabel": "الحديث ١٠:٣٦"
-            },
-            {
-              "id": "essential-10-037",
-              "title": "الماء طهور لا ينجسه شيء",
-              "numberLabel": "الحديث ١٠:٣٧"
-            },
-            {
-              "id": "essential-10-038",
-              "title": "الهرة ليست نجسة",
-              "numberLabel": "الحديث ١٠:٣٨"
-            },
-            {
-              "id": "essential-10-039",
-              "title": "الصلوات والجمعة ورمضان مكفّرات للذنوب",
-              "numberLabel": "الحديث ١٠:٣٩"
-            },
-            {
-              "id": "essential-10-040",
-              "title": "ثلاث وصايا للمداومة على العبادة",
-              "numberLabel": "الحديث ١٠:٤٠"
-            },
-            {
-              "id": "essential-10-041",
-              "title": "إن الدين يسر",
-              "numberLabel": "الحديث ١٠:٤١"
-            },
-            {
-              "id": "essential-10-042",
-              "title": "أسرعوا بالجنازة",
-              "numberLabel": "الحديث ١٠:٤٢"
-            },
-            {
-              "id": "essential-10-043",
-              "title": "نصاب الزكاة في الزروع والإبل والفضة",
-              "numberLabel": "الحديث ١٠:٤٣"
-            },
-            {
-              "id": "essential-10-044",
-              "title": "ثلاثة أعمال يمتد أجرها بعد الموت",
-              "numberLabel": "الحديث ١٠:٤٤"
-            },
-            {
-              "id": "essential-10-045",
-              "title": "الوفاء بنذر الطاعة وترك نذر المعصية",
-              "numberLabel": "الحديث ١٠:٤٥"
-            },
-            {
-              "id": "essential-10-046",
-              "title": "صل صلاة مودع",
-              "numberLabel": "الحديث ١٠:٤٦"
-            },
-            {
-              "id": "essential-10-047",
-              "title": "خذوا مناسك الحج عن النبي ﷺ",
-              "numberLabel": "الحديث ١٠:٤٧"
-            },
-            {
-              "id": "essential-10-048",
-              "title": "سورة الإخلاص تعدل ثلث القرآن",
-              "numberLabel": "الحديث ١٠:٤٨"
-            },
-            {
-              "id": "essential-10-049",
-              "title": "لا حسد إلا في اثنتين",
-              "numberLabel": "الحديث ١٠:٤٩"
-            },
-            {
-              "id": "essential-11-001",
-              "title": "إنما الطاعة في المعروف",
-              "numberLabel": "الحديث ١١:١"
-            },
-            {
-              "id": "essential-11-002",
-              "title": "المؤمن أمانٌ لمن حوله",
-              "numberLabel": "الحديث ١١:٢"
-            },
-            {
-              "id": "essential-11-003",
-              "title": "من أضرّ بالناس أضرّ الله به",
-              "numberLabel": "الحديث ١١:٣"
-            },
-            {
-              "id": "essential-11-004",
-              "title": "الظلم ظلمات يوم القيامة",
-              "numberLabel": "الحديث ١١:٤"
-            },
-            {
-              "id": "essential-11-005",
-              "title": "ستة حقوق للمسلم على أخيه",
-              "numberLabel": "الحديث ١١:٥"
-            },
-            {
-              "id": "essential-11-006",
-              "title": "المجتهد مأجور وإن أخطأ",
-              "numberLabel": "الحديث ١١:٦"
-            },
-            {
-              "id": "essential-11-007",
-              "title": "الصدق بركة البيع والكذب يمحقها",
-              "numberLabel": "الحديث ١١:٧"
-            },
-            {
-              "id": "essential-11-008",
-              "title": "النهي عن البيع المجهول والمخاطرة",
-              "numberLabel": "الحديث ١١:٨"
-            },
-            {
-              "id": "essential-11-009",
-              "title": "الصلح خير والوفاء بالشروط واجب",
-              "numberLabel": "الحديث ١١:٩"
-            },
-            {
-              "id": "essential-11-010",
-              "title": "مطل الغني ظلم",
-              "numberLabel": "الحديث ١١:١٠"
-            },
-            {
-              "id": "essential-11-011",
-              "title": "الأمانة في حفظ أموال الناس وردّها",
-              "numberLabel": "الحديث ١١:١١"
-            },
-            {
-              "id": "essential-11-012",
-              "title": "الشفعة وحفظ حق الشريك",
-              "numberLabel": "الحديث ١١:١٢"
-            },
-            {
-              "id": "essential-11-013",
-              "title": "الأمانة أساس الشراكة وبركتها",
-              "numberLabel": "الحديث ١١:١٣"
-            },
-            {
-              "id": "essential-11-014",
-              "title": "من سبق إلى المباح فهو أحقّ به",
-              "numberLabel": "الحديث ١١:١٤"
-            },
-            {
-              "id": "essential-11-015",
-              "title": "إعطاء كل وارث حقّه",
-              "numberLabel": "الحديث ١١:١٥"
-            },
-            {
-              "id": "essential-11-016",
-              "title": "لا وصية لوارث",
-              "numberLabel": "الحديث ١١:١٦"
-            },
-            {
-              "id": "essential-11-017",
-              "title": "الرضاعة تُحرّم ما تُحرّمه القرابة",
-              "numberLabel": "الحديث ١١:١٧"
-            },
-            {
-              "id": "essential-11-018",
-              "title": "لا تجعل العيوب تُنسيك المحاسن",
-              "numberLabel": "الحديث ١١:١٨"
-            },
-            {
-              "id": "essential-11-019",
-              "title": "الولاية أمانة لا مغنم",
-              "numberLabel": "الحديث ١١:١٩"
-            },
-            {
-              "id": "essential-11-020",
-              "title": "حرمة الدماء والوفاء بالعهود",
-              "numberLabel": "الحديث ١١:٢٠"
-            },
-            {
-              "id": "essential-11-021",
-              "title": "من مارس الطب بغير علم ضمن الضرر",
-              "numberLabel": "الحديث ١١:٢١"
-            },
-            {
-              "id": "essential-11-022",
-              "title": "التثبّت قبل إقامة الحدود",
-              "numberLabel": "الحديث ١١:٢٢"
-            },
-            {
-              "id": "essential-11-023",
-              "title": "لا تُؤخذ الحقوق بمجرد الادعاء",
-              "numberLabel": "الحديث ١١:٢٣"
-            },
-            {
-              "id": "essential-11-024",
-              "title": "البينة واليمين في إثبات الحقوق",
-              "numberLabel": "الحديث ١١:٢٤"
-            },
-            {
-              "id": "essential-11-025",
-              "title": "متى تُقبل الشهادة ومتى تُردّ؟",
-              "numberLabel": "الحديث ١١:٢٥"
-            },
-            {
-              "id": "essential-11-026",
-              "title": "شروط الذبح والصيد",
-              "numberLabel": "الحديث ١١:٢٦"
-            },
-            {
-              "id": "essential-11-027",
-              "title": "ما يحلّ وما يحرم من لحوم الحيوانات",
-              "numberLabel": "الحديث ١١:٢٧"
-            },
-            {
-              "id": "essential-11-028",
-              "title": "التشبّه المنهيّ عنه بين الرجال والنساء",
-              "numberLabel": "الحديث ١١:٢٨"
-            },
-            {
-              "id": "essential-11-029",
-              "title": "صلة الرحم بركة في الرزق والعمر",
-              "numberLabel": "الحديث ١١:٢٩"
-            },
-            {
-              "id": "essential-11-030",
-              "title": "النفقة حقّ للزوجة والأولاد",
-              "numberLabel": "الحديث ١١:٣٠"
-            },
-            {
-              "id": "essential-11-031",
-              "title": "لا يقضي القاضي وهو غضبان",
-              "numberLabel": "الحديث ١١:٣١"
-            },
-            {
-              "id": "essential-11-032",
-              "title": "رضا الربّ في رضا الوالد",
-              "numberLabel": "الحديث ١١:٣٢"
-            },
-            {
-              "id": "essential-11-033",
-              "title": "لا صلاح لأمة لا تُنصف ضعفاءها",
-              "numberLabel": "الحديث ١١:٣٣"
-            },
-            {
-              "id": "essential-12-001",
-              "title": "الغنى غنى القلب والفقر فقر القلب",
-              "numberLabel": "الحديث ١٢:١"
-            },
-            {
-              "id": "essential-12-002",
-              "title": "من كانت الآخرة همّه جمع الله شمله",
-              "numberLabel": "الحديث ١٢:٢"
-            },
-            {
-              "id": "essential-12-003",
-              "title": "طريق النجاة من النار والفوز بالجنة",
-              "numberLabel": "الحديث ١٢:٣"
-            },
-            {
-              "id": "essential-12-004",
-              "title": "الدنيا حلوة خضرة ولكنها دار ابتلاء",
-              "numberLabel": "الحديث ١٢:٤"
-            },
-            {
-              "id": "essential-12-005",
-              "title": "رحمة أرحم الراحمين وإخراج أهل التوحيد من النار",
-              "numberLabel": "الحديث ١٢:٥"
-            },
-            {
-              "id": "essential-12-006",
-              "title": "يهرم الجسد ويبقى حب المال وطول الأمل",
-              "numberLabel": "الحديث ١٢:٦"
-            },
-            {
-              "id": "essential-12-007",
-              "title": "حين يكون غنى القلب أغلى من المال",
-              "numberLabel": "الحديث ١٢:٧"
-            },
-            {
-              "id": "essential-12-008",
-              "title": "الوهن: حب الدنيا وكراهية الموت",
-              "numberLabel": "الحديث ١٢:٨"
-            },
-            {
-              "id": "essential-12-009",
-              "title": "أيهما أشد خطرًا على القلب: الفقر أم الغنى؟",
-              "numberLabel": "الحديث ١٢:٩"
-            },
-            {
-              "id": "essential-12-010",
-              "title": "الفلاح في الإسلام والكفاف والقناعة",
-              "numberLabel": "الحديث ١٢:١٠"
-            },
-            {
-              "id": "essential-12-011",
-              "title": "اتقوا النار ولو بشق تمرة",
-              "numberLabel": "الحديث ١٢:١١"
-            },
-            {
-              "id": "essential-12-012",
-              "title": "التمتع بنعم الله بلا إسراف ولا كبر",
-              "numberLabel": "الحديث ١٢:١٢"
-            },
-            {
-              "id": "essential-12-013",
-              "title": "المقام المحمود: الشفاعة العظمى للنبي ﷺ",
-              "numberLabel": "الحديث ١٢:١٣"
-            },
-            {
-              "id": "essential-12-014",
-              "title": "الميزان والصراط يوم القيامة",
-              "numberLabel": "الحديث ١٢:١٤"
-            },
-            {
-              "id": "essential-12-015",
-              "title": "يوم تُردّ المظالم بالحسنات والسيئات",
-              "numberLabel": "الحديث ١٢:١٥"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ar",
@@ -5393,7 +3961,1439 @@
                 "essential-12-015": "الحديث ١٢:١٥"
               }
             }
-          }
+          },
+          "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "عدل الله وغناه وافتقار عباده إليه",
+              "numberLabel": "الحديث ١:١"
+            },
+            {
+              "id": "essential-01-002",
+              "title": "عظمة الله وأثرها في القلب والعمل",
+              "numberLabel": "الحديث ١:٢"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "القلوب تحت تصريف الرحمن",
+              "numberLabel": "الحديث ١:٣"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "الثبات على الدين ومعرفة أوصاف القلب الزائغ",
+              "numberLabel": "الحديث ١:٤"
+            },
+            {
+              "id": "essential-01-005",
+              "title": "الله الأول وافتقار الخلق إليه",
+              "numberLabel": "الحديث ١:٥"
+            },
+            {
+              "id": "essential-01-006",
+              "title": "معرفة أسماء الله وإحصاؤها",
+              "numberLabel": "الحديث ١:٦"
+            },
+            {
+              "id": "essential-01-007",
+              "title": "العمل والتيسير إلى طريق السعادة",
+              "numberLabel": "الحديث ١:٧"
+            },
+            {
+              "id": "essential-01-008",
+              "title": "سبق التقدير والعمل والخاتمة",
+              "numberLabel": "الحديث ١:٨"
+            },
+            {
+              "id": "essential-01-009",
+              "title": "شمول القدر للعمل والقدرة والإرادة",
+              "numberLabel": "الحديث ١:٩"
+            },
+            {
+              "id": "essential-01-010",
+              "title": "كتابة المقادير وطمأنينة الإيمان بالقدر",
+              "numberLabel": "الحديث ١:١٠"
+            },
+            {
+              "id": "essential-01-011",
+              "title": "الكبرياء والعظمة لله وحده",
+              "numberLabel": "الحديث ١:١١"
+            },
+            {
+              "id": "essential-01-012",
+              "title": "عدل الله ورحمته وثبات القلب على القدر",
+              "numberLabel": "الحديث ١:١٢"
+            },
+            {
+              "id": "essential-01-013",
+              "title": "يد الله ملأى سعة الجود وميزان العدل",
+              "numberLabel": "الحديث ١:١٣"
+            },
+            {
+              "id": "essential-01-014",
+              "title": "عظمة العرش والكرسي ومعرفة قدر المخلوق",
+              "numberLabel": "الحديث ١:١٤"
+            },
+            {
+              "id": "essential-01-015",
+              "title": "رحمتي غلبت غضبي معرفة تفتح الرجاء وتصلح العمل",
+              "numberLabel": "الحديث ١:١٥"
+            },
+            {
+              "id": "essential-01-016",
+              "title": "أطيط السماء وعبادة الملائكة",
+              "numberLabel": "الحديث ١:١٦"
+            },
+            {
+              "id": "essential-01-017",
+              "title": "القسم بمقلب القلوب والخوف من الزيغ",
+              "numberLabel": "الحديث ١:١٧"
+            },
+            {
+              "id": "essential-01-018",
+              "title": "الإيمان بالقدر ويقين القلب",
+              "numberLabel": "الحديث ١:١٨"
+            },
+            {
+              "id": "essential-01-019",
+              "title": "التفكر في الآلاء وتصحيح مسار الفكر",
+              "numberLabel": "الحديث ١:١٩"
+            },
+            {
+              "id": "essential-01-020",
+              "title": "مراقبة الله في الخلوة ومحاسبة النفس",
+              "numberLabel": "الحديث ١:٢٠"
+            },
+            {
+              "id": "essential-01-021",
+              "title": "التوحيد الصادق حياة القلب ونوره",
+              "numberLabel": "الحديث ١:٢١"
+            },
+            {
+              "id": "essential-01-022",
+              "title": "الشرك أعظم أدواء القلب وأكبر الكبائر",
+              "numberLabel": "الحديث ١:٢٢"
+            },
+            {
+              "id": "essential-01-023",
+              "title": "الخوف من الشرك وتعلم ما يحفظ القلب",
+              "numberLabel": "الحديث ١:٢٣"
+            },
+            {
+              "id": "essential-01-024",
+              "title": "حرمة اليمين الكاذبة وحقوق الله والعباد",
+              "numberLabel": "الحديث ١:٢٤"
+            },
+            {
+              "id": "essential-01-025",
+              "title": "من معرفة الخالق إلى تصديق رسوله وعبادته",
+              "numberLabel": "الحديث ١:٢٥"
+            },
+            {
+              "id": "essential-01-026",
+              "title": "الميثاق والفطرة وحجة الرسالة",
+              "numberLabel": "الحديث ١:٢٦"
+            },
+            {
+              "id": "essential-01-027",
+              "title": "عجز الخلق وكمال قدرة الخالق",
+              "numberLabel": "الحديث ١:٢٧"
+            },
+            {
+              "id": "essential-01-028",
+              "title": "الحي القيوم لا ينام وتعرض عليه الأعمال",
+              "numberLabel": "الحديث ١:٢٨"
+            },
+            {
+              "id": "essential-01-029",
+              "title": "الافتقار إلى الرب المحيط بكل شيء",
+              "numberLabel": "الحديث ١:٢٩"
+            },
+            {
+              "id": "essential-01-030",
+              "title": "طي السماوات وزوال التجبر",
+              "numberLabel": "الحديث ١:٣٠"
+            },
+            {
+              "id": "essential-01-031",
+              "title": "الملك الحق وسقوط دعوى ملوك الأرض",
+              "numberLabel": "الحديث ١:٣١"
+            },
+            {
+              "id": "essential-01-032",
+              "title": "خضوع الملائكة لكلام الله وحقيقة استراق السمع",
+              "numberLabel": "الحديث ١:٣٢"
+            },
+            {
+              "id": "essential-01-033",
+              "title": "كمال القدرة والوحدانية وتنزيه الله عن الولد",
+              "numberLabel": "الحديث ١:٣٣"
+            },
+            {
+              "id": "essential-01-034",
+              "title": "التفكر الذي يثمر الذكر والشكر والخشية",
+              "numberLabel": "الحديث ١:٣٤"
+            },
+            {
+              "id": "essential-01-035",
+              "title": "تعظيم الله وصيانة اللسان عن سب الدهر",
+              "numberLabel": "الحديث ١:٣٥"
+            },
+            {
+              "id": "essential-01-036",
+              "title": "سجود الشمس وتسخير الكون واغتنام زمن الإيمان",
+              "numberLabel": "الحديث ١:٣٦"
+            },
+            {
+              "id": "essential-01-037",
+              "title": "إحاطة سمع الله وخطر الظن الفاسد به",
+              "numberLabel": "الحديث ١:٣٧"
+            },
+            {
+              "id": "essential-01-038",
+              "title": "مفاتح الغيب وحدود علم الإنسان",
+              "numberLabel": "الحديث ١:٣٨"
+            },
+            {
+              "id": "essential-01-039",
+              "title": "الحمد لله الذي وسع سمعه الأصوات",
+              "numberLabel": "الحديث ١:٣٩"
+            },
+            {
+              "id": "essential-01-040",
+              "title": "كل يوم هو في شأن افتقار الخلق ودوام التدبير",
+              "numberLabel": "الحديث ١:٤٠"
+            },
+            {
+              "id": "essential-02-001",
+              "title": "إنما الأعمال بالنيات وإنما لكل امرئ ما نوى",
+              "numberLabel": "الحديث ٢:١"
+            },
+            {
+              "id": "essential-02-002",
+              "title": "من أحدث في أمرنا هذا ما ليس منه فهو رد",
+              "numberLabel": "الحديث ٢:٢"
+            },
+            {
+              "id": "essential-02-003",
+              "title": "ولكن ينظر إلى قلوبكم وأعمالكم",
+              "numberLabel": "الحديث ٢:٣"
+            },
+            {
+              "id": "essential-02-004",
+              "title": "موعظة بليغة وجلت منها القلوب",
+              "numberLabel": "الحديث ٢:٤"
+            },
+            {
+              "id": "essential-02-005",
+              "title": "أسعد الناس بالشفاعة من أخلص التوحيد بقلبه",
+              "numberLabel": "الحديث ٢:٥"
+            },
+            {
+              "id": "essential-02-006",
+              "title": "صدق النية وبلوغ منازل الشهداء",
+              "numberLabel": "الحديث ٢:٦"
+            },
+            {
+              "id": "essential-02-007",
+              "title": "إخلاص القلب ونصحه ولزوم الجماعة",
+              "numberLabel": "الحديث ٢:٧"
+            },
+            {
+              "id": "essential-02-008",
+              "title": "صدق الشهادة وصدق القلب والعمل",
+              "numberLabel": "الحديث ٢:٨"
+            },
+            {
+              "id": "essential-02-009",
+              "title": "عاجل بشرى المؤمن وثمرة العمل الصالح",
+              "numberLabel": "الحديث ٢:٩"
+            },
+            {
+              "id": "essential-03-001",
+              "title": "حسن الظن بالله واليقين بإجابته",
+              "numberLabel": "الحديث ٣:١"
+            },
+            {
+              "id": "essential-03-002",
+              "title": "اليقين والمعافاة وصلاح القلب والعمل",
+              "numberLabel": "الحديث ٣:٢"
+            },
+            {
+              "id": "essential-03-003",
+              "title": "حسن الظن الذي يثمر عملا ورجاء صادقا",
+              "numberLabel": "الحديث ٣:٣"
+            },
+            {
+              "id": "essential-03-004",
+              "title": "حسن الظن بالله عند الموت واعتدال الخوف والرجاء",
+              "numberLabel": "الحديث ٣:٤"
+            },
+            {
+              "id": "essential-03-005",
+              "title": "سلامة التوكل من الطيرة والتعلق بالأوهام",
+              "numberLabel": "الحديث ٣:٥"
+            },
+            {
+              "id": "essential-03-006",
+              "title": "الفأل الصالح وأثر الكلمة الحسنة في القلب",
+              "numberLabel": "الحديث ٣:٦"
+            },
+            {
+              "id": "essential-03-007",
+              "title": "المؤمن القوي والحرص على النافع مع الاستعانة بالله",
+              "numberLabel": "الحديث ٣:٧"
+            },
+            {
+              "id": "essential-03-008",
+              "title": "اليقين الذي يهون المصائب ويحفظ الدين",
+              "numberLabel": "الحديث ٣:٨"
+            },
+            {
+              "id": "essential-03-009",
+              "title": "كمال التوكل ودخول الجنة بغير حساب",
+              "numberLabel": "الحديث ٣:٩"
+            },
+            {
+              "id": "essential-03-010",
+              "title": "التوكل والسعي في طلب الرزق",
+              "numberLabel": "الحديث ٣:١٠"
+            },
+            {
+              "id": "essential-03-011",
+              "title": "ذكر الخروج من المنزل وتجديد التوكل",
+              "numberLabel": "الحديث ٣:١١"
+            },
+            {
+              "id": "essential-03-012",
+              "title": "وعد الله بالعون لمن يريد العفاف وأداء الحقوق",
+              "numberLabel": "الحديث ٣:١٢"
+            },
+            {
+              "id": "essential-04-001",
+              "title": "ولاية الله وطريق نيل محبته",
+              "numberLabel": "الحديث ٤:١"
+            },
+            {
+              "id": "essential-04-002",
+              "title": "اجتماع الخوف والرجاء في القلب حتى لقاء الله",
+              "numberLabel": "الحديث ٤:٢"
+            },
+            {
+              "id": "essential-04-003",
+              "title": "الاستعداد للقاء الله والفرح بمحبته وفضله",
+              "numberLabel": "الحديث ٤:٣"
+            },
+            {
+              "id": "essential-04-004",
+              "title": "محبة صفات الرحمن وقراءة سورة الإخلاص",
+              "numberLabel": "الحديث ٤:٤"
+            },
+            {
+              "id": "essential-04-005",
+              "title": "محبة سورة الإخلاص التي تثمر دخول الجنة",
+              "numberLabel": "الحديث ٤:٥"
+            },
+            {
+              "id": "essential-04-006",
+              "title": "حلاوة الإيمان والأسباب التي تغذي محبة الله",
+              "numberLabel": "الحديث ٤:٦"
+            },
+            {
+              "id": "essential-04-007",
+              "title": "محبة الرسول وصدق الاتباع",
+              "numberLabel": "الحديث ٤:٧"
+            },
+            {
+              "id": "essential-04-008",
+              "title": "محبة الرسول وكثرة ذكره والشوق إلى لقائه",
+              "numberLabel": "الحديث ٤:٨"
+            },
+            {
+              "id": "essential-04-009",
+              "title": "تقديم محبة الرسول على النفس ولزوم هديه",
+              "numberLabel": "الحديث ٤:٩"
+            },
+            {
+              "id": "essential-04-010",
+              "title": "خطر اليأس والقنوط وفتح القلب لرحمة الله",
+              "numberLabel": "الحديث ٤:١٠"
+            },
+            {
+              "id": "essential-04-011",
+              "title": "معرفة رحمة الله وعقوبته وتحقيق الرجاء والخوف",
+              "numberLabel": "الحديث ٤:١١"
+            },
+            {
+              "id": "essential-04-012",
+              "title": "محبة المؤمنين في الله وسلامة القلب لهم",
+              "numberLabel": "الحديث ٤:١٢"
+            },
+            {
+              "id": "essential-04-013",
+              "title": "إخلاص المحبة والعطاء وكمال الإيمان",
+              "numberLabel": "الحديث ٤:١٣"
+            },
+            {
+              "id": "essential-04-014",
+              "title": "المرء مع من أحب وأثر الصحبة في القلب والعمل",
+              "numberLabel": "الحديث ٤:١٤"
+            },
+            {
+              "id": "essential-04-015",
+              "title": "خشية الله وسعة رحمته وقدرته على بعث خلقه",
+              "numberLabel": "الحديث ٤:١٥"
+            },
+            {
+              "id": "essential-05-001",
+              "title": "تعاهد القلب ودوام الاستغفار",
+              "numberLabel": "الحديث ٥:١"
+            },
+            {
+              "id": "essential-05-002",
+              "title": "أثر الذنوب في القلب وعودة صفائه بالتوبة",
+              "numberLabel": "الحديث ٥:٢"
+            },
+            {
+              "id": "essential-05-003",
+              "title": "جهاد النفس ومحاسبتها وأثر الإيمان في حقوق الناس",
+              "numberLabel": "الحديث ٥:٣"
+            },
+            {
+              "id": "essential-05-004",
+              "title": "التقوى وتدارك السيئة بالحسنة وحسن الخلق",
+              "numberLabel": "الحديث ٥:٤"
+            },
+            {
+              "id": "essential-05-005",
+              "title": "سعة فضل الله وقبول التوبة",
+              "numberLabel": "الحديث ٥:٥"
+            },
+            {
+              "id": "essential-06-001",
+              "title": "إن لله ما أخذ الصبر مع الرحمة",
+              "numberLabel": "الحديث ٦:١"
+            },
+            {
+              "id": "essential-06-002",
+              "title": "العفاف وغنى النفس وعطاء الصبر",
+              "numberLabel": "الحديث ٦:٢"
+            },
+            {
+              "id": "essential-06-003",
+              "title": "الصبر على أذى الناس وأسباب العفو",
+              "numberLabel": "الحديث ٦:٣"
+            },
+            {
+              "id": "essential-06-004",
+              "title": "شكر نعمة المطر ونسبتها إلى الله",
+              "numberLabel": "الحديث ٦:٤"
+            },
+            {
+              "id": "essential-06-005",
+              "title": "كنوز القلب الشاكر واللسان الذاكر والزوجة الصالحة",
+              "numberLabel": "الحديث ٦:٥"
+            },
+            {
+              "id": "essential-06-006",
+              "title": "خير المؤمن بين الصبر والشكر",
+              "numberLabel": "الحديث ٦:٦"
+            },
+            {
+              "id": "essential-06-007",
+              "title": "الصبر عند الصدمة الأولى وعلاج ألم المصيبة",
+              "numberLabel": "الحديث ٦:٧"
+            },
+            {
+              "id": "essential-06-008",
+              "title": "الصبر الجميل والاستعانة بالله عند البهتان",
+              "numberLabel": "الحديث ٦:٨"
+            },
+            {
+              "id": "essential-06-009",
+              "title": "نعمة العافية والماء وإيقاظ القلب بذكر الآلاء",
+              "numberLabel": "الحديث ٦:٩"
+            },
+            {
+              "id": "essential-06-010",
+              "title": "السؤال عن النعيم وحفظ النعم بالشكر",
+              "numberLabel": "الحديث ٦:١٠"
+            },
+            {
+              "id": "essential-06-011",
+              "title": "حقيقة الرضا بالله وحلاوة الإيمان",
+              "numberLabel": "الحديث ٦:١١"
+            },
+            {
+              "id": "essential-06-012",
+              "title": "الرضا الذي يقود إلى الجنة وطلب رضوان الله",
+              "numberLabel": "الحديث ٦:١٢"
+            },
+            {
+              "id": "essential-06-013",
+              "title": "إعلان الرضا عند سماع الأذان",
+              "numberLabel": "الحديث ٦:١٣"
+            },
+            {
+              "id": "essential-06-014",
+              "title": "كلمات الرضا والتسليم لله في أحوال الحياة",
+              "numberLabel": "الحديث ٦:١٤"
+            },
+            {
+              "id": "essential-06-015",
+              "title": "شكر النعمة وحسن النظر إلى ما آتاك الله",
+              "numberLabel": "الحديث ٦:١٥"
+            },
+            {
+              "id": "essential-06-016",
+              "title": "الصبر على الضر وتفويض الحياة والموت إلى الله",
+              "numberLabel": "الحديث ٦:١٦"
+            },
+            {
+              "id": "essential-06-017",
+              "title": "الثبات على الدين حين تشتد الفتن",
+              "numberLabel": "الحديث ٦:١٧"
+            },
+            {
+              "id": "essential-07-001",
+              "title": "مثقال حبة في القلب خطر الكبر وقيمة الإيمان",
+              "numberLabel": "الحديث ٧:١"
+            },
+            {
+              "id": "essential-07-002",
+              "title": "كراهية الوساوس ودفعها من صريح الإيمان",
+              "numberLabel": "الحديث ٧:٢"
+            },
+            {
+              "id": "essential-07-003",
+              "title": "قطع الوسواس في الخالق والاعتصام بالله",
+              "numberLabel": "الحديث ٧:٣"
+            },
+            {
+              "id": "essential-07-004",
+              "title": "القلب أصل الصلاح الحلال والورع وسلامة الباطن",
+              "numberLabel": "الحديث ٧:٤"
+            },
+            {
+              "id": "essential-07-005",
+              "title": "استقامة القلب واللسان وأثرها في الإيمان",
+              "numberLabel": "الحديث ٧:٥"
+            },
+            {
+              "id": "essential-07-006",
+              "title": "تجديد الإيمان سقي القلب وصيانته مما يضعفه",
+              "numberLabel": "الحديث ٧:٦"
+            },
+            {
+              "id": "essential-07-007",
+              "title": "قلب تتقلب به الخواطر ويثبته الإيمان",
+              "numberLabel": "الحديث ٧:٧"
+            },
+            {
+              "id": "essential-07-008",
+              "title": "سرعة تقلب القلب وحاجته إلى عمارة دائمة",
+              "numberLabel": "الحديث ٧:٨"
+            },
+            {
+              "id": "essential-07-009",
+              "title": "القلوب أوعية لين يقبل الحق وثبات يحفظه",
+              "numberLabel": "الحديث ٧:٩"
+            },
+            {
+              "id": "essential-07-010",
+              "title": "الحمد لله الذي رد كيد الشيطان إلى الوسوسة",
+              "numberLabel": "الحديث ٧:١٠"
+            },
+            {
+              "id": "essential-07-011",
+              "title": "تمييز لمة الملك من لمة الشيطان",
+              "numberLabel": "الحديث ٧:١١"
+            },
+            {
+              "id": "essential-07-012",
+              "title": "سوء الظن حين تتحول الأوهام إلى خصومة",
+              "numberLabel": "الحديث ٧:١٢"
+            },
+            {
+              "id": "essential-07-013",
+              "title": "خصال النفاق العملي حين يخالف الباطن ظاهر القول",
+              "numberLabel": "الحديث ٧:١٣"
+            },
+            {
+              "id": "essential-07-014",
+              "title": "المهلكات الثلاث العجب والشح والهوى",
+              "numberLabel": "الحديث ٧:١٤"
+            },
+            {
+              "id": "essential-07-015",
+              "title": "لا تغضب وصية تجمع ضبط النفس وحسن الخلق",
+              "numberLabel": "الحديث ٧:١٥"
+            },
+            {
+              "id": "essential-07-016",
+              "title": "الشح والإيمان قلب يصدق بوعد الله ويبذل الخير",
+              "numberLabel": "الحديث ٧:١٦"
+            },
+            {
+              "id": "essential-07-017",
+              "title": "الضحك بقدر بشر الوجه وحياة القلب",
+              "numberLabel": "الحديث ٧:١٧"
+            },
+            {
+              "id": "essential-07-018",
+              "title": "طمأنينة القلب إلى البر وضوابط استفتائه",
+              "numberLabel": "الحديث ٧:١٨"
+            },
+            {
+              "id": "essential-07-019",
+              "title": "رحمة اليتيم تلين القلب",
+              "numberLabel": "الحديث ٧:١٩"
+            },
+            {
+              "id": "essential-07-020",
+              "title": "قلب المؤمن أحق باسم الكرم",
+              "numberLabel": "الحديث ٧:٢٠"
+            },
+            {
+              "id": "essential-07-021",
+              "title": "سحابة القلب تعاهد النور وسرعة العودة",
+              "numberLabel": "الحديث ٧:٢١"
+            },
+            {
+              "id": "essential-07-022",
+              "title": "سد مداخل الشيطان وصيانة القلوب من سوء الظن",
+              "numberLabel": "الحديث ٧:٢٢"
+            },
+            {
+              "id": "essential-07-023",
+              "title": "العفو عن حديث النفس وحراسة الخواطر",
+              "numberLabel": "الحديث ٧:٢٣"
+            },
+            {
+              "id": "essential-07-024",
+              "title": "الشيطان يقعد على طرق الخير وحروز القلب منه",
+              "numberLabel": "الحديث ٧:٢٤"
+            },
+            {
+              "id": "essential-07-025",
+              "title": "التساؤل عن الخالق وخبر النبي عما سيقع",
+              "numberLabel": "الحديث ٧:٢٥"
+            },
+            {
+              "id": "essential-07-026",
+              "title": "ساعة وساعة يقظة القلب مع شؤون الحياة",
+              "numberLabel": "الحديث ٧:٢٦"
+            },
+            {
+              "id": "essential-07-027",
+              "title": "قرين الإنسان ومعونة الله على الشيطان",
+              "numberLabel": "الحديث ٧:٢٧"
+            },
+            {
+              "id": "essential-07-028",
+              "title": "اليقظة لمدخل الشيطان عند الغيرة",
+              "numberLabel": "الحديث ٧:٢٨"
+            },
+            {
+              "id": "essential-07-029",
+              "title": "علاج الشهوة بالرحمة والغيرة وطهارة القلب",
+              "numberLabel": "الحديث ٧:٢٩"
+            },
+            {
+              "id": "essential-07-030",
+              "title": "علامات النفاق والخوف الذي يحفظ الإيمان",
+              "numberLabel": "الحديث ٧:٣٠"
+            },
+            {
+              "id": "essential-07-031",
+              "title": "صلاة المنافق حين تضعف صلة القلب بالصلاة",
+              "numberLabel": "الحديث ٧:٣١"
+            },
+            {
+              "id": "essential-07-032",
+              "title": "ست خصال للجنة وأسباب الثبات أمام الشهوة",
+              "numberLabel": "الحديث ٧:٣٢"
+            },
+            {
+              "id": "essential-07-033",
+              "title": "رفعة المتواضع وهوان المستكبر",
+              "numberLabel": "الحديث ٧:٣٣"
+            },
+            {
+              "id": "essential-07-034",
+              "title": "العجب بالنعمة بين زهرة المظهر وزوال الملك",
+              "numberLabel": "الحديث ٧:٣٤"
+            },
+            {
+              "id": "essential-07-035",
+              "title": "حين يكشف التقصير عيب العجب بالطاعة",
+              "numberLabel": "الحديث ٧:٣٥"
+            },
+            {
+              "id": "essential-07-036",
+              "title": "سلامة القلب من الحسد وحفظ أخوة الإيمان",
+              "numberLabel": "الحديث ٧:٣٦"
+            },
+            {
+              "id": "essential-07-037",
+              "title": "حين يجمع الغضب الشر كيف يوقف المؤمن أثره؟",
+              "numberLabel": "الحديث ٧:٣٧"
+            },
+            {
+              "id": "essential-07-038",
+              "title": "الاعتصام بالإيمان بالله ورسله عند ورود الشبهة",
+              "numberLabel": "الحديث ٧:٣٨"
+            },
+            {
+              "id": "essential-07-039",
+              "title": "ثلاث خصال تنقي القلب الإخلاص والنصيحة ولزوم الجماعة",
+              "numberLabel": "الحديث ٧:٣٩"
+            },
+            {
+              "id": "essential-08-001",
+              "title": "ثلاثة من أهل الجنة: عادل، رحيم، عفيف",
+              "numberLabel": "الحديث ٨:١"
+            },
+            {
+              "id": "essential-08-002",
+              "title": "المسلم أخو المسلم",
+              "numberLabel": "الحديث ٨:٢"
+            },
+            {
+              "id": "essential-08-003",
+              "title": "الراحمون يرحمهم الرحمن",
+              "numberLabel": "الحديث ٨:٣"
+            },
+            {
+              "id": "essential-08-004",
+              "title": "المؤمن للمؤمن كالبنيان",
+              "numberLabel": "الحديث ٨:٤"
+            },
+            {
+              "id": "essential-08-005",
+              "title": "من حسن إسلام المرء تركه ما لا يعنيه",
+              "numberLabel": "الحديث ٨:٥"
+            },
+            {
+              "id": "essential-08-006",
+              "title": "القلب النقي واللسان الصدوق",
+              "numberLabel": "الحديث ٨:٦"
+            },
+            {
+              "id": "essential-08-007",
+              "title": "أن تحب لأخيك ما تحب لنفسك",
+              "numberLabel": "الحديث ٨:٧"
+            },
+            {
+              "id": "essential-08-008",
+              "title": "النهي عن الغيبة وتتبع العورات",
+              "numberLabel": "الحديث ٨:٨"
+            },
+            {
+              "id": "essential-08-009",
+              "title": "الصدق يهدي إلى البر",
+              "numberLabel": "الحديث ٨:٩"
+            },
+            {
+              "id": "essential-08-010",
+              "title": "المؤمنون كالجسد الواحد",
+              "numberLabel": "الحديث ٨:١٠"
+            },
+            {
+              "id": "essential-08-011",
+              "title": "فضل الصدقة والعفو والتواضع",
+              "numberLabel": "الحديث ٨:١١"
+            },
+            {
+              "id": "essential-08-012",
+              "title": "أثر الجليس الصالح والجليس السوء",
+              "numberLabel": "الحديث ٨:١٢"
+            },
+            {
+              "id": "essential-08-013",
+              "title": "من لا يرحم الناس لا يرحمه الله",
+              "numberLabel": "الحديث ٨:١٣"
+            },
+            {
+              "id": "essential-08-014",
+              "title": "خسران من خلا قلبه من الرحمة",
+              "numberLabel": "الحديث ٨:١٤"
+            },
+            {
+              "id": "essential-08-015",
+              "title": "الحياء من الإيمان",
+              "numberLabel": "الحديث ٨:١٥"
+            },
+            {
+              "id": "essential-08-016",
+              "title": "حياء النبي ﷺ",
+              "numberLabel": "الحديث ٨:١٦"
+            },
+            {
+              "id": "essential-08-017",
+              "title": "الاستحياء من الله حق الحياء",
+              "numberLabel": "الحديث ٨:١٧"
+            },
+            {
+              "id": "essential-08-018",
+              "title": "من استحيا من الله استحيا الله منه",
+              "numberLabel": "الحديث ٨:١٨"
+            },
+            {
+              "id": "essential-08-019",
+              "title": "استحِ من الله كما تستحي من رجل صالح",
+              "numberLabel": "الحديث ٨:١٩"
+            },
+            {
+              "id": "essential-08-020",
+              "title": "الله أحق أن يستحيا منه",
+              "numberLabel": "الحديث ٨:٢٠"
+            },
+            {
+              "id": "essential-08-021",
+              "title": "فضل كظم الغيظ عند القدرة",
+              "numberLabel": "الحديث ٨:٢١"
+            },
+            {
+              "id": "essential-08-022",
+              "title": "سلامة الناس من الأذى وهجر ما نهى الله عنه",
+              "numberLabel": "الحديث ٨:٢٢"
+            },
+            {
+              "id": "essential-08-023",
+              "title": "أجر الشفاعة في قضاء الحوائج",
+              "numberLabel": "الحديث ٨:٢٣"
+            },
+            {
+              "id": "essential-08-024",
+              "title": "أنزلوا الناس منازلهم",
+              "numberLabel": "الحديث ٨:٢٤"
+            },
+            {
+              "id": "essential-08-025",
+              "title": "الإحسان في كل شيء",
+              "numberLabel": "الحديث ٨:٢٥"
+            },
+            {
+              "id": "essential-08-026",
+              "title": "الأدب الحسن أعظم ما يهديه الوالد إلى ولده",
+              "numberLabel": "الحديث ٨:٢٦"
+            },
+            {
+              "id": "essential-08-027",
+              "title": "لا يلدغ المؤمن من جحر واحد مرتين",
+              "numberLabel": "الحديث ٨:٢٧"
+            },
+            {
+              "id": "essential-08-028",
+              "title": "حسن التدبير والورع وشرف الخلق",
+              "numberLabel": "الحديث ٨:٢٨"
+            },
+            {
+              "id": "essential-08-029",
+              "title": "النصر والرزق ببركة الضعفاء",
+              "numberLabel": "الحديث ٨:٢٩"
+            },
+            {
+              "id": "essential-08-030",
+              "title": "قلة الأكفاء مع كثرة الناس",
+              "numberLabel": "الحديث ٨:٣٠"
+            },
+            {
+              "id": "essential-09-001",
+              "title": "يا مقلب القلوب، ثبت قلبي على دينك",
+              "numberLabel": "الحديث ٩:١"
+            },
+            {
+              "id": "essential-09-002",
+              "title": "رب أعني ولا تعن علي",
+              "numberLabel": "الحديث ٩:٢"
+            },
+            {
+              "id": "essential-09-003",
+              "title": "اللهم اجعل القرآن ربيع قلبي",
+              "numberLabel": "الحديث ٩:٣"
+            },
+            {
+              "id": "essential-09-004",
+              "title": "اللهم اجعل في قلبي نورا",
+              "numberLabel": "الحديث ٩:٤"
+            },
+            {
+              "id": "essential-09-005",
+              "title": "ادعوا الله وأنتم موقنون بالإجابة",
+              "numberLabel": "الحديث ٩:٥"
+            },
+            {
+              "id": "essential-09-006",
+              "title": "اللهم اغسل قلبي بماء الثلج والبرد",
+              "numberLabel": "الحديث ٩:٦"
+            },
+            {
+              "id": "essential-09-007",
+              "title": "اللهم باعد بيني وبين خطاياي",
+              "numberLabel": "الحديث ٩:٧"
+            },
+            {
+              "id": "essential-09-008",
+              "title": "اللهم آت نفسي تقواها",
+              "numberLabel": "الحديث ٩:٨"
+            },
+            {
+              "id": "essential-09-009",
+              "title": "من أجاب المؤذن من قلبه دخل الجنة",
+              "numberLabel": "الحديث ٩:٩"
+            },
+            {
+              "id": "essential-09-010",
+              "title": "اللهم لك الحمد أنت نور السماوات والأرض",
+              "numberLabel": "الحديث ٩:١٠"
+            },
+            {
+              "id": "essential-09-011",
+              "title": "ما أنزل الله داء إلا أنزل له شفاء",
+              "numberLabel": "الحديث ٩:١١"
+            },
+            {
+              "id": "essential-09-012",
+              "title": "اللهم إني أسألك الهدى والتقى والعفاف والغنى",
+              "numberLabel": "الحديث ٩:١٢"
+            },
+            {
+              "id": "essential-09-013",
+              "title": "اللهم لك الحمد كله",
+              "numberLabel": "الحديث ٩:١٣"
+            },
+            {
+              "id": "essential-09-014",
+              "title": "سبحان ذي الجبروت والملكوت",
+              "numberLabel": "الحديث ٩:١٤"
+            },
+            {
+              "id": "essential-09-015",
+              "title": "اللهم إني أعوذ بك من شر قلبي",
+              "numberLabel": "الحديث ٩:١٥"
+            },
+            {
+              "id": "essential-09-016",
+              "title": "اللهم إني أعوذ بك من قلب لا يخشع",
+              "numberLabel": "الحديث ٩:١٦"
+            },
+            {
+              "id": "essential-09-017",
+              "title": "اللهم طهرني بالثلج والبرد والماء البارد",
+              "numberLabel": "الحديث ٩:١٧"
+            },
+            {
+              "id": "essential-09-018",
+              "title": "اللهم مقلب القلوب، ثبت قلبي على دينك",
+              "numberLabel": "الحديث ٩:١٨"
+            },
+            {
+              "id": "essential-09-019",
+              "title": "الرؤيا الصالحة وما يفعله من رأى ما يكره",
+              "numberLabel": "الحديث ٩:١٩"
+            },
+            {
+              "id": "essential-09-020",
+              "title": "دعاء السفر والرجوع منه",
+              "numberLabel": "الحديث ٩:٢٠"
+            },
+            {
+              "id": "essential-09-021",
+              "title": "اشف أنت الشافي",
+              "numberLabel": "الحديث ٩:٢١"
+            },
+            {
+              "id": "essential-09-022",
+              "title": "ربنا لك الحمد ملء السماوات والأرض",
+              "numberLabel": "الحديث ٩:٢٢"
+            },
+            {
+              "id": "essential-10-001",
+              "title": "حديث جبريل: الإسلام والإيمان والإحسان",
+              "numberLabel": "الحديث ١٠:١"
+            },
+            {
+              "id": "essential-10-002",
+              "title": "الدين النصيحة",
+              "numberLabel": "الحديث ١٠:٢"
+            },
+            {
+              "id": "essential-10-003",
+              "title": "ما يرضاه الله لعباده وما يكرهه لهم",
+              "numberLabel": "الحديث ١٠:٣"
+            },
+            {
+              "id": "essential-10-004",
+              "title": "واعظ الله في قلب كل مسلم",
+              "numberLabel": "الحديث ١٠:٤"
+            },
+            {
+              "id": "essential-10-005",
+              "title": "القلوب أمام غيث الوحي",
+              "numberLabel": "الحديث ١٠:٥"
+            },
+            {
+              "id": "essential-10-006",
+              "title": "كاد قلبي أن يطير",
+              "numberLabel": "الحديث ١٠:٦"
+            },
+            {
+              "id": "essential-10-007",
+              "title": "للصائم فرحتان",
+              "numberLabel": "الحديث ١٠:٧"
+            },
+            {
+              "id": "essential-10-008",
+              "title": "الطهور شطر الإيمان",
+              "numberLabel": "الحديث ١٠:٨"
+            },
+            {
+              "id": "essential-10-009",
+              "title": "سبعة يظلهم الله يوم القيامة",
+              "numberLabel": "الحديث ١٠:٩"
+            },
+            {
+              "id": "essential-10-010",
+              "title": "شعب الإيمان من التوحيد إلى إماطة الأذى",
+              "numberLabel": "الحديث ١٠:١٠"
+            },
+            {
+              "id": "essential-10-011",
+              "title": "قل آمنت بالله فاستقم",
+              "numberLabel": "الحديث ١٠:١١"
+            },
+            {
+              "id": "essential-10-012",
+              "title": "من يرد الله به خيرًا يفقهه في الدين",
+              "numberLabel": "الحديث ١٠:١٢"
+            },
+            {
+              "id": "essential-10-013",
+              "title": "صلوا كما رأيتموني أصلي",
+              "numberLabel": "الحديث ١٠:١٣"
+            },
+            {
+              "id": "essential-10-014",
+              "title": "خمس خصائص اختص الله بها نبيه ﷺ",
+              "numberLabel": "الحديث ١٠:١٤"
+            },
+            {
+              "id": "essential-10-015",
+              "title": "العذر لا يقطع أجر الطاعة المعتادة",
+              "numberLabel": "الحديث ١٠:١٥"
+            },
+            {
+              "id": "essential-10-016",
+              "title": "إذا أمرتكم بأمر فأتوا منه ما استطعتم",
+              "numberLabel": "الحديث ١٠:١٦"
+            },
+            {
+              "id": "essential-10-017",
+              "title": "تفرغ لعبادتي",
+              "numberLabel": "الحديث ١٠:١٧"
+            },
+            {
+              "id": "essential-10-018",
+              "title": "أقيموا صفوفكم",
+              "numberLabel": "الحديث ١٠:١٨"
+            },
+            {
+              "id": "essential-10-019",
+              "title": "التهاون بصلاة الجمعة حتى يُطبع على القلب",
+              "numberLabel": "الحديث ١٠:١٩"
+            },
+            {
+              "id": "essential-10-020",
+              "title": "القرآن يجمع القلوب فلا تجعلوه سببًا للخصومة",
+              "numberLabel": "الحديث ١٠:٢٠"
+            },
+            {
+              "id": "essential-10-021",
+              "title": "الموعظة النافعة تراعي حال السامع",
+              "numberLabel": "الحديث ١٠:٢١"
+            },
+            {
+              "id": "essential-10-022",
+              "title": "قليل من الموعظة عظيم الأثر",
+              "numberLabel": "الحديث ١٠:٢٢"
+            },
+            {
+              "id": "essential-10-023",
+              "title": "موعظة النساء يوم العيد",
+              "numberLabel": "الحديث ١٠:٢٣"
+            },
+            {
+              "id": "essential-10-024",
+              "title": "حين يوقظ القرآن القلب للإيمان",
+              "numberLabel": "الحديث ١٠:٢٤"
+            },
+            {
+              "id": "essential-10-025",
+              "title": "أهل القرآن أهل الله وخاصته",
+              "numberLabel": "الحديث ١٠:٢٥"
+            },
+            {
+              "id": "essential-10-026",
+              "title": "خيركم من تعلم القرآن وعلمه",
+              "numberLabel": "الحديث ١٠:٢٦"
+            },
+            {
+              "id": "essential-10-027",
+              "title": "الغبطة بقارئ القرآن والمنفق في الحق",
+              "numberLabel": "الحديث ١٠:٢٧"
+            },
+            {
+              "id": "essential-10-028",
+              "title": "أربعة أمثال لأحوال الناس مع القرآن",
+              "numberLabel": "الحديث ١٠:٢٨"
+            },
+            {
+              "id": "essential-10-029",
+              "title": "المؤمن كالنخلة: نفع وبركة وثبات",
+              "numberLabel": "الحديث ١٠:٢٩"
+            },
+            {
+              "id": "essential-10-030",
+              "title": "وصية النبي ﷺ بكتاب الله",
+              "numberLabel": "الحديث ١٠:٣٠"
+            },
+            {
+              "id": "essential-10-031",
+              "title": "الصلاة تكفّر الذنوب إذا أُحسن أداؤها",
+              "numberLabel": "الحديث ١٠:٣١"
+            },
+            {
+              "id": "essential-10-032",
+              "title": "النبي ﷺ يرى المصلين من وراء ظهره",
+              "numberLabel": "الحديث ١٠:٣٢"
+            },
+            {
+              "id": "essential-10-033",
+              "title": "طريق الجنة: التوحيد وأداء الفرائض",
+              "numberLabel": "الحديث ١٠:٣٣"
+            },
+            {
+              "id": "essential-10-034",
+              "title": "أجر الدعوة إلى الهدى ووزر الدعوة إلى الضلال",
+              "numberLabel": "الحديث ١٠:٣٤"
+            },
+            {
+              "id": "essential-10-035",
+              "title": "الطهارة شرط لصحة الصلاة",
+              "numberLabel": "الحديث ١٠:٣٥"
+            },
+            {
+              "id": "essential-10-036",
+              "title": "عشر خصال من الفطرة",
+              "numberLabel": "الحديث ١٠:٣٦"
+            },
+            {
+              "id": "essential-10-037",
+              "title": "الماء طهور لا ينجسه شيء",
+              "numberLabel": "الحديث ١٠:٣٧"
+            },
+            {
+              "id": "essential-10-038",
+              "title": "الهرة ليست نجسة",
+              "numberLabel": "الحديث ١٠:٣٨"
+            },
+            {
+              "id": "essential-10-039",
+              "title": "الصلوات والجمعة ورمضان مكفّرات للذنوب",
+              "numberLabel": "الحديث ١٠:٣٩"
+            },
+            {
+              "id": "essential-10-040",
+              "title": "ثلاث وصايا للمداومة على العبادة",
+              "numberLabel": "الحديث ١٠:٤٠"
+            },
+            {
+              "id": "essential-10-041",
+              "title": "إن الدين يسر",
+              "numberLabel": "الحديث ١٠:٤١"
+            },
+            {
+              "id": "essential-10-042",
+              "title": "أسرعوا بالجنازة",
+              "numberLabel": "الحديث ١٠:٤٢"
+            },
+            {
+              "id": "essential-10-043",
+              "title": "نصاب الزكاة في الزروع والإبل والفضة",
+              "numberLabel": "الحديث ١٠:٤٣"
+            },
+            {
+              "id": "essential-10-044",
+              "title": "ثلاثة أعمال يمتد أجرها بعد الموت",
+              "numberLabel": "الحديث ١٠:٤٤"
+            },
+            {
+              "id": "essential-10-045",
+              "title": "الوفاء بنذر الطاعة وترك نذر المعصية",
+              "numberLabel": "الحديث ١٠:٤٥"
+            },
+            {
+              "id": "essential-10-046",
+              "title": "صل صلاة مودع",
+              "numberLabel": "الحديث ١٠:٤٦"
+            },
+            {
+              "id": "essential-10-047",
+              "title": "خذوا مناسك الحج عن النبي ﷺ",
+              "numberLabel": "الحديث ١٠:٤٧"
+            },
+            {
+              "id": "essential-10-048",
+              "title": "سورة الإخلاص تعدل ثلث القرآن",
+              "numberLabel": "الحديث ١٠:٤٨"
+            },
+            {
+              "id": "essential-10-049",
+              "title": "لا حسد إلا في اثنتين",
+              "numberLabel": "الحديث ١٠:٤٩"
+            },
+            {
+              "id": "essential-11-001",
+              "title": "إنما الطاعة في المعروف",
+              "numberLabel": "الحديث ١١:١"
+            },
+            {
+              "id": "essential-11-002",
+              "title": "المؤمن أمانٌ لمن حوله",
+              "numberLabel": "الحديث ١١:٢"
+            },
+            {
+              "id": "essential-11-003",
+              "title": "من أضرّ بالناس أضرّ الله به",
+              "numberLabel": "الحديث ١١:٣"
+            },
+            {
+              "id": "essential-11-004",
+              "title": "الظلم ظلمات يوم القيامة",
+              "numberLabel": "الحديث ١١:٤"
+            },
+            {
+              "id": "essential-11-005",
+              "title": "ستة حقوق للمسلم على أخيه",
+              "numberLabel": "الحديث ١١:٥"
+            },
+            {
+              "id": "essential-11-006",
+              "title": "المجتهد مأجور وإن أخطأ",
+              "numberLabel": "الحديث ١١:٦"
+            },
+            {
+              "id": "essential-11-007",
+              "title": "الصدق بركة البيع والكذب يمحقها",
+              "numberLabel": "الحديث ١١:٧"
+            },
+            {
+              "id": "essential-11-008",
+              "title": "النهي عن البيع المجهول والمخاطرة",
+              "numberLabel": "الحديث ١١:٨"
+            },
+            {
+              "id": "essential-11-009",
+              "title": "الصلح خير والوفاء بالشروط واجب",
+              "numberLabel": "الحديث ١١:٩"
+            },
+            {
+              "id": "essential-11-010",
+              "title": "مطل الغني ظلم",
+              "numberLabel": "الحديث ١١:١٠"
+            },
+            {
+              "id": "essential-11-011",
+              "title": "الأمانة في حفظ أموال الناس وردّها",
+              "numberLabel": "الحديث ١١:١١"
+            },
+            {
+              "id": "essential-11-012",
+              "title": "الشفعة وحفظ حق الشريك",
+              "numberLabel": "الحديث ١١:١٢"
+            },
+            {
+              "id": "essential-11-013",
+              "title": "الأمانة أساس الشراكة وبركتها",
+              "numberLabel": "الحديث ١١:١٣"
+            },
+            {
+              "id": "essential-11-014",
+              "title": "من سبق إلى المباح فهو أحقّ به",
+              "numberLabel": "الحديث ١١:١٤"
+            },
+            {
+              "id": "essential-11-015",
+              "title": "إعطاء كل وارث حقّه",
+              "numberLabel": "الحديث ١١:١٥"
+            },
+            {
+              "id": "essential-11-016",
+              "title": "لا وصية لوارث",
+              "numberLabel": "الحديث ١١:١٦"
+            },
+            {
+              "id": "essential-11-017",
+              "title": "الرضاعة تُحرّم ما تُحرّمه القرابة",
+              "numberLabel": "الحديث ١١:١٧"
+            },
+            {
+              "id": "essential-11-018",
+              "title": "لا تجعل العيوب تُنسيك المحاسن",
+              "numberLabel": "الحديث ١١:١٨"
+            },
+            {
+              "id": "essential-11-019",
+              "title": "الولاية أمانة لا مغنم",
+              "numberLabel": "الحديث ١١:١٩"
+            },
+            {
+              "id": "essential-11-020",
+              "title": "حرمة الدماء والوفاء بالعهود",
+              "numberLabel": "الحديث ١١:٢٠"
+            },
+            {
+              "id": "essential-11-021",
+              "title": "من مارس الطب بغير علم ضمن الضرر",
+              "numberLabel": "الحديث ١١:٢١"
+            },
+            {
+              "id": "essential-11-022",
+              "title": "التثبّت قبل إقامة الحدود",
+              "numberLabel": "الحديث ١١:٢٢"
+            },
+            {
+              "id": "essential-11-023",
+              "title": "لا تُؤخذ الحقوق بمجرد الادعاء",
+              "numberLabel": "الحديث ١١:٢٣"
+            },
+            {
+              "id": "essential-11-024",
+              "title": "البينة واليمين في إثبات الحقوق",
+              "numberLabel": "الحديث ١١:٢٤"
+            },
+            {
+              "id": "essential-11-025",
+              "title": "متى تُقبل الشهادة ومتى تُردّ؟",
+              "numberLabel": "الحديث ١١:٢٥"
+            },
+            {
+              "id": "essential-11-026",
+              "title": "شروط الذبح والصيد",
+              "numberLabel": "الحديث ١١:٢٦"
+            },
+            {
+              "id": "essential-11-027",
+              "title": "ما يحلّ وما يحرم من لحوم الحيوانات",
+              "numberLabel": "الحديث ١١:٢٧"
+            },
+            {
+              "id": "essential-11-028",
+              "title": "التشبّه المنهيّ عنه بين الرجال والنساء",
+              "numberLabel": "الحديث ١١:٢٨"
+            },
+            {
+              "id": "essential-11-029",
+              "title": "صلة الرحم بركة في الرزق والعمر",
+              "numberLabel": "الحديث ١١:٢٩"
+            },
+            {
+              "id": "essential-11-030",
+              "title": "النفقة حقّ للزوجة والأولاد",
+              "numberLabel": "الحديث ١١:٣٠"
+            },
+            {
+              "id": "essential-11-031",
+              "title": "لا يقضي القاضي وهو غضبان",
+              "numberLabel": "الحديث ١١:٣١"
+            },
+            {
+              "id": "essential-11-032",
+              "title": "رضا الربّ في رضا الوالد",
+              "numberLabel": "الحديث ١١:٣٢"
+            },
+            {
+              "id": "essential-11-033",
+              "title": "لا صلاح لأمة لا تُنصف ضعفاءها",
+              "numberLabel": "الحديث ١١:٣٣"
+            },
+            {
+              "id": "essential-12-001",
+              "title": "الغنى غنى القلب والفقر فقر القلب",
+              "numberLabel": "الحديث ١٢:١"
+            },
+            {
+              "id": "essential-12-002",
+              "title": "من كانت الآخرة همّه جمع الله شمله",
+              "numberLabel": "الحديث ١٢:٢"
+            },
+            {
+              "id": "essential-12-003",
+              "title": "طريق النجاة من النار والفوز بالجنة",
+              "numberLabel": "الحديث ١٢:٣"
+            },
+            {
+              "id": "essential-12-004",
+              "title": "الدنيا حلوة خضرة ولكنها دار ابتلاء",
+              "numberLabel": "الحديث ١٢:٤"
+            },
+            {
+              "id": "essential-12-005",
+              "title": "رحمة أرحم الراحمين وإخراج أهل التوحيد من النار",
+              "numberLabel": "الحديث ١٢:٥"
+            },
+            {
+              "id": "essential-12-006",
+              "title": "يهرم الجسد ويبقى حب المال وطول الأمل",
+              "numberLabel": "الحديث ١٢:٦"
+            },
+            {
+              "id": "essential-12-007",
+              "title": "حين يكون غنى القلب أغلى من المال",
+              "numberLabel": "الحديث ١٢:٧"
+            },
+            {
+              "id": "essential-12-008",
+              "title": "الوهن: حب الدنيا وكراهية الموت",
+              "numberLabel": "الحديث ١٢:٨"
+            },
+            {
+              "id": "essential-12-009",
+              "title": "أيهما أشد خطرًا على القلب: الفقر أم الغنى؟",
+              "numberLabel": "الحديث ١٢:٩"
+            },
+            {
+              "id": "essential-12-010",
+              "title": "الفلاح في الإسلام والكفاف والقناعة",
+              "numberLabel": "الحديث ١٢:١٠"
+            },
+            {
+              "id": "essential-12-011",
+              "title": "اتقوا النار ولو بشق تمرة",
+              "numberLabel": "الحديث ١٢:١١"
+            },
+            {
+              "id": "essential-12-012",
+              "title": "التمتع بنعم الله بلا إسراف ولا كبر",
+              "numberLabel": "الحديث ١٢:١٢"
+            },
+            {
+              "id": "essential-12-013",
+              "title": "المقام المحمود: الشفاعة العظمى للنبي ﷺ",
+              "numberLabel": "الحديث ١٢:١٣"
+            },
+            {
+              "id": "essential-12-014",
+              "title": "الميزان والصراط يوم القيامة",
+              "numberLabel": "الحديث ١٢:١٤"
+            },
+            {
+              "id": "essential-12-015",
+              "title": "يوم تُردّ المظالم بالحسنات والسيئات",
+              "numberLabel": "الحديث ١٢:١٥"
+            }
+          ]
         },
         {
           "language": "ar",
@@ -5407,23 +5407,6 @@
           "units": 3,
           "pages": 37,
           "audio": 3,
-          "contents": [
-            {
-              "id": "new-seerah001",
-              "title": "من عام الفيل إلى طفولة النبي ﷺ",
-              "numberLabel": "السيرة ١"
-            },
-            {
-              "id": "new-seerah002",
-              "title": "حالُ العرب قبل البعثة ونشأةُ رسولِ الله ﷺ",
-              "numberLabel": "السيرة ٢"
-            },
-            {
-              "id": "new-seerah003",
-              "title": "من بيت خديجة إلى غار حراء",
-              "numberLabel": "السيرة ٣"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ar",
@@ -5472,7 +5455,24 @@
                 "new-seerah003": "السيرة ٣"
               }
             }
-          }
+          },
+          "contents": [
+            {
+              "id": "new-seerah001",
+              "title": "من عام الفيل إلى طفولة النبي ﷺ",
+              "numberLabel": "السيرة ١"
+            },
+            {
+              "id": "new-seerah002",
+              "title": "حالُ العرب قبل البعثة ونشأةُ رسولِ الله ﷺ",
+              "numberLabel": "السيرة ٢"
+            },
+            {
+              "id": "new-seerah003",
+              "title": "من بيت خديجة إلى غار حراء",
+              "numberLabel": "السيرة ٣"
+            }
+          ]
         },
         {
           "language": "ar",
@@ -5486,242 +5486,6 @@
           "units": 47,
           "pages": 390,
           "audio": 0,
-          "contents": [
-            {
-              "id": "prepared-ar-79fa38429519de69",
-              "title": "قليلها يكفي",
-              "numberLabel": "مقالات ١"
-            },
-            {
-              "id": "prepared-ar-89bf0bbfc8c0421a",
-              "title": "حتى لا ينقطع المعروف",
-              "numberLabel": "مقالات ٢"
-            },
-            {
-              "id": "prepared-ar-d51913271d6c3b45",
-              "title": "لا تستصغر بابًا من الخير",
-              "numberLabel": "مقالات ٣"
-            },
-            {
-              "id": "prepared-ar-116a70bf1f17216b",
-              "title": "حين تقيس نفسك بموازين لا تنصفك",
-              "numberLabel": "مقالات ٤"
-            },
-            {
-              "id": "prepared-ar-6ba5fe0478542dd6",
-              "title": "ثم ماذا؟ هل سيرضون عنك؟",
-              "numberLabel": "مقالات ٥"
-            },
-            {
-              "id": "prepared-ar-219ed3171ce74859",
-              "title": "الإصلاح الذي يبدأ من القلب",
-              "numberLabel": "مقالات ٦"
-            },
-            {
-              "id": "prepared-ar-6ce2acf93dcf678f",
-              "title": "هل كل ما نختاره حرية؟",
-              "numberLabel": "مقالات ٧"
-            },
-            {
-              "id": "prepared-ar-ad8abe6498c1bd9c",
-              "title": "السلطة أمانة والعدل لا يتجزأ",
-              "numberLabel": "مقالات ٨"
-            },
-            {
-              "id": "prepared-ar-09bf066b3634f57d",
-              "title": "حين تبحث الشهوة عن حجة",
-              "numberLabel": "مقالات ٩"
-            },
-            {
-              "id": "prepared-ar-2cb53e0be2518006",
-              "title": "حين تستحوذ علاقة واحدة على القلب",
-              "numberLabel": "مقالات ١٠"
-            },
-            {
-              "id": "prepared-ar-98362e187173fe45",
-              "title": "انفض الغبار عن كنزك",
-              "numberLabel": "مقالات ١١"
-            },
-            {
-              "id": "prepared-ar-173df390b851bda2",
-              "title": "جحيم الشهرة",
-              "numberLabel": "مقالات ١٢"
-            },
-            {
-              "id": "prepared-ar-01adb5e17c74e525",
-              "title": "نعمة الفتن",
-              "numberLabel": "مقالات ١٣"
-            },
-            {
-              "id": "prepared-ar-ae8de4851f3bb1b8",
-              "title": "الكسوف موعظة ربانية",
-              "numberLabel": "مقالات ١٤"
-            },
-            {
-              "id": "prepared-ar-7451ca7b9f77caec",
-              "title": "لا تأمن الفتنة على قلبك",
-              "numberLabel": "مقالات ١٥"
-            },
-            {
-              "id": "prepared-ar-6df1b5435dd7f636",
-              "title": "حين تختبر الخصومة أخلاقنا",
-              "numberLabel": "مقالات ١٦"
-            },
-            {
-              "id": "prepared-ar-84f4fc9d228796a8",
-              "title": "حتى مع الله ليس الواصل بالمكافئ",
-              "numberLabel": "مقالات ١٧"
-            },
-            {
-              "id": "prepared-ar-335663d5ce8c681d",
-              "title": "حين يكون ثمن كلمة الحق غاليًا",
-              "numberLabel": "مقالات ١٨"
-            },
-            {
-              "id": "prepared-ar-1a83e3dc04f6c0a9",
-              "title": "آيات المزمل كأنها نزلت اليوم",
-              "numberLabel": "مقالات ١٩"
-            },
-            {
-              "id": "prepared-ar-bac340ae12e6d78f",
-              "title": "لا تجعل ذنبك يقطع طريقك إلى الله",
-              "numberLabel": "مقالات ٢٠"
-            },
-            {
-              "id": "prepared-ar-0d9c648982c774f5",
-              "title": "إني عبدك",
-              "numberLabel": "مقالات ٢١"
-            },
-            {
-              "id": "prepared-ar-95f07e74bea711fb",
-              "title": "ابتلاؤك هذا مرّ على نبي",
-              "numberLabel": "مقالات ٢٢"
-            },
-            {
-              "id": "prepared-ar-939d09dc4dac35c8",
-              "title": "هل حرمنا التدين من لذة الحياة",
-              "numberLabel": "مقالات ٢٣"
-            },
-            {
-              "id": "prepared-ar-59e0346c43427a88",
-              "title": "الخوف الذي يردك إلى الله",
-              "numberLabel": "مقالات ٢٤"
-            },
-            {
-              "id": "prepared-ar-66245dc0affaaad0",
-              "title": "عمل لا يراه الناس، ولا يضيع عند الله",
-              "numberLabel": "مقالات ٢٥"
-            },
-            {
-              "id": "prepared-ar-0b82b1d24c63d07d",
-              "title": "النعمة التي تتم بها النعم",
-              "numberLabel": "مقالات ٢٦"
-            },
-            {
-              "id": "prepared-ar-79f984ac70b93547",
-              "title": "الحكمة التي تعلمناها من لُقْمَانَ",
-              "numberLabel": "مقالات ٢٧"
-            },
-            {
-              "id": "prepared-ar-e7028b1724976c19",
-              "title": "حين تتحول التسلية إلى عداوة وغفلة",
-              "numberLabel": "مقالات ٢٨"
-            },
-            {
-              "id": "prepared-ar-cf343c13ae9ee566",
-              "title": "هل تكفي نهاية سعيدة لتصحيح الطريق؟",
-              "numberLabel": "مقالات ٢٩"
-            },
-            {
-              "id": "prepared-ar-11fd6195efc8363c",
-              "title": "حين تكشف الشبهة ما في القلب",
-              "numberLabel": "مقالات ٣٠"
-            },
-            {
-              "id": "prepared-ar-213e88a5041a8109",
-              "title": "ماذا نأخذ من أخبار من سبقونا؟",
-              "numberLabel": "مقالات ٣١"
-            },
-            {
-              "id": "prepared-ar-7f846d348a330fa2",
-              "title": "القوامة: مسؤولية وحقوق ومعايير للإنصاف",
-              "numberLabel": "مقالات ٣٢"
-            },
-            {
-              "id": "prepared-ar-bbafdf2ab00688fe",
-              "title": "مُعَاذُ بْنُ جَبَلٍ: عمر قصير وأثر باقٍ",
-              "numberLabel": "مقالات ٣٣"
-            },
-            {
-              "id": "prepared-ar-d93feffd65ae000e",
-              "title": "التعاطف لا يكفي لمعرفة الحق",
-              "numberLabel": "مقالات ٣٤"
-            },
-            {
-              "id": "prepared-ar-451e54203b31adc1",
-              "title": "رجل واحد كان بركة على قومه",
-              "numberLabel": "مقالات ٣٥"
-            },
-            {
-              "id": "prepared-ar-a2f5ea3d0b4a4a63",
-              "title": "من نحن؟ حين نفهم أنفسنا",
-              "numberLabel": "مقالات ٣٦"
-            },
-            {
-              "id": "prepared-ar-a4d28240cb1f060b",
-              "title": "ليست كل الدموع سواء",
-              "numberLabel": "مقالات ٣٧"
-            },
-            {
-              "id": "prepared-ar-4605a8be02d093d9",
-              "title": "ما الذي تعلّمه الشاشات لقلوبنا",
-              "numberLabel": "مقالات ٣٨"
-            },
-            {
-              "id": "prepared-ar-f5c73b42800a3d2a",
-              "title": "ولكنه لم يضر أحدًا فهل يكفي هذا؟",
-              "numberLabel": "مقالات ٣٩"
-            },
-            {
-              "id": "prepared-ar-61301f4500c37581",
-              "title": "بين الرضا بالقدر والاستجابة لأمر الله",
-              "numberLabel": "مقالات ٤٠"
-            },
-            {
-              "id": "prepared-ar-d6774afeeeaca832",
-              "title": "حين يتيسر الحرام",
-              "numberLabel": "مقالات ٤١"
-            },
-            {
-              "id": "prepared-ar-8ee41b5d5879e13b",
-              "title": "معذرة إلى ربكم ولعلهم يتقون",
-              "numberLabel": "مقالات ٤٢"
-            },
-            {
-              "id": "prepared-ar-d9cf2d00e75b4129",
-              "title": "الأشهر الحُرم: تعظيم ما عظّمه الله",
-              "numberLabel": "مقالات ٤٣"
-            },
-            {
-              "id": "prepared-ar-23e918af03160523",
-              "title": "كيف يحمي القرآن العفة؟",
-              "numberLabel": "مقالات ٤٤"
-            },
-            {
-              "id": "prepared-ar-6e36b40d2b44c28d",
-              "title": "كيف نحرس أبصارنا وقلوبنا؟",
-              "numberLabel": "مقالات ٤٥"
-            },
-            {
-              "id": "prepared-ar-693c2dfe4f68250b",
-              "title": "الأبوة ليست إنفاقًا فقط",
-              "numberLabel": "مقالات ٤٦"
-            },
-            {
-              "id": "prepared-ar-cdf3504c0992a5f4",
-              "title": "وتحسبونه هيّنًا"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ar",
@@ -6033,7 +5797,243 @@
                 "prepared-ar-693c2dfe4f68250b": "مقالات ٤٦"
               }
             }
-          }
+          },
+          "contents": [
+            {
+              "id": "prepared-ar-79fa38429519de69",
+              "title": "قليلها يكفي",
+              "numberLabel": "مقالات ١"
+            },
+            {
+              "id": "prepared-ar-89bf0bbfc8c0421a",
+              "title": "حتى لا ينقطع المعروف",
+              "numberLabel": "مقالات ٢"
+            },
+            {
+              "id": "prepared-ar-d51913271d6c3b45",
+              "title": "لا تستصغر بابًا من الخير",
+              "numberLabel": "مقالات ٣"
+            },
+            {
+              "id": "prepared-ar-116a70bf1f17216b",
+              "title": "حين تقيس نفسك بموازين لا تنصفك",
+              "numberLabel": "مقالات ٤"
+            },
+            {
+              "id": "prepared-ar-6ba5fe0478542dd6",
+              "title": "ثم ماذا؟ هل سيرضون عنك؟",
+              "numberLabel": "مقالات ٥"
+            },
+            {
+              "id": "prepared-ar-219ed3171ce74859",
+              "title": "الإصلاح الذي يبدأ من القلب",
+              "numberLabel": "مقالات ٦"
+            },
+            {
+              "id": "prepared-ar-6ce2acf93dcf678f",
+              "title": "هل كل ما نختاره حرية؟",
+              "numberLabel": "مقالات ٧"
+            },
+            {
+              "id": "prepared-ar-ad8abe6498c1bd9c",
+              "title": "السلطة أمانة والعدل لا يتجزأ",
+              "numberLabel": "مقالات ٨"
+            },
+            {
+              "id": "prepared-ar-09bf066b3634f57d",
+              "title": "حين تبحث الشهوة عن حجة",
+              "numberLabel": "مقالات ٩"
+            },
+            {
+              "id": "prepared-ar-2cb53e0be2518006",
+              "title": "حين تستحوذ علاقة واحدة على القلب",
+              "numberLabel": "مقالات ١٠"
+            },
+            {
+              "id": "prepared-ar-98362e187173fe45",
+              "title": "انفض الغبار عن كنزك",
+              "numberLabel": "مقالات ١١"
+            },
+            {
+              "id": "prepared-ar-173df390b851bda2",
+              "title": "جحيم الشهرة",
+              "numberLabel": "مقالات ١٢"
+            },
+            {
+              "id": "prepared-ar-01adb5e17c74e525",
+              "title": "نعمة الفتن",
+              "numberLabel": "مقالات ١٣"
+            },
+            {
+              "id": "prepared-ar-ae8de4851f3bb1b8",
+              "title": "الكسوف موعظة ربانية",
+              "numberLabel": "مقالات ١٤"
+            },
+            {
+              "id": "prepared-ar-7451ca7b9f77caec",
+              "title": "لا تأمن الفتنة على قلبك",
+              "numberLabel": "مقالات ١٥"
+            },
+            {
+              "id": "prepared-ar-6df1b5435dd7f636",
+              "title": "حين تختبر الخصومة أخلاقنا",
+              "numberLabel": "مقالات ١٦"
+            },
+            {
+              "id": "prepared-ar-84f4fc9d228796a8",
+              "title": "حتى مع الله ليس الواصل بالمكافئ",
+              "numberLabel": "مقالات ١٧"
+            },
+            {
+              "id": "prepared-ar-335663d5ce8c681d",
+              "title": "حين يكون ثمن كلمة الحق غاليًا",
+              "numberLabel": "مقالات ١٨"
+            },
+            {
+              "id": "prepared-ar-1a83e3dc04f6c0a9",
+              "title": "آيات المزمل كأنها نزلت اليوم",
+              "numberLabel": "مقالات ١٩"
+            },
+            {
+              "id": "prepared-ar-bac340ae12e6d78f",
+              "title": "لا تجعل ذنبك يقطع طريقك إلى الله",
+              "numberLabel": "مقالات ٢٠"
+            },
+            {
+              "id": "prepared-ar-0d9c648982c774f5",
+              "title": "إني عبدك",
+              "numberLabel": "مقالات ٢١"
+            },
+            {
+              "id": "prepared-ar-95f07e74bea711fb",
+              "title": "ابتلاؤك هذا مرّ على نبي",
+              "numberLabel": "مقالات ٢٢"
+            },
+            {
+              "id": "prepared-ar-939d09dc4dac35c8",
+              "title": "هل حرمنا التدين من لذة الحياة",
+              "numberLabel": "مقالات ٢٣"
+            },
+            {
+              "id": "prepared-ar-59e0346c43427a88",
+              "title": "الخوف الذي يردك إلى الله",
+              "numberLabel": "مقالات ٢٤"
+            },
+            {
+              "id": "prepared-ar-66245dc0affaaad0",
+              "title": "عمل لا يراه الناس، ولا يضيع عند الله",
+              "numberLabel": "مقالات ٢٥"
+            },
+            {
+              "id": "prepared-ar-0b82b1d24c63d07d",
+              "title": "النعمة التي تتم بها النعم",
+              "numberLabel": "مقالات ٢٦"
+            },
+            {
+              "id": "prepared-ar-79f984ac70b93547",
+              "title": "الحكمة التي تعلمناها من لُقْمَانَ",
+              "numberLabel": "مقالات ٢٧"
+            },
+            {
+              "id": "prepared-ar-e7028b1724976c19",
+              "title": "حين تتحول التسلية إلى عداوة وغفلة",
+              "numberLabel": "مقالات ٢٨"
+            },
+            {
+              "id": "prepared-ar-cf343c13ae9ee566",
+              "title": "هل تكفي نهاية سعيدة لتصحيح الطريق؟",
+              "numberLabel": "مقالات ٢٩"
+            },
+            {
+              "id": "prepared-ar-11fd6195efc8363c",
+              "title": "حين تكشف الشبهة ما في القلب",
+              "numberLabel": "مقالات ٣٠"
+            },
+            {
+              "id": "prepared-ar-213e88a5041a8109",
+              "title": "ماذا نأخذ من أخبار من سبقونا؟",
+              "numberLabel": "مقالات ٣١"
+            },
+            {
+              "id": "prepared-ar-7f846d348a330fa2",
+              "title": "القوامة: مسؤولية وحقوق ومعايير للإنصاف",
+              "numberLabel": "مقالات ٣٢"
+            },
+            {
+              "id": "prepared-ar-bbafdf2ab00688fe",
+              "title": "مُعَاذُ بْنُ جَبَلٍ: عمر قصير وأثر باقٍ",
+              "numberLabel": "مقالات ٣٣"
+            },
+            {
+              "id": "prepared-ar-d93feffd65ae000e",
+              "title": "التعاطف لا يكفي لمعرفة الحق",
+              "numberLabel": "مقالات ٣٤"
+            },
+            {
+              "id": "prepared-ar-451e54203b31adc1",
+              "title": "رجل واحد كان بركة على قومه",
+              "numberLabel": "مقالات ٣٥"
+            },
+            {
+              "id": "prepared-ar-a2f5ea3d0b4a4a63",
+              "title": "من نحن؟ حين نفهم أنفسنا",
+              "numberLabel": "مقالات ٣٦"
+            },
+            {
+              "id": "prepared-ar-a4d28240cb1f060b",
+              "title": "ليست كل الدموع سواء",
+              "numberLabel": "مقالات ٣٧"
+            },
+            {
+              "id": "prepared-ar-4605a8be02d093d9",
+              "title": "ما الذي تعلّمه الشاشات لقلوبنا",
+              "numberLabel": "مقالات ٣٨"
+            },
+            {
+              "id": "prepared-ar-f5c73b42800a3d2a",
+              "title": "ولكنه لم يضر أحدًا فهل يكفي هذا؟",
+              "numberLabel": "مقالات ٣٩"
+            },
+            {
+              "id": "prepared-ar-61301f4500c37581",
+              "title": "بين الرضا بالقدر والاستجابة لأمر الله",
+              "numberLabel": "مقالات ٤٠"
+            },
+            {
+              "id": "prepared-ar-d6774afeeeaca832",
+              "title": "حين يتيسر الحرام",
+              "numberLabel": "مقالات ٤١"
+            },
+            {
+              "id": "prepared-ar-8ee41b5d5879e13b",
+              "title": "معذرة إلى ربكم ولعلهم يتقون",
+              "numberLabel": "مقالات ٤٢"
+            },
+            {
+              "id": "prepared-ar-d9cf2d00e75b4129",
+              "title": "الأشهر الحُرم: تعظيم ما عظّمه الله",
+              "numberLabel": "مقالات ٤٣"
+            },
+            {
+              "id": "prepared-ar-23e918af03160523",
+              "title": "كيف يحمي القرآن العفة؟",
+              "numberLabel": "مقالات ٤٤"
+            },
+            {
+              "id": "prepared-ar-6e36b40d2b44c28d",
+              "title": "كيف نحرس أبصارنا وقلوبنا؟",
+              "numberLabel": "مقالات ٤٥"
+            },
+            {
+              "id": "prepared-ar-693c2dfe4f68250b",
+              "title": "الأبوة ليست إنفاقًا فقط",
+              "numberLabel": "مقالات ٤٦"
+            },
+            {
+              "id": "prepared-ar-cdf3504c0992a5f4",
+              "title": "وتحسبونه هيّنًا"
+            }
+          ]
         }
       ],
       "bundle": {
@@ -6071,13 +6071,6 @@
           "units": 1,
           "pages": 41,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "سورۂ اخلاص — تدبر",
-              "numberLabel": "سورۃ ۱۱۲"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ur",
@@ -6286,6 +6279,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "سورۂ اخلاص — تدبر",
+              "numberLabel": "سورۃ ۱۱۲"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -6308,18 +6308,6 @@
           "units": 2,
           "pages": 21,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "اللہ کی عظمت اور دل و عمل پر اس کے اثرات",
-              "numberLabel": "حدیث ۲"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "دل رحمن کے تصرف کے تحت ہیں",
-              "numberLabel": "حدیث ۳"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ur",
@@ -6387,6 +6375,18 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "اللہ کی عظمت اور دل و عمل پر اس کے اثرات",
+              "numberLabel": "حدیث ۲"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "دل رحمن کے تصرف کے تحت ہیں",
+              "numberLabel": "حدیث ۳"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -6434,13 +6434,6 @@
           "units": 1,
           "pages": 25,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "Surah Al-Ikhlas — Tadabur",
-              "numberLabel": "Surah 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "id",
@@ -6649,6 +6642,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "Surah Al-Ikhlas — Tadabur",
+              "numberLabel": "Surah 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -6671,23 +6671,6 @@
           "units": 3,
           "pages": 19,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "Keagungan Allah dan Pengaruhnya terhadap Hati dan Amal",
-              "numberLabel": "Hadis 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "Hati berada dalam pengaturan Ar-Rahman",
-              "numberLabel": "Hadis 3"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "Teguh dalam agama dan mengenali keadaan hati yang menyimpang",
-              "numberLabel": "Hadis 4"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "id",
@@ -6764,6 +6747,23 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "Keagungan Allah dan Pengaruhnya terhadap Hati dan Amal",
+              "numberLabel": "Hadis 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Hati berada dalam pengaturan Ar-Rahman",
+              "numberLabel": "Hadis 3"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Teguh dalam agama dan mengenali keadaan hati yang menyimpang",
+              "numberLabel": "Hadis 4"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -6812,13 +6812,6 @@
           "units": 1,
           "pages": 25,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "Surah al-Ikhlas — Tadabbur",
-              "numberLabel": "Surah 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ms",
@@ -7027,6 +7020,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "Surah al-Ikhlas — Tadabbur",
+              "numberLabel": "Surah 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -7049,23 +7049,6 @@
           "units": 3,
           "pages": 20,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "Keagungan Allah dan Kesannya terhadap Hati dan Amal",
-              "numberLabel": "Hadis 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "Hati berada di bawah pengaturan Ar-Rahman",
-              "numberLabel": "Hadis 3"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "Teguh dalam agama dan mengenali keadaan hati yang menyimpang",
-              "numberLabel": "Hadis 4"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ms",
@@ -7142,6 +7125,23 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "Keagungan Allah dan Kesannya terhadap Hati dan Amal",
+              "numberLabel": "Hadis 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Hati berada di bawah pengaturan Ar-Rahman",
+              "numberLabel": "Hadis 3"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Teguh dalam agama dan mengenali keadaan hati yang menyimpang",
+              "numberLabel": "Hadis 4"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -7190,13 +7190,6 @@
           "units": 1,
           "pages": 20,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "সূরা আল-ইখলাস — ভাবনা ও অনুধাবন",
-              "numberLabel": "সূরা ১১২"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "bn",
@@ -7405,6 +7398,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "সূরা আল-ইখলাস — ভাবনা ও অনুধাবন",
+              "numberLabel": "সূরা ১১২"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -7427,18 +7427,6 @@
           "units": 2,
           "pages": 13,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব",
-              "numberLabel": "হাদিস ২"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "অন্তরসমূহ পরম দয়াময়ের নিয়ন্ত্রণাধীন",
-              "numberLabel": "হাদিস ৩"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "bn",
@@ -7506,6 +7494,18 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব",
+              "numberLabel": "হাদিস ২"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "অন্তরসমূহ পরম দয়াময়ের নিয়ন্ত্রণাধীন",
+              "numberLabel": "হাদিস ৩"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -7553,13 +7553,6 @@
           "units": 1,
           "pages": 19,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "İhlâs Suresi — Tefekkür",
-              "numberLabel": "Sure 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "tr",
@@ -7768,6 +7761,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "İhlâs Suresi — Tefekkür",
+              "numberLabel": "Sure 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -7790,23 +7790,6 @@
           "units": 3,
           "pages": 15,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi",
-              "numberLabel": "Hadis 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "Kalpler Rahmân’ın tasarrufu altındadır",
-              "numberLabel": "Hadis 3"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "Dinde sebat etmek ve haktan sapan kalbin hâllerini tanımak",
-              "numberLabel": "Hadis 4"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "tr",
@@ -7873,7 +7856,24 @@
                 "essential-01-004": "Hadis 4"
               }
             }
-          }
+          },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi",
+              "numberLabel": "Hadis 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Kalpler Rahmân’ın tasarrufu altındadır",
+              "numberLabel": "Hadis 3"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Dinde sebat etmek ve haktan sapan kalbin hâllerini tanımak",
+              "numberLabel": "Hadis 4"
+            }
+          ]
         }
       ],
       "bundle": {
@@ -7911,13 +7911,6 @@
           "units": 1,
           "pages": 23,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "Sourate Al-Ikhlas — Méditation",
-              "numberLabel": "Sourate 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "fr",
@@ -8126,6 +8119,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "Sourate Al-Ikhlas — Méditation",
+              "numberLabel": "Sourate 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -8148,23 +8148,6 @@
           "units": 3,
           "pages": 17,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "La grandeur d’Allah et ses effets sur le cœur et les actes",
-              "numberLabel": "Hadith 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "Les cœurs sont sous l’autorité du Tout Miséricordieux",
-              "numberLabel": "Hadith 3"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "Rester ferme dans la religion et reconnaître les états d’un cœur déviant",
-              "numberLabel": "Hadith 4"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "fr",
@@ -8254,7 +8237,24 @@
                 "essential-01-004": "Hadith 4"
               }
             }
-          }
+          },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "La grandeur d’Allah et ses effets sur le cœur et les actes",
+              "numberLabel": "Hadith 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Les cœurs sont sous l’autorité du Tout Miséricordieux",
+              "numberLabel": "Hadith 3"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Rester ferme dans la religion et reconnaître les états d’un cœur déviant",
+              "numberLabel": "Hadith 4"
+            }
+          ]
         }
       ],
       "bundle": {
@@ -8292,13 +8292,6 @@
           "units": 1,
           "pages": 22,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "Surata Al-Ikhlas — Reflexões",
-              "numberLabel": "Surata 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "pt-BR",
@@ -8507,6 +8500,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "Surata Al-Ikhlas — Reflexões",
+              "numberLabel": "Surata 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -8529,23 +8529,6 @@
           "units": 3,
           "pages": 17,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "A grandeza de Allah e seu efeito no coração e nas ações",
-              "numberLabel": "Hadith 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "Os corações estão sob o controle do Misericordioso",
-              "numberLabel": "Hadith 3"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "Permanecer firme na religião e conhecer as características do coração desviado",
-              "numberLabel": "Hadith 4"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "pt-BR",
@@ -8622,6 +8605,23 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "A grandeza de Allah e seu efeito no coração e nas ações",
+              "numberLabel": "Hadith 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Os corações estão sob o controle do Misericordioso",
+              "numberLabel": "Hadith 3"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Permanecer firme na religião e conhecer as características do coração desviado",
+              "numberLabel": "Hadith 4"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -8670,13 +8670,6 @@
           "units": 1,
           "pages": 20,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "सूरा इख़लास — मनन",
-              "numberLabel": "सूरा ११२"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "hi",
@@ -8729,6 +8722,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "सूरा इख़लास — मनन",
+              "numberLabel": "सूरा ११२"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -8751,18 +8751,6 @@
           "units": 2,
           "pages": 9,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "अल्लाह की महानता और दिल व कर्मों पर उसका प्रभाव",
-              "numberLabel": "हदीस २"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "दिल परम दयावान के नियंत्रण में हैं",
-              "numberLabel": "हदीस ३"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "hi",
@@ -8830,6 +8818,18 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "अल्लाह की महानता और दिल व कर्मों पर उसका प्रभाव",
+              "numberLabel": "हदीस २"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "दिल परम दयावान के नियंत्रण में हैं",
+              "numberLabel": "हदीस ३"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -8877,13 +8877,6 @@
           "units": 1,
           "pages": 21,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "Сура «Аль-Ихляс» — размышление",
-              "numberLabel": "Сура 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ru",
@@ -8936,6 +8929,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "Сура «Аль-Ихляс» — размышление",
+              "numberLabel": "Сура 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -8958,23 +8958,6 @@
           "units": 3,
           "pages": 15,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "Величие Аллаха и его влияние на сердце и поступки",
-              "numberLabel": "Хадис 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "Сердца подвластны Милостивому",
-              "numberLabel": "Хадис 3"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "Стойкость в религии и распознавание отклонившегося сердца",
-              "numberLabel": "Хадис 4"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ru",
@@ -9051,6 +9034,23 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "Величие Аллаха и его влияние на сердце и поступки",
+              "numberLabel": "Хадис 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Сердца подвластны Милостивому",
+              "numberLabel": "Хадис 3"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Стойкость в религии и распознавание отклонившегося сердца",
+              "numberLabel": "Хадис 4"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -9099,13 +9099,6 @@
           "units": 1,
           "pages": 22,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "Sura Al-Ijlás — Reflexión",
-              "numberLabel": "Sura 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "es",
@@ -9158,6 +9151,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "Sura Al-Ijlás — Reflexión",
+              "numberLabel": "Sura 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -9180,23 +9180,6 @@
           "units": 3,
           "pages": 16,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "La grandeza de Allah y su efecto en el corazón y las obras",
-              "numberLabel": "Hadiz 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "Los corazones están bajo el dominio del Clemente",
-              "numberLabel": "Hadiz 3"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "Firmeza en la religión y cómo reconocer un corazón desviado",
-              "numberLabel": "Hadiz 4"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "es",
@@ -9273,6 +9256,23 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "La grandeza de Allah y su efecto en el corazón y las obras",
+              "numberLabel": "Hadiz 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Los corazones están bajo el dominio del Clemente",
+              "numberLabel": "Hadiz 3"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Firmeza en la religión y cómo reconocer un corazón desviado",
+              "numberLabel": "Hadiz 4"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -9321,13 +9321,6 @@
           "units": 1,
           "pages": 20,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "تأمل در سورهٔ اخلاص",
-              "numberLabel": "سوره ۱۱۲"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "fa",
@@ -9380,6 +9373,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "تأمل در سورهٔ اخلاص",
+              "numberLabel": "سوره ۱۱۲"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -9402,23 +9402,6 @@
           "units": 3,
           "pages": 14,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "عظمت الله و اثر آن بر دل و عمل",
-              "numberLabel": "حدیث ۲"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "دل‌ها در اختیار و تدبیر رحمان‌اند",
-              "numberLabel": "حدیث ۳"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "استواری در دین و شناخت ویژگی‌های دلِ منحرف",
-              "numberLabel": "حدیث ۴"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "fa",
@@ -9495,6 +9478,23 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "عظمت الله و اثر آن بر دل و عمل",
+              "numberLabel": "حدیث ۲"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "دل‌ها در اختیار و تدبیر رحمان‌اند",
+              "numberLabel": "حدیث ۳"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "استواری در دین و شناخت ویژگی‌های دلِ منحرف",
+              "numberLabel": "حدیث ۴"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -9543,13 +9543,6 @@
           "units": 1,
           "pages": 23,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "Sure Al-Ikhlas – Betrachtungen",
-              "numberLabel": "Sure 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "de",
@@ -9602,6 +9595,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "Sure Al-Ikhlas – Betrachtungen",
+              "numberLabel": "Sure 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -9624,23 +9624,6 @@
           "units": 3,
           "pages": 16,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "Allahs Größe und ihre Wirkung auf Herz und Handeln",
-              "numberLabel": "Hadith 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "Die Herzen stehen unter der Lenkung des Allerbarmers",
-              "numberLabel": "Hadith 3"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "Im Glauben standhaft bleiben und ein abirrendes Herz erkennen",
-              "numberLabel": "Hadith 4"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "de",
@@ -9717,6 +9700,23 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "Allahs Größe und ihre Wirkung auf Herz und Handeln",
+              "numberLabel": "Hadith 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Die Herzen stehen unter der Lenkung des Allerbarmers",
+              "numberLabel": "Hadith 3"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Im Glauben standhaft bleiben und ein abirrendes Herz erkennen",
+              "numberLabel": "Hadith 4"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -9765,13 +9765,6 @@
           "units": 1,
           "pages": 14,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "《忠诚章》默想",
-              "numberLabel": "章 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "zh-CN",
@@ -9824,6 +9817,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "《忠诚章》默想",
+              "numberLabel": "章 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -9846,18 +9846,6 @@
           "units": 2,
           "pages": 9,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "安拉的伟大及其对内心与行为的影响",
-              "numberLabel": "圣训 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "人心由至仁主掌管",
-              "numberLabel": "圣训 3"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "zh-CN",
@@ -9915,7 +9903,19 @@
                 "essential-01-003": "圣训 3"
               }
             }
-          }
+          },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "安拉的伟大及其对内心与行为的影响",
+              "numberLabel": "圣训 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "人心由至仁主掌管",
+              "numberLabel": "圣训 3"
+            }
+          ]
         }
       ],
       "bundle": {
@@ -9953,13 +9953,6 @@
           "units": 1,
           "pages": 21,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "Ixlos surasi — ma’nolari ustida tafakkur",
-              "numberLabel": "Sura 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "uz",
@@ -10012,6 +10005,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "Ixlos surasi — ma’nolari ustida tafakkur",
+              "numberLabel": "Sura 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -10034,23 +10034,6 @@
           "units": 3,
           "pages": 15,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири",
-              "numberLabel": "Hadis 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "Қалблар Раҳмон тасарруфида",
-              "numberLabel": "Hadis 3"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "Dinda sobit turish va og‘gan qalb sifatlarini bilish",
-              "numberLabel": "Hadis 4"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "uz",
@@ -10127,6 +10110,23 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири",
+              "numberLabel": "Hadis 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Қалблар Раҳмон тасарруфида",
+              "numberLabel": "Hadis 3"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "Dinda sobit turish va og‘gan qalb sifatlarini bilish",
+              "numberLabel": "Hadis 4"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -10175,13 +10175,6 @@
           "units": 1,
           "pages": 19,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "ใคร่ครวญซูเราะฮ์อัลอิคลาศ",
-              "numberLabel": "สูเราะฮ์ 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "th",
@@ -10234,6 +10227,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "ใคร่ครวญซูเราะฮ์อัลอิคลาศ",
+              "numberLabel": "สูเราะฮ์ 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -10256,18 +10256,6 @@
           "units": 2,
           "pages": 9,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "ความยิ่งใหญ่ของอัลลอฮ์และผลต่อหัวใจและการปฏิบัติ",
-              "numberLabel": "หะดีษ 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "หัวใจอยู่ภายใต้การผันเปลี่ยนของพระผู้ทรงกรุณาปรานี",
-              "numberLabel": "หะดีษ 3"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "th",
@@ -10325,7 +10313,19 @@
                 "essential-01-003": "หะดีษ 3"
               }
             }
-          }
+          },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "ความยิ่งใหญ่ของอัลลอฮ์และผลต่อหัวใจและการปฏิบัติ",
+              "numberLabel": "หะดีษ 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "หัวใจอยู่ภายใต้การผันเปลี่ยนของพระผู้ทรงกรุณาปรานี",
+              "numberLabel": "หะดีษ 3"
+            }
+          ]
         }
       ],
       "bundle": {
@@ -10363,13 +10363,6 @@
           "units": 1,
           "pages": 21,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "Suy ngẫm chương Al-Ikhlas",
-              "numberLabel": "Chương 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "vi",
@@ -10422,6 +10415,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "Suy ngẫm chương Al-Ikhlas",
+              "numberLabel": "Chương 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -10444,18 +10444,6 @@
           "units": 2,
           "pages": 11,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động",
-              "numberLabel": "Hadith 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "Mọi trái tim đều do Đấng Ar-Rahman định đoạt",
-              "numberLabel": "Hadith 3"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "vi",
@@ -10513,7 +10501,19 @@
                 "essential-01-003": "Hadith 3"
               }
             }
-          }
+          },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động",
+              "numberLabel": "Hadith 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Mọi trái tim đều do Đấng Ar-Rahman định đoạt",
+              "numberLabel": "Hadith 3"
+            }
+          ]
         }
       ],
       "bundle": {
@@ -10551,13 +10551,6 @@
           "units": 1,
           "pages": 20,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "イフラース章を思い巡らす",
-              "numberLabel": "章 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ja",
@@ -10622,6 +10615,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "イフラース章を思い巡らす",
+              "numberLabel": "章 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -10644,23 +10644,6 @@
           "units": 3,
           "pages": 27,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "アッラーの偉大さが心と行いにもたらすもの",
-              "numberLabel": "ハディース 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "心は、慈悲あまねきお方の御心のままに移り変わる",
-              "numberLabel": "ハディース 3"
-            },
-            {
-              "id": "essential-01-004",
-              "title": "信仰を堅く保ち、道を逸れた心の特徴を知る",
-              "numberLabel": "ハディース 4"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "ja",
@@ -10727,7 +10710,24 @@
                 "essential-01-004": "ハディース 4"
               }
             }
-          }
+          },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "アッラーの偉大さが心と行いにもたらすもの",
+              "numberLabel": "ハディース 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "心は、慈悲あまねきお方の御心のままに移り変わる",
+              "numberLabel": "ハディース 3"
+            },
+            {
+              "id": "essential-01-004",
+              "title": "信仰を堅く保ち、道を逸れた心の特徴を知る",
+              "numberLabel": "ハディース 4"
+            }
+          ]
         }
       ],
       "bundle": {
@@ -10765,13 +10765,6 @@
           "units": 1,
           "pages": 25,
           "audio": 0,
-          "contents": [
-            {
-              "id": "112:extended",
-              "title": "Pagbubulay-bulay sa Kabanatang Al-Ikhlas",
-              "numberLabel": "Kabanata 112"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "fil",
@@ -10824,6 +10817,13 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "112:extended",
+              "title": "Pagbubulay-bulay sa Kabanatang Al-Ikhlas",
+              "numberLabel": "Kabanata 112"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -10846,18 +10846,6 @@
           "units": 2,
           "pages": 13,
           "audio": 0,
-          "contents": [
-            {
-              "id": "essential-01-002",
-              "title": "Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa",
-              "numberLabel": "Hadith 2"
-            },
-            {
-              "id": "essential-01-003",
-              "title": "Ang mga puso ay nasa ilalim ng pamamahala ng Napakamaawain",
-              "numberLabel": "Hadith 3"
-            }
-          ],
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
             "language": "fil",
@@ -10939,6 +10927,18 @@
               }
             }
           },
+          "contents": [
+            {
+              "id": "essential-01-002",
+              "title": "Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa",
+              "numberLabel": "Hadith 2"
+            },
+            {
+              "id": "essential-01-003",
+              "title": "Ang mga puso ay nasa ilalim ng pamamahala ng Napakamaawain",
+              "numberLabel": "Hadith 3"
+            }
+          ],
           "availability": {
             "state": "verified-limited-edition",
             "updatePending": true,
@@ -10959,5 +10959,5 @@
       }
     }
   },
-  "updated": "2026-11-08T23:16:32+00:00"
+  "updated": "2026-11-09T06:59:36+00:00"
 }
