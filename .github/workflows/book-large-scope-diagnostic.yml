@@ -1,66 +1,56 @@
-name: Diagnostic only - large current book scopes
+name: Retained public pair diagnostic (not publication)
+
 on:
   pull_request:
     paths:
-      - '.github/diagnostics/book_scope_probe.py'
+      - '.github/diagnostics/retained_pair_probe.py'
       - '.github/workflows/book-large-scope-diagnostic.yml'
+      - 'books/download_page.py'
+      - 'books/install_assets.py'
+
 permissions:
   contents: read
+
+concurrency:
+  group: retained-pair-diagnostic-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
 jobs:
-  scope-probe:
-    name: Diagnostic ${{ matrix.language }} ${{ matrix.collection }} - not publication
+  retained-pair:
     runs-on: ubuntu-24.04
-    timeout-minutes: 25
-    strategy:
-      fail-fast: false
-      max-parallel: 2
-      matrix:
-        include:
-          - language: bn
-            collection: tadabbur-extended
-          - language: uz
-            collection: hadith
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 8
           persist-credentials: false
-      - name: Verify isolated diagnostic ancestry and paths
-        run: |
-          git merge-base --is-ancestor e4bc14bf16c071fd977069de1ca367af92f07285 HEAD
-          python - <<'PY'
-          import subprocess
-          allowed=set(['.github/diagnostics/book_scope_probe.py', '.github/workflows/book-large-scope-diagnostic.yml', 'books/AUTOMATIC-PREPARATION.md', 'books/build_books.py', 'books/restore_book_fonts.py', 'books/restore_source_hyperlinks.py', 'tests/test_current_source_literal_render.py', 'tests/test_footnote_marker_layout.py'])
-          changed=set(subprocess.check_output(['git','diff','--name-only','e4bc14bf16c071fd977069de1ca367af92f07285','HEAD'],text=True).splitlines())
-          assert changed == allowed, changed
-          assert subprocess.check_output(["git","hash-object","books/render_uno.py"],text=True).strip() == "deb16876fb1e7c27edd54c4256f5b7421a1485ba"
-          PY
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install unchanged pinned renderer and verified fonts
+      - name: Prove exact reviewed production tree
+        env:
+          CANDIDATE_TREE: 4e1b664c8e641d744dca82dcb25dc1ad4ae0ba0f
+        run: |
+          git diff --exit-code "$CANDIDATE_TREE" HEAD -- . ':!.github/diagnostics/retained_pair_probe.py' ':!.github/workflows/book-large-scope-diagnostic.yml'
+      - name: Install existing requirements
+        run: python -m pip install -r books/requirements.txt
+      - name: Prove exact retained PDF and DOCX transport, cache and rejection checks
         env:
           GH_TOKEN: ${{ github.token }}
+          PYTHONUNBUFFERED: '1'
         run: |
-          python books/renderer_pin.py --install
-          python -m pip install -r books/requirements.txt
-          python books/install_assets.py --root .
-          mkdir -p "$HOME/.local/share/fonts/iman-books"
-          cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
-          cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
-          fc-cache -f
-      - name: Trace candidate production preparation with bounded children
-        env:
-          PROBE_LANGUAGE: ${{ matrix.language }}
-          PROBE_COLLECTION: ${{ matrix.collection }}
-        run: |
-          python -u .github/diagnostics/book_scope_probe.py --root . --language "$PROBE_LANGUAGE" --collection "$PROBE_COLLECTION" --out "$RUNNER_TEMP/book-scope-diagnostic-$PROBE_LANGUAGE-$PROBE_COLLECTION"
-      - name: Preserve diagnostic partial files and stage logs
+          mkdir -p "$RUNNER_TEMP/retained-pair-diagnostic"
+          python .github/diagnostics/retained_pair_probe.py --root . --out "$RUNNER_TEMP/retained-pair-diagnostic" 2>&1 | tee "$RUNNER_TEMP/retained-pair-diagnostic/probe.log"
+      - name: Prove diagnostic did not change tracked production files
         if: always()
-        uses: actions/upload-artifact@v4
+        run: git diff --exit-code
+      - uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: NOT-PUBLICATION-large-scope-${{ matrix.language }}-${{ matrix.collection }}-${{ github.run_id }}-${{ github.run_attempt }}
-          path: ${{ runner.temp }}/book-scope-diagnostic-${{ matrix.language }}-${{ matrix.collection }}/
+          name: NOT-PUBLICATION-retained-pair-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/retained-pair-diagnostic/transport-report.json
+            ${{ runner.temp }}/retained-pair-diagnostic/probe.log
           if-no-files-found: warn
           retention-days: 7

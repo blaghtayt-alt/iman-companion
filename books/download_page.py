@@ -5,8 +5,8 @@ Personal selected-material editions are deliberately outside this schema.
 """
 from pathlib import Path
 from datetime import datetime,timezone
-import json,re,zipfile
-from urllib.request import Request,urlopen
+import json,os,re,tempfile,zipfile
+from install_assets import download_archive
 from download_tables import COLLECTIONS,COPY,release_url,download_labels
 from locale_copy import locale,NATIVE_DIGITS
 from published_library import sha,read,inside,asset_names
@@ -56,10 +56,14 @@ def source_file(root,out,book,extension):
     prefix='https://github.com/'+REPO+'/releases/download/'
     if not url.startswith(prefix)or url.rsplit('/',1)[-1]!=name:raise ValueError('Unexpected source release URL')
     cache.parent.mkdir(parents=True,exist_ok=True)
-    with urlopen(Request(url,headers={'User-Agent':'Iman-Companion-book-publication'}),timeout=60)as response:
-        raw=response.read(250_000_001)
-    if len(raw)>250_000_000 or sha(raw)!=digest:raise ValueError('Downloaded book differs from its published hash')
-    cache.write_bytes(raw);return cache
+    with tempfile.TemporaryDirectory(prefix='.download-',dir=cache.parent)as temporary:
+        downloaded=Path(temporary)/name
+        download_archive(url,downloaded)
+        # Keep the public-book size/hash gate independent of the transport.
+        # Do not read oversized files into memory or install partial downloads.
+        if downloaded.stat().st_size>250_000_000 or sha(downloaded.read_bytes())!=digest:raise ValueError('Downloaded book differs from its published hash')
+        os.replace(downloaded,cache)
+    return cache
 
 def combined_files(root,out,language,books):
     folder=out/'public-bundles'/language;folder.mkdir(parents=True,exist_ok=True)

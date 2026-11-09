@@ -135,6 +135,13 @@ the original SHA-256 before extracting anything. The renderer regression step
 uses its existing read-only repository token. Environments without that token
 retain the original public URLs with bounded reads; archive pins are unchanged.
 
+Retained public Word/PDF pairs use this same bounded transport when download
+tables or combined editions need their original verified bytes. Each transfer
+uses a temporary file beside its cache, rejects books above 250,000,000 bytes,
+and checks the exact published SHA-256 before atomic cache installation. Existing
+verified local files and valid caches remain reusable; failed transfers preserve
+both pending preparations and existing cache files.
+
 After rendering, an exact source-credit URL is restored if the renderer only
 added a slash to its bare HTTP(S) origin. Restoration requires the original
 source proof and the same label and occurrence count. Ambiguous or unrelated

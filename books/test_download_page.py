@@ -1,7 +1,7 @@
 from pathlib import Path
-from io import BytesIO
 from unittest.mock import patch
-import copy,json,tempfile,unittest,zipfile
+import copy,json,os,subprocess,tempfile,unittest,zipfile
+import install_assets
 from download_page import publish_bundles,REPO,write_catalog,source_file
 from download_tables import release_url,COPY,COLLECTIONS
 from published_library import sha
@@ -90,8 +90,8 @@ class PublicationTests(unittest.TestCase):
         book['units']=[{'id':'fixture-old','title':'فصل سابق'}]
         originals={book['file']:b'checked editable bytes',Path(book['file']).with_suffix('.pdf').name:b'checked PDF bytes'}
         folder,prepared=self.prepared_replacement(book)
-        def fetch(request,**kwargs):return BytesIO(originals[request.full_url.rsplit('/',1)[-1]])
-        with patch('download_page.urlopen',side_effect=fetch)as remote:
+        def fetch(url,destination):destination.write_bytes(originals[url.rsplit('/',1)[-1]])
+        with patch('download_page.download_archive',side_effect=fetch)as remote:
             links,errors=self.publish(ready)
             self.assertFalse(errors);self.assertEqual(links['ar']['docx'],book['download'])
             self.assertEqual(remote.call_count,2)
@@ -111,20 +111,89 @@ class PublicationTests(unittest.TestCase):
             with self.subTest(changed=changed):
                 folder,_=self.prepared_replacement(book)
                 (folder/Path(book['file']).with_suffix('.'+changed).name).write_bytes(b'mutated after preparation')
-                with patch('download_page.urlopen')as remote:
+                with patch('download_page.download_archive')as remote:
                     with self.assertRaisesRegex(ValueError,'Local checked book changed'):source_file(self.root,self.out,book,requested)
                     remote.assert_not_called()
     def test_local_preparation_marker_without_trusted_queue_is_rejected(self):
         ready=self.ready('ar','seerah');book=ready[('ar','seerah')];self.prepared_replacement(book)
         (self.root/'books/prepared-library.json').unlink()
-        with patch('download_page.urlopen')as remote:
+        with patch('download_page.download_archive')as remote:
             with self.assertRaisesRegex(ValueError,'Local checked book changed'):source_file(self.root,self.out,book,'pdf')
             remote.assert_not_called()
     def test_wrong_released_bytes_are_rejected_without_changing_prepared_pair(self):
         ready=self.ready('ar','seerah');book=ready[('ar','seerah')];folder,prepared=self.prepared_replacement(book)
-        with patch('download_page.urlopen',return_value=BytesIO(b'wrong published download')):
+        with patch('download_page.download_archive',side_effect=lambda url,destination:destination.write_bytes(b'wrong published download')):
             with self.assertRaisesRegex(ValueError,'Downloaded book differs from its published hash'):source_file(self.root,self.out,book,'pdf')
         self.assertEqual({name:(folder/name).read_bytes()for name in prepared},prepared)
+        cache=self.root/'books/.cache/download-pairs'/book['pdfSha256']
+        self.assertEqual(list(cache.iterdir()),[])
+    def test_authenticated_release_transport_fetches_both_exact_book_formats(self):
+        book=self.ready()[('ru','tadabbur-extended')];folder=self.out/'ru-tadabbur-extended'
+        payloads={101:(folder/book['file']).read_bytes(),102:(folder/Path(book['file']).with_suffix('.pdf')).read_bytes()}
+        metadata={'tag_name':'original','assets':[
+            {'id':101,'name':book['file'],'browser_download_url':book['download']},
+            {'id':102,'name':Path(book['file']).with_suffix('.pdf').name,'browser_download_url':book['pdfDownload']}]}
+        for file in folder.iterdir():file.unlink()
+        def gh(command,**kwargs):
+            if '/releases/tags/' in command[4]:return subprocess.CompletedProcess(command,0,json.dumps(metadata).encode(),b'')
+            kwargs['stdout'].write(payloads[int(command[4].rsplit('/',1)[-1])])
+            return subprocess.CompletedProcess(command,0,None,b'')
+        token='fixture-token-not-in-command-arguments'
+        with patch.dict(os.environ,{'GH_TOKEN':token},clear=True),patch.object(install_assets.subprocess,'run',side_effect=gh)as authenticated,patch.object(install_assets.urllib.request,'urlopen')as public:
+            word=source_file(self.root,self.out,book,'docx');pdf=source_file(self.root,self.out,book,'pdf')
+        self.assertEqual(word.read_bytes(),payloads[101]);self.assertEqual(pdf.read_bytes(),payloads[102])
+        self.assertEqual(authenticated.call_count,4);public.assert_not_called()
+        self.assertEqual([call.kwargs['timeout']for call in authenticated.call_args_list],[60,300,60,300])
+        self.assertNotIn(token,repr(authenticated.call_args_list))
+        self.assertEqual(set(word.parent.iterdir()),{word});self.assertEqual(set(pdf.parent.iterdir()),{pdf})
+    def test_checked_local_and_hash_valid_cache_do_not_use_transport(self):
+        book=self.ready()[('ru','tadabbur-extended')];local=self.out/'ru-tadabbur-extended'/Path(book['file']).with_suffix('.pdf')
+        with patch('download_page.download_archive')as remote:
+            self.assertEqual(source_file(self.root,self.out,book,'pdf'),local);remote.assert_not_called()
+        cache=self.root/'books/.cache/download-pairs'/book['pdfSha256']/local.name
+        cache.parent.mkdir(parents=True);cache.write_bytes(local.read_bytes());local.unlink()
+        with patch('download_page.download_archive')as remote:
+            self.assertEqual(source_file(self.root,self.out,book,'pdf'),cache);remote.assert_not_called()
+    def test_corrupt_cache_is_replaced_only_by_verified_complete_bytes(self):
+        book=self.ready()[('ru','tadabbur-extended')];local=self.out/'ru-tadabbur-extended'/Path(book['file']).with_suffix('.pdf')
+        raw=local.read_bytes();local.unlink();cache=self.root/'books/.cache/download-pairs'/book['pdfSha256']/local.name
+        cache.parent.mkdir(parents=True);cache.write_bytes(b'old corrupt cache')
+        def fetch(url,destination):
+            self.assertEqual(url,book['pdfDownload']);self.assertNotEqual(destination,cache)
+            self.assertEqual(cache.read_bytes(),b'old corrupt cache');destination.write_bytes(raw)
+        with patch('download_page.download_archive',side_effect=fetch)as remote:
+            self.assertEqual(source_file(self.root,self.out,book,'pdf'),cache)
+        remote.assert_called_once();self.assertEqual(cache.read_bytes(),raw);self.assertEqual(set(cache.parent.iterdir()),{cache})
+    def test_transport_or_cache_install_failure_preserves_cache_and_prepared_pair(self):
+        book=self.ready('ar','seerah')[('ar','seerah')];folder,prepared=self.prepared_replacement(book)
+        cache=self.root/'books/.cache/download-pairs'/book['pdfSha256']/Path(book['file']).with_suffix('.pdf').name
+        cache.parent.mkdir(parents=True);cache.write_bytes(b'old incomplete cache')
+        def failed_transfer(url,destination):
+            destination.write_bytes(b'partial network response')
+            raise install_assets.AssetDownloadError('GitHub asset request failed (HTTP 504)')
+        with patch('download_page.download_archive',side_effect=failed_transfer):
+            with self.assertRaisesRegex(install_assets.AssetDownloadError,'HTTP 504'):source_file(self.root,self.out,book,'pdf')
+        self.assertEqual(cache.read_bytes(),b'old incomplete cache');self.assertEqual(set(cache.parent.iterdir()),{cache})
+        with patch('download_page.download_archive',side_effect=lambda url,destination:destination.write_bytes(b'checked PDF bytes')),patch('download_page.os.replace',side_effect=PermissionError('cache locked')):
+            with self.assertRaisesRegex(PermissionError,'cache locked'):source_file(self.root,self.out,book,'pdf')
+        self.assertEqual(cache.read_bytes(),b'old incomplete cache');self.assertEqual(set(cache.parent.iterdir()),{cache})
+        self.assertEqual({name:(folder/name).read_bytes()for name in prepared},prepared)
+    def test_oversized_download_is_rejected_before_payload_read_or_cache_install(self):
+        book=self.ready()[('ru','tadabbur-extended')];local=self.out/'ru-tadabbur-extended'/Path(book['file']).with_suffix('.pdf');local.unlink()
+        def oversized(url,destination):
+            with destination.open('wb')as output:output.truncate(250_000_001)
+        with patch('download_page.download_archive',side_effect=oversized),patch.object(Path,'read_bytes',side_effect=AssertionError('Oversized payload must not be read')):
+            with self.assertRaisesRegex(ValueError,'Downloaded book differs from its published hash'):source_file(self.root,self.out,book,'pdf')
+        self.assertEqual(list((self.root/'books/.cache/download-pairs'/book['pdfSha256']).iterdir()),[])
+    def test_wrong_release_repository_scheme_basename_or_digest_never_reaches_transport(self):
+        book=self.ready()[('ru','tadabbur-extended')];local=self.out/'ru-tadabbur-extended'/Path(book['file']).with_suffix('.pdf');local.unlink()
+        for url in (book['pdfDownload'].replace('https://','http://'),book['pdfDownload'].replace(REPO,'other/repo'),book['pdfDownload']+'?changed=1',book['pdfDownload'].replace(local.name,'another.pdf')):
+            with self.subTest(url=url),patch('download_page.download_archive')as remote:
+                with self.assertRaisesRegex(ValueError,'Unexpected source release URL'):source_file(self.root,self.out,{**book,'pdfDownload':url},'pdf')
+                remote.assert_not_called()
+        with patch('download_page.download_archive')as remote:
+            with self.assertRaisesRegex(ValueError,'Invalid source book digest'):source_file(self.root,self.out,{**book,'pdfSha256':'not-a-sha256'},'pdf')
+            remote.assert_not_called()
     def test_changed_remote_hash_is_not_advertised(self):
         self.corrupt=True;links,errors=self.publish(self.ready());self.assertFalse(links);self.assertEqual(len(errors),1);self.assertTrue(self.releases['test-bundles']['draft'])
     def test_legacy_hadith_and_preview_never_enter_zip(self):
