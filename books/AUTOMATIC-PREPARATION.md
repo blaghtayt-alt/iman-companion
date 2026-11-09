@@ -145,6 +145,12 @@ Use the [batch Word finalization guide](../docs/WORD-BATCH-FINALIZATION.md) to
 stage an exact artifact, run the owned Word finalizer serially and resume
 completed scopes. Visual acceptance and publication remain separate steps.
 
+If a run stops before its preparation queue is saved, use the
+[preparation recovery guide](../docs/PREPARATION-RECOVERY.md) to validate its exact
+saved artifact against the current sources and generate a proposed queue. The
+recovery command preserves existing queue records and all release checks; it
+does not apply the proposal or publish a book.
+
 ### Current material adapters
 
 The current Arabic Articles adapter covers the 47 installed article readings.
