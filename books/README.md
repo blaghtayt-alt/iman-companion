@@ -14,11 +14,15 @@ the three current supplied adult Seerah chapters. Historical, held, and
 superseded material does not become eligible merely because a file exists.
 
 All twenty configured languages use the same automatic source intake for all
-four categories. The translated Hadith adapter also prepares the fifty already
-reviewed translations of lessons 01-002 through 01-004 across the other nineteen
-languages, preserving each language's actual lesson subset and original source
-qualifications. It does not fill gaps with another language or silently include
-unfinished lesson 01-001 wrappers.
+four categories. The translated Hadith adapters prepare the fifty reviewed
+translations of lessons 01-002 through 01-004, eleven eligible first-lesson
+readers and the current Filipino lesson 01-005. Each language retains its actual
+lesson subset, original numbering and source qualifications. The reviewed Quran
+adapters also restore 124 current units previously omitted by the exporters.
+Together these changes select 625 units across the 42 existing book editions.
+French Hadith 1 remains pending its distinct final review; absent first-lesson
+readers are reported explicitly. See [the source coverage record](current-reviewed-imports.md)
+for the exact restored material, exclusions and release status.
 
 ## What happens automatically
 
