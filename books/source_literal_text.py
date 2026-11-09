@@ -13,6 +13,7 @@ from bibliography import native_text
 from reviewed_hadith_sources import SCHEMA as REVIEW_SCHEMA, source_pointer, validate_record
 
 SCHEMA = 'iman-source-literal-text-v1'
+APPROVED_READER_SCHEMA = 'iman-approved-reader-source-v1'
 _VALIDATED_CURRENT = {}
 
 
@@ -109,7 +110,56 @@ def check_bound_text(root, text, unit, proofs, *, exact=False):
                 or proof.get('source') not in unit.get('inputBindings', [])
                 or proof.get('inventory') not in unit.get('inputBindings', [])):
             raise ValueError('Source literal is not bound to this complete reader unit')
+        inventory = _pinned_json(root, proof['inventory'])
+        if inventory.get('schema') == APPROVED_READER_SCHEMA:
+            material = inventory.get('material', {})
+            if (material != {'collection': unit.get('collection'),
+                             'language': unit.get('language'), 'id': unit.get('id')}
+                    or unit.get('catalogBindings') != [material]
+                    or proof.get('collection') != unit.get('collection')
+                    or inventory.get('approval', {}).get('readerTextSHA256')
+                       != unit.get('readerTextSHA256')
+                    or proof.get('readerTextSHA256') != unit.get('readerTextSHA256')):
+                raise ValueError('Approved source literal belongs to another complete reader')
     return check_text(root, text, unit['language'], proofs, exact=exact)
+
+
+def _approved_reader_literal(root, proof, inventory):
+    """Preserve an exact approved TXT slice in a new Article or Seerah reader.
+
+    This is a literal-text proof, not source approval. The normal publisher must
+    still validate its separate whole-material envelope and exact reader unit.
+    The factual import record binds existing review/acceptance receipt digests;
+    those private receipts are not copied into the public source repository.
+    Initial intake runs before a new catalogue entry or edition exists, so this
+    branch binds the complete reader identity rather than requiring an older
+    catalogue row. Later indexing retains all normal publisher approval gates.
+    """
+    material = inventory.get('material', {})
+    approval = inventory.get('approval', {})
+    expected = {'collection': proof.get('collection'),
+                'language': proof.get('language'), 'id': proof.get('materialId')}
+    if (material != expected or material.get('collection') not in {'articles', 'seerah'}
+            or not material.get('id') or not material.get('language')
+            or inventory.get('current') is not True
+            or approval.get('decision') != 'approved'
+            or approval.get('wholeMaterial') is not True
+            or not approval.get('approvalId') or not approval.get('reviewer')):
+        raise ValueError('Literal text lacks its exact whole-reader source acceptance')
+    for name in ('semanticReviewSHA256', 'sourceAcceptanceSHA256', 'readerTextSHA256'):
+        if not re.fullmatch('[a-f0-9]{64}', approval.get(name, '')):
+            raise ValueError('Approved source literal lacks a bound ' + name)
+    if proof.get('readerTextSHA256') != approval['readerTextSHA256']:
+        raise ValueError('Approved source literal reader fingerprint differs')
+    source = inventory.get('readingSource')
+    if (not isinstance(source, dict) or proof.get('source') != source
+            or proof.get('pointer') != []
+            or not source.get('path', '').endswith('.txt')
+            or source not in inventory.get('sourceBindings', [])):
+        raise ValueError('Literal source is outside the accepted complete TXT reader')
+    raw, _ = _read(root, source.get('path', ''), source.get('sha256', ''))
+    value = normalize_lines(raw.decode('utf8'))
+    return _slice_literal(value, proof)
 
 
 def check_link_associations(root, unit, block):
@@ -193,6 +243,8 @@ def exact_literal(root, proof):
     if proof.get('schema') != SCHEMA:
         raise ValueError('Unsupported source-literal proof')
     inventory = _pinned_json(root, proof.get('inventory', {}))
+    if inventory.get('schema') == APPROVED_READER_SCHEMA:
+        return _approved_reader_literal(root, proof, inventory)
     from current_source_registry import format_for
     spec = format_for(inventory.get('schema'))
     if spec is not None:
