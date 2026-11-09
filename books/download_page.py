@@ -7,8 +7,8 @@ from pathlib import Path
 from datetime import datetime,timezone
 import json,re,zipfile
 from urllib.request import Request,urlopen
-from download_tables import COLLECTIONS,COPY,release_url,download_labels
-from locale_copy import locale,NATIVE_DIGITS
+from download_tables import COLLECTIONS,COPY,release_url
+from locale_copy import locale,DOWNLOADS,NATIVE_DIGITS
 from published_library import sha,read,inside,asset_names
 from merge_public_books import merge_docx,merge_pdf
 
@@ -191,7 +191,7 @@ def write_catalog(root,out,ready,bundles):
     for language,labels in COPY.items():
         lc=conf['languages'][language]
         row={'language':language,'name':locale(language)['nativeName'],'brand':lc['brand'],'title':labels[0],
-          'included':labels[4],'downloads':download_labels(language),
+          'included':labels[4],'downloads':{'docx':DOWNLOADS[language][0],'pdf':DOWNLOADS[language][1]},
           'digits':NATIVE_DIGITS.get(language,'0123456789'),'font':font_assets(root,conf,language),'books':[],'bundle':bundles.get(language)}
         for book in inventory(ready,language):
             pdf=source_file(root,out,book,'pdf')

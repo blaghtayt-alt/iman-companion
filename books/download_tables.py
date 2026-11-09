@@ -13,7 +13,7 @@ MARKER_START='<!-- IMAN-BOOK-DOWNLOADS:START -->'
 MARKER_END='<!-- IMAN-BOOK-DOWNLOADS:END -->'
 # title, book, editable file, reading file, included units, preparing
 COPY={
-'en':['Book downloads','Book','Editable','Readable','Included items','Preparing'],
+'en':['Book downloads','Book','Editable book','Reading copy','Included items','Preparing'],
 'ar':['تنزيل الكتب','الكتاب','نسخة قابلة للتحرير','نسخة للقراءة','المواد المشمولة','قيد الإعداد'],
 'ur':['کتابیں ڈاؤن لوڈ کریں','کتاب','قابل تدوین کتاب','مطالعے کی نقل','شامل مواد','تیاری جاری ہے'],
 'id':['Unduhan buku','Buku','Buku yang dapat disunting','Salinan bacaan','Materi yang disertakan','Sedang disiapkan'],
@@ -36,17 +36,6 @@ COPY={
 
 def cell(text):return str(text).replace('|','\\|').replace('\n',' ')
 def release_url(repo,tag,file):return f'https://github.com/{repo}/releases/download/{quote(tag,safe="")}/{quote(file,safe="")}'
-
-def format_label(text,extension):
-    return f'{text} ({dict(docx="Word",pdf="PDF")[extension]})'
-
-def download_labels(language):
-    return {extension:format_label(text,extension) for extension,text in zip(('docx','pdf'),DOWNLOADS[language])}
-
-def native_download_text(text,language):
-    """Allow the requested format suffixes only at the download UI boundary."""
-    native_text(re.sub(r' \((?:Word|PDF)\)(?=\s*(?:$|\]|\|))','',text),language)
-    return text
 
 def verified_books(index,folder,repo,tag):
     ready={}
@@ -92,7 +81,6 @@ def render_ready(conf,ready,repo,bundles=None,coverage=None):
     for lang,lc in languages.items():
         title,booklabel,editable,reading,count,pending=COPY[lang]
         for text in COPY[lang]:native_text(text,lang)
-        editable=format_label(editable,'docx');reading=format_label(reading,'pdf');downloads=download_labels(lang)
         native=locale(lang)['nativeName'];row=[f'[{cell(native)}](https://github.com/{repo}/blob/main/books/downloads/{quote(lang)}/README.md)']
         page=['# '+title,'',native,'','| '+' | '.join([booklabel,editable,reading,count])+' |','| --- | --- | --- | --- |']
         edition_details=[]
@@ -112,12 +100,12 @@ def render_ready(conf,ready,repo,bundles=None,coverage=None):
             if item:
                 if content_scope and content_scope.get('includedIds')!=[str(unit['id']) for unit in item['units']]:
                     raise ValueError('Download coverage differs from the verified book contents')
-                row.append(f'[{cell(editable)}]({item["download"]})<br>[{cell(reading)}]({item["pdfDownload"]})')
+                row.append(f'[{cell(editable)}]({item["download"]}) · [{cell(reading)}]({item["pdfDownload"]})'+(' *' if item.get('availability') else '')+(' †' if content_copy.get('statusLabel') else ''))
                 included_count=digits(str(len(item.get('units',[]))),lang)
                 if content_copy.get('includedLabel'):
                     included_count+=' · '+content_copy['includedLabel']
                     coverage_details.append((label,content_copy))
-                page.append('| '+' | '.join([cell(label),f'[{downloads["docx"]}]({item["download"]})',f'[{downloads["pdf"]}]({item["pdfDownload"]})',cell(included_count)])+' |')
+                page.append('| '+' | '.join([cell(label),f'[{DOWNLOADS[lang][0]}]({item["download"]})',f'[{DOWNLOADS[lang][1]}]({item["pdfDownload"]})',cell(included_count)])+' |')
             else:
                 row.append(cell(pending));page.append('| '+' | '.join([cell(label),pending,pending,'—'])+' |')
         for edition_label,titles in edition_details:
@@ -133,17 +121,17 @@ def render_ready(conf,ready,repo,bundles=None,coverage=None):
             if item:
                 chooser=f'https://blaghtayt-alt.github.io/iman-companion/books/?lang={quote(lang)}'
                 row.append(f'[{cell(together)}]({chooser})')
-                page+=['','## '+together,'',merged,'',f'[{downloads["docx"]}]({item["docx"]})','',f'[{downloads["pdf"]}]({item["pdf"]})','',f'[{zipped}]({item["zip"]})']
+                page+=['','## '+together,'',merged,'',f'[{DOWNLOADS[lang][0]}]({item["docx"]}) · [{DOWNLOADS[lang][1]}]({item["pdf"]})','',f'[{zipped}]({item["zip"]})']
             else:row.append(cell(pending))
         root.append('| '+' | '.join(row)+' |')
         if lang!='ar':page+=['',locale(lang)['notice']]
         for line in page:
             # Check visible labels, not URL targets containing technical filenames.
-            native_download_text(re.sub(r'\]\([^)]*\)',']',line),lang)
+            native_text(re.sub(r'\]\([^)]*\)',']',line),lang)
         pages[lang]='\n'.join(page)+'\n'
-    if any(item.get('availability') for item in ready.values()):root+=['','Verified earlier editions include only the listed contents; new material is awaiting release checks.']
+    if any(item.get('availability') for item in ready.values()):root+=['','* Verified earlier edition: only the listed contents are included; new material is awaiting release checks.']
     if any(item.get('presentation',{}).get('statusLabel') for item in (coverage or {}).values()):
-        root+=['','Each language page lists the exact included lesson or surah numbers and any material awaiting publication or a coverage check.']
+        root+=['','† Partial contents or coverage check pending. Each language page lists the exact included lesson or surah numbers and the material not included in that download.']
     return '\n'.join(root)+'\n',pages
 
 def merge_readme(original,table):

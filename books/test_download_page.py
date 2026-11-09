@@ -7,7 +7,6 @@ from download_tables import release_url,COPY,COLLECTIONS
 from published_library import sha
 from locale_copy import locale
 from bibliography import native_text
-from download_tables import native_download_text
 
 class PublicationTests(unittest.TestCase):
     def setUp(self):
@@ -139,8 +138,7 @@ class PublicationTests(unittest.TestCase):
         catalog=write_catalog(self.root,self.out,{},{});self.assertEqual(len(catalog['languages']),20)
         for lang,row in catalog['languages'].items():
             self.assertEqual(row['books'],[]);self.assertIsNone(row['bundle'])
-            for text in[row['title'],row['included'],row['brand']]:native_text(text,lang)
-            for text in row['downloads'].values():native_download_text(text,lang)
+            for text in[row['title'],row['included'],row['brand'],*row['downloads'].values()]:native_text(text,lang)
         self.assertEqual(write_catalog(self.root,self.out,{},{}),catalog)
 
 if __name__=='__main__':unittest.main()

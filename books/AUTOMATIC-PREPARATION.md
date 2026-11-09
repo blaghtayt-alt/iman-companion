@@ -196,6 +196,10 @@ are never presented as public downloads.
 
 ### Finalized candidate handoff
 
+For several preparations, use the [batch Word finalization guide](../docs/WORD-BATCH-FINALIZATION.md).
+The local helper stages exact queued inputs, runs the existing Word finalizer
+serially, and resumes completed scopes. Visual acceptance remains explicit.
+
 Use the latest committed preparation queue and the matching Actions artifact.
 Keep each downloaded scope folder unchanged as `prepared/`; make a separate
 `candidate/` copy for Word finalization. The original DOCX and the final Word
