@@ -121,7 +121,7 @@ The controller flushes scope and command progress and atomically checkpoints
 `build-report.json` between scopes. A runner interruption leaves completed
 per-folder preparation snapshots and an explicitly incomplete report for recovery;
 it does not commit the queue or grant release approval. Publication rejects an
-incomplete checkpoint. During Urdu generation, long terminal runs of generated
+incomplete checkpoint. During Bengali and Urdu generation, long terminal runs of generated
 footnote markers gain a line break after every eight references. Only marker-only
 tails after all source words are eligible; inline annotations remain unchanged.
 Every source text node, reference ID/order and footnote body is preserved. This
@@ -134,6 +134,14 @@ filename and public URL, bounds metadata and binary transfers, and still verifie
 the original SHA-256 before extracting anything. The renderer regression step
 uses its existing read-only repository token. Environments without that token
 retain the original public URLs with bounded reads; archive pins are unchanged.
+
+After rendering, an exact source-credit URL is restored if the renderer only
+added a slash to its bare HTTP(S) origin. Restoration requires the original
+source proof and the same label and occurrence count. Ambiguous or unrelated
+shared relationships and changed destinations remain failures. Only the matching
+relationship target is changed; the reader XML, source text and strict link
+validator remain unchanged. The later Word proof path preserves those prepared
+relationships without saving a rewritten document through Word.
 
 Actual Word finalization and final visual release acceptance remain release
 steps on the existing owned desktop. The optional desktop worker is not part of

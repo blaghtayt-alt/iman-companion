@@ -286,8 +286,8 @@ class Footnotes:
         p.paragraph_format.line_spacing_rule=WD_LINE_SPACING.AT_LEAST;p.paragraph_format.line_spacing=Pt(18 if self.lang=='ur' else 12);p.paragraph_format.space_after=Pt(3)
         return p
     def wrap_trailing_markers(self):
-        """Let long Urdu footnote-marker tails paginate without changing source text."""
-        if self.lang!='ur':return 0
+        """Let dense Bengali/Urdu marker tails paginate without changing source text."""
+        if self.lang not in {'bn','ur'}:return 0
         changed=0
         for paragraph in dict.fromkeys(anchor for anchor,group in self.anchors):
             markers=[]
@@ -296,8 +296,8 @@ class Footnotes:
                 if run.tag!=qn('w:r') or len(content)!=1 or content[0].tag!=qn('w:footnoteReference'):break
                 markers.append(run)
             markers.reverse()
-            # Each Urdu note needs at least an 18pt first line. Dozens of
-            # adjacent markers can demand more footnote space than one page.
+            # Bengali/Urdu source notes can cluster dozens of first lines at
+            # one anchor, demanding more footnote space than a page provides.
             # Break only generated marker tails, after all source words; no
             # reference moves to a different paragraph or changes identity.
             for index in range(7,len(markers)-1,8):
