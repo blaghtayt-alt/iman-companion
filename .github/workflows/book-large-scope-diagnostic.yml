@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 3
+          fetch-depth: 4
           persist-credentials: false
       - name: Verify isolated diagnostic ancestry and paths
         run: |
@@ -35,10 +35,40 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install unchanged pinned renderer and verified fonts
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           python books/renderer_pin.py --install
           python -m pip install -r books/requirements.txt
-          python books/install_assets.py --root .
+          python - <<'PY'
+          import hashlib,json,os,runpy,shutil,subprocess,sys,urllib.request
+          from pathlib import Path
+          repository='blaghtayt-alt/iman-companion'
+          release=json.loads(subprocess.check_output(['gh','api',f'repos/{repository}/releases/tags/book-assets-v2'],text=True,timeout=60))
+          assert release['id']==436645200 and release['tag_name']=='book-assets-v2'
+          expected={'Iman_Companion_Refined_Covers_All_20_Languages_v2.zip':717551417,'Iman_Companion_App_Book_Fonts_v1.zip':717550662}
+          assets={a['name']:a for a in release['assets']}
+          cache=Path(os.environ['RUNNER_TEMP'])/'diagnostic-pinned-assets';cache.mkdir()
+          local={}
+          for entry in json.loads(Path('books/assets.json').read_bytes())['archives']:
+              name=entry['url'].rsplit('/',1)[1];asset=assets[name]
+              assert asset['id']==expected[name] and asset['browser_download_url']==entry['url'] and asset['state']=='uploaded'
+              print(json.dumps({'diagnosticAssetDownload':entry['url'],'releaseId':release['id'],'assetId':asset['id']}),flush=True)
+              target=cache/name
+              with target.open('wb') as output:
+                  subprocess.run(['gh','api',f"repos/{repository}/releases/assets/{asset['id']}",'-H','Accept: application/octet-stream'],stdout=output,check=True,timeout=300)
+              digest=hashlib.sha256(target.read_bytes()).hexdigest()
+              assert digest==entry['sha256'],f'Pinned archive digest mismatch: {name}'
+              print(json.dumps({'diagnosticAssetVerified':name,'bytes':target.stat().st_size,'sha256':digest}),flush=True)
+              local[entry['url']]=target
+          def pinned_local_download(url,filename=None,*args,**kwargs):
+              assert url in local and filename is not None,'Unexpected installer download'
+              shutil.copyfile(local[url],filename)
+              return str(filename),None
+          urllib.request.urlretrieve=pinned_local_download
+          sys.argv=['books/install_assets.py','--root','.']
+          runpy.run_path('books/install_assets.py',run_name='__main__')
+          PY
           mkdir -p "$HOME/.local/share/fonts/iman-books"
           cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
           cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
