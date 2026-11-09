@@ -18461,6 +18461,52 @@
       "markdown": "materials/seerah/new-adult/ar/03.md",
       "translationStatus": "supplied-arabic-current",
       "status": "current-app-edition"
+    },
+    {
+      "collection": "articles",
+      "language": "en",
+      "id": "prepared-ar-79fa38429519de69",
+      "title": "A Little Is Enough",
+      "number": 1,
+      "json": "materials/articles/current/en/001.json",
+      "current": true,
+      "sourceHashes": [
+        "79fa38429519de69caa796fc4a639c06ee62e832db82d756c0d057c5e221c3c4",
+        "e40575610d905c54de58bd48dc524dacf5533696c6f93269feac76626929f5e0"
+      ],
+      "readingSHA256": "af8574cc91a3e0c622548e75cb2558c9fcddb1a8685385c02ae00484333ae78c",
+      "translationStatus": "reviewed-current",
+      "bookReaderUnit": {
+        "schema": "iman-book-unit-v1",
+        "path": "books/units/current/en/articles/prepared-ar-79fa38429519de69.json",
+        "sha256": "af965b7ae93d460d21017a532aabcd66251572d0431a6815df65490999dbb65e"
+      }
+    },
+    {
+      "collection": "seerah",
+      "language": "en",
+      "id": "new-seerah001",
+      "edition": "new-adult",
+      "chapter": 1,
+      "title": "From the Year of the Elephant to the Prophet’s Childhood",
+      "sourceChapterId": "new-adult-seerah-ar-01-5db0e71443293cb9",
+      "sourceHashes": [
+        "5db0e71443293cb99af87231dd0cecbdaefa2e737cafa0b1a2479140e5318782",
+        "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+        "8fbb58d82a2e2f9a5e94a098be2948f670dedb78be37e6a9d1a75ce0a4039937"
+      ],
+      "readingSHA256": "8fbb58d82a2e2f9a5e94a098be2948f670dedb78be37e6a9d1a75ce0a4039937",
+      "sourceTextSHA256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+      "markdown": "materials/seerah/new-adult/en/01.md",
+      "text": "materials/seerah/new-adult/en/01.txt",
+      "translationStatus": "independently-reviewed-whole-chapter-translation",
+      "status": "current-reviewed-edition",
+      "current": true,
+      "bookReaderUnit": {
+        "schema": "iman-book-unit-v1",
+        "path": "books/units/current/en/seerah/new-seerah001.json",
+        "sha256": "a781e384b7eabfde12dc2d69c22e4c529e940271c682eedc871197519782f392"
+      }
     }
   ],
   "workInProgress": [

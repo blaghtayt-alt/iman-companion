@@ -993,6 +993,31 @@
       "requireActualWordLayout": true,
       "requireFinalVisualAcceptance": true,
       "reviewBasis": "Exact existing installed and independently model-reviewed translated Essential Hadith readings 01-002 through 01-004, restricted to their named source-publisher language scopes. All source references, qualifications, translator notes and source conditions are retained. Human verification remains needed. Earlier heterogeneous first-lesson wrappers and unbound new translations are not approved by this migration; later exact approved reader transactions join automatically."
+    },
+    {
+      "language": "en",
+      "collection": "articles",
+      "adapter": "published-reader-units-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [],
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "requireActualWordLayout": true,
+      "releaseHold": "New collection is automatically prepared from exact whole-material approvals; final Word and visual release checks remain required."
+    },
+    {
+      "language": "en",
+      "collection": "seerah",
+      "adapter": "published-reader-units-v1",
+      "state": "reviewed-current",
+      "scopePolicy": "reviewed-source-edition-v1",
+      "sourceReviewBindings": [],
+      "automaticBuild": true,
+      "automaticRelease": false,
+      "requireActualWordLayout": true,
+      "releaseHold": "New collection is automatically prepared from exact whole-material approvals; final Word and visual release checks remain required.",
+      "edition": "new-adult"
     }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "c46484fe1eed1dca2ae32f89c60dd01be2c6b7a1c740b334b18192c5b7b62cc5",
+  "catalogEntry": {
+    "collection": "articles",
+    "language": "en",
+    "id": "prepared-ar-79fa38429519de69",
+    "title": "A Little Is Enough",
+    "number": 1,
+    "json": "materials/articles/current/en/001.json",
+    "current": true,
+    "sourceHashes": [
+      "79fa38429519de69caa796fc4a639c06ee62e832db82d756c0d057c5e221c3c4",
+      "e40575610d905c54de58bd48dc524dacf5533696c6f93269feac76626929f5e0"
+    ],
+    "readingSHA256": "af8574cc91a3e0c622548e75cb2558c9fcddb1a8685385c02ae00484333ae78c",
+    "translationStatus": "reviewed-current"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/articles/current/en/001.json",
+      "sha256": "e40575610d905c54de58bd48dc524dacf5533696c6f93269feac76626929f5e0"
+    },
+    {
+      "path": "materials/articles/current/en/001.txt",
+      "sha256": "62022d3b0960da92e844d93b9106c3e01a7eacbaca9c298518783092b5a9ca22"
+    },
+    {
+      "path": "materials/articles/current/en/001.ordinary.txt",
+      "sha256": "39799e0e6a7d1a5bcd4dbf8f586884a9d4008d58f272971ed0922854dd2b14d9"
+    },
+    {
+      "path": "materials/articles/current/en/001.source-notices.json",
+      "sha256": "c01e92ea568d0ec32cf24e1a63fb548cdf395f22000e3ea553882d3903faeda3"
+    },
+    {
+      "path": "materials/articles/current/en/001.source-notices.txt",
+      "sha256": "0317eaabe6bbc3ee25b99fe6eb868ee974a0f8e332faa3e2c58787334966dbab"
+    }
+  ],
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "path": "materials/book-readers/en/articles-001.json",
+    "sha256": "bc5cda256f57ce0dec137aa14da62d5d7871dbc2d05eb25c64d33f2b793fce92"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "en-article-001-current-source-20261109-root-v1",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "scope": "Finite current-source successor and complete normalized reader integration"
+    },
+    "material": {
+      "collection": "articles",
+      "language": "en",
+      "id": "prepared-ar-79fa38429519de69"
+    },
+    "readerTextSHA256": "f63171835b28327523bc87fa37633287ed4e4a0b73baf6b611a77e1ec4e72925",
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/en/articles-001-20261109.json",
+        "sha256": "098c82d4da2f361e8e122baf24dd77712302826ed4cfff66fc0d4b7d89059494"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/articles/current/en/001.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/en/001.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/en/001.ordinary.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/en/001.source-notices.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/en/001.source-notices.txt",
+      "sha256": null
+    }
+  ]
+}

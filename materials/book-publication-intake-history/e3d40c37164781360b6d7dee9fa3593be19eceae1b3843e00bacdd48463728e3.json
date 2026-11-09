@@ -1,0 +1,74 @@
+{
+  "schema": "iman-book-source-publication-receipt-v1",
+  "material": {
+    "collection": "seerah",
+    "language": "en",
+    "id": "new-seerah001"
+  },
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "schema": "iman-book-unit-v1",
+    "path": "books/units/current/en/seerah/new-seerah001.json",
+    "sha256": "a781e384b7eabfde12dc2d69c22e4c529e940271c682eedc871197519782f392"
+  },
+  "approvalId": "en-seerah-001-current-source-20261109-root-v1",
+  "sourceBindings": [
+    {
+      "path": "materials/seerah/new-adult/en/01.txt",
+      "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6"
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01.md",
+      "sha256": "8fbb58d82a2e2f9a5e94a098be2948f670dedb78be37e6a9d1a75ce0a4039937"
+    }
+  ],
+  "generatedFiles": [
+    "books/reviewed-books.json",
+    "books/units/current/en/seerah/new-seerah001.json",
+    "materials/book-publication-approvals/e3d40c37164781360b6d7dee9fa3593be19eceae1b3843e00bacdd48463728e3.json",
+    "materials/catalog.json"
+  ],
+  "requiredInputs": [
+    {
+      "path": "books/source-projections/ar-seerah-new.json",
+      "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc"
+    },
+    {
+      "path": "materials/book-publication-readers/en/seerah/new-seerah001-current-source-v1.json",
+      "sha256": "dff81e62d576d9b914d80693ab1a5d5127bd219e268b39962d63ce7d160e7963"
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01-review-import.json",
+      "sha256": "40e205c750191bddbdb00e6423308fadd2bfcf4413e6a5267ad2ca57da52860a"
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01-source-acceptance.json",
+      "sha256": "f8f2ec9e8192a510ed2167346f0a46c41a7ba96fa859328e5bad8d0f5fc8a6af"
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01.md",
+      "sha256": "8fbb58d82a2e2f9a5e94a098be2948f670dedb78be37e6a9d1a75ce0a4039937"
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01.txt",
+      "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6"
+    }
+  ],
+  "files": [
+    "books/reviewed-books.json",
+    "books/source-projections/ar-seerah-new.json",
+    "books/units/current/en/seerah/new-seerah001.json",
+    "materials/book-publication-approvals/e3d40c37164781360b6d7dee9fa3593be19eceae1b3843e00bacdd48463728e3.json",
+    "materials/book-publication-readers/en/seerah/new-seerah001-current-source-v1.json",
+    "materials/catalog.json",
+    "materials/seerah/new-adult/en/01-review-import.json",
+    "materials/seerah/new-adult/en/01-source-acceptance.json",
+    "materials/seerah/new-adult/en/01.md",
+    "materials/seerah/new-adult/en/01.txt"
+  ],
+  "sourceApprovalCreated": false,
+  "scopeReleaseHoldsChanged": false,
+  "preparationScopeCreated": true,
+  "intakeSHA256": "e3d40c37164781360b6d7dee9fa3593be19eceae1b3843e00bacdd48463728e3",
+  "intakePath": "materials/book-publication-intake/e3d40c37164781360b6d7dee9fa3593be19eceae1b3843e00bacdd48463728e3.json"
+}
