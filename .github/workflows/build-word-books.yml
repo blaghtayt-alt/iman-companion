@@ -17,10 +17,10 @@ on:
   repository_dispatch:
     types: [published-material]
   pull_request:
-    paths: ['books/**', 'tools/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
+    paths: ['books/**', 'tools/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', 'docs/books/**', 'docs/automation/current-app-book-baseline.json', '.github/workflows/build-word-books.yml']
   push:
     branches: [main]
-    paths: ['books/**', 'tools/**', 'tests/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
+    paths: ['books/**', 'tools/**', 'tests/**', 'materials/**', 'docs/listen/**', 'docs/books/**', 'docs/automation/current-app-book-baseline.json', '.github/workflows/build-word-books.yml']
 permissions:
   contents: read
 concurrency:
@@ -35,6 +35,18 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -r books/requirements.txt
+      - name: Compare audited app readers with selected and released book contents
+        run: |
+          python tests/test_app_book_coverage.py
+          python tools/check_app_book_coverage.py --root . --json "$RUNNER_TEMP/app-book-coverage.json"
+      - name: Preserve the app-to-book coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-book-coverage-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/app-book-coverage.json
+          if-no-files-found: warn
+          retention-days: 90
       - name: Validate source fidelity, references, QR matching and publication
         run: |
           python tests/test_download_tables.py
