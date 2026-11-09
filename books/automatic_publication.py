@@ -4,14 +4,50 @@ Run by the repository-owned workflow. Source approval remains with the existing
 published source units; this controller never creates a translation approval.
 """
 from pathlib import Path
-import argparse,hashlib,json,os,re,subprocess,sys,shutil,tempfile
+import argparse,hashlib,json,os,re,signal,subprocess,sys,shutil,tempfile,time
 from published_library import SCHEMA,asset_names,capture,current,merge,read,sha,stage,scope_key
 from check_contents_targets import check as check_contents
 
-def run(args,root,**kwargs):
-    result=subprocess.run([str(x)for x in args],cwd=root,capture_output=True,text=True,encoding='utf8',**kwargs)
-    if result.returncode:raise RuntimeError('Command failed: '+str(args[0])+' '+str(args[1])+'\n'+result.stderr[-3500:]+'\n'+result.stdout[-1000:])
-    return result.stdout
+COMMAND_TIMEOUT_SECONDS=600
+COMMAND_TERMINATE_GRACE_SECONDS=5
+BUILD_TIMEOUT_SECONDS=70*60
+
+class CommandTimeoutError(RuntimeError):
+    """A bounded command failed; its partial output is never a candidate."""
+
+def run(args,root,timeout=COMMAND_TIMEOUT_SECONDS,**kwargs):
+    """Bound each command and, on Linux, stop only its owned process group."""
+    command=[str(x)for x in args];label=' '.join(command[:2]);started=time.monotonic()
+    print('[command:start] '+label,file=sys.stderr,flush=True)
+    input_data=kwargs.pop('input',None)
+    if input_data is not None:
+        if 'stdin' in kwargs:raise ValueError('stdin and input arguments may not both be used')
+        kwargs['stdin']=subprocess.PIPE
+    process=subprocess.Popen(command,cwd=root,stdout=subprocess.PIPE,stderr=subprocess.PIPE,
+        text=True,encoding='utf8',start_new_session=os.name=='posix',**kwargs)
+    def stop(force=False):
+        try:
+            if os.name=='posix':os.killpg(process.pid,signal.SIGKILL if force else signal.SIGTERM)
+            elif force:process.kill()
+            else:process.terminate()
+        except ProcessLookupError:pass
+    try:
+        stdout,stderr=process.communicate(input=input_data,timeout=timeout)
+    except subprocess.TimeoutExpired:
+        stop()
+        try:stdout,stderr=process.communicate(timeout=COMMAND_TERMINATE_GRACE_SECONDS)
+        except subprocess.TimeoutExpired:
+            stop(force=True);stdout,stderr=process.communicate()
+        # A detached-output descendant can outlive the leader without keeping
+        # communicate() blocked. Retire any remainder of our group as well.
+        stop(force=True)
+        print(f'[command:timeout] {label} after {time.monotonic()-started:.2f}s',file=sys.stderr,flush=True)
+        raise CommandTimeoutError(f'Command timed out after {timeout:g}s: {label}\n'+stderr[-3500:]+'\n'+stdout[-1000:]) from None
+    except BaseException:
+        stop(force=True);process.communicate();raise
+    print(f'[command:end] {label}: {process.returncode} in {time.monotonic()-started:.2f}s',file=sys.stderr,flush=True)
+    if process.returncode:raise RuntimeError('Command failed: '+label+'\n'+stderr[-3500:]+'\n'+stdout[-1000:])
+    return stdout
 
 def scopes(root,for_release=False):
     declarations=read(root/'books/reviewed-books.json')
@@ -47,10 +83,21 @@ def retain_failed_preparation(out,folder,error):
     folder.rename(retained)
     return retained.relative_to(out).as_posix()
 
-def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
+def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3',build_timeout=BUILD_TIMEOUT_SECONDS):
     from preparation_queue import load as load_queue,still_prepared,record,update,summaries
     out.mkdir(parents=True,exist_ok=True)
-    report={'sourceCommit':commit,'built':[],'prepared':[],'unchanged':[],'failed':[]}
+    deadline=time.monotonic()+build_timeout
+    def build_command(command):
+        remaining=deadline-time.monotonic()
+        if remaining<=0:raise CommandTimeoutError('Preparation time budget exhausted; this scope needs a retry')
+        return run(command,root,timeout=min(COMMAND_TIMEOUT_SECONDS,remaining))
+    report={'sourceCommit':commit,'built':[],'prepared':[],'unchanged':[],'failed':[],'buildComplete':False}
+    def checkpoint():
+        # Each completed folder already has its immutable prepared snapshot.
+        # Keep their inventory even if a later renderer or the runner stops.
+        temporary=out/'build-report.json.tmp'
+        temporary.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+        temporary.replace(out/'build-report.json')
     readiness=out/'language-readiness.json'
     if readiness.is_file():report['languageReadiness']=read(readiness)
     approved_audio=root/'books/.cache/approved-audio-intake-report.json'
@@ -58,13 +105,17 @@ def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
     existing=read(root/'books/published-library.json')if(root/'books/published-library.json').exists()else{'schema':SCHEMA,'entries':[]}
     previous={scope_key(row['book']):row for row in existing['entries']}
     pending={scope_key(row):row for row in load_queue(root)['entries']};new_pending=[];completed=[]
+    checkpoint()
     for declaration in scopes(root):
         language,collection=key=scope_key(declaration)
-        if key in previous and current(root,previous[key]) and not requires_qr_layout_update(previous[key]['book']):report['unchanged'].append({'language':language,'collection':collection});continue
+        if key in previous and current(root,previous[key]) and not requires_qr_layout_update(previous[key]['book']):
+            report['unchanged'].append({'language':language,'collection':collection});checkpoint();continue
         if key in pending and still_prepared(root,pending[key]):
-            report['unchanged'].append({'language':language,'collection':collection,'state':pending[key]['state']});continue
+            report['unchanged'].append({'language':language,'collection':collection,'state':pending[key]['state']});checkpoint();continue
         folder=out/(language+'-'+collection);folder.mkdir(exist_ok=True)
         identity={'language':language,'collection':collection}
+        report['activeScope']=identity;checkpoint();scope_started=time.monotonic()
+        print('[scope:start] '+language+'/'+collection,file=sys.stderr,flush=True)
         try:
             # All source normalization and every lesson's QR are regenerated.
             commands=[
@@ -75,23 +126,24 @@ def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
               [uno_python,'books/render_uno.py','--folder',folder,'--keep-contents'],
             ]
             for i,command in enumerate(commands):
-                run(command,root)
+                build_command(command)
                 if i==0:shutil.copy2(root/'books/manifest.json',folder/'source-manifest.json')
             # Reconcile cached TOC page labels with actual PDF destinations.
             # Re-render after each correction and refuse non-convergence.
             for attempt in range(4):
                 try:
-                    run([sys.executable,'books/toc_sync.py','--folder',folder],root)
+                    build_command([sys.executable,'books/toc_sync.py','--folder',folder])
                     break
+                except CommandTimeoutError:raise
                 except RuntimeError:
-                    run([sys.executable,'books/toc_sync.py','--folder',folder,'--write'],root)
-                    run([uno_python,'books/render_uno.py','--folder',folder,'--keep-contents'],root)
-            run([sys.executable,'books/toc_sync.py','--folder',folder],root)
-            run([sys.executable,'books/restore_book_fonts.py','--root',root,'--folder',folder],root)
+                    build_command([sys.executable,'books/toc_sync.py','--folder',folder,'--write'])
+                    build_command([uno_python,'books/render_uno.py','--folder',folder,'--keep-contents'])
+            build_command([sys.executable,'books/toc_sync.py','--folder',folder])
+            build_command([sys.executable,'books/restore_book_fonts.py','--root',root,'--folder',folder])
             # Word can compress RTL text that shares a paragraph with a terminal page break.
             # Normalize equivalent paragraph boundaries before the immutable handoff.
-            run([sys.executable,'books/normalize_word_page_breaks.py','--folder',folder],root)
-            run([sys.executable,'books/check_outputs.py','--root',root,'--folder',folder,'--tag',tag,'--repo',repo,'--prepare-only'],root)
+            build_command([sys.executable,'books/normalize_word_page_breaks.py','--folder',folder])
+            build_command([sys.executable,'books/check_outputs.py','--root',root,'--folder',folder,'--tag',tag,'--repo',repo,'--prepare-only'])
             index=read(folder/'index.json')
             if len(index['books'])!=1 or scope_key(index['books'][0])!=key:raise ValueError('Scoped build emitted a different book')
             book=index['books'][0]
@@ -115,13 +167,16 @@ def build(root,out,commit,repo,tag,uno_python='/usr/bin/python3'):
             # shadow an older verified edition with the same public filenames.
             retained=retain_failed_preparation(out,folder,error)
             report['failed'].append({**identity,'error':str(error),'folder':retained})
+        report.pop('activeScope',None);checkpoint()
+        print(f'[scope:end] {language}/{collection} in {time.monotonic()-scope_started:.2f}s',file=sys.stderr,flush=True)
     update(root,new_pending,completed)
     report['preparedAwaitingReleaseQC']=summaries(root)
-    (out/'build-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    report['buildComplete']=True;checkpoint()
     return report
 
 def candidates(root,out,tag):
     report=read(out/'build-report.json');result=[];assets=[];seen=set()
+    if report.get('buildComplete')is False:raise ValueError('Preparation batch did not complete; its checkpoint is not a release')
     for row in report['built']:
         folder=(out/row['folder']).resolve()
         if not folder.is_relative_to(out.resolve()):raise ValueError('Candidate escapes build output')

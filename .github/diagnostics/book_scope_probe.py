@@ -31,10 +31,11 @@ def traced_renderer(arguments):
     target = (Path.cwd() / "books/render_uno.py").resolve()
     source = target.read_text(encoding="utf8").splitlines()
     needles = {
+        "normalize_native_footer(file": "Pre-import generated native footer normalization",
         "doc=desktop.loadComponentFromURL": "UNO open document",
         "doc.getTextFields().refresh()": "UNO refresh text fields",
         "paragraphs=doc.getText().createEnumeration()": "UNO begin RTL paragraphs",
-        "native_footer(doc,languages": "UNO native footer after RTL paragraphs",
+        "native_footer(doc,languages": "UNO native footer",
         "doc.calculateAll()": "UNO calculate document",
         "cursor.jumpToLastPage()": "UNO calculate final page",
         "indexes.getByIndex(i).update()": "UNO update contents",
@@ -48,23 +49,24 @@ def traced_renderer(arguments):
     }
     stages = {n: label for n, line in enumerate(source, 1)
               for needle, label in needles.items() if needle in line}
-    previous = None
+    previous = {}
 
     def trace(frame, action, value):
-        nonlocal previous
-        if frame.f_code.co_filename != str(target) or frame.f_code.co_name != "main":
+        if frame.f_code.co_filename != str(target) or frame.f_code.co_name not in {"main", "native_footer"}:
             return None
-        if action in {"line", "return", "exception"} and previous:
-            label, started, line = previous
+        frame_id = id(frame)
+        if action in {"line", "return", "exception"} and frame_id in previous:
+            label, started, line = previous.pop(frame_id)
             event("uno-stage-end", stage=label, line=line,
                   seconds=round(time.monotonic() - started, 3), action=action)
-            previous = None
-        if action == "line" and frame.f_lineno in stages:
-            label = stages[frame.f_lineno]
+        if action == "line" and (frame.f_lineno in stages or frame.f_code.co_name == "native_footer"):
+            label = ("native_footer: " + source[frame.f_lineno-1].strip()
+                     if frame.f_code.co_name == "native_footer" else stages[frame.f_lineno])
             event("uno-stage-start", stage=label, line=frame.f_lineno,
                   file=str(frame.f_locals.get("file", "")),
-                  attempt=frame.f_locals.get("attempt"))
-            previous = (label, time.monotonic(), frame.f_lineno)
+                  attempt=frame.f_locals.get("attempt"),
+                  footerStyle=frame.f_locals.get("name"))
+            previous[frame_id] = (label, time.monotonic(), frame.f_lineno)
         return trace
 
     sys.path.insert(0, str(target.parent))
@@ -76,13 +78,16 @@ def traced_renderer(arguments):
         sys.settrace(None)
 
 
-def bounded_runner(log_dir, probe):
+def bounded_runner(log_dir, probe, timeout_error=RuntimeError):
     sequence = 0
 
-    def run(arguments, root, **kwargs):
+    def run(arguments, root, timeout=CHILD_TIMEOUT, **kwargs):
         nonlocal sequence
         if kwargs:
             raise ValueError("Unexpected diagnostic subprocess options")
+        timeout = min(float(timeout), CHILD_TIMEOUT)
+        if timeout <= 0:
+            raise timeout_error("Diagnostic child has no remaining production build budget")
         sequence += 1
         original = [str(value) for value in arguments]
         command = original[:]
@@ -91,7 +96,7 @@ def bounded_runner(log_dir, probe):
         label = Path(original[1]).name if len(original) > 1 else original[0]
         prefix = log_dir / f"{sequence:02d}-{label}"
         started = time.monotonic()
-        event("command-start", sequence=sequence, command=original, timeout=CHILD_TIMEOUT)
+        event("command-start", sequence=sequence, command=original, timeout=timeout)
         captured = {"stdout": [], "stderr": []}
 
         def pump(stream, name, file):
@@ -114,7 +119,7 @@ def bounded_runner(log_dir, probe):
                 thread.start()
             timed_out = False
             try:
-                process.wait(timeout=CHILD_TIMEOUT)
+                process.wait(timeout=timeout)
             except subprocess.TimeoutExpired:
                 timed_out = True
                 event("command-timeout", sequence=sequence, label=label, owned_process_group=process.pid)
@@ -141,7 +146,7 @@ def bounded_runner(log_dir, probe):
         stdout = "".join(captured["stdout"])
         stderr = "".join(captured["stderr"])
         if timed_out:
-            raise RuntimeError(f"Diagnostic child {label} exceeded {CHILD_TIMEOUT}s; owned group terminated")
+            raise timeout_error(f"Diagnostic child {label} exceeded {timeout:g}s; owned group terminated")
         if process.returncode:
             raise RuntimeError(f"Diagnostic child {label} failed ({process.returncode})\n{stderr[-3500:]}\n{stdout[-1000:]}")
         return stdout
@@ -156,7 +161,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, required=True)
     parser.add_argument("--out", type=Path, required=True)
-    parser.add_argument("--language", choices=("en", "ur"), required=True)
+    parser.add_argument("--language", choices=("en", "hi", "tr", "ur"), required=True)
     args = parser.parse_args()
     root, out = args.root.resolve(), args.out.resolve()
     out.mkdir(parents=True, exist_ok=True)
@@ -181,7 +186,8 @@ def main():
         return result
 
     automatic_publication.scopes = selected_scopes
-    automatic_publication.run = bounded_runner(log_dir, Path(__file__).resolve())
+    automatic_publication.run = bounded_runner(log_dir, Path(__file__).resolve(),
+                                               automatic_publication.CommandTimeoutError)
     event("scope-start", language=scope[0], collection=scope[1], sourceCommit=SOURCE_COMMIT)
     started = time.monotonic()
     report = automatic_publication.build(root, out, SOURCE_COMMIT, REPOSITORY,

@@ -412,7 +412,7 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
     for unit_index,unit in enumerate(units):
         unit_mirrors=block_mirrors(unit,lang)
         allow_numbered_surah=False
-        if lang=='bn':
+        if lang in {'bn','hi'}:
             from current_reviewed_quran import ADAPTER as current_quran_adapter
             allow_numbered_surah=unit.get('provenance',{}).get('adapter')==current_quran_adapter
         aggregate_hadith=unit['collection']=='hadith' and any(s.get('hadith') is True for s in unit['sections'])

@@ -5,10 +5,10 @@
 
 Bahasa Indonesia
 
-| Buku | Buku yang dapat disunting | Salinan bacaan | Materi yang disertakan |
+| Buku | Buku yang dapat disunting (Word) | Salinan bacaan (PDF) | Materi yang disertakan |
 | --- | --- | --- | --- |
-| Tadabur Al-Qur’an · Surah Al-Ikhlas — Tadabur | [Unduh buku yang dapat disunting](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_id_tadabbur-extended.docx) | [Unduh salinan bacaan](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_id_tadabbur-extended.pdf) | 1 · Termasuk: Surah 112 |
-| Hadis · Keagungan Allah dan Pengaruhnya terhadap Hati dan Amal (+2) | [Unduh buku yang dapat disunting](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_id_hadith.docx) | [Unduh salinan bacaan](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_id_hadith.pdf) | 3 · Termasuk: Hadis 2–4 |
+| Tadabur Al-Qur’an · Surah Al-Ikhlas — Tadabur | [Unduh buku yang dapat disunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_id_tadabbur-extended.docx) | [Unduh salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_id_tadabbur-extended.pdf) | 1 · Termasuk: Surah 112 |
+| Hadis · Keagungan Allah dan Pengaruhnya terhadap Hati dan Amal (+2) | [Unduh buku yang dapat disunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_id_hadith.docx) | [Unduh salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_id_hadith.pdf) | 3 · Termasuk: Hadis 2–4 |
 | Sirah | Sedang disiapkan | Sedang disiapkan | — |
 | Artikel | Sedang disiapkan | Sedang disiapkan | — |
 
@@ -48,7 +48,9 @@ Edisi sebagian
 
 Satu edisi gabungan
 
-[Unduh buku yang dapat disunting](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_id_all-books.docx) · [Unduh salinan bacaan](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_id_all-books.pdf)
+[Unduh buku yang dapat disunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_id_all-books.docx)
+
+[Unduh salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_id_all-books.pdf)
 
 [ZIP buku terpisah](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_id_all-books.zip)
 

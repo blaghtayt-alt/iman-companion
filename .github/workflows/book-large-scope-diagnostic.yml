@@ -15,19 +15,19 @@ jobs:
       fail-fast: false
       max-parallel: 2
       matrix:
-        language: [en, ur]
+        language: [ur, hi, en]
     steps:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 4
+          fetch-depth: 5
           persist-credentials: false
       - name: Verify isolated diagnostic ancestry and paths
         run: |
           git merge-base --is-ancestor 1a129c5414dbc1cf7cef5e1fdb16f1b3cbb2561e HEAD
           python - <<'PY'
           import subprocess
-          allowed={'.github/diagnostics/book_scope_probe.py','.github/workflows/book-large-scope-diagnostic.yml','books/render_uno.py'}
+          allowed=set(['.github/diagnostics/book_scope_probe.py', '.github/workflows/book-large-scope-diagnostic.yml', '.github/workflows/build-word-books.yml', 'README.md', 'books/AUTOMATIC-PREPARATION.md', 'books/automatic_publication.py', 'books/bibliography.py', 'books/build_books.py', 'books/check_outputs.py', 'books/download_page.py', 'books/download_tables.py', 'books/downloads/ar/README.md', 'books/downloads/bn/README.md', 'books/downloads/de/README.md', 'books/downloads/en/README.md', 'books/downloads/es/README.md', 'books/downloads/fa/README.md', 'books/downloads/fil/README.md', 'books/downloads/fr/README.md', 'books/downloads/hi/README.md', 'books/downloads/id/README.md', 'books/downloads/ja/README.md', 'books/downloads/ms/README.md', 'books/downloads/pt-BR/README.md', 'books/downloads/ru/README.md', 'books/downloads/th/README.md', 'books/downloads/tr/README.md', 'books/downloads/ur/README.md', 'books/downloads/uz/README.md', 'books/downloads/vi/README.md', 'books/downloads/zh-CN/README.md', 'books/install_assets.py', 'books/normalize_native_footer.py', 'books/reader_xml.py', 'books/render_uno.py', 'books/test_book_content_coverage.py', 'books/test_bundle_tables.py', 'books/test_download_page.py', 'books/test_preparation_lifecycle.py', 'docs/books/books.mjs', 'docs/books/catalog.json', 'tests/test_automatic_publication.py', 'tests/test_book_render_validation.py', 'tests/test_current_reviewed_quran.py', 'tests/test_download_tables.py', 'tests/test_install_assets.py', 'tests/test_native_footer_import.py'])
           changed=set(subprocess.check_output(['git','diff','--name-only','1a129c5414dbc1cf7cef5e1fdb16f1b3cbb2561e','HEAD'],text=True).splitlines())
           assert changed == allowed, changed
           PY
@@ -40,35 +40,7 @@ jobs:
         run: |
           python books/renderer_pin.py --install
           python -m pip install -r books/requirements.txt
-          python - <<'PY'
-          import hashlib,json,os,runpy,shutil,subprocess,sys,urllib.request
-          from pathlib import Path
-          repository='blaghtayt-alt/iman-companion'
-          release=json.loads(subprocess.check_output(['gh','api',f'repos/{repository}/releases/tags/book-assets-v2'],text=True,timeout=60))
-          assert release['id']==436645200 and release['tag_name']=='book-assets-v2'
-          expected={'Iman_Companion_Refined_Covers_All_20_Languages_v2.zip':717551417,'Iman_Companion_App_Book_Fonts_v1.zip':717550662}
-          assets={a['name']:a for a in release['assets']}
-          cache=Path(os.environ['RUNNER_TEMP'])/'diagnostic-pinned-assets';cache.mkdir()
-          local={}
-          for entry in json.loads(Path('books/assets.json').read_bytes())['archives']:
-              name=entry['url'].rsplit('/',1)[1];asset=assets[name]
-              assert asset['id']==expected[name] and asset['browser_download_url']==entry['url'] and asset['state']=='uploaded'
-              print(json.dumps({'diagnosticAssetDownload':entry['url'],'releaseId':release['id'],'assetId':asset['id']}),flush=True)
-              target=cache/name
-              with target.open('wb') as output:
-                  subprocess.run(['gh','api',f"repos/{repository}/releases/assets/{asset['id']}",'-H','Accept: application/octet-stream'],stdout=output,check=True,timeout=300)
-              digest=hashlib.sha256(target.read_bytes()).hexdigest()
-              assert digest==entry['sha256'],f'Pinned archive digest mismatch: {name}'
-              print(json.dumps({'diagnosticAssetVerified':name,'bytes':target.stat().st_size,'sha256':digest}),flush=True)
-              local[entry['url']]=target
-          def pinned_local_download(url,filename=None,*args,**kwargs):
-              assert url in local and filename is not None,'Unexpected installer download'
-              shutil.copyfile(local[url],filename)
-              return str(filename),None
-          urllib.request.urlretrieve=pinned_local_download
-          sys.argv=['books/install_assets.py','--root','.']
-          runpy.run_path('books/install_assets.py',run_name='__main__')
-          PY
+          python books/install_assets.py --root .
           mkdir -p "$HOME/.local/share/fonts/iman-books"
           cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
           cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"

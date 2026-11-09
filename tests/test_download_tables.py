@@ -2,7 +2,7 @@ from pathlib import Path
 from copy import deepcopy
 import sys,json,tempfile,hashlib,re,subprocess,shutil
 P=Path(__file__).resolve().parents[1];W=P.parent;sys.path.insert(0,str(P/'books'))
-from download_tables import render,merge_readme,MARKER_START,MARKER_END,verified_books,COLLECTIONS
+from download_tables import render,merge_readme,MARKER_START,MARKER_END,verified_books,COLLECTIONS,native_download_text
 from prepare_readme import prepare
 from bibliography import native_text
 conf=json.loads((P/'books/config.json').read_text(encoding='utf-8'));results=[];sha=lambda b:hashlib.sha256(b).hexdigest()
@@ -24,8 +24,10 @@ with tempfile.TemporaryDirectory(dir=W,prefix='download-table-test-') as tmp:
  assert len(pages)==20 and table.count('/releases/download/')==160;passed('20 languages and 80 Word/PDF pairs')
  for lang,page in pages.items():
   assert page.count('/releases/download/')==8
-  for line in page.splitlines():native_text(re.sub(r'\]\([^)]*\)',']',line),lang)
- passed('All native language page labels contain no English fallback')
+  for line in page.splitlines():native_download_text(re.sub(r'\]\([^)]*\)',']',line),lang)
+  for label,url in re.findall(r'\[([^\]]+)\]\(([^)]+)\)',page):
+   if '/releases/download/' in url:assert label.endswith(' (Word)' if url.endswith('.docx') else ' (PDF)')
+ passed('All native page labels retain their language and identify the correct Word/PDF format')
  updated=merge_readme(original,table);assert merge_readme(updated,table)==updated;assert updated.count(MARKER_START)==updated.count(MARKER_END)==1;passed('README insertion is idempotent')
  outside=updated.replace(MARKER_START+'\n'+table.rstrip()+'\n'+MARKER_END,'')
  for anchor in ['## Start here','## Using the material','## Where the material comes from','## Articles','## Current Al-Ikhlas reflections']:

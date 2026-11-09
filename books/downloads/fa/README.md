@@ -5,10 +5,10 @@
 
 فارسی
 
-| کتاب | کتاب ویرایش‌پذیر | نسخهٔ مطالعه | مطالب موجود |
+| کتاب | کتاب ویرایش‌پذیر (Word) | نسخهٔ مطالعه (PDF) | مطالب موجود |
 | --- | --- | --- | --- |
-| تدبر در قرآن · تأمل در سورهٔ اخلاص | [دریافت کتاب ویرایش‌پذیر](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_fa_tadabbur-extended.docx) | [دریافت نسخهٔ مطالعه](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_fa_tadabbur-extended.pdf) | ۱ · محتوای موجود: سوره ۱۱۲ |
-| حدیث · عظمت الله و اثر آن بر دل و عمل (+2) | [دریافت کتاب ویرایش‌پذیر](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fa_hadith.docx) | [دریافت نسخهٔ مطالعه](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fa_hadith.pdf) | ۳ · محتوای موجود: حدیث ۲–۴ |
+| تدبر در قرآن · تأمل در سورهٔ اخلاص | [دریافت کتاب ویرایش‌پذیر (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_fa_tadabbur-extended.docx) | [دریافت نسخهٔ مطالعه (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_fa_tadabbur-extended.pdf) | ۱ · محتوای موجود: سوره ۱۱۲ |
+| حدیث · عظمت الله و اثر آن بر دل و عمل (+2) | [دریافت کتاب ویرایش‌پذیر (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fa_hadith.docx) | [دریافت نسخهٔ مطالعه (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fa_hadith.pdf) | ۳ · محتوای موجود: حدیث ۲–۴ |
 | سیره | در حال آماده‌سازی | در حال آماده‌سازی | — |
 | مقاله‌ها | در حال آماده‌سازی | در حال آماده‌سازی | — |
 
@@ -48,7 +48,9 @@
 
 یک کتاب یکپارچه
 
-[دریافت کتاب ویرایش‌پذیر](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fa_all-books.docx) · [دریافت نسخهٔ مطالعه](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fa_all-books.pdf)
+[دریافت کتاب ویرایش‌پذیر (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fa_all-books.docx)
+
+[دریافت نسخهٔ مطالعه (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fa_all-books.pdf)
 
 [پروندهٔ فشردهٔ کتاب‌های جداگانه](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fa_all-books.zip)
 
