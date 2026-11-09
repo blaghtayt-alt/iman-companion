@@ -40,6 +40,7 @@ jobs:
           python tests/test_download_tables.py
           python tests/test_download_display.py
           python tests/test_finalize_word_batch.py
+          python tests/test_install_pinned_assets.py
           python books/test_bundle_tables.py
           python tests/test_book_render_validation.py
           python tests/test_book_fonts.py
@@ -102,8 +103,10 @@ jobs:
           python books/renderer_pin.py --install
           python -m pip install -r books/requirements.txt
       - name: Install pinned fonts and prove exact source citation wrapping
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          python books/install_assets.py --root .
+          python tools/install_pinned_assets.py --root .
           mkdir -p "$HOME/.local/share/fonts/iman-books"
           cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
           cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
@@ -161,7 +164,7 @@ jobs:
         run: |
           python books/renderer_pin.py --install
           python -m pip install -r books/requirements.txt
-          python books/install_assets.py --root .
+          python tools/install_pinned_assets.py --root .
           IMAN_BOOK_FONT_PROOF=1 python tests/test_numeric_reference_runs.py
           mkdir -p "$HOME/.local/share/fonts/iman-books"
           cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
