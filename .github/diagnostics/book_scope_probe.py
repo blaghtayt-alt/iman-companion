@@ -19,7 +19,7 @@ import time
 
 SOURCE_COMMIT = "1a129c5414dbc1cf7cef5e1fdb16f1b3cbb2561e"
 REPOSITORY = "blaghtayt-alt/iman-companion"
-CHILD_TIMEOUT = 600
+CHILD_TIMEOUT = 300
 
 
 def event(kind, **data):

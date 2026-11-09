@@ -15,21 +15,22 @@ jobs:
       fail-fast: false
       max-parallel: 2
       matrix:
-        language: [ur, hi, en]
+        language: [ur, en]
     steps:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 5
+          fetch-depth: 6
           persist-credentials: false
       - name: Verify isolated diagnostic ancestry and paths
         run: |
           git merge-base --is-ancestor 1a129c5414dbc1cf7cef5e1fdb16f1b3cbb2561e HEAD
           python - <<'PY'
           import subprocess
-          allowed=set(['.github/diagnostics/book_scope_probe.py', '.github/workflows/book-large-scope-diagnostic.yml', '.github/workflows/build-word-books.yml', 'README.md', 'books/AUTOMATIC-PREPARATION.md', 'books/automatic_publication.py', 'books/bibliography.py', 'books/build_books.py', 'books/check_outputs.py', 'books/download_page.py', 'books/download_tables.py', 'books/downloads/ar/README.md', 'books/downloads/bn/README.md', 'books/downloads/de/README.md', 'books/downloads/en/README.md', 'books/downloads/es/README.md', 'books/downloads/fa/README.md', 'books/downloads/fil/README.md', 'books/downloads/fr/README.md', 'books/downloads/hi/README.md', 'books/downloads/id/README.md', 'books/downloads/ja/README.md', 'books/downloads/ms/README.md', 'books/downloads/pt-BR/README.md', 'books/downloads/ru/README.md', 'books/downloads/th/README.md', 'books/downloads/tr/README.md', 'books/downloads/ur/README.md', 'books/downloads/uz/README.md', 'books/downloads/vi/README.md', 'books/downloads/zh-CN/README.md', 'books/install_assets.py', 'books/normalize_native_footer.py', 'books/reader_xml.py', 'books/render_uno.py', 'books/test_book_content_coverage.py', 'books/test_bundle_tables.py', 'books/test_download_page.py', 'books/test_preparation_lifecycle.py', 'docs/books/books.mjs', 'docs/books/catalog.json', 'tests/test_automatic_publication.py', 'tests/test_book_render_validation.py', 'tests/test_current_reviewed_quran.py', 'tests/test_download_tables.py', 'tests/test_install_assets.py', 'tests/test_native_footer_import.py'])
+          allowed=set(['.github/diagnostics/book_scope_probe.py', '.github/workflows/book-large-scope-diagnostic.yml', '.github/workflows/build-word-books.yml', 'README.md', 'books/AUTOMATIC-PREPARATION.md', 'books/automatic_publication.py', 'books/bibliography.py', 'books/build_books.py', 'books/check_outputs.py', 'books/download_page.py', 'books/download_tables.py', 'books/downloads/ar/README.md', 'books/downloads/bn/README.md', 'books/downloads/de/README.md', 'books/downloads/en/README.md', 'books/downloads/es/README.md', 'books/downloads/fa/README.md', 'books/downloads/fil/README.md', 'books/downloads/fr/README.md', 'books/downloads/hi/README.md', 'books/downloads/id/README.md', 'books/downloads/ja/README.md', 'books/downloads/ms/README.md', 'books/downloads/pt-BR/README.md', 'books/downloads/ru/README.md', 'books/downloads/th/README.md', 'books/downloads/tr/README.md', 'books/downloads/ur/README.md', 'books/downloads/uz/README.md', 'books/downloads/vi/README.md', 'books/downloads/zh-CN/README.md', 'books/install_assets.py', 'books/reader_xml.py', 'books/test_book_content_coverage.py', 'books/test_bundle_tables.py', 'books/test_download_page.py', 'books/test_preparation_lifecycle.py', 'docs/books/books.mjs', 'docs/books/catalog.json', 'tests/test_automatic_publication.py', 'tests/test_book_render_validation.py', 'tests/test_current_reviewed_quran.py', 'tests/test_download_tables.py', 'tests/test_footnote_marker_layout.py', 'tests/test_install_assets.py'])
           changed=set(subprocess.check_output(['git','diff','--name-only','1a129c5414dbc1cf7cef5e1fdb16f1b3cbb2561e','HEAD'],text=True).splitlines())
           assert changed == allowed, changed
+          assert subprocess.check_output(["git","hash-object","books/render_uno.py"],text=True).strip() == "deb16876fb1e7c27edd54c4256f5b7421a1485ba"
           PY
       - uses: actions/setup-python@v5
         with:
@@ -45,7 +46,7 @@ jobs:
           cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
           cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
           fc-cache -f
-      - name: Trace one unchanged production build with bounded children
+      - name: Trace candidate production preparation with bounded children
         env:
           PROBE_LANGUAGE: ${{ matrix.language }}
         run: |

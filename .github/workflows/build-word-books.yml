@@ -48,7 +48,7 @@ jobs:
           python tests/test_merge_public_books_fonts.py
           python tests/test_merge_public_books_numbering.py
           python tests/test_renderer_pin.py
-          python tests/test_native_footer_import.py
+          python tests/test_footnote_marker_layout.py
           python tests/test_toc_hyperlink_import.py
           python tests/test_word_page_breaks.py
           python tests/test_source_credits.py
