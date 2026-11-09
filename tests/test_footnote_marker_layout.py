@@ -1,4 +1,4 @@
-"""Bound dense Urdu marker tails while preserving their real footnote bindings."""
+"""Bound dense Urdu/Bengali marker tails and preserve their real note bindings."""
 from io import BytesIO
 from pathlib import Path
 import sys
@@ -17,11 +17,29 @@ from reader_xml import body_text
 class FootnoteMarkerLayoutTests(unittest.TestCase):
     def fixture(self, count, language='ur'):
         document = Document()
-        paragraph = document.add_paragraph('اصل عبارت محفوظ ہے۔')
-        notes = Footnotes(document, language, 'Iman Book Urdu', 'Iman Book Naskh')
+        paragraph = document.add_paragraph('মূল পাঠ অপরিবর্তিত।' if language=='bn' else 'اصل عبارت محفوظ ہے۔')
+        notes = Footnotes(document, language, 'Iman Book Bengali' if language=='bn' else 'Iman Book Urdu', 'Iman Book Naskh')
         for index in range(count):
-            notes.add(paragraph, 'حوالہ محفوظ ہے۔', group=str(index))
+            notes.add(paragraph, 'মূল তথ্যসূত্র।' if language=='bn' else 'حوالہ محفوظ ہے۔', group=str(index))
         return document, paragraph, notes
+
+    def test_bengali_57_note_tail_keeps_exact_text_order_anchors_and_note_bodies(self):
+        document, paragraph, notes = self.fixture(57, 'bn')
+        texts = [node.text for node in paragraph._p.iter(qn('w:t'))]
+        refs = list(paragraph._p.iter(qn('w:footnoteReference')))
+        note_bytes = etree.tostring(notes.root)
+        self.assertEqual(notes.wrap_trailing_markers(), 7)
+        self.assertEqual([node.text for node in paragraph._p.iter(qn('w:t'))], texts)
+        self.assertEqual(list(paragraph._p.iter(qn('w:footnoteReference'))), refs)
+        self.assertEqual([node.get(qn('w:id')) for node in refs], [str(i) for i in range(1, 58)])
+        self.assertEqual(etree.tostring(notes.root), note_bytes)
+        stream = BytesIO();document.save(stream);stream.seek(0)
+        validate_footnotes(notes.root, Document(stream).element.body, notes.texts, 'bn',
+                           preserved_identifiers=notes.identifiers,
+                           source_literal_proofs=notes.literal_proofs)
+        once = etree.tostring(document.element.body)
+        self.assertEqual(notes.wrap_trailing_markers(), 0)
+        self.assertEqual(etree.tostring(document.element.body), once)
 
     def test_dense_tail_preserves_source_nodes_reference_identity_and_note_bindings(self):
         document, paragraph, notes = self.fixture(62)
