@@ -56,3 +56,11 @@ These instructions establish a workflow and truthful labeling requirement; they 
 - Preserve every distinct narrator chain and every book/source occurrence as a separately identifiable, evidence-backed record, even when the Hadith wording is identical. Retain collection, edition, reference/numbering, pages or locator, and the chain as actually supplied; missing chain details remain unknown, never reconstructed as fact.
 - Link parallel wording, narrations, chains and source occurrences through explicit relationship/group identifiers. Shared text storage or search grouping may be used only if it retains every occurrence, chain, provenance and variant intact. Never destructively deduplicate records merely because their wording matches.
 - The completeness audit and separate Pro QC must reconcile all source occurrences and narrator chains, not just unique text counts. Document evidence-backed inclusion, unresolved gaps and justified exclusions; do not silently discard an additional Hadith, chain or occurrence.
+
+
+## Shared Pro-chat concurrency limit
+
+- Run **at most three active Pro chats in total** for this bank, collectively across extraction, metadata enrichment, and separate QC. This is a shared limit across all workers, not three chats per worker or per phase.
+- Coordinate starts through a shared active-work register or a single coordinator. Before starting or resuming work in a chat, confirm the global active count and reserve a free slot so concurrent workers cannot exceed the limit. Treat unknown or unverified status as occupied until resolved; never assume capacity.
+- Do not interrupt, cancel, or send new instructions into currently running jobs to enforce the limit. If existing work already exceeds three active chats, let it finish and start no additional work until confirmed capacity is available.
+- Release a slot only after the chat is verified idle/completed or otherwise confirmed no longer active. Keep queued extraction, metadata and independent Pro QC work waiting when no slot is available. This limit does not relax the requirement for separate QC or any publication gate.
