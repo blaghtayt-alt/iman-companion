@@ -17,10 +17,10 @@ on:
   repository_dispatch:
     types: [published-material]
   pull_request:
-    paths: ['books/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
+    paths: ['books/**', 'tools/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
   push:
     branches: [main]
-    paths: ['books/**', 'tests/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
+    paths: ['books/**', 'tools/**', 'tests/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
 permissions:
   contents: read
 concurrency:
@@ -41,12 +41,14 @@ jobs:
           python books/test_bundle_tables.py
           python tests/test_book_render_validation.py
           python tests/test_book_fonts.py
+          python tests/test_install_assets.py
           python tests/test_script_fallbacks.py
           python tests/test_numeric_reference_runs.py
           python tests/test_merge_public_books_styles.py
           python tests/test_merge_public_books_fonts.py
           python tests/test_merge_public_books_numbering.py
           python tests/test_renderer_pin.py
+          python tests/test_footnote_marker_layout.py
           python tests/test_toc_hyperlink_import.py
           python tests/test_word_page_breaks.py
           python tests/test_source_credits.py
@@ -73,6 +75,7 @@ jobs:
           python books/test_book_content_coverage.py
           python tests/test_mixed_material_adapters.py
           python tests/test_finalize_prepared.py
+          python tests/test_finalize_word_batch.py
           python tests/test_release_candidate_intake.py
           python tests/test_connector_candidate_transfer.py
           python tests/test_published_library.py
@@ -100,6 +103,8 @@ jobs:
           python books/renderer_pin.py --install
           python -m pip install -r books/requirements.txt
       - name: Install pinned fonts and prove exact source citation wrapping
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           python books/install_assets.py --root .
           mkdir -p "$HOME/.local/share/fonts/iman-books"

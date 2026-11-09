@@ -108,11 +108,42 @@ check the exact local pair bytes. The current source-push job serializes work;
 the sole publisher rechecks main before release/table commits, so a competing
 source or metadata commit cannot publish an old-head candidate.
 
+Each external command has a ten-minute limit. The Linux controller gives it a
+dedicated process group and retires that group on timeout, including descendants
+that outlive the command or close their output pipes. A timed-out scope keeps its
+partial files under `failed-preparations`; it gains no preparation or release
+snapshot, and other scopes continue. The preparation phase has a seventy-minute
+budget within the ninety-minute job, reserving time for queue updates, publication
+bookkeeping and artifact upload. Unattempted scopes after that budget are reported
+for retry rather than accepted as prepared.
+
+The controller flushes scope and command progress and atomically checkpoints
+`build-report.json` between scopes. A runner interruption leaves completed
+per-folder preparation snapshots and an explicitly incomplete report for recovery;
+it does not commit the queue or grant release approval. Publication rejects an
+incomplete checkpoint. During Urdu generation, long terminal runs of generated
+footnote markers gain a line break after every eight references. Only marker-only
+tails after all source words are eligible; inline annotations remain unchanged.
+Every source text node, reference ID/order and footnote body is preserved. This
+allows the concentrated references to paginate across lines while the original
+renderer, field refresh, contents convergence and source checks remain intact.
+
+Pinned font and cover archives use the authenticated GitHub release-asset API
+when the existing `GH_TOKEN` is available. The installer resolves the exact tag,
+filename and public URL, bounds metadata and binary transfers, and still verifies
+the original SHA-256 before extracting anything. The renderer regression step
+uses its existing read-only repository token. Environments without that token
+retain the original public URLs with bounded reads; archive pins are unchanged.
+
 Actual Word finalization and final visual release acceptance remain release
 steps on the existing owned desktop. The optional desktop worker is not part of
 this deployment. The checked handoff below connects those completed checks to
 the existing publisher; it does not install an unattended Windows bridge or
 claim unattended visual approval.
+
+Use the [batch Word finalization guide](../docs/WORD-BATCH-FINALIZATION.md) to
+stage an exact artifact, run the owned Word finalizer serially and resume
+completed scopes. Visual acceptance and publication remain separate steps.
 
 ### Current material adapters
 

@@ -5,10 +5,10 @@
 
 O‘zbekcha
 
-| Kitob | Tahrirlanadigan kitob | O‘qish nusxasi | Kiritilgan materiallar |
+| Kitob | Tahrirlanadigan kitob (Word) | O‘qish nusxasi (PDF) | Kiritilgan materiallar |
 | --- | --- | --- | --- |
-| Qurʼon Tadabburi · Ixlos surasi — ma’nolari ustida tafakkur | [Tahrirlanadigan kitobni yuklab olish](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_uz_tadabbur-extended.docx) | [O‘qish nusxasini yuklab olish](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_uz_tadabbur-extended.pdf) | 1 · Kiritilgan: Sura 112 |
-| Hadis · Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири (+2) | [Tahrirlanadigan kitobni yuklab olish](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_uz_hadith.docx) | [O‘qish nusxasini yuklab olish](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_uz_hadith.pdf) | 3 · Kiritilgan: Hadis 2–4 |
+| Qurʼon Tadabburi · Ixlos surasi — ma’nolari ustida tafakkur | [Tahrirlanadigan kitobni yuklab olish (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_uz_tadabbur-extended.docx) | [O‘qish nusxasini yuklab olish (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_uz_tadabbur-extended.pdf) | 1 · Kiritilgan: Sura 112 |
+| Hadis · Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири (+2) | [Tahrirlanadigan kitobni yuklab olish (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_uz_hadith.docx) | [O‘qish nusxasini yuklab olish (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_uz_hadith.pdf) | 3 · Kiritilgan: Hadis 2–4 |
 | Siyrat | Tayyorlanmoqda | Tayyorlanmoqda | — |
 | Maqolalar | Tayyorlanmoqda | Tayyorlanmoqda | — |
 
@@ -48,7 +48,9 @@ Qisman nashr
 
 Bitta jamlangan kitob
 
-[Tahrirlanadigan kitobni yuklab olish](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_uz_all-books.docx) · [O‘qish nusxasini yuklab olish](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_uz_all-books.pdf)
+[Tahrirlanadigan kitobni yuklab olish (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_uz_all-books.docx)
+
+[O‘qish nusxasini yuklab olish (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_uz_all-books.pdf)
 
 [Alohida kitoblar ZIP arxivi](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_uz_all-books.zip)
 

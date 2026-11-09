@@ -285,6 +285,24 @@ class Footnotes:
         node=el(note,'w:p');p=Paragraph(node,self.doc._body);direction(p,self.lang)
         p.paragraph_format.line_spacing_rule=WD_LINE_SPACING.AT_LEAST;p.paragraph_format.line_spacing=Pt(18 if self.lang=='ur' else 12);p.paragraph_format.space_after=Pt(3)
         return p
+    def wrap_trailing_markers(self):
+        """Let long Urdu footnote-marker tails paginate without changing source text."""
+        if self.lang!='ur':return 0
+        changed=0
+        for paragraph in dict.fromkeys(anchor for anchor,group in self.anchors):
+            markers=[]
+            for run in reversed(list(paragraph)):
+                content=[node for node in run if node.tag!=qn('w:rPr')]
+                if run.tag!=qn('w:r') or len(content)!=1 or content[0].tag!=qn('w:footnoteReference'):break
+                markers.append(run)
+            markers.reverse()
+            # Each Urdu note needs at least an 18pt first line. Dozens of
+            # adjacent markers can demand more footnote space than one page.
+            # Break only generated marker tails, after all source words; no
+            # reference moves to a different paragraph or changes identity.
+            for index in range(7,len(markers)-1,8):
+                el(markers[index],'w:br');changed+=1
+        return changed
 
 def canonical_key(unit):
     nums=[int(x) for x in re.findall(r'\d+',unit['id'])]
@@ -412,7 +430,7 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
     for unit_index,unit in enumerate(units):
         unit_mirrors=block_mirrors(unit,lang)
         allow_numbered_surah=False
-        if lang=='bn':
+        if lang in {'bn','hi'}:
             from current_reviewed_quran import ADAPTER as current_quran_adapter
             allow_numbered_surah=unit.get('provenance',{}).get('adapter')==current_quran_adapter
         aggregate_hadith=unit['collection']=='hadith' and any(s.get('hadith') is True for s in unit['sections'])
@@ -483,6 +501,7 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
                     if lang not in RTL:ref='\u200e'+ref+'\u200e'
                     add_text(p,' '+ref,lang,family,arabic,10,'body')
                 for citation in b.get('citations',[]):notes.add(p,hadith_citation(citation,lang))
+    notes.wrap_trailing_markers()
     settings=doc.settings.element;el(settings,'w:updateFields',{'w:val':'true'});el(settings,'w:embedTrueTypeFonts',{'w:val':'true'})
     target=out/f'Iman_Companion_{lang}_{collection}.docx';doc.save(target);embed_fonts(target,fonts,notes.root if notes.texts else None)
     rendered=body_text(Document(target).element.body)

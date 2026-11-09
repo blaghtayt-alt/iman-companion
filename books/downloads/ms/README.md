@@ -5,10 +5,10 @@
 
 Bahasa Melayu
 
-| Buku | Buku boleh sunting | Salinan bacaan | Bahan yang disertakan |
+| Buku | Buku boleh sunting (Word) | Salinan bacaan (PDF) | Bahan yang disertakan |
 | --- | --- | --- | --- |
-| Tadabbur Al-Quran · Surah al-Ikhlas — Tadabbur | [Muat turun buku boleh sunting](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ms_tadabbur-extended.docx) | [Muat turun salinan bacaan](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ms_tadabbur-extended.pdf) | 1 · Disertakan: Surah 112 |
-| Hadis · Keagungan Allah dan Kesannya terhadap Hati dan Amal (+2) | [Muat turun buku boleh sunting](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ms_hadith.docx) | [Muat turun salinan bacaan](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ms_hadith.pdf) | 3 · Disertakan: Hadis 2–4 |
+| Tadabbur Al-Quran · Surah al-Ikhlas — Tadabbur | [Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ms_tadabbur-extended.docx) | [Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ms_tadabbur-extended.pdf) | 1 · Disertakan: Surah 112 |
+| Hadis · Keagungan Allah dan Kesannya terhadap Hati dan Amal (+2) | [Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ms_hadith.docx) | [Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ms_hadith.pdf) | 3 · Disertakan: Hadis 2–4 |
 | Sirah | Sedang disediakan | Sedang disediakan | — |
 | Artikel | Sedang disediakan | Sedang disediakan | — |
 
@@ -48,7 +48,9 @@ Edisi separa
 
 Satu edisi gabungan
 
-[Muat turun buku boleh sunting](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ms_all-books.docx) · [Muat turun salinan bacaan](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ms_all-books.pdf)
+[Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ms_all-books.docx)
+
+[Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ms_all-books.pdf)
 
 [ZIP buku berasingan](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ms_all-books.zip)
 

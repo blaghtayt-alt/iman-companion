@@ -5,10 +5,10 @@
 
 日本語
 
-| 書籍 | 編集可能な書籍 | 閲覧用の書籍 | 収録内容 |
+| 書籍 | 編集可能な書籍 (Word) | 閲覧用の書籍 (PDF) | 収録内容 |
 | --- | --- | --- | --- |
-| クルアーンの 考察 · イフラース章を思い巡らす | [編集可能な書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.docx) | [閲覧用の書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.pdf) | 1 · 収録: 章 112 |
-| ハディース · アッラーの偉大さが心と行いにもたらすもの (+2) | [編集可能な書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ja_hadith.docx) | [閲覧用の書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ja_hadith.pdf) | 3 · 収録: ハディース 2–4 |
+| クルアーンの 考察 · イフラース章を思い巡らす | [編集可能な書籍をダウンロード (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.docx) | [閲覧用の書籍をダウンロード (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.pdf) | 1 · 収録: 章 112 |
+| ハディース · アッラーの偉大さが心と行いにもたらすもの (+2) | [編集可能な書籍をダウンロード (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ja_hadith.docx) | [閲覧用の書籍をダウンロード (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ja_hadith.pdf) | 3 · 収録: ハディース 2–4 |
 | 預言者伝 | 準備中 | 準備中 | — |
 | 記事 | 準備中 | 準備中 | — |
 
@@ -45,7 +45,9 @@
 
 一冊にまとめた版
 
-[編集可能な書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ja_all-books.docx) · [閲覧用の書籍をダウンロード](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ja_all-books.pdf)
+[編集可能な書籍をダウンロード (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ja_all-books.docx)
+
+[閲覧用の書籍をダウンロード (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ja_all-books.pdf)
 
 [個別の本をまとめた圧縮ファイル](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ja_all-books.zip)
 
