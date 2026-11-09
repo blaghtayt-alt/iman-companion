@@ -1,0 +1,42 @@
+{
+  "archiveBytes": 27751303,
+  "archiveSHA256": "fa09118ffacd38a4716673b366a3a5c0f9510971811ab34f6b43ff3c38144db8",
+  "chunks": [
+    {
+      "blobSHA": "11d97e2841425400ac8963b7d462c46426dc294c",
+      "bytes": 8388608,
+      "sha256": "06cc5a5133b3c856f51c81553ec949d7e08bf8795f7e39d588cfd826d3738aa2"
+    },
+    {
+      "blobSHA": "b01f131fd76d43b5e01c0a8c1a4ae350d3b1aecd",
+      "bytes": 8388608,
+      "sha256": "922ba6a025c7b51385ecf387fcc81ddb56e5b357b3c3d4c86e0fe95da580ab05"
+    },
+    {
+      "blobSHA": "8364a5dd812976d6ed372470c3a52b7933c53008",
+      "bytes": 8388608,
+      "sha256": "4add57692c78bb1f3bc825e25276b6b4c16f6fc1f26cfb87de91fc0890d98c19"
+    },
+    {
+      "blobSHA": "c8e5fef9c91f2a9f317b3b85614b607c547c038f",
+      "bytes": 2585479,
+      "sha256": "2954d8fd311d2ce8619d8a0a59af57b4d566a4349c8950f49eb101be60430855"
+    }
+  ],
+  "repository": "blaghtayt-alt/iman-companion",
+  "schema": "iman-book-connector-transfer-v1",
+  "scopes": [
+    {
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "a43a5e67e22135baed7308971ce61171dc1fb7b02e0012bd8f58635fe1fa7f4d",
+      "language": "en",
+      "sourceCommit": "76aec11bc3de34c3b6e784b4a949b9f098e83e87"
+    },
+    {
+      "collection": "tadabbur-extended",
+      "inputFingerprint": "29b31949ac51e7dda09cd73de6ff59c683e5f020e3f16ffa0213f506cb1aafa9",
+      "language": "fr",
+      "sourceCommit": "76aec11bc3de34c3b6e784b4a949b9f098e83e87"
+    }
+  ]
+}
