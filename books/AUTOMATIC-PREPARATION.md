@@ -121,12 +121,12 @@ The controller flushes scope and command progress and atomically checkpoints
 `build-report.json` between scopes. A runner interruption leaves completed
 per-folder preparation snapshots and an explicitly incomplete report for recovery;
 it does not commit the queue or grant release approval. Publication rejects an
-incomplete checkpoint. Before the pinned Linux renderer imports a document, a
-guarded package pass replaces only the exact generated RTL page-number formula
-with an ordinary live PAGE field. Every other package part is preserved. Unknown
-footer content fails without modifying the file. The existing native footer,
-field refresh, contents convergence and source checks still run in their original
-order.
+incomplete checkpoint. During Urdu generation, long terminal runs of generated
+footnote markers gain a line break after every eight references. Only marker-only
+tails after all source words are eligible; inline annotations remain unchanged.
+Every source text node, reference ID/order and footnote body is preserved. This
+allows the concentrated references to paginate across lines while the original
+renderer, field refresh, contents convergence and source checks remain intact.
 
 Pinned font and cover archives use the authenticated GitHub release-asset API
 when the existing `GH_TOKEN` is available. The installer resolves the exact tag,

@@ -1,0 +1,99 @@
+"""Bound dense Urdu marker tails while preserving their real footnote bindings."""
+from io import BytesIO
+from pathlib import Path
+import sys
+import unittest
+
+from docx import Document
+from lxml import etree
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / 'books'))
+from build_books import Footnotes, qn
+from check_outputs import validate_footnotes
+from reader_xml import body_text
+
+
+class FootnoteMarkerLayoutTests(unittest.TestCase):
+    def fixture(self, count, language='ur'):
+        document = Document()
+        paragraph = document.add_paragraph('اصل عبارت محفوظ ہے۔')
+        notes = Footnotes(document, language, 'Iman Book Urdu', 'Iman Book Naskh')
+        for index in range(count):
+            notes.add(paragraph, 'حوالہ محفوظ ہے۔', group=str(index))
+        return document, paragraph, notes
+
+    def test_dense_tail_preserves_source_nodes_reference_identity_and_note_bindings(self):
+        document, paragraph, notes = self.fixture(62)
+        source_nodes = list(paragraph._p.iter(qn('w:t')))
+        source_texts = [node.text for node in source_nodes]
+        refs = list(paragraph._p.iter(qn('w:footnoteReference')))
+        ids = [node.get(qn('w:id')) for node in refs]
+        note_bytes = etree.tostring(notes.root)
+        original_properties = [etree.tostring(run.find(qn('w:rPr'))) for run in paragraph._p.findall(qn('w:r'))[1:]]
+        self.assertEqual(notes.wrap_trailing_markers(), 7)
+        self.assertEqual(list(paragraph._p.iter(qn('w:t'))), source_nodes)
+        self.assertEqual([node.text for node in source_nodes], source_texts)
+        self.assertEqual(list(paragraph._p.iter(qn('w:footnoteReference'))), refs)
+        self.assertEqual([node.get(qn('w:id')) for node in refs], ids)
+        self.assertEqual(etree.tostring(notes.root), note_bytes)
+        self.assertEqual([etree.tostring(run.find(qn('w:rPr'))) for run in paragraph._p.findall(qn('w:r'))[1:]], original_properties)
+        self.assertEqual(body_text(paragraph._p), 'اصل عبارت محفوظ ہے۔' + '\n' * 7)
+        self.assertEqual([run.find(qn('w:footnoteReference')).get(qn('w:id'))
+                          for run in paragraph._p.findall(qn('w:r')) if run.find(qn('w:br')) is not None],
+                         ['8', '16', '24', '32', '40', '48', '56'])
+        # Serialize through python-docx before applying the unchanged output
+        # validator, so these are actual Word references, not a mocked model.
+        stream = BytesIO();document.save(stream);stream.seek(0)
+        saved = Document(stream)
+        validate_footnotes(notes.root, saved.element.body, notes.texts, 'ur',
+                           preserved_identifiers=notes.identifiers,
+                           source_literal_proofs=notes.literal_proofs)
+
+    def test_boundary_counts_and_repeated_pass_are_stable(self):
+        for count, expected in ((0, 0), (1, 0), (8, 0), (9, 1), (16, 1), (17, 2)):
+            with self.subTest(count=count):
+                document, paragraph, notes = self.fixture(count)
+                self.assertEqual(notes.wrap_trailing_markers(), expected)
+                once = etree.tostring(document.element.body)
+                self.assertEqual(notes.wrap_trailing_markers(), 0)
+                self.assertEqual(etree.tostring(document.element.body), once)
+
+    def test_large_inline_cluster_followed_by_source_text_is_untouched(self):
+        document, paragraph, notes = self.fixture(20)
+        paragraph.add_run('مزید اصل عبارت۔')
+        before = etree.tostring(document.element.body)
+        self.assertEqual(notes.wrap_trailing_markers(), 0)
+        self.assertEqual(etree.tostring(document.element.body), before)
+
+    def test_only_terminal_cluster_changes_when_earlier_markers_are_inline(self):
+        document, paragraph, notes = self.fixture(20)
+        inline_runs = list(paragraph._p)
+        paragraph.add_run('مزید اصل عبارت۔')
+        for index in range(9):
+            notes.add(paragraph, 'حوالہ محفوظ ہے۔', group='tail-' + str(index))
+        before_inline = [etree.tostring(run) for run in inline_runs]
+        before_notes = etree.tostring(notes.root)
+        self.assertEqual(notes.wrap_trailing_markers(), 1)
+        self.assertEqual([etree.tostring(run) for run in inline_runs], before_inline)
+        self.assertEqual(etree.tostring(notes.root), before_notes)
+        validate_footnotes(notes.root, document.element.body, notes.texts, 'ur')
+
+    def test_marker_run_with_source_text_is_not_treated_as_generated_marker_tail(self):
+        document, paragraph, notes = self.fixture(20)
+        text = etree.SubElement(paragraph._p[-1], qn('w:t'));text.text = 'اصل متن'
+        before = etree.tostring(document.element.body)
+        self.assertEqual(notes.wrap_trailing_markers(), 0)
+        self.assertEqual(etree.tostring(document.element.body), before)
+
+    def test_other_languages_are_unchanged(self):
+        for language in ('ar', 'fa', 'en', 'hi'):
+            with self.subTest(language=language):
+                document, paragraph, notes = self.fixture(20, language)
+                before = etree.tostring(document.element.body)
+                self.assertEqual(notes.wrap_trailing_markers(), 0)
+                self.assertEqual(etree.tostring(document.element.body), before)
+
+
+if __name__ == '__main__':
+    unittest.main()
