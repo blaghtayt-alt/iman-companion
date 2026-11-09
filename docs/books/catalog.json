@@ -20,14 +20,14 @@
         {
           "language": "en",
           "collection": "tadabbur-extended",
-          "title": "Quran Reflection · Surah Al-Ikhlas — Reflections",
-          "cover": "assets/covers/b0e4b615dc276d5aade3637f66390f55e26b54afe42d7afd037c128d25285659.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_en_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_en_tadabbur-extended.pdf",
-          "sha256": "5e71af8300bf487c9fe1c81f448ed0fa77df746acc749936505cbabc245ed584",
-          "pdfSha256": "b0e4b615dc276d5aade3637f66390f55e26b54afe42d7afd037c128d25285659",
-          "units": 1,
-          "pages": 22,
+          "title": "Quran Reflection",
+          "cover": "assets/covers/0a952bbcee7f64443ec076b7322c69dfb9467e798032ee19fad00b708d26d672.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1/Iman_Companion_en_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1/Iman_Companion_en_tadabbur-extended.pdf",
+          "sha256": "770f00a18da97d2858a35951bec6a46ab056aec166a5898006bc88ad470048fe",
+          "pdfSha256": "0a952bbcee7f64443ec076b7322c69dfb9467e798032ee19fad00b708d26d672",
+          "units": 15,
+          "pages": 198,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -85,139 +85,40 @@
               "112:extended"
             ],
             "includedIds": [
+              "1:extended",
+              "15:extended",
+              "17:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended",
+              "101:extended",
+              "103:extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "1:extended": 1,
+              "15:extended": 15,
+              "17:extended": 17,
+              "40:extended": 40,
+              "55:extended": 55,
+              "61:extended": 61,
+              "62:extended": 62,
+              "63:extended": 63,
+              "68:extended": 68,
+              "93:extended": 93,
+              "98:extended": 98,
+              "99:extended": 99,
+              "101:extended": 101,
+              "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "1:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/001.json",
-                  "markdown": "materials/tadabbur/en/extended/001.md"
-                },
-                "number": 1
-              },
-              {
-                "id": "15:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/015.json",
-                  "markdown": "materials/tadabbur/en/extended/015.md"
-                },
-                "number": 15
-              },
-              {
-                "id": "17:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/017.json",
-                  "markdown": "materials/tadabbur/en/extended/017.md"
-                },
-                "number": 17
-              },
-              {
-                "id": "40:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/040.json",
-                  "markdown": "materials/tadabbur/en/extended/040.md"
-                },
-                "number": 40
-              },
-              {
-                "id": "55:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/055.json",
-                  "markdown": "materials/tadabbur/en/extended/055.md"
-                },
-                "number": 55
-              },
-              {
-                "id": "61:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/061.json",
-                  "markdown": "materials/tadabbur/en/extended/061.md"
-                },
-                "number": 61
-              },
-              {
-                "id": "62:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/062.json",
-                  "markdown": "materials/tadabbur/en/extended/062.md"
-                },
-                "number": 62
-              },
-              {
-                "id": "63:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/063.json",
-                  "markdown": "materials/tadabbur/en/extended/063.md"
-                },
-                "number": 63
-              },
-              {
-                "id": "68:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/068.json",
-                  "markdown": "materials/tadabbur/en/extended/068.md"
-                },
-                "number": 68
-              },
-              {
-                "id": "93:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/093.json",
-                  "markdown": "materials/tadabbur/en/extended/093.md"
-                },
-                "number": 93
-              },
-              {
-                "id": "98:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/098.json",
-                  "markdown": "materials/tadabbur/en/extended/098.md"
-                },
-                "number": 98
-              },
-              {
-                "id": "99:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/099.json",
-                  "markdown": "materials/tadabbur/en/extended/099.md"
-                },
-                "number": 99
-              },
-              {
-                "id": "101:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/101.json",
-                  "markdown": "materials/tadabbur/en/extended/101.md"
-                },
-                "number": 101
-              },
-              {
-                "id": "103:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/en/extended/103.json",
-                  "markdown": "materials/tadabbur/en/extended/103.md"
-                },
-                "number": 103
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -225,34 +126,107 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Included: Surah 112",
-              "statusLabel": "Partial edition",
-              "notes": [
-                "Awaiting the updated book: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103"
-              ],
+              "includedLabel": "Included: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "1:extended": "Surah 1",
+                "15:extended": "Surah 15",
+                "17:extended": "Surah 17",
+                "40:extended": "Surah 40",
+                "55:extended": "Surah 55",
+                "61:extended": "Surah 61",
+                "62:extended": "Surah 62",
+                "63:extended": "Surah 63",
+                "68:extended": "Surah 68",
+                "93:extended": "Surah 93",
+                "98:extended": "Surah 98",
+                "99:extended": "Surah 99",
+                "101:extended": "Surah 101",
+                "103:extended": "Surah 103",
                 "112:extended": "Surah 112"
               }
             }
           },
           "contents": [
             {
+              "id": "1:extended",
+              "title": "Surah Al-Fatihah",
+              "numberLabel": "Surah 1"
+            },
+            {
+              "id": "15:extended",
+              "title": "Surah Al-Hijr · Included ayahs",
+              "numberLabel": "Surah 15"
+            },
+            {
+              "id": "17:extended",
+              "title": "Surah Al-Isra · Included ayahs",
+              "numberLabel": "Surah 17"
+            },
+            {
+              "id": "40:extended",
+              "title": "Surah Ghafir · Included ayahs",
+              "numberLabel": "Surah 40"
+            },
+            {
+              "id": "55:extended",
+              "title": "Surah Ar-Rahman · Included ayahs",
+              "numberLabel": "Surah 55"
+            },
+            {
+              "id": "61:extended",
+              "title": "Surah As-Saff",
+              "numberLabel": "Surah 61"
+            },
+            {
+              "id": "62:extended",
+              "title": "Surah Al-Jumuah",
+              "numberLabel": "Surah 62"
+            },
+            {
+              "id": "63:extended",
+              "title": "Surah Al-Munafiqun",
+              "numberLabel": "Surah 63"
+            },
+            {
+              "id": "68:extended",
+              "title": "Surah Al-Qalam · Included ayahs",
+              "numberLabel": "Surah 68"
+            },
+            {
+              "id": "93:extended",
+              "title": "Surah Ad-Duha",
+              "numberLabel": "Surah 93"
+            },
+            {
+              "id": "98:extended",
+              "title": "Surah Al-Bayyinah",
+              "numberLabel": "Surah 98"
+            },
+            {
+              "id": "99:extended",
+              "title": "Surah Az-Zalzalah",
+              "numberLabel": "Surah 99"
+            },
+            {
+              "id": "101:extended",
+              "title": "Surah Al-Qariah",
+              "numberLabel": "Surah 101"
+            },
+            {
+              "id": "103:extended",
+              "title": "Surah Al-Asr",
+              "numberLabel": "Surah 103"
+            },
+            {
               "id": "112:extended",
               "title": "Surah Al-Ikhlas — Reflections",
               "numberLabel": "Surah 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Verified edition. New material is awaiting release checks; only the listed contents are included."
+          ]
         },
         {
           "language": "en",
@@ -353,9 +327,9 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_en_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_en_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_en_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_en_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_en_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_en_all-books.pdf",
         "parts": 2
       }
     },
@@ -7714,14 +7688,14 @@
         {
           "language": "fr",
           "collection": "tadabbur-extended",
-          "title": "Réflexion sur le Coran · Sourate Al-Ikhlas — Méditation",
-          "cover": "assets/covers/c43d4f9d4adb19a768e1165ff2c5289f42d416693ea226726e22a62ca5749553.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_fr_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_fr_tadabbur-extended.pdf",
-          "sha256": "55edaf2ae13baa388bd9b9834fd2bdfeb3e96d05ad3fe2d79d6081d9a0d0ea0e",
-          "pdfSha256": "c43d4f9d4adb19a768e1165ff2c5289f42d416693ea226726e22a62ca5749553",
-          "units": 1,
-          "pages": 23,
+          "title": "Réflexion sur le Coran",
+          "cover": "assets/covers/77f5fe766b3d0c75a2e1cafbd2a6d296e22c0d83c379e0d8c685a468a59a1bbe.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1/Iman_Companion_fr_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1/Iman_Companion_fr_tadabbur-extended.pdf",
+          "sha256": "14deb9e2bc66f41c5404f306258ee16ce40208e1be7163c8f650abdd01a9d892",
+          "pdfSha256": "77f5fe766b3d0c75a2e1cafbd2a6d296e22c0d83c379e0d8c685a468a59a1bbe",
+          "units": 15,
+          "pages": 203,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -7779,139 +7753,40 @@
               "112:extended"
             ],
             "includedIds": [
+              "1:extended",
+              "15:extended",
+              "17:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended",
+              "101:extended",
+              "103:extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "1:extended": 1,
+              "15:extended": 15,
+              "17:extended": 17,
+              "40:extended": 40,
+              "55:extended": 55,
+              "61:extended": 61,
+              "62:extended": 62,
+              "63:extended": 63,
+              "68:extended": 68,
+              "93:extended": 93,
+              "98:extended": 98,
+              "99:extended": 99,
+              "101:extended": 101,
+              "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "1:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/001.json",
-                  "markdown": "materials/tadabbur/fr/extended/001.md"
-                },
-                "number": 1
-              },
-              {
-                "id": "15:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/015.json",
-                  "markdown": "materials/tadabbur/fr/extended/015.md"
-                },
-                "number": 15
-              },
-              {
-                "id": "17:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/017.json",
-                  "markdown": "materials/tadabbur/fr/extended/017.md"
-                },
-                "number": 17
-              },
-              {
-                "id": "40:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/040.json",
-                  "markdown": "materials/tadabbur/fr/extended/040.md"
-                },
-                "number": 40
-              },
-              {
-                "id": "55:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/055.json",
-                  "markdown": "materials/tadabbur/fr/extended/055.md"
-                },
-                "number": 55
-              },
-              {
-                "id": "61:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/061.json",
-                  "markdown": "materials/tadabbur/fr/extended/061.md"
-                },
-                "number": 61
-              },
-              {
-                "id": "62:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/062.json",
-                  "markdown": "materials/tadabbur/fr/extended/062.md"
-                },
-                "number": 62
-              },
-              {
-                "id": "63:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/063.json",
-                  "markdown": "materials/tadabbur/fr/extended/063.md"
-                },
-                "number": 63
-              },
-              {
-                "id": "68:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/068.json",
-                  "markdown": "materials/tadabbur/fr/extended/068.md"
-                },
-                "number": 68
-              },
-              {
-                "id": "93:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/093.json",
-                  "markdown": "materials/tadabbur/fr/extended/093.md"
-                },
-                "number": 93
-              },
-              {
-                "id": "98:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/098.json",
-                  "markdown": "materials/tadabbur/fr/extended/098.md"
-                },
-                "number": 98
-              },
-              {
-                "id": "99:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/099.json",
-                  "markdown": "materials/tadabbur/fr/extended/099.md"
-                },
-                "number": 99
-              },
-              {
-                "id": "101:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/101.json",
-                  "markdown": "materials/tadabbur/fr/extended/101.md"
-                },
-                "number": 101
-              },
-              {
-                "id": "103:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fr/extended/103.json",
-                  "markdown": "materials/tadabbur/fr/extended/103.md"
-                },
-                "number": 103
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -7919,34 +7794,107 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Inclus: Sourate 112",
-              "statusLabel": "Édition partielle",
-              "notes": [
-                "En attente du livre mis à jour: Sourate 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103"
-              ],
+              "includedLabel": "Inclus: Sourate 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "1:extended": "Sourate 1",
+                "15:extended": "Sourate 15",
+                "17:extended": "Sourate 17",
+                "40:extended": "Sourate 40",
+                "55:extended": "Sourate 55",
+                "61:extended": "Sourate 61",
+                "62:extended": "Sourate 62",
+                "63:extended": "Sourate 63",
+                "68:extended": "Sourate 68",
+                "93:extended": "Sourate 93",
+                "98:extended": "Sourate 98",
+                "99:extended": "Sourate 99",
+                "101:extended": "Sourate 101",
+                "103:extended": "Sourate 103",
                 "112:extended": "Sourate 112"
               }
             }
           },
           "contents": [
             {
+              "id": "1:extended",
+              "title": "Sourate Al-Fatihah",
+              "numberLabel": "Sourate 1"
+            },
+            {
+              "id": "15:extended",
+              "title": "Sourate Al-Hijr · Versets disponibles",
+              "numberLabel": "Sourate 15"
+            },
+            {
+              "id": "17:extended",
+              "title": "Sourate Al-Isra · Versets disponibles",
+              "numberLabel": "Sourate 17"
+            },
+            {
+              "id": "40:extended",
+              "title": "Sourate Ghafir · Versets disponibles",
+              "numberLabel": "Sourate 40"
+            },
+            {
+              "id": "55:extended",
+              "title": "Sourate Ar-Rahman · Versets disponibles",
+              "numberLabel": "Sourate 55"
+            },
+            {
+              "id": "61:extended",
+              "title": "Sourate As-Saff",
+              "numberLabel": "Sourate 61"
+            },
+            {
+              "id": "62:extended",
+              "title": "Sourate Al-Jumuah",
+              "numberLabel": "Sourate 62"
+            },
+            {
+              "id": "63:extended",
+              "title": "Sourate Al-Munafiqun",
+              "numberLabel": "Sourate 63"
+            },
+            {
+              "id": "68:extended",
+              "title": "Sourate Al-Qalam · Versets disponibles",
+              "numberLabel": "Sourate 68"
+            },
+            {
+              "id": "93:extended",
+              "title": "Sourate Ad-Duha",
+              "numberLabel": "Sourate 93"
+            },
+            {
+              "id": "98:extended",
+              "title": "Sourate Al-Bayyinah",
+              "numberLabel": "Sourate 98"
+            },
+            {
+              "id": "99:extended",
+              "title": "Sourate Az-Zalzalah",
+              "numberLabel": "Sourate 99"
+            },
+            {
+              "id": "101:extended",
+              "title": "Sourate Al-Qariah",
+              "numberLabel": "Sourate 101"
+            },
+            {
+              "id": "103:extended",
+              "title": "Sourate Al-Asr",
+              "numberLabel": "Sourate 103"
+            },
+            {
               "id": "112:extended",
               "title": "Sourate Al-Ikhlas — Méditation",
               "numberLabel": "Sourate 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Édition vérifiée. Les nouveaux textes attendent les contrôles de publication ; seuls les contenus indiqués sont inclus."
+          ]
         },
         {
           "language": "fr",
@@ -8070,9 +8018,9 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fr_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fr_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fr_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_fr_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_fr_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_fr_all-books.pdf",
         "parts": 2
       }
     },
@@ -10484,5 +10432,5 @@
       }
     }
   },
-  "updated": "2026-11-09T10:26:59+00:00"
+  "updated": "2026-11-09T11:33:42+00:00"
 }
