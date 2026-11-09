@@ -141,6 +141,10 @@ this deployment. The checked handoff below connects those completed checks to
 the existing publisher; it does not install an unattended Windows bridge or
 claim unattended visual approval.
 
+Use the [batch Word finalization guide](../docs/WORD-BATCH-FINALIZATION.md) to
+stage an exact artifact, run the owned Word finalizer serially and resume
+completed scopes. Visual acceptance and publication remain separate steps.
+
 ### Current material adapters
 
 The current Arabic Articles adapter covers the 47 installed article readings.

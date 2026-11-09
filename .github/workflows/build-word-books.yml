@@ -17,10 +17,10 @@ on:
   repository_dispatch:
     types: [published-material]
   pull_request:
-    paths: ['books/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
+    paths: ['books/**', 'tools/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
   push:
     branches: [main]
-    paths: ['books/**', 'tests/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
+    paths: ['books/**', 'tools/**', 'tests/**', 'materials/**', 'docs/listen/**', 'docs/books/**', '.github/workflows/build-word-books.yml']
 permissions:
   contents: read
 concurrency:
@@ -75,6 +75,7 @@ jobs:
           python books/test_book_content_coverage.py
           python tests/test_mixed_material_adapters.py
           python tests/test_finalize_prepared.py
+          python tests/test_finalize_word_batch.py
           python tests/test_release_candidate_intake.py
           python tests/test_connector_candidate_transfer.py
           python tests/test_published_library.py
