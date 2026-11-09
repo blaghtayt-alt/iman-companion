@@ -1,7 +1,7 @@
 from pathlib import Path
 from copy import deepcopy
 import json,re,unittest
-from download_tables import render_ready,COPY
+from download_tables import render_ready,COPY,native_download_text
 from download_bundle_copy import BUNDLE_COPY
 from bibliography import native_text
 
@@ -19,7 +19,7 @@ class BundleTables(unittest.TestCase):
    self.assertIn(self.bundles[lang]['zip'],page);self.assertIn('?lang='+lang,table)
    self.assertEqual(page.count('all-books.zip'),1)
    for text in BUNDLE_COPY[lang]:native_text(text,lang)
-   for line in page.splitlines():native_text(re.sub(r'\]\([^)]*\)',']',line),lang)
+   for line in page.splitlines():native_download_text(re.sub(r'\]\([^)]*\)',']',line),lang)
  def test_missing_bundle_keeps_individual_book_available(self):
   table,pages=render_ready(self.conf,self.ready,'example/test',{})
   self.assertNotIn('all-books.zip',table+'\n'+''.join(pages.values()))

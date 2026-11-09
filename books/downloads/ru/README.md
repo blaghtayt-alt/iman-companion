@@ -5,10 +5,10 @@
 
 Русский
 
-| Книга | Редактируемая книга | Версия для чтения | Включённые материалы |
+| Книга | Редактируемая книга (Word) | Версия для чтения (PDF) | Включённые материалы |
 | --- | --- | --- | --- |
-| Размышление над Кораном | [Скачать редактируемую книгу](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.docx) | [Скачать версию для чтения](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.pdf) | 1 · Включено: Сура 112 |
-| Хадис · Величие Аллаха и его влияние на сердце и поступки (+2) | [Скачать редактируемую книгу](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ru_hadith.docx) | [Скачать версию для чтения](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ru_hadith.pdf) | 3 · Включено: Хадис 2–4 |
+| Размышление над Кораном | [Скачать редактируемую книгу (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.docx) | [Скачать версию для чтения (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.pdf) | 1 · Включено: Сура 112 |
+| Хадис · Величие Аллаха и его влияние на сердце и поступки (+2) | [Скачать редактируемую книгу (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ru_hadith.docx) | [Скачать версию для чтения (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ru_hadith.pdf) | 3 · Включено: Хадис 2–4 |
 | Сира | Готовится | Готовится | — |
 | Статьи | Готовится | Готовится | — |
 
@@ -48,7 +48,9 @@
 
 Одно объединённое издание
 
-[Скачать редактируемую книгу](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ru_all-books.docx) · [Скачать версию для чтения](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ru_all-books.pdf)
+[Скачать редактируемую книгу (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ru_all-books.docx)
+
+[Скачать версию для чтения (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ru_all-books.pdf)
 
 [Архив отдельных книг](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ru_all-books.zip)
 

@@ -5,10 +5,10 @@
 
 Türkçe
 
-| Kitap | Düzenlenebilir kitap | Okuma nüshası | İçerilen metinler |
+| Kitap | Düzenlenebilir kitap (Word) | Okuma nüshası (PDF) | İçerilen metinler |
 | --- | --- | --- | --- |
-| Kur’an Üzerine Tefekkür · İhlâs Suresi — Tefekkür | [Düzenlenebilir kitabı indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.docx) | [Okuma nüshasını indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.pdf) | 1 · İçerilenler: Sure 112 |
-| Hadis · Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi (+2) | [Düzenlenebilir kitabı indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.docx) | [Okuma nüshasını indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.pdf) | 3 · İçerilenler: Hadis 2–4 |
+| Kur’an Üzerine Tefekkür · İhlâs Suresi — Tefekkür | [Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.docx) | [Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.pdf) | 1 · İçerilenler: Sure 112 |
+| Hadis · Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi (+2) | [Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.docx) | [Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.pdf) | 3 · İçerilenler: Hadis 2–4 |
 | Siyer | Hazırlanıyor | Hazırlanıyor | — |
 | Makaleler | Hazırlanıyor | Hazırlanıyor | — |
 
@@ -45,7 +45,9 @@ Kısmi baskı
 
 Tek birleştirilmiş kitap
 
-[Düzenlenebilir kitabı indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_tr_all-books.docx) · [Okuma nüshasını indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_tr_all-books.pdf)
+[Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_tr_all-books.docx)
+
+[Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_tr_all-books.pdf)
 
 [Ayrı kitapların ZIP dosyası](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_tr_all-books.zip)
 

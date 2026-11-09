@@ -5,10 +5,10 @@
 
 Filipino
 
-| Aklat | Nae-edit na aklat | Kopyang pambasa | Mga nilalaman |
+| Aklat | Nae-edit na aklat (Word) | Kopyang pambasa (PDF) | Mga nilalaman |
 | --- | --- | --- | --- |
-| Pagninilay sa Quran | [I-download ang nae-edit na aklat](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-fil112-42351274157-1/Iman_Companion_fil_tadabbur-extended.docx) | [I-download ang kopyang pambasa](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-fil112-42351274157-1/Iman_Companion_fil_tadabbur-extended.pdf) | 1 · Kasama: Kabanata 112 |
-| Hadith · Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa (+1) | [I-download ang nae-edit na aklat](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_fil_hadith.docx) | [I-download ang kopyang pambasa](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_fil_hadith.pdf) | 2 · Kasama: Hadith 2–3 |
+| Pagninilay sa Quran | [I-download ang nae-edit na aklat (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-fil112-42351274157-1/Iman_Companion_fil_tadabbur-extended.docx) | [I-download ang kopyang pambasa (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-fil112-42351274157-1/Iman_Companion_fil_tadabbur-extended.pdf) | 1 · Kasama: Kabanata 112 |
+| Hadith · Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa (+1) | [I-download ang nae-edit na aklat (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_fil_hadith.docx) | [I-download ang kopyang pambasa (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_fil_hadith.pdf) | 2 · Kasama: Hadith 2–3 |
 | Seerah | Inihahanda | Inihahanda | — |
 | Mga artikulo | Inihahanda | Inihahanda | — |
 
@@ -48,7 +48,9 @@ Bahagyang edisyon
 
 Isang pinagsamang edisyon
 
-[I-download ang nae-edit na aklat](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_fil_all-books.docx) · [I-download ang kopyang pambasa](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_fil_all-books.pdf)
+[I-download ang nae-edit na aklat (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_fil_all-books.docx)
+
+[I-download ang kopyang pambasa (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_fil_all-books.pdf)
 
 [ZIP ng magkakahiwalay na aklat](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_fil_all-books.zip)
 

@@ -5,10 +5,10 @@
 
 বাংলা
 
-| বই | সম্পাদনাযোগ্য বই | পাঠের অনুলিপি | অন্তর্ভুক্ত বিষয় |
+| বই | সম্পাদনাযোগ্য বই (Word) | পাঠের অনুলিপি (PDF) | অন্তর্ভুক্ত বিষয় |
 | --- | --- | --- | --- |
-| কুরআনের তাদাব্বুর · সূরা আল-ইখলাস — ভাবনা ও অনুধাবন | [সম্পাদনাযোগ্য বই ডাউনলোড করুন](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_bn_tadabbur-extended.docx) | [পাঠের অনুলিপি ডাউনলোড করুন](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_bn_tadabbur-extended.pdf) | ১ · অন্তর্ভুক্ত: সূরা ১১২ |
-| হাদিস · আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব (+1) | [সম্পাদনাযোগ্য বই ডাউনলোড করুন](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_bn_hadith.docx) | [পাঠের অনুলিপি ডাউনলোড করুন](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_bn_hadith.pdf) | ২ · অন্তর্ভুক্ত: হাদিস ২–৩ |
+| কুরআনের তাদাব্বুর · সূরা আল-ইখলাস — ভাবনা ও অনুধাবন | [সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_bn_tadabbur-extended.docx) | [পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_bn_tadabbur-extended.pdf) | ১ · অন্তর্ভুক্ত: সূরা ১১২ |
+| হাদিস · আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব (+1) | [সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_bn_hadith.docx) | [পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_bn_hadith.pdf) | ২ · অন্তর্ভুক্ত: হাদিস ২–৩ |
 | সীরাত | প্রস্তুত হচ্ছে | প্রস্তুত হচ্ছে | — |
 | প্রবন্ধ | প্রস্তুত হচ্ছে | প্রস্তুত হচ্ছে | — |
 
@@ -47,7 +47,9 @@
 
 একটি সম্মিলিত বই
 
-[সম্পাদনাযোগ্য বই ডাউনলোড করুন](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_bn_all-books.docx) · [পাঠের অনুলিপি ডাউনলোড করুন](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_bn_all-books.pdf)
+[সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_bn_all-books.docx)
+
+[পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_bn_all-books.pdf)
 
 [আলাদা বইগুলোর জিপ ফাইল](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_bn_all-books.zip)
 
