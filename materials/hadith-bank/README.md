@@ -1,5 +1,9 @@
 # Hadith source bank
 
+## Rules for contributors and AI chats
+
+Read [AGENTS.md](AGENTS.md) before working on this bank. AI-generated translations must be explicitly labeled, with truthful Sol 6.1 translation and Astra Extra High review attribution only when those steps actually occurred. Keep metadata separate from Hadith text, preserve published translators' credits, and require separate Pro QC before uploading final extracted artifacts. Existing source conditions and rights remain in force.
+
 These language catalogs point to whole, already published lesson readings and their source files. They preserve existing source conditions and review status. They do not create new translations, approvals or narrations.
 
 - [en](en/README.md)
