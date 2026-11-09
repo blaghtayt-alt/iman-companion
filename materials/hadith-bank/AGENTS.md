@@ -37,3 +37,14 @@ Use Pro chats for the extraction and independent QC workflow. Before extracted a
 Only upload final QC-passed artifacts when the target visibility and source/translation reuse rights permit it. Do not publish private evidence or copyrighted source PDFs merely because they are downloadable. Preserve original sources and all existing publication boundaries.
 
 These instructions establish a workflow and truthful labeling requirement; they do not certify or relabel existing records retroactively.
+
+## Original Arabic and complete source coverage
+
+- Include the **verified original Arabic text and its source with every Hadith**. Do not omit any original source cited by the supplied materials or identified during source verification. A translation alone is not a complete bank record.
+- Preserve each verified Arabic wording, isnad where present, and edition/version. Keep distinct narrations and textual variants separately identified and linked; never collapse conflicting wording into a synthetic quotation.
+- Trace each source in a structured source list: collection/work, author/compiler where known, book/chapter, Hadith/reference number and numbering scheme, edition/publisher, volume and printed/PDF page or stable digital locator, and verification evidence/status. Preserve all cited original references, not just the first or easiest one. Record unavailable details as unknown.
+- Distinguish the directly checked Arabic source from secondary citations and cross-references. Do not claim direct verification when only a translation or secondary reference was checked. Never invent a citation or back-translate and label the result original Arabic.
+- Keep original Arabic, translations, commentary, and source metadata in separate fields. Link each translation to the precise Arabic version it represents; document unresolved alignment rather than guessing.
+- Before publication, perform a **source-completeness audit** for every record and the full candidate corpus. Reconcile every supplied/cited source against the record source lists, and account for missing texts, variants, references, duplicates and exclusions in an audit manifest. Completeness claims must state the checked corpus, editions, coverage, and limitations; do not claim that every source worldwide has been found without evidence.
+- Mark missing or unverified Arabic text, source attribution, or translation-to-source alignment explicitly. Keep such records in a non-published work queue and block publication of incomplete-attribution records until resolved. Preserve the unresolved evidence; do not drop a source merely to pass the gate.
+- The separate Pro QC review must verify Arabic/source alignment and source-list completeness as well as extraction accuracy. This is a requirement for future work, not a claim that existing bank records have already passed this audit.
