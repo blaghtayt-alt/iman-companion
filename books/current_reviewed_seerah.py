@@ -53,6 +53,8 @@ DUPLICATE_READER_FIELDS = {'text', 'translation', 'arabic', 'sourceArabic', 'ara
     'exactText', 'publishedOriginal', 'displayedParagraph', 'publishedSpans', 'arabicExcerpt'}
 PUBLIC_NOTE_CONTEXT = ('note', 'footnote', 'qualification', 'reservation', 'rights', 'permission',
                        'condition', 'transcript', 'issue', 'sunnasourcebasis', 'sourceuse', 'sourcefirst')
+RAW_PAGE_EVIDENCE = ('materials/seerah/de/chapter-04.json',
+                     ('review', 'quoteProvenance', 1, 'originalPageText'))
 
 
 def sha(raw):
@@ -387,7 +389,7 @@ def _companion_visible(relative, paragraph):
 
 def reader_plan(root, row, payload):
     language, chapter, source = row['language'], row['chapter'], row['json']
-    fields, excluded = [], []
+    fields, excluded, evidence_only = [], [], []
     content = payload.get('content', payload)
     reader_texts = [normalize_lines(block['text']) for block in content['blocks']]
     def field(path, purpose, *, kind='paragraph', role='body', section='reader', label=None, **extra):
@@ -405,6 +407,29 @@ def reader_plan(root, row, payload):
     def public_tree(value, path):
         if isinstance(value, dict):
             for name, child in value.items():
+                if (source, tuple(path + [name])) == RAW_PAGE_EVIDENCE:
+                    # This is the raw entire PDF page, including its layout
+                    # controls and unrelated later narrations. The selected
+                    # quotation, complete required footnote and publication
+                    # conditions have their own exact reader/source fields.
+                    # Keep the extraction untouched as bound source evidence;
+                    # neither strip its controls nor add it as a second reader.
+                    quote = pointer(payload, path)
+                    body = ['content', 'blocks', quote['paragraphIndex'], 'text']
+                    if (not isinstance(child, str) or not isinstance(quote.get('displayedText'), str)
+                            or quote['displayedText'] not in pointer(payload, body)):
+                        raise ValueError('Raw PDF evidence lost its separately preserved selected quotation')
+                    retained = [body] + [path + [key] for key in (
+                        'reference', 'publisherFootnote366', 'publishedPage', 'edition', 'sourceURL',
+                        'permissionPage', 'permissionStatement', 'normalization')]
+                    if any(pointer(payload, item) in (None, '') for item in retained):
+                        raise ValueError('Raw PDF evidence lost a required public source qualification')
+                    evidence_only.append({'sourcePath': source, 'pointer': path + [name],
+                        'originalTextSHA256': sha(child.encode('utf8')),
+                        'disposition': 'raw-whole-page-extraction-retained-as-source-evidence',
+                        'retainedDisplayPointers': retained,
+                        'readerTextRewritten': False, 'sourceTextRewritten': False})
+                    continue
                 publisher_reviewer = (name == 'reviewer' and path and path[0] == 'sourceProvenance' and not _private('', child))
                 if _private(name, child) and not publisher_reviewer:
                     excluded.append(path + [name])
@@ -491,8 +516,17 @@ def reader_plan(root, row, payload):
                 fields.append({'sourcePath': relative, 'pointer': ['$text'], 'range': [start, end],
                     'displayMode': 'value', 'purpose': 'shared-source-companion', 'kind': 'paragraph', 'role': 'note',
                     'section': 'source-context', 'textSHA256': sha(text[start:end].encode('utf8'))})
+    compact = _compact_context(root, fields)
+    def displayed_pointers(field):
+        yield tuple(field['pointer'])
+        for part in field.get('parts', []) + field.get('aliases', []):
+            yield from displayed_pointers(part)
+    displayed = {item for field in compact if field['sourcePath'] == source for item in displayed_pointers(field)}
+    if any(tuple(item) not in displayed for evidence in evidence_only for item in evidence['retainedDisplayPointers']):
+        raise ValueError('Required quotation or source qualification was omitted beside raw PDF evidence')
     return {'title': {'sourcePath': source, 'pointer': prefix + ['title'], 'displayMode': 'value'},
-            'fields': _compact_context(root, fields), 'privateEvidencePointersExcludedFromReader': excluded,
+            'fields': compact, 'privateEvidencePointersExcludedFromReader': excluded,
+            **({'sourceEvidenceOnlyFields': evidence_only} if evidence_only else {}),
             'sourceContextDisposition': 'Recorded source qualifications and research history, separate from current reader prose; no new review or authentication claim.'}
 
 
@@ -767,6 +801,9 @@ def reference_plan(root, row, record):
 
 def verify_preservation(unit, record):
     """A correct reader hash alone cannot excuse omitted source fields."""
+    if (unit.get('provenance', {}).get('sourceEvidenceOnlyFields', [])
+            != record['displayPlan'].get('sourceEvidenceOnlyFields', [])):
+        raise ValueError('Seerah raw-source evidence disposition changed or disappeared')
     actual = unit.get('provenance', {}).get('sourceDisplayFields', [])
     expected = record['displayPlan']['fields']
     if len(actual) != len(expected):
@@ -846,6 +883,8 @@ def normalize(root, catalog, row, record, evidence):
                 'sourceStatus': record['existingPublication']['sourceStatus'],
                 'reviewQualification': record['qualification'], 'sourceEdition': EDITION,
                 'questionReviewEvidence': deepcopy(record['questionReviewEvidence']),
+                **({'sourceEvidenceOnlyFields': deepcopy(record['displayPlan']['sourceEvidenceOnlyFields'])}
+                   if record['displayPlan'].get('sourceEvidenceOnlyFields') else {}),
                 'sourceContextDisposition': record['displayPlan']['sourceContextDisposition'],
                 'sourceApprovalCreated': False, 'humanCertification': False}}
     verify_preservation(unit, record)

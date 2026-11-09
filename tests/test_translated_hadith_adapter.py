@@ -245,15 +245,43 @@ class TranslatedHadithTests(unittest.TestCase):
 
     def test_all_language_inventory_distinguishes_legacy_and_missing_sources(self):
         report = inventory(ROOT)
-        self.assertEqual(report['languageCount'], 20)
-        self.assertEqual(report['scopeCount'], 80)
-        self.assertEqual(report['automaticPreparationScopes'], 42)
+        known_languages = {'ar', 'bn', 'de', 'en', 'es', 'fa', 'fil', 'fr', 'hi', 'id',
+                           'ja', 'ms', 'pt-BR', 'ru', 'th', 'tr', 'ur', 'uz', 'vi', 'zh-CN'}
+        self.assertTrue(known_languages.issubset(report['languages']))
+        self.assertEqual(report['languageCount'], len(report['languages']))
+        added_chapters = {'de': 9, 'es': 10, 'fa': 10, 'fil': 2, 'hi': 10,
+                          'ja': 2, 'ru': 10, 'th': 2, 'uz': 2, 'vi': 2, 'zh-CN': 9}
+        added = [row for row in self.declarations if row.get('edition') == 'current-lecture-sequence']
+        declarations = {(row['language'], row['collection']): row for row in self.declarations}
+        original_scopes = {(language, collection) for language in known_languages
+                           for collection in ('hadith', 'tadabbur-extended')} | {
+                               ('ar', 'articles'), ('ar', 'seerah')}
+        self.assertEqual(len(original_scopes), 42)
+        self.assertTrue(original_scopes.issubset(declarations))
+        self.assertTrue({(language, 'seerah') for language in added_chapters}.issubset(
+            {(row['language'], row['collection']) for row in added}))
+        self.assertTrue(all(row['adapter'] == 'current-reviewed-seerah-v1'
+                            and row['automaticBuild'] is True for row in added))
         scopes = {(row['language'], row['collection']): row for row in report['scopes']}
-        self.assertEqual(scopes[('ja', 'hadith')]['eligibleUnits'], 3)
-        self.assertEqual(scopes[('ja', 'seerah')]['eligibleUnits'], 0)
-        self.assertEqual(scopes[('ja', 'seerah')]['legacyEditionUnits'], 2)
-        self.assertEqual(scopes[('fr', 'articles')]['eligibleUnits'], 0)
-        self.assertEqual(scopes[('fr', 'articles')]['historicalUnits'], 1)
+        self.assertEqual(report['scopeCount'], len(scopes))
+        eligible = {}
+        for identity, declaration in declarations.items():
+            if declaration.get('state') == 'reviewed-current' and declaration.get('automaticBuild') is True:
+                selected, _ = select(ROOT, self.catalog, declaration)
+                if selected:
+                    eligible[identity] = {str(row['id']) for row in selected}
+        self.assertEqual(report['automaticPreparationScopes'], len(eligible))
+        self.assertGreaterEqual(len(eligible), 53)
+        self.assertTrue(original_scopes.issubset(eligible))
+        for language, chapters in added_chapters.items():
+            identity = (language, 'seerah')
+            self.assertEqual({str(value) for value in scopes[identity]['includedIds']}, eligible[identity])
+            self.assertEqual(scopes[identity]['eligibleUnits'], len(eligible[identity]))
+            self.assertTrue({str(n) for n in range(1, chapters + 1)}.issubset(eligible[identity]))
+        self.assertTrue({'essential-01-002', 'essential-01-003', 'essential-01-004'}.issubset(
+            eligible[('ja', 'hadith')]))
+        self.assertEqual(scopes[('fr', 'articles')]['eligibleUnits'], len(eligible.get(('fr', 'articles'), ())))
+        self.assertGreaterEqual(scopes[('fr', 'articles')]['historicalUnits'], 1)
         self.assertFalse(report['sourceApprovalCreated'])
 
     def test_unbound_fatiha_does_not_block_verified_ikhlas_in_three_languages(self):

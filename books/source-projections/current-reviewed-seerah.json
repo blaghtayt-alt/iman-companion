@@ -10843,23 +10843,6 @@
               "review",
               "quoteProvenance",
               1,
-              "originalPageText"
-            ],
-            "purpose": "source-qualification",
-            "kind": "paragraph",
-            "role": "note",
-            "section": "source-context",
-            "displayMode": "labelled-source-field",
-            "label": "Original Page Text",
-            "privateLocatorRanges": [],
-            "textSHA256": "4c9243a698968486d32bf6b63d76d67516050382f5104dfda5be4449bea08036"
-          },
-          {
-            "sourcePath": "materials/seerah/de/chapter-04.json",
-            "pointer": [
-              "review",
-              "quoteProvenance",
-              1,
               "publisherFootnote366"
             ],
             "purpose": "source-qualification",
@@ -11946,6 +11929,77 @@
             10,
             "integratedParagraphSHA256"
           ]
+        ],
+        "sourceEvidenceOnlyFields": [
+          {
+            "sourcePath": "materials/seerah/de/chapter-04.json",
+            "pointer": [
+              "review",
+              "quoteProvenance",
+              1,
+              "originalPageText"
+            ],
+            "originalTextSHA256": "e441f6419c70789e48464bbb1aa0ae96a78709abf5b28df96d4725f291ab6135",
+            "disposition": "raw-whole-page-extraction-retained-as-source-evidence",
+            "retainedDisplayPointers": [
+              [
+                "content",
+                "blocks",
+                2,
+                "text"
+              ],
+              [
+                "review",
+                "quoteProvenance",
+                1,
+                "reference"
+              ],
+              [
+                "review",
+                "quoteProvenance",
+                1,
+                "publisherFootnote366"
+              ],
+              [
+                "review",
+                "quoteProvenance",
+                1,
+                "publishedPage"
+              ],
+              [
+                "review",
+                "quoteProvenance",
+                1,
+                "edition"
+              ],
+              [
+                "review",
+                "quoteProvenance",
+                1,
+                "sourceURL"
+              ],
+              [
+                "review",
+                "quoteProvenance",
+                1,
+                "permissionPage"
+              ],
+              [
+                "review",
+                "quoteProvenance",
+                1,
+                "permissionStatement"
+              ],
+              [
+                "review",
+                "quoteProvenance",
+                1,
+                "normalization"
+              ]
+            ],
+            "readerTextRewritten": false,
+            "sourceTextRewritten": false
+          }
         ],
         "sourceContextDisposition": "Recorded source qualifications and research history, separate from current reader prose; no new review or authentication claim."
       },

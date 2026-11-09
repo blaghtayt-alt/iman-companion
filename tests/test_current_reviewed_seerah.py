@@ -6,6 +6,7 @@ root. Negative cases change that fixture only; no source approval is created.
 from contextlib import contextmanager
 from copy import deepcopy
 import hashlib
+from io import BytesIO
 import json
 from pathlib import Path
 import shutil
@@ -17,6 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'books'))
 
 import current_reviewed_seerah as current
+from docx import Document
 from build_books import check_unit
 from source_literal_text import normalize_lines
 
@@ -302,6 +304,80 @@ class CurrentReviewedSeerah(unittest.TestCase):
                 current.verify_preservation(unit, self.records[identity])
                 for kind in ('Paragraphs', 'References', 'Qualifications'):
                     self.assertEqual(unit['sourceReferencePreservation']['lost' + kind], 0)
+
+    def test_entire_corpus_serializes_to_docx_without_losing_emitted_text(self):
+        document = Document()
+        expected = []
+        for unit in self.units.values():
+            texts = [unit['title']]
+            for section in unit['sections']:
+                if section.get('heading'):
+                    texts.append(section['heading'])
+                texts.extend(block['text'] for block in section['blocks'])
+            for text in texts:
+                document.add_paragraph(text)
+            expected.extend(texts)
+        stream = BytesIO()
+        document.save(stream)
+        stream.seek(0)
+        reopened = Document(stream)
+        self.assertEqual([paragraph.text for paragraph in reopened.paragraphs], expected)
+
+    def test_german_raw_page_remains_bound_evidence_with_the_complete_selected_reading(self):
+        identity = ('de', '4')
+        record = self.records[identity]
+        unit = self.units[identity]
+        source = self.payload(identity)
+        path = record['catalogEntry']['json']
+        self.assertEqual(sha((self.root / path).read_bytes()),
+                         'b78a4c380f66ebea3a981c6a20693e94c60b6fdc91049b3667c544fda05137e6')
+        quote = source['review']['quoteProvenance'][1]
+        raw = quote['originalPageText']
+        self.assertEqual([index for index, char in enumerate(raw) if char == '\b'],
+                         [553, 704, 774, 915, 984, 1058, 1112, 1181, 1255, 1327, 1393])
+        descriptors = record['displayPlan']['sourceEvidenceOnlyFields']
+        self.assertEqual(len(descriptors), 1)
+        evidence = descriptors[0]
+        self.assertEqual(evidence['sourcePath'], path)
+        self.assertEqual(evidence['pointer'], ['review', 'quoteProvenance', 1, 'originalPageText'])
+        self.assertEqual(evidence['originalTextSHA256'], sha(raw.encode('utf8')))
+        self.assertEqual(evidence['originalTextSHA256'],
+                         'e441f6419c70789e48464bbb1aa0ae96a78709abf5b28df96d4725f291ab6135')
+        self.assertEqual(evidence['disposition'], 'raw-whole-page-extraction-retained-as-source-evidence')
+        self.assertFalse(evidence['readerTextRewritten'])
+        self.assertFalse(evidence['sourceTextRewritten'])
+        required = ['reference', 'publisherFootnote366', 'publishedPage', 'edition', 'sourceURL',
+                    'permissionPage', 'permissionStatement', 'normalization']
+        self.assertEqual(evidence['retainedDisplayPointers'],
+                         [['content', 'blocks', 2, 'text']] +
+                         [['review', 'quoteProvenance', 1, name] for name in required])
+        self.assertEqual(unit['provenance']['sourceEvidenceOnlyFields'], descriptors)
+        blocks = output_blocks(unit)
+        self.assertNotIn(evidence['pointer'], [block['sourceLiteralProof']['pointer'] for block in blocks])
+        printed = '\n'.join(block['text'] for block in blocks)
+        self.assertNotIn('\b', printed)
+        self.assertNotIn(raw, printed)
+        self.assertIn(quote['displayedText'], printed)
+        self.assertIn(quote['integratedParagraph'], [block['text'] for block in blocks])
+        for name in required:
+            self.assertIn(str(quote[name]), printed, name)
+
+    def test_raw_source_evidence_disposition_cannot_disappear_or_be_forged(self):
+        original = self.records['de', '4']
+        for remove in (True, False):
+            record = deepcopy(original)
+            unit = deepcopy(self.units['de', '4'])
+            if remove:
+                del record['displayPlan']['sourceEvidenceOnlyFields']
+                del unit['provenance']['sourceEvidenceOnlyFields']
+            else:
+                record['displayPlan']['sourceEvidenceOnlyFields'][0]['originalTextSHA256'] = '0' * 64
+                unit['provenance']['sourceEvidenceOnlyFields'][0]['originalTextSHA256'] = '0' * 64
+            with self.subTest(remove=remove):
+                with self.assertRaises(ValueError):
+                    current.validate_record(self.root, record, record['catalogEntry'], self.catalog)
+                with self.assertRaisesRegex(ValueError, 'evidence disposition'):
+                    current.verify_preservation(unit, original)
 
     def test_exact_original_reference_witnesses_keep_their_proper_scope(self):
         def reference(language, chapter, position):

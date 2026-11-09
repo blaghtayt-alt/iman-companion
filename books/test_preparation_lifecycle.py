@@ -424,11 +424,10 @@ class PreparationTests(unittest.TestCase):
         # fetch the retained release, without using or overwriting partial bytes.
         from download_page import source_file,REPO
         from published_library import release_url
-        from io import BytesIO
         book=ready[('fil','articles')]
         for extension,raw,field in [('docx',b'fixture-word','download'),('pdf',b'fixture-pdf','pdfDownload')]:
             book[field]=release_url(REPO,old['releaseTag'],Path(name).with_suffix('.'+extension).name)
-            with patch('download_page.urlopen',return_value=BytesIO(raw)) as fetch:
+            with patch('download_page.download_archive',side_effect=lambda url,destination:destination.write_bytes(raw)) as fetch:
                 public=source_file(self.root,out,book,extension)
             fetch.assert_called_once();self.assertEqual(public.read_bytes(),raw)
             self.assertTrue(public.is_relative_to(self.root/'books/.cache/download-pairs'))

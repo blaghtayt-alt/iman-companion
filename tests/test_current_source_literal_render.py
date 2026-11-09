@@ -18,6 +18,7 @@ from build_books import Footnotes, check_unit, embed_fonts, checked_source_links
 from check_outputs import validate_footnotes, validate_source_hyperlinks, validate_pdf_source_hyperlinks
 from source_literal_text import check_bound_text, check_text, proof_list, exact_literal
 from reader_xml import body_text
+from restore_source_hyperlinks import restore as restore_source_hyperlinks
 
 
 class CurrentLiteralRendering(unittest.TestCase):
@@ -133,43 +134,6 @@ class CurrentLiteralRendering(unittest.TestCase):
         with self.assertRaises(ValueError):
             checked_source_links(unit, {'sourceOnlyContext': True}, block, ROOT)
 
-    def test_docx_root_slash_keeps_exact_source_label_destination_and_count(self):
-        _, block = self.source_link()
-        doc = Document(); paragraph = doc.add_paragraph()
-        add_source_link_text(paragraph, block['text'], block['hyperlinks'], 'uz',
-                             'Iman Book Inter', 'Iman Book Noto Naskh Arabic')
-        expected = [{'text': block['text'][link['start']:link['end']], 'url': link['url'],
-                     'sourceLiteralProof': link['sourceLiteralProof']} for link in block['hyperlinks']]
-        with tempfile.TemporaryDirectory() as temporary:
-            path = Path(temporary) / 'source-credit.docx'; doc.save(path)
-            with zipfile.ZipFile(path) as archive:
-                body = etree.fromstring(archive.read('word/document.xml'))
-                relationships = etree.fromstring(archive.read('word/_rels/document.xml.rels'))
-        home = next(item for item in relationships if item.get('Target') == 'https://muslim.uz')
-        # Exact transformation observed in production run 42572834270 after UNO.
-        home.set('Target', 'https://muslim.uz/')
-        validate_source_hyperlinks(body, relationships, expected, 'uz', ROOT)
-        for changed in ('http://muslim.uz/', 'https://other.example/', 'https://MUSLIM.uz/',
-                        'https://muslim.uz/other', 'https://muslim.uz/%2F',
-                        'https://muslim.uz/?source=1', 'https://muslim.uz/#credit'):
-            with self.subTest(changed=changed):
-                home.set('Target', changed)
-                with self.assertRaisesRegex(ValueError, 'changed or disappeared'):
-                    validate_source_hyperlinks(body, relationships, expected, 'uz', ROOT)
-        home.set('Target', 'https://muslim.uz/')
-        with self.assertRaisesRegex(ValueError, 'changed or disappeared'):
-            validate_source_hyperlinks(body, relationships, expected + [expected[0]], 'uz', ROOT)
-        altered = deepcopy(body)
-        W = 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
-        label = next(node for node in altered.iter('{' + W + '}t')
-                     if node.text == expected[0]['text'])
-        label.text += '!'
-        with self.assertRaisesRegex(ValueError, 'changed or disappeared'):
-            validate_source_hyperlinks(altered, relationships, expected, 'uz', ROOT)
-        relationships.remove(home)
-        with self.assertRaisesRegex(ValueError, 'changed or disappeared'):
-            validate_source_hyperlinks(body, relationships, expected, 'uz', ROOT)
-
     def test_pdf_root_slash_is_equivalent_but_destination_changes_are_not(self):
         expected = [{'url': 'https://muslim.uz'}, {'url': 'https://muslim.uz/article?source=1#credit'}]
         validate_pdf_source_hyperlinks(['https://muslim.uz/', expected[1]['url']], expected)
@@ -178,6 +142,119 @@ class CurrentLiteralRendering(unittest.TestCase):
             with self.subTest(changed=changed):
                 with self.assertRaises(ValueError):
                     validate_pdf_source_hyperlinks([changed, expected[1]['url']], expected)
+
+    def source_link_fixture(self, path):
+        unit, block = self.source_link()
+        checked_source_links(unit, {'sourceOnlyContext': True}, block, ROOT)
+        doc = Document(); paragraph = doc.add_paragraph()
+        add_source_link_text(paragraph, block['text'], block['hyperlinks'], 'uz',
+                             'Iman Book Inter', 'Iman Book Noto Naskh Arabic')
+        doc.save(path)
+        expected = [{'text': block['text'][link['start']:link['end']], 'url': link['url'],
+                     'sourceLiteralProof': link['sourceLiteralProof']} for link in block['hyperlinks']]
+        with zipfile.ZipFile(path) as archive:
+            parts = {name: archive.read(name) for name in archive.namelist()}
+        return expected, parts
+
+    def write_link_fixture(self, path, parts):
+        with zipfile.ZipFile(path, 'w', zipfile.ZIP_DEFLATED) as archive:
+            for name, raw in parts.items():
+                archive.writestr(name, raw)
+
+    def test_restoration_reinstates_exact_source_url_and_preserves_every_other_part(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / 'source-credit.docx'
+            expected, parts = self.source_link_fixture(path)
+            key = 'word/_rels/document.xml.rels'
+            relationships = etree.fromstring(parts[key])
+            target = next(item for item in relationships if item.get('Target') == expected[0]['url'])
+            target.set('Target', expected[0]['url'] + '/')
+            parts[key] = etree.tostring(relationships)
+            self.write_link_fixture(path, parts)
+            with self.assertRaisesRegex(ValueError, 'changed or disappeared'):
+                validate_source_hyperlinks(etree.fromstring(parts['word/document.xml']), relationships, expected, 'uz', ROOT)
+            self.assertEqual(restore_source_hyperlinks(path, expected, 'uz', ROOT), 1)
+            with zipfile.ZipFile(path) as archive:
+                self.assertEqual(set(archive.namelist()), set(parts))
+                for name, raw in parts.items():
+                    if name != key:
+                        self.assertEqual(archive.read(name), raw, name)
+                repaired = etree.fromstring(archive.read(key))
+                validate_source_hyperlinks(etree.fromstring(archive.read('word/document.xml')), repaired, expected, 'uz', ROOT)
+                target.set('Target', expected[0]['url'])
+                self.assertEqual(etree.tostring(repaired, method='c14n'), etree.tostring(relationships, method='c14n'))
+            once = path.read_bytes()
+            self.assertEqual(restore_source_hyperlinks(path, expected, 'uz', ROOT), 0)
+            self.assertEqual(path.read_bytes(), once)
+
+    def test_restoration_rejects_changed_destination_label_count_or_shared_use(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / 'source-credit.docx'
+            expected, original = self.source_link_fixture(path)
+            bad_urls = ('http://muslim.uz/', 'https://other.example/', 'https://muslim.uz/other',
+                        'https://muslim.uz/?source=1', 'https://muslim.uz/#credit',
+                        'https://MUSLIM.uz/', 'https://muslim.uz/%2F')
+            W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
+            R = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}'
+            for variant in (*bad_urls, 'label', 'count', 'shared', 'shared-drawing', 'article-query'):
+                with self.subTest(variant=variant):
+                    parts = dict(original)
+                    body = etree.fromstring(parts['word/document.xml'])
+                    relationships = etree.fromstring(parts['word/_rels/document.xml.rels'])
+                    target = next(item for item in relationships if item.get('Target') == expected[0]['url'])
+                    target.set('Target', expected[0]['url'] + '/' if variant in {'label', 'count', 'shared', 'shared-drawing', 'article-query'} else variant)
+                    node = next(node for node in body.iter(W + 'hyperlink') if node.get(R + 'id') == target.get('Id'))
+                    if variant == 'label':
+                        next(node.iter(W + 't')).text += ' changed'
+                    elif variant in {'count', 'shared'}:
+                        duplicate = deepcopy(node)
+                        if variant == 'shared':
+                            next(duplicate.iter(W + 't')).text = 'different link label'
+                        node.getparent().append(duplicate)
+                    elif variant == 'shared-drawing':
+                        drawing_link = etree.SubElement(node.getparent(), '{http://schemas.openxmlformats.org/drawingml/2006/main}hlinkClick')
+                        drawing_link.set(R + 'id', target.get('Id'))
+                    elif variant == 'article-query':
+                        article = next(item for item in relationships if item.get('Target') == expected[1]['url'])
+                        article.set('Target', expected[1]['url'] + '&changed=1')
+                    parts['word/document.xml'] = etree.tostring(body)
+                    parts['word/_rels/document.xml.rels'] = etree.tostring(relationships)
+                    self.write_link_fixture(path, parts)
+                    before = path.read_bytes()
+                    with self.assertRaises(ValueError):
+                        restore_source_hyperlinks(path, expected, 'uz', ROOT)
+                    self.assertEqual(path.read_bytes(), before)
+
+    def test_restoration_handles_a_shared_relationship_only_when_all_uses_are_expected(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / 'source-credit.docx'
+            expected, parts = self.source_link_fixture(path)
+            W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
+            R = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}'
+            body = etree.fromstring(parts['word/document.xml'])
+            relationships = etree.fromstring(parts['word/_rels/document.xml.rels'])
+            target = next(item for item in relationships if item.get('Target') == expected[0]['url'])
+            target.set('Target', expected[0]['url'] + '/')
+            node = next(node for node in body.iter(W + 'hyperlink') if node.get(R + 'id') == target.get('Id'))
+            node.getparent().append(deepcopy(node))
+            expected.append(deepcopy(expected[0]))
+            parts['word/document.xml'] = etree.tostring(body)
+            parts['word/_rels/document.xml.rels'] = etree.tostring(relationships)
+            self.write_link_fixture(path, parts)
+            self.assertEqual(restore_source_hyperlinks(path, expected, 'uz', ROOT), 1)
+            with zipfile.ZipFile(path) as archive:
+                self.assertEqual(archive.read('word/document.xml'), parts['word/document.xml'])
+                validate_source_hyperlinks(body, etree.fromstring(archive.read('word/_rels/document.xml.rels')), expected, 'uz', ROOT)
+
+    def test_restoration_requires_existing_exact_source_proof(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / 'source-credit.docx'
+            expected, parts = self.source_link_fixture(path)
+            expected[0]['sourceLiteralProof']['textSHA256'] = '0' * 64
+            before = path.read_bytes()
+            with self.assertRaises(ValueError):
+                restore_source_hyperlinks(path, expected, 'uz', ROOT)
+            self.assertEqual(path.read_bytes(), before)
 
 
 if __name__ == '__main__':

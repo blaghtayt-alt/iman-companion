@@ -132,6 +132,16 @@ are part of the inventory. The new source format uses the existing scoped
 publication mechanism; an unbound source, changed review record, retired catalog
 row or different edition must not silently reuse these bindings.
 
+German chapter 4 also contains a raw whole-page PDF research extraction at
+`review.quoteProvenance[1].originalPageText`. It includes eleven nonprinting
+backspace controls and unrelated neighboring reports. That exact extraction
+remains hash-bound source evidence with an explicit evidence-only disposition.
+The book includes the separately supplied selected Bukhari 2262 reading, complete
+publisher footnote 366, page 214, edition, source URL, permission and original
+normalization qualification. Source bytes are not stripped or rewritten to make
+the research extraction printable. A corpus regression serializes every emitted
+title, heading and block into DOCX, saves it and reopens it to verify exact text.
+
 All eleven declarations require actual Microsoft Word layout verification and
 final visual acceptance. This integration creates neither translation approval
 nor human certification, and it does not mark a prepared file as a released

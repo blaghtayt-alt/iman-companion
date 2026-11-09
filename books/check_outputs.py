@@ -83,17 +83,6 @@ def validate_footnotes(notes,body,expected,lang,*,preserved_identifiers=(),sourc
     # The generator deliberately inserts one space after the footnote marker.
     if any(actual[note_id]!=' '+text for note_id,text in zip(refs,expected)):raise ValueError('Footnote text changed or reordered during Word refresh')
 
-def source_link_destination(url):
-    from urllib.parse import urlsplit
-    if not isinstance(url,str):return url
-    parsed=urlsplit(url)
-    # Word/PDF exporters may add the equivalent root slash. Do not normalize
-    # scheme/host spelling, query, fragment, encoding or a nonempty path.
-    if parsed.scheme in {'http','https'} and parsed.netloc and not parsed.path:
-        position=len(parsed.scheme)+3+len(parsed.netloc)
-        return url[:position]+'/'+url[position:]
-    return url
-
 def validate_source_hyperlinks(body, relationships, expected, language, root):
     if not expected:return
     W='http://schemas.openxmlformats.org/wordprocessingml/2006/main'
@@ -102,16 +91,25 @@ def validate_source_hyperlinks(body, relationships, expected, language, root):
     required=Counter()
     for link in expected:
         check_text(root,link['url'],language,proof_list(link.get('sourceLiteralProof')),exact=True)
-        required[(link['text'],source_link_destination(link['url']))]+=1
+        required[(link['text'],link['url'])]+=1
     targets={item.get('Id'):item.get('Target') for item in relationships
              if item.get('Type')==R+'/hyperlink' and item.get('TargetMode')=='External'}
-    actual=Counter((''.join(node.itertext('{'+W+'}t')),source_link_destination(targets.get(node.get('{'+R+'}id'))))
+    actual=Counter((''.join(node.itertext('{'+W+'}t')),targets.get(node.get('{'+R+'}id')))
                    for node in body.iter('{'+W+'}hyperlink'))
     if required-actual:raise ValueError('Required original source credit links changed or disappeared')
 
 def validate_pdf_source_hyperlinks(actual, expected):
-    required=Counter(source_link_destination(link['url']) for link in expected)
-    if required-Counter(source_link_destination(url) for url in actual):raise ValueError('Required original source credit links are missing from PDF')
+    from urllib.parse import urlsplit
+    def root_path(url):
+        parsed=urlsplit(url)
+        # PDF exporters may add the equivalent root slash. Do not normalize
+        # scheme/host spelling, query, fragment, encoding or a nonempty path.
+        if parsed.scheme in {'http','https'} and parsed.netloc and not parsed.path:
+            position=len(parsed.scheme)+3+len(parsed.netloc)
+            return url[:position]+'/'+url[position:]
+        return url
+    required=Counter(root_path(link['url']) for link in expected)
+    if required-Counter(root_path(url) for url in actual):raise ValueError('Required original source credit links are missing from PDF')
 
 def validate_toc(body,language,minimum_entries):
     W='http://schemas.openxmlformats.org/wordprocessingml/2006/main'
