@@ -144,8 +144,20 @@ lesson numbers, translator footnotes, credits and human-verification
 qualifications. A non-native publisher name or reference locator is allowed
 only through an exact source JSON pointer, source/inventory hashes and text
 offsets; ordinary native-language furniture validation remains strict. The
-heterogeneous 01-001 wrappers keep their existing pending status and are not
-inferred to be finished from a generic catalogue tag.
+first-lesson adapter separately binds eleven eligible 01-001 readers to their
+exact current review records, preserves their full commentary and required
+source companions, and retains the French reader's incomplete-final-review
+status. A separate adapter restores the current Filipino 01-005 reader with its
+original lesson number. Missing first-lesson readers remain explicit gaps.
+
+The current Quran adapters restore 124 eligible units: 112 entries-map scopes,
+eleven complete Fatiha packets and the complete Japanese Qiyamah packet. Their
+inventories bind current Arabic revisions, exact source text, citations and
+qualifications. Selected-ayah material stays explicitly partial. These adapters
+bring the current selection to 625 units; [current-reviewed-imports.md](current-reviewed-imports.md)
+records the 136 additions, affected 31 editions and exact exclusions. Previously
+published pairs retain their original membership until expanded files pass the
+normal Word and final visual checks.
 
 Historical standalone article translations and legacy Seerah editions do not
 join the current editions. The exact approved normalized reader transaction

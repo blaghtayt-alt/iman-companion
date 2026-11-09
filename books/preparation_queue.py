@@ -9,9 +9,21 @@ from pathlib import Path
 from datetime import datetime,timedelta,timezone
 from urllib.request import Request,urlopen
 from published_library import read,sha,inside,scope_key,declaration,catalog_members,catalog_fingerprint,scope_settings,capture
+from script_fallbacks import extra_font_keys
 
 SCHEMA='iman-book-preparation-queue-v1'
 PATH='books/prepared-library.json'
+
+def supplemental_font_settings(root,language):
+    """Bind pending renders to supplemental fonts without changing old releases."""
+    fonts=read(root/'books/config.json').get('fonts',{})
+    if not isinstance(fonts,dict):raise ValueError('Invalid preparation font settings')
+    needed={name for name in ('SymbolsLTR','SymbolsRTL') if name in fonts}
+    for name in extra_font_keys(language):
+        if not isinstance(fonts.get(name),dict) or not fonts[name]:
+            raise ValueError('Missing required preparation fallback font: '+name)
+        needed.add(name)
+    return {name:fonts[name] for name in sorted(needed)}
 
 def artifact_available(artifact):
     """A source signature alone does not prove that queued files still exist."""
@@ -40,7 +52,8 @@ def signature(root,key):
     # metadata or another language's new material does not change this key.
     code={p.name:sha(p.read_bytes()) for p in sorted((root/'books').glob('*.py')) if not p.name.startswith('test_')}
     payload={'declaration':declared,'catalog':catalog_fingerprint(rows,report),'inputs':inputs,
-      'settings':scope_settings(root,key,[str(r['id']) for r in rows]),'code':code}
+      'settings':scope_settings(root,key,[str(r['id']) for r in rows]),
+      'supplementalFonts':supplemental_font_settings(root,key[0]),'code':code}
     return sha(json.dumps(payload,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode('utf8'))
 
 def load(root):

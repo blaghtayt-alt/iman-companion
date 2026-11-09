@@ -7,10 +7,13 @@ introduced and no new prose receives an exception.
 """
 import hashlib
 import json
+import re
+from functools import lru_cache
 from bibliography import native_text
 from reviewed_hadith_sources import SCHEMA as REVIEW_SCHEMA, source_pointer, validate_record
 
 SCHEMA = 'iman-source-literal-text-v1'
+_VALIDATED_CURRENT = {}
 
 
 def sha(raw):
@@ -21,11 +24,166 @@ def normalize_lines(text):
     return text.replace('\r\n', '\n').replace('\r', '\n')
 
 
+def _stamp(path):
+    stat = path.stat()
+    return (stat.st_dev, stat.st_ino, stat.st_mode, stat.st_size,
+            stat.st_mtime_ns, stat.st_ctime_ns)
+
+
+@lru_cache(maxsize=256)
+def _snapshot(path, stamp):
+    """Cache immutable bytes, invalidating on replacement or in-place edits."""
+    raw = path.read_bytes()
+    if _stamp(path) != stamp:
+        raise ValueError('Source changed during literal validation: ' + str(path))
+    return raw, sha(raw)
+
+
+@lru_cache(maxsize=256)
+def _parsed(path, stamp):
+    return json.loads(_snapshot(path, stamp)[0])
+
+
+def _read(root, relative, expected=None, *, parsed=False):
+    from book_edition_scope import inside
+    path = inside(root, relative)
+    stamp = _stamp(path)
+    raw, digest = _snapshot(path, stamp)
+    if expected is not None and (not re.fullmatch('[a-f0-9]{64}', expected)
+                                 or digest != expected):
+        raise ValueError('Changed edition review/source input: ' + relative)
+    return (_parsed(path, stamp) if parsed else raw), digest
+
+
+def _pinned_json(root, binding):
+    return _read(root, binding.get('path', ''), binding.get('sha256', ''), parsed=True)[0]
+
+
+def _validate_current(root, module, record, row, catalog, catalog_digest):
+    # All bound bytes are rechecked before a cached validation can be reused.
+    # Parent directory stamps also invalidate newly added/removed companion
+    # files; translation-status is an input to the first-Hadith qualification.
+    from book_edition_scope import inside, canonical
+    dependencies = []
+    directories = set()
+    for binding in record.get('sourceFiles', []) + record.get('sourceConditions', []):
+        _, digest = _read(root, binding.get('path', ''), binding.get('sha256', ''))
+        dependencies.append((binding['path'], digest))
+        directories.add(inside(root, binding['path']).parent)
+    status = root / 'materials/translation-status.json'
+    if status.is_file():
+        dependencies.append(('materials/translation-status.json',
+                             _read(root, 'materials/translation-status.json')[1]))
+    cache_key = (str(root.resolve()), module.__name__, sha(canonical(record)),
+                 catalog_digest, tuple(dependencies),
+                 tuple((str(path), _stamp(path)) for path in sorted(directories)))
+    if cache_key not in _VALIDATED_CURRENT:
+        module.validate_record(root, record, row, catalog)
+        if len(_VALIDATED_CURRENT) >= 512:
+            _VALIDATED_CURRENT.clear()
+        _VALIDATED_CURRENT[cache_key] = True
+
+
 def proof_for(record, inventory_binding, source_binding, start, end, text):
     return {'schema': SCHEMA, 'language': record['language'], 'materialId': record['id'],
             'source': dict(source_binding), 'inventory': dict(inventory_binding),
             'pointer': list(record['readingPointer']), 'start': start, 'end': end,
             'textSHA256': sha(text.encode('utf8'))}
+
+
+def proof_list(value):
+    """Normalize optional single/multiple exact-source proofs for a note."""
+    if value is None:
+        return []
+    if isinstance(value, dict):
+        return [value]
+    if not isinstance(value, (list, tuple)) or any(not isinstance(item, dict) for item in value):
+        raise ValueError('Invalid exact source proof list')
+    return list(value)
+
+
+def check_bound_text(root, text, unit, proofs, *, exact=False):
+    proofs = proof_list(proofs)
+    for proof in proofs:
+        if (proof.get('materialId') != unit.get('id')
+                or proof.get('source') not in unit.get('inputBindings', [])
+                or proof.get('inventory') not in unit.get('inputBindings', [])):
+            raise ValueError('Source literal is not bound to this complete reader unit')
+    return check_text(root, text, unit['language'], proofs, exact=exact)
+
+
+def check_link_associations(root, unit, block):
+    """A valid source URL may only be attached to its original source label."""
+    paragraph = block['sourceLiteralProof']
+    check_bound_text(root, block['text'], unit, paragraph, exact=True)
+    inventory = _pinned_json(root, paragraph['inventory'])
+    from current_source_registry import format_for
+    spec = format_for(inventory.get('schema'))
+    if spec is None or not hasattr(spec[0], 'literal_links'):
+        raise ValueError('Source inventory does not authorize credit link associations')
+    records = [record for record in inventory.get('records', [])
+               if (record.get('collection'), record.get('language'), record.get('id'))
+               == (spec[1], unit['language'], unit['id'])]
+    if len(records) != 1:
+        raise ValueError('Source link association lacks a unique current reader')
+    def identity(proof):
+        return {name: proof.get(name) for name in ('source', 'pointer', 'textSHA256')}
+    actual = {'paragraph': identity(paragraph), 'links': [
+        {**{name: link.get(name) for name in ('start', 'end', 'url')},
+         **identity(link.get('sourceLiteralProof', {}))}
+        for link in block['hyperlinks']]}
+    if actual not in spec[0].literal_links(records[0]):
+        raise ValueError('Source credit link label or destination association changed')
+
+
+def _current_literal(root, proof, inventory, spec):
+    """Validate new formats without broadening legacy proof authority."""
+    from book_edition_scope import POLICY, available, pinned
+    module, catalogue_collection, book_collection = spec
+    declarations = _read(root, 'books/reviewed-books.json', parsed=True)[0]
+    scopes = [row for row in declarations.get('books', [])
+              if (row.get('language'), row.get('collection'))
+              == (proof.get('language'), book_collection)]
+    if (declarations.get('schema') != 'iman-reviewed-books-v1' or len(scopes) != 1
+            or scopes[0].get('state') != 'reviewed-current'
+            or scopes[0].get('automaticBuild') is not True
+            or scopes[0].get('scopePolicy') != POLICY
+            or proof.get('inventory') not in scopes[0].get('sourceReviewBindings', [])):
+        raise ValueError('Source literal lacks an active current reviewed source inventory binding')
+    matches = [record for record in inventory.get('records', [])
+               if (record.get('collection'), record.get('language'), str(record.get('id')))
+               == (catalogue_collection, proof.get('language'), str(proof.get('materialId')))]
+    if len(matches) != 1:
+        raise ValueError('Literal text has no unique current reviewed source record')
+    record = matches[0]
+    catalog, catalog_digest = _read(root, 'materials/catalog.json', parsed=True)
+    rows = [row for row in catalog.get('entries', [])
+            if (row.get('collection'), row.get('language'), str(row.get('id')))
+            == (catalogue_collection, proof.get('language'), str(proof.get('materialId')))]
+    if len(rows) != 1 or not available(rows[0]):
+        raise ValueError('Literal text has no unique available current source record')
+    _validate_current(root, module, record, rows[0], catalog, catalog_digest)
+    allowed = module.literal_sources(record)
+    if {'source': proof.get('source'), 'pointer': proof.get('pointer')} not in allowed:
+        raise ValueError('Literal exception is not on an exact reviewed reading field')
+    if hasattr(module, 'literal_value'):
+        value = module.literal_value(root, record, proof)
+    else:
+        value = source_pointer(_pinned_json(root, proof['source']), proof['pointer'])
+    return _slice_literal(value, proof)
+
+
+def _slice_literal(value, proof):
+    if not isinstance(value, str):
+        raise ValueError('Literal source field is not text')
+    value = normalize_lines(value)
+    start, end = proof.get('start'), proof.get('end')
+    if type(start) is not int or type(end) is not int or not 0 <= start < end <= len(value):
+        raise ValueError('Invalid source-literal bounds')
+    text = value[start:end]
+    if sha(text.encode('utf8')) != proof.get('textSHA256'):
+        raise ValueError('Source-literal text changed')
+    return text
 
 
 def exact_literal(root, proof):
@@ -34,6 +192,11 @@ def exact_literal(root, proof):
         raise ValueError('Source-literal validation requires the exact repository inputs')
     if proof.get('schema') != SCHEMA:
         raise ValueError('Unsupported source-literal proof')
+    inventory = _pinned_json(root, proof.get('inventory', {}))
+    from current_source_registry import format_for
+    spec = format_for(inventory.get('schema'))
+    if spec is not None:
+        return _current_literal(root, proof, inventory, spec)
     declarations = json.loads((root / 'books/reviewed-books.json').read_bytes())
     scopes = [row for row in declarations.get('books', [])
               if (row.get('language'), row.get('collection')) == (proof.get('language'), 'hadith')]
@@ -44,7 +207,6 @@ def exact_literal(root, proof):
             or scopes[0].get('scopePolicy') != POLICY
             or proof.get('inventory') not in scopes[0].get('sourceReviewBindings', [])):
         raise ValueError('Source literal lacks an active translated-Hadith review inventory binding')
-    inventory = json.loads(pinned(root, proof.get('inventory', {})))
     if inventory.get('schema') != REVIEW_SCHEMA:
         raise ValueError('Literal text has no bound reviewed translation inventory')
     matches = [row for row in inventory.get('records', [])
@@ -64,16 +226,7 @@ def exact_literal(root, proof):
     if proof.get('pointer') != record.get('readingPointer'):
         raise ValueError('Literal exception is not on the exact reviewed reading field')
     value = source_pointer(json.loads(pinned(root, proof['source'])), proof['pointer'])
-    if not isinstance(value, str):
-        raise ValueError('Literal source field is not text')
-    value = normalize_lines(value)
-    start, end = proof.get('start'), proof.get('end')
-    if type(start) is not int or type(end) is not int or not 0 <= start < end <= len(value):
-        raise ValueError('Invalid source-literal bounds')
-    text = value[start:end]
-    if sha(text.encode('utf8')) != proof.get('textSHA256'):
-        raise ValueError('Source-literal text changed')
-    return text
+    return _slice_literal(value, proof)
 
 
 def check_text(root, text, language, proofs=(), *, exact=False):

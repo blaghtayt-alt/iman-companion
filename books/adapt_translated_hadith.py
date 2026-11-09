@@ -218,11 +218,15 @@ def generate(root, catalog, declaration, *, excluded_catalog_keys=()):
     selected, _ = select(root, catalog, declaration)
     excluded = set(excluded_catalog_keys)
     by_id = {record['id']: (record, evidence) for record, evidence in records(root, declaration)}
+    from current_source_registry import supplemental_records
+    other_formats = {identity for identity, _, _, _ in supplemental_records(root, declaration)}
     result = []
     for row in sorted(selected, key=lambda item: (item.get('chapter', 0), item.get('lesson', 0))):
         if key(row) in excluded:
             continue
         if row['id'] not in by_id:
+            if key(row) in other_formats:
+                continue  # The indexer runs the exact registered format adapter.
             raise ValueError('Selected translated material needs its approved normalized reader transaction')
         record, evidence = by_id[row['id']]
         result.append(normalize(root, catalog, row, record, evidence))

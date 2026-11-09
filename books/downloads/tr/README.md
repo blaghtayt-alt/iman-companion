@@ -7,8 +7,8 @@ Türkçe
 
 | Kitap | Düzenlenebilir kitap | Okuma nüshası | İçerilen metinler |
 | --- | --- | --- | --- |
-| Kur’an Üzerine Tefekkür · İhlâs Suresi — Tefekkür | [Düzenlenebilir kitabı indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.docx) | [Okuma nüshasını indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.pdf) | 1 |
-| Hadis · Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi (+2) | [Düzenlenebilir kitabı indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.docx) | [Okuma nüshasını indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.pdf) | 3 |
+| Kur’an Üzerine Tefekkür · İhlâs Suresi — Tefekkür | [Düzenlenebilir kitabı indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.docx) | [Okuma nüshasını indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.pdf) | 1 · İçerilenler: Sure 112 |
+| Hadis · Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi (+2) | [Düzenlenebilir kitabı indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.docx) | [Okuma nüshasını indir](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.pdf) | 3 · İçerilenler: Hadis 2–4 |
 | Siyer | Hazırlanıyor | Hazırlanıyor | — |
 | Makaleler | Hazırlanıyor | Hazırlanıyor | — |
 
@@ -16,11 +16,30 @@ Türkçe
 
 - İhlâs Suresi — Tefekkür
 
+## Doğrulanmış baskı. Yeni içerikler yayın kontrollerini bekliyor; yalnızca listelenen içerikler dahildir.
+
+
 ## Hadis · Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi (+2)
 
 - Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi
 - Kalpler Rahmân’ın tasarrufu altındadır
 - Dinde sebat etmek ve haktan sapan kalbin hâllerini tanımak
+
+### Kur’an Üzerine Tefekkür · İhlâs Suresi — Tefekkür
+
+İçerilenler: Sure 112
+
+Kısmi baskı
+
+- Güncellenmiş kitap bekleniyor: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103
+
+### Hadis · Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi (+2)
+
+İçerilenler: Hadis 2–4
+
+Kısmi baskı
+
+- Güncel kaynak bu dilde mevcut değil: Hadis 1
 
 ## Birlikte indir
 

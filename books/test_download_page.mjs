@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {LANGUAGES,canonicalLanguage,resolveLanguage,downloadURL,viewModel} from '../docs/books/books.mjs';
+import {LANGUAGES,canonicalLanguage,resolveLanguage,downloadURL,viewModel,contentCoverage} from '../docs/books/books.mjs';
 import {COPY} from '../docs/books/copy.mjs';
 assert.equal(LANGUAGES.length,20);assert.deepEqual(Object.keys(COPY).sort(),[...LANGUAGES].sort());
 for(const lang of LANGUAGES){
@@ -21,8 +21,19 @@ for(const lang of LANGUAGES){
   }
   const partial=structuredClone(multiple);partial.languages[lang].bundle.parts=3;assert.throws(()=>viewModel(partial,lang));
   const duplicate=structuredClone(multiple);duplicate.languages[lang].books[3]=duplicate.languages[lang].books[2];assert.throws(()=>viewModel(duplicate,lang));
+  const covered=structuredClone(catalog),coveredBook=covered.languages[lang].books[0];
+  coveredBook.contents=[{id:'112:extended',title:COPY[lang].library,numberLabel:'112'}];
+  coveredBook.coverage={schema:'iman-book-content-coverage-v1',language:lang,collection:'tadabbur-extended',
+    sourceIds:['1:extended','112:extended'],catalogIds:['1:extended','112:extended'],selectedIds:['112:extended'],includedIds:['112:extended'],
+    missingCurrent:[{id:'1:extended',reason:'source-not-bound'}],absentEarlierLessons:[],
+    presentation:{includedLabel:'112',statusLabel:COPY[lang].library,notes:['1'],unitLabels:{'112:extended':'112'}}};
+  assert.equal(viewModel(covered,lang).books[0].coverage.presentation.includedLabel,'112');
+  const falseIncluded=structuredClone(coveredBook);falseIncluded.coverage.includedIds=['1:extended'];assert.throws(()=>contentCoverage(falseIncluded));
+  const wrongNumbers=structuredClone(coveredBook);wrongNumbers.contents[0].numberLabel='1';assert.throws(()=>contentCoverage(wrongNumbers));
+  const alreadyIncluded=structuredClone(coveredBook);alreadyIncluded.coverage.missingCurrent[0].id='112:extended';assert.throws(()=>contentCoverage(alreadyIncluded));
+  const absentInstalled=structuredClone(coveredBook);absentInstalled.coverage.absentEarlierLessons=[{id:'1:extended',reason:'current-source-not-installed'}];assert.throws(()=>contentCoverage(absentInstalled));
   assert.ok(Object.values(COPY[lang]).every(x=>typeof x==='string'&&x.length));
   if(['ar','ur','fa','bn','hi','ru','zh-CN','th','ja'].includes(lang))assert.ok(Object.values(COPY[lang]).every(x=>!/[A-Za-z]/.test(x)),lang+' copy leaked English');
 }
 assert.equal(canonicalLanguage('pt_BR'),'pt-BR');assert.equal(canonicalLanguage('zh-Hans'),'zh-CN');assert.equal(canonicalLanguage('tl'),'fil');assert.equal(canonicalLanguage('ar-SA'),'ar');assert.equal(resolveLanguage('?lang=ja',['ar']),'ja');
-console.log('20 native download routes, four-category inventories, book identities, combined choices and empty-language behavior passed.');
+console.log('20 native download routes, four-category inventories, book identities, exact numbered coverage, combined choices and empty-language behavior passed.');

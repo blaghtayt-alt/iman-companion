@@ -21,6 +21,22 @@ export function downloadURL(value,language,extension,collection=null){
     return valid.includes(filename)?url.href:null;
   }catch{return null;}
 }
+export function contentCoverage(book){
+  const coverage=book.coverage;if(coverage==null)return null;
+  if(coverage.schema!=='iman-book-content-coverage-v1'||coverage.language!==book.language||coverage.collection!==book.collection)throw Error('Incorrect coverage identity');
+  const ids=value=>Array.isArray(value)&&value.every(id=>typeof id==='string'&&id.length>0)&&new Set(value).size===value.length;
+  if(!ids(coverage.includedIds)||!ids(coverage.sourceIds)||!ids(coverage.catalogIds)||!ids(coverage.selectedIds))throw Error('Invalid coverage inventory');
+  if(!Array.isArray(book.contents)||coverage.includedIds.length!==book.units||JSON.stringify(coverage.includedIds)!==JSON.stringify(book.contents.map(unit=>String(unit.id))))throw Error('Coverage differs from the actual download');
+  if(!Array.isArray(coverage.missingCurrent)||!Array.isArray(coverage.absentEarlierLessons))throw Error('Missing coverage reconciliation');
+  const reasons=['source-not-catalogued','source-not-bound','awaiting-book-release','review-incomplete'];
+  if(coverage.missingCurrent.some(row=>!reasons.includes(row.reason)||typeof row.id!=='string'||coverage.includedIds.includes(row.id)))throw Error('Invalid missing-content state');
+  if(coverage.absentEarlierLessons.some(row=>row.reason!=='current-source-not-installed'||typeof row.id!=='string'||coverage.sourceIds.includes(row.id)||coverage.includedIds.includes(row.id)))throw Error('Absent source is already included or installed');
+  const copy=coverage.presentation;
+  if(!copy||typeof copy.includedLabel!=='string'||!copy.includedLabel||typeof copy.statusLabel!=='string'||!Array.isArray(copy.notes)||copy.notes.some(note=>typeof note!=='string'||!note))throw Error('Missing native coverage labels');
+  if(!copy.unitLabels||Array.isArray(copy.unitLabels)||Object.entries(copy.unitLabels).some(([id,label])=>!coverage.includedIds.includes(id)||typeof label!=='string'||!label))throw Error('Invalid numbered contents');
+  for(const unit of book.contents){if(unit.numberLabel!==undefined&&unit.numberLabel!==copy.unitLabels[String(unit.id)])throw Error('Contents number differs from coverage');}
+  return coverage;
+}
 export function viewModel(catalog,language){
   if(catalog?.schema!=='iman-book-downloads-v1'||!LANGUAGES.includes(language))throw Error('Invalid catalogue');
   const locale=catalog.languages?.[language];if(!locale||locale.language!==language||!Array.isArray(locale.books))throw Error('Missing locale');
@@ -28,7 +44,7 @@ export function viewModel(catalog,language){
     if(book.language!==language||!COLLECTIONS.includes(book.collection)||seen.has(book.collection))throw Error('Incorrect book identity');
     seen.add(book.collection);const docx=downloadURL(book.docx,language,'docx',book.collection),pdf=downloadURL(book.pdf,language,'pdf',book.collection);
     if(!docx||!pdf||!book.title||!Number.isInteger(book.units)||book.units<1)throw Error('Invalid book download');
-    return {...book,docx,pdf};
+    return {...book,docx,pdf,coverage:contentCoverage(book)};
   });
   let bundle=null;if(locale.bundle){
     const source=locale.bundle;const zip=downloadURL(source.zip,language,'zip'),docx=downloadURL(source.docx,language,'docx'),pdf=downloadURL(source.pdf,language,'pdf');
@@ -63,9 +79,12 @@ export async function mount(){
       const wrap=document.createElement('div');wrap.className='cover-wrap';const image=document.createElement('img');image.className='cover';image.src=localAsset(book.cover);image.alt=book.title;image.width=432;image.height=648;image.loading=current.books.indexOf(book)===0?'eager':'lazy';wrap.append(image);card.append(wrap);
       const heading=document.createElement('h2');heading.textContent=book.title;card.append(heading);
       if(book.statusLabel){const status=document.createElement('p');status.className='notice';status.textContent=book.statusLabel;card.append(status);}
-      if(book.contents?.length){const contents=document.createElement('details');contents.className='contents';const summary=document.createElement('summary');summary.textContent=current.included;const list=document.createElement('ul');for(const unit of book.contents){const item=document.createElement('li');item.textContent=unit.title;list.append(item);}contents.append(summary,list);card.append(contents);}
-      const meta=document.createElement('p');meta.className='metadata';const count=document.createElement('span');count.textContent=`${current.included}: ${number(book.units,current)}`;meta.append(count);
+      const coverage=book.coverage?.presentation;
+      if(coverage?.statusLabel){const status=document.createElement('p');status.className='notice';status.textContent=coverage.statusLabel;card.append(status);}
+      if(book.contents?.length){const contents=document.createElement('details');contents.className='contents';const summary=document.createElement('summary');summary.textContent=current.included;const list=document.createElement('ul');for(const unit of book.contents){const item=document.createElement('li');item.textContent=unit.numberLabel?`${unit.numberLabel} · ${unit.title}`:unit.title;list.append(item);}contents.append(summary,list);card.append(contents);}
+      const meta=document.createElement('p');meta.className='metadata';const count=document.createElement('span');count.textContent=coverage?.includedLabel||`${current.included}: ${number(book.units,current)}`;meta.append(count);
       if(book.pages){const pages=document.createElement('span');pages.textContent=`${copy.pages}: ${number(book.pages,current)}`;meta.append(pages);}card.append(meta);
+      if(coverage?.notes.length){const notes=document.createElement('ul');notes.className='contents';for(const text of coverage.notes){const note=document.createElement('li');note.textContent=text;notes.append(note);}card.append(notes);}
       if(book.audio){const note=document.createElement('p');note.className='audio-note';note.textContent=copy.audio;card.append(note);}
       const links=document.createElement('div');links.className='downloads';
       for(const[type,kind]of[['pdf','primary'],['docx','secondary']]){const link=document.createElement('a');link.className=kind;link.href=book[type];link.setAttribute('download','');link.textContent=current.downloads[type];links.append(link);}card.append(links);document.getElementById('books').append(card);

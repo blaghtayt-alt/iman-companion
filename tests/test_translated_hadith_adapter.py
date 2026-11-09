@@ -256,9 +256,13 @@ class TranslatedHadithTests(unittest.TestCase):
         self.assertEqual(scopes[('fr', 'articles')]['historicalUnits'], 1)
         self.assertFalse(report['sourceApprovalCreated'])
 
-    def test_unreviewed_fatiha_does_not_block_verified_ikhlas_in_three_languages(self):
+    def test_unbound_fatiha_does_not_block_verified_ikhlas_in_three_languages(self):
         for language in ('ru', 'vi', 'fil'):
-            declaration = next(row for row in self.declarations if row['language'] == language and row['collection'] == 'tadabbur-extended')
+            declaration = deepcopy(next(row for row in self.declarations if row['language'] == language and row['collection'] == 'tadabbur-extended'))
+            # Existing source files alone remain insufficient: remove the new
+            # explicit current-source binding to exercise the legacy boundary.
+            declaration['sourceReviewBindings'] = [binding for binding in declaration['sourceReviewBindings']
+                if binding['path'] != 'books/source-projections/current-reviewed-quran.json']
             selected, report = select(ROOT, self.catalog, declaration)
             self.assertEqual([row['id'] for row in selected], ['112:extended'])
             self.assertTrue({'1:extended', 'fatiha-extended'}.intersection(row['id'] for row in report['unknownLegacyRows']))
