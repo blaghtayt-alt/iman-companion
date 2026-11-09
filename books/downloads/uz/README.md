@@ -7,51 +7,39 @@ O‘zbekcha
 
 | Kitob | Tahrirlanadigan kitob (Word) | O‘qish nusxasi (PDF) | Kiritilgan materiallar |
 | --- | --- | --- | --- |
-| Qurʼon Tadabburi · Ixlos surasi — ma’nolari ustida tafakkur | [Tahrirlanadigan kitobni yuklab olish (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_uz_tadabbur-extended.docx) | [O‘qish nusxasini yuklab olish (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_uz_tadabbur-extended.pdf) | 1 · Kiritilgan: Sura 112 |
-| Hadis · Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири (+2) | [Tahrirlanadigan kitobni yuklab olish (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_uz_hadith.docx) | [O‘qish nusxasini yuklab olish (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_uz_hadith.pdf) | 3 · Kiritilgan: Hadis 2–4 |
+| Qurʼon Tadabburi | [Tahrirlanadigan kitobni yuklab olish (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_tadabbur-extended.docx) | [O‘qish nusxasini yuklab olish (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_tadabbur-extended.pdf) | 2 · Kiritilgan: Sura 1, 112 |
+| Hadis · Аллоҳнинг адолати ва беҳожатлиги, бандаларининг Унга муҳтожлиги (+3) | [Tahrirlanadigan kitobni yuklab olish (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_hadith.docx) | [O‘qish nusxasini yuklab olish (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_hadith.pdf) | 4 · Kiritilgan: Hadis 1–4 |
 | Siyrat | Tayyorlanmoqda | Tayyorlanmoqda | — |
 | Maqolalar | Tayyorlanmoqda | Tayyorlanmoqda | — |
 
-## Qurʼon Tadabburi · Ixlos surasi — ma’nolari ustida tafakkur
+## Qurʼon Tadabburi
 
+- Фотиҳа: батафсил мулоҳазалар
 - Ixlos surasi — ma’nolari ustida tafakkur
 
-## Tekshirilgan nashr. Yangi materiallar nashr tekshiruvini kutmoqda; faqat ro‘yxatdagi mazmun kiritilgan.
+## Hadis · Аллоҳнинг адолати ва беҳожатлиги, бандаларининг Унга муҳтожлиги (+3)
 
-
-## Hadis · Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири (+2)
-
+- Аллоҳнинг адолати ва беҳожатлиги, бандаларининг Унга муҳтожлиги
 - Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири
 - Қалблар Раҳмон тасарруфида
 - Dinda sobit turish va og‘gan qalb sifatlarini bilish
 
-## Tekshirilgan nashr. Yangi materiallar nashr tekshiruvini kutmoqda; faqat ro‘yxatdagi mazmun kiritilgan.
+### Qurʼon Tadabburi
 
+Kiritilgan: Sura 1, 112
 
-### Qurʼon Tadabburi · Ixlos surasi — ma’nolari ustida tafakkur
+### Hadis · Аллоҳнинг адолати ва беҳожатлиги, бандаларининг Унга муҳтожлиги (+3)
 
-Kiritilgan: Sura 112
-
-Qisman nashr
-
-- Yangilangan kitob kutilmoqda: Sura 1
-
-### Hadis · Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири (+2)
-
-Kiritilgan: Hadis 2–4
-
-Qisman nashr
-
-- Yangilangan kitob kutilmoqda: Hadis 1
+Kiritilgan: Hadis 1–4
 
 ## Birgalikda yuklab olish
 
 Bitta jamlangan kitob
 
-[Tahrirlanadigan kitobni yuklab olish (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_uz_all-books.docx)
+[Tahrirlanadigan kitobni yuklab olish (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_uz_all-books.docx)
 
-[O‘qish nusxasini yuklab olish (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_uz_all-books.pdf)
+[O‘qish nusxasini yuklab olish (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_uz_all-books.pdf)
 
-[Alohida kitoblar ZIP arxivi](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_uz_all-books.zip)
+[Alohida kitoblar ZIP arxivi](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_uz_all-books.zip)
 
 Sun’iy intellekt yordamida tarjima qilingan, tekshirish talab etiladi. Model yordamidagi tekshiruvlar malakali o‘quvchi ko‘rigini almashtirmaydi.

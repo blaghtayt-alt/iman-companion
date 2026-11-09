@@ -7,17 +7,15 @@ Tiếng Việt
 
 | Sách | Sách có thể chỉnh sửa (Word) | Bản để đọc (PDF) | Nội dung được đưa vào |
 | --- | --- | --- | --- |
-| Suy ngẫm về Kinh Qur’an | [Tải sách có thể chỉnh sửa (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-vi112-42354197246-1/Iman_Companion_vi_tadabbur-extended.docx) | [Tải bản để đọc (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-vi112-42354197246-1/Iman_Companion_vi_tadabbur-extended.pdf) | 1 · Nội dung có trong sách: Chương 112 |
+| Suy ngẫm về Kinh Qur’an | [Tải sách có thể chỉnh sửa (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_vi_tadabbur-extended.docx) | [Tải bản để đọc (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_vi_tadabbur-extended.pdf) | 2 · Nội dung có trong sách: Chương 1, 112 |
 | Hadith (Thánh huấn) · Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động (+1) | [Tải sách có thể chỉnh sửa (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_vi_hadith.docx) | [Tải bản để đọc (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_vi_hadith.pdf) | 2 · Nội dung có trong sách: Hadith 2–3 |
 | Tiểu sử Thiên Sứ | Đang chuẩn bị | Đang chuẩn bị | — |
 | Bài viết | Đang chuẩn bị | Đang chuẩn bị | — |
 
 ## Suy ngẫm về Kinh Qur’an
 
+- Suy ngẫm Al-Fatihah — Bài chi tiết
 - Suy ngẫm chương Al-Ikhlas
-
-## Ấn bản đã được kiểm tra. Tài liệu mới đang chờ kiểm tra trước khi phát hành; chỉ có những nội dung đã liệt kê.
-
 
 ## Hadith (Thánh huấn) · Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động (+1)
 
@@ -26,11 +24,7 @@ Tiếng Việt
 
 ### Suy ngẫm về Kinh Qur’an
 
-Nội dung có trong sách: Chương 112
-
-Ấn bản một phần
-
-- Đang chờ sách cập nhật: Chương 1
+Nội dung có trong sách: Chương 1, 112
 
 ### Hadith (Thánh huấn) · Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động (+1)
 
@@ -44,10 +38,10 @@ Nội dung có trong sách: Hadith 2–3
 
 Một ấn bản gộp
 
-[Tải sách có thể chỉnh sửa (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_vi_all-books.docx)
+[Tải sách có thể chỉnh sửa (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_vi_all-books.docx)
 
-[Tải bản để đọc (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_vi_all-books.pdf)
+[Tải bản để đọc (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_vi_all-books.pdf)
 
-[ZIP các sách riêng](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_vi_all-books.zip)
+[ZIP các sách riêng](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_vi_all-books.zip)
 
 Bản dịch có sự hỗ trợ của trí tuệ nhân tạo, cần được kiểm chứng. Việc kiểm tra bằng mô hình không thay thế cho sự rà soát của người đọc có đủ kiến thức.

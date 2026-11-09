@@ -7,17 +7,28 @@ Türkçe
 
 | Kitap | Düzenlenebilir kitap (Word) | Okuma nüshası (PDF) | İçerilen metinler |
 | --- | --- | --- | --- |
-| Kur’an Üzerine Tefekkür · İhlâs Suresi — Tefekkür | [Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.docx) | [Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.pdf) | 1 · İçerilenler: Sure 112 |
+| Kur’an Üzerine Tefekkür | [Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_tr_tadabbur-extended.docx) | [Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_tr_tadabbur-extended.pdf) | 15 · İçerilenler: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadis · Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi (+2) | [Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.docx) | [Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.pdf) | 3 · İçerilenler: Hadis 2–4 |
 | Siyer | Hazırlanıyor | Hazırlanıyor | — |
 | Makaleler | Hazırlanıyor | Hazırlanıyor | — |
 
-## Kur’an Üzerine Tefekkür · İhlâs Suresi — Tefekkür
+## Kur’an Üzerine Tefekkür
 
+- Sure Al-Fatihah
+- Sure Al-Hijr · Mevcut ayetler
+- Sure Al-Isra · Mevcut ayetler
+- Sure Ghafir · Mevcut ayetler
+- Sure Ar-Rahman · Mevcut ayetler
+- Sure As-Saff
+- Sure Al-Jumuah
+- Sure Al-Munafiqun
+- Sure Al-Qalam · Mevcut ayetler
+- Sure Ad-Duha
+- Sure Al-Bayyinah
+- Sure Az-Zalzalah
+- Sure Al-Qariah
+- Sure Al-Asr
 - İhlâs Suresi — Tefekkür
-
-## Doğrulanmış baskı. Yeni içerikler yayın kontrollerini bekliyor; yalnızca listelenen içerikler dahildir.
-
 
 ## Hadis · Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi (+2)
 
@@ -25,13 +36,9 @@ Türkçe
 - Kalpler Rahmân’ın tasarrufu altındadır
 - Dinde sebat etmek ve haktan sapan kalbin hâllerini tanımak
 
-### Kur’an Üzerine Tefekkür · İhlâs Suresi — Tefekkür
+### Kur’an Üzerine Tefekkür
 
-İçerilenler: Sure 112
-
-Kısmi baskı
-
-- Güncellenmiş kitap bekleniyor: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103
+İçerilenler: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
 
 ### Hadis · Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi (+2)
 
@@ -45,10 +52,10 @@ Kısmi baskı
 
 Tek birleştirilmiş kitap
 
-[Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_tr_all-books.docx)
+[Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_tr_all-books.docx)
 
-[Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_tr_all-books.pdf)
+[Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_tr_all-books.pdf)
 
-[Ayrı kitapların ZIP dosyası](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_tr_all-books.zip)
+[Ayrı kitapların ZIP dosyası](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_tr_all-books.zip)
 
 Yapay zekâ yardımıyla çevrilmiştir; doğrulanması gerekir. Model destekli kontroller, yetkin bir okuyucunun incelemesinin yerini tutmaz.

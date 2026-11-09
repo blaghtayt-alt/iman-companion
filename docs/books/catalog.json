@@ -6062,14 +6062,14 @@
         {
           "language": "ur",
           "collection": "tadabbur-extended",
-          "title": "تدبرِ قرآن · سورۂ اخلاص — تدبر",
-          "cover": "assets/covers/dab4b2387ad2d67da482bb3e55cce134ac3a120d5ca4b01aa54a6a7965064074.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.pdf",
-          "sha256": "cfd90ebbe3ce3e29263dbff5759bfce7485c5628a674249de37baaecd8a86f55",
-          "pdfSha256": "dab4b2387ad2d67da482bb3e55cce134ac3a120d5ca4b01aa54a6a7965064074",
-          "units": 1,
-          "pages": 41,
+          "title": "تدبرِ قرآن",
+          "cover": "assets/covers/855edcd53153ff71666e8ae6083584c67949f1d0f79e8bf7c434c1cbcaecb1ba.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_tadabbur-extended.pdf",
+          "sha256": "476574ebe59015728ff498fef3037aae197b37df66dc854717d817933e204df1",
+          "pdfSha256": "855edcd53153ff71666e8ae6083584c67949f1d0f79e8bf7c434c1cbcaecb1ba",
+          "units": 15,
+          "pages": 330,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -6127,139 +6127,40 @@
               "112:extended"
             ],
             "includedIds": [
+              "1:extended",
+              "15:extended",
+              "17:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended",
+              "101:extended",
+              "103:extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "1:extended": 1,
+              "15:extended": 15,
+              "17:extended": 17,
+              "40:extended": 40,
+              "55:extended": 55,
+              "61:extended": 61,
+              "62:extended": 62,
+              "63:extended": 63,
+              "68:extended": 68,
+              "93:extended": 93,
+              "98:extended": 98,
+              "99:extended": 99,
+              "101:extended": 101,
+              "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "1:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/001.json",
-                  "markdown": "materials/tadabbur/ur/extended/001.md"
-                },
-                "number": 1
-              },
-              {
-                "id": "15:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/015.json",
-                  "markdown": "materials/tadabbur/ur/extended/015.md"
-                },
-                "number": 15
-              },
-              {
-                "id": "17:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/017.json",
-                  "markdown": "materials/tadabbur/ur/extended/017.md"
-                },
-                "number": 17
-              },
-              {
-                "id": "40:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/040.json",
-                  "markdown": "materials/tadabbur/ur/extended/040.md"
-                },
-                "number": 40
-              },
-              {
-                "id": "55:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/055.json",
-                  "markdown": "materials/tadabbur/ur/extended/055.md"
-                },
-                "number": 55
-              },
-              {
-                "id": "61:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/061.json",
-                  "markdown": "materials/tadabbur/ur/extended/061.md"
-                },
-                "number": 61
-              },
-              {
-                "id": "62:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/062.json",
-                  "markdown": "materials/tadabbur/ur/extended/062.md"
-                },
-                "number": 62
-              },
-              {
-                "id": "63:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/063.json",
-                  "markdown": "materials/tadabbur/ur/extended/063.md"
-                },
-                "number": 63
-              },
-              {
-                "id": "68:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/068.json",
-                  "markdown": "materials/tadabbur/ur/extended/068.md"
-                },
-                "number": 68
-              },
-              {
-                "id": "93:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/093.json",
-                  "markdown": "materials/tadabbur/ur/extended/093.md"
-                },
-                "number": 93
-              },
-              {
-                "id": "98:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/098.json",
-                  "markdown": "materials/tadabbur/ur/extended/098.md"
-                },
-                "number": 98
-              },
-              {
-                "id": "99:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/099.json",
-                  "markdown": "materials/tadabbur/ur/extended/099.md"
-                },
-                "number": 99
-              },
-              {
-                "id": "101:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/101.json",
-                  "markdown": "materials/tadabbur/ur/extended/101.md"
-                },
-                "number": 101
-              },
-              {
-                "id": "103:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ur/extended/103.json",
-                  "markdown": "materials/tadabbur/ur/extended/103.md"
-                },
-                "number": 103
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -6267,46 +6168,119 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "شامل مواد: سورۃ ۱۱۲",
-              "statusLabel": "جزوی نسخہ",
-              "notes": [
-                "کتاب کے تازہ نسخے کا انتظار ہے: سورۃ ۱, ۱۵, ۱۷, ۴۰, ۵۵, ۶۱–۶۳, ۶۸, ۹۳, ۹۸–۹۹, ۱۰۱, ۱۰۳"
-              ],
+              "includedLabel": "شامل مواد: سورۃ ۱, ۱۵, ۱۷, ۴۰, ۵۵, ۶۱–۶۳, ۶۸, ۹۳, ۹۸–۹۹, ۱۰۱, ۱۰۳, ۱۱۲",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "1:extended": "سورۃ ۱",
+                "15:extended": "سورۃ ۱۵",
+                "17:extended": "سورۃ ۱۷",
+                "40:extended": "سورۃ ۴۰",
+                "55:extended": "سورۃ ۵۵",
+                "61:extended": "سورۃ ۶۱",
+                "62:extended": "سورۃ ۶۲",
+                "63:extended": "سورۃ ۶۳",
+                "68:extended": "سورۃ ۶۸",
+                "93:extended": "سورۃ ۹۳",
+                "98:extended": "سورۃ ۹۸",
+                "99:extended": "سورۃ ۹۹",
+                "101:extended": "سورۃ ۱۰۱",
+                "103:extended": "سورۃ ۱۰۳",
                 "112:extended": "سورۃ ۱۱۲"
               }
             }
           },
           "contents": [
             {
+              "id": "1:extended",
+              "title": "سورۃ الفاتحة",
+              "numberLabel": "سورۃ ۱"
+            },
+            {
+              "id": "15:extended",
+              "title": "سورۃ الحجر · دستیاب آیات",
+              "numberLabel": "سورۃ ۱۵"
+            },
+            {
+              "id": "17:extended",
+              "title": "سورۃ الإسراء · دستیاب آیات",
+              "numberLabel": "سورۃ ۱۷"
+            },
+            {
+              "id": "40:extended",
+              "title": "سورۃ غافر · دستیاب آیات",
+              "numberLabel": "سورۃ ۴۰"
+            },
+            {
+              "id": "55:extended",
+              "title": "سورۃ الرحمن · دستیاب آیات",
+              "numberLabel": "سورۃ ۵۵"
+            },
+            {
+              "id": "61:extended",
+              "title": "سورۃ الصف",
+              "numberLabel": "سورۃ ۶۱"
+            },
+            {
+              "id": "62:extended",
+              "title": "سورۃ الجمعة",
+              "numberLabel": "سورۃ ۶۲"
+            },
+            {
+              "id": "63:extended",
+              "title": "سورۃ المنافقون",
+              "numberLabel": "سورۃ ۶۳"
+            },
+            {
+              "id": "68:extended",
+              "title": "سورۃ القلم · دستیاب آیات",
+              "numberLabel": "سورۃ ۶۸"
+            },
+            {
+              "id": "93:extended",
+              "title": "سورۃ الضحى",
+              "numberLabel": "سورۃ ۹۳"
+            },
+            {
+              "id": "98:extended",
+              "title": "سورۃ البينة",
+              "numberLabel": "سورۃ ۹۸"
+            },
+            {
+              "id": "99:extended",
+              "title": "سورۃ الزلزلة",
+              "numberLabel": "سورۃ ۹۹"
+            },
+            {
+              "id": "101:extended",
+              "title": "سورۃ القارعة",
+              "numberLabel": "سورۃ ۱۰۱"
+            },
+            {
+              "id": "103:extended",
+              "title": "سورۃ العصر",
+              "numberLabel": "سورۃ ۱۰۳"
+            },
+            {
               "id": "112:extended",
               "title": "سورۂ اخلاص — تدبر",
               "numberLabel": "سورۃ ۱۱۲"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "تصدیق شدہ نسخہ۔ نیا مواد اشاعت کی جانچ کا منتظر ہے؛ اس نسخے میں صرف درج شدہ مواد شامل ہے۔"
+          ]
         },
         {
           "language": "ur",
           "collection": "hadith",
-          "title": "حدیث · اللہ کی عظمت اور دل و عمل پر اس کے اثرات (+1)",
-          "cover": "assets/covers/28b69404cca9f93766ea8a29f8226e8555156a738a6c9864480774f781b84d59.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_ur_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_ur_hadith.pdf",
-          "sha256": "0c84d6fad7c40d2a77a266d2a41f9e2acfe93c27a15a8a18473c2ff57285eb9f",
-          "pdfSha256": "28b69404cca9f93766ea8a29f8226e8555156a738a6c9864480774f781b84d59",
-          "units": 2,
-          "pages": 21,
+          "title": "حدیث · اللہ کا عدل، اس کی بے نیازی اور بندوں کا اس کے محتاج ہونا (+2)",
+          "cover": "assets/covers/9b17261855f0a612b34c6b68222dd36a67ea58e191867f5fe3350236aa23083e.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_hadith.pdf",
+          "sha256": "53193d09f82ddbfba4380a573600c5977a2c2a8e6b4b43c9ad7f77044d13eed7",
+          "pdfSha256": "9b17261855f0a612b34c6b68222dd36a67ea58e191867f5fe3350236aa23083e",
+          "units": 3,
+          "pages": 57,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -6328,10 +6302,15 @@
               "essential-01-003"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -6341,20 +6320,7 @@
                 3
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-ur/001.json",
-                  "markdown": "materials/hadith/essential-ur/001.md"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -6362,20 +6328,24 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "شامل مواد: حدیث ۲–۳",
-              "statusLabel": "جزوی نسخہ",
-              "notes": [
-                "کتاب کے تازہ نسخے کا انتظار ہے: حدیث ۱"
-              ],
+              "includedLabel": "شامل مواد: حدیث ۱–۳",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "حدیث ۱",
                 "essential-01-002": "حدیث ۲",
                 "essential-01-003": "حدیث ۳"
               }
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "اللہ کا عدل، اس کی بے نیازی اور بندوں کا اس کے محتاج ہونا",
+              "numberLabel": "حدیث ۱"
+            },
             {
               "id": "essential-01-002",
               "title": "اللہ کی عظمت اور دل و عمل پر اس کے اثرات",
@@ -6386,23 +6356,13 @@
               "title": "دل رحمن کے تصرف کے تحت ہیں",
               "numberLabel": "حدیث ۳"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "تصدیق شدہ نسخہ۔ نیا مواد اشاعت کی جانچ کا منتظر ہے؛ اس نسخے میں صرف درج شدہ مواد شامل ہے۔"
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_ur_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_ur_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_ur_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ur_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ur_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ur_all-books.pdf",
         "parts": 2
       }
     },
@@ -6425,14 +6385,14 @@
         {
           "language": "id",
           "collection": "tadabbur-extended",
-          "title": "Tadabur Al-Qur’an · Surah Al-Ikhlas — Tadabur",
-          "cover": "assets/covers/820fb2d63b8a8d2b9db77f3a217606e484ee5053c7df8116ccf58181222683b7.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_id_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_id_tadabbur-extended.pdf",
-          "sha256": "568a4e1abe82dfc5b0ece5a193929af5a4c7f33afb98f2afccffa1b81acfda44",
-          "pdfSha256": "820fb2d63b8a8d2b9db77f3a217606e484ee5053c7df8116ccf58181222683b7",
-          "units": 1,
-          "pages": 25,
+          "title": "Tadabur Al-Qur’an",
+          "cover": "assets/covers/1763f633f80e6e6e261e49ba6e7987c22e2d61c53988d59a6e262ccd80680147.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_id_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_id_tadabbur-extended.pdf",
+          "sha256": "a5b0d40e10186daa3d6f26af6d8314a26da157ba62f17186c2cfa85b5712a0e5",
+          "pdfSha256": "1763f633f80e6e6e261e49ba6e7987c22e2d61c53988d59a6e262ccd80680147",
+          "units": 15,
+          "pages": 220,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -6490,139 +6450,40 @@
               "112:extended"
             ],
             "includedIds": [
+              "1:extended",
+              "15:extended",
+              "17:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended",
+              "101:extended",
+              "103:extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "1:extended": 1,
+              "15:extended": 15,
+              "17:extended": 17,
+              "40:extended": 40,
+              "55:extended": 55,
+              "61:extended": 61,
+              "62:extended": 62,
+              "63:extended": 63,
+              "68:extended": 68,
+              "93:extended": 93,
+              "98:extended": 98,
+              "99:extended": 99,
+              "101:extended": 101,
+              "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "1:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/001.json",
-                  "markdown": "materials/tadabbur/id/extended/001.md"
-                },
-                "number": 1
-              },
-              {
-                "id": "15:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/015.json",
-                  "markdown": "materials/tadabbur/id/extended/015.md"
-                },
-                "number": 15
-              },
-              {
-                "id": "17:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/017.json",
-                  "markdown": "materials/tadabbur/id/extended/017.md"
-                },
-                "number": 17
-              },
-              {
-                "id": "40:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/040.json",
-                  "markdown": "materials/tadabbur/id/extended/040.md"
-                },
-                "number": 40
-              },
-              {
-                "id": "55:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/055.json",
-                  "markdown": "materials/tadabbur/id/extended/055.md"
-                },
-                "number": 55
-              },
-              {
-                "id": "61:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/061.json",
-                  "markdown": "materials/tadabbur/id/extended/061.md"
-                },
-                "number": 61
-              },
-              {
-                "id": "62:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/062.json",
-                  "markdown": "materials/tadabbur/id/extended/062.md"
-                },
-                "number": 62
-              },
-              {
-                "id": "63:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/063.json",
-                  "markdown": "materials/tadabbur/id/extended/063.md"
-                },
-                "number": 63
-              },
-              {
-                "id": "68:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/068.json",
-                  "markdown": "materials/tadabbur/id/extended/068.md"
-                },
-                "number": 68
-              },
-              {
-                "id": "93:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/093.json",
-                  "markdown": "materials/tadabbur/id/extended/093.md"
-                },
-                "number": 93
-              },
-              {
-                "id": "98:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/098.json",
-                  "markdown": "materials/tadabbur/id/extended/098.md"
-                },
-                "number": 98
-              },
-              {
-                "id": "99:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/099.json",
-                  "markdown": "materials/tadabbur/id/extended/099.md"
-                },
-                "number": 99
-              },
-              {
-                "id": "101:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/101.json",
-                  "markdown": "materials/tadabbur/id/extended/101.md"
-                },
-                "number": 101
-              },
-              {
-                "id": "103:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/id/extended/103.json",
-                  "markdown": "materials/tadabbur/id/extended/103.md"
-                },
-                "number": 103
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -6630,46 +6491,119 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Termasuk: Surah 112",
-              "statusLabel": "Edisi sebagian",
-              "notes": [
-                "Menunggu buku yang diperbarui: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103"
-              ],
+              "includedLabel": "Termasuk: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "1:extended": "Surah 1",
+                "15:extended": "Surah 15",
+                "17:extended": "Surah 17",
+                "40:extended": "Surah 40",
+                "55:extended": "Surah 55",
+                "61:extended": "Surah 61",
+                "62:extended": "Surah 62",
+                "63:extended": "Surah 63",
+                "68:extended": "Surah 68",
+                "93:extended": "Surah 93",
+                "98:extended": "Surah 98",
+                "99:extended": "Surah 99",
+                "101:extended": "Surah 101",
+                "103:extended": "Surah 103",
                 "112:extended": "Surah 112"
               }
             }
           },
           "contents": [
             {
+              "id": "1:extended",
+              "title": "Surah Al-Fatihah",
+              "numberLabel": "Surah 1"
+            },
+            {
+              "id": "15:extended",
+              "title": "Surah Al-Hijr · Ayat yang tersedia",
+              "numberLabel": "Surah 15"
+            },
+            {
+              "id": "17:extended",
+              "title": "Surah Al-Isra · Ayat yang tersedia",
+              "numberLabel": "Surah 17"
+            },
+            {
+              "id": "40:extended",
+              "title": "Surah Ghafir · Ayat yang tersedia",
+              "numberLabel": "Surah 40"
+            },
+            {
+              "id": "55:extended",
+              "title": "Surah Ar-Rahman · Ayat yang tersedia",
+              "numberLabel": "Surah 55"
+            },
+            {
+              "id": "61:extended",
+              "title": "Surah As-Saff",
+              "numberLabel": "Surah 61"
+            },
+            {
+              "id": "62:extended",
+              "title": "Surah Al-Jumuah",
+              "numberLabel": "Surah 62"
+            },
+            {
+              "id": "63:extended",
+              "title": "Surah Al-Munafiqun",
+              "numberLabel": "Surah 63"
+            },
+            {
+              "id": "68:extended",
+              "title": "Surah Al-Qalam · Ayat yang tersedia",
+              "numberLabel": "Surah 68"
+            },
+            {
+              "id": "93:extended",
+              "title": "Surah Ad-Duha",
+              "numberLabel": "Surah 93"
+            },
+            {
+              "id": "98:extended",
+              "title": "Surah Al-Bayyinah",
+              "numberLabel": "Surah 98"
+            },
+            {
+              "id": "99:extended",
+              "title": "Surah Az-Zalzalah",
+              "numberLabel": "Surah 99"
+            },
+            {
+              "id": "101:extended",
+              "title": "Surah Al-Qariah",
+              "numberLabel": "Surah 101"
+            },
+            {
+              "id": "103:extended",
+              "title": "Surah Al-Asr",
+              "numberLabel": "Surah 103"
+            },
+            {
               "id": "112:extended",
               "title": "Surah Al-Ikhlas — Tadabur",
               "numberLabel": "Surah 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Edisi terverifikasi. Materi baru menunggu pemeriksaan penerbitan; hanya isi yang tercantum yang disertakan."
+          ]
         },
         {
           "language": "id",
           "collection": "hadith",
-          "title": "Hadis · Keagungan Allah dan Pengaruhnya terhadap Hati dan Amal (+2)",
-          "cover": "assets/covers/9cf1bba33a31fad468cab61e8ea97a185d925368ae8656cc8201f50c2614498a.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_id_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_id_hadith.pdf",
-          "sha256": "99fa0992b098fc749206e3568ccfd11575b689a6711cf27c78f20639eb971f53",
-          "pdfSha256": "9cf1bba33a31fad468cab61e8ea97a185d925368ae8656cc8201f50c2614498a",
-          "units": 3,
-          "pages": 19,
+          "title": "Hadis · Keadilan dan Kemahakayaan Allah serta Kebutuhan Hamba-hamba-Nya kepada-Nya (+3)",
+          "cover": "assets/covers/053aff632de57cac86312bdca951638a41e8734e73733666be555dbc96806975.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_id_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_id_hadith.pdf",
+          "sha256": "8fefade1de2c8b39a7d832366567a231a9247f35e355da5813764832d27cc98b",
+          "pdfSha256": "053aff632de57cac86312bdca951638a41e8734e73733666be555dbc96806975",
+          "units": 4,
+          "pages": 34,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -6694,11 +6628,16 @@
               "essential-01-004"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -6712,20 +6651,7 @@
                 4
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-id/001.json",
-                  "markdown": "materials/hadith/essential-id/001.md"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -6733,14 +6659,13 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Termasuk: Hadis 2–4",
-              "statusLabel": "Edisi sebagian",
-              "notes": [
-                "Menunggu buku yang diperbarui: Hadis 1"
-              ],
+              "includedLabel": "Termasuk: Hadis 1–4",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "Hadis 1",
                 "essential-01-002": "Hadis 2",
                 "essential-01-003": "Hadis 3",
                 "essential-01-004": "Hadis 4"
@@ -6748,6 +6673,11 @@
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "Keadilan dan Kemahakayaan Allah serta Kebutuhan Hamba-hamba-Nya kepada-Nya",
+              "numberLabel": "Hadis 1"
+            },
             {
               "id": "essential-01-002",
               "title": "Keagungan Allah dan Pengaruhnya terhadap Hati dan Amal",
@@ -6763,24 +6693,13 @@
               "title": "Teguh dalam agama dan mengenali keadaan hati yang menyimpang",
               "numberLabel": "Hadis 4"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003",
-              "essential-01-004"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Edisi terverifikasi. Materi baru menunggu pemeriksaan penerbitan; hanya isi yang tercantum yang disertakan."
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_id_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_id_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_id_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_id_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_id_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_id_all-books.pdf",
         "parts": 2
       }
     },
@@ -6803,14 +6722,14 @@
         {
           "language": "ms",
           "collection": "tadabbur-extended",
-          "title": "Tadabbur Al-Quran · Surah al-Ikhlas — Tadabbur",
-          "cover": "assets/covers/f5ab3178deca00ade1fc359bc7a41327fb8e0d88819f88fe02b7f3ee05378a90.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ms_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ms_tadabbur-extended.pdf",
-          "sha256": "5255644205a487f5a144202c22ebe045025f10ca39adfcba98ba0cc511c5c5e1",
-          "pdfSha256": "f5ab3178deca00ade1fc359bc7a41327fb8e0d88819f88fe02b7f3ee05378a90",
-          "units": 1,
-          "pages": 25,
+          "title": "Tadabbur Al-Quran",
+          "cover": "assets/covers/ec1a6ca30ea2f093dfb6f7fca74cebbf6eb19608e7fd0e0f99d4e5841f5fcbd3.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_tadabbur-extended.pdf",
+          "sha256": "febcdef425a892d4b4635363b1d5c247b8026b6242a405c8b6bebd4caa8b915c",
+          "pdfSha256": "ec1a6ca30ea2f093dfb6f7fca74cebbf6eb19608e7fd0e0f99d4e5841f5fcbd3",
+          "units": 15,
+          "pages": 225,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -6868,139 +6787,40 @@
               "112:extended"
             ],
             "includedIds": [
+              "1:extended",
+              "15:extended",
+              "17:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended",
+              "101:extended",
+              "103:extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "1:extended": 1,
+              "15:extended": 15,
+              "17:extended": 17,
+              "40:extended": 40,
+              "55:extended": 55,
+              "61:extended": 61,
+              "62:extended": 62,
+              "63:extended": 63,
+              "68:extended": 68,
+              "93:extended": 93,
+              "98:extended": 98,
+              "99:extended": 99,
+              "101:extended": 101,
+              "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "1:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/001.json",
-                  "markdown": "materials/tadabbur/ms/extended/001.md"
-                },
-                "number": 1
-              },
-              {
-                "id": "15:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/015.json",
-                  "markdown": "materials/tadabbur/ms/extended/015.md"
-                },
-                "number": 15
-              },
-              {
-                "id": "17:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/017.json",
-                  "markdown": "materials/tadabbur/ms/extended/017.md"
-                },
-                "number": 17
-              },
-              {
-                "id": "40:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/040.json",
-                  "markdown": "materials/tadabbur/ms/extended/040.md"
-                },
-                "number": 40
-              },
-              {
-                "id": "55:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/055.json",
-                  "markdown": "materials/tadabbur/ms/extended/055.md"
-                },
-                "number": 55
-              },
-              {
-                "id": "61:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/061.json",
-                  "markdown": "materials/tadabbur/ms/extended/061.md"
-                },
-                "number": 61
-              },
-              {
-                "id": "62:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/062.json",
-                  "markdown": "materials/tadabbur/ms/extended/062.md"
-                },
-                "number": 62
-              },
-              {
-                "id": "63:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/063.json",
-                  "markdown": "materials/tadabbur/ms/extended/063.md"
-                },
-                "number": 63
-              },
-              {
-                "id": "68:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/068.json",
-                  "markdown": "materials/tadabbur/ms/extended/068.md"
-                },
-                "number": 68
-              },
-              {
-                "id": "93:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/093.json",
-                  "markdown": "materials/tadabbur/ms/extended/093.md"
-                },
-                "number": 93
-              },
-              {
-                "id": "98:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/098.json",
-                  "markdown": "materials/tadabbur/ms/extended/098.md"
-                },
-                "number": 98
-              },
-              {
-                "id": "99:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/099.json",
-                  "markdown": "materials/tadabbur/ms/extended/099.md"
-                },
-                "number": 99
-              },
-              {
-                "id": "101:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/101.json",
-                  "markdown": "materials/tadabbur/ms/extended/101.md"
-                },
-                "number": 101
-              },
-              {
-                "id": "103:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ms/extended/103.json",
-                  "markdown": "materials/tadabbur/ms/extended/103.md"
-                },
-                "number": 103
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -7008,46 +6828,119 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Disertakan: Surah 112",
-              "statusLabel": "Edisi separa",
-              "notes": [
-                "Menunggu buku yang dikemas kini: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103"
-              ],
+              "includedLabel": "Disertakan: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "1:extended": "Surah 1",
+                "15:extended": "Surah 15",
+                "17:extended": "Surah 17",
+                "40:extended": "Surah 40",
+                "55:extended": "Surah 55",
+                "61:extended": "Surah 61",
+                "62:extended": "Surah 62",
+                "63:extended": "Surah 63",
+                "68:extended": "Surah 68",
+                "93:extended": "Surah 93",
+                "98:extended": "Surah 98",
+                "99:extended": "Surah 99",
+                "101:extended": "Surah 101",
+                "103:extended": "Surah 103",
                 "112:extended": "Surah 112"
               }
             }
           },
           "contents": [
             {
+              "id": "1:extended",
+              "title": "Surah Al-Fatihah",
+              "numberLabel": "Surah 1"
+            },
+            {
+              "id": "15:extended",
+              "title": "Surah Al-Hijr · Ayat yang tersedia",
+              "numberLabel": "Surah 15"
+            },
+            {
+              "id": "17:extended",
+              "title": "Surah Al-Isra · Ayat yang tersedia",
+              "numberLabel": "Surah 17"
+            },
+            {
+              "id": "40:extended",
+              "title": "Surah Ghafir · Ayat yang tersedia",
+              "numberLabel": "Surah 40"
+            },
+            {
+              "id": "55:extended",
+              "title": "Surah Ar-Rahman · Ayat yang tersedia",
+              "numberLabel": "Surah 55"
+            },
+            {
+              "id": "61:extended",
+              "title": "Surah As-Saff",
+              "numberLabel": "Surah 61"
+            },
+            {
+              "id": "62:extended",
+              "title": "Surah Al-Jumuah",
+              "numberLabel": "Surah 62"
+            },
+            {
+              "id": "63:extended",
+              "title": "Surah Al-Munafiqun",
+              "numberLabel": "Surah 63"
+            },
+            {
+              "id": "68:extended",
+              "title": "Surah Al-Qalam · Ayat yang tersedia",
+              "numberLabel": "Surah 68"
+            },
+            {
+              "id": "93:extended",
+              "title": "Surah Ad-Duha",
+              "numberLabel": "Surah 93"
+            },
+            {
+              "id": "98:extended",
+              "title": "Surah Al-Bayyinah",
+              "numberLabel": "Surah 98"
+            },
+            {
+              "id": "99:extended",
+              "title": "Surah Az-Zalzalah",
+              "numberLabel": "Surah 99"
+            },
+            {
+              "id": "101:extended",
+              "title": "Surah Al-Qariah",
+              "numberLabel": "Surah 101"
+            },
+            {
+              "id": "103:extended",
+              "title": "Surah Al-Asr",
+              "numberLabel": "Surah 103"
+            },
+            {
               "id": "112:extended",
               "title": "Surah al-Ikhlas — Tadabbur",
               "numberLabel": "Surah 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Edisi yang disahkan. Bahan baharu menunggu semakan penerbitan; hanya kandungan yang disenaraikan disertakan."
+          ]
         },
         {
           "language": "ms",
           "collection": "hadith",
-          "title": "Hadis · Keagungan Allah dan Kesannya terhadap Hati dan Amal (+2)",
-          "cover": "assets/covers/a4d537aa1cec062efa1ebc22ebd14a09473d5d32c4002c8764a7fc72e5aba275.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ms_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ms_hadith.pdf",
-          "sha256": "f9fb79f23d9ca59735458cda620432f0bcc7f55c57a0dcf368bcb681ef921d1e",
-          "pdfSha256": "a4d537aa1cec062efa1ebc22ebd14a09473d5d32c4002c8764a7fc72e5aba275",
-          "units": 3,
-          "pages": 20,
+          "title": "Hadis · Keadilan Allah, sifat-Nya yang Maha Kaya dan kebergantungan hamba kepada-Nya (+3)",
+          "cover": "assets/covers/2c6f1f092b3abffc011c67ecaf2d6effd3ef6ed65978de2faa2ce5a347b0f618.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_hadith.pdf",
+          "sha256": "80b3f8a6939e32a170153255c1a965668529eadb90d50f2e041877e8c38103e4",
+          "pdfSha256": "2c6f1f092b3abffc011c67ecaf2d6effd3ef6ed65978de2faa2ce5a347b0f618",
+          "units": 4,
+          "pages": 34,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -7072,11 +6965,16 @@
               "essential-01-004"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -7090,20 +6988,7 @@
                 4
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-ms/001.json",
-                  "markdown": "materials/hadith/essential-ms/001.md"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -7111,14 +6996,13 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Disertakan: Hadis 2–4",
-              "statusLabel": "Edisi separa",
-              "notes": [
-                "Menunggu buku yang dikemas kini: Hadis 1"
-              ],
+              "includedLabel": "Disertakan: Hadis 1–4",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "Hadis 1",
                 "essential-01-002": "Hadis 2",
                 "essential-01-003": "Hadis 3",
                 "essential-01-004": "Hadis 4"
@@ -7126,6 +7010,11 @@
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "Keadilan Allah, sifat-Nya yang Maha Kaya dan kebergantungan hamba kepada-Nya",
+              "numberLabel": "Hadis 1"
+            },
             {
               "id": "essential-01-002",
               "title": "Keagungan Allah dan Kesannya terhadap Hati dan Amal",
@@ -7141,24 +7030,13 @@
               "title": "Teguh dalam agama dan mengenali keadaan hati yang menyimpang",
               "numberLabel": "Hadis 4"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003",
-              "essential-01-004"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Edisi yang disahkan. Bahan baharu menunggu semakan penerbitan; hanya kandungan yang disenaraikan disertakan."
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ms_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ms_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ms_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ms_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ms_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ms_all-books.pdf",
         "parts": 2
       }
     },
@@ -7181,14 +7059,14 @@
         {
           "language": "bn",
           "collection": "tadabbur-extended",
-          "title": "কুরআনের তাদাব্বুর · সূরা আল-ইখলাস — ভাবনা ও অনুধাবন",
-          "cover": "assets/covers/4e56b1e8b590715947540f739a7b9f3015e438feaf67f911a50fe0b28dff5fef.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_bn_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_bn_tadabbur-extended.pdf",
-          "sha256": "2b2f6a66bc054ffdd4b3709921ec1ac9a07bf986037125ba3c96ebd161ee06f2",
-          "pdfSha256": "4e56b1e8b590715947540f739a7b9f3015e438feaf67f911a50fe0b28dff5fef",
-          "units": 1,
-          "pages": 20,
+          "title": "কুরআনের তাদাব্বুর",
+          "cover": "assets/covers/29690c9a857fad8d4432d30bdc2fdab1b6b194c94f9d26e7a3bb00a8b1ba0f0b.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_tadabbur-extended.pdf",
+          "sha256": "5943e83504bb66b3c6ce91635fbbb13606b45feb21ec22f9cd073313d152824c",
+          "pdfSha256": "29690c9a857fad8d4432d30bdc2fdab1b6b194c94f9d26e7a3bb00a8b1ba0f0b",
+          "units": 15,
+          "pages": 211,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -7246,139 +7124,40 @@
               "112:extended"
             ],
             "includedIds": [
+              "1:extended",
+              "15:extended",
+              "17:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended",
+              "101:extended",
+              "103:extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "1:extended": 1,
+              "15:extended": 15,
+              "17:extended": 17,
+              "40:extended": 40,
+              "55:extended": 55,
+              "61:extended": 61,
+              "62:extended": 62,
+              "63:extended": 63,
+              "68:extended": 68,
+              "93:extended": 93,
+              "98:extended": 98,
+              "99:extended": 99,
+              "101:extended": 101,
+              "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "1:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/001.json",
-                  "markdown": "materials/tadabbur/bn/extended/001.md"
-                },
-                "number": 1
-              },
-              {
-                "id": "15:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/015.json",
-                  "markdown": "materials/tadabbur/bn/extended/015.md"
-                },
-                "number": 15
-              },
-              {
-                "id": "17:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/017.json",
-                  "markdown": "materials/tadabbur/bn/extended/017.md"
-                },
-                "number": 17
-              },
-              {
-                "id": "40:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/040.json",
-                  "markdown": "materials/tadabbur/bn/extended/040.md"
-                },
-                "number": 40
-              },
-              {
-                "id": "55:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/055.json",
-                  "markdown": "materials/tadabbur/bn/extended/055.md"
-                },
-                "number": 55
-              },
-              {
-                "id": "61:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/061.json",
-                  "markdown": "materials/tadabbur/bn/extended/061.md"
-                },
-                "number": 61
-              },
-              {
-                "id": "62:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/062.json",
-                  "markdown": "materials/tadabbur/bn/extended/062.md"
-                },
-                "number": 62
-              },
-              {
-                "id": "63:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/063.json",
-                  "markdown": "materials/tadabbur/bn/extended/063.md"
-                },
-                "number": 63
-              },
-              {
-                "id": "68:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/068.json",
-                  "markdown": "materials/tadabbur/bn/extended/068.md"
-                },
-                "number": 68
-              },
-              {
-                "id": "93:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/093.json",
-                  "markdown": "materials/tadabbur/bn/extended/093.md"
-                },
-                "number": 93
-              },
-              {
-                "id": "98:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/098.json",
-                  "markdown": "materials/tadabbur/bn/extended/098.md"
-                },
-                "number": 98
-              },
-              {
-                "id": "99:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/099.json",
-                  "markdown": "materials/tadabbur/bn/extended/099.md"
-                },
-                "number": 99
-              },
-              {
-                "id": "101:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/101.json",
-                  "markdown": "materials/tadabbur/bn/extended/101.md"
-                },
-                "number": 101
-              },
-              {
-                "id": "103:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/bn/extended/103.json",
-                  "markdown": "materials/tadabbur/bn/extended/103.md"
-                },
-                "number": 103
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -7386,46 +7165,119 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "অন্তর্ভুক্ত: সূরা ১১২",
-              "statusLabel": "আংশিক সংস্করণ",
-              "notes": [
-                "বইয়ের হালনাগাদ সংস্করণের অপেক্ষায়: সূরা ১, ১৫, ১৭, ৪০, ৫৫, ৬১–৬৩, ৬৮, ৯৩, ৯৮–৯৯, ১০১, ১০৩"
-              ],
+              "includedLabel": "অন্তর্ভুক্ত: সূরা ১, ১৫, ১৭, ৪০, ৫৫, ৬১–৬৩, ৬৮, ৯৩, ৯৮–৯৯, ১০১, ১০৩, ১১২",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "1:extended": "সূরা ১",
+                "15:extended": "সূরা ১৫",
+                "17:extended": "সূরা ১৭",
+                "40:extended": "সূরা ৪০",
+                "55:extended": "সূরা ৫৫",
+                "61:extended": "সূরা ৬১",
+                "62:extended": "সূরা ৬২",
+                "63:extended": "সূরা ৬৩",
+                "68:extended": "সূরা ৬৮",
+                "93:extended": "সূরা ৯৩",
+                "98:extended": "সূরা ৯৮",
+                "99:extended": "সূরা ৯৯",
+                "101:extended": "সূরা ১০১",
+                "103:extended": "সূরা ১০৩",
                 "112:extended": "সূরা ১১২"
               }
             }
           },
           "contents": [
             {
+              "id": "1:extended",
+              "title": "সূরা ১",
+              "numberLabel": "সূরা ১"
+            },
+            {
+              "id": "15:extended",
+              "title": "সূরা ১৫ · উপলব্ধ আয়াত",
+              "numberLabel": "সূরা ১৫"
+            },
+            {
+              "id": "17:extended",
+              "title": "সূরা ১৭ · উপলব্ধ আয়াত",
+              "numberLabel": "সূরা ১৭"
+            },
+            {
+              "id": "40:extended",
+              "title": "সূরা ৪০ · উপলব্ধ আয়াত",
+              "numberLabel": "সূরা ৪০"
+            },
+            {
+              "id": "55:extended",
+              "title": "সূরা পরম করুণাময় · উপলব্ধ আয়াত",
+              "numberLabel": "সূরা ৫৫"
+            },
+            {
+              "id": "61:extended",
+              "title": "সূরা ৬১",
+              "numberLabel": "সূরা ৬১"
+            },
+            {
+              "id": "62:extended",
+              "title": "সূরা ৬২",
+              "numberLabel": "সূরা ৬২"
+            },
+            {
+              "id": "63:extended",
+              "title": "সূরা ৬৩",
+              "numberLabel": "সূরা ৬৩"
+            },
+            {
+              "id": "68:extended",
+              "title": "সূরা কলম · উপলব্ধ আয়াত",
+              "numberLabel": "সূরা ৬৮"
+            },
+            {
+              "id": "93:extended",
+              "title": "সূরা ৯৩",
+              "numberLabel": "সূরা ৯৩"
+            },
+            {
+              "id": "98:extended",
+              "title": "সূরা ৯৮",
+              "numberLabel": "সূরা ৯৮"
+            },
+            {
+              "id": "99:extended",
+              "title": "সূরা ৯৯",
+              "numberLabel": "সূরা ৯৯"
+            },
+            {
+              "id": "101:extended",
+              "title": "সূরা ১০১",
+              "numberLabel": "সূরা ১০১"
+            },
+            {
+              "id": "103:extended",
+              "title": "সূরা ১০৩",
+              "numberLabel": "সূরা ১০৩"
+            },
+            {
               "id": "112:extended",
               "title": "সূরা আল-ইখলাস — ভাবনা ও অনুধাবন",
               "numberLabel": "সূরা ১১২"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "যাচাইকৃত সংস্করণ। নতুন উপকরণ প্রকাশের যাচাইয়ের অপেক্ষায় আছে; কেবল তালিকাভুক্ত বিষয়গুলো এতে রয়েছে।"
+          ]
         },
         {
           "language": "bn",
           "collection": "hadith",
-          "title": "হাদিস · আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব (+1)",
-          "cover": "assets/covers/8b189e9a9847b915372827319988fb31c76791a746af9a071c42bb962360e2d9.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_bn_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_bn_hadith.pdf",
-          "sha256": "abceec83e11a6760cb455862c7b324cd3716f009ebb3b456aa4a860f01356faf",
-          "pdfSha256": "8b189e9a9847b915372827319988fb31c76791a746af9a071c42bb962360e2d9",
-          "units": 2,
-          "pages": 13,
+          "title": "হাদিস · আল্লাহর ন্যায়বিচার ও অমুখাপেক্ষিতা এবং তাঁর প্রতি বান্দাদের নির্ভরতা (+2)",
+          "cover": "assets/covers/bbde5292f8205762004bce49c062a15947afca893fb7524d7884fdbaf6496a65.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_hadith.pdf",
+          "sha256": "e517c5fefdc8ebe4c98e39f23353c3b99c2ba1449a9ebf5857a532c7d9c24380",
+          "pdfSha256": "bbde5292f8205762004bce49c062a15947afca893fb7524d7884fdbaf6496a65",
+          "units": 3,
+          "pages": 46,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -7447,10 +7299,15 @@
               "essential-01-003"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -7460,20 +7317,7 @@
                 3
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-bn/001.json",
-                  "markdown": "materials/hadith/essential-bn/001.md"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -7481,20 +7325,24 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "অন্তর্ভুক্ত: হাদিস ২–৩",
-              "statusLabel": "আংশিক সংস্করণ",
-              "notes": [
-                "বইয়ের হালনাগাদ সংস্করণের অপেক্ষায়: হাদিস ১"
-              ],
+              "includedLabel": "অন্তর্ভুক্ত: হাদিস ১–৩",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "হাদিস ১",
                 "essential-01-002": "হাদিস ২",
                 "essential-01-003": "হাদিস ৩"
               }
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "আল্লাহর ন্যায়বিচার ও অমুখাপেক্ষিতা এবং তাঁর প্রতি বান্দাদের নির্ভরতা",
+              "numberLabel": "হাদিস ১"
+            },
             {
               "id": "essential-01-002",
               "title": "আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব",
@@ -7505,23 +7353,13 @@
               "title": "অন্তরসমূহ পরম দয়াময়ের নিয়ন্ত্রণাধীন",
               "numberLabel": "হাদিস ৩"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "যাচাইকৃত সংস্করণ। নতুন উপকরণ প্রকাশের যাচাইয়ের অপেক্ষায় আছে; কেবল তালিকাভুক্ত বিষয়গুলো এতে রয়েছে।"
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_bn_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_bn_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_bn_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.pdf",
         "parts": 2
       }
     },
@@ -7544,14 +7382,14 @@
         {
           "language": "tr",
           "collection": "tadabbur-extended",
-          "title": "Kur’an Üzerine Tefekkür · İhlâs Suresi — Tefekkür",
-          "cover": "assets/covers/956a3a809f2e4b778644b8f87a60eada46e87d62c2e82606b2d9b50bfd3f364b.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_tr_tadabbur-extended.pdf",
-          "sha256": "2ec89546602527e60b7072a31ddaae8a9c24de5dd4c0db10dd8207cdad166dd5",
-          "pdfSha256": "956a3a809f2e4b778644b8f87a60eada46e87d62c2e82606b2d9b50bfd3f364b",
-          "units": 1,
-          "pages": 19,
+          "title": "Kur’an Üzerine Tefekkür",
+          "cover": "assets/covers/b51df32f0edff0e40c9952467c5f9a7369c88dc9d1946ed17aea84df04abf80f.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_tr_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_tr_tadabbur-extended.pdf",
+          "sha256": "639a00a05ee70c594b57864e615ba16d2aacec9bf4f485cca5182f5c20822111",
+          "pdfSha256": "b51df32f0edff0e40c9952467c5f9a7369c88dc9d1946ed17aea84df04abf80f",
+          "units": 15,
+          "pages": 184,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -7609,139 +7447,40 @@
               "112:extended"
             ],
             "includedIds": [
+              "1:extended",
+              "15:extended",
+              "17:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended",
+              "101:extended",
+              "103:extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "1:extended": 1,
+              "15:extended": 15,
+              "17:extended": 17,
+              "40:extended": 40,
+              "55:extended": 55,
+              "61:extended": 61,
+              "62:extended": 62,
+              "63:extended": 63,
+              "68:extended": 68,
+              "93:extended": 93,
+              "98:extended": 98,
+              "99:extended": 99,
+              "101:extended": 101,
+              "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "1:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/001.json",
-                  "markdown": "materials/tadabbur/tr/extended/001.md"
-                },
-                "number": 1
-              },
-              {
-                "id": "15:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/015.json",
-                  "markdown": "materials/tadabbur/tr/extended/015.md"
-                },
-                "number": 15
-              },
-              {
-                "id": "17:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/017.json",
-                  "markdown": "materials/tadabbur/tr/extended/017.md"
-                },
-                "number": 17
-              },
-              {
-                "id": "40:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/040.json",
-                  "markdown": "materials/tadabbur/tr/extended/040.md"
-                },
-                "number": 40
-              },
-              {
-                "id": "55:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/055.json",
-                  "markdown": "materials/tadabbur/tr/extended/055.md"
-                },
-                "number": 55
-              },
-              {
-                "id": "61:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/061.json",
-                  "markdown": "materials/tadabbur/tr/extended/061.md"
-                },
-                "number": 61
-              },
-              {
-                "id": "62:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/062.json",
-                  "markdown": "materials/tadabbur/tr/extended/062.md"
-                },
-                "number": 62
-              },
-              {
-                "id": "63:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/063.json",
-                  "markdown": "materials/tadabbur/tr/extended/063.md"
-                },
-                "number": 63
-              },
-              {
-                "id": "68:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/068.json",
-                  "markdown": "materials/tadabbur/tr/extended/068.md"
-                },
-                "number": 68
-              },
-              {
-                "id": "93:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/093.json",
-                  "markdown": "materials/tadabbur/tr/extended/093.md"
-                },
-                "number": 93
-              },
-              {
-                "id": "98:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/098.json",
-                  "markdown": "materials/tadabbur/tr/extended/098.md"
-                },
-                "number": 98
-              },
-              {
-                "id": "99:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/099.json",
-                  "markdown": "materials/tadabbur/tr/extended/099.md"
-                },
-                "number": 99
-              },
-              {
-                "id": "101:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/101.json",
-                  "markdown": "materials/tadabbur/tr/extended/101.md"
-                },
-                "number": 101
-              },
-              {
-                "id": "103:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/tr/extended/103.json",
-                  "markdown": "materials/tadabbur/tr/extended/103.md"
-                },
-                "number": 103
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -7749,34 +7488,107 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "İçerilenler: Sure 112",
-              "statusLabel": "Kısmi baskı",
-              "notes": [
-                "Güncellenmiş kitap bekleniyor: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103"
-              ],
+              "includedLabel": "İçerilenler: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "1:extended": "Sure 1",
+                "15:extended": "Sure 15",
+                "17:extended": "Sure 17",
+                "40:extended": "Sure 40",
+                "55:extended": "Sure 55",
+                "61:extended": "Sure 61",
+                "62:extended": "Sure 62",
+                "63:extended": "Sure 63",
+                "68:extended": "Sure 68",
+                "93:extended": "Sure 93",
+                "98:extended": "Sure 98",
+                "99:extended": "Sure 99",
+                "101:extended": "Sure 101",
+                "103:extended": "Sure 103",
                 "112:extended": "Sure 112"
               }
             }
           },
           "contents": [
             {
+              "id": "1:extended",
+              "title": "Sure Al-Fatihah",
+              "numberLabel": "Sure 1"
+            },
+            {
+              "id": "15:extended",
+              "title": "Sure Al-Hijr · Mevcut ayetler",
+              "numberLabel": "Sure 15"
+            },
+            {
+              "id": "17:extended",
+              "title": "Sure Al-Isra · Mevcut ayetler",
+              "numberLabel": "Sure 17"
+            },
+            {
+              "id": "40:extended",
+              "title": "Sure Ghafir · Mevcut ayetler",
+              "numberLabel": "Sure 40"
+            },
+            {
+              "id": "55:extended",
+              "title": "Sure Ar-Rahman · Mevcut ayetler",
+              "numberLabel": "Sure 55"
+            },
+            {
+              "id": "61:extended",
+              "title": "Sure As-Saff",
+              "numberLabel": "Sure 61"
+            },
+            {
+              "id": "62:extended",
+              "title": "Sure Al-Jumuah",
+              "numberLabel": "Sure 62"
+            },
+            {
+              "id": "63:extended",
+              "title": "Sure Al-Munafiqun",
+              "numberLabel": "Sure 63"
+            },
+            {
+              "id": "68:extended",
+              "title": "Sure Al-Qalam · Mevcut ayetler",
+              "numberLabel": "Sure 68"
+            },
+            {
+              "id": "93:extended",
+              "title": "Sure Ad-Duha",
+              "numberLabel": "Sure 93"
+            },
+            {
+              "id": "98:extended",
+              "title": "Sure Al-Bayyinah",
+              "numberLabel": "Sure 98"
+            },
+            {
+              "id": "99:extended",
+              "title": "Sure Az-Zalzalah",
+              "numberLabel": "Sure 99"
+            },
+            {
+              "id": "101:extended",
+              "title": "Sure Al-Qariah",
+              "numberLabel": "Sure 101"
+            },
+            {
+              "id": "103:extended",
+              "title": "Sure Al-Asr",
+              "numberLabel": "Sure 103"
+            },
+            {
               "id": "112:extended",
               "title": "İhlâs Suresi — Tefekkür",
               "numberLabel": "Sure 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Doğrulanmış baskı. Yeni içerikler yayın kontrollerini bekliyor; yalnızca listelenen içerikler dahildir."
+          ]
         },
         {
           "language": "tr",
@@ -7877,9 +7689,9 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_tr_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_tr_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_tr_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_tr_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_tr_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_tr_all-books.pdf",
         "parts": 2
       }
     },
@@ -8283,14 +8095,14 @@
         {
           "language": "pt-BR",
           "collection": "tadabbur-extended",
-          "title": "Reflexão sobre o Alcorão · Surata Al-Ikhlas — Reflexões",
-          "cover": "assets/covers/b071daab7847d21dd0b5c1595110d63ef5a4673f15668c8e9ef524bb4aa87af8.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_pt-BR_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_pt-BR_tadabbur-extended.pdf",
-          "sha256": "f1e299cb865aa0a5fb8c734eb0716cd0a93131d631cf46b8e1848bad8853ef23",
-          "pdfSha256": "b071daab7847d21dd0b5c1595110d63ef5a4673f15668c8e9ef524bb4aa87af8",
-          "units": 1,
-          "pages": 22,
+          "title": "Reflexão sobre o Alcorão",
+          "cover": "assets/covers/d54591e22c36184b3643e35ec3336380894c28e655fecae1949d1804f7ac36ea.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_tadabbur-extended.pdf",
+          "sha256": "ab7929c3562afa0496f422d2434296cae5f0f489ef510f060740b42b1dbf58bf",
+          "pdfSha256": "d54591e22c36184b3643e35ec3336380894c28e655fecae1949d1804f7ac36ea",
+          "units": 15,
+          "pages": 204,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -8348,139 +8160,40 @@
               "112:extended"
             ],
             "includedIds": [
+              "1:extended",
+              "15:extended",
+              "17:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended",
+              "101:extended",
+              "103:extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "1:extended": 1,
+              "15:extended": 15,
+              "17:extended": 17,
+              "40:extended": 40,
+              "55:extended": 55,
+              "61:extended": 61,
+              "62:extended": 62,
+              "63:extended": 63,
+              "68:extended": 68,
+              "93:extended": 93,
+              "98:extended": 98,
+              "99:extended": 99,
+              "101:extended": 101,
+              "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "1:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/001.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/001.md"
-                },
-                "number": 1
-              },
-              {
-                "id": "15:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/015.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/015.md"
-                },
-                "number": 15
-              },
-              {
-                "id": "17:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/017.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/017.md"
-                },
-                "number": 17
-              },
-              {
-                "id": "40:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/040.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/040.md"
-                },
-                "number": 40
-              },
-              {
-                "id": "55:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/055.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/055.md"
-                },
-                "number": 55
-              },
-              {
-                "id": "61:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/061.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/061.md"
-                },
-                "number": 61
-              },
-              {
-                "id": "62:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/062.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/062.md"
-                },
-                "number": 62
-              },
-              {
-                "id": "63:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/063.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/063.md"
-                },
-                "number": 63
-              },
-              {
-                "id": "68:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/068.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/068.md"
-                },
-                "number": 68
-              },
-              {
-                "id": "93:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/093.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/093.md"
-                },
-                "number": 93
-              },
-              {
-                "id": "98:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/098.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/098.md"
-                },
-                "number": 98
-              },
-              {
-                "id": "99:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/099.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/099.md"
-                },
-                "number": 99
-              },
-              {
-                "id": "101:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/101.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/101.md"
-                },
-                "number": 101
-              },
-              {
-                "id": "103:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/pt-BR/extended/103.json",
-                  "markdown": "materials/tadabbur/pt-BR/extended/103.md"
-                },
-                "number": 103
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -8488,46 +8201,119 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Incluído: Surata 112",
-              "statusLabel": "Edição parcial",
-              "notes": [
-                "Aguardando o livro atualizado: Surata 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103"
-              ],
+              "includedLabel": "Incluído: Surata 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "1:extended": "Surata 1",
+                "15:extended": "Surata 15",
+                "17:extended": "Surata 17",
+                "40:extended": "Surata 40",
+                "55:extended": "Surata 55",
+                "61:extended": "Surata 61",
+                "62:extended": "Surata 62",
+                "63:extended": "Surata 63",
+                "68:extended": "Surata 68",
+                "93:extended": "Surata 93",
+                "98:extended": "Surata 98",
+                "99:extended": "Surata 99",
+                "101:extended": "Surata 101",
+                "103:extended": "Surata 103",
                 "112:extended": "Surata 112"
               }
             }
           },
           "contents": [
             {
+              "id": "1:extended",
+              "title": "Surata Al-Fatihah",
+              "numberLabel": "Surata 1"
+            },
+            {
+              "id": "15:extended",
+              "title": "Surata Al-Hijr · Versículos disponíveis",
+              "numberLabel": "Surata 15"
+            },
+            {
+              "id": "17:extended",
+              "title": "Surata Al-Isra · Versículos disponíveis",
+              "numberLabel": "Surata 17"
+            },
+            {
+              "id": "40:extended",
+              "title": "Surata Ghafir · Versículos disponíveis",
+              "numberLabel": "Surata 40"
+            },
+            {
+              "id": "55:extended",
+              "title": "Surata Ar-Rahman · Versículos disponíveis",
+              "numberLabel": "Surata 55"
+            },
+            {
+              "id": "61:extended",
+              "title": "Surata As-Saff",
+              "numberLabel": "Surata 61"
+            },
+            {
+              "id": "62:extended",
+              "title": "Surata Al-Jumuah",
+              "numberLabel": "Surata 62"
+            },
+            {
+              "id": "63:extended",
+              "title": "Surata Al-Munafiqun",
+              "numberLabel": "Surata 63"
+            },
+            {
+              "id": "68:extended",
+              "title": "Surata Al-Qalam · Versículos disponíveis",
+              "numberLabel": "Surata 68"
+            },
+            {
+              "id": "93:extended",
+              "title": "Surata Ad-Duha",
+              "numberLabel": "Surata 93"
+            },
+            {
+              "id": "98:extended",
+              "title": "Surata Al-Bayyinah",
+              "numberLabel": "Surata 98"
+            },
+            {
+              "id": "99:extended",
+              "title": "Surata Az-Zalzalah",
+              "numberLabel": "Surata 99"
+            },
+            {
+              "id": "101:extended",
+              "title": "Surata Al-Qariah",
+              "numberLabel": "Surata 101"
+            },
+            {
+              "id": "103:extended",
+              "title": "Surata Al-Asr",
+              "numberLabel": "Surata 103"
+            },
+            {
               "id": "112:extended",
               "title": "Surata Al-Ikhlas — Reflexões",
               "numberLabel": "Surata 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Edição verificada. Novos materiais aguardam as verificações de publicação; apenas os conteúdos listados estão incluídos."
+          ]
         },
         {
           "language": "pt-BR",
           "collection": "hadith",
-          "title": "Hadith · A grandeza de Allah e seu efeito no coração e nas ações (+2)",
-          "cover": "assets/covers/8a886d16770dd04698582c08240ec0f730d85730712690c5c6b6f7ac1a047126.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_pt-BR_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_pt-BR_hadith.pdf",
-          "sha256": "96093e04e8604c518beee4013705885bfeb4b0229776687238c6396e45f8ebe5",
-          "pdfSha256": "8a886d16770dd04698582c08240ec0f730d85730712690c5c6b6f7ac1a047126",
-          "units": 3,
-          "pages": 17,
+          "title": "Hadith · A justiça de Allah, Sua autossuficiência e a dependência de Seus servos (+3)",
+          "cover": "assets/covers/df71d6657d89de4e76d81d96a784b56ca46861b6a7054d25629ef3a8ed81e0b1.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_hadith.pdf",
+          "sha256": "4d8c95116b8b7db59bfc0dd1115595b91f5f89e5847aedaedbcd834acb14c5a4",
+          "pdfSha256": "df71d6657d89de4e76d81d96a784b56ca46861b6a7054d25629ef3a8ed81e0b1",
+          "units": 4,
+          "pages": 30,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -8552,11 +8338,16 @@
               "essential-01-004"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -8570,20 +8361,7 @@
                 4
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-pt-BR/001.json",
-                  "markdown": "materials/hadith/essential-pt-BR/001.md"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -8591,14 +8369,13 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Incluído: Hadith 2–4",
-              "statusLabel": "Edição parcial",
-              "notes": [
-                "Aguardando o livro atualizado: Hadith 1"
-              ],
+              "includedLabel": "Incluído: Hadith 1–4",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "Hadith 1",
                 "essential-01-002": "Hadith 2",
                 "essential-01-003": "Hadith 3",
                 "essential-01-004": "Hadith 4"
@@ -8606,6 +8383,11 @@
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "A justiça de Allah, Sua autossuficiência e a dependência de Seus servos",
+              "numberLabel": "Hadith 1"
+            },
             {
               "id": "essential-01-002",
               "title": "A grandeza de Allah e seu efeito no coração e nas ações",
@@ -8621,24 +8403,13 @@
               "title": "Permanecer firme na religião e conhecer as características do coração desviado",
               "numberLabel": "Hadith 4"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003",
-              "essential-01-004"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Edição verificada. Novos materiais aguardam as verificações de publicação; apenas os conteúdos listados estão incluídos."
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_pt-BR_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_pt-BR_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_pt-BR_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_pt-BR_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_pt-BR_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_pt-BR_all-books.pdf",
         "parts": 2
       }
     },
@@ -8661,14 +8432,14 @@
         {
           "language": "hi",
           "collection": "tadabbur-extended",
-          "title": "क़ुरआन पर चिंतन · सूरा इख़लास — मनन",
-          "cover": "assets/covers/d67ccc4cd7009ff4025a2e26e41f39c7e1ba2f242b8cf9603ae8739ce0201c19.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_hi_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_hi_tadabbur-extended.pdf",
-          "sha256": "7f7851b17122cd983a98932708c909cbd3874c0794f6619d77c96006d922733d",
-          "pdfSha256": "d67ccc4cd7009ff4025a2e26e41f39c7e1ba2f242b8cf9603ae8739ce0201c19",
-          "units": 1,
-          "pages": 20,
+          "title": "क़ुरआन पर चिंतन",
+          "cover": "assets/covers/ca86c13f2edfbf9c732201903c9e1eb6b541c304ee8afe6ceb8bb4443a2de236.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_hi_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_hi_tadabbur-extended.pdf",
+          "sha256": "5b9d94b20d2a7f7b16f67fedb7b1bd22b31a29af19876d5f87764f514c87f575",
+          "pdfSha256": "ca86c13f2edfbf9c732201903c9e1eb6b541c304ee8afe6ceb8bb4443a2de236",
+          "units": 2,
+          "pages": 26,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -8687,22 +8458,14 @@
               "112:extended"
             ],
             "includedIds": [
+              "fatiha-extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "fatiha-extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fatiha-extended/hi/reading.json",
-                  "markdown": "materials/tadabbur/fatiha-extended/hi/reading.md"
-                },
-                "number": 1
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -8710,46 +8473,41 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "शामिल: सूरा ११२",
-              "statusLabel": "आंशिक संस्करण",
-              "notes": [
-                "पुस्तक के अद्यतन संस्करण की प्रतीक्षा: सूरा १"
-              ],
+              "includedLabel": "शामिल: सूरा १, ११२",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "fatiha-extended": "सूरा १",
                 "112:extended": "सूरा ११२"
               }
             }
           },
           "contents": [
             {
+              "id": "fatiha-extended",
+              "title": "सूरह अल-फ़ातिहा: विस्तार से मनन",
+              "numberLabel": "सूरा १"
+            },
+            {
               "id": "112:extended",
               "title": "सूरा इख़लास — मनन",
               "numberLabel": "सूरा ११२"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "सत्यापित संस्करण। नई सामग्री प्रकाशन जाँच की प्रतीक्षा में है; इसमें केवल सूचीबद्ध सामग्री शामिल है।"
+          ]
         },
         {
           "language": "hi",
           "collection": "hadith",
-          "title": "हदीस · अल्लाह की महानता और दिल व कर्मों पर उसका प्रभाव (+1)",
-          "cover": "assets/covers/7b3eff1bac4f6a0de9a137dbb0da6a3eae93a68d21ca0ee2339e77f388b9d95a.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_hi_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_hi_hadith.pdf",
-          "sha256": "29b0c3e84c25a1d2b214e32e7c91040b36e13f6897d9bce1377205140e06c690",
-          "pdfSha256": "7b3eff1bac4f6a0de9a137dbb0da6a3eae93a68d21ca0ee2339e77f388b9d95a",
-          "units": 2,
-          "pages": 9,
+          "title": "हदीस · अल्लाह का न्याय, उसका किसी का मोहताज न होना और बंदों की उस पर निर्भरता (+2)",
+          "cover": "assets/covers/8f0de30184a5d219ceccb950c3aceaf99c59602de69bf4fe4f25508b51373030.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_hi_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_hi_hadith.pdf",
+          "sha256": "5d776a1a25bad7e75f4d56b01fbc19a00283541107b121f92bf565fcdbf05426",
+          "pdfSha256": "8f0de30184a5d219ceccb950c3aceaf99c59602de69bf4fe4f25508b51373030",
+          "units": 3,
+          "pages": 21,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -8771,10 +8529,15 @@
               "essential-01-003"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -8784,20 +8547,7 @@
                 3
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-hi/001.json",
-                  "markdown": "materials/hadith/essential-hi/001.md"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -8805,20 +8555,24 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "शामिल: हदीस २–३",
-              "statusLabel": "आंशिक संस्करण",
-              "notes": [
-                "पुस्तक के अद्यतन संस्करण की प्रतीक्षा: हदीस १"
-              ],
+              "includedLabel": "शामिल: हदीस १–३",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "हदीस १",
                 "essential-01-002": "हदीस २",
                 "essential-01-003": "हदीस ३"
               }
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "अल्लाह का न्याय, उसका किसी का मोहताज न होना और बंदों की उस पर निर्भरता",
+              "numberLabel": "हदीस १"
+            },
             {
               "id": "essential-01-002",
               "title": "अल्लाह की महानता और दिल व कर्मों पर उसका प्रभाव",
@@ -8829,23 +8583,13 @@
               "title": "दिल परम दयावान के नियंत्रण में हैं",
               "numberLabel": "हदीस ३"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "सत्यापित संस्करण। नई सामग्री प्रकाशन जाँच की प्रतीक्षा में है; इसमें केवल सूचीबद्ध सामग्री शामिल है।"
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_hi_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_hi_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_hi_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_hi_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_hi_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_hi_all-books.pdf",
         "parts": 2
       }
     },
@@ -8869,13 +8613,13 @@
           "language": "ru",
           "collection": "tadabbur-extended",
           "title": "Размышление над Кораном",
-          "cover": "assets/covers/d6967ae885a0d93f52c641c7afd40c326515fac64a8de0b6f865fb966f3d1261.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42339566724-1/Iman_Companion_ru_tadabbur-extended.pdf",
-          "sha256": "d63f0fefd007df9070034d3331a5192b0bf94f8c7c83bc58155d5007957eb7dd",
-          "pdfSha256": "d6967ae885a0d93f52c641c7afd40c326515fac64a8de0b6f865fb966f3d1261",
-          "units": 1,
-          "pages": 21,
+          "cover": "assets/covers/0c9e8c8cce4b4d43150a04cec46567a5b6b6dc83c66aa069aec6d53d57bbc71d.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ru_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ru_tadabbur-extended.pdf",
+          "sha256": "696f79530cd4e9e3c26ea8d4db248ade93ec4cee1a501ac473870fed09362f7b",
+          "pdfSha256": "0c9e8c8cce4b4d43150a04cec46567a5b6b6dc83c66aa069aec6d53d57bbc71d",
+          "units": 2,
+          "pages": 30,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -8894,22 +8638,14 @@
               "112:extended"
             ],
             "includedIds": [
+              "fatiha-extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "fatiha-extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fatiha-extended/ru/reading.json",
-                  "markdown": "materials/tadabbur/fatiha-extended/ru/reading.md"
-                },
-                "number": 1
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -8917,46 +8653,41 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Включено: Сура 112",
-              "statusLabel": "Частичное издание",
-              "notes": [
-                "Ожидается обновлённая книга: Сура 1"
-              ],
+              "includedLabel": "Включено: Сура 1, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "fatiha-extended": "Сура 1",
                 "112:extended": "Сура 112"
               }
             }
           },
           "contents": [
             {
+              "id": "fatiha-extended",
+              "title": "«Аль-Фатиха»: подробные размышления",
+              "numberLabel": "Сура 1"
+            },
+            {
               "id": "112:extended",
               "title": "Сура «Аль-Ихляс» — размышление",
               "numberLabel": "Сура 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Проверенное издание. Новые материалы ожидают проверки перед выпуском; включено только указанное содержание."
+          ]
         },
         {
           "language": "ru",
           "collection": "hadith",
-          "title": "Хадис · Величие Аллаха и его влияние на сердце и поступки (+2)",
-          "cover": "assets/covers/fee1bad4a7afca750bdb188c009bf61a75bbdfd8d17181092ea255713095eae5.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ru_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ru_hadith.pdf",
-          "sha256": "a9e9ba9ecadd9be450bfe63ec9cfa86967bee6a5c37628afeb9bb96561c71fb5",
-          "pdfSha256": "fee1bad4a7afca750bdb188c009bf61a75bbdfd8d17181092ea255713095eae5",
-          "units": 3,
-          "pages": 15,
+          "title": "Хадис · Справедливость Аллаха, Его независимость от творений и их нужда в Нём (+3)",
+          "cover": "assets/covers/b610d28e34240f40dc99ebcb8de5798889d3a44dafbf1d681d278d35b8d4adb1.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ru_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ru_hadith.pdf",
+          "sha256": "bef2efb03b56cee4ff9a28ab9bee24bf3951d2a05f2db4843f94430ed30e9a98",
+          "pdfSha256": "b610d28e34240f40dc99ebcb8de5798889d3a44dafbf1d681d278d35b8d4adb1",
+          "units": 4,
+          "pages": 27,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -8981,11 +8712,16 @@
               "essential-01-004"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -8999,20 +8735,7 @@
                 4
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-ru/001.json",
-                  "markdown": "materials/hadith/essential-ru/001.md"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -9020,14 +8743,13 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Включено: Хадис 2–4",
-              "statusLabel": "Частичное издание",
-              "notes": [
-                "Ожидается обновлённая книга: Хадис 1"
-              ],
+              "includedLabel": "Включено: Хадис 1–4",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "Хадис 1",
                 "essential-01-002": "Хадис 2",
                 "essential-01-003": "Хадис 3",
                 "essential-01-004": "Хадис 4"
@@ -9035,6 +8757,11 @@
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "Справедливость Аллаха, Его независимость от творений и их нужда в Нём",
+              "numberLabel": "Хадис 1"
+            },
             {
               "id": "essential-01-002",
               "title": "Величие Аллаха и его влияние на сердце и поступки",
@@ -9050,24 +8777,13 @@
               "title": "Стойкость в религии и распознавание отклонившегося сердца",
               "numberLabel": "Хадис 4"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003",
-              "essential-01-004"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Проверенное издание. Новые материалы ожидают проверки перед выпуском; включено только указанное содержание."
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ru_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ru_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ru_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ru_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ru_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ru_all-books.pdf",
         "parts": 2
       }
     },
@@ -9090,14 +8806,14 @@
         {
           "language": "es",
           "collection": "tadabbur-extended",
-          "title": "Reflexión sobre el Corán · Sura Al-Ijlás — Reflexión",
-          "cover": "assets/covers/07ae02b22d4ea480b33199915fdb55108dfb736ef140a0fe17c1035b289cdfc4.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_es_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_es_tadabbur-extended.pdf",
-          "sha256": "e16b1ee07f869a8c7edd08235a593889b580bd31894d26423507b7e1fd107a45",
-          "pdfSha256": "07ae02b22d4ea480b33199915fdb55108dfb736ef140a0fe17c1035b289cdfc4",
-          "units": 1,
-          "pages": 22,
+          "title": "Reflexión sobre el Corán",
+          "cover": "assets/covers/e43d6f38e47cef85fd99541b6df0f86c63c307fa16af097ddaf3f22bc8564912.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_tadabbur-extended.pdf",
+          "sha256": "d0b40a0c6d8f5e72b859edbb43c6d3c57a199ae31d5e316af703f5bfe93711c9",
+          "pdfSha256": "e43d6f38e47cef85fd99541b6df0f86c63c307fa16af097ddaf3f22bc8564912",
+          "units": 2,
+          "pages": 30,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -9116,22 +8832,14 @@
               "112:extended"
             ],
             "includedIds": [
+              "fatiha-extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "fatiha-extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fatiha-extended/es/reading.json",
-                  "markdown": "materials/tadabbur/fatiha-extended/es/reading.md"
-                },
-                "number": 1
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -9139,46 +8847,41 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Incluido: Sura 112",
-              "statusLabel": "Edición parcial",
-              "notes": [
-                "Pendiente del libro actualizado: Sura 1"
-              ],
+              "includedLabel": "Incluido: Sura 1, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "fatiha-extended": "Sura 1",
                 "112:extended": "Sura 112"
               }
             }
           },
           "contents": [
             {
+              "id": "fatiha-extended",
+              "title": "Al-Fatiha: reflexión detallada",
+              "numberLabel": "Sura 1"
+            },
+            {
               "id": "112:extended",
               "title": "Sura Al-Ijlás — Reflexión",
               "numberLabel": "Sura 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Edición verificada. Los nuevos materiales esperan las comprobaciones de publicación; solo se incluye el contenido indicado."
+          ]
         },
         {
           "language": "es",
           "collection": "hadith",
-          "title": "Hadiz · La grandeza de Allah y su efecto en el corazón y las obras (+2)",
-          "cover": "assets/covers/0deec3035e2bf81c4102656669217712fbd3a7e961ac437bec80af8ea458dc25.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_es_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_es_hadith.pdf",
-          "sha256": "d6a2bff2b3c81c6d091ef0c5d5d41886b8a7192de040e0229b33de250ccae434",
-          "pdfSha256": "0deec3035e2bf81c4102656669217712fbd3a7e961ac437bec80af8ea458dc25",
-          "units": 3,
-          "pages": 16,
+          "title": "Hadiz · La justicia de Allah, Su autosuficiencia y la necesidad que Sus siervos tienen de Él (+3)",
+          "cover": "assets/covers/abdffb424f5e348d51db73553690bc69c59da0e1d28120982b9885a2c3d56cf9.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_hadith.pdf",
+          "sha256": "54935e66bfb781733d7dddcefc0b8d510c7d1f304229d644605c7265c7421590",
+          "pdfSha256": "abdffb424f5e348d51db73553690bc69c59da0e1d28120982b9885a2c3d56cf9",
+          "units": 4,
+          "pages": 28,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -9203,11 +8906,16 @@
               "essential-01-004"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -9221,20 +8929,7 @@
                 4
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-es/001.json",
-                  "markdown": "materials/hadith/essential-es/001.md"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -9242,14 +8937,13 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Incluido: Hadiz 2–4",
-              "statusLabel": "Edición parcial",
-              "notes": [
-                "Pendiente del libro actualizado: Hadiz 1"
-              ],
+              "includedLabel": "Incluido: Hadiz 1–4",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "Hadiz 1",
                 "essential-01-002": "Hadiz 2",
                 "essential-01-003": "Hadiz 3",
                 "essential-01-004": "Hadiz 4"
@@ -9257,6 +8951,11 @@
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "La justicia de Allah, Su autosuficiencia y la necesidad que Sus siervos tienen de Él",
+              "numberLabel": "Hadiz 1"
+            },
             {
               "id": "essential-01-002",
               "title": "La grandeza de Allah y su efecto en el corazón y las obras",
@@ -9272,24 +8971,13 @@
               "title": "Firmeza en la religión y cómo reconocer un corazón desviado",
               "numberLabel": "Hadiz 4"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003",
-              "essential-01-004"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Edición verificada. Los nuevos materiales esperan las comprobaciones de publicación; solo se incluye el contenido indicado."
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_es_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_es_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_es_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_es_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_es_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_es_all-books.pdf",
         "parts": 2
       }
     },
@@ -9312,14 +9000,14 @@
         {
           "language": "fa",
           "collection": "tadabbur-extended",
-          "title": "تدبر در قرآن · تأمل در سورهٔ اخلاص",
-          "cover": "assets/covers/17666306c90ece11fc4b8152c9a29ea463073eb29c23bc01cef11bd9603ebd77.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_fa_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_fa_tadabbur-extended.pdf",
-          "sha256": "78941b1d4710c5e64a0ce7985e07f408286ae6d8a3bdd677079b92c962c6f2fb",
-          "pdfSha256": "17666306c90ece11fc4b8152c9a29ea463073eb29c23bc01cef11bd9603ebd77",
-          "units": 1,
-          "pages": 20,
+          "title": "تدبر در قرآن",
+          "cover": "assets/covers/4a8c53158aeefdb5c4e7e1e6c3973fd956fca4ad4e45fe0e7c9ad3775499d684.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fa_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fa_tadabbur-extended.pdf",
+          "sha256": "6833027b0d4d5629133dfc759f89a981735717d8176312604b22c1ba5161e47d",
+          "pdfSha256": "4a8c53158aeefdb5c4e7e1e6c3973fd956fca4ad4e45fe0e7c9ad3775499d684",
+          "units": 2,
+          "pages": 29,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -9338,22 +9026,14 @@
               "112:extended"
             ],
             "includedIds": [
+              "fatiha-extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "fatiha-extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fatiha-extended/fa/reading.json",
-                  "markdown": "materials/tadabbur/fatiha-extended/fa/reading.md"
-                },
-                "number": 1
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -9361,46 +9041,41 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "محتوای موجود: سوره ۱۱۲",
-              "statusLabel": "نسخهٔ جزئی",
-              "notes": [
-                "در انتظار نسخهٔ به‌روز کتاب: سوره ۱"
-              ],
+              "includedLabel": "محتوای موجود: سوره ۱, ۱۱۲",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "fatiha-extended": "سوره ۱",
                 "112:extended": "سوره ۱۱۲"
               }
             }
           },
           "contents": [
             {
+              "id": "fatiha-extended",
+              "title": "فاتحه: تأملات تفصیلی",
+              "numberLabel": "سوره ۱"
+            },
+            {
               "id": "112:extended",
               "title": "تأمل در سورهٔ اخلاص",
               "numberLabel": "سوره ۱۱۲"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "نسخهٔ بررسی‌شده. مطالب تازه در انتظار بررسی انتشار هستند؛ این نسخه فقط مطالب فهرست‌شده را شامل می‌شود."
+          ]
         },
         {
           "language": "fa",
           "collection": "hadith",
-          "title": "حدیث · عظمت الله و اثر آن بر دل و عمل (+2)",
-          "cover": "assets/covers/b0e3425805a8e6238e7a1fbe370c6e2145465018f7ffb5eb36b248ed348519fa.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fa_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fa_hadith.pdf",
-          "sha256": "f71d9ad0014a14f60a46511c0a52e91c67c7978d4d4c8802c75ab8afbec95b9a",
-          "pdfSha256": "b0e3425805a8e6238e7a1fbe370c6e2145465018f7ffb5eb36b248ed348519fa",
-          "units": 3,
-          "pages": 14,
+          "title": "حدیث · عدل و بی‌نیازی الله و نیازمندی بندگان به او (+3)",
+          "cover": "assets/covers/3d5dec65749629d2e9f45b389f7f9a7b0a3ce31a32a27d2ce5f89ddb9f4588b8.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fa_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fa_hadith.pdf",
+          "sha256": "323a4e618ba87db079f3d27e3ac685c421aa653e61a098fa1dc375294e5e360f",
+          "pdfSha256": "3d5dec65749629d2e9f45b389f7f9a7b0a3ce31a32a27d2ce5f89ddb9f4588b8",
+          "units": 4,
+          "pages": 27,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -9425,11 +9100,16 @@
               "essential-01-004"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -9443,20 +9123,7 @@
                 4
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-fa/001.json",
-                  "markdown": "materials/hadith/essential-fa/001.md"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -9464,14 +9131,13 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "محتوای موجود: حدیث ۲–۴",
-              "statusLabel": "نسخهٔ جزئی",
-              "notes": [
-                "در انتظار نسخهٔ به‌روز کتاب: حدیث ۱"
-              ],
+              "includedLabel": "محتوای موجود: حدیث ۱–۴",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "حدیث ۱",
                 "essential-01-002": "حدیث ۲",
                 "essential-01-003": "حدیث ۳",
                 "essential-01-004": "حدیث ۴"
@@ -9479,6 +9145,11 @@
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "عدل و بی‌نیازی الله و نیازمندی بندگان به او",
+              "numberLabel": "حدیث ۱"
+            },
             {
               "id": "essential-01-002",
               "title": "عظمت الله و اثر آن بر دل و عمل",
@@ -9494,24 +9165,13 @@
               "title": "استواری در دین و شناخت ویژگی‌های دلِ منحرف",
               "numberLabel": "حدیث ۴"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003",
-              "essential-01-004"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "نسخهٔ بررسی‌شده. مطالب تازه در انتظار بررسی انتشار هستند؛ این نسخه فقط مطالب فهرست‌شده را شامل می‌شود."
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fa_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fa_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fa_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fa_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fa_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fa_all-books.pdf",
         "parts": 2
       }
     },
@@ -9534,14 +9194,14 @@
         {
           "language": "de",
           "collection": "tadabbur-extended",
-          "title": "Betrachtung des Korans · Sure Al-Ikhlas – Betrachtungen",
-          "cover": "assets/covers/634e98b66a4c81a2c867e097136ec744f306c358b503ac77530486b15539b6a3.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_de_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_de_tadabbur-extended.pdf",
-          "sha256": "2c8103062c59f2b1de114230d07eb4ff20b0c49fa31e6f93debef8ee9fe91d8d",
-          "pdfSha256": "634e98b66a4c81a2c867e097136ec744f306c358b503ac77530486b15539b6a3",
-          "units": 1,
-          "pages": 23,
+          "title": "Betrachtung des Korans",
+          "cover": "assets/covers/5955cc1771e68f8d209f3da7304445ed93215ad1a466a80b3141fe8b1503de20.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_de_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_de_tadabbur-extended.pdf",
+          "sha256": "bfa2149d402c94ee0af7ba3ac7225f6572e5f89c99d75e1d895d482f0a6bea4e",
+          "pdfSha256": "5955cc1771e68f8d209f3da7304445ed93215ad1a466a80b3141fe8b1503de20",
+          "units": 2,
+          "pages": 32,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -9560,22 +9220,14 @@
               "112:extended"
             ],
             "includedIds": [
+              "fatiha-extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "fatiha-extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fatiha-extended/de/reading.json",
-                  "markdown": "materials/tadabbur/fatiha-extended/de/reading.md"
-                },
-                "number": 1
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -9583,46 +9235,41 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Enthalten: Sure 112",
-              "statusLabel": "Teilausgabe",
-              "notes": [
-                "Aktualisiertes Buch ausstehend: Sure 1"
-              ],
+              "includedLabel": "Enthalten: Sure 1, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "fatiha-extended": "Sure 1",
                 "112:extended": "Sure 112"
               }
             }
           },
           "contents": [
             {
+              "id": "fatiha-extended",
+              "title": "Al-Fatiha: Vertiefende Betrachtungen",
+              "numberLabel": "Sure 1"
+            },
+            {
               "id": "112:extended",
               "title": "Sure Al-Ikhlas – Betrachtungen",
               "numberLabel": "Sure 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Geprüfte Ausgabe. Neue Inhalte warten auf die Freigabeprüfung; nur die aufgeführten Inhalte sind enthalten."
+          ]
         },
         {
           "language": "de",
           "collection": "hadith",
-          "title": "Hadith · Allahs Größe und ihre Wirkung auf Herz und Handeln (+2)",
-          "cover": "assets/covers/614a194088098ccff841cdcb9441f9f9fe2c362bd498df398b1293e650d93344.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_de_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_de_hadith.pdf",
-          "sha256": "c263372331707458d5d68b2589f4c27ec74f19fde74f3b07cb5fc86d440a4faf",
-          "pdfSha256": "614a194088098ccff841cdcb9441f9f9fe2c362bd498df398b1293e650d93344",
-          "units": 3,
-          "pages": 16,
+          "title": "Hadith · Allahs Gerechtigkeit und Unabhängigkeit – Seine Diener sind auf Ihn angewiesen (+3)",
+          "cover": "assets/covers/be0c54fbae8515e16dbf9bdec0fc4085125e16d568f03ebf4ffbafe7f8a0f478.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_de_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_de_hadith.pdf",
+          "sha256": "323b81564501fc7008ebde6271335fa3caa5e0d9dc8cffcf15ca03cdb3c39294",
+          "pdfSha256": "be0c54fbae8515e16dbf9bdec0fc4085125e16d568f03ebf4ffbafe7f8a0f478",
+          "units": 4,
+          "pages": 30,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -9647,11 +9294,16 @@
               "essential-01-004"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -9665,20 +9317,7 @@
                 4
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-de/001.json",
-                  "markdown": "materials/hadith/essential-de/001.md"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -9686,14 +9325,13 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Enthalten: Hadith 2–4",
-              "statusLabel": "Teilausgabe",
-              "notes": [
-                "Aktualisiertes Buch ausstehend: Hadith 1"
-              ],
+              "includedLabel": "Enthalten: Hadith 1–4",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "Hadith 1",
                 "essential-01-002": "Hadith 2",
                 "essential-01-003": "Hadith 3",
                 "essential-01-004": "Hadith 4"
@@ -9701,6 +9339,11 @@
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "Allahs Gerechtigkeit und Unabhängigkeit – Seine Diener sind auf Ihn angewiesen",
+              "numberLabel": "Hadith 1"
+            },
             {
               "id": "essential-01-002",
               "title": "Allahs Größe und ihre Wirkung auf Herz und Handeln",
@@ -9716,24 +9359,13 @@
               "title": "Im Glauben standhaft bleiben und ein abirrendes Herz erkennen",
               "numberLabel": "Hadith 4"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003",
-              "essential-01-004"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Geprüfte Ausgabe. Neue Inhalte warten auf die Freigabeprüfung; nur die aufgeführten Inhalte sind enthalten."
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_de_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_de_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_de_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_de_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_de_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_de_all-books.pdf",
         "parts": 2
       }
     },
@@ -9756,14 +9388,14 @@
         {
           "language": "zh-CN",
           "collection": "tadabbur-extended",
-          "title": "古兰经参悟 · 《忠诚章》默想",
-          "cover": "assets/covers/880a1b60bd205c74c14d2ecead2ce173ba8f99e71dfdbd6c7120ba381481defa.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_zh-CN_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_zh-CN_tadabbur-extended.pdf",
-          "sha256": "eca0ce4834d688429f0edffeb9487a3d26b6ed694bd0c955babb2d5aff34c23a",
-          "pdfSha256": "880a1b60bd205c74c14d2ecead2ce173ba8f99e71dfdbd6c7120ba381481defa",
-          "units": 1,
-          "pages": 14,
+          "title": "古兰经参悟",
+          "cover": "assets/covers/c93f3a86ca83d5f32fece37a42fb71d83dd28e7b052f081d21220a9fb6cb40e2.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_zh-CN_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_zh-CN_tadabbur-extended.pdf",
+          "sha256": "770cf7fb5cab7c88b3644d1c08f3cebec4a8ea13e24a5961c56212bb0091daaa",
+          "pdfSha256": "c93f3a86ca83d5f32fece37a42fb71d83dd28e7b052f081d21220a9fb6cb40e2",
+          "units": 2,
+          "pages": 23,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -9782,22 +9414,14 @@
               "112:extended"
             ],
             "includedIds": [
+              "fatiha-extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "fatiha-extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fatiha-extended/zh-CN/reading.json",
-                  "markdown": "materials/tadabbur/fatiha-extended/zh-CN/reading.md"
-                },
-                "number": 1
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -9805,34 +9429,29 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "收录内容: 章 112",
-              "statusLabel": "部分收录版",
-              "notes": [
-                "等待更新后的书籍: 章 1"
-              ],
+              "includedLabel": "收录内容: 章 1, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "fatiha-extended": "章 1",
                 "112:extended": "章 112"
               }
             }
           },
           "contents": [
             {
+              "id": "fatiha-extended",
+              "title": "《开端》章深思：详细课",
+              "numberLabel": "章 1"
+            },
+            {
               "id": "112:extended",
               "title": "《忠诚章》默想",
               "numberLabel": "章 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "已核验版本。新增资料尚待发布检查；本版仅收录所列内容。"
+          ]
         },
         {
           "language": "zh-CN",
@@ -9919,9 +9538,9 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_zh-CN_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_zh-CN_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_zh-CN_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_zh-CN_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_zh-CN_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_zh-CN_all-books.pdf",
         "parts": 2
       }
     },
@@ -9944,14 +9563,14 @@
         {
           "language": "uz",
           "collection": "tadabbur-extended",
-          "title": "Qurʼon Tadabburi · Ixlos surasi — ma’nolari ustida tafakkur",
-          "cover": "assets/covers/eb9677baadeccd7e348d2330bdbcafeb31996cc798a7adfd2aa0c51a12edab0e.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_uz_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_uz_tadabbur-extended.pdf",
-          "sha256": "a79d41198c566707774c878ecb4434dc56b67686587fe19d84378065c4670954",
-          "pdfSha256": "eb9677baadeccd7e348d2330bdbcafeb31996cc798a7adfd2aa0c51a12edab0e",
-          "units": 1,
-          "pages": 21,
+          "title": "Qurʼon Tadabburi",
+          "cover": "assets/covers/9f30038d9109e01e30417dc636099349aa75109383e86e8f6732c7843ff75d01.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_tadabbur-extended.pdf",
+          "sha256": "142fcd21eefc05b889c924a24f8f1b460c3abc0784b5a5425354385eaeef73d7",
+          "pdfSha256": "9f30038d9109e01e30417dc636099349aa75109383e86e8f6732c7843ff75d01",
+          "units": 2,
+          "pages": 30,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -9970,22 +9589,14 @@
               "112:extended"
             ],
             "includedIds": [
+              "fatiha-extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "fatiha-extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fatiha-extended/uz/reading.json",
-                  "markdown": "materials/tadabbur/fatiha-extended/uz/reading.md"
-                },
-                "number": 1
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -9993,46 +9604,41 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Kiritilgan: Sura 112",
-              "statusLabel": "Qisman nashr",
-              "notes": [
-                "Yangilangan kitob kutilmoqda: Sura 1"
-              ],
+              "includedLabel": "Kiritilgan: Sura 1, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "fatiha-extended": "Sura 1",
                 "112:extended": "Sura 112"
               }
             }
           },
           "contents": [
             {
+              "id": "fatiha-extended",
+              "title": "Фотиҳа: батафсил мулоҳазалар",
+              "numberLabel": "Sura 1"
+            },
+            {
               "id": "112:extended",
               "title": "Ixlos surasi — ma’nolari ustida tafakkur",
               "numberLabel": "Sura 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Tekshirilgan nashr. Yangi materiallar nashr tekshiruvini kutmoqda; faqat ro‘yxatdagi mazmun kiritilgan."
+          ]
         },
         {
           "language": "uz",
           "collection": "hadith",
-          "title": "Hadis · Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири (+2)",
-          "cover": "assets/covers/bd714acf82ba2e1a2d7aa07e83f328f85ce085598beaaf18d650a4132ade3848.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_uz_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_uz_hadith.pdf",
-          "sha256": "f7190cf40019bbc2a0f1e3283c896756bb45f4187a3da85bcae586edeab8c45e",
-          "pdfSha256": "bd714acf82ba2e1a2d7aa07e83f328f85ce085598beaaf18d650a4132ade3848",
-          "units": 3,
-          "pages": 15,
+          "title": "Hadis · Аллоҳнинг адолати ва беҳожатлиги, бандаларининг Унга муҳтожлиги (+3)",
+          "cover": "assets/covers/c09056e470d32917698988cb1951d6185745879754269e2435aa4f413edec104.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_hadith.pdf",
+          "sha256": "4ff2e142f000a3c15b0c12447374e28e73bfb8ed2ab46266b0667bf1a3e193c0",
+          "pdfSha256": "c09056e470d32917698988cb1951d6185745879754269e2435aa4f413edec104",
+          "units": 4,
+          "pages": 167,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -10057,11 +9663,16 @@
               "essential-01-004"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -10075,20 +9686,7 @@
                 4
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-uz/001.json",
-                  "markdown": "materials/hadith/essential-uz/001.md"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -10096,14 +9694,13 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Kiritilgan: Hadis 2–4",
-              "statusLabel": "Qisman nashr",
-              "notes": [
-                "Yangilangan kitob kutilmoqda: Hadis 1"
-              ],
+              "includedLabel": "Kiritilgan: Hadis 1–4",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "Hadis 1",
                 "essential-01-002": "Hadis 2",
                 "essential-01-003": "Hadis 3",
                 "essential-01-004": "Hadis 4"
@@ -10111,6 +9708,11 @@
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "Аллоҳнинг адолати ва беҳожатлиги, бандаларининг Унга муҳтожлиги",
+              "numberLabel": "Hadis 1"
+            },
             {
               "id": "essential-01-002",
               "title": "Аллоҳнинг улуғлиги ва унинг қалб ҳамда амалга таъсири",
@@ -10126,24 +9728,13 @@
               "title": "Dinda sobit turish va og‘gan qalb sifatlarini bilish",
               "numberLabel": "Hadis 4"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003",
-              "essential-01-004"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Tekshirilgan nashr. Yangi materiallar nashr tekshiruvini kutmoqda; faqat ro‘yxatdagi mazmun kiritilgan."
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_uz_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_uz_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_uz_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_uz_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_uz_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_uz_all-books.pdf",
         "parts": 2
       }
     },
@@ -10166,14 +9757,14 @@
         {
           "language": "th",
           "collection": "tadabbur-extended",
-          "title": "บทใคร่ครวญ อัลกุรอาน · ใคร่ครวญซูเราะฮ์อัลอิคลาศ",
-          "cover": "assets/covers/9613db9394bea928482f0a7a3b778ded30ca9ece634ec2646cba39a0e76a400a.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_th_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_th_tadabbur-extended.pdf",
-          "sha256": "11654556aa031f0ea8a3c7d90b174e7b7e6c3f275fa13c09a492f5d8dc9ad45c",
-          "pdfSha256": "9613db9394bea928482f0a7a3b778ded30ca9ece634ec2646cba39a0e76a400a",
-          "units": 1,
-          "pages": 19,
+          "title": "บทใคร่ครวญ อัลกุรอาน",
+          "cover": "assets/covers/462210493bc4cc445b695fb3fb76ea88f8cef0bd81b80edaebefebc1a169b689.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_th_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_th_tadabbur-extended.pdf",
+          "sha256": "d6de5ba37b16b649755b5bb0c6efdd7b5ad208f1eacb06115921f35767cdb68a",
+          "pdfSha256": "462210493bc4cc445b695fb3fb76ea88f8cef0bd81b80edaebefebc1a169b689",
+          "units": 2,
+          "pages": 24,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -10192,22 +9783,14 @@
               "112:extended"
             ],
             "includedIds": [
+              "fatiha-extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "fatiha-extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fatiha-extended/th/reading.json",
-                  "markdown": "materials/tadabbur/fatiha-extended/th/reading.md"
-                },
-                "number": 1
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -10215,34 +9798,29 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "เนื้อหาที่รวมไว้: สูเราะฮ์ 112",
-              "statusLabel": "ฉบับที่รวมเนื้อหาบางส่วน",
-              "notes": [
-                "รอหนังสือฉบับปรับปรุง: สูเราะฮ์ 1"
-              ],
+              "includedLabel": "เนื้อหาที่รวมไว้: สูเราะฮ์ 1, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "fatiha-extended": "สูเราะฮ์ 1",
                 "112:extended": "สูเราะฮ์ 112"
               }
             }
           },
           "contents": [
             {
+              "id": "fatiha-extended",
+              "title": "ใคร่ครวญอัลฟาติหะฮ์ — บทเรียนฉบับละเอียด",
+              "numberLabel": "สูเราะฮ์ 1"
+            },
+            {
               "id": "112:extended",
               "title": "ใคร่ครวญซูเราะฮ์อัลอิคลาศ",
               "numberLabel": "สูเราะฮ์ 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "ฉบับที่ตรวจสอบแล้ว เนื้อหาใหม่กำลังรอการตรวจสอบก่อนเผยแพร่ ฉบับนี้มีเฉพาะเนื้อหาที่ระบุไว้เท่านั้น"
+          ]
         },
         {
           "language": "th",
@@ -10329,9 +9907,9 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_th_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_th_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_th_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_th_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_th_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_th_all-books.pdf",
         "parts": 2
       }
     },
@@ -10355,13 +9933,13 @@
           "language": "vi",
           "collection": "tadabbur-extended",
           "title": "Suy ngẫm về Kinh Qur’an",
-          "cover": "assets/covers/bfa6d15ac1e3b1bc31c36e04535d15a5323b0238b8f7190f58f4bce83224ce25.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-vi112-42354197246-1/Iman_Companion_vi_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-vi112-42354197246-1/Iman_Companion_vi_tadabbur-extended.pdf",
-          "sha256": "92486ba98a6ae1099143cde94da88a474a28fe674a5b2af77d9a8338e82481e6",
-          "pdfSha256": "bfa6d15ac1e3b1bc31c36e04535d15a5323b0238b8f7190f58f4bce83224ce25",
-          "units": 1,
-          "pages": 21,
+          "cover": "assets/covers/85b7d0f8c0539cb52c9cbe6d2d4b09d5f0cd51ab19f50e200ca4d8db979ae9b6.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_vi_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_vi_tadabbur-extended.pdf",
+          "sha256": "36811ef0ae9276ecefd44c5863bab6358f0b5261db5b6db7c63e0854b3db5c88",
+          "pdfSha256": "85b7d0f8c0539cb52c9cbe6d2d4b09d5f0cd51ab19f50e200ca4d8db979ae9b6",
+          "units": 2,
+          "pages": 29,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -10380,22 +9958,14 @@
               "112:extended"
             ],
             "includedIds": [
+              "fatiha-extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "fatiha-extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fatiha-extended/vi/reading.json",
-                  "markdown": "materials/tadabbur/fatiha-extended/vi/reading.md"
-                },
-                "number": 1
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -10403,34 +9973,29 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Nội dung có trong sách: Chương 112",
-              "statusLabel": "Ấn bản một phần",
-              "notes": [
-                "Đang chờ sách cập nhật: Chương 1"
-              ],
+              "includedLabel": "Nội dung có trong sách: Chương 1, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "fatiha-extended": "Chương 1",
                 "112:extended": "Chương 112"
               }
             }
           },
           "contents": [
             {
+              "id": "fatiha-extended",
+              "title": "Suy ngẫm Al-Fatihah — Bài chi tiết",
+              "numberLabel": "Chương 1"
+            },
+            {
               "id": "112:extended",
               "title": "Suy ngẫm chương Al-Ikhlas",
               "numberLabel": "Chương 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Ấn bản đã được kiểm tra. Tài liệu mới đang chờ kiểm tra trước khi phát hành; chỉ có những nội dung đã liệt kê."
+          ]
         },
         {
           "language": "vi",
@@ -10517,9 +10082,9 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_vi_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_vi_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_vi_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_vi_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_vi_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_vi_all-books.pdf",
         "parts": 2
       }
     },
@@ -10542,14 +10107,14 @@
         {
           "language": "ja",
           "collection": "tadabbur-extended",
-          "title": "クルアーンの 考察 · イフラース章を思い巡らす",
-          "cover": "assets/covers/e960b71c71c7db02d9fc89a176c88a611ad41087d64de028f9e68f9948d9719d.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_ja_tadabbur-extended.pdf",
-          "sha256": "df997aa7d1f54d6db0b11fa742681f17e45fb27fba861d3fd6223983faed5bb6",
-          "pdfSha256": "e960b71c71c7db02d9fc89a176c88a611ad41087d64de028f9e68f9948d9719d",
-          "units": 1,
-          "pages": 20,
+          "title": "クルアーンの 考察",
+          "cover": "assets/covers/ba122cedbfa625f333ae71a5f32118708836b082c62ddfb379ca63e3a5333c6d.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ja_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ja_tadabbur-extended.pdf",
+          "sha256": "51e5d913c147ffcbddceb071b9a4b7f37772c9eab6e3b9857948b148ef2cb22c",
+          "pdfSha256": "ba122cedbfa625f333ae71a5f32118708836b082c62ddfb379ca63e3a5333c6d",
+          "units": 3,
+          "pages": 87,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -10571,31 +10136,16 @@
               "112:extended"
             ],
             "includedIds": [
+              "fatiha-extended",
+              "75:extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "fatiha-extended": 1,
+              "75:extended": 75,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "fatiha-extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fatiha-extended/ja/reading.json",
-                  "markdown": "materials/tadabbur/fatiha-extended/ja/reading.md"
-                },
-                "number": 1
-              },
-              {
-                "id": "75:extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/ja/extended/075.json",
-                  "markdown": "materials/tadabbur/ja/extended/075.md"
-                },
-                "number": 75
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -10603,34 +10153,35 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "収録: 章 112",
-              "statusLabel": "一部収録版",
-              "notes": [
-                "更新版の公開待ち: 章 1, 75"
-              ],
+              "includedLabel": "収録: 章 1, 75, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "fatiha-extended": "章 1",
+                "75:extended": "章 75",
                 "112:extended": "章 112"
               }
             }
           },
           "contents": [
             {
+              "id": "fatiha-extended",
+              "title": "開端章の熟考　詳細版",
+              "numberLabel": "章 1"
+            },
+            {
+              "id": "75:extended",
+              "title": "アル＝キヤーマ章の熟考",
+              "numberLabel": "章 75"
+            },
+            {
               "id": "112:extended",
               "title": "イフラース章を思い巡らす",
               "numberLabel": "章 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "確認済みの版です。新しい資料は公開前の確認を待っています。本版には記載された内容のみが収録されています。"
+          ]
         },
         {
           "language": "ja",
@@ -10731,9 +10282,9 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ja_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ja_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_ja_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ja_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ja_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ja_all-books.pdf",
         "parts": 2
       }
     },
@@ -10757,13 +10308,13 @@
           "language": "fil",
           "collection": "tadabbur-extended",
           "title": "Pagninilay sa Quran",
-          "cover": "assets/covers/aac04c4ecc26a94ab3f9e68386d01ac971fe08be31af018d1142338a9f7635ae.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-fil112-42351274157-1/Iman_Companion_fil_tadabbur-extended.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-fil112-42351274157-1/Iman_Companion_fil_tadabbur-extended.pdf",
-          "sha256": "672413a3ac06f38c837d932f4207d0a9f548bf295fb623ed737ba42fe17c136c",
-          "pdfSha256": "aac04c4ecc26a94ab3f9e68386d01ac971fe08be31af018d1142338a9f7635ae",
-          "units": 1,
-          "pages": 25,
+          "cover": "assets/covers/1940729c0351fca4f6b7f65ff6205c4151641cd224baf57c7be6b6f27def4917.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fil_tadabbur-extended.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fil_tadabbur-extended.pdf",
+          "sha256": "4fdb85924b6e471b616baa41a884eed7d22109ac336166b71257b1c6970b21e2",
+          "pdfSha256": "1940729c0351fca4f6b7f65ff6205c4151641cd224baf57c7be6b6f27def4917",
+          "units": 2,
+          "pages": 35,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -10782,22 +10333,14 @@
               "112:extended"
             ],
             "includedIds": [
+              "fatiha-extended",
               "112:extended"
             ],
             "includedNumbers": {
+              "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [
-              {
-                "id": "fatiha-extended",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/tadabbur/fatiha-extended/fil/reading.json",
-                  "markdown": "materials/tadabbur/fatiha-extended/fil/reading.md"
-                },
-                "number": 1
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -10805,46 +10348,41 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Kasama: Kabanata 112",
-              "statusLabel": "Bahagyang edisyon",
-              "notes": [
-                "Hinihintay ang na-update na aklat: Kabanata 1"
-              ],
+              "includedLabel": "Kasama: Kabanata 1, 112",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "fatiha-extended": "Kabanata 1",
                 "112:extended": "Kabanata 112"
               }
             }
           },
           "contents": [
             {
+              "id": "fatiha-extended",
+              "title": "Pagninilay sa Al-Fātiḥah — Detalyadong Aralin",
+              "numberLabel": "Kabanata 1"
+            },
+            {
               "id": "112:extended",
               "title": "Pagbubulay-bulay sa Kabanatang Al-Ikhlas",
               "numberLabel": "Kabanata 112"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "112:extended"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Nasuring edisyon. Hinihintay ng bagong materyal ang pagsusuri bago ilathala; ang nakalistang nilalaman lamang ang kasama."
+          ]
         },
         {
           "language": "fil",
           "collection": "hadith",
-          "title": "Hadith · Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa (+1)",
-          "cover": "assets/covers/e20bdfa13d8eba01af8bffaa2e076212f03732dc7fd09a1bdd7ff8838dcc8da0.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_fil_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_fil_hadith.pdf",
-          "sha256": "e070f6ba9cb01b190da9a286365b6f1a83eaffaa5a9022b197249b7118f43f97",
-          "pdfSha256": "e20bdfa13d8eba01af8bffaa2e076212f03732dc7fd09a1bdd7ff8838dcc8da0",
-          "units": 2,
-          "pages": 13,
+          "title": "Hadith · Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa (+2)",
+          "cover": "assets/covers/86ed5fd7fa39e2137f2af70fa33159bc04b6c4f08528d4251889b34830a58eca.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fil_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fil_hadith.pdf",
+          "sha256": "35ae5a36b8f4d0962f76d38f9687265da5a36d04f39193498f9493f10afc1828",
+          "pdfSha256": "86ed5fd7fa39e2137f2af70fa33159bc04b6c4f08528d4251889b34830a58eca",
+          "units": 3,
+          "pages": 23,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -10867,7 +10405,8 @@
             ],
             "includedIds": [
               "essential-01-002",
-              "essential-01-003"
+              "essential-01-003",
+              "essential-01-005"
             ],
             "includedNumbers": {
               "essential-01-002": [
@@ -10877,22 +10416,13 @@
               "essential-01-003": [
                 1,
                 3
+              ],
+              "essential-01-005": [
+                1,
+                5
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-005",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-fil/005.json",
-                  "markdown": "materials/hadith/essential-fil/005.txt"
-                },
-                "number": [
-                  1,
-                  5
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [
               {
                 "id": "essential-01-001",
@@ -10915,15 +10445,15 @@
             "sourceQualificationsChanged": false,
             "state": "partial",
             "presentation": {
-              "includedLabel": "Kasama: Hadith 2–3",
+              "includedLabel": "Kasama: Hadith 2–3, 5",
               "statusLabel": "Bahagyang edisyon",
               "notes": [
-                "Hinihintay ang na-update na aklat: Hadith 5",
                 "Walang kasalukuyang sanggunian sa wikang ito: Hadith 1, 4"
               ],
               "unitLabels": {
                 "essential-01-002": "Hadith 2",
-                "essential-01-003": "Hadith 3"
+                "essential-01-003": "Hadith 3",
+                "essential-01-005": "Hadith 5"
               }
             }
           },
@@ -10937,27 +10467,22 @@
               "id": "essential-01-003",
               "title": "Ang mga puso ay nasa ilalim ng pamamahala ng Napakamaawain",
               "numberLabel": "Hadith 3"
+            },
+            {
+              "id": "essential-01-005",
+              "title": "Si Allāh ang Una, at ang pangangailangan ng mga nilikha sa Kanya",
+              "numberLabel": "Hadith 5"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Nasuring edisyon. Hinihintay ng bagong materyal ang pagsusuri bago ilathala; ang nakalistang nilalaman lamang ang kasama."
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_fil_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_fil_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_fil_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fil_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fil_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fil_all-books.pdf",
         "parts": 2
       }
     }
   },
-  "updated": "2026-11-09T09:27:43+00:00"
+  "updated": "2026-11-09T10:13:38+00:00"
 }

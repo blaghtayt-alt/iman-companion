@@ -7,50 +7,51 @@
 
 | বই | সম্পাদনাযোগ্য বই (Word) | পাঠের অনুলিপি (PDF) | অন্তর্ভুক্ত বিষয় |
 | --- | --- | --- | --- |
-| কুরআনের তাদাব্বুর · সূরা আল-ইখলাস — ভাবনা ও অনুধাবন | [সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_bn_tadabbur-extended.docx) | [পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-five112-42359302467-1/Iman_Companion_bn_tadabbur-extended.pdf) | ১ · অন্তর্ভুক্ত: সূরা ১১২ |
-| হাদিস · আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব (+1) | [সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_bn_hadith.docx) | [পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_bn_hadith.pdf) | ২ · অন্তর্ভুক্ত: হাদিস ২–৩ |
+| কুরআনের তাদাব্বুর | [সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_tadabbur-extended.docx) | [পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_tadabbur-extended.pdf) | ১৫ · অন্তর্ভুক্ত: সূরা ১, ১৫, ১৭, ৪০, ৫৫, ৬১–৬৩, ৬৮, ৯৩, ৯৮–৯৯, ১০১, ১০৩, ১১২ |
+| হাদিস · আল্লাহর ন্যায়বিচার ও অমুখাপেক্ষিতা এবং তাঁর প্রতি বান্দাদের নির্ভরতা (+2) | [সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_hadith.docx) | [পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_hadith.pdf) | ৩ · অন্তর্ভুক্ত: হাদিস ১–৩ |
 | সীরাত | প্রস্তুত হচ্ছে | প্রস্তুত হচ্ছে | — |
 | প্রবন্ধ | প্রস্তুত হচ্ছে | প্রস্তুত হচ্ছে | — |
 
-## কুরআনের তাদাব্বুর · সূরা আল-ইখলাস — ভাবনা ও অনুধাবন
+## কুরআনের তাদাব্বুর
 
+- সূরা ১
+- সূরা ১৫ · উপলব্ধ আয়াত
+- সূরা ১৭ · উপলব্ধ আয়াত
+- সূরা ৪০ · উপলব্ধ আয়াত
+- সূরা পরম করুণাময় · উপলব্ধ আয়াত
+- সূরা ৬১
+- সূরা ৬২
+- সূরা ৬৩
+- সূরা কলম · উপলব্ধ আয়াত
+- সূরা ৯৩
+- সূরা ৯৮
+- সূরা ৯৯
+- সূরা ১০১
+- সূরা ১০৩
 - সূরা আল-ইখলাস — ভাবনা ও অনুধাবন
 
-## যাচাইকৃত সংস্করণ। নতুন উপকরণ প্রকাশের যাচাইয়ের অপেক্ষায় আছে; কেবল তালিকাভুক্ত বিষয়গুলো এতে রয়েছে।
+## হাদিস · আল্লাহর ন্যায়বিচার ও অমুখাপেক্ষিতা এবং তাঁর প্রতি বান্দাদের নির্ভরতা (+2)
 
-
-## হাদিস · আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব (+1)
-
+- আল্লাহর ন্যায়বিচার ও অমুখাপেক্ষিতা এবং তাঁর প্রতি বান্দাদের নির্ভরতা
 - আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব
 - অন্তরসমূহ পরম দয়াময়ের নিয়ন্ত্রণাধীন
 
-## যাচাইকৃত সংস্করণ। নতুন উপকরণ প্রকাশের যাচাইয়ের অপেক্ষায় আছে; কেবল তালিকাভুক্ত বিষয়গুলো এতে রয়েছে।
+### কুরআনের তাদাব্বুর
 
+অন্তর্ভুক্ত: সূরা ১, ১৫, ১৭, ৪০, ৫৫, ৬১–৬৩, ৬৮, ৯৩, ৯৮–৯৯, ১০১, ১০৩, ১১২
 
-### কুরআনের তাদাব্বুর · সূরা আল-ইখলাস — ভাবনা ও অনুধাবন
+### হাদিস · আল্লাহর ন্যায়বিচার ও অমুখাপেক্ষিতা এবং তাঁর প্রতি বান্দাদের নির্ভরতা (+2)
 
-অন্তর্ভুক্ত: সূরা ১১২
-
-আংশিক সংস্করণ
-
-- বইয়ের হালনাগাদ সংস্করণের অপেক্ষায়: সূরা ১, ১৫, ১৭, ৪০, ৫৫, ৬১–৬৩, ৬৮, ৯৩, ৯৮–৯৯, ১০১, ১০৩
-
-### হাদিস · আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব (+1)
-
-অন্তর্ভুক্ত: হাদিস ২–৩
-
-আংশিক সংস্করণ
-
-- বইয়ের হালনাগাদ সংস্করণের অপেক্ষায়: হাদিস ১
+অন্তর্ভুক্ত: হাদিস ১–৩
 
 ## একসঙ্গে ডাউনলোড করুন
 
 একটি সম্মিলিত বই
 
-[সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_bn_all-books.docx)
+[সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.docx)
 
-[পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_bn_all-books.pdf)
+[পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.pdf)
 
-[আলাদা বইগুলোর জিপ ফাইল](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_bn_all-books.zip)
+[আলাদা বইগুলোর জিপ ফাইল](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.zip)
 
 কৃত্রিম বুদ্ধিমত্তার সহায়তায় অনূদিত — যাচাই প্রয়োজন। মডেলের সাহায্যে করা পরীক্ষা কোনো যোগ্য পাঠকের পর্যালোচনার বিকল্প নয়।
