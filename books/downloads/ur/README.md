@@ -9,8 +9,8 @@
 | --- | --- | --- | --- |
 | تدبرِ قرآن | [قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_tadabbur-extended.docx) | [مطالعے کی نقل ڈاؤن لوڈ کریں (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_tadabbur-extended.pdf) | ۱۵ · شامل مواد: سورۃ ۱, ۱۵, ۱۷, ۴۰, ۵۵, ۶۱–۶۳, ۶۸, ۹۳, ۹۸–۹۹, ۱۰۱, ۱۰۳, ۱۱۲ |
 | حدیث · اللہ کا عدل، اس کی بے نیازی اور بندوں کا اس کے محتاج ہونا (+2) | [قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_hadith.docx) | [مطالعے کی نقل ڈاؤن لوڈ کریں (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_hadith.pdf) | ۳ · شامل مواد: حدیث ۱–۳ |
-| سیرت | تیاری جاری ہے | تیاری جاری ہے | — |
-| مضامین | تیاری جاری ہے | تیاری جاری ہے | — |
+| سیرت | ابھی شائع نہیں ہوا | ابھی شائع نہیں ہوا | — |
+| مضامین | ابھی شائع نہیں ہوا | ابھی شائع نہیں ہوا | — |
 
 ## تدبرِ قرآن
 

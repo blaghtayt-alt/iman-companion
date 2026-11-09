@@ -9,8 +9,8 @@ Français
 | --- | --- | --- | --- |
 | Réflexion sur le Coran | [Télécharger le livre modifiable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1/Iman_Companion_fr_tadabbur-extended.docx) | [Télécharger la version de lecture (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1/Iman_Companion_fr_tadabbur-extended.pdf) | 15 · Inclus: Sourate 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadith · La grandeur d’Allah et ses effets sur le cœur et les actes (+2) | [Télécharger le livre modifiable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fr_hadith.docx) | [Télécharger la version de lecture (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fr_hadith.pdf) | 3 · Inclus: Hadith 2–4 |
-| Sîra | En préparation | En préparation | — |
-| Articles | En préparation | En préparation | — |
+| Sîra | Pas encore disponible | Pas encore disponible | — |
+| Articles | Pas encore disponible | Pas encore disponible | — |
 
 ## Réflexion sur le Coran
 

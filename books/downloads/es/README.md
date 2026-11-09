@@ -9,8 +9,8 @@ Español
 | --- | --- | --- | --- |
 | Reflexión sobre el Corán | [Descargar libro editable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_tadabbur-extended.docx) | [Descargar versión de lectura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_tadabbur-extended.pdf) | 2 · Incluido: Sura 1, 112 |
 | Hadiz · La justicia de Allah, Su autosuficiencia y la necesidad que Sus siervos tienen de Él (+3) | [Descargar libro editable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_hadith.docx) | [Descargar versión de lectura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_hadith.pdf) | 4 · Incluido: Hadiz 1–4 |
-| Sira | En preparación | En preparación | — |
-| Artículos | En preparación | En preparación | — |
+| Sira | Aún no disponible | Aún no disponible | — |
+| Artículos | Aún no disponible | Aún no disponible | — |
 
 ## Reflexión sobre el Corán
 

@@ -9,8 +9,8 @@ Português
 | --- | --- | --- | --- |
 | Reflexão sobre o Alcorão | [Baixar livro editável (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_tadabbur-extended.docx) | [Baixar versão de leitura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_tadabbur-extended.pdf) | 15 · Incluído: Surata 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadith · A justiça de Allah, Sua autossuficiência e a dependência de Seus servos (+3) | [Baixar livro editável (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_hadith.docx) | [Baixar versão de leitura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_hadith.pdf) | 4 · Incluído: Hadith 1–4 |
-| Sira | Em preparação | Em preparação | — |
-| Artigos | Em preparação | Em preparação | — |
+| Sira | Ainda não disponível | Ainda não disponível | — |
+| Artigos | Ainda não disponível | Ainda não disponível | — |
 
 ## Reflexão sobre o Alcorão
 

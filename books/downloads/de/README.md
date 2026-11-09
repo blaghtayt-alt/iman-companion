@@ -9,8 +9,8 @@ Deutsch
 | --- | --- | --- | --- |
 | Betrachtung des Korans | [Bearbeitbares Buch herunterladen (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_de_tadabbur-extended.docx) | [Leseausgabe herunterladen (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_de_tadabbur-extended.pdf) | 2 · Enthalten: Sure 1, 112 |
 | Hadith · Allahs Gerechtigkeit und Unabhängigkeit – Seine Diener sind auf Ihn angewiesen (+3) | [Bearbeitbares Buch herunterladen (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_de_hadith.docx) | [Leseausgabe herunterladen (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_de_hadith.pdf) | 4 · Enthalten: Hadith 1–4 |
-| Sīra | In Vorbereitung | In Vorbereitung | — |
-| Artikel | In Vorbereitung | In Vorbereitung | — |
+| Sīra | Noch nicht verfügbar | Noch nicht verfügbar | — |
+| Artikel | Noch nicht verfügbar | Noch nicht verfügbar | — |
 
 ## Betrachtung des Korans
 

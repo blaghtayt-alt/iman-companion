@@ -9,8 +9,8 @@
 | --- | --- | --- | --- |
 | 古兰经参悟 | [下载可编辑书籍 (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_zh-CN_tadabbur-extended.docx) | [下载阅读版 (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_zh-CN_tadabbur-extended.pdf) | 2 · 收录内容: 章 1, 112 |
 | 圣训 · 安拉的伟大及其对内心与行为的影响 (+1) | [下载可编辑书籍 (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_zh-CN_hadith.docx) | [下载阅读版 (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_zh-CN_hadith.pdf) | 2 · 收录内容: 圣训 2–3 |
-| 先知生平 | 准备中 | 准备中 | — |
-| 文章 | 准备中 | 准备中 | — |
+| 先知生平 | 尚未发布 | 尚未发布 | — |
+| 文章 | 尚未发布 | 尚未发布 | — |
 
 ## 古兰经参悟
 

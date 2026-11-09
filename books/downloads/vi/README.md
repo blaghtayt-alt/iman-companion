@@ -9,8 +9,8 @@ Tiếng Việt
 | --- | --- | --- | --- |
 | Suy ngẫm về Kinh Qur’an | [Tải sách có thể chỉnh sửa (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_vi_tadabbur-extended.docx) | [Tải bản để đọc (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_vi_tadabbur-extended.pdf) | 2 · Nội dung có trong sách: Chương 1, 112 |
 | Hadith (Thánh huấn) · Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động (+1) | [Tải sách có thể chỉnh sửa (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_vi_hadith.docx) | [Tải bản để đọc (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_vi_hadith.pdf) | 2 · Nội dung có trong sách: Hadith 2–3 |
-| Tiểu sử Thiên Sứ | Đang chuẩn bị | Đang chuẩn bị | — |
-| Bài viết | Đang chuẩn bị | Đang chuẩn bị | — |
+| Tiểu sử Thiên Sứ | Chưa phát hành | Chưa phát hành | — |
+| Bài viết | Chưa phát hành | Chưa phát hành | — |
 
 ## Suy ngẫm về Kinh Qur’an
 

@@ -9,8 +9,8 @@ Bahasa Indonesia
 | --- | --- | --- | --- |
 | Tadabur Al-Qur’an | [Unduh buku yang dapat disunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_id_tadabbur-extended.docx) | [Unduh salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_id_tadabbur-extended.pdf) | 15 · Termasuk: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadis · Keadilan dan Kemahakayaan Allah serta Kebutuhan Hamba-hamba-Nya kepada-Nya (+3) | [Unduh buku yang dapat disunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_id_hadith.docx) | [Unduh salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_id_hadith.pdf) | 4 · Termasuk: Hadis 1–4 |
-| Sirah | Sedang disiapkan | Sedang disiapkan | — |
-| Artikel | Sedang disiapkan | Sedang disiapkan | — |
+| Sirah | Belum tersedia | Belum tersedia | — |
+| Artikel | Belum tersedia | Belum tersedia | — |
 
 ## Tadabur Al-Qur’an
 

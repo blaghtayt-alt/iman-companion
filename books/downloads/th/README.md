@@ -9,8 +9,8 @@
 | --- | --- | --- | --- |
 | บทใคร่ครวญ อัลกุรอาน | [ดาวน์โหลดหนังสือที่แก้ไขได้ (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_th_tadabbur-extended.docx) | [ดาวน์โหลดฉบับอ่าน (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_th_tadabbur-extended.pdf) | 2 · เนื้อหาที่รวมไว้: สูเราะฮ์ 1, 112 |
 | หะดีษ · ความยิ่งใหญ่ของอัลลอฮ์และผลต่อหัวใจและการปฏิบัติ (+1) | [ดาวน์โหลดหนังสือที่แก้ไขได้ (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_th_hadith.docx) | [ดาวน์โหลดฉบับอ่าน (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_th_hadith.pdf) | 2 · เนื้อหาที่รวมไว้: หะดีษ 2–3 |
-| ซีเราะฮ์ | กำลังจัดเตรียม | กำลังจัดเตรียม | — |
-| บทความ | กำลังจัดเตรียม | กำลังจัดเตรียม | — |
+| ซีเราะฮ์ | ยังไม่เผยแพร่ | ยังไม่เผยแพร่ | — |
+| บทความ | ยังไม่เผยแพร่ | ยังไม่เผยแพร่ | — |
 
 ## บทใคร่ครวญ อัลกุรอาน
 

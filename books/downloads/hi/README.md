@@ -9,8 +9,8 @@
 | --- | --- | --- | --- |
 | क़ुरआन पर चिंतन | [संपादन योग्य पुस्तक डाउनलोड करें (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_hi_tadabbur-extended.docx) | [पढ़ने की प्रति डाउनलोड करें (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_hi_tadabbur-extended.pdf) | २ · शामिल: सूरा १, ११२ |
 | हदीस · अल्लाह का न्याय, उसका किसी का मोहताज न होना और बंदों की उस पर निर्भरता (+2) | [संपादन योग्य पुस्तक डाउनलोड करें (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_hi_hadith.docx) | [पढ़ने की प्रति डाउनलोड करें (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_hi_hadith.pdf) | ३ · शामिल: हदीस १–३ |
-| सीरत | तैयार की जा रही है | तैयार की जा रही है | — |
-| लेख | तैयार की जा रही है | तैयार की जा रही है | — |
+| सीरत | अभी उपलब्ध नहीं है | अभी उपलब्ध नहीं है | — |
+| लेख | अभी उपलब्ध नहीं है | अभी उपलब्ध नहीं है | — |
 
 ## क़ुरआन पर चिंतन
 

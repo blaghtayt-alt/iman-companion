@@ -9,8 +9,8 @@
 | --- | --- | --- | --- |
 | クルアーンの 考察 | [編集可能な書籍をダウンロード (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ja_tadabbur-extended.docx) | [閲覧用の書籍をダウンロード (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ja_tadabbur-extended.pdf) | 3 · 収録: 章 1, 75, 112 |
 | ハディース · アッラーの偉大さが心と行いにもたらすもの (+2) | [編集可能な書籍をダウンロード (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ja_hadith.docx) | [閲覧用の書籍をダウンロード (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_ja_hadith.pdf) | 3 · 収録: ハディース 2–4 |
-| 預言者伝 | 準備中 | 準備中 | — |
-| 記事 | 準備中 | 準備中 | — |
+| 預言者伝 | 未公開 | 未公開 | — |
+| 記事 | 未公開 | 未公開 | — |
 
 ## クルアーンの 考察
 

@@ -9,8 +9,8 @@ Bahasa Melayu
 | --- | --- | --- | --- |
 | Tadabbur Al-Quran | [Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_tadabbur-extended.docx) | [Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_tadabbur-extended.pdf) | 15 · Disertakan: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadis · Keadilan Allah, sifat-Nya yang Maha Kaya dan kebergantungan hamba kepada-Nya (+3) | [Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_hadith.docx) | [Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_hadith.pdf) | 4 · Disertakan: Hadis 1–4 |
-| Sirah | Sedang disediakan | Sedang disediakan | — |
-| Artikel | Sedang disediakan | Sedang disediakan | — |
+| Sirah | Belum tersedia | Belum tersedia | — |
+| Artikel | Belum tersedia | Belum tersedia | — |
 
 ## Tadabbur Al-Quran
 

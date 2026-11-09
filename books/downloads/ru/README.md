@@ -9,8 +9,8 @@
 | --- | --- | --- | --- |
 | Размышление над Кораном | [Скачать редактируемую книгу (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ru_tadabbur-extended.docx) | [Скачать версию для чтения (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ru_tadabbur-extended.pdf) | 2 · Включено: Сура 1, 112 |
 | Хадис · Справедливость Аллаха, Его независимость от творений и их нужда в Нём (+3) | [Скачать редактируемую книгу (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ru_hadith.docx) | [Скачать версию для чтения (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ru_hadith.pdf) | 4 · Включено: Хадис 1–4 |
-| Сира | Готовится | Готовится | — |
-| Статьи | Готовится | Готовится | — |
+| Сира | Пока не опубликовано | Пока не опубликовано | — |
+| Статьи | Пока не опубликовано | Пока не опубликовано | — |
 
 ## Размышление над Кораном
 

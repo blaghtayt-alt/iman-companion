@@ -9,8 +9,8 @@
 | --- | --- | --- | --- |
 | تدبر در قرآن | [دریافت کتاب ویرایش‌پذیر (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fa_tadabbur-extended.docx) | [دریافت نسخهٔ مطالعه (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fa_tadabbur-extended.pdf) | ۲ · محتوای موجود: سوره ۱, ۱۱۲ |
 | حدیث · عدل و بی‌نیازی الله و نیازمندی بندگان به او (+3) | [دریافت کتاب ویرایش‌پذیر (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fa_hadith.docx) | [دریافت نسخهٔ مطالعه (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fa_hadith.pdf) | ۴ · محتوای موجود: حدیث ۱–۴ |
-| سیره | در حال آماده‌سازی | در حال آماده‌سازی | — |
-| مقاله‌ها | در حال آماده‌سازی | در حال آماده‌سازی | — |
+| سیره | هنوز منتشر نشده | هنوز منتشر نشده | — |
+| مقاله‌ها | هنوز منتشر نشده | هنوز منتشر نشده | — |
 
 ## تدبر در قرآن
 

@@ -9,8 +9,8 @@ English
 | --- | --- | --- | --- |
 | Quran Reflection | [Download editable book (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1/Iman_Companion_en_tadabbur-extended.docx) | [Download reading copy (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1/Iman_Companion_en_tadabbur-extended.pdf) | 15 · Included: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadith · Allah’s greatness and its effect on the heart and our deeds (+2) | [Download editable book (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.docx) | [Download reading copy (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.pdf) | 3 · Included: Hadith 2–4 |
-| Seerah | Preparing | Preparing | — |
-| Articles | Preparing | Preparing | — |
+| Seerah | Not yet published | Not yet published | — |
+| Articles | Not yet published | Not yet published | — |
 
 ## Quran Reflection
 

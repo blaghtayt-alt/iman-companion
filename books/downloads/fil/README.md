@@ -9,8 +9,8 @@ Filipino
 | --- | --- | --- | --- |
 | Pagninilay sa Quran | [I-download ang nae-edit na aklat (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fil_tadabbur-extended.docx) | [I-download ang kopyang pambasa (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fil_tadabbur-extended.pdf) | 2 · Kasama: Kabanata 1, 112 |
 | Hadith · Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa (+2) | [I-download ang nae-edit na aklat (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fil_hadith.docx) | [I-download ang kopyang pambasa (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_fil_hadith.pdf) | 3 · Kasama: Hadith 2–3, 5 |
-| Seerah | Inihahanda | Inihahanda | — |
-| Mga artikulo | Inihahanda | Inihahanda | — |
+| Seerah | Hindi pa nailalathala | Hindi pa nailalathala | — |
+| Mga artikulo | Hindi pa nailalathala | Hindi pa nailalathala | — |
 
 ## Pagninilay sa Quran
 

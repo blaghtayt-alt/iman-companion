@@ -9,8 +9,8 @@ Türkçe
 | --- | --- | --- | --- |
 | Kur’an Üzerine Tefekkür | [Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_tr_tadabbur-extended.docx) | [Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_tr_tadabbur-extended.pdf) | 15 · İçerilenler: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadis · Allah’ın büyüklüğü ve bunun kalbe ve davranışlara etkisi (+2) | [Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.docx) | [Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_tr_hadith.pdf) | 3 · İçerilenler: Hadis 2–4 |
-| Siyer | Hazırlanıyor | Hazırlanıyor | — |
-| Makaleler | Hazırlanıyor | Hazırlanıyor | — |
+| Siyer | Henüz yayımlanmadı | Henüz yayımlanmadı | — |
+| Makaleler | Henüz yayımlanmadı | Henüz yayımlanmadı | — |
 
 ## Kur’an Üzerine Tefekkür
 

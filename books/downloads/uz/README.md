@@ -9,8 +9,8 @@ O‘zbekcha
 | --- | --- | --- | --- |
 | Qurʼon Tadabburi | [Tahrirlanadigan kitobni yuklab olish (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_tadabbur-extended.docx) | [O‘qish nusxasini yuklab olish (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_tadabbur-extended.pdf) | 2 · Kiritilgan: Sura 1, 112 |
 | Hadis · Аллоҳнинг адолати ва беҳожатлиги, бандаларининг Унга муҳтожлиги (+3) | [Tahrirlanadigan kitobni yuklab olish (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_hadith.docx) | [O‘qish nusxasini yuklab olish (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_uz_hadith.pdf) | 4 · Kiritilgan: Hadis 1–4 |
-| Siyrat | Tayyorlanmoqda | Tayyorlanmoqda | — |
-| Maqolalar | Tayyorlanmoqda | Tayyorlanmoqda | — |
+| Siyrat | Hali nashr etilmagan | Hali nashr etilmagan | — |
+| Maqolalar | Hali nashr etilmagan | Hali nashr etilmagan | — |
 
 ## Qurʼon Tadabburi
 
