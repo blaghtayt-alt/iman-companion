@@ -55,7 +55,11 @@ with tempfile.TemporaryDirectory(dir=W,prefix='download-table-test-') as tmp:
  target=folder/Path(books[0]['file']).with_suffix('.pdf');saved=target.read_bytes();target.write_bytes(b'changed')
  rejects('Changed PDF asset',lambda:render(conf,index,folder,'example/fixture','test-only'));target.write_bytes(saved)
  x=deepcopy(index);x['books'].append(x['books'][0]);rejects('Duplicate book cell',lambda:render(conf,x,folder,'example/fixture','test-only'))
- x=deepcopy(index);x['books']=x['books'][:1];partial,_=render(conf,x,folder,'example/fixture','test-only');assert partial.count('/releases/download/')==2;passed('Missing books remain plain status text, without fake links')
+ x=deepcopy(index);x['books']=x['books'][:1];partial,partial_pages=render(conf,x,folder,'example/fixture','test-only');assert partial.count('/releases/download/')==2;passed('Missing books remain plain status text, without fake links')
+ assert '**1 of 80**' in partial and '**79** do not yet have' in partial
+ assert 'Seerah: 0/20' in partial and 'Articles: 0/20' in partial and 'Preparing' not in partial
+ assert '未公開' in partial_pages['ja'] and 'Not yet published' in partial_pages['en']
+ assert '**80 of 80**' in table and '**0** do not yet have' in table;passed('Availability counts distinguish published editions from a working table')
  rejects('Unmatched README markers',lambda:merge_readme(original+'\n'+MARKER_START,table))
  assert prepare(root,folder,'example/fixture','test-only','test-source')==20
  assert len(list((root/'books/downloads').glob('*/README.md')))==20;passed('Root README and 20 native pages prepared together')

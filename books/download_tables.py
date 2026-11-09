@@ -11,28 +11,28 @@ COLLECTIONS=['tadabbur-extended','hadith','seerah','articles']
 HEADERS=['Quran reflections · extended','Hadith · new extended','Seerah','Articles']
 MARKER_START='<!-- IMAN-BOOK-DOWNLOADS:START -->'
 MARKER_END='<!-- IMAN-BOOK-DOWNLOADS:END -->'
-# title, book, editable file, reading file, included units, preparing
+# title, book, editable file, reading file, included units, not yet published
 COPY={
-'en':['Book downloads','Book','Editable','Readable','Included items','Preparing'],
-'ar':['تنزيل الكتب','الكتاب','نسخة قابلة للتحرير','نسخة للقراءة','المواد المشمولة','قيد الإعداد'],
-'ur':['کتابیں ڈاؤن لوڈ کریں','کتاب','قابل تدوین کتاب','مطالعے کی نقل','شامل مواد','تیاری جاری ہے'],
-'id':['Unduhan buku','Buku','Buku yang dapat disunting','Salinan bacaan','Materi yang disertakan','Sedang disiapkan'],
-'ms':['Muat turun buku','Buku','Buku boleh sunting','Salinan bacaan','Bahan yang disertakan','Sedang disediakan'],
-'bn':['বই ডাউনলোড','বই','সম্পাদনাযোগ্য বই','পাঠের অনুলিপি','অন্তর্ভুক্ত বিষয়','প্রস্তুত হচ্ছে'],
-'tr':['Kitap indirmeleri','Kitap','Düzenlenebilir kitap','Okuma nüshası','İçerilen metinler','Hazırlanıyor'],
-'fr':['Téléchargement des livres','Livre','Livre modifiable','Version de lecture','Textes inclus','En préparation'],
-'pt-BR':['Downloads de livros','Livro','Livro editável','Versão de leitura','Textos incluídos','Em preparação'],
-'hi':['पुस्तकें डाउनलोड करें','पुस्तक','संपादन योग्य पुस्तक','पढ़ने की प्रति','शामिल सामग्री','तैयार की जा रही है'],
-'ru':['Скачать книги','Книга','Редактируемая книга','Версия для чтения','Включённые материалы','Готовится'],
-'es':['Descarga de libros','Libro','Libro editable','Versión de lectura','Textos incluidos','En preparación'],
-'fa':['دریافت کتاب‌ها','کتاب','کتاب ویرایش‌پذیر','نسخهٔ مطالعه','مطالب موجود','در حال آماده‌سازی'],
-'de':['Bücher herunterladen','Buch','Bearbeitbares Buch','Leseausgabe','Enthaltene Texte','In Vorbereitung'],
-'zh-CN':['书籍下载','书籍','可编辑书籍','阅读版','收录内容','准备中'],
-'uz':['Kitoblarni yuklab olish','Kitob','Tahrirlanadigan kitob','O‘qish nusxasi','Kiritilgan materiallar','Tayyorlanmoqda'],
-'th':['ดาวน์โหลดหนังสือ','หนังสือ','หนังสือที่แก้ไขได้','ฉบับอ่าน','เนื้อหาที่รวมไว้','กำลังจัดเตรียม'],
-'vi':['Tải sách','Sách','Sách có thể chỉnh sửa','Bản để đọc','Nội dung được đưa vào','Đang chuẩn bị'],
-'ja':['書籍のダウンロード','書籍','編集可能な書籍','閲覧用の書籍','収録内容','準備中'],
-'fil':['Mga aklat na mada-download','Aklat','Nae-edit na aklat','Kopyang pambasa','Mga nilalaman','Inihahanda']}
+'en':['Book downloads','Book','Editable','Readable','Included items','Not yet published'],
+'ar':['تنزيل الكتب','الكتاب','نسخة قابلة للتحرير','نسخة للقراءة','المواد المشمولة','لم يصدر بعد'],
+'ur':['کتابیں ڈاؤن لوڈ کریں','کتاب','قابل تدوین کتاب','مطالعے کی نقل','شامل مواد','ابھی شائع نہیں ہوا'],
+'id':['Unduhan buku','Buku','Buku yang dapat disunting','Salinan bacaan','Materi yang disertakan','Belum tersedia'],
+'ms':['Muat turun buku','Buku','Buku boleh sunting','Salinan bacaan','Bahan yang disertakan','Belum tersedia'],
+'bn':['বই ডাউনলোড','বই','সম্পাদনাযোগ্য বই','পাঠের অনুলিপি','অন্তর্ভুক্ত বিষয়','এখনও প্রকাশিত হয়নি'],
+'tr':['Kitap indirmeleri','Kitap','Düzenlenebilir kitap','Okuma nüshası','İçerilen metinler','Henüz yayımlanmadı'],
+'fr':['Téléchargement des livres','Livre','Livre modifiable','Version de lecture','Textes inclus','Pas encore disponible'],
+'pt-BR':['Downloads de livros','Livro','Livro editável','Versão de leitura','Textos incluídos','Ainda não disponível'],
+'hi':['पुस्तकें डाउनलोड करें','पुस्तक','संपादन योग्य पुस्तक','पढ़ने की प्रति','शामिल सामग्री','अभी उपलब्ध नहीं है'],
+'ru':['Скачать книги','Книга','Редактируемая книга','Версия для чтения','Включённые материалы','Пока не опубликовано'],
+'es':['Descarga de libros','Libro','Libro editable','Versión de lectura','Textos incluidos','Aún no disponible'],
+'fa':['دریافت کتاب‌ها','کتاب','کتاب ویرایش‌پذیر','نسخهٔ مطالعه','مطالب موجود','هنوز منتشر نشده'],
+'de':['Bücher herunterladen','Buch','Bearbeitbares Buch','Leseausgabe','Enthaltene Texte','Noch nicht verfügbar'],
+'zh-CN':['书籍下载','书籍','可编辑书籍','阅读版','收录内容','尚未发布'],
+'uz':['Kitoblarni yuklab olish','Kitob','Tahrirlanadigan kitob','O‘qish nusxasi','Kiritilgan materiallar','Hali nashr etilmagan'],
+'th':['ดาวน์โหลดหนังสือ','หนังสือ','หนังสือที่แก้ไขได้','ฉบับอ่าน','เนื้อหาที่รวมไว้','ยังไม่เผยแพร่'],
+'vi':['Tải sách','Sách','Sách có thể chỉnh sửa','Bản để đọc','Nội dung được đưa vào','Chưa phát hành'],
+'ja':['書籍のダウンロード','書籍','編集可能な書籍','閲覧用の書籍','収録内容','未公開'],
+'fil':['Mga aklat na mada-download','Aklat','Nae-edit na aklat','Kopyang pambasa','Mga nilalaman','Hindi pa nailalathala']}
 
 def cell(text):return str(text).replace('|','\\|').replace('\n',' ')
 def release_url(repo,tag,file):return f'https://github.com/{repo}/releases/download/{quote(tag,safe="")}/{quote(file,safe="")}'
@@ -75,8 +75,12 @@ def render_ready(conf,ready,repo,bundles=None,coverage=None):
     """Render independently verified immutable pairs across different releases."""
     languages=conf['languages']
     if set(languages)!=set(COPY):raise ValueError('Download labels must cover all 20 configured languages')
-    intro=('Book editions are in preparation. Links appear only after the Word and PDF files have been verified.' if not ready else 'Each book contains the verified material listed on its language page. New extended Hadith lessons and extended Quran reflections use the approved book layout.')
-    root=['### Books by language','',intro,'', '| Language | '+' | '.join(HEADERS)+' |','| --- | --- | --- | --- | --- |'];pages={}
+    intro=('Links appear only after the Word and PDF files have been verified and published.' if not ready else 'Each book contains the verified material listed on its language page. New extended Hadith lessons and extended Quran reflections use the approved book layout.')
+    counts={collection:sum((language,collection) in ready for language in languages) for collection in COLLECTIONS}
+    total=len(languages)*len(COLLECTIONS);available=sum(counts.values())
+    availability=f'Published book editions: **{available} of {total}** language/category combinations. **{total-available}** do not yet have a published Word/PDF pair.'
+    categories=' · '.join(f'{name}: {counts[collection]}/{len(languages)}' for name,collection in zip(['Quran reflections','Hadith','Seerah','Articles'],COLLECTIONS))
+    root=['### Books by language','',intro,'',availability,'',categories+'.','', '| Language | '+' | '.join(HEADERS)+' |','| --- | --- | --- | --- | --- |'];pages={}
     if bundles is not None:
         if set(bundles)-set(languages):raise ValueError('Unknown combined-download language')
         root[-2]+=' Combined downloads |';root[-1]+=' --- |'

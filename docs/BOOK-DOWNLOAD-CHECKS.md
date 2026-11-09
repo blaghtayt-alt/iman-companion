@@ -89,8 +89,11 @@ detects a problem; it does not create a second publication path.
 ## What a passing result means
 
 All represented downloads and generated table states agree and the requested
-online checks passed at the recorded time. A table can correctly show that a
-translation or expanded edition is still being prepared. A passing download
+online checks passed at the recorded time. The root table separately counts
+published language/category editions and the combinations without a published
+pair, with a subtotal for each collection. Native tables say that an absent
+edition is not yet published; absence does not assert that a build is running.
+A passing download
 check does not approve missing translations, assert that every authored
 manuscript is installed, replace actual Microsoft Word checks, or issue final
 visual acceptance for a candidate.

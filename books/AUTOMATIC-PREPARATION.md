@@ -37,6 +37,22 @@ or guessed into a book. The source producer must emit the envelope as part of it
 normal approved publication transaction. Installing this consumer alone does not
 prove that every external source producer has adopted that contract.
 
+Exact Article and Seerah reader text can include required publisher names,
+addresses and version notices. Those supplied words must not be deleted to pass
+the ordinary furniture-language check. A source-bound literal proof may use an
+`iman-approved-reader-source-v1` acceptance import record with the exact material
+identity, complete reader-text hash, accepted UTF-8 TXT hash, and the existing
+semantic-review and source-acceptance receipt digests. The record must describe
+the actual review scope; importing its digests does not make a new normalized
+snapshot part of an older review. Keep private review files private.
+
+Each literal remains an exact slice of the bound TXT, with only declared line
+ending normalization. Its import record and source must be inputs to the same
+complete reader. This proof does not replace the publisher's separate approved
+envelope, permit unrelated websites or text, clear an existing source hold, or
+grant Word or final visual approval. New publisher versions require an explicit
+source comparison and acceptance of any changed content before intake.
+
 For a Git-based source publication, `source_publication_transaction.py` is a
 single-commit entry point. Supply the approved envelope and the exact expected
 Git head and the expected remote URL. Add `expectedSourceBase` to the envelope
