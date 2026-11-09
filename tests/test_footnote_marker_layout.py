@@ -18,7 +18,7 @@ class FootnoteMarkerLayoutTests(unittest.TestCase):
     def fixture(self, count, language='ur'):
         document = Document()
         paragraph = document.add_paragraph('মূল পাঠ অক্ষত আছে।' if language=='bn' else 'اصل عبارت محفوظ ہے۔')
-        notes = Footnotes(document, language, 'Iman Book Urdu', 'Iman Book Naskh')
+        notes = Footnotes(document, language, 'Iman Book Bengali' if language=='bn' else 'Iman Book Urdu', 'Iman Book Naskh')
         for index in range(count):
             notes.add(paragraph, 'মূল উৎস সংরক্ষিত।' if language=='bn' else 'حوالہ محفوظ ہے۔', group=str(index))
         return document, paragraph, notes
@@ -30,10 +30,15 @@ class FootnoteMarkerLayoutTests(unittest.TestCase):
         refs = list(paragraph._p.iter(qn('w:footnoteReference')))
         self.assertEqual(notes.wrap_trailing_markers(),7)
         self.assertEqual(list(paragraph._p.iter(qn('w:footnoteReference'))),refs)
+        self.assertEqual([node.get(qn('w:id')) for node in refs],[str(i) for i in range(1,58)])
         self.assertEqual(etree.tostring(notes.root),note_bytes)
         self.assertEqual(body_text(paragraph._p),'মূল পাঠ অক্ষত আছে।'+'\n'*7)
         self.assertEqual(notes.wrap_trailing_markers(),0)
         validate_footnotes(notes.root,document.element.body,notes.texts,'bn',
+                           preserved_identifiers=notes.identifiers,
+                           source_literal_proofs=notes.literal_proofs)
+        stream=BytesIO();document.save(stream);stream.seek(0)
+        validate_footnotes(notes.root,Document(stream).element.body,notes.texts,'bn',
                            preserved_identifiers=notes.identifiers,
                            source_literal_proofs=notes.literal_proofs)
         for br in list(paragraph._p.iter(qn('w:br'))):br.getparent().remove(br)
