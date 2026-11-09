@@ -1,0 +1,58 @@
+name: Diagnostic only - large current book scopes
+on:
+  pull_request:
+    paths:
+      - '.github/diagnostics/book_scope_probe.py'
+      - '.github/workflows/book-large-scope-diagnostic.yml'
+permissions:
+  contents: read
+jobs:
+  scope-probe:
+    name: Diagnostic ${{ matrix.language }} Quran - not publication
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        language: [en, ur]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Verify isolated diagnostic ancestry and paths
+        run: |
+          test "$(git rev-parse HEAD^)" = 1a129c5414dbc1cf7cef5e1fdb16f1b3cbb2561e
+          python - <<'PY'
+          import subprocess
+          allowed={'.github/diagnostics/book_scope_probe.py','.github/workflows/book-large-scope-diagnostic.yml'}
+          changed=set(subprocess.check_output(['git','diff','--name-only','HEAD^','HEAD'],text=True).splitlines())
+          assert changed == allowed, changed
+          PY
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install unchanged pinned renderer and verified fonts
+        run: |
+          python books/renderer_pin.py --install
+          python -m pip install -r books/requirements.txt
+          python books/install_assets.py --root .
+          mkdir -p "$HOME/.local/share/fonts/iman-books"
+          cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          fc-cache -f
+      - name: Trace one unchanged production build with bounded children
+        env:
+          PROBE_LANGUAGE: ${{ matrix.language }}
+        run: |
+          python -u .github/diagnostics/book_scope_probe.py --root . --language "$PROBE_LANGUAGE" --out "$RUNNER_TEMP/book-scope-diagnostic-$PROBE_LANGUAGE"
+      - name: Preserve diagnostic partial files and stage logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: NOT-PUBLICATION-large-scope-${{ matrix.language }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/book-scope-diagnostic-${{ matrix.language }}/
+          if-no-files-found: warn
+          retention-days: 7
