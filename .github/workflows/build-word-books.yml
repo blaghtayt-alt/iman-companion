@@ -17,10 +17,10 @@ on:
   repository_dispatch:
     types: [published-material]
   pull_request:
-    paths: ['books/**', 'tools/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', 'docs/books/**', 'docs/automation/current-app-book-baseline.json', '.github/workflows/build-word-books.yml']
+    paths: ['README.md', 'books/**', 'tools/**', 'tests/**', 'test-fixtures/**', 'materials/**', 'docs/listen/**', 'docs/books/**', 'docs/automation/current-app-book-baseline.json', '.github/workflows/build-word-books.yml', '.github/workflows/check-book-downloads.yml']
   push:
     branches: [main]
-    paths: ['books/**', 'tools/**', 'tests/**', 'materials/**', 'docs/listen/**', 'docs/books/**', 'docs/automation/current-app-book-baseline.json', '.github/workflows/build-word-books.yml']
+    paths: ['README.md', 'books/**', 'tools/**', 'tests/**', 'materials/**', 'docs/listen/**', 'docs/books/**', 'docs/automation/current-app-book-baseline.json', '.github/workflows/build-word-books.yml', '.github/workflows/check-book-downloads.yml']
 permissions:
   contents: read
 concurrency:
@@ -50,6 +50,7 @@ jobs:
       - name: Validate source fidelity, references, QR matching and publication
         run: |
           python tests/test_download_tables.py
+          python tests/test_book_downloads.py
           python books/test_bundle_tables.py
           python tests/test_book_render_validation.py
           python tests/test_book_fonts.py
