@@ -1,0 +1,132 @@
+name: Verify published book downloads
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_run:
+    workflows: ['Publish current multilingual books']
+    branches: [main]
+    types: [completed]
+
+# This workflow observes publication; it never writes sources, releases or tables.
+permissions:
+  contents: read
+concurrency:
+  group: published-book-download-health
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    if: github.repository == 'blaghtayt-alt/iman-companion' && (github.event_name != 'workflow_run' || github.event.workflow_run.event != 'pull_request')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install the existing book validation dependencies
+        run: python -m pip install -r books/requirements.txt
+      - name: Verify every committed table, public file and deployed asset
+        id: audit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Publication requests a Pages build before this workflow starts.
+          # Retry against a fresh main checkout while that deployment settles.
+          # Reports stay outside the checkout and survive a later retry.
+          for attempt in 1 2 3 4 5 6; do
+            report="$RUNNER_TEMP/book-downloads-$attempt.json"
+            checked_head=$(git rev-parse HEAD)
+            backend_ok=false
+            if python tools/check_book_downloads.py --root . --verify-releases --verify-downloads \
+                --site-url https://blaghtayt-alt.github.io/iman-companion/books/ --json "$report"; then
+              backend_ok=true
+            fi
+            if BACKEND_OK="$backend_ok" node --input-type=module - "$report" <<'JS'
+          import assert from 'node:assert/strict';
+          import {readFileSync,writeFileSync} from 'node:fs';
+          const reportPath=process.argv[2];
+          const report=JSON.parse(readFileSync(reportPath,'utf8'));
+          report.scope.frontendViewModel=true;
+          try {
+            const {LANGUAGES,viewModel}=await import('./docs/books/books.mjs');
+            const catalog=JSON.parse(readFileSync('docs/books/catalog.json','utf8'));
+            assert.deepEqual(Object.keys(catalog.languages).sort(),[...LANGUAGES].sort());
+            const rows=LANGUAGES.map(language=>viewModel(catalog,language));
+            report.checks.frontendViewModel={status:'pass',languages:rows.length,bookPairs:rows.reduce((total,row)=>total+row.books.length,0),combinedLanguages:rows.filter(row=>row.bundle).length};
+          } catch(error) {
+            report.checks.frontendViewModel={status:'fail'};
+            report.errors.push({check:'frontendViewModel',path:'docs/books/catalog.json',message:String(error.message||error)});
+          }
+          report.passed=report.passed && process.env.BACKEND_OK==='true' && report.checks.frontendViewModel.status==='pass';
+          writeFileSync(reportPath,JSON.stringify(report,null,2)+'\n');
+          console.log(JSON.stringify(report.checks.frontendViewModel));
+          process.exitCode=report.passed?0:1;
+          JS
+            then
+              observed_head=''
+              if remote_ref=$(git ls-remote origin refs/heads/main); then
+                observed_head=$(printf '%s' "$remote_ref" | cut -f1)
+              fi
+              if [ "$checked_head" = "$observed_head" ]; then
+                cp "$report" "$RUNNER_TEMP/book-downloads-latest.json"
+                exit 0
+              fi
+              python - "$report" "$checked_head" "$observed_head" <<'PY'
+          import json,sys
+          from pathlib import Path
+          path=Path(sys.argv[1]);report=json.loads(path.read_text())
+          report['passed']=False
+          message='Main changed during the audit; retrying the new committed tables.' if sys.argv[3] else 'The current main head could not be verified; retrying.'
+          report['errors'].append({'check':'repositoryCommit','path':'refs/heads/main','message':message,'checked':sys.argv[2],'observed':sys.argv[3]})
+          path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+          PY
+            fi
+            if [ -f "$report" ]; then
+              cp "$report" "$RUNNER_TEMP/book-downloads-latest.json"
+            fi
+            if [ "$attempt" -eq 6 ]; then
+              exit 1
+            fi
+            sleep 30
+            git fetch --no-tags --depth=1 origin main
+            git checkout --detach FETCH_HEAD
+          done
+      - name: Summarize the last complete audit
+        if: always()
+        env:
+          AUDIT_OUTCOME: ${{ steps.audit.outcome }}
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          path=Path(os.environ['RUNNER_TEMP'])/'book-downloads-latest.json'
+          with Path(os.environ['GITHUB_STEP_SUMMARY']).open('a',encoding='utf8') as out:
+              if not path.exists():
+                  out.write('No complete download health report was produced. See the failed step.\n')
+              else:
+                  report=json.loads(path.read_text())
+                  report['passed']=report['passed'] and os.environ['AUDIT_OUTCOME']=='success'
+                  path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+                  out.write('## Published book download checks\n\n')
+                  out.write('Result: '+('passed' if report['passed'] else 'failed')+'\n\n')
+                  out.write('Checked commit: `'+str(report.get('repositoryCommit','unknown'))+'`\n\n')
+                  out.write('| Inventory | Count |\n| --- | ---: |\n')
+                  for label,count in report.get('counts',{}).items():
+                      out.write('| '+str(label)+' | '+str(count)+' |\n')
+                  out.write('\nThe attached JSON records every requested check and any failure. Pending source or visual review is not a released book.\n')
+          PY
+      - name: Preserve exact download health reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-download-health-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/book-downloads-*.json
+          if-no-files-found: warn
+          retention-days: 30

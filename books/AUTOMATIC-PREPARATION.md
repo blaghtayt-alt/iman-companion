@@ -4,7 +4,11 @@ The existing `build-word-books.yml` source-push workflow is the only public writ
 It reacts to `materials/**` and `books/**`, consumes exact approved source
 transactions, prepares affected books, inserts eligible audio QR panels, and
 regenerates the verified library, bundles and twenty language download tables.
-There is no new schedule, inbound service, runner registration or credential.
+Publication remains source-driven, with no inbound service, runner registration
+or additional credential. A separate read-only
+[download health workflow](../docs/BOOK-DOWNLOAD-CHECKS.md) checks the committed
+tables and deployed downloads after this publisher finishes and every six hours.
+It does not generate source approvals, finalize candidates or publish books.
 
 ## Source transaction contract
 
