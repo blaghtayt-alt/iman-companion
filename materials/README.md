@@ -28,14 +28,16 @@
 
 The table counts files, not individual Hadiths or sayings; each of those language files contains a collection. Arabic Seerah includes four separately labeled archive chapters.
 
+Essential Hadith counts reflect the numbered canonical reader files present in this repository. These counts do not grant review approval or imply that every listed lesson is included in a published book.
+
 Our translated summaries, meanings and explanations are **AI translated — needs verification**. Credited publisher quotations keep their original authorship and terms. Arabic source material and work-in-progress files are identified separately.
 
 | Collection | Language | Documents |
 | --- | --- | --- |
 | essential-hadith | Arabic | 286 lesson pages, 12 chapters |
-| essential-hadith | English | 4 lessons |
+| essential-hadith | English | 3 lessons |
 | essential-hadith | French | 4 lessons |
-| essential-hadith | Turkish | 4 lessons |
+| essential-hadith | Turkish | 3 lessons |
 | essential-hadith | Indonesian | 4 lessons |
 | essential-hadith | Malay | 4 lessons |
 | essential-hadith | Brazilian Portuguese | 4 lessons |
@@ -46,11 +48,11 @@ Our translated summaries, meanings and explanations are **AI translated — need
 | essential-hadith | Spanish | 4 lessons |
 | essential-hadith | Persian | 4 lessons |
 | essential-hadith | German | 4 lessons |
-| essential-hadith | Simplified Chinese | 3 lessons |
+| essential-hadith | Simplified Chinese | 2 lessons |
 | essential-hadith | Uzbek | 4 lessons |
-| essential-hadith | Thai | 3 lessons |
-| essential-hadith | Vietnamese | 3 lessons |
-| essential-hadith | Japanese | 4 lessons |
+| essential-hadith | Thai | 2 lessons |
+| essential-hadith | Vietnamese | 2 lessons |
+| essential-hadith | Japanese | 3 lessons |
 | essential-hadith | Filipino | 3 lessons |
 | hadith | Arabic | 1 |
 | hadith | German | 1 |
