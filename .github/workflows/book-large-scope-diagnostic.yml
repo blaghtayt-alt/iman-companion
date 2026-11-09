@@ -20,15 +20,15 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 2
+          fetch-depth: 3
           persist-credentials: false
       - name: Verify isolated diagnostic ancestry and paths
         run: |
-          test "$(git rev-parse HEAD^)" = 1a129c5414dbc1cf7cef5e1fdb16f1b3cbb2561e
+          git merge-base --is-ancestor 1a129c5414dbc1cf7cef5e1fdb16f1b3cbb2561e HEAD
           python - <<'PY'
           import subprocess
-          allowed={'.github/diagnostics/book_scope_probe.py','.github/workflows/book-large-scope-diagnostic.yml'}
-          changed=set(subprocess.check_output(['git','diff','--name-only','HEAD^','HEAD'],text=True).splitlines())
+          allowed={'.github/diagnostics/book_scope_probe.py','.github/workflows/book-large-scope-diagnostic.yml','books/render_uno.py'}
+          changed=set(subprocess.check_output(['git','diff','--name-only','1a129c5414dbc1cf7cef5e1fdb16f1b3cbb2561e','HEAD'],text=True).splitlines())
           assert changed == allowed, changed
           PY
       - uses: actions/setup-python@v5

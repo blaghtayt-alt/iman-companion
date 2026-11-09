@@ -48,6 +48,12 @@ def main():
                 doc=desktop.loadComponentFromURL(file.as_uri(),'_blank',0,(prop('Hidden',True),prop('ReadOnly',False),prop('UpdateDocMode',0 if args.keep_contents else 3)))
                 if doc is None:raise RuntimeError('Cannot open '+str(file))
                 try:
+                    # Generated RTL Word footers use nested IF/MOD/PAGE fields.
+                    # Replace them with the existing native live page field
+                    # before a global refresh evaluates those formulas across
+                    # every page. The later layout/contents convergence still
+                    # refreshes all fields after paragraph direction is final.
+                    native_footer(doc,languages[file.name])
                     doc.getTextFields().refresh();indexes=doc.getDocumentIndexes()
                     if languages[file.name] in {'ar','ur','fa'}:
                         center=uno.Enum('com.sun.star.style.ParagraphAdjust','CENTER');right=uno.Enum('com.sun.star.style.ParagraphAdjust','RIGHT')
@@ -58,7 +64,6 @@ def main():
                                 keep_center=(paragraph.ParaAdjust==center)
                                 paragraph.WritingMode=uno.getConstantByName('com.sun.star.text.WritingMode2.RL_TB')
                                 paragraph.ParaAdjust=center if keep_center else right
-                    native_footer(doc,languages[file.name])
                     doc.calculateAll() if hasattr(doc,'calculateAll') else None
                     if not args.keep_contents:
                         # Contents must reflect the final paragraph direction,
