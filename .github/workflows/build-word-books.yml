@@ -66,6 +66,7 @@ jobs:
           python tests/test_word_page_breaks.py
           python tests/test_source_credits.py
           python tests/test_source_reference_preservation.py
+          python tests/test_source_note_breaks.py
           python books/test_script_fonts.py
           python books/test_word_layout_check.py
           python books/test_native_word_footer.py
