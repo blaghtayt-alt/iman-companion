@@ -478,5 +478,52 @@ class BengaliCanonicalReferences(unittest.TestCase):
         self.assertIn('আল-ইখলাস', strict)
 
 
+class HindiCanonicalReferences(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        config = current.read(ROOT, 'books/config.json')
+        cls.names = current.read(ROOT, config['surahNames']['path'])
+
+    def test_missing_hindi_names_require_explicit_permission(self):
+        with self.assertRaisesRegex(ValueError, 'Missing verified native surah name'):
+            quran_reference('51:56', 'hi', self.names)
+        with self.assertRaisesRegex(ValueError, 'Missing verified native surah name'):
+            quran_reference('51:56', 'th', {}, allow_numbered=True)
+
+    def test_hindi_numeric_citation_keeps_canonical_range_and_existing_native_furniture(self):
+        result = quran_reference('51:47-56', 'hi', self.names, allow_numbered=True)
+        self.assertEqual(result.replace('\u00a0', ' '), '(सूरा ५१, आयत ४७–५६)')
+        native_text(result, 'hi')
+        self.assertNotIn('Adh-Dhariyat', result)
+        for key in ('0:1', '115:1', '51:56-47', '51:1-287'):
+            with self.subTest(key=key), self.assertRaises(ValueError):
+                quran_reference(key, 'hi', self.names, allow_numbered=True)
+        named = quran_reference('112:1-4', 'hi', self.names)
+        self.assertEqual(quran_reference('112:1-4', 'hi', self.names, allow_numbered=True), named)
+        self.assertIn('अल-इख़लास', named)
+
+    def test_every_reference_in_current_hindi_fatiha_has_native_output(self):
+        payload = current.read(ROOT, 'materials/tadabbur/fatiha-extended/hi/reading.json')
+        references = set()
+        def collect(value):
+            if isinstance(value, dict):
+                references.update(value.get('verseKeys', []))
+                if value.get('verseKey'):
+                    references.add(value['verseKey'])
+                for child in value.values():
+                    collect(child)
+            elif isinstance(value, list):
+                for child in value:
+                    collect(child)
+        collect(payload)
+        self.assertIn('51:56', references)
+        self.assertGreater(len(references), 30)
+        self.assertTrue({10, 14, 15, 20, 40, 41, 47, 48, 51, 62, 75, 79, 83, 100}
+                        .issubset({int(key.split(':')[0]) for key in references}))
+        for key in references:
+            with self.subTest(reference=key):
+                native_text(quran_reference(key, 'hi', self.names, allow_numbered=True), 'hi')
+
+
 if __name__ == '__main__':
     unittest.main()

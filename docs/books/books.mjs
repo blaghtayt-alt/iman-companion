@@ -55,6 +55,11 @@ export function viewModel(catalog,language){
 }
 function number(value,locale){return String(value).replace(/[0-9]/g,digit=>(locale.digits||'0123456789')[Number(digit)]);}
 function text(id,value){document.getElementById(id).textContent=value;}
+function setDownload(link,url,type,label){
+  link.href=url;link.download=decodeURIComponent(new URL(url).pathname.split('/').pop());
+  link.type=type==='pdf'?'application/pdf':'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+  link.textContent=label;
+}
 function localAsset(value){const url=new URL(value,location.href);if(url.origin!==location.origin||!url.pathname.includes('/books/assets/'))throw Error('Invalid book asset');return url.href;}
 async function fonts(locale){
   if(!locale.font)return;
@@ -87,7 +92,7 @@ export async function mount(){
       if(coverage?.notes.length){const notes=document.createElement('ul');notes.className='contents';for(const text of coverage.notes){const note=document.createElement('li');note.textContent=text;notes.append(note);}card.append(notes);}
       if(book.audio){const note=document.createElement('p');note.className='audio-note';note.textContent=copy.audio;card.append(note);}
       const links=document.createElement('div');links.className='downloads';
-      for(const[type,kind]of[['pdf','primary'],['docx','secondary']]){const link=document.createElement('a');link.className=kind;link.href=book[type];link.setAttribute('download','');link.textContent=current.downloads[type];links.append(link);}card.append(links);document.getElementById('books').append(card);
+      for(const[type,kind]of[['pdf','primary'],['docx','secondary']]){const link=document.createElement('a');link.className=kind;setDownload(link,book[type],type,current.downloads[type]);links.append(link);}card.append(links);document.getElementById('books').append(card);
     }
     document.getElementById('combined').hidden=!current.bundle;
     if(current.updated){try{text('updated',`${copy.updated}: ${number(new Intl.DateTimeFormat(language,{dateStyle:'medium'}).format(new Date(current.updated)),current)}`);}catch{}}
@@ -103,7 +108,7 @@ export async function mount(){
   document.getElementById('combined').addEventListener('click',()=>{
     if(!current?.bundle)return;const bundle=current.bundle;text('dialog-hint',current.title);document.getElementById('choices').hidden=false;document.getElementById('merged-formats').hidden=true;
     document.getElementById('zip-choice').href=bundle.zip;
-    for(const type of['pdf','docx']){const link=document.getElementById('merged-'+type);link.href=bundle[type];link.textContent=current.downloads[type];}dialog.showModal();
+    for(const type of['pdf','docx']){const link=document.getElementById('merged-'+type);setDownload(link,bundle[type],type,current.downloads[type]);}dialog.showModal();
   });
   document.getElementById('merged-choice').addEventListener('click',()=>{document.getElementById('choices').hidden=true;document.getElementById('merged-formats').hidden=false;});
   document.getElementById('close').addEventListener('click',()=>dialog.close());

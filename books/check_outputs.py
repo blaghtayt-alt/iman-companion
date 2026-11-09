@@ -5,7 +5,8 @@ import pdfplumber
 from docx import Document
 from lxml import etree
 from bibliography import native_text,digits
-from locale_copy import locale,DOWNLOADS,NATIVE_DIGITS
+from locale_copy import locale,NATIVE_DIGITS
+from download_tables import download_labels,native_download_text
 from reader_xml import body_text
 from urllib.parse import quote
 from check_audio_qr import validate_audio_qr
@@ -222,14 +223,14 @@ def main():
         book['pdfDownload']=f"https://github.com/{args.repo}/releases/download/{quote(args.tag,safe='')}/{quote(pdf.name,safe='')}"
         book['pdfSha256']=hashlib.sha256(pdf.read_bytes()).hexdigest();book['exportVerified']=not args.prepare_only;book['preparationVerified']=True;book['previewOnly']=bool(index.get('previewOnly'))
         download+=f" · [PDF]({book['pdfDownload']})"
-        lang=book['language'];lc=locale(lang);page=pages.setdefault(lang,['# '+book['languageLabel'],''])
-        page+=['## '+book['collectionLabel'],'',f'[{DOWNLOADS[lang][0]}]({url})','']
-        page+=[f'[{DOWNLOADS[lang][1]}]({book["pdfDownload"]})','']
+        lang=book['language'];lc=locale(lang);labels=download_labels(lang);page=pages.setdefault(lang,['# '+book['languageLabel'],''])
+        page+=['## '+book['collectionLabel'],'',f'[{labels["docx"]}]({url})','']
+        page+=[f'[{labels["pdf"]}]({book["pdfDownload"]})','']
     for lang,page in pages.items():
         # URLs are link targets, never visible source labels in a book or native page.
         for text in page:
             visible=text.split('](',1)[0].lstrip('[') if '](' in text else text
-            native_text(visible,lang)
+            native_download_text(visible,lang)
         filename='INDEX_'+lang+'.md';(folder/filename).write_text('\n'.join(page),encoding='utf-8')
         lines.append(f'[{locale(lang)["nativeName"]}](https://github.com/{args.repo}/releases/download/{args.tag}/{filename})\n')
     (folder/'INDEX.md').write_text('\n'.join(lines)+'\n',encoding='utf-8');(folder/'index.json').write_text(json.dumps(index,ensure_ascii=False,indent=2),encoding='utf-8')

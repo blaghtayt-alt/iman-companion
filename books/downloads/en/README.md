@@ -5,10 +5,10 @@
 
 English
 
-| Book | Editable book | Reading copy | Included items |
+| Book | Editable (Word) | Readable (PDF) | Included items |
 | --- | --- | --- | --- |
-| Quran Reflection · Surah Al-Ikhlas — Reflections | [Download editable book](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_en_tadabbur-extended.docx) | [Download reading copy](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_en_tadabbur-extended.pdf) | 1 · Included: Surah 112 |
-| Hadith · Allah’s greatness and its effect on the heart and our deeds (+2) | [Download editable book](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.docx) | [Download reading copy](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.pdf) | 3 · Included: Hadith 2–4 |
+| Quran Reflection · Surah Al-Ikhlas — Reflections | [Download editable book (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_en_tadabbur-extended.docx) | [Download reading copy (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_en_tadabbur-extended.pdf) | 1 · Included: Surah 112 |
+| Hadith · Allah’s greatness and its effect on the heart and our deeds (+2) | [Download editable book (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.docx) | [Download reading copy (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.pdf) | 3 · Included: Hadith 2–4 |
 | Seerah | Preparing | Preparing | — |
 | Articles | Preparing | Preparing | — |
 
@@ -45,7 +45,9 @@ Partial edition
 
 One combined edition
 
-[Download editable book](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_en_all-books.docx) · [Download reading copy](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_en_all-books.pdf)
+[Download editable book (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_en_all-books.docx)
+
+[Download reading copy (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_en_all-books.pdf)
 
 [ZIP of separate books](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_en_all-books.zip)
 

@@ -5,10 +5,10 @@
 
 اردو
 
-| کتاب | قابل تدوین کتاب | مطالعے کی نقل | شامل مواد |
+| کتاب | قابل تدوین کتاب (Word) | مطالعے کی نقل (PDF) | شامل مواد |
 | --- | --- | --- | --- |
-| تدبرِ قرآن · سورۂ اخلاص — تدبر | [قابل تدوین کتاب ڈاؤن لوڈ کریں](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.docx) | [مطالعے کی نقل ڈاؤن لوڈ کریں](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.pdf) | ۱ · شامل مواد: سورۃ ۱۱۲ |
-| حدیث · اللہ کی عظمت اور دل و عمل پر اس کے اثرات (+1) | [قابل تدوین کتاب ڈاؤن لوڈ کریں](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_ur_hadith.docx) | [مطالعے کی نقل ڈاؤن لوڈ کریں](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_ur_hadith.pdf) | ۲ · شامل مواد: حدیث ۲–۳ |
+| تدبرِ قرآن · سورۂ اخلاص — تدبر | [قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.docx) | [مطالعے کی نقل ڈاؤن لوڈ کریں (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-urdu112-42360249664-1/Iman_Companion_ur_tadabbur-extended.pdf) | ۱ · شامل مواد: سورۃ ۱۱۲ |
+| حدیث · اللہ کی عظمت اور دل و عمل پر اس کے اثرات (+1) | [قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_ur_hadith.docx) | [مطالعے کی نقل ڈاؤن لوڈ کریں (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_ur_hadith.pdf) | ۲ · شامل مواد: حدیث ۲–۳ |
 | سیرت | تیاری جاری ہے | تیاری جاری ہے | — |
 | مضامین | تیاری جاری ہے | تیاری جاری ہے | — |
 
@@ -47,7 +47,9 @@
 
 ایک مشترک کتاب
 
-[قابل تدوین کتاب ڈاؤن لوڈ کریں](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_ur_all-books.docx) · [مطالعے کی نقل ڈاؤن لوڈ کریں](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_ur_all-books.pdf)
+[قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_ur_all-books.docx)
+
+[مطالعے کی نقل ڈاؤن لوڈ کریں (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_ur_all-books.pdf)
 
 [الگ کتابوں کی زِپ فائل](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_ur_all-books.zip)
 

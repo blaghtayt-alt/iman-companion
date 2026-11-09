@@ -5,10 +5,10 @@
 
 Français
 
-| Livre | Livre modifiable | Version de lecture | Textes inclus |
+| Livre | Livre modifiable (Word) | Version de lecture (PDF) | Textes inclus |
 | --- | --- | --- | --- |
-| Réflexion sur le Coran · Sourate Al-Ikhlas — Méditation | [Télécharger le livre modifiable](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_fr_tadabbur-extended.docx) | [Télécharger la version de lecture](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_fr_tadabbur-extended.pdf) | 1 · Inclus: Sourate 112 |
-| Hadith · La grandeur d’Allah et ses effets sur le cœur et les actes (+2) | [Télécharger le livre modifiable](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fr_hadith.docx) | [Télécharger la version de lecture](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fr_hadith.pdf) | 3 · Inclus: Hadith 2–4 |
+| Réflexion sur le Coran · Sourate Al-Ikhlas — Méditation | [Télécharger le livre modifiable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_fr_tadabbur-extended.docx) | [Télécharger la version de lecture (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_fr_tadabbur-extended.pdf) | 1 · Inclus: Sourate 112 |
+| Hadith · La grandeur d’Allah et ses effets sur le cœur et les actes (+2) | [Télécharger le livre modifiable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fr_hadith.docx) | [Télécharger la version de lecture (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_fr_hadith.pdf) | 3 · Inclus: Hadith 2–4 |
 | Sîra | En préparation | En préparation | — |
 | Articles | En préparation | En préparation | — |
 
@@ -45,7 +45,9 @@ Inclus: Hadith 2–4
 
 Une édition réunie
 
-[Télécharger le livre modifiable](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fr_all-books.docx) · [Télécharger la version de lecture](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fr_all-books.pdf)
+[Télécharger le livre modifiable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fr_all-books.docx)
+
+[Télécharger la version de lecture (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fr_all-books.pdf)
 
 [ZIP des livres séparés](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1-bundles/Iman_Companion_fr_all-books.zip)
 

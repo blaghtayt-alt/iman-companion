@@ -5,10 +5,10 @@
 
 Deutsch
 
-| Buch | Bearbeitbares Buch | Leseausgabe | Enthaltene Texte |
+| Buch | Bearbeitbares Buch (Word) | Leseausgabe (PDF) | Enthaltene Texte |
 | --- | --- | --- | --- |
-| Betrachtung des Korans · Sure Al-Ikhlas – Betrachtungen | [Bearbeitbares Buch herunterladen](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_de_tadabbur-extended.docx) | [Leseausgabe herunterladen](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_de_tadabbur-extended.pdf) | 1 · Enthalten: Sure 112 |
-| Hadith · Allahs Größe und ihre Wirkung auf Herz und Handeln (+2) | [Bearbeitbares Buch herunterladen](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_de_hadith.docx) | [Leseausgabe herunterladen](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_de_hadith.pdf) | 3 · Enthalten: Hadith 2–4 |
+| Betrachtung des Korans · Sure Al-Ikhlas – Betrachtungen | [Bearbeitbares Buch herunterladen (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_de_tadabbur-extended.docx) | [Leseausgabe herunterladen (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/verified-eleven112-42358046331-1/Iman_Companion_de_tadabbur-extended.pdf) | 1 · Enthalten: Sure 112 |
+| Hadith · Allahs Größe und ihre Wirkung auf Herz und Handeln (+2) | [Bearbeitbares Buch herunterladen (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_de_hadith.docx) | [Leseausgabe herunterladen (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1/Iman_Companion_de_hadith.pdf) | 3 · Enthalten: Hadith 2–4 |
 | Sīra | In Vorbereitung | In Vorbereitung | — |
 | Artikel | In Vorbereitung | In Vorbereitung | — |
 
@@ -48,7 +48,9 @@ Teilausgabe
 
 Eine zusammengeführte Ausgabe
 
-[Bearbeitbares Buch herunterladen](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_de_all-books.docx) · [Leseausgabe herunterladen](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_de_all-books.pdf)
+[Bearbeitbares Buch herunterladen (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_de_all-books.docx)
+
+[Leseausgabe herunterladen (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_de_all-books.pdf)
 
 [ZIP der einzelnen Bücher](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42519840340-1-bundles/Iman_Companion_de_all-books.zip)
 

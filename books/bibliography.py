@@ -63,11 +63,11 @@ def quran_reference(key,lang,names,*,allow_numbered=False):
     if not 1<=s<=114 or a<1:raise ValueError('Invalid Quran chapter/ayah number')
     name=SURAH_OVERRIDES.get(lang,{}).get(s) or (names.get(lang,[])[s-1] if len(names.get(lang,[]))>=s else '')
     if lang in NON_LATIN and any(c.isalpha() and 'LATIN' in unicodedata.name(c,'') for c in name):name=''
-    # Current reviewed Bengali readers include chapters whose installed name
+    # Current reviewed Bengali/Hindi readers include chapters whose installed name
     # table has only a Latin transliteration. A caller explicitly authorized for
     # that reader may use its canonical number with existing native furniture.
     # All other callers still require the verified native name.
-    if not name and not (lang=='bn' and allow_numbered is True):raise ValueError(f'Missing verified native surah name for {lang} chapter {s}; do not publish an English fallback')
+    if not name and not (lang in {'bn','hi'} and allow_numbered is True):raise ValueError(f'Missing verified native surah name for {lang} chapter {s}; do not publish an English fallback')
     if lang=='ja':text=f'（{name} 第{s}章・第{ayah_text}節）' if name else f'（第{s}章・第{ayah_text}節）'
     elif lang=='zh-CN':text=f'（{name}，第{s}章第{ayah_text}节）' if name else f'（第{s}章第{ayah_text}节）'
     elif end and lang in {'ar','ur','fa'}:
