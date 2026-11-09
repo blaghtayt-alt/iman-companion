@@ -1,0 +1,49 @@
+{
+  "schema": "iman-current-source-review-import-v1",
+  "material": {
+    "collection": "seerah",
+    "language": "en",
+    "id": "new-seerah001"
+  },
+  "decision": "approved",
+  "wholeMaterial": true,
+  "approvalId": "en-seerah-001-current-source-20261109-root-v1",
+  "acceptedAtUTC": "2026-11-09T13:16:02.388116+00:00",
+  "readerTextSHA256": "f68393f3ce19596c0459b92616528c13277bd2fabc57221b940f3e9dc1ff235d",
+  "sourceBindings": [
+    {
+      "path": "materials/seerah/new-adult/en/01.txt",
+      "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6"
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01.md",
+      "sha256": "8fbb58d82a2e2f9a5e94a098be2948f670dedb78be37e6a9d1a75ce0a4039937"
+    }
+  ],
+  "existingSemanticReviewSHA256": "e08e3acc799ef3d20c168e803a2872ddaa94ae7df79b5be34734155de519017b",
+  "priorSourceAcceptanceSHA256": "c4327d8a6185009a9b0c54f60698f7b0648565b3e9c6504e57f66d72349da5d4",
+  "currentSourceAcceptanceSHA256": "bab07530b5fa850b8f81dbed59fab31253230c83986661ed4e892aff3ac725a0",
+  "independentBoundedReviewSHA256": "4862b18414e27ab501039ffec2003888ee10335a732cd25bfd302c715a90d853",
+  "acceptedDraftReaderUnitSHA256": "6ef3247815aaf4b40e0a79a5c08e4c6136bb3fa9ced3bb60852f12e5764cc535",
+  "reviewScope": "Unchanged narrative retains its existing semantic review; current complete publisher fields, required version notices and exact normalization have a new bounded acceptance.",
+  "verifiedScope": {
+    "sourceParts": 144,
+    "normalizedBlocks": 143,
+    "wholePublisherFieldUpdates": 19,
+    "sourceNoticeParts": 8,
+    "quranSpans": 13,
+    "hadithReportSpans": 15,
+    "citedCompanionBodySpans": 2,
+    "exactSourceReconstruction": true
+  },
+  "exclusions": [
+    "No new whole-translation semantic review or historical authentication.",
+    "No new rights grant, source clearance or source notification.",
+    "No app or audio integration approval.",
+    "Actual Microsoft Word layout and visual release approval remain required."
+  ],
+  "originalPrivateEvidencePublished": false,
+  "sourceApprovalCreated": false,
+  "actualWordLayoutApproved": false,
+  "visualReleaseApproved": false
+}

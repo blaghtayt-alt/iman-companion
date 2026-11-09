@@ -1,0 +1,2025 @@
+{
+  "schema": "iman-book-unit-v1",
+  "collection": "seerah",
+  "language": "en",
+  "id": "new-seerah001",
+  "edition": "new-adult",
+  "chapter": 1,
+  "order": 1,
+  "ordering": {
+    "kind": "global-sequence",
+    "sequence": 1
+  },
+  "title": "Chapter One",
+  "complete": true,
+  "reviewGate": "published-current",
+  "sourceHashes": [
+    "5db0e71443293cb99af87231dd0cecbdaefa2e737cafa0b1a2479140e5318782",
+    "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+    "8fbb58d82a2e2f9a5e94a098be2948f670dedb78be37e6a9d1a75ce0a4039937"
+  ],
+  "inputBindings": [
+    {
+      "path": "materials/seerah/new-adult/en/01.txt",
+      "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6"
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01.md",
+      "sha256": "8fbb58d82a2e2f9a5e94a098be2948f670dedb78be37e6a9d1a75ce0a4039937"
+    },
+    {
+      "path": "books/source-projections/ar-seerah-new.json",
+      "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc"
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01-source-acceptance.json",
+      "sha256": "f8f2ec9e8192a510ed2167346f0a46c41a7ba96fa859328e5bad8d0f5fc8a6af"
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01-review-import.json",
+      "sha256": "40e205c750191bddbdb00e6423308fadd2bfcf4413e6a5267ad2ca57da52860a"
+    }
+  ],
+  "catalogBindings": [
+    {
+      "collection": "seerah",
+      "language": "en",
+      "id": "new-seerah001"
+    }
+  ],
+  "sections": [
+    {
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "From the Year of the Elephant to the Prophet’s Childhood",
+          "role": "heading",
+          "sourcePart": 2
+        },
+        {
+          "kind": "paragraph",
+          "text": "When we read the life of the Messenger of Allah ﷺ, we come to know the man who conveyed Allah’s message to us, showed us the way to salvation, and devoted his life to doing so. Learning about his mercy and truthfulness, and what he endured for his community, gives our love for him a foundation in knowledge. We recognize his goodness to us and the great blessing Allah bestowed on us by sending him. Learning about his virtues, remembering his kindness, and seeking to follow his guidance bring us nearer to Allah and are acts of obedience to Him. There is a sweetness in speaking about his life that is felt by those who love him and appreciate his worth.",
+          "role": "body",
+          "sourcePart": 3
+        },
+        {
+          "kind": "paragraph",
+          "text": "We naturally feel affection for someone who has done us a kindness, even once or twice. How much more, then, for the man through whom Allah guided us to faith, taught us about our Lord, and showed us what brings goodness in this life and the next? Another person’s kindness may spare us a passing harm; his guidance shows the way to deliverance from the punishment of the Hereafter and to happiness that never ends. Such a blessing calls for love arising both from faith and from gratitude. The Messenger of Allah ﷺ conveyed the message, fulfilled the trust, and sincerely counseled his community. He is its witness and, by Allah’s permission, its intercessor. The more we learn about his life, the more reasons we discover to love him. His intercession includes speaking on behalf of his community before his Lord, with His permission.",
+          "role": "body",
+          "sourcePart": 4
+        },
+        {
+          "kind": "paragraph",
+          "text": "That is why loving him is part of faith itself. He ﷺ said: “None of you truly believes until I become dearer to him than his father, his children, and all people.” In another report, he affirmed this love with an oath. He also said: “There are three qualities that bring the sweetness of faith to whoever possesses them: that Allah and His Messenger are dearer to him than anything else; that he loves another person only for Allah’s sake; and that he hates returning to disbelief as he hates being thrown into the Fire.”",
+          "role": "body",
+          "sourcePart": 5,
+          "spans": [
+            {
+              "text": "That is why loving him is part of faith itself. He ﷺ said: ",
+              "role": "body"
+            },
+            {
+              "text": "“None of you truly believes until I become dearer to him than his father, his children, and all people.”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "bukhari",
+                  "number": "15",
+                  "qualification": {
+                    "language": "en",
+                    "text": "Wording of al-Bukhari."
+                  }
+                },
+                {
+                  "type": "hadith",
+                  "book": "muslim",
+                  "number": "44"
+                }
+              ],
+              "speaker": "Muhammad",
+              "attribution": "Speech of Muhammad within the cited report.",
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/2/segments/1"
+                },
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/bukhari:15",
+                  "reference": "bukhari:15",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                },
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/muslim:44b",
+                  "reference": "muslim:44b",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": " In another report, he affirmed this love with an oath. He also said: ",
+              "role": "body"
+            },
+            {
+              "text": "“There are three qualities that bring the sweetness of faith to whoever possesses them: that Allah and His Messenger are dearer to him than anything else; that he loves another person only for Allah’s sake; and that he hates returning to disbelief as he hates being thrown into the Fire.”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "bukhari",
+                  "number": "16"
+                }
+              ],
+              "speaker": "Muhammad",
+              "attribution": "Speech of Muhammad within the cited report.",
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/2/segments/3"
+                },
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/bukhari:16",
+                  "reference": "bukhari:16",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Qur’an sets this love alongside the family, wealth, trade, and homes to which people’s hearts are attached:",
+          "role": "body",
+          "sourcePart": 6
+        },
+        {
+          "kind": "paragraph",
+          "text": "Say, “If your parents, your children, your brothers, your spouses, your clan, the wealth you have acquired, the trade you fear to decline, and the homes you cherish – [if these] are dearer to you than Allah and His Messenger[18], and striving in His cause, then wait until Allah executes His decree[19]. For Allah does not guide disobedient people.”\n(Qur’an 9:24)",
+          "role": "body",
+          "sourcePart": 7,
+          "spans": [
+            {
+              "text": "Say, “If your parents, your children, your brothers, your spouses, your clan, the wealth you have acquired, the trade you fear to decline, and the homes you cherish – [if these] are dearer to you than Allah and His Messenger[18], and striving in His cause, then wait until Allah executes His decree[19]. For Allah does not guide disobedient people.”",
+              "role": "quran",
+              "verseKeys": [
+                "9:24"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/4/segments/0"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 7,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 9:24)",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The love with which we approach his life is therefore connected to obedience and following him. It is more than admiration for a distant story. Through learning about his life, we understand how Allah brought people, through his message, from ignorance and error to guidance. May Allah reward him on behalf of his community with the finest reward He has given a prophet on behalf of his people. Our journey begins in Mecca, many years before revelation: at the House where Abraham prayed, and then in a year whose name remained in Arab memory—the Year of the Elephant.",
+          "role": "body",
+          "sourcePart": 8
+        },
+        {
+          "kind": "paragraph",
+          "text": "Long before Muhammad ﷺ was born, there were signs pointing toward his coming. Not everyone knew of them, and people did not yet understand how they would come together in one story.",
+          "role": "body",
+          "sourcePart": 9
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Mecca, beside the Kaaba—the House whose foundations Abraham and Ishmael, peace be upon them, raised—Abraham prayed to his Lord. His prayer is preserved in the Qur’an:",
+          "role": "body",
+          "sourcePart": 10
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our Lord, send among them a messenger[54] from among themselves to recite to them Your revelations, teach them the Book and Wisdom, and purify them. You are the All-Mighty, the All-Wise.”\n(Qur’an 2:129)",
+          "role": "body",
+          "sourcePart": 11,
+          "spans": [
+            {
+              "text": "Our Lord, send among them a messenger[54] from among themselves to recite to them Your revelations, teach them the Book and Wisdom, and purify them. You are the All-Mighty, the All-Wise.”",
+              "role": "quran",
+              "verseKeys": [
+                "2:129"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/8/segments/0"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 11,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 2:129)",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Abraham, peace be upon him, was asking that a messenger arise from the people of that town, reciting Allah’s revelations to them, teaching them, and purifying them. Centuries passed and prophets followed one another, until Jesus son of Mary, peace be upon him, brought the Children of Israel glad tidings of a messenger to come after him:",
+          "role": "body",
+          "sourcePart": 12
+        },
+        {
+          "kind": "paragraph",
+          "text": "And [mention] when Jesus, the son of Mary, said, \"O Children of Israel, indeed I am the messenger of Allāh to you confirming what came before me of the Torah and bringing good tidings of a messenger to come after me, whose name is Aḥmad.\"[1682] But when he came to them with clear evidences, they said, \"This is obvious magic.\"[1683]\n(Qur’an 61:6)",
+          "role": "body",
+          "sourcePart": 13,
+          "spans": [
+            {
+              "text": "And [mention] when Jesus, the son of Mary, said, \"O Children of Israel, indeed I am the messenger of Allāh to you confirming what came before me of the Torah and bringing good tidings of a messenger to come after me, whose name is Aḥmad.\"[1682] But when he came to them with clear evidences, they said, \"This is obvious magic.\"[1683]",
+              "role": "quran",
+              "verseKeys": [
+                "61:6"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/10/segments/0"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 13,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 61:6)",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the Prophet ﷺ spoke about the beginning of his story, he therefore mentioned the prayer of his forefather Abraham and the glad tidings brought by Jesus, peace be upon them. Prophethood is revelation and a choice made by Allah.",
+          "role": "body",
+          "sourcePart": 14
+        },
+        {
+          "kind": "paragraph",
+          "text": "The message that would appear in Mecca centuries later thus had a history before its arrival. The prophets’ legacy contained news of a messenger who would come at the end of time, and some of this knowledge remained among the People of the Book: Jews and Christians.",
+          "role": "body",
+          "sourcePart": 15
+        },
+        {
+          "kind": "paragraph",
+          "text": "Accounts of Jewish scholars and Christian monks indicate that some were awaiting a prophet’s mission. This was not an expectation shared by everyone in the same way. Once the message came, a difference would emerge between those who recognized the sign and responded, and those who recognized it but allowed their desires to prevent them from following what they knew. Knowing the truth is the beginning of the path; it is not, by itself, the completion of guidance.",
+          "role": "body",
+          "sourcePart": 16
+        },
+        {
+          "kind": "paragraph",
+          "text": "Such knowledge circulated within a limited circle, among the People of the Book and those who mixed with them and heard what they said. Shortly before the Prophet’s birth, however, another event took place before the Arabs. It was no private report known to a few individuals, but a major occurrence that turned attention toward Mecca and the Kaaba itself.",
+          "role": "body",
+          "sourcePart": 17
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mecca’s life at that time centered on the Sacred House. Its people, Quraysh, knew the Kaaba’s standing among the Arabs, but they had no army capable of confronting great powers that might march against them.",
+          "role": "body",
+          "sourcePart": 18
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Yemen, the Abyssinian ruler Abraha had built a magnificent church in Sana’a called al-Qullays. He wanted to divert the Arabs’ pilgrimage from the Kaaba to it. The biographies relate that he wrote to the Negus—the title of the king of Abyssinia—telling him that he had built him a church unlike any built for a king before him, and that he would redirect the Arabs’ pilgrimage there. When word reached the Arabs, a man from Banu Fuqaym ibn Adiyy became angry. He entered the church, relieved himself there, and left. He was one of those who manipulated the sacred months in the time before Islam, changing when their sanctity was observed. Abraha was told that the offender belonged to the people of the House to which the Arabs made pilgrimage, and had acted in anger at his plan to divert them. Abraha swore that he would march to the Kaaba and demolish it. He gathered his army and set out with the elephant.",
+          "role": "body",
+          "sourcePart": 19
+        },
+        {
+          "kind": "paragraph",
+          "text": "Some Arab tribes were deeply alarmed to learn that the Kaaba was to be destroyed, and felt obliged to resist the army. The biographies relate that when it reached the territory of Khath’am, Nufayl ibn Habib al-Khath’ami confronted it with the two tribes of Shahran and Nahis and others who had joined them. They fought, but Abraha defeated them and took Nufayl captive.",
+          "role": "body",
+          "sourcePart": 20
+        },
+        {
+          "kind": "paragraph",
+          "text": "When Abraha was about to kill him, Nufayl offered to guide him through Arab territory and secure the obedience of his two tribes. Abraha spared him and took him along. The army then passed through Ta’if, where Mas’ud ibn Mu’attib came out with men of Thaqif. They had a shrine to al-Lat, the idol they revered. They declared their obedience to Abraha and told him that the House he sought was not theirs, but the one in Mecca. They sent Abu Righal with him as a guide, so he passed on without attacking their shrine.",
+          "role": "body",
+          "sourcePart": 21
+        },
+        {
+          "kind": "paragraph",
+          "text": "Abu Righal accompanied the army as far as al-Mughammis, a valley east of Mecca alongside Arafat, also known today as the Green Valley. According to the biographies, he died there.",
+          "role": "body",
+          "sourcePart": 22
+        },
+        {
+          "kind": "paragraph",
+          "text": "The biographies also record that Abraha’s soldiers seized property belonging to the people of Mecca along their route. It included two hundred camels owned by Abd al-Muttalib ibn Hashim, the leader of Quraysh and the Prophet’s grandfather.",
+          "role": "body",
+          "sourcePart": 23
+        },
+        {
+          "kind": "paragraph",
+          "text": "Quraysh, Hudhayl, and those with them in the Sanctuary—the sacred area around Mecca—considered fighting Abraha, then realized that they could not match his army. Abd al-Muttalib went to his camp. The account describes how Abraha, impressed by his dignity and appearance, did not wish to seat such a man below him. Yet he did not want the Abyssinians to see Abd al-Muttalib sharing his royal throne. He therefore stepped down, sat on his carpet, and seated him beside him. Through an interpreter, he asked what he wanted.",
+          "role": "body",
+          "sourcePart": 24
+        },
+        {
+          "kind": "paragraph",
+          "text": "Abd al-Muttalib asked for the return of his two hundred camels. Abraha was astonished: he had come to destroy the House revered by Quraysh, yet the man representing them was asking about camels. According to the account, he told Abd al-Muttalib that he had admired him at first sight but lost that respect on hearing him speak. How could he ask about camels and say nothing about the House that embodied his religion and the religion of his forefathers?",
+          "role": "body",
+          "sourcePart": 25
+        },
+        {
+          "kind": "paragraph",
+          "text": "The biographies attribute to Abd al-Muttalib his famous reply: “I am the owner of the camels; the House has a Lord who will protect it.”",
+          "role": "body",
+          "sourcePart": 26
+        },
+        {
+          "kind": "paragraph",
+          "text": "They relate that Abraha replied that the House would not be protected from him. Abd al-Muttalib answered: “That is between you and Him.” Abraha returned the camels. Abd al-Muttalib went back to Mecca, told its people what had happened, and directed them to the mountain peaks and ravines to keep clear of the army. Then he took hold of the ring on the Kaaba’s door and prayed to Allah to protect His House and its people.",
+          "role": "body",
+          "sourcePart": 27
+        },
+        {
+          "kind": "paragraph",
+          "text": "Verses attributed to him in that prayer say:",
+          "role": "body",
+          "sourcePart": 28
+        },
+        {
+          "kind": "quotation",
+          "text": "O Allah, a servant protects his home and household;\nprotect the people dwelling by Your House.\nLet neither their cross nor their might and schemes\nprevail tomorrow over Your power.",
+          "role": "body",
+          "sourcePart": 29,
+          "attributionType": "historically-attributed-poetry"
+        },
+        {
+          "kind": "paragraph",
+          "text": "These lines are also attributed to him, though their wording and inclusion differ between historical versions:",
+          "role": "body",
+          "sourcePart": 30
+        },
+        {
+          "kind": "quotation",
+          "text": "Grant Your people victory today\nover the people of the cross and those who worship it.\nIf You leave them alone with our Kaaba,\nthen it is something You have willed.",
+          "role": "body",
+          "sourcePart": 31,
+          "attributionType": "historically-attributed-poetry"
+        },
+        {
+          "kind": "paragraph",
+          "text": "He was asking Allah to protect those living beside the House. His people could not repel the army, so he turned to Allah, praying that the aggressors’ strength and planning would not overcome His protection of His House. Abd al-Muttalib then joined those who had climbed into the mountains, waiting to see what Abraha would do.",
+          "role": "body",
+          "sourcePart": 32
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the army was ready to enter, the account says that Nufayl approached the elephant, whose name was Mahmud. Arabs customarily gave names to their animals and sometimes to their possessions and tools. Taking it by the ear, he said: “Kneel, Mahmud, or turn back safely the way you came. You are in Allah’s sacred land.” He then climbed the mountain. The elephant knelt, and its handlers beat it to make it rise, but it would not. When they turned it toward Yemen, the Levant, or the east, it walked; when they turned it toward Mecca, it knelt.",
+          "role": "body",
+          "sourcePart": 33
+        },
+        {
+          "kind": "paragraph",
+          "text": "Then Allah sent against the army birds in successive flocks, pelting them with stones of hardened clay. Their scheme came to nothing, and they failed to achieve what they had come for. The biographies say that everyone struck by a stone died. The survivors fled along the route they had taken, asking for Nufayl to show them the way back, while he watched from the mountain what had befallen them.",
+          "role": "body",
+          "sourcePart": 34
+        },
+        {
+          "kind": "paragraph",
+          "text": "The following words are attributed to Nufayl: “Where is there to flee when God pursues? Al-Ashram is defeated; he is no victor.” Al-Ashram was a title of Abraha. The army that had come to demolish the House was now searching for a way to escape.",
+          "role": "body",
+          "sourcePart": 35
+        },
+        {
+          "kind": "paragraph",
+          "text": "In another poem attributed to Nufayl, he addresses a woman named Rudayna and describes what he saw and what became of the army:",
+          "role": "body",
+          "sourcePart": 36
+        },
+        {
+          "kind": "quotation",
+          "text": "Greetings from us, Rudayna;\nwe wish you joy this morning.\nRudayna, had you seen—and may you never see—\nwhat we saw beside al-Muhassab,\nyou would have excused me and praised what I did,\nand not grieved over what passed between us.\nHad you seen us as the army was pelted with stones,\nyou would have felt for us, Rudayna.\nEveryone was asking for Nufayl,\nas though I owed the Abyssinians a debt.\nGuiding them was no honor to me;\nit was a shame I bore.",
+          "role": "body",
+          "sourcePart": 37,
+          "attributionType": "historically-attributed-poetry"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Al-Muhassab is a place near Mecca. At the poem’s close, Nufayl acknowledges that guiding the army brought him no honor. The Qur’an itself tells us what Allah did to the people of the Elephant:",
+          "role": "body",
+          "sourcePart": 38
+        },
+        {
+          "kind": "paragraph",
+          "text": "Have you not seen how your Lord dealt with the people of the Elephant[1]?\nDid He not turn their scheme into a total loss[2]?\nHe sent against them swarms of birds,\npelting them with stones of baked clay,\nleaving them like chewed-up chaff.\n(Qur’an 105:1–5)",
+          "role": "body",
+          "sourcePart": 39,
+          "spans": [
+            {
+              "text": "Have you not seen how your Lord dealt with the people of the Elephant[1]?\nDid He not turn their scheme into a total loss[2]?\nHe sent against them swarms of birds,\npelting them with stones of baked clay,\nleaving them like chewed-up chaff.",
+              "role": "quran",
+              "verseKeys": [
+                "105:1-5"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/36/segments/0"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 39,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 105:1–5)",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Allah addressed His Prophet ﷺ with the words, “Have you not seen how your Lord dealt with the people of the Elephant[1]?” (Qur’an 105:1). He was reminding him of a well-known event, not saying that he had witnessed it himself. The House remained standing. An army that Quraysh had been unable to resist was prevented from reaching it. The event remained so great in Arab memory that they dated events by that year, calling it the Year of the Elephant.",
+          "role": "body",
+          "sourcePart": 40,
+          "spans": [
+            {
+              "text": "Allah addressed His Prophet ﷺ with the words, ",
+              "role": "body"
+            },
+            {
+              "text": "“Have you not seen how your Lord dealt with the people of the Elephant[1]?”",
+              "role": "quran",
+              "verseKeys": [
+                "105:1"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/37/segments/1"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 40,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": " (Qur’an 105:1). He was reminding him of a well-known event, not saying that he had witnessed it himself. The House remained standing. An army that Quraysh had been unable to resist was prevented from reaching it. The event remained so great in Arab memory that they dated events by that year, calling it the Year of the Elephant.",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Abu Righal’s name remained associated with guiding Abraha to the House. Arabs would throw stones at his grave in condemnation of what he had done, and poets handed down verses denouncing him. Miskin al-Darimi said:",
+          "role": "body",
+          "sourcePart": 41
+        },
+        {
+          "kind": "quotation",
+          "text": "Each year I stone his grave,\nas people stone the grave of Abu Righal.",
+          "role": "body",
+          "sourcePart": 42,
+          "attributionType": "historically-attributed-poetry"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The same image appears in Jarir’s satire of al-Farazdaq:",
+          "role": "body",
+          "sourcePart": 43
+        },
+        {
+          "kind": "quotation",
+          "text": "When al-Farazdaq dies, stone him,\nas you stone the grave of Abu Righal.",
+          "role": "body",
+          "sourcePart": 44,
+          "attributionType": "historically-attributed-poetry"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Jarir was saying this more than a century after the event of the Elephant.",
+          "role": "body",
+          "sourcePart": 45
+        },
+        {
+          "kind": "paragraph",
+          "text": "Many years later, at Hudaybiyyah, the Messenger of Allah ﷺ would recall the elephant’s being held back. His she-camel al-Qaswa knelt on the road. People said she had balked and refused to move. He replied: “Al-Qaswa' has not become stubborn, for stubbornness is not her habit, but she was stopped by Him Who stopped the elephant.” He then explained that he would accept a proposal from Quraysh that honored Allah’s sacred ordinances. He did not treat the camel’s refusal as a failing to be met with anger, and his mention of the elephant was more than the recollection of an old story. He ascribed what had happened to Allah’s authority and connected his response to respect for what Allah had made sacred. The event of the Elephant remained part of his understanding of what was happening. We now return to Mecca and the story with which this account began.",
+          "role": "body",
+          "sourcePart": 46,
+          "spans": [
+            {
+              "text": "Many years later, at Hudaybiyyah, the Messenger of Allah ﷺ would recall the elephant’s being held back. His she-camel al-Qaswa knelt on the road. People said she had balked and refused to move. He replied: ",
+              "role": "body"
+            },
+            {
+              "text": "“Al-Qaswa' has not become stubborn, for stubbornness is not her habit, but she was stopped by Him Who stopped the elephant.”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "bukhari",
+                  "number": "2731–2732"
+                }
+              ],
+              "speaker": "Muhammad",
+              "attribution": "Speech of Muhammad within the cited report.",
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/43/segments/1"
+                },
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/bukhari:2731",
+                  "reference": "bukhari:2731",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": " He then explained that he would accept a proposal from Quraysh that honored Allah’s sacred ordinances. He did not treat the camel’s refusal as a failing to be met with anger, and his mention of the elephant was more than the recollection of an old story. He ascribed what had happened to Allah’s authority and connected his response to respect for what Allah had made sacred. The event of the Elephant remained part of his understanding of what was happening. We now return to Mecca and the story with which this account began.",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The House around which the mission of the final prophet would begin had been preserved. Its sanctity grew in the Arabs’ eyes, giving Quraysh a standing and security that many around them did not enjoy. Scholars have therefore seen the event of the Elephant as preparation for what was to come, although the Arabs did not then know that a prophet would be born.",
+          "role": "body",
+          "sourcePart": 47
+        },
+        {
+          "kind": "paragraph",
+          "text": "Quraysh needed security for more than simply remaining in Mecca. Their way of life depended heavily on it. Mecca was not fertile farmland, and its people needed food and goods from elsewhere. Quraysh had two journeys well known among the Arabs: the winter journey and the summer journey. Their merchants traveled to surrounding lands and brought back the food, clothing, and merchandise the town needed.",
+          "role": "body",
+          "sourcePart": 48
+        },
+        {
+          "kind": "paragraph",
+          "text": "The security enjoyed by the people of the House was an important reason they could travel among the tribes. Mecca was sacred, Quraysh were its people, and the Arabs recognized their status. They could travel routes that might be extremely dangerous for others. Trade also came into Mecca, especially during pilgrimage seasons and at the markets held around it.",
+          "role": "body",
+          "sourcePart": 49
+        },
+        {
+          "kind": "paragraph",
+          "text": "For the accustomed security of the Quraysh[1],\nsecure in their winter and summer journeys[2].\nLet them worship the Lord of this [Sacred] House[3],\nWho fed them against hunger and made them secure against fear[4].\n(Qur’an 106:1–4)",
+          "role": "body",
+          "sourcePart": 50,
+          "spans": [
+            {
+              "text": "For the accustomed security of the Quraysh[1],\nsecure in their winter and summer journeys[2].\nLet them worship the Lord of this [Sacred] House[3],\nWho fed them against hunger and made them secure against fear[4].",
+              "role": "quran",
+              "verseKeys": [
+                "106:1-4"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/47/segments/0"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 50,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 106:1–4)",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Two blessings touched Quraysh’s daily life: food in a land whose crops could not meet its people’s needs, and security in a setting where tribes might face raids and fear. But the story reaches back beyond the surah of Quraysh. Going back centuries, we return once more to Abraham, peace be upon him, and his prayer for this town:",
+          "role": "body",
+          "sourcePart": 51
+        },
+        {
+          "kind": "paragraph",
+          "text": "And [remember] when Abraham said, “My Lord, make this city [of Makkah] a sanctuary and provide its people with fruits – those among them who believe in Allah and the Last Day.” Allah said, “As for those who disbelieve, I will grant them enjoyment for a short while, then I will force them into the punishment of the Fire. What a terrible destination!”\n(Qur’an 2:126)",
+          "role": "body",
+          "sourcePart": 52,
+          "spans": [
+            {
+              "text": "And [remember] when Abraham said, “My Lord, make this city [of Makkah] a sanctuary and provide its people with fruits – those among them who believe in Allah and the Last Day.” Allah said, “As for those who disbelieve, I will grant them enjoyment for a short while, then I will force them into the punishment of the Fire. What a terrible destination!”",
+              "role": "quran",
+              "verseKeys": [
+                "2:126"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/49/segments/0"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 52,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 2:126)",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Abraham asked for security and provision. The Qur’an later reminded Quraysh of those two blessings and called them to worship the Lord of the House, who had fed them and made them secure.",
+          "role": "body",
+          "sourcePart": 53
+        },
+        {
+          "kind": "paragraph",
+          "text": "Muhammad ibn Abdullah ﷺ was born in the year later known as the Year of the Elephant, according to the best-known account among biographers. Abd al-Muttalib, who had stood at the forefront of Quraysh in dealing with Abraha, was the grandfather of the child born that year. His father, Abdullah ibn Abd al-Muttalib, had died before his birth according to the more widely reported account. He thus entered life without a father.",
+          "role": "body",
+          "sourcePart": 54
+        },
+        {
+          "kind": "paragraph",
+          "text": "Another account places Abdullah’s death after his son’s birth, while he was still little. His mother was Amina bint Wahb ibn Abd Manaf ibn Zuhra ibn Kilab ibn Murra ibn Ka’b ibn Lu’ayy, of Banu Zuhra of Quraysh. The biographies relate that she sent Abd al-Muttalib the good news of his grandson’s birth, and he came to see him.",
+          "role": "body",
+          "sourcePart": 55
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Prophet ﷺ reported his mother’s vision of a light by which the palaces of the Levant were illuminated.",
+          "role": "body",
+          "sourcePart": 56
+        },
+        {
+          "kind": "paragraph",
+          "text": "As for the light he brought to people—the light of guidance and revelation—the Qur’an describes his mission clearly:",
+          "role": "body",
+          "sourcePart": 57
+        },
+        {
+          "kind": "paragraph",
+          "text": "O prophet, We have sent you as a witness, a bearer of glad tidings and a warner,\nand a caller to [the way of] Allah by His command, and as a lamp spreading light.\n(Qur’an 33:45–46)",
+          "role": "body",
+          "sourcePart": 58,
+          "spans": [
+            {
+              "text": "O prophet, We have sent you as a witness, a bearer of glad tidings and a warner,\nand a caller to [the way of] Allah by His command, and as a lamp spreading light.",
+              "role": "quran",
+              "verseKeys": [
+                "33:45-46"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/55/segments/0"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 58,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 33:45–46)",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Allah also says:\nO People of the Book, there has come to you Our Messenger, revealing to you much of what you have been concealing of the Scripture, and overlooking much[17]. There has surely come to you from Allah a light and a clear Book,\n(Qur’an 5:15)\nA number of Qur’an commentators interpreted the light here as the Prophet ﷺ, through whom Allah made the truth clear: the light of the guidance he brought to people.",
+          "role": "body",
+          "sourcePart": 59,
+          "spans": [
+            {
+              "text": "Allah also says:\n",
+              "role": "body"
+            },
+            {
+              "text": "O People of the Book, there has come to you Our Messenger, revealing to you much of what you have been concealing of the Scripture, and overlooking much[17]. There has surely come to you from Allah a light and a clear Book,",
+              "role": "quran",
+              "verseKeys": [
+                "5:15"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/56/segments/1"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 59,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 5:15)\nA number of Qur’an commentators interpreted the light here as the Prophet ﷺ, through whom Allah made the truth clear: the light of the guidance he brought to people.",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Asked about fasting on Mondays, the Messenger of Allah ﷺ replied: “It is (the day) when I was born and revelation was sent down to me”.",
+          "role": "body",
+          "sourcePart": 60,
+          "spans": [
+            {
+              "text": "Asked about fasting on Mondays, the Messenger of Allah ﷺ replied: ",
+              "role": "body"
+            },
+            {
+              "text": "“It is (the day) when I was born and revelation was sent down to me”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "muslim",
+                  "number": "1162"
+                }
+              ],
+              "speaker": "Muhammad",
+              "attribution": "Speech of Muhammad within the cited report.",
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/57/segments/1"
+                },
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/muslim:1162e",
+                  "reference": "muslim:1162e",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Most biographers place his birth in Rabi al-Awwal. The twelfth became the best-known date, although they disagreed about the exact day.",
+          "role": "body",
+          "sourcePart": 61
+        },
+        {
+          "kind": "paragraph",
+          "text": "Muhammad ﷺ belonged to Banu Hashim, a branch of Quraysh, and his recognized genealogy extends back to Adnan. Tribal membership mattered greatly. In Mecca, a tribe was more than a family name: it was a network of kinship, protection, and responsibilities. The force of those ties would appear repeatedly when his mission began decades later.",
+          "role": "body",
+          "sourcePart": 62
+        },
+        {
+          "kind": "paragraph",
+          "text": "Among the reports told about those days is an account from Hassan ibn Thabit, may Allah be pleased with him. He was then a boy of seven or eight in Yathrib, later known as Medina. He heard a Jewish man calling from a high, fortified building. When the man’s people gathered around him, he said: “Tonight the star of Ahmad, under which he was born, has risen.” This is one of the reports found in the biographies; knowledge of the unseen belongs to Allah.",
+          "role": "body",
+          "sourcePart": 63
+        },
+        {
+          "kind": "paragraph",
+          "text": "Salama ibn Salama ibn Waqsh related another account. Shortly before the Prophet’s mission, a Jewish neighbor of his in Banu Abd al-Ashhal came out to his people’s gathering. Salama was among the youngest there. The neighbor began speaking about resurrection, judgment, the scales, Paradise, and the Fire. The people were idolaters who did not believe in resurrection after death. Astonished, they asked whether this would really happen: would people be raised after death to an abode containing Paradise and Fire? He affirmed it and described the Fire so terribly that he said he would choose to be shut inside a blazing oven if that would save him from the Fire of the Hereafter.",
+          "role": "body",
+          "sourcePart": 64
+        },
+        {
+          "kind": "paragraph",
+          "text": "They asked for a sign of what he was saying. He pointed toward Mecca and Yemen and spoke of a prophet who would be sent from that direction. When they asked when, he looked at Salama and said that if this boy lived long enough, he would see him. Time passed, and the Messenger of Allah ﷺ was sent while the man was still living among them. Salama says that they believed, while their neighbor rejected him out of envy and wrongdoing. They reminded him of what he used to say. He answered: “Yes, but this is not him.” He could still remember his earlier description, yet he did not let it lead him to respond when the one he had awaited came.",
+          "role": "body",
+          "sourcePart": 65
+        },
+        {
+          "kind": "paragraph",
+          "text": "Men of the Ansar related a similar experience. They had worshiped idols, while their Jewish neighbors were People of the Book who knew the accounts of the prophets. When disputes arose, some of those neighbors threatened them that a prophet’s time was near: they would follow him and fight their opponents with him. When the Messenger of Allah ﷺ called those Ansar to faith, they recognized the news they had heard and were quick to believe. Words intended to frighten them thus helped them recognize the call, while those who had spoken so often of it did not follow it. This verse is mentioned in that context:",
+          "role": "body",
+          "sourcePart": 66
+        },
+        {
+          "kind": "paragraph",
+          "text": "And when there came to them a Book [i.e., the Qur’ān] from Allāh confirming that which was with them - although before they used to pray for victory against those who disbelieved - but [then] when there came to them that which they recognized, they disbelieved in it; so the curse of Allāh will be upon the disbelievers.\n(Qur’an 2:89)",
+          "role": "body",
+          "sourcePart": 67,
+          "spans": [
+            {
+              "text": "And when there came to them a Book [i.e., the Qur’ān] from Allāh confirming that which was with them - although before they used to pray for victory against those who disbelieved - but [then] when there came to them that which they recognized, they disbelieved in it; so the curse of Allāh will be upon the disbelievers.",
+              "role": "quran",
+              "verseKeys": [
+                "2:89"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/64/segments/0"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 67,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 2:89)",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "These reports do not assign a single attitude to every person among the People of the Book. They show the test faced by someone who receives knowledge: does he want the truth itself, or only a truth that agrees with the standing he hopes to secure for himself and his people? Someone with little learning may hear a word from another person and benefit from it through Allah’s help when he accepts it, while the person who memorized it gains nothing because he refuses to follow it.",
+          "role": "body",
+          "sourcePart": 68
+        },
+        {
+          "kind": "paragraph",
+          "text": "Years after the migration, Heraclius would tell Abu Sufyan, in an authentic hadith, that he had known a prophet would appear but had not expected him to be an Arab. After asking about Muhammad’s lineage, truthfulness, and followers, he said that if what he had heard was true, Muhammad would rule the ground beneath his feet. He said that if he could reach him, he would make the effort to meet him, and that if he were with him, he would wash his feet. This encounter was not an event from the Prophet’s childhood. It reveals something of the knowledge some People of the Book had about an awaited prophet.",
+          "role": "body",
+          "sourcePart": 69
+        },
+        {
+          "kind": "paragraph",
+          "text": "One man’s waiting did not remain mere words. It became a journey that cost him years, wealth, and freedom. That man was Salman the Persian. His story stretches from Persia to Medina after the migration. We consider it here to see how news of the awaited prophet became, for one who heard it, a path traveled in search of guidance.",
+          "role": "body",
+          "sourcePart": 70
+        },
+        {
+          "kind": "paragraph",
+          "text": "Salman came from Jayy, a village near Isfahan. His father was the village chief and a man of standing. He loved Salman so intensely that he kept him confined at home out of fear for him. Salman grew up in the Magian religion and practiced it so diligently that he became keeper of the fire, tending it and never allowing it to die. He was not a man leaving a faith to which he had felt no connection. He had been deeply devoted to the religion in which he was raised.",
+          "role": "body",
+          "sourcePart": 71
+        },
+        {
+          "kind": "paragraph",
+          "text": "One day, occupied with a building project, his father sent him to carry out work on his estate. Passing a church, Salman heard people praying. He went inside to watch, liked what he saw, and stayed until sunset without reaching the estate. He asked where their religion came from. They told him: the Levant. When he returned, his father had been looking for him and worrying over his delay. Salman explained what he had seen and said that it was better than their religion. His father answered that his own religion and that of his ancestors was better. Salman, however, was not convinced that inheriting a religion was enough to establish its truth.",
+          "role": "body",
+          "sourcePart": 72
+        },
+        {
+          "kind": "paragraph",
+          "text": "Afraid that his son would leave, his father fettered his leg and confined him. Salman sent word to the Christians, asking them to tell him when merchants arrived from the Levant. A caravan came, completed its business, and prepared to return. Salman freed himself from his fetters and went with them. He was leaving a home of love and comfort, but remaining there could not answer the question that now occupied him: where was the worship that pleased Allah?",
+          "role": "body",
+          "sourcePart": 73
+        },
+        {
+          "kind": "paragraph",
+          "text": "On reaching the Levant, he asked for the person most learned in that religion and was directed to the bishop, the senior churchman. He offered to serve him, learn from him, and pray with him. Instead, he discovered a betrayal he had not expected. The bishop urged people to give charity, then kept what they gave instead of passing it to the poor. He amassed seven jars of gold and silver. Salman hated what he was doing. When the bishop died and his people were about to bury him, Salman told them and showed them where the money was hidden. They brought it out, refused to bury him, and crucified and stoned him, as Salman relates.",
+          "role": "body",
+          "sourcePart": 74
+        },
+        {
+          "kind": "paragraph",
+          "text": "Salman did not excuse the betrayal out of reverence for the bishop’s standing, nor did he let one man’s treachery end his entire search for truth. A successor came, and Salman found him devoted to the Hereafter, detached from worldly excess, and worshiping by night and day. He grew to love him deeply. When the man was dying, Salman’s question was not about his estate or home. He asked: “To whom do you commend me? What do you advise me to do?” He had learned that companionship which leads to Allah is a blessing. Losing such a companion called him to continue the journey, not forget the purpose for which he had set out.",
+          "role": "body",
+          "sourcePart": 75,
+          "spans": [
+            {
+              "text": "Salman did not excuse the betrayal out of reverence for the bishop’s standing, nor did he let one man’s treachery end his entire search for truth. A successor came, and Salman found him devoted to the Hereafter, detached from worldly excess, and worshiping by night and day. He grew to love him deeply. When the man was dying, Salman’s question was not about his estate or home. He asked: ",
+              "role": "body"
+            },
+            {
+              "text": "“To whom do you commend me? What do you advise me to do?”",
+              "role": "body",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "ahmad",
+                  "number": "23737",
+                  "qualification": {
+                    "language": "en",
+                    "text": "From Salman al-Farisi’s report, narrated from him by Ibn Abbas. Shuayb al-Arnaut, in his edition of Musnad Ahmad (39/127), described the report as authentic and this chain as good."
+                  }
+                }
+              ],
+              "speaker": "Salman al-Farisi",
+              "attribution": "Salman al-Farisi’s own question in the companion report narrated to Ibn Abbas.",
+              "referenceProvenance": [
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://dorar.net/h/velVaqfS",
+                  "reference": "Musnad Ahmad 23737",
+                  "scope": "The full displayed Salman report includes his questions to successive teachers; speaker is Salman."
+                },
+                {
+                  "kind": "accepted-reader-translation-credit",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 124,
+                  "scope": "The accepted source credits Saleh as-Saleh, The Search for the Truth (2004), for short Salman speech quotations."
+                }
+              ]
+            },
+            {
+              "text": " He had learned that companionship which leads to Allah is a blessing. Losing such a companion called him to continue the journey, not forget the purpose for which he had set out.",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The man directed him to someone in Mosul. Salman joined him and found him following the same path. When that man died, the longer account relates, Salman moved to a man in Nisibis, then to another in Amorium in Byzantine territory. Whenever one of his companions approached death, he returned to the same question: “To whom do you commend me?” At each stage he found someone preserving something of what the prophets had brought, while his companions described the alterations that had taken place around them. In Amorium Salman earned enough to own some cattle and sheep. Seeking religion had not meant giving up work and earning a living.",
+          "role": "body",
+          "sourcePart": 76,
+          "spans": [
+            {
+              "text": "The man directed him to someone in Mosul. Salman joined him and found him following the same path. When that man died, the longer account relates, Salman moved to a man in Nisibis, then to another in Amorium in Byzantine territory. Whenever one of his companions approached death, he returned to the same question: ",
+              "role": "body"
+            },
+            {
+              "text": "“To whom do you commend me?”",
+              "role": "body",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "ahmad",
+                  "number": "23737",
+                  "qualification": {
+                    "language": "en",
+                    "text": "From Salman al-Farisi’s report, narrated from him by Ibn Abbas. Shuayb al-Arnaut, in his edition of Musnad Ahmad (39/127), described the report as authentic and this chain as good."
+                  }
+                }
+              ],
+              "speaker": "Salman al-Farisi",
+              "attribution": "Salman al-Farisi’s own question in the companion report narrated to Ibn Abbas.",
+              "referenceProvenance": [
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://dorar.net/h/velVaqfS",
+                  "reference": "Musnad Ahmad 23737",
+                  "scope": "The full displayed Salman report includes his questions to successive teachers; speaker is Salman."
+                },
+                {
+                  "kind": "accepted-reader-translation-credit",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 124,
+                  "scope": "The accepted source credits Saleh as-Saleh, The Search for the Truth (2004), for short Salman speech quotations."
+                }
+              ]
+            },
+            {
+              "text": " At each stage he found someone preserving something of what the prophets had brought, while his companions described the alterations that had taken place around them. In Amorium Salman earned enough to own some cattle and sheep. Seeking religion had not meant giving up work and earning a living.",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the man in Amorium was dying, he told Salman that he knew of no one remaining on their path to whom he could direct him. But a prophet’s time was near. He would be sent with the religion of Abraham, appear in Arabia, and migrate to a land of palms between two tracts of black volcanic stone. He described signs by which to recognize him: he would eat food given as a gift, but not as charity; between his shoulders would be the seal of prophethood. He urged Salman to go to that land if he could. Salman now had a description to search for, rather than a longing with no means of testing it.",
+          "role": "body",
+          "sourcePart": 77
+        },
+        {
+          "kind": "paragraph",
+          "text": "Merchants from the tribe of Kalb passed through. Salman offered them his cattle and sheep to take him to Arabia. They agreed, but on reaching Wadi al-Qura they betrayed him and sold him to a Jewish man as a slave. He had given all he owned to draw nearer to his goal, only to lose both his property and his freedom. Seeing palms there, he hoped this might be the place described to him, but he was not certain. A man from Banu Qurayza then bought him and took him to Medina. When he saw it, he recognized its description.",
+          "role": "body",
+          "sourcePart": 78
+        },
+        {
+          "kind": "paragraph",
+          "text": "He lived there in slavery and worked. The Messenger of Allah ﷺ was sent and spent his years in Mecca, but Salman’s work kept news of him from reaching him. Then the Prophet migrated. One day, Salman was high in his master’s palm tree when he heard a relative of his master say that Aws and Khazraj were gathering in Quba around a man from Mecca whom they said was a prophet. Salman trembled so violently that he feared falling. He climbed down and asked about the news. His master grew angry, punched him, and ordered him back to work. Yet for Salman this was no passing piece of news. It was bound up with a whole journey unknown to the man rebuking him.",
+          "role": "body",
+          "sourcePart": 79
+        },
+        {
+          "kind": "paragraph",
+          "text": "He gathered some dates and went to the Prophet ﷺ in Quba. He said he had heard of his righteousness and of his companions’ need and distance from home. He had brought charity and thought them most deserving of it. The Messenger of Allah told his companions to eat but kept his own hand back. Salman thought: that is one. Later he came with a gift, explaining that he had seen that the Prophet did not eat charity and now wished to honor him. The Prophet ate, and so did his companions. Salman recognized the second sign. His eagerness to meet him had not replaced the need to verify what had been described to him.",
+          "role": "body",
+          "sourcePart": 80
+        },
+        {
+          "kind": "paragraph",
+          "text": "He next came to the Prophet ﷺ at a funeral in al-Baqi, where the Prophet was wearing two wraps. He greeted the Prophet ﷺ and moved around to look at his back. Realizing that he was searching for something described to him, the Prophet let his cloak fall from his back. Salman saw the seal of prophethood between his shoulders. He bent over, kissing it and weeping. He then told the Messenger of Allah his story, and the Prophet wanted his companions to hear what had happened to him. After so much travel, questioning, and loss, he had met the man he was seeking. His journey no longer remained a story hidden within him.",
+          "role": "body",
+          "sourcePart": 81
+        },
+        {
+          "kind": "paragraph",
+          "text": "The trial did not end with that meeting. Slavery kept him occupied, and he missed Badr and Uhud. The Messenger of Allah ﷺ then told him: “Make a contract [with your master] for your \nfreedom, O Salman.” He was to agree with his master on what he would pay to become free. They settled on his planting three hundred palms and tending them until they took root and lived, together with a payment of forty uqiyyas, a measure of monetary weight. The Prophet told his companions: “Help your brother.” One brought thirty young palms, another twenty, another fifteen, each giving what he could, until all three hundred had been collected.",
+          "role": "body",
+          "sourcePart": 82,
+          "spans": [
+            {
+              "text": "The trial did not end with that meeting. Slavery kept him occupied, and he missed Badr and Uhud. The Messenger of Allah ﷺ then told him: ",
+              "role": "body"
+            },
+            {
+              "text": "“Make a contract [with your master] for your \nfreedom, O Salman.”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "ahmad",
+                  "number": "23737",
+                  "qualification": {
+                    "language": "en",
+                    "text": "From Salman al-Farisi’s report, narrated from him by Ibn Abbas. Shuayb al-Arnaut, in his edition of Musnad Ahmad (39/127), described the report as authentic and this chain as good."
+                  }
+                }
+              ],
+              "speaker": "Muhammad",
+              "attribution": "Speech of Muhammad within the cited report.",
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/79/segments/1"
+                },
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://dorar.net/h/velVaqfS?osoul=1",
+                  "reference": "velVaqfS?osoul=1",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": " He was to agree with his master on what he would pay to become free. They settled on his planting three hundred palms and tending them until they took root and lived, together with a payment of forty uqiyyas, a measure of monetary weight. The Prophet told his companions: ",
+              "role": "body"
+            },
+            {
+              "text": "“Help your brother.”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "ahmad",
+                  "number": "23737",
+                  "qualification": {
+                    "language": "en",
+                    "text": "From Salman al-Farisi’s report, narrated from him by Ibn Abbas. Shuayb al-Arnaut, in his edition of Musnad Ahmad (39/127), described the report as authentic and this chain as good."
+                  }
+                }
+              ],
+              "speaker": "Muhammad",
+              "attribution": "Speech of Muhammad within the cited report.",
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/79/segments/3"
+                },
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://dorar.net/h/velVaqfS?osoul=1",
+                  "reference": "velVaqfS?osoul=1",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": " One brought thirty young palms, another twenty, another fifteen, each giving what he could, until all three hundred had been collected.",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "With help from his companions, Salman dug the holes. The Messenger of Allah ﷺ then came and planted the palms with his own hand as they passed them to him. Salman swears that not one of them died. The money remained. A piece of gold the size of a hen’s egg was brought to the Prophet. He called Salman and told him to pay what he owed with it. Salman thought it small compared with the debt, but the Messenger of Allah reassured him. He weighed it and found it sufficient for the forty uqiyyas. He fulfilled his agreement and became free. He took part in the Battle of the Trench and missed no subsequent campaign with the Messenger of Allah.",
+          "role": "body",
+          "sourcePart": 83
+        },
+        {
+          "kind": "paragraph",
+          "text": "At the beginning, Salman had been confined in his father’s house. Then he became a stranger moving between lands, and then an enslaved man working for someone else. At the end, the believers did not tell him, “This is your problem alone.” Their Prophet told them: “Help your brother.” One man’s search for guidance met the mercy of a community willing to give so that he could be free. Brotherhood was more than a name bestowed on him while he was left alone with his debt. It meant carrying palms, digging holes, and providing what would settle the balance. This ending does not make the injustice he suffered a good deed on the part of those who wronged him. Rather, we see that human betrayal did not prevent Allah from opening a way toward what Salman had set out to seek.",
+          "role": "body",
+          "sourcePart": 84,
+          "spans": [
+            {
+              "text": "At the beginning, Salman had been confined in his father’s house. Then he became a stranger moving between lands, and then an enslaved man working for someone else. At the end, the believers did not tell him, “This is your problem alone.” Their Prophet told them: ",
+              "role": "body"
+            },
+            {
+              "text": "“Help your brother.”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "ahmad",
+                  "number": "23737",
+                  "qualification": {
+                    "language": "en",
+                    "text": "From Salman al-Farisi’s report, narrated from him by Ibn Abbas. Shuayb al-Arnaut, in his edition of Musnad Ahmad (39/127), described the report as authentic and this chain as good."
+                  }
+                }
+              ],
+              "speaker": "Muhammad",
+              "attribution": "Speech of Muhammad within the cited report.",
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/81/segments/1"
+                },
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://dorar.net/h/velVaqfS?osoul=1",
+                  "reference": "velVaqfS?osoul=1",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": " One man’s search for guidance met the mercy of a community willing to give so that he could be free. Brotherhood was more than a name bestowed on him while he was left alone with his debt. It meant carrying palms, digging holes, and providing what would settle the balance. This ending does not make the injustice he suffered a good deed on the part of those who wronged him. Rather, we see that human betrayal did not prevent Allah from opening a way toward what Salman had set out to seek.",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "That journey would be completed after the beginning of the Prophet’s mission and the migration. Muhammad ﷺ, to whom the glad tidings pointed, had meanwhile spent his early years as a child passing between the care of his mother, his nurse, and his family, long before revelation came.",
+          "role": "body",
+          "sourcePart": 85
+        },
+        {
+          "kind": "paragraph",
+          "text": "In those early years he did not remain in his mother’s home all the time. Some Meccans customarily sent their children to women of the desert to nurse them and care for them for a time outside Mecca. His mother nursed him, as did Thuwayba, Abu Lahab’s freedwoman, for a period. The biographies relate that Abd al-Muttalib sought wet nurses for him. The best known of those who nursed and cared for him in the desert was Halima bint Abi Dhu’ayb al-Sa’diyya, of Banu Sa’d ibn Bakr of Hawazin. She became his mother through nursing. From childhood, then, he knew more than one home and more than one form of care, though he had no father living with him.",
+          "role": "body",
+          "sourcePart": 86
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sending a child into the desert did not mean cutting him off from his mother and family. Nursing was an established form of care that created ties lasting beyond infancy. Among the benefits given for the custom were that a child’s speech would be strengthened by the language of the desert Arabs and that he would grow accustomed to a hardy life and endurance. It could also relieve a mother of some of the demands of nursing, leaving her freer to attend to her household and husband.",
+          "role": "body",
+          "sourcePart": 87
+        },
+        {
+          "kind": "paragraph",
+          "text": "Yet separation was difficult for the family. A plain and hardy way of life was associated with Ma’add ibn Adnan. The Prophet’s eloquence, however, cannot be explained by the place where he grew up alone. Scholars described him as the most eloquent and accomplished of speakers. He also possessed qualities of prophethood that went beyond his people’s ordinary experience.",
+          "role": "body",
+          "sourcePart": 88
+        },
+        {
+          "kind": "paragraph",
+          "text": "The ability to endure a hardy life remained praiseworthy in later times. Among the words attributed to Umar ibn al-Khattab, may Allah be pleased with him, in a letter to the people of Azerbaijan are: “Cast aside the stirrups, leap onto your mounts, and keep to the hardy ways of Ma’add.” The riding aid in question supports the foot when mounting. Arabic distinguishes a leather foot support from a stirrup made of wood or iron. The instruction to leap meant practicing the physical activity needed to mount by the strength of one’s own body.",
+          "role": "body",
+          "sourcePart": 89
+        },
+        {
+          "kind": "paragraph",
+          "text": "Another letter attributed to Umar has a different wording: “Accustom yourselves to rough living, harden yourselves, wear well-worn clothes, and live like Ma’add, as though you were Ma’add himself.” These expressions include rough clothing, along with endurance and avoiding excessive luxury.",
+          "role": "body",
+          "sourcePart": 90
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Arabs also valued eloquent speech. Later literary works tell how Abd al-Malik ibn Marwan kept his eldest son al-Walid close because of his great love for him, instead of sending him into the desert as he did his other sons. Al-Walid later made errors in grammatical inflection, and his father is reported to have said: “Our love for al-Walid has harmed us.” His brothers Sulayman, Yazid, and Maslama were among those raised in the desert and trained in its people’s speech. The custom thus brought together a family’s desire to keep a child close and its concern for his upbringing, without making desert life by itself a guarantee of eloquence.",
+          "role": "body",
+          "sourcePart": 91
+        },
+        {
+          "kind": "paragraph",
+          "text": "The biographies tell of blessings that came to Halima’s household and livestock after she took him with her. The reliability of the details varies. Muhammad ﷺ spent a period of childhood among Banu Sa’d in her care, and this bond through nursing remained a recognized part of his life.",
+          "role": "body",
+          "sourcePart": 92
+        },
+        {
+          "kind": "paragraph",
+          "text": "During that period, the opening of his chest took place. In an authentic hadith, Anas ibn Malik, may Allah be pleased with him, relates that Muhammad ﷺ was playing with other boys when Gabriel, peace be upon him, came, took hold of him, and laid him on the ground. He opened his chest and took out his heart, then removed a clot of blood from it, saying: “That was the devil's share in you.” He washed the heart with Zamzam water in a broad golden basin, then put it back together and restored it to its place.",
+          "role": "body",
+          "sourcePart": 93,
+          "spans": [
+            {
+              "text": "During that period, the opening of his chest took place. In an authentic hadith, Anas ibn Malik, may Allah be pleased with him, relates that Muhammad ﷺ was playing with other boys when Gabriel, peace be upon him, came, took hold of him, and laid him on the ground. He opened his chest and took out his heart, then removed a clot of blood from it, saying: ",
+              "role": "body"
+            },
+            {
+              "text": "“That was the devil's share in you.”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "muslim",
+                  "number": "162"
+                }
+              ],
+              "speaker": "Gabriel",
+              "attribution": "Gabriel’s speech within Anas ibn Malik’s narrated report.",
+              "referenceProvenance": [
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/muslim:162c",
+                  "reference": "Sahih Muslim 162; web variant 162c",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": " He washed the heart with Zamzam water in a broad golden basin, then put it back together and restored it to its place.",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The boys saw what happened and ran to his nursing mother, Halima, saying: “Muhammad has been killed.” They hurried to him and found that his color had changed. Anas, who became his companion after the Prophet had grown up, used to see the mark of the stitching on his chest. He said: “I used to see the scar of this stitching on his chest.”",
+          "role": "body",
+          "sourcePart": 94,
+          "spans": [
+            {
+              "text": "The boys saw what happened and ran to his nursing mother, Halima, saying: ",
+              "role": "body"
+            },
+            {
+              "text": "“Muhammad has been killed.”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "muslim",
+                  "number": "162"
+                }
+              ],
+              "speaker": "The boys playing with Muhammad",
+              "attribution": "The boys’ speech within Anas ibn Malik’s narrated report.",
+              "referenceProvenance": [
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/muslim:162c",
+                  "reference": "Sahih Muslim 162; web variant 162c",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": " They hurried to him and found that his color had changed. Anas, who became his companion after the Prophet had grown up, used to see the mark of the stitching on his chest. He said: ",
+              "role": "body"
+            },
+            {
+              "text": "“I used to see the scar of this stitching on his chest.”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "muslim",
+                  "number": "162"
+                }
+              ],
+              "speaker": "Anas ibn Malik",
+              "attribution": "Anas ibn Malik’s own observation at the end of his report.",
+              "referenceProvenance": [
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/muslim:162c",
+                  "reference": "Sahih Muslim 162; web variant 162c",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "This was an extraordinary event in his childhood, many years before revelation began.",
+          "role": "body",
+          "sourcePart": 95
+        },
+        {
+          "kind": "paragraph",
+          "text": "Muhammad ﷺ returned to Amina after his years in the desert. He was about four or five, according to differing accounts in the biographies.",
+          "role": "body",
+          "sourcePart": 96
+        },
+        {
+          "kind": "paragraph",
+          "text": "At about six, he went with his mother on a journey to Yathrib. Abd al-Muttalib’s family had ties with Banu Adiyy ibn al-Najjar there, and the child visited his relatives with his mother. They then began the journey back to Mecca. It would not end as it had begun.",
+          "role": "body",
+          "sourcePart": 97
+        },
+        {
+          "kind": "paragraph",
+          "text": "The link with Banu al-Najjar came through his grandfather Abd al-Muttalib, whose mother was Salma bint Amr al-Najjariyya. For this reason they were called maternal uncles of Abd al-Muttalib and his grandson. Amina herself belonged to Banu Zuhra. Through this family connection, Yathrib had a place in his family’s story many years before his migration there.",
+          "role": "body",
+          "sourcePart": 98
+        },
+        {
+          "kind": "paragraph",
+          "text": "On the road, at al-Abwa between Mecca and Medina, Amina died. Muhammad ﷺ was about six. He had left Mecca with his mother and returned without her. His orphanhood deepened: he had lost the father he had never known, and now the mother whose embrace and company he had known. There were people to care for him during this period. Among those best known for serving and looking after him was Baraka, known as Umm Ayman.",
+          "role": "body",
+          "sourcePart": 99
+        },
+        {
+          "kind": "paragraph",
+          "text": "Many years later he would return to his mother’s grave. Abu Hurayra, may Allah be pleased with him, related that the Prophet ﷺ visited it, wept, and moved those around him to tears. He said: “I sought permission from my Lord to beg forgiveness for her but it was not granted to me, and I sought permission to visit her grave and it was granted to me so visit the graves, for that makes you mindful of death”.",
+          "role": "body",
+          "sourcePart": 100,
+          "spans": [
+            {
+              "text": "Many years later he would return to his mother’s grave. Abu Hurayra, may Allah be pleased with him, related that the Prophet ﷺ visited it, wept, and moved those around him to tears. He said: ",
+              "role": "body"
+            },
+            {
+              "text": "“I sought permission from my Lord to beg forgiveness for her but it was not granted to me, and I sought permission to visit her grave and it was granted to me so visit the graves, for that makes you mindful of death”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "muslim",
+                  "number": "976"
+                }
+              ],
+              "speaker": "Muhammad",
+              "attribution": "Speech of Muhammad within the cited report.",
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/97/segments/1"
+                },
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/muslim:976b",
+                  "reference": "muslim:976b",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Hadith scholars have disagreed about the authenticity of a separate account from Burayda ibn al-Husayb. It adds that a thousand fully armed men accompanied him on the visit. Its description of the crying has been read as saying that he was never seen weeping more intensely than that day, though the wording admits more than one reading. Whatever the disagreement over this addition, his weeping at his mother’s grave is established in Abu Hurayra’s hadith. The strength people knew in him did not make him hardhearted or unable to shed tears of loss. Prophethood had not taken away his tenderness toward his family. The number of companions and that day’s added description remain less certain than the visit and the weeping themselves.",
+          "role": "body",
+          "sourcePart": 101
+        },
+        {
+          "kind": "paragraph",
+          "text": "After Amina died, his grandfather Abd al-Muttalib became his guardian. The biographies describe the boy’s special place with him. Abd al-Muttalib had a mattress in the shade of the Kaaba on which his sons would not sit out of respect for him. When Muhammad ﷺ came to sit on it, his uncles would try to move him away. Abd al-Muttalib would tell them to leave the boy, swearing that he would have a great future. The grandfather who had figured so prominently in the event of the Elephant was now surrounding his orphaned grandson with care.",
+          "role": "body",
+          "sourcePart": 102
+        },
+        {
+          "kind": "paragraph",
+          "text": "It is related that Abd al-Muttalib would stroke his grandson’s back and take pleasure in what he did. The orphaned child found affection and care with his grandfather.",
+          "role": "body",
+          "sourcePart": 103
+        },
+        {
+          "kind": "paragraph",
+          "text": "But this stability did not last long. Abd al-Muttalib died when Muhammad ﷺ was about eight. After the deaths of his father and mother came a third loss: the man who had provided his immediate protection. His uncle Abu Talib then became his guardian. Abu Talib was the full brother of the Prophet’s father Abdullah. He took responsibility for his nephew and remained close to him in the years that followed.",
+          "role": "body",
+          "sourcePart": 104
+        },
+        {
+          "kind": "paragraph",
+          "text": "Abu Talib and Abdullah’s mother was Fatima bint Amr ibn A’idh al-Makhzumiyya. The biographies relate that Abd al-Muttalib entrusted his grandson to Abu Talib, who honored that charge and took him into his care.",
+          "role": "body",
+          "sourcePart": 105
+        },
+        {
+          "kind": "paragraph",
+          "text": "His uncle was known as Abu Talib; his personal name was Abd Manaf. Among the verses attributed to Abd al-Muttalib when entrusting the child to him are:",
+          "role": "body",
+          "sourcePart": 106
+        },
+        {
+          "kind": "quotation",
+          "text": "Abd Manaf, after I am gone,\nI charge you with the child left alone after his father.\nHis father left him lying in the cradle;\nI was like a mother to him in love and grief,\ndrawing him close as a mother holds her child against her heart.",
+          "role": "body",
+          "sourcePart": 107,
+          "attributionType": "historically-attributed-poetry"
+        },
+        {
+          "kind": "paragraph",
+          "text": "These verses are also attributed to him:",
+          "role": "body",
+          "sourcePart": 108
+        },
+        {
+          "kind": "quotation",
+          "text": "I have entrusted to the man called Abu Talib—\nAbd Manaf, a man of experience—\nthe son of one who has gone and will not return.",
+          "role": "body",
+          "sourcePart": 109,
+          "attributionType": "historically-attributed-poetry"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The poems speak of love and grief, and of a father who will not return. The Qur’an reminded the Prophet ﷺ of the care Allah had provided for him:",
+          "role": "body",
+          "sourcePart": 110
+        },
+        {
+          "kind": "paragraph",
+          "text": "Did He not find you an orphan then take good care of you?\n(Qur’an 93:6)",
+          "role": "body",
+          "sourcePart": 111,
+          "spans": [
+            {
+              "text": "Did He not find you an orphan then take good care of you?",
+              "role": "quran",
+              "verseKeys": [
+                "93:6"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/108/segments/0"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 111,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 93:6)",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The loss had been severe. Yet when the Qur’an recalled his childhood, it joined orphanhood with shelter.",
+          "role": "body",
+          "sourcePart": 112
+        },
+        {
+          "kind": "paragraph",
+          "text": "Shelter does not mean that no pain occurred. It means that hardship did not leave him abandoned: after each loss, Allah provided someone to care for him.",
+          "role": "body",
+          "sourcePart": 113
+        },
+        {
+          "kind": "paragraph",
+          "text": "We see this also in the story of Moses, peace be upon him. Hardships followed one another, yet Allah’s care never ceased. In Surah Ta Ha, Allah reminds him of what he had passed through, from childhood until his arrival at the time appointed for him:",
+          "role": "body",
+          "sourcePart": 114
+        },
+        {
+          "kind": "paragraph",
+          "text": "When your sister was going along and said, ‘Shall I show you someone who will nurse him?’ Thus We brought you back to your mother, so that she may rejoice and not grieve[10]. Then you killed a man [by mistake][11], but We saved you from distress, and We put you through several trials. You stayed among the people of Midian for several years, then you came [here] at a destined time, O Moses.\n(Qur’an 20:40)",
+          "role": "body",
+          "sourcePart": 115,
+          "spans": [
+            {
+              "text": "When your sister was going along and said, ‘Shall I show you someone who will nurse him?’ Thus We brought you back to your mother, so that she may rejoice and not grieve[10]. Then you killed a man [by mistake][11], but We saved you from distress, and We put you through several trials. You stayed among the people of Midian for several years, then you came [here] at a destined time, O Moses.",
+              "role": "quran",
+              "verseKeys": [
+                "20:40"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/112/segments/0"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 115,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 20:40)",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "So too with Joseph, peace be upon him. His brothers threw him into the well. He was taken out, sold, and separated from his family, and he entered prison despite the signs of his innocence. Allah then brought him out of prison, and the king drew him close. He took charge of the land’s storehouses and gained standing and authority. His rise to authority came after trials. The sign of divine care was not that trials never happened. Allah says:",
+          "role": "body",
+          "sourcePart": 116
+        },
+        {
+          "kind": "paragraph",
+          "text": "This is how We established Joseph in the land[22] so that he may settle wherever he wished. We extend Our mercy to whom We will, and We do not let the reward of those who do good to go to waste.\n(Qur’an 12:56)",
+          "role": "body",
+          "sourcePart": 117,
+          "spans": [
+            {
+              "text": "This is how We established Joseph in the land[22] so that he may settle wherever he wished. We extend Our mercy to whom We will, and We do not let the reward of those who do good to go to waste.",
+              "role": "quran",
+              "verseKeys": [
+                "12:56"
+              ],
+              "explicitSourceReferencePlaced": true,
+              "referenceProvenance": [
+                {
+                  "kind": "inherited-public-source-reference",
+                  "path": "books/source-projections/ar-seerah-new.json",
+                  "sha256": "04c814c95aa102bf16354a6bef5acfd8784e4da119ec6caff756af40289d3edc",
+                  "pointer": "/chapters/0/paragraphs/114/segments/0"
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 117,
+                  "scope": "Verse identity printed in this exact source part; full supplied translation retained."
+                }
+              ]
+            },
+            {
+              "text": "\n(Qur’an 12:56)",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The same meaning appears in the story of Hagar, may Allah be pleased with her, and her nursing infant Ishmael, peace be upon him, in a valley without crops. Abraham, peace be upon him, left them there by Allah’s command. Hagar asked him about it:",
+          "role": "body",
+          "sourcePart": 118
+        },
+        {
+          "kind": "paragraph",
+          "text": "“Has Allah ordered you to do so?” asked Hagar, Ishmael’s mother. “Yes,” Abraham replied. She said: “Then He will not neglect us”.",
+          "role": "body",
+          "sourcePart": 119,
+          "spans": [
+            {
+              "text": "“Has Allah ordered you to do so?”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "bukhari",
+                  "number": "3364"
+                }
+              ],
+              "speaker": "Hagar",
+              "attribution": "Hagar’s speech within Ibn Abbas’s report about Hagar and Ishmael.",
+              "referenceProvenance": [
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/bukhari:3364",
+                  "reference": "Sahih al-Bukhari 3364",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": " asked Hagar, Ishmael’s mother. ",
+              "role": "body"
+            },
+            {
+              "text": "“Yes,”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "bukhari",
+                  "number": "3364"
+                }
+              ],
+              "speaker": "Abraham",
+              "attribution": "Abraham’s speech within Ibn Abbas’s report about Hagar and Ishmael.",
+              "referenceProvenance": [
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/bukhari:3364",
+                  "reference": "Sahih al-Bukhari 3364",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": " Abraham replied. She said: ",
+              "role": "body"
+            },
+            {
+              "text": "“Then He will not neglect us”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "bukhari",
+                  "number": "3364"
+                }
+              ],
+              "speaker": "Hagar",
+              "attribution": "Hagar’s speech within Ibn Abbas’s report about Hagar and Ishmael.",
+              "referenceProvenance": [
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/bukhari:3364",
+                  "reference": "Sahih al-Bukhari 3364",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "role": "body"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The water then ran out, and Hagar went in search of help. Her hardship and her trust in Allah together help us distinguish being tried from being abandoned. Divine care does not mean a road without pain.",
+          "role": "body",
+          "sourcePart": 120
+        },
+        {
+          "kind": "paragraph",
+          "text": "These trials did not produce prophethood. Prophethood is Allah’s choice and revelation. Muhammad ﷺ lived a childhood in which loss was real and care was present alongside it. Other stages of work, experience, and preparation would follow, before he reached forty and revelation began.",
+          "role": "body",
+          "sourcePart": 121
+        },
+        {
+          "kind": "paragraph",
+          "text": "Muhammad ﷺ thus entered the next years of his life in Abu Talib’s home, in Mecca, where he would come to know the Arabs’ customs, ties, and trade, and the virtues and injustices in their lives.",
+          "role": "body",
+          "sourcePart": 122
+        }
+      ]
+    },
+    {
+      "sourceOnlyContext": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "Sources and verse notes",
+          "role": "heading",
+          "sourcePart": 123
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an translations: Rowwad Translation Center; Qur’an 61:6 and 2:89, Noor International Center (QuranEnc.com). Report sources include Sahih al-Bukhari, Sahih Muslim, Musnad Ahmad, and Sahih Ibn Hibban. Historical accounts and attributed poetry are drawn chiefly from Ibn Ishaq and Ibn Hisham; the later account about al-Walid is found in al-Suhayli. The short Salman speech quotations use Saleh as-Saleh, The Search for the Truth (2004); the chest-opening account is reported in Sahih Muslim.",
+          "role": "body",
+          "sourcePart": 124,
+          "sourceOnlyContext": true,
+          "sourceLiteralProof": {
+            "schema": "iman-source-literal-text-v1",
+            "collection": "seerah",
+            "language": "en",
+            "materialId": "new-seerah001",
+            "readerTextSHA256": "f68393f3ce19596c0459b92616528c13277bd2fabc57221b940f3e9dc1ff235d",
+            "source": {
+              "path": "materials/seerah/new-adult/en/01.txt",
+              "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6"
+            },
+            "inventory": {
+              "path": "materials/seerah/new-adult/en/01-source-acceptance.json",
+              "sha256": "f8f2ec9e8192a510ed2167346f0a46c41a7ba96fa859328e5bad8d0f5fc8a6af"
+            },
+            "pointer": [],
+            "start": 43341,
+            "end": 43834,
+            "textSHA256": "0e6d84a30327c647445c9d7280924be56c9c4ee290d0294a0744b9ec6a094472"
+          }
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 2:129\n[54] The Messenger from the posterity of Ishmael; i.e., Muhammad (ﷺ).",
+          "role": "note",
+          "sourcePart": 125
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 5:15\n[17] Of your sin in this regard.",
+          "role": "note",
+          "sourcePart": 126
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 9:24\n[18] The Prophet (ﷺ) said: “There are three traits, whoever has them will taste the sweetness of Faith by their virtue: that Allah and His Messenger are dearer to him than anything else...” [Al-Bukhārī: 16, Muslim: 43] [19] His punishment.",
+          "role": "note",
+          "sourcePart": 127,
+          "spans": [
+            {
+              "text": "Qur’an 9:24\n[18] The Prophet (ﷺ) said: ",
+              "role": "note"
+            },
+            {
+              "text": "“There are three traits, whoever has them will taste the sweetness of Faith by their virtue: that Allah and His Messenger are dearer to him than anything else...”",
+              "role": "hadith",
+              "citations": [
+                {
+                  "type": "hadith",
+                  "book": "bukhari",
+                  "number": "16"
+                },
+                {
+                  "type": "hadith",
+                  "book": "muslim",
+                  "number": "43"
+                }
+              ],
+              "speaker": "Muhammad",
+              "attribution": "Speech of Muhammad within the cited report.",
+              "referenceProvenance": [
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/bukhari:16",
+                  "reference": "Sahih al-Bukhari 16",
+                  "scope": "Original report identity and speaker context; target wording is the exact accepted English reader."
+                },
+                {
+                  "kind": "opened-public-report",
+                  "url": "https://sunnah.com/muslim:43a",
+                  "reference": "Sahih Muslim 43; web variant 43a",
+                  "scope": "Parallel three-qualities report. Preserve the supplied English excerpt and ellipsis."
+                },
+                {
+                  "kind": "accepted-reader-literal-reference",
+                  "path": "materials/seerah/new-adult/en/01.txt",
+                  "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+                  "sourcePart": 127,
+                  "scope": "Both collection numbers are explicitly supplied in the visible verse note."
+                }
+              ]
+            },
+            {
+              "text": " [Al-Bukhārī: 16, Muslim: 43] [19] His punishment.",
+              "role": "note"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 12:56\n[22] This is the final episode in Joseph’s journey to greatness. The first was becoming a member of the Chief Minister’s household in his tender years (verse 21 above).",
+          "role": "note",
+          "sourcePart": 128
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 20:40\n[10] Because Moses had refused all wet-nurses who were brought to nurse him beforehand.\n [11] The Coptic person died after Moses struck him.",
+          "role": "note",
+          "sourcePart": 129
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 61:6\n[1682] Another name of Prophet Muḥammad (ﷺ).\n[1683] i.e., fraud or deception.",
+          "role": "note",
+          "sourcePart": 130
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 105:1\n[1] The army of Abrahah al-Ashram was accompanied by a huge elephant who came with the intention of demolishing the Kaʿba.",
+          "role": "note",
+          "sourcePart": 131
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 105:2\n[2] Leading them to perish.",
+          "role": "note",
+          "sourcePart": 132
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 106:1\n[1] Allah had given Quraysh the honor of being guardians of the Holy Ka‘bah, which allowed them to travel in peace without fear of being harmed.",
+          "role": "note",
+          "sourcePart": 133
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 106:2\n[2] i.e., their trading caravans would travel south to Yemen in winter and north to the Levant in summer.",
+          "role": "note",
+          "sourcePart": 134
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 106:3\n[3] i.e., the Ka‘bah.",
+          "role": "note",
+          "sourcePart": 135
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qur’an 106:4\n[4] The people of Quraysh were blessed with provision and security probably because of the prayer of Abraham. See 14:35-37",
+          "role": "note",
+          "sourcePart": 136
+        }
+      ]
+    },
+    {
+      "sourceOnlyContext": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "Publisher version information",
+          "role": "heading",
+          "sourcePart": 137,
+          "sourceOnlyContext": true
+        },
+        {
+          "kind": "heading",
+          "text": "English Translation - Rowwad Translation Center",
+          "role": "heading",
+          "sourcePart": 138,
+          "sourceOnlyContext": true
+        },
+        {
+          "kind": "paragraph",
+          "text": "Translated by the team of the Rowwad Translation Center, in cooperation with the Rabwah Dawah Association, the Islamic Content Service Association in Languages, and the IslamHouse.com website.",
+          "role": "body",
+          "sourcePart": 139,
+          "sourceOnlyContext": true
+        },
+        {
+          "kind": "paragraph",
+          "text": "Translation Info:\n#---------------------------\n# Translation of the meanings of the Noble Qur'an\n# Language: English\n# Translation ID: english_rwwad\n# Source: https://quranenc.com\n# URL: https://quranenc.com/en/browse/english_rwwad\n# Last update: 2026-11-09 11:35:56 (v1.0.21-csv.1)\n# Check for updates: https://quranenc.com/check/english_rwwad/v1.0.21-csv.1\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------",
+          "role": "body",
+          "sourcePart": 140,
+          "sourceOnlyContext": true,
+          "sourceLiteralProof": {
+            "schema": "iman-source-literal-text-v1",
+            "collection": "seerah",
+            "language": "en",
+            "materialId": "new-seerah001",
+            "readerTextSHA256": "f68393f3ce19596c0459b92616528c13277bd2fabc57221b940f3e9dc1ff235d",
+            "source": {
+              "path": "materials/seerah/new-adult/en/01.txt",
+              "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6"
+            },
+            "inventory": {
+              "path": "materials/seerah/new-adult/en/01-source-acceptance.json",
+              "sha256": "f8f2ec9e8192a510ed2167346f0a46c41a7ba96fa859328e5bad8d0f5fc8a6af"
+            },
+            "pointer": [],
+            "start": 45553,
+            "end": 45990,
+            "textSHA256": "312db908aa3744fbd4ee80bd97950950a35cc9d7242d17af23368300021d10c4"
+          }
+        },
+        {
+          "kind": "heading",
+          "text": "English Translation - Noor International Center",
+          "role": "heading",
+          "sourcePart": 141,
+          "sourceOnlyContext": true
+        },
+        {
+          "kind": "paragraph",
+          "text": "Translation Info:\n#---------------------------\n# Translation of the meanings of the Noble Qur'an\n# Language: English\n# Translation ID: english_saheeh\n# Source: https://quranenc.com\n# URL: https://quranenc.com/en/browse/english_saheeh\n# Last update: 2025-06-24 16:37:27 (v1.1.2-csv.1)\n# Check for updates: https://quranenc.com/check/english_saheeh/v1.1.2-csv.1\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------",
+          "role": "body",
+          "sourcePart": 142,
+          "sourceOnlyContext": true,
+          "sourceLiteralProof": {
+            "schema": "iman-source-literal-text-v1",
+            "collection": "seerah",
+            "language": "en",
+            "materialId": "new-seerah001",
+            "readerTextSHA256": "f68393f3ce19596c0459b92616528c13277bd2fabc57221b940f3e9dc1ff235d",
+            "source": {
+              "path": "materials/seerah/new-adult/en/01.txt",
+              "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6"
+            },
+            "inventory": {
+              "path": "materials/seerah/new-adult/en/01-source-acceptance.json",
+              "sha256": "f8f2ec9e8192a510ed2167346f0a46c41a7ba96fa859328e5bad8d0f5fc8a6af"
+            },
+            "pointer": [],
+            "start": 46041,
+            "end": 46479,
+            "textSHA256": "813630e5cb93b626712ec23a5c1e95b174c45c821fa0ffe42d221c6ff326dac8"
+          }
+        },
+        {
+          "kind": "heading",
+          "text": "Hadeeth Encyclopedia — English",
+          "role": "heading",
+          "sourcePart": 143,
+          "sourceOnlyContext": true
+        },
+        {
+          "kind": "paragraph",
+          "text": "#---------------------------\n# Translated Prophetic Hadiths\n# Language: English\n# Source: https://hadeethenc.com/en\n# Last update: 2026-05-10 17:43:35 (v1.25.0)\n# Check for updates: https://hadeethenc.com/en/check/en/v1.25.0\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------\n",
+          "role": "body",
+          "sourcePart": 144,
+          "sourceOnlyContext": true,
+          "sourceLiteralProof": {
+            "schema": "iman-source-literal-text-v1",
+            "collection": "seerah",
+            "language": "en",
+            "materialId": "new-seerah001",
+            "readerTextSHA256": "f68393f3ce19596c0459b92616528c13277bd2fabc57221b940f3e9dc1ff235d",
+            "source": {
+              "path": "materials/seerah/new-adult/en/01.txt",
+              "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6"
+            },
+            "inventory": {
+              "path": "materials/seerah/new-adult/en/01-source-acceptance.json",
+              "sha256": "f8f2ec9e8192a510ed2167346f0a46c41a7ba96fa859328e5bad8d0f5fc8a6af"
+            },
+            "pointer": [],
+            "start": 46513,
+            "end": 46817,
+            "textSHA256": "1370e9642c85ee5fe591fd0e8605180c498fbecc5d4e02be7d5845a91be28dd6"
+          }
+        }
+      ]
+    }
+  ],
+  "readerTextSHA256": "f68393f3ce19596c0459b92616528c13277bd2fabc57221b940f3e9dc1ff235d",
+  "referenceReadiness": {
+    "unboundQuranSegments": 0,
+    "unboundHadithSegments": 0
+  },
+  "provenance": {
+    "sourceChapterId": "new-adult-seerah-ar-01-5db0e71443293cb9",
+    "edition": "new-adult",
+    "sourceReaderSHA256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+    "sourcePartCount": 144,
+    "sourceTitlePart": 1,
+    "sourceBlockParts": [
+      2,
+      144
+    ],
+    "sourceUpdateScope": "Current whole publisher verse/note fields and exact publisher version transcripts.",
+    "priorAcceptedReaderSHA256": "acd02a2276d7287940f3c98e910ad17a1e8f27df300d5ea6d4e0e070cfd5add3",
+    "priorAcceptanceAppliesToThisChangedReader": false,
+    "sourceApprovalCreated": false,
+    "publicationPerformed": false,
+    "currentSourceAcceptanceSHA256": "bab07530b5fa850b8f81dbed59fab31253230c83986661ed4e892aff3ac725a0",
+    "independentBoundedReviewSHA256": "4862b18414e27ab501039ffec2003888ee10335a732cd25bfd302c715a90d853",
+    "currentSourceAcceptanceImported": true
+  }
+}

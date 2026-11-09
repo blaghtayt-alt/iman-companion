@@ -1,0 +1,45 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "seerah",
+    "language": "en",
+    "id": "new-seerah001"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/seerah/new-adult/en/01.txt",
+    "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/seerah/new-adult/en/01.txt",
+      "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6"
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01.md",
+      "sha256": "8fbb58d82a2e2f9a5e94a098be2948f670dedb78be37e6a9d1a75ce0a4039937"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "en-seerah-001-current-source-20261109-root-v1",
+    "reviewer": {
+      "kind": "coordinator-source-acceptance-import",
+      "scope": "Current publisher fields, version notices and complete normalized reader conversion"
+    },
+    "semanticReviewSHA256": "e08e3acc799ef3d20c168e803a2872ddaa94ae7df79b5be34734155de519017b",
+    "sourceAcceptanceSHA256": "bab07530b5fa850b8f81dbed59fab31253230c83986661ed4e892aff3ac725a0",
+    "readerTextSHA256": "f68393f3ce19596c0459b92616528c13277bd2fabc57221b940f3e9dc1ff235d",
+    "boundedReviewSHA256": "4862b18414e27ab501039ffec2003888ee10335a732cd25bfd302c715a90d853",
+    "acceptedAtUTC": "2026-11-09T13:16:02.388116+00:00"
+  },
+  "priorAcceptedReaderSHA256": "acd02a2276d7287940f3c98e910ad17a1e8f27df300d5ea6d4e0e070cfd5add3",
+  "priorAcceptanceAppliesToThisChangedReader": false,
+  "priorSemanticReviewReuseScope": "Unchanged narrative; current publisher fields and the new notice appendix require current independent review.",
+  "sourceApprovalCreated": false,
+  "releaseApproved": false,
+  "publicationPerformed": false,
+  "currentSourceAcceptanceImported": true,
+  "originalSemanticReviewRepeated": false
+}

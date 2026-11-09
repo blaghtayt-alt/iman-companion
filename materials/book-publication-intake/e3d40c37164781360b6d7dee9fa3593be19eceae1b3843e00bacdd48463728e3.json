@@ -1,0 +1,75 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "c46484fe1eed1dca2ae32f89c60dd01be2c6b7a1c740b334b18192c5b7b62cc5",
+  "catalogEntry": {
+    "collection": "seerah",
+    "language": "en",
+    "id": "new-seerah001",
+    "edition": "new-adult",
+    "chapter": 1,
+    "title": "From the Year of the Elephant to the Prophet’s Childhood",
+    "sourceChapterId": "new-adult-seerah-ar-01-5db0e71443293cb9",
+    "sourceHashes": [
+      "5db0e71443293cb99af87231dd0cecbdaefa2e737cafa0b1a2479140e5318782",
+      "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+      "8fbb58d82a2e2f9a5e94a098be2948f670dedb78be37e6a9d1a75ce0a4039937"
+    ],
+    "readingSHA256": "8fbb58d82a2e2f9a5e94a098be2948f670dedb78be37e6a9d1a75ce0a4039937",
+    "sourceTextSHA256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6",
+    "markdown": "materials/seerah/new-adult/en/01.md",
+    "text": "materials/seerah/new-adult/en/01.txt",
+    "translationStatus": "independently-reviewed-whole-chapter-translation",
+    "status": "current-reviewed-edition",
+    "current": true
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/seerah/new-adult/en/01.txt",
+      "sha256": "c56046d44293cbca01888ff01d06a97b59abdb729ae6e85c89f6ab82a9bd56c6"
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01.md",
+      "sha256": "8fbb58d82a2e2f9a5e94a098be2948f670dedb78be37e6a9d1a75ce0a4039937"
+    }
+  ],
+  "expectedSourceBase": [
+    {
+      "path": "materials/seerah/new-adult/en/01.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/seerah/new-adult/en/01.md",
+      "sha256": null
+    }
+  ],
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "path": "materials/book-publication-readers/en/seerah/new-seerah001-current-source-v1.json",
+    "sha256": "dff81e62d576d9b914d80693ab1a5d5127bd219e268b39962d63ce7d160e7963"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "en-seerah-001-current-source-20261109-root-v1",
+    "reviewer": {
+      "kind": "coordinator-source-acceptance-import",
+      "scope": "Current publisher fields, version notices and complete normalized reader conversion"
+    },
+    "material": {
+      "collection": "seerah",
+      "language": "en",
+      "id": "new-seerah001"
+    },
+    "readerTextSHA256": "f68393f3ce19596c0459b92616528c13277bd2fabc57221b940f3e9dc1ff235d",
+    "reviewArtifacts": [
+      {
+        "path": "materials/seerah/new-adult/en/01-source-acceptance.json",
+        "sha256": "f8f2ec9e8192a510ed2167346f0a46c41a7ba96fa859328e5bad8d0f5fc8a6af"
+      },
+      {
+        "path": "materials/seerah/new-adult/en/01-review-import.json",
+        "sha256": "40e205c750191bddbdb00e6423308fadd2bfcf4413e6a5267ad2ca57da52860a"
+      }
+    ]
+  }
+}

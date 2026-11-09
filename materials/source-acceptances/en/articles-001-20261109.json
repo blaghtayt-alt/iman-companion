@@ -1,0 +1,48 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "articles",
+    "language": "en",
+    "id": "prepared-ar-79fa38429519de69"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/articles/current/en/001.txt",
+    "sha256": "62022d3b0960da92e844d93b9106c3e01a7eacbaca9c298518783092b5a9ca22"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/articles/current/en/001.json",
+      "sha256": "e40575610d905c54de58bd48dc524dacf5533696c6f93269feac76626929f5e0"
+    },
+    {
+      "path": "materials/articles/current/en/001.txt",
+      "sha256": "62022d3b0960da92e844d93b9106c3e01a7eacbaca9c298518783092b5a9ca22"
+    },
+    {
+      "path": "materials/articles/current/en/001.ordinary.txt",
+      "sha256": "39799e0e6a7d1a5bcd4dbf8f586884a9d4008d58f272971ed0922854dd2b14d9"
+    },
+    {
+      "path": "materials/articles/current/en/001.source-notices.json",
+      "sha256": "c01e92ea568d0ec32cf24e1a63fb548cdf395f22000e3ea553882d3903faeda3"
+    },
+    {
+      "path": "materials/articles/current/en/001.source-notices.txt",
+      "sha256": "0317eaabe6bbc3ee25b99fe6eb868ee974a0f8e332faa3e2c58787334966dbab"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "en-article-001-current-source-20261109-root-v1",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "scope": "Finite current-source successor and complete normalized reader integration"
+    },
+    "semanticReviewSHA256": "4abf4b5f24e15e47174fc1f18b611ea34e30b04f8e7fd72c02804975450aa940",
+    "sourceAcceptanceSHA256": "5b4697b4d9475c95b6a1633d9f29d5ab451f493fdaeb2db7ab73250b1881f638",
+    "readerTextSHA256": "f63171835b28327523bc87fa37633287ed4e4a0b73baf6b611a77e1ec4e72925",
+    "boundedReviewSHA256": "59484510273bdbeb22f1188ae36fcc355c37cc95ba3411abe3e4f420a67bdd18"
+  }
+}
