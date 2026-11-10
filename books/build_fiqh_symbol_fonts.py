@@ -64,6 +64,7 @@ def build(root):
             'originalFace':'AGAArabesque',
             'acceptedTextSHA256':'1dc04f17def1ab8a735bc44fcb520bff61b6912835da527351fe26496badc6ef',
             'acceptedSourcePath':'materials/hadith/essential-en/001.txt',
+            'acceptedSourceCommit':'3d52ed51a73ecb3497d7813d2d0b584dbf53df2a',
             'acceptedSourceSHA256':'5e04c584947edb161102d1819214e29e2d08f898bc849bd34abfb7f3a6a3d914'},
         'glyphAliases':[
             {'sourceCharacter':'U+F065','outline':'U+FDFA','meaning':'Salla Allahu alayhi wa sallam'},
