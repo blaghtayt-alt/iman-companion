@@ -10,7 +10,7 @@ Bahasa Melayu
 | Tadabbur Al-Quran | [Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_tadabbur-extended.docx) | [Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_tadabbur-extended.pdf) | 15 · Disertakan: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadis · Keadilan Allah, sifat-Nya yang Maha Kaya dan kebergantungan hamba kepada-Nya (+3) | [Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_hadith.docx) | [Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_hadith.pdf) | 4 · Disertakan: Hadis 1–4 |
 | Sirah | Belum tersedia | Belum tersedia | — |
-| Artikel | Belum tersedia | Belum tersedia | — |
+| Artikel · Yang sedikit pun mencukupi | [Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1/Iman_Companion_ms_articles.docx) | [Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1/Iman_Companion_ms_articles.pdf) | 1 · Disertakan: Artikel 1 |
 
 ## Tadabbur Al-Quran
 
@@ -37,6 +37,10 @@ Bahasa Melayu
 - Hati berada di bawah pengaturan Ar-Rahman
 - Teguh dalam agama dan mengenali keadaan hati yang menyimpang
 
+## Artikel · Yang sedikit pun mencukupi
+
+- Yang sedikit pun mencukupi
+
 ### Tadabbur Al-Quran
 
 Disertakan: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
@@ -45,14 +49,18 @@ Disertakan: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
 
 Disertakan: Hadis 1–4
 
+### Artikel · Yang sedikit pun mencukupi
+
+Disertakan: Artikel 1
+
 ## Muat turun bersama
 
 Satu edisi gabungan
 
-[Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ms_all-books.docx)
+[Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ms_all-books.docx)
 
-[Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ms_all-books.pdf)
+[Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ms_all-books.pdf)
 
-[ZIP buku berasingan](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ms_all-books.zip)
+[ZIP buku berasingan](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ms_all-books.zip)
 
 Terjemahan dengan bantuan kecerdasan buatan — perlu disahkan. Semakan berbantukan model bukan pengganti semakan oleh pembaca yang berkelayakan.

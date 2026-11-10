@@ -10,7 +10,7 @@ Español
 | Reflexión sobre el Corán | [Descargar libro editable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_tadabbur-extended.docx) | [Descargar versión de lectura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_tadabbur-extended.pdf) | 2 · Incluido: Sura 1, 112 |
 | Hadiz · La justicia de Allah, Su autosuficiencia y la necesidad que Sus siervos tienen de Él (+3) | [Descargar libro editable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_hadith.docx) | [Descargar versión de lectura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_es_hadith.pdf) | 4 · Incluido: Hadiz 1–4 |
 | Sira | Aún no disponible | Aún no disponible | — |
-| Artículos | Aún no disponible | Aún no disponible | — |
+| Artículos · Con poco basta | [Descargar libro editable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1/Iman_Companion_es_articles.docx) | [Descargar versión de lectura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1/Iman_Companion_es_articles.pdf) | 1 · Incluido: Artículos 1 |
 
 ## Reflexión sobre el Corán
 
@@ -24,6 +24,10 @@ Español
 - Los corazones están bajo el dominio del Clemente
 - Firmeza en la religión y cómo reconocer un corazón desviado
 
+## Artículos · Con poco basta
+
+- Con poco basta
+
 ### Reflexión sobre el Corán
 
 Incluido: Sura 1, 112
@@ -32,14 +36,18 @@ Incluido: Sura 1, 112
 
 Incluido: Hadiz 1–4
 
+### Artículos · Con poco basta
+
+Incluido: Artículos 1
+
 ## Descargar juntos
 
 Una edición conjunta
 
-[Descargar libro editable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_es_all-books.docx)
+[Descargar libro editable (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_es_all-books.docx)
 
-[Descargar versión de lectura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_es_all-books.pdf)
+[Descargar versión de lectura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_es_all-books.pdf)
 
-[ZIP de los libros separados](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_es_all-books.zip)
+[ZIP de los libros separados](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_es_all-books.zip)
 
 Traducido con ayuda de inteligencia artificial; requiere verificación. Las comprobaciones asistidas por modelos no sustituyen la revisión de un lector cualificado.
