@@ -4,8 +4,8 @@
     {
       "language": "en",
       "collection": "hadith",
-      "sourceCommit": "3d52ed51a73ecb3497d7813d2d0b584dbf53df2a",
-      "inputFingerprint": "4dae03ffb7b9e5e8c5d7dd1b2e22539d286f958c7d3f6755003e3a99bd7d3bab",
+      "sourceCommit": "622354746cafc2f338ba5fe60d7fb69d5b6e0f56",
+      "inputFingerprint": "8c613a1ae33925785924e162e5edd3359b696fad48571fecfb199dcb8bc5e3ca",
       "state": "prepared-awaiting-release-qc",
       "releaseVerified": false,
       "pendingChecks": [
@@ -25,7 +25,7 @@
           "collection": "hadith",
           "collectionLabel": "Hadith · Allah’s justice and self-sufficiency, and His servants’ need of Him (+3)",
           "file": "Iman_Companion_en_hadith.docx",
-          "sha256": "c54d701fa30936a12a54fd6d6ceec2d7ead3652a70a2ae8a7877ae328176bbc2",
+          "sha256": "1e863f8e33318a8d1271917e5d62d61122ce4f65da77f5e515448a3360c22626",
           "units": [
             {
               "id": "essential-01-001",
@@ -34,7 +34,7 @@
                 "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14",
                 "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
               ],
-              "readerTextSHA256": "4a4eb545a11b5e95445835114113db792e0230a10bfebbdd8d367020cba8220c"
+              "readerTextSHA256": "a5ed70ddf199a9c55236a9c86dd8fde14bc72172f68193ddfdb1ae05d2efdca7"
             },
             {
               "id": "essential-01-002",
@@ -61,7 +61,7 @@
               "readerTextSHA256": "89ed7cf50e16da2a2c11fbfd29c617bdc2d9638ffa51fc7a78f71c63062022f5"
             }
           ],
-          "sourceCommit": "3d52ed51a73ecb3497d7813d2d0b584dbf53df2a",
+          "sourceCommit": "622354746cafc2f338ba5fe60d7fb69d5b6e0f56",
           "bodyColor": "#000000",
           "rtl": false,
           "arabicAyahs": "centered",
@@ -122,9 +122,9 @@
           },
           "audioQRVerification": [],
           "pages": 85,
-          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42883924839-1/Iman_Companion_en_hadith.docx",
-          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42883924839-1/Iman_Companion_en_hadith.pdf",
-          "pdfSha256": "dc32807191449bbad3d712fa345131282da4f97f9e9eafe221d4313424b9fddc",
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42895802778-1/Iman_Companion_en_hadith.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42895802778-1/Iman_Companion_en_hadith.pdf",
+          "pdfSha256": "a05ff070a131e665621200025ebe49d915e4736ca9cfa6050f6a7acbfd3f1383",
           "exportVerified": false,
           "preparationVerified": true,
           "contentsTargetVerification": {
@@ -132,7 +132,7 @@
           }
         },
         "snapshot": {
-          "catalogSHA256": "8cbbc00ea23d5dc081434ed76305e11a0e39a2b7c89dfb460747b1caff1f4e87",
+          "catalogSHA256": "76abe3b1a59e7ab5c8e462ee9a7d5a8e8dedc071987b45e5d747ab729b2de787",
           "scopeSettingsSHA256": "a1543529634102362803b4802a96834e1675da6eaa69075c56d81d8be3bacfc5",
           "unitIds": [
             "essential-01-001",
@@ -146,12 +146,12 @@
               "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
             },
             {
-              "path": "materials/book-publication-approvals/a8c03e5513d3ac284c723ee0ce3442a796eaafb50172766b1c64430c0fac9a06.json",
-              "sha256": "a8c03e5513d3ac284c723ee0ce3442a796eaafb50172766b1c64430c0fac9a06"
+              "path": "materials/book-publication-approvals/d78406681fd5910e5c91a18b326902c7e3cada8abc7748ae1cfd34f194107cc5.json",
+              "sha256": "d78406681fd5910e5c91a18b326902c7e3cada8abc7748ae1cfd34f194107cc5"
             },
             {
-              "path": "materials/book-publication-readers/en/hadith/essential-01-001-current-source-v1.json",
-              "sha256": "dcf1b999f8d88b8c47f8c75b5d89bbdc419a56eb719547db89d8321674884bf5"
+              "path": "materials/book-publication-readers/en/hadith/essential-01-001-source-capture-v2.json",
+              "sha256": "f42140f1a1e91da3b87df96b8c814f4fd95efd7ab2beea55a40ca529460bdf0a"
             },
             {
               "path": "materials/hadith/essential-01-002/README.md",
@@ -175,7 +175,7 @@
             },
             {
               "path": "materials/hadith/essential-en/001.txt",
-              "sha256": "5e04c584947edb161102d1819214e29e2d08f898bc849bd34abfb7f3a6a3d914"
+              "sha256": "cb7476b81cc201cd0170efee7798241c91b6f353f7f97f98be47edf26ca8bf5a"
             },
             {
               "path": "materials/hadith/essential-en/002.json",
@@ -211,11 +211,19 @@
             },
             {
               "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
-              "sha256": "b820424a1ff5b40905dc4a6094c7becbebac76441395dc122dd967df92f9bbe1"
+              "sha256": "8c29810f5bc7ffcab781a54d53dd9af595bf22021649c388926486937f701b4c"
             },
             {
-              "path": "materials/source-acceptances/en/hadith-001-current-source-20261111.json",
-              "sha256": "83c1c8debeb92bf2b8ccff094bab9432ed887d7215bfa2f55ca25237c81caf3d"
+              "path": "materials/source-acceptances/en/hadith-001-independent-capture-review-20261111-v2.json",
+              "sha256": "c8a356547ce2bbc5540b27d7ef56122a698b82c0a4d7322786ec50d8148cd694"
+            },
+            {
+              "path": "materials/source-acceptances/en/hadith-001-source-capture-20261111-v2.json",
+              "sha256": "6b05106168d3e8b7b4819c3e7a74e993640dcc337ec693a882b34bf4a40ea669"
+            },
+            {
+              "path": "materials/source-acceptances/en/hadith-001-source-capture-evidence-20261111-v2.json",
+              "sha256": "59ce21fb8b11cd6ac04fdf99ba492382ca8f192a45dffe95527e8f9eb7b24b28"
             }
           ],
           "catalogMemberKeys": [
@@ -250,12 +258,12 @@
       },
       "folder": "en-hadith",
       "artifact": {
-        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42883924839",
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42895802778",
         "repository": "blaghtayt-alt/iman-companion",
-        "runId": "42883924839",
-        "name": "current-book-publication-42883924839-1",
-        "createdAt": "2026-11-10T19:21:52.601002+00:00",
-        "expiresAt": "2027-02-08T19:21:52.601002+00:00",
+        "runId": "42895802778",
+        "name": "current-book-publication-42895802778-1",
+        "createdAt": "2026-11-10T20:34:22.394361+00:00",
+        "expiresAt": "2027-02-08T20:34:22.394361+00:00",
         "retentionDays": 90
       }
     }
