@@ -1002,9 +1002,9 @@
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [],
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "requireActualWordLayout": true,
-      "releaseHold": "New collection is automatically prepared from exact whole-material approvals; final Word and visual release checks remain required."
+      "requireFinalVisualAcceptance": true
     },
     {
       "language": "en",
@@ -1014,10 +1014,10 @@
       "scopePolicy": "reviewed-source-edition-v1",
       "sourceReviewBindings": [],
       "automaticBuild": true,
-      "automaticRelease": false,
+      "automaticRelease": true,
       "requireActualWordLayout": true,
-      "releaseHold": "New collection is automatically prepared from exact whole-material approvals; final Word and visual release checks remain required.",
-      "edition": "new-adult"
+      "edition": "new-adult",
+      "requireFinalVisualAcceptance": true
     }
   ]
 }
