@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'books'))
 
 from adapt_translated_hadith import generate, note_fields
-from book_edition_scope import select
+from book_edition_scope import available, select
 from build_books import check_unit
 from multilingual_readiness import inventory
 from reviewed_hadith_sources import ADAPTER
@@ -247,13 +247,50 @@ class TranslatedHadithTests(unittest.TestCase):
         report = inventory(ROOT)
         self.assertEqual(report['languageCount'], 20)
         self.assertEqual(report['scopeCount'], 80)
-        self.assertEqual(report['automaticPreparationScopes'], 42)
         scopes = {(row['language'], row['collection']): row for row in report['scopes']}
-        self.assertEqual(scopes[('ja', 'hadith')]['eligibleUnits'], 3)
-        self.assertEqual(scopes[('ja', 'seerah')]['eligibleUnits'], 0)
-        self.assertEqual(scopes[('ja', 'seerah')]['legacyEditionUnits'], 2)
-        self.assertEqual(scopes[('fr', 'articles')]['eligibleUnits'], 0)
-        self.assertEqual(scopes[('fr', 'articles')]['historicalUnits'], 1)
+        ready = {identity for identity, row in scopes.items()
+                 if row['state'] == 'automatic-preparation-ready'}
+        required = {(language, collection) for language in report['languages']
+                    for collection in ('tadabbur-extended', 'hadith')}
+        required.update({('ar', 'seerah'), ('ar', 'articles')})
+        self.assertEqual(len(required), 42)
+        self.assertTrue(required.issubset(ready), required - ready)
+        self.assertEqual(report['automaticPreparationScopes'], len(ready))
+
+        # New exact approvals may extend the inventory; merely marking all
+        # scopes ready must not admit absent or unbound readers.
+        declarations = {(row['language'], row['collection']): row for row in self.declarations}
+        for identity in ready - required:
+            with self.subTest(additional_scope=identity):
+                selected, reconciliation = select(ROOT, self.catalog, declarations[identity])
+                self.assertTrue(selected)
+                self.assertIsNotNone(reconciliation)
+                self.assertFalse(reconciliation['unknownRowsApproved'])
+                self.assertEqual(set(scopes[identity]['includedIds']), {row['id'] for row in selected})
+                self.assertEqual(scopes[identity]['eligibleUnits'], len(selected))
+
+        # Later first-lesson imports must retain the previously reviewed lessons.
+        for language in ('ja', 'tr', 'en'):
+            self.assertTrue({'essential-01-002', 'essential-01-003', 'essential-01-004'}
+                            .issubset(scopes[(language, 'hadith')]['includedIds']), language)
+
+        excluded = {}
+        for language in report['languages']:
+            legacy = [row for row in self.catalog['entries']
+                      if row.get('language') == language and row.get('collection') == 'seerah'
+                      and available(row) and row.get('edition') != 'new-adult']
+            historical = [row for row in self.catalog['historicalArticleEntries']['entries']
+                          if row.get('language') == language]
+            for collection, rows, count_field in (
+                    ('seerah', legacy, 'legacyEditionUnits'),
+                    ('articles', historical, 'historicalUnits')):
+                identity = language, collection
+                excluded[identity] = {str(row['id']) for row in rows}
+                included = {str(value) for value in scopes[identity].get('includedIds', [])}
+                self.assertFalse(excluded[identity] & included, identity)
+                self.assertEqual(scopes[identity][count_field], len(rows), identity)
+        self.assertTrue({'1', '2'}.issubset(excluded[('ja', 'seerah')]))
+        self.assertIn('article-al-fitnah-al-muntazarah', excluded[('fr', 'articles')])
         self.assertFalse(report['sourceApprovalCreated'])
 
     def test_unbound_fatiha_does_not_block_verified_ikhlas_in_three_languages(self):
