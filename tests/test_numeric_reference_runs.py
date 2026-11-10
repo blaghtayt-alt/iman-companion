@@ -2,6 +2,8 @@
 from io import BytesIO
 from pathlib import Path
 import hashlib, json, os, sys, unittest, zipfile
+import tempfile
+import subprocess
 from docx import Document
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
@@ -16,6 +18,7 @@ from book_typography import SYMBOL_LTR, SYMBOL_RTL
 from script_font_slots import repair_parts, _reader_content
 from arabic_quote_direction import quote_ranges, coalesce_quotes
 from reader_xml import body_text
+from pdf_quote_direction import temporary_pdf_quote_direction, PdfQuoteRestorationError, RLE, PDF
 
 
 class NumericReferenceRuns(unittest.TestCase):
@@ -270,6 +273,222 @@ class ArabicQuotationDirection(unittest.TestCase):
         properties.append(different)
         with self.assertRaisesRegex(ValueError, 'conflicting repeated formatting'):
             coalesce_quotes(p._p, 'en', 'Iman Book Naskh')
+
+
+class _FakeUnoParagraph:
+    def __init__(self, owner, text):
+        self.owner = owner
+        self.data = text.encode('utf-16-le')
+        self.styles = list(range(len(self.data) // 2))
+
+    def supportsService(self, name):
+        return name == 'com.sun.star.text.Paragraph'
+
+    def getString(self):
+        return self.data.decode('utf-16-le')
+
+    def getText(self):
+        return self.owner
+
+    def getStart(self):
+        return self
+
+
+class _FakeUnoCursor:
+    def __init__(self, paragraph):
+        self.paragraph = paragraph
+        self.start = self.end = 0
+
+    def goRight(self, count, expand):
+        if not 0 <= count <= 32767:
+            raise ValueError('UNO cursor count exceeds signed short')
+        self.paragraph.owner.steps.append(count)
+        if self.end + count > len(self.paragraph.data) // 2:
+            return False
+        self.end += count
+        if not expand:
+            self.start = self.end
+        return True
+
+    def getString(self):
+        return self.paragraph.data[self.start * 2:self.end * 2].decode('utf-16-le')
+
+    def collapseToEnd(self):
+        self.start = self.end
+
+
+class _FakeUnoText:
+    def __init__(self, texts):
+        self.paragraphs = [_FakeUnoParagraph(self, text) for text in texts]
+        self.steps = []
+        self.edits = []
+
+    def getString(self):
+        return '\n'.join(p.getString() for p in self.paragraphs)
+
+    def createEnumeration(self):
+        owner = self
+        class Enumeration:
+            index = 0
+            def hasMoreElements(self):
+                return self.index < len(owner.paragraphs)
+            def nextElement(self):
+                value = owner.paragraphs[self.index]
+                self.index += 1
+                return value
+        return Enumeration()
+
+    def createTextCursorByRange(self, paragraph):
+        return _FakeUnoCursor(paragraph)
+
+    def insertString(self, cursor, value, absorb):
+        if not absorb and cursor.start != cursor.end:
+            raise AssertionError('Insertion must use a collapsed cursor')
+        p, left, right = cursor.paragraph, cursor.start, cursor.end
+        selected = cursor.getString()
+        if absorb and (len(selected) != 1 or selected not in (RLE, PDF) or value):
+            raise AssertionError('Cleanup may delete only one exact recorded control')
+        encoded = value.encode('utf-16-le')
+        p.data = p.data[:left * 2] + encoded + p.data[right * 2:]
+        p.styles[left:right] = ['inserted-control'] * (len(encoded) // 2)
+        self.edits.append((left, selected, value, absorb))
+
+
+class _FakeUnoDocument:
+    def __init__(self, texts):
+        self.text = _FakeUnoText(texts)
+
+    def getText(self):
+        return self.text
+
+
+class PdfQuotationDirection(unittest.TestCase):
+    QUOTE = '{نَصٌّ عَرَبِيٌّ }البقرة: ٢٢٠'
+
+    def setUp(self):
+        self.temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.file = Path(self.temporary.name) / 'saved.docx'
+        self.file.write_bytes(b'Unchanged saved DOCX fixture')
+
+    def test_pdf_helper_and_matcher_import_without_lxml_or_site_packages(self):
+        code = """import sys
+class NoLxml:
+    def find_spec(self, fullname, path=None, target=None):
+        if fullname == 'lxml' or fullname.startswith('lxml.'):
+            raise ModuleNotFoundError('lxml is unavailable in the UNO interpreter')
+sys.meta_path.insert(0, NoLxml())
+sys.path.insert(0, sys.argv[1])
+from arabic_quote_direction import quote_ranges
+from pdf_quote_direction import control_insertions, temporary_pdf_quote_direction
+text = '{نص }البقرة: ٢٢٠'
+assert quote_ranges(text, 'en') == [(0, len(text))]
+assert len(control_insertions(text)) == 2
+assert 'lxml' not in sys.modules
+"""
+        result = subprocess.run([sys.executable, '-S', '-c', code, str(ROOT / 'books')], capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+    def test_multiple_quotes_lines_and_existing_controls_restore_all_text_and_styles(self):
+        multiline = '{نَصٌّ عَرَبِيٌّ\nحَتَّىٰ يَطْهُرْنَ }البقرة: ٢٢٢'
+        source = 'Original ' + RLE + 'control' + PDF + ' ' + self.QUOTE + ' / ' + multiline
+        doc = _FakeUnoDocument([source, 'Unaffected paragraph and field result'])
+        before = doc.text.getString()
+        styles = [list(p.styles) for p in doc.text.paragraphs]
+        with temporary_pdf_quote_direction(doc, 'en', self.file) as result:
+            self.assertEqual(result, {'paragraphs': 1, 'insertedControls': 6})
+            self.assertEqual(doc.text.paragraphs[0].getString(),
+                             source.replace(self.QUOTE, RLE + self.QUOTE + PDF).replace(
+                                 multiline, RLE + '{نَصٌّ عَرَبِيٌّ' + PDF + '\n' + RLE + 'حَتَّىٰ يَطْهُرْنَ }البقرة: ٢٢٢' + PDF))
+        self.assertEqual(doc.text.getString(), before)
+        self.assertEqual([p.styles for p in doc.text.paragraphs], styles)
+        self.assertEqual(self.file.read_bytes(), b'Unchanged saved DOCX fixture')
+
+    def test_non_bmp_prefix_and_long_utf16_offsets_use_bounded_cursor_steps(self):
+        prefix = '😀' + 'x' * 33000 + '\n'
+        doc = _FakeUnoDocument([prefix + self.QUOTE])
+        with temporary_pdf_quote_direction(doc, 'en', self.file):
+            self.assertEqual(doc.text.getString(), prefix + RLE + self.QUOTE + PDF)
+        self.assertEqual(doc.text.getString(), prefix + self.QUOTE)
+        self.assertIn(32767, doc.text.steps)
+        self.assertTrue(all(step <= 32767 for step in doc.text.steps))
+
+    def test_scalar_counting_uno_cursor_uses_fresh_verified_non_bmp_fallback(self):
+        prefix = '😀 English prefix '
+        doc = _FakeUnoDocument([prefix + self.QUOTE + ' suffix'])
+        class ScalarCursor(_FakeUnoCursor):
+            def goRight(self, count, expand):
+                if not 0 <= count <= 32767:
+                    raise ValueError('UNO cursor count exceeds signed short')
+                self.paragraph.owner.steps.append(count)
+                suffix = self.paragraph.data[self.end * 2:].decode('utf-16-le')
+                moved = suffix[:count]
+                self.end += len(moved.encode('utf-16-le')) // 2
+                if not expand:
+                    self.start = self.end
+                return len(moved) == count
+        doc.text.createTextCursorByRange = ScalarCursor
+        styles = list(doc.text.paragraphs[0].styles)
+        with temporary_pdf_quote_direction(doc, 'en', self.file):
+            self.assertEqual(doc.text.getString(), prefix + RLE + self.QUOTE + PDF + ' suffix')
+        self.assertEqual(doc.text.getString(), prefix + self.QUOTE + ' suffix')
+        self.assertEqual(doc.text.paragraphs[0].styles, styles)
+
+    def test_adjacent_quotes_close_before_reopening_at_shared_boundary(self):
+        doc = _FakeUnoDocument([self.QUOTE + self.QUOTE])
+        with temporary_pdf_quote_direction(doc, 'en', self.file):
+            self.assertEqual(doc.text.getString(), RLE + self.QUOTE + PDF + RLE + self.QUOTE + PDF)
+        self.assertEqual(doc.text.getString(), self.QUOTE + self.QUOTE)
+
+    def test_export_error_is_preserved_after_exact_cleanup(self):
+        doc = _FakeUnoDocument([self.QUOTE])
+        error = RuntimeError('PDF export failed')
+        with self.assertRaises(RuntimeError) as raised:
+            with temporary_pdf_quote_direction(doc, 'en', self.file):
+                raise error
+        self.assertIs(raised.exception, error)
+        self.assertEqual(doc.text.getString(), self.QUOTE)
+
+    def test_wrong_cursor_prefix_fails_before_inserting_any_control(self):
+        doc = _FakeUnoDocument(['English prefix ' + self.QUOTE + ' suffix'])
+        class WrongCursor(_FakeUnoCursor):
+            def goRight(self, count, expand):
+                return super().goRight(count + 1, expand)
+        doc.text.createTextCursorByRange = WrongCursor
+        original = doc.text.getString()
+        with self.assertRaisesRegex(ValueError, 'cursor prefix does not match'):
+            with temporary_pdf_quote_direction(doc, 'en', self.file):
+                self.fail('Export must not start with a wrong cursor offset')
+        self.assertEqual(doc.text.getString(), original)
+        self.assertEqual(doc.text.edits, [])
+
+    def test_ambiguous_cleanup_fails_closed_and_retains_export_error(self):
+        doc = _FakeUnoDocument([self.QUOTE])
+        error = RuntimeError('PDF export failed')
+        with self.assertRaises(PdfQuoteRestorationError) as raised:
+            with temporary_pdf_quote_direction(doc, 'en', self.file):
+                # Simulate an unexpected mutation at the recorded opening.
+                doc.text.paragraphs[0].data = ('X' + self.QUOTE + PDF).encode('utf-16-le')
+                raise error
+        self.assertIs(raised.exception.__cause__, error)
+        self.assertEqual(doc.text.getString(), 'X' + self.QUOTE + PDF)
+        self.assertFalse(any(absorb for _, _, _, absorb in doc.text.edits))
+
+    def test_saved_docx_write_is_rejected(self):
+        doc = _FakeUnoDocument([self.QUOTE])
+        with self.assertRaisesRegex(PdfQuoteRestorationError, 'Saved DOCX bytes changed'):
+            with temporary_pdf_quote_direction(doc, 'en', self.file):
+                self.file.write_bytes(b'Unexpected write')
+        self.assertEqual(doc.text.getString(), self.QUOTE)
+
+    def test_non_english_and_nonmatching_text_are_untouched(self):
+        for language, source in [('ar', self.QUOTE), ('en', 'No quoted Arabic'), ('en', '{نص ' + RLE + '}البقرة: ٢٢٠')]:
+            with self.subTest(language=language, source=source):
+                doc = _FakeUnoDocument([source])
+                with temporary_pdf_quote_direction(doc, language, self.file) as result:
+                    self.assertEqual(result, {'paragraphs': 0, 'insertedControls': 0})
+                self.assertEqual(doc.text.getString(), source)
+                self.assertEqual(doc.text.edits, [])
 
 
 if __name__ == '__main__':

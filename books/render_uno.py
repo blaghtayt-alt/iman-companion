@@ -8,6 +8,7 @@ import argparse,subprocess,tempfile,time,socket,json
 import uno
 from renderer_pin import verify_renderer
 from normalize_toc_hyperlinks import label_native_contents, normalize as normalize_toc_hyperlinks
+from pdf_quote_direction import temporary_pdf_quote_direction
 from com.sun.star.beans import PropertyValue
 def prop(k,v):p=PropertyValue();p.Name=k;p.Value=v;return p
 def native_footer(doc,language):
@@ -75,7 +76,11 @@ def main():
                         else:raise ValueError('Contents pagination did not converge')
                     doc.store()
                     label_native_contents(doc)
-                    doc.storeToURL(file.with_suffix('.pdf').as_uri(),(prop('FilterName','writer_pdf_Export'),prop('Overwrite',True)))
+                    # The loaded PDF view needs explicit Arabic embeddings.
+                    # They are inserted after saving and removed on every exit;
+                    # the editable DOCX never contains these temporary controls.
+                    with temporary_pdf_quote_direction(doc,languages[file.name],file):
+                        doc.storeToURL(file.with_suffix('.pdf').as_uri(),(prop('FilterName','writer_pdf_Export'),prop('Overwrite',True)))
                 finally:doc.close(True)
         finally:
             if desktop:desktop.terminate()

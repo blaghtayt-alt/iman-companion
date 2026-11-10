@@ -10,7 +10,6 @@ through the existing numeric tokenizer.
 from copy import deepcopy
 import re
 import unicodedata
-from lxml import etree
 from reader_xml import body_text
 
 W = 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
@@ -79,6 +78,7 @@ def _safe_run(run):
 
 
 def _format_signature(run):
+    from lxml import etree
     properties = run.find(q('rPr'))
     if properties is None:
         return ()
@@ -118,6 +118,7 @@ def _slice_run(run, left, right):
 
 
 def _set_quote_font(run, family):
+    from lxml import etree
     properties = run.find(q('rPr'))
     if properties is None:
         properties = etree.Element(q('rPr'))
@@ -138,6 +139,7 @@ def _set_quote_font(run, family):
 
 def _coalesce_ranges(paragraph, ranges, family):
     """Apply validated text matches to a disposable paragraph clone."""
+    from lxml import etree
     before = etree.tostring(paragraph)
     for left, right in reversed(ranges):
         items = []
