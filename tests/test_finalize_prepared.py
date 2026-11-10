@@ -47,7 +47,8 @@ class FinalizePreparedTests(unittest.TestCase):
         environment = patch.dict('os.environ', {'GITHUB_RUN_ID': '', 'GITHUB_RUN_ATTEMPT': '', 'GITHUB_REPOSITORY': ''})
         environment.start()
         self.addCleanup(environment.stop)
-        self.write(self.root / 'books/config.json', {'languages': {'en': {'font': 'Latin'}}, 'fonts': {}})
+        self.write(self.root / 'books/config.json', {'languages': {'en': {'font': 'Latin'}},
+                                                    'fonts': {'FiqhSymbols': {'family': 'Synthetic Fiqh Symbols'}}})
         self.declarations = {'schema': 'iman-reviewed-books-v1', 'books': [
             {'language': 'en', 'collection': 'articles', 'state': 'reviewed-current',
              'automaticBuild': True, 'automaticRelease': True, 'requireActualWordLayout': True,

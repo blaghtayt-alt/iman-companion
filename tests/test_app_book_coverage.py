@@ -35,7 +35,8 @@ class AppBookCoverageTests(unittest.TestCase):
             {'language': 'en', 'collection': 'articles', 'state': 'reviewed-current',
              'automaticBuild': True, 'automaticRelease': True}]})
         self.write('books/config.json', {'languages': {'en': {'font': 'Latin'}},
-                                        'fonts': {'Latin': {}, 'Arabic': {}}})
+                                        'fonts': {'Latin': {}, 'Arabic': {},
+                                                  'FiqhSymbols': {'family': 'Synthetic Fiqh Symbols'}}})
         self.write('books/published-library.json', {'schema': guard.LIBRARY_SCHEMA, 'entries': []})
         self.write('books/prepared-library.json', {'schema': 'iman-book-preparation-queue-v1', 'entries': []})
         self.baseline = {'schemaVersion': 1, 'kind': guard.BASELINE_KIND,
@@ -203,7 +204,9 @@ class AppBookCoverageTests(unittest.TestCase):
 
     def test_stale_preparation_is_reported_without_being_admitted_or_blocking_source_update(self):
         self.prepare()
-        self.write('books/config.json', {'languages': {'en': {'font': 'Latin'}}, 'changedFixtureSetting': True})
+        config = guard.read(self.root / 'books/config.json')
+        config['changedFixtureSetting'] = True
+        self.write('books/config.json', config)
         result = self.check()
         self.assertFalse(result['errors'])
         self.assertEqual(result['summary'], {'selected-awaiting-preparation': 2})
