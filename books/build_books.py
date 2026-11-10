@@ -22,6 +22,7 @@ from material_audio import load_registry,add_audio_panel
 from bibliography import native_text,digits,hadith_citation,quran_reference,edition_credit,expand_verse_key
 from book_typography import SYMBOLS,SYMBOL_LTR,SYMBOL_RTL,quotation_mirrors,block_mirrors,span_mirrors
 from script_fallbacks import FONT_FAMILIES,extra_font_keys,fallback_runs
+from arabic_quote_direction import quote_segments
 
 SCHEMA='iman-book-unit-v1'
 ROLES={'body':'000000','meaning':'000000','example':'000000','note':'000000','current-ayah':'7C3AED','quran':'7C3AED','related':'2563EB','hadith':'2563EB','scholar':'A95300','heading':'064534'}
@@ -186,15 +187,20 @@ def add_text(p,text,lang,family,arabic,size=11,color='body',bold=False,ornament_
     numeric=r'\['+number+r'(?:\s*[,،]\s*'+number+r')*\]|'+number
     pieces=[];offset=0
     mirrors=quotation_mirrors(text,lang)if ornament_mirrors is None else ornament_mirrors
-    for segment in re.split('('+numeric+')',text):
-        if re.fullmatch(numeric,segment):pieces.append((segment,True,offset));offset+=len(segment)
-        else:
-            for token in re.split('(['+SYMBOLS+'])',segment):
-                if token in SYMBOLS and token:pieces.append((token,False,offset));offset+=len(token)
-                else:
-                    for piece in re.split('('+ARABIC_RUN+'+(?:\\s+'+ARABIC_RUN+'+)*)',token):pieces.append((piece,False,offset));offset+=len(piece)
+    for chunk,is_quote,offset in quote_segments(text,lang):
+        if is_quote:
+            pieces.append((chunk,False,offset,True));continue
+        for segment in re.split('('+numeric+')',chunk):
+            if re.fullmatch(numeric,segment):pieces.append((segment,True,offset,False));offset+=len(segment)
+            else:
+                for token in re.split('(['+SYMBOLS+'])',segment):
+                    if token in SYMBOLS and token:pieces.append((token,False,offset,False));offset+=len(token)
+                    else:
+                        for piece in re.split('('+ARABIC_RUN+'+(?:\\s+'+ARABIC_RUN+'+)*)',token):pieces.append((piece,False,offset,False));offset+=len(piece)
     selected=[]
-    for piece,is_number,position in pieces:
+    for piece,is_number,position,is_quote in pieces:
+        if is_quote:
+            selected.append((piece,False,position,None));continue
         for fragment,key in fallback_runs(piece,lang,source_text=text):
             selected.append((fragment,is_number,position,key));position+=len(fragment)
     for piece,is_number,position,fallback in selected:

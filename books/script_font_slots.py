@@ -13,6 +13,7 @@ from lxml import etree
 import re
 from script_fallbacks import fallback_runs,has_fallbacks
 from reader_xml import body_text
+from arabic_quote_direction import coalesce_quotes
 
 W='http://schemas.openxmlformats.org/wordprocessingml/2006/main';q=lambda name:'{'+W+'}'+name
 SCRIPTS={'th':r'[\u0e00-\u0e7f]','bn':r'[\u0980-\u09ff]','hi':r'[\u0900-\u097f]','ar':r'[\u0600-\u06ff\u0750-\u077f]','ur':r'[\u0600-\u06ff\u0750-\u077f]','fa':r'[\u0600-\u06ff\u0750-\u077f]'}
@@ -141,6 +142,8 @@ def repair_parts(parts,conf,language):
         if not(name.startswith('word/')and name.endswith('.xml')):continue
         root=etree.fromstring(raw);before=etree.tostring(root);content=_reader_content(root)
         hinted=0
+        if language=='en':
+            for paragraph in root.iter(q('p')):coalesce_quotes(paragraph,language,arabic)
         if language=='th' and name=='word/styles.xml':
             # Live PAGE/TOC results inherit their style when Word refreshes
             # fields. Keep Thai in the complex-script slots and give generated
