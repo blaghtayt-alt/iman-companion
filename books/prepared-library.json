@@ -4,15 +4,11 @@
     {
       "language": "en",
       "collection": "articles",
-      "sourceCommit": "c716cd3ff4a6873e25128597664a9a30c0dedcf9",
-      "inputFingerprint": "41d3f99a23c868cba90c9b71a09d24374036fca6a8ae17ea7faea1c045636262",
+      "sourceCommit": "b54c9a2ff807a8a0a1b7180b91b1c7d5d3a73f65",
+      "inputFingerprint": "29534dd90a964ef2375a231ca9ecafab27fe59f9edfe6513dc0768d0a64d2d15",
       "state": "prepared-awaiting-release-qc",
       "releaseVerified": false,
       "pendingChecks": [
-        {
-          "check": "scope-release-hold",
-          "reason": "New collection is automatically prepared from exact whole-material approvals; final Word and visual release checks remain required."
-        },
         {
           "check": "actual-word-layout",
           "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
@@ -29,7 +25,7 @@
           "collection": "articles",
           "collectionLabel": "Articles · A Little Is Enough",
           "file": "Iman_Companion_en_articles.docx",
-          "sha256": "421cc82ab6f257916033d8df11c5193be0b82dd7e49a17a7a24554068e58110e",
+          "sha256": "cf6e2c9cbc7f246672664a47cbc81060ec68f2309754060a6aaa1137d94fa24f",
           "units": [
             {
               "id": "prepared-ar-79fa38429519de69",
@@ -41,7 +37,7 @@
               "readerTextSHA256": "f63171835b28327523bc87fa37633287ed4e4a0b73baf6b611a77e1ec4e72925"
             }
           ],
-          "sourceCommit": "c716cd3ff4a6873e25128597664a9a30c0dedcf9",
+          "sourceCommit": "b54c9a2ff807a8a0a1b7180b91b1c7d5d3a73f65",
           "bodyColor": "#000000",
           "rtl": false,
           "arabicAyahs": "centered",
@@ -73,9 +69,9 @@
           },
           "audioQRVerification": [],
           "pages": 18,
-          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42625130622-1/Iman_Companion_en_articles.docx",
-          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42625130622-1/Iman_Companion_en_articles.pdf",
-          "pdfSha256": "8b5aa0d31660b929e7d6ee812208a41cc44d574f055d1e61f7be307afb52e77e",
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42861556471-1/Iman_Companion_en_articles.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42861556471-1/Iman_Companion_en_articles.pdf",
+          "pdfSha256": "47e9436087d0741947023acd966e6d08e7ccc3915223599370f66c963e96042a",
           "exportVerified": false,
           "preparationVerified": true,
           "contentsTargetVerification": {
@@ -134,27 +130,23 @@
       },
       "folder": "en-articles",
       "artifact": {
-        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42625130622",
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42861556471",
         "repository": "blaghtayt-alt/iman-companion",
-        "runId": "42625130622",
-        "name": "current-book-publication-42625130622-1",
-        "createdAt": "2026-11-09T13:28:24.825688+00:00",
-        "expiresAt": "2027-02-07T13:28:24.825688+00:00",
+        "runId": "42861556471",
+        "name": "current-book-publication-42861556471-1",
+        "createdAt": "2026-11-10T17:11:31.194902+00:00",
+        "expiresAt": "2027-02-08T17:11:31.194902+00:00",
         "retentionDays": 90
       }
     },
     {
       "language": "en",
       "collection": "seerah",
-      "sourceCommit": "c716cd3ff4a6873e25128597664a9a30c0dedcf9",
-      "inputFingerprint": "16917f8ce708b29c8342032f3cb13235f75c145161e65b590384c1d0eaa39791",
+      "sourceCommit": "b54c9a2ff807a8a0a1b7180b91b1c7d5d3a73f65",
+      "inputFingerprint": "439ee301c707b28b6e62bc1f36907d6a69fa41083c5e681028ed086e4d7762ee",
       "state": "prepared-awaiting-release-qc",
       "releaseVerified": false,
       "pendingChecks": [
-        {
-          "check": "scope-release-hold",
-          "reason": "New collection is automatically prepared from exact whole-material approvals; final Word and visual release checks remain required."
-        },
         {
           "check": "actual-word-layout",
           "reason": "Awaiting owned Microsoft Word final-file pagination and layout receipt"
@@ -171,7 +163,7 @@
           "collection": "seerah",
           "collectionLabel": "Seerah · Chapter One",
           "file": "Iman_Companion_en_seerah.docx",
-          "sha256": "f45d297b2ebe89023605862a73fb75905c4786a4bf6eb4062dfbb36debd784be",
+          "sha256": "8015556eb755dd54e0d47acc3f836cb3584aff9dc80b2e585e09d4e521f148c0",
           "units": [
             {
               "id": "new-seerah001",
@@ -184,7 +176,7 @@
               "readerTextSHA256": "f68393f3ce19596c0459b92616528c13277bd2fabc57221b940f3e9dc1ff235d"
             }
           ],
-          "sourceCommit": "c716cd3ff4a6873e25128597664a9a30c0dedcf9",
+          "sourceCommit": "b54c9a2ff807a8a0a1b7180b91b1c7d5d3a73f65",
           "bodyColor": "#000000",
           "rtl": false,
           "arabicAyahs": "centered",
@@ -222,9 +214,9 @@
           },
           "audioQRVerification": [],
           "pages": 20,
-          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42625130622-1/Iman_Companion_en_seerah.docx",
-          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42625130622-1/Iman_Companion_en_seerah.pdf",
-          "pdfSha256": "f31c66d86fb839d1989803c438dbe3569acfe772c8ece4d59b082bc58cb1d562",
+          "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42861556471-1/Iman_Companion_en_seerah.docx",
+          "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42861556471-1/Iman_Companion_en_seerah.pdf",
+          "pdfSha256": "d8748c3d78e6b2710284adb936237dfb5bc20981dde6f904eee357a5d11d6b8f",
           "exportVerified": false,
           "preparationVerified": true,
           "contentsTargetVerification": {
@@ -279,12 +271,12 @@
       },
       "folder": "en-seerah",
       "artifact": {
-        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42625130622",
+        "runURL": "https://github.com/blaghtayt-alt/iman-companion/actions/runs/42861556471",
         "repository": "blaghtayt-alt/iman-companion",
-        "runId": "42625130622",
-        "name": "current-book-publication-42625130622-1",
-        "createdAt": "2026-11-09T13:28:32.909185+00:00",
-        "expiresAt": "2027-02-07T13:28:32.909185+00:00",
+        "runId": "42861556471",
+        "name": "current-book-publication-42861556471-1",
+        "createdAt": "2026-11-10T17:11:39.866521+00:00",
+        "expiresAt": "2027-02-08T17:11:39.866521+00:00",
         "retentionDays": 90
       }
     }
