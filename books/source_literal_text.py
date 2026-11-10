@@ -113,10 +113,12 @@ def check_bound_text(root, text, unit, proofs, *, exact=False):
         inventory = _pinned_json(root, proof['inventory'])
         if inventory.get('schema') == APPROVED_READER_SCHEMA:
             material = inventory.get('material', {})
-            if (material != {'collection': unit.get('collection'),
+            catalogue_collection = ('essential-hadith' if unit.get('collection') == 'hadith'
+                                    else unit.get('collection'))
+            if (material != {'collection': catalogue_collection,
                              'language': unit.get('language'), 'id': unit.get('id')}
                     or unit.get('catalogBindings') != [material]
-                    or proof.get('collection') != unit.get('collection')
+                    or proof.get('collection') != catalogue_collection
                     or inventory.get('approval', {}).get('readerTextSHA256')
                        != unit.get('readerTextSHA256')
                     or proof.get('readerTextSHA256') != unit.get('readerTextSHA256')):
@@ -125,7 +127,7 @@ def check_bound_text(root, text, unit, proofs, *, exact=False):
 
 
 def _approved_reader_literal(root, proof, inventory):
-    """Preserve an exact approved TXT slice in a new Article or Seerah reader.
+    """Preserve an exact approved TXT slice in a typed current reader.
 
     This is a literal-text proof, not source approval. The normal publisher must
     still validate its separate whole-material envelope and exact reader unit.
@@ -139,7 +141,7 @@ def _approved_reader_literal(root, proof, inventory):
     approval = inventory.get('approval', {})
     expected = {'collection': proof.get('collection'),
                 'language': proof.get('language'), 'id': proof.get('materialId')}
-    if (material != expected or material.get('collection') not in {'articles', 'seerah'}
+    if (material != expected or material.get('collection') not in {'articles', 'seerah', 'essential-hadith'}
             or not material.get('id') or not material.get('language')
             or inventory.get('current') is not True
             or approval.get('decision') != 'approved'

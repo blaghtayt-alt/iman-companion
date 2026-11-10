@@ -161,5 +161,90 @@ class ApprovedSourceLiteralTests(unittest.TestCase):
         self.assertIsNotNone(typed_basis(self.root, entry))
 
 
+class HadithSourceLiteralTests(ApprovedSourceLiteralTests):
+    def setUp(self):
+        super().setUp()
+        self.material = {'collection': 'essential-hadith', 'language': 'en',
+                         'id': 'essential-01-001'}
+        self.inventory['material'] = self.material
+        self.unit.update(collection='hadith', id=self.material['id'],
+                         hadithEdition='new-extended', chapter=1, lesson=1,
+                         sourceLessonNumber=1, order=1001,
+                         ordering={'kind': 'chapter-lesson', 'chapter': 1, 'lesson': 1},
+                         catalogBindings=[self.material])
+        self.proof.update(collection='essential-hadith', materialId=self.material['id'])
+        self.refresh_inventory()
+
+    def test_exact_credit_before_first_catalogue_entry_and_scope(self):
+        with self.assertRaises(ValueError):
+            native_text(self.text, 'en')
+        self.assertEqual(self.check(), self.text)
+        check_unit(self.unit, {'language': 'en', 'collection': 'hadith',
+                                   'id': self.material['id']}, {}, root=self.root)
+
+    def test_literal_acceptance_does_not_replace_publisher_approval(self):
+        self.unit['sections'][0]['blocks'][0]['citations'] = [
+            {'type': 'hadith', 'book': 'muslim', 'number': '2577'}]
+        reader = self.write('materials/book-readers/fixture-hadith.json', self.unit)
+        handoff = {
+            'schema': 'iman-approved-material-publication-v1',
+            'expectedCatalogSHA256': sha((self.root / 'materials/catalog.json').read_bytes()),
+            'catalogEntry': {**self.material, 'chapter': 1, 'lesson': 1,
+                             'markdown': self.markdown['path'], 'current': True},
+            'sourceBindings': [self.source, self.markdown], 'canonicalOrder': 1001,
+            'readerUnit': reader,
+            'approval': {'decision': 'approved', 'wholeMaterial': True,
+                         'approvalId': 'TEST-FIXTURE-ONLY', 'reviewer': {'kind': 'fixture'},
+                         'material': self.material, 'readerTextSHA256': self.unit['readerTextSHA256'],
+                         'reviewArtifacts': [self.proof['inventory']]}}
+        path = self.root / self.write('handoff.json', handoff)['path']
+        prepare(self.root, path)
+        for key, value in [('decision', 'pending'), ('wholeMaterial', False),
+                           ('readerTextSHA256', '0' * 64), ('reviewArtifacts', [])]:
+            changed = deepcopy(handoff)
+            changed['approval'][key] = value
+            self.write('handoff.json', changed)
+            with self.assertRaises(ValueError):
+                prepare(self.root, path)
+        self.write('handoff.json', handoff)
+        receipt = apply(self.root, path)
+        self.assertFalse(receipt['sourceApprovalCreated'])
+        from book_edition_scope import typed_basis
+        entry = json.loads((self.root / 'materials/catalog.json').read_bytes())['entries'][0]
+        self.assertIsNotNone(typed_basis(self.root, entry))
+
+    def test_source_acceptance_identity_scope_and_receipts_are_required(self):
+        for key, value in [('decision', 'pending'), ('wholeMaterial', False),
+                           ('reviewer', None), ('approvalId', ''),
+                           ('semanticReviewSHA256', ''), ('sourceAcceptanceSHA256', ''),
+                           ('readerTextSHA256', '0' * 64)]:
+            original = deepcopy(self.inventory)
+            self.inventory['approval'][key] = value
+            self.refresh_inventory()
+            with self.assertRaises(ValueError):
+                self.check()
+            self.inventory = original
+            self.refresh_inventory()
+        for key, value in [('language', 'fr'), ('id', 'essential-01-002'),
+                           ('collection', 'articles')]:
+            changed = deepcopy(self.unit)
+            changed[key] = value
+            with self.assertRaises(ValueError):
+                self.check(unit=changed)
+        self.inventory['current'] = False
+        self.refresh_inventory()
+        with self.assertRaises(ValueError):
+            self.check()
+
+    def test_legacy_collection_and_cross_collection_cannot_claim_acceptance(self):
+        changed = deepcopy(self.proof)
+        changed['collection'] = 'hadith'
+        with self.assertRaises(ValueError):
+            self.check(proof=changed)
+        self.inventory['material']['collection'] = 'hadith'
+        self.refresh_inventory()
+        with self.assertRaises(ValueError):
+            self.check()
+
 if __name__ == '__main__':
     unittest.main()
