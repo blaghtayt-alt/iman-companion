@@ -56,7 +56,7 @@ def validate_footnotes(notes,body,expected,lang,*,preserved_identifiers=(),sourc
         if note_id in actual:raise ValueError('Duplicate footnote ID')
         paragraphs=[]
         for p in note.findall('.//'+tag('p')):
-            paragraphs.append(''.join((n.text or '') if n.tag==tag('t') else ('\n' if n.tag==tag('br') else '') for n in p.iter()))
+            paragraphs.append(body_text(p))
         text='\n'.join(paragraphs)
         if note.findall('.//'+tag('hyperlink')):raise ValueError('Reference links remain in footnotes')
         actual[note_id]=text

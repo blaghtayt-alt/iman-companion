@@ -52,6 +52,31 @@ class RenderChecks(unittest.TestCase):
         marker=after.find('.//'+Q('softHyphen'));marker.getparent().remove(marker)
         self.assertEqual(body_text(after),"Yüce Allah'ı")
         self.assertNotIn(expected,body_text(after))
+    def test_nonbreaking_hyphen_survives_body_and_footnote_serialization(self):
+        # Real French Article 1 failed after LibreOffice serialized d’ici‑bas
+        # with w:noBreakHyphen. The source character must survive, not be
+        # discarded or silently replaced with an ordinary hyphen.
+        expected='La vie d’ici\u2011bas.'
+        paragraph=etree.fromstring(('<w:p xmlns:w="'+W+'"><w:r><w:t> La vie d’ici</w:t><w:noBreakHyphen/><w:t>bas.</w:t></w:r></w:p>').encode())
+        self.assertEqual(body_text(paragraph),' '+expected)
+        notes,body=notes_fixture()
+        note=notes.find('./'+Q('footnote')+'[@'+Q('id')+'="0"]')
+        note.remove(note[0]);note.append(paragraph)
+        validate_footnotes(notes,body,[expected,'source two'],'fr')
+        for replacement in (None,'-','\u00ad'):
+            with self.subTest(replacement=replacement):
+                changed=deepcopy(notes)
+                marker=changed.find('.//'+Q('noBreakHyphen'))
+                if replacement is None:marker.getparent().remove(marker)
+                else:marker.tag=Q('t');marker.text=replacement
+                with self.assertRaisesRegex(ValueError,'text changed'):
+                    validate_footnotes(changed,body,[expected,'source two'],'fr')
+    def test_footnotes_keep_native_breaks_tabs_and_soft_hyphens(self):
+        notes,body=notes_fixture()
+        note=notes.find('./'+Q('footnote')+'[@'+Q('id')+'="0"]')
+        note.remove(note[0])
+        note.append(etree.fromstring(('<w:p xmlns:w="'+W+'"><w:r><w:t> Source</w:t><w:tab/><w:t>con</w:t><w:softHyphen/><w:t>text</w:t><w:cr/><w:t>suite</w:t></w:r></w:p>').encode()))
+        validate_footnotes(notes,body,['Source\tcon\u00adtext\nsuite','source two'],'fr')
     def test_contents_links_and_native_digits(self):
         root=toc_fixture();validate_toc(root,'ar',1)
         broken=deepcopy(root);broken.find('.//'+Q('hyperlink')).set(Q('anchor'),'missing')
