@@ -13,8 +13,9 @@ sys.path.insert(0,str(ROOT/'books'))
 from build_books import add_text,embed_fonts
 from font_integrity import families,restore,verify
 from merge_public_books import merge_docx
-from script_fallbacks import FONT_FAMILIES,fallback_key,fallback_runs
+from script_fallbacks import FONT_FAMILIES,fallback_key,fallback_runs,FIQH_SOURCE_PARAGRAPH_SHA256
 from script_font_slots import repair_parts,q,W
+from reader_xml import body_text
 
 
 class ScriptFallbackChecks(unittest.TestCase):
@@ -56,6 +57,61 @@ class ScriptFallbackChecks(unittest.TestCase):
         # An unrelated script never inherits these locale-specific exceptions.
         for language in ('ar','fa','en','ja','de'):
             self.assertEqual(list(fallback_runs('〔Q39:7〕 ﻻ ʿṣ «»',language)),[('〔Q39:7〕 ﻻ ʿṣ «»',None)])
+
+    def fiqh_text(self):
+        unit=json.loads((ROOT/'books/units/current/en/hadith/essential-01-001.json').read_bytes())
+        block=unit['sections'][2]['blocks'][18]
+        self.assertEqual(hashlib.sha256(block['text'].encode()).hexdigest(),FIQH_SOURCE_PARAGRAPH_SHA256)
+        self.assertEqual(block['sourceLiteralProof']['textSHA256'],FIQH_SOURCE_PARAGRAPH_SHA256)
+        return block['text']
+
+    def test_fiqh_private_characters_require_the_exact_source_context(self):
+        value=self.fiqh_text()
+        doc,paragraph=self.paragraph(value,'en')
+        self.assertEqual(paragraph.text,value)
+        self.assertEqual([r.text for r in paragraph.runs if r.font.name==FONT_FAMILIES['FiqhSymbols']],['\uf074','\uf065'])
+        for language,text in [('en',None),('en',value+' '),('en','An unrelated private glyph \uf074'),('ar',value)]:
+            for character in '\uf074\uf065':
+                self.assertIsNone(fallback_key(language,character,text))
+        self.assertIsNone(fallback_key('en','\uf075',value))
+
+    def test_fiqh_font_restore_preserves_text_breaks_and_other_xml(self):
+        value=self.fiqh_text()
+        doc=Document();paragraph=doc.add_paragraph();run=paragraph.add_run(value)
+        run.bold=True;run.font.color.rgb=__import__('docx').shared.RGBColor.from_string('2563EB')
+        buffer=BytesIO();doc.save(buffer)
+        with zipfile.ZipFile(buffer) as z:parts={n:z.read(n) for n in z.namelist()}
+        from script_font_slots import _reader_content
+        before=_reader_content(etree.fromstring(parts['word/document.xml']))
+        repair_parts(parts,self.conf,'en')
+        tree=etree.fromstring(parts['word/document.xml'])
+        self.assertEqual(_reader_content(tree),before)
+        self.assertEqual(body_text(tree),value)
+        aliases=[]
+        for run in tree.iter(q('r')):
+            text=body_text(run)
+            if any(c in text for c in '\uf074\uf065'):
+                aliases.append(text)
+                for slot in ('ascii','hAnsi','eastAsia','cs'):
+                    self.assertEqual(run.find('.//'+q('rFonts')).get(q(slot)),FONT_FAMILIES['FiqhSymbols'])
+                self.assertIsNotNone(run.find('.//'+q('b')))
+                self.assertEqual(run.find('.//'+q('color')).get(q('val')),'2563EB')
+        self.assertEqual(aliases,['\uf074','\uf065'])
+        once=deepcopy(parts);self.assertEqual(repair_parts(parts,self.conf,'en'),{});self.assertEqual(parts,once)
+
+    def test_fiqh_font_pin_matches_the_licensed_outlines_and_aliases(self):
+        from fontTools.ttLib import TTFont
+        definition=self.conf['fonts']['FiqhSymbols']
+        for style,path in definition['files'].items():
+            raw=(ROOT/path).read_bytes()
+            self.assertEqual(hashlib.sha256(raw).hexdigest(),definition['sha256'][style])
+            with TTFont(BytesIO(raw)) as font:
+                cmap=font.getBestCmap()
+                self.assertEqual(cmap[0xf065],cmap[0xfdfa])
+                self.assertEqual(cmap[0xf074],cmap[0xfd41])
+                self.assertNotIn(0xf075,cmap)
+                self.assertEqual(font['name'].getDebugName(1),FONT_FAMILIES['FiqhSymbols'])
+                self.assertIn('Open Font License',font['name'].getDebugName(13))
 
     def test_font_restore_splits_coalesced_body_and_notes_without_changing_structure(self):
         value='〔หมายเหตุ Q39:41อธิบาย〕 ข้อความ 2020'

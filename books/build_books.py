@@ -195,7 +195,7 @@ def add_text(p,text,lang,family,arabic,size=11,color='body',bold=False,ornament_
                     for piece in re.split('('+ARABIC_RUN+'+(?:\\s+'+ARABIC_RUN+'+)*)',token):pieces.append((piece,False,offset));offset+=len(piece)
     selected=[]
     for piece,is_number,position in pieces:
-        for fragment,key in fallback_runs(piece,lang):
+        for fragment,key in fallback_runs(piece,lang,source_text=text):
             selected.append((fragment,is_number,position,key));position+=len(fragment)
     for piece,is_number,position,fallback in selected:
         if not piece:continue

@@ -12,6 +12,7 @@ from copy import deepcopy
 from lxml import etree
 import re
 from script_fallbacks import fallback_runs,has_fallbacks
+from reader_xml import body_text
 
 W='http://schemas.openxmlformats.org/wordprocessingml/2006/main';q=lambda name:'{'+W+'}'+name
 SCRIPTS={'th':r'[\u0e00-\u0e7f]','bn':r'[\u0980-\u09ff]','hi':r'[\u0900-\u097f]','ar':r'[\u0600-\u06ff\u0750-\u077f]','ur':r'[\u0600-\u06ff\u0750-\u077f]','fa':r'[\u0600-\u06ff\u0750-\u077f]'}
@@ -104,9 +105,11 @@ def _set_pinned_fallback(run,key,conf):
 
 def _isolate_pinned_fallbacks(run,language,conf):
     """Keep source characters, field markers and anchors in their exact order."""
+    paragraph=next(run.iterancestors(q('p')),None)
+    source_text=body_text(paragraph) if paragraph is not None else None
     children=[node for node in run if node.tag!=q('rPr')];groups=[]
     for child in children:
-        chunks=(list(fallback_runs(child.text or '',language)) or [('',None)]) if child.tag==q('t') else [(None,None)]
+        chunks=(list(fallback_runs(child.text or '',language,source_text=source_text)) or [('',None)]) if child.tag==q('t') else [(None,None)]
         for index,(chunk,key) in enumerate(chunks):
             node=deepcopy(child)
             if chunk is not None:

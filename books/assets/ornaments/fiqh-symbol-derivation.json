@@ -1,0 +1,53 @@
+{
+  "schema": "iman-source-symbol-font-derivation-v1",
+  "fontTools": "4.51.0",
+  "sourceFonts": {
+    "family": "Iman Book Naskh",
+    "files": {
+      "Regular": "books/assets/fonts/Naskh-Regular.ttf",
+      "Bold": "books/assets/fonts/Naskh-Bold.ttf"
+    },
+    "sha256": {
+      "Regular": "3d3fb70068126b6da1ee5f96aa1f480384efafdd5e261089fe0082ec7d6bfec3",
+      "Bold": "dbe8a0eef7feec310c2d97c45307313138718e9d03904994aa99bbba22c996be"
+    }
+  },
+  "fonts": {
+    "FiqhSymbols": {
+      "family": "Iman Book Fiqh Symbols",
+      "files": {
+        "Regular": "books/assets/ornaments/FiqhSymbols-Regular.ttf",
+        "Bold": "books/assets/ornaments/FiqhSymbols-Bold.ttf"
+      },
+      "sha256": {
+        "Regular": "0878dbda4b02cc3b19bc1258d9efc2fd3a64f5ae480309ed9817e6fdd78e1d02",
+        "Bold": "c7a77b7df3c4a16021be8e38d258f1f47d4d1c74b2a68f0b895166afc6831c54"
+      }
+    }
+  },
+  "sourceEvidence": {
+    "url": "https://d1.islamhouse.com/data/en/ih_books/single2/en-the-summarized-islamic-fiqh.pdf",
+    "pdfSHA256": "20a8a3e14b7b1e3c71d34d39acc0795e3ae2d1fe3dbeba4dcd0cd168617fae9b",
+    "symbolLegendPhysicalPage": 9,
+    "quotationPhysicalPage": 344,
+    "originalFace": "AGAArabesque",
+    "acceptedTextSHA256": "1dc04f17def1ab8a735bc44fcb520bff61b6912835da527351fe26496badc6ef",
+    "acceptedSourcePath": "materials/hadith/essential-en/001.txt",
+    "acceptedSourceSHA256": "5e04c584947edb161102d1819214e29e2d08f898bc849bd34abfb7f3a6a3d914"
+  },
+  "glyphAliases": [
+    {
+      "sourceCharacter": "U+F065",
+      "outline": "U+FDFA",
+      "meaning": "Salla Allahu alayhi wa sallam"
+    },
+    {
+      "sourceCharacter": "U+F074",
+      "outline": "U+FD41",
+      "meaning": "Radiya Allahu anhu"
+    }
+  ],
+  "scope": "Only the exact hash-bound accepted English paragraph selects this face. No general private-use substitution.",
+  "textPreservation": "No Unicode character, reader, source, review or qualification is changed.",
+  "license": "Existing Noto SIL Open Font License copyright and license records retained; family renamed. Original AGAArabesque font is not redistributed."
+}
