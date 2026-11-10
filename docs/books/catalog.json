@@ -324,13 +324,127 @@
               "numberLabel": "Hadith 4"
             }
           ]
+        },
+        {
+          "language": "en",
+          "collection": "seerah",
+          "title": "Seerah · Chapter One",
+          "cover": "assets/covers/d8748c3d78e6b2710284adb936237dfb5bc20981dde6f904eee357a5d11d6b8f.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1/Iman_Companion_en_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1/Iman_Companion_en_seerah.pdf",
+          "sha256": "8015556eb755dd54e0d47acc3f836cb3584aff9dc80b2e585e09d4e521f148c0",
+          "pdfSha256": "d8748c3d78e6b2710284adb936237dfb5bc20981dde6f904eee357a5d11d6b8f",
+          "units": 1,
+          "pages": 20,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "en",
+            "collection": "seerah",
+            "sourceIds": [
+              "new-seerah001"
+            ],
+            "catalogIds": [
+              "new-seerah001"
+            ],
+            "selectedIds": [
+              "new-seerah001"
+            ],
+            "includedIds": [
+              "new-seerah001"
+            ],
+            "includedNumbers": {
+              "new-seerah001": 1
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 22,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Included: Seerah 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {
+                "new-seerah001": "Seerah 1"
+              }
+            }
+          },
+          "contents": [
+            {
+              "id": "new-seerah001",
+              "title": "Chapter One",
+              "numberLabel": "Seerah 1"
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "collection": "articles",
+          "title": "Articles · A Little Is Enough",
+          "cover": "assets/covers/47e9436087d0741947023acd966e6d08e7ccc3915223599370f66c963e96042a.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1/Iman_Companion_en_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1/Iman_Companion_en_articles.pdf",
+          "sha256": "cf6e2c9cbc7f246672664a47cbc81060ec68f2309754060a6aaa1137d94fa24f",
+          "pdfSha256": "47e9436087d0741947023acd966e6d08e7ccc3915223599370f66c963e96042a",
+          "units": 1,
+          "pages": 18,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "en",
+            "collection": "articles",
+            "sourceIds": [
+              "prepared-ar-79fa38429519de69"
+            ],
+            "catalogIds": [
+              "prepared-ar-79fa38429519de69"
+            ],
+            "selectedIds": [
+              "prepared-ar-79fa38429519de69"
+            ],
+            "includedIds": [
+              "prepared-ar-79fa38429519de69"
+            ],
+            "includedNumbers": {
+              "prepared-ar-79fa38429519de69": 1
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Included: Articles 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {
+                "prepared-ar-79fa38429519de69": "Articles 1"
+              }
+            }
+          },
+          "contents": [
+            {
+              "id": "prepared-ar-79fa38429519de69",
+              "title": "A Little Is Enough",
+              "numberLabel": "Articles 1"
+            }
+          ]
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_en_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_en_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_en_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1-bundles/Iman_Companion_en_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1-bundles/Iman_Companion_en_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1-bundles/Iman_Companion_en_all-books.pdf",
+        "parts": 4
       }
     },
     "ar": {
@@ -10432,5 +10546,5 @@
       }
     }
   },
-  "updated": "2026-11-10T17:12:28+00:00"
+  "updated": "2026-11-10T17:54:58+00:00"
 }

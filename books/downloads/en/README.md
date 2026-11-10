@@ -9,8 +9,8 @@ English
 | --- | --- | --- | --- |
 | Quran Reflection | [Download editable book (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1/Iman_Companion_en_tadabbur-extended.docx) | [Download reading copy (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1/Iman_Companion_en_tadabbur-extended.pdf) | 15 · Included: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadith · Allah’s greatness and its effect on the heart and our deeds (+2) | [Download editable book (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.docx) | [Download reading copy (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.pdf) | 3 · Included: Hadith 2–4 |
-| Seerah | Not yet published | Not yet published | — |
-| Articles | Not yet published | Not yet published | — |
+| Seerah · Chapter One | [Download editable book (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1/Iman_Companion_en_seerah.docx) | [Download reading copy (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1/Iman_Companion_en_seerah.pdf) | 1 · Included: Seerah 1 |
+| Articles · A Little Is Enough | [Download editable book (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1/Iman_Companion_en_articles.docx) | [Download reading copy (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1/Iman_Companion_en_articles.pdf) | 1 · Included: Articles 1 |
 
 ## Quran Reflection
 
@@ -36,6 +36,14 @@ English
 - All hearts are under the control of the Most Compassionate
 - Steadfastness in religion and recognizing a heart that has strayed
 
+## Seerah · Chapter One
+
+- Chapter One
+
+## Articles · A Little Is Enough
+
+- A Little Is Enough
+
 ### Quran Reflection
 
 Included: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
@@ -48,14 +56,22 @@ Partial edition
 
 - Current source not available in this language: Hadith 1
 
+### Seerah · Chapter One
+
+Included: Seerah 1
+
+### Articles · A Little Is Enough
+
+Included: Articles 1
+
 ## Download together
 
 One combined edition
 
-[Download editable book (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_en_all-books.docx)
+[Download editable book (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1-bundles/Iman_Companion_en_all-books.docx)
 
-[Download reading copy (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_en_all-books.pdf)
+[Download reading copy (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1-bundles/Iman_Companion_en_all-books.pdf)
 
-[ZIP of separate books](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42609273246-1-bundles/Iman_Companion_en_all-books.zip)
+[ZIP of separate books](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1-bundles/Iman_Companion_en_all-books.zip)
 
 AI translated — needs verification. Model-assisted checks are not a substitute for review by a qualified human reader.
