@@ -231,14 +231,14 @@
         {
           "language": "en",
           "collection": "hadith",
-          "title": "Hadith · Allah’s greatness and its effect on the heart and our deeds (+2)",
-          "cover": "assets/covers/22b3c7bf755b8784412b847bec3f669bfa0e3beebb2fa568fd34fee4b536af16.webp",
-          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.docx",
-          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.pdf",
-          "sha256": "1b603de7fb024fee6dfdf2d01e6d70db412024ed4d06e3d2ec9b50d38b1e099f",
-          "pdfSha256": "22b3c7bf755b8784412b847bec3f669bfa0e3beebb2fa568fd34fee4b536af16",
-          "units": 3,
-          "pages": 18,
+          "title": "Hadith · Allah’s justice and self-sufficiency, and His servants’ need of Him (+3)",
+          "cover": "assets/covers/ea70ee42cb3b1e8d57ad497bdf7b63280dd4e748884e79487ad494bf8c44b551.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42911857598-1/Iman_Companion_en_hadith.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42911857598-1/Iman_Companion_en_hadith.pdf",
+          "sha256": "f719235ec16017b71f6253510ee6b7ce8d73194c6230a45e91981f6255f3e220",
+          "pdfSha256": "ea70ee42cb3b1e8d57ad497bdf7b63280dd4e748884e79487ad494bf8c44b551",
+          "units": 4,
+          "pages": 85,
           "audio": 0,
           "coverage": {
             "schema": "iman-book-content-coverage-v1",
@@ -263,11 +263,16 @@
               "essential-01-004"
             ],
             "includedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "includedNumbers": {
+              "essential-01-001": [
+                1,
+                1
+              ],
               "essential-01-002": [
                 1,
                 2
@@ -281,19 +286,7 @@
                 4
               ]
             },
-            "missingCurrent": [
-              {
-                "id": "essential-01-001",
-                "reason": "awaiting-book-release",
-                "sourcePaths": {
-                  "json": "materials/hadith/essential-en/001.json"
-                },
-                "number": [
-                  1,
-                  1
-                ]
-              }
-            ],
+            "missingCurrent": [],
             "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
@@ -301,14 +294,13 @@
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "listed-materials-included",
             "presentation": {
-              "includedLabel": "Included: Hadith 2–4",
-              "statusLabel": "Partial edition",
-              "notes": [
-                "Awaiting the updated book: Hadith 1"
-              ],
+              "includedLabel": "Included: Hadith 1–4",
+              "statusLabel": "",
+              "notes": [],
               "unitLabels": {
+                "essential-01-001": "Hadith 1",
                 "essential-01-002": "Hadith 2",
                 "essential-01-003": "Hadith 3",
                 "essential-01-004": "Hadith 4"
@@ -316,6 +308,11 @@
             }
           },
           "contents": [
+            {
+              "id": "essential-01-001",
+              "title": "Allah’s justice and self-sufficiency, and His servants’ need of Him",
+              "numberLabel": "Hadith 1"
+            },
             {
               "id": "essential-01-002",
               "title": "Allah’s greatness and its effect on the heart and our deeds",
@@ -331,18 +328,7 @@
               "title": "Steadfastness in religion and recognizing a heart that has strayed",
               "numberLabel": "Hadith 4"
             }
-          ],
-          "availability": {
-            "state": "verified-limited-edition",
-            "updatePending": true,
-            "includedUnitIds": [
-              "essential-01-002",
-              "essential-01-003",
-              "essential-01-004"
-            ],
-            "newMaterialsIncluded": false
-          },
-          "statusLabel": "Verified edition. New material is awaiting release checks; only the listed contents are included."
+          ]
         },
         {
           "language": "en",
@@ -460,9 +446,9 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1-bundles/Iman_Companion_en_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1-bundles/Iman_Companion_en_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42868947579-1-bundles/Iman_Companion_en_all-books.pdf",
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42911857598-1-bundles/Iman_Companion_en_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42911857598-1-bundles/Iman_Companion_en_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42911857598-1-bundles/Iman_Companion_en_all-books.pdf",
         "parts": 4
       }
     },
@@ -10917,5 +10903,5 @@
       }
     }
   },
-  "updated": "2026-11-10T21:43:14+00:00"
+  "updated": "2026-11-10T22:15:38+00:00"
 }

@@ -11443,10 +11443,19 @@
         "language": "en",
         "languageLabel": "English",
         "collection": "hadith",
-        "collectionLabel": "Hadith · Allah’s greatness and its effect on the heart and our deeds (+2)",
+        "collectionLabel": "Hadith · Allah’s justice and self-sufficiency, and His servants’ need of Him (+3)",
         "file": "Iman_Companion_en_hadith.docx",
-        "sha256": "1b603de7fb024fee6dfdf2d01e6d70db412024ed4d06e3d2ec9b50d38b1e099f",
+        "sha256": "f719235ec16017b71f6253510ee6b7ce8d73194c6230a45e91981f6255f3e220",
         "units": [
+          {
+            "id": "essential-01-001",
+            "title": "Allah’s justice and self-sufficiency, and His servants’ need of Him",
+            "sourceHashes": [
+              "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14",
+              "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+            ],
+            "readerTextSHA256": "9a68752fb27a3982308f5dc1ca115a81aeb485bc7acba0f903e3b89736fbf79d"
+          },
           {
             "id": "essential-01-002",
             "title": "Allah’s greatness and its effect on the heart and our deeds",
@@ -11472,14 +11481,14 @@
             "readerTextSHA256": "89ed7cf50e16da2a2c11fbfd29c617bdc2d9638ffa51fc7a78f71c63062022f5"
           }
         ],
-        "sourceCommit": "4cd0afe59cebae2efdbf32777f3ca47e5f02172b",
+        "sourceCommit": "4982d320212b9a15c42212766acd7ed2bcf40c3f",
         "bodyColor": "#000000",
         "rtl": false,
         "arabicAyahs": "centered",
         "quranReferences": "supplied reference positions preserved; recognized explicit labels formatted canonically",
         "referencePresentation": "supplied original source references and qualifications preserved; structured identities only when unambiguous",
-        "footnoteCount": 8,
-        "hadithCount": 3,
+        "footnoteCount": 29,
+        "hadithCount": 4,
         "audioPanels": [],
         "pageLayout": {
           "schema": "iman-book-page-layout-v1",
@@ -11492,11 +11501,13 @@
         "editionScope": {
           "policy": "reviewed-source-edition-v1",
           "includedMaterialTitles": [
+            "Allah’s justice and self-sufficiency, and His servants’ need of Him",
             "Allah’s greatness and its effect on the heart and our deeds",
             "All hearts are under the control of the Most Compassionate",
             "Steadfastness in religion and recognizing a heart that has strayed"
           ],
           "includedMaterialIds": [
+            "essential-01-001",
             "essential-01-002",
             "essential-01-003",
             "essential-01-004"
@@ -11505,9 +11516,9 @@
         "sourceReferencePreservation": {
           "schema": "iman-source-reference-preservation-v1",
           "auditMode": "literal-source-and-qualification-fidelity",
-          "units": 3,
+          "units": 4,
           "auditedUnits": 3,
-          "approvedPublisherUnits": 0,
+          "approvedPublisherUnits": 1,
           "sourceReferences": 15,
           "preservedReferences": 15,
           "sourceQualifications": 45,
@@ -11527,25 +11538,25 @@
         "previewOnly": false,
         "hadithEdition": "new-extended",
         "pdfContentsVerification": {
-          "matchedEntries": 6,
-          "visibleLabelsMatched": 6
+          "matchedEntries": 11,
+          "visibleLabelsMatched": 11
         },
         "audioQRVerification": [],
-        "pages": 18,
-        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.docx",
-        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_en_hadith.pdf",
-        "pdfSha256": "22b3c7bf755b8784412b847bec3f669bfa0e3beebb2fa568fd34fee4b536af16",
+        "pages": 85,
+        "download": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42911857598-1/Iman_Companion_en_hadith.docx",
+        "pdfDownload": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42911857598-1/Iman_Companion_en_hadith.pdf",
+        "pdfSha256": "ea70ee42cb3b1e8d57ad497bdf7b63280dd4e748884e79487ad494bf8c44b551",
         "exportVerified": true,
         "preparationVerified": true,
         "contentsTargetVerification": {
-          "matchedEntries": 6
+          "matchedEntries": 11
         },
-        "wordPages": 18,
+        "wordPages": 85,
         "wordContentsVerification": {
-          "pages": 18,
-          "matchedEntries": 6,
-          "docxSHA256": "1b603de7fb024fee6dfdf2d01e6d70db412024ed4d06e3d2ec9b50d38b1e099f",
-          "receiptSHA256": "79356bab23ecebfadb8c11f0005d9615d5a37e1f668eb27c0c06baafba23fa22",
+          "pages": 85,
+          "matchedEntries": 11,
+          "docxSHA256": "f719235ec16017b71f6253510ee6b7ce8d73194c6230a45e91981f6255f3e220",
+          "receiptSHA256": "45f45bd44c2f8cfdee2846838488ff3767d3936c3784171b8021f8c4cd3451cf",
           "engine": {
             "application": "Microsoft Word",
             "version": "16.0",
@@ -11554,14 +11565,14 @@
         },
         "independentWordLayoutVerification": {
           "pdf": {
-            "matchedEntries": 6,
-            "visibleLabelsMatched": 6
+            "matchedEntries": 11,
+            "visibleLabelsMatched": 11
           },
           "word": {
-            "pages": 18,
-            "matchedEntries": 6,
-            "docxSHA256": "1b603de7fb024fee6dfdf2d01e6d70db412024ed4d06e3d2ec9b50d38b1e099f",
-            "receiptSHA256": "79356bab23ecebfadb8c11f0005d9615d5a37e1f668eb27c0c06baafba23fa22",
+            "pages": 85,
+            "matchedEntries": 11,
+            "docxSHA256": "f719235ec16017b71f6253510ee6b7ce8d73194c6230a45e91981f6255f3e220",
+            "receiptSHA256": "45f45bd44c2f8cfdee2846838488ff3767d3936c3784171b8021f8c4cd3451cf",
             "engine": {
               "application": "Microsoft Word",
               "version": "16.0",
@@ -11571,25 +11582,26 @@
         },
         "finalVisualAcceptance": {
           "schema": "iman-book-visual-acceptance-v1",
-          "acceptanceSHA256": "47a390aca288ce6830034e7548f4fdc330dd619a3613aa580746b2c7c5469997",
-          "handoffSHA256": "cf13b18088e7e6e5a49154ad6d0d913d9b6f276d1545ded504dd8b4301fd63a0",
-          "sourceCommit": "4cd0afe59cebae2efdbf32777f3ca47e5f02172b",
-          "inputFingerprint": "101d1c496c40d1988b1d3d85e95be9cb8f966bb0f0fbab1a2327029ded099c39",
-          "docxSHA256": "1b603de7fb024fee6dfdf2d01e6d70db412024ed4d06e3d2ec9b50d38b1e099f",
-          "pdfSHA256": "22b3c7bf755b8784412b847bec3f669bfa0e3beebb2fa568fd34fee4b536af16",
-          "wordReadbackSHA256": "79356bab23ecebfadb8c11f0005d9615d5a37e1f668eb27c0c06baafba23fa22",
-          "wordProofSHA256": "5e8a8ad131f06141bccdda6a04ec11760d7c9b21132bda2adc98a1c96052dfbe",
-          "reviewer": "ChatGPT continuation (AI), verification of recorded visual evidence; canonical prior page review: check_books_publication; word prior page review: check_books_publication. No new page inspection, human review, or native-language review is claimed.",
-          "reviewedAt": "2026-11-08T20:59:32.177123+00:00",
+          "acceptanceSHA256": "ef13f7427068e8ddc836b0fd6214d61df711cfa0ae06cc275ed60a0848c257b2",
+          "handoffSHA256": "9df892dee34aa46a8f064025309aee9799752cd43d3f53bdc77edfc377b95f09",
+          "sourceCommit": "4982d320212b9a15c42212766acd7ed2bcf40c3f",
+          "inputFingerprint": "e740552a74fe5f51e5d04b403f91a4b8849abb8042a0cc501d4d686ba4b47516",
+          "docxSHA256": "f719235ec16017b71f6253510ee6b7ce8d73194c6230a45e91981f6255f3e220",
+          "pdfSHA256": "ea70ee42cb3b1e8d57ad497bdf7b63280dd4e748884e79487ad494bf8c44b551",
+          "wordReadbackSHA256": "45f45bd44c2f8cfdee2846838488ff3767d3936c3784171b8021f8c4cd3451cf",
+          "wordProofSHA256": "baef1e369fb86fbe3028b079cab3c28cfe20e7d2e6e5d4e8afdc8ebb89a89da4",
+          "reviewer": "ChatGPT root 8fd7574; independent Word and canonical PDF reviewers; exact page provenance recorded",
+          "reviewedAt": "2026-11-10T22:02:47.518624+00:00",
           "accepted": true,
           "allPdfPagesInspected": true,
           "allWordPagesInspected": true
         }
       },
       "snapshot": {
-        "catalogSHA256": "87d9be003ba22a40a58c455374312bcc287bf2bd8145785293f473cc1b4e3f8f",
+        "catalogSHA256": "23bdba4755e5b72a5d175c815d845079097717205094b60a77aa257991543447",
         "scopeSettingsSHA256": "a1543529634102362803b4802a96834e1675da6eaa69075c56d81d8be3bacfc5",
         "unitIds": [
+          "essential-01-001",
           "essential-01-002",
           "essential-01-003",
           "essential-01-004"
@@ -11598,6 +11610,14 @@
           {
             "path": "books/source-projections/translated-essential-hadith.json",
             "sha256": "cc266e4c7476195f64429eda0d57a5174d7e956f10dc51572698bcfd0f14251e"
+          },
+          {
+            "path": "materials/book-publication-approvals/41b8d4ae4b272be949d7a664c04b107fcee8e6297892232c42304fad5aea8493.json",
+            "sha256": "41b8d4ae4b272be949d7a664c04b107fcee8e6297892232c42304fad5aea8493"
+          },
+          {
+            "path": "materials/book-publication-readers/en/hadith/essential-01-001-source-capture-combined-v3.json",
+            "sha256": "ce21f5491228d7c402d9851d3a756791a6c5cbe287b7a378c362a97ecc4d8df2"
           },
           {
             "path": "materials/hadith/essential-01-002/README.md",
@@ -11610,6 +11630,18 @@
           {
             "path": "materials/hadith/essential-01-004/README.md",
             "sha256": "114eef28fd04ffb8941b22b5aac06391d8f6edf3dff38dac898c5bf15be96c3b"
+          },
+          {
+            "path": "materials/hadith/essential-ar/01/001.json",
+            "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+          },
+          {
+            "path": "materials/hadith/essential-en/001.json",
+            "sha256": "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+          },
+          {
+            "path": "materials/hadith/essential-en/001.txt",
+            "sha256": "cc3f8e5d90028ab2e084f7aee3b0d91a7d971968662d1d5e43a67d5127ac30b9"
           },
           {
             "path": "materials/hadith/essential-en/002.json",
@@ -11642,6 +11674,22 @@
           {
             "path": "materials/hadith/essential-en/004.md",
             "sha256": "136f355c9a068b956f1b0758467d54a0b901fc40e7cc58a00a71d6a60dec0553"
+          },
+          {
+            "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+            "sha256": "6f5df960c0c4afcc712111d6e4f84823779b38e6ca16fba00732ce25955f287d"
+          },
+          {
+            "path": "materials/source-acceptances/en/hadith-001-independent-combined-capture-review-20261110-v3.json",
+            "sha256": "aa6300d76b5d3b1eaabd30fb4701b661ee0523d49a52635476988471925c0e45"
+          },
+          {
+            "path": "materials/source-acceptances/en/hadith-001-source-capture-20261110-combined-v3.json",
+            "sha256": "49c62d9b6311d3874dcbdc433ff3a4150a4573f792dd0292a2428b7c37dee1db"
+          },
+          {
+            "path": "materials/source-acceptances/en/hadith-001-source-capture-evidence-20261110-combined-v3.json",
+            "sha256": "2ea44660f4d673b30fdcee11f2f22b386aa09760122850bf619d74cc1027d073"
           }
         ],
         "catalogMemberKeys": [
@@ -11659,6 +11707,11 @@
             "collection": "essential-hadith",
             "language": "en",
             "id": "essential-01-004"
+          },
+          {
+            "collection": "essential-hadith",
+            "language": "en",
+            "id": "essential-01-001"
           }
         ],
         "catalogEvidence": [
@@ -11668,17 +11721,7 @@
           }
         ]
       },
-      "releaseTag": "books-42532552652-1",
-      "availability": {
-        "state": "verified-limited-edition",
-        "updatePending": true,
-        "includedUnitIds": [
-          "essential-01-002",
-          "essential-01-003",
-          "essential-01-004"
-        ],
-        "newMaterialsIncluded": false
-      }
+      "releaseTag": "books-42911857598-1"
     },
     {
       "book": {
