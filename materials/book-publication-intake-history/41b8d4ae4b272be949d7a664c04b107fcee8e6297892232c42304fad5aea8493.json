@@ -1,0 +1,92 @@
+{
+  "schema": "iman-book-source-publication-receipt-v1",
+  "material": {
+    "collection": "essential-hadith",
+    "language": "en",
+    "id": "essential-01-001"
+  },
+  "canonicalOrder": 1001,
+  "readerUnit": {
+    "schema": "iman-book-unit-v1",
+    "path": "books/units/current/en/hadith/essential-01-001.json",
+    "sha256": "e5f062f4f431c3ad83e8d00747ea4baaecd39291c014dfe41e6ae4edab9f1427"
+  },
+  "approvalId": "en-hadith-001-combined-capture-20261110-aa05-v3",
+  "sourceBindings": [
+    {
+      "path": "materials/hadith/essential-en/001.json",
+      "sha256": "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    },
+    {
+      "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+      "sha256": "6f5df960c0c4afcc712111d6e4f84823779b38e6ca16fba00732ce25955f287d"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.txt",
+      "sha256": "cc3f8e5d90028ab2e084f7aee3b0d91a7d971968662d1d5e43a67d5127ac30b9"
+    }
+  ],
+  "generatedFiles": [
+    "books/units/current/en/hadith/essential-01-001.json",
+    "books/units/history/98c43c6f0627440b6126c4459d4aa4a0e8c384d499f4ca47ba7c99ffb11fd780.json",
+    "materials/book-publication-approvals/41b8d4ae4b272be949d7a664c04b107fcee8e6297892232c42304fad5aea8493.json",
+    "materials/catalog.json"
+  ],
+  "requiredInputs": [
+    {
+      "path": "materials/book-publication-readers/en/hadith/essential-01-001-source-capture-combined-v3.json",
+      "sha256": "ce21f5491228d7c402d9851d3a756791a6c5cbe287b7a378c362a97ecc4d8df2"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.json",
+      "sha256": "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.txt",
+      "sha256": "cc3f8e5d90028ab2e084f7aee3b0d91a7d971968662d1d5e43a67d5127ac30b9"
+    },
+    {
+      "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+      "sha256": "6f5df960c0c4afcc712111d6e4f84823779b38e6ca16fba00732ce25955f287d"
+    },
+    {
+      "path": "materials/source-acceptances/en/hadith-001-independent-combined-capture-review-20261110-v3.json",
+      "sha256": "aa6300d76b5d3b1eaabd30fb4701b661ee0523d49a52635476988471925c0e45"
+    },
+    {
+      "path": "materials/source-acceptances/en/hadith-001-source-capture-20261110-combined-v3.json",
+      "sha256": "49c62d9b6311d3874dcbdc433ff3a4150a4573f792dd0292a2428b7c37dee1db"
+    },
+    {
+      "path": "materials/source-acceptances/en/hadith-001-source-capture-evidence-20261110-combined-v3.json",
+      "sha256": "2ea44660f4d673b30fdcee11f2f22b386aa09760122850bf619d74cc1027d073"
+    }
+  ],
+  "files": [
+    "books/units/current/en/hadith/essential-01-001.json",
+    "books/units/history/98c43c6f0627440b6126c4459d4aa4a0e8c384d499f4ca47ba7c99ffb11fd780.json",
+    "materials/book-publication-approvals/41b8d4ae4b272be949d7a664c04b107fcee8e6297892232c42304fad5aea8493.json",
+    "materials/book-publication-readers/en/hadith/essential-01-001-source-capture-combined-v3.json",
+    "materials/catalog.json",
+    "materials/hadith/essential-ar/01/001.json",
+    "materials/hadith/essential-en/001.json",
+    "materials/hadith/essential-en/001.txt",
+    "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+    "materials/source-acceptances/en/hadith-001-independent-combined-capture-review-20261110-v3.json",
+    "materials/source-acceptances/en/hadith-001-source-capture-20261110-combined-v3.json",
+    "materials/source-acceptances/en/hadith-001-source-capture-evidence-20261110-combined-v3.json"
+  ],
+  "sourceApprovalCreated": false,
+  "scopeReleaseHoldsChanged": false,
+  "preparationScopeCreated": false,
+  "intakeSHA256": "41b8d4ae4b272be949d7a664c04b107fcee8e6297892232c42304fad5aea8493",
+  "intakePath": "materials/book-publication-intake/41b8d4ae4b272be949d7a664c04b107fcee8e6297892232c42304fad5aea8493.json"
+}

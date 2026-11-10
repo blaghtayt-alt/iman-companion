@@ -1,0 +1,53 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "essential-hadith",
+    "language": "en",
+    "id": "essential-01-001"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/hadith/essential-en/001.txt",
+    "sha256": "cc3f8e5d90028ab2e084f7aee3b0d91a7d971968662d1d5e43a67d5127ac30b9"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/hadith/essential-en/001.json",
+      "sha256": "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    },
+    {
+      "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+      "sha256": "6f5df960c0c4afcc712111d6e4f84823779b38e6ca16fba00732ce25955f287d"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.txt",
+      "sha256": "cc3f8e5d90028ab2e084f7aee3b0d91a7d971968662d1d5e43a67d5127ac30b9"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "en-hadith-001-combined-capture-20261110-aa05-v3",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "ChatGPT aa05 /root",
+      "scope": "Exact source capture and normalized reader after completed independent primary and conversion checks"
+    },
+    "semanticReviewSHA256": "d04d9d7c3225f9330bf1c6ffd1b9162b3ca3b6b929a176da5928fc70d115dacf",
+    "sourceAcceptanceSHA256": "2ec269e4477a7a5102876a00559925ecd4bf4f1659c36968c703bab9e0939030",
+    "readerTextSHA256": "9a68752fb27a3982308f5dc1ca115a81aeb485bc7acba0f903e3b89736fbf79d",
+    "conversionReviewSHA256": "6ac528241d241da0d844174121cd4faf0b6754cac62e7fe4a1525a035e0afff6",
+    "primarySourceReviewSHA256": "d57db72729ad9af2ad450fee57a861d6525cda425061013a525bede146cb99e7",
+    "acceptedAtUTC": "2026-11-10T20:20:52.262479+00:00",
+    "acceptanceType": "source-faithful-book-normalization"
+  },
+  "sourceCaptureEvidence": {
+    "path": "materials/source-acceptances/en/hadith-001-source-capture-evidence-20261110-combined-v3.json",
+    "sha256": "2ea44660f4d673b30fdcee11f2f22b386aa09760122850bf619d74cc1027d073"
+  },
+  "scope": "Fresh narrow mechanical capture correction and complete normalized-reader fidelity review. Exactly seven corrections in three source-only appendix blocks match the retained printed primary pages. The prior semantic review remains limited to unchanged active selections, commentary, notes and qualifications. No new semantic, translation, human, scholarly, rights or whole-primary-book certification. Source-only context does not add active Quran or Hadith quotation identities. Actual Microsoft Word, complete canonical/Word visual inspection and book release checks remain required."
+}

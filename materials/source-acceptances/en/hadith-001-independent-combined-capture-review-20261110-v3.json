@@ -1,0 +1,136 @@
+{
+  "schema": "iman-public-source-capture-review-summary-v1",
+  "material": {
+    "collection": "essential-hadith",
+    "language": "en",
+    "id": "essential-01-001"
+  },
+  "proposalSHA256": "1fd5989a120e1ed453f35a98b3baabade42f1ffb9f3e6acbcec3d95d10ea04a6",
+  "frozenReaderUnit": {
+    "path": "materials/book-publication-readers/en/hadith/essential-01-001-source-capture-combined-v3.json",
+    "sha256": "dbcafce8e2316b7c03fc1859f3e44ca388c1ee337c30e4f1729d42f69a34e4e1"
+  },
+  "readerTextSHA256": "9a68752fb27a3982308f5dc1ca115a81aeb485bc7acba0f903e3b89736fbf79d",
+  "primarySource": {
+    "url": "https://d1.islamhouse.com/data/en/ih_books/single3/en-faeny-qareeb.pdf",
+    "fullPDFSHA256": "91dcfa95675a618cbd31caf2c6623daa655aebd5d5b3c01be2932a634c52984e",
+    "pageCount": 81,
+    "reviewedPhysicalPages": [
+      1,
+      19,
+      20,
+      21
+    ]
+  },
+  "primaryReview": {
+    "reviewer": {
+      "kind": "independent-model-review",
+      "identity": "/root/review_turkish_hadith"
+    },
+    "reviewedAtUTC": "2026-11-10T20:15:43.321758+00:00",
+    "decision": "pass_exact_combined_seven_replacements_all_four_retained_pages_reviewed",
+    "reportSHA256": "d57db72729ad9af2ad450fee57a861d6525cda425061013a525bede146cb99e7",
+    "replacementChecks": [
+      {
+        "id": "prayer-p19-reference",
+        "before": "}٦٨",
+        "after": "} الشعراء: ٨٠",
+        "originalPhysicalPage": 19,
+        "contextKey": "18",
+        "result": "matches_original_printed_page",
+        "independentFinding": "The original visibly prints الشعراء: ٨٠. The chapter name and Arabic digits match the proposed label; the preceding Arabic verse wording and marks are unchanged."
+      },
+      {
+        "id": "prayer-p19-footnote-10-position",
+        "before": "10.” disease without sending down remedy for it",
+        "after": "disease without sending down remedy for it.” 10",
+        "originalPhysicalPage": 19,
+        "contextKey": "18",
+        "result": "matches_original_printed_page",
+        "independentFinding": "The original sentence continues with disease after the preceding a, then ends it.” followed by superscript10. The proposed linear text restores that reading order; the footnote body 10 Al-Bukhari (5678) remains unchanged."
+      },
+      {
+        "id": "prayer-p20-satisfy",
+        "before": "s atisfy",
+        "after": "satisfy",
+        "originalPhysicalPage": 20,
+        "contextKey": "19",
+        "result": "matches_original_printed_page",
+        "independentFinding": "The original prints satisfy as one uninterrupted word. Only the erroneous internal space is removed."
+      },
+      {
+        "id": "prayer-p20-never",
+        "before": "n ever",
+        "after": "never",
+        "originalPhysicalPage": 20,
+        "contextKey": "19",
+        "result": "matches_original_printed_page",
+        "independentFinding": "The original prints never as one uninterrupted word. Only the erroneous internal space is removed."
+      },
+      {
+        "id": "prayer-p21-arabic-1",
+        "before": "{وَإِذَا سَأَلَكَ عِبَادِى عَن ِى فَإِن ِى قَرِيبٌ }١٨٦ ",
+        "after": "{وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ }البقرة: ١٨٦ ",
+        "originalPhysicalPage": 21,
+        "contextKey": "20",
+        "result": "matches_original_printed_page",
+        "independentFinding": "The original visibly has shadda/kasra on the nuns in عَنِّى and فَإِنِّى and the printed البقرة: ١٨٦ label. Proposal restores these omitted marks/label; remaining letters and vowel marks match the displayed source."
+      },
+      {
+        "id": "prayer-p21-arabic-2",
+        "before": "{وَيَسْـَٔلُونَكَ عَنِ ٱلْيَتَـٰمَىٰ  ۖ قُْْ إًٌٌََِْْۭۭ  لَّهُمْ خَيْرًٌۭ }البقرة: ٦٢٢  ",
+        "after": "{وَيَسْـَٔلُونَكَ عَنِ ٱلْيَتَـٰمَىٰ ۖ قُلْ إِصْلَاحٌۭ لَّهُمْ خَيْرٌۭ }البقرة: ٢٢٠  ",
+        "originalPhysicalPage": 21,
+        "contextKey": "20",
+        "result": "matches_original_printed_page",
+        "independentFinding": "The original clearly shows قُلْ إِصْلَاحٌۭ لَّهُمْ خَيْرٌۭ and Arabic digits٢٢٠. Proposal restores lam/sad/lam/alif/ha and legitimate marks instead of the extraction stacks, retains the pause sign and low-meem signs, and corrects٦٢٢ to٢٢٠."
+      },
+      {
+        "id": "prayer-p21-arabic-3",
+        "before": "{وَيَسْـَٔلُونَكَ عَنِ ٱلْمَحِيضِ  ۖ قُْْ ُُوَ أَذ ًۭى فَ ٱعْتَزِلُوا۟  ٱلن ِسَآءَ  فِى ٱلْمَحِيضِ ، وَلََ تَقْرَبُ وُُنَّ \nحَتَّىٰ يَطْهُرْنَ }٢٢٢ ",
+        "after": "{وَيَسْـَٔلُونَكَ عَنِ ٱلْمَحِيضِ ۖ قُلْ هُوَ أَذًۭى فَٱعْتَزِلُوا۟ ٱلنِّسَآءَ فِى ٱلْمَحِيضِ، وَلَا تَقْرَبُوهُنَّ \nحَتَّىٰ يَطْهُرْنَ }البقرة: ٢٢٢ ",
+        "originalPhysicalPage": 21,
+        "contextKey": "20",
+        "result": "matches_original_printed_page",
+        "independentFinding": "Original clearly shows قُلْ هُوَ, أَذًۭى, فَٱعْتَزِلُوا۟, ٱلنِّسَآءَ, وَلَا تَقْرَبُوهُنَّ, حَتَّىٰ يَطْهُرْنَ and البقرة:٢٢٢. The proposed letters, displayed vowel/other marks and restored label match; proposed word-space cleanup joins letters that form the same original words."
+      }
+    ],
+    "encodingQualifications": [
+      "Proposed Unicode is a readable transcription of the visible printed glyphs, not a claim to recover the original authoring Unicode bytes or combining-mark storage order.",
+      "The page19 superscript footnote10 is represented as plain capture text after the closing quotation mark, consistent with this source-only text field. Its original printed superscript position was directly inspected.",
+      "The three page21 excerpts are the bounded source excerpts as printed; this review adds no new verse or active quotation identity."
+    ],
+    "unresolvedVisibleAmbiguities": []
+  },
+  "conversionReview": {
+    "reviewer": {
+      "kind": "independent-model-review",
+      "identity": "/root/review_turkish_hadith"
+    },
+    "reviewedAtUTC": "2026-11-10T20:18:25.747578+00:00",
+    "decision": "pass_exact_pending_combined_candidate_mechanical_conversion",
+    "reportSHA256": "6ac528241d241da0d844174121cd4faf0b6754cac62e7fe4a1525a035e0afff6",
+    "changedBlocks": [
+      [
+        2,
+        249
+      ],
+      [
+        2,
+        250
+      ],
+      [
+        2,
+        251
+      ]
+    ],
+    "unchangedBlocks": 1065,
+    "totalBlocks": 1068,
+    "proofCoverage": "Every literal span, text hash, inventory/source binding and ordered block projection checked.",
+    "preservation": "Active English and Arabic sources, roles, notes, qualifications and all unrelated reader text remain exact.",
+    "failures": []
+  },
+  "scopeLimits": "Fresh narrow mechanical capture correction and complete normalized-reader fidelity review. Exactly seven corrections in three source-only appendix blocks match the retained printed primary pages. The prior semantic review remains limited to unchanged active selections, commentary, notes and qualifications. No new semantic, translation, human, scholarly, rights or whole-primary-book certification. Source-only context does not add active Quran or Hadith quotation identities. Actual Microsoft Word, complete canonical/Word visual inspection and book release checks remain required.",
+  "newHumanScholarlySemanticTranslationOrRightsCertification": false,
+  "wordAndFinalVisualReviewRequired": true
+}
