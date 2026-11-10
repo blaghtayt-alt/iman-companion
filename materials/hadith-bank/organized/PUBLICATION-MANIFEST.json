@@ -5,8 +5,8 @@
   "allowlist": [
     {
       "path": "materials/hadith-bank/organized/README.md",
-      "sha256": "87467fbea95110d7a1d5472a8282081b91de436ab9a9d284c57d24c888d9e5d4",
-      "bytes": 4247
+      "sha256": "b2e48c5f3c5088abd744b2a2e6635bba41e6c2adfbb756e24b57b01178997cce",
+      "bytes": 4838
     },
     {
       "path": "materials/hadith-bank/organized/BROWSE.md",
@@ -25,8 +25,23 @@
     },
     {
       "path": "materials/hadith-bank/organized/search.py",
-      "sha256": "bb11234ce3bb66290d3a0b28b32a8fe4c19724756af0bf8bf1bd9f93e824f024",
-      "bytes": 5422
+      "sha256": "067b0d762c60c4249542f77f08c4098adb91057035c02e54c5b697d19dbed729",
+      "bytes": 8574
+    },
+    {
+      "path": "materials/hadith-bank/organized/provenance.py",
+      "sha256": "387f0f97305e87ef6b4e967436024567a6bb5f1366b76abf2c0312c0d3536156",
+      "bytes": 8601
+    },
+    {
+      "path": "materials/hadith-bank/organized/TRANSLATION-PROVENANCE.json",
+      "sha256": "71a59116552b4341db8492e8eb0d4307b92a3c7b59548b342c4c9ddeecbd0d49",
+      "bytes": 67473
+    },
+    {
+      "path": "materials/hadith-bank/organized/TRANSLATION-PROVENANCE.md",
+      "sha256": "2f6e07abe934bfbd317311c781fd060cc2cf020cc5237f6a5750c7385a6fd504",
+      "bytes": 5844
     }
   ],
   "manifestSelf": {
@@ -35,7 +50,7 @@
   },
   "publicationBoundaries": [
     "Only the listed files and this manifest are in the organized public payload.",
-    "No private inventories, build tools, validation files, session data, new source-body copies, or internal paths are included.",
+    "No private inventories, session data, original PDFs, unpublished source bodies, or internal paths are included. The provenance sidecar repeats only exact already published quotations and public evidence locators.",
     "Authored title metadata is navigation; it does not establish publication or review of a lesson body.",
     "No source-reference number or normalized title establishes narration identity."
   ],
@@ -44,5 +59,6 @@
     "existingBankCatalogCommit": "5cf37322fc6f06e541d20fe13b47f9405bab3c03",
     "existingBankIndexGitBlob": "b00c1a7ff82a17edb546d86a8d668133e19780c4",
     "arabicQuranCitationCommit": "99758d5faacb0be935676dd216d0f230ddd73dcd"
-  }
+  },
+  "translationProvenanceStatus": "Partial evidence-backed attribution; separate Extra High audit pending; no new translation/source QC approval."
 }

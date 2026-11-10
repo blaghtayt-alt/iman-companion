@@ -33,3 +33,7 @@ These language catalogs point to whole, already published lesson readings and th
 ## Explore authored topics and source references
 
 - [Browse the organized source bank](organized/README.md) — Search the authored chapter and lesson titles, published package references, and Quran-reader citation metadata. Topic titles alone do not imply publication, approval, or one authenticated hadith per lesson.
+
+## Translation authorship
+
+[Passage-level translation provenance](organized/TRANSLATION-PROVENANCE.md) separates evidenced AI translation from named published human translation. Unknown origin remains unlabelled. Labels are tied to exact passages and versions, not entire mixed lessons. This partial ledger does not claim that the separately requested Extra High audit is complete.
