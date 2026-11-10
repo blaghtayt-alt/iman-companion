@@ -1,0 +1,108 @@
+{
+  "schema": "iman-public-source-capture-review-summary-v1",
+  "material": {
+    "collection": "essential-hadith",
+    "language": "en",
+    "id": "essential-01-001"
+  },
+  "proposalSHA256": "0d782676e4d229db5295a82d67fa0241dd71645fb373ae7901aa96a84b15ff7e",
+  "frozenReaderUnit": {
+    "path": "materials/book-publication-readers/en/hadith/essential-01-001-source-capture-v2.json",
+    "sha256": "7938345bc39a7d46a001ccafae40b869d8217e34d4f09cd9dcabe236fc3b0a2a"
+  },
+  "readerTextSHA256": "a5ed70ddf199a9c55236a9c86dd8fde14bc72172f68193ddfdb1ae05d2efdca7",
+  "primaryReview": {
+    "reviewer": {
+      "identity": "ChatGPT model /root/japanese_word_review",
+      "role": "Independent model reviewer of visible source capture; not a human or scholarly certifier"
+    },
+    "reviewedAtUTC": "2026-11-10T20:13:33.290169+00:00",
+    "decision": "pass_narrow_primary_source_capture_comparison",
+    "reportSHA256": "fda3019e36d6b5b2f975348d979f0226a9472674feae8195355b3e6b516d48a1",
+    "scope": "Only four Arabic source-context excerpts and printed chapter/verse labels on physical pages 19 and 21. No new review of English translations, active Quran or Hadith quotation coverage, whole-book meaning, rights, or final book layout.",
+    "excerptChecks": [
+      {
+        "physicalPage": 19,
+        "reference": "26:80",
+        "transcription": "{وَإِذَا مَرِضْتُ فَهُوَ يَشْفِينِ }الشعراء: ٨٠ ",
+        "result": "matches_visible_primary",
+        "details": [
+          "Verse words and diacritics are unchanged and visible in the original.",
+          "Printed chapter label الشعراء and Arabic number ٨٠ are clear; old ٦٨ omits the label and does not match the printed number.",
+          "Braces and colon are preserved in logical Arabic text order."
+        ]
+      },
+      {
+        "physicalPage": 21,
+        "reference": "2:186",
+        "transcription": "{وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ }البقرة: ١٨٦ ",
+        "result": "matches_visible_primary",
+        "details": [
+          "Shadda on nun in عَنِّى and فَإِنِّى is visibly present; embedded glyph 759 maps to U+0651, while damaged ToUnicode emitted a space.",
+          "Printed البقرة: ١٨٦ is present; the missing chapter label is restored.",
+          "Other Arabic words and marks, including dotless final ى, remain as visibly printed."
+        ]
+      },
+      {
+        "physicalPage": 21,
+        "reference": "2:220",
+        "transcription": "{وَيَسْـَٔلُونَكَ عَنِ ٱلْيَتَـٰمَىٰ ۖ قُلْ إِصْلَاحٌۭ لَّهُمْ خَيْرٌۭ }البقرة: ٢٢٠  ",
+        "result": "matches_visible_primary",
+        "details": [
+          "Visible قُلْ and إِصْلَاحٌۭ are corroborated by glyph 990 (lam), 955 (sad), 1020 (lam-alif), 929 (hah), and 754 (dammatan).",
+          "One small low-meem sign U+06ED is visibly present below each ending of إِصْلَاحٌۭ and خَيْرٌۭ; glyph 1627 maps to U+06ED, not the erroneous duplicated fathatan-plus-meem sequence.",
+          "The shadda/fatha in لَّهُمْ and the Quranic stop mark ۖ remain.",
+          "The printed Arabic reference is البقرة: ٢٢٠, verified visually and by digit glyph 761 mapping to zero, not six."
+        ]
+      },
+      {
+        "physicalPage": 21,
+        "reference": "2:222",
+        "transcription": "{وَيَسْـَٔلُونَكَ عَنِ ٱلْمَحِيضِ ۖ قُلْ هُوَ أَذًۭى فَٱعْتَزِلُوا۟ ٱلنِّسَآءَ فِى ٱلْمَحِيضِ، وَلَا تَقْرَبُوهُنَّ \nحَتَّىٰ يَطْهُرْنَ }البقرة: ٢٢٢ ",
+        "result": "matches_visible_primary",
+        "details": [
+          "Visible قُلْ هُوَ restores lam and heh rather than repeated marks; source glyph 1003 has an Arabic initial-heh compatibility mapping.",
+          "أَذًۭى retains visible fathatan and one small low-meem sign, with no inserted word break.",
+          "فَٱعْتَزِلُوا۟ is one connected word in the source; ٱلنِّسَآءَ visibly carries shadda on nun.",
+          "The Arabic comma after ٱلْمَحِيضِ is retained.",
+          "وَلَا restores the lam-alif ligature; تَقْرَبُوهُنَّ restores the visible heh and continuous word, preserving final shadda/fatha.",
+          "The next line حَتَّىٰ يَطْهُرْنَ and printed البقرة: ٢٢٢ match the source."
+        ]
+      }
+    ],
+    "encodingQualifications": [
+      "The damaged PDF ToUnicode table cannot establish original logical Unicode bytes. This review supports editable logical Arabic text matching the visible glyphs, not byte-identical source Unicode.",
+      "The font shares some glyphs between Unicode aliases, including Arabic/extended-Arabic digits and heh presentation forms. The proposed Arabic codepoints are supported by the embedded cmap and visible glyphs.",
+      "Lam-alif ligatures are represented as logical letters with the visibly supported marks; combining-mark order and ordinary spaces do not claim the PDF positioning byte sequence.",
+      "No Quran wording was substituted from memory or an external edition."
+    ],
+    "unresolvedVisibleAmbiguities": []
+  },
+  "conversionReview": {
+    "reviewer": {
+      "identity": "ChatGPT /root/turkish_word_review",
+      "role": "Independent narrow conversion-fidelity reviewer; not capture author or coordinator approver"
+    },
+    "reviewedAtUTC": "2026-11-10T20:12:56.838644+00:00",
+    "decision": "factual-fidelity-checks-pass",
+    "reportSHA256": "a7b127373800e03f684c7f2d7a692b2d945e6290143091e9d3507ddb83702c37",
+    "changedBlocks": [
+      [
+        2,
+        249
+      ],
+      [
+        2,
+        251
+      ]
+    ],
+    "unchangedBlocks": 1066,
+    "totalBlocks": 1068,
+    "proofCoverage": "All1068 sourceLiteralProof identities, bound source/inventory hashes, reader hashes, offsets, text hashes and source slices checked independently.",
+    "preservation": "All section metadata and block properties other than the two text deltas and required proof rebinding remain equal, including roles, sourceOnlyContext, spans, notes, citations, credits, labels, ordering and source qualifications. CoreEnglish/Arabic source bytes are identical; active103quotes/49commentary/493-characterreport79 unchanged.",
+    "failures": []
+  },
+  "scopeLimits": "New narrow primary-source capture correction and whole-reader normalization fidelity only. Original semantic review remains limited to unchanged active selections, commentary, notes and qualifications; no new semantic, translation, human, scholarly, rights or whole-source-book certification. Adjacent source pages remain source-only and do not expand active Quran/Hadith quotation coverage. Editable logical Arabic Unicode is established from displayed glyphs, not claimed byte-identical to corrupted PDF ToUnicode. Actual Word, all-page canonical/Word visual review and release checks remain separate pending gates.",
+  "newHumanScholarlySemanticTranslationOrRightsCertification": false,
+  "wordAndFinalVisualReviewRequired": true
+}

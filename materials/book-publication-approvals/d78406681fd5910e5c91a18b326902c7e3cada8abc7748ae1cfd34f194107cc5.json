@@ -1,0 +1,93 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "7ee8bb2ded2dc19c5b07e32bf4519d538c7e1b18fd2ec513e112400df6215041",
+  "catalogEntry": {
+    "collection": "essential-hadith",
+    "language": "en",
+    "id": "essential-01-001",
+    "json": "materials/hadith/essential-en/001.json",
+    "text": "materials/hadith/essential-en/001.txt",
+    "chapter": 1,
+    "lesson": 1,
+    "title": "Allah’s justice and self-sufficiency, and His servants’ need of Him",
+    "current": true,
+    "status": "current-app-edition",
+    "translationStatus": "ai-translated-needs-verification",
+    "sourceHashes": [
+      "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14",
+      "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    ]
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/hadith/essential-en/001.json",
+      "sha256": "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    },
+    {
+      "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+      "sha256": "8c29810f5bc7ffcab781a54d53dd9af595bf22021649c388926486937f701b4c"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.txt",
+      "sha256": "cb7476b81cc201cd0170efee7798241c91b6f353f7f97f98be47edf26ca8bf5a"
+    }
+  ],
+  "canonicalOrder": 1001,
+  "readerUnit": {
+    "path": "materials/book-publication-readers/en/hadith/essential-01-001-source-capture-v2.json",
+    "sha256": "f42140f1a1e91da3b87df96b8c814f4fd95efd7ab2beea55a40ca529460bdf0a"
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/hadith/essential-en/001.json",
+      "sha256": "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    },
+    {
+      "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+      "sha256": "b820424a1ff5b40905dc4a6094c7becbebac76441395dc122dd967df92f9bbe1"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.txt",
+      "sha256": "5e04c584947edb161102d1819214e29e2d08f898bc849bd34abfb7f3a6a3d914"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "en-hadith-001-source-capture-20261111-root-v2",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "ChatGPT /root",
+      "model": "GPT-6 Astra Pro",
+      "scope": "Whole normalized-reader fidelity after actual independent primary-capture and conversion comparison; new narrow source-context extraction correction only"
+    },
+    "material": {
+      "collection": "essential-hadith",
+      "language": "en",
+      "id": "essential-01-001"
+    },
+    "readerTextSHA256": "a5ed70ddf199a9c55236a9c86dd8fde14bc72172f68193ddfdb1ae05d2efdca7",
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/en/hadith-001-source-capture-20261111-v2.json",
+        "sha256": "6b05106168d3e8b7b4819c3e7a74e993640dcc337ec693a882b34bf4a40ea669"
+      },
+      {
+        "path": "materials/source-acceptances/en/hadith-001-source-capture-evidence-20261111-v2.json",
+        "sha256": "59ce21fb8b11cd6ac04fdf99ba492382ca8f192a45dffe95527e8f9eb7b24b28"
+      },
+      {
+        "path": "materials/source-acceptances/en/hadith-001-independent-capture-review-20261111-v2.json",
+        "sha256": "c8a356547ce2bbc5540b27d7ef56122a698b82c0a4d7322786ec50d8148cd694"
+      }
+    ]
+  }
+}

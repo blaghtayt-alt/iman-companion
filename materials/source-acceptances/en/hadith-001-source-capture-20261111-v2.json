@@ -1,0 +1,54 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "essential-hadith",
+    "language": "en",
+    "id": "essential-01-001"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/hadith/essential-en/001.txt",
+    "sha256": "cb7476b81cc201cd0170efee7798241c91b6f353f7f97f98be47edf26ca8bf5a"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/hadith/essential-en/001.json",
+      "sha256": "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    },
+    {
+      "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+      "sha256": "8c29810f5bc7ffcab781a54d53dd9af595bf22021649c388926486937f701b4c"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.txt",
+      "sha256": "cb7476b81cc201cd0170efee7798241c91b6f353f7f97f98be47edf26ca8bf5a"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "en-hadith-001-source-capture-20261111-root-v2",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "ChatGPT /root",
+      "model": "GPT-6 Astra Pro",
+      "scope": "Whole normalized-reader fidelity after actual independent primary-capture and conversion comparison; new narrow source-context extraction correction only"
+    },
+    "semanticReviewSHA256": "d04d9d7c3225f9330bf1c6ffd1b9162b3ca3b6b929a176da5928fc70d115dacf",
+    "sourceAcceptanceSHA256": "92bfec07f89ae3f46799e7673b843a0d60f18eea2abc4977842725cfcac7f4bc",
+    "readerTextSHA256": "a5ed70ddf199a9c55236a9c86dd8fde14bc72172f68193ddfdb1ae05d2efdca7",
+    "conversionReviewSHA256": "a7b127373800e03f684c7f2d7a692b2d945e6290143091e9d3507ddb83702c37",
+    "primarySourceReviewSHA256": "fda3019e36d6b5b2f975348d979f0226a9472674feae8195355b3e6b516d48a1",
+    "acceptedAtUTC": "2026-11-10T20:14:52.110648+00:00",
+    "acceptanceType": "source-faithful-book-normalization"
+  },
+  "sourceCaptureEvidence": {
+    "path": "materials/source-acceptances/en/hadith-001-source-capture-evidence-20261111-v2.json",
+    "sha256": "59ce21fb8b11cd6ac04fdf99ba492382ca8f192a45dffe95527e8f9eb7b24b28"
+  },
+  "scope": "New narrow primary-source capture correction and whole-reader normalization fidelity only. Original semantic review remains limited to unchanged active selections, commentary, notes and qualifications; no new semantic, translation, human, scholarly, rights or whole-source-book certification. Adjacent source pages remain source-only and do not expand active Quran/Hadith quotation coverage. Editable logical Arabic Unicode is established from displayed glyphs, not claimed byte-identical to corrupted PDF ToUnicode. Actual Word, all-page canonical/Word visual review and release checks remain separate pending gates."
+}
