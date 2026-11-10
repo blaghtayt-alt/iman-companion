@@ -36,6 +36,9 @@ Türkçe
 - Kalpler Rahmân’ın tasarrufu altındadır
 - Dinde sebat etmek ve haktan sapan kalbin hâllerini tanımak
 
+## Doğrulanmış baskı. Yeni içerikler yayın kontrollerini bekliyor; yalnızca listelenen içerikler dahildir.
+
+
 ### Kur’an Üzerine Tefekkür
 
 İçerilenler: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
@@ -46,7 +49,7 @@ Türkçe
 
 Kısmi baskı
 
-- Güncel kaynak bu dilde mevcut değil: Hadis 1
+- Güncellenmiş kitap bekleniyor: Hadis 1
 
 ## Birlikte indir
 

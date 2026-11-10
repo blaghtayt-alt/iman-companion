@@ -7,10 +7,12 @@ The checks follow the current corpus rather than fixing today's lesson counts.
 import json
 from pathlib import Path
 import re
+import sys
 import unittest
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / 'books'))
 LABELS = {
     'ar': 'Arabic', 'en': 'English', 'fr': 'French', 'tr': 'Turkish',
     'id': 'Indonesian', 'ms': 'Malay', 'pt-BR': 'Brazilian Portuguese',
@@ -61,13 +63,29 @@ class MaterialInventoryCounts(unittest.TestCase):
                     self.assertEqual(int(match[2]), len({chapter for _, chapter, _ in readers}))
 
     def test_numbered_files_have_matching_unique_lesson_identities(self):
+        catalog = json.loads((ROOT / 'materials/catalog.json').read_bytes())
         for language in LABELS:
             identities = []
             for path, chapter, lesson in canonical_readers(language):
                 with self.subTest(path=path.relative_to(ROOT).as_posix()):
                     value = json.loads(path.read_bytes())
                     expected = f'essential-{chapter:02d}-{lesson:03d}'
-                    self.assertEqual(value.get('id'), expected)
+                    actual_id = value.get('id')
+                    if (actual_id is None and value.get('schema') ==
+                            'essential-finite-language-author-successor581-v1'):
+                        # Preserve the original reviewed wrapper: this source
+                        # calls its identity "unit", not "id". Its catalogue
+                        # and normalized reader must still have exact approval.
+                        actual_id = value.get('unit')
+                        relative = path.relative_to(ROOT).as_posix()
+                        rows = [row for row in catalog['entries']
+                                if row.get('json') == relative]
+                        self.assertEqual(len(rows), 1)
+                        self.assertEqual((rows[0]['collection'], rows[0]['language'], rows[0]['id']),
+                                         ('essential-hadith', language, expected))
+                        from book_edition_scope import typed_basis
+                        self.assertIsNotNone(typed_basis(ROOT, rows[0]))
+                    self.assertEqual(actual_id, expected)
                     reader = value.get('reader', {})
                     reader_language = reader.get('locale', language) if isinstance(reader, dict) else language
                     actual_language = value.get('language', reader_language)

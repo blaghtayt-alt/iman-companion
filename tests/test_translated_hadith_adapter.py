@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'books'))
 
 from adapt_translated_hadith import generate, note_fields
-from book_edition_scope import available, select
+from book_edition_scope import available, key, pinned, select
 from build_books import check_unit
 from multilingual_readiness import inventory
 from reviewed_hadith_sources import ADAPTER
@@ -24,7 +24,22 @@ class TranslatedHadithTests(unittest.TestCase):
         cls.catalog = json.loads((ROOT / 'materials/catalog.json').read_bytes())
         cls.declarations = json.loads((ROOT / 'books/reviewed-books.json').read_bytes())['books']
         cls.scopes = {row['language']: row for row in cls.declarations if row.get('adapter') == ADAPTER}
-        cls.units = {language: generate(ROOT, cls.catalog, declaration) for language, declaration in cls.scopes.items()}
+        cls.units = {language: cls.generate_legacy(cls.catalog, declaration)
+                     for language, declaration in cls.scopes.items()}
+
+    @classmethod
+    def typed_coverage(cls, catalog, declaration):
+        # Selection verifies the typed reader, its exact approval and all source
+        # hashes. These are the already supplied readers the production indexer
+        # excludes before asking the legacy adapter to generate its own units.
+        _, reconciliation = select(ROOT, catalog, declaration)
+        return {key(row) for row in reconciliation['selected']
+                if row['basis']['kind'] == 'whole-material-publisher'}
+
+    @classmethod
+    def generate_legacy(cls, catalog, declaration):
+        return generate(ROOT, catalog, declaration,
+                        excluded_catalog_keys=cls.typed_coverage(catalog, declaration))
 
     def write(self, root, relative, value):
         path = root / relative
@@ -55,6 +70,22 @@ class TranslatedHadithTests(unittest.TestCase):
                 self.assertFalse(unit['provenance']['sourceApprovalCreated'])
                 self.assertFalse(unit['provenance']['humanCertification'])
                 check_unit(unit, unit, root=ROOT)
+
+    def test_typed_first_lessons_and_legacy_readers_cover_each_mixed_scope_once(self):
+        for language in ('en', 'ja', 'tr'):
+            with self.subTest(language=language):
+                declaration = self.scopes[language]
+                selected, _ = select(ROOT, self.catalog, declaration)
+                typed = self.typed_coverage(self.catalog, declaration)
+                legacy = {key(binding) for unit in self.units[language]
+                          for binding in unit['catalogBindings']}
+                self.assertEqual(typed, {('essential-hadith', language, 'essential-01-001')})
+                self.assertFalse(typed & legacy)
+                self.assertEqual(typed | legacy, {key(row) for row in selected})
+                for row in selected:
+                    if key(row) in typed:
+                        unit = json.loads(pinned(ROOT, row['bookReaderUnit']))
+                        check_unit(unit, unit, root=ROOT)
 
     def test_complete_readings_preserve_every_character_except_structural_whitespace(self):
         import re
@@ -117,7 +148,7 @@ class TranslatedHadithTests(unittest.TestCase):
             catalog = deepcopy(self.catalog)
             row = next(row for row in catalog['entries'] if row.get('language') == 'en' and row.get('id') == 'essential-01-003' and row['collection'] == 'essential-hadith')
             row['status'] = status
-            units = generate(ROOT, catalog, self.scopes['en'])
+            units = self.generate_legacy(catalog, self.scopes['en'])
             self.assertEqual([unit['lesson'] for unit in units], [2, 4])
 
     def test_changed_source_identity_or_review_qualification_fails(self):
@@ -126,10 +157,12 @@ class TranslatedHadithTests(unittest.TestCase):
             if change == 'source':
                 row = next(row for row in catalog['entries'] if row.get('language') == 'en' and row.get('id') == 'essential-01-003' and row['collection'] == 'essential-hadith')
                 row['json'] = 'different-source.json'
+                error = 'Current translated Hadith catalogue changed after its bound review: essential-01-003'
             else:
                 catalog['essentialThird1016']['status'] = 'Pending review'
-            with self.assertRaises(ValueError):
-                generate(ROOT, catalog, self.scopes['en'])
+                error = 'Translated Hadith publication qualification changed'
+            with self.subTest(change=change), self.assertRaisesRegex(ValueError, error):
+                self.generate_legacy(catalog, self.scopes['en'])
 
     def test_source_conditions_are_bound_and_retained(self):
         unit = next(unit for unit in self.units['ja'] if unit['lesson'] == 4)

@@ -19,9 +19,14 @@ translations of lessons 01-002 through 01-004, eleven eligible first-lesson
 readers and the current Filipino lesson 01-005. Each language retains its actual
 lesson subset, original numbering and source qualifications. The reviewed Quran
 adapters also restore 124 current units previously omitted by the exporters.
-Together these changes select 625 units across the 42 existing book editions.
-French Hadith 1 remains pending its distinct final review; absent first-lesson
-readers are reported explicitly. See [the source coverage record](current-reviewed-imports.md)
+The subsequent current-source intake adds English Article 1 and Seerah 1,
+Hadith 1 in Japanese, English and Turkish, and Article 1 in Spanish, French,
+Indonesian, Malay, Russian and Turkish. The selection now contains 636 units
+across 50 eligible book scopes. Eligibility is separate from released files:
+the live table and publication manifest show which exact editions have passed
+the final checks. French Hadith 1 remains pending its distinct final review;
+absent first-lesson readers are reported explicitly.
+See [the source coverage record](current-reviewed-imports.md)
 for the exact restored material, exclusions and release status.
 
 ## What happens automatically

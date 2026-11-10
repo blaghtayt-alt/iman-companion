@@ -36,6 +36,9 @@ English
 - All hearts are under the control of the Most Compassionate
 - Steadfastness in religion and recognizing a heart that has strayed
 
+## Verified edition. New material is awaiting release checks; only the listed contents are included.
+
+
 ## Seerah · Chapter One
 
 - Chapter One
@@ -54,7 +57,7 @@ Included: Hadith 2–4
 
 Partial edition
 
-- Current source not available in this language: Hadith 1
+- Awaiting the updated book: Hadith 1
 
 ### Seerah · Chapter One
 

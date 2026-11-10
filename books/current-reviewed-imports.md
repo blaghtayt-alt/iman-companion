@@ -1,5 +1,30 @@
 # Current reviewed material restored to book preparation
 
+## Current-source intake on 11 November 2026
+
+English Article 1 and revised adult Seerah chapter 1 are published. Their four
+Word/PDF assets passed the independent download verification. This brought the
+public library to 44 editions and 627 included units before the intake below.
+
+The next exact source transaction adds Hadith 1 in Japanese, English and
+Turkish, and Article 1 in Spanish, French, Indonesian, Malay, Russian and
+Turkish. All nine normalized readers retain their original wording, source
+notes, quotation boundaries and historical review qualifications. The Turkish
+Hadith conversion separates the source's publisher transition from its two
+Prophetic quotations without changing any text.
+
+These additions select 636 units across 50 eligible scopes. The three Hadith
+books retain their previously verified files until their expanded editions pass
+actual Microsoft Word and complete final visual checks. The six new Article
+editions use those same release requirements. Source acceptance does not assert
+that a prepared file is already included in the public downloads. The current
+publication manifest and download table remain authoritative for released
+membership and exact file hashes.
+
+The earlier restoration milestone below is retained as historical context.
+
+## Earlier restoration milestone
+
 The export adapters previously selected 489 reader units. Some current reviewed
 readers were omitted because their source formats differed from the supported
 formats; Filipino Essential Hadith 5 also lacked its central catalogue entry.

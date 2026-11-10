@@ -1,0 +1,90 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "94d42a5fe84dc4ecf6c4c269807b0c55316b9a989b60d9a7a97fcb4090f44c86",
+  "catalogEntry": {
+    "collection": "articles",
+    "language": "fr",
+    "id": "prepared-ar-79fa38429519de69",
+    "title": "Un peu suffit",
+    "number": 1,
+    "json": "materials/articles/current/fr/001.json",
+    "current": true,
+    "sourceHashes": [
+      "79fa38429519de69caa796fc4a639c06ee62e832db82d756c0d057c5e221c3c4",
+      "8fe8164562655fd389433cf51bc9ed4bc10b65628be82130d179c4ef75cd36cb"
+    ],
+    "readingSHA256": "995a682f4a131e31f860ed437304c5b98878062f3d9d9b717f88e4025cd1e154",
+    "translationStatus": "reviewed-current"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/articles/current/fr/001.json",
+      "sha256": "8fe8164562655fd389433cf51bc9ed4bc10b65628be82130d179c4ef75cd36cb"
+    },
+    {
+      "path": "materials/articles/current/fr/001.ordinary.txt",
+      "sha256": "93828f42a784df03ec302e10b15576b89f3fda620b626f02a45c8a10bd83a5c9"
+    },
+    {
+      "path": "materials/articles/current/fr/001.source-notices.json",
+      "sha256": "3c7631ab041ffab5a606ed1b16d9cb64d3733a64f3a5d39c3e8de1b60b14fc0d"
+    },
+    {
+      "path": "materials/articles/current/fr/001.source-notices.txt",
+      "sha256": "41f8e885ab6aea354b39889145a4ef260f1ce38ea5b4ed57f809f9b3e6f56b00"
+    },
+    {
+      "path": "materials/articles/current/fr/001.txt",
+      "sha256": "990d50b8736d989d400952a78ede86ffdb5146fe8e323cbfd9c7194db342b378"
+    }
+  ],
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "path": "materials/book-readers/fr/articles-001.json",
+    "sha256": "9b179847e885168278a50a8ce904d537bf49364592644c42fe11325b1927ff06"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "article-001-six-languages-normalization-20261111-root-v1-fr",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "/root",
+      "scope": "Exact current Article1 readers, preserved original semantic qualifications, source notices and normalized paragraph/note/quotation boundaries"
+    },
+    "readerTextSHA256": "633f2b97df6e6beb4c67c1b4a01818c032c428dbcacb13c533cde8487af68b9c",
+    "material": {
+      "collection": "articles",
+      "language": "fr",
+      "id": "prepared-ar-79fa38429519de69"
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/fr/articles-001-20261110.json",
+        "sha256": "f6c3032e2c00ca05e3e8507c321cf152ec42c3b5946c1c7c73446c7ba61c214a"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/articles/current/fr/001.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/fr/001.ordinary.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/fr/001.source-notices.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/fr/001.source-notices.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/fr/001.txt",
+      "sha256": null
+    }
+  ]
+}

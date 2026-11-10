@@ -1,0 +1,91 @@
+{
+  "schema": "iman-book-source-publication-receipt-v1",
+  "material": {
+    "collection": "articles",
+    "language": "tr",
+    "id": "prepared-ar-79fa38429519de69"
+  },
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "schema": "iman-book-unit-v1",
+    "path": "books/units/current/tr/articles/prepared-ar-79fa38429519de69.json",
+    "sha256": "29a8fead7f9082cae9c1a3f3cdc38362d6e5476eac8613a201d05235c24d71ae"
+  },
+  "approvalId": "article-001-six-languages-normalization-20261111-root-v1-tr",
+  "sourceBindings": [
+    {
+      "path": "materials/articles/current/tr/001.json",
+      "sha256": "d138519d533af2e4fe8b7c1b578bd4b60b27a9eeda912e8e0c9cc1ff1b6a60d8"
+    },
+    {
+      "path": "materials/articles/current/tr/001.ordinary.txt",
+      "sha256": "17ecf1ad2bfd0d4ffc2e99a8af9ff4896a396af0b04695054c97e5782c9135b1"
+    },
+    {
+      "path": "materials/articles/current/tr/001.source-notices.json",
+      "sha256": "b7a31ad69c12d0a282be012367e006681aa1f91919fa0d1ae5de433253995ff9"
+    },
+    {
+      "path": "materials/articles/current/tr/001.source-notices.txt",
+      "sha256": "8488ed144635fcc43240798d0aad1143f88b5f60f99109712e1d2a2b4df65c2c"
+    },
+    {
+      "path": "materials/articles/current/tr/001.txt",
+      "sha256": "2f9f8759207e2b615d9450e6c2620dbc6c5d5d26b175222c52706e081dcbe74e"
+    }
+  ],
+  "generatedFiles": [
+    "books/reviewed-books.json",
+    "books/units/current/tr/articles/prepared-ar-79fa38429519de69.json",
+    "materials/book-publication-approvals/774414c017cbef1a67f08a76e62da410b0c4d0c8e57e9174c6161fc132c88486.json",
+    "materials/catalog.json"
+  ],
+  "requiredInputs": [
+    {
+      "path": "materials/articles/current/tr/001.json",
+      "sha256": "d138519d533af2e4fe8b7c1b578bd4b60b27a9eeda912e8e0c9cc1ff1b6a60d8"
+    },
+    {
+      "path": "materials/articles/current/tr/001.ordinary.txt",
+      "sha256": "17ecf1ad2bfd0d4ffc2e99a8af9ff4896a396af0b04695054c97e5782c9135b1"
+    },
+    {
+      "path": "materials/articles/current/tr/001.source-notices.json",
+      "sha256": "b7a31ad69c12d0a282be012367e006681aa1f91919fa0d1ae5de433253995ff9"
+    },
+    {
+      "path": "materials/articles/current/tr/001.source-notices.txt",
+      "sha256": "8488ed144635fcc43240798d0aad1143f88b5f60f99109712e1d2a2b4df65c2c"
+    },
+    {
+      "path": "materials/articles/current/tr/001.txt",
+      "sha256": "2f9f8759207e2b615d9450e6c2620dbc6c5d5d26b175222c52706e081dcbe74e"
+    },
+    {
+      "path": "materials/book-readers/tr/articles-001.json",
+      "sha256": "604011b55cd267c58ed277677e0df5b601ab39652b9f6c0330183ab9f5c1afe8"
+    },
+    {
+      "path": "materials/source-acceptances/tr/articles-001-20261110.json",
+      "sha256": "563e1a72c90cb80a66c0a495767eb4d3c76bd46e7e6adf1d237a49d82bc53ab8"
+    }
+  ],
+  "files": [
+    "books/reviewed-books.json",
+    "books/units/current/tr/articles/prepared-ar-79fa38429519de69.json",
+    "materials/articles/current/tr/001.json",
+    "materials/articles/current/tr/001.ordinary.txt",
+    "materials/articles/current/tr/001.source-notices.json",
+    "materials/articles/current/tr/001.source-notices.txt",
+    "materials/articles/current/tr/001.txt",
+    "materials/book-publication-approvals/774414c017cbef1a67f08a76e62da410b0c4d0c8e57e9174c6161fc132c88486.json",
+    "materials/book-readers/tr/articles-001.json",
+    "materials/catalog.json",
+    "materials/source-acceptances/tr/articles-001-20261110.json"
+  ],
+  "sourceApprovalCreated": false,
+  "scopeReleaseHoldsChanged": false,
+  "preparationScopeCreated": true,
+  "intakeSHA256": "774414c017cbef1a67f08a76e62da410b0c4d0c8e57e9174c6161fc132c88486",
+  "intakePath": "materials/book-publication-intake/tr-articles-001-20261110.json"
+}

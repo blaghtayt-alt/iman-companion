@@ -1,0 +1,90 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "94d42a5fe84dc4ecf6c4c269807b0c55316b9a989b60d9a7a97fcb4090f44c86",
+  "catalogEntry": {
+    "collection": "articles",
+    "language": "ru",
+    "id": "prepared-ar-79fa38429519de69",
+    "title": "Малого достаточно",
+    "number": 1,
+    "json": "materials/articles/current/ru/001.json",
+    "current": true,
+    "sourceHashes": [
+      "79fa38429519de69caa796fc4a639c06ee62e832db82d756c0d057c5e221c3c4",
+      "1b7d40271e2b679944e32b1374efb7a605939e7045cf59fb577906a1ee4219ef"
+    ],
+    "readingSHA256": "445f5392e371d9687641f3c8802111e8a5cfb8e7d526a3860e9a0c1ccdee03ef",
+    "translationStatus": "reviewed-current"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/articles/current/ru/001.json",
+      "sha256": "1b7d40271e2b679944e32b1374efb7a605939e7045cf59fb577906a1ee4219ef"
+    },
+    {
+      "path": "materials/articles/current/ru/001.ordinary.txt",
+      "sha256": "b66433de26f2417a673587b652cd796962d2e99b7338cbbd1c951b82e6fee6f4"
+    },
+    {
+      "path": "materials/articles/current/ru/001.source-notices.json",
+      "sha256": "036da41b10abb9e2262098f49926d7789e5fe5cd7ba001c1a770e2c49eeca9d7"
+    },
+    {
+      "path": "materials/articles/current/ru/001.source-notices.txt",
+      "sha256": "519b877710ff842b37da42aab479abea6c344de953cddfde4c793ee5a566ce77"
+    },
+    {
+      "path": "materials/articles/current/ru/001.txt",
+      "sha256": "cffdc9ab6aceafb75d55037f8c4a3c69fc658cc29758e7ef03dd33a62309e544"
+    }
+  ],
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "path": "materials/book-readers/ru/articles-001.json",
+    "sha256": "a9e461dada55f3c55daf29478a41ba3216373ad2cdf8eb2a4a1a0be302bda92d"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "article-001-six-languages-normalization-20261111-root-v1-ru",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "/root",
+      "scope": "Exact current Article1 readers, preserved original semantic qualifications, source notices and normalized paragraph/note/quotation boundaries"
+    },
+    "readerTextSHA256": "2007ce1ae454b2ba6686a9f75e12b8b97999ab8eb3c71ddeb6c11a656e2ff679",
+    "material": {
+      "collection": "articles",
+      "language": "ru",
+      "id": "prepared-ar-79fa38429519de69"
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/ru/articles-001-20261110.json",
+        "sha256": "ed9b424dd59ad0df2f096d9a130523a06f2d0ded8d4f53e8b2f9b54fa341ffef"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/articles/current/ru/001.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/ru/001.ordinary.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/ru/001.source-notices.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/ru/001.source-notices.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/ru/001.txt",
+      "sha256": null
+    }
+  ]
+}

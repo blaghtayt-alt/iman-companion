@@ -1,0 +1,48 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "essential-hadith",
+    "language": "en",
+    "id": "essential-01-001"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/hadith/essential-en/001.txt",
+    "sha256": "5e04c584947edb161102d1819214e29e2d08f898bc849bd34abfb7f3a6a3d914"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/hadith/essential-en/001.json",
+      "sha256": "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    },
+    {
+      "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+      "sha256": "b820424a1ff5b40905dc4a6094c7becbebac76441395dc122dd967df92f9bbe1"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.txt",
+      "sha256": "5e04c584947edb161102d1819214e29e2d08f898bc849bd34abfb7f3a6a3d914"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "en-hadith-001-normalization-20261111-root-v1",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "/root",
+      "scope": "Exact source-faithful normalized reader after completed independent comparison"
+    },
+    "semanticReviewSHA256": "d04d9d7c3225f9330bf1c6ffd1b9162b3ca3b6b929a176da5928fc70d115dacf",
+    "sourceAcceptanceSHA256": "26c6445a146881b77f5578f24dd37e2044f6ca01fc37dc68372cce9e208498d5",
+    "readerTextSHA256": "4a4eb545a11b5e95445835114113db792e0230a10bfebbdd8d367020cba8220c",
+    "conversionReviewSHA256": "bceb5befe2ffe2fb6c8db452b8e6de970534e00aba496e3711765f054cb4e5f4",
+    "acceptedAtUTC": "2026-11-10T18:05:21.906321+00:00",
+    "acceptanceType": "source-faithful-book-normalization"
+  },
+  "scope": "Exact current-source normalization; prior independent model review and all narration/source qualifications retained. No new human, scholarly, permission or semantic certification. Actual Word, complete visual and release gates remain required."
+}

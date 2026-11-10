@@ -1,0 +1,84 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "94d42a5fe84dc4ecf6c4c269807b0c55316b9a989b60d9a7a97fcb4090f44c86",
+  "catalogEntry": {
+    "collection": "essential-hadith",
+    "language": "en",
+    "id": "essential-01-001",
+    "json": "materials/hadith/essential-en/001.json",
+    "text": "materials/hadith/essential-en/001.txt",
+    "chapter": 1,
+    "lesson": 1,
+    "title": "Allah’s justice and self-sufficiency, and His servants’ need of Him",
+    "current": true,
+    "status": "current-app-edition",
+    "translationStatus": "ai-translated-needs-verification",
+    "sourceHashes": [
+      "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14",
+      "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    ]
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/hadith/essential-en/001.json",
+      "sha256": "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    },
+    {
+      "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+      "sha256": "b820424a1ff5b40905dc4a6094c7becbebac76441395dc122dd967df92f9bbe1"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.txt",
+      "sha256": "5e04c584947edb161102d1819214e29e2d08f898bc849bd34abfb7f3a6a3d914"
+    }
+  ],
+  "canonicalOrder": 1001,
+  "readerUnit": {
+    "path": "materials/book-publication-readers/en/hadith/essential-01-001-current-source-v1.json",
+    "sha256": "dcf1b999f8d88b8c47f8c75b5d89bbdc419a56eb719547db89d8321674884bf5"
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/hadith/essential-en/001.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.txt",
+      "sha256": null
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "en-hadith-001-normalization-20261111-root-v1",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "/root",
+      "scope": "Exact source-faithful normalized reader after completed independent comparison"
+    },
+    "material": {
+      "collection": "essential-hadith",
+      "language": "en",
+      "id": "essential-01-001"
+    },
+    "readerTextSHA256": "4a4eb545a11b5e95445835114113db792e0230a10bfebbdd8d367020cba8220c",
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/en/hadith-001-current-source-20261111.json",
+        "sha256": "83c1c8debeb92bf2b8ccff094bab9432ed887d7215bfa2f55ca25237c81caf3d"
+      }
+    ]
+  }
+}

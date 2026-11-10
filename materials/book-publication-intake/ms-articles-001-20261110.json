@@ -1,0 +1,90 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "94d42a5fe84dc4ecf6c4c269807b0c55316b9a989b60d9a7a97fcb4090f44c86",
+  "catalogEntry": {
+    "collection": "articles",
+    "language": "ms",
+    "id": "prepared-ar-79fa38429519de69",
+    "title": "Yang sedikit pun mencukupi",
+    "number": 1,
+    "json": "materials/articles/current/ms/001.json",
+    "current": true,
+    "sourceHashes": [
+      "79fa38429519de69caa796fc4a639c06ee62e832db82d756c0d057c5e221c3c4",
+      "9ce605a98ca59b36f416bc1f6c0e020a87c873fcc791c8701a60fba0426be0b6"
+    ],
+    "readingSHA256": "90afc0c19d3aeb71e0ce298fc8e6207b15779bf4e23a80d00436f5673875dc62",
+    "translationStatus": "reviewed-current"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/articles/current/ms/001.json",
+      "sha256": "9ce605a98ca59b36f416bc1f6c0e020a87c873fcc791c8701a60fba0426be0b6"
+    },
+    {
+      "path": "materials/articles/current/ms/001.ordinary.txt",
+      "sha256": "db350eaff22b90ced38a70ad2d1deac1eb76718ab886b24e0cc7c5c03bc89e67"
+    },
+    {
+      "path": "materials/articles/current/ms/001.source-notices.json",
+      "sha256": "d7ea0c544da8ed9b078c7e9de7bf981d9b5816411f14bddf250c0f0678d521cc"
+    },
+    {
+      "path": "materials/articles/current/ms/001.source-notices.txt",
+      "sha256": "f8ee8f519f1915ea49b028c2b86cb5ff141eb9c953b2cf5855ac9559d394e620"
+    },
+    {
+      "path": "materials/articles/current/ms/001.txt",
+      "sha256": "fa4355e0be3e2cb0fc61d3cc9277b73c6e7df0924703d59ae1b587ef2e7bd5d0"
+    }
+  ],
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "path": "materials/book-readers/ms/articles-001.json",
+    "sha256": "c2d80d5bdf28515377fb366d38ce863fdefbacb6987138961f4841c38e5be254"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "article-001-six-languages-normalization-20261111-root-v1-ms",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "/root",
+      "scope": "Exact current Article1 readers, preserved original semantic qualifications, source notices and normalized paragraph/note/quotation boundaries"
+    },
+    "readerTextSHA256": "9c7fee1c06a241f007aca41eb59bf3f117d73570131f9b045ec624a62bb57e33",
+    "material": {
+      "collection": "articles",
+      "language": "ms",
+      "id": "prepared-ar-79fa38429519de69"
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/ms/articles-001-20261110.json",
+        "sha256": "c0d9c852c19476289079c57bce789788bd5f2c2cbe036d20eeae70d2ee393b99"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/articles/current/ms/001.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/ms/001.ordinary.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/ms/001.source-notices.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/ms/001.source-notices.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/ms/001.txt",
+      "sha256": null
+    }
+  ]
+}

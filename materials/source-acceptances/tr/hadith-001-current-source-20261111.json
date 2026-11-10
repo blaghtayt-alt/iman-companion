@@ -1,0 +1,80 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "essential-hadith",
+    "language": "tr",
+    "id": "essential-01-001"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/hadith/essential-tr/001.txt",
+    "sha256": "2b84f891f44729808371b6669ffc34a34e53784f2b9bf8322036ba339f295fb4"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/hadith/essential-tr/001.json",
+      "sha256": "3a0bc349b25f8a8dac13e4da717dd5d54cc5cfde785277c7ed2818d03d9dd4c1"
+    },
+    {
+      "path": "materials/hadith/essential-tr/sources/CANDIDATE-LESSON001-TR581.json",
+      "sha256": "3a0bc349b25f8a8dac13e4da717dd5d54cc5cfde785277c7ed2818d03d9dd4c1"
+    },
+    {
+      "path": "materials/hadith/essential-tr/sources/CANONICAL-QUOTES581.json",
+      "sha256": "1303689177b1511725fb06aaf5812c5ca8f5d8eb4fd759cf0dd149ed0fb4438f"
+    },
+    {
+      "path": "materials/hadith/essential-tr/sources/MANDATORY-READING-NOTES581.json",
+      "sha256": "c6e14948bce7b3d4e6cb37d652ac317e7cbbec4c30aa5352a3d42bb7d12ca8ea"
+    },
+    {
+      "path": "materials/hadith/essential-tr/sources/TURKISH-SOURCE-APPENDIX581.json",
+      "sha256": "eadde9f78dd618c113648aa1dd37ce5a34089261ec9d848cada6dcf07503cbb1"
+    },
+    {
+      "path": "materials/hadith/essential-tr/sources/PUBLIC-SOURCE-INDEX581.json",
+      "sha256": "db9730ba14f8e8adb96a6b8cf4aafd5faf405e95d29fac6d6d273258da5cc9d0"
+    },
+    {
+      "path": "materials/hadith/essential-tr/sources/PUBLIC-ORIGINAL-ARABIC-SOURCE581.json",
+      "sha256": "fc1d1014e7fdb84784127571c2fc976612f2f6259ad66650321f5f337c56bc08"
+    },
+    {
+      "path": "materials/hadith/essential-tr/sources/PUBLIC-PUBLISHER-METADATA581.json",
+      "sha256": "5a4e7ea0ecf94708cf5f40102fd25ffc2aebb5ba4855866e14c586f1b4a47966"
+    },
+    {
+      "path": "materials/hadith/essential-tr/sources/PUBLIC-PROJECTION581.json",
+      "sha256": "8dfa5fe1cbc7494278b5bd93e35ffd160eaa3678e201b0d7a83920b405b43610"
+    },
+    {
+      "path": "materials/hadith/essential-tr/sources/FINAL-QUALIFICATION586.json",
+      "sha256": "a6f8d1e969910becb93871f4088f5ca717b68b687ca7db8e50a3c2422b7a177d"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-tr/001.txt",
+      "sha256": "2b84f891f44729808371b6669ffc34a34e53784f2b9bf8322036ba339f295fb4"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "tr-hadith-001-normalization-20261111-root-v1",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "/root",
+      "scope": "Exact source-faithful normalized reader after completed independent comparison"
+    },
+    "semanticReviewSHA256": "a6f8d1e969910becb93871f4088f5ca717b68b687ca7db8e50a3c2422b7a177d",
+    "sourceAcceptanceSHA256": "2333f13b31daf63b75bf4867b5c3c6dc7d9ddfe1c9a1a5378ba65d9391dbc4bd",
+    "readerTextSHA256": "199fcc7dae9851b15136da80a44f763b226533f02947100e678345c2b645f7fc",
+    "conversionReviewSHA256": "c4ec4b42530201f169df1e26c930984a72e6c0676615c0363989013babd6ebb9",
+    "acceptedAtUTC": "2026-11-10T18:05:22.025991+00:00",
+    "acceptanceType": "source-faithful-book-normalization"
+  },
+  "scope": "Exact current-source normalization; prior independent model review and all narration/source qualifications retained. No new human, scholarly, permission or semantic certification. Actual Word, complete visual and release gates remain required."
+}

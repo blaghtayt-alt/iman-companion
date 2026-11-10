@@ -1,0 +1,80 @@
+{
+  "schema": "iman-book-source-publication-receipt-v1",
+  "material": {
+    "collection": "essential-hadith",
+    "language": "en",
+    "id": "essential-01-001"
+  },
+  "canonicalOrder": 1001,
+  "readerUnit": {
+    "schema": "iman-book-unit-v1",
+    "path": "books/units/current/en/hadith/essential-01-001.json",
+    "sha256": "bf599c4df996bca636587a56fc1a6117c6bdc4f3ff67213850300fd5fe9f4715"
+  },
+  "approvalId": "en-hadith-001-normalization-20261111-root-v1",
+  "sourceBindings": [
+    {
+      "path": "materials/hadith/essential-en/001.json",
+      "sha256": "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    },
+    {
+      "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+      "sha256": "b820424a1ff5b40905dc4a6094c7becbebac76441395dc122dd967df92f9bbe1"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.txt",
+      "sha256": "5e04c584947edb161102d1819214e29e2d08f898bc849bd34abfb7f3a6a3d914"
+    }
+  ],
+  "generatedFiles": [
+    "books/units/current/en/hadith/essential-01-001.json",
+    "materials/book-publication-approvals/a8c03e5513d3ac284c723ee0ce3442a796eaafb50172766b1c64430c0fac9a06.json",
+    "materials/catalog.json"
+  ],
+  "requiredInputs": [
+    {
+      "path": "materials/book-publication-readers/en/hadith/essential-01-001-current-source-v1.json",
+      "sha256": "dcf1b999f8d88b8c47f8c75b5d89bbdc419a56eb719547db89d8321674884bf5"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.json",
+      "sha256": "f2e9737550e6284723e67b98c367318b500ec6f2348ece0b69eac48b92ac7c42"
+    },
+    {
+      "path": "materials/hadith/essential-en/001.txt",
+      "sha256": "5e04c584947edb161102d1819214e29e2d08f898bc849bd34abfb7f3a6a3d914"
+    },
+    {
+      "path": "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+      "sha256": "b820424a1ff5b40905dc4a6094c7becbebac76441395dc122dd967df92f9bbe1"
+    },
+    {
+      "path": "materials/source-acceptances/en/hadith-001-current-source-20261111.json",
+      "sha256": "83c1c8debeb92bf2b8ccff094bab9432ed887d7215bfa2f55ca25237c81caf3d"
+    }
+  ],
+  "files": [
+    "books/units/current/en/hadith/essential-01-001.json",
+    "materials/book-publication-approvals/a8c03e5513d3ac284c723ee0ce3442a796eaafb50172766b1c64430c0fac9a06.json",
+    "materials/book-publication-readers/en/hadith/essential-01-001-current-source-v1.json",
+    "materials/catalog.json",
+    "materials/hadith/essential-ar/01/001.json",
+    "materials/hadith/essential-en/001.json",
+    "materials/hadith/essential-en/001.txt",
+    "materials/hadith/essential-en/sources/CURRENT-SOURCE-CONTEXT.json",
+    "materials/source-acceptances/en/hadith-001-current-source-20261111.json"
+  ],
+  "sourceApprovalCreated": false,
+  "scopeReleaseHoldsChanged": false,
+  "preparationScopeCreated": false,
+  "intakeSHA256": "a8c03e5513d3ac284c723ee0ce3442a796eaafb50172766b1c64430c0fac9a06",
+  "intakePath": "materials/book-publication-intake/a8c03e5513d3ac284c723ee0ce3442a796eaafb50172766b1c64430c0fac9a06.json"
+}

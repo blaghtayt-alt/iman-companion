@@ -1,0 +1,172 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "94d42a5fe84dc4ecf6c4c269807b0c55316b9a989b60d9a7a97fcb4090f44c86",
+  "catalogEntry": {
+    "collection": "essential-hadith",
+    "language": "ja",
+    "id": "essential-01-001",
+    "json": "materials/hadith/essential-ja/001.json",
+    "text": "materials/hadith/essential-ja/001.txt",
+    "chapter": 1,
+    "lesson": 1,
+    "title": "アッラーの正義と完全な豊かさ、しもべが主を必要とすること",
+    "current": true,
+    "status": "current-app-edition",
+    "translationStatus": "ai-translated-needs-verification",
+    "sourceHashes": [
+      "0bd6a7c3275cb36714611a8b9306388c5a4fc474750c45d064d6f1d3d9bb7446",
+      "a83b2adc140aa62aace0df15cf5cdeb0c8c6327ce0c44d053113705aa9a9bad4"
+    ]
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/hadith/essential-ja/001.json",
+      "sha256": "a83b2adc140aa62aace0df15cf5cdeb0c8c6327ce0c44d053113705aa9a9bad4"
+    },
+    {
+      "path": "materials/hadith/essential-ja/001.txt",
+      "sha256": "19c154efe1cb5777d9ecbfb1f9423c60d67b3445841a8f1390533ac3d8375554"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/CONTEXTUAL-ARABIC-PARENTS949.json",
+      "sha256": "3e4446f503edd1e12c78dd772bd300f06df1f9dbd5f206d99b1e0a6b93d463b7"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/CONTINUOUS-JA949.txt",
+      "sha256": "e278a964ad1484097b03ca14984b014a6dd278bc6de49fa6c8176615ba224087"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/HADITH-REFERENCES949.json",
+      "sha256": "941b9299fb38f36c35031436285e0b78b0d1336c0b523904b5db9978490a2648"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/ORIGINAL-AR949.json",
+      "sha256": "e5ff1c99a4ec950b85f23ac526a810e5bde75240623f8614b6d3243eca25b7c5"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/QUOTE-BOUNDS949.json",
+      "sha256": "23411f1b07bea82d3ad331234eaf100053b23a60f3af719fcc5999ffa69caa35"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/READER-JA949.json",
+      "sha256": "44e55ef9497ae8e74a8579f04516d163e93d8334f44557e29b48a98e3610ff71"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SATO-DEPENDENCIES949.json",
+      "sha256": "3f220a7f2665dbc264e3dd52df541a71ba64faa569d140495c82be10e545c02f"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-CONDITIONS949.json",
+      "sha256": "73e34be4890ebf715021803609d33dd4a3df2faf8f4f54d9f2c75c3c31bc8108"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-FACTS949.json",
+      "sha256": "696115717d15d6d8c6c82fce23beae65f1f6f7a67ff2b83db0fe27396b3de37b"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-PARENTS949.json",
+      "sha256": "a6e4e5b42e2d2301b78fbc2f706c958adde682bf36dde8411026db0b202fdbe1"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-VERSION949.txt",
+      "sha256": "94365b35541b32f1a69539af1cdb8f42c91aafd84c8a90eb44fa29075cd34da4"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/TERMINOLOGY949.json",
+      "sha256": "5d5879e965d6e0f55f127f44eafacd712ecf8ddb87347bab7e8b71a5d6e1ea42"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    }
+  ],
+  "canonicalOrder": 1001,
+  "readerUnit": {
+    "path": "materials/book-publication-readers/ja/hadith/essential-01-001-current-source-v1.json",
+    "sha256": "3d8ab0932f6e565abd8c1aa7a243e76f5ec2bb1fb18534cae91718178d57525d"
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/hadith/essential-ja/001.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/001.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/CONTEXTUAL-ARABIC-PARENTS949.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/CONTINUOUS-JA949.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/HADITH-REFERENCES949.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/ORIGINAL-AR949.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/QUOTE-BOUNDS949.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/READER-JA949.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SATO-DEPENDENCIES949.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-CONDITIONS949.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-FACTS949.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-PARENTS949.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-VERSION949.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/TERMINOLOGY949.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "ja-hadith-001-normalization-20261111-root-v1",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "/root",
+      "scope": "Acceptance of exact normalization after independent source preservation review"
+    },
+    "material": {
+      "collection": "essential-hadith",
+      "language": "ja",
+      "id": "essential-01-001"
+    },
+    "readerTextSHA256": "2ced63d0b953e963da38240b1bf7bcb6594d3d22b08126fc32c99d80a72f3fd8",
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/ja/hadith-001-current-source-20261111.json",
+        "sha256": "da14d43825d4918331840422b791df476be96b97905efceedec15d41a9d752ad"
+      }
+    ]
+  }
+}

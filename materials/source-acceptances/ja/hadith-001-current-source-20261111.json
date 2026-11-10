@@ -1,0 +1,92 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "essential-hadith",
+    "language": "ja",
+    "id": "essential-01-001"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/hadith/essential-ja/001.txt",
+    "sha256": "19c154efe1cb5777d9ecbfb1f9423c60d67b3445841a8f1390533ac3d8375554"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/hadith/essential-ja/001.json",
+      "sha256": "a83b2adc140aa62aace0df15cf5cdeb0c8c6327ce0c44d053113705aa9a9bad4"
+    },
+    {
+      "path": "materials/hadith/essential-ja/001.txt",
+      "sha256": "19c154efe1cb5777d9ecbfb1f9423c60d67b3445841a8f1390533ac3d8375554"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/CONTEXTUAL-ARABIC-PARENTS949.json",
+      "sha256": "3e4446f503edd1e12c78dd772bd300f06df1f9dbd5f206d99b1e0a6b93d463b7"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/CONTINUOUS-JA949.txt",
+      "sha256": "e278a964ad1484097b03ca14984b014a6dd278bc6de49fa6c8176615ba224087"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/HADITH-REFERENCES949.json",
+      "sha256": "941b9299fb38f36c35031436285e0b78b0d1336c0b523904b5db9978490a2648"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/ORIGINAL-AR949.json",
+      "sha256": "e5ff1c99a4ec950b85f23ac526a810e5bde75240623f8614b6d3243eca25b7c5"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/QUOTE-BOUNDS949.json",
+      "sha256": "23411f1b07bea82d3ad331234eaf100053b23a60f3af719fcc5999ffa69caa35"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/READER-JA949.json",
+      "sha256": "44e55ef9497ae8e74a8579f04516d163e93d8334f44557e29b48a98e3610ff71"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SATO-DEPENDENCIES949.json",
+      "sha256": "3f220a7f2665dbc264e3dd52df541a71ba64faa569d140495c82be10e545c02f"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-CONDITIONS949.json",
+      "sha256": "73e34be4890ebf715021803609d33dd4a3df2faf8f4f54d9f2c75c3c31bc8108"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-FACTS949.json",
+      "sha256": "696115717d15d6d8c6c82fce23beae65f1f6f7a67ff2b83db0fe27396b3de37b"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-PARENTS949.json",
+      "sha256": "a6e4e5b42e2d2301b78fbc2f706c958adde682bf36dde8411026db0b202fdbe1"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/SOURCE-VERSION949.txt",
+      "sha256": "94365b35541b32f1a69539af1cdb8f42c91aafd84c8a90eb44fa29075cd34da4"
+    },
+    {
+      "path": "materials/hadith/essential-ja/sources/TERMINOLOGY949.json",
+      "sha256": "5d5879e965d6e0f55f127f44eafacd712ecf8ddb87347bab7e8b71a5d6e1ea42"
+    },
+    {
+      "path": "materials/hadith/essential-ar/01/001.json",
+      "sha256": "0cfb887390b66a370b26a6b021e550267bf1c4b379c0cd230e39bc5e1619be14"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "ja-hadith-001-normalization-20261111-root-v1",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "/root",
+      "scope": "Acceptance of exact normalization after independent source preservation review"
+    },
+    "semanticReviewSHA256": "00c04fd7b84e2763155f27ab35b6631e469acd6c8a87df2756ecacb424539016",
+    "sourceAcceptanceSHA256": "6e03de69fedde7f9e0e9bb7d816a2fa4fee3770ee28fe79306d3fe3843eb49e6",
+    "readerTextSHA256": "2ced63d0b953e963da38240b1bf7bcb6594d3d22b08126fc32c99d80a72f3fd8",
+    "conversionReviewSHA256": "4299eb8dcad1e521a9c72aee0597da0ec0425104b65aae92952df8b977e942bf",
+    "acceptedAtUTC": "2026-11-10T17:59:36.737397+00:00",
+    "acceptanceType": "source-faithful-book-normalization"
+  },
+  "scope": "Exact frozen Japanese current-source book normalization and complete source context. Actual original model review and source qualifications retained; this coordinator acceptance does not create human, scholarly, legal, source-permission or new semantic certification. Actual Word, final visual and release gates remain required."
+}

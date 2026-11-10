@@ -245,16 +245,19 @@
             "language": "en",
             "collection": "hadith",
             "sourceIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "catalogIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "selectedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
@@ -278,15 +281,20 @@
                 4
               ]
             },
-            "missingCurrent": [],
-            "absentEarlierLessons": [
+            "missingCurrent": [
               {
                 "id": "essential-01-001",
-                "chapter": 1,
-                "lesson": 1,
-                "reason": "current-source-not-installed"
+                "reason": "awaiting-book-release",
+                "sourcePaths": {
+                  "json": "materials/hadith/essential-en/001.json"
+                },
+                "number": [
+                  1,
+                  1
+                ]
               }
             ],
+            "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
             "legacyExcluded": 0,
@@ -298,7 +306,7 @@
               "includedLabel": "Included: Hadith 2–4",
               "statusLabel": "Partial edition",
               "notes": [
-                "Current source not available in this language: Hadith 1"
+                "Awaiting the updated book: Hadith 1"
               ],
               "unitLabels": {
                 "essential-01-002": "Hadith 2",
@@ -323,7 +331,18 @@
               "title": "Steadfastness in religion and recognizing a heart that has strayed",
               "numberLabel": "Hadith 4"
             }
-          ]
+          ],
+          "availability": {
+            "state": "verified-limited-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ],
+            "newMaterialsIncluded": false
+          },
+          "statusLabel": "Verified edition. New material is awaiting release checks; only the listed contents are included."
         },
         {
           "language": "en",
@@ -7695,16 +7714,19 @@
             "language": "tr",
             "collection": "hadith",
             "sourceIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "catalogIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "selectedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
@@ -7728,15 +7750,20 @@
                 4
               ]
             },
-            "missingCurrent": [],
-            "absentEarlierLessons": [
+            "missingCurrent": [
               {
                 "id": "essential-01-001",
-                "chapter": 1,
-                "lesson": 1,
-                "reason": "current-source-not-installed"
+                "reason": "awaiting-book-release",
+                "sourcePaths": {
+                  "json": "materials/hadith/essential-tr/001.json"
+                },
+                "number": [
+                  1,
+                  1
+                ]
               }
             ],
+            "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
             "legacyExcluded": 0,
@@ -7748,7 +7775,7 @@
               "includedLabel": "İçerilenler: Hadis 2–4",
               "statusLabel": "Kısmi baskı",
               "notes": [
-                "Güncel kaynak bu dilde mevcut değil: Hadis 1"
+                "Güncellenmiş kitap bekleniyor: Hadis 1"
               ],
               "unitLabels": {
                 "essential-01-002": "Hadis 2",
@@ -7773,7 +7800,18 @@
               "title": "Dinde sebat etmek ve haktan sapan kalbin hâllerini tanımak",
               "numberLabel": "Hadis 4"
             }
-          ]
+          ],
+          "availability": {
+            "state": "verified-limited-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ],
+            "newMaterialsIncluded": false
+          },
+          "statusLabel": "Doğrulanmış baskı. Yeni içerikler yayın kontrollerini bekliyor; yalnızca listelenen içerikler dahildir."
         }
       ],
       "bundle": {
@@ -10262,16 +10300,19 @@
             "language": "ja",
             "collection": "hadith",
             "sourceIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "catalogIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
             ],
             "selectedIds": [
+              "essential-01-001",
               "essential-01-002",
               "essential-01-003",
               "essential-01-004"
@@ -10295,15 +10336,20 @@
                 4
               ]
             },
-            "missingCurrent": [],
-            "absentEarlierLessons": [
+            "missingCurrent": [
               {
                 "id": "essential-01-001",
-                "chapter": 1,
-                "lesson": 1,
-                "reason": "current-source-not-installed"
+                "reason": "awaiting-book-release",
+                "sourcePaths": {
+                  "json": "materials/hadith/essential-ja/001.json"
+                },
+                "number": [
+                  1,
+                  1
+                ]
               }
             ],
+            "absentEarlierLessons": [],
             "unregisteredSourceIds": [],
             "competingSources": [],
             "legacyExcluded": 0,
@@ -10315,7 +10361,7 @@
               "includedLabel": "収録: ハディース 2–4",
               "statusLabel": "一部収録版",
               "notes": [
-                "この言語の現行資料は未掲載: ハディース 1"
+                "更新版の公開待ち: ハディース 1"
               ],
               "unitLabels": {
                 "essential-01-002": "ハディース 2",
@@ -10340,7 +10386,18 @@
               "title": "信仰を堅く保ち、道を逸れた心の特徴を知る",
               "numberLabel": "ハディース 4"
             }
-          ]
+          ],
+          "availability": {
+            "state": "verified-limited-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "essential-01-002",
+              "essential-01-003",
+              "essential-01-004"
+            ],
+            "newMaterialsIncluded": false
+          },
+          "statusLabel": "確認済みの版です。新しい資料は公開前の確認を待っています。本版には記載された内容のみが収録されています。"
         }
       ],
       "bundle": {

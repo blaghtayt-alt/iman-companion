@@ -37,7 +37,7 @@ or guessed into a book. The source producer must emit the envelope as part of it
 normal approved publication transaction. Installing this consumer alone does not
 prove that every external source producer has adopted that contract.
 
-Exact Article and Seerah reader text can include required publisher names,
+Exact Article, Seerah and Hadith reader text can include required publisher names,
 addresses and version notices. Those supplied words must not be deleted to pass
 the ordinary furniture-language check. A source-bound literal proof may use an
 `iman-approved-reader-source-v1` acceptance import record with the exact material
@@ -219,17 +219,24 @@ offsets; ordinary native-language furniture validation remains strict. The
 first-lesson adapter separately binds eleven eligible 01-001 readers to their
 exact current review records, preserves their full commentary and required
 source companions, and retains the French reader's incomplete-final-review
-status. A separate adapter restores the current Filipino 01-005 reader with its
-original lesson number. Missing first-lesson readers remain explicit gaps.
+status. The exact approved reader transactions now also supply current 01-001
+readers in Japanese, English and Turkish, alongside those adapter-backed units.
+Their acceptance records preserve the current source qualifications, complete
+commentary, quotation roles, notes and source appendices. A separate adapter
+restores the current Filipino 01-005 reader with its original lesson number.
+Missing first-lesson readers remain explicit gaps.
 
 The current Quran adapters restore 124 eligible units: 112 entries-map scopes,
 eleven complete Fatiha packets and the complete Japanese Qiyamah packet. Their
 inventories bind current Arabic revisions, exact source text, citations and
 qualifications. Selected-ayah material stays explicitly partial. These adapters
-bring the current selection to 625 units; [current-reviewed-imports.md](current-reviewed-imports.md)
-records the 136 additions, affected 31 editions and exact exclusions. Previously
-published pairs retain their original membership until expanded files pass the
-normal Word and final visual checks.
+originally brought the selection to 625 units. The accepted English Article 1
+and Seerah 1 transactions, three further Hadith 1 readers, and Article 1 in
+Spanish, French, Indonesian, Malay, Russian and Turkish now bring the selection
+to 636 units across 50 eligible editions.
+[current-reviewed-imports.md](current-reviewed-imports.md) records the dated
+imports and exact exclusions. Previously published pairs retain their original
+membership until expanded files pass the normal Word and final visual checks.
 
 Historical standalone article translations and legacy Seerah editions do not
 join the current editions. The exact approved normalized reader transaction

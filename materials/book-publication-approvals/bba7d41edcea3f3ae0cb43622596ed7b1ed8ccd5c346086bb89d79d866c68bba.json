@@ -1,0 +1,90 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "94d42a5fe84dc4ecf6c4c269807b0c55316b9a989b60d9a7a97fcb4090f44c86",
+  "catalogEntry": {
+    "collection": "articles",
+    "language": "es",
+    "id": "prepared-ar-79fa38429519de69",
+    "title": "Con poco basta",
+    "number": 1,
+    "json": "materials/articles/current/es/001.json",
+    "current": true,
+    "sourceHashes": [
+      "79fa38429519de69caa796fc4a639c06ee62e832db82d756c0d057c5e221c3c4",
+      "95f7bfad052480516bbb7b431c0f21d8914e3b404840b0466c8dfaafcd65249f"
+    ],
+    "readingSHA256": "e08572b1484708441f66922fa55430c43c4ff271efed9f5e8fa9657254ad8d9b",
+    "translationStatus": "reviewed-current"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/articles/current/es/001.json",
+      "sha256": "95f7bfad052480516bbb7b431c0f21d8914e3b404840b0466c8dfaafcd65249f"
+    },
+    {
+      "path": "materials/articles/current/es/001.ordinary.txt",
+      "sha256": "df33a8aa188f6d4a4393e00099ea20b6d499eaf72554eec105c199c262dde069"
+    },
+    {
+      "path": "materials/articles/current/es/001.source-notices.json",
+      "sha256": "0a91630bcd02557b2874b7f7174dcf9196812c96e2f2c2bc17889ef9b003032d"
+    },
+    {
+      "path": "materials/articles/current/es/001.source-notices.txt",
+      "sha256": "7bf23f321d56ea45897a2adcbe69fe81ee4fb35637ee3f4a31c7b83f8d5b7842"
+    },
+    {
+      "path": "materials/articles/current/es/001.txt",
+      "sha256": "3c19ca5433e16dbf1a2710fa8f11b97a6f17844646905b1c457f70a3465f8d98"
+    }
+  ],
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "path": "materials/book-readers/es/articles-001.json",
+    "sha256": "67adf5e652175584d6ac77df8c07267c6b825fa5a03fbefd1738c670966686c9"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "article-001-six-languages-normalization-20261111-root-v1-es",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "/root",
+      "scope": "Exact current Article1 readers, preserved original semantic qualifications, source notices and normalized paragraph/note/quotation boundaries"
+    },
+    "readerTextSHA256": "6df8bf79e527848db753b3638ae8a68769c3f067eb57ddb89f7efacdc72e4f24",
+    "material": {
+      "collection": "articles",
+      "language": "es",
+      "id": "prepared-ar-79fa38429519de69"
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/es/articles-001-20261110.json",
+        "sha256": "8003cad913bb35fa1743fc5c5508d03092d652f434543fc440758937e23fddf0"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/articles/current/es/001.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/es/001.ordinary.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/es/001.source-notices.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/es/001.source-notices.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/es/001.txt",
+      "sha256": null
+    }
+  ]
+}

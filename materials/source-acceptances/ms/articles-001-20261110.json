@@ -1,0 +1,49 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "articles",
+    "language": "ms",
+    "id": "prepared-ar-79fa38429519de69"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/articles/current/ms/001.txt",
+    "sha256": "fa4355e0be3e2cb0fc61d3cc9277b73c6e7df0924703d59ae1b587ef2e7bd5d0"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/articles/current/ms/001.json",
+      "sha256": "9ce605a98ca59b36f416bc1f6c0e020a87c873fcc791c8701a60fba0426be0b6"
+    },
+    {
+      "path": "materials/articles/current/ms/001.ordinary.txt",
+      "sha256": "db350eaff22b90ced38a70ad2d1deac1eb76718ab886b24e0cc7c5c03bc89e67"
+    },
+    {
+      "path": "materials/articles/current/ms/001.source-notices.json",
+      "sha256": "d7ea0c544da8ed9b078c7e9de7bf981d9b5816411f14bddf250c0f0678d521cc"
+    },
+    {
+      "path": "materials/articles/current/ms/001.source-notices.txt",
+      "sha256": "f8ee8f519f1915ea49b028c2b86cb5ff141eb9c953b2cf5855ac9559d394e620"
+    },
+    {
+      "path": "materials/articles/current/ms/001.txt",
+      "sha256": "fa4355e0be3e2cb0fc61d3cc9277b73c6e7df0924703d59ae1b587ef2e7bd5d0"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "article-001-six-languages-normalization-20261111-root-v1-ms",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "/root",
+      "scope": "Exact current Article1 readers, preserved original semantic qualifications, source notices and normalized paragraph/note/quotation boundaries"
+    },
+    "semanticReviewSHA256": "e9ec78313aa8cf4b546059e8b66d6ee5016dc2df36ccf35c0cd2ec29da0ef72c",
+    "sourceAcceptanceSHA256": "6535b956a050bddc4c4319bb5955a38be6efdea79a0130ba30cfb2e9a32abb8c",
+    "boundedReviewSHA256": "e9ec1f2b639a5e3bf15d551e1689a6430e66bf2a847e901dc047f77698e91991",
+    "readerTextSHA256": "9c7fee1c06a241f007aca41eb59bf3f117d73570131f9b045ec624a62bb57e33"
+  }
+}

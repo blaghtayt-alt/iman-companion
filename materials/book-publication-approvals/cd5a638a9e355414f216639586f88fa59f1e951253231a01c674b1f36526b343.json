@@ -1,0 +1,90 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "94d42a5fe84dc4ecf6c4c269807b0c55316b9a989b60d9a7a97fcb4090f44c86",
+  "catalogEntry": {
+    "collection": "articles",
+    "language": "id",
+    "id": "prepared-ar-79fa38429519de69",
+    "title": "Sedikit sudah cukup",
+    "number": 1,
+    "json": "materials/articles/current/id/001.json",
+    "current": true,
+    "sourceHashes": [
+      "79fa38429519de69caa796fc4a639c06ee62e832db82d756c0d057c5e221c3c4",
+      "9c2c135e5a52b3de4d3c5a62b8948a40e15e1e08d747460c9f20aceb03cc7075"
+    ],
+    "readingSHA256": "3b1fc18c0e5138da8f7c1775ccf6ac6fa24cb94ec85649923d8c5d4ead3863b9",
+    "translationStatus": "reviewed-current"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/articles/current/id/001.json",
+      "sha256": "9c2c135e5a52b3de4d3c5a62b8948a40e15e1e08d747460c9f20aceb03cc7075"
+    },
+    {
+      "path": "materials/articles/current/id/001.ordinary.txt",
+      "sha256": "3c941caa58087ee06d25518db8f1e03553e18f9e690477c32d16f4c797a3462e"
+    },
+    {
+      "path": "materials/articles/current/id/001.source-notices.json",
+      "sha256": "3b5cab3a6c7bbafe86a7bdd6407056def4b035cd42f5ac44b9f41ad398608529"
+    },
+    {
+      "path": "materials/articles/current/id/001.source-notices.txt",
+      "sha256": "cafdfcc81cbb0e55f7346c786f33011e0e258e1768a6506e544a3ff154e1c9e9"
+    },
+    {
+      "path": "materials/articles/current/id/001.txt",
+      "sha256": "90301af46ba0f8aa92dce120ab12dcb0d22ce733aa8699362b379cf637a175af"
+    }
+  ],
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "path": "materials/book-readers/id/articles-001.json",
+    "sha256": "68979ae900fe80625d45076f2e259132daa8f6f49e2f8f3e7d25a8333dab1242"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "article-001-six-languages-normalization-20261111-root-v1-id",
+    "reviewer": {
+      "kind": "coordinating-model-review",
+      "identity": "/root",
+      "scope": "Exact current Article1 readers, preserved original semantic qualifications, source notices and normalized paragraph/note/quotation boundaries"
+    },
+    "readerTextSHA256": "25f2d9e2a5d59bf4dbbf0b215063a2208dcbf82af8ee2486854dbb1159db69ba",
+    "material": {
+      "collection": "articles",
+      "language": "id",
+      "id": "prepared-ar-79fa38429519de69"
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/id/articles-001-20261110.json",
+        "sha256": "4aed136e58f11387759ff5014739494e7dfaf2142455c78eb23e1f9ff40f78ae"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/articles/current/id/001.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/id/001.ordinary.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/id/001.source-notices.json",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/id/001.source-notices.txt",
+      "sha256": null
+    },
+    {
+      "path": "materials/articles/current/id/001.txt",
+      "sha256": null
+    }
+  ]
+}
