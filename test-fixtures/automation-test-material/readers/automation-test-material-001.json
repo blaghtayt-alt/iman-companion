@@ -1,0 +1,42 @@
+{
+  "schema": "iman-book-unit-v1",
+  "testOnly": true,
+  "collection": "articles",
+  "language": "en",
+  "id": "automation-test-material-001",
+  "order": 1,
+  "complete": true,
+  "reviewGate": "published-current",
+  "title": "automation test material",
+  "sourceHashes": [
+    "493acdf75ce89172cde72c0cc407058fa1a1f4d37f46cca15910d8ce186dc441"
+  ],
+  "readerTextSHA256": "94ee059335e587e501cc4bf90613e0814f00a7b08bc7c648fd865a2af6a22cc2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "TEST"
+        }
+      ]
+    }
+  ],
+  "inputBindings": [
+    {
+      "path": "test-fixtures/automation-test-material/sources/automation-test-material-001.json",
+      "sha256": "493acdf75ce89172cde72c0cc407058fa1a1f4d37f46cca15910d8ce186dc441"
+    }
+  ],
+  "catalogBindings": [
+    {
+      "collection": "articles",
+      "language": "en",
+      "id": "automation-test-material-001"
+    }
+  ],
+  "provenance": {
+    "kind": "user-requested-authored-dummy-text",
+    "scope": "Synthetic-only reader for a temporary isolated automation test; not a religious source or translation."
+  }
+}

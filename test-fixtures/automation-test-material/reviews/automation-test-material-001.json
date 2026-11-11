@@ -1,0 +1,53 @@
+{
+  "schema": "iman-automation-test-technical-review-v1",
+  "testOnly": true,
+  "decision": "approved",
+  "wholeMaterial": true,
+  "approvalId": "automation-test-material-001-isolated-technical-review-v1",
+  "reviewer": {
+    "kind": "model-technical-review",
+    "identity": "/root/bidi_patch_review",
+    "role": "Fixture author and technical reviewer",
+    "independent": false,
+    "scope": "Only the user-requested authored dummy TEST text and exact source/reader structure for a temporary isolated automation test."
+  },
+  "reviewedAtUTC": "2026-11-11T04:02:23.327239+00:00",
+  "material": {
+    "collection": "articles",
+    "language": "en",
+    "id": "automation-test-material-001"
+  },
+  "canonicalOrder": 1,
+  "sourceBindings": [
+    {
+      "path": "test-fixtures/automation-test-material/sources/automation-test-material-001.json",
+      "sha256": "493acdf75ce89172cde72c0cc407058fa1a1f4d37f46cca15910d8ce186dc441"
+    }
+  ],
+  "readerUnit": {
+    "path": "test-fixtures/automation-test-material/readers/automation-test-material-001.json",
+    "sha256": "194c3a6c1c938fa20c1d3cd16d6d2098f7c605899743f8e0b27e130367866815"
+  },
+  "readerTextSHA256": "94ee059335e587e501cc4bf90613e0814f00a7b08bc7c648fd865a2af6a22cc2",
+  "temporaryIsolationRequired": true,
+  "technicalChecks": {
+    "completeSourceAndReaderInspected": true,
+    "exactRequestedTitle": true,
+    "bodyParagraphsExactlyTEST": true,
+    "exactMaterialIdentityAndOrder": true,
+    "sourceAndReaderByteHashesVerified": true,
+    "readerTextHashVerified": true,
+    "productionReaderValidatorPassed": true,
+    "distinctArticleOrderingPassed": true
+  },
+  "claims": {
+    "religiousSourceApproval": false,
+    "scholarlyApproval": false,
+    "translationApproval": false,
+    "humanApproval": false,
+    "independentReview": false,
+    "actualWordLayoutApproval": false,
+    "visualReleaseApproval": false,
+    "publicPublicationApproval": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "iman-automation-test-material-fixture-v1",
+  "testOnly": true,
+  "language": "en",
+  "collection": "articles",
+  "title": "automation test material",
+  "bodyText": "TEST",
+  "intendedUse": "Two user-requested authored dummy Articles for temporary isolated verification of the unchanged source-intake and book-preparation pipeline.",
+  "isolation": {
+    "required": true,
+    "productionRegistration": false,
+    "publicRelease": false,
+    "cleanup": "Remove only the owned temporary test root after the test."
+  },
+  "materials": [
+    {
+      "id": "automation-test-material-001",
+      "order": 1,
+      "source": {
+        "path": "test-fixtures/automation-test-material/sources/automation-test-material-001.json",
+        "sha256": "493acdf75ce89172cde72c0cc407058fa1a1f4d37f46cca15910d8ce186dc441"
+      },
+      "reader": {
+        "path": "test-fixtures/automation-test-material/readers/automation-test-material-001.json",
+        "sha256": "194c3a6c1c938fa20c1d3cd16d6d2098f7c605899743f8e0b27e130367866815"
+      },
+      "review": {
+        "path": "test-fixtures/automation-test-material/reviews/automation-test-material-001.json",
+        "sha256": "30bcc7409596b4f6208c88ddd2d6976fb063761d1667f2eaac867a97b63c19ef"
+      }
+    },
+    {
+      "id": "automation-test-material-002",
+      "order": 2,
+      "source": {
+        "path": "test-fixtures/automation-test-material/sources/automation-test-material-002.json",
+        "sha256": "356fc89407cf5389676b18e9414272d6eb29b60fb42e29020d2c71597472acb7"
+      },
+      "reader": {
+        "path": "test-fixtures/automation-test-material/readers/automation-test-material-002.json",
+        "sha256": "b9b9e19841b86cd61e5de3f4e9d2819e73e4e76f89f9f9877c35a1a0f2bee6b3"
+      },
+      "review": {
+        "path": "test-fixtures/automation-test-material/reviews/automation-test-material-002.json",
+        "sha256": "e40fb12ff3465906f3a709a183a81d9ee091cfd471b1cb2af2c2ac309da3c399"
+      }
+    }
+  ]
+}

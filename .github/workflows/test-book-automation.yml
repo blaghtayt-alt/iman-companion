@@ -1,0 +1,61 @@
+name: Verify temporary automation test material
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'test-fixtures/automation-test-material/**'
+      - '.github/workflows/test-book-automation.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: temporary-automation-test-material
+  cancel-in-progress: false
+
+jobs:
+  prepare-test-material:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install the existing pinned renderer and dependencies
+        run: |
+          python books/renderer_pin.py --install
+          python -m pip install -r books/requirements.txt
+      - name: Install the existing verified fonts and covers
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python books/install_assets.py --root .
+          mkdir -p "$HOME/.local/share/fonts/iman-books"
+          cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          fc-cache -f
+      - name: Exercise source intake and book preparation in the isolated test repository
+        run: |
+          python test-fixtures/automation-test-material/run.py \
+            --root "$GITHUB_WORKSPACE" \
+            --out "$RUNNER_TEMP/automation-test-material" \
+            --uno-python /usr/bin/python3
+      - name: Preserve the test pair and exact handoff for actual Word review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: automation-test-material-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/automation-test-material/isolated-test-receipt.json
+            ${{ runner.temp }}/automation-test-material/provenance.json
+            ${{ runner.temp }}/automation-test-material/word-launch-manifest.json
+            ${{ runner.temp }}/automation-test-material/transfer.zip
+            ${{ runner.temp }}/automation-test-material/isolated-root.bundle
+            ${{ runner.temp }}/automation-test-material/preparation/
+          if-no-files-found: warn
+          retention-days: 14
