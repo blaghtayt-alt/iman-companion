@@ -1,0 +1,82 @@
+{
+  "schema": "iman-book-source-publication-receipt-v1",
+  "material": {
+    "collection": "articles",
+    "language": "ja",
+    "id": "automation-test-material-ja-articles-001"
+  },
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "schema": "iman-book-unit-v1",
+    "path": "books/units/current/ja/articles/automation-test-material-ja-articles-001.json",
+    "sha256": "e0671e52cec3eb2005bfa3ed8e9f325716f04f9489eca1dfeae8ba7f17a0dd43"
+  },
+  "approvalId": "automation-test-material-ja-articles-001-temporary-publication-v1",
+  "sourceBindings": [
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/source.json",
+      "sha256": "6c4bcb29463213cbfc8f4add775cf2c8955969888ea51bc556e4c76143e614ad"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/source.txt",
+      "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+    }
+  ],
+  "generatedFiles": [
+    "books/units/current/ja/articles/automation-test-material-ja-articles-001.json",
+    "materials/book-publication-approvals/d24e5b2ce2da06aa74bfac80202f695c3ee6f87299c2d5fdc9a4cd81f16ad15c.json",
+    "materials/catalog.json"
+  ],
+  "requiredInputs": [
+    {
+      "path": "test-fixtures/missing-book-test-material/author-technical-review.json",
+      "sha256": "76d72c679bafa328bf88b0ce5c305375d981d814120ed523df35e5fd77b3387c"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/approved-reader-import.json",
+      "sha256": "f5448303ad66ce439ef86b23f3c7f60409c775c77ae69ffa2b31a1a97dd5de8f"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/reader.json",
+      "sha256": "8a5fa08743b59b700fd9c399c59197717823e9c3e4b8ff18910e88bc12239729"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/source-acceptance.json",
+      "sha256": "bfab2d397ad933f90f61a7c0a18f252ce12184f5ce874ab5a6fcb3bdf2fd318a"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/source.json",
+      "sha256": "6c4bcb29463213cbfc8f4add775cf2c8955969888ea51bc556e4c76143e614ad"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/source.txt",
+      "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/technical-review.json",
+      "sha256": "fd5c17edba36fcd83ba096086d9c8cc2011e88c99c8fb9c7f7c2afced1ea3164"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/user-request-receipt.json",
+      "sha256": "7c2cea26618cc542a5e223c9d3492b70f1fcaeda228c8e7f9983df6a36d3efb4"
+    }
+  ],
+  "files": [
+    "books/units/current/ja/articles/automation-test-material-ja-articles-001.json",
+    "materials/book-publication-approvals/d24e5b2ce2da06aa74bfac80202f695c3ee6f87299c2d5fdc9a4cd81f16ad15c.json",
+    "materials/catalog.json",
+    "test-fixtures/missing-book-test-material/author-technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/user-request-receipt.json"
+  ],
+  "sourceApprovalCreated": false,
+  "scopeReleaseHoldsChanged": false,
+  "preparationScopeCreated": false,
+  "intakeSHA256": "d24e5b2ce2da06aa74bfac80202f695c3ee6f87299c2d5fdc9a4cd81f16ad15c",
+  "intakePath": "materials/book-publication-intake/automation-test-material-ja-articles-001.json"
+}

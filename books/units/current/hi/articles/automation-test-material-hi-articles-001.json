@@ -1,0 +1,109 @@
+{
+  "schema": "iman-book-unit-v1",
+  "collection": "articles",
+  "language": "hi",
+  "id": "automation-test-material-hi-articles-001",
+  "testOnly": true,
+  "order": 1,
+  "ordering": {
+    "kind": "global-sequence",
+    "sequence": 1
+  },
+  "title": "स्वचालन परीक्षण सामग्री",
+  "complete": true,
+  "reviewGate": "published-current",
+  "sourceHashes": [
+    "92ee5286c503f9133c186784884e7272c14a8846c55711fcf065df5f94d6808a",
+    "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+  ],
+  "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+  "catalogBindings": [
+    {
+      "collection": "articles",
+      "language": "hi",
+      "id": "automation-test-material-hi-articles-001"
+    }
+  ],
+  "inputBindings": [
+    {
+      "path": "materials/book-publication-approvals/2a73d4cfc7c145bdf3f07407e4c0816b235a17c4f77409d64ae42d1860f0bec7.json",
+      "sha256": "2a73d4cfc7c145bdf3f07407e4c0816b235a17c4f77409d64ae42d1860f0bec7"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/author-technical-review.json",
+      "sha256": "76d72c679bafa328bf88b0ce5c305375d981d814120ed523df35e5fd77b3387c"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/hi/articles/approved-reader-import.json",
+      "sha256": "616a7dcc9640768eab71536dc9b7717379f1c06f05500170a9268a179fff6e91"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/hi/articles/reader.json",
+      "sha256": "c1144c5522c11fe1871e98027599c8b7f2e71c175d85dc12fa0ecc6260bc2f7d"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/hi/articles/source-acceptance.json",
+      "sha256": "7079d9bbca0d44243f9f56cc14fb18df09d85dc7e6c42e557e2f60229cea9e19"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/hi/articles/source.json",
+      "sha256": "92ee5286c503f9133c186784884e7272c14a8846c55711fcf065df5f94d6808a"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/hi/articles/source.txt",
+      "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/hi/articles/technical-review.json",
+      "sha256": "7bf6dc507cf375a96d0a8396e68568b2e298f182e9ab55bda60f9d05e05f2782"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/user-request-receipt.json",
+      "sha256": "7c2cea26618cc542a5e223c9d3492b70f1fcaeda228c8e7f9983df6a36d3efb4"
+    }
+  ],
+  "sections": [
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "TEST TEST",
+          "sourceLiteralProof": {
+            "schema": "iman-source-literal-text-v1",
+            "collection": "articles",
+            "language": "hi",
+            "materialId": "automation-test-material-hi-articles-001",
+            "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+            "source": {
+              "path": "test-fixtures/missing-book-test-material/generated/hi/articles/source.txt",
+              "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+            },
+            "inventory": {
+              "path": "test-fixtures/missing-book-test-material/generated/hi/articles/approved-reader-import.json",
+              "sha256": "616a7dcc9640768eab71536dc9b7717379f1c06f05500170a9268a179fff6e91"
+            },
+            "pointer": [],
+            "start": 0,
+            "end": 9,
+            "textSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+          }
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "kind": "user-requested-temporary-automation-material",
+    "canonicalSourceName": "automation test material",
+    "bodyIsTranslation": false,
+    "religiousSource": false,
+    "technicalAuthorReview": {
+      "path": "test-fixtures/missing-book-test-material/generated/hi/articles/technical-review.json",
+      "sha256": "7bf6dc507cf375a96d0a8396e68568b2e298f182e9ab55bda60f9d05e05f2782"
+    }
+  },
+  "publicationApproval": {
+    "path": "materials/book-publication-approvals/2a73d4cfc7c145bdf3f07407e4c0816b235a17c4f77409d64ae42d1860f0bec7.json",
+    "sha256": "2a73d4cfc7c145bdf3f07407e4c0816b235a17c4f77409d64ae42d1860f0bec7",
+    "approvalId": "automation-test-material-hi-articles-001-temporary-publication-v1"
+  }
+}

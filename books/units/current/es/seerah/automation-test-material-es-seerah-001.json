@@ -1,0 +1,118 @@
+{
+  "schema": "iman-book-unit-v1",
+  "collection": "seerah",
+  "language": "es",
+  "id": "automation-test-material-es-seerah-001",
+  "testOnly": true,
+  "order": 1,
+  "ordering": {
+    "kind": "global-sequence",
+    "sequence": 1
+  },
+  "title": "automation test material",
+  "complete": true,
+  "reviewGate": "published-current",
+  "sourceHashes": [
+    "dbf60d161d74ca4c0f732098197c355ff536dbe6cda7fe63b7f40bfbf66aecee",
+    "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+  ],
+  "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+  "catalogBindings": [
+    {
+      "collection": "seerah",
+      "language": "es",
+      "id": "automation-test-material-es-seerah-001"
+    }
+  ],
+  "inputBindings": [
+    {
+      "path": "materials/book-publication-approvals/385a3c863b1fa511587c2a6663d5af96f95ee6ac33575a107e73fe402a918b20.json",
+      "sha256": "385a3c863b1fa511587c2a6663d5af96f95ee6ac33575a107e73fe402a918b20"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/author-technical-review.json",
+      "sha256": "76d72c679bafa328bf88b0ce5c305375d981d814120ed523df35e5fd77b3387c"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/es/seerah/approved-reader-import.json",
+      "sha256": "74a7917021c479bee84990dcda85782b86b35dc2a26fa767aa49d5b6fd4f8076"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/es/seerah/reader.json",
+      "sha256": "43a04bc5cc596fd6358e6929ba2989c82494bf26e6d8a345300db6afe03b3ad7"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/es/seerah/source-acceptance.json",
+      "sha256": "8e4ebe431f529c1032e3a3925adc4c8f025b7cfb1b2614989fac88066997d12b"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/es/seerah/source.json",
+      "sha256": "dbf60d161d74ca4c0f732098197c355ff536dbe6cda7fe63b7f40bfbf66aecee"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/es/seerah/source.txt",
+      "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/es/seerah/technical-review.json",
+      "sha256": "3783e642af32ff52dfee2b0dad2d7a00f266326a46c08d7124f92e3ce00c53fd"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/user-request-receipt.json",
+      "sha256": "7c2cea26618cc542a5e223c9d3492b70f1fcaeda228c8e7f9983df6a36d3efb4"
+    }
+  ],
+  "sections": [
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "TEST TEST",
+          "sourceLiteralProof": {
+            "schema": "iman-source-literal-text-v1",
+            "collection": "seerah",
+            "language": "es",
+            "materialId": "automation-test-material-es-seerah-001",
+            "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+            "source": {
+              "path": "test-fixtures/missing-book-test-material/generated/es/seerah/source.txt",
+              "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+            },
+            "inventory": {
+              "path": "test-fixtures/missing-book-test-material/generated/es/seerah/approved-reader-import.json",
+              "sha256": "74a7917021c479bee84990dcda85782b86b35dc2a26fa767aa49d5b6fd4f8076"
+            },
+            "pointer": [],
+            "start": 0,
+            "end": 9,
+            "textSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+          }
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "kind": "user-requested-temporary-automation-material",
+    "canonicalSourceName": "automation test material",
+    "bodyIsTranslation": false,
+    "religiousSource": false,
+    "technicalAuthorReview": {
+      "path": "test-fixtures/missing-book-test-material/generated/es/seerah/technical-review.json",
+      "sha256": "3783e642af32ff52dfee2b0dad2d7a00f266326a46c08d7124f92e3ce00c53fd"
+    }
+  },
+  "referenceReadiness": {
+    "auditScope": "Exact TEST TEST body contains no quotations, citations or chapter facts.",
+    "auditedReaderTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "sourceReferenceCount": 0,
+    "unboundQuranSegments": 0,
+    "unboundHadithSegments": 0,
+    "unboundScholarSegments": 0,
+    "unresolvedSourceReferenceCount": 0
+  },
+  "publicationApproval": {
+    "path": "materials/book-publication-approvals/385a3c863b1fa511587c2a6663d5af96f95ee6ac33575a107e73fe402a918b20.json",
+    "sha256": "385a3c863b1fa511587c2a6663d5af96f95ee6ac33575a107e73fe402a918b20",
+    "approvalId": "automation-test-material-es-seerah-001-temporary-publication-v1"
+  }
+}
