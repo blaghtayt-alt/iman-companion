@@ -9,8 +9,8 @@
 | --- | --- | --- | --- |
 | บทใคร่ครวญ อัลกุรอาน | [ดาวน์โหลดหนังสือที่แก้ไขได้ (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_th_tadabbur-extended.docx) | [ดาวน์โหลดฉบับอ่าน (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_th_tadabbur-extended.pdf) | 2 · เนื้อหาที่รวมไว้: สูเราะฮ์ 1, 112 |
 | หะดีษ · ความยิ่งใหญ่ของอัลลอฮ์และผลต่อหัวใจและการปฏิบัติ (+1) | [ดาวน์โหลดหนังสือที่แก้ไขได้ (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_th_hadith.docx) | [ดาวน์โหลดฉบับอ่าน (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42532552652-1/Iman_Companion_th_hadith.pdf) | 2 · เนื้อหาที่รวมไว้: หะดีษ 2–3 |
-| ซีเราะฮ์ | ยังไม่เผยแพร่ | ยังไม่เผยแพร่ | — |
-| บทความ | ยังไม่เผยแพร่ | ยังไม่เผยแพร่ | — |
+| ซีเราะฮ์ · เนื้อหาทดสอบระบบอัตโนมัติ · เนื้อหาทดสอบระบบอัตโนมัติชั่วคราว | [ดาวน์โหลดหนังสือที่แก้ไขได้ (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_th_seerah.docx) | [ดาวน์โหลดฉบับอ่าน (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_th_seerah.pdf) | 1 · เนื้อหาที่รวมไว้: 1 |
+| บทความ · เนื้อหาทดสอบระบบอัตโนมัติ · เนื้อหาทดสอบระบบอัตโนมัติชั่วคราว | [ดาวน์โหลดหนังสือที่แก้ไขได้ (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_th_articles.docx) | [ดาวน์โหลดฉบับอ่าน (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_th_articles.pdf) | 1 · เนื้อหาที่รวมไว้: 1 |
 
 ## บทใคร่ครวญ อัลกุรอาน
 
@@ -21,6 +21,14 @@
 
 - ความยิ่งใหญ่ของอัลลอฮ์และผลต่อหัวใจและการปฏิบัติ
 - หัวใจอยู่ภายใต้การผันเปลี่ยนของพระผู้ทรงกรุณาปรานี
+
+## ซีเราะฮ์ · เนื้อหาทดสอบระบบอัตโนมัติ
+
+- เนื้อหาทดสอบระบบอัตโนมัติ
+
+## บทความ · เนื้อหาทดสอบระบบอัตโนมัติ
+
+- เนื้อหาทดสอบระบบอัตโนมัติ
 
 ### บทใคร่ครวญ อัลกุรอาน
 
@@ -34,14 +42,24 @@
 
 - ยังไม่มีต้นฉบับปัจจุบันในภาษานี้: หะดีษ 1
 
+### ซีเราะฮ์ · เนื้อหาทดสอบระบบอัตโนมัติ · เนื้อหาทดสอบระบบอัตโนมัติชั่วคราว
+
+เนื้อหาที่รวมไว้: 1
+
+### บทความ · เนื้อหาทดสอบระบบอัตโนมัติ · เนื้อหาทดสอบระบบอัตโนมัติชั่วคราว
+
+เนื้อหาที่รวมไว้: 1
+
 ## ดาวน์โหลดรวมกัน
+
+ไฟล์ดาวน์โหลดรวมมีเนื้อหาทดสอบชั่วคราว
 
 ฉบับรวมเป็นเล่มเดียว
 
-[ดาวน์โหลดหนังสือที่แก้ไขได้ (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_th_all-books.docx)
+[ดาวน์โหลดหนังสือที่แก้ไขได้ (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_th_all-books.docx)
 
-[ดาวน์โหลดฉบับอ่าน (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_th_all-books.pdf)
+[ดาวน์โหลดฉบับอ่าน (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_th_all-books.pdf)
 
-[ไฟล์บีบอัดหนังสือแยกเล่ม](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_th_all-books.zip)
+[ไฟล์บีบอัดหนังสือแยกเล่ม](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_th_all-books.zip)
 
 แปลโดยใช้ปัญญาประดิษฐ์ช่วยและยังต้องตรวจสอบ การตรวจด้วยแบบจำลองไม่อาจทดแทนการทบทวนโดยผู้อ่านที่มีความรู้เหมาะสมได้

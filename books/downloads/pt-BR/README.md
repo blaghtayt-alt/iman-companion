@@ -9,8 +9,8 @@ Português
 | --- | --- | --- | --- |
 | Reflexão sobre o Alcorão | [Baixar livro editável (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_tadabbur-extended.docx) | [Baixar versão de leitura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_tadabbur-extended.pdf) | 15 · Incluído: Surata 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadith · A justiça de Allah, Sua autossuficiência e a dependência de Seus servos (+3) | [Baixar livro editável (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_hadith.docx) | [Baixar versão de leitura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_pt-BR_hadith.pdf) | 4 · Incluído: Hadith 1–4 |
-| Sira | Ainda não disponível | Ainda não disponível | — |
-| Artigos | Ainda não disponível | Ainda não disponível | — |
+| Sira · automation test material · Material temporário de teste de automação | [Baixar livro editável (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_pt-BR_seerah.docx) | [Baixar versão de leitura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_pt-BR_seerah.pdf) | 1 · Incluído: 1 |
+| Artigos · automation test material · Material temporário de teste de automação | [Baixar livro editável (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_pt-BR_articles.docx) | [Baixar versão de leitura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_pt-BR_articles.pdf) | 1 · Incluído: 1 |
 
 ## Reflexão sobre o Alcorão
 
@@ -37,6 +37,14 @@ Português
 - Os corações estão sob o controle do Misericordioso
 - Permanecer firme na religião e conhecer as características do coração desviado
 
+## Sira · automation test material
+
+- automation test material
+
+## Artigos · automation test material
+
+- automation test material
+
 ### Reflexão sobre o Alcorão
 
 Incluído: Surata 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
@@ -45,14 +53,24 @@ Incluído: Surata 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
 
 Incluído: Hadith 1–4
 
+### Sira · automation test material · Material temporário de teste de automação
+
+Incluído: 1
+
+### Artigos · automation test material · Material temporário de teste de automação
+
+Incluído: 1
+
 ## Baixar juntos
+
+O download combinado contém material temporário de teste
 
 Uma edição reunida
 
-[Baixar livro editável (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_pt-BR_all-books.docx)
+[Baixar livro editável (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_pt-BR_all-books.docx)
 
-[Baixar versão de leitura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_pt-BR_all-books.pdf)
+[Baixar versão de leitura (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_pt-BR_all-books.pdf)
 
-[ZIP dos livros separados](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_pt-BR_all-books.zip)
+[ZIP dos livros separados](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_pt-BR_all-books.zip)
 
 Tradução com auxílio de inteligência artificial — requer verificação. As verificações assistidas por modelos não substituem a revisão por um leitor qualificado.

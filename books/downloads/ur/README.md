@@ -9,8 +9,8 @@
 | --- | --- | --- | --- |
 | تدبرِ قرآن | [قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_tadabbur-extended.docx) | [مطالعے کی نقل ڈاؤن لوڈ کریں (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_tadabbur-extended.pdf) | ۱۵ · شامل مواد: سورۃ ۱, ۱۵, ۱۷, ۴۰, ۵۵, ۶۱–۶۳, ۶۸, ۹۳, ۹۸–۹۹, ۱۰۱, ۱۰۳, ۱۱۲ |
 | حدیث · اللہ کا عدل، اس کی بے نیازی اور بندوں کا اس کے محتاج ہونا (+2) | [قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_hadith.docx) | [مطالعے کی نقل ڈاؤن لوڈ کریں (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ur_hadith.pdf) | ۳ · شامل مواد: حدیث ۱–۳ |
-| سیرت | ابھی شائع نہیں ہوا | ابھی شائع نہیں ہوا | — |
-| مضامین | ابھی شائع نہیں ہوا | ابھی شائع نہیں ہوا | — |
+| سیرت · خودکار نظام کی جانچ کا مواد · خودکار نظام کی عارضی آزمائشی مثال | [قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ur_seerah.docx) | [مطالعے کی نقل ڈاؤن لوڈ کریں (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ur_seerah.pdf) | ۱ · شامل مواد: ۱ |
+| مضامین · خودکار نظام کی جانچ کا مواد · خودکار نظام کی عارضی آزمائشی مثال | [قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ur_articles.docx) | [مطالعے کی نقل ڈاؤن لوڈ کریں (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ur_articles.pdf) | ۱ · شامل مواد: ۱ |
 
 ## تدبرِ قرآن
 
@@ -36,6 +36,14 @@
 - اللہ کی عظمت اور دل و عمل پر اس کے اثرات
 - دل رحمن کے تصرف کے تحت ہیں
 
+## سیرت · خودکار نظام کی جانچ کا مواد
+
+- خودکار نظام کی جانچ کا مواد
+
+## مضامین · خودکار نظام کی جانچ کا مواد
+
+- خودکار نظام کی جانچ کا مواد
+
 ### تدبرِ قرآن
 
 شامل مواد: سورۃ ۱, ۱۵, ۱۷, ۴۰, ۵۵, ۶۱–۶۳, ۶۸, ۹۳, ۹۸–۹۹, ۱۰۱, ۱۰۳, ۱۱۲
@@ -44,14 +52,24 @@
 
 شامل مواد: حدیث ۱–۳
 
+### سیرت · خودکار نظام کی جانچ کا مواد · خودکار نظام کی عارضی آزمائشی مثال
+
+شامل مواد: ۱
+
+### مضامین · خودکار نظام کی جانچ کا مواد · خودکار نظام کی عارضی آزمائشی مثال
+
+شامل مواد: ۱
+
 ## کتابیں ایک ساتھ ڈاؤن لوڈ کریں
+
+مشترکہ ڈاؤن لوڈ میں عارضی آزمائشی مواد شامل ہے
 
 ایک مشترک کتاب
 
-[قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ur_all-books.docx)
+[قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ur_all-books.docx)
 
-[مطالعے کی نقل ڈاؤن لوڈ کریں (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ur_all-books.pdf)
+[مطالعے کی نقل ڈاؤن لوڈ کریں (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ur_all-books.pdf)
 
-[الگ کتابوں کی زِپ فائل](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ur_all-books.zip)
+[الگ کتابوں کی زِپ فائل](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ur_all-books.zip)
 
 مصنوعی ذہانت کی مدد سے ترجمہ کیا گیا ہے؛ تصدیق درکار ہے۔ ماڈل کی مدد سے کی گئی جانچ کسی اہل قاری کے جائزے کا متبادل نہیں ہے۔

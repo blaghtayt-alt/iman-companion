@@ -9,7 +9,7 @@ Bahasa Melayu
 | --- | --- | --- | --- |
 | Tadabbur Al-Quran | [Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_tadabbur-extended.docx) | [Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_tadabbur-extended.pdf) | 15 · Disertakan: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadis · Keadilan Allah, sifat-Nya yang Maha Kaya dan kebergantungan hamba kepada-Nya (+3) | [Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_hadith.docx) | [Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_ms_hadith.pdf) | 4 · Disertakan: Hadis 1–4 |
-| Sirah | Belum tersedia | Belum tersedia | — |
+| Sirah · automation test material · Bahan ujian automasi sementara | [Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ms_seerah.docx) | [Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ms_seerah.pdf) | 1 · Disertakan: 1 |
 | Artikel · Yang sedikit pun mencukupi | [Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1/Iman_Companion_ms_articles.docx) | [Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1/Iman_Companion_ms_articles.pdf) | 1 · Disertakan: Artikel 1 |
 
 ## Tadabbur Al-Quran
@@ -37,6 +37,10 @@ Bahasa Melayu
 - Hati berada di bawah pengaturan Ar-Rahman
 - Teguh dalam agama dan mengenali keadaan hati yang menyimpang
 
+## Sirah · automation test material
+
+- automation test material
+
 ## Artikel · Yang sedikit pun mencukupi
 
 - Yang sedikit pun mencukupi
@@ -49,18 +53,24 @@ Disertakan: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
 
 Disertakan: Hadis 1–4
 
+### Sirah · automation test material · Bahan ujian automasi sementara
+
+Disertakan: 1
+
 ### Artikel · Yang sedikit pun mencukupi
 
 Disertakan: Artikel 1
 
 ## Muat turun bersama
 
+Muat turun gabungan mengandungi bahan ujian sementara
+
 Satu edisi gabungan
 
-[Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ms_all-books.docx)
+[Muat turun buku boleh sunting (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ms_all-books.docx)
 
-[Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ms_all-books.pdf)
+[Muat turun salinan bacaan (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ms_all-books.pdf)
 
-[ZIP buku berasingan](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ms_all-books.zip)
+[ZIP buku berasingan](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ms_all-books.zip)
 
 Terjemahan dengan bantuan kecerdasan buatan — perlu disahkan. Semakan berbantukan model bukan pengganti semakan oleh pembaca yang berkelayakan.

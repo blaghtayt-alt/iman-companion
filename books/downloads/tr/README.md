@@ -9,7 +9,7 @@ Türkçe
 | --- | --- | --- | --- |
 | Kur’an Üzerine Tefekkür | [Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_tr_tadabbur-extended.docx) | [Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_tr_tadabbur-extended.pdf) | 15 · İçerilenler: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112 |
 | Hadis · Allah’ın adaleti, hiçbir şeye muhtaç olmayışı ve kullarının O’na muhtaç oluşu (+3) | [Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1/Iman_Companion_tr_hadith.docx) | [Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1/Iman_Companion_tr_hadith.pdf) | 4 · İçerilenler: Hadis 1–4 |
-| Siyer | Henüz yayımlanmadı | Henüz yayımlanmadı | — |
+| Siyer · automation test material · Geçici otomasyon test materyali | [Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_tr_seerah.docx) | [Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_tr_seerah.pdf) | 1 · İçerilenler: 1 |
 | Makaleler · Azı yeter | [Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1/Iman_Companion_tr_articles.docx) | [Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1/Iman_Companion_tr_articles.pdf) | 1 · İçerilenler: Makaleler 1 |
 
 ## Kur’an Üzerine Tefekkür
@@ -37,6 +37,10 @@ Türkçe
 - Kalpler Rahmân’ın tasarrufu altındadır
 - Dinde sebat etmek ve haktan sapan kalbin hâllerini tanımak
 
+## Siyer · automation test material
+
+- automation test material
+
 ## Makaleler · Azı yeter
 
 - Azı yeter
@@ -49,18 +53,24 @@ Türkçe
 
 İçerilenler: Hadis 1–4
 
+### Siyer · automation test material · Geçici otomasyon test materyali
+
+İçerilenler: 1
+
 ### Makaleler · Azı yeter
 
 İçerilenler: Makaleler 1
 
 ## Birlikte indir
 
+Birleşik indirme geçici test materyali içerir
+
 Tek birleştirilmiş kitap
 
-[Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_tr_all-books.docx)
+[Düzenlenebilir kitabı indir (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_tr_all-books.docx)
 
-[Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_tr_all-books.pdf)
+[Okuma nüshasını indir (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_tr_all-books.pdf)
 
-[Ayrı kitapların ZIP dosyası](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_tr_all-books.zip)
+[Ayrı kitapların ZIP dosyası](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_tr_all-books.zip)
 
 Yapay zekâ yardımıyla çevrilmiştir; doğrulanması gerekir. Model destekli kontroller, yetkin bir okuyucunun incelemesinin yerini tutmaz.

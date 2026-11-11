@@ -6140,7 +6140,7 @@
       "language": "ur",
       "name": "اردو",
       "brand": "ایمان کا ساتھی",
-      "title": "کتابیں ڈاؤن لوڈ کریں",
+      "title": "کتابیں ڈاؤن لوڈ کریں · مشترکہ ڈاؤن لوڈ میں عارضی آزمائشی مواد شامل ہے",
       "included": "شامل مواد",
       "downloads": {
         "docx": "قابل تدوین کتاب ڈاؤن لوڈ کریں (Word)",
@@ -6450,20 +6450,130 @@
               "numberLabel": "حدیث ۳"
             }
           ]
+        },
+        {
+          "language": "ur",
+          "collection": "seerah",
+          "title": "سیرت · خودکار نظام کی جانچ کا مواد",
+          "cover": "assets/covers/a0ccd969cf409370dbfb0ca90ebabdaaea44587e508b4be76c9bb2d95d0d92e4.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ur_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ur_seerah.pdf",
+          "sha256": "7041bd37e12dd288e4c4c2d9071d580fcf60bf51c5be1cd2f608b71cafca6c69",
+          "pdfSha256": "a0ccd969cf409370dbfb0ca90ebabdaaea44587e508b4be76c9bb2d95d0d92e4",
+          "units": 1,
+          "pages": 4,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "ur",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-ur-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-ur-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-ur-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-ur-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-ur-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 22,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "شامل مواد: ۱",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-ur-seerah-001",
+              "title": "خودکار نظام کی جانچ کا مواد"
+            }
+          ],
+          "statusLabel": "خودکار نظام کی عارضی آزمائشی مثال"
+        },
+        {
+          "language": "ur",
+          "collection": "articles",
+          "title": "مضامین · خودکار نظام کی جانچ کا مواد",
+          "cover": "assets/covers/8f1b71ee3b4790ff6ced95eb2e9e5574d165ab7f7a0532a9f43f49a3f89a5926.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ur_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ur_articles.pdf",
+          "sha256": "ad40e573bbeceffe3fb4407cf2afc18a73a3b716dcb0efcb4b2f8506863ce382",
+          "pdfSha256": "8f1b71ee3b4790ff6ced95eb2e9e5574d165ab7f7a0532a9f43f49a3f89a5926",
+          "units": 1,
+          "pages": 4,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "ur",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-ur-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-ur-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-ur-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-ur-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-ur-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "شامل مواد: ۱",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-ur-articles-001",
+              "title": "خودکار نظام کی جانچ کا مواد"
+            }
+          ],
+          "statusLabel": "خودکار نظام کی عارضی آزمائشی مثال"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ur_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ur_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_ur_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ur_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ur_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ur_all-books.pdf",
+        "parts": 4
       }
     },
     "id": {
       "language": "id",
       "name": "Bahasa Indonesia",
       "brand": "Sahabat Iman",
-      "title": "Unduhan buku",
+      "title": "Unduhan buku · Unduhan gabungan memuat materi uji sementara",
       "included": "Materi yang disertakan",
       "downloads": {
         "docx": "Unduh buku yang dapat disunting (Word)",
@@ -6790,6 +6900,61 @@
         },
         {
           "language": "id",
+          "collection": "seerah",
+          "title": "Sirah · automation test material",
+          "cover": "assets/covers/45d21b3b952c9f5946a6e5931ab052c80c82a5c8cd4564f2d9ab0a606be51733.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_id_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_id_seerah.pdf",
+          "sha256": "e2c67c8114d754db415bf425db52e00ebf0f53ee4a2dded001ab415a0615c613",
+          "pdfSha256": "45d21b3b952c9f5946a6e5931ab052c80c82a5c8cd4564f2d9ab0a606be51733",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "id",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-id-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-id-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-id-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-id-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-id-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 22,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Termasuk: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-id-seerah-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Materi uji otomatisasi sementara"
+        },
+        {
+          "language": "id",
           "collection": "articles",
           "title": "Artikel · Sedikit sudah cukup",
           "cover": "assets/covers/1ef4f59e82a61b7a769643ed58eb5ba909ab22782b1346c5328ff06cd3b5e34e.webp",
@@ -6847,17 +7012,17 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_id_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_id_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_id_all-books.pdf",
-        "parts": 3
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_id_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_id_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_id_all-books.pdf",
+        "parts": 4
       }
     },
     "ms": {
       "language": "ms",
       "name": "Bahasa Melayu",
       "brand": "Sahabat Iman",
-      "title": "Muat turun buku",
+      "title": "Muat turun buku · Muat turun gabungan mengandungi bahan ujian sementara",
       "included": "Bahan yang disertakan",
       "downloads": {
         "docx": "Muat turun buku boleh sunting (Word)",
@@ -7184,6 +7349,61 @@
         },
         {
           "language": "ms",
+          "collection": "seerah",
+          "title": "Sirah · automation test material",
+          "cover": "assets/covers/cbe55545cd71939e62a8e4b75ad7555f27de6ed2c452dc7d321f568b2b3a7124.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ms_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ms_seerah.pdf",
+          "sha256": "ca668756cb56e901838eef99d2a345676c50a09c915d1fa0ab8172c387b4e840",
+          "pdfSha256": "cbe55545cd71939e62a8e4b75ad7555f27de6ed2c452dc7d321f568b2b3a7124",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "ms",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-ms-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-ms-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-ms-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-ms-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-ms-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 22,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Disertakan: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-ms-seerah-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Bahan ujian automasi sementara"
+        },
+        {
+          "language": "ms",
           "collection": "articles",
           "title": "Artikel · Yang sedikit pun mencukupi",
           "cover": "assets/covers/aed89a2e6c57692b7539608c6fd77bc05f2fd45bcf4fe3b9703104cc2e52b882.webp",
@@ -7241,17 +7461,17 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ms_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ms_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ms_all-books.pdf",
-        "parts": 3
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ms_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ms_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ms_all-books.pdf",
+        "parts": 4
       }
     },
     "bn": {
       "language": "bn",
       "name": "বাংলা",
       "brand": "ঈমানের সাথী",
-      "title": "বই ডাউনলোড",
+      "title": "বই ডাউনলোড · একত্রিত ডাউনলোডে সাময়িক পরীক্ষামূলক উপাদান রয়েছে",
       "included": "অন্তর্ভুক্ত বিষয়",
       "downloads": {
         "docx": "সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)",
@@ -7561,20 +7781,130 @@
               "numberLabel": "হাদিস ৩"
             }
           ]
+        },
+        {
+          "language": "bn",
+          "collection": "seerah",
+          "title": "সীরাত · স্বয়ংক্রিয়তা পরীক্ষার উপকরণ",
+          "cover": "assets/covers/5791beb9051831e60f2aaf60c24d59d6ecd44eb708594146cf7f8bccd9e6ff7e.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_bn_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_bn_seerah.pdf",
+          "sha256": "6c284ed316cff3278404be4c3278f50bebe78268cee540bf4c96830a0c5fcd25",
+          "pdfSha256": "5791beb9051831e60f2aaf60c24d59d6ecd44eb708594146cf7f8bccd9e6ff7e",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "bn",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-bn-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-bn-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-bn-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-bn-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-bn-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 22,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "অন্তর্ভুক্ত: ১",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-bn-seerah-001",
+              "title": "স্বয়ংক্রিয়তা পরীক্ষার উপকরণ"
+            }
+          ],
+          "statusLabel": "স্বয়ংক্রিয় ব্যবস্থার সাময়িক পরীক্ষামূলক উপাদান"
+        },
+        {
+          "language": "bn",
+          "collection": "articles",
+          "title": "প্রবন্ধ · স্বয়ংক্রিয়তা পরীক্ষার উপকরণ",
+          "cover": "assets/covers/75a84f8c688a9013c14bddab58376adec91ff6588b00357402b4b7bf4b69cd49.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_bn_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_bn_articles.pdf",
+          "sha256": "84e5e55beae917edcebadf9ca19bfeaac8d490f3537cb3be8ec7e418998e7818",
+          "pdfSha256": "75a84f8c688a9013c14bddab58376adec91ff6588b00357402b4b7bf4b69cd49",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "bn",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-bn-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-bn-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-bn-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-bn-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-bn-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "অন্তর্ভুক্ত: ১",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-bn-articles-001",
+              "title": "স্বয়ংক্রিয়তা পরীক্ষার উপকরণ"
+            }
+          ],
+          "statusLabel": "স্বয়ংক্রিয় ব্যবস্থার সাময়িক পরীক্ষামূলক উপাদান"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_bn_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_bn_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_bn_all-books.pdf",
+        "parts": 4
       }
     },
     "tr": {
       "language": "tr",
       "name": "Türkçe",
       "brand": "İman Yoldaşı",
-      "title": "Kitap indirmeleri",
+      "title": "Kitap indirmeleri · Birleşik indirme geçici test materyali içerir",
       "included": "İçerilen metinler",
       "downloads": {
         "docx": "Düzenlenebilir kitabı indir (Word)",
@@ -7901,6 +8231,61 @@
         },
         {
           "language": "tr",
+          "collection": "seerah",
+          "title": "Siyer · automation test material",
+          "cover": "assets/covers/afa71cff3fcda2091ebf87c6531d607da88d55945f895755558eab013fa4971b.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_tr_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_tr_seerah.pdf",
+          "sha256": "a5618d7c04606d9ed761e3da4f36ad66e2297fce04cc16fd68ea87a755c0406a",
+          "pdfSha256": "afa71cff3fcda2091ebf87c6531d607da88d55945f895755558eab013fa4971b",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "tr",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-tr-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-tr-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-tr-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-tr-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-tr-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 22,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "İçerilenler: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-tr-seerah-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Geçici otomasyon test materyali"
+        },
+        {
+          "language": "tr",
           "collection": "articles",
           "title": "Makaleler · Azı yeter",
           "cover": "assets/covers/8fa614e737e81f1087a16dd93b31c5b36e70150828c956a2e954ba641271c013.webp",
@@ -7958,17 +8343,17 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_tr_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_tr_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_tr_all-books.pdf",
-        "parts": 3
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_tr_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_tr_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_tr_all-books.pdf",
+        "parts": 4
       }
     },
     "fr": {
       "language": "fr",
       "name": "Français",
       "brand": "Compagnon de la Foi",
-      "title": "Téléchargement des livres",
+      "title": "Téléchargement des livres · Le téléchargement combiné contient du contenu de test temporaire",
       "included": "Textes inclus",
       "downloads": {
         "docx": "Télécharger le livre modifiable (Word)",
@@ -8313,6 +8698,61 @@
         },
         {
           "language": "fr",
+          "collection": "seerah",
+          "title": "Sîra · automation test material",
+          "cover": "assets/covers/89640bf97b18de87ac81a89b19d928e6f84c40bc04d2b664c3ae1d80f2f780c1.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_fr_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_fr_seerah.pdf",
+          "sha256": "a086e98efed38877b16badfb5a91b593aaa8d5fd59726c8f4364596c5162ebab",
+          "pdfSha256": "89640bf97b18de87ac81a89b19d928e6f84c40bc04d2b664c3ae1d80f2f780c1",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "fr",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-fr-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-fr-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-fr-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-fr-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-fr-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 22,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Inclus: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-fr-seerah-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Contenu temporaire de test automatisé"
+        },
+        {
+          "language": "fr",
           "collection": "articles",
           "title": "Articles · Un peu suffit",
           "cover": "assets/covers/392973f33f49d517ff273797e2c1211df7d35133d07b6714761ff631b449a9a4.webp",
@@ -8370,17 +8810,17 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_fr_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_fr_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_fr_all-books.pdf",
-        "parts": 3
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_fr_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_fr_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_fr_all-books.pdf",
+        "parts": 4
       }
     },
     "pt-BR": {
       "language": "pt-BR",
       "name": "Português",
       "brand": "Companheiro da Fé",
-      "title": "Downloads de livros",
+      "title": "Downloads de livros · O download combinado contém material temporário de teste",
       "included": "Textos incluídos",
       "downloads": {
         "docx": "Baixar livro editável (Word)",
@@ -8704,20 +9144,130 @@
               "numberLabel": "Hadith 4"
             }
           ]
+        },
+        {
+          "language": "pt-BR",
+          "collection": "seerah",
+          "title": "Sira · automation test material",
+          "cover": "assets/covers/bd55dca2ba5870d613750bf9b73353298bc255763b63781cc416846ac40f8d22.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_pt-BR_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_pt-BR_seerah.pdf",
+          "sha256": "66b1194461f0b790815758b2ce4353d4aa0a3dc2ff87a56ead7ef4ef226b7e1e",
+          "pdfSha256": "bd55dca2ba5870d613750bf9b73353298bc255763b63781cc416846ac40f8d22",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "pt-BR",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-pt-BR-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-pt-BR-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-pt-BR-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-pt-BR-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-pt-BR-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 22,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Incluído: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-pt-BR-seerah-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Material temporário de teste de automação"
+        },
+        {
+          "language": "pt-BR",
+          "collection": "articles",
+          "title": "Artigos · automation test material",
+          "cover": "assets/covers/7f4a9f9048cb67cda19451f072e764b89ab7e57c742ac2ee42a6a0a57d164175.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_pt-BR_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_pt-BR_articles.pdf",
+          "sha256": "f25d8088a8c0512d814ec6ff28db48033605b22f53463ff26df894eda0c0357d",
+          "pdfSha256": "7f4a9f9048cb67cda19451f072e764b89ab7e57c742ac2ee42a6a0a57d164175",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "pt-BR",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-pt-BR-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-pt-BR-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-pt-BR-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-pt-BR-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-pt-BR-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Incluído: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-pt-BR-articles-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Material temporário de teste de automação"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_pt-BR_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_pt-BR_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_pt-BR_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_pt-BR_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_pt-BR_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_pt-BR_all-books.pdf",
+        "parts": 4
       }
     },
     "hi": {
       "language": "hi",
       "name": "हिन्दी",
       "brand": "ईमान का साथी",
-      "title": "पुस्तकें डाउनलोड करें",
+      "title": "पुस्तकें डाउनलोड करें · संयुक्त डाउनलोड में अस्थायी परीक्षण सामग्री शामिल है",
       "included": "शामिल सामग्री",
       "downloads": {
         "docx": "संपादन योग्य पुस्तक डाउनलोड करें (Word)",
@@ -8884,20 +9434,130 @@
               "numberLabel": "हदीस ३"
             }
           ]
+        },
+        {
+          "language": "hi",
+          "collection": "seerah",
+          "title": "सीरत · स्वचालन परीक्षण सामग्री",
+          "cover": "assets/covers/d86e4d4b1cbde10ccf02d27b8c993772228412f24b749656f02b222308cc1baf.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_hi_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_hi_seerah.pdf",
+          "sha256": "3734c18d1430ef460660a94e44664aedd5080858ddceb7f6031ff01e22037178",
+          "pdfSha256": "d86e4d4b1cbde10ccf02d27b8c993772228412f24b749656f02b222308cc1baf",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "hi",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-hi-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-hi-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-hi-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-hi-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-hi-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 10,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "शामिल: १",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-hi-seerah-001",
+              "title": "स्वचालन परीक्षण सामग्री"
+            }
+          ],
+          "statusLabel": "स्वचालन के लिए अस्थायी परीक्षण सामग्री"
+        },
+        {
+          "language": "hi",
+          "collection": "articles",
+          "title": "लेख · स्वचालन परीक्षण सामग्री",
+          "cover": "assets/covers/1c0ce2380141969361f91679bdb47be60b3748817eb0ddb2ae4e5d7b90e92ca4.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_hi_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_hi_articles.pdf",
+          "sha256": "75368f06811bf43d2f17917db67918541525db62173168113b6219809c4f3cae",
+          "pdfSha256": "1c0ce2380141969361f91679bdb47be60b3748817eb0ddb2ae4e5d7b90e92ca4",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "hi",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-hi-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-hi-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-hi-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-hi-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-hi-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "शामिल: १",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-hi-articles-001",
+              "title": "स्वचालन परीक्षण सामग्री"
+            }
+          ],
+          "statusLabel": "स्वचालन के लिए अस्थायी परीक्षण सामग्री"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_hi_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_hi_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_hi_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_hi_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_hi_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_hi_all-books.pdf",
+        "parts": 4
       }
     },
     "ru": {
       "language": "ru",
       "name": "Русский",
       "brand": "Спутник веры",
-      "title": "Скачать книги",
+      "title": "Скачать книги · Общая загрузка содержит временный тестовый материал",
       "included": "Включённые материалы",
       "downloads": {
         "docx": "Скачать редактируемую книгу (Word)",
@@ -9081,6 +9741,61 @@
         },
         {
           "language": "ru",
+          "collection": "seerah",
+          "title": "Сира · Материал для проверки автоматизации",
+          "cover": "assets/covers/6bddcda0ab69cceabe9e1610d50355194fad60f0fc52ded3c4b2935f85bf4384.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ru_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ru_seerah.pdf",
+          "sha256": "e29a9d7540245be724f4695b798090e84f0671bb35420e8fd8bb0f59d92da288",
+          "pdfSha256": "6bddcda0ab69cceabe9e1610d50355194fad60f0fc52ded3c4b2935f85bf4384",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "ru",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-ru-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-ru-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-ru-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-ru-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-ru-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 10,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Включено: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-ru-seerah-001",
+              "title": "Материал для проверки автоматизации"
+            }
+          ],
+          "statusLabel": "Временный материал для проверки автоматизации"
+        },
+        {
+          "language": "ru",
           "collection": "articles",
           "title": "Статьи · Малого достаточно",
           "cover": "assets/covers/9e5eb4cf345dbcaa34003119ceabc001450ad6a60eec08ef06edf3f852b2b68e.webp",
@@ -9138,17 +9853,17 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ru_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ru_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ru_all-books.pdf",
-        "parts": 3
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ru_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ru_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ru_all-books.pdf",
+        "parts": 4
       }
     },
     "es": {
       "language": "es",
       "name": "Español",
       "brand": "Compañero de fe",
-      "title": "Descarga de libros",
+      "title": "Descarga de libros · La descarga conjunta contiene material temporal de prueba",
       "included": "Textos incluidos",
       "downloads": {
         "docx": "Descargar libro editable (Word)",
@@ -9332,6 +10047,61 @@
         },
         {
           "language": "es",
+          "collection": "seerah",
+          "title": "Sira · automation test material",
+          "cover": "assets/covers/219abe2ac2ce768890c19899f04984a8b36a232bed86dd76b4269c6a9ac59ca7.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_es_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_es_seerah.pdf",
+          "sha256": "2c1d88754e2efaa565615cc3b7f83ba1d3d5bd9d40999210e6137b691831ba51",
+          "pdfSha256": "219abe2ac2ce768890c19899f04984a8b36a232bed86dd76b4269c6a9ac59ca7",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "es",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-es-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-es-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-es-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-es-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-es-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 10,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Incluido: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-es-seerah-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Material temporal de prueba de automatización"
+        },
+        {
+          "language": "es",
           "collection": "articles",
           "title": "Artículos · Con poco basta",
           "cover": "assets/covers/fe5c5d9daea934f360909340746ff1c345720c9b719237b9062634dfb92ad11d.webp",
@@ -9389,17 +10159,17 @@
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_es_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_es_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_es_all-books.pdf",
-        "parts": 3
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_es_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_es_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_es_all-books.pdf",
+        "parts": 4
       }
     },
     "fa": {
       "language": "fa",
       "name": "فارسی",
       "brand": "همراه ایمان",
-      "title": "دریافت کتاب‌ها",
+      "title": "دریافت کتاب‌ها · بستهٔ دانلود ترکیبی شامل محتوای آزمایشی موقت است",
       "included": "مطالب موجود",
       "downloads": {
         "docx": "دریافت کتاب ویرایش‌پذیر (Word)",
@@ -9580,20 +10350,130 @@
               "numberLabel": "حدیث ۴"
             }
           ]
+        },
+        {
+          "language": "fa",
+          "collection": "seerah",
+          "title": "سیره · محتوای آزمایشی خودکارسازی",
+          "cover": "assets/covers/7549536475c9bd1396796c209d6c415c1ec1530399fdfbf890d4f4ce0667f88f.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_fa_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_fa_seerah.pdf",
+          "sha256": "b5648c822c54d215f96e636fd5ac826e7d4f88e115904f700f0b124068a292f8",
+          "pdfSha256": "7549536475c9bd1396796c209d6c415c1ec1530399fdfbf890d4f4ce0667f88f",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "fa",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-fa-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-fa-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-fa-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-fa-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-fa-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 10,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "محتوای موجود: ۱",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-fa-seerah-001",
+              "title": "محتوای آزمایشی خودکارسازی"
+            }
+          ],
+          "statusLabel": "محتوای موقت برای آزمایش خودکارسازی"
+        },
+        {
+          "language": "fa",
+          "collection": "articles",
+          "title": "مقاله‌ها · محتوای آزمایشی خودکارسازی",
+          "cover": "assets/covers/a02c6a08f343813e3224d762f8cb066ccb85457b848528df365ab01648fda3b5.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_fa_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_fa_articles.pdf",
+          "sha256": "eb91433af60e41afc4dd46264f38504467aa05cb36e0ec3c8e7465186b19e196",
+          "pdfSha256": "a02c6a08f343813e3224d762f8cb066ccb85457b848528df365ab01648fda3b5",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "fa",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-fa-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-fa-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-fa-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-fa-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-fa-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "محتوای موجود: ۱",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-fa-articles-001",
+              "title": "محتوای آزمایشی خودکارسازی"
+            }
+          ],
+          "statusLabel": "محتوای موقت برای آزمایش خودکارسازی"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fa_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fa_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fa_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_fa_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_fa_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_fa_all-books.pdf",
+        "parts": 4
       }
     },
     "de": {
       "language": "de",
       "name": "Deutsch",
       "brand": "Begleiter im Glauben",
-      "title": "Bücher herunterladen",
+      "title": "Bücher herunterladen · Der Gesamtdownload enthält vorübergehendes Testmaterial",
       "included": "Enthaltene Texte",
       "downloads": {
         "docx": "Bearbeitbares Buch herunterladen (Word)",
@@ -9774,20 +10654,130 @@
               "numberLabel": "Hadith 4"
             }
           ]
+        },
+        {
+          "language": "de",
+          "collection": "seerah",
+          "title": "Sīra · automation test material",
+          "cover": "assets/covers/a2be4391ab131d3625e1f4086c54ea94c4b7d6f7b636ac31480e6fdb4497c48f.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_de_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_de_seerah.pdf",
+          "sha256": "004b1c09c36e0c447cf9cf2cd5a36b430d3c4ac22c174d10224e0a6f6e653b00",
+          "pdfSha256": "a2be4391ab131d3625e1f4086c54ea94c4b7d6f7b636ac31480e6fdb4497c48f",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "de",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-de-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-de-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-de-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-de-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-de-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 9,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Enthalten: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-de-seerah-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Vorübergehendes Material zum Automatisierungstest"
+        },
+        {
+          "language": "de",
+          "collection": "articles",
+          "title": "Artikel · automation test material",
+          "cover": "assets/covers/5080c3b061a638601283f1109daa59567f322cad56560a8907f118daf53519db.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_de_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_de_articles.pdf",
+          "sha256": "ceb335df22bb2392edb339be1ea6209e2e2c34d373daa5a89b0c5663d14cd6be",
+          "pdfSha256": "5080c3b061a638601283f1109daa59567f322cad56560a8907f118daf53519db",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "de",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-de-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-de-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-de-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-de-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-de-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Enthalten: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-de-articles-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Vorübergehendes Material zum Automatisierungstest"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_de_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_de_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_de_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_de_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_de_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_de_all-books.pdf",
+        "parts": 4
       }
     },
     "zh-CN": {
       "language": "zh-CN",
       "name": "简体中文",
       "brand": "信仰伙伴",
-      "title": "书籍下载",
+      "title": "书籍下载 · 合并下载包含临时测试材料",
       "included": "收录内容",
       "downloads": {
         "docx": "下载可编辑书籍 (Word)",
@@ -9949,20 +10939,130 @@
               "numberLabel": "圣训 3"
             }
           ]
+        },
+        {
+          "language": "zh-CN",
+          "collection": "seerah",
+          "title": "先知生平 · 自动化测试材料",
+          "cover": "assets/covers/8220d475a55a1bc928a8333ce911bb4808be0b89e6c98f4a54861e0ab1bc2ea7.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_zh-CN_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_zh-CN_seerah.pdf",
+          "sha256": "b7d518d7bafc5bfc599a477c1d3d9938c496aede4f2b7a2fe12c19f93d379d8d",
+          "pdfSha256": "8220d475a55a1bc928a8333ce911bb4808be0b89e6c98f4a54861e0ab1bc2ea7",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "zh-CN",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-zh-CN-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-zh-CN-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-zh-CN-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-zh-CN-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-zh-CN-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 9,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "收录内容: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-zh-CN-seerah-001",
+              "title": "自动化测试材料"
+            }
+          ],
+          "statusLabel": "临时自动化测试材料"
+        },
+        {
+          "language": "zh-CN",
+          "collection": "articles",
+          "title": "文章 · 自动化测试材料",
+          "cover": "assets/covers/54d3b16a6faa532a48d5740a0247579ea288bb157244ea877124ea5894fd6a30.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_zh-CN_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_zh-CN_articles.pdf",
+          "sha256": "859049bff0e1d6d82e48e1a0d11932479cd87630a8607a0f6d6e70af635c6be3",
+          "pdfSha256": "54d3b16a6faa532a48d5740a0247579ea288bb157244ea877124ea5894fd6a30",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "zh-CN",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-zh-CN-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-zh-CN-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-zh-CN-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-zh-CN-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-zh-CN-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "收录内容: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-zh-CN-articles-001",
+              "title": "自动化测试材料"
+            }
+          ],
+          "statusLabel": "临时自动化测试材料"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_zh-CN_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_zh-CN_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_zh-CN_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_zh-CN_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_zh-CN_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_zh-CN_all-books.pdf",
+        "parts": 4
       }
     },
     "uz": {
       "language": "uz",
       "name": "O‘zbekcha",
       "brand": "Iymon hamrohi",
-      "title": "Kitoblarni yuklab olish",
+      "title": "Kitoblarni yuklab olish · Birlashtirilgan yuklama vaqtinchalik sinov materialini o‘z ichiga oladi",
       "included": "Kiritilgan materiallar",
       "downloads": {
         "docx": "Tahrirlanadigan kitobni yuklab olish (Word)",
@@ -10143,20 +11243,130 @@
               "numberLabel": "Hadis 4"
             }
           ]
+        },
+        {
+          "language": "uz",
+          "collection": "seerah",
+          "title": "Siyrat · automation test material",
+          "cover": "assets/covers/904918c3900a43f66841fab4fd92ed53837fbbdac1253ef5cd7cd2d590da2f46.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_uz_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_uz_seerah.pdf",
+          "sha256": "0453efc707b7dcb7bcf46d1f8e9a0c8bd5e5a7f1235b1a0d2cc90a9db2d1025d",
+          "pdfSha256": "904918c3900a43f66841fab4fd92ed53837fbbdac1253ef5cd7cd2d590da2f46",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "uz",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-uz-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-uz-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-uz-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-uz-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-uz-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 2,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Kiritilgan: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-uz-seerah-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Avtomatlashtirish uchun vaqtinchalik sinov materiali"
+        },
+        {
+          "language": "uz",
+          "collection": "articles",
+          "title": "Maqolalar · automation test material",
+          "cover": "assets/covers/5aa0ba3cd67ea29c5a73c2a45a150870ccf108b7724d57c94fb86d5df28e2ba7.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_uz_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_uz_articles.pdf",
+          "sha256": "0f20c18db72e017111fd09764660fe64e38a0aad09656e565434566b4ebe1d24",
+          "pdfSha256": "5aa0ba3cd67ea29c5a73c2a45a150870ccf108b7724d57c94fb86d5df28e2ba7",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "uz",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-uz-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-uz-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-uz-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-uz-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-uz-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Kiritilgan: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-uz-articles-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Avtomatlashtirish uchun vaqtinchalik sinov materiali"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_uz_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_uz_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_uz_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_uz_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_uz_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_uz_all-books.pdf",
+        "parts": 4
       }
     },
     "th": {
       "language": "th",
       "name": "ไทย",
       "brand": "เพื่อนคู่ศรัทธา",
-      "title": "ดาวน์โหลดหนังสือ",
+      "title": "ดาวน์โหลดหนังสือ · ไฟล์ดาวน์โหลดรวมมีเนื้อหาทดสอบชั่วคราว",
       "included": "เนื้อหาที่รวมไว้",
       "downloads": {
         "docx": "ดาวน์โหลดหนังสือที่แก้ไขได้ (Word)",
@@ -10318,20 +11528,130 @@
               "numberLabel": "หะดีษ 3"
             }
           ]
+        },
+        {
+          "language": "th",
+          "collection": "seerah",
+          "title": "ซีเราะฮ์ · เนื้อหาทดสอบระบบอัตโนมัติ",
+          "cover": "assets/covers/5c85971d11dfcdeb0eb9c531cb88fc734f4cdcc3ac491b0829a3c28513f66aca.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_th_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_th_seerah.pdf",
+          "sha256": "8a4cbf81a796e580cd4e535b1ac5bd9932453d550a2918378079f84b967dc7e1",
+          "pdfSha256": "5c85971d11dfcdeb0eb9c531cb88fc734f4cdcc3ac491b0829a3c28513f66aca",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "th",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-th-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-th-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-th-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-th-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-th-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 2,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "เนื้อหาที่รวมไว้: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-th-seerah-001",
+              "title": "เนื้อหาทดสอบระบบอัตโนมัติ"
+            }
+          ],
+          "statusLabel": "เนื้อหาทดสอบระบบอัตโนมัติชั่วคราว"
+        },
+        {
+          "language": "th",
+          "collection": "articles",
+          "title": "บทความ · เนื้อหาทดสอบระบบอัตโนมัติ",
+          "cover": "assets/covers/10cb3a614cb759e5218f58380e9c0a62793dc5ec5bb25f4d49fd0c70a62e2282.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_th_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_th_articles.pdf",
+          "sha256": "410c7f1267398891a58bef61909c9de5cbf1d4c924e5dce5661a3055ecdafa23",
+          "pdfSha256": "10cb3a614cb759e5218f58380e9c0a62793dc5ec5bb25f4d49fd0c70a62e2282",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "th",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-th-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-th-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-th-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-th-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-th-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "เนื้อหาที่รวมไว้: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-th-articles-001",
+              "title": "เนื้อหาทดสอบระบบอัตโนมัติ"
+            }
+          ],
+          "statusLabel": "เนื้อหาทดสอบระบบอัตโนมัติชั่วคราว"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_th_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_th_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_th_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_th_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_th_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_th_all-books.pdf",
+        "parts": 4
       }
     },
     "vi": {
       "language": "vi",
       "name": "Tiếng Việt",
       "brand": "Bạn Đồng Hành Đức Tin",
-      "title": "Tải sách",
+      "title": "Tải sách · Bản tải xuống tổng hợp có chứa tài liệu kiểm thử tạm thời",
       "included": "Nội dung được đưa vào",
       "downloads": {
         "docx": "Tải sách có thể chỉnh sửa (Word)",
@@ -10493,20 +11813,130 @@
               "numberLabel": "Hadith 3"
             }
           ]
+        },
+        {
+          "language": "vi",
+          "collection": "seerah",
+          "title": "Tiểu sử Thiên Sứ · automation test material",
+          "cover": "assets/covers/560cf5b60258ee53bc079c903153a594c0884decbe5616eae88438f776a7161b.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_vi_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_vi_seerah.pdf",
+          "sha256": "bd926478dedc47c7aadefc67c124448570d9dd01badd96b74e28edbf28e9242a",
+          "pdfSha256": "560cf5b60258ee53bc079c903153a594c0884decbe5616eae88438f776a7161b",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "vi",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-vi-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-vi-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-vi-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-vi-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-vi-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 2,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Nội dung có trong sách: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-vi-seerah-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Tài liệu tạm thời để kiểm thử tự động hóa"
+        },
+        {
+          "language": "vi",
+          "collection": "articles",
+          "title": "Bài viết · automation test material",
+          "cover": "assets/covers/9b7efb747f63611f186ef8f6373d06650c4ce3b34422f27d7d683886e6361aeb.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_vi_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_vi_articles.pdf",
+          "sha256": "d1846767100d7dc6ef44502e5f83b72e727196511ee0f21f2e7c2d4a8c82b7d9",
+          "pdfSha256": "9b7efb747f63611f186ef8f6373d06650c4ce3b34422f27d7d683886e6361aeb",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "vi",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-vi-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-vi-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-vi-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-vi-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-vi-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Nội dung có trong sách: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-vi-articles-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Tài liệu tạm thời để kiểm thử tự động hóa"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_vi_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_vi_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_vi_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_vi_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_vi_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_vi_all-books.pdf",
+        "parts": 4
       }
     },
     "ja": {
       "language": "ja",
       "name": "日本語",
       "brand": "信仰のとも",
-      "title": "書籍のダウンロード",
+      "title": "書籍のダウンロード · 一括ダウンロードには一時的なテスト資料が含まれます",
       "included": "収録内容",
       "downloads": {
         "docx": "編集可能な書籍をダウンロード (Word)",
@@ -10698,20 +12128,130 @@
               "numberLabel": "ハディース 4"
             }
           ]
+        },
+        {
+          "language": "ja",
+          "collection": "seerah",
+          "title": "預言者伝 · 自動化テスト用資料",
+          "cover": "assets/covers/0113e934c26353be13f52618d90b0707eaa29bbc7cf0ed014184b5759430b943.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ja_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ja_seerah.pdf",
+          "sha256": "26a639766dd4e9b8640484e462d259663b8617456bc59697026de02f4b2b39f8",
+          "pdfSha256": "0113e934c26353be13f52618d90b0707eaa29bbc7cf0ed014184b5759430b943",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "ja",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-ja-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-ja-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-ja-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-ja-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-ja-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 2,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "収録: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-ja-seerah-001",
+              "title": "自動化テスト用資料"
+            }
+          ],
+          "statusLabel": "自動化確認用の一時的なテスト資料"
+        },
+        {
+          "language": "ja",
+          "collection": "articles",
+          "title": "記事 · 自動化テスト用資料",
+          "cover": "assets/covers/87f2435245fdccda2144b8d8fac3d57e53abaf5989d2af80dbec9224f53c4321.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ja_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_ja_articles.pdf",
+          "sha256": "29366b7d649743f84255ebcd352e3e53ba4f49bafb136e8d61752bfd4def167c",
+          "pdfSha256": "87f2435245fdccda2144b8d8fac3d57e53abaf5989d2af80dbec9224f53c4321",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "ja",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-ja-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-ja-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-ja-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-ja-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-ja-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "収録: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-ja-articles-001",
+              "title": "自動化テスト用資料"
+            }
+          ],
+          "statusLabel": "自動化確認用の一時的なテスト資料"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ja_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ja_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42889687969-1-bundles/Iman_Companion_ja_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ja_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ja_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_ja_all-books.pdf",
+        "parts": 4
       }
     },
     "fil": {
       "language": "fil",
       "name": "Filipino",
       "brand": "Kaagapay sa Pananampalataya",
-      "title": "Mga aklat na mada-download",
+      "title": "Mga aklat na mada-download · May pansamantalang materyal sa pagsubok ang pinagsamang download",
       "included": "Mga nilalaman",
       "downloads": {
         "docx": "I-download ang nae-edit na aklat (Word)",
@@ -10893,15 +12433,125 @@
               "numberLabel": "Hadith 5"
             }
           ]
+        },
+        {
+          "language": "fil",
+          "collection": "seerah",
+          "title": "Seerah · automation test material",
+          "cover": "assets/covers/3a0fc9f585c6eece8a3d14238abd835282d3d165c2c54db804ecf64ab29c9738.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_fil_seerah.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_fil_seerah.pdf",
+          "sha256": "b9c1a763050323377208959403fbd66f7c8895ab17369dfdcb2443f3538e7938",
+          "pdfSha256": "3a0fc9f585c6eece8a3d14238abd835282d3d165c2c54db804ecf64ab29c9738",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "fil",
+            "collection": "seerah",
+            "sourceIds": [
+              "automation-test-material-fil-seerah-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-fil-seerah-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-fil-seerah-001"
+            ],
+            "includedIds": [
+              "automation-test-material-fil-seerah-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-fil-seerah-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 2,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Kasama: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-fil-seerah-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Pansamantalang materyal para sa pagsubok ng awtomasyon"
+        },
+        {
+          "language": "fil",
+          "collection": "articles",
+          "title": "Mga artikulo · automation test material",
+          "cover": "assets/covers/c80cff7804a9549f567d0fc0686635fc6998390eb02c224cd560730a0a558500.webp",
+          "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_fil_articles.docx",
+          "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_fil_articles.pdf",
+          "sha256": "4386c30338fb75858b964809d0b451179ecfdfdeef71cc6ecd7e5bcb1f77c87d",
+          "pdfSha256": "c80cff7804a9549f567d0fc0686635fc6998390eb02c224cd560730a0a558500",
+          "units": 1,
+          "pages": 3,
+          "audio": 0,
+          "coverage": {
+            "schema": "iman-book-content-coverage-v1",
+            "language": "fil",
+            "collection": "articles",
+            "sourceIds": [
+              "automation-test-material-fil-articles-001"
+            ],
+            "catalogIds": [
+              "automation-test-material-fil-articles-001"
+            ],
+            "selectedIds": [
+              "automation-test-material-fil-articles-001"
+            ],
+            "includedIds": [
+              "automation-test-material-fil-articles-001"
+            ],
+            "includedNumbers": {
+              "automation-test-material-fil-articles-001": null
+            },
+            "missingCurrent": [],
+            "absentEarlierLessons": [],
+            "unregisteredSourceIds": [],
+            "competingSources": [],
+            "legacyExcluded": 0,
+            "errors": [],
+            "sourceApprovalCreated": false,
+            "sourceQualificationsChanged": false,
+            "state": "listed-materials-included",
+            "presentation": {
+              "includedLabel": "Kasama: 1",
+              "statusLabel": "",
+              "notes": [],
+              "unitLabels": {}
+            }
+          },
+          "contents": [
+            {
+              "id": "automation-test-material-fil-articles-001",
+              "title": "automation test material"
+            }
+          ],
+          "statusLabel": "Pansamantalang materyal para sa pagsubok ng awtomasyon"
         }
       ],
       "bundle": {
-        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fil_all-books.zip",
-        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fil_all-books.docx",
-        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_fil_all-books.pdf",
-        "parts": 2
+        "zip": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_fil_all-books.zip",
+        "docx": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_fil_all-books.docx",
+        "pdf": "https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_fil_all-books.pdf",
+        "parts": 4
       }
     }
   },
-  "updated": "2026-11-11T05:23:08+00:00"
+  "updated": "2026-11-11T06:06:43+00:00"
 }
