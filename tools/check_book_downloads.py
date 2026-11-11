@@ -34,6 +34,7 @@ from published_library import (HEX, SCHEMA as LIBRARY_SCHEMA, asset_names,
                                catalog_members, current, inside,
                                limited_continuity, read, scope_key, verify_pair)
 from check_app_book_coverage import member_ids
+from temporary_test_labels import decorate_catalog_row
 
 SCHEMA = 'iman-book-download-health-v1'
 STATIC_FILES = ('index.html', 'books.mjs', 'books.css', 'copy.mjs')
@@ -176,6 +177,7 @@ def expected_catalog(root, ready, bundles, coverage):
             if book.get('availability'):
                 item.update(availability=book['availability'], statusLabel=LIMITED[language])
             row['books'].append(item)
+        decorate_catalog_row(row, inventory(ready, language))
         languages[language] = row
     return normalized({'schema': 'iman-book-downloads-v1', 'languages': languages})
 

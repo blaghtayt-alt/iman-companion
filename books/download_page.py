@@ -11,6 +11,7 @@ from download_tables import COLLECTIONS,COPY,release_url,download_labels
 from locale_copy import locale,NATIVE_DIGITS
 from published_library import sha,read,inside,asset_names
 from merge_public_books import merge_docx,merge_pdf
+from temporary_test_labels import decorate_catalog_row
 
 SCHEMA='iman-published-book-bundles-v1'
 REPO='blaghtayt-alt/iman-companion'
@@ -210,6 +211,7 @@ def write_catalog(root,out,ready,bundles):
             if book.get('availability'):
                 from preparation_copy import LIMITED
                 row['books'][-1].update({'availability':book['availability'],'statusLabel':LIMITED[language]})
+        decorate_catalog_row(row, inventory(ready,language))
         languages[language]=row
     catalog={'schema':'iman-book-downloads-v1','languages':languages};path=root/'docs/books/catalog.json'
     previous=read(path)if path.exists()else{}

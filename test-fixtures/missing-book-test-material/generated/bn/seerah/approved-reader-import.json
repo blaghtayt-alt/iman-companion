@@ -1,0 +1,40 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "seerah",
+    "language": "bn",
+    "id": "automation-test-material-bn-seerah-001"
+  },
+  "current": true,
+  "testOnly": true,
+  "readingSource": {
+    "path": "test-fixtures/missing-book-test-material/generated/bn/seerah/source.txt",
+    "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+  },
+  "sourceBindings": [
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/bn/seerah/source.json",
+      "sha256": "459c0be512a2783a5d69672dc9d65b45edfbca79a8b766cf857690ebe88a741a"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/bn/seerah/source.txt",
+      "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "automation-test-material-bn-seerah-001-exact-source-v1",
+    "reviewer": {
+      "identity": "/root/bidi_patch_review",
+      "independent": false,
+      "kind": "AI assistant",
+      "role": "Fixture author and technical source reviewer",
+      "scope": "Exact user-requested dummy source bytes, native display labels, and the one-paragraph reader normalization contract only."
+    },
+    "semanticReviewSHA256": "06e65020d5ccd96a883b880566113e36abecae5876be1a7fccb62d58cafeed9a",
+    "sourceAcceptanceSHA256": "ef29975b56b40cd45d6cd511ffad9829855f91460e3d17701bc9128bf03adaba",
+    "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+  },
+  "qualification": "The semantic/source receipts describe only authored temporary TEST text; no scholarly, human or translation approval is claimed."
+}

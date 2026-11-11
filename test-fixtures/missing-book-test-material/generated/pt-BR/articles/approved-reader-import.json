@@ -1,0 +1,40 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "articles",
+    "language": "pt-BR",
+    "id": "automation-test-material-pt-BR-articles-001"
+  },
+  "current": true,
+  "testOnly": true,
+  "readingSource": {
+    "path": "test-fixtures/missing-book-test-material/generated/pt-BR/articles/source.txt",
+    "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+  },
+  "sourceBindings": [
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/pt-BR/articles/source.json",
+      "sha256": "129c2356c6f8a636fd7e298cd0fa5ee8b842cfe09558eb9a0c83ad5b585d5c25"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/pt-BR/articles/source.txt",
+      "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "automation-test-material-pt-BR-articles-001-exact-source-v1",
+    "reviewer": {
+      "identity": "/root/bidi_patch_review",
+      "independent": false,
+      "kind": "AI assistant",
+      "role": "Fixture author and technical source reviewer",
+      "scope": "Exact user-requested dummy source bytes, native display labels, and the one-paragraph reader normalization contract only."
+    },
+    "semanticReviewSHA256": "c90207f5121661c98d6665270f665e18d74ba6314d7bfb37953d806f05933abe",
+    "sourceAcceptanceSHA256": "f01043fbf7f90d54a5d8d340ad198ef979edf1081fd032dfa4b5f5933ca6adff",
+    "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+  },
+  "qualification": "The semantic/source receipts describe only authored temporary TEST text; no scholarly, human or translation approval is claimed."
+}

@@ -1,0 +1,602 @@
+{
+  "schema": "iman-missing-book-test-author-review-v1",
+  "decision": "approved",
+  "wholeMaterial": true,
+  "testOnly": true,
+  "specification": {
+    "path": "test-fixtures/missing-book-test-material/specification.json",
+    "sha256": "4a2e93ce6af9ca3a0d4250b31f9228a55fad7f59d3f712558ce72fbc0a912db8"
+  },
+  "sourceRecords": [
+    {
+      "language": "ur",
+      "collection": "articles",
+      "materialId": "automation-test-material-ur-articles-001",
+      "title": "خودکار نظام کی جانچ کا مواد",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/ur/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/ur/articles/source.json",
+        "sha256": "17564b248a1569c8c05c99fa2f843c77b7100804db19b594c62bdc24bfa8c2f2"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "ur",
+      "collection": "seerah",
+      "materialId": "automation-test-material-ur-seerah-001",
+      "title": "خودکار نظام کی جانچ کا مواد",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/ur/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/ur/seerah/source.json",
+        "sha256": "85244ab2cfba9758cc28d58caea521f4b4b4551d312b884655816fea8835319c"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "id",
+      "collection": "seerah",
+      "materialId": "automation-test-material-id-seerah-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/id/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/id/seerah/source.json",
+        "sha256": "b7f7c54425ddeacf3047c45d96ee2f375e00b17acc111011828e907c30cb858c"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "ms",
+      "collection": "seerah",
+      "materialId": "automation-test-material-ms-seerah-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/ms/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/ms/seerah/source.json",
+        "sha256": "59267b16db6cfdc4f7eccbcb54374f074f4b6df11b89c3565e227273328e07cd"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "bn",
+      "collection": "articles",
+      "materialId": "automation-test-material-bn-articles-001",
+      "title": "স্বয়ংক্রিয়তা পরীক্ষার উপকরণ",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/bn/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/bn/articles/source.json",
+        "sha256": "f1e9599ddb1c39e4dab18ae52365c547c3663223f2888aff6d13034e0e7de53a"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "bn",
+      "collection": "seerah",
+      "materialId": "automation-test-material-bn-seerah-001",
+      "title": "স্বয়ংক্রিয়তা পরীক্ষার উপকরণ",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/bn/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/bn/seerah/source.json",
+        "sha256": "459c0be512a2783a5d69672dc9d65b45edfbca79a8b766cf857690ebe88a741a"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "tr",
+      "collection": "seerah",
+      "materialId": "automation-test-material-tr-seerah-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/tr/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/tr/seerah/source.json",
+        "sha256": "edb5321bdb99b709035e7a0a799800855d6d4a4bdff473fe09cbb920ffd13511"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "fr",
+      "collection": "seerah",
+      "materialId": "automation-test-material-fr-seerah-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/fr/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/fr/seerah/source.json",
+        "sha256": "c66d831ccfbe61f068d550fddbb0f5cb3cb47f4e4111a37da67f1710cba3f1e7"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "pt-BR",
+      "collection": "articles",
+      "materialId": "automation-test-material-pt-BR-articles-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/pt-BR/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/pt-BR/articles/source.json",
+        "sha256": "129c2356c6f8a636fd7e298cd0fa5ee8b842cfe09558eb9a0c83ad5b585d5c25"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "pt-BR",
+      "collection": "seerah",
+      "materialId": "automation-test-material-pt-BR-seerah-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/source.json",
+        "sha256": "fbd2f080c276a1fdabe9aa89bd69bbc14331254ad396a72ae713ad11aec2f4de"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "hi",
+      "collection": "articles",
+      "materialId": "automation-test-material-hi-articles-001",
+      "title": "स्वचालन परीक्षण सामग्री",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/hi/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/hi/articles/source.json",
+        "sha256": "92ee5286c503f9133c186784884e7272c14a8846c55711fcf065df5f94d6808a"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "hi",
+      "collection": "seerah",
+      "materialId": "automation-test-material-hi-seerah-001",
+      "title": "स्वचालन परीक्षण सामग्री",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/hi/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/hi/seerah/source.json",
+        "sha256": "5b4d308cd9d07d3af4614b685f152c0a47dce2a89082d761bfdf6471cdeb1d13"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "ru",
+      "collection": "seerah",
+      "materialId": "automation-test-material-ru-seerah-001",
+      "title": "Материал для проверки автоматизации",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/ru/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/ru/seerah/source.json",
+        "sha256": "2aebe87530bed5c9529ca352beff65035e08550c614e25a5dc3cfed122478181"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "es",
+      "collection": "seerah",
+      "materialId": "automation-test-material-es-seerah-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/es/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/es/seerah/source.json",
+        "sha256": "dbf60d161d74ca4c0f732098197c355ff536dbe6cda7fe63b7f40bfbf66aecee"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "fa",
+      "collection": "articles",
+      "materialId": "automation-test-material-fa-articles-001",
+      "title": "محتوای آزمایشی خودکارسازی",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/fa/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/fa/articles/source.json",
+        "sha256": "5174ae32992c5382086e4f31ceac0d9cce4bf62013255824aaea2653665a6507"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "fa",
+      "collection": "seerah",
+      "materialId": "automation-test-material-fa-seerah-001",
+      "title": "محتوای آزمایشی خودکارسازی",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/fa/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/fa/seerah/source.json",
+        "sha256": "f3431f141f86353f3991ec1375cdfaaa1568f943e12f414a2243fbee79381567"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "de",
+      "collection": "articles",
+      "materialId": "automation-test-material-de-articles-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/de/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/de/articles/source.json",
+        "sha256": "706a82faad784c4177879ebb8e63ca41678bbb8e03978b25c55e7d67402a1f6b"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "de",
+      "collection": "seerah",
+      "materialId": "automation-test-material-de-seerah-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/de/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/de/seerah/source.json",
+        "sha256": "2f8d6197fbaf79c1f3029492e31119792386ce9685705c41eb0ac888c8ca4d3b"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "zh-CN",
+      "collection": "articles",
+      "materialId": "automation-test-material-zh-CN-articles-001",
+      "title": "自动化测试材料",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/zh-CN/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/zh-CN/articles/source.json",
+        "sha256": "cf48c3044ac24482f41d98e3983dd2ad9ac2299b4c1b1d9c1fa0b93e015d31f2"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "zh-CN",
+      "collection": "seerah",
+      "materialId": "automation-test-material-zh-CN-seerah-001",
+      "title": "自动化测试材料",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/source.json",
+        "sha256": "3d957e5a19bf2658fc611a11bb9740c5b3374bf6fa7788d066d856a376bdb407"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "uz",
+      "collection": "articles",
+      "materialId": "automation-test-material-uz-articles-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/uz/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/uz/articles/source.json",
+        "sha256": "1b18b927f55002866aa8efb3ced1358fef3d24b1c93018b5c3a918b3d899648c"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "uz",
+      "collection": "seerah",
+      "materialId": "automation-test-material-uz-seerah-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/uz/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/uz/seerah/source.json",
+        "sha256": "55711b7ac94be85cd0a461472c0060b012043d889801d3c266f94bdabcafe38c"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "th",
+      "collection": "articles",
+      "materialId": "automation-test-material-th-articles-001",
+      "title": "เนื้อหาทดสอบระบบอัตโนมัติ",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/th/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/th/articles/source.json",
+        "sha256": "ed947e7d5a83060bb96a3f0aeca753c393d51afe9d8bfa8d5a190548772b524c"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "th",
+      "collection": "seerah",
+      "materialId": "automation-test-material-th-seerah-001",
+      "title": "เนื้อหาทดสอบระบบอัตโนมัติ",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/th/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/th/seerah/source.json",
+        "sha256": "4e6c639e9ff4d887cacdae900e5ebb15759e7ab270b168d9c5e875933f49735f"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "vi",
+      "collection": "articles",
+      "materialId": "automation-test-material-vi-articles-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/vi/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/vi/articles/source.json",
+        "sha256": "1e5a26003dcff0cc41f805489caebcb6f1ffda74b64d803a64d9e6b64d934a5b"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "vi",
+      "collection": "seerah",
+      "materialId": "automation-test-material-vi-seerah-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/vi/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/vi/seerah/source.json",
+        "sha256": "45df63eba727507c37b6e438bb9775a90281c5051b874fa076f64adde97d1dc6"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "ja",
+      "collection": "articles",
+      "materialId": "automation-test-material-ja-articles-001",
+      "title": "自動化テスト用資料",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/ja/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/ja/articles/source.json",
+        "sha256": "6c4bcb29463213cbfc8f4add775cf2c8955969888ea51bc556e4c76143e614ad"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "ja",
+      "collection": "seerah",
+      "materialId": "automation-test-material-ja-seerah-001",
+      "title": "自動化テスト用資料",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/ja/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/ja/seerah/source.json",
+        "sha256": "bbc24f8b0edc2418efb45015a9b7ab7f6e4437b5360a462c45049a2a602caec6"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "fil",
+      "collection": "articles",
+      "materialId": "automation-test-material-fil-articles-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/fil/articles/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/fil/articles/source.json",
+        "sha256": "faf7268d8b53d232ed0100f79c828647d19e20c8cd8b7ff981feae81cd1649aa"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    },
+    {
+      "language": "fil",
+      "collection": "seerah",
+      "materialId": "automation-test-material-fil-seerah-001",
+      "title": "automation test material",
+      "order": 1,
+      "currentCanonicalMaterialsBeforeTest": 0,
+      "sourceText": {
+        "path": "test-fixtures/missing-book-test-material/generated/fil/seerah/source.txt",
+        "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+      },
+      "sourceMetadata": {
+        "path": "test-fixtures/missing-book-test-material/generated/fil/seerah/source.json",
+        "sha256": "7ab283bf04dd29f5c932cc6cb7afc946994597cdc64995cbb790cd18d66e5d12"
+      },
+      "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+      "referenceCount": 0
+    }
+  ],
+  "reviewer": {
+    "identity": "/root/bidi_patch_review",
+    "independent": false,
+    "kind": "AI assistant",
+    "role": "Fixture author and technical source reviewer",
+    "scope": "Exact user-requested dummy source bytes, native display labels, and the one-paragraph reader normalization contract only."
+  },
+  "reviewedAtUTC": "2026-11-11T04:45:32.957518+00:00",
+  "claims": {
+    "independentReview": false,
+    "humanReview": false,
+    "scholarlyApproval": false,
+    "religiousSourceApproval": false,
+    "translationApproval": false,
+    "actualWordReview": false,
+    "finalVisualAcceptance": false,
+    "publicReleaseApproval": false
+  },
+  "actualReview": {
+    "sourcePairsInspected": 30,
+    "sourceTXTBytesEach": 9,
+    "bodyText": "TEST TEST",
+    "bodySHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "sourceName": "automation test material",
+    "nativeDisplayTitles": {
+      "ur": "خودکار نظام کی جانچ کا مواد",
+      "fa": "محتوای آزمایشی خودکارسازی",
+      "bn": "স্বয়ংক্রিয়তা পরীক্ষার উপকরণ",
+      "hi": "स्वचालन परीक्षण सामग्री",
+      "ru": "Материал для проверки автоматизации",
+      "zh-CN": "自动化测试材料",
+      "th": "เนื้อหาทดสอบระบบอัตโนมัติ",
+      "ja": "自動化テスト用資料"
+    },
+    "scopeCounts": {
+      "articles": 12,
+      "seerah": 18
+    },
+    "allSourceMetadataQualifiedAsTemporaryAuthoredNonreligiousText": true,
+    "sourceCitationAndQuotationCount": 0,
+    "normalizationContract": "Exactly one paragraph TEST TEST in a complete source snapshot; explicit global sequence 1. No additional prose, citations, chapter or lesson facts. Display labels alone are localized where native title validation requires them.",
+    "checks": [
+      "Read the actual generated source TXT and JSON bytes for every scope and verified all exact identities and hashes.",
+      "Verified the native display labels with the unchanged bibliography.native_text predicate and reviewed the eight labels as automation test material descriptions.",
+      "Verified exact TEST TEST body, no trailing newline, no directions controls, no citations, and no religious or translation source claims.",
+      "Inspected the generator mapping from those exact source bytes into one reader paragraph with a bound whole-TXT literal proof.",
+      "No Word, rendered-page, human, independent scholarly, translation, or publication acceptance is inferred from this technical source review."
+    ]
+  },
+  "qualification": "This is the actual author technical review of user-requested temporary automation text. The author is not an independent reviewer. All normal downstream source-eligibility, Word-layout, visual and publication decisions remain separate."
+}

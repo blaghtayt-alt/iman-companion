@@ -1,0 +1,21 @@
+{
+  "schema": "iman-user-requested-temporary-material-receipt-v1",
+  "recordedAtUTC": "2026-11-11T04:42:45.371410+00:00",
+  "recordedBy": {
+    "identity": "/root/bidi_patch_review",
+    "role": "Fixture author recording the instruction relayed by the coordinating agent"
+  },
+  "instructionReceivedVia": "/root",
+  "requestSummary": "The user explicitly requested temporary material named automation test material, with literal body TEST TEST, in all currently missing language/collection scopes, through the normal source-intake, preparation, Word review and real release/table path. The temporary records should be identifiable for later removal.",
+  "canonicalSourceName": "automation test material",
+  "bodyText": "TEST TEST",
+  "scopeCount": 30,
+  "scopeCounts": {
+    "articles": 12,
+    "seerah": 18
+  },
+  "displayTitlePolicy": "Keep the canonical source name in English. Use a native display-title translation only where the unchanged native-script validator requires it. Do not translate the TEST TEST body.",
+  "humanReviewOfGeneratedBytesClaimed": false,
+  "scholarlyOrTranslationApprovalClaimed": false,
+  "existingPublicationGatesWaived": false
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "iman-authored-temporary-automation-source-v1",
+  "collection": "seerah",
+  "language": "bn",
+  "id": "automation-test-material-bn-seerah-001",
+  "testOnly": true,
+  "temporary": true,
+  "name": "automation test material",
+  "title": "automation test material",
+  "displayTitle": "স্বয়ংক্রিয়তা পরীক্ষার উপকরণ",
+  "order": 1,
+  "paragraphs": [
+    "TEST TEST"
+  ],
+  "citations": [],
+  "bodyIsTranslation": false,
+  "religiousSource": false,
+  "purpose": "User-requested temporary material for the normal books automation path.",
+  "userRequestReceipt": {
+    "path": "test-fixtures/missing-book-test-material/user-request-receipt.json",
+    "sha256": "7c2cea26618cc542a5e223c9d3492b70f1fcaeda228c8e7f9983df6a36d3efb4"
+  },
+  "sourceText": {
+    "path": "test-fixtures/missing-book-test-material/generated/bn/seerah/source.txt",
+    "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+  },
+  "edition": "new-adult"
+}

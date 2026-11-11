@@ -1,0 +1,96 @@
+{
+  "schema": "iman-book-unit-v1",
+  "collection": "articles",
+  "language": "ja",
+  "id": "automation-test-material-ja-articles-001",
+  "testOnly": true,
+  "order": 1,
+  "ordering": {
+    "kind": "global-sequence",
+    "sequence": 1
+  },
+  "title": "自動化テスト用資料",
+  "complete": true,
+  "reviewGate": "published-current",
+  "sourceHashes": [
+    "6c4bcb29463213cbfc8f4add775cf2c8955969888ea51bc556e4c76143e614ad",
+    "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+  ],
+  "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+  "catalogBindings": [
+    {
+      "collection": "articles",
+      "language": "ja",
+      "id": "automation-test-material-ja-articles-001"
+    }
+  ],
+  "inputBindings": [
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/source.json",
+      "sha256": "6c4bcb29463213cbfc8f4add775cf2c8955969888ea51bc556e4c76143e614ad"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/source.txt",
+      "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/user-request-receipt.json",
+      "sha256": "7c2cea26618cc542a5e223c9d3492b70f1fcaeda228c8e7f9983df6a36d3efb4"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/author-technical-review.json",
+      "sha256": "76d72c679bafa328bf88b0ce5c305375d981d814120ed523df35e5fd77b3387c"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/technical-review.json",
+      "sha256": "fd5c17edba36fcd83ba096086d9c8cc2011e88c99c8fb9c7f7c2afced1ea3164"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/source-acceptance.json",
+      "sha256": "bfab2d397ad933f90f61a7c0a18f252ce12184f5ce874ab5a6fcb3bdf2fd318a"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/approved-reader-import.json",
+      "sha256": "f5448303ad66ce439ef86b23f3c7f60409c775c77ae69ffa2b31a1a97dd5de8f"
+    }
+  ],
+  "sections": [
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "TEST TEST",
+          "sourceLiteralProof": {
+            "schema": "iman-source-literal-text-v1",
+            "collection": "articles",
+            "language": "ja",
+            "materialId": "automation-test-material-ja-articles-001",
+            "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+            "source": {
+              "path": "test-fixtures/missing-book-test-material/generated/ja/articles/source.txt",
+              "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+            },
+            "inventory": {
+              "path": "test-fixtures/missing-book-test-material/generated/ja/articles/approved-reader-import.json",
+              "sha256": "f5448303ad66ce439ef86b23f3c7f60409c775c77ae69ffa2b31a1a97dd5de8f"
+            },
+            "pointer": [],
+            "start": 0,
+            "end": 9,
+            "textSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+          }
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "kind": "user-requested-temporary-automation-material",
+    "canonicalSourceName": "automation test material",
+    "bodyIsTranslation": false,
+    "religiousSource": false,
+    "technicalAuthorReview": {
+      "path": "test-fixtures/missing-book-test-material/generated/ja/articles/technical-review.json",
+      "sha256": "fd5c17edba36fcd83ba096086d9c8cc2011e88c99c8fb9c7f7c2afced1ea3164"
+    }
+  }
+}

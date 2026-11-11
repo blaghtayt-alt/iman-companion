@@ -1,0 +1,50 @@
+{
+  "schema": "iman-temporary-material-source-acceptance-v1",
+  "testOnly": true,
+  "decision": "approved",
+  "wholeMaterial": true,
+  "material": {
+    "collection": "seerah",
+    "language": "vi",
+    "id": "automation-test-material-vi-seerah-001"
+  },
+  "sourceBindings": [
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/vi/seerah/source.json",
+      "sha256": "45df63eba727507c37b6e438bb9775a90281c5051b874fa076f64adde97d1dc6"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/vi/seerah/source.txt",
+      "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+    }
+  ],
+  "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+  "displayTitle": "automation test material",
+  "userRequestReceipt": {
+    "path": "test-fixtures/missing-book-test-material/user-request-receipt.json",
+    "sha256": "7c2cea26618cc542a5e223c9d3492b70f1fcaeda228c8e7f9983df6a36d3efb4"
+  },
+  "recordedAuthorReview": {
+    "path": "test-fixtures/missing-book-test-material/author-technical-review.json",
+    "sha256": "76d72c679bafa328bf88b0ce5c305375d981d814120ed523df35e5fd77b3387c"
+  },
+  "reviewer": {
+    "identity": "/root/bidi_patch_review",
+    "independent": false,
+    "kind": "AI assistant",
+    "role": "Fixture author and technical source reviewer",
+    "scope": "Exact user-requested dummy source bytes, native display labels, and the one-paragraph reader normalization contract only."
+  },
+  "reviewedAtUTC": "2026-11-11T04:45:32.957518+00:00",
+  "scope": "Accept these exact user-requested authored TEST bytes for temporary source intake. Word, visual and release decisions remain separate.",
+  "claims": {
+    "independentReview": false,
+    "humanReview": false,
+    "scholarlyApproval": false,
+    "religiousSourceApproval": false,
+    "translationApproval": false,
+    "actualWordReview": false,
+    "finalVisualAcceptance": false,
+    "publicReleaseApproval": false
+  }
+}

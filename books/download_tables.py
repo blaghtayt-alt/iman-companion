@@ -6,6 +6,7 @@ from locale_copy import locale,DOWNLOADS
 from bibliography import native_text,digits
 from download_bundle_copy import BUNDLE_COPY
 from preparation_copy import LIMITED
+from temporary_test_labels import material_label as test_material_label, bundle_label as test_bundle_label
 
 COLLECTIONS=['tadabbur-extended','hadith','seerah','articles']
 HEADERS=['Quran reflections · extended','Hadith · new extended','Seerah','Articles']
@@ -81,6 +82,9 @@ def render_ready(conf,ready,repo,bundles=None,coverage=None):
     availability=f'Published book editions: **{available} of {total}** language/category combinations. **{total-available}** do not yet have a published Word/PDF pair.'
     categories=' · '.join(f'{name}: {counts[collection]}/{len(languages)}' for name,collection in zip(['Quran reflections','Hadith','Seerah','Articles'],COLLECTIONS))
     root=['### Books by language','',intro,'',availability,'',categories+'.','', '| Language | '+' | '.join(HEADERS)+' |','| --- | --- | --- | --- | --- |'];pages={}
+    test_count=sum(bool(test_material_label(book)) for book in ready.values())
+    if test_count:
+        root[3:3]=['',f'Temporary automation test: **{test_count}** published pairs use only `TEST TEST` as their material text and will be removed after verification.']
     if bundles is not None:
         if set(bundles)-set(languages):raise ValueError('Unknown combined-download language')
         root[-2]+=' Combined downloads |';root[-1]+=' --- |'
@@ -103,6 +107,7 @@ def render_ready(conf,ready,repo,bundles=None,coverage=None):
         coverage_details=[]
         for collection in COLLECTIONS:
             item=ready.get((lang,collection));label=lc['titles'][collection]
+            test_label=test_material_label(item)
             content_scope=(coverage or {}).get((lang,collection))
             content_copy=content_scope.get('presentation',{}) if content_scope else {}
             if item and (item.get('editionScope') or item.get('availability')):
@@ -112,11 +117,12 @@ def render_ready(conf,ready,repo,bundles=None,coverage=None):
                 edition_details.append((label,titles))
                 if item.get('availability'):
                     edition_details.append((LIMITED[lang],[]))
+            if test_label:label+=' · '+test_label
             native_text(label,lang)
             if item:
                 if content_scope and content_scope.get('includedIds')!=[str(unit['id']) for unit in item['units']]:
                     raise ValueError('Download coverage differs from the verified book contents')
-                row.append(f'[{cell(editable)}]({item["download"]})<br>[{cell(reading)}]({item["pdfDownload"]})')
+                row.append(f'[{cell(editable)}]({item["download"]})<br>[{cell(reading)}]({item["pdfDownload"]})'+(f'<br>**{cell(test_label)}**' if test_label else ''))
                 included_count=digits(str(len(item.get('units',[]))),lang)
                 if content_copy.get('includedLabel'):
                     included_count+=' · '+content_copy['includedLabel']
@@ -135,9 +141,12 @@ def render_ready(conf,ready,repo,bundles=None,coverage=None):
             for text in BUNDLE_COPY[lang]:native_text(text,lang)
             item=bundles.get(lang)
             if item:
+                warning=test_bundle_label(lang,[book for (language,_),book in ready.items() if language==lang])
                 chooser=f'https://blaghtayt-alt.github.io/iman-companion/books/?lang={quote(lang)}'
-                row.append(f'[{cell(together)}]({chooser})')
-                page+=['','## '+together,'',merged,'',f'[{downloads["docx"]}]({item["docx"]})','',f'[{downloads["pdf"]}]({item["pdf"]})','',f'[{zipped}]({item["zip"]})']
+                row.append(f'[{cell(together)}]({chooser})'+(f'<br>**{cell(warning)}**' if warning else ''))
+                page+=['','## '+together]
+                if warning:page+=['',warning]
+                page+=['',merged,'',f'[{downloads["docx"]}]({item["docx"]})','',f'[{downloads["pdf"]}]({item["pdf"]})','',f'[{zipped}]({item["zip"]})']
             else:row.append(cell(pending))
         root.append('| '+' | '.join(row)+' |')
         if lang!='ar':page+=['',locale(lang)['notice']]

@@ -1,0 +1,898 @@
+{
+  "schema": "iman-temporary-material-removal-manifest-v1",
+  "ownedFixturePaths": [
+    "test-fixtures/missing-book-test-material/author-technical-review.json",
+    "test-fixtures/missing-book-test-material/generate.py",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/de/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/de/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/de/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/de/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/de/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/de/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/de/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/th/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/th/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/th/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/th/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/th/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/th/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/th/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/reader.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/source.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/source.txt",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/technical-review.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/approved-reader-import.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/handoff.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/reader.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/source-acceptance.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/source.json",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/source.txt",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/technical-review.json",
+    "test-fixtures/missing-book-test-material/matrix-manifest.json",
+    "test-fixtures/missing-book-test-material/removal-manifest.json",
+    "test-fixtures/missing-book-test-material/specification.json",
+    "test-fixtures/missing-book-test-material/user-request-receipt.json"
+  ],
+  "ownedFixtureFileHashes": {
+    "test-fixtures/missing-book-test-material/author-technical-review.json": "76d72c679bafa328bf88b0ce5c305375d981d814120ed523df35e5fd77b3387c",
+    "test-fixtures/missing-book-test-material/generate.py": "d4ae8f56aa6e77e9a9717c9db4d164c1d92e8ef03abe06edae686c213302938a",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/approved-reader-import.json": "73ef4c78798dea7bfca6d58ade8ad000aa104178928dd3701ad34053f10e7b41",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/handoff.json": "317358a1e73ad7bd5634776eea84db74e24941c99ddc4efc05ef1e86b5bb408f",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/reader.json": "6a336950b16a40d9b74f449ec91a2ccda481e00556068708cf1ab05c025a9f42",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/source-acceptance.json": "8af7ea90a4fa8deb1475426487b839679f227f40c344692b949b7df227eedfd4",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/source.json": "f1e9599ddb1c39e4dab18ae52365c547c3663223f2888aff6d13034e0e7de53a",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/bn/articles/technical-review.json": "01bdc5fd79e9b9cad6c367bb31aa309a7d7e7d0b067cf796c2bc67c2021578d9",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/approved-reader-import.json": "35d32773c9e30223a3087f9245cfd8bbd3c732363f4953b6e83a96c466fd2cc4",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/handoff.json": "9cbb531a6e8dc932147c99b293af7f271cc594d62335c9d54283ecf66af759f6",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/reader.json": "2c123d459d04131c3ab55e8f42d6d25487882e901345e4ae4725a1bebd7956d2",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/source-acceptance.json": "ef29975b56b40cd45d6cd511ffad9829855f91460e3d17701bc9128bf03adaba",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/source.json": "459c0be512a2783a5d69672dc9d65b45edfbca79a8b766cf857690ebe88a741a",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/bn/seerah/technical-review.json": "06e65020d5ccd96a883b880566113e36abecae5876be1a7fccb62d58cafeed9a",
+    "test-fixtures/missing-book-test-material/generated/de/articles/approved-reader-import.json": "80c597d3098eca735865c07f91a0245c13f728e2a665b24cc220135fe8c60d00",
+    "test-fixtures/missing-book-test-material/generated/de/articles/handoff.json": "3192ef325562bec0510cb96437546a032626c0ade70378a1f8f74b1bda526f02",
+    "test-fixtures/missing-book-test-material/generated/de/articles/reader.json": "6a8652f04640986604760a53b8f91c246cf68f5ac8f3bf9914ca969261335291",
+    "test-fixtures/missing-book-test-material/generated/de/articles/source-acceptance.json": "e180e3adae6cdffb65354a00ddfe32410aa260fc4c7f6ce65566fd86e8fdd871",
+    "test-fixtures/missing-book-test-material/generated/de/articles/source.json": "706a82faad784c4177879ebb8e63ca41678bbb8e03978b25c55e7d67402a1f6b",
+    "test-fixtures/missing-book-test-material/generated/de/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/de/articles/technical-review.json": "9beabc6f3e03097ae43cab28278ec072b00499a287f80ec46bc91a4ace18ea80",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/approved-reader-import.json": "d61a4f4259837a3942642db34c8c34a147942ab89d4aa9c194c6c15d2cd2b210",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/handoff.json": "d943dceb5b31762e1558de80f88b4eecf4f3943712f738c450b02d55c589d6a7",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/reader.json": "10d9742d94b0718b5f5149e85a2b183b14b116131f785ef82a990cf5b9f5b712",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/source-acceptance.json": "167241f29c56b83b80fe2151fa0238bb9119c7c7b29f38251e7f87fe091dd4e6",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/source.json": "2f8d6197fbaf79c1f3029492e31119792386ce9685705c41eb0ac888c8ca4d3b",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/de/seerah/technical-review.json": "57a0944faa189befb9a683d297dd237a1fbff07a0c09a67c52d0595467c54f7a",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/approved-reader-import.json": "74a7917021c479bee84990dcda85782b86b35dc2a26fa767aa49d5b6fd4f8076",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/handoff.json": "385a3c863b1fa511587c2a6663d5af96f95ee6ac33575a107e73fe402a918b20",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/reader.json": "43a04bc5cc596fd6358e6929ba2989c82494bf26e6d8a345300db6afe03b3ad7",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/source-acceptance.json": "8e4ebe431f529c1032e3a3925adc4c8f025b7cfb1b2614989fac88066997d12b",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/source.json": "dbf60d161d74ca4c0f732098197c355ff536dbe6cda7fe63b7f40bfbf66aecee",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/es/seerah/technical-review.json": "3783e642af32ff52dfee2b0dad2d7a00f266326a46c08d7124f92e3ce00c53fd",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/approved-reader-import.json": "e404758637fa6fdb1793f536bd1ee6febe27a45292441ed99dea198d4f30d454",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/handoff.json": "da510216a064418385a1f2589f2d817e839acd93284c2e5427521b16923d3b81",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/reader.json": "4a2ab68fa5e4fd6b3b641aad1af9fc3589e6f723a7e047f0cda8b3a7fddb1539",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/source-acceptance.json": "ea12f9237331bda8365fd753a1cfb4df2eba1c9b4a8757dca94de9dc2fe3737f",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/source.json": "5174ae32992c5382086e4f31ceac0d9cce4bf62013255824aaea2653665a6507",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/fa/articles/technical-review.json": "8d0dd4d402daeeec73d95ae5f1727e0975e4d775f9e5e070c88b77a68e0bc9fc",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/approved-reader-import.json": "0ef47c55e51025797286ee8273a0ad77b67dd580ee73865477f063db8633c0b7",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/handoff.json": "5a0234b3b174d0fd106a46b00d705be2da6bc3cf26043f956e3dd13b6bc92f98",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/reader.json": "3be68b493de8980f2a4c18a4599425d10819df9ce8c1f213905cf60f51152789",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/source-acceptance.json": "ae950675b82043ea841f65756844a5e4f92c20b22b766deee7d357282ac6d35c",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/source.json": "f3431f141f86353f3991ec1375cdfaaa1568f943e12f414a2243fbee79381567",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/fa/seerah/technical-review.json": "9e4b32098b79700703869a0c3747551a20b473da58482f37ce1a9354173bf92a",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/approved-reader-import.json": "384ddd59e89ea84706e6c68176291fffe4eb359c2d2ed9bd7d192c371f347246",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/handoff.json": "cdbda1dbcd3109b8eaec74d9414ec6922ca8fb104d8bc51a4677d0e504d88ee3",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/reader.json": "754561fdaf75013bdcd3a060048bbcec1753957cba8ae4d141a9646e5cb87b05",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/source-acceptance.json": "dd7133e80e07a3f4a82aeac746508df73d39e464722babe21e85abecd2798705",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/source.json": "faf7268d8b53d232ed0100f79c828647d19e20c8cd8b7ff981feae81cd1649aa",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/fil/articles/technical-review.json": "e3dbe01e7c6619336f760678e79697b67f9a2ec37e1e0b94d8115894da87baee",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/approved-reader-import.json": "bf9360cf6250eab0242b83d0ff27df67718b8a51bd70991703bd1e63aa0a6623",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/handoff.json": "af828755fe2b4d304d99646871171622a83ca9184775f880909e9a3d55a5e4b7",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/reader.json": "9c09bb02736f3b584ed4309b9cc36c9ae322423918cd1c80271f021b8005e1e2",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/source-acceptance.json": "63ce92f97930fda43709885b23a5e001c3e69689024b18d9173a9716353536c6",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/source.json": "7ab283bf04dd29f5c932cc6cb7afc946994597cdc64995cbb790cd18d66e5d12",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/fil/seerah/technical-review.json": "835fe1beab3ca67936a906fb340acb3fb0eb84f7069540ea514733f328e0240a",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/approved-reader-import.json": "26ba0c48ebeb973929eaa647f64b909e844ea0d93e70b28454528242799e7c4e",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/handoff.json": "b20b77e977195cca8a79be6957c18d22579b7cdcb9271804f4c5e4e636ac5ce6",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/reader.json": "57a7ddbd8454c74edceba64490b1fc97779edbbc31250e735edcf27f8837d583",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/source-acceptance.json": "842431cc7040a91eb09fae932b501d236cd938a1a6ab93c5effd309a4f05033c",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/source.json": "c66d831ccfbe61f068d550fddbb0f5cb3cb47f4e4111a37da67f1710cba3f1e7",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/fr/seerah/technical-review.json": "6d1ed29fe6b48453146f50ba2f8bdedad5f0b99b911112a500f89d96aab99723",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/approved-reader-import.json": "616a7dcc9640768eab71536dc9b7717379f1c06f05500170a9268a179fff6e91",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/handoff.json": "2a73d4cfc7c145bdf3f07407e4c0816b235a17c4f77409d64ae42d1860f0bec7",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/reader.json": "c1144c5522c11fe1871e98027599c8b7f2e71c175d85dc12fa0ecc6260bc2f7d",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/source-acceptance.json": "7079d9bbca0d44243f9f56cc14fb18df09d85dc7e6c42e557e2f60229cea9e19",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/source.json": "92ee5286c503f9133c186784884e7272c14a8846c55711fcf065df5f94d6808a",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/hi/articles/technical-review.json": "7bf6dc507cf375a96d0a8396e68568b2e298f182e9ab55bda60f9d05e05f2782",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/approved-reader-import.json": "10f6f8b86ac745d7b9bb8d4363a2eca8a036a7b77b1c8571136f520e286a6060",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/handoff.json": "59c2d44a2a63903fd81d21ec9a2ee5bbd3f136b24bdd4d275f57ef55aeabb7a5",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/reader.json": "d1b4eec08bee4afd07aa76a659aa41d300c914182281447f42efb7879fa3090c",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/source-acceptance.json": "2b0faf9354039da01f1237654659dbc2a5c09fb329f6f21d9de77af9f53ff528",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/source.json": "5b4d308cd9d07d3af4614b685f152c0a47dce2a89082d761bfdf6471cdeb1d13",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/hi/seerah/technical-review.json": "fc6fbe3de72836098169b7941f477321ab41f3a7a46e2be699fa815f1c7c6487",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/approved-reader-import.json": "e5f91f2a7e6a220b027131d79e5610338840440877d72c69cb7afdee21a2b7ce",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/handoff.json": "4bc4147ba4af3096bc524b99e53cf47c90c19256cbe6c9af6ee9422da65180d0",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/reader.json": "9dd2e7e38f8d711b8f8dc461c9630cd3b39b996b4f3fd817a596ed190a5e85f8",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/source-acceptance.json": "fda9a954e7e662957fddf75f29f75dfd5765e52e8ea0f6a764acc64f95d112b9",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/source.json": "b7f7c54425ddeacf3047c45d96ee2f375e00b17acc111011828e907c30cb858c",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/id/seerah/technical-review.json": "018dea6e72a281513bd31a413e6c4daed32b7bbef2d99bd7719eb008b9628499",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/approved-reader-import.json": "f5448303ad66ce439ef86b23f3c7f60409c775c77ae69ffa2b31a1a97dd5de8f",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/handoff.json": "d24e5b2ce2da06aa74bfac80202f695c3ee6f87299c2d5fdc9a4cd81f16ad15c",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/reader.json": "8a5fa08743b59b700fd9c399c59197717823e9c3e4b8ff18910e88bc12239729",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/source-acceptance.json": "bfab2d397ad933f90f61a7c0a18f252ce12184f5ce874ab5a6fcb3bdf2fd318a",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/source.json": "6c4bcb29463213cbfc8f4add775cf2c8955969888ea51bc556e4c76143e614ad",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/ja/articles/technical-review.json": "fd5c17edba36fcd83ba096086d9c8cc2011e88c99c8fb9c7f7c2afced1ea3164",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/approved-reader-import.json": "c0c3c19fc326f11de297d06bd53a1bc3c41a5e5e55426def1e2bc00a568977a0",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/handoff.json": "9e5d9ec05b65655cf672fb9afd50093ffec0c578528a6cd6fd09052b77236da4",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/reader.json": "04c5c3aaf1b58dfcca9c32fac9243d2be8e3c52b56e03fd70c94bebeca75fe1f",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/source-acceptance.json": "80050674b01233de4a4506b30f6254849f9d840aaf03fc6c3efe81715a4a6aa2",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/source.json": "bbc24f8b0edc2418efb45015a9b7ab7f6e4437b5360a462c45049a2a602caec6",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/ja/seerah/technical-review.json": "286885d61a3ae4037b3d34911ec6386f6904e25e3697444b30382ccdadc93633",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/approved-reader-import.json": "1a2b6cc3c03580f8de1144cee16c02ac2932af650f53f4f8741fbaf85f402fce",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/handoff.json": "137200b790e561fe97661df50d2551424ec784a0d94e074e242ae8de827b5766",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/reader.json": "aa07a2e60f1332b9d4f0204502dc798877f6f9567b626e3bd1c4ceac104da2dd",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/source-acceptance.json": "46515374408ba895a1c906d9faa837bbbfabcdd429724e07215681d968558842",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/source.json": "59267b16db6cfdc4f7eccbcb54374f074f4b6df11b89c3565e227273328e07cd",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/ms/seerah/technical-review.json": "82427510a7b9975ebc8c75e567430e64dbf9bc8ec20e895b23a92304726dd093",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/approved-reader-import.json": "db28bc94698437ba0a29391de8065b722893146572bfbaf1fb283f11baf4a170",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/handoff.json": "7a143344f4faf38c0db9110a2b8a0720115883f14a770e65f630feeae4ba12e6",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/reader.json": "de68ad31f988eb34e8474922147bb910b09dba17f5c22fe0b3aa3a2af5ea8104",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/source-acceptance.json": "f01043fbf7f90d54a5d8d340ad198ef979edf1081fd032dfa4b5f5933ca6adff",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/source.json": "129c2356c6f8a636fd7e298cd0fa5ee8b842cfe09558eb9a0c83ad5b585d5c25",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/articles/technical-review.json": "c90207f5121661c98d6665270f665e18d74ba6314d7bfb37953d806f05933abe",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/approved-reader-import.json": "4b0522a7fb80deb658ada2adb42ce645abaa8ccebefb5cf0829040a4e867c97d",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/handoff.json": "de8f798864f408dca3fff5e34805c21e5a3e0d9dc9fa61fe93dfba13c22bcc13",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/reader.json": "12669ce60f082c6be97e3b2a60360257105501df1fe702278dd3339d6ed919a1",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/source-acceptance.json": "12ef83f402a2ca3c61884c9a69f5373b13d5bebe81e26476238982ee1dc1e0fa",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/source.json": "fbd2f080c276a1fdabe9aa89bd69bbc14331254ad396a72ae713ad11aec2f4de",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/pt-BR/seerah/technical-review.json": "b304450cf7c4e5a42dc845580816cab875aa5d7ad03cf8537a1ee046528538cf",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/approved-reader-import.json": "bd4fca450691fcaad6e5716b2dc64e86129712dd35a0b3da3b2ba41902ef925e",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/handoff.json": "eb85cb538c618b19fc8c8a131a0c225060d57991af279565b114739cee78edda",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/reader.json": "1099f14ccab49b3029dd2f5b88175e33e8865ed634c48d50c59e5361f994e932",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/source-acceptance.json": "a310b0e72970b3126ac0ec65c0543005f79dfa93ed6fae2ccc40ddbbaf5b70ca",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/source.json": "2aebe87530bed5c9529ca352beff65035e08550c614e25a5dc3cfed122478181",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/ru/seerah/technical-review.json": "0a8a3f83ab6e3334da693fe92d3f41c1bbb153c235cdf71f50dd212bb8240395",
+    "test-fixtures/missing-book-test-material/generated/th/articles/approved-reader-import.json": "c943bb8aa5ec752bf7412f302147f5bef858b5ee21b0bfe1f758073fec5edaee",
+    "test-fixtures/missing-book-test-material/generated/th/articles/handoff.json": "57c7084010aa64acc355e78f1bcd0e77f248fe56efce93a25f351047694b0ffc",
+    "test-fixtures/missing-book-test-material/generated/th/articles/reader.json": "8ebed29bc855d51b9de7e17e263bd52655cf9ce96c03374c995b46c0ab91657a",
+    "test-fixtures/missing-book-test-material/generated/th/articles/source-acceptance.json": "2f754ee8a4e26d2b49953cb8e98824965e5898098ce455f8572aeec141f0da53",
+    "test-fixtures/missing-book-test-material/generated/th/articles/source.json": "ed947e7d5a83060bb96a3f0aeca753c393d51afe9d8bfa8d5a190548772b524c",
+    "test-fixtures/missing-book-test-material/generated/th/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/th/articles/technical-review.json": "8986d9f5abe95653957f35048d034d24aed0ab77855b44218658fb7e58995280",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/approved-reader-import.json": "72998df3b34003778db93501c3186ce7e6d2294c5150dd87adb524b6594c0fb0",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/handoff.json": "5022a0db866c4edb06bc1dd18634e68007c9b32e2adf983a2cad0d8df15990ab",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/reader.json": "7fcec0bd0bd63b72eec7336501b9a50f3914726ceb24bb57091948241c70212e",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/source-acceptance.json": "984db84b461886a03a22a1f7ad0d059dad7b0353d0c0ff58b8ab2838f8813c45",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/source.json": "4e6c639e9ff4d887cacdae900e5ebb15759e7ab270b168d9c5e875933f49735f",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/th/seerah/technical-review.json": "9fd7e7476c50fde88ba972e90f23c1a30c2fa52384518aab045bcf6ed0cf4ee6",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/approved-reader-import.json": "f2d2cde0a49457d96d72d3f893af3216b5d1f462d2ad7ed0539dbd3448f669e6",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/handoff.json": "3e494d07b603cc41accdee3e5042a02b600c785189d198474787843178bd82e4",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/reader.json": "399709e8ebc43d21fb1c74b4f2026ae875d472d647b40f29490db20f78c496bc",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/source-acceptance.json": "4b2b364eb63d36c8ea445aba66ebd87eeb2ca2e27c6e06e7335e2a81e843d571",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/source.json": "edb5321bdb99b709035e7a0a799800855d6d4a4bdff473fe09cbb920ffd13511",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/tr/seerah/technical-review.json": "c5b63c90fe7042fbc30f8694260264927a11f1a7b48486e32185589729d65fd6",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/approved-reader-import.json": "096d17ec1346d36a81f4f195fd9106a05acbe135896589672602a086c9e338d7",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/handoff.json": "fe985253011b6869e7eab000f8bc5c7cb66cf5ffe7626a43ebd6d18af00076ea",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/reader.json": "1f39b769a2e72c7581ba0e2e1783d18d448650c0d3dd139cf4874e9df0796c43",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/source-acceptance.json": "7b37da2137e28b51ce7e11c7b12204142ead43bc44f36a69d8b77c0b5cfe13af",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/source.json": "17564b248a1569c8c05c99fa2f843c77b7100804db19b594c62bdc24bfa8c2f2",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/ur/articles/technical-review.json": "c84515c91e561e7b19ff5f22b2f288edb96552cb3529eeec36f5f7fe7cfca3b9",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/approved-reader-import.json": "1c5f1e4c3ea92c955cc96613591837b4a4dfc773f6e99938022c4694816efd0c",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/handoff.json": "2651b3f0b5e88bbf4522df9a369b97fa0cd5a06a950d57846927d16a7b64d9f0",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/reader.json": "dfda90f5462529062ca15e99e8a1d37d3310d08ebd8befb45291eb4f9755ae07",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/source-acceptance.json": "d36ffa70a0b2f44de4c7eab6a811f282be042f87dd971e0a0db1658f58649c68",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/source.json": "85244ab2cfba9758cc28d58caea521f4b4b4551d312b884655816fea8835319c",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/ur/seerah/technical-review.json": "ddb53cc62519c93dfedf049c19bf8977a4f57275e0add0341f1a9e74093e04f2",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/approved-reader-import.json": "370b1e18e4894419a08e9452f490b1ce81c0c432601abd6c3ae70ed95226ae38",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/handoff.json": "6a8380f014f67a7ad0d3175da652b90a459730824452f9bf9fc19b061785dce8",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/reader.json": "62675b026602dc095894e0d7bb62f71702876a26181d707ffb5715c5e63ecdaf",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/source-acceptance.json": "12b6e05b8ddf73432da66f49e3808be755ebfc56ce996f1cc876c1f9e91713d9",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/source.json": "1b18b927f55002866aa8efb3ced1358fef3d24b1c93018b5c3a918b3d899648c",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/uz/articles/technical-review.json": "082938a9ab5b8f161dbb568f841f48e53c3a2ca345934246ee6793facbf7c85a",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/approved-reader-import.json": "14917389f9366092af6f8cc998a98d3de3b7f189cfd8bf86cbee9ac04b8ec08d",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/handoff.json": "112fbb2636403e0ab29e5359e41f0b960ce4ee51836cf74c00072f8f7e451e8b",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/reader.json": "f448c9cf2006945fc2866c11dae27d041167396fd602ecd68ed27943fc633693",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/source-acceptance.json": "b2747149bdff3a4a9f8253f3d66d964edfa75c7115a47a4d37eea4fa7b9dd243",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/source.json": "55711b7ac94be85cd0a461472c0060b012043d889801d3c266f94bdabcafe38c",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/uz/seerah/technical-review.json": "5599f4b71e31082a8b2bcdc5db5b9b1670040aef1fae70e3076033b33f6d8c80",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/approved-reader-import.json": "9d0226d4ea2dd2b10d0842fd9ccfbba4867989ce1bd682236d363339b1c86db0",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/handoff.json": "2d75745143be7a71c873034dda98d6e90a9a3a581ae809226950af3df3c564b2",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/reader.json": "34695d6db9c6b4a84fd00d921f3667086b70a0974d268b1f692bbd0328db728f",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/source-acceptance.json": "39435f23545b1de89aaec3a382615b1a93f7fc4a8501342fb011416db260e631",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/source.json": "1e5a26003dcff0cc41f805489caebcb6f1ffda74b64d803a64d9e6b64d934a5b",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/vi/articles/technical-review.json": "2de28399cfc1a2912336777d228c546b83374533fe4cb8d64caca026cadd8f22",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/approved-reader-import.json": "5b3f42e3a9cebefafed841f7d10730661fe584a243edcc0dcfcfa7b72f4fa6c0",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/handoff.json": "233ab2d8bcbf1b1f5a0daae850adcf70476eccac53228f9bd2d2c76d355d3db5",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/reader.json": "0fd975e8bb7d61729b3dc83476549eec7ca996441a4007503776c1dae6afac5e",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/source-acceptance.json": "2cfc151e98f4244082875da0a332cb94dac951d879c9542f4057bee4aa0cfdb5",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/source.json": "45df63eba727507c37b6e438bb9775a90281c5051b874fa076f64adde97d1dc6",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/vi/seerah/technical-review.json": "ed88d941c307c0d383209de6899065c2dc2d948cb23ac03d1f6cd68a9bb6f8d9",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/approved-reader-import.json": "9193a42df3d968a5c573f3bf7254cf8cfcd8a9b68d34c83ef8eab54f7299e0d8",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/handoff.json": "95b60fc7ef78c9db877fdd4d6980aefb11ee079f46b653e94acf183e3863ae0b",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/reader.json": "d5a293bc65f1fed1dfec2f15e59c4ca131daa4659e419f1fefbc3682992b4f6f",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/source-acceptance.json": "fc098d23a9fee4953588e31b011b75efaeb5173f1ed6bc677321c31790fadeaf",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/source.json": "cf48c3044ac24482f41d98e3983dd2ad9ac2299b4c1b1d9c1fa0b93e015d31f2",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/articles/technical-review.json": "86a2caf6831c9c58e70e0d50dfac415cf4d5d94a2ba3006fc8ecf578ae747b14",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/approved-reader-import.json": "9fbec9f85819221570e20aafa9cb923948f1da096704fa11f10de77f43c52078",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/handoff.json": "51b1390f9e25e23ec3e2176b413764504cb72727feca7fe061862f550dfc4650",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/reader.json": "589e205cdb1118389d05420f82a66e40e3c3c60b1d061a96cc9800057d01f891",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/source-acceptance.json": "6756379344ed726227f5cfcd61809c3cf00a93831721e61f668342dbd110aacb",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/source.json": "3d957e5a19bf2658fc611a11bb9740c5b3374bf6fa7788d066d856a376bdb407",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/source.txt": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "test-fixtures/missing-book-test-material/generated/zh-CN/seerah/technical-review.json": "26dd03f71ba04cfb3a0c0b08c44ca3de1ab4f6b6f220e491720f055769d92f7f",
+    "test-fixtures/missing-book-test-material/matrix-manifest.json": "dfc0cb87e88ede9fc9cd93ff5f7f3198b4a2d71d99950288224ebaec102b7bdf",
+    "test-fixtures/missing-book-test-material/specification.json": "4a2e93ce6af9ca3a0d4250b31f9228a55fad7f59d3f712558ce72fbc0a912db8",
+    "test-fixtures/missing-book-test-material/user-request-receipt.json": "7c2cea26618cc542a5e223c9d3492b70f1fcaeda228c8e7f9983df6a36d3efb4"
+  },
+  "temporaryRegistrations": [
+    {
+      "material": {
+        "collection": "articles",
+        "language": "ur",
+        "id": "automation-test-material-ur-articles-001"
+      },
+      "scope": {
+        "language": "ur",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-ur-articles-001.json",
+      "currentReader": "books/units/current/ur/articles/automation-test-material-ur-articles-001.json",
+      "approval": "materials/book-publication-approvals/fe985253011b6869e7eab000f8bc5c7cb66cf5ffe7626a43ebd6d18af00076ea.json",
+      "intakeHistory": "materials/book-publication-intake-history/fe985253011b6869e7eab000f8bc5c7cb66cf5ffe7626a43ebd6d18af00076ea.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "ur",
+        "id": "automation-test-material-ur-seerah-001"
+      },
+      "scope": {
+        "language": "ur",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-ur-seerah-001.json",
+      "currentReader": "books/units/current/ur/seerah/automation-test-material-ur-seerah-001.json",
+      "approval": "materials/book-publication-approvals/2651b3f0b5e88bbf4522df9a369b97fa0cd5a06a950d57846927d16a7b64d9f0.json",
+      "intakeHistory": "materials/book-publication-intake-history/2651b3f0b5e88bbf4522df9a369b97fa0cd5a06a950d57846927d16a7b64d9f0.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "id",
+        "id": "automation-test-material-id-seerah-001"
+      },
+      "scope": {
+        "language": "id",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-id-seerah-001.json",
+      "currentReader": "books/units/current/id/seerah/automation-test-material-id-seerah-001.json",
+      "approval": "materials/book-publication-approvals/4bc4147ba4af3096bc524b99e53cf47c90c19256cbe6c9af6ee9422da65180d0.json",
+      "intakeHistory": "materials/book-publication-intake-history/4bc4147ba4af3096bc524b99e53cf47c90c19256cbe6c9af6ee9422da65180d0.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "ms",
+        "id": "automation-test-material-ms-seerah-001"
+      },
+      "scope": {
+        "language": "ms",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-ms-seerah-001.json",
+      "currentReader": "books/units/current/ms/seerah/automation-test-material-ms-seerah-001.json",
+      "approval": "materials/book-publication-approvals/137200b790e561fe97661df50d2551424ec784a0d94e074e242ae8de827b5766.json",
+      "intakeHistory": "materials/book-publication-intake-history/137200b790e561fe97661df50d2551424ec784a0d94e074e242ae8de827b5766.json"
+    },
+    {
+      "material": {
+        "collection": "articles",
+        "language": "bn",
+        "id": "automation-test-material-bn-articles-001"
+      },
+      "scope": {
+        "language": "bn",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-bn-articles-001.json",
+      "currentReader": "books/units/current/bn/articles/automation-test-material-bn-articles-001.json",
+      "approval": "materials/book-publication-approvals/317358a1e73ad7bd5634776eea84db74e24941c99ddc4efc05ef1e86b5bb408f.json",
+      "intakeHistory": "materials/book-publication-intake-history/317358a1e73ad7bd5634776eea84db74e24941c99ddc4efc05ef1e86b5bb408f.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "bn",
+        "id": "automation-test-material-bn-seerah-001"
+      },
+      "scope": {
+        "language": "bn",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-bn-seerah-001.json",
+      "currentReader": "books/units/current/bn/seerah/automation-test-material-bn-seerah-001.json",
+      "approval": "materials/book-publication-approvals/9cbb531a6e8dc932147c99b293af7f271cc594d62335c9d54283ecf66af759f6.json",
+      "intakeHistory": "materials/book-publication-intake-history/9cbb531a6e8dc932147c99b293af7f271cc594d62335c9d54283ecf66af759f6.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "tr",
+        "id": "automation-test-material-tr-seerah-001"
+      },
+      "scope": {
+        "language": "tr",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-tr-seerah-001.json",
+      "currentReader": "books/units/current/tr/seerah/automation-test-material-tr-seerah-001.json",
+      "approval": "materials/book-publication-approvals/3e494d07b603cc41accdee3e5042a02b600c785189d198474787843178bd82e4.json",
+      "intakeHistory": "materials/book-publication-intake-history/3e494d07b603cc41accdee3e5042a02b600c785189d198474787843178bd82e4.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "fr",
+        "id": "automation-test-material-fr-seerah-001"
+      },
+      "scope": {
+        "language": "fr",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-fr-seerah-001.json",
+      "currentReader": "books/units/current/fr/seerah/automation-test-material-fr-seerah-001.json",
+      "approval": "materials/book-publication-approvals/b20b77e977195cca8a79be6957c18d22579b7cdcb9271804f4c5e4e636ac5ce6.json",
+      "intakeHistory": "materials/book-publication-intake-history/b20b77e977195cca8a79be6957c18d22579b7cdcb9271804f4c5e4e636ac5ce6.json"
+    },
+    {
+      "material": {
+        "collection": "articles",
+        "language": "pt-BR",
+        "id": "automation-test-material-pt-BR-articles-001"
+      },
+      "scope": {
+        "language": "pt-BR",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-pt-BR-articles-001.json",
+      "currentReader": "books/units/current/pt-BR/articles/automation-test-material-pt-BR-articles-001.json",
+      "approval": "materials/book-publication-approvals/7a143344f4faf38c0db9110a2b8a0720115883f14a770e65f630feeae4ba12e6.json",
+      "intakeHistory": "materials/book-publication-intake-history/7a143344f4faf38c0db9110a2b8a0720115883f14a770e65f630feeae4ba12e6.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "pt-BR",
+        "id": "automation-test-material-pt-BR-seerah-001"
+      },
+      "scope": {
+        "language": "pt-BR",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-pt-BR-seerah-001.json",
+      "currentReader": "books/units/current/pt-BR/seerah/automation-test-material-pt-BR-seerah-001.json",
+      "approval": "materials/book-publication-approvals/de8f798864f408dca3fff5e34805c21e5a3e0d9dc9fa61fe93dfba13c22bcc13.json",
+      "intakeHistory": "materials/book-publication-intake-history/de8f798864f408dca3fff5e34805c21e5a3e0d9dc9fa61fe93dfba13c22bcc13.json"
+    },
+    {
+      "material": {
+        "collection": "articles",
+        "language": "hi",
+        "id": "automation-test-material-hi-articles-001"
+      },
+      "scope": {
+        "language": "hi",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-hi-articles-001.json",
+      "currentReader": "books/units/current/hi/articles/automation-test-material-hi-articles-001.json",
+      "approval": "materials/book-publication-approvals/2a73d4cfc7c145bdf3f07407e4c0816b235a17c4f77409d64ae42d1860f0bec7.json",
+      "intakeHistory": "materials/book-publication-intake-history/2a73d4cfc7c145bdf3f07407e4c0816b235a17c4f77409d64ae42d1860f0bec7.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "hi",
+        "id": "automation-test-material-hi-seerah-001"
+      },
+      "scope": {
+        "language": "hi",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-hi-seerah-001.json",
+      "currentReader": "books/units/current/hi/seerah/automation-test-material-hi-seerah-001.json",
+      "approval": "materials/book-publication-approvals/59c2d44a2a63903fd81d21ec9a2ee5bbd3f136b24bdd4d275f57ef55aeabb7a5.json",
+      "intakeHistory": "materials/book-publication-intake-history/59c2d44a2a63903fd81d21ec9a2ee5bbd3f136b24bdd4d275f57ef55aeabb7a5.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "ru",
+        "id": "automation-test-material-ru-seerah-001"
+      },
+      "scope": {
+        "language": "ru",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-ru-seerah-001.json",
+      "currentReader": "books/units/current/ru/seerah/automation-test-material-ru-seerah-001.json",
+      "approval": "materials/book-publication-approvals/eb85cb538c618b19fc8c8a131a0c225060d57991af279565b114739cee78edda.json",
+      "intakeHistory": "materials/book-publication-intake-history/eb85cb538c618b19fc8c8a131a0c225060d57991af279565b114739cee78edda.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "es",
+        "id": "automation-test-material-es-seerah-001"
+      },
+      "scope": {
+        "language": "es",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-es-seerah-001.json",
+      "currentReader": "books/units/current/es/seerah/automation-test-material-es-seerah-001.json",
+      "approval": "materials/book-publication-approvals/385a3c863b1fa511587c2a6663d5af96f95ee6ac33575a107e73fe402a918b20.json",
+      "intakeHistory": "materials/book-publication-intake-history/385a3c863b1fa511587c2a6663d5af96f95ee6ac33575a107e73fe402a918b20.json"
+    },
+    {
+      "material": {
+        "collection": "articles",
+        "language": "fa",
+        "id": "automation-test-material-fa-articles-001"
+      },
+      "scope": {
+        "language": "fa",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-fa-articles-001.json",
+      "currentReader": "books/units/current/fa/articles/automation-test-material-fa-articles-001.json",
+      "approval": "materials/book-publication-approvals/da510216a064418385a1f2589f2d817e839acd93284c2e5427521b16923d3b81.json",
+      "intakeHistory": "materials/book-publication-intake-history/da510216a064418385a1f2589f2d817e839acd93284c2e5427521b16923d3b81.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "fa",
+        "id": "automation-test-material-fa-seerah-001"
+      },
+      "scope": {
+        "language": "fa",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-fa-seerah-001.json",
+      "currentReader": "books/units/current/fa/seerah/automation-test-material-fa-seerah-001.json",
+      "approval": "materials/book-publication-approvals/5a0234b3b174d0fd106a46b00d705be2da6bc3cf26043f956e3dd13b6bc92f98.json",
+      "intakeHistory": "materials/book-publication-intake-history/5a0234b3b174d0fd106a46b00d705be2da6bc3cf26043f956e3dd13b6bc92f98.json"
+    },
+    {
+      "material": {
+        "collection": "articles",
+        "language": "de",
+        "id": "automation-test-material-de-articles-001"
+      },
+      "scope": {
+        "language": "de",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-de-articles-001.json",
+      "currentReader": "books/units/current/de/articles/automation-test-material-de-articles-001.json",
+      "approval": "materials/book-publication-approvals/3192ef325562bec0510cb96437546a032626c0ade70378a1f8f74b1bda526f02.json",
+      "intakeHistory": "materials/book-publication-intake-history/3192ef325562bec0510cb96437546a032626c0ade70378a1f8f74b1bda526f02.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "de",
+        "id": "automation-test-material-de-seerah-001"
+      },
+      "scope": {
+        "language": "de",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-de-seerah-001.json",
+      "currentReader": "books/units/current/de/seerah/automation-test-material-de-seerah-001.json",
+      "approval": "materials/book-publication-approvals/d943dceb5b31762e1558de80f88b4eecf4f3943712f738c450b02d55c589d6a7.json",
+      "intakeHistory": "materials/book-publication-intake-history/d943dceb5b31762e1558de80f88b4eecf4f3943712f738c450b02d55c589d6a7.json"
+    },
+    {
+      "material": {
+        "collection": "articles",
+        "language": "zh-CN",
+        "id": "automation-test-material-zh-CN-articles-001"
+      },
+      "scope": {
+        "language": "zh-CN",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-zh-CN-articles-001.json",
+      "currentReader": "books/units/current/zh-CN/articles/automation-test-material-zh-CN-articles-001.json",
+      "approval": "materials/book-publication-approvals/95b60fc7ef78c9db877fdd4d6980aefb11ee079f46b653e94acf183e3863ae0b.json",
+      "intakeHistory": "materials/book-publication-intake-history/95b60fc7ef78c9db877fdd4d6980aefb11ee079f46b653e94acf183e3863ae0b.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "zh-CN",
+        "id": "automation-test-material-zh-CN-seerah-001"
+      },
+      "scope": {
+        "language": "zh-CN",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-zh-CN-seerah-001.json",
+      "currentReader": "books/units/current/zh-CN/seerah/automation-test-material-zh-CN-seerah-001.json",
+      "approval": "materials/book-publication-approvals/51b1390f9e25e23ec3e2176b413764504cb72727feca7fe061862f550dfc4650.json",
+      "intakeHistory": "materials/book-publication-intake-history/51b1390f9e25e23ec3e2176b413764504cb72727feca7fe061862f550dfc4650.json"
+    },
+    {
+      "material": {
+        "collection": "articles",
+        "language": "uz",
+        "id": "automation-test-material-uz-articles-001"
+      },
+      "scope": {
+        "language": "uz",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-uz-articles-001.json",
+      "currentReader": "books/units/current/uz/articles/automation-test-material-uz-articles-001.json",
+      "approval": "materials/book-publication-approvals/6a8380f014f67a7ad0d3175da652b90a459730824452f9bf9fc19b061785dce8.json",
+      "intakeHistory": "materials/book-publication-intake-history/6a8380f014f67a7ad0d3175da652b90a459730824452f9bf9fc19b061785dce8.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "uz",
+        "id": "automation-test-material-uz-seerah-001"
+      },
+      "scope": {
+        "language": "uz",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-uz-seerah-001.json",
+      "currentReader": "books/units/current/uz/seerah/automation-test-material-uz-seerah-001.json",
+      "approval": "materials/book-publication-approvals/112fbb2636403e0ab29e5359e41f0b960ce4ee51836cf74c00072f8f7e451e8b.json",
+      "intakeHistory": "materials/book-publication-intake-history/112fbb2636403e0ab29e5359e41f0b960ce4ee51836cf74c00072f8f7e451e8b.json"
+    },
+    {
+      "material": {
+        "collection": "articles",
+        "language": "th",
+        "id": "automation-test-material-th-articles-001"
+      },
+      "scope": {
+        "language": "th",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-th-articles-001.json",
+      "currentReader": "books/units/current/th/articles/automation-test-material-th-articles-001.json",
+      "approval": "materials/book-publication-approvals/57c7084010aa64acc355e78f1bcd0e77f248fe56efce93a25f351047694b0ffc.json",
+      "intakeHistory": "materials/book-publication-intake-history/57c7084010aa64acc355e78f1bcd0e77f248fe56efce93a25f351047694b0ffc.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "th",
+        "id": "automation-test-material-th-seerah-001"
+      },
+      "scope": {
+        "language": "th",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-th-seerah-001.json",
+      "currentReader": "books/units/current/th/seerah/automation-test-material-th-seerah-001.json",
+      "approval": "materials/book-publication-approvals/5022a0db866c4edb06bc1dd18634e68007c9b32e2adf983a2cad0d8df15990ab.json",
+      "intakeHistory": "materials/book-publication-intake-history/5022a0db866c4edb06bc1dd18634e68007c9b32e2adf983a2cad0d8df15990ab.json"
+    },
+    {
+      "material": {
+        "collection": "articles",
+        "language": "vi",
+        "id": "automation-test-material-vi-articles-001"
+      },
+      "scope": {
+        "language": "vi",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-vi-articles-001.json",
+      "currentReader": "books/units/current/vi/articles/automation-test-material-vi-articles-001.json",
+      "approval": "materials/book-publication-approvals/2d75745143be7a71c873034dda98d6e90a9a3a581ae809226950af3df3c564b2.json",
+      "intakeHistory": "materials/book-publication-intake-history/2d75745143be7a71c873034dda98d6e90a9a3a581ae809226950af3df3c564b2.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "vi",
+        "id": "automation-test-material-vi-seerah-001"
+      },
+      "scope": {
+        "language": "vi",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-vi-seerah-001.json",
+      "currentReader": "books/units/current/vi/seerah/automation-test-material-vi-seerah-001.json",
+      "approval": "materials/book-publication-approvals/233ab2d8bcbf1b1f5a0daae850adcf70476eccac53228f9bd2d2c76d355d3db5.json",
+      "intakeHistory": "materials/book-publication-intake-history/233ab2d8bcbf1b1f5a0daae850adcf70476eccac53228f9bd2d2c76d355d3db5.json"
+    },
+    {
+      "material": {
+        "collection": "articles",
+        "language": "ja",
+        "id": "automation-test-material-ja-articles-001"
+      },
+      "scope": {
+        "language": "ja",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-ja-articles-001.json",
+      "currentReader": "books/units/current/ja/articles/automation-test-material-ja-articles-001.json",
+      "approval": "materials/book-publication-approvals/d24e5b2ce2da06aa74bfac80202f695c3ee6f87299c2d5fdc9a4cd81f16ad15c.json",
+      "intakeHistory": "materials/book-publication-intake-history/d24e5b2ce2da06aa74bfac80202f695c3ee6f87299c2d5fdc9a4cd81f16ad15c.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "ja",
+        "id": "automation-test-material-ja-seerah-001"
+      },
+      "scope": {
+        "language": "ja",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-ja-seerah-001.json",
+      "currentReader": "books/units/current/ja/seerah/automation-test-material-ja-seerah-001.json",
+      "approval": "materials/book-publication-approvals/9e5d9ec05b65655cf672fb9afd50093ffec0c578528a6cd6fd09052b77236da4.json",
+      "intakeHistory": "materials/book-publication-intake-history/9e5d9ec05b65655cf672fb9afd50093ffec0c578528a6cd6fd09052b77236da4.json"
+    },
+    {
+      "material": {
+        "collection": "articles",
+        "language": "fil",
+        "id": "automation-test-material-fil-articles-001"
+      },
+      "scope": {
+        "language": "fil",
+        "collection": "articles"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-fil-articles-001.json",
+      "currentReader": "books/units/current/fil/articles/automation-test-material-fil-articles-001.json",
+      "approval": "materials/book-publication-approvals/cdbda1dbcd3109b8eaec74d9414ec6922ca8fb104d8bc51a4677d0e504d88ee3.json",
+      "intakeHistory": "materials/book-publication-intake-history/cdbda1dbcd3109b8eaec74d9414ec6922ca8fb104d8bc51a4677d0e504d88ee3.json"
+    },
+    {
+      "material": {
+        "collection": "seerah",
+        "language": "fil",
+        "id": "automation-test-material-fil-seerah-001"
+      },
+      "scope": {
+        "language": "fil",
+        "collection": "seerah"
+      },
+      "intakePath": "materials/book-publication-intake/automation-test-material-fil-seerah-001.json",
+      "currentReader": "books/units/current/fil/seerah/automation-test-material-fil-seerah-001.json",
+      "approval": "materials/book-publication-approvals/af828755fe2b4d304d99646871171622a83ca9184775f880909e9a3d55a5e4b7.json",
+      "intakeHistory": "materials/book-publication-intake-history/af828755fe2b4d304d99646871171622a83ca9184775f880909e9a3d55a5e4b7.json"
+    }
+  ],
+  "sharedRecordsRequireTargetedRemoval": [
+    "materials/catalog.json",
+    "books/reviewed-books.json",
+    "books/prepared-library.json",
+    "books/published-library.json",
+    "books/published-bundles.json"
+  ],
+  "qualification": "Ownership inventory only. Preserve unrelated shared entries and recorded publication history; bind any future release artifacts separately before cleanup."
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "6c7e1dfc0632c95447cdf2dbf7e9dafde34f0c44681fce21d7432e5bf62d450a",
+  "catalogEntry": {
+    "collection": "seerah",
+    "language": "vi",
+    "id": "automation-test-material-vi-seerah-001",
+    "name": "automation test material",
+    "title": "automation test material",
+    "json": "test-fixtures/missing-book-test-material/generated/vi/seerah/source.json",
+    "current": true,
+    "testOnly": true,
+    "temporary": true,
+    "sourceKind": "user-requested-temporary-automation-material",
+    "sourceHashes": [
+      "45df63eba727507c37b6e438bb9775a90281c5051b874fa076f64adde97d1dc6",
+      "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+    ],
+    "edition": "new-adult"
+  },
+  "sourceBindings": [
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/vi/seerah/source.json",
+      "sha256": "45df63eba727507c37b6e438bb9775a90281c5051b874fa076f64adde97d1dc6"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/vi/seerah/source.txt",
+      "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+    }
+  ],
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "path": "test-fixtures/missing-book-test-material/generated/vi/seerah/reader.json",
+    "sha256": "0fd975e8bb7d61729b3dc83476549eec7ca996441a4007503776c1dae6afac5e"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "automation-test-material-vi-seerah-001-temporary-publication-v1",
+    "reviewer": {
+      "identity": "/root/bidi_patch_review",
+      "independent": false,
+      "kind": "AI assistant",
+      "role": "Fixture author and technical source reviewer",
+      "scope": "Exact user-requested dummy source bytes, native display labels, and the one-paragraph reader normalization contract only."
+    },
+    "material": {
+      "collection": "seerah",
+      "language": "vi",
+      "id": "automation-test-material-vi-seerah-001"
+    },
+    "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+    "reviewArtifacts": [
+      {
+        "path": "test-fixtures/missing-book-test-material/user-request-receipt.json",
+        "sha256": "7c2cea26618cc542a5e223c9d3492b70f1fcaeda228c8e7f9983df6a36d3efb4"
+      },
+      {
+        "path": "test-fixtures/missing-book-test-material/author-technical-review.json",
+        "sha256": "76d72c679bafa328bf88b0ce5c305375d981d814120ed523df35e5fd77b3387c"
+      },
+      {
+        "path": "test-fixtures/missing-book-test-material/generated/vi/seerah/technical-review.json",
+        "sha256": "ed88d941c307c0d383209de6899065c2dc2d948cb23ac03d1f6cd68a9bb6f8d9"
+      },
+      {
+        "path": "test-fixtures/missing-book-test-material/generated/vi/seerah/source-acceptance.json",
+        "sha256": "2cfc151e98f4244082875da0a332cb94dac951d879c9542f4057bee4aa0cfdb5"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/vi/seerah/source.json",
+      "sha256": null
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/vi/seerah/source.txt",
+      "sha256": null
+    }
+  ],
+  "qualification": "Temporary authored TEST material requested by the user; no human, scholarly or translation approval is claimed."
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "iman-temporary-material-technical-review-v1",
+  "testOnly": true,
+  "decision": "approved",
+  "wholeMaterial": true,
+  "approvalId": "automation-test-material-th-articles-001-author-technical-v1",
+  "reviewer": {
+    "identity": "/root/bidi_patch_review",
+    "independent": false,
+    "kind": "AI assistant",
+    "role": "Fixture author and technical source reviewer",
+    "scope": "Exact user-requested dummy source bytes, native display labels, and the one-paragraph reader normalization contract only."
+  },
+  "reviewedAtUTC": "2026-11-11T04:45:32.957518+00:00",
+  "material": {
+    "collection": "articles",
+    "language": "th",
+    "id": "automation-test-material-th-articles-001"
+  },
+  "canonicalSourceName": "automation test material",
+  "displayTitle": "เนื้อหาทดสอบระบบอัตโนมัติ",
+  "bodyText": "TEST TEST",
+  "readerTextSHA256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a",
+  "sourceBindings": [
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/th/articles/source.json",
+      "sha256": "ed947e7d5a83060bb96a3f0aeca753c393d51afe9d8bfa8d5a190548772b524c"
+    },
+    {
+      "path": "test-fixtures/missing-book-test-material/generated/th/articles/source.txt",
+      "sha256": "a6c023d0ad971dff02a2bcf4e762f6e647b1044eb30dea5241e9a8f1bdf6817a"
+    }
+  ],
+  "recordedAuthorReview": {
+    "path": "test-fixtures/missing-book-test-material/author-technical-review.json",
+    "sha256": "76d72c679bafa328bf88b0ce5c305375d981d814120ed523df35e5fd77b3387c"
+  },
+  "reviewScope": "Exact authored dummy text, display label and one-paragraph normalization; no religious or translation assessment.",
+  "claims": {
+    "independentReview": false,
+    "humanReview": false,
+    "scholarlyApproval": false,
+    "religiousSourceApproval": false,
+    "translationApproval": false,
+    "actualWordReview": false,
+    "finalVisualAcceptance": false,
+    "publicReleaseApproval": false
+  }
+}
