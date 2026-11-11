@@ -690,8 +690,8 @@
       }
     },
     "ur": {
-      "fingerprint": "57eda32fd5ef49e296b254f831b9b4444a86fd267cec14d23d699461ac98f8cf",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "c85f4ce44d3fbc1f02ef3ac393a2ac4adeee55807838f39d49064bcb1eab099b",
+      "releaseTag": "books-42596828459-1-bundles",
       "parts": [
         {
           "language": "ur",
@@ -704,35 +704,23 @@
           "collection": "hadith",
           "sha256": "53193d09f82ddbfba4380a573600c5977a2c2a8e6b4b43c9ad7f77044d13eed7",
           "pdfSha256": "9b17261855f0a612b34c6b68222dd36a67ea58e191867f5fe3350236aa23083e"
-        },
-        {
-          "language": "ur",
-          "collection": "seerah",
-          "sha256": "7041bd37e12dd288e4c4c2d9071d580fcf60bf51c5be1cd2f608b71cafca6c69",
-          "pdfSha256": "a0ccd969cf409370dbfb0ca90ebabdaaea44587e508b4be76c9bb2d95d0d92e4"
-        },
-        {
-          "language": "ur",
-          "collection": "articles",
-          "sha256": "ad40e573bbeceffe3fb4407cf2afc18a73a3b716dcb0efcb4b2f8506863ce382",
-          "pdfSha256": "8f1b71ee3b4790ff6ced95eb2e9e5574d165ab7f7a0532a9f43f49a3f89a5926"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_ur_all-books.zip",
-          "bytes": 28858568,
-          "sha256": "c44bd20f2f2f799c67924cb1940bc59d5ffb8a0aa2f49204b7d05e0c20600357"
+          "bytes": 18283089,
+          "sha256": "959a73585fec6ef5c233fac899f9e1f4ed28e0df7daff45429d1f972c551bd98"
         },
         {
           "name": "Iman_Companion_ur_all-books.docx",
-          "bytes": 15075724,
-          "sha256": "33052739e9a1f8c99085c90381c58fd9399ec70840777d8fa057d897fe0610a3"
+          "bytes": 8848900,
+          "sha256": "f4601cdc1f173e55ea2025542f8359b906119637e7d1c7e0b8bc65d75daa9ce5"
         },
         {
           "name": "Iman_Companion_ur_all-books.pdf",
-          "bytes": 8437607,
-          "sha256": "13c0ad46ccc7d375274d5f2b5ffa6968ab224ef6d5333c4a4f5f6f3aede267eb"
+          "bytes": 7610006,
+          "sha256": "468d8fd5952b2ea0af8e9e7cf0fc37f6d7647145fd5e01a15cd2566ce0711565"
         }
       ],
       "verification": {
@@ -740,38 +728,32 @@
           "Iman_Companion_ur_tadabbur-extended.docx": "476574ebe59015728ff498fef3037aae197b37df66dc854717d817933e204df1",
           "Iman_Companion_ur_tadabbur-extended.pdf": "855edcd53153ff71666e8ae6083584c67949f1d0f79e8bf7c434c1cbcaecb1ba",
           "Iman_Companion_ur_hadith.docx": "53193d09f82ddbfba4380a573600c5977a2c2a8e6b4b43c9ad7f77044d13eed7",
-          "Iman_Companion_ur_hadith.pdf": "9b17261855f0a612b34c6b68222dd36a67ea58e191867f5fe3350236aa23083e",
-          "Iman_Companion_ur_seerah.docx": "7041bd37e12dd288e4c4c2d9071d580fcf60bf51c5be1cd2f608b71cafca6c69",
-          "Iman_Companion_ur_seerah.pdf": "a0ccd969cf409370dbfb0ca90ebabdaaea44587e508b4be76c9bb2d95d0d92e4",
-          "Iman_Companion_ur_articles.docx": "ad40e573bbeceffe3fb4407cf2afc18a73a3b716dcb0efcb4b2f8506863ce382",
-          "Iman_Companion_ur_articles.pdf": "8f1b71ee3b4790ff6ced95eb2e9e5574d165ab7f7a0532a9f43f49a3f89a5926"
+          "Iman_Companion_ur_hadith.pdf": "9b17261855f0a612b34c6b68222dd36a67ea58e191867f5fe3350236aa23083e"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 956,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 2,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 395,
+          "parts": 2,
+          "pages": 387,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 1935,
+          "annotationsVerified": 1933,
           "partOffsets": [
             0,
-            330,
-            387,
-            391
+            330
           ]
         }
       }
     },
     "id": {
-      "fingerprint": "97303b0b4baf658fe39927b3b722a195167399774155bb9125247a7ee5e46770",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "45f27fa2667540a5304b545fb214db644b249d78d30c2f8c78b24318518eb0f6",
+      "releaseTag": "books-42889687969-1-bundles",
       "parts": [
         {
           "language": "id",
@@ -787,12 +769,6 @@
         },
         {
           "language": "id",
-          "collection": "seerah",
-          "sha256": "e2c67c8114d754db415bf425db52e00ebf0f53ee4a2dded001ab415a0615c613",
-          "pdfSha256": "45d21b3b952c9f5946a6e5931ab052c80c82a5c8cd4564f2d9ab0a606be51733"
-        },
-        {
-          "language": "id",
           "collection": "articles",
           "sha256": "5323001902cd27b3091a1121779cf81ffcba8f46e4e7442d9bf24312351d2f65",
           "pdfSha256": "1ef4f59e82a61b7a769643ed58eb5ba909ab22782b1346c5328ff06cd3b5e34e"
@@ -801,18 +777,18 @@
       "assets": [
         {
           "name": "Iman_Companion_id_all-books.zip",
-          "bytes": 19736441,
-          "sha256": "8b43114110d5c0e3d732b3e04830d5642b5761ceaa2c892ddfce10e82f32f56c"
+          "bytes": 15290693,
+          "sha256": "ff041da25a09ff9403f20dda7cca4bf2ea416aebad302676ac3f6f6a01d075fa"
         },
         {
           "name": "Iman_Companion_id_all-books.docx",
-          "bytes": 13876702,
-          "sha256": "3315a9721695c9afcca899d0bff7802d5ce769ea6462a35c7d8340d4b55f33e9"
+          "bytes": 10709304,
+          "sha256": "c7a81c915025f9861e35b1bdb266ce80122badf8a6ce35a85720c0c25baf2004"
         },
         {
           "name": "Iman_Companion_id_all-books.pdf",
-          "bytes": 3284219,
-          "sha256": "fdba24b987c8eb288887153436894a842772fc3b2efd53832226264838ac1150"
+          "bytes": 2871758,
+          "sha256": "036e3ca968487c9589a3194547d545ff0fdd5fa45c989924b1996e0fe91a576c"
         }
       ],
       "verification": {
@@ -821,46 +797,43 @@
           "Iman_Companion_id_tadabbur-extended.pdf": "1763f633f80e6e6e261e49ba6e7987c22e2d61c53988d59a6e262ccd80680147",
           "Iman_Companion_id_hadith.docx": "8fefade1de2c8b39a7d832366567a231a9247f35e355da5813764832d27cc98b",
           "Iman_Companion_id_hadith.pdf": "053aff632de57cac86312bdca951638a41e8734e73733666be555dbc96806975",
-          "Iman_Companion_id_seerah.docx": "e2c67c8114d754db415bf425db52e00ebf0f53ee4a2dded001ab415a0615c613",
-          "Iman_Companion_id_seerah.pdf": "45d21b3b952c9f5946a6e5931ab052c80c82a5c8cd4564f2d9ab0a606be51733",
           "Iman_Companion_id_articles.docx": "5323001902cd27b3091a1121779cf81ffcba8f46e4e7442d9bf24312351d2f65",
           "Iman_Companion_id_articles.pdf": "1ef4f59e82a61b7a769643ed58eb5ba909ab22782b1346c5328ff06cd3b5e34e"
         },
         "word": {
-          "parts": 4,
+          "parts": 3,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 737,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 3,
           "independentBookPagination": true,
           "isolatedStyles": [
             {
-              "part": 4,
+              "part": 3,
               "styles": {
-                "EndnoteCharacters": "m4_97bd42d5c4511f6b6acfa163",
-                "EndnoteCharactersuser": "m4_8fbdc871f1faaa69a677db22",
-                "FootnoteCharactersuser": "m4_9a6b08d02af0192a44f8a14c"
+                "EndnoteCharacters": "m3_97bd42d5c4511f6b6acfa163",
+                "EndnoteCharactersuser": "m3_8fbdc871f1faaa69a677db22",
+                "FootnoteCharactersuser": "m3_9a6b08d02af0192a44f8a14c"
               }
             }
           ],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 277,
+          "parts": 3,
+          "pages": 274,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 1499,
+          "annotationsVerified": 1498,
           "partOffsets": [
             0,
             220,
-            254,
-            257
+            254
           ]
         }
       }
     },
     "ms": {
-      "fingerprint": "7eba60bc14614fd2e3dc90273ed5b36fb74f9f68dde45e6214cca4909c34b6ce",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "70320d9b8ed46da313178f021b3540ba0c3057b20bc535ebad9529be58cd791d",
+      "releaseTag": "books-42889687969-1-bundles",
       "parts": [
         {
           "language": "ms",
@@ -876,12 +849,6 @@
         },
         {
           "language": "ms",
-          "collection": "seerah",
-          "sha256": "ca668756cb56e901838eef99d2a345676c50a09c915d1fa0ab8172c387b4e840",
-          "pdfSha256": "cbe55545cd71939e62a8e4b75ad7555f27de6ed2c452dc7d321f568b2b3a7124"
-        },
-        {
-          "language": "ms",
           "collection": "articles",
           "sha256": "a69bfb58c52e5c5a2c771aba33ba102f59e3aaf8c0945d26129c81dc0ddefa46",
           "pdfSha256": "aed89a2e6c57692b7539608c6fd77bc05f2fd45bcf4fe3b9703104cc2e52b882"
@@ -890,18 +857,18 @@
       "assets": [
         {
           "name": "Iman_Companion_ms_all-books.zip",
-          "bytes": 19956623,
-          "sha256": "f9c48d3380fb1b824f1356b9d0318d43cecef4a1752cc27c31ea91f9826942b3"
+          "bytes": 15511299,
+          "sha256": "d673e26edb1b11928eac607990d307fceb78f08672174a04f07f7701d5cfc4f1"
         },
         {
           "name": "Iman_Companion_ms_all-books.docx",
-          "bytes": 13880389,
-          "sha256": "4870ef6729c08438a5768c5518c2c9e02f3e723b5cb388a5a762306ee1ed3b18"
+          "bytes": 10712862,
+          "sha256": "b2652174827bca7e009945f4ff3f25f8be40f12e638ad36b859f631766fa13e3"
         },
         {
           "name": "Iman_Companion_ms_all-books.pdf",
-          "bytes": 3295825,
-          "sha256": "3d97f5bb7c09b96552f6c596fc85f2e63d75e17bf3a97f074036e1a174d33f50"
+          "bytes": 2883826,
+          "sha256": "70579ea5ea7cc0ccbc422d4a983fa19cc6a75561abd72213f4515cca35423be4"
         }
       ],
       "verification": {
@@ -910,46 +877,43 @@
           "Iman_Companion_ms_tadabbur-extended.pdf": "ec1a6ca30ea2f093dfb6f7fca74cebbf6eb19608e7fd0e0f99d4e5841f5fcbd3",
           "Iman_Companion_ms_hadith.docx": "80b3f8a6939e32a170153255c1a965668529eadb90d50f2e041877e8c38103e4",
           "Iman_Companion_ms_hadith.pdf": "2c6f1f092b3abffc011c67ecaf2d6effd3ef6ed65978de2faa2ce5a347b0f618",
-          "Iman_Companion_ms_seerah.docx": "ca668756cb56e901838eef99d2a345676c50a09c915d1fa0ab8172c387b4e840",
-          "Iman_Companion_ms_seerah.pdf": "cbe55545cd71939e62a8e4b75ad7555f27de6ed2c452dc7d321f568b2b3a7124",
           "Iman_Companion_ms_articles.docx": "a69bfb58c52e5c5a2c771aba33ba102f59e3aaf8c0945d26129c81dc0ddefa46",
           "Iman_Companion_ms_articles.pdf": "aed89a2e6c57692b7539608c6fd77bc05f2fd45bcf4fe3b9703104cc2e52b882"
         },
         "word": {
-          "parts": 4,
+          "parts": 3,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 702,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 3,
           "independentBookPagination": true,
           "isolatedStyles": [
             {
-              "part": 4,
+              "part": 3,
               "styles": {
-                "EndnoteCharacters": "m4_97bd42d5c4511f6b6acfa163",
-                "EndnoteCharactersuser": "m4_8fbdc871f1faaa69a677db22",
-                "FootnoteCharactersuser": "m4_9a6b08d02af0192a44f8a14c"
+                "EndnoteCharacters": "m3_97bd42d5c4511f6b6acfa163",
+                "EndnoteCharactersuser": "m3_8fbdc871f1faaa69a677db22",
+                "FootnoteCharactersuser": "m3_9a6b08d02af0192a44f8a14c"
               }
             }
           ],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 282,
+          "parts": 3,
+          "pages": 279,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 1429,
+          "annotationsVerified": 1428,
           "partOffsets": [
             0,
             225,
-            259,
-            262
+            259
           ]
         }
       }
     },
     "bn": {
-      "fingerprint": "c0ac2084ec151b9e5fa2bc04f00636b5d00a8a35a462f827f1f8e0cbb6881f09",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "8192ade9eb9761b8c68ec856333946a0289be917f860690af0ee3d1db18c3fea",
+      "releaseTag": "books-42596828459-1-bundles",
       "parts": [
         {
           "language": "bn",
@@ -962,35 +926,23 @@
           "collection": "hadith",
           "sha256": "e517c5fefdc8ebe4c98e39f23353c3b99c2ba1449a9ebf5857a532c7d9c24380",
           "pdfSha256": "bbde5292f8205762004bce49c062a15947afca893fb7524d7884fdbaf6496a65"
-        },
-        {
-          "language": "bn",
-          "collection": "seerah",
-          "sha256": "6c284ed316cff3278404be4c3278f50bebe78268cee540bf4c96830a0c5fcd25",
-          "pdfSha256": "5791beb9051831e60f2aaf60c24d59d6ecd44eb708594146cf7f8bccd9e6ff7e"
-        },
-        {
-          "language": "bn",
-          "collection": "articles",
-          "sha256": "84e5e55beae917edcebadf9ca19bfeaac8d490f3537cb3be8ec7e418998e7818",
-          "pdfSha256": "75a84f8c688a9013c14bddab58376adec91ff6588b00357402b4b7bf4b69cd49"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_bn_all-books.zip",
-          "bytes": 24140177,
-          "sha256": "fe4408ca3257e4fd2da86d0301c326d7e59d813e3cacd8aa5919ec6203954e9b"
+          "bytes": 14778329,
+          "sha256": "22f7eb601e7f9216f2f3f8638828f73ff1a35fe39b1a93b8c3f1f17b26f0269e"
         },
         {
           "name": "Iman_Companion_bn_all-books.docx",
-          "bytes": 14497391,
-          "sha256": "e2e728f8790684b15b6abfb459d3717d7c2ffdf6c8f807dca723a37c348f15c5"
+          "bytes": 8268176,
+          "sha256": "5430aebf0cab303e5391b036b482caaaacb25bee102f66dfb6638a91478414e6"
         },
         {
           "name": "Iman_Companion_bn_all-books.pdf",
-          "bytes": 5852180,
-          "sha256": "2b0f55a24dcc4ef6cc5c29ea3aa92d8e8699b8c9883fa59e6508e2811e5724ff"
+          "bytes": 5010877,
+          "sha256": "092b4bfe6c6701b8b7240f7175a13496c9d0a6002cde80696082916fd525f528"
         }
       ],
       "verification": {
@@ -998,38 +950,32 @@
           "Iman_Companion_bn_tadabbur-extended.docx": "5943e83504bb66b3c6ce91635fbbb13606b45feb21ec22f9cd073313d152824c",
           "Iman_Companion_bn_tadabbur-extended.pdf": "29690c9a857fad8d4432d30bdc2fdab1b6b194c94f9d26e7a3bb00a8b1ba0f0b",
           "Iman_Companion_bn_hadith.docx": "e517c5fefdc8ebe4c98e39f23353c3b99c2ba1449a9ebf5857a532c7d9c24380",
-          "Iman_Companion_bn_hadith.pdf": "bbde5292f8205762004bce49c062a15947afca893fb7524d7884fdbaf6496a65",
-          "Iman_Companion_bn_seerah.docx": "6c284ed316cff3278404be4c3278f50bebe78268cee540bf4c96830a0c5fcd25",
-          "Iman_Companion_bn_seerah.pdf": "5791beb9051831e60f2aaf60c24d59d6ecd44eb708594146cf7f8bccd9e6ff7e",
-          "Iman_Companion_bn_articles.docx": "84e5e55beae917edcebadf9ca19bfeaac8d490f3537cb3be8ec7e418998e7818",
-          "Iman_Companion_bn_articles.pdf": "75a84f8c688a9013c14bddab58376adec91ff6588b00357402b4b7bf4b69cd49"
+          "Iman_Companion_bn_hadith.pdf": "bbde5292f8205762004bce49c062a15947afca893fb7524d7884fdbaf6496a65"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 875,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 2,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 263,
+          "parts": 2,
+          "pages": 257,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 1773,
+          "annotationsVerified": 1771,
           "partOffsets": [
             0,
-            211,
-            257,
-            260
+            211
           ]
         }
       }
     },
     "tr": {
-      "fingerprint": "07473d5f4dc7d47c1877632c6ecac1f5842d036bd272941fb93998995797fd6c",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "9046f4a08ff96ffe4fdfbf9fe64fea8db3d3bbd7d2c3db136d7a010aa24bc1c4",
+      "releaseTag": "books-42889687969-1-bundles",
       "parts": [
         {
           "language": "tr",
@@ -1045,12 +991,6 @@
         },
         {
           "language": "tr",
-          "collection": "seerah",
-          "sha256": "a5618d7c04606d9ed761e3da4f36ad66e2297fce04cc16fd68ea87a755c0406a",
-          "pdfSha256": "afa71cff3fcda2091ebf87c6531d607da88d55945f895755558eab013fa4971b"
-        },
-        {
-          "language": "tr",
           "collection": "articles",
           "sha256": "74024e1cd919d3ab80d2990ead0a37978eafb10f73a3e8ae5ab66448aa803dbe",
           "pdfSha256": "8fa614e737e81f1087a16dd93b31c5b36e70150828c956a2e954ba641271c013"
@@ -1059,18 +999,18 @@
       "assets": [
         {
           "name": "Iman_Companion_tr_all-books.zip",
-          "bytes": 20536009,
-          "sha256": "dfb9b1e996c6cce6493b54961bd14c55a7b7adb2bfdce3d146b308b3c0b4d49e"
+          "bytes": 16079667,
+          "sha256": "8c37d5bf32a46ffe7897a91c5740656fc03b6b73a368936c336ccb5aae307fff"
         },
         {
           "name": "Iman_Companion_tr_all-books.docx",
-          "bytes": 13992332,
-          "sha256": "2720b2d27825f06bcb52dde486703ba1bb9ca902a7efceecc4979727d95a86de"
+          "bytes": 10815162,
+          "sha256": "2dd0f5326cfb71de55181c102246a3d7553fb212c26f5f9e080aee848fb4b042"
         },
         {
           "name": "Iman_Companion_tr_all-books.pdf",
-          "bytes": 3927409,
-          "sha256": "8236323affda0a972b23b01920e00aff21330955e2db9b56a39dc152c310a084"
+          "bytes": 3514224,
+          "sha256": "52b276f9220a5f522b1108481d9ab8baff8112f16e670889e9f51345c3d39769"
         }
       ],
       "verification": {
@@ -1079,37 +1019,34 @@
           "Iman_Companion_tr_tadabbur-extended.pdf": "b51df32f0edff0e40c9952467c5f9a7369c88dc9d1946ed17aea84df04abf80f",
           "Iman_Companion_tr_hadith.docx": "43f1fc1fcef50977e766fb9f2a417e578dc985d26330aabf3d87bfd0828dee74",
           "Iman_Companion_tr_hadith.pdf": "dc68be67fb7cf2b8f5290ade8af4d1ffcc5f5f16b061e0de63bdb56498a21565",
-          "Iman_Companion_tr_seerah.docx": "a5618d7c04606d9ed761e3da4f36ad66e2297fce04cc16fd68ea87a755c0406a",
-          "Iman_Companion_tr_seerah.pdf": "afa71cff3fcda2091ebf87c6531d607da88d55945f895755558eab013fa4971b",
           "Iman_Companion_tr_articles.docx": "74024e1cd919d3ab80d2990ead0a37978eafb10f73a3e8ae5ab66448aa803dbe",
           "Iman_Companion_tr_articles.pdf": "8fa614e737e81f1087a16dd93b31c5b36e70150828c956a2e954ba641271c013"
         },
         "word": {
-          "parts": 4,
+          "parts": 3,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 714,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 3,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 333,
+          "parts": 3,
+          "pages": 330,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 1456,
+          "annotationsVerified": 1455,
           "partOffsets": [
             0,
             184,
-            313,
-            316
+            313
           ]
         }
       }
     },
     "fr": {
-      "fingerprint": "19a0837ed4c5044280ed175c90047899cf1791f67485d0c14417c432dab18c46",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "f8190b82d6ad0136eb846058c0608ff6fb90d9c1a8745280fd7bc615336115db",
+      "releaseTag": "books-42889687969-1-bundles",
       "parts": [
         {
           "language": "fr",
@@ -1125,12 +1062,6 @@
         },
         {
           "language": "fr",
-          "collection": "seerah",
-          "sha256": "a086e98efed38877b16badfb5a91b593aaa8d5fd59726c8f4364596c5162ebab",
-          "pdfSha256": "89640bf97b18de87ac81a89b19d928e6f84c40bc04d2b664c3ae1d80f2f780c1"
-        },
-        {
-          "language": "fr",
           "collection": "articles",
           "sha256": "c86eaff3f4b1c862ac6677e43c0106f663fd473c3ae4c7a62d035fd9e5487ed9",
           "pdfSha256": "392973f33f49d517ff273797e2c1211df7d35133d07b6714761ff631b449a9a4"
@@ -1139,18 +1070,18 @@
       "assets": [
         {
           "name": "Iman_Companion_fr_all-books.zip",
-          "bytes": 19709337,
-          "sha256": "daeb46a7ffa92bb24f6e16171fe94a9eb62f71439e80d19ac13121798ba9d42f"
+          "bytes": 15258262,
+          "sha256": "b6d5beeb4e39a2feac929cb31538f8b9526d1cbf5cb817b395d1164e1817dc41"
         },
         {
           "name": "Iman_Companion_fr_all-books.docx",
-          "bytes": 13894856,
-          "sha256": "14791930622dd1c06913868e3183595e5bb40a4a7e6cdaf38126efbdef36c3da"
+          "bytes": 10721718,
+          "sha256": "d271ce444f8444c8e2d6ec95ff15dea9356b417c4d9c034504b0622bf286629e"
         },
         {
           "name": "Iman_Companion_fr_all-books.pdf",
-          "bytes": 3245696,
-          "sha256": "0816bd2703cbae84534398c6cb5deba219d7e64f7576743721bc69223df7275a"
+          "bytes": 2833546,
+          "sha256": "c84a658d8c92b1a8711e0aee47e15850eb83817b7e00767491a643aa54329909"
         }
       ],
       "verification": {
@@ -1159,37 +1090,34 @@
           "Iman_Companion_fr_tadabbur-extended.pdf": "77f5fe766b3d0c75a2e1cafbd2a6d296e22c0d83c379e0d8c685a468a59a1bbe",
           "Iman_Companion_fr_hadith.docx": "93ea590fbddfb5b54e892331ae482000c53fb00757544d7d4d2720c169e8c3a0",
           "Iman_Companion_fr_hadith.pdf": "38f8ab384cc10da6c9a513270cca09a0b7582fde090081ca9d64ddeec23fe465",
-          "Iman_Companion_fr_seerah.docx": "a086e98efed38877b16badfb5a91b593aaa8d5fd59726c8f4364596c5162ebab",
-          "Iman_Companion_fr_seerah.pdf": "89640bf97b18de87ac81a89b19d928e6f84c40bc04d2b664c3ae1d80f2f780c1",
           "Iman_Companion_fr_articles.docx": "c86eaff3f4b1c862ac6677e43c0106f663fd473c3ae4c7a62d035fd9e5487ed9",
           "Iman_Companion_fr_articles.pdf": "392973f33f49d517ff273797e2c1211df7d35133d07b6714761ff631b449a9a4"
         },
         "word": {
-          "parts": 4,
+          "parts": 3,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 767,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 3,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 242,
+          "parts": 3,
+          "pages": 239,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 1557,
+          "annotationsVerified": 1556,
           "partOffsets": [
             0,
             203,
-            220,
-            223
+            220
           ]
         }
       }
     },
     "pt-BR": {
-      "fingerprint": "d6c410270a46234fef8c823d71cc6769c354f5a82be8694742e35e4a2ca516b6",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "94ea05cba31be79bca124d598f8c0b0d154060df95d13f6c74c6269b35f7865f",
+      "releaseTag": "books-42596828459-1-bundles",
       "parts": [
         {
           "language": "pt-BR",
@@ -1202,35 +1130,23 @@
           "collection": "hadith",
           "sha256": "4d8c95116b8b7db59bfc0dd1115595b91f5f89e5847aedaedbcd834acb14c5a4",
           "pdfSha256": "df71d6657d89de4e76d81d96a784b56ca46861b6a7054d25629ef3a8ed81e0b1"
-        },
-        {
-          "language": "pt-BR",
-          "collection": "seerah",
-          "sha256": "66b1194461f0b790815758b2ce4353d4aa0a3dc2ff87a56ead7ef4ef226b7e1e",
-          "pdfSha256": "bd55dca2ba5870d613750bf9b73353298bc255763b63781cc416846ac40f8d22"
-        },
-        {
-          "language": "pt-BR",
-          "collection": "articles",
-          "sha256": "f25d8088a8c0512d814ec6ff28db48033605b22f53463ff26df894eda0c0357d",
-          "pdfSha256": "7f4a9f9048cb67cda19451f072e764b89ab7e57c742ac2ee42a6a0a57d164175"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_pt-BR_all-books.zip",
-          "bytes": 19450598,
-          "sha256": "571d75bcb647d8849ec337502a4394ba9042f93f3040c149e4487d2c07e5069e"
+          "bytes": 10668009,
+          "sha256": "32175139d2091c2bd3c504ae904d229e8577589920df0c432b0b4078cf6a616a"
         },
         {
           "name": "Iman_Companion_pt-BR_all-books.docx",
-          "bytes": 13888210,
-          "sha256": "fbd890d1e3633c5351d65be93bf9fc73975c2b7cb388a68225171f1969e08e8b"
+          "bytes": 7654263,
+          "sha256": "08a082db655c25e791bcfe3fe9ffcf3f1bc77de2fbdc05918e0a2ffdc3c4c1f5"
         },
         {
           "name": "Iman_Companion_pt-BR_all-books.pdf",
-          "bytes": 3193120,
-          "sha256": "63faa2e3b5776663bf571f9b6919255a42bc8db21fde6bac9999b7bf2c66418b"
+          "bytes": 2375562,
+          "sha256": "c83b1897ac6851a7b65b3e9aad7448e4aec4d840b028499bf5861a247aa472dd"
         }
       ],
       "verification": {
@@ -1238,38 +1154,32 @@
           "Iman_Companion_pt-BR_tadabbur-extended.docx": "ab7929c3562afa0496f422d2434296cae5f0f489ef510f060740b42b1dbf58bf",
           "Iman_Companion_pt-BR_tadabbur-extended.pdf": "d54591e22c36184b3643e35ec3336380894c28e655fecae1949d1804f7ac36ea",
           "Iman_Companion_pt-BR_hadith.docx": "4d8c95116b8b7db59bfc0dd1115595b91f5f89e5847aedaedbcd834acb14c5a4",
-          "Iman_Companion_pt-BR_hadith.pdf": "df71d6657d89de4e76d81d96a784b56ca46861b6a7054d25629ef3a8ed81e0b1",
-          "Iman_Companion_pt-BR_seerah.docx": "66b1194461f0b790815758b2ce4353d4aa0a3dc2ff87a56ead7ef4ef226b7e1e",
-          "Iman_Companion_pt-BR_seerah.pdf": "bd55dca2ba5870d613750bf9b73353298bc255763b63781cc416846ac40f8d22",
-          "Iman_Companion_pt-BR_articles.docx": "f25d8088a8c0512d814ec6ff28db48033605b22f53463ff26df894eda0c0357d",
-          "Iman_Companion_pt-BR_articles.pdf": "7f4a9f9048cb67cda19451f072e764b89ab7e57c742ac2ee42a6a0a57d164175"
+          "Iman_Companion_pt-BR_hadith.pdf": "df71d6657d89de4e76d81d96a784b56ca46861b6a7054d25629ef3a8ed81e0b1"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 747,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 2,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 240,
+          "parts": 2,
+          "pages": 234,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 1519,
+          "annotationsVerified": 1517,
           "partOffsets": [
             0,
-            204,
-            234,
-            237
+            204
           ]
         }
       }
     },
     "hi": {
-      "fingerprint": "c5802c579bc677ed2bae0e4a093140ae2d542e0bcac09504bc36aa9c9f1a17d4",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "d6d2bafa6466ef920e1dfa90b0d4e2b40f40445bed03ff50155af96eaaa595fc",
+      "releaseTag": "books-42596828459-1-bundles",
       "parts": [
         {
           "language": "hi",
@@ -1282,35 +1192,23 @@
           "collection": "hadith",
           "sha256": "5d776a1a25bad7e75f4d56b01fbc19a00283541107b121f92bf565fcdbf05426",
           "pdfSha256": "8f0de30184a5d219ceccb950c3aceaf99c59602de69bf4fe4f25508b51373030"
-        },
-        {
-          "language": "hi",
-          "collection": "seerah",
-          "sha256": "3734c18d1430ef460660a94e44664aedd5080858ddceb7f6031ff01e22037178",
-          "pdfSha256": "d86e4d4b1cbde10ccf02d27b8c993772228412f24b749656f02b222308cc1baf"
-        },
-        {
-          "language": "hi",
-          "collection": "articles",
-          "sha256": "75368f06811bf43d2f17917db67918541525db62173168113b6219809c4f3cae",
-          "pdfSha256": "1c0ce2380141969361f91679bdb47be60b3748817eb0ddb2ae4e5d7b90e92ca4"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_hi_all-books.zip",
-          "bytes": 20579515,
-          "sha256": "92fe27e4858cbb835ceb2f73efefc2922fe249b066af5be38c4f3236d13b23f5"
+          "bytes": 11047494,
+          "sha256": "15afa888bb9cda44f57d47b20c0f24562f4f5201e187b0caeea7974112ad900a"
         },
         {
           "name": "Iman_Companion_hi_all-books.docx",
-          "bytes": 14074737,
-          "sha256": "8bb8c4b76ae6ef10147107df2b3d5accc2c3a0d50958b40eb13f90ac696e5a7c"
+          "bytes": 7846448,
+          "sha256": "3092f2042009c3669776b5d62d8c47962f6b6b6ecf93e803cb8f156a861f581f"
         },
         {
           "name": "Iman_Companion_hi_all-books.pdf",
-          "bytes": 2552627,
-          "sha256": "7fc194ce533e9fd5f8b75ea6f0e17379f775a33ec70118c1798932268f7a7ef5"
+          "bytes": 1706327,
+          "sha256": "01aad7bdaf298b528fcb3ddbbd9ef402f610b416ebbb24e6c5e3beaeab35374d"
         }
       ],
       "verification": {
@@ -1318,38 +1216,32 @@
           "Iman_Companion_hi_tadabbur-extended.docx": "5b9d94b20d2a7f7b16f67fedb7b1bd22b31a29af19876d5f87764f514c87f575",
           "Iman_Companion_hi_tadabbur-extended.pdf": "ca86c13f2edfbf9c732201903c9e1eb6b541c304ee8afe6ceb8bb4443a2de236",
           "Iman_Companion_hi_hadith.docx": "5d776a1a25bad7e75f4d56b01fbc19a00283541107b121f92bf565fcdbf05426",
-          "Iman_Companion_hi_hadith.pdf": "8f0de30184a5d219ceccb950c3aceaf99c59602de69bf4fe4f25508b51373030",
-          "Iman_Companion_hi_seerah.docx": "3734c18d1430ef460660a94e44664aedd5080858ddceb7f6031ff01e22037178",
-          "Iman_Companion_hi_seerah.pdf": "d86e4d4b1cbde10ccf02d27b8c993772228412f24b749656f02b222308cc1baf",
-          "Iman_Companion_hi_articles.docx": "75368f06811bf43d2f17917db67918541525db62173168113b6219809c4f3cae",
-          "Iman_Companion_hi_articles.pdf": "1c0ce2380141969361f91679bdb47be60b3748817eb0ddb2ae4e5d7b90e92ca4"
+          "Iman_Companion_hi_hadith.pdf": "8f0de30184a5d219ceccb950c3aceaf99c59602de69bf4fe4f25508b51373030"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 36,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 2,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 53,
+          "parts": 2,
+          "pages": 47,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 82,
+          "annotationsVerified": 80,
           "partOffsets": [
             0,
-            26,
-            47,
-            50
+            26
           ]
         }
       }
     },
     "ru": {
-      "fingerprint": "758be41b1703cef67a50c789d92482cb83ecd24a3b578a440c79daaebb0a1e68",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "389731b2acbcb20435496405bfb2edf89a6a926b13d444ae59d9e6843834bc5f",
+      "releaseTag": "books-42889687969-1-bundles",
       "parts": [
         {
           "language": "ru",
@@ -1365,12 +1257,6 @@
         },
         {
           "language": "ru",
-          "collection": "seerah",
-          "sha256": "e29a9d7540245be724f4695b798090e84f0671bb35420e8fd8bb0f59d92da288",
-          "pdfSha256": "6bddcda0ab69cceabe9e1610d50355194fad60f0fc52ded3c4b2935f85bf4384"
-        },
-        {
-          "language": "ru",
           "collection": "articles",
           "sha256": "7da1f383807ac075a687f7803b0123b4a27f2aba4f9cbfddefe53eb0c9318618",
           "pdfSha256": "9e5eb4cf345dbcaa34003119ceabc001450ad6a60eec08ef06edf3f852b2b68e"
@@ -1379,18 +1265,18 @@
       "assets": [
         {
           "name": "Iman_Companion_ru_all-books.zip",
-          "bytes": 18322475,
-          "sha256": "b921a3352ad2faf565059b7aade02ff1bca5933556c8d3df9b8918575e74e1b7"
+          "bytes": 13871605,
+          "sha256": "cfa865f39669eb85c88ef0b5e4c82e6634079f9b0f1e3c2d0b711d3560233590"
         },
         {
           "name": "Iman_Companion_ru_all-books.docx",
-          "bytes": 13699242,
-          "sha256": "f024e9e8094e06d087c47af714af02a068f054909e259432f18db426a6ff6380"
+          "bytes": 10526160,
+          "sha256": "864b15fd156aec4c1d0513de33bb9ca10dab318a31a04dcab866a95a3b7e3cd2"
         },
         {
           "name": "Iman_Companion_ru_all-books.pdf",
-          "bytes": 2047891,
-          "sha256": "ccfda30ff8feadf11bd146698762a1903bd5d8fcd58a23aaac85a673d15288a6"
+          "bytes": 1635579,
+          "sha256": "60c9acc13f0f4152c87376614f5e97772125ac15f7e2195c10be5aacb8074a1f"
         }
       ],
       "verification": {
@@ -1399,37 +1285,34 @@
           "Iman_Companion_ru_tadabbur-extended.pdf": "0c9e8c8cce4b4d43150a04cec46567a5b6b6dc83c66aa069aec6d53d57bbc71d",
           "Iman_Companion_ru_hadith.docx": "bef2efb03b56cee4ff9a28ab9bee24bf3951d2a05f2db4843f94430ed30e9a98",
           "Iman_Companion_ru_hadith.pdf": "b610d28e34240f40dc99ebcb8de5798889d3a44dafbf1d681d278d35b8d4adb1",
-          "Iman_Companion_ru_seerah.docx": "e29a9d7540245be724f4695b798090e84f0671bb35420e8fd8bb0f59d92da288",
-          "Iman_Companion_ru_seerah.pdf": "6bddcda0ab69cceabe9e1610d50355194fad60f0fc52ded3c4b2935f85bf4384",
           "Iman_Companion_ru_articles.docx": "7da1f383807ac075a687f7803b0123b4a27f2aba4f9cbfddefe53eb0c9318618",
           "Iman_Companion_ru_articles.pdf": "9e5eb4cf345dbcaa34003119ceabc001450ad6a60eec08ef06edf3f852b2b68e"
         },
         "word": {
-          "parts": 4,
+          "parts": 3,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 33,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 3,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 78,
+          "parts": 3,
+          "pages": 75,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 78,
+          "annotationsVerified": 77,
           "partOffsets": [
             0,
             30,
-            57,
-            60
+            57
           ]
         }
       }
     },
     "es": {
-      "fingerprint": "a46ed83e1a3c275a7c0aa0c5d9e248e23f1a569aa4c6e2b897ce33abc1ea410f",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "1b63d55068289851513e2fcc57382b88449868f633caea1066517bdf58d35f0b",
+      "releaseTag": "books-42889687969-1-bundles",
       "parts": [
         {
           "language": "es",
@@ -1445,12 +1328,6 @@
         },
         {
           "language": "es",
-          "collection": "seerah",
-          "sha256": "2c1d88754e2efaa565615cc3b7f83ba1d3d5bd9d40999210e6137b691831ba51",
-          "pdfSha256": "219abe2ac2ce768890c19899f04984a8b36a232bed86dd76b4269c6a9ac59ca7"
-        },
-        {
-          "language": "es",
           "collection": "articles",
           "sha256": "3f54c3622585ae08ed45d0031e9ec9bee3f4ffad0d7699c7d71d21d1888f7e8b",
           "pdfSha256": "fe5c5d9daea934f360909340746ff1c345720c9b719237b9062634dfb92ad11d"
@@ -1459,18 +1336,18 @@
       "assets": [
         {
           "name": "Iman_Companion_es_all-books.zip",
-          "bytes": 18525089,
-          "sha256": "d9a3000feda51dc67f435bfe7d4d6ce87f14fecf57877309ac5aecd5ece90365"
+          "bytes": 14074216,
+          "sha256": "f9e4e774b5522d2c5d5055c4c48f689d5194f70aebea9546e548bbb98f3d194b"
         },
         {
           "name": "Iman_Companion_es_all-books.docx",
-          "bytes": 13691701,
-          "sha256": "0157b1d3ca26971a429a4a7c8fd8a750fd3522b4bdf2f7d180a1c0d7143d578d"
+          "bytes": 10518611,
+          "sha256": "78e8814826939fe5fdb4a2adc03f018b776e48a31cac00de26fdecf0f7914e90"
         },
         {
           "name": "Iman_Companion_es_all-books.pdf",
-          "bytes": 2062761,
-          "sha256": "b1f68598f49f9e41244b5acbe435c85d59679f70d188b60a9fc6c09335b5c5da"
+          "bytes": 1650873,
+          "sha256": "aa5ff353502eff3165db87160733794e7cc71ddc3070c42c33814c4e97c29253"
         }
       ],
       "verification": {
@@ -1479,46 +1356,43 @@
           "Iman_Companion_es_tadabbur-extended.pdf": "e43d6f38e47cef85fd99541b6df0f86c63c307fa16af097ddaf3f22bc8564912",
           "Iman_Companion_es_hadith.docx": "54935e66bfb781733d7dddcefc0b8d510c7d1f304229d644605c7265c7421590",
           "Iman_Companion_es_hadith.pdf": "abdffb424f5e348d51db73553690bc69c59da0e1d28120982b9885a2c3d56cf9",
-          "Iman_Companion_es_seerah.docx": "2c1d88754e2efaa565615cc3b7f83ba1d3d5bd9d40999210e6137b691831ba51",
-          "Iman_Companion_es_seerah.pdf": "219abe2ac2ce768890c19899f04984a8b36a232bed86dd76b4269c6a9ac59ca7",
           "Iman_Companion_es_articles.docx": "3f54c3622585ae08ed45d0031e9ec9bee3f4ffad0d7699c7d71d21d1888f7e8b",
           "Iman_Companion_es_articles.pdf": "fe5c5d9daea934f360909340746ff1c345720c9b719237b9062634dfb92ad11d"
         },
         "word": {
-          "parts": 4,
+          "parts": 3,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 49,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 3,
           "independentBookPagination": true,
           "isolatedStyles": [
             {
-              "part": 4,
+              "part": 3,
               "styles": {
-                "EndnoteCharacters": "m4_97bd42d5c4511f6b6acfa163",
-                "EndnoteCharactersuser": "m4_8fbdc871f1faaa69a677db22",
-                "FootnoteCharactersuser": "m4_9a6b08d02af0192a44f8a14c"
+                "EndnoteCharacters": "m3_97bd42d5c4511f6b6acfa163",
+                "EndnoteCharactersuser": "m3_8fbdc871f1faaa69a677db22",
+                "FootnoteCharactersuser": "m3_9a6b08d02af0192a44f8a14c"
               }
             }
           ],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 79,
+          "parts": 3,
+          "pages": 76,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 110,
+          "annotationsVerified": 109,
           "partOffsets": [
             0,
             30,
-            58,
-            61
+            58
           ]
         }
       }
     },
     "fa": {
-      "fingerprint": "4320ed3d71f43ca5f48455786428dc4f4a96ba722784222592c73d414d3b82e8",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "5711f7ce5a3fd0469143b5acac2cfded989bb3d3b22576f850c16db6cd19c2ea",
+      "releaseTag": "books-42596828459-1-bundles",
       "parts": [
         {
           "language": "fa",
@@ -1531,35 +1405,23 @@
           "collection": "hadith",
           "sha256": "323a4e618ba87db079f3d27e3ac685c421aa653e61a098fa1dc375294e5e360f",
           "pdfSha256": "3d5dec65749629d2e9f45b389f7f9a7b0a3ce31a32a27d2ce5f89ddb9f4588b8"
-        },
-        {
-          "language": "fa",
-          "collection": "seerah",
-          "sha256": "b5648c822c54d215f96e636fd5ac826e7d4f88e115904f700f0b124068a292f8",
-          "pdfSha256": "7549536475c9bd1396796c209d6c415c1ec1530399fdfbf890d4f4ce0667f88f"
-        },
-        {
-          "language": "fa",
-          "collection": "articles",
-          "sha256": "eb91433af60e41afc4dd46264f38504467aa05cb36e0ec3c8e7465186b19e196",
-          "pdfSha256": "a02c6a08f343813e3224d762f8cb066ccb85457b848528df365ab01648fda3b5"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_fa_all-books.zip",
-          "bytes": 19901801,
-          "sha256": "af758cb13ff2fa18a463ba1d313d57dd100a4ea63cff67a6e4d7535962a62b70"
+          "bytes": 10559019,
+          "sha256": "715ec8f1ec1f4a5ad75bb035f1c7a062a1e62fa4062b7efb211db7d54b2518b8"
         },
         {
           "name": "Iman_Companion_fa_all-books.docx",
-          "bytes": 14016078,
-          "sha256": "0330f1ea999c9c5e901e8e5a6476741936429a63a5eb7f4bd6aadd2906ea2e3b"
+          "bytes": 7788938,
+          "sha256": "d0b684489e7e3275698183aab5c50d9130c6f3f40fc47139f7b852592d84ae82"
         },
         {
           "name": "Iman_Companion_fa_all-books.pdf",
-          "bytes": 2094532,
-          "sha256": "2b3a6cab774545485999d9b515045295ecf1cda3f6feec50c83e8bb475c6d384"
+          "bytes": 1280930,
+          "sha256": "7d97932d172483162d50d511b54d1eedc9a185b1a2078196b5f2e8accc7bea38"
         }
       ],
       "verification": {
@@ -1567,38 +1429,32 @@
           "Iman_Companion_fa_tadabbur-extended.docx": "6833027b0d4d5629133dfc759f89a981735717d8176312604b22c1ba5161e47d",
           "Iman_Companion_fa_tadabbur-extended.pdf": "4a8c53158aeefdb5c4e7e1e6c3973fd956fca4ad4e45fe0e7c9ad3775499d684",
           "Iman_Companion_fa_hadith.docx": "323a4e618ba87db079f3d27e3ac685c421aa653e61a098fa1dc375294e5e360f",
-          "Iman_Companion_fa_hadith.pdf": "3d5dec65749629d2e9f45b389f7f9a7b0a3ce31a32a27d2ce5f89ddb9f4588b8",
-          "Iman_Companion_fa_seerah.docx": "b5648c822c54d215f96e636fd5ac826e7d4f88e115904f700f0b124068a292f8",
-          "Iman_Companion_fa_seerah.pdf": "7549536475c9bd1396796c209d6c415c1ec1530399fdfbf890d4f4ce0667f88f",
-          "Iman_Companion_fa_articles.docx": "eb91433af60e41afc4dd46264f38504467aa05cb36e0ec3c8e7465186b19e196",
-          "Iman_Companion_fa_articles.pdf": "a02c6a08f343813e3224d762f8cb066ccb85457b848528df365ab01648fda3b5"
+          "Iman_Companion_fa_hadith.pdf": "3d5dec65749629d2e9f45b389f7f9a7b0a3ce31a32a27d2ce5f89ddb9f4588b8"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 25,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 2,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 62,
+          "parts": 2,
+          "pages": 56,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 62,
+          "annotationsVerified": 60,
           "partOffsets": [
             0,
-            29,
-            56,
-            59
+            29
           ]
         }
       }
     },
     "de": {
-      "fingerprint": "54a2890b3cfdb0d7748f88cb08bd6b5b40aa099b462030e1215cec63735b83dd",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "16b8055ec571fddcb5c9cc352561410fc6f5afc3e49fc196e0808b25cacb16e8",
+      "releaseTag": "books-42596828459-1-bundles",
       "parts": [
         {
           "language": "de",
@@ -1611,35 +1467,23 @@
           "collection": "hadith",
           "sha256": "323b81564501fc7008ebde6271335fa3caa5e0d9dc8cffcf15ca03cdb3c39294",
           "pdfSha256": "be0c54fbae8515e16dbf9bdec0fc4085125e16d568f03ebf4ffbafe7f8a0f478"
-        },
-        {
-          "language": "de",
-          "collection": "seerah",
-          "sha256": "004b1c09c36e0c447cf9cf2cd5a36b430d3c4ac22c174d10224e0a6f6e653b00",
-          "pdfSha256": "a2be4391ab131d3625e1f4086c54ea94c4b7d6f7b636ac31480e6fdb4497c48f"
-        },
-        {
-          "language": "de",
-          "collection": "articles",
-          "sha256": "ceb335df22bb2392edb339be1ea6209e2e2c34d373daa5a89b0c5663d14cd6be",
-          "pdfSha256": "5080c3b061a638601283f1109daa59567f322cad56560a8907f118daf53519db"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_de_all-books.zip",
-          "bytes": 18212958,
-          "sha256": "d45f020733b0dcd84be62285bdea23fa9e36791117b0024927aaecd8d7197bba"
+          "bytes": 9436387,
+          "sha256": "8cc3201a77e6b345a6f839ee7f00f974e8b3da18ffad9c1cdd370c9d84e6904c"
         },
         {
           "name": "Iman_Companion_de_all-books.docx",
-          "bytes": 13660577,
-          "sha256": "836c9fb656638ac0cfe8d47a3d41c6754fc2037f8b911fad8c6409c1970dc871"
+          "bytes": 7436908,
+          "sha256": "07f844df00ceaad20edd0dd32d3c13557229102209c8eea7e85cbb77a652eaba"
         },
         {
           "name": "Iman_Companion_de_all-books.pdf",
-          "bytes": 1977551,
-          "sha256": "5d65ae18eaf9d3e8f2177852b06421742eb307f51c9a23eebb86886e8f466cf6"
+          "bytes": 1155851,
+          "sha256": "69b8248ebce250790fde7a10afc74d3780a5cca1cbc4b3657ad01e9582197394"
         }
       ],
       "verification": {
@@ -1647,38 +1491,32 @@
           "Iman_Companion_de_tadabbur-extended.docx": "bfa2149d402c94ee0af7ba3ac7225f6572e5f89c99d75e1d895d482f0a6bea4e",
           "Iman_Companion_de_tadabbur-extended.pdf": "5955cc1771e68f8d209f3da7304445ed93215ad1a466a80b3141fe8b1503de20",
           "Iman_Companion_de_hadith.docx": "323b81564501fc7008ebde6271335fa3caa5e0d9dc8cffcf15ca03cdb3c39294",
-          "Iman_Companion_de_hadith.pdf": "be0c54fbae8515e16dbf9bdec0fc4085125e16d568f03ebf4ffbafe7f8a0f478",
-          "Iman_Companion_de_seerah.docx": "004b1c09c36e0c447cf9cf2cd5a36b430d3c4ac22c174d10224e0a6f6e653b00",
-          "Iman_Companion_de_seerah.pdf": "a2be4391ab131d3625e1f4086c54ea94c4b7d6f7b636ac31480e6fdb4497c48f",
-          "Iman_Companion_de_articles.docx": "ceb335df22bb2392edb339be1ea6209e2e2c34d373daa5a89b0c5663d14cd6be",
-          "Iman_Companion_de_articles.pdf": "5080c3b061a638601283f1109daa59567f322cad56560a8907f118daf53519db"
+          "Iman_Companion_de_hadith.pdf": "be0c54fbae8515e16dbf9bdec0fc4085125e16d568f03ebf4ffbafe7f8a0f478"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 24,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 2,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 68,
+          "parts": 2,
+          "pages": 62,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 60,
+          "annotationsVerified": 58,
           "partOffsets": [
             0,
-            32,
-            62,
-            65
+            32
           ]
         }
       }
     },
     "zh-CN": {
-      "fingerprint": "64b5d96bf80df45878ee1cdd9d40e09004d6bdd6314941dc456ff27d0fde466d",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "dd93f345f4e0ebac006758b0957176a39fa4ea7f3d33ef598d464292fb4582ce",
+      "releaseTag": "books-42596828459-1-bundles",
       "parts": [
         {
           "language": "zh-CN",
@@ -1691,35 +1529,23 @@
           "collection": "hadith",
           "sha256": "c7d6c4af9839aa964fbd42b695602ec5722d60fc52d95d400a929095fd21b07f",
           "pdfSha256": "75af465dd872d94a4ea86bb5afefa0ec204f708aa6930d54ad2d993999632b0a"
-        },
-        {
-          "language": "zh-CN",
-          "collection": "seerah",
-          "sha256": "b7d518d7bafc5bfc599a477c1d3d9938c496aede4f2b7a2fe12c19f93d379d8d",
-          "pdfSha256": "8220d475a55a1bc928a8333ce911bb4808be0b89e6c98f4a54861e0ab1bc2ea7"
-        },
-        {
-          "language": "zh-CN",
-          "collection": "articles",
-          "sha256": "859049bff0e1d6d82e48e1a0d11932479cd87630a8607a0f6d6e70af635c6be3",
-          "pdfSha256": "54d3b16a6faa532a48d5740a0247579ea288bb157244ea877124ea5894fd6a30"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_zh-CN_all-books.zip",
-          "bytes": 120146053,
-          "sha256": "04c481ab6768159bb3cb2b27bc4461b114e9819db2d8dc84b0787432be0aec0c"
+          "bytes": 60888241,
+          "sha256": "0a678119532d91211de961de188f05620056b6cc9a5780f5fe7824b5d2d5f5c8"
         },
         {
           "name": "Iman_Companion_zh-CN_all-books.docx",
-          "bytes": 39206938,
-          "sha256": "f31682b5d82784ef2c06725b33e39b8b2e36a474a0bc60dc959ae8664dd2f94f"
+          "bytes": 32968411,
+          "sha256": "6fcf999cbacf4420604762ce2f85d77c6398edd5f3b36b70304ce3790f6e4185"
         },
         {
           "name": "Iman_Companion_zh-CN_all-books.pdf",
-          "bytes": 2346367,
-          "sha256": "24ebfa1b3409ea4f1b1d3650103efbe8ad0b168096f7ecaf284fb768e2cea16b"
+          "bytes": 1523710,
+          "sha256": "9b72b780305121a5ab28a6f3c40663ebff86aa537d540555ae55f758b91a5356"
         }
       ],
       "verification": {
@@ -1727,38 +1553,32 @@
           "Iman_Companion_zh-CN_tadabbur-extended.docx": "770cf7fb5cab7c88b3644d1c08f3cebec4a8ea13e24a5961c56212bb0091daaa",
           "Iman_Companion_zh-CN_tadabbur-extended.pdf": "c93f3a86ca83d5f32fece37a42fb71d83dd28e7b052f081d21220a9fb6cb40e2",
           "Iman_Companion_zh-CN_hadith.docx": "c7d6c4af9839aa964fbd42b695602ec5722d60fc52d95d400a929095fd21b07f",
-          "Iman_Companion_zh-CN_hadith.pdf": "75af465dd872d94a4ea86bb5afefa0ec204f708aa6930d54ad2d993999632b0a",
-          "Iman_Companion_zh-CN_seerah.docx": "b7d518d7bafc5bfc599a477c1d3d9938c496aede4f2b7a2fe12c19f93d379d8d",
-          "Iman_Companion_zh-CN_seerah.pdf": "8220d475a55a1bc928a8333ce911bb4808be0b89e6c98f4a54861e0ab1bc2ea7",
-          "Iman_Companion_zh-CN_articles.docx": "859049bff0e1d6d82e48e1a0d11932479cd87630a8607a0f6d6e70af635c6be3",
-          "Iman_Companion_zh-CN_articles.pdf": "54d3b16a6faa532a48d5740a0247579ea288bb157244ea877124ea5894fd6a30"
+          "Iman_Companion_zh-CN_hadith.pdf": "75af465dd872d94a4ea86bb5afefa0ec204f708aa6930d54ad2d993999632b0a"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 43,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 2,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 38,
+          "parts": 2,
+          "pages": 32,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 94,
+          "annotationsVerified": 92,
           "partOffsets": [
             0,
-            23,
-            32,
-            35
+            23
           ]
         }
       }
     },
     "uz": {
-      "fingerprint": "cfc51cb801800a7d71def65bab445e0a9f01015aef9ac63ee45ef4ca1a7e98c8",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "d442e10c2a7ea9cf925d4e81146c6f04459c806fc4edab34f398b8b3c9754483",
+      "releaseTag": "books-42596828459-1-bundles",
       "parts": [
         {
           "language": "uz",
@@ -1771,35 +1591,23 @@
           "collection": "hadith",
           "sha256": "4ff2e142f000a3c15b0c12447374e28e73bfb8ed2ab46266b0667bf1a3e193c0",
           "pdfSha256": "c09056e470d32917698988cb1951d6185745879754269e2435aa4f413edec104"
-        },
-        {
-          "language": "uz",
-          "collection": "seerah",
-          "sha256": "0453efc707b7dcb7bcf46d1f8e9a0c8bd5e5a7f1235b1a0d2cc90a9db2d1025d",
-          "pdfSha256": "904918c3900a43f66841fab4fd92ed53837fbbdac1253ef5cd7cd2d590da2f46"
-        },
-        {
-          "language": "uz",
-          "collection": "articles",
-          "sha256": "0f20c18db72e017111fd09764660fe64e38a0aad09656e565434566b4ebe1d24",
-          "pdfSha256": "5aa0ba3cd67ea29c5a73c2a45a150870ccf108b7724d57c94fb86d5df28e2ba7"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_uz_all-books.zip",
-          "bytes": 19164003,
-          "sha256": "dd58f2cbcae18a314358ca6f744a46d5e14ffc405eba283f2e2a361d5ab965db"
+          "bytes": 10383702,
+          "sha256": "468ad983c764bf9f1370d4558fb475f3427f01ec7a21c0f295b8708ef3d8bc78"
         },
         {
           "name": "Iman_Companion_uz_all-books.docx",
-          "bytes": 13751036,
-          "sha256": "e885522ae08856ad6975b40b0de07100c561b6c6e07c04389ed369419510751f"
+          "bytes": 7519379,
+          "sha256": "587fdc2219c540edb24211d635d05f7d2c0a0bac0efad762a57ed99fa871441c"
         },
         {
           "name": "Iman_Companion_uz_all-books.pdf",
-          "bytes": 2638616,
-          "sha256": "c14ddd2c3313a534630795d7adedf0278bb2512900a076c034eed4072af7313c"
+          "bytes": 1820973,
+          "sha256": "bd34aa1f466c5ac282e297667a647f71e06b54ca50bbecbbbad93b38efd4b18e"
         }
       ],
       "verification": {
@@ -1807,38 +1615,32 @@
           "Iman_Companion_uz_tadabbur-extended.docx": "142fcd21eefc05b889c924a24f8f1b460c3abc0784b5a5425354385eaeef73d7",
           "Iman_Companion_uz_tadabbur-extended.pdf": "9f30038d9109e01e30417dc636099349aa75109383e86e8f6732c7843ff75d01",
           "Iman_Companion_uz_hadith.docx": "4ff2e142f000a3c15b0c12447374e28e73bfb8ed2ab46266b0667bf1a3e193c0",
-          "Iman_Companion_uz_hadith.pdf": "c09056e470d32917698988cb1951d6185745879754269e2435aa4f413edec104",
-          "Iman_Companion_uz_seerah.docx": "0453efc707b7dcb7bcf46d1f8e9a0c8bd5e5a7f1235b1a0d2cc90a9db2d1025d",
-          "Iman_Companion_uz_seerah.pdf": "904918c3900a43f66841fab4fd92ed53837fbbdac1253ef5cd7cd2d590da2f46",
-          "Iman_Companion_uz_articles.docx": "0f20c18db72e017111fd09764660fe64e38a0aad09656e565434566b4ebe1d24",
-          "Iman_Companion_uz_articles.pdf": "5aa0ba3cd67ea29c5a73c2a45a150870ccf108b7724d57c94fb86d5df28e2ba7"
+          "Iman_Companion_uz_hadith.pdf": "c09056e470d32917698988cb1951d6185745879754269e2435aa4f413edec104"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 29,
-          "imagesAndAudioLinksVerified": 6,
+          "imagesAndAudioLinksVerified": 4,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 203,
+          "parts": 2,
+          "pages": 197,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 73,
+          "annotationsVerified": 71,
           "partOffsets": [
             0,
-            30,
-            197,
-            200
+            30
           ]
         }
       }
     },
     "th": {
-      "fingerprint": "1720702c06f195ed9c5f8827a3f5f2d062a3e4e6a5c6e5a6616b954f5a64b42d",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "d2b7b859804b1d1b0348ac4312e148234b21f86c4a92dc9891d35a5ebe5b33a1",
+      "releaseTag": "books-42596828459-1-bundles",
       "parts": [
         {
           "language": "th",
@@ -1851,35 +1653,23 @@
           "collection": "hadith",
           "sha256": "42dcd83e90ea899a9b3fb06ad5f33900696ec9a8d6f3f591730e7c8352565304",
           "pdfSha256": "6f9153c1b52db5d5ce85d92a27adcfd4514a8c48abe4dca45d402806cf201a56"
-        },
-        {
-          "language": "th",
-          "collection": "seerah",
-          "sha256": "8a4cbf81a796e580cd4e535b1ac5bd9932453d550a2918378079f84b967dc7e1",
-          "pdfSha256": "5c85971d11dfcdeb0eb9c531cb88fc734f4cdcc3ac491b0829a3c28513f66aca"
-        },
-        {
-          "language": "th",
-          "collection": "articles",
-          "sha256": "410c7f1267398891a58bef61909c9de5cbf1d4c924e5dce5661a3055ecdafa23",
-          "pdfSha256": "10cb3a614cb759e5218f58380e9c0a62793dc5ec5bb25f4d49fd0c70a62e2282"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_th_all-books.zip",
-          "bytes": 29094128,
-          "sha256": "638b6e5802664fc0084ae345d44ce31dbf76ca5db37d93c9d2004458545b6852"
+          "bytes": 20202878,
+          "sha256": "8706a8cfd42560944df30f97758e683ce76221a4118444c283442c68cc7e159e"
         },
         {
           "name": "Iman_Companion_th_all-books.docx",
-          "bytes": 20494077,
-          "sha256": "b2825b9c9c0d0829edc7263f980b9530ba1c0f059f1a2eee7786cbb4a8ae1a0e"
+          "bytes": 14259894,
+          "sha256": "77f6d95fc615139ae37a84f295707ea97afe8112a07dbce083595f337be2e4ee"
         },
         {
           "name": "Iman_Companion_th_all-books.pdf",
-          "bytes": 2299910,
-          "sha256": "e9d57dccb49073a788267dee9b804661de2cf497accce9ea6145bbcfa48b9c54"
+          "bytes": 1471101,
+          "sha256": "63b667d59ae04966cb93f9d8ee5ec162882c39fc514df138ce408d81445bd419"
         }
       ],
       "verification": {
@@ -1887,38 +1677,32 @@
           "Iman_Companion_th_tadabbur-extended.docx": "d6de5ba37b16b649755b5bb0c6efdd7b5ad208f1eacb06115921f35767cdb68a",
           "Iman_Companion_th_tadabbur-extended.pdf": "462210493bc4cc445b695fb3fb76ea88f8cef0bd81b80edaebefebc1a169b689",
           "Iman_Companion_th_hadith.docx": "42dcd83e90ea899a9b3fb06ad5f33900696ec9a8d6f3f591730e7c8352565304",
-          "Iman_Companion_th_hadith.pdf": "6f9153c1b52db5d5ce85d92a27adcfd4514a8c48abe4dca45d402806cf201a56",
-          "Iman_Companion_th_seerah.docx": "8a4cbf81a796e580cd4e535b1ac5bd9932453d550a2918378079f84b967dc7e1",
-          "Iman_Companion_th_seerah.pdf": "5c85971d11dfcdeb0eb9c531cb88fc734f4cdcc3ac491b0829a3c28513f66aca",
-          "Iman_Companion_th_articles.docx": "410c7f1267398891a58bef61909c9de5cbf1d4c924e5dce5661a3055ecdafa23",
-          "Iman_Companion_th_articles.pdf": "10cb3a614cb759e5218f58380e9c0a62793dc5ec5bb25f4d49fd0c70a62e2282"
+          "Iman_Companion_th_hadith.pdf": "6f9153c1b52db5d5ce85d92a27adcfd4514a8c48abe4dca45d402806cf201a56"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 49,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 2,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 39,
+          "parts": 2,
+          "pages": 33,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 106,
+          "annotationsVerified": 104,
           "partOffsets": [
             0,
-            24,
-            33,
-            36
+            24
           ]
         }
       }
     },
     "vi": {
-      "fingerprint": "ad269737f657eab28175afb784fd8de6d3ccf8d7afaab91c0297edb0fde2a8ff",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "115dedc54a05ef9203f0a7fe61677851214299500da71cd821d33a354ba17812",
+      "releaseTag": "books-42596828459-1-bundles",
       "parts": [
         {
           "language": "vi",
@@ -1931,35 +1715,23 @@
           "collection": "hadith",
           "sha256": "68a032c9b3724e4090e36390a5dc1d2d1f1bff486febb259f6a41011d49cb629",
           "pdfSha256": "7991b4055bf30d27bc964a7645126d64c0ee21c7ba56b30bdc86248b426e93e6"
-        },
-        {
-          "language": "vi",
-          "collection": "seerah",
-          "sha256": "bd926478dedc47c7aadefc67c124448570d9dd01badd96b74e28edbf28e9242a",
-          "pdfSha256": "560cf5b60258ee53bc079c903153a594c0884decbe5616eae88438f776a7161b"
-        },
-        {
-          "language": "vi",
-          "collection": "articles",
-          "sha256": "d1846767100d7dc6ef44502e5f83b72e727196511ee0f21f2e7c2d4a8c82b7d9",
-          "pdfSha256": "9b7efb747f63611f186ef8f6373d06650c4ce3b34422f27d7d683886e6361aeb"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_vi_all-books.zip",
-          "bytes": 28546233,
-          "sha256": "c6ba9b26c92f50d0f207ca0ca08e73d73c3b063a7b3eba5320ab36df4e510709"
+          "bytes": 19972175,
+          "sha256": "83eec3ce1122f408adc210b713e4621f2c0b3ac609f46df4b72a9a74d6218b79"
         },
         {
           "name": "Iman_Companion_vi_all-books.docx",
-          "bytes": 20644057,
-          "sha256": "af03b6d6325c3fc3a0ab62cc041181312614851631fa0f497c12f55bda6adcbf"
+          "bytes": 14411957,
+          "sha256": "178d5c13f42d8002437a06d4c2e07740207879aa9e383da26c51942033cf66a1"
         },
         {
           "name": "Iman_Companion_vi_all-books.pdf",
-          "bytes": 1960338,
-          "sha256": "fc19205565a24686966eb66032c86fd9e3358e81ef51a95ccd17d408e9f14643"
+          "bytes": 1124780,
+          "sha256": "51c0ecf381b26ab9310d67556d596ad46d88c27344c8a477ddc1c51de7a7cf91"
         }
       ],
       "verification": {
@@ -1967,38 +1739,32 @@
           "Iman_Companion_vi_tadabbur-extended.docx": "36811ef0ae9276ecefd44c5863bab6358f0b5261db5b6db7c63e0854b3db5c88",
           "Iman_Companion_vi_tadabbur-extended.pdf": "85b7d0f8c0539cb52c9cbe6d2d4b09d5f0cd51ab19f50e200ca4d8db979ae9b6",
           "Iman_Companion_vi_hadith.docx": "68a032c9b3724e4090e36390a5dc1d2d1f1bff486febb259f6a41011d49cb629",
-          "Iman_Companion_vi_hadith.pdf": "7991b4055bf30d27bc964a7645126d64c0ee21c7ba56b30bdc86248b426e93e6",
-          "Iman_Companion_vi_seerah.docx": "bd926478dedc47c7aadefc67c124448570d9dd01badd96b74e28edbf28e9242a",
-          "Iman_Companion_vi_seerah.pdf": "560cf5b60258ee53bc079c903153a594c0884decbe5616eae88438f776a7161b",
-          "Iman_Companion_vi_articles.docx": "d1846767100d7dc6ef44502e5f83b72e727196511ee0f21f2e7c2d4a8c82b7d9",
-          "Iman_Companion_vi_articles.pdf": "9b7efb747f63611f186ef8f6373d06650c4ce3b34422f27d7d683886e6361aeb"
+          "Iman_Companion_vi_hadith.pdf": "7991b4055bf30d27bc964a7645126d64c0ee21c7ba56b30bdc86248b426e93e6"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 50,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 2,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 46,
+          "parts": 2,
+          "pages": 40,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 108,
+          "annotationsVerified": 106,
           "partOffsets": [
             0,
-            29,
-            40,
-            43
+            29
           ]
         }
       }
     },
     "ja": {
-      "fingerprint": "cc8c019adbb0db046d48c8529890b30fcd846f13d2f58a19207a40aac7f98db7",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "841430db1f82b5afa3ce830ab5f8fa8a063aada49cc96edb9888f8eea9b4b101",
+      "releaseTag": "books-42889687969-1-bundles",
       "parts": [
         {
           "language": "ja",
@@ -2011,35 +1777,23 @@
           "collection": "hadith",
           "sha256": "4b67f28c66d2926fb5de62d0a8f05f8fc81647ada795bd22ce81dee13b8805b3",
           "pdfSha256": "03e117e5770713ea1e9b3d640d625dccdcfadbe22e9eb82ee1d02e62d6ff7ecb"
-        },
-        {
-          "language": "ja",
-          "collection": "seerah",
-          "sha256": "26a639766dd4e9b8640484e462d259663b8617456bc59697026de02f4b2b39f8",
-          "pdfSha256": "0113e934c26353be13f52618d90b0707eaa29bbc7cf0ed014184b5759430b943"
-        },
-        {
-          "language": "ja",
-          "collection": "articles",
-          "sha256": "29366b7d649743f84255ebcd352e3e53ba4f49bafb136e8d61752bfd4def167c",
-          "pdfSha256": "87f2435245fdccda2144b8d8fac3d57e53abaf5989d2af80dbec9224f53c4321"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_ja_all-books.zip",
-          "bytes": 60515699,
-          "sha256": "a4eea921b8e507e51d7222b7f34dd6a36ff502d19c1b48b2f812a1597f41757d"
+          "bytes": 32036078,
+          "sha256": "286d5767fe2e2dfb285e090372016abbfcd66858fc358dbb3b94360ace75bb2d"
         },
         {
           "name": "Iman_Companion_ja_all-books.docx",
-          "bytes": 24050209,
-          "sha256": "f3cc5b412c100dd4102374ef58b8e86aced85da73809ad147421d74a88758536"
+          "bytes": 17814592,
+          "sha256": "5083eb641f18d6a169e09f1c9ad2930edadb6348e15874c59f6592cc027be4d7"
         },
         {
           "name": "Iman_Companion_ja_all-books.pdf",
-          "bytes": 3863248,
-          "sha256": "59231694d36b49f152264e83a46a65d748d02d5dcb5840f5f0c3d082a68e0661"
+          "bytes": 3030682,
+          "sha256": "ae9641dc250c374426010c0aac355b05a06ef3c5d991c16c8f7da4e76209f936"
         }
       ],
       "verification": {
@@ -2047,38 +1801,32 @@
           "Iman_Companion_ja_tadabbur-extended.docx": "51e5d913c147ffcbddceb071b9a4b7f37772c9eab6e3b9857948b148ef2cb22c",
           "Iman_Companion_ja_tadabbur-extended.pdf": "ba122cedbfa625f333ae71a5f32118708836b082c62ddfb379ca63e3a5333c6d",
           "Iman_Companion_ja_hadith.docx": "4b67f28c66d2926fb5de62d0a8f05f8fc81647ada795bd22ce81dee13b8805b3",
-          "Iman_Companion_ja_hadith.pdf": "03e117e5770713ea1e9b3d640d625dccdcfadbe22e9eb82ee1d02e62d6ff7ecb",
-          "Iman_Companion_ja_seerah.docx": "26a639766dd4e9b8640484e462d259663b8617456bc59697026de02f4b2b39f8",
-          "Iman_Companion_ja_seerah.pdf": "0113e934c26353be13f52618d90b0707eaa29bbc7cf0ed014184b5759430b943",
-          "Iman_Companion_ja_articles.docx": "29366b7d649743f84255ebcd352e3e53ba4f49bafb136e8d61752bfd4def167c",
-          "Iman_Companion_ja_articles.pdf": "87f2435245fdccda2144b8d8fac3d57e53abaf5989d2af80dbec9224f53c4321"
+          "Iman_Companion_ja_hadith.pdf": "03e117e5770713ea1e9b3d640d625dccdcfadbe22e9eb82ee1d02e62d6ff7ecb"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 253,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 2,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 217,
+          "parts": 2,
+          "pages": 211,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 525,
+          "annotationsVerified": 523,
           "partOffsets": [
             0,
-            87,
-            211,
-            214
+            87
           ]
         }
       }
     },
     "fil": {
-      "fingerprint": "75ad6b329445d8cdfb863138001608bb214558d9f850dce6e78af2dbd15d6df1",
-      "releaseTag": "books-42968733120-1-bundles",
+      "fingerprint": "c60ec4f508014671697a9065a8ef02ac28c5c27896362bb7d99cafc6a267ca42",
+      "releaseTag": "books-42596828459-1-bundles",
       "parts": [
         {
           "language": "fil",
@@ -2091,35 +1839,23 @@
           "collection": "hadith",
           "sha256": "35ae5a36b8f4d0962f76d38f9687265da5a36d04f39193498f9493f10afc1828",
           "pdfSha256": "86ed5fd7fa39e2137f2af70fa33159bc04b6c4f08528d4251889b34830a58eca"
-        },
-        {
-          "language": "fil",
-          "collection": "seerah",
-          "sha256": "b9c1a763050323377208959403fbd66f7c8895ab17369dfdcb2443f3538e7938",
-          "pdfSha256": "3a0fc9f585c6eece8a3d14238abd835282d3d165c2c54db804ecf64ab29c9738"
-        },
-        {
-          "language": "fil",
-          "collection": "articles",
-          "sha256": "4386c30338fb75858b964809d0b451179ecfdfdeef71cc6ecd7e5bcb1f77c87d",
-          "pdfSha256": "c80cff7804a9549f567d0fc0686635fc6998390eb02c224cd560730a0a558500"
         }
       ],
       "assets": [
         {
           "name": "Iman_Companion_fil_all-books.zip",
-          "bytes": 28332788,
-          "sha256": "8e017b5216ceba0d01946f5ce022f8d52faf2a1fc62868d4dacf5fd78038489f"
+          "bytes": 19539748,
+          "sha256": "ec74c094ca8de17c2f0c5de7f57c2dc460ef5c8ebe52ba10166bc5262a993e15"
         },
         {
           "name": "Iman_Companion_fil_all-books.docx",
-          "bytes": 20438440,
-          "sha256": "430b6ce303738eacb361f2f92f7ec3db41764841e9b45056445b81517c62a4d7"
+          "bytes": 14197689,
+          "sha256": "8963c5daa6f54267701669183849c10abbe176097132da1abd36ec160d2226cd"
         },
         {
           "name": "Iman_Companion_fil_all-books.pdf",
-          "bytes": 1940821,
-          "sha256": "d4c9c46009005b14491856558028d2f0264ae518066ee01dea5f9cc3cdf4c04f"
+          "bytes": 1120243,
+          "sha256": "8f8b82dd317bd2dc1794ee208f3ef202502d8f5331e73c67b38d6aff4c29172e"
         }
       ],
       "verification": {
@@ -2127,31 +1863,25 @@
           "Iman_Companion_fil_tadabbur-extended.docx": "4fdb85924b6e471b616baa41a884eed7d22109ac336166b71257b1c6970b21e2",
           "Iman_Companion_fil_tadabbur-extended.pdf": "1940729c0351fca4f6b7f65ff6205c4151641cd224baf57c7be6b6f27def4917",
           "Iman_Companion_fil_hadith.docx": "35ae5a36b8f4d0962f76d38f9687265da5a36d04f39193498f9493f10afc1828",
-          "Iman_Companion_fil_hadith.pdf": "86ed5fd7fa39e2137f2af70fa33159bc04b6c4f08528d4251889b34830a58eca",
-          "Iman_Companion_fil_seerah.docx": "b9c1a763050323377208959403fbd66f7c8895ab17369dfdcb2443f3538e7938",
-          "Iman_Companion_fil_seerah.pdf": "3a0fc9f585c6eece8a3d14238abd835282d3d165c2c54db804ecf64ab29c9738",
-          "Iman_Companion_fil_articles.docx": "4386c30338fb75858b964809d0b451179ecfdfdeef71cc6ecd7e5bcb1f77c87d",
-          "Iman_Companion_fil_articles.pdf": "c80cff7804a9549f567d0fc0686635fc6998390eb02c224cd560730a0a558500"
+          "Iman_Companion_fil_hadith.pdf": "86ed5fd7fa39e2137f2af70fa33159bc04b6c4f08528d4251889b34830a58eca"
         },
         "word": {
-          "parts": 4,
+          "parts": 2,
           "sourceBodyExactlyPreserved": true,
           "sourceFootnotesExactlyPreserved": 48,
-          "imagesAndAudioLinksVerified": 4,
+          "imagesAndAudioLinksVerified": 2,
           "independentBookPagination": true,
           "isolatedStyles": [],
           "isolatedNumbering": []
         },
         "pdf": {
-          "parts": 4,
-          "pages": 64,
+          "parts": 2,
+          "pages": 58,
           "sourcePageContentStreamsPreserved": true,
-          "annotationsVerified": 106,
+          "annotationsVerified": 104,
           "partOffsets": [
             0,
-            35,
-            58,
-            61
+            35
           ]
         }
       }

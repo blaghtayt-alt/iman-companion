@@ -9,8 +9,8 @@
 | --- | --- | --- | --- |
 | কুরআনের তাদাব্বুর | [সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_tadabbur-extended.docx) | [পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_tadabbur-extended.pdf) | ১৫ · অন্তর্ভুক্ত: সূরা ১, ১৫, ১৭, ৪০, ৫৫, ৬১–৬৩, ৬৮, ৯৩, ৯৮–৯৯, ১০১, ১০৩, ১১২ |
 | হাদিস · আল্লাহর ন্যায়বিচার ও অমুখাপেক্ষিতা এবং তাঁর প্রতি বান্দাদের নির্ভরতা (+2) | [সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_hadith.docx) | [পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1/Iman_Companion_bn_hadith.pdf) | ৩ · অন্তর্ভুক্ত: হাদিস ১–৩ |
-| সীরাত · স্বয়ংক্রিয়তা পরীক্ষার উপকরণ · স্বয়ংক্রিয় ব্যবস্থার সাময়িক পরীক্ষামূলক উপাদান | [সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_bn_seerah.docx) | [পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_bn_seerah.pdf) | ১ · অন্তর্ভুক্ত: ১ |
-| প্রবন্ধ · স্বয়ংক্রিয়তা পরীক্ষার উপকরণ · স্বয়ংক্রিয় ব্যবস্থার সাময়িক পরীক্ষামূলক উপাদান | [সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_bn_articles.docx) | [পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1/Iman_Companion_bn_articles.pdf) | ১ · অন্তর্ভুক্ত: ১ |
+| সীরাত | এখনও প্রকাশিত হয়নি | এখনও প্রকাশিত হয়নি | — |
+| প্রবন্ধ | এখনও প্রকাশিত হয়নি | এখনও প্রকাশিত হয়নি | — |
 
 ## কুরআনের তাদাব্বুর
 
@@ -36,14 +36,6 @@
 - আল্লাহর মহত্ত্ব: অন্তর ও কাজে তার প্রভাব
 - অন্তরসমূহ পরম দয়াময়ের নিয়ন্ত্রণাধীন
 
-## সীরাত · স্বয়ংক্রিয়তা পরীক্ষার উপকরণ
-
-- স্বয়ংক্রিয়তা পরীক্ষার উপকরণ
-
-## প্রবন্ধ · স্বয়ংক্রিয়তা পরীক্ষার উপকরণ
-
-- স্বয়ংক্রিয়তা পরীক্ষার উপকরণ
-
 ### কুরআনের তাদাব্বুর
 
 অন্তর্ভুক্ত: সূরা ১, ১৫, ১৭, ৪০, ৫৫, ৬১–৬৩, ৬৮, ৯৩, ৯৮–৯৯, ১০১, ১০৩, ১১২
@@ -52,24 +44,14 @@
 
 অন্তর্ভুক্ত: হাদিস ১–৩
 
-### সীরাত · স্বয়ংক্রিয়তা পরীক্ষার উপকরণ · স্বয়ংক্রিয় ব্যবস্থার সাময়িক পরীক্ষামূলক উপাদান
-
-অন্তর্ভুক্ত: ১
-
-### প্রবন্ধ · স্বয়ংক্রিয়তা পরীক্ষার উপকরণ · স্বয়ংক্রিয় ব্যবস্থার সাময়িক পরীক্ষামূলক উপাদান
-
-অন্তর্ভুক্ত: ১
-
 ## একসঙ্গে ডাউনলোড করুন
-
-একত্রিত ডাউনলোডে সাময়িক পরীক্ষামূলক উপাদান রয়েছে
 
 একটি সম্মিলিত বই
 
-[সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_bn_all-books.docx)
+[সম্পাদনাযোগ্য বই ডাউনলোড করুন (Word)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.docx)
 
-[পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_bn_all-books.pdf)
+[পাঠের অনুলিপি ডাউনলোড করুন (PDF)](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.pdf)
 
-[আলাদা বইগুলোর জিপ ফাইল](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42968733120-1-bundles/Iman_Companion_bn_all-books.zip)
+[আলাদা বইগুলোর জিপ ফাইল](https://github.com/blaghtayt-alt/iman-companion/releases/download/books-42596828459-1-bundles/Iman_Companion_bn_all-books.zip)
 
 কৃত্রিম বুদ্ধিমত্তার সহায়তায় অনূদিত — যাচাই প্রয়োজন। মডেলের সাহায্যে করা পরীক্ষা কোনো যোগ্য পাঠকের পর্যালোচনার বিকল্প নয়।
