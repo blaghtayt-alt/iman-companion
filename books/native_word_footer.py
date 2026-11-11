@@ -53,7 +53,12 @@ def prepare(file,root,language):
     return {'method':'ordinary-PAGE-with-pinned-native-glyphs','font':family,'fontSHA256':definition['sha256'],'parts':changed,'wordGlobalOptionsChanged':False,'fieldValuesRemainNumeric':True}
 
 def verify_rendered_footer(pdf,root,language):
-    """Verify real Word output values AND its embedded native glyph outlines."""
+    """Verify printed values and exact native outlines, including Word subsets.
+
+    Word may embed only the digits a short book uses. Missing unused mappings
+    are acceptable; every mapping present in a footer's font must still match
+    the pinned face, and every printed digit must have its own verified mapping.
+    """
     import hashlib,io
     import pdfplumber
     from pypdf import PdfReader
@@ -63,7 +68,7 @@ def verify_rendered_footer(pdf,root,language):
     def geometry(font,code):
         glyph=font['glyf'][font.getBestCmap()[code]];coords,ends,flags=glyph.getCoordinates(font['glyf'])
         return font['head'].unitsPerEm,list(coords),list(ends),list(flags)
-    outlines=[geometry(expected,start+n)for n in range(10)];reader=PdfReader(pdf);matched=set();checked=[];seen={}
+    outlines=[geometry(expected,start+n)for n in range(10)];reader=PdfReader(pdf);matched={};checked=[];seen={}
     for page in reader.pages:
         for reference in page.get('/Resources',{}).get('/Font',{}).values():
             font=reference.get_object();name=str(font.get('/BaseFont','')).lstrip('/')
@@ -75,18 +80,36 @@ def verify_rendered_footer(pdf,root,language):
                 continue
             seen[name]=digest;actual=TTFont(io.BytesIO(raw))
             try:
-                if all(geometry(actual,48+n)==outlines[n]for n in range(10)):matched.add(name)
+                cmap=actual.getBestCmap() or {}
+                present={n for n in range(10) if 48+n in cmap}
+                # A wrong unused digit also disqualifies this font. Do not let
+                # one correct glyph excuse a different or partially wrong face.
+                if present and all(geometry(actual,48+n)==outlines[n]for n in present):matched[name]=present
             except (KeyError,TypeError):pass
             finally:actual.close()
     expected.close()
     if not matched:raise ValueError('Actual Word output lacks the pinned native numeral outlines')
+    printed={}
     with pdfplumber.open(pdf)as document:
         for index,page in enumerate(document.pages):
             if index==0:continue
             chars=sorted((c for c in page.chars if c['top']>page.height-34 and not c['text'].isspace()),key=lambda c:c['x0'])
             text=''.join(c['text']for c in chars)
-            if not text.isdecimal() or int(text)!=index+1 or any(c['fontname']not in matched for c in chars):raise ValueError('Wrong native Word footer at physical page '+str(index+1))
+            if (not text.isdecimal() or int(text)!=index+1
+                    or any(len(c['text'])!=1 or c['fontname']not in matched
+                           or int(c['text'])not in matched[c['fontname']] for c in chars)):
+                raise ValueError('Wrong native Word footer at physical page '+str(index+1))
             if any(c['x0']<0 or c['x1']>page.width or c['top']<0 or c['bottom']>page.height for c in chars):raise ValueError('Native Word footer outside page')
+            for char in chars:printed.setdefault(char['fontname'],set()).add(int(char['text']))
             checked.append(index+1)
             page.close()  # Release rendered-page caches before processing the next page.
-    return {'proofSHA256':hashlib.sha256(pdf.read_bytes()).hexdigest(),'pagesChecked':checked,'allTenNativeGlyphOutlinesExact':True,'allPrintedValuesMatchPhysicalPage':True}
+    all_ten=all(len(matched[name])==10 for name in printed) if printed else any(len(digits)==10 for digits in matched.values())
+    result={'proofSHA256':hashlib.sha256(pdf.read_bytes()).hexdigest(),'pagesChecked':checked,'allTenNativeGlyphOutlinesExact':all_ten,'allPrintedValuesMatchPhysicalPage':True}
+    # Keep the original full-ten receipt byte/schema-compatible. Subset evidence
+    # records its actual coverage rather than claiming that absent glyphs passed.
+    if not all_ten:
+        result.update(allPrintedNativeGlyphOutlinesExact=True,
+                      nativeDigitSubsets=[{'font':name,'fontSHA256':seen[name],
+                                          'verifiedDigits':sorted(matched[name]),
+                                          'printedDigits':sorted(digits)} for name,digits in sorted(printed.items())])
+    return result
