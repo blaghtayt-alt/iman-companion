@@ -1,16 +1,16 @@
 # Iman Companion — Quran Tadabbur, Seerah, Hadith & Islamic Learning
 
-**رفيق الإيمان · Quran reflection, Islamic articles, manga and learning resources**
+**رفيق الإيمان · Quran reflection, Islamic articles, comic books and learning resources**
 
 ## Official website
 
-**[Open Iman Companion](https://iman-companion.lpi21.chatgpt.site/)**
+[![Open Iman Companion — Quran Tadabbur, Seerah, Hadith, Comic Books and Articles](docs/assets/iman-companion-website-banner.png)](https://iman-companion.lpi21.chatgpt.site/)
 
-Iman Companion brings together Quran reading and memorization, **Quran tadabbur (reflection), Seerah / Sirah, Hadith lessons, Islamic manga and illustrated stories, and Islamic articles**. Explore the app on the official website, or use this repository to read educational texts, follow their sources, and download available books and language packs.
+Iman Companion brings together Quran reading and memorization, **Quran tadabbur (reflection), Seerah / Sirah, Hadith lessons, Islamic comic books and illustrated stories, and Islamic articles**. Explore the app on the official website, or use this repository to read educational texts, follow their sources, and download available books and language packs.
 
 These resources are for individual readers, parents, teachers and developers. They include Arabic source material and multilingual editions, with coverage and review status recorded for each collection.
 
-**رفيق الإيمان** مشروع لتعلّم القرآن وحفظه وتدبّر معانيه، وقراءة السيرة النبوية والحديث النبوي والمقالات الإيمانية، والقصص المصوّرة والمانغا الإسلامية.
+**رفيق الإيمان** مشروع لتعلّم القرآن وحفظه وتدبّر معانيه، وقراءة السيرة النبوية والحديث النبوي والمقالات الإيمانية، والقصص المصوّرة الإسلامية.
 
 **Translation notice:** translated summaries are **AI translated — needs verification**. Model-assisted review does not establish human translation certification. See [sources and review status](#where-the-material-comes-from).
 
@@ -23,7 +23,7 @@ These resources are for individual readers, parents, teachers and developers. Th
 | **Quran tadabbur and reflection · تدبر القرآن** | [Extended and Simplified reflections](#quran-tadabbur-and-reflection), with surah and ayah references |
 | **Seerah / Sirah · السيرة النبوية** | [The life of Prophet Muhammad ﷺ](#seerah-and-sirah), current source chapters and edition details |
 | **Hadith / Ahadith · الحديث النبوي** | [Essential Iman Hadith lessons](#hadith-and-ahadith), Arabic narrations, explanations and available translations |
-| **Islamic manga and comics · المانغا والقصص المصورة** | [Alp Arslan and Kalila wa Dimna](#islamic-manga-and-illustrated-stories), illustrated story editions and language packs |
+| **Islamic comic books and illustrated stories · القصص المصورة** | [Alp Arslan and Kalila wa Dimna](#islamic-comic-books-and-illustrated-stories), illustrated story editions and language packs |
 | **Islamic articles and reminders · مقالات إيمانية** | [Articles on faith, character and daily life](#islamic-articles-and-reminders), with supplied references |
 | **Islamic learning for children** | [Under 5 teaching units](#islamic-learning-for-children), for use with a parent or teacher |
 | **Sayings of Ibn al-Qayyim · أقوال ابن القيم** | [37 sayings with explanations](#sayings-of-ibn-al-qayyim), in 20 languages |
@@ -74,9 +74,11 @@ Read the [47 prepared Arabic Islamic articles](materials/articles/prepared-ar/RE
 
 Available translated reading editions are listed under **Articles** in the [download table](#downloads); check each language page for the exact included articles. The [article collection index](materials/articles/README.md) also records the [earlier standalone article and its translations](materials/articles/al-fitnah-al-muntazarah/README.md), whose Arabic text was merged into article 26.
 
-### Islamic manga and illustrated stories
+<a name="islamic-manga-and-illustrated-stories"></a>
 
-Explore the project's **Islamic manga, comics and illustrated stories** through the [official Iman Companion website](https://iman-companion.lpi21.chatgpt.site/) and the documented downloadable story packs:
+### Islamic comic books and illustrated stories
+
+Explore the project's **Islamic comic books and illustrated stories** through the [official Iman Companion website](https://iman-companion.lpi21.chatgpt.site/) and the documented downloadable story packs:
 
 | Story | Documented edition | Sources and downloads |
 | --- | --- | --- |
