@@ -1,15 +1,117 @@
-# Iman Companion · رفيق الإيمان
+# Iman Companion — Quran Tadabbur, Seerah, Hadith & Islamic Learning
 
-I'm building Iman Companion to bring Quran reading, memorization, reflection, and Islamic learning into one app. This repository shares the educational material I've prepared for it so other readers, teachers, and app developers can use it too.
+**رفيق الإيمان · Quran reflection, Islamic articles, manga and learning resources**
 
-The collection includes tadabbur summaries, Seerah summaries, Hadith reading material, 37 sayings of Ibn al-Qayyim with explanations, and six teaching units for children under five. The project’s own eligible code and editorial work are open source; cited third-party texts retain their stated source terms and credits. You can read the Markdown files here or use the JSON files in your own project.
+## Official website
 
-**The Ibn al-Qayyim sayings collection is complete: 37 readings in each of 20 languages.** Other collections remain at their stated coverage.
+**[Open Iman Companion](https://iman-companion.lpi21.chatgpt.site/)**
 
-**All translated summaries are AI translated — needs verification.** Some have already been through separate model-assisted review, but that does not make them verified human translations. Please check the Arabic source, especially before teaching or publishing a translation.
+Iman Companion brings together Quran reading and memorization, **Quran tadabbur (reflection), Seerah / Sirah, Hadith lessons, Islamic manga and illustrated stories, and Islamic articles**. Explore the app on the official website, or use this repository to read educational texts, follow their sources, and download available books and language packs.
+
+These resources are for individual readers, parents, teachers and developers. They include Arabic source material and multilingual editions, with coverage and review status recorded for each collection.
+
+**رفيق الإيمان** مشروع لتعلّم القرآن وحفظه وتدبّر معانيه، وقراءة السيرة النبوية والحديث النبوي والمقالات الإيمانية، والقصص المصوّرة والمانغا الإسلامية.
+
+**Translation notice:** translated summaries are **AI translated — needs verification**. Model-assisted review does not establish human translation certification. See [sources and review status](#where-the-material-comes-from).
+
+[Browse subjects](#whats-included) · [Word and PDF downloads](#downloads) · [Languages and coverage](#languages-and-coverage) · [Catalog and source files](#catalog-and-source-files) · [Reuse and corrections](#using-the-material)
+
+## Start here
+
+| What you are looking for | Where to begin |
+| --- | --- |
+| **Quran tadabbur and reflection · تدبر القرآن** | [Extended and Simplified reflections](#quran-tadabbur-and-reflection), with surah and ayah references |
+| **Seerah / Sirah · السيرة النبوية** | [The life of Prophet Muhammad ﷺ](#seerah-and-sirah), current source chapters and edition details |
+| **Hadith / Ahadith · الحديث النبوي** | [Essential Iman Hadith lessons](#hadith-and-ahadith), Arabic narrations, explanations and available translations |
+| **Islamic manga and comics · المانغا والقصص المصورة** | [Alp Arslan and Kalila wa Dimna](#islamic-manga-and-illustrated-stories), illustrated story editions and language packs |
+| **Islamic articles and reminders · مقالات إيمانية** | [Articles on faith, character and daily life](#islamic-articles-and-reminders), with supplied references |
+| **Islamic learning for children** | [Under 5 teaching units](#islamic-learning-for-children), for use with a parent or teacher |
+| **Sayings of Ibn al-Qayyim · أقوال ابن القيم** | [37 sayings with explanations](#sayings-of-ibn-al-qayyim), in 20 languages |
+
+For downloadable reading editions, open the [Iman Companion Books library](https://blaghtayt-alt.github.io/iman-companion/books/) or use the [language-by-language download table](#downloads).
+
+## What's included
+
+### Quran tadabbur and reflection
+
+**Tadabbur (تدبر القرآن)** means reflecting on the Quran's meanings and lessons. Browse the [Quran reflection files](materials/tadabbur) for **Extended** discussions and **Simplified** readings. Each available document identifies its surah, ayahs, language and supplied sources.
+
+Coverage varies by surah, reading mode and language. Some documents discuss selected ayahs only; this collection is not a complete commentary or translation of every surah.
+
+Selected readings:
+
+- [Al-Fatiha: extended reflections in eleven translated editions](materials/tadabbur/fatiha-extended/README.md).
+- [Japanese Al-Qiyamah, 75:1–40](materials/tadabbur/ja/extended/075.md).
+- Arabic Simplified: [Maryam, 19:1–98](materials/tadabbur/ar/simplified/019.md), [An-Naba, 78:1–40](materials/tadabbur/ar/simplified/078.md), [Al-A‘la, 87:1–19](materials/tadabbur/ar/simplified/087.md) and [Al-‘Alaq, 96:1–19](materials/tadabbur/ar/simplified/096.md).
+- Arabic Extended: [Aal Imran](materials/tadabbur/ar/extended/003.md), [Al-Kahf](materials/tadabbur/ar/extended/018.md), [Al-Qasas](materials/tadabbur/ar/extended/028.md), [Ya-Sin](materials/tadabbur/ar/extended/036.md), [At-Taghabun](materials/tadabbur/ar/extended/064.md) and [An-Nazi‘at](materials/tadabbur/ar/extended/079.md).
+
+#### Current Al-Ikhlas reflections
+
+[Read Al-Ikhlas, 112:1–4, in 19 translated editions, with sources](materials/tadabbur/ikhlas-112/README.md). The collection index lists the available languages and their review details.
+
+### Seerah and Sirah
+
+**Seerah / Sirah (السيرة النبوية)** is the biography of Prophet Muhammad ﷺ. Start with the [current new adult Seerah Arabic source chapters](materials/seerah/new-adult/ar/README.md), which contain revised chapters 1–3 and their source and audio index. Published reading editions and their exact included chapters appear in the [download table](#downloads).
+
+The [earlier Seerah collection and chapter 1–22 archive](materials/seerah/combined/README.md) retain their own sources and edition history. Check the edition before combining or reusing chapters.
+
+### Hadith and Ahadith
+
+The [Arabic Essential Iman Hadith course](materials/hadith/essential-ar/README.md) contains **286 lessons across 12 chapters**, preserving narrations, references and commentary. Topics include knowing Allah, sincerity, trust, repentance, patience, character, dhikr, du‘a, worship and daily dealings. Translated readers have their own lesson coverage; an available language edition does not mean the entire Arabic course has been translated.
+
+- [Lesson 01-002 in all 20 app languages](materials/hadith/essential-01-002/README.md).
+- [Lesson 01-003 in all 20 app languages](materials/hadith/essential-01-003/README.md).
+- [Lesson 01-004: available translations and source details](materials/hadith/essential-01-004/README.md).
+- [Lesson 01-005: current Filipino reading](materials/hadith/essential-01-005/README.md).
+- [Heart Reminder: selected reports and Quran passages in five languages](materials/hadith/heart-reminder/README.md).
+- [Historical Hadith readings and first-lesson source exports](materials/hadith/README.md).
+
+Narrated words, Quran quotations and editorial explanations retain their separate identities and source credits. See [translation coverage](#languages-and-coverage) for first-lesson limitations.
+
+### Islamic articles and reminders
+
+Read the [47 prepared Arabic Islamic articles](materials/articles/prepared-ar/README.md): articles 1–46 and one additional unnumbered article, with their supplied references. The collection addresses faith, the heart, character, relationships, family responsibilities and daily life.
+
+Available translated reading editions are listed under **Articles** in the [download table](#downloads); check each language page for the exact included articles. The [article collection index](materials/articles/README.md) also records the [earlier standalone article and its translations](materials/articles/al-fitnah-al-muntazarah/README.md), whose Arabic text was merged into article 26.
+
+### Islamic manga and illustrated stories
+
+Explore the project's **Islamic manga, comics and illustrated stories** through the [official Iman Companion website](https://iman-companion.lpi21.chatgpt.site/) and the documented downloadable story packs:
+
+| Story | Documented edition | Sources and downloads |
+| --- | --- | --- |
+| **Alp Arslan · ألب أرسلان** | Illustrated story: chapter 1, pages 1–19, in 15 language editions | [Edition metadata](language-packs/metadata/alp-arslan/editions.json) · [Delivery and review records](language-packs/handoffs/alp-arslan) · [Language-pack release](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-24-alp-pages-10-19) |
+| **Kalila wa Dimna · كليلة ودمنة** | Illustrated fables: 10 chapters through page 95, in 15 language editions | [Chapter guide, downloads and review coverage](language-packs/handoffs/kalila-dimna/README.md) |
+
+Translated story editions have AI editorial review; the linked records describe its scope. Arabic, Urdu and Persian editions read right to left; the other documented editions read left to right. Older installed app builds may need the reader update to expose later Alp Arslan pages; see the [reader update notes](language-packs/metadata/alp-arslan/reader-update.md).
+
+### Islamic learning for children
+
+[Under 5](materials/under-5/README.md) contains six teaching units in 20 supported languages, intended for a parent or teacher to use with a young child. The collection index describes the lessons and audio preparation status.
+
+### Sayings of Ibn al-Qayyim
+
+[Read 37 sayings of Ibn al-Qayyim with explanations in each of 20 languages](materials/ibn-al-qayyim/README.md). This selected collection is complete at that scope. Each excerpt retains its source location; the accompanying explanation is editorial material.
+
+## Languages and coverage
+
+The supported text languages are **Arabic, English, Urdu, Indonesian, Malay, Bengali, Turkish, French, Brazilian Portuguese, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Japanese and Filipino**. The [download table](#downloads) uses their native names and links to individual language pages.
+
+Availability differs by collection. A language listed here does not imply a complete Quran commentary, a full translated Hadith course, or a published Seerah or Articles book in that language. The [translation status file](materials/translation-status.json), collection indexes and language download pages record the actual coverage. Story packs currently document 15 editions, as shown in their own metadata.
+
+Current first-lesson Hadith readers in this repository have reviewed book bindings in Bengali, German, English, Spanish, Persian, Hindi, Indonesian, Japanese, Malay, Brazilian Portuguese, Russian, Turkish, Urdu and Uzbek. A French first-lesson reader is also present, but its current final-review evidence remains unreconciled. No current first-lesson reader is stored here for Simplified Chinese, Thai, Vietnamese or Filipino. Original lesson numbers are retained when an earlier translation is not present.
+
+Earlier notes about a separately installed app do not establish the contents of this repository or its books. The app runtime is not included here. Newly registered source material enters a downloadable book only after the updated file passes release checks.
 
 ## Downloads
 
+Open the [Books library and combined downloads](https://blaghtayt-alt.github.io/iman-companion/books/) to choose a language, or select a file below.
+
+- **Editable (Word):** a .docx file for editing and teaching preparation.
+- **Readable (PDF):** a reading and printing edition.
+- **Combined downloads:** the available books for the selected language.
+
+Each language page lists the exact included lessons, surahs, chapters or articles. “Not yet published” means that no released Word/PDF pair is available for that slot. Publication checks and model-assisted review do not remove the translation verification notice above.
 
 <!-- IMAN-BOOK-DOWNLOADS:START -->
 ### Books by language
@@ -46,76 +148,43 @@ Quran reflections: 20/20 · Hadith: 20/20 · Seerah: 2/20 · Articles: 8/20.
 Each language page lists the exact included lesson or surah numbers and any material awaiting publication or a coverage check.
 <!-- IMAN-BOOK-DOWNLOADS:END -->
 
-Historical offline packages remain available: the [Alp Arslan language packs](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-24-alp-pages-10-19), their [reader update notes](language-packs/metadata/alp-arslan/reader-update.md), and the [older combined Seerah archive](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20). These archives are separate from the current new adult Seerah and the verified book downloads above. The [archive notes](materials/seerah/combined/README.md) retain their original sources and coverage.
+## Catalog and source files
 
-## Start here
+Use these indexes to locate a specific text, language, source or edition. Readers can follow the Markdown documents; applications and research tools can use the corresponding JSON records.
 
-- [Tokyo Camii Japanese reader update: chapters 111–114 only](language-packs/handoffs/tokyo-camii-111-114/README.md)
-
-- [Arabic Quran-reader source reference index](materials/hadith-bank/arabic-quran-reference-index/README.md) — Research index of Arabic Quran-reader citations; candidate links, narrators, and report variants require further verification.
-
-- [Alp Arslan edition metadata](language-packs/metadata/alp-arslan/editions.json) and [delivery notes](language-packs/handoffs/alp-arslan)
-- [Current new adult Seerah source chapters](materials/seerah/new-adult/ar/README.md)
-- [Japanese Al-Qiyamah reflections, 75:1–40, with sources](materials/tadabbur/ja/extended/075.md)
-- [Arabic Al-A‘la Simplified reflections, 87:1–19, with sources](materials/tadabbur/ar/simplified/087.md)
-- [Arabic Al-‘Alaq Simplified reflections, 96:1–19, with sources](materials/tadabbur/ar/simplified/096.md)
-- [Arabic An-Naba Simplified reflections, 78:1–40, with sources](materials/tadabbur/ar/simplified/078.md)
-- [Arabic Maryam Simplified reflections, 19:1–98, with sources](materials/tadabbur/ar/simplified/019.md)
-- Updated Arabic Extended reflections: [Aal Imran](materials/tadabbur/ar/extended/003.md), [Al-Kahf](materials/tadabbur/ar/extended/018.md), [Al-Qasas](materials/tadabbur/ar/extended/028.md), [Ya-Sin](materials/tadabbur/ar/extended/036.md), [At-Taghabun](materials/tadabbur/ar/extended/064.md) and [An-Nazi‘at](materials/tadabbur/ar/extended/079.md).
-- [Arabic Essential Iman Hadiths: 286 lessons in 12 chapters](materials/hadith/essential-ar/README.md)
-- [Al-Fatiha extended reflections in German, Japanese, Filipino, Hindi, Simplified Chinese, Persian, Thai, Russian, Vietnamese, Spanish and Uzbek](materials/tadabbur/fatiha-extended/README.md).
-- [Essential Iman Hadith 01-002: reviewed reading in all 20 app languages](materials/hadith/essential-01-002/README.md), with source and translation details. Previously published first-lesson source exports remain available in the [Hadith collection](materials/hadith/README.md).
-- [Essential Iman Hadith 01-003 in Arabic, Bengali, English, Filipino, French, German, Hindi, Indonesian, Japanese, Malay, Persian, Portuguese, Russian, Simplified Chinese, Spanish, Thai, Turkish, Urdu, Uzbek and Vietnamese](materials/hadith/essential-01-003/README.md), with source and translation details.
-- [Essential Iman Hadith 01-004 in Arabic, English, French, German, Indonesian, Japanese, Malay, Persian, Portuguese, Russian, Spanish, Turkish and Uzbek](materials/hadith/essential-01-004/README.md)
-- [Essential Iman Hadith 01-005: current Filipino reading and original source details](materials/hadith/essential-01-005/README.md)
-- [Heart Reminder: selected reports and Quran passages in five languages](materials/hadith/heart-reminder/README.md)
-- [Historical Hadith reading collection and translations](materials/hadith/README.md)
-- [Sayings of Ibn al-Qayyim](materials/ibn-al-qayyim/README.md)
-- [Under 5: six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Japanese and Filipino units, 39 lessons each](materials/under-5/README.md)
-- [Browse all materials](materials/README.md)
-- [Sources and how the summaries were prepared](materials/SOURCES-AND-METHOD.md)
-- [Machine-readable catalog](materials/catalog.json)
-- [Translation coverage and status](materials/translation-status.json)
-- [Reuse terms](materials/REUSE.md)
-
-## What's included
-
-| Collection | Current coverage |
+| Resource | What it contains |
 | --- | --- |
-| Tadabbur in Arabic | 134 surah-and-mode documents, covering the available Extended and Simplified material |
-| Tadabbur translations | 26 surah-and-mode documents in each of eight other languages, plus [Japanese Al-Qiyamah 75:1–40](materials/tadabbur/ja/extended/075.md) and 41 separate work-in-progress translation packages |
-| Seerah | [Current new adult source chapters](materials/seerah/new-adult/ar/README.md). Verified books appear in the download table above; the earlier chapter 1–22 collection remains in the [historical archive](materials/seerah/combined/README.md) |
-| Hadith | [Arabic Essential course: 286 lessons](materials/hadith/essential-ar/README.md), plus the separate historical Arabic reference collection and translations at their stated per-language coverage |
-| Ibn al-Qayyim | [Complete: 37 sayings and explanations in each of 20 languages](materials/ibn-al-qayyim/README.md) |
-| Under 5 | [Six Arabic, English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Urdu, Bengali, Hindi, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Japanese and Filipino units, 39 lessons each](materials/under-5/README.md); audio in preparation |
+| [All educational materials](materials/README.md) | Collection navigation and reading files |
+| [Machine-readable material catalog](materials/catalog.json) | Material identities, language and available coverage metadata |
+| [Translation coverage and status](materials/translation-status.json) | Recorded translation progress and qualifications |
+| [Published book library](books/published-library.json) | Released book editions and their recorded publication details |
+| [Language-pack catalog](language-packs/catalog.json) | Downloadable media packages and integrity metadata |
+| [Sources and preparation method](materials/SOURCES-AND-METHOD.md) | Source attribution, text structure and translation methodology |
 
-The Ibn al-Qayyim sayings collection is complete in all 20 supported languages. [The 286-lesson Arabic Essential Hadith course](materials/hadith/essential-ar/README.md) is a separate collection. Current first-lesson readers in this repository have reviewed book bindings in Bengali, German, English, Spanish, Persian, Hindi, Indonesian, Japanese, Malay, Brazilian Portuguese, Russian, Turkish, Urdu and Uzbek. A French first-lesson reader is also present, but its current final-review evidence remains unreconciled. No current first-lesson reader is stored here for Simplified Chinese, Thai, Vietnamese or Filipino. Lesson 01-002 is published in all 20 languages; later lessons have the coverage stated in their collection indexes.
+For source identification, keep the **collection, language, edition, surah and ayah or lesson/chapter number, source reference and review status** together. Current collection indexes and published language pages should be read alongside older general preparation notes.
 
-Earlier project notes reported first-lesson availability in a separately installed local app. That app's runtime is not included in this repository, so those reports do not establish the contents of this repository or its downloadable books. The download pages list the exact lesson or surah numbers in each verified file; newly registered source material appears in a book only after the updated file passes release checks. Original lesson numbers are retained when an earlier translation is not present.
+Additional reference material:
 
-Earlier Seerah coverage is documented separately in the historical archive. Under 5 text is complete in all 20 supported languages; its six audio recordings are in preparation. Coverage differs between collections. This is not a complete translation of every surah, and some Arabic sources contain selected ayahs only. The catalog gives the actual ayah counts and identifies introductions and archived chapters.
+- [Tokyo Camii Japanese reader update: chapters 111–114 only](language-packs/handoffs/tokyo-camii-111-114/README.md).
+- [Arabic Quran-reader source reference index](materials/hadith-bank/arabic-quran-reference-index/README.md) — a research index; candidate links, narrators and report variants require further verification.
+- [Historical combined Seerah language-pack release](https://github.com/blaghtayt-alt/iman-companion/releases/tag/language-packs-2026-10-20) and [archive notes](materials/seerah/combined/README.md).
 
 ## Where the material comes from
 
-The tadabbur collection grew out of Arabic lessons, mainly those of Ahmad Abd al-Mun'im on [إنه القرآن / Its The Quran](https://www.youtube.com/c/itsthequran), together with the additional sources named in individual documents. The Seerah summaries follow [Ahmed al-Sayed (أحمد السيد)](https://www.youtube.com/@alsayyed_ah)'s lecture sequence. The Under 5 units are my teaching materials, written for an adult to use with a young child.
+The tadabbur collection grew out of Arabic lessons, mainly those of Ahmad Abd al-Mun'im on [إنه القرآن / Its The Quran](https://www.youtube.com/c/itsthequran), together with the additional sources named in individual documents. The earlier Seerah summaries follow [Ahmed al-Sayed (أحمد السيد)](https://www.youtube.com/@alsayyed_ah)'s lecture sequence; the revised adult Seerah chapters retain their own source index. The Under 5 units are teaching materials written for an adult to use with a young child.
 
-These are prepared summaries and reflections, not official transcripts or publications endorsed by the speakers. Source references and Quran or hadith quotations are kept with the material wherever supplied.
+These are prepared summaries and reflections, not official transcripts or publications endorsed by the speakers. Source references and Quran or Hadith quotations are kept with the material wherever supplied.
+
+**All translated summaries are AI translated — needs verification.** Some have passed separate model-assisted review, but that does not make them verified human translations or independently authenticated religious scholarship. Credited quotations from published Quran or Hadith translations retain their original translator or publisher attribution. Check the Arabic source and the specific edition's qualifications, especially before teaching or publishing a translation.
+
+The [sources and method guide](materials/SOURCES-AND-METHOD.md) explains the preparation process. Older editions and work-in-progress files keep their identities; their presence does not make them the current released version.
 
 ## Using the material
 
-My original editorial contributions and teaching materials are dedicated under [CC0 1.0](materials/LICENSE). You may copy, adapt, share, and use them in personal projects or commercial apps without asking permission. Credit is appreciated, but is not a condition of that dedication.
+The project's original editorial contributions and teaching materials are dedicated under [CC0 1.0](materials/LICENSE). You may copy, adapt, share, and use those contributions in personal projects or commercial apps without asking permission. Credit is appreciated, but is not a condition of that dedication.
 
-Quoted material and credited translations from other publishers keep their own rights and terms; CC0 cannot relicense someone else's work. See [Reuse terms](materials/REUSE.md) for the distinction. The repository's existing [MIT license](LICENSE) remains in place for code.
+Quoted material and credited translations from other publishers keep their own rights and terms; CC0 cannot relicense someone else's work. See [reuse terms](materials/REUSE.md) for the distinction. The repository's existing [MIT license](LICENSE) remains in place for code.
 
-If you find a mistake, please open an issue with the language, file, surah and ayah or chapter, and your suggested correction. A source reference is especially helpful. Translation improvements should keep the Arabic meaning and its qualifications, rather than add a new interpretation.
+If you find a mistake, [open an issue](https://github.com/blaghtayt-alt/iman-companion/issues) with the language, file, surah and ayah or chapter, and your suggested correction. A source reference is especially helpful. Translation improvements should keep the Arabic meaning and its qualifications.
 
-[Project website](https://blaghtayt-alt.github.io/iman-companion/) · [Privacy policy](https://blaghtayt-alt.github.io/iman-companion/privacy/)
-
-## Articles
-
-- [Prepared Arabic articles 1–46 and an additional unnumbered article and their supplied references](materials/articles/prepared-ar/README.md)
-- [Restored article and its reviewed translations in all 20 app languages](materials/articles/al-fitnah-al-muntazarah/README.md).
-
-## Current Al-Ikhlas reflections
-
-- [112:1–4 in English, French, Turkish, Indonesian, Malay, Brazilian Portuguese, Bengali, Hindi, Urdu, Russian, Spanish, Persian, German, Simplified Chinese, Uzbek, Thai, Vietnamese, Filipino and Japanese, with sources](materials/tadabbur/ikhlas-112/README.md)
+[Official Iman Companion website](https://iman-companion.lpi21.chatgpt.site/) · [Books and downloads](https://blaghtayt-alt.github.io/iman-companion/books/) · [Project information](https://blaghtayt-alt.github.io/iman-companion/) · [Privacy policy](https://blaghtayt-alt.github.io/iman-companion/privacy/)
