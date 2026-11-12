@@ -4,7 +4,16 @@
 
 ## Official website
 
-[![Open Iman Companion — Quran Tadabbur, Seerah, Hadith, Comic Books and Articles](docs/assets/iman-companion-website-banner.png)](https://iman-companion.lpi21.chatgpt.site/)
+![Iman Companion — Quran Tadabbur, Seerah, Hadith, Islamic Comic Books and Articles](docs/assets/iman-companion-website-banner.png)
+
+<p align="center">
+  <a href="https://iman-companion.lpi21.chatgpt.site/" target="_blank" rel="noopener noreferrer"><kbd>&nbsp; <strong>Open the Website →</strong> &nbsp;</kbd></a>
+</p>
+
+<!-- GitHub removes target="_blank" when rendering a README. -->
+<p align="center">
+  <sub>Open in a new tab with Ctrl-click (Windows/Linux), Command-click (Mac), or the middle mouse button.</sub>
+</p>
 
 Iman Companion brings together Quran reading and memorization, **Quran tadabbur (reflection), Seerah / Sirah, Hadith lessons, Islamic comic books and illustrated stories, and Islamic articles**. Explore the app on the official website, or use this repository to read educational texts, follow their sources, and download available books and language packs.
 
