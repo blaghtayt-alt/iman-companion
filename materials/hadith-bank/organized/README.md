@@ -15,7 +15,7 @@ No two records are merged merely because their numbers, titles, or normalized wo
 
 ## Search and resolve
 
-Place `search.py` beside `INDEX.json` and run it using Python 3. Supply `--index PATH` before the subcommand to choose another copy. Matching ignores Unicode combining marks and case but does not change stored text.
+Place `search.py`, `provenance.py` and `TRANSLATION-PROVENANCE.json` beside `INDEX.json` and run it using Python 3. Supply `--index PATH` before the subcommand to choose another copy. Matching ignores Unicode combining marks and case but does not change stored text.
 
 ```text
 python search.py search --kind chapter --limit 12
@@ -33,3 +33,7 @@ Search supports `--kind`, `--language`, `--chapter`, `--collection`, `--status`,
 A source record's locator names a pinned published file and either a JSON pointer within it or a named, hashed JSON member inside a source envelope plus a pointer in that member. On explicit `resolve`, the tool fetches that pinned file from the existing public repository and checks its SHA-256 and length; it also checks the member hash when applicable. The requested value is then displayed for direct inspection. Source conditions and the surrounding context remain in the linked package; the resolver does not create a new translation or grant rights.
 
 The package catalog and readings are pinned to the commits recorded in the index. The separate Arabic Quran citation catalogue is also identified there. [Publication manifest](PUBLICATION-MANIFEST.json) lists this release's exact files and hashes.
+
+## Translation provenance
+
+[Translation provenance and disclosure rules](TRANSLATION-PROVENANCE.md) describe the partial passage-level [ledger](TRANSLATION-PROVENANCE.json). Search with `--kind translation --translation-origin ai` or `--translation-origin human`; these are evidence-backed passage labels, never whole-lesson classifications. Search and resolve JSON output retains the matching `translationDisclosures` separately from quoted text. Unlisted material remains unclassified. The requested separate Extra High audit is pending.
