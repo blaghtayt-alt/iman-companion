@@ -1,6 +1,6 @@
 # Iman Companion — Quran Tadabbur, Seerah, Hadith & Islamic Learning
 
-**رفيق الإيمان · Quran reflection, Islamic articles, comic books and learning resources**
+
 
 ## Official website
 
