@@ -7,3 +7,5 @@ Lessons 01-001, 01-002, 01-003 and 01-004 are installed and published. Translate
 - [Lesson 01-003](003.md) · [Plain reading](003.txt) · [Structured reading](003.json) · [Sources and editions](003-sources.json)
 - [Lesson 01-004](004.md) · [Plain reading](004.txt) · [Structured reading](004.json) · [Sources and editions](004-sources.json)
 - [Arabic course](../essential-ar/README.md)
+
+- [Lesson 01-005, reviewed reading](005.txt)
