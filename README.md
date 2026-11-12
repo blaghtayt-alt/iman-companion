@@ -5,20 +5,18 @@
 ## Official website
 
 <p align="center">
-  <a href="https://iman-companion.lpi21.chatgpt.site/" target="_blank" rel="noopener noreferrer"><kbd>&nbsp; <strong>Open the Website →</strong> &nbsp;</kbd></a>
-</p>
-
-<picture>
-  <img src="docs/assets/iman-companion-website-banner.png" alt="Iman Companion — Quran Tadabbur, Seerah, Hadith, Islamic Comic Books and Articles">
-</picture>
-
-<p align="center">
-  <a href="https://iman-companion.lpi21.chatgpt.site/" target="_blank" rel="noopener noreferrer"><kbd>&nbsp; <strong>Open the Website →</strong> &nbsp;</kbd></a>
+  <picture>
+    <img src="docs/assets/iman-companion-website-banner.png" alt="Iman Companion — Quran, Tadabbur, Seerah, Hadith, Islamic Comic Books and Articles" width="100%">
+  </picture>
+  <br>
+  <a href="https://iman-companion.lpi21.chatgpt.site/" target="_blank" rel="noopener noreferrer">
+    <img src="docs/assets/iman-companion-website-button.png" alt="Open the Website →" width="560">
+  </a>
 </p>
 
 <!-- GitHub removes target="_blank" when rendering a README. -->
 <p align="center">
-  <sub>New window: Shift-click. New tab: Ctrl-click (Windows/Linux), Command-click (Mac), or the middle mouse button.</sub>
+  <sub>New tab: Ctrl-click (Windows/Linux), Command-click (Mac), or middle-click.</sub>
 </p>
 
 Iman Companion brings together Quran reading and memorization, **Quran tadabbur (reflection), Seerah / Sirah, Hadith lessons, Islamic comic books and illustrated stories, and Islamic articles**. Explore the app on the official website, or use this repository to read educational texts, follow their sources, and download available books and language packs.
@@ -205,3 +203,4 @@ Quoted material and credited translations from other publishers keep their own r
 If you find a mistake, [open an issue](https://github.com/blaghtayt-alt/iman-companion/issues) with the language, file, surah and ayah or chapter, and your suggested correction. A source reference is especially helpful. Translation improvements should keep the Arabic meaning and its qualifications.
 
 [Official Iman Companion website](https://iman-companion.lpi21.chatgpt.site/) · [Books and downloads](https://blaghtayt-alt.github.io/iman-companion/books/) · [Project information](https://blaghtayt-alt.github.io/iman-companion/) · [Privacy policy](https://blaghtayt-alt.github.io/iman-companion/privacy/)
+
