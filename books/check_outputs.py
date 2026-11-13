@@ -11,6 +11,7 @@ from reader_xml import body_text
 from urllib.parse import quote
 from check_audio_qr import validate_audio_qr
 from font_integrity import verify as verify_embedded_fonts
+from check_bracket_direction import verify as verify_bracket_direction
 from toc_sync import reconcile as verify_toc_targets
 from word_layout_check import verify_pair as verify_contents_pair
 def require_complete_references(book):
@@ -218,6 +219,7 @@ def main():
         book['pages']=len(doc.pages);doc.close();book['sha256']=hashlib.sha256(file.read_bytes()).hexdigest()
         font_conf=json.loads((args.root/'books/config.json').read_text(encoding='utf8'))
         verify_embedded_fonts(file,font_conf,book['language'])
+        book['bracketDirectionVerification']=verify_bracket_direction(file,book['language'])
         url=f"https://github.com/{args.repo}/releases/download/{quote(args.tag,safe='')}/{quote(file.name,safe='')}"
         book['download']=url;download=f'[Word]({url})'
         book['pdfDownload']=f"https://github.com/{args.repo}/releases/download/{quote(args.tag,safe='')}/{quote(pdf.name,safe='')}"
