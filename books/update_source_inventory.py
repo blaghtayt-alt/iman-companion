@@ -16,7 +16,9 @@ def refresh(root):
         files=[p for p in folder.rglob('*.json') if re.fullmatch(r'\d{3}',p.stem)
                and (p.parent==folder or (p.parent.parent==folder and re.fullmatch(r'\d{2}',p.parent.name)))]
         def replace(match):
-            return match[1]+str(len(files))+match[2]
+            chapters={1 if p.parent==folder else int(p.parent.name) for p in files}
+            suffix=re.sub(r'\d+ chapters',str(len(chapters))+' chapters',match[2])
+            return match[1]+str(len(files))+suffix
         text=re.sub(r'(^\| essential-hadith \| '+re.escape(label)+r' \| )\d+( lessons?(?: pages, \d+ chapters)? \|$)',replace,text,flags=re.MULTILINE)
     if text==original:return []
     path.write_text(text,encoding='utf8');return ['materials/README.md']

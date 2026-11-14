@@ -77,10 +77,12 @@ def inspect(item,*,opener=urlopen,contracts=None):
                         result['memberSHA256']=actual
                     else:
                         doc=ElementTree.fromstring(archive.read('word/document.xml'))
-                        text='\n'.join(''.join(p.itertext()) for p in doc.iter('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}p'))
+                        namespace='{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
+                        text='\n'.join(''.join(t.text or '' for t in p.iter(namespace+'t')) for p in doc.iter(namespace+'p'))
                         contract=(contracts or {}).get(item['language']) if item['collection']=='tadabbur-extended' else None
                         if contract:
                             result['textComparison']={key:contract[field] in text for key,field in [('beforePresent','before'),('afterPresent','after')]}
+                            result['textComparison'].update({key:contract.get(field,contract[fallback]) in text for key,field,fallback in [('beforeProbePresent','beforeProbe','before'),('afterProbePresent','afterProbe','after')]})
                             result['textComparison']['evidence']='Exact Unicode substring in downloaded word/document.xml'
             elif item['format']=='pdf':
                 if stream.read(5)!=b'%PDF-':raise ValueError('Download is not PDF bytes')
