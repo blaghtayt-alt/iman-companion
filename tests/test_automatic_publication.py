@@ -184,7 +184,7 @@ class PublicationChecks(unittest.TestCase):
         self.assertEqual(entry['availability']['state'],'previous-published-edition')
         self.assertFalse(entry['availability']['currentSourceVerified'])
         self.assertEqual(entry['book']['sha256'],old['book']['sha256'])
-        self.assertEqual(result['verifiedCurrentBookPairs'],0)
+        self.assertEqual(result['matchingRegisteredSnapshotPairs'],0)
         self.assertFalse(any(c[:3]==['gh','release','create'] for c in self.commands))
     def test_one_failed_scope_does_not_prevent_working_pair_publication(self):
         _,row=self.entry('en',self.tag);self.report([row],[{'language':'ar','collection':'seerah','error':'source incomplete'}]);result=self.publish();self.assertEqual(result['newPairs'],1);self.assertEqual(len(result['failedScopes']),1)

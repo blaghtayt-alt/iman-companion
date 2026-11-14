@@ -57,9 +57,10 @@ jobs:
           try {
             const {LANGUAGES,viewModel}=await import('./docs/books/books.mjs');
             const catalog=JSON.parse(readFileSync('docs/books/catalog.json','utf8'));
+            const status=JSON.parse(readFileSync('docs/books/update-status.json','utf8'));
             assert.deepEqual(Object.keys(catalog.languages).sort(),[...LANGUAGES].sort());
-            const rows=LANGUAGES.map(language=>viewModel(catalog,language));
-            report.checks.frontendViewModel={status:'pass',languages:rows.length,bookPairs:rows.reduce((total,row)=>total+row.books.length,0),combinedLanguages:rows.filter(row=>row.bundle).length};
+            const rows=LANGUAGES.map(language=>viewModel(catalog,language,status));
+            report.checks.frontendViewModel={status:'pass',languages:rows.length,bookPairs:rows.reduce((total,row)=>total+row.books.length,0),combinedLanguages:rows.filter(row=>row.bundle).length,pendingBooks:rows.reduce((total,row)=>total+row.books.filter(book=>book.sourceUpdate.updatePending).length,0),pendingCombinedLanguages:rows.filter(row=>row.bundle?.updatePending).length};
           } catch(error) {
             report.checks.frontendViewModel={status:'fail'};
             report.errors.push({check:'frontendViewModel',path:'docs/books/catalog.json',message:String(error.message||error)});
@@ -90,6 +91,23 @@ jobs:
             fi
             if [ -f "$report" ]; then
               cp "$report" "$RUNNER_TEMP/book-downloads-latest.json"
+            fi
+            # Exact unresolved approvals will not settle through a Pages retry.
+            # Preserve a red result after all independent remote checks finish.
+            if python - "$report" <<'PY'
+          import json,sys
+          from pathlib import Path
+          report=json.loads(Path(sys.argv[1]).read_text())
+          checks=report['checks'];errors=report['errors']
+          pending_only=bool(errors) and all(e['check']=='sourceCurrency' for e in errors) and checks.get('sourceCurrency',{}).get('status')=='pending'
+          completed=all(checks.get(k,{}).get('status')=='pass' for k in ['local','releaseMetadata','publicDownloadHTTP','deployedSite','frontendViewModel'])
+          raise SystemExit(0 if pending_only and completed else 1)
+          PY
+            then
+              if remote_ref=$(git ls-remote origin refs/heads/main); then
+                observed_head=$(printf '%s' "$remote_ref" | cut -f1)
+                if [ "$checked_head" = "$observed_head" ]; then exit 1; fi
+              fi
             fi
             if [ "$attempt" -eq 6 ]; then
               exit 1
