@@ -26,7 +26,7 @@ class CommandRunnerChecks(unittest.TestCase):
         if stat.is_file():
             try:
                 if stat.read_text().rsplit(')',1)[1].split()[0]=='Z':return False
-            except FileNotFoundError:return False
+            except (FileNotFoundError,ProcessLookupError):return False
         try:os.kill(pid,0)
         except ProcessLookupError:return False
         return True
@@ -180,6 +180,11 @@ class PublicationChecks(unittest.TestCase):
         self.assertFalse(any(c[:3]==['gh','release','create'] for c in self.commands))
     def test_one_failed_scope_does_not_prevent_working_pair_publication(self):
         _,row=self.entry('en',self.tag);self.report([row],[{'language':'ar','collection':'seerah','error':'source incomplete'}]);result=self.publish();self.assertEqual(result['newPairs'],1);self.assertEqual(len(result['failedScopes']),1)
+    def test_scope_release_hold_cannot_retain_an_old_download(self):
+        old,_=self.entry('ar','books-fixture-1');self.write('books/published-library.json',{'schema':SCHEMA,'entries':[old]})
+        declarations=auto.read(self.root/'books/reviewed-books.json');declarations['books'][0]['automaticRelease']=False
+        self.write('books/reviewed-books.json',declarations);self.report([])
+        result=self.publish();self.assertEqual(result['verifiedBookPairs'],0)
     def test_rejected_candidate_transfer_keeps_existing_verified_downloads_and_reports_failure(self):
         old,_=self.entry('ar','books-fixture-1');self.write('books/published-library.json',{'schema':SCHEMA,'entries':[old]});self.report([])
         report=auto.read(self.out/'build-report.json');report['finalizedIntakeErrors']=[{'error':'Fixture archive hash mismatch'}]

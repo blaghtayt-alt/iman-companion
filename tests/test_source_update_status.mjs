@@ -10,7 +10,7 @@ for(const language of LANGUAGES){
     assert.equal(updateStatus(null,book).updatePending,true);
     assert.equal(updateStatus(status,{...book,sha256:'0'.repeat(64)}).state,'status-unverified');
   }
-  if(model.bundle)assert.equal(model.bundle.updatePending,model.books.some(b=>b.sourceUpdate.updatePending));
+  if(model.bundle)assert.equal(model.bundle.updatePending,status.languages[language].bundleUpdatePending||model.books.some(b=>b.sourceUpdate.updatePending));
 }
 const ar=viewModel(catalog,'ar',status);
 assert.equal(ar.books.find(b=>b.collection==='tadabbur-extended').sourceUpdate.updatePending,true);

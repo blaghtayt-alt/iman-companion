@@ -57,7 +57,8 @@ export function viewModel(catalog,language,status=null){
   let bundle=null;if(locale.bundle){
     const source=locale.bundle;const zip=downloadURL(source.zip,language,'zip'),docx=downloadURL(source.docx,language,'docx'),pdf=downloadURL(source.pdf,language,'pdf');
     if(!zip||!docx||!pdf||source.parts!==books.length)throw Error('Invalid combined downloads');
-    bundle={zip,docx,pdf,updatePending:books.some(book=>book.sourceUpdate.updatePending)};
+    const observed=status?.languages?.[language],binding=observed?.bundleLinks;
+    bundle={zip,docx,pdf,updatePending:!binding||binding.zip!==zip||binding.docx!==docx||binding.pdf!==pdf||observed.bundleUpdatePending!==false||books.some(book=>book.sourceUpdate.updatePending)};
   }
   return {...locale,books,bundle,updated:catalog.updated};
 }
@@ -86,7 +87,7 @@ export async function mount(){
   }
   function render(){
     labels();current=viewModel(catalog,language,status);const copy=COPY[language];text('brand',current.brand);text('title',current.title);document.title=current.title;
-    document.getElementById('books').replaceChildren();text('status',current.books.length?'':copy.empty);text('updated','');document.getElementById('retry').hidden=true;
+    document.getElementById('books').replaceChildren();text('status',status?.languages?.[language]?.unpublishedScopes?.length?status.languages[language].pendingLabel:current.books.length?'':copy.empty);text('updated','');document.getElementById('retry').hidden=true;
     for(const book of current.books){
       const card=document.createElement('article');card.className='book';card.dataset.collection=book.collection;
       const wrap=document.createElement('div');wrap.className='cover-wrap';const image=document.createElement('img');image.className='cover';image.src=localAsset(book.cover);image.alt=book.title;image.width=432;image.height=648;image.loading=current.books.indexOf(book)===0?'eager':'lazy';wrap.append(image);card.append(wrap);

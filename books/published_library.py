@@ -207,6 +207,7 @@ def previous_edition_available(root,entry):
     from book_edition_scope import available,MAP
     try:
         book=entry['book'];key=scope_key(book)
+        declaration(root,key)  # An explicit scope/release hold also applies to retention.
         rows=[r for r in read(root/'materials/catalog.json')['entries']
               if (r.get('language'),MAP.get(r.get('collection')))==key and available(r)]
         members=entry['snapshot'].get('catalogMemberKeys')

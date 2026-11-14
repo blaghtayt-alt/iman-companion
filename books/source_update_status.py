@@ -191,7 +191,8 @@ def public_projection(report, catalog):
                 'label': COVERAGE_COPY[language][3] if pending else '',
                 'publishedSourceCommit': row.get('publishedSourceCommit') if exact else None}
         languages[language] = {'books': books, 'pendingLabel': COVERAGE_COPY[language][3],
-                               'bundleUpdatePending': any(b['updatePending'] for b in books.values()),
+                               'bundleLinks': locale.get('bundle'),
+                               'bundleUpdatePending': any(r['updatePending'] for r in report['scopes'] if r['language']==language),
                                'unpublishedScopes': [r['collection'] for r in report['scopes'] if r['language']==language and r['collection'] not in books]}
     return {'schema': SCHEMA, 'catalogSHA256': digest(bytes_json(catalog)), 'languages': languages,
             'sourceApprovalCreated': False, 'releaseApprovalCreated': False}
