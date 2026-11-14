@@ -30,6 +30,9 @@ Bahasa Melayu
 - Surah Al-Asr
 - Surah al-Ikhlas — Tadabbur
 
+## Edisi yang disahkan. Bahan baharu menunggu semakan penerbitan; hanya kandungan yang disenaraikan disertakan.
+
+
 ## Hadis · Keadilan Allah, sifat-Nya yang Maha Kaya dan kebergantungan hamba kepada-Nya (+3)
 
 - Keadilan Allah, sifat-Nya yang Maha Kaya dan kebergantungan hamba kepada-Nya
@@ -44,6 +47,10 @@ Bahasa Melayu
 ### Tadabbur Al-Quran
 
 Disertakan: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
+
+Semakan kandungan belum selesai
+
+- Tidak disertakan dalam edisi ini: Surah 34
 
 ### Hadis · Keadilan Allah, sifat-Nya yang Maha Kaya dan kebergantungan hamba kepada-Nya (+3)
 

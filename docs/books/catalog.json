@@ -37,6 +37,9 @@
               "1:extended",
               "15:extended",
               "17:extended",
+              "18:extended",
+              "34:extended",
+              "35:extended",
               "40:extended",
               "55:extended",
               "61:extended",
@@ -67,23 +70,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -118,19 +105,53 @@
               "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "18:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {},
+                "number": 18
+              },
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/en/extended/034.json"
+                },
+                "number": 34
+              },
+              {
+                "id": "35:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/en/extended/035.json"
+                },
+                "number": 35
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "18:extended",
+              "34:extended",
+              "35:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/en/extended/001.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Included: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "Coverage check pending",
+              "notes": [
+                "Not included in this edition: Surah 18, 34–35"
+              ],
               "unitLabels": {
                 "1:extended": "Surah 1",
                 "15:extended": "Surah 15",
@@ -226,7 +247,31 @@
               "title": "Surah Al-Ikhlas — Reflections",
               "numberLabel": "Surah 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "101:extended",
+              "103:extended",
+              "112:extended",
+              "15:extended",
+              "17:extended",
+              "1:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Verified edition. New material is awaiting release checks; only the listed contents are included."
         },
         {
           "language": "en",
@@ -248,7 +293,8 @@
               "essential-01-001",
               "essential-01-002",
               "essential-01-003",
-              "essential-01-004"
+              "essential-01-004",
+              "essential-01-006"
             ],
             "catalogIds": [
               "essential-01-001",
@@ -286,19 +332,43 @@
                 4
               ]
             },
-            "missingCurrent": [],
-            "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "missingCurrent": [
+              {
+                "id": "essential-01-006",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/hadith/essential-en/006.json"
+                },
+                "number": [
+                  1,
+                  6
+                ]
+              }
+            ],
+            "absentEarlierLessons": [
+              {
+                "id": "essential-01-005",
+                "chapter": 1,
+                "lesson": 5,
+                "reason": "current-source-not-installed"
+              }
+            ],
+            "unregisteredSourceIds": [
+              "essential-01-006"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
             "errors": [],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "partial",
             "presentation": {
               "includedLabel": "Included: Hadith 1–4",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "Partial edition",
+              "notes": [
+                "Not included in this edition: Hadith 6",
+                "Current source not available in this language: Hadith 5"
+              ],
               "unitLabels": {
                 "essential-01-001": "Hadith 1",
                 "essential-01-002": "Hadith 2",
@@ -656,92 +726,7 @@
               "113:extended",
               "114:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "2:extended",
-              "3:extended",
-              "4:extended",
-              "5:extended",
-              "6:extended",
-              "7:extended",
-              "11:extended",
-              "12:extended",
-              "13:extended",
-              "14:extended",
-              "15:extended",
-              "17:extended",
-              "18:extended",
-              "19:extended",
-              "20:extended",
-              "22:extended",
-              "25:extended",
-              "28:extended",
-              "29:extended",
-              "30:extended",
-              "31:extended",
-              "33:extended",
-              "34:extended",
-              "35:extended",
-              "36:extended",
-              "40:extended",
-              "41:extended",
-              "42:extended",
-              "43:extended",
-              "45:extended",
-              "47:extended",
-              "48:extended",
-              "49:extended",
-              "50:extended",
-              "51:extended",
-              "55:extended",
-              "57:extended",
-              "58:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "64:extended",
-              "66:extended",
-              "67:extended",
-              "68:extended",
-              "70:extended",
-              "71:extended",
-              "72:extended",
-              "73:extended",
-              "74:extended",
-              "75:extended",
-              "78:extended",
-              "79:extended",
-              "80:extended",
-              "81:extended",
-              "82:extended",
-              "83:extended",
-              "84:extended",
-              "85:extended",
-              "86:extended",
-              "87:extended",
-              "88:extended",
-              "89:extended",
-              "90:extended",
-              "91:extended",
-              "92:extended",
-              "93:extended",
-              "94:extended",
-              "95:extended",
-              "96:extended",
-              "98:extended",
-              "99:extended",
-              "100:extended",
-              "101:extended",
-              "102:extended",
-              "103:extended",
-              "104:extended",
-              "107:extended",
-              "108:extended",
-              "111:extended",
-              "112:extended",
-              "113:extended",
-              "114:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "2:extended",
@@ -919,13 +904,18 @@
             "unregisteredSourceIds": [],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/ar/extended/001.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "المشمول: سورة ١–٧, ١١–١٥, ١٧–٢٠, ٢٢, ٢٥, ٢٨–٣١, ٣٣–٣٦, ٤٠–٤٣, ٤٥, ٤٧–٥١, ٥٥, ٥٧–٥٨, ٦١–٦٤, ٦٦–٦٨, ٧٠–٧٥, ٧٨–٩٦, ٩٨–١٠٤, ١٠٧–١٠٨, ١١١–١١٤",
-              "statusLabel": "",
+              "statusLabel": "بانتظار التحقق من المحتوى المشمول",
               "notes": [],
               "unitLabels": {
                 "1:extended": "سورة ١",
@@ -1436,7 +1426,100 @@
               "title": "سورة الناس",
               "numberLabel": "سورة ١١٤"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "100:extended",
+              "101:extended",
+              "102:extended",
+              "103:extended",
+              "104:extended",
+              "107:extended",
+              "108:extended",
+              "111:extended",
+              "112:extended",
+              "113:extended",
+              "114:extended",
+              "11:extended",
+              "12:extended",
+              "13:extended",
+              "14:extended",
+              "15:extended",
+              "17:extended",
+              "18:extended",
+              "19:extended",
+              "1:extended",
+              "20:extended",
+              "22:extended",
+              "25:extended",
+              "28:extended",
+              "29:extended",
+              "2:extended",
+              "30:extended",
+              "31:extended",
+              "33:extended",
+              "34:extended",
+              "35:extended",
+              "36:extended",
+              "3:extended",
+              "40:extended",
+              "41:extended",
+              "42:extended",
+              "43:extended",
+              "45:extended",
+              "47:extended",
+              "48:extended",
+              "49:extended",
+              "4:extended",
+              "50:extended",
+              "51:extended",
+              "55:extended",
+              "57:extended",
+              "58:extended",
+              "5:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "64:extended",
+              "66:extended",
+              "67:extended",
+              "68:extended",
+              "6:extended",
+              "70:extended",
+              "71:extended",
+              "72:extended",
+              "73:extended",
+              "74:extended",
+              "75:extended",
+              "78:extended",
+              "79:extended",
+              "7:extended",
+              "80:extended",
+              "81:extended",
+              "82:extended",
+              "83:extended",
+              "84:extended",
+              "85:extended",
+              "86:extended",
+              "87:extended",
+              "88:extended",
+              "89:extended",
+              "90:extended",
+              "91:extended",
+              "92:extended",
+              "93:extended",
+              "94:extended",
+              "95:extended",
+              "96:extended",
+              "98:extended",
+              "99:extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "نسخة موثقة. تنتظر المواد الجديدة فحوص الإصدار؛ تشمل هذه النسخة المحتويات المذكورة فقط."
         },
         {
           "language": "ar",
@@ -6126,7 +6209,63 @@
               "id": "prepared-ar-cdf3504c0992a5f4",
               "title": "وتحسبونه هيّنًا"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "prepared-ar-01adb5e17c74e525",
+              "prepared-ar-09bf066b3634f57d",
+              "prepared-ar-0b82b1d24c63d07d",
+              "prepared-ar-0d9c648982c774f5",
+              "prepared-ar-116a70bf1f17216b",
+              "prepared-ar-11fd6195efc8363c",
+              "prepared-ar-173df390b851bda2",
+              "prepared-ar-1a83e3dc04f6c0a9",
+              "prepared-ar-213e88a5041a8109",
+              "prepared-ar-219ed3171ce74859",
+              "prepared-ar-23e918af03160523",
+              "prepared-ar-2cb53e0be2518006",
+              "prepared-ar-335663d5ce8c681d",
+              "prepared-ar-451e54203b31adc1",
+              "prepared-ar-4605a8be02d093d9",
+              "prepared-ar-59e0346c43427a88",
+              "prepared-ar-61301f4500c37581",
+              "prepared-ar-66245dc0affaaad0",
+              "prepared-ar-693c2dfe4f68250b",
+              "prepared-ar-6ba5fe0478542dd6",
+              "prepared-ar-6ce2acf93dcf678f",
+              "prepared-ar-6df1b5435dd7f636",
+              "prepared-ar-6e36b40d2b44c28d",
+              "prepared-ar-7451ca7b9f77caec",
+              "prepared-ar-79f984ac70b93547",
+              "prepared-ar-79fa38429519de69",
+              "prepared-ar-7f846d348a330fa2",
+              "prepared-ar-84f4fc9d228796a8",
+              "prepared-ar-89bf0bbfc8c0421a",
+              "prepared-ar-8ee41b5d5879e13b",
+              "prepared-ar-939d09dc4dac35c8",
+              "prepared-ar-95f07e74bea711fb",
+              "prepared-ar-98362e187173fe45",
+              "prepared-ar-a2f5ea3d0b4a4a63",
+              "prepared-ar-a4d28240cb1f060b",
+              "prepared-ar-ad8abe6498c1bd9c",
+              "prepared-ar-ae8de4851f3bb1b8",
+              "prepared-ar-bac340ae12e6d78f",
+              "prepared-ar-bbafdf2ab00688fe",
+              "prepared-ar-cdf3504c0992a5f4",
+              "prepared-ar-cf343c13ae9ee566",
+              "prepared-ar-d51913271d6c3b45",
+              "prepared-ar-d6774afeeeaca832",
+              "prepared-ar-d93feffd65ae000e",
+              "prepared-ar-d9cf2d00e75b4129",
+              "prepared-ar-e7028b1724976c19",
+              "prepared-ar-f5c73b42800a3d2a"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "نسخة موثقة. تنتظر المواد الجديدة فحوص الإصدار؛ تشمل هذه النسخة المحتويات المذكورة فقط."
         }
       ],
       "bundle": {
@@ -6172,6 +6311,7 @@
               "1:extended",
               "15:extended",
               "17:extended",
+              "35:extended",
               "40:extended",
               "55:extended",
               "61:extended",
@@ -6202,23 +6342,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -6253,19 +6377,37 @@
               "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "35:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/ur/extended/035.json"
+                },
+                "number": 35
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "35:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/ur/extended/001.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "شامل مواد: سورۃ ۱, ۱۵, ۱۷, ۴۰, ۵۵, ۶۱–۶۳, ۶۸, ۹۳, ۹۸–۹۹, ۱۰۱, ۱۰۳, ۱۱۲",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "شامل مواد کی جانچ باقی ہے",
+              "notes": [
+                "اس نسخے میں شامل نہیں: سورۃ ۳۵"
+              ],
               "unitLabels": {
                 "1:extended": "سورۃ ۱",
                 "15:extended": "سورۃ ۱۵",
@@ -6361,7 +6503,31 @@
               "title": "سورۂ اخلاص — تدبر",
               "numberLabel": "سورۃ ۱۱۲"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "101:extended",
+              "103:extended",
+              "112:extended",
+              "15:extended",
+              "17:extended",
+              "1:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "تصدیق شدہ نسخہ۔ نیا مواد اشاعت کی جانچ کا منتظر ہے؛ اس نسخے میں صرف درج شدہ مواد شامل ہے۔"
         },
         {
           "language": "ur",
@@ -6495,6 +6661,7 @@
               "1:extended",
               "15:extended",
               "17:extended",
+              "34:extended",
               "40:extended",
               "55:extended",
               "61:extended",
@@ -6525,23 +6692,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -6576,19 +6727,37 @@
               "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/id/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/id/extended/001.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Termasuk: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "Pemeriksaan cakupan belum selesai",
+              "notes": [
+                "Tidak termasuk dalam edisi ini: Surah 34"
+              ],
               "unitLabels": {
                 "1:extended": "Surah 1",
                 "15:extended": "Surah 15",
@@ -6684,7 +6853,31 @@
               "title": "Surah Al-Ikhlas — Tadabur",
               "numberLabel": "Surah 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "101:extended",
+              "103:extended",
+              "112:extended",
+              "15:extended",
+              "17:extended",
+              "1:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Edisi terverifikasi. Materi baru menunggu pemeriksaan penerbitan; hanya isi yang tercantum yang disertakan."
         },
         {
           "language": "id",
@@ -6889,6 +7082,7 @@
               "1:extended",
               "15:extended",
               "17:extended",
+              "34:extended",
               "40:extended",
               "55:extended",
               "61:extended",
@@ -6919,23 +7113,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -6970,19 +7148,37 @@
               "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/ms/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/ms/extended/001.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Disertakan: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "Semakan kandungan belum selesai",
+              "notes": [
+                "Tidak disertakan dalam edisi ini: Surah 34"
+              ],
               "unitLabels": {
                 "1:extended": "Surah 1",
                 "15:extended": "Surah 15",
@@ -7078,7 +7274,31 @@
               "title": "Surah al-Ikhlas — Tadabbur",
               "numberLabel": "Surah 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "101:extended",
+              "103:extended",
+              "112:extended",
+              "15:extended",
+              "17:extended",
+              "1:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Edisi yang disahkan. Bahan baharu menunggu semakan penerbitan; hanya kandungan yang disenaraikan disertakan."
         },
         {
           "language": "ms",
@@ -7283,6 +7503,7 @@
               "1:extended",
               "15:extended",
               "17:extended",
+              "35:extended",
               "40:extended",
               "55:extended",
               "61:extended",
@@ -7313,23 +7534,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -7364,19 +7569,37 @@
               "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "35:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/bn/extended/035.json"
+                },
+                "number": 35
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "35:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/bn/extended/001.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "অন্তর্ভুক্ত: সূরা ১, ১৫, ১৭, ৪০, ৫৫, ৬১–৬৩, ৬৮, ৯৩, ৯৮–৯৯, ১০১, ১০৩, ১১২",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "অন্তর্ভুক্ত বিষয়ের যাচাই বাকি",
+              "notes": [
+                "এই সংস্করণে অন্তর্ভুক্ত নয়: সূরা ৩৫"
+              ],
               "unitLabels": {
                 "1:extended": "সূরা ১",
                 "15:extended": "সূরা ১৫",
@@ -7472,7 +7695,31 @@
               "title": "সূরা আল-ইখলাস — ভাবনা ও অনুধাবন",
               "numberLabel": "সূরা ১১২"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "101:extended",
+              "103:extended",
+              "112:extended",
+              "15:extended",
+              "17:extended",
+              "1:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "যাচাইকৃত সংস্করণ। নতুন উপকরণ প্রকাশের যাচাইয়ের অপেক্ষায় আছে; কেবল তালিকাভুক্ত বিষয়গুলো এতে রয়েছে।"
         },
         {
           "language": "bn",
@@ -7606,6 +7853,8 @@
               "1:extended",
               "15:extended",
               "17:extended",
+              "18:extended",
+              "34:extended",
               "40:extended",
               "55:extended",
               "61:extended",
@@ -7636,23 +7885,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -7687,19 +7920,44 @@
               "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "18:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {},
+                "number": 18
+              },
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/tr/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "18:extended",
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/tr/extended/001.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "İçerilenler: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "İçerik kapsamı kontrolü bekleniyor",
+              "notes": [
+                "Bu baskıya dahil değil: Sure 18, 34"
+              ],
               "unitLabels": {
                 "1:extended": "Sure 1",
                 "15:extended": "Sure 15",
@@ -7795,7 +8053,31 @@
               "title": "İhlâs Suresi — Tefekkür",
               "numberLabel": "Sure 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "101:extended",
+              "103:extended",
+              "112:extended",
+              "15:extended",
+              "17:extended",
+              "1:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Doğrulanmış baskı. Yeni içerikler yayın kontrollerini bekliyor; yalnızca listelenen içerikler dahildir."
         },
         {
           "language": "tr",
@@ -8000,6 +8282,8 @@
               "1:extended",
               "15:extended",
               "17:extended",
+              "34:extended",
+              "35:extended",
               "40:extended",
               "55:extended",
               "61:extended",
@@ -8030,23 +8314,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -8081,19 +8349,46 @@
               "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/fr/extended/034.json"
+                },
+                "number": 34
+              },
+              {
+                "id": "35:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/fr/extended/035.json"
+                },
+                "number": 35
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended",
+              "35:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fr/extended/001.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Inclus: Sourate 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "Vérification du contenu en attente",
+              "notes": [
+                "Non inclus dans cette édition: Sourate 34–35"
+              ],
               "unitLabels": {
                 "1:extended": "Sourate 1",
                 "15:extended": "Sourate 15",
@@ -8189,7 +8484,31 @@
               "title": "Sourate Al-Ikhlas — Méditation",
               "numberLabel": "Sourate 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "101:extended",
+              "103:extended",
+              "112:extended",
+              "15:extended",
+              "17:extended",
+              "1:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Édition vérifiée. Les nouveaux textes attendent les contrôles de publication ; seuls les contenus indiqués sont inclus."
         },
         {
           "language": "fr",
@@ -8211,7 +8530,8 @@
               "essential-01-001",
               "essential-01-002",
               "essential-01-003",
-              "essential-01-004"
+              "essential-01-004",
+              "essential-01-005"
             ],
             "catalogIds": [
               "essential-01-001",
@@ -8270,10 +8590,21 @@
                   "reviewStatus": "COMPLETE_AUTHOR558_SUCCESSOR_PENDING_ACTUAL_DISTINCT_FINAL; historical542/551 reviews retain exact actual provenance",
                   "reason": "Current inner reader records a pending distinct final review; existing outer status and historical reviews must be reconciled for these exact bytes."
                 }
+              },
+              {
+                "id": "essential-01-005",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {},
+                "number": [
+                  1,
+                  5
+                ]
               }
             ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "essential-01-005"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
             "errors": [],
@@ -8284,6 +8615,7 @@
               "includedLabel": "Inclus: Hadith 2–4",
               "statusLabel": "Édition partielle",
               "notes": [
+                "Non inclus dans cette édition: Hadith 5",
                 "Vérification finale incomplète : Hadith 1"
               ],
               "unitLabels": {
@@ -8412,6 +8744,7 @@
               "1:extended",
               "15:extended",
               "17:extended",
+              "34:extended",
               "40:extended",
               "55:extended",
               "61:extended",
@@ -8442,23 +8775,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -8493,19 +8810,37 @@
               "103:extended": 103,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/pt-BR/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/pt-BR/extended/001.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Incluído: Surata 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "Verificação do conteúdo pendente",
+              "notes": [
+                "Não incluído nesta edição: Surata 34"
+              ],
               "unitLabels": {
                 "1:extended": "Surata 1",
                 "15:extended": "Surata 15",
@@ -8601,7 +8936,31 @@
               "title": "Surata Al-Ikhlas — Reflexões",
               "numberLabel": "Surata 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "101:extended",
+              "103:extended",
+              "112:extended",
+              "15:extended",
+              "17:extended",
+              "1:extended",
+              "40:extended",
+              "55:extended",
+              "61:extended",
+              "62:extended",
+              "63:extended",
+              "68:extended",
+              "93:extended",
+              "98:extended",
+              "99:extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Edição verificada. Novos materiais aguardam as verificações de publicação; apenas os conteúdos listados estão incluídos."
         },
         {
           "language": "pt-BR",
@@ -8747,16 +9106,14 @@
             "collection": "tadabbur-extended",
             "sourceIds": [
               "fatiha-extended",
+              "35:extended",
               "112:extended"
             ],
             "catalogIds": [
               "fatiha-extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "fatiha-extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "fatiha-extended",
               "112:extended"
@@ -8765,19 +9122,37 @@
               "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "35:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/hi/extended/035.json"
+                },
+                "number": 35
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "35:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fatiha-extended/hi/reading.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "शामिल: सूरा १, ११२",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "शामिल सामग्री की जाँच बाकी है",
+              "notes": [
+                "इस संस्करण में शामिल नहीं: सूरा ३५"
+              ],
               "unitLabels": {
                 "fatiha-extended": "सूरा १",
                 "112:extended": "सूरा ११२"
@@ -8795,7 +9170,18 @@
               "title": "सूरा इख़लास — मनन",
               "numberLabel": "सूरा ११२"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended",
+              "fatiha-extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "सत्यापित संस्करण। नई सामग्री प्रकाशन जाँच की प्रतीक्षा में है; इसमें केवल सूचीबद्ध सामग्री शामिल है।"
         },
         {
           "language": "hi",
@@ -8927,16 +9313,14 @@
             "collection": "tadabbur-extended",
             "sourceIds": [
               "fatiha-extended",
+              "34:extended",
               "112:extended"
             ],
             "catalogIds": [
               "fatiha-extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "fatiha-extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "fatiha-extended",
               "112:extended"
@@ -8945,19 +9329,37 @@
               "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/ru/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fatiha-extended/ru/reading.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Включено: Сура 1, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "Проверка состава книги ожидается",
+              "notes": [
+                "Не включено в это издание: Сура 34"
+              ],
               "unitLabels": {
                 "fatiha-extended": "Сура 1",
                 "112:extended": "Сура 112"
@@ -8975,7 +9377,18 @@
               "title": "Сура «Аль-Ихляс» — размышление",
               "numberLabel": "Сура 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended",
+              "fatiha-extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Проверенное издание. Новые материалы ожидают проверки перед выпуском; включено только указанное содержание."
         },
         {
           "language": "ru",
@@ -9101,9 +9514,7 @@
             "catalogIds": [
               "prepared-ar-79fa38429519de69"
             ],
-            "selectedIds": [
-              "prepared-ar-79fa38429519de69"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "prepared-ar-79fa38429519de69"
             ],
@@ -9115,13 +9526,18 @@
             "unregisteredSourceIds": [],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/articles/current/ru/001.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Включено: Статьи 1",
-              "statusLabel": "",
+              "statusLabel": "Проверка состава книги ожидается",
               "notes": [],
               "unitLabels": {
                 "prepared-ar-79fa38429519de69": "Статьи 1"
@@ -9134,7 +9550,17 @@
               "title": "Малого достаточно",
               "numberLabel": "Статьи 1"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "prepared-ar-79fa38429519de69"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Проверенное издание. Новые материалы ожидают проверки перед выпуском; включено только указанное содержание."
         }
       ],
       "bundle": {
@@ -9184,10 +9610,7 @@
               "fatiha-extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "fatiha-extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "fatiha-extended",
               "112:extended"
@@ -9201,13 +9624,18 @@
             "unregisteredSourceIds": [],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fatiha-extended/es/reading.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Incluido: Sura 1, 112",
-              "statusLabel": "",
+              "statusLabel": "Comprobación del contenido pendiente",
               "notes": [],
               "unitLabels": {
                 "fatiha-extended": "Sura 1",
@@ -9226,7 +9654,18 @@
               "title": "Sura Al-Ijlás — Reflexión",
               "numberLabel": "Sura 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended",
+              "fatiha-extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Edición verificada. Los nuevos materiales esperan las comprobaciones de publicación; solo se incluye el contenido indicado."
         },
         {
           "language": "es",
@@ -9352,9 +9791,7 @@
             "catalogIds": [
               "prepared-ar-79fa38429519de69"
             ],
-            "selectedIds": [
-              "prepared-ar-79fa38429519de69"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "prepared-ar-79fa38429519de69"
             ],
@@ -9366,13 +9803,18 @@
             "unregisteredSourceIds": [],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/articles/current/es/001.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Incluido: Artículos 1",
-              "statusLabel": "",
+              "statusLabel": "Comprobación del contenido pendiente",
               "notes": [],
               "unitLabels": {
                 "prepared-ar-79fa38429519de69": "Artículos 1"
@@ -9385,7 +9827,17 @@
               "title": "Con poco basta",
               "numberLabel": "Artículos 1"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "prepared-ar-79fa38429519de69"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Edición verificada. Los nuevos materiales esperan las comprobaciones de publicación; solo se incluye el contenido indicado."
         }
       ],
       "bundle": {
@@ -9429,16 +9881,14 @@
             "collection": "tadabbur-extended",
             "sourceIds": [
               "fatiha-extended",
+              "34:extended",
               "112:extended"
             ],
             "catalogIds": [
               "fatiha-extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "fatiha-extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "fatiha-extended",
               "112:extended"
@@ -9447,19 +9897,37 @@
               "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/fa/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fatiha-extended/fa/reading.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "محتوای موجود: سوره ۱, ۱۱۲",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "بررسی محتوای موجود در انتظار است",
+              "notes": [
+                "در این نسخه گنجانده نشده: سوره ۳۴"
+              ],
               "unitLabels": {
                 "fatiha-extended": "سوره ۱",
                 "112:extended": "سوره ۱۱۲"
@@ -9477,7 +9945,18 @@
               "title": "تأمل در سورهٔ اخلاص",
               "numberLabel": "سوره ۱۱۲"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended",
+              "fatiha-extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "نسخهٔ بررسی‌شده. مطالب تازه در انتظار بررسی انتشار هستند؛ این نسخه فقط مطالب فهرست‌شده را شامل می‌شود."
         },
         {
           "language": "fa",
@@ -9623,16 +10102,14 @@
             "collection": "tadabbur-extended",
             "sourceIds": [
               "fatiha-extended",
+              "34:extended",
               "112:extended"
             ],
             "catalogIds": [
               "fatiha-extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "fatiha-extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "fatiha-extended",
               "112:extended"
@@ -9641,19 +10118,37 @@
               "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/de/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fatiha-extended/de/reading.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Enthalten: Sure 1, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "Inhaltsabgleich ausstehend",
+              "notes": [
+                "Nicht in dieser Ausgabe enthalten: Sure 34"
+              ],
               "unitLabels": {
                 "fatiha-extended": "Sure 1",
                 "112:extended": "Sure 112"
@@ -9671,7 +10166,18 @@
               "title": "Sure Al-Ikhlas – Betrachtungen",
               "numberLabel": "Sure 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended",
+              "fatiha-extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Geprüfte Ausgabe. Neue Inhalte warten auf die Freigabeprüfung; nur die aufgeführten Inhalte sind enthalten."
         },
         {
           "language": "de",
@@ -9817,16 +10323,14 @@
             "collection": "tadabbur-extended",
             "sourceIds": [
               "fatiha-extended",
+              "34:extended",
               "112:extended"
             ],
             "catalogIds": [
               "fatiha-extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "fatiha-extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "fatiha-extended",
               "112:extended"
@@ -9835,19 +10339,37 @@
               "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/zh-CN/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fatiha-extended/zh-CN/reading.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "收录内容: 章 1, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "收录范围待核对",
+              "notes": [
+                "本版未收录: 章 34"
+              ],
               "unitLabels": {
                 "fatiha-extended": "章 1",
                 "112:extended": "章 112"
@@ -9865,7 +10387,18 @@
               "title": "《忠诚章》默想",
               "numberLabel": "章 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended",
+              "fatiha-extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "已核验版本。新增资料尚待发布检查；本版仅收录所列内容。"
         },
         {
           "language": "zh-CN",
@@ -9885,7 +10418,8 @@
             "collection": "hadith",
             "sourceIds": [
               "essential-01-002",
-              "essential-01-003"
+              "essential-01-003",
+              "essential-01-005"
             ],
             "catalogIds": [
               "essential-01-002",
@@ -9909,16 +10443,34 @@
                 3
               ]
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "essential-01-005",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {},
+                "number": [
+                  1,
+                  5
+                ]
+              }
+            ],
             "absentEarlierLessons": [
               {
                 "id": "essential-01-001",
                 "chapter": 1,
                 "lesson": 1,
                 "reason": "current-source-not-installed"
+              },
+              {
+                "id": "essential-01-004",
+                "chapter": 1,
+                "lesson": 4,
+                "reason": "current-source-not-installed"
               }
             ],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "essential-01-005"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
             "errors": [],
@@ -9929,7 +10481,8 @@
               "includedLabel": "收录内容: 圣训 2–3",
               "statusLabel": "部分收录版",
               "notes": [
-                "本语言暂无现行来源文本: 圣训 1"
+                "本版未收录: 圣训 5",
+                "本语言暂无现行来源文本: 圣训 1, 4"
               ],
               "unitLabels": {
                 "essential-01-002": "圣训 2",
@@ -9992,16 +10545,14 @@
             "collection": "tadabbur-extended",
             "sourceIds": [
               "fatiha-extended",
+              "34:extended",
               "112:extended"
             ],
             "catalogIds": [
               "fatiha-extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "fatiha-extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "fatiha-extended",
               "112:extended"
@@ -10010,19 +10561,37 @@
               "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/uz/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fatiha-extended/uz/reading.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Kiritilgan: Sura 1, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "Qamrov tekshiruvi kutilmoqda",
+              "notes": [
+                "Ushbu nashrga kiritilmagan: Sura 34"
+              ],
               "unitLabels": {
                 "fatiha-extended": "Sura 1",
                 "112:extended": "Sura 112"
@@ -10040,7 +10609,18 @@
               "title": "Ixlos surasi — ma’nolari ustida tafakkur",
               "numberLabel": "Sura 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended",
+              "fatiha-extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Tekshirilgan nashr. Yangi materiallar nashr tekshiruvini kutmoqda; faqat ro‘yxatdagi mazmun kiritilgan."
         },
         {
           "language": "uz",
@@ -10186,16 +10766,14 @@
             "collection": "tadabbur-extended",
             "sourceIds": [
               "fatiha-extended",
+              "18:extended",
               "112:extended"
             ],
             "catalogIds": [
               "fatiha-extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "fatiha-extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "fatiha-extended",
               "112:extended"
@@ -10204,19 +10782,35 @@
               "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "18:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {},
+                "number": 18
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "18:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fatiha-extended/th/reading.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "เนื้อหาที่รวมไว้: สูเราะฮ์ 1, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "รอการตรวจสอบเนื้อหาที่รวมไว้",
+              "notes": [
+                "ไม่รวมอยู่ในฉบับนี้: สูเราะฮ์ 18"
+              ],
               "unitLabels": {
                 "fatiha-extended": "สูเราะฮ์ 1",
                 "112:extended": "สูเราะฮ์ 112"
@@ -10234,7 +10828,18 @@
               "title": "ใคร่ครวญซูเราะฮ์อัลอิคลาศ",
               "numberLabel": "สูเราะฮ์ 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended",
+              "fatiha-extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "ฉบับที่ตรวจสอบแล้ว เนื้อหาใหม่กำลังรอการตรวจสอบก่อนเผยแพร่ ฉบับนี้มีเฉพาะเนื้อหาที่ระบุไว้เท่านั้น"
         },
         {
           "language": "th",
@@ -10254,7 +10859,8 @@
             "collection": "hadith",
             "sourceIds": [
               "essential-01-002",
-              "essential-01-003"
+              "essential-01-003",
+              "essential-01-005"
             ],
             "catalogIds": [
               "essential-01-002",
@@ -10278,16 +10884,34 @@
                 3
               ]
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "essential-01-005",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {},
+                "number": [
+                  1,
+                  5
+                ]
+              }
+            ],
             "absentEarlierLessons": [
               {
                 "id": "essential-01-001",
                 "chapter": 1,
                 "lesson": 1,
                 "reason": "current-source-not-installed"
+              },
+              {
+                "id": "essential-01-004",
+                "chapter": 1,
+                "lesson": 4,
+                "reason": "current-source-not-installed"
               }
             ],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "essential-01-005"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
             "errors": [],
@@ -10298,7 +10922,8 @@
               "includedLabel": "เนื้อหาที่รวมไว้: หะดีษ 2–3",
               "statusLabel": "ฉบับที่รวมเนื้อหาบางส่วน",
               "notes": [
-                "ยังไม่มีต้นฉบับปัจจุบันในภาษานี้: หะดีษ 1"
+                "ไม่รวมอยู่ในฉบับนี้: หะดีษ 5",
+                "ยังไม่มีต้นฉบับปัจจุบันในภาษานี้: หะดีษ 1, 4"
               ],
               "unitLabels": {
                 "essential-01-002": "หะดีษ 2",
@@ -10361,16 +10986,14 @@
             "collection": "tadabbur-extended",
             "sourceIds": [
               "fatiha-extended",
+              "34:extended",
               "112:extended"
             ],
             "catalogIds": [
               "fatiha-extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "fatiha-extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "fatiha-extended",
               "112:extended"
@@ -10379,19 +11002,37 @@
               "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/vi/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fatiha-extended/vi/reading.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Nội dung có trong sách: Chương 1, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "Đang chờ kiểm tra phạm vi nội dung",
+              "notes": [
+                "Không có trong ấn bản này: Chương 34"
+              ],
               "unitLabels": {
                 "fatiha-extended": "Chương 1",
                 "112:extended": "Chương 112"
@@ -10409,7 +11050,18 @@
               "title": "Suy ngẫm chương Al-Ikhlas",
               "numberLabel": "Chương 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended",
+              "fatiha-extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Ấn bản đã được kiểm tra. Tài liệu mới đang chờ kiểm tra trước khi phát hành; chỉ có những nội dung đã liệt kê."
         },
         {
           "language": "vi",
@@ -10536,6 +11188,7 @@
             "collection": "tadabbur-extended",
             "sourceIds": [
               "fatiha-extended",
+              "34:extended",
               "75:extended",
               "112:extended"
             ],
@@ -10544,11 +11197,7 @@
               "75:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "fatiha-extended",
-              "75:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "fatiha-extended",
               "75:extended",
@@ -10559,19 +11208,37 @@
               "75:extended": 75,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/ja/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fatiha-extended/ja/reading.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "収録: 章 1, 75, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "収録範囲を確認中",
+              "notes": [
+                "この版には未収録: 章 34"
+              ],
               "unitLabels": {
                 "fatiha-extended": "章 1",
                 "75:extended": "章 75",
@@ -10595,7 +11262,19 @@
               "title": "イフラース章を思い巡らす",
               "numberLabel": "章 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended",
+              "75:extended",
+              "fatiha-extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "確認済みの版です。新しい資料は公開前の確認を待っています。本版には記載された内容のみが収録されています。"
         },
         {
           "language": "ja",
@@ -10741,16 +11420,14 @@
             "collection": "tadabbur-extended",
             "sourceIds": [
               "fatiha-extended",
+              "34:extended",
               "112:extended"
             ],
             "catalogIds": [
               "fatiha-extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "fatiha-extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "fatiha-extended",
               "112:extended"
@@ -10759,19 +11436,37 @@
               "fatiha-extended": 1,
               "112:extended": 112
             },
-            "missingCurrent": [],
+            "missingCurrent": [
+              {
+                "id": "34:extended",
+                "reason": "source-not-catalogued",
+                "sourcePaths": {
+                  "json": "materials/tadabbur/fil/extended/034.json"
+                },
+                "number": 34
+              }
+            ],
             "absentEarlierLessons": [],
-            "unregisteredSourceIds": [],
+            "unregisteredSourceIds": [
+              "34:extended"
+            ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fatiha-extended/fil/reading.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Kasama: Kabanata 1, 112",
-              "statusLabel": "",
-              "notes": [],
+              "statusLabel": "Naghihintay ng pagsusuri sa saklaw",
+              "notes": [
+                "Hindi kasama sa edisyong ito: Kabanata 34"
+              ],
               "unitLabels": {
                 "fatiha-extended": "Kabanata 1",
                 "112:extended": "Kabanata 112"
@@ -10789,7 +11484,18 @@
               "title": "Pagbubulay-bulay sa Kabanatang Al-Ikhlas",
               "numberLabel": "Kabanata 112"
             }
-          ]
+          ],
+          "availability": {
+            "state": "previous-published-edition",
+            "updatePending": true,
+            "includedUnitIds": [
+              "112:extended",
+              "fatiha-extended"
+            ],
+            "newMaterialsIncluded": false,
+            "currentSourceVerified": false
+          },
+          "statusLabel": "Nasuring edisyon. Hinihintay ng bagong materyal ang pagsusuri bago ilathala; ang nakalistang nilalaman lamang ang kasama."
         },
         {
           "language": "fil",
@@ -10903,5 +11609,5 @@
       }
     }
   },
-  "updated": "2026-11-12T06:51:45+00:00"
+  "updated": "2026-11-14T06:32:32+00:00"
 }

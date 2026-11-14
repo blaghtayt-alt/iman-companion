@@ -17,6 +17,9 @@ Deutsch
 - Al-Fatiha: Vertiefende Betrachtungen
 - Sure Al-Ikhlas – Betrachtungen
 
+## Geprüfte Ausgabe. Neue Inhalte warten auf die Freigabeprüfung; nur die aufgeführten Inhalte sind enthalten.
+
+
 ## Hadith · Allahs Gerechtigkeit und Unabhängigkeit – Seine Diener sind auf Ihn angewiesen (+3)
 
 - Allahs Gerechtigkeit und Unabhängigkeit – Seine Diener sind auf Ihn angewiesen
@@ -27,6 +30,10 @@ Deutsch
 ### Betrachtung des Korans
 
 Enthalten: Sure 1, 112
+
+Inhaltsabgleich ausstehend
+
+- Nicht in dieser Ausgabe enthalten: Sure 34
 
 ### Hadith · Allahs Gerechtigkeit und Unabhängigkeit – Seine Diener sind auf Ihn angewiesen (+3)
 

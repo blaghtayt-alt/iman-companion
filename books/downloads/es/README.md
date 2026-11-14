@@ -17,6 +17,9 @@ Español
 - Al-Fatiha: reflexión detallada
 - Sura Al-Ijlás — Reflexión
 
+## Edición verificada. Los nuevos materiales esperan las comprobaciones de publicación; solo se incluye el contenido indicado.
+
+
 ## Hadiz · La justicia de Allah, Su autosuficiencia y la necesidad que Sus siervos tienen de Él (+3)
 
 - La justicia de Allah, Su autosuficiencia y la necesidad que Sus siervos tienen de Él
@@ -28,9 +31,14 @@ Español
 
 - Con poco basta
 
+## Edición verificada. Los nuevos materiales esperan las comprobaciones de publicación; solo se incluye el contenido indicado.
+
+
 ### Reflexión sobre el Corán
 
 Incluido: Sura 1, 112
+
+Comprobación del contenido pendiente
 
 ### Hadiz · La justicia de Allah, Su autosuficiencia y la necesidad que Sus siervos tienen de Él (+3)
 
@@ -39,6 +47,8 @@ Incluido: Hadiz 1–4
 ### Artículos · Con poco basta
 
 Incluido: Artículos 1
+
+Comprobación del contenido pendiente
 
 ## Descargar juntos
 

@@ -30,6 +30,9 @@ Français
 - Sourate Al-Asr
 - Sourate Al-Ikhlas — Méditation
 
+## Édition vérifiée. Les nouveaux textes attendent les contrôles de publication ; seuls les contenus indiqués sont inclus.
+
+
 ## Hadith · La grandeur d’Allah et ses effets sur le cœur et les actes (+2)
 
 - La grandeur d’Allah et ses effets sur le cœur et les actes
@@ -44,12 +47,17 @@ Français
 
 Inclus: Sourate 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
 
+Vérification du contenu en attente
+
+- Non inclus dans cette édition: Sourate 34–35
+
 ### Hadith · La grandeur d’Allah et ses effets sur le cœur et les actes (+2)
 
 Inclus: Hadith 2–4
 
 Édition partielle
 
+- Non inclus dans cette édition: Hadith 5
 - Vérification finale incomplète : Hadith 1
 
 ### Articles · Un peu suffit

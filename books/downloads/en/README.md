@@ -30,6 +30,9 @@ English
 - Surah Al-Asr
 - Surah Al-Ikhlas — Reflections
 
+## Verified edition. New material is awaiting release checks; only the listed contents are included.
+
+
 ## Hadith · Allah’s justice and self-sufficiency, and His servants’ need of Him (+3)
 
 - Allah’s justice and self-sufficiency, and His servants’ need of Him
@@ -49,9 +52,18 @@ English
 
 Included: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
 
+Coverage check pending
+
+- Not included in this edition: Surah 18, 34–35
+
 ### Hadith · Allah’s justice and self-sufficiency, and His servants’ need of Him (+3)
 
 Included: Hadith 1–4
+
+Partial edition
+
+- Not included in this edition: Hadith 6
+- Current source not available in this language: Hadith 5
 
 ### Seerah · Chapter One
 

@@ -30,6 +30,9 @@ Türkçe
 - Sure Al-Asr
 - İhlâs Suresi — Tefekkür
 
+## Doğrulanmış baskı. Yeni içerikler yayın kontrollerini bekliyor; yalnızca listelenen içerikler dahildir.
+
+
 ## Hadis · Allah’ın adaleti, hiçbir şeye muhtaç olmayışı ve kullarının O’na muhtaç oluşu (+3)
 
 - Allah’ın adaleti, hiçbir şeye muhtaç olmayışı ve kullarının O’na muhtaç oluşu
@@ -44,6 +47,10 @@ Türkçe
 ### Kur’an Üzerine Tefekkür
 
 İçerilenler: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
+
+İçerik kapsamı kontrolü bekleniyor
+
+- Bu baskıya dahil değil: Sure 18, 34
 
 ### Hadis · Allah’ın adaleti, hiçbir şeye muhtaç olmayışı ve kullarının O’na muhtaç oluşu (+3)
 

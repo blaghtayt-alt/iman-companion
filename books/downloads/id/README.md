@@ -30,6 +30,9 @@ Bahasa Indonesia
 - Surah Al-Asr
 - Surah Al-Ikhlas — Tadabur
 
+## Edisi terverifikasi. Materi baru menunggu pemeriksaan penerbitan; hanya isi yang tercantum yang disertakan.
+
+
 ## Hadis · Keadilan dan Kemahakayaan Allah serta Kebutuhan Hamba-hamba-Nya kepada-Nya (+3)
 
 - Keadilan dan Kemahakayaan Allah serta Kebutuhan Hamba-hamba-Nya kepada-Nya
@@ -44,6 +47,10 @@ Bahasa Indonesia
 ### Tadabur Al-Qur’an
 
 Termasuk: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
+
+Pemeriksaan cakupan belum selesai
+
+- Tidak termasuk dalam edisi ini: Surah 34
 
 ### Hadis · Keadilan dan Kemahakayaan Allah serta Kebutuhan Hamba-hamba-Nya kepada-Nya (+3)
 

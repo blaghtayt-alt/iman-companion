@@ -17,6 +17,9 @@ O‘zbekcha
 - Фотиҳа: батафсил мулоҳазалар
 - Ixlos surasi — ma’nolari ustida tafakkur
 
+## Tekshirilgan nashr. Yangi materiallar nashr tekshiruvini kutmoqda; faqat ro‘yxatdagi mazmun kiritilgan.
+
+
 ## Hadis · Аллоҳнинг адолати ва беҳожатлиги, бандаларининг Унга муҳтожлиги (+3)
 
 - Аллоҳнинг адолати ва беҳожатлиги, бандаларининг Унга муҳтожлиги
@@ -27,6 +30,10 @@ O‘zbekcha
 ### Qurʼon Tadabburi
 
 Kiritilgan: Sura 1, 112
+
+Qamrov tekshiruvi kutilmoqda
+
+- Ushbu nashrga kiritilmagan: Sura 34
 
 ### Hadis · Аллоҳнинг адолати ва беҳожатлиги, бандаларининг Унга муҳтожлиги (+3)
 

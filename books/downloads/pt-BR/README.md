@@ -30,6 +30,9 @@ Português
 - Surata Al-Asr
 - Surata Al-Ikhlas — Reflexões
 
+## Edição verificada. Novos materiais aguardam as verificações de publicação; apenas os conteúdos listados estão incluídos.
+
+
 ## Hadith · A justiça de Allah, Sua autossuficiência e a dependência de Seus servos (+3)
 
 - A justiça de Allah, Sua autossuficiência e a dependência de Seus servos
@@ -40,6 +43,10 @@ Português
 ### Reflexão sobre o Alcorão
 
 Incluído: Surata 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
+
+Verificação do conteúdo pendente
+
+- Não incluído nesta edição: Surata 34
 
 ### Hadith · A justiça de Allah, Sua autossuficiência e a dependência de Seus servos (+3)
 

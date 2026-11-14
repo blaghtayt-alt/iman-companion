@@ -17,6 +17,9 @@ Tiếng Việt
 - Suy ngẫm Al-Fatihah — Bài chi tiết
 - Suy ngẫm chương Al-Ikhlas
 
+## Ấn bản đã được kiểm tra. Tài liệu mới đang chờ kiểm tra trước khi phát hành; chỉ có những nội dung đã liệt kê.
+
+
 ## Hadith (Thánh huấn) · Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động (+1)
 
 - Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động
@@ -25,6 +28,10 @@ Tiếng Việt
 ### Suy ngẫm về Kinh Qur’an
 
 Nội dung có trong sách: Chương 1, 112
+
+Đang chờ kiểm tra phạm vi nội dung
+
+- Không có trong ấn bản này: Chương 34
 
 ### Hadith (Thánh huấn) · Sự vĩ đại của Allah và ảnh hưởng đối với trái tim cùng hành động (+1)
 

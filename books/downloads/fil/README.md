@@ -17,6 +17,9 @@ Filipino
 - Pagninilay sa Al-Fātiḥah — Detalyadong Aralin
 - Pagbubulay-bulay sa Kabanatang Al-Ikhlas
 
+## Nasuring edisyon. Hinihintay ng bagong materyal ang pagsusuri bago ilathala; ang nakalistang nilalaman lamang ang kasama.
+
+
 ## Hadith · Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa (+2)
 
 - Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa
@@ -26,6 +29,10 @@ Filipino
 ### Pagninilay sa Quran
 
 Kasama: Kabanata 1, 112
+
+Naghihintay ng pagsusuri sa saklaw
+
+- Hindi kasama sa edisyong ito: Kabanata 34
 
 ### Hadith · Ang kadakilaan ni Allāh at ang bunga nito sa puso at gawa (+2)
 
