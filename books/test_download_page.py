@@ -33,7 +33,8 @@ class PublicationTests(unittest.TestCase):
         word=b'checked editable bytes';pdf=b'checked PDF bytes';(folder/name).write_bytes(word);(folder/Path(name).with_suffix('.pdf')).write_bytes(pdf)
         return {(lang,collection):{'language':lang,'collection':collection,'file':name,'sha256':sha(word),'pdfSha256':sha(pdf),'exportVerified':True,'previewOnly':False,'hadithEdition':'new-extended','download':release_url(REPO,'original',name),'pdfDownload':release_url(REPO,'original',Path(name).with_suffix('.pdf').name)}}
     def publish(self,ready,tag='test'):
-        return publish_bundles(self.root,self.out,ready,'0'*40,REPO,tag,self.execute)
+        with patch('automatic_publication.ensure_main'):
+            return publish_bundles(self.root,self.out,ready,'0'*40,REPO,tag,self.execute)
     def prepared_replacement(self,book):
         # Synthetic transport bytes only, never a real book or release approval.
         from preparation_queue import record
@@ -83,6 +84,12 @@ class PublicationTests(unittest.TestCase):
         data=json.loads((self.root/'books/published-bundles.json').read_bytes());self.assertEqual(set(data['languages']),{'vi'})
     def test_source_update_rebuilds_combined_choice(self):
         ready=self.ready();self.publish(ready);book=ready[('ru','tadabbur-extended')];file=self.out/'ru-tadabbur-extended'/book['file'];file.write_bytes(b'new checked book');book['sha256']=sha(file.read_bytes());links,errors=self.publish(ready,'updated');self.assertFalse(errors);self.assertIn('/updated-bundles/',links['ru']['zip'])
+    def test_source_advance_during_upload_leaves_bundle_draft_private(self):
+        with patch('automatic_publication.ensure_main',side_effect=ValueError('Newer main exists')):
+            links,errors=publish_bundles(self.root,self.out,self.ready(),'0'*40,REPO,'test',self.execute)
+        self.assertFalse(links);self.assertIn('Newer main',errors[0]['error'])
+        self.assertTrue(self.releases['test-bundles']['draft'])
+        self.assertFalse(any(c[:3]==['gh','release','edit'] for c in self.commands))
     def test_changed_local_book_is_not_packaged(self):
         ready=self.ready();(self.out/'ru-tadabbur-extended'/ready[('ru','tadabbur-extended')]['file']).write_bytes(b'changed after validation');links,errors=self.publish(ready);self.assertFalse(links);self.assertEqual(len(errors),1);self.assertFalse(self.releases)
     def test_old_verified_pair_uses_separate_cache_while_prepared_pair_stays_intact(self):

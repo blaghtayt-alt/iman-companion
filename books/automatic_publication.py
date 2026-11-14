@@ -238,6 +238,7 @@ def publish(root,out,commit,repo,tag,execute=run):
             path=Path(asset);remote=[a for a in draft.get('assets',[]) if a.get('name')==path.name]
             if len(remote)!=1 or remote[0].get('state')!='uploaded' or remote[0].get('size')!=path.stat().st_size or remote[0].get('digest')!='sha256:'+sha(path.read_bytes()):
                 raise ValueError('Uploaded draft asset differs from the checked bytes: '+path.name)
+        ensure_main(root,commit)  # Recheck after potentially long asset uploads.
         execute(['gh','release','edit',tag,'--repo',repo,'--draft=false','--latest=false'],root)
     def fetch(release_tag):return json.loads(execute(['gh','api',f'repos/{repo}/releases/tags/{release_tag}'],root))
     existing=read(root/'books/published-library.json')if(root/'books/published-library.json').exists()else{'schema':SCHEMA,'entries':[]}

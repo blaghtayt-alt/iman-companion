@@ -164,6 +164,14 @@ class PublicationChecks(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'differs'):self.publish()
         self.assertFalse(any(c[:2]==['git','push']for c in self.commands));self.assertNotIn('releases/download',(self.root/'README.md').read_text())
         self.assertFalse(any(c[:3]==['gh','release','edit'] for c in self.commands))
+    def test_main_advance_during_upload_keeps_new_pair_in_draft(self):
+        _,row=self.entry('en',self.tag);self.report([row])
+        with patch.object(auto,'ensure_main',side_effect=[None,ValueError('Newer main exists')]):
+            with self.assertRaisesRegex(ValueError,'Newer main'):
+                auto.publish(self.root,self.out,self.commit,self.repo,self.tag,execute=self.execute)
+        self.assertTrue(any(c[:3]==['gh','release','upload'] for c in self.commands))
+        self.assertFalse(any(c[:3]==['gh','release','edit'] for c in self.commands))
+        self.assertFalse(any(c[:2]==['git','push'] for c in self.commands))
     def test_withdrawal_removes_stale_link_without_replacement_build(self):
         old,_=self.entry('ar','books-fixture-1');self.write('books/published-library.json',{'schema':SCHEMA,'entries':[old]});catalog=auto.read(self.root/'materials/catalog.json');catalog['entries'][0]['status']='withdrawn';self.write('materials/catalog.json',catalog);self.report([]);result=self.publish()
         self.assertEqual(result['verifiedBookPairs'],0);self.assertEqual(result['staleScopesRemoved'],[('ar','articles')]);self.assertFalse(any(c[:3]==['gh','release','create']for c in self.commands))
