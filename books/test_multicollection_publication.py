@@ -9,6 +9,7 @@ from pathlib import Path
 import json
 import posixpath
 import re
+import subprocess
 import tempfile
 import unittest
 import zipfile
@@ -191,6 +192,17 @@ class MultipleCollectionPublication(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
+        # Exercise the real source-HEAD lease against an isolated local remote.
+        # Only GitHub release transport is simulated; publication gates stay real.
+        self.origin = self.root / 'origin.git'
+        subprocess.run(['git', 'init', '--bare', '--initial-branch=main', str(self.origin)], check=True, capture_output=True)
+        self.git('init', '--initial-branch=main')
+        self.git('config', 'user.name', 'Synthetic fixture')
+        self.git('config', 'user.email', 'fixture@example.test')
+        self.git('commit', '--allow-empty', '-m', 'Synthetic publication source')
+        self.commit = self.git('rev-parse', 'HEAD')
+        self.git('remote', 'add', 'origin', str(self.origin))
+        self.git('push', 'origin', 'HEAD:refs/heads/main')
         self.out = self.root / 'out'
         self.out.mkdir()
         (self.root / 'books').mkdir()
@@ -215,6 +227,10 @@ class MultipleCollectionPublication(unittest.TestCase):
             self.templates[collection] = (file.read_bytes(), file.with_suffix('.pdf').read_bytes())
         self.remote = ReleaseFixture()
 
+    def git(self, *arguments):
+        return subprocess.run(['git', *arguments], cwd=self.root, check=True,
+                              capture_output=True, text=True).stdout.strip()
+
     def ready_book(self, language, collection):
         folder = self.out / (language + '-' + collection)
         folder.mkdir(exist_ok=True)
@@ -231,7 +247,7 @@ class MultipleCollectionPublication(unittest.TestCase):
                 'pdfDownload': release_url(REPO, 'fixture-original', Path(name).with_suffix('.pdf').name)}
 
     def publish(self, ready, tag):
-        links, errors = publish_bundles(self.root, self.out, ready, 'c' * 40, REPO, tag, self.remote)
+        links, errors = publish_bundles(self.root, self.out, ready, self.commit, REPO, tag, self.remote)
         self.assertEqual(errors, [])
         return links, write_catalog(self.root, self.out, ready, links)
 
@@ -329,6 +345,30 @@ class MultipleCollectionPublication(unittest.TestCase):
                 self.assertIn(f'Iman_Companion_ar_{collection}.{extension}', arabic_row)
         self.assertIn('Keep this introduction.', table)
         self.assert_merged_contents(COLLECTIONS)
+
+    def test_concurrent_remote_source_change_keeps_real_bundle_draft_private(self):
+        ready = {('ar', collection): self.ready_book('ar', collection) for collection in COLLECTIONS}
+        advanced = False
+
+        def upload_then_advance(arguments, root):
+            nonlocal advanced
+            result = self.remote(arguments, root)
+            if list(arguments[:3]) == ['gh', 'release', 'upload'] and not advanced:
+                successor = self.git('commit-tree', self.commit + '^{tree}', '-p', self.commit,
+                                     '-m', 'Concurrent source writer')
+                self.git('push', 'origin', successor + ':refs/heads/main')
+                advanced = True
+            return result
+
+        links, errors = publish_bundles(self.root, self.out, ready, self.commit,
+                                       REPO, 'fixture-concurrent', upload_then_advance)
+        self.assertTrue(advanced)
+        self.assertEqual(self.git('rev-parse', 'HEAD'), self.commit)
+        self.assertFalse(links)
+        self.assertIn('Newer main exists', errors[0]['error'])
+        self.assertTrue(self.remote.releases['fixture-concurrent-bundles']['draft'])
+        self.assertFalse(any(command[:3] == ['gh', 'release', 'edit']
+                             for command in self.remote.commands))
 
     def test_prepared_and_preview_candidates_never_enter_catalogue_table_or_bundle(self):
         books = [self.ready_book('ar', collection) for collection in COLLECTIONS]
