@@ -14,6 +14,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 import zipfile
 
 from lxml import etree
@@ -27,6 +28,7 @@ from reader_xml import body_text
 from renderer_pin import verify_packages
 from toc_sync import linked_pages, reconcile
 from word_layout_check import contents
+from historical_book_fixture import copy_projection_fixture
 
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 SCOPES = [('en', 'hadith'), ('ar', 'seerah'), ('th', 'hadith'), ('ur', 'hadith'), ('bn', 'tadabbur-extended'), ('uz', 'hadith'), ('fr', 'tadabbur-extended'), ('en', 'tadabbur-extended')]
@@ -113,12 +115,24 @@ def main():
     parser.add_argument('--root', type=Path, default=ROOT)
     parser.add_argument('--out', type=Path, required=True)
     args = parser.parse_args()
-    root, out = args.root.resolve(), args.out.resolve()
+    repository, out = args.root.resolve(), args.out.resolve()
+    commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=repository, text=True).strip()
+    # Exercise current renderer code against exact historical source fixtures.
+    # Pending live edits are independently rejected by production coverage and
+    # preparation. No test restores older text into the real checkout.
+    temporary = tempfile.TemporaryDirectory(prefix='iman-renderer-fixture-')
+    root = Path(temporary.name)
+    for directory in ('books','materials','docs/listen'):
+        shutil.copytree(repository/directory,root/directory,dirs_exist_ok=True)
+    import current_reviewed_quran as fixture_source
+    inventory=fixture_source.read(repository,fixture_source.PROJECTION)
+    copy_projection_fixture(repository,root,inventory)
     out.mkdir(parents=True, exist_ok=False)
     report = {'diagnosticOnly': True, 'publicationAcceptance': False,
               'renderer': verify_packages(), 'scopes': {}, 'passed': False}
-    commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=root, text=True).strip()
     report['sourceCommit'] = commit
+    report['fixtureSourceCommit'] = inventory['sourceCommit']
+    report['currentSourceAcceptance'] = False
     manifest = root / 'books/manifest.json'
     original_manifest = manifest.read_bytes() if manifest.exists() else None
 
@@ -250,6 +264,7 @@ def main():
             manifest.unlink(missing_ok=True)
         else:
             manifest.write_bytes(original_manifest)
+        temporary.cleanup()
 
 
 if __name__ == '__main__':

@@ -19,6 +19,7 @@ import adapt_ar_hadith
 import adapt_ar_seerah
 from publish_approved_material import apply, bytes_json
 from published_library import sha
+from historical_book_fixture import pinned_fixture
 
 ADAPTERS = {'articles': adapt_ar_articles, 'seerah': adapt_ar_seerah, 'hadith': adapt_ar_hadith}
 SOURCE_COLLECTIONS = {'articles': 'articles', 'seerah': 'seerah', 'hadith': 'essential-hadith'}
@@ -58,6 +59,18 @@ class MixedMaterialAdapterChecks(unittest.TestCase):
                 target = root / relative
                 target.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copyfile(ROOT / relative, target)
+            if collection == 'articles':
+                # Keep the old citation projection and its pinned inputs as a
+                # historical code fixture; never refresh production review pins.
+                projection=json.loads((root/declaration['projection']).read_bytes())
+                index=json.loads((root/declaration['materialIndex']).read_bytes())
+                for article in projection['articles']:
+                    row=next(r for r in rows if r['id']==article['id'])
+                    item=next(r for r in index['articles'] if r['id']==article['id'])
+                    row.update(title=article['title'],sourceHashes=[article['sourceSHA256']],readingSHA256=article['readingSHA256'])
+                    item.update(title=article['title'],preparedSourceSHA256=article['sourceSHA256'],readingSHA256=article['readingSHA256'])
+                    (root/row['markdown']).write_bytes(pinned_fixture(ROOT,row['markdown'],article['materialSHA256']))
+                write(root,declaration['materialIndex'],index)
             # The fixtures explicitly pin shared bytes even if an older checkout
             # has not yet received the production declaration hash.
             if collection != 'hadith':

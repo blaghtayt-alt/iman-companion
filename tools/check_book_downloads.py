@@ -37,7 +37,7 @@ from check_app_book_coverage import member_ids
 from temporary_test_labels import decorate_catalog_row
 
 SCHEMA = 'iman-book-download-health-v1'
-STATIC_FILES = ('index.html', 'books.mjs', 'books.css', 'copy.mjs')
+STATIC_FILES = ('index.html', 'books.mjs', 'books.css', 'copy.mjs', 'update-status.json')
 TIMEOUT = 25
 
 

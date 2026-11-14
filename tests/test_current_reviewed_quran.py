@@ -22,6 +22,7 @@ from book_edition_scope import POLICY, select
 from build_books import check_unit
 from reviewed_coverage import validate as validate_coverage
 from source_literal_text import check_bound_text, check_text, normalize_lines
+from historical_book_fixture import copy_projection_fixture
 
 
 def output_blocks(unit):
@@ -47,10 +48,7 @@ class CurrentReviewedQuran(unittest.TestCase):
                  cls.config['quranText']['path'], cls.config['surahNames']['path']}
         for record in cls.records.values():
             paths.update(item['path'] for item in record['sourceFiles'] + record['sourceConditions'])
-        for path in paths:
-            destination = cls.root / path
-            destination.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(ROOT / path, destination)
+        copy_projection_fixture(ROOT, cls.root, cls.inventory, paths)
         cls.catalog = current.read(cls.root, 'materials/catalog.json')
         cls.evidence = current.binding(cls.root, current.PROJECTION)
         cls.quran = current.read(cls.root, cls.config['quranText']['path'])

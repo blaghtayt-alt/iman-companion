@@ -58,7 +58,7 @@ def main():
             normalized=generate(root,catalog,declaration,excluded_catalog_keys=publisher_coverage & expected_scope)
         elif declaration.get('adapter')=='reviewed-ikhlas-v1':
             from adapt_ikhlas import generate
-            normalized=generate(root,catalog,declaration)
+            normalized=generate(root,catalog,declaration,excluded_catalog_keys=publisher_coverage & expected_scope)
         elif declaration.get('adapter')=='reviewed-structured-quran-v1':
             from adapt_reviewed_quran import generate
             normalized=generate(root,catalog,declaration)

@@ -261,8 +261,11 @@ class AppBookCoverageTests(unittest.TestCase):
         for language in ('en', 'ja'):
             with self.subTest(language=language):
                 key = (language, 'tadabbur-extended')
-                rows, _ = catalog_members(ROOT, key, for_release=False)
-                rows = [row for row in rows if row['id'] == '112:extended']
+                # This contract concerns the real Ikhlas adapter, not the
+                # release readiness of unrelated surahs in the same language.
+                rows = [row for row in catalog['entries'] if row.get('id') == '112:extended'
+                        and row.get('language') == language and row.get('collection') == 'tadabbur']
+                self.assertEqual(len(rows), 1)
                 # Exercise the real reader contract without depending on a pending
                 # queue entry: successful release normally removes that entry.
                 unit = generate(ROOT, catalog, guard.declaration(ROOT, key, for_release=False))[0]

@@ -16,7 +16,7 @@ import sys
 sys.dont_write_bytecode = True
 CODE_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(CODE_ROOT / 'books'))
-from book_edition_scope import MAP, available
+from book_edition_scope import MAP, available, typed_basis
 from preparation_queue import load as load_queue, signature
 from published_library import (SCHEMA as LIBRARY_SCHEMA, asset_names, catalog_fingerprint, catalog_members,
                                current, declaration, limited_continuity, scope_settings)
@@ -279,15 +279,26 @@ def audit(root, baseline, app_root=None):
         for field in ('json', 'markdown'):
             if row and row.get(field) and row[field] not in bound_paths:
                 binding_errors.append({'path': row[field], 'reason': 'Current catalogue source path is absent from audited bindings'})
-        if binding_errors:
+        successor = None
+        if binding_errors and row is not None and available(row):
+            try:
+                # Preserve the historical app audit. Only an exact, independently
+                # validated publisher handoff may succeed that audited version.
+                successor = typed_basis(root, row)
+            except (OSError, ValueError, KeyError, TypeError) as error:
+                binding_errors.append({'reason': 'Invalid approved successor: ' + str(error)})
+        if binding_errors and successor is None:
             errors.append({'code': 'baseline-source-drift', **label(key), 'bindings': binding_errors})
+        elif successor:
+            warnings.append({'code': 'approved-successor-to-historical-audit', **label(key),
+                             'historicalDifferences': binding_errors, 'successor': successor})
         if row is None:
             state = 'missing-from-catalog'
         elif not available(row):
             state = 'held-or-retired'
         elif key[2] not in info['selected']:
             state = 'not-selected'
-        elif binding_errors:
+        elif binding_errors and successor is None:
             state = 'source-drift'
         elif key[2] in info['published']:
             state = 'published-record-current'
@@ -298,6 +309,7 @@ def audit(root, baseline, app_root=None):
         if state in {'missing-from-catalog', 'held-or-retired', 'not-selected'}:
             errors.append({'code': 'baseline-unit-not-selected', **label(key), 'state': state})
         statuses.append({**label(key), 'state': state, 'evidenceLevel': unit['evidenceLevel'],
+                         'approvedSuccessor': successor,
                          'recordedPublished': key[2] in info['recordedPublished'],
                          'recordedPrepared': key[2] in info['recordedPrepared']})
 

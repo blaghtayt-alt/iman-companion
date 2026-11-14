@@ -224,10 +224,25 @@ def publish(root,out,commit,repo,tag,execute=run):
         # A unique run tag is immutable; never overwrite an earlier book pair.
         execute(['gh','release','create',tag,'--repo',repo,'--target',commit,'--draft','--latest=false','--title','Current multilingual books','--notes','Automatically built from current published materials. Each language page lists the included material count.'],root)
         for asset in assets:execute(['gh','release','upload',tag,asset,'--repo',repo],root)
+        # Verify the uploaded draft before making any new pair public. A local
+        # export check cannot prove that the remote upload has the same bytes.
+        draft=None
+        for page in range(1,101):
+            releases=json.loads(execute(['gh','api',f'repos/{repo}/releases?per_page=100&page={page}'],root))
+            matches=[r for r in releases if r.get('tag_name')==tag and r.get('draft')is True]
+            if len(matches)>1:raise ValueError('Duplicate draft publication tag')
+            if matches:draft=matches[0];break
+            if len(releases)<100:break
+        if draft is None:raise ValueError('Uploaded draft release is missing')
+        for asset in assets:
+            path=Path(asset);remote=[a for a in draft.get('assets',[]) if a.get('name')==path.name]
+            if len(remote)!=1 or remote[0].get('state')!='uploaded' or remote[0].get('size')!=path.stat().st_size or remote[0].get('digest')!='sha256:'+sha(path.read_bytes()):
+                raise ValueError('Uploaded draft asset differs from the checked bytes: '+path.name)
+        ensure_main(root,commit)  # Recheck after potentially long asset uploads.
         execute(['gh','release','edit',tag,'--repo',repo,'--draft=false','--latest=false'],root)
     def fetch(release_tag):return json.loads(execute(['gh','api',f'repos/{repo}/releases/tags/{release_tag}'],root))
     existing=read(root/'books/published-library.json')if(root/'books/published-library.json').exists()else{'schema':SCHEMA,'entries':[]}
-    library,ready,stale=merge(root,existing,entries,repo,fetch)
+    library,ready,stale=merge(root,existing,entries,repo,fetch,retain_previous=True)
     from preparation_queue import complete,summaries
     complete(root,[scope_key(entry['book']) for entry in entries])
     ensure_main(root,commit)
@@ -248,6 +263,8 @@ def publish(root,out,commit,repo,tag,execute=run):
         execute(['git','push','origin','HEAD:refs/heads/main'],root)
     build_report=read(out/'build-report.json')
     result={'verifiedBookPairs':count,'newPairs':len(entries),'preparedAwaitingReleaseQC':summaries(root),'staleScopesRemoved':stale,'nativeLanguagePages':20,'tablesCommitted':bool(changed),'failedScopes':build_report['failed'],'approvedAudioIntakeErrors':build_report.get('approvedAudioIntakeErrors',[])}
+    result['previousEditionsAwaitingUpdate']=[{'language':key[0],'collection':key[1]} for key,book in ready.items() if book.get('availability',{}).get('state')=='previous-published-edition']
+    result['verifiedCurrentBookPairs']=sum(not book.get('availability') for book in ready.values())
     result['downloadPage']=downloads
     result['finalizedIntakeErrors']=build_report.get('finalizedIntakeErrors',[])
     intake=root/'books/.cache/material-intake-report.json'

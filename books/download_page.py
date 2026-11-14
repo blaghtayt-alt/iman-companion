@@ -148,6 +148,8 @@ def publish_bundles(root,out,ready,commit,repo,tag,execute):
             for file in assets:
                 actual=remote.get(file.name,{})
                 if actual.get('state')!='uploaded'or actual.get('size')!=file.stat().st_size or actual.get('digest')!='sha256:'+sha(file.read_bytes()):raise ValueError('Uploaded bundle differs from its checked bytes')
+            from automatic_publication import ensure_main
+            ensure_main(root,commit)  # A source update during upload keeps this draft private.
             execute(['gh','release','edit',bundle_tag,'--repo',repo,'--draft=false','--latest=false'],root)
             release_cache.pop(bundle_tag,None)
             for language,entry in pending.items():verified_bundle(entry,inventory(ready,language),repo,fetch);selected[language]=entry

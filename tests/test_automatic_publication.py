@@ -26,7 +26,7 @@ class CommandRunnerChecks(unittest.TestCase):
         if stat.is_file():
             try:
                 if stat.read_text().rsplit(')',1)[1].split()[0]=='Z':return False
-            except FileNotFoundError:return False
+            except (FileNotFoundError,ProcessLookupError):return False
         try:os.kill(pid,0)
         except ProcessLookupError:return False
         return True
@@ -130,6 +130,7 @@ class PublicationChecks(unittest.TestCase):
         return entry,{'language':language,'collection':collection,'folder':folder.name}
     def execute(self,args,root):
         args=[str(x)for x in args];self.commands.append(args)
+        if args[:2]==['gh','api'] and '/releases?' in args[2]:return json.dumps([{**r,'draft':True} for r in self.remote.values()])
         if args[:2]==['gh','api']:return json.dumps(self.remote[args[2].split('/')[-1]])
         if args[:4]==['git','diff','--cached','--name-only']:
             return 'README.md\nbooks/published-library.json\n'if any(c[:2]==['git','add']for c in self.commands)else''
@@ -162,11 +163,36 @@ class PublicationChecks(unittest.TestCase):
         _,row=self.entry('en',self.tag);self.report([row]);self.remote[self.tag]['assets'][0]['digest']='sha256:'+'0'*64
         with self.assertRaisesRegex(ValueError,'differs'):self.publish()
         self.assertFalse(any(c[:2]==['git','push']for c in self.commands));self.assertNotIn('releases/download',(self.root/'README.md').read_text())
+        self.assertFalse(any(c[:3]==['gh','release','edit'] for c in self.commands))
+    def test_main_advance_during_upload_keeps_new_pair_in_draft(self):
+        _,row=self.entry('en',self.tag);self.report([row])
+        with patch.object(auto,'ensure_main',side_effect=[None,ValueError('Newer main exists')]):
+            with self.assertRaisesRegex(ValueError,'Newer main'):
+                auto.publish(self.root,self.out,self.commit,self.repo,self.tag,execute=self.execute)
+        self.assertTrue(any(c[:3]==['gh','release','upload'] for c in self.commands))
+        self.assertFalse(any(c[:3]==['gh','release','edit'] for c in self.commands))
+        self.assertFalse(any(c[:2]==['git','push'] for c in self.commands))
     def test_withdrawal_removes_stale_link_without_replacement_build(self):
         old,_=self.entry('ar','books-fixture-1');self.write('books/published-library.json',{'schema':SCHEMA,'entries':[old]});catalog=auto.read(self.root/'materials/catalog.json');catalog['entries'][0]['status']='withdrawn';self.write('materials/catalog.json',catalog);self.report([]);result=self.publish()
         self.assertEqual(result['verifiedBookPairs'],0);self.assertEqual(result['staleScopesRemoved'],[('ar','articles')]);self.assertFalse(any(c[:3]==['gh','release','create']for c in self.commands))
+    def test_failed_source_update_retains_only_explicitly_old_public_bytes(self):
+        old,_=self.entry('ar','books-fixture-1');self.write('books/published-library.json',{'schema':SCHEMA,'entries':[old]})
+        old['book']['units'][0]['title']='مقالة اختبارية';self.write('books/published-library.json',{'schema':SCHEMA,'entries':[old]})
+        (self.root/'materials/ar-article.txt').write_text('Changed source without a valid new book')
+        self.report([],[{'language':'ar','collection':'articles','error':'Source review pending'}])
+        result=self.publish();entry=auto.read(self.root/'books/published-library.json')['entries'][0]
+        self.assertEqual(entry['availability']['state'],'previous-published-edition')
+        self.assertFalse(entry['availability']['currentSourceVerified'])
+        self.assertEqual(entry['book']['sha256'],old['book']['sha256'])
+        self.assertEqual(result['verifiedCurrentBookPairs'],0)
+        self.assertFalse(any(c[:3]==['gh','release','create'] for c in self.commands))
     def test_one_failed_scope_does_not_prevent_working_pair_publication(self):
         _,row=self.entry('en',self.tag);self.report([row],[{'language':'ar','collection':'seerah','error':'source incomplete'}]);result=self.publish();self.assertEqual(result['newPairs'],1);self.assertEqual(len(result['failedScopes']),1)
+    def test_scope_release_hold_cannot_retain_an_old_download(self):
+        old,_=self.entry('ar','books-fixture-1');self.write('books/published-library.json',{'schema':SCHEMA,'entries':[old]})
+        declarations=auto.read(self.root/'books/reviewed-books.json');declarations['books'][0]['automaticRelease']=False
+        self.write('books/reviewed-books.json',declarations);self.report([])
+        result=self.publish();self.assertEqual(result['verifiedBookPairs'],0)
     def test_rejected_candidate_transfer_keeps_existing_verified_downloads_and_reports_failure(self):
         old,_=self.entry('ar','books-fixture-1');self.write('books/published-library.json',{'schema':SCHEMA,'entries':[old]});self.report([])
         report=auto.read(self.out/'build-report.json');report['finalizedIntakeErrors']=[{'error':'Fixture archive hash mismatch'}]

@@ -85,6 +85,16 @@ class MaterialInventoryCounts(unittest.TestCase):
                                          ('essential-hadith', language, expected))
                         from book_edition_scope import typed_basis
                         self.assertIsNotNone(typed_basis(ROOT, rows[0]))
+                    if actual_id is None:
+                        # A new path-only source remains a visible pending
+                        # intake item. This is not a normalized-reader approval.
+                        from book_content_coverage import discover_readers
+                        discovery=discover_readers(ROOT,[language],catalog)
+                        candidates=[r for r in discovery['readers'] if r.get('json')==path.relative_to(ROOT).as_posix()]
+                        self.assertEqual(len(candidates),1)
+                        self.assertEqual(candidates[0]['id'],expected)
+                        self.assertFalse(any(r.get('json')==path.relative_to(ROOT).as_posix() for r in catalog['entries']))
+                        actual_id=candidates[0]['id']
                     self.assertEqual(actual_id, expected)
                     reader = value.get('reader', {})
                     reader_language = reader.get('locale', language) if isinstance(reader, dict) else language

@@ -40,6 +40,18 @@ class ArticleReferenceFidelity(unittest.TestCase):
         self.declaration={'language':'ar','collection':'articles','adapter':'arabic-articles-v1',
                           'projection':'books/source-projections/ar-articles.json',
                           'materialIndex':'materials/articles/prepared-ar/index.json'}
+        # This is a historical citation-fidelity fixture, not a live-source
+        # approval. Reconstruct its exact projection in the temporary root;
+        # a later source edit must fail production intake, not mask the
+        # independent marker/qualification corruption exercised below.
+        for article in self.projection['articles']:
+            row=next(r for r in self.catalog['entries'] if r['id']==article['id'])
+            item=next(r for r in index['articles'] if r['id']==article['id'])
+            row.update(title=article['title'],sourceHashes=[article['sourceSHA256']],readingSHA256=article['readingSHA256'])
+            item.update(title=article['title'],preparedSourceSHA256=article['sourceSHA256'],readingSHA256=article['readingSHA256'])
+            self.refresh(article)
+        dump(self.root/'materials/catalog.json',self.catalog)
+        dump(self.root/'materials/articles/prepared-ar/index.json',index)
         self.refresh()
 
     def tearDown(self):self.temp.cleanup()
