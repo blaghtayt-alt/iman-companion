@@ -1,0 +1,586 @@
+{
+  "schema": "iman-source-propagation-test-fixture-v1",
+  "commit": "11995f8bf92be184657ea031948bb369697753c5",
+  "purpose": "Immutable audited source and finite approved correction for regressions; never current approval",
+  "sourceApprovalCreated": false,
+  "releaseApprovalCreated": false,
+  "files": [
+    {
+      "path": "materials/articles/current/fa/001.json",
+      "sha256": "4b985af3a96c29ccccf6a0f289ad612bdd7283888cb646f2d5b7053c71e85872"
+    },
+    {
+      "path": "materials/articles/current/pt-BR/001.json",
+      "sha256": "6f944b41b13076bbabee317376c597b0e1ed2af2979dd95a417eb59131f26ab6"
+    },
+    {
+      "path": "materials/articles/current/ur/001.json",
+      "sha256": "ef8abfb5028c0742446bd3f86792341c2616b0fcf5f2900a1271f33462df9a62"
+    },
+    {
+      "path": "materials/catalog.json",
+      "sha256": "6c7e1dfc0632c95447cdf2dbf7e9dafde34f0c44681fce21d7432e5bf62d450a"
+    },
+    {
+      "path": "materials/hadith/essential-en/006.json",
+      "sha256": "b09e0b20c083fc932621604cfec49c79684901b28569dea10d4965c329459ae7"
+    },
+    {
+      "path": "materials/hadith/essential-fr/005.txt",
+      "sha256": "46a9a7fa35e5dfb959e36f5aab72bb2d895fb917760cf455372ccb5ea59966e5"
+    },
+    {
+      "path": "materials/hadith/essential-th/005.txt",
+      "sha256": "e8ab8b5c855bae398faa5cfc7eb5935226b6c170dc16b7923d463fbdf493c175"
+    },
+    {
+      "path": "materials/hadith/essential-zh-CN/005.txt",
+      "sha256": "ef72f7238b976c74c7a73b8f17ab220817303d293694f9a5fd297a502d17d55d"
+    },
+    {
+      "path": "materials/seerah/new-adult/fr/01.json",
+      "sha256": "133ee82e3584ba9eacc0cf7ee88e102b6da1c4cb4a70fce2bf82d2a595200a81"
+    },
+    {
+      "path": "materials/seerah/new-adult/tr/01.json",
+      "sha256": "08437e0a6208a4bfdaf98698ef134a9fe5d40e0de92531fb974b9c308bcc0330"
+    },
+    {
+      "path": "materials/seerah/new-adult/ur/01.json",
+      "sha256": "9ac88add7771715e162ee05108dd0dfc0574cc9e7c50326b3520907e0ac365f4"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.json",
+      "sha256": "52846df0a184648b4a5b648f3871a430ceea42addedd5a15ce810aa1f14f3ab9"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/036.json",
+      "sha256": "0658c1fe44610432ff8c4a4cd4aeef032ef74ec0a53d4c231b31db45c3bbf9da"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/036.md",
+      "sha256": "9335a049ee5a03907a2d5a864f947022de8ec2eb212281eb4d63878a5ae11d1b"
+    },
+    {
+      "path": "materials/tadabbur/bn/extended/001.json",
+      "sha256": "9d3f9d2317f9dfc77078aef1481a7e94916326381a2ea37ed9a60421ae70ec64"
+    },
+    {
+      "path": "materials/tadabbur/bn/extended/035.json",
+      "sha256": "f0431d73c74d3fb2428ab4834fc54ffd49f6fcbb8ba0c2b214de609df34f1515"
+    },
+    {
+      "path": "materials/tadabbur/de/extended/034.json",
+      "sha256": "aad790a39b3d0799401aca00039eafd2e2669f76f5620f71820b6ae1e213c6f2"
+    },
+    {
+      "path": "materials/tadabbur/en/018-assets/COMPLETE-PAIRED-ENGLISH-COPY.txt",
+      "sha256": "30dab2b919b76d80960b996564b7dc43ad5a26ee809d70a19921cf4a3663c898"
+    },
+    {
+      "path": "materials/tadabbur/en/018-assets/COMPLETE-PAIRED-ENGLISH-READER.html",
+      "sha256": "668f005485cccdb8eaed5e0ba565ea524c5c4ef6d51954b5300f7cfdbbbbc154"
+    },
+    {
+      "path": "materials/tadabbur/en/018-assets/COMPLETE-PAIRED-ENGLISH-READER.txt",
+      "sha256": "30dab2b919b76d80960b996564b7dc43ad5a26ee809d70a19921cf4a3663c898"
+    },
+    {
+      "path": "materials/tadabbur/en/018-assets/ENGLISH-KAHF-READER-NOTES.html",
+      "sha256": "3908291d5782c4639e6ca4a24ec6b34cec18a8025887a0f36b38ba03f5bf0214"
+    },
+    {
+      "path": "materials/tadabbur/en/extended/001.json",
+      "sha256": "d6b382397442ba702e0b7d4873b6ee609f0ec42ea5d1e0fe50a8bba14f291283"
+    },
+    {
+      "path": "materials/tadabbur/en/extended/034.json",
+      "sha256": "21dfc10bf55046ecffbc8b180f6ca057bdbc107ced9d523561f31a1edfea2591"
+    },
+    {
+      "path": "materials/tadabbur/en/extended/035.json",
+      "sha256": "57cf2cb7b916483e043131bbe4d1cbbada69c794aab52cb5965b93b03cda538e"
+    },
+    {
+      "path": "materials/tadabbur/fa/extended/034.json",
+      "sha256": "0ea6f289471d6f6c782f7092378ac98dacc59f83b4b93c8757449a3699844598"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/de/reading.json",
+      "sha256": "0bca0aa9312b860325ae3c1c9cf62f67f540f1ea7d3cc166c37d0c557afd208c"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/es/reading.json",
+      "sha256": "35447238c28d89658e16845c22e7810775ed15cca716f684b7582c1ec95d085b"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/fa/reading.json",
+      "sha256": "b94a19ef0a1069ab19d4b3d2836ac49a8739fbc02d0273dfd0062b720c94aeec"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/fil/reading.json",
+      "sha256": "cd344f972caf55370c84bf95fc5f8f7fba1e531e5675cee31af27b4740a579e9"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/hi/reading.json",
+      "sha256": "5cf4a5c357f81d8546f81b5df6215e37ccf3c512e35fb5ca289bce516382de8a"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/ja/reading.json",
+      "sha256": "980eab395e6c53b044aea383fb0bb4da382ced420247bf587d5c1e192a941548"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/ru/reading.json",
+      "sha256": "82ea1f33588d50cce4f71901dbe967663a0bc2eeff6c384642fd4ab4c3476b36"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/th/reading.json",
+      "sha256": "f6babedcf7d31cd06feaefb3c67185245359d047172bc69749e1a78cf9c06da9"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/uz/reading.json",
+      "sha256": "8257b570ab1bc32d2a414c1610268c652677f1aba3422a8ab0cff4d70be1c6b7"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/vi/reading.json",
+      "sha256": "eca8d2a5d3ef0cb7ceb59e03eaaab238b6e6d47e82edc4e40ec6e342baf5e08a"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/zh-CN/reading.json",
+      "sha256": "83c3b613e897598c27d246deeab5789fd8bdaa87f0ee912220f78afcb2d90984"
+    },
+    {
+      "path": "materials/tadabbur/fil/extended/034.json",
+      "sha256": "2f1c804b269904cd82cc0965e7d263c413b91c42d8c56776169bc8c330863450"
+    },
+    {
+      "path": "materials/tadabbur/fr/extended/001.json",
+      "sha256": "b6f0ce7f65275c3e3cf4a106a5cca2d8b8ef3a513aaae253b92572a3f6c455af"
+    },
+    {
+      "path": "materials/tadabbur/fr/extended/034.json",
+      "sha256": "d086c55232e1c99cc07d1a54f927088804c401a7247ea79e78ddc0796b3bf308"
+    },
+    {
+      "path": "materials/tadabbur/fr/extended/035.json",
+      "sha256": "0edf209460f1eaeb6c7793fc70ee17392fba4c71918e03f3b578ab9a55d4cc7d"
+    },
+    {
+      "path": "materials/tadabbur/hi/extended/035.json",
+      "sha256": "04ef6ef0e51dbbaba646e422abc56b86b4ddc7cc3a27b704dc168f16107f3db0"
+    },
+    {
+      "path": "materials/tadabbur/id/extended/001.json",
+      "sha256": "2c538152eca1d980b691b64e4b20cddd9cf623581ba616ad79ade3d2d80175d4"
+    },
+    {
+      "path": "materials/tadabbur/id/extended/034.json",
+      "sha256": "7e3de11fd020f144de2d0fe88ed84869eda34dc6cce64fe2bc2b78a761c5d360"
+    },
+    {
+      "path": "materials/tadabbur/ja/extended/034.json",
+      "sha256": "b8470f15fd6212c6357a669e9d9312dff66e93a358fdb6828389c8258e97c20e"
+    },
+    {
+      "path": "materials/tadabbur/ms/extended/001.json",
+      "sha256": "ba5d8fbb4edb79baea9f7e8ce6c046da0aa251251d51369876f5de2dca150780"
+    },
+    {
+      "path": "materials/tadabbur/ms/extended/034.json",
+      "sha256": "a05ccd6b5d1b9be941285c31b8cca65ddceda0d5f5fe4219343460e621c0cbb0"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/001.json",
+      "sha256": "0f8a9cd00cc6cb71cf17dbd90a99aa3c17042a7bbd6c746fdaec55ef474bf144"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/034.json",
+      "sha256": "9f2750b59b46d558dfe55fc24654f200b10a25baf461fc75256e59c5a0e95ad2"
+    },
+    {
+      "path": "materials/tadabbur/ru/extended/034.json",
+      "sha256": "c06b0f5916c9ef3ff38b88cb48d3bf21029fffbae344d722df2a6afdbc181060"
+    },
+    {
+      "path": "materials/tadabbur/th/018-assets/TH-KAHF-PAIRED.json",
+      "sha256": "9bf05198c8043a0af74e345f7c91822cb115f901b05daa4e81c4c864ce436371"
+    },
+    {
+      "path": "materials/tadabbur/th/018-assets/TH-KAHF-READER.txt",
+      "sha256": "7dff2c0bf61f5d3a8cddbf50a3e149603485c9e30ad55b5c0b07b79ee7a7c2d7"
+    },
+    {
+      "path": "materials/tadabbur/tr/018-assets/KAHF018-TR-READER.json",
+      "sha256": "e41bd30253ff49522033d330174bc235226024d03d03576c034e5ae97be8ac1e"
+    },
+    {
+      "path": "materials/tadabbur/tr/018-assets/tr-extended-reader.txt",
+      "sha256": "4077c4983c7967526d45f031003db520ca50c7bd2c81c130ce34d19eaa7ff054"
+    },
+    {
+      "path": "materials/tadabbur/tr/018-assets/tr-simplified-reader.txt",
+      "sha256": "66eb2dd593d9396e405668fd923d390312f37f6e9b57a59c71b5f186189d1ef6"
+    },
+    {
+      "path": "materials/tadabbur/tr/extended/001.json",
+      "sha256": "5642ee75d81ded23f7f65d1ce2674054dbef2400ffdaa2d9c3a259b5ca4d1aa7"
+    },
+    {
+      "path": "materials/tadabbur/tr/extended/034.json",
+      "sha256": "a7956b29551cc2c521ce1e544fb99e1a1bf383e3b1a369b07980392a91874240"
+    },
+    {
+      "path": "materials/tadabbur/ur/extended/001.json",
+      "sha256": "7227ca43c28deacd1dcf953259b3010ca494f0d1b1cf7440a1d8661ca5fa6eb3"
+    },
+    {
+      "path": "materials/tadabbur/ur/extended/035.json",
+      "sha256": "ac249a2a4af285b5ee3a33b29880a7b6339a8daffaa9fbefd955732317e26ba2"
+    },
+    {
+      "path": "materials/tadabbur/uz/extended/034.json",
+      "sha256": "921a88931a729992d3b0c0a46cc69540fbe03faec07bcd85b9de214e96511f5e"
+    },
+    {
+      "path": "materials/tadabbur/vi/extended/034.json",
+      "sha256": "33497ad230d35579bea88b954c609d799d88a25f78ece0ee816742b2b6561b74"
+    },
+    {
+      "path": "materials/tadabbur/zh-CN/extended/034.json",
+      "sha256": "0b620ac7e5c4c6e66382c2ac33977e1953ac0719d99dac0eff723438fbbfd531"
+    }
+  ],
+  "omittedReaders": [
+    {
+      "collection": "tadabbur",
+      "language": "bn",
+      "id": "35:extended",
+      "surah": 35,
+      "mode": "extended",
+      "json": "materials/tadabbur/bn/extended/035.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "de",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/de/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "en",
+      "id": "essential-01-006",
+      "chapter": 1,
+      "lesson": 6,
+      "json": "materials/hadith/essential-en/006.json",
+      "discovery": "canonical-numbered-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "en",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/en/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "en",
+      "id": "35:extended",
+      "surah": 35,
+      "mode": "extended",
+      "json": "materials/tadabbur/en/extended/035.json",
+      "identityVerification": "path-only-needs-review",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "en",
+      "id": "18:extended",
+      "surah": 18,
+      "mode": "extended",
+      "readerFiles": [
+        "materials/tadabbur/en/018-assets/COMPLETE-PAIRED-ENGLISH-COPY.txt",
+        "materials/tadabbur/en/018-assets/COMPLETE-PAIRED-ENGLISH-READER.html",
+        "materials/tadabbur/en/018-assets/COMPLETE-PAIRED-ENGLISH-READER.txt",
+        "materials/tadabbur/en/018-assets/ENGLISH-KAHF-READER-NOTES.html"
+      ],
+      "identityVerification": "path-only-needs-review",
+      "discovery": "reader-package-requires-approved-handoff"
+    },
+    {
+      "collection": "articles",
+      "language": "fa",
+      "id": "prepared-ar-79fa38429519de69",
+      "json": "materials/articles/current/fa/001.json",
+      "number": 1,
+      "discovery": "current-edition-reader-requires-approved-handoff"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "fa",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/fa/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "fil",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/fil/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "fr",
+      "id": "essential-01-005",
+      "chapter": 1,
+      "lesson": 5,
+      "readerFiles": [
+        "materials/hadith/essential-fr/005.txt"
+      ],
+      "identityVerification": "path-only-needs-review",
+      "discovery": "numbered-text-reader-requires-approved-handoff"
+    },
+    {
+      "collection": "seerah",
+      "language": "fr",
+      "id": "new-seerah001",
+      "json": "materials/seerah/new-adult/fr/01.json",
+      "number": 1,
+      "discovery": "current-edition-reader-requires-approved-handoff",
+      "edition": "new-adult",
+      "chapter": 1
+    },
+    {
+      "collection": "tadabbur",
+      "language": "fr",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/fr/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "fr",
+      "id": "35:extended",
+      "surah": 35,
+      "mode": "extended",
+      "json": "materials/tadabbur/fr/extended/035.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "hi",
+      "id": "35:extended",
+      "surah": 35,
+      "mode": "extended",
+      "json": "materials/tadabbur/hi/extended/035.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "id",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/id/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "ja",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/ja/extended/034.json",
+      "identityVerification": "path-only-needs-review",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "ms",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/ms/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "articles",
+      "language": "pt-BR",
+      "id": "prepared-ar-79fa38429519de69",
+      "json": "materials/articles/current/pt-BR/001.json",
+      "number": 1,
+      "discovery": "current-edition-reader-requires-approved-handoff"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "pt-BR",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/pt-BR/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "ru",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/ru/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "th",
+      "id": "essential-01-005",
+      "chapter": 1,
+      "lesson": 5,
+      "readerFiles": [
+        "materials/hadith/essential-th/005.txt"
+      ],
+      "identityVerification": "path-only-needs-review",
+      "discovery": "numbered-text-reader-requires-approved-handoff"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "th",
+      "id": "18:extended",
+      "surah": 18,
+      "mode": "extended",
+      "readerFiles": [
+        "materials/tadabbur/th/018-assets/TH-KAHF-PAIRED.json",
+        "materials/tadabbur/th/018-assets/TH-KAHF-READER.txt"
+      ],
+      "identityVerification": "path-only-needs-review",
+      "discovery": "reader-package-requires-approved-handoff"
+    },
+    {
+      "collection": "seerah",
+      "language": "tr",
+      "id": "new-seerah001",
+      "json": "materials/seerah/new-adult/tr/01.json",
+      "number": 1,
+      "discovery": "current-edition-reader-requires-approved-handoff",
+      "edition": "new-adult",
+      "chapter": 1
+    },
+    {
+      "collection": "tadabbur",
+      "language": "tr",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/tr/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "tr",
+      "id": "18:extended",
+      "surah": 18,
+      "mode": "extended",
+      "readerFiles": [
+        "materials/tadabbur/tr/018-assets/KAHF018-TR-READER.json",
+        "materials/tadabbur/tr/018-assets/tr-extended-reader.txt",
+        "materials/tadabbur/tr/018-assets/tr-simplified-reader.txt"
+      ],
+      "identityVerification": "path-only-needs-review",
+      "discovery": "reader-package-requires-approved-handoff"
+    },
+    {
+      "collection": "articles",
+      "language": "ur",
+      "id": "prepared-ar-79fa38429519de69",
+      "json": "materials/articles/current/ur/001.json",
+      "number": 1,
+      "discovery": "current-edition-reader-requires-approved-handoff"
+    },
+    {
+      "collection": "seerah",
+      "language": "ur",
+      "id": "new-seerah001",
+      "json": "materials/seerah/new-adult/ur/01.json",
+      "number": 1,
+      "discovery": "current-edition-reader-requires-approved-handoff",
+      "edition": "new-adult",
+      "chapter": 1
+    },
+    {
+      "collection": "tadabbur",
+      "language": "ur",
+      "id": "35:extended",
+      "surah": 35,
+      "mode": "extended",
+      "json": "materials/tadabbur/ur/extended/035.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "uz",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/uz/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "vi",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/vi/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    },
+    {
+      "collection": "essential-hadith",
+      "language": "zh-CN",
+      "id": "essential-01-005",
+      "chapter": 1,
+      "lesson": 5,
+      "readerFiles": [
+        "materials/hadith/essential-zh-CN/005.txt"
+      ],
+      "identityVerification": "path-only-needs-review",
+      "discovery": "numbered-text-reader-requires-approved-handoff"
+    },
+    {
+      "collection": "tadabbur",
+      "language": "zh-CN",
+      "id": "34:extended",
+      "surah": 34,
+      "mode": "extended",
+      "json": "materials/tadabbur/zh-CN/extended/034.json",
+      "identityVerification": "payload",
+      "discovery": "canonical-extended-reader"
+    }
+  ]
+}

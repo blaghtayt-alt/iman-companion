@@ -97,7 +97,9 @@ jobs:
       - run: python -m pip install -r books/requirements.txt
       - run: python books/material_publication_intake.py --root .
       - name: Fetch the exact historical source fixture commit
-        run: git fetch --no-tags --depth=1 origin 80c666acc4ca8c87f6f6b0fc2df82be31b4f4792
+        run: |
+          git fetch --no-tags --depth=1 origin 80c666acc4ca8c87f6f6b0fc2df82be31b4f4792
+          git fetch --no-tags --depth=1 origin 11995f8bf92be184657ea031948bb369697753c5
       - name: Validate source fidelity, references, QR matching and publication
         run: |
           python tests/test_source_propagation.py

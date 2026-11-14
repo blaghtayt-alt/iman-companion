@@ -9,6 +9,7 @@ from pathlib import Path
 import re
 import sys
 import unittest
+from unittest.mock import patch
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -86,15 +87,24 @@ class MaterialInventoryCounts(unittest.TestCase):
                         from book_edition_scope import typed_basis
                         self.assertIsNotNone(typed_basis(ROOT, rows[0]))
                     if actual_id is None:
-                        # A new path-only source remains a visible pending
-                        # intake item. This is not a normalized-reader approval.
-                        from book_content_coverage import discover_readers
-                        discovery=discover_readers(ROOT,[language],catalog)
-                        candidates=[r for r in discovery['readers'] if r.get('json')==path.relative_to(ROOT).as_posix()]
-                        self.assertEqual(len(candidates),1)
-                        self.assertEqual(candidates[0]['id'],expected)
-                        self.assertFalse(any(r.get('json')==path.relative_to(ROOT).as_posix() for r in catalog['entries']))
-                        actual_id=candidates[0]['id']
+                        relative=path.relative_to(ROOT).as_posix()
+                        rows=[row for row in catalog['entries'] if row.get('json')==relative]
+                        if rows:
+                            # Registration may preserve an original path-only
+                            # reader. Require its exact typed approval instead
+                            # of requiring that it stay unregistered forever.
+                            self.assertEqual(len(rows),1)
+                            self.assertEqual((rows[0]['collection'],rows[0]['language'],str(rows[0]['id'])),('essential-hadith',language,expected))
+                            from book_edition_scope import typed_basis
+                            self.assertIsNotNone(typed_basis(ROOT,rows[0]))
+                            actual_id=str(rows[0]['id'])
+                        else:
+                            from book_content_coverage import discover_readers
+                            discovery=discover_readers(ROOT,[language],catalog)
+                            candidates=[r for r in discovery['readers'] if r.get('json')==relative]
+                            self.assertEqual(len(candidates),1)
+                            self.assertEqual(candidates[0]['id'],expected)
+                            actual_id=candidates[0]['id']
                     self.assertEqual(actual_id, expected)
                     reader = value.get('reader', {})
                     reader_language = reader.get('locale', language) if isinstance(reader, dict) else language
@@ -103,6 +113,35 @@ class MaterialInventoryCounts(unittest.TestCase):
                     identities.append(expected)
             self.assertEqual(len(identities), len(set(identities)),
                              'Duplicate canonical reader identity in ' + language)
+
+    def test_path_only_reader_transitions_to_exact_registered_approval(self):
+        from test_source_publisher import SourcePublishingTests
+        from publish_approved_material import apply
+        from published_library import sha
+        fixture=SourcePublishingTests(methodName='runTest');fixture.setUp();self.addCleanup(fixture.tearDown)
+        _,handoff=fixture.handoff(text='Reviewed fixture reader.')
+        source='materials/hadith/essential-en/006.json';ident='essential-01-006'
+        fixture.write(source,{'language':'en','text':'Reviewed fixture reader.','fixture':'No real approval'})
+        binding={'path':source,'sha256':sha((fixture.root/source).read_bytes())}
+        material={'collection':'essential-hadith','language':'en','id':ident}
+        unit=json.loads((fixture.root/handoff['readerUnit']['path']).read_bytes())
+        unit.update(language='en',collection='hadith',id=ident,title='Hadith 6',order=6,chapter=1,lesson=6,hadithEdition='new-extended',sourceHashes=[binding['sha256']],inputBindings=[binding],catalogBindings=[material])
+        unit['sections'][0]['blocks'][0]['citations']=[{'type':'hadith','book':'muslim','number':'1'}]  # Synthetic reference fixture only.
+        reader=fixture.write(handoff['readerUnit']['path'],unit)
+        handoff.update(catalogEntry={**material,'json':source,'current':True,'chapter':1,'lesson':6},sourceBindings=[binding],canonicalOrder=6)
+        handoff['approval']['material']=material;handoff['readerUnit']['sha256']=sha(reader.read_bytes())
+        file=fixture.write('handoff.json',handoff)
+        with patch(__name__+'.ROOT',fixture.root),patch.dict(LABELS,{'en':'English'},clear=True):
+            self.test_numbered_files_have_matching_unique_lesson_identities()
+            receipt=apply(fixture.root,file);self.assertFalse(receipt['sourceApprovalCreated'])
+            scope=next(row for row in json.loads((fixture.root/'books/reviewed-books.json').read_bytes())['books'] if row['language']=='en')
+            self.assertTrue(scope['requireActualWordLayout']);self.assertFalse(scope['automaticRelease'])
+            self.test_numbered_files_have_matching_unique_lesson_identities()
+            fixture.write(source,{'language':'en','text':'Unreviewed later edit'})
+            from book_edition_scope import typed_basis
+            row=json.loads((fixture.root/'materials/catalog.json').read_bytes())['entries'][0]
+            with self.assertRaisesRegex(ValueError,'Changed edition review/source input'):
+                typed_basis(fixture.root,row)
 
     def test_japanese_first_lesson_source_presence_is_not_render_loss(self):
         source_ids = {f'essential-{chapter:02d}-{lesson:03d}'

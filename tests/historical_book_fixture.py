@@ -10,8 +10,9 @@ QURAN_FIXTURE_COMMIT='80c666acc4ca8c87f6f6b0fc2df82be31b4f4792'
 
 
 def pinned_fixture(repo,relative,digest,commit=QURAN_FIXTURE_COMMIT):
-    raw=(repo/relative).read_bytes()
-    if hashlib.sha256(raw).hexdigest()!=digest:
+    path=repo/relative
+    raw=path.read_bytes() if path.is_file() else None
+    if raw is None or hashlib.sha256(raw).hexdigest()!=digest:
         result=subprocess.run(['git','show',commit+':'+relative],cwd=repo,capture_output=True,check=True)
         raw=result.stdout
     if hashlib.sha256(raw).hexdigest()!=digest:raise ValueError('Historical test fixture does not match its review pin: '+relative)
@@ -26,5 +27,10 @@ def copy_projection_fixture(repo,destination,inventory,extra_paths=()):
             pins[binding['path']]=binding['sha256']
     for relative in set(pins)|set(extra_paths):
         path=destination/relative;path.parent.mkdir(parents=True,exist_ok=True)
-        raw=pinned_fixture(repo,relative,pins[relative],inventory['sourceCommit']) if relative in pins else (repo/relative).read_bytes()
+        if relative in pins:raw=pinned_fixture(repo,relative,pins[relative],inventory['sourceCommit'])
+        elif relative=='materials/catalog.json':
+            # Live approved successors must not change an historical fixture's
+            # membership or add current-only reader bindings to that fixture.
+            raw=subprocess.run(['git','show',inventory['sourceCommit']+':'+relative],cwd=repo,capture_output=True,check=True).stdout
+        else:raw=(repo/relative).read_bytes()
         path.write_bytes(raw)

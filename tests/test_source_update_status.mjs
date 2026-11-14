@@ -16,12 +16,18 @@ for(const language of LANGUAGES){
     const fixture=structuredClone(status),locale=fixture.languages[language];
     for(const book of Object.values(locale.books)){book.updatePending=false;book.state='current';}
     locale.bundleUpdatePending=false;
-    assert.equal(viewModel(catalog,language,fixture).bundle.updatePending,false);
+    const current=viewModel(catalog,language,fixture);
+    assert.equal(current.bundle.updatePending,false);
+    assert.ok(current.books.every(book=>book.sourceUpdate.updatePending===false));
+    const first=Object.values(locale.books)[0];
+    if(first){
+      first.updatePending=true;first.state='source-registration-blocked';
+      assert.equal(viewModel(catalog,language,fixture).bundle.updatePending,true);
+      first.updatePending=false;first.state='current';
+    }
     locale.bundleLinks.docx+='-different-version';
     assert.equal(viewModel(catalog,language,fixture).bundle.updatePending,true);
     assert.equal(viewModel(catalog,language,null).bundle.updatePending,true);
   }
 }
-const ar=viewModel(catalog,'ar',status);
-assert.equal(ar.books.find(b=>b.collection==='tadabbur-extended').sourceUpdate.updatePending,true);
-console.log('All 20 languages: hash-bound pending notices, missing-status fallback and combined downloads passed.');
+console.log('All 20 languages: current/pending transitions, hash bindings, missing-status fallback and combined downloads passed.');
