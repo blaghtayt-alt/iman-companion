@@ -170,6 +170,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Fetch exact historical inputs for diagnostic rendering
+        run: git fetch --no-tags --depth=1 origin 80c666acc4ca8c87f6f6b0fc2df82be31b4f4792
       - name: Install the exact fixed renderer and its matching UNO bridge
         run: |
           python books/renderer_pin.py --install
