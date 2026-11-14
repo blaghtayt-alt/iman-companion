@@ -35,7 +35,7 @@ Our translated summaries, meanings and explanations are **AI translated — need
 | Collection | Language | Documents |
 | --- | --- | --- |
 | essential-hadith | Arabic | 286 lesson pages, 12 chapters |
-| essential-hadith | English | 4 lessons |
+| essential-hadith | English | 5 lessons |
 | essential-hadith | French | 4 lessons |
 | essential-hadith | Turkish | 4 lessons |
 | essential-hadith | Indonesian | 4 lessons |

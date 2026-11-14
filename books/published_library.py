@@ -197,7 +197,27 @@ def verify_pair(entry,repo,release):
         asset=rows[0]
         if asset.get('state')!='uploaded' or asset.get('size',0)<=0 or asset.get('digest')!='sha256:'+book[hashkey] or asset.get('browser_download_url')!=release_url(repo,tag,name):raise ValueError('Published release asset differs from the checked book')
     return {**book,'download':release_url(repo,tag,book['file']),'pdfDownload':release_url(repo,tag,Path(book['file']).with_suffix('.pdf').name)}
-def merge(root,existing,candidates,repo,release_fetch):
+def previous_edition_available(root,entry):
+    """Keep an already public edition explicitly old; never approve new bytes.
+
+    A withdrawn/removed member is never retained. Release asset identity is
+    still checked by verify_pair. This does not satisfy current(), candidate
+    acceptance, source coverage, or any release gate.
+    """
+    from book_edition_scope import available,MAP
+    try:
+        book=entry['book'];key=scope_key(book)
+        rows=[r for r in read(root/'materials/catalog.json')['entries']
+              if (r.get('language'),MAP.get(r.get('collection')))==key and available(r)]
+        members=entry['snapshot'].get('catalogMemberKeys')
+        if members is not None:
+            identity=lambda r:(r['collection'],r['language'],str(r['id']))
+            return bool(members) and {identity(r) for r in members}.issubset({identity(r) for r in rows})
+        ids=set(entry['snapshot']['unitIds'])
+        return bool(ids) and ids.issubset({str(r['id']) for r in rows})
+    except (OSError,ValueError,KeyError,TypeError):return False
+
+def merge(root,existing,candidates,repo,release_fetch,*,retain_previous=False):
     if existing.get('schema')!=SCHEMA:raise ValueError('Invalid existing public library')
     selected={};stale=[];seen=set();incoming=set()
     for entry in existing['entries']:
@@ -209,6 +229,12 @@ def merge(root,existing,candidates,repo,release_fetch):
         elif limited_continuity(root,entry):
             retained=copy.deepcopy(entry)
             retained['availability']={'state':'verified-limited-edition','updatePending':True,'includedUnitIds':entry['snapshot']['unitIds'],'newMaterialsIncluded':False}
+            selected[key]=retained
+        elif retain_previous and previous_edition_available(root,entry):
+            retained=copy.deepcopy(entry)
+            retained['availability']={'state':'previous-published-edition','updatePending':True,
+                'includedUnitIds':entry['snapshot']['unitIds'],'newMaterialsIncluded':False,
+                'currentSourceVerified':False}
             selected[key]=retained
         else:stale.append(key)
     for entry in candidates:

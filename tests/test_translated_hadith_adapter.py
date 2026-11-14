@@ -287,7 +287,17 @@ class TranslatedHadithTests(unittest.TestCase):
                     for collection in ('tadabbur-extended', 'hadith')}
         required.update({('ar', 'seerah'), ('ar', 'articles')})
         self.assertEqual(len(required), 42)
-        self.assertTrue(required.issubset(ready), required - ready)
+        declarations = {(row['language'], row['collection']): row for row in self.declarations}
+        for identity in required:
+            try:
+                chosen,_=select(ROOT,self.catalog,declarations[identity])
+            except (OSError,ValueError,KeyError) as error:
+                # Changed live inputs are a production blocker, never a test
+                # assumption that every declared language must already be ready.
+                self.assertEqual(scopes[identity]['state'],'source-binding-error')
+                self.assertIn(str(error),scopes[identity]['reason'])
+            else:
+                self.assertTrue(chosen);self.assertIn(identity,ready)
         self.assertEqual(report['automaticPreparationScopes'], len(ready))
 
         # New exact approvals may extend the inventory; merely marking all

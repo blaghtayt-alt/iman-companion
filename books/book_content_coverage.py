@@ -90,7 +90,10 @@ def discover_readers(root, languages, catalog=None):
                 source_language = value.get('language') if isinstance(value, dict) else None
                 if source_language is None and isinstance(reader, dict):
                     source_language = reader.get('language', reader.get('locale'))
-                if not isinstance(value, dict) or value.get('id') != ident or source_language != language:
+                # Current numbered readers may carry their identity in the
+                # canonical path rather than an `id` field. Discovery only
+                # queues them for an explicit handoff; it never approves them.
+                if not isinstance(value, dict) or value.get('id', ident) != ident or source_language != language:
                     raise ValueError('Canonical reader path and payload identity differ')
                 if not _current_metadata(value):
                     continue
@@ -100,6 +103,18 @@ def discover_readers(root, languages, catalog=None):
             except (OSError, ValueError, TypeError) as error:
                 errors.append({'language': language, 'collection': 'hadith',
                                'path': relative, 'reason': str(error)})
+        # Some newly delivered lessons have only a numbered reader TXT/HTML.
+        # Report their absence from intake without pretending they are typed or
+        # reviewed units. The canonical path supplies only a candidate identity.
+        for path in sorted(folder.glob('*.txt')):
+            if not re.fullmatch(r'\d{3}', path.stem) or path.with_suffix('.json').exists():
+                continue
+            relative=path.relative_to(root).as_posix()
+            if relative in registered_paths:continue
+            found.append({'collection':'essential-hadith','language':language,
+                          'id':f'essential-01-{int(path.stem):03d}','chapter':1,'lesson':int(path.stem),
+                          'readerFiles':[relative], 'identityVerification':'path-only-needs-review',
+                          'discovery':'numbered-text-reader-requires-approved-handoff'})
         folder = root / 'materials/tadabbur' / language / 'extended'
         for path in sorted(folder.glob('*.json')):
             if not re.fullmatch(r'\d{3}', path.stem):
@@ -110,20 +125,32 @@ def discover_readers(root, languages, catalog=None):
             try:
                 value = json.loads(path.read_bytes())
                 surah = int(path.stem)
-                source_language = value.get('language', value.get('locale')) if isinstance(value, dict) else None
+                source_language = value.get('language', value.get('locale', value.get('语言'))) if isinstance(value, dict) else None
                 source_language = {'es-ES': 'es'}.get(source_language, source_language)
                 if (not isinstance(value, dict) or value.get('surah', surah) != surah
-                        or source_language != language
+                        or source_language not in (None, language)
                         or value.get('mode', 'extended') != 'extended' or not 1 <= surah <= 114):
                     raise ValueError('Canonical Quran reader path and payload identity differ')
                 if not _current_metadata(value):
                     continue
                 found.append({'collection': 'tadabbur', 'language': language,
                               'id': f'{surah}:extended', 'surah': surah, 'mode': 'extended',
-                              'json': relative, 'discovery': 'canonical-extended-reader'})
+                              'json': relative, 'identityVerification': 'payload' if source_language else 'path-only-needs-review',
+                              'discovery': 'canonical-extended-reader'})
             except (OSError, ValueError, TypeError) as error:
                 errors.append({'language': language, 'collection': 'tadabbur-extended',
                                'path': relative, 'reason': str(error)})
+        for assets in sorted((root/'materials/tadabbur'/language).glob('[0-9][0-9][0-9]-assets')):
+            surah=int(assets.name[:3]);ident=f'{surah}:extended'
+            if not 1<=surah<=114:continue
+            if any(r.get('language')==language and r.get('collection')=='tadabbur'
+                   and (str(r.get('id'))==ident or r.get('surah')==surah) for r in catalog['entries']):continue
+            if any(r.get('language')==language and r.get('collection')=='tadabbur' and r['id']==ident for r in found):continue
+            readers=[p.relative_to(root).as_posix() for p in sorted(assets.iterdir())
+                     if p.is_file() and p.suffix in {'.txt','.json','.html'} and any(t in p.name.lower() for t in ('reader','paired'))]
+            if readers:found.append({'collection':'tadabbur','language':language,'id':ident,
+                'surah':surah,'mode':'extended','readerFiles':readers,'identityVerification':'path-only-needs-review',
+                'discovery':'reader-package-requires-approved-handoff'})
         path = root / 'materials/tadabbur/fatiha-extended' / language / 'reading.json'
         if path.is_file() and path.relative_to(root).as_posix() not in registered_paths:
             relative = path.relative_to(root).as_posix()
@@ -138,6 +165,40 @@ def discover_readers(root, languages, catalog=None):
             except (OSError, ValueError, TypeError) as error:
                 errors.append({'language': language, 'collection': 'tadabbur-extended',
                                'path': relative, 'reason': str(error)})
+    # Current translated Articles and the new adult Seerah have dedicated
+    # edition directories. Preserve missing IDs as a registration question.
+    for language in languages:
+        for collection, folder in (
+            ('articles', root / 'materials/articles/current' / language),
+            ('seerah', root / 'materials/seerah/new-adult' / language),
+        ):
+            if language == 'ar':
+                continue
+            for path in sorted(folder.glob('*.json')):
+                if not re.fullmatch(r'\d{2,3}', path.stem):
+                    continue
+                relative = path.relative_to(root).as_posix()
+                if relative in registered_paths:
+                    continue
+                try:
+                    value = json.loads(path.read_bytes())
+                    if not isinstance(value, dict) or value.get('language') != language:
+                        raise ValueError('Canonical reader path and payload language differ')
+                    if not _current_metadata(value):
+                        continue
+                    number = int(path.stem)
+                    ident = value.get('id') if collection == 'articles' else f'new-seerah{number:03d}'
+                    if not ident:
+                        raise ValueError('Article source needs an explicit canonical material ID')
+                    candidate = {'collection':collection, 'language':language, 'id':ident,
+                                 'json':relative, 'number':number,
+                                 'discovery':'current-edition-reader-requires-approved-handoff'}
+                    if collection == 'seerah':
+                        candidate.update(edition='new-adult', chapter=number)
+                    found.append(candidate)
+                except (OSError, ValueError, TypeError) as error:
+                    errors.append({'language':language, 'collection':collection,
+                                   'path':relative, 'reason':str(error)})
     # These two indices explicitly identify the current edition, unlike older
     # standalone article translations and older Seerah lecture summaries.
     for relative, collection, field in (

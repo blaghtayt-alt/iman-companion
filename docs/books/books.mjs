@@ -37,19 +37,27 @@ export function contentCoverage(book){
   for(const unit of book.contents){if(unit.numberLabel!==undefined&&unit.numberLabel!==copy.unitLabels[String(unit.id)])throw Error('Contents number differs from coverage');}
   return coverage;
 }
-export function viewModel(catalog,language){
+export function updateStatus(status,book){
+  const locale=status?.schema==='iman-book-source-update-status-v1'?status.languages?.[book.language]:null;
+  const row=locale?.books?.[book.collection];
+  const exact=!!row&&/^[a-f0-9]{64}$/.test(book.sha256)&&/^[a-f0-9]{64}$/.test(book.pdfSha256)&&row.sha256===book.sha256&&row.pdfSha256===book.pdfSha256;
+  return {updatePending:!exact||row.updatePending!==false,
+    state:exact?row.state:'status-unverified',
+    label:exact&&row.updatePending===false?'':(locale?.pendingLabel||COPY[book.language].error)};
+}
+export function viewModel(catalog,language,status=null){
   if(catalog?.schema!=='iman-book-downloads-v1'||!LANGUAGES.includes(language))throw Error('Invalid catalogue');
   const locale=catalog.languages?.[language];if(!locale||locale.language!==language||!Array.isArray(locale.books))throw Error('Missing locale');
   const seen=new Set();const books=locale.books.map(book=>{
     if(book.language!==language||!COLLECTIONS.includes(book.collection)||seen.has(book.collection))throw Error('Incorrect book identity');
     seen.add(book.collection);const docx=downloadURL(book.docx,language,'docx',book.collection),pdf=downloadURL(book.pdf,language,'pdf',book.collection);
     if(!docx||!pdf||!book.title||!Number.isInteger(book.units)||book.units<1)throw Error('Invalid book download');
-    return {...book,docx,pdf,coverage:contentCoverage(book)};
+    return {...book,docx,pdf,coverage:contentCoverage(book),sourceUpdate:updateStatus(status,book)};
   });
   let bundle=null;if(locale.bundle){
     const source=locale.bundle;const zip=downloadURL(source.zip,language,'zip'),docx=downloadURL(source.docx,language,'docx'),pdf=downloadURL(source.pdf,language,'pdf');
     if(!zip||!docx||!pdf||source.parts!==books.length)throw Error('Invalid combined downloads');
-    bundle={zip,docx,pdf};
+    bundle={zip,docx,pdf,updatePending:books.some(book=>book.sourceUpdate.updatePending)};
   }
   return {...locale,books,bundle,updated:catalog.updated};
 }
@@ -68,7 +76,7 @@ async function fonts(locale){
   try{const loaded=await Promise.all([regular.load(),bold.load()]);loaded.forEach(font=>document.fonts.add(font));}catch{/* Keep native system shaping if a font download is interrupted. */}
 }
 export async function mount(){
-  let language=resolveLanguage(location.search,navigator.languages||[navigator.language]);let catalog;let current;
+  let language=resolveLanguage(location.search,navigator.languages||[navigator.language]);let catalog;let status;let current;
   const select=document.getElementById('language'),dialog=document.getElementById('download-dialog');
   function labels(){
     const copy=COPY[language];document.documentElement.lang=language;document.documentElement.dir=['ar','ur','fa'].includes(language)?'rtl':'ltr';
@@ -77,12 +85,13 @@ export async function mount(){
     select.setAttribute('aria-label',copy.language);select.value=language;
   }
   function render(){
-    labels();current=viewModel(catalog,language);const copy=COPY[language];text('brand',current.brand);text('title',current.title);document.title=current.title;
+    labels();current=viewModel(catalog,language,status);const copy=COPY[language];text('brand',current.brand);text('title',current.title);document.title=current.title;
     document.getElementById('books').replaceChildren();text('status',current.books.length?'':copy.empty);text('updated','');document.getElementById('retry').hidden=true;
     for(const book of current.books){
       const card=document.createElement('article');card.className='book';card.dataset.collection=book.collection;
       const wrap=document.createElement('div');wrap.className='cover-wrap';const image=document.createElement('img');image.className='cover';image.src=localAsset(book.cover);image.alt=book.title;image.width=432;image.height=648;image.loading=current.books.indexOf(book)===0?'eager':'lazy';wrap.append(image);card.append(wrap);
       const heading=document.createElement('h2');heading.textContent=book.title;card.append(heading);
+      if(book.sourceUpdate.updatePending){const notice=document.createElement('p');notice.className='notice';notice.dataset.sourceState=book.sourceUpdate.state;notice.textContent=book.sourceUpdate.label;card.append(notice);}
       if(book.statusLabel){const status=document.createElement('p');status.className='notice';status.textContent=book.statusLabel;card.append(status);}
       const coverage=book.coverage?.presentation;
       if(coverage?.statusLabel){const status=document.createElement('p');status.className='notice';status.textContent=coverage.statusLabel;card.append(status);}
@@ -100,13 +109,14 @@ export async function mount(){
   }
   async function load(){
     labels();try{const response=await fetch('catalog.json',{cache:'no-store'});if(!response.ok)throw Error('Catalogue unavailable');catalog=await response.json();
+      status=null;try{const update=await fetch('update-status.json',{cache:'no-store'});if(update.ok)status=await update.json();}catch{/* An unavailable status never implies currency. */}
       select.replaceChildren(...LANGUAGES.map(lang=>{const option=document.createElement('option');option.value=lang;option.textContent=catalog.languages?.[lang]?.name||lang;return option;}));render();
     }catch{labels();document.getElementById('books').replaceChildren();document.getElementById('combined').hidden=true;text('status',COPY[language].error);document.getElementById('retry').hidden=false;}
   }
   select.addEventListener('change',()=>{language=canonicalLanguage(select.value)||language;const url=new URL(location.href);url.searchParams.set('lang',language);history.replaceState(null,'',url);if(dialog.open)dialog.close();render();});
   document.getElementById('retry').addEventListener('click',load);
   document.getElementById('combined').addEventListener('click',()=>{
-    if(!current?.bundle)return;const bundle=current.bundle;text('dialog-hint',current.title);document.getElementById('choices').hidden=false;document.getElementById('merged-formats').hidden=true;
+    if(!current?.bundle)return;const bundle=current.bundle;text('dialog-hint',bundle.updatePending?(status?.languages?.[language]?.pendingLabel||COPY[language].error):current.title);document.getElementById('choices').hidden=false;document.getElementById('merged-formats').hidden=true;
     document.getElementById('zip-choice').href=bundle.zip;
     for(const type of['pdf','docx']){const link=document.getElementById('merged-'+type);setDownload(link,bundle[type],type,current.downloads[type]);}dialog.showModal();
   });

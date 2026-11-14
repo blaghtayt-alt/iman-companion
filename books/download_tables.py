@@ -154,7 +154,7 @@ def render_ready(conf,ready,repo,bundles=None,coverage=None):
             # Check visible labels, not URL targets containing technical filenames.
             native_download_text(re.sub(r'\]\([^)]*\)',']',line),lang)
         pages[lang]='\n'.join(page)+'\n'
-    if any(item.get('availability') for item in ready.values()):root+=['','Verified earlier editions include only the listed contents; new material is awaiting release checks.']
+    if any(item.get('availability') for item in ready.values()):root+=['','Earlier published editions include only the listed contents. Source updates and additional material are awaiting registration, preparation or release checks. These downloads must not be treated as the latest source text.']
     if any(item.get('presentation',{}).get('statusLabel') for item in (coverage or {}).values()):
         root+=['','Each language page lists the exact included lesson or surah numbers and any material awaiting publication or a coverage check.']
     return '\n'.join(root)+'\n',pages

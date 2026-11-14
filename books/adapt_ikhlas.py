@@ -222,10 +222,11 @@ def preservation_evidence(paragraphs,rendered_paragraphs,aliases,notes,sections)
             'sourceQualifications':len(notes),'preservedQualifications':len(rendered_notes),
             'lostParagraphs':0,'lostReferences':0,'lostQualifications':0}
 
-def generate(root,catalog,declaration):
+def generate(root,catalog,declaration,*,excluded_catalog_keys=()):
     language=declaration['language']
     if declaration.get('adapter')!='reviewed-ikhlas-v1' or declaration.get('collection')!='tadabbur-extended' or language=='ar':raise ValueError('Unsupported reviewed Ikhlas scope')
     matches=[e for e in catalog['entries'] if (e.get('collection'),e.get('language'),e.get('surah'),e.get('mode'))==('tadabbur',language,112,'extended') and not e.get('archived') and e.get('current',True) is not False]
+    if len(matches)==1 and ('tadabbur',language,str(matches[0]['id'])) in excluded_catalog_keys:return []
     if len(matches)!=1 or matches[0].get('translationStatus')!='independently-reviewed-whole-surah-translation' or matches[0].get('sourceHashes')!=[REVISION]:raise ValueError('Current reviewed whole Ikhlas publication is missing or changed')
     record=matches[0];bindings={}
     def bound(relative):

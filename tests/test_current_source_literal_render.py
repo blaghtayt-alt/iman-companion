@@ -18,6 +18,7 @@ from build_books import Footnotes, check_unit, embed_fonts, checked_source_links
 from check_outputs import validate_footnotes, validate_source_hyperlinks, validate_pdf_source_hyperlinks
 from source_literal_text import check_bound_text, check_text, proof_list, exact_literal
 from reader_xml import body_text
+from historical_book_fixture import copy_projection_fixture
 from restore_source_hyperlinks import restore as restore_source_hyperlinks
 
 
@@ -27,8 +28,15 @@ class CurrentLiteralRendering(unittest.TestCase):
         cls.catalog = json.loads((ROOT / 'materials/catalog.json').read_bytes())
         cls.declaration = next(row for row in json.loads((ROOT / 'books/reviewed-books.json').read_bytes())['books']
                                if (row['language'], row['collection']) == ('ur', 'tadabbur-extended'))
-        cls.record, cls.evidence = current.records(ROOT, cls.declaration)[0]
-        cls.unit = current.normalize(ROOT, cls.catalog, cls.record['catalogEntry'], cls.record, cls.evidence)
+        cls.temp=tempfile.TemporaryDirectory();cls.addClassCleanup(cls.temp.cleanup)
+        cls.source_root=Path(cls.temp.name)
+        inventory=current.read(ROOT,current.PROJECTION)
+        copy_projection_fixture(ROOT,cls.source_root,inventory,
+            [current.PROJECTION,'materials/catalog.json','books/reviewed-books.json',
+             'materials/translation-status.json','books/config.json','books/assets/quran-arabic.json','books/assets/surah-names.json','books/assets/surah-names-native-20261107.json']+
+             [b['path'] for b in cls.declaration['sourceReviewBindings']])
+        cls.record, cls.evidence = current.records(cls.source_root, cls.declaration)[0]
+        cls.unit = current.normalize(cls.source_root, cls.catalog, cls.record['catalogEntry'], cls.record, cls.evidence)
         notes = [(text, proof_list(proofs)) for section in cls.unit['sections']
                  for block in section['blocks'] for span in block.get('spans', [])
                  for text, proofs in zip(span.get('noteTexts', []), span.get('noteLiteralProofs', []))
@@ -36,33 +44,33 @@ class CurrentLiteralRendering(unittest.TestCase):
         cls.text, cls.proofs = notes[0]
 
     def test_exact_source_note_keeps_original_publisher_reference_and_url(self):
-        check_bound_text(ROOT, self.text, self.unit, self.proofs)
+        check_bound_text(self.source_root, self.text, self.unit, self.proofs)
         with tempfile.TemporaryDirectory() as temporary:
             doc = Document(); anchor = doc.add_paragraph('اردو')
-            notes = Footnotes(doc, 'ur', 'Iman Book Noto Nastaliq Urdu', 'Iman Book Noto Naskh Arabic', source_root=ROOT)
+            notes = Footnotes(doc, 'ur', 'Iman Book Noto Nastaliq Urdu', 'Iman Book Noto Naskh Arabic', source_root=self.source_root)
             notes.add(anchor, self.text, source_literal_proofs=self.proofs)
             target = Path(temporary) / 'notes.docx'; doc.save(target); embed_fonts(target, {}, notes.root)
             with zipfile.ZipFile(target) as archive:
                 body = etree.fromstring(archive.read('word/document.xml'))
                 actual = etree.fromstring(archive.read('word/footnotes.xml'))
             self.assertEqual(notes.texts, [self.text])
-            validate_footnotes(actual, body, notes.texts, 'ur', source_literal_proofs=notes.literal_proofs, root=ROOT)
+            validate_footnotes(actual, body, notes.texts, 'ur', source_literal_proofs=notes.literal_proofs, root=self.source_root)
             with self.assertRaises(ValueError):
-                validate_footnotes(actual, body, notes.texts, 'ur', root=ROOT)
+                validate_footnotes(actual, body, notes.texts, 'ur', root=self.source_root)
             tampered = deepcopy(actual)
             node = next(node for node in tampered.iter('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}t') if node.text and 'https://' in node.text)
             node.text += ' Unreviewed extra sentence'
             with self.assertRaises(ValueError):
-                validate_footnotes(tampered, body, notes.texts, 'ur', source_literal_proofs=notes.literal_proofs, root=ROOT)
+                validate_footnotes(tampered, body, notes.texts, 'ur', source_literal_proofs=notes.literal_proofs, root=self.source_root)
 
     def test_other_materials_and_unknown_english_cannot_borrow_a_literal_exception(self):
         forged = deepcopy(self.proofs); forged[0]['materialId'] = 'other-material'
         with self.assertRaises(ValueError):
-            check_bound_text(ROOT, self.text, self.unit, forged)
+            check_bound_text(self.source_root, self.text, self.unit, forged)
         with self.assertRaises(ValueError):
-            check_text(ROOT, self.text + ' Unreviewed extra sentence', 'ur', self.proofs)
+            check_text(self.source_root, self.text + ' Unreviewed extra sentence', 'ur', self.proofs)
         with self.assertRaises(ValueError):
-            check_bound_text(ROOT, self.text, {**self.unit, 'inputBindings': []}, self.proofs)
+            check_bound_text(self.source_root, self.text, {**self.unit, 'inputBindings': []}, self.proofs)
 
     def test_changed_note_proof_array_or_credit_is_rejected(self):
         altered = deepcopy(self.unit)
@@ -70,13 +78,13 @@ class CurrentLiteralRendering(unittest.TestCase):
                     for span in block.get('spans', []) if span.get('noteLiteralProofs'))
         span['noteLiteralProofs'].append(None)
         with self.assertRaisesRegex(ValueError, 'do not match'):
-            check_unit(altered, altered, root=ROOT)
+            check_unit(altered, altered, root=self.source_root)
         altered = deepcopy(self.unit)
         credit = next(block['translationCredit'] for section in altered['sections']
                       for block in section['blocks'] if block.get('translationCredit'))
         credit['text'] += ' Invented attribution'
         with self.assertRaises(ValueError):
-            check_unit(altered, altered, root=ROOT)
+            check_unit(altered, altered, root=self.source_root)
 
     def test_cached_validation_detects_same_size_source_edit_with_restored_mtime(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -86,7 +94,7 @@ class CurrentLiteralRendering(unittest.TestCase):
                           'materials/translation-status.json'})
             for relative in paths:
                 target = root / relative; target.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copyfile(ROOT / relative, target)
+                shutil.copyfile(self.source_root / relative, target)
             check_text(root, self.text, 'ur', self.proofs)
             path = root / self.proofs[0]['source']['path']; before = path.stat(); raw = path.read_bytes()
             self.assertIn(b'QuranEnc', raw)

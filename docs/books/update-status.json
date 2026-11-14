@@ -1,0 +1,559 @@
+{
+  "schema": "iman-book-source-update-status-v1",
+  "catalogSHA256": "48c07ad3b4247848e2392195f9478a70b4859d6a0fb3b7429dc26188891c07c3",
+  "languages": {
+    "en": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "770f00a18da97d2858a35951bec6a46ab056aec166a5898006bc88ad470048fe",
+          "pdfSha256": "0a952bbcee7f64443ec076b7322c69dfb9467e798032ee19fad00b708d26d672",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Awaiting the updated book",
+          "publishedSourceCommit": "76aec11bc3de34c3b6e784b4a949b9f098e83e87"
+        },
+        "hadith": {
+          "sha256": "f719235ec16017b71f6253510ee6b7ce8d73194c6230a45e91981f6255f3e220",
+          "pdfSha256": "ea70ee42cb3b1e8d57ad497bdf7b63280dd4e748884e79487ad494bf8c44b551",
+          "state": "source-registration-required",
+          "updatePending": true,
+          "label": "Awaiting the updated book",
+          "publishedSourceCommit": "4982d320212b9a15c42212766acd7ed2bcf40c3f"
+        },
+        "seerah": {
+          "sha256": "8015556eb755dd54e0d47acc3f836cb3584aff9dc80b2e585e09d4e521f148c0",
+          "pdfSha256": "d8748c3d78e6b2710284adb936237dfb5bc20981dde6f904eee357a5d11d6b8f",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "b54c9a2ff807a8a0a1b7180b91b1c7d5d3a73f65"
+        },
+        "articles": {
+          "sha256": "cf6e2c9cbc7f246672664a47cbc81060ec68f2309754060a6aaa1137d94fa24f",
+          "pdfSha256": "47e9436087d0741947023acd966e6d08e7ccc3915223599370f66c963e96042a",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "b54c9a2ff807a8a0a1b7180b91b1c7d5d3a73f65"
+        }
+      },
+      "pendingLabel": "Awaiting the updated book",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "ar": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "6277c6bc29a8c32ba8533c8a743d7d7a778291a8dc11cd61a3b9d265ec2338e6",
+          "pdfSha256": "c3fefca174fe94b4096ebfb6511ece1b402b5369f0a44c0b9a7e0c043f3638ab",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "بانتظار نسخة الكتاب المحدثة",
+          "publishedSourceCommit": "f230cbe1f7ca1e328b63bbbe77646602fcff4d72"
+        },
+        "hadith": {
+          "sha256": "081586ed4f428328c0e7e1312de33efe9163d00ca067cf08762f213c3a893b1c",
+          "pdfSha256": "6f440ccb76cf346435386da8b3ddee5cb84cc7678be57ea48c10933dfad0e13e",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "4cd0afe59cebae2efdbf32777f3ca47e5f02172b"
+        },
+        "seerah": {
+          "sha256": "6a62ddac15c77caeb13b5b884dea98afce7537d9a79406327d2de1412fc11ee4",
+          "pdfSha256": "7be43d9c84a3825f0871bbec891832e7a95e721cbdb3ec0a7606986ab7aab3c9",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "4cd0afe59cebae2efdbf32777f3ca47e5f02172b"
+        },
+        "articles": {
+          "sha256": "a8b30f82014ec09b6e7ae66e45286651b83a6c47909750aa1c76dd6fd7039a55",
+          "pdfSha256": "73c02994ead0d31d8141013dfc612c0e0af7e5d02335def56ec446f7629cc3b5",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "بانتظار نسخة الكتاب المحدثة",
+          "publishedSourceCommit": "4cd0afe59cebae2efdbf32777f3ca47e5f02172b"
+        }
+      },
+      "pendingLabel": "بانتظار نسخة الكتاب المحدثة",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "ur": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "476574ebe59015728ff498fef3037aae197b37df66dc854717d817933e204df1",
+          "pdfSha256": "855edcd53153ff71666e8ae6083584c67949f1d0f79e8bf7c434c1cbcaecb1ba",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "کتاب کے تازہ نسخے کا انتظار ہے",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "53193d09f82ddbfba4380a573600c5977a2c2a8e6b4b43c9ad7f77044d13eed7",
+          "pdfSha256": "9b17261855f0a612b34c6b68222dd36a67ea58e191867f5fe3350236aa23083e",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        }
+      },
+      "pendingLabel": "کتاب کے تازہ نسخے کا انتظار ہے",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": [
+        "articles",
+        "seerah"
+      ]
+    },
+    "id": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "a5b0d40e10186daa3d6f26af6d8314a26da157ba62f17186c2cfa85b5712a0e5",
+          "pdfSha256": "1763f633f80e6e6e261e49ba6e7987c22e2d61c53988d59a6e262ccd80680147",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Menunggu buku yang diperbarui",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "8fefade1de2c8b39a7d832366567a231a9247f35e355da5813764832d27cc98b",
+          "pdfSha256": "053aff632de57cac86312bdca951638a41e8734e73733666be555dbc96806975",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "articles": {
+          "sha256": "5323001902cd27b3091a1121779cf81ffcba8f46e4e7442d9bf24312351d2f65",
+          "pdfSha256": "1ef4f59e82a61b7a769643ed58eb5ba909ab22782b1346c5328ff06cd3b5e34e",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "3d52ed51a73ecb3497d7813d2d0b584dbf53df2a"
+        }
+      },
+      "pendingLabel": "Menunggu buku yang diperbarui",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "ms": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "febcdef425a892d4b4635363b1d5c247b8026b6242a405c8b6bebd4caa8b915c",
+          "pdfSha256": "ec1a6ca30ea2f093dfb6f7fca74cebbf6eb19608e7fd0e0f99d4e5841f5fcbd3",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Menunggu buku yang dikemas kini",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "80b3f8a6939e32a170153255c1a965668529eadb90d50f2e041877e8c38103e4",
+          "pdfSha256": "2c6f1f092b3abffc011c67ecaf2d6effd3ef6ed65978de2faa2ce5a347b0f618",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "articles": {
+          "sha256": "a69bfb58c52e5c5a2c771aba33ba102f59e3aaf8c0945d26129c81dc0ddefa46",
+          "pdfSha256": "aed89a2e6c57692b7539608c6fd77bc05f2fd45bcf4fe3b9703104cc2e52b882",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "3d52ed51a73ecb3497d7813d2d0b584dbf53df2a"
+        }
+      },
+      "pendingLabel": "Menunggu buku yang dikemas kini",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "bn": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "5943e83504bb66b3c6ce91635fbbb13606b45feb21ec22f9cd073313d152824c",
+          "pdfSha256": "29690c9a857fad8d4432d30bdc2fdab1b6b194c94f9d26e7a3bb00a8b1ba0f0b",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "বইয়ের হালনাগাদ সংস্করণের অপেক্ষায়",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "e517c5fefdc8ebe4c98e39f23353c3b99c2ba1449a9ebf5857a532c7d9c24380",
+          "pdfSha256": "bbde5292f8205762004bce49c062a15947afca893fb7524d7884fdbaf6496a65",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        }
+      },
+      "pendingLabel": "বইয়ের হালনাগাদ সংস্করণের অপেক্ষায়",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "tr": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "639a00a05ee70c594b57864e615ba16d2aacec9bf4f485cca5182f5c20822111",
+          "pdfSha256": "b51df32f0edff0e40c9952467c5f9a7369c88dc9d1946ed17aea84df04abf80f",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Güncellenmiş kitap bekleniyor",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "43f1fc1fcef50977e766fb9f2a417e578dc985d26330aabf3d87bfd0828dee74",
+          "pdfSha256": "dc68be67fb7cf2b8f5290ade8af4d1ffcc5f5f16b061e0de63bdb56498a21565",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "3d52ed51a73ecb3497d7813d2d0b584dbf53df2a"
+        },
+        "articles": {
+          "sha256": "74024e1cd919d3ab80d2990ead0a37978eafb10f73a3e8ae5ab66448aa803dbe",
+          "pdfSha256": "8fa614e737e81f1087a16dd93b31c5b36e70150828c956a2e954ba641271c013",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "3d52ed51a73ecb3497d7813d2d0b584dbf53df2a"
+        }
+      },
+      "pendingLabel": "Güncellenmiş kitap bekleniyor",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": [
+        "seerah"
+      ]
+    },
+    "fr": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "14deb9e2bc66f41c5404f306258ee16ce40208e1be7163c8f650abdd01a9d892",
+          "pdfSha256": "77f5fe766b3d0c75a2e1cafbd2a6d296e22c0d83c379e0d8c685a468a59a1bbe",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "En attente du livre mis à jour",
+          "publishedSourceCommit": "76aec11bc3de34c3b6e784b4a949b9f098e83e87"
+        },
+        "hadith": {
+          "sha256": "93ea590fbddfb5b54e892331ae482000c53fb00757544d7d4d2720c169e8c3a0",
+          "pdfSha256": "38f8ab384cc10da6c9a513270cca09a0b7582fde090081ca9d64ddeec23fe465",
+          "state": "source-registration-required",
+          "updatePending": true,
+          "label": "En attente du livre mis à jour",
+          "publishedSourceCommit": "4cd0afe59cebae2efdbf32777f3ca47e5f02172b"
+        },
+        "articles": {
+          "sha256": "c86eaff3f4b1c862ac6677e43c0106f663fd473c3ae4c7a62d035fd9e5487ed9",
+          "pdfSha256": "392973f33f49d517ff273797e2c1211df7d35133d07b6714761ff631b449a9a4",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "3d52ed51a73ecb3497d7813d2d0b584dbf53df2a"
+        }
+      },
+      "pendingLabel": "En attente du livre mis à jour",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": [
+        "seerah"
+      ]
+    },
+    "pt-BR": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "ab7929c3562afa0496f422d2434296cae5f0f489ef510f060740b42b1dbf58bf",
+          "pdfSha256": "d54591e22c36184b3643e35ec3336380894c28e655fecae1949d1804f7ac36ea",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Aguardando o livro atualizado",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "4d8c95116b8b7db59bfc0dd1115595b91f5f89e5847aedaedbcd834acb14c5a4",
+          "pdfSha256": "df71d6657d89de4e76d81d96a784b56ca46861b6a7054d25629ef3a8ed81e0b1",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        }
+      },
+      "pendingLabel": "Aguardando o livro atualizado",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": [
+        "articles"
+      ]
+    },
+    "hi": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "5b9d94b20d2a7f7b16f67fedb7b1bd22b31a29af19876d5f87764f514c87f575",
+          "pdfSha256": "ca86c13f2edfbf9c732201903c9e1eb6b541c304ee8afe6ceb8bb4443a2de236",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "पुस्तक के अद्यतन संस्करण की प्रतीक्षा",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "5d776a1a25bad7e75f4d56b01fbc19a00283541107b121f92bf565fcdbf05426",
+          "pdfSha256": "8f0de30184a5d219ceccb950c3aceaf99c59602de69bf4fe4f25508b51373030",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        }
+      },
+      "pendingLabel": "पुस्तक के अद्यतन संस्करण की प्रतीक्षा",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "ru": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "696f79530cd4e9e3c26ea8d4db248ade93ec4cee1a501ac473870fed09362f7b",
+          "pdfSha256": "0c9e8c8cce4b4d43150a04cec46567a5b6b6dc83c66aa069aec6d53d57bbc71d",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Ожидается обновлённая книга",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "bef2efb03b56cee4ff9a28ab9bee24bf3951d2a05f2db4843f94430ed30e9a98",
+          "pdfSha256": "b610d28e34240f40dc99ebcb8de5798889d3a44dafbf1d681d278d35b8d4adb1",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "articles": {
+          "sha256": "7da1f383807ac075a687f7803b0123b4a27f2aba4f9cbfddefe53eb0c9318618",
+          "pdfSha256": "9e5eb4cf345dbcaa34003119ceabc001450ad6a60eec08ef06edf3f852b2b68e",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Ожидается обновлённая книга",
+          "publishedSourceCommit": "3d52ed51a73ecb3497d7813d2d0b584dbf53df2a"
+        }
+      },
+      "pendingLabel": "Ожидается обновлённая книга",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "es": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "d0b40a0c6d8f5e72b859edbb43c6d3c57a199ae31d5e316af703f5bfe93711c9",
+          "pdfSha256": "e43d6f38e47cef85fd99541b6df0f86c63c307fa16af097ddaf3f22bc8564912",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Pendiente del libro actualizado",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "54935e66bfb781733d7dddcefc0b8d510c7d1f304229d644605c7265c7421590",
+          "pdfSha256": "abdffb424f5e348d51db73553690bc69c59da0e1d28120982b9885a2c3d56cf9",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "articles": {
+          "sha256": "3f54c3622585ae08ed45d0031e9ec9bee3f4ffad0d7699c7d71d21d1888f7e8b",
+          "pdfSha256": "fe5c5d9daea934f360909340746ff1c345720c9b719237b9062634dfb92ad11d",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Pendiente del libro actualizado",
+          "publishedSourceCommit": "3d52ed51a73ecb3497d7813d2d0b584dbf53df2a"
+        }
+      },
+      "pendingLabel": "Pendiente del libro actualizado",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "fa": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "6833027b0d4d5629133dfc759f89a981735717d8176312604b22c1ba5161e47d",
+          "pdfSha256": "4a8c53158aeefdb5c4e7e1e6c3973fd956fca4ad4e45fe0e7c9ad3775499d684",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "در انتظار نسخهٔ به‌روز کتاب",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "323a4e618ba87db079f3d27e3ac685c421aa653e61a098fa1dc375294e5e360f",
+          "pdfSha256": "3d5dec65749629d2e9f45b389f7f9a7b0a3ce31a32a27d2ce5f89ddb9f4588b8",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        }
+      },
+      "pendingLabel": "در انتظار نسخهٔ به‌روز کتاب",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": [
+        "articles"
+      ]
+    },
+    "de": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "bfa2149d402c94ee0af7ba3ac7225f6572e5f89c99d75e1d895d482f0a6bea4e",
+          "pdfSha256": "5955cc1771e68f8d209f3da7304445ed93215ad1a466a80b3141fe8b1503de20",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Aktualisiertes Buch ausstehend",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "323b81564501fc7008ebde6271335fa3caa5e0d9dc8cffcf15ca03cdb3c39294",
+          "pdfSha256": "be0c54fbae8515e16dbf9bdec0fc4085125e16d568f03ebf4ffbafe7f8a0f478",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        }
+      },
+      "pendingLabel": "Aktualisiertes Buch ausstehend",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "zh-CN": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "770cf7fb5cab7c88b3644d1c08f3cebec4a8ea13e24a5961c56212bb0091daaa",
+          "pdfSha256": "c93f3a86ca83d5f32fece37a42fb71d83dd28e7b052f081d21220a9fb6cb40e2",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "等待更新后的书籍",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "c7d6c4af9839aa964fbd42b695602ec5722d60fc52d95d400a929095fd21b07f",
+          "pdfSha256": "75af465dd872d94a4ea86bb5afefa0ec204f708aa6930d54ad2d993999632b0a",
+          "state": "source-registration-required",
+          "updatePending": true,
+          "label": "等待更新后的书籍",
+          "publishedSourceCommit": "4cd0afe59cebae2efdbf32777f3ca47e5f02172b"
+        }
+      },
+      "pendingLabel": "等待更新后的书籍",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "uz": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "142fcd21eefc05b889c924a24f8f1b460c3abc0784b5a5425354385eaeef73d7",
+          "pdfSha256": "9f30038d9109e01e30417dc636099349aa75109383e86e8f6732c7843ff75d01",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Yangilangan kitob kutilmoqda",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "4ff2e142f000a3c15b0c12447374e28e73bfb8ed2ab46266b0667bf1a3e193c0",
+          "pdfSha256": "c09056e470d32917698988cb1951d6185745879754269e2435aa4f413edec104",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        }
+      },
+      "pendingLabel": "Yangilangan kitob kutilmoqda",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "th": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "d6de5ba37b16b649755b5bb0c6efdd7b5ad208f1eacb06115921f35767cdb68a",
+          "pdfSha256": "462210493bc4cc445b695fb3fb76ea88f8cef0bd81b80edaebefebc1a169b689",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "รอหนังสือฉบับปรับปรุง",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "42dcd83e90ea899a9b3fb06ad5f33900696ec9a8d6f3f591730e7c8352565304",
+          "pdfSha256": "6f9153c1b52db5d5ce85d92a27adcfd4514a8c48abe4dca45d402806cf201a56",
+          "state": "source-registration-required",
+          "updatePending": true,
+          "label": "รอหนังสือฉบับปรับปรุง",
+          "publishedSourceCommit": "4cd0afe59cebae2efdbf32777f3ca47e5f02172b"
+        }
+      },
+      "pendingLabel": "รอหนังสือฉบับปรับปรุง",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "vi": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "36811ef0ae9276ecefd44c5863bab6358f0b5261db5b6db7c63e0854b3db5c88",
+          "pdfSha256": "85b7d0f8c0539cb52c9cbe6d2d4b09d5f0cd51ab19f50e200ca4d8db979ae9b6",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Đang chờ sách cập nhật",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "68a032c9b3724e4090e36390a5dc1d2d1f1bff486febb259f6a41011d49cb629",
+          "pdfSha256": "7991b4055bf30d27bc964a7645126d64c0ee21c7ba56b30bdc86248b426e93e6",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "4cd0afe59cebae2efdbf32777f3ca47e5f02172b"
+        }
+      },
+      "pendingLabel": "Đang chờ sách cập nhật",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "ja": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "51e5d913c147ffcbddceb071b9a4b7f37772c9eab6e3b9857948b148ef2cb22c",
+          "pdfSha256": "ba122cedbfa625f333ae71a5f32118708836b082c62ddfb379ca63e3a5333c6d",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "更新版の公開待ち",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "4b67f28c66d2926fb5de62d0a8f05f8fc81647ada795bd22ce81dee13b8805b3",
+          "pdfSha256": "03e117e5770713ea1e9b3d640d625dccdcfadbe22e9eb82ee1d02e62d6ff7ecb",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "3d52ed51a73ecb3497d7813d2d0b584dbf53df2a"
+        }
+      },
+      "pendingLabel": "更新版の公開待ち",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    },
+    "fil": {
+      "books": {
+        "tadabbur-extended": {
+          "sha256": "4fdb85924b6e471b616baa41a884eed7d22109ac336166b71257b1c6970b21e2",
+          "pdfSha256": "1940729c0351fca4f6b7f65ff6205c4151641cd224baf57c7be6b6f27def4917",
+          "state": "source-registration-blocked",
+          "updatePending": true,
+          "label": "Hinihintay ang na-update na aklat",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        },
+        "hadith": {
+          "sha256": "35ae5a36b8f4d0962f76d38f9687265da5a36d04f39193498f9493f10afc1828",
+          "pdfSha256": "86ed5fd7fa39e2137f2af70fa33159bc04b6c4f08528d4251889b34830a58eca",
+          "state": "current",
+          "updatePending": false,
+          "label": "",
+          "publishedSourceCommit": "2fdb31ab0b690197391de0a5d29e5b37340a46e6"
+        }
+      },
+      "pendingLabel": "Hinihintay ang na-update na aklat",
+      "bundleUpdatePending": true,
+      "unpublishedScopes": []
+    }
+  },
+  "sourceApprovalCreated": false,
+  "releaseApprovalCreated": false
+}

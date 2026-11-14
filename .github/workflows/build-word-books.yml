@@ -27,28 +27,83 @@ concurrency:
   group: current-books-${{ github.ref }}
   cancel-in-progress: false
 jobs:
-  validate:
+  intake:
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      pages: write
+    outputs:
+      commit: ${{ steps.checkpoint.outputs.commit }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.sha || 'main' }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: python -m pip install -r books/requirements.txt
-      - name: Compare audited app readers with selected and released book contents
+      - name: Register exact approved handoffs before source selection
+        id: checkpoint
+        env:
+          MAY_COMMIT: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
         run: |
-          python tests/test_app_book_coverage.py
-          python tools/check_app_book_coverage.py --root . --json "$RUNNER_TEMP/app-book-coverage.json"
-      - name: Preserve the app-to-book coverage report
+          args=()
+          if [ "$MAY_COMMIT" = true ]; then args+=(--commit); fi
+          python books/automation_checkpoint.py intake --root . --out "$RUNNER_TEMP/book-intake" "${args[@]}"
+      - name: Deploy the pending-update notice independently of book success
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
+      - uses: actions/upload-artifact@v4
         if: always()
-        uses: actions/upload-artifact@v4
+        with:
+          name: book-source-intake-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/book-intake/
+          retention-days: 90
+  source-coverage:
+    # This remains a failing audit when a scope is unapproved/stale. It is
+    # independent of preparation: each book still enforces its own complete
+    # selector, source/approval hashes, coverage and final release gates.
+    needs: intake
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.intake.outputs.commit }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r books/requirements.txt
+      - run: python books/material_publication_intake.py --root .
+      - name: Audit every historical app identity and approved successor
+        run: python tools/check_app_book_coverage.py --root . --json "$RUNNER_TEMP/app-book-coverage.json"
+      - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: app-book-coverage-${{ github.run_id }}-${{ github.run_attempt }}
           path: ${{ runner.temp }}/app-book-coverage.json
-          if-no-files-found: warn
           retention-days: 90
+  validate:
+    needs: intake
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.intake.outputs.commit }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r books/requirements.txt
+      - run: python books/material_publication_intake.py --root .
+      - name: Fetch the exact historical source fixture commit
+        run: git fetch --no-tags --depth=1 origin 80c666acc4ca8c87f6f6b0fc2df82be31b4f4792
       - name: Validate source fidelity, references, QR matching and publication
         run: |
+          python tests/test_source_propagation.py
+          python tests/test_live_download_bytes.py
+          python tests/test_app_book_coverage.py
+          node tests/test_source_update_status.mjs
           python tests/test_download_tables.py
           python tests/test_book_downloads.py
           python books/test_bundle_tables.py
@@ -145,7 +200,7 @@ jobs:
           path: ${{ runner.temp }}/renderer-contents/
           retention-days: 7
   publish:
-    needs: validate
+    needs: [intake, validate]
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
     timeout-minutes: 90
@@ -155,6 +210,7 @@ jobs:
       actions: read
     env:
       GH_TOKEN: ${{ github.token }}
+      SOURCE_COMMIT: ${{ needs.intake.outputs.commit }}
       BOOK_TAG: books-${{ github.run_id }}-${{ github.run_attempt }}
       FINALIZED_RELEASE: ${{ inputs.finalized_release || '' }}
       FINALIZED_ASSET: ${{ inputs.finalized_asset || '' }}
@@ -163,6 +219,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+          ref: ${{ needs.intake.outputs.commit }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -198,7 +255,7 @@ jobs:
       - name: Generate current material books and insert every applicable QR
         run: |
           python books/multilingual_readiness.py --root . --out "$RUNNER_TEMP/current-books/language-readiness.json"
-          python books/automatic_publication.py build --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
+          python books/automatic_publication.py build --root . --out "$RUNNER_TEMP/current-books" --commit "$SOURCE_COMMIT" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
       - name: Retrieve and verify exact owned-desktop candidate bundle
         id: finalized_transfer
         if: inputs.finalized_release != '' && github.event_name == 'workflow_dispatch'
@@ -212,12 +269,12 @@ jobs:
         if: steps.finalized_transfer.outcome == 'success'
         continue-on-error: true
         run: |
-          python books/automatic_publication.py finalize --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG" --finalized-dir "$RUNNER_TEMP/finalized-candidates"
+          python books/automatic_publication.py finalize --root . --out "$RUNNER_TEMP/current-books" --commit "$SOURCE_COMMIT" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG" --finalized-dir "$RUNNER_TEMP/finalized-candidates"
       - name: Intake finalized candidates transferred through the GitHub connector
         id: connector_intake
         continue-on-error: true
         run: |
-          python books/connector_candidate_transfer.py process --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
+          python books/connector_candidate_transfer.py process --root . --out "$RUNNER_TEMP/current-books" --commit "$SOURCE_COMMIT" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
       - name: Record rejected candidate transfer while retaining independent books
         if: steps.finalized_transfer.outcome == 'failure' || steps.finalized_intake.outcome == 'failure' || steps.connector_intake.outcome == 'failure'
         run: |
@@ -231,7 +288,7 @@ jobs:
           PY
       - name: Release verified pairs and regenerate the persistent download tables
         run: |
-          python books/automatic_publication.py publish --root . --out "$RUNNER_TEMP/current-books" --commit "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
+          python books/automatic_publication.py publish --root . --out "$RUNNER_TEMP/current-books" --commit "$SOURCE_COMMIT" --repo "$GITHUB_REPOSITORY" --tag "$BOOK_TAG"
           gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
       - name: Preserve build and publication receipts
         if: always()
@@ -249,7 +306,7 @@ jobs:
           path=Path(os.environ['RUNNER_TEMP'])/'current-books/publication-report.json'
           result=json.loads(path.read_text(encoding='utf8'))
           print(json.dumps(result,ensure_ascii=False))
-          lines=['## Current book publication','',f"Verified public pairs: {result['verifiedBookPairs']}. New pairs: {result['newPairs']}.",'']
+          lines=['## Current book publication','',f"Verified public byte pairs: {result['verifiedBookPairs']}. Current source pairs: {result['verifiedCurrentBookPairs']}. New pairs: {result['newPairs']}.",'']
           readiness=result.get('languageReadiness',{})
           if readiness:
               lines.extend([f"Automatic source intake covers {readiness['languageCount']} languages and {readiness['scopeCount']} language/category combinations. {readiness['automaticPreparationScopes']} currently have eligible source material.",''])
@@ -270,3 +327,30 @@ jobs:
           Path(os.environ['GITHUB_STEP_SUMMARY']).write_text('\n'.join(lines)+'\n',encoding='utf8')
           if result['failedScopes'] or result.get('downloadPage',{}).get('failedBundles') or result.get('approvedAudioIntakeErrors') or result.get('sourceTransactionErrors') or result.get('finalizedIntakeErrors'):raise SystemExit('Working book pairs were published; one or more other scopes or candidate transfers need repair. See publication-report.json.')
           PY
+  source-status:
+    needs: [intake, validate, publish]
+    if: always() && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r books/requirements.txt
+      - name: Refresh source status even after intake, validation or build failure
+        run: python books/automation_checkpoint.py status --root . --out "$RUNNER_TEMP/book-source-status" --commit
+      - name: Deploy source status
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: book-source-status-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/book-source-status/
+          retention-days: 90

@@ -98,6 +98,9 @@ jobs:
             git fetch --no-tags --depth=1 origin main
             git checkout --detach FETCH_HEAD
           done
+      - name: Hash actual public bodies and every combined ZIP member
+        if: always()
+        run: python tools/check_live_book_bytes.py --root . --json "$RUNNER_TEMP/book-downloads-live-bytes.json"
       - name: Summarize the last complete audit
         if: always()
         env:
