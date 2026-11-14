@@ -3,6 +3,7 @@ from pathlib import Path
 from io import BytesIO
 import hashlib,json,sys,unittest,zipfile
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'tools'))
+sys.path.insert(0,str(ROOT/'books'))
 from check_live_book_bytes import inspect,inventory
 
 class Response(BytesIO):
@@ -36,6 +37,31 @@ class BodyChecks(unittest.TestCase):
         out=BytesIO();pdf=PdfWriter();pdf.add_blank_page(width=100,height=100);pdf.write(out);raw=out.getvalue()
         result=inspect(self.item('pdf',raw),opener=lambda *a,**k:Response(raw))
         self.assertEqual(result['integrity'],'passed');self.assertEqual(result['pages'],1)
+    def test_all_changed_fatiha_text_survives_the_production_docx_writer(self):
+        # Diagnostic fragments only. They are never full-book/Word acceptance.
+        from docx import Document
+        from build_books import add_text,direction
+        from reader_xml import body_text
+        contracts=json.loads((ROOT/'books/regressions/source-propagation-20261114.json').read_bytes())['fatiha']
+        def strings(value):
+            if isinstance(value,str):yield value
+            elif isinstance(value,dict):
+                for v in value.values():yield from strings(v)
+            elif isinstance(value,list):
+                for v in value:yield from strings(v)
+        for language,contract in contracts.items():
+            with self.subTest(language=language):
+                source=json.loads((ROOT/contract['path']).read_bytes())
+                self.assertIn(contract['after'],'\n'.join(strings(source)))
+                doc=Document();paragraph=doc.add_paragraph();direction(paragraph,language)
+                add_text(paragraph,contract['after'],language,'Iman Book Inter','Iman Book Noto Naskh Arabic')
+                self.assertEqual(body_text(doc.element.body),contract['after'])
+                out=BytesIO();doc.save(out);raw=out.getvalue()
+                item=self.item('docx',raw);item.update(language=language,collection='tadabbur-extended')
+                result=inspect(item,opener=lambda *a,**k:Response(raw),contracts=contracts)
+                self.assertEqual(result['integrity'],'passed')
+                self.assertTrue(result['textComparison']['afterPresent'])
+                self.assertFalse(result['textComparison']['beforePresent'])
     def test_current_public_inventory_includes_all_pairs_and_bundle_assets(self):
         catalog=json.loads((ROOT/'docs/books/catalog.json').read_bytes());bundles=json.loads((ROOT/'books/published-bundles.json').read_bytes())
         rows=inventory(catalog,bundles)

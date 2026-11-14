@@ -10,7 +10,17 @@ for(const language of LANGUAGES){
     assert.equal(updateStatus(null,book).updatePending,true);
     assert.equal(updateStatus(status,{...book,sha256:'0'.repeat(64)}).state,'status-unverified');
   }
-  if(model.bundle)assert.equal(model.bundle.updatePending,status.languages[language].bundleUpdatePending||model.books.some(b=>b.sourceUpdate.updatePending));
+  if(model.bundle){
+    assert.equal(model.bundle.updatePending,status.languages[language].bundleUpdatePending||model.books.some(b=>b.sourceUpdate.updatePending));
+    // UI fixtures only: no real source or release acceptance is created.
+    const fixture=structuredClone(status),locale=fixture.languages[language];
+    for(const book of Object.values(locale.books)){book.updatePending=false;book.state='current';}
+    locale.bundleUpdatePending=false;
+    assert.equal(viewModel(catalog,language,fixture).bundle.updatePending,false);
+    locale.bundleLinks.docx+='-different-version';
+    assert.equal(viewModel(catalog,language,fixture).bundle.updatePending,true);
+    assert.equal(viewModel(catalog,language,null).bundle.updatePending,true);
+  }
 }
 const ar=viewModel(catalog,'ar',status);
 assert.equal(ar.books.find(b=>b.collection==='tadabbur-extended').sourceUpdate.updatePending,true);
