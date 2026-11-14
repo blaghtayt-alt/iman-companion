@@ -78,6 +78,12 @@ class DownloadHealthTests(unittest.TestCase):
             catalog.extend({**member, 'scope': collection} for member in members)
         self.write('materials/catalog.json', {'entries': catalog})
         self.write('books/published-library.json', {'schema': health.LIBRARY_SCHEMA, 'entries': self.entries})
+        # Synthetic source-status inputs only; no real approval or reader changes.
+        self.source_status = {'scopes': [{'language': e['book']['language'],
+            'collection': e['book']['collection'], 'state': 'current', 'updatePending': False,
+            'publishedHashes': {'docx': e['book']['sha256'], 'pdf': e['book']['pdfSha256']},
+            'nextAction': 'No source update pending.'} for e in self.entries]}
+        self.enterContext(patch.object(health, 'source_update_audit', side_effect=lambda root: self.source_status))
         (self.root / 'books/merge_public_books.py').write_bytes((ROOT / 'books/merge_public_books.py').read_bytes())
         ready, _ = health.recorded_inventory(self.root)
         bundles = {}
@@ -110,6 +116,31 @@ class DownloadHealthTests(unittest.TestCase):
             Image.new('RGB', (2, 2), 'white').save(target, format='WEBP')
         for name in health.STATIC_FILES:
             (self.root / 'docs/books' / name).write_bytes((ROOT / 'docs/books' / name).read_bytes())
+        self.refresh_source_status()
+
+    def refresh_source_status(self):
+        self.write('docs/books/update-status.json', health.public_projection(
+            self.source_status, health.read(self.root / 'docs/books/catalog.json')))
+
+    def previous_edition(self):
+        self.enterContext(patch.object(health, 'current', side_effect=lambda root, e: e['book']['language'] != 'ar'))
+        self.enterContext(patch.object(health, 'previous_edition_available', return_value=True))
+        entry = self.entries[1]
+        entry['availability'] = {'state': 'previous-published-edition', 'updatePending': True,
+            'includedUnitIds': entry['snapshot']['unitIds'], 'newMaterialsIncluded': False,
+            'currentSourceVerified': False}
+        self.write('books/published-library.json', {'schema': health.LIBRARY_SCHEMA, 'entries': self.entries})
+        self.source_status['scopes'][1].update(state='source-registration-blocked', updatePending=True,
+            nextAction='Complete the exact approved source transaction.')
+        ready, _ = health.recorded_inventory(self.root)
+        links, _ = health.recorded_bundles(self.root, ready)
+        font_path = 'assets/fonts/' + health.digest(self.font) + '.ttf'
+        with patch('book_content_coverage.download_coverage', side_effect=self.coverage), \
+                patch.object(download_page, 'font_assets', return_value={'regular': font_path, 'bold': font_path}), \
+                patch.object(download_page, 'source_file', return_value=Path('unused.pdf')), \
+                patch.object(download_page, 'cover_asset', side_effect=lambda root, pdf, sha: 'assets/covers/' + sha + '.webp'):
+            download_page.write_catalog(self.root, self.root / 'unused', ready, links)
+        self.refresh_source_status()
 
     def change(self, relative, mutation):
         value = health.read(self.root / relative)
@@ -221,6 +252,49 @@ class DownloadHealthTests(unittest.TestCase):
         self.assertTrue(result['passed'], result)
         self.assertTrue(all(c['status'] == 'pass' for c in result['checks'].values()))
         self.assertEqual(result['checks']['publicDownloadHTTP']['checkedURLs'], 6)
+
+    def test_previous_edition_pending_gate_keeps_all_remote_checks_running(self):
+        self.previous_edition()
+        result = health.audit(self.root, site_url='https://example.test/books/', verify_releases=True,
+                              verify_downloads=True, release_fetch=self.releases, site_fetch=self.site,
+                              download_probe=lambda url, size: {'status': 200, 'method': 'HEAD'})
+        self.assertFalse(result['passed'])
+        self.assertEqual(result['checks']['sourceCurrency']['status'], 'pending')
+        self.assertEqual(result['counts']['pendingSourceScopes'], 1)
+        for check in ('local', 'releaseMetadata', 'publicDownloadHTTP', 'deployedSite'):
+            self.assertEqual(result['checks'][check]['status'], 'pass', (check, result))
+        self.assertEqual(result['checks']['publicDownloadHTTP']['checkedURLs'], 6)
+        self.assertEqual({e['check'] for e in result['errors']}, {'sourceCurrency'})
+
+    def test_previous_edition_cannot_claim_current_source_verified(self):
+        self.previous_edition()
+        self.change('books/published-library.json', lambda d: d['entries'][1]['availability'].update(currentSourceVerified=True))
+        self.assert_bad('availability needs publisher reconciliation')
+
+    def test_withdrawn_or_held_previous_edition_is_still_rejected(self):
+        self.previous_edition()
+        with patch.object(health, 'previous_edition_available', return_value=False):
+            self.assert_bad('stale or withdrawn')
+
+    def test_clearing_pending_status_without_source_acceptance_fails(self):
+        self.previous_edition()
+        self.change('docs/books/update-status.json', lambda d: d['languages']['ar']['books']['articles'].update(updatePending=False))
+        result = health.audit(self.root, verify_releases=True, release_fetch=self.releases)
+        self.assertFalse(result['passed'])
+        self.assertEqual(result['checks']['sourceCurrency']['status'], 'fail')
+        self.assertIn('Public pending status differs', result['errors'][0]['message'])
+        self.assertEqual(result['checks']['releaseMetadata']['status'], 'pass')
+
+    def test_unpublished_scope_also_keeps_source_currency_pending(self):
+        self.source_status['scopes'].append({'language': 'fa', 'collection': 'articles',
+            'state': 'source-registration-required', 'updatePending': True,
+            'publishedHashes': {'docx': None, 'pdf': None},
+            'nextAction': 'Register the exact approved new material.'})
+        self.refresh_source_status()
+        result = health.audit(self.root)
+        self.assertFalse(result['passed'])
+        self.assertEqual(result['checks']['local']['status'], 'pass')
+        self.assertEqual(result['checks']['sourceCurrency']['pendingScopes'][0]['language'], 'fa')
 
     def test_missing_remote_release_asset_fails(self):
         def missing(tag):

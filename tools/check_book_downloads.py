@@ -32,7 +32,8 @@ from locale_copy import NATIVE_DIGITS, locale
 from preparation_copy import LIMITED
 from published_library import (HEX, SCHEMA as LIBRARY_SCHEMA, asset_names,
                                catalog_members, current, inside,
-                               limited_continuity, read, scope_key, verify_pair)
+                               limited_continuity, previous_edition_available, read, scope_key, verify_pair)
+from source_update_status import audit as source_update_audit, public_projection
 from check_app_book_coverage import member_ids
 from temporary_test_labels import decorate_catalog_row
 
@@ -97,6 +98,10 @@ def recorded_inventory(root):
         elif limited_continuity(root, entry):
             retained = {'state': 'verified-limited-edition', 'updatePending': True,
                         'includedUnitIds': entry['snapshot']['unitIds'], 'newMaterialsIncluded': False}
+        elif previous_edition_available(root, entry):
+            retained = {'state': 'previous-published-edition', 'updatePending': True,
+                        'includedUnitIds': entry['snapshot']['unitIds'], 'newMaterialsIncluded': False,
+                        'currentSourceVerified': False}
         else:
             raise ValueError(f'Published snapshot is stale or withdrawn: {key}')
         if entry.get('availability') != retained:
@@ -364,6 +369,26 @@ def audit(root, *, site_url=None, verify_releases=False, verify_downloads=False,
             if enabled:
                 report['checks'][key]['status'] = 'fail' if key == 'local' else 'blocked-by-local-failure'
         return report
+    # Source currency is still a failing gate. It must not prevent independent
+    # verification of the explicitly old, hash-bound public edition or site.
+    report['scope']['sourceCurrency'] = True
+    try:
+        source = source_update_audit(root)
+        expected_status = public_projection(source, read(root / 'docs/books/catalog.json'))
+        actual_status = read(root / 'docs/books/update-status.json')
+        if actual_status != expected_status:
+            raise ValueError('Public pending status differs from the current sources and exact published hashes')
+        pending = [{key: row.get(key) for key in ('language', 'collection', 'state', 'nextAction')}
+                   for row in source['scopes'] if row['updatePending']]
+        report['checks']['sourceCurrency'] = {'status': 'pending' if pending else 'pass',
+            'pendingScopes': pending, 'sourceApprovalCreated': False}
+        report['counts']['pendingSourceScopes'] = len(pending)
+        if pending:
+            errors.append({'check': 'sourceCurrency', 'path': 'docs/books/update-status.json',
+                           'message': f'{len(pending)} source updates remain pending; see each scope nextAction.'})
+    except Exception as error:
+        report['checks']['sourceCurrency'] = {'status': 'fail'}
+        errors.append({'check': 'sourceCurrency', 'path': 'docs/books/update-status.json', 'message': str(error)})
     site_results = []
     if site_url:
         parsed = urlparse(site_url)

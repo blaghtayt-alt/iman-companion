@@ -264,7 +264,9 @@ def publish(root,out,commit,repo,tag,execute=run):
     build_report=read(out/'build-report.json')
     result={'verifiedBookPairs':count,'newPairs':len(entries),'preparedAwaitingReleaseQC':summaries(root),'staleScopesRemoved':stale,'nativeLanguagePages':20,'tablesCommitted':bool(changed),'failedScopes':build_report['failed'],'approvedAudioIntakeErrors':build_report.get('approvedAudioIntakeErrors',[])}
     result['previousEditionsAwaitingUpdate']=[{'language':key[0],'collection':key[1]} for key,book in ready.items() if book.get('availability',{}).get('state')=='previous-published-edition']
-    result['verifiedCurrentBookPairs']=sum(not book.get('availability') for book in ready.values())
+    # Matching the registered snapshot does not prove that newly discovered,
+    # not-yet-approved readers are included. The source-status audit owns that.
+    result['matchingRegisteredSnapshotPairs']=sum(not book.get('availability') for book in ready.values())
     result['downloadPage']=downloads
     result['finalizedIntakeErrors']=build_report.get('finalizedIntakeErrors',[])
     intake=root/'books/.cache/material-intake-report.json'

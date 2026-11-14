@@ -308,7 +308,7 @@ jobs:
           path=Path(os.environ['RUNNER_TEMP'])/'current-books/publication-report.json'
           result=json.loads(path.read_text(encoding='utf8'))
           print(json.dumps(result,ensure_ascii=False))
-          lines=['## Current book publication','',f"Verified public byte pairs: {result['verifiedBookPairs']}. Current source pairs: {result['verifiedCurrentBookPairs']}. New pairs: {result['newPairs']}.",'']
+          lines=['## Current book publication','',f"Verified public byte pairs: {result['verifiedBookPairs']}. Matching registered snapshots: {result['matchingRegisteredSnapshotPairs']}. New pairs: {result['newPairs']}.",'','Matching a registered snapshot does not establish that newly discovered readers are included. See the independent source-update status.','']
           readiness=result.get('languageReadiness',{})
           if readiness:
               lines.extend([f"Automatic source intake covers {readiness['languageCount']} languages and {readiness['scopeCount']} language/category combinations. {readiness['automaticPreparationScopes']} currently have eligible source material.",''])
