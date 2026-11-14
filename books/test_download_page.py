@@ -1,4 +1,5 @@
 from pathlib import Path
+from datetime import datetime,timezone
 from unittest.mock import patch
 import copy,json,os,subprocess,tempfile,unittest,zipfile
 import install_assets
@@ -207,6 +208,38 @@ class PublicationTests(unittest.TestCase):
         for field,value in[('hadithEdition','legacy-short'),('previewOnly',True),('exportVerified',False)]:
             ready=self.ready(collection='hadith');ready[('ru','hadith')][field]=value
             with self.assertRaises(ValueError):self.publish(ready)
+    def populated_catalog_fixture(self):
+        conf=json.loads((Path(__file__).parent/'config.json').read_bytes())
+        (self.root/'books/config.json').write_text(json.dumps(conf),encoding='utf8')
+        ready=self.ready('en','hadith')
+        ready[('en','hadith')].update(collectionLabel='Hadith',units=[{'id':'essential-01-001','title':'Hadith 1'}])
+        return ready
+    def test_populated_catalog_retry_keeps_exact_bytes_across_clock_changes(self):
+        ready=self.populated_catalog_fixture()
+        with patch('download_page.font_assets',return_value={}),patch('download_page.cover_asset',return_value='assets/fixture.webp'),patch('download_page.datetime')as clock:
+            clock.now.return_value=datetime(2026,11,14,1,tzinfo=timezone.utc)
+            first=write_catalog(self.root,self.out,ready,{})
+            path=self.root/'docs/books/catalog.json';before=path.read_bytes()
+            # Real numbered Hadith coverage has tuples in memory and lists on disk.
+            self.assertEqual(json.loads(before)['languages']['en']['books'][0]['coverage']['includedNumbers']['essential-01-001'],[1,1])
+            clock.now.return_value=datetime(2026,11,14,2,tzinfo=timezone.utc)
+            second=write_catalog(self.root,self.out,ready,{})
+            self.assertEqual(path.read_bytes(),before)
+            self.assertEqual(second['updated'],first['updated'])
+    def test_changed_pending_notice_updates_catalog_once_then_retries_stably(self):
+        ready=self.populated_catalog_fixture()
+        with patch('download_page.font_assets',return_value={}),patch('download_page.cover_asset',return_value='assets/fixture.webp'),patch('download_page.datetime')as clock:
+            clock.now.return_value=datetime(2026,11,14,1,tzinfo=timezone.utc)
+            first=write_catalog(self.root,self.out,ready,{})
+            ready[('en','hadith')]['availability']={'state':'previous-published-edition','updatePending':True,'currentSourceVerified':False}
+            clock.now.return_value=datetime(2026,11,14,2,tzinfo=timezone.utc)
+            changed=write_catalog(self.root,self.out,ready,{})
+            self.assertNotEqual(changed['updated'],first['updated'])
+            self.assertTrue(changed['languages']['en']['books'][0]['availability']['updatePending'])
+            path=self.root/'docs/books/catalog.json';before=path.read_bytes()
+            clock.now.return_value=datetime(2026,11,14,3,tzinfo=timezone.utc)
+            write_catalog(self.root,self.out,ready,{})
+            self.assertEqual(path.read_bytes(),before)
     def test_all_twenty_native_empty_pages_have_no_fallback_book(self):
         fonts=self.root/'books/fonts';fonts.mkdir();(fonts/'pinned.ttf').write_bytes(b'font fixture')
         font={'files':{'Regular':'books/fonts/pinned.ttf','Bold':'books/fonts/pinned.ttf'},'sha256':{'Regular':sha(b'font fixture'),'Bold':sha(b'font fixture')}}

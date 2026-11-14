@@ -215,7 +215,10 @@ def write_catalog(root,out,ready,bundles):
                 row['books'][-1].update({'availability':book['availability'],'statusLabel':LIMITED[language]})
         decorate_catalog_row(row, inventory(ready,language))
         languages[language]=row
-    catalog={'schema':'iman-book-downloads-v1','languages':languages};path=root/'docs/books/catalog.json'
+    # Compare the persisted JSON representation. Numbered Hadith coverage uses
+    # tuples in memory, while the previous catalogue has JSON lists; comparing
+    # those Python shapes creates a timestamp-only commit on every retry.
+    catalog=json.loads(json.dumps({'schema':'iman-book-downloads-v1','languages':languages},ensure_ascii=False));path=root/'docs/books/catalog.json'
     previous=read(path)if path.exists()else{}
     if {k:v for k,v in previous.items()if k!='updated'}==catalog:catalog['updated']=previous['updated']
     else:catalog['updated']=datetime.now(timezone.utc).isoformat(timespec='seconds')
