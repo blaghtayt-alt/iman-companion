@@ -1,0 +1,117 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "8c2cdb56b9ea51d9b2fd346684ab92ee7d941a318b612071d08cb4ef0c0813f9",
+  "catalogEntry": {
+    "collection": "tadabbur",
+    "language": "ar",
+    "id": "25:extended",
+    "markdown": "materials/tadabbur/ar/extended/025.md",
+    "json": "materials/tadabbur/ar/extended/025.json",
+    "translationStatus": "arabic-source",
+    "surah": 25,
+    "mode": "extended",
+    "ayahs": 19,
+    "hasIntroduction": false,
+    "sourceHashes": [
+      "e442a14eacc9fa1f7fb4cf34fe28cf5f90e70ae5f968c4db4ed38c2c2071009b"
+    ],
+    "historicalCommentaryArchive": "materials/tadabbur/ar/archive/940/extended/025.json",
+    "currentAppAlignedEntries": 19
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/tadabbur/ar/extended/025.json",
+      "sha256": "d0e8109f48e98b4dea257f35bc6a71626b33f677737906c6b8b9cc03b9af7e73"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/025.md",
+      "sha256": "4f52dee0917cf77ed514d88c808a33bf0e5e2e895a11537fe2832b0b3993f894"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "canonicalOrder": 25,
+  "readerUnit": {
+    "path": "materials/source-acceptances/recovered-329-v1/ar/25-extended/reader.json",
+    "sha256": "475bf8ffa8189bc13695f205e79528fa4d070d7565f6ad17e52a614072f27ae3"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "recovered-existing-review-329-v1-ar-25:extended",
+    "reviewer": {
+      "kind": "source-owner-literal-structural-reconciliation",
+      "identity": "/root",
+      "scope": "Exact transfer of original whole-reader review and independently reviewed finite corrections; no new semantic/human/Word/visual approval"
+    },
+    "readerTextSHA256": "47cb1e31b890f03f29d0e38fb48bba8505e0aae95edbee4321b02b0499b2997d",
+    "material": {
+      "collection": "tadabbur",
+      "language": "ar",
+      "id": "25:extended"
+    },
+    "coverage": {
+      "schema": "iman-reviewed-quran-coverage-v1",
+      "surah": 25,
+      "ayahKeys": [
+        "25:1",
+        "25:7",
+        "25:10",
+        "25:27",
+        "25:28",
+        "25:29",
+        "25:30",
+        "25:31",
+        "25:32",
+        "25:35",
+        "25:36",
+        "25:53",
+        "25:61",
+        "25:63",
+        "25:64",
+        "25:67",
+        "25:68",
+        "25:72",
+        "25:73"
+      ],
+      "introduction": {
+        "state": "not-in-reviewed-material"
+      },
+      "scopeLabel": "الآيات المتاحة"
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/25-extended/existing-review-chain.json",
+        "sha256": "46c5b2c3eeeaa06fbc827257d312bab3361608f21ebee02e204fca11d54e3112"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/25-extended/literal-transfer-receipt.json",
+        "sha256": "a1b3919915c22dc3e1131cf67122c80029afde6fbd9c9704421d57f987499a6e"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/25-extended/literal-source-acceptance.json",
+        "sha256": "b6b754514ef342461468991c5de1e135a67245bf04219b1975d108b6d9aec66e"
+      },
+      {
+        "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
+        "sha256": "8de1900c4f19f24b093d388f398ab9510397153f7b9b8d0e94ffed4a1b965f76"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/tadabbur/ar/extended/025.json",
+      "sha256": "d0e8109f48e98b4dea257f35bc6a71626b33f677737906c6b8b9cc03b9af7e73"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/025.md",
+      "sha256": "4f52dee0917cf77ed514d88c808a33bf0e5e2e895a11537fe2832b0b3993f894"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ]
+}
