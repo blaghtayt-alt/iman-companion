@@ -38,6 +38,21 @@ class AdapterTests(unittest.TestCase):
     def test_held_or_unknown_evidence_cannot_be_created_by_formatter(self):
         self.evidence=self.inputs();self.record['sourceFiles'][0]['sha256']='0'*64
         with self.assertRaisesRegex(ValueError,'Changed edition'):self.build()
+    def test_reference_role_keeps_literal_locator_and_original_collection(self):
+        block=self.payload['entries']['18:3']['blocks'][-1]
+        block['text']='Sahih Muslim 809'
+        citation={'type':'hadith','book':'muslim','number':'809'}
+        block['spans']=[{'text':block['text'],'role':'reference','citations':[citation]}]
+        self.evidence=self.inputs();unit=self.build()
+        span=unit['sections'][-1]['blocks'][-1]['spans'][0]
+        self.assertEqual(span['text'],block['text'])
+        self.assertEqual(span['role'],'note')
+        self.assertEqual(span['citations'],[citation])
+        self.assertFalse(unit['provenance']['sourceApprovalCreated'])
+    def test_unknown_reference_like_role_still_fails(self):
+        self.payload['entries']['18:3']['blocks'][-1]['role']='unreviewed-reference-kind'
+        self.evidence=self.inputs()
+        with self.assertRaisesRegex(ValueError,'Unrecognized source semantic role'):self.build()
     def test_wrong_source_bounds_or_unknown_sections_are_not_silently_omitted(self):
         for mode in ['bounds','unknown']:
             self.set_payload=deepcopy(self.payload)

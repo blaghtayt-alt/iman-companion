@@ -18,7 +18,10 @@ from book_scope_copy import AVAILABLE_AYAHS
 from book_reference_projection import index_projection,place as place_reference_projection
 
 def sha(raw):return hashlib.sha256(raw).hexdigest()
-ROLES={'plain':'body','meaning':'body','example':'body','body':'body','note':'note','related':'related','related-ayah':'quran','current-ayah':'current-ayah','quran':'quran','hadith':'hadith','scholar':'scholar','heading':'heading'}
+# Current Arabic sources mark literal reference furniture as "reference".
+# Preserve its exact text and citation identity using the book's existing note
+# style; unknown roles must still fail rather than be silently flattened.
+ROLES={'plain':'body','meaning':'body','example':'body','body':'body','note':'note','reference':'note','related':'related','related-ayah':'quran','current-ayah':'current-ayah','quran':'quran','hadith':'hadith','scholar':'scholar','heading':'heading'}
 
 def reviewed_record(root,declaration,row):
     records=[]
