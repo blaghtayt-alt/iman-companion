@@ -1,0 +1,120 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "0784e984f93c5b40326e27d4cdf9de8cc267fe91bb7a01899a92e92e36ba3f23",
+  "catalogEntry": {
+    "collection": "tadabbur",
+    "language": "ar",
+    "id": "4:extended",
+    "markdown": "materials/tadabbur/ar/extended/004.md",
+    "json": "materials/tadabbur/ar/extended/004.json",
+    "translationStatus": "arabic-source",
+    "surah": 4,
+    "mode": "extended",
+    "ayahs": 20,
+    "hasIntroduction": true,
+    "sourceHashes": [
+      "137c481825ec82201ca16dc3348c3181b6dc9dd4f064a155f2cfc26a2137d16d"
+    ],
+    "currentAppAlignedEntries": 20,
+    "sourceStatusNote": "Supplied Arabic source correspondence checked; author-candidate status remains and no independent final is asserted.",
+    "historicalCommentaryArchive": "materials/tadabbur/ar/archive/940/extended/004.json"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/tadabbur/ar/extended/004.json",
+      "sha256": "737c702cae6e3ee82501fca8d4ae1b3dc8eb6e254bc0a126c1d1c9b204e8a558"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/004.md",
+      "sha256": "0637be6c3b38c323df389db2dd6007bde934c438493dd1424c2855823d325d2d"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "canonicalOrder": 4,
+  "readerUnit": {
+    "path": "materials/source-acceptances/recovered-329-v1/ar/4-extended/reader.json",
+    "sha256": "ea947eb7bb9d094abbfb4279c0cf12acc6443d98a34c70dfbf88c2f30fa2baeb"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "recovered-existing-review-329-v1-ar-4:extended",
+    "reviewer": {
+      "kind": "source-owner-literal-structural-reconciliation",
+      "identity": "/root",
+      "scope": "Exact transfer of original whole-reader review and independently reviewed finite corrections; no new semantic/human/Word/visual approval"
+    },
+    "readerTextSHA256": "4a4c58715fe95c1a848c690f6bb6e1e85c0721bd4ee8d527a0c11aae0db177dd",
+    "material": {
+      "collection": "tadabbur",
+      "language": "ar",
+      "id": "4:extended"
+    },
+    "coverage": {
+      "schema": "iman-reviewed-quran-coverage-v1",
+      "surah": 4,
+      "ayahKeys": [
+        "4:27",
+        "4:28",
+        "4:51",
+        "4:61",
+        "4:71",
+        "4:72",
+        "4:73",
+        "4:74",
+        "4:75",
+        "4:76",
+        "4:77",
+        "4:78",
+        "4:83",
+        "4:84",
+        "4:85",
+        "4:104",
+        "4:105",
+        "4:107",
+        "4:128",
+        "4:135"
+      ],
+      "introduction": {
+        "state": "included",
+        "readerTextSHA256": "f9eac3647910475b5a8a7c99c66d753402ec5c65f856a9e3817eeb42606ec7d7"
+      },
+      "scopeLabel": "الآيات المتاحة"
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/4-extended/existing-review-chain.json",
+        "sha256": "266432f807e9601ce3b6f6983e87577a8e1b57e4e9e2e15232d0f486df25e247"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/4-extended/literal-transfer-receipt.json",
+        "sha256": "cb171d8700f73068aa7a0695987acbe5c0eaba633ed95e9877e6808ea3ba5a1a"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/4-extended/literal-source-acceptance.json",
+        "sha256": "ca8c869aa96906a109450e34096a72194332c89dc6a71ae019a31717f9f0a27e"
+      },
+      {
+        "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
+        "sha256": "8de1900c4f19f24b093d388f398ab9510397153f7b9b8d0e94ffed4a1b965f76"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/tadabbur/ar/extended/004.json",
+      "sha256": "737c702cae6e3ee82501fca8d4ae1b3dc8eb6e254bc0a126c1d1c9b204e8a558"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/004.md",
+      "sha256": "0637be6c3b38c323df389db2dd6007bde934c438493dd1424c2855823d325d2d"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ]
+}

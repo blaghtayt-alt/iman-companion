@@ -1,0 +1,66 @@
+{
+  "collection": "tadabbur",
+  "language": "ar",
+  "materialId": 4,
+  "mode": "extended",
+  "sourceFiles": [
+    {
+      "path": "materials/tadabbur/ar/extended/004.json",
+      "sha256": "737c702cae6e3ee82501fca8d4ae1b3dc8eb6e254bc0a126c1d1c9b204e8a558"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/004.md",
+      "sha256": "0637be6c3b38c323df389db2dd6007bde934c438493dd1424c2855823d325d2d"
+    }
+  ],
+  "sourceConditions": [
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "existingWholeReview": {
+    "kind": "Arabic literal/structural source QC; not a translation, semantic or scholarly certification",
+    "handoffSHA256": "dc0acde7a951e538f0fe2cb1a1f05f65a965dbe24d0d87876adb0bc9c765c3bf",
+    "sourceAuditSHA256": "448499b9d601acada5995d693beda83180d2fc03a50edccff21b17d81f6320d3"
+  },
+  "historicalPublication": {
+    "publicCommit": "b05131fed345444774a020a10ae134ca094c6947",
+    "basis": "Root atomic GitHub readback pinned this exact commit; both current JSON/Markdown byte blob IDs match the local tree for that commit. The root readback itself directly fetched book-table files, not every individual material file.",
+    "rootReadbackReceipt": "ROOT-ALL20-ATOMIC-GITHUB-TABLE-READBACK.json",
+    "directIndividualPriorReadback": null,
+    "commit": "b05131fed345444774a020a10ae134ca094c6947"
+  },
+  "bookCoverage": {
+    "ayahKeys": [
+      "4:27",
+      "4:28",
+      "4:51",
+      "4:61",
+      "4:71",
+      "4:72",
+      "4:73",
+      "4:74",
+      "4:75",
+      "4:76",
+      "4:77",
+      "4:78",
+      "4:83",
+      "4:84",
+      "4:85",
+      "4:104",
+      "4:105",
+      "4:107",
+      "4:128",
+      "4:135"
+    ],
+    "introductionSectionIds": [
+      "intro"
+    ]
+  },
+  "referenceProjection": {
+    "path": "books/.cache/stale-books-recovery/ar-004-references.json",
+    "sha256": "bf703742e5f468427d971b7b64e52d1f32b46bb3f01a9eeedcf069b4520be72e"
+  },
+  "bookPresentation": []
+}
