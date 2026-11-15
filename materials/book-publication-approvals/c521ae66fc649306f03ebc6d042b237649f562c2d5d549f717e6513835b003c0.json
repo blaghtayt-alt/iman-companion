@@ -1,0 +1,145 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "cfe08389679c9cef886c2199ee90640c471f33fd4ac90e6c0e3d7ec66eed13ac",
+  "catalogEntry": {
+    "collection": "tadabbur",
+    "language": "en",
+    "id": "15:extended",
+    "markdown": "materials/tadabbur/en/extended/015.md",
+    "json": "materials/tadabbur/en/extended/015.json",
+    "translationStatus": "ai-translated-needs-verification",
+    "surah": 15,
+    "mode": "extended",
+    "ayahs": 41,
+    "hasIntroduction": false,
+    "sourceHashes": [
+      "0b3913a833f4f0c976d1ed72beb35055de27ebeb20e29703a9e616c509d13027"
+    ]
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/tadabbur/ar/extended/015.json",
+      "sha256": "cfd1e70e346075ba39a1515d01847afc858c5aacf24abe14ad5ee592f7dbebfa"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/015.md",
+      "sha256": "9223ebf87dd06e0610f749a087ca0247ed3c3ec9be057dbaf0061aaa0492899f"
+    },
+    {
+      "path": "materials/tadabbur/en/extended/015.json",
+      "sha256": "2763590d010d6e3fe15942086bd29507e30b584d1aaffa29ecff34e07f720998"
+    },
+    {
+      "path": "materials/tadabbur/en/extended/015.md",
+      "sha256": "a04c5f4e65d0b3ae2c5ed27e6163d47aa7b570c9bb41c29ed3a472766df9d067"
+    }
+  ],
+  "canonicalOrder": 15,
+  "readerUnit": {
+    "path": "materials/source-acceptances/recovered-329-v1/en/15-extended/reader.json",
+    "sha256": "15daaf3b003983c296f57085064a0e87bdbaf740c4e920311c81b1de0badeb9a"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "recovered-existing-review-329-v1-en-15:extended",
+    "reviewer": {
+      "kind": "source-owner-literal-structural-reconciliation",
+      "identity": "/root",
+      "scope": "Exact transfer of original whole-reader review and independently reviewed finite corrections; no new semantic/human/Word/visual approval"
+    },
+    "readerTextSHA256": "8a21e2b133fe1e6c04bd3747f27102bd421f8411353dbe6a68d4903a3a795f39",
+    "material": {
+      "collection": "tadabbur",
+      "language": "en",
+      "id": "15:extended"
+    },
+    "coverage": {
+      "schema": "iman-reviewed-quran-coverage-v1",
+      "surah": 15,
+      "ayahKeys": [
+        "15:1",
+        "15:2",
+        "15:3",
+        "15:4",
+        "15:5",
+        "15:6",
+        "15:7",
+        "15:8",
+        "15:9",
+        "15:11",
+        "15:12",
+        "15:13",
+        "15:14",
+        "15:15",
+        "15:16",
+        "15:17",
+        "15:18",
+        "15:26",
+        "15:27",
+        "15:39",
+        "15:42",
+        "15:72",
+        "15:80",
+        "15:81",
+        "15:82",
+        "15:83",
+        "15:84",
+        "15:85",
+        "15:87",
+        "15:88",
+        "15:89",
+        "15:90",
+        "15:91",
+        "15:92",
+        "15:93",
+        "15:94",
+        "15:95",
+        "15:96",
+        "15:97",
+        "15:98",
+        "15:99"
+      ],
+      "introduction": {
+        "state": "not-in-reviewed-material"
+      },
+      "scopeLabel": "Included ayahs"
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/en/15-extended/existing-review-chain.json",
+        "sha256": "d7d00a97956c0845e0d21b1f08c9d2baefc7fa1d946e38e793843515b72255ee"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/en/15-extended/literal-transfer-receipt.json",
+        "sha256": "c477f99523fd02bbe3461abfc1637039cd4643acdc39b93ea8ceb61f7bf7f5f6"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/en/15-extended/literal-source-acceptance.json",
+        "sha256": "4665779927ca32dca4cc5e7ae7d69fc315207a5da0cf4cdf324af12a3fd5af0b"
+      },
+      {
+        "path": "books/source-projections/current-reviewed-quran.json",
+        "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/tadabbur/ar/extended/015.json",
+      "sha256": "cfd1e70e346075ba39a1515d01847afc858c5aacf24abe14ad5ee592f7dbebfa"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/015.md",
+      "sha256": "9223ebf87dd06e0610f749a087ca0247ed3c3ec9be057dbaf0061aaa0492899f"
+    },
+    {
+      "path": "materials/tadabbur/en/extended/015.json",
+      "sha256": "2763590d010d6e3fe15942086bd29507e30b584d1aaffa29ecff34e07f720998"
+    },
+    {
+      "path": "materials/tadabbur/en/extended/015.md",
+      "sha256": "a04c5f4e65d0b3ae2c5ed27e6163d47aa7b570c9bb41c29ed3a472766df9d067"
+    }
+  ]
+}
