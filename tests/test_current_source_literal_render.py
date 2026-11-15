@@ -35,6 +35,7 @@ class CurrentLiteralRendering(unittest.TestCase):
             [current.PROJECTION,'materials/catalog.json','books/reviewed-books.json',
              'materials/translation-status.json','books/config.json','books/assets/quran-arabic.json','books/assets/surah-names.json','books/assets/surah-names-native-20261107.json']+
              [b['path'] for b in cls.declaration['sourceReviewBindings']])
+        cls.catalog = current.read(cls.source_root, 'materials/catalog.json')
         cls.record, cls.evidence = current.records(cls.source_root, cls.declaration)[0]
         cls.unit = current.normalize(cls.source_root, cls.catalog, cls.record['catalogEntry'], cls.record, cls.evidence)
         notes = [(text, proof_list(proofs)) for section in cls.unit['sections']

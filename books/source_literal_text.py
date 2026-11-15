@@ -7,6 +7,7 @@ introduced and no new prose receives an exception.
 """
 import hashlib
 import json
+import os
 import re
 from functools import lru_cache
 from bibliography import native_text
@@ -15,6 +16,47 @@ from reviewed_hadith_sources import SCHEMA as REVIEW_SCHEMA, source_pointer, val
 SCHEMA = 'iman-source-literal-text-v1'
 APPROVED_READER_SCHEMA = 'iman-approved-reader-source-v1'
 _VALIDATED_CURRENT = {}
+
+
+@lru_cache(maxsize=1)
+def _windows_file_api():
+    import ctypes
+    from ctypes import wintypes
+    class BasicInfo(ctypes.Structure):
+        _fields_ = [('creation', ctypes.c_longlong), ('access', ctypes.c_longlong),
+                    ('write', ctypes.c_longlong), ('change', ctypes.c_longlong),
+                    ('attributes', wintypes.DWORD)]
+    kernel = ctypes.WinDLL('kernel32', use_last_error=True)
+    create = kernel.CreateFileW
+    create.argtypes = [wintypes.LPCWSTR, wintypes.DWORD, wintypes.DWORD,
+                       ctypes.c_void_p, wintypes.DWORD, wintypes.DWORD, wintypes.HANDLE]
+    create.restype = wintypes.HANDLE
+    query = kernel.GetFileInformationByHandleEx
+    query.argtypes = [wintypes.HANDLE, ctypes.c_int, ctypes.c_void_p, wintypes.DWORD]
+    query.restype = wintypes.BOOL
+    close = kernel.CloseHandle
+    close.argtypes = [wintypes.HANDLE]
+    close.restype = wintypes.BOOL
+    return ctypes, wintypes, BasicInfo, create, query, close
+
+
+def _windows_change_time(path):
+    """Detect equal-length edits even when mtime is restored on Windows."""
+    ctypes, wintypes, BasicInfo, create, query, close = _windows_file_api()
+    absolute = os.path.abspath(path)
+    if not absolute.startswith('\\\\?\\'):
+        absolute = ('\\\\?\\UNC\\' + absolute[2:] if absolute.startswith('\\\\')
+                    else '\\\\?\\' + absolute)
+    handle = create(absolute, 0x80, 7, None, 3, 0x02000000, None)
+    if handle == wintypes.HANDLE(-1).value:
+        raise ctypes.WinError(ctypes.get_last_error())
+    try:
+        info = BasicInfo()
+        if not query(handle, 0, ctypes.byref(info), ctypes.sizeof(info)):
+            raise ctypes.WinError(ctypes.get_last_error())
+        return info.change
+    finally:
+        close(handle)
 
 
 def sha(raw):
@@ -28,7 +70,8 @@ def normalize_lines(text):
 def _stamp(path):
     stat = path.stat()
     return (stat.st_dev, stat.st_ino, stat.st_mode, stat.st_size,
-            stat.st_mtime_ns, stat.st_ctime_ns)
+            stat.st_mtime_ns, stat.st_ctime_ns,
+            _windows_change_time(path) if os.name == 'nt' else None)
 
 
 @lru_cache(maxsize=256)
