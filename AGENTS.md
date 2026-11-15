@@ -39,3 +39,29 @@ Verify actual public download bodies with `tools/check_live_book_bytes.py`,
 including all members of each combined ZIP. A successful Pages deployment,
 HTTP HEAD, or a matching old release digest does not prove current source text.
 The pending status must be refreshed even when validation or preparation fails.
+
+## Every material edit includes its downloadable books
+
+Treat a request such as "update this material and its books" as one complete
+source-to-download task. Do not stop after changing the app, Markdown, JSON or
+website. Follow [BOOK-UPDATES.md](BOOK-UPDATES.md), using the existing guarded
+transaction and publisher. These instructions apply to corrections as well as
+new material and to every already-translated counterpart affected by the edit.
+
+Preserve the exact approved BEFORE/AFTER decisions and their original review
+evidence. A discrepancy between a later Word file and an independently approved
+source disposition is a conflict to reconcile, never permission to restore an
+older paragraph or discard the approved translation. Keep versioned originals.
+
+Carry the complete approved reader, original whole-material review and exact
+finite correction evidence together. Missing reader registration is part of the
+editing task; do not merely change source hashes to silence its error. If that
+evidence is incomplete, prepare a private comparison candidate and name the
+missing decision without creating an approval. Never describe such a candidate
+as installed, accepted, published or current in the download tables.
+
+After an accepted build, verify the changed text in freshly downloaded DOCX and
+PDF files and the exact members of each affected combined bundle. Report source
+revision, reader registration, preparation, Word/visual acceptance and public
+release separately. The user's current restrictions on local Word execution
+still apply; an automatic build does not authorize starting Word on their PC.
