@@ -1,0 +1,3539 @@
+{
+  "schema": "iman-book-unit-v1",
+  "id": "17:extended",
+  "language": "fr",
+  "collection": "tadabbur-extended",
+  "surah": 17,
+  "order": 17,
+  "title": "Sourate Al-Isra · Versets disponibles",
+  "complete": true,
+  "reviewGate": "published-current",
+  "sourceHashes": [
+    "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1"
+  ],
+  "inputBindings": [
+    {
+      "path": "books/assets/quran-arabic.json",
+      "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+    },
+    {
+      "path": "books/assets/surah-names-native-20261107.json",
+      "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
+    },
+    {
+      "path": "books/source-projections/current-reviewed-quran.json",
+      "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+    },
+    {
+      "path": "materials/book-publication-approvals/8d5a860ba5bdb4baec0ccf076a0c2835794023578bc0acb2753f218d27f82126.json",
+      "sha256": "8d5a860ba5bdb4baec0ccf076a0c2835794023578bc0acb2753f218d27f82126"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/existing-review-chain.json",
+      "sha256": "a00ba351a9310b13fd9f32c60968757805251f7d1799a9e4efed43ff03964b1e"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-transfer-receipt.json",
+      "sha256": "73cd608d6fee6722d30673fa1a335951e7199fcd3f7707c8d35c5a9692dc3da9"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/reader.json",
+      "sha256": "9a04d023e5ec9d46e0548b8a8f738a8da4b7899838ebf6704f2d874f3fec029a"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/registered-source.json",
+      "sha256": "79adb39bf0444251a3c9a0b258ea4dc2ffda46d8ece6ca7ac2a976159b12ea25"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc.json",
+      "sha256": "89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/017.json",
+      "sha256": "7960771ac3d5a8f917379f3c87d792af37bb4f5c14be1b11ca679be25ae257fb"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/017.md",
+      "sha256": "694b4c2d5deac195e3828b3b5ebb6a4f7e1748181a7569073d5701b1675943b4"
+    },
+    {
+      "path": "materials/tadabbur/fr/extended/017.json",
+      "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+    },
+    {
+      "path": "materials/tadabbur/fr/extended/017.md",
+      "sha256": "b1eeb54d4d644ac1ba8214240dd1fdbc946f898595f495aaddc076e19161d0e6"
+    }
+  ],
+  "catalogBindings": [
+    {
+      "collection": "tadabbur",
+      "language": "fr",
+      "id": "17:extended"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verset 73",
+      "blocks": [
+        {
+          "kind": "ayah",
+          "verseKey": "17:73",
+          "text": "وَإِن كَادُوا۟ لَيَفْتِنُونَكَ عَنِ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ لِتَفْتَرِىَ عَلَيْنَا غَيْرَهُۥ ۖ وَإِذًۭا لَّٱتَّخَذُوكَ خَلِيلًۭا ٧٣",
+          "role": "current-ayah"
+        },
+        {
+          "kind": "translation",
+          "text": "Ils ont failli te détourner de ce que Nous t’avions révélé, [dans l’espoir] qu’à la place de ceci, tu inventes quelque chose d’autre et (l’imputes) à Nous. Et alors, ils t’auraient pris pour ami intime.",
+          "role": "current-ayah",
+          "translationCredit": {
+            "language": "fr",
+            "text": "QuranEnc · french_hameedullah",
+            "sourceLiteralProof": [
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 344,
+                "end": 352,
+                "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+              },
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 355,
+                "end": 373,
+                "textSHA256": "d4715a99980c89ebee9494e438e1e59d4f5c0938645d8dece00f7ce72c0366f0"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "text": "Le verset désigne le cœur de l’affrontement : la révélation elle-même. L’opposition ne se limitait plus à rejeter le Coran ou à refuser de l’écouter ; elle cherchait à agir sur celui qui le transmettait pour qu’une partie de ce qu’Allah avait révélé soit modifiée, si peu que ce soit. La sourate revient ainsi à plusieurs reprises sur la confrontation autour du Coran : « Certes, ce Coran guide vers ce qu’il y a de plus droit » ; « Et très certainement Nous avons exposé [tout ceci] dans ce Coran » ; et « Et quand tu lis le Coran, Nous plaçons, entre toi et ceux qui ne croient pas en l’au-delà, un voile invisible ». Ici, la tentative va jusqu’à vouloir faire attribuer à Allah autre chose que ce qu’Il a fait descendre.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Le verset désigne le cœur de l’affrontement : la révélation elle-même. L’opposition ne se limitait plus à rejeter le Coran ou à refuser de l’écouter ; elle cherchait à agir sur celui qui le transmettait pour qu’une partie de ce qu’Allah avait révélé soit modifiée, si peu que ce soit. La sourate revient ainsi à plusieurs reprises sur la confrontation autour du Coran : « ",
+              "role": "meaning"
+            },
+            {
+              "text": "Certes, ce Coran guide vers ce qu’il y a de plus droit",
+              "role": "related"
+            },
+            {
+              "text": " » ; « ",
+              "role": "meaning"
+            },
+            {
+              "text": "Et très certainement Nous avons exposé [tout ceci] dans ce Coran",
+              "role": "related"
+            },
+            {
+              "text": " » ; et « ",
+              "role": "meaning"
+            },
+            {
+              "text": "Et quand tu lis le Coran, Nous plaçons, entre toi et ceux qui ne croient pas en l’au-delà, un voile invisible",
+              "role": "related"
+            },
+            {
+              "text": " ». Ici, la tentative va jusqu’à vouloir faire attribuer à Allah autre chose que ce qu’Il a fait descendre.",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "D’autres moyens avaient déjà été employés : troubler l’écoute du Coran, comme l’indique « Ne prêtez pas l’oreille à ce Coran, et faites du chahut (pendant sa récitation) », ou en demander le remplacement : « “Apporte un Coran autre que celui-ci !” ou bien “Change-le !” ». Faute de pouvoir invalider la révélation, ils tentaient d’amener celui qui la portait à en abandonner une partie. Chercher à détourner le Messager de ce qui lui avait été révélé ne relevait donc pas d’un simple désaccord politique passager : le fondement même de sa mission était visé.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "D’autres moyens avaient déjà été employés : troubler l’écoute du Coran, comme l’indique « ",
+              "role": "meaning"
+            },
+            {
+              "text": "Ne prêtez pas l’oreille à ce Coran, et faites du chahut (pendant sa récitation)",
+              "role": "related"
+            },
+            {
+              "text": " », ou en demander le remplacement : « ",
+              "role": "meaning"
+            },
+            {
+              "text": "“Apporte un Coran autre que celui-ci !” ou bien “Change-le !”",
+              "role": "related"
+            },
+            {
+              "text": " ». Faute de pouvoir invalider la révélation, ils tentaient d’amener celui qui la portait à en abandonner une partie. Chercher à détourner le Messager de ce qui lui avait été révélé ne relevait donc pas d’un simple désaccord politique passager : le fondement même de sa mission était visé.",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "La pression peut aussi prendre l’apparence de la bienveillance, des marques d’estime et de la réconciliation. L’être humain peut repousser la violence tout en étant attiré par le calme et la fin des hostilités. La promesse d’amitié constitue alors la tentation : être accepté par eux et admis dans leur cercle aurait pour condition une concession touchant à la révélation. Plusieurs récits ont été rapportés sur les circonstances de révélation de ce verset, mais beaucoup ne sont pas solidement établis. Le sens général demeure clair : les défenseurs du faux ne se satisfont pas de l’existence d’une pratique religieuse dont les principes révélés continuent de faire autorité ; ils veulent une religion qu’il serait possible d’adapter à leurs souhaits.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "La pression peut aussi prendre l’apparence de la bienveillance, des marques d’estime et de la réconciliation. L’être humain peut repousser la violence tout en étant attiré par le calme et la fin des hostilités. La promesse d’amitié constitue alors la tentation : être accepté par eux et admis dans leur cercle aurait pour condition une concession touchant à la révélation. Plusieurs récits ont été rapportés sur les circonstances de révélation de ce verset, mais beaucoup ne sont pas solidement établis. Le sens général demeure clair : les défenseurs du faux ne se satisfont pas de l’existence d’une pratique religieuse dont les principes révélés continuent de faire autorité ; ils veulent une religion qu’il serait possible d’adapter à leurs souhaits.",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "L’attitude des prophètes devant les offres et les marchandages donne l’exemple contraire : ni le pouvoir, ni la richesse, ni le rang ne valent l’abandon d’une parole de vérité. Le récit d’Ibn Sayyad illustre également l’incapacité des humains et des djinns à produire une autre révélation. Lorsque le Prophète (paix et bénédictions sur lui) mit Ibn Sayyad à l’épreuve en gardant quelque chose caché, Ibn Sayyad ne put en donner qu’un fragment de mot. ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "L’attitude des prophètes devant les offres et les marchandages donne l’exemple contraire : ni le pouvoir, ni la richesse, ni le rang ne valent l’abandon d’une parole de vérité. Le récit d’Ibn Sayyad illustre également l’incapacité des humains et des djinns à produire une autre révélation. Lorsque le Prophète (paix et bénédictions sur lui) mit Ibn Sayyad à l’épreuve en gardant quelque chose caché, Ibn Sayyad ne put en donner qu’un fragment de mot. ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "[Il prononça le fragment arabe «الدخ», al-dukh, qui ne constitue qu’une partie de «الدخان», al-dukhan, « fumée ».] (Al-Bukhari : 6172 ; Muslim : 2924.) Ils ne peuvent produire l’équivalent du Coran, mais le danger se déplace : ils tentent d’amener les croyants à mêler à la révélation ce qui lui est étranger. L’approbation de l’adversaire ne permet donc pas de juger de la justesse de la voie suivie ; elle peut avoir pour prix le silence sur une partie du message, ou une déformation qui le rend acceptable à ses yeux.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "[Il prononça le fragment arabe «الدخ», al-dukh, qui ne constitue qu’une partie de «الدخان», al-dukhan, « fumée ».]",
+              "role": "example"
+            },
+            {
+              "text": " (Al-Bukhari : 6172 ; Muslim : 2924.) Ils ne peuvent produire l’équivalent du Coran, mais le danger se déplace : ils tentent d’amener les croyants à mêler à la révélation ce qui lui est étranger. L’approbation de l’adversaire ne permet donc pas de juger de la justesse de la voie suivie ; elle peut avoir pour prix le silence sur une partie du message, ou une déformation qui le rend acceptable à ses yeux.",
+              "role": "meaning",
+              "noteTexts": [
+                "QuranEnc · 17:9 · https://quranenc.com/fr/browse/french_hameedullah/17#9",
+                "QuranEnc · 17:41 · https://quranenc.com/fr/browse/french_hameedullah/17#41",
+                "QuranEnc · 17:45 · https://quranenc.com/fr/browse/french_hameedullah/17#45",
+                "QuranEnc · 41:26 · https://quranenc.com/fr/browse/french_hameedullah/41#26",
+                "QuranEnc · 10:15 · https://quranenc.com/fr/browse/french_hameedullah/10#15",
+                "Sahih al-Bukhari · 6172; Muslim2924 · https://sunnah.com/bukhari:6172"
+              ],
+              "noteLiteralProofs": [
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 344,
+                    "end": 352,
+                    "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3400,
+                    "end": 3404,
+                    "textSHA256": "7600b9b17d4d484dfeb6b7116347fa694785a07a3402e3e3e66025e7922e178f"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3407,
+                    "end": 3461,
+                    "textSHA256": "8fc03f8f7fb6b1cd7ac501c6eed789797d5ce3175fb501b4d21f5a68f99b0275"
+                  }
+                ],
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 344,
+                    "end": 352,
+                    "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3474,
+                    "end": 3479,
+                    "textSHA256": "6d83e6b793ee21a397c4aa2f491dc44a8a3943805a632e90c11cae263c717d4a"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3482,
+                    "end": 3537,
+                    "textSHA256": "a4ee065c119ce93463376eab1cf979dd8abae88a9e70f8a0283f90eb4254ed0e"
+                  }
+                ],
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 344,
+                    "end": 352,
+                    "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3550,
+                    "end": 3555,
+                    "textSHA256": "5a561e2583d491de8d68c7ca140c362190b6d8e5d9db3c676a03699470e58055"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3558,
+                    "end": 3613,
+                    "textSHA256": "3fd4069e3552406f00dc9f5ee9f60dd6e9d95fd1d18860188c48bb97763e0992"
+                  }
+                ],
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 344,
+                    "end": 352,
+                    "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3626,
+                    "end": 3631,
+                    "textSHA256": "b3c5a9ecfd87dafa804134c941d8057f760f81765f10edada705ac520c945890"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3634,
+                    "end": 3689,
+                    "textSHA256": "75fac0cbca820cfcd6329dd44311bae9df0404ec738575ff4862c25858db8677"
+                  }
+                ],
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 344,
+                    "end": 352,
+                    "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3702,
+                    "end": 3707,
+                    "textSHA256": "799942dd63c697599623a93c53e9e6c96c4fadca31b10afacc5f4163e48fb58f"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3710,
+                    "end": 3765,
+                    "textSHA256": "d6e88994137a8260bdb54c0c0ccd13136cdf7ad65959a6cefe9f2f6a160d19a7"
+                  }
+                ],
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3767,
+                    "end": 3783,
+                    "textSHA256": "da10e5317e63e7460d12fed5c89c5e4e2fdd44ce26dc35f64d2fb844157d6037"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3786,
+                    "end": 3802,
+                    "textSHA256": "8b48407fe4e7baca144f07dde469b63a23df7c650752413cdef0e72f2e6039af"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3805,
+                    "end": 3836,
+                    "textSHA256": "f4851d051c0d0d51576353404eb06ed2f5fd91b9774eecdea6a87eb9be98f8b1"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ayahKey": "17:73"
+    },
+    {
+      "heading": "Verset 74",
+      "blocks": [
+        {
+          "kind": "ayah",
+          "verseKey": "17:74",
+          "text": "وَلَوْلَآ أَن ثَبَّتْنَـٰكَ لَقَدْ كِدتَّ تَرْكَنُ إِلَيْهِمْ شَيْـًۭٔا قَلِيلًا ٧٤",
+          "role": "current-ayah"
+        },
+        {
+          "kind": "translation",
+          "text": "Et si Nous ne t’avions pas raffermi, tu aurais bien failli t’incliner quelque peu vers eux.",
+          "role": "current-ayah",
+          "translationCredit": {
+            "language": "fr",
+            "text": "QuranEnc · french_hameedullah",
+            "sourceLiteralProof": [
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 344,
+                "end": 352,
+                "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+              },
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 355,
+                "end": 373,
+                "textSHA256": "d4715a99980c89ebee9494e438e1e59d4f5c0938645d8dece00f7ce72c0366f0"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "text": "Le salut est ici expressément attribué à l’affermissement accordé par Allah. Si le Messager d’Allah (paix et bénédictions sur lui), malgré la plénitude de sa foi et de sa connaissance, ne pouvait se passer du soutien de son Seigneur, celui qui œuvre pour la religion a d’autant plus de raisons de ne pas s’en remettre à son intelligence, à sa compréhension des circonstances ou à sa force morale. Savoir que l’adversaire cherche à vous utiliser ne suffit pas. ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Le salut est ici expressément attribué à l’affermissement accordé par Allah. Si le Messager d’Allah (paix et bénédictions sur lui), malgré la plénitude de sa foi et de sa connaissance, ne pouvait se passer du soutien de son Seigneur, celui qui œuvre pour la religion a d’autant plus de raisons de ne pas s’en remettre à son intelligence, à sa compréhension des circonstances ou à sa force morale. Savoir que l’adversaire cherche à vous utiliser ne suffit pas. ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "On peut comprendre toute la ruse et pourtant ne pas tenir ferme si Allah ne nous affermit pas. L’épreuve est représentée comme une violente tempête qui voudrait arracher l’être humain à sa place, tandis que la fermeté l’enracine. Le verset évoque ensuite une inclination vers les adversaires, non une invention attribuée à Allah : le chemin vers une altération majeure commencerait ainsi par une dépendance du cœur, le fait de se sentir en sécurité auprès d’eux ou de faire dépendre la sécurité et la survie de la mission de leur protection et de leur approbation.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "On peut comprendre toute la ruse et pourtant ne pas tenir ferme si Allah ne nous affermit pas. L’épreuve est représentée comme une violente tempête qui voudrait arracher l’être humain à sa place, tandis que la fermeté l’enracine. Le verset évoque ensuite une inclination vers les adversaires, non une invention attribuée à Allah : le chemin vers une altération majeure commencerait ainsi par une dépendance du cœur, le fait de se sentir en sécurité auprès d’eux ou de faire dépendre la sécurité et la survie de la mission de leur protection et de leur approbation.",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Allah a affermi Son Prophète (paix et bénédictions sur lui), qui ne s’est donc pas incliné vers eux. Le mot « t’incliner » évoque aussi le geste de se pencher sur un appui et de s’y reposer. Si la mission ne peut agir qu’avec la permission de ceux qui exercent une pression sur elle, ou si le retrait de leur soutien suffit à la faire échouer, elle entre dans l’une des formes de cette dépendance. La mention d’une inclination même légère attire aussi l’attention sur le caractère apparemment minime d’une première concession.",
+          "role": "meaning",
+          "spans": [
+            {
+              "role": "meaning",
+              "text": "Allah a affermi Son Prophète (paix et bénédictions sur lui), qui ne s’est donc pas incliné vers eux. Le mot « "
+            },
+            {
+              "text": "t’incliner",
+              "role": "current-ayah"
+            },
+            {
+              "role": "meaning",
+              "text": " » évoque aussi le geste de se pencher sur un appui et de s’y reposer. Si la mission ne peut agir qu’avec la permission de ceux qui exercent une pression sur elle, ou si le retrait de leur soutien suffit à la faire échouer, elle entre dans l’une des formes de cette dépendance. La mention d’une inclination même légère attire aussi l’attention sur le caractère apparemment minime d’une première concession."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "On ne demande généralement pas à quelqu’un d’abandonner toute la vérité d’un seul coup, mais d’accepter un petit renoncement qui ouvre la voie aux suivants. L’affermissement du Prophète apprend ainsi à se méfier de sa propre faiblesse et à demander souvent à Allah la fermeté : le désir de sécurité et de mettre fin au conflit peut offrir une entrée plus discrète à la tentation qu’une menace directe.",
+          "role": "meaning",
+          "spans": [
+            {
+              "role": "meaning",
+              "text": "On ne demande généralement pas à quelqu’un d’abandonner toute la vérité d’un seul coup, mais d’accepter un petit renoncement qui ouvre la voie aux suivants. L’affermissement du Prophète apprend ainsi à se méfier de sa propre faiblesse et à demander souvent à Allah la fermeté : le désir de sécurité et de mettre fin au conflit peut offrir une entrée plus discrète à la tentation qu’une menace directe."
+            }
+          ]
+        }
+      ],
+      "ayahKey": "17:74"
+    },
+    {
+      "heading": "Verset 75",
+      "blocks": [
+        {
+          "kind": "ayah",
+          "verseKey": "17:75",
+          "text": "إِذًۭا لَّأَذَقْنَـٰكَ ضِعْفَ ٱلْحَيَوٰةِ وَضِعْفَ ٱلْمَمَاتِ ثُمَّ لَا تَجِدُ لَكَ عَلَيْنَا نَصِيرًۭا ٧٥",
+          "role": "current-ayah"
+        },
+        {
+          "kind": "translation",
+          "text": "Alors, Nous t’aurions certes fait goûter le double [supplice] de la vie et le double [supplice] de la mort ; et ensuite tu n’aurais pas trouvé de secoureur contre Nous .",
+          "role": "current-ayah",
+          "translationCredit": {
+            "language": "fr",
+            "text": "QuranEnc · french_hameedullah",
+            "sourceLiteralProof": [
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 344,
+                "end": 352,
+                "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+              },
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 355,
+                "end": 373,
+                "textSHA256": "d4715a99980c89ebee9494e438e1e59d4f5c0938645d8dece00f7ce72c0366f0"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "text": "L’avertissement est sévère parce que la révélation est en jeu : la conséquence envisagée serait un châtiment doublé dans la vie et après la mort, sans personne pour protéger contre Allah. Il fait écho à l’autre avertissement concernant l’attribution à Allah de paroles qu’Il n’a pas dites : « Si (Muhammad) Nous avait attribué certaines paroles (qui n’étaient pas les Nôtres), Nous l’aurions saisi en Notre Main Droite,[4] puis lui aurions tranché l’aorte. » (Al-Haqqah : 44–46). ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "L’avertissement est sévère parce que la révélation est en jeu : la conséquence envisagée serait un châtiment doublé dans la vie et après la mort, sans personne pour protéger contre Allah. Il fait écho à l’autre avertissement concernant l’attribution à Allah de paroles qu’Il n’a pas dites : « ",
+              "role": "meaning"
+            },
+            {
+              "text": "Si (Muhammad) Nous avait attribué certaines paroles (qui n’étaient pas les Nôtres),",
+              "role": "related"
+            },
+            {
+              "text": " ",
+              "role": "meaning"
+            },
+            {
+              "text": "Nous l’aurions saisi en Notre Main Droite,[4]",
+              "role": "related"
+            },
+            {
+              "text": " ",
+              "role": "meaning"
+            },
+            {
+              "text": "puis lui aurions tranché l’aorte.",
+              "role": "related"
+            },
+            {
+              "text": " » (Al-Haqqah : 44–46). ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Préserver le message passe avant le confort, l’image et les avantages de celui qui le porte. L’une des illusions les plus dangereuses consiste à penser qu’en atténuant une partie de la vérité, on protégera la mission ou l’on en accélérera l’affermissement. Or, la sanction évoquée renverse ce calcul : celui qui cherche l’honneur et la sécurité en abandonnant une partie de la révélation peut recevoir l’inverse de ce qu’il souhaitait, et se retrouver plus humilié et plus dépendant au lieu d’être plus fort.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Préserver le message passe avant le confort, l’image et les avantages de celui qui le porte. L’une des illusions les plus dangereuses consiste à penser qu’en atténuant une partie de la vérité, on protégera la mission ou l’on en accélérera l’affermissement. Or, la sanction évoquée renverse ce calcul : celui qui cherche l’honneur et la sécurité en abandonnant une partie de la révélation peut recevoir l’inverse de ce qu’il souhaitait, et se retrouver plus humilié et plus dépendant au lieu d’être plus fort.",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "La mise en pratique peut varier selon les capacités et les étapes : à un moment donné, un musulman peut être incapable d’appliquer pleinement une prescription. Mais l’énoncé de cette prescription ne peut être transformé pour satisfaire les gens. Reconnaître qu’il s’agit d’une prescription d’Allah que l’on ne peut pas appliquer pour l’instant est autre chose que de reformuler la religion pour faire croire que ce que l’on a délaissé n’en faisait pas partie. ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "La mise en pratique peut varier selon les capacités et les étapes : à un moment donné, un musulman peut être incapable d’appliquer pleinement une prescription. Mais l’énoncé de cette prescription ne peut être transformé pour satisfaire les gens. Reconnaître qu’il s’agit d’une prescription d’Allah que l’on ne peut pas appliquer pour l’instant est autre chose que de reformuler la religion pour faire croire que ce que l’on a délaissé n’en faisait pas partie. ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "L’intérêt de la mission ne saurait donc justifier une modification de son contenu. Son premier intérêt est que la religion demeure telle qu’Allah l’a révélée, et non qu’une institution, un groupe ou une image sociale subsiste au prix d’une partie de celle-ci. La première concession est plus dangereuse que son ampleur ne le laisse penser : elle fait tomber une barrière intérieure, après quoi une concession plus grande devient plus facile. Le message forme un tout cohérent qui ne doit pas être présenté aux gens sous une forme dénaturée.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "L’intérêt de la mission ne saurait donc justifier une modification de son contenu. Son premier intérêt est que la religion demeure telle qu’Allah l’a révélée, et non qu’une institution, un groupe ou une image sociale subsiste au prix d’une partie de celle-ci. La première concession est plus dangereuse que son ampleur ne le laisse penser : elle fait tomber une barrière intérieure, après quoi une concession plus grande devient plus facile. Le message forme un tout cohérent qui ne doit pas être présenté aux gens sous une forme dénaturée.",
+              "role": "meaning",
+              "noteTexts": [
+                "QuranEnc — Centre International Nûr · 69:44 · https://quranenc.com/fr/browse/french_montada/69/44",
+                "QuranEnc — Centre International Nûr · 69:45 · https://quranenc.com/fr/browse/french_montada/69/45",
+                "QuranEnc — Centre International Nûr · 69:46 · https://quranenc.com/fr/browse/french_montada/69/46"
+              ],
+              "noteLiteralProofs": [
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 8313,
+                    "end": 8348,
+                    "textSHA256": "8d4c5ece4ca7618d35f9b337af8110c47b3a7daeb379c0ef2fc19e62cd7982bc"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 8351,
+                    "end": 8356,
+                    "textSHA256": "924434af80875938f21674b08b436aa96ac461835c5af4f71f1fc99674a6b859"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 8359,
+                    "end": 8410,
+                    "textSHA256": "6f410f1d5d39ddfa72baeab9d1f9d5ea352e50670c4494299dd2d983ce7d568e"
+                  }
+                ],
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 8313,
+                    "end": 8348,
+                    "textSHA256": "8d4c5ece4ca7618d35f9b337af8110c47b3a7daeb379c0ef2fc19e62cd7982bc"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 8450,
+                    "end": 8455,
+                    "textSHA256": "690255bce5949baceab35d991e53a4a66e4079ca2907d08a324aa60ecde4950a"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 8458,
+                    "end": 8509,
+                    "textSHA256": "8806193752e8bbd64b65bea6dc3fafc9a7be735a799a63a62ab1f0014c0a73c5"
+                  }
+                ],
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 8313,
+                    "end": 8348,
+                    "textSHA256": "8d4c5ece4ca7618d35f9b337af8110c47b3a7daeb379c0ef2fc19e62cd7982bc"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 8549,
+                    "end": 8554,
+                    "textSHA256": "66ff5645e94008a09feacb97a47475b895670b689a1c6d4a25bd2bb0b31594be"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 8557,
+                    "end": 8608,
+                    "textSHA256": "792e0490e4e763e28f53f325ac46e6492c45ea769e27ddfaeb1c1db0609b6997"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ayahKey": "17:75"
+    },
+    {
+      "heading": "Verset 76",
+      "blocks": [
+        {
+          "kind": "ayah",
+          "verseKey": "17:76",
+          "text": "وَإِن كَادُوا۟ لَيَسْتَفِزُّونَكَ مِنَ ٱلْأَرْضِ لِيُخْرِجُوكَ مِنْهَا ۖ وَإِذًۭا لَّا يَلْبَثُونَ خِلَـٰفَكَ إِلَّا قَلِيلًۭا ٧٦",
+          "role": "current-ayah"
+        },
+        {
+          "kind": "translation",
+          "text": "En vérité, ils ont failli t’inciter à fuir du pays pour t’en bannir. Mais dans ce cas, ils n’y seraient pas restés longtemps après toi.",
+          "role": "current-ayah",
+          "translationCredit": {
+            "language": "fr",
+            "text": "QuranEnc · french_hameedullah",
+            "sourceLiteralProof": [
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 344,
+                "end": 352,
+                "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+              },
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 355,
+                "end": 373,
+                "textSHA256": "d4715a99980c89ebee9494e438e1e59d4f5c0938645d8dece00f7ce72c0366f0"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "text": "Après la tentative de détournement par la conciliation vient une autre manœuvre : ébranler le Messager pour le chasser du pays. [La racine arabe de «لَيَسْتَفِزُّونَكَ» revient dans cette sourate avec «وَاسْتَفْزِزْ», adressé à Satan, et «يَسْتَفِزَّهُمْ», qui décrit l’intention de Pharaon. Dans ce contexte, elle évoque une agitation qui pousse à agir.] Satan reçoit ces paroles : « Excite, par ta voix, ceux d’entre eux que tu pourras » ; les gens de La Mecque sont visés ici ; puis Pharaon cherche à expulser ses adversaires : « [Pharaon] voulut donc les expulser du pays. » Il ne s’agit pas simplement de faire partir quelqu’un dans le calme, mais de le pousser à une action précipitée et désordonnée en excitant sa peur, son désir ou sa colère, afin qu’il décide au moment choisi par son adversaire.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Après la tentative de détournement par la conciliation vient une autre manœuvre : ébranler le Messager pour le chasser du pays. ",
+              "role": "meaning"
+            },
+            {
+              "text": "[La racine arabe de ",
+              "role": "example"
+            },
+            {
+              "text": "«لَيَسْتَفِزُّونَكَ»",
+              "role": "current-ayah"
+            },
+            {
+              "text": " revient dans cette sourate avec «وَاسْتَفْزِزْ», adressé à Satan, et «يَسْتَفِزَّهُمْ», qui décrit l’intention de Pharaon. Dans ce contexte, elle évoque une agitation qui pousse à agir.]",
+              "role": "example"
+            },
+            {
+              "text": " Satan reçoit ces paroles : « ",
+              "role": "meaning"
+            },
+            {
+              "text": "Excite, par ta voix, ceux d’entre eux que tu pourras",
+              "role": "related"
+            },
+            {
+              "text": " » ; les gens de La Mecque sont visés ici ; puis Pharaon cherche à expulser ses adversaires : « ",
+              "role": "meaning"
+            },
+            {
+              "text": "[Pharaon] voulut donc les expulser du pays.",
+              "role": "related"
+            },
+            {
+              "text": " » Il ne s’agit pas simplement de faire partir quelqu’un dans le calme, mais de le pousser à une action précipitée et désordonnée en excitant sa peur, son désir ou sa colère, afin qu’il décide au moment choisi par son adversaire.",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Le problème ne tient pas seulement à un manque de compréhension : on peut saisir ce qui se passe et néanmoins agir sous la pression de l’émotion. Une interprétation évoque des gens qui auraient voulu pousser le Prophète (paix et bénédictions sur lui) à partir pour la région du Levant. Le contexte mecquois s’accorde toutefois davantage avec les pressions de Quraysh pour le faire sortir de La Mecque. La distinction devient alors précise : partir au moment voulu par ses adversaires n’est pas partir lorsque vient la permission d’Allah. ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Le problème ne tient pas seulement à un manque de compréhension : on peut saisir ce qui se passe et néanmoins agir sous la pression de l’émotion. Une interprétation évoque des gens qui auraient voulu pousser le Prophète (paix et bénédictions sur lui) à partir pour la région du Levant. Le contexte mecquois s’accorde toutefois davantage avec les pressions de Quraysh pour le faire sortir de La Mecque. La distinction devient alors précise : partir au moment voulu par ses adversaires n’est pas partir lorsque vient la permission d’Allah. ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "L’émigration fut elle-même un acte d’obéissance parce qu’elle eut lieu au moment autorisé par Allah, et non simplement parce qu’elle permettait de quitter un lieu où l’on subissait du mal. Une proposition n’est donc pas nécessairement bonne à accepter parce qu’elle répond à un souhait légitime en lui-même. L’adversaire peut offrir un départ sûr, un avantage ou une étape que l’on désire déjà, tout en voulant fixer les conditions et le moment de l’action pour qu’elle serve son propre plan.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "L’émigration fut elle-même un acte d’obéissance parce qu’elle eut lieu au moment autorisé par Allah, et non simplement parce qu’elle permettait de quitter un lieu où l’on subissait du mal. Une proposition n’est donc pas nécessairement bonne à accepter parce qu’elle répond à un souhait légitime en lui-même. L’adversaire peut offrir un départ sûr, un avantage ou une étape que l’on désire déjà, tout en voulant fixer les conditions et le moment de l’action pour qu’elle serve son propre plan.",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "La mission comporte des étapes ; en précipiter une peut être l’une des formes les plus dangereuses de cette provocation. Le croyant ne s’engage pas uniquement parce qu’une porte semble facile à franchir et ne se retire pas uniquement parce que la pression devient douloureuse. Son critère est ce qu’Allah attend de lui maintenant. Si l’adversaire pousse celui qui porte la vérité à une décision prématurée, il a atteint une partie de son objectif, même sans avoir directement modifié sa croyance.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "La mission comporte des étapes ; en précipiter une peut être l’une des formes les plus dangereuses de cette provocation. Le croyant ne s’engage pas uniquement parce qu’une porte semble facile à franchir et ne se retire pas uniquement parce que la pression devient douloureuse. Son critère est ce qu’Allah attend de lui maintenant. Si l’adversaire pousse celui qui porte la vérité à une décision prématurée, il a atteint une partie de son objectif, même sans avoir directement modifié sa croyance.",
+              "role": "meaning",
+              "noteTexts": [
+                "QuranEnc · 17:64 · https://quranenc.com/fr/browse/french_hameedullah/17#64",
+                "QuranEnc · 17:103 · https://quranenc.com/fr/browse/french_hameedullah/17#103"
+              ],
+              "noteLiteralProofs": [
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 344,
+                    "end": 352,
+                    "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 11259,
+                    "end": 11264,
+                    "textSHA256": "04f4aed462149ce75aca0532d14f7a1109b1908781cb505a7e9e282b4f7fbee3"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 11267,
+                    "end": 11322,
+                    "textSHA256": "a769a0b04c9dcc679136bc3a17293599a7bac23db26e58b68890643468efd67a"
+                  }
+                ],
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 344,
+                    "end": 352,
+                    "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 11335,
+                    "end": 11341,
+                    "textSHA256": "775c6b51871449d4005d4a3ebb5aebe13a339ee2db0eaf7528834fd24f0a40d7"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 11344,
+                    "end": 11400,
+                    "textSHA256": "772d95d78a3604ffcb4d2382c71a91eeee126d683f8102f4a1fcfe916a26c09a"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ayahKey": "17:76"
+    },
+    {
+      "heading": "Verset 77",
+      "blocks": [
+        {
+          "kind": "ayah",
+          "verseKey": "17:77",
+          "text": "سُنَّةَ مَن قَدْ أَرْسَلْنَا قَبْلَكَ مِن رُّسُلِنَا ۖ وَلَا تَجِدُ لِسُنَّتِنَا تَحْوِيلًا ٧٧",
+          "role": "current-ayah"
+        },
+        {
+          "kind": "translation",
+          "text": "Voilà la tradition suivie par ceux, d’entre Nos Messagers, que Nous avons envoyés avant toi. Tu ne trouveras rien de changé à Notre tradition.",
+          "role": "current-ayah",
+          "translationCredit": {
+            "language": "fr",
+            "text": "QuranEnc — Centre International Nûr · french_montada",
+            "sourceLiteralProof": [
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 8313,
+                "end": 8348,
+                "textSHA256": "8d4c5ece4ca7618d35f9b337af8110c47b3a7daeb379c0ef2fc19e62cd7982bc"
+              },
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 8390,
+                "end": 8404,
+                "textSHA256": "b25e2c552c1ab87d1c6d93ea989b4c7d83b445e17bc1ac01fd8e2150670bef40"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "text": "En rappelant la voie constante d’Allah à l’égard des messagers précédents, le verset replace la situation dans une réalité qui se répète au fil des missions prophétiques, au lieu d’y voir une simple crise personnelle. Viennent d’abord les tentatives pour détourner le messager de la vérité, puis les pressions et les offres, enfin les efforts pour l’expulser et le pousser à une réaction précipitée. L’intensification de la pression ne doit donc pas être interprétée comme la preuve que la voie suivie est fausse ou qu’Allah a abandonné ceux qui la suivent. ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "En rappelant la voie constante d’Allah à l’égard des messagers précédents, le verset replace la situation dans une réalité qui se répète au fil des missions prophétiques, au lieu d’y voir une simple crise personnelle. Viennent d’abord les tentatives pour détourner le messager de la vérité, puis les pressions et les offres, enfin les efforts pour l’expulser et le pousser à une réaction précipitée. L’intensification de la pression ne doit donc pas être interprétée comme la preuve que la voie suivie est fausse ou qu’Allah a abandonné ceux qui la suivent. ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Il se peut que le moment où les défenseurs du faux déploient tous leurs moyens pour égarer et expulser précède un tournant, si le porteur du message tient ferme, ne marchande pas la révélation et n’agit pas avant la permission d’Allah. Pharaon voulait de même chasser Moussa (paix sur lui) et son peuple du pays, mais c’est sur lui que la destruction s’abattit. Tenir ferme ne signifie pas que l’affrontement n’atteindra jamais son degré le plus intense. ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Il se peut que le moment où les défenseurs du faux déploient tous leurs moyens pour égarer et expulser précède un tournant, si le porteur du message tient ferme, ne marchande pas la révélation et n’agit pas avant la permission d’Allah. Pharaon voulait de même chasser Moussa (paix sur lui) et son peuple du pays, mais c’est sur lui que la destruction s’abattit. Tenir ferme ne signifie pas que l’affrontement n’atteindra jamais son degré le plus intense. ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Cela signifie reconnaître que les voies établies par Allah ne changent pas : la victoire ne naît pas de concessions destinées à alléger la crise ; elle vient après l’effort mené jusqu’au bout, alors que le fondement du message reste préservé.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Cela signifie reconnaître que les voies établies par Allah ne changent pas : la victoire ne naît pas de concessions destinées à alléger la crise ; elle vient après l’effort mené jusqu’au bout, alors que le fondement du message reste préservé.",
+              "role": "meaning"
+            }
+          ]
+        }
+      ],
+      "ayahKey": "17:77"
+    },
+    {
+      "heading": "Verset 78",
+      "blocks": [
+        {
+          "kind": "ayah",
+          "verseKey": "17:78",
+          "text": "أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ ۖ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًۭا ٧٨",
+          "role": "current-ayah"
+        },
+        {
+          "kind": "translation",
+          "text": "Accomplis la prière (As-Salât) au déclin du soleil jusqu’à l’obscurité de la nuit, et [fais] aussi la Lecture (du Coran) à l’aube, car la Lecture (du Coran) à l’aube a des témoins .",
+          "role": "current-ayah",
+          "translationCredit": {
+            "language": "fr",
+            "text": "QuranEnc · french_hameedullah",
+            "sourceLiteralProof": [
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 344,
+                "end": 352,
+                "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+              },
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 355,
+                "end": 373,
+                "textSHA256": "d4715a99980c89ebee9494e438e1e59d4f5c0938645d8dece00f7ce72c0366f0"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "text": "Après les tempêtes qui cherchent à détourner le cœur de la révélation ou à le pousser à une décision précipitée, vient un moyen concret de tenir ferme : les prières prescrites au fil de la journée et la récitation du Coran à l’aube. La fermeté ne se réduit ni à la résistance psychologique ni à la compréhension des manœuvres hostiles. Elle se nourrit d’un lien renouvelé avec Allah tout au long du jour. La répartition des prières entoure ainsi la journée d’adoration, pour que le cœur ne demeure pas longtemps seul au milieu du tumulte des gens. L’aube est ensuite particulièrement associée au Coran. On commence la journée par la parole même dont les défenseurs du faux voudraient nous détourner ; on renouvelle ses repères avant de retrouver l’activité, les pressions et les négociations.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Après les tempêtes qui cherchent à détourner le cœur de la révélation ou à le pousser à une décision précipitée, vient un moyen concret de tenir ferme : les prières prescrites au fil de la journée et la récitation du Coran à l’aube. La fermeté ne se réduit ni à la résistance psychologique ni à la compréhension des manœuvres hostiles. Elle se nourrit d’un lien renouvelé avec Allah tout au long du jour. La répartition des prières entoure ainsi la journée d’adoration, pour que le cœur ne demeure pas longtemps seul au milieu du tumulte des gens. L’aube est ensuite particulièrement associée au Coran. On commence la journée par la parole même dont les défenseurs du faux voudraient nous détourner ; on renouvelle ses repères avant de retrouver l’activité, les pressions et les négociations.",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Certains se détournent du Coran ou en troublent l’écoute, mais les anges de la nuit et du jour assistent à la prière de l’aube. Le Prophète (paix et bénédictions sur lui) a dit au sujet de ces anges (extrait du hadith) : « … ils se rencontrent à la prière de l'aube (al Fajr) et à celle de l'après-midi (al ‘Asr). » (Al-Bukhari : 555 ; Muslim : 632). L’aube n’est donc plus seulement un moment que l’on imagine vide et tranquille : c’est un moment auquel assistent les anges, dans le monde de l’invisible. La leçon pratique est que celui qui craint d’être détourné de la révélation ne remédie pas à ce danger uniquement en parlant beaucoup de fermeté. Il fait revenir le Coran dans sa journée par l’adoration, la récitation et la prière, jusqu’à en faire la référence vers laquelle il se tourne chaque fois que les circonstances cherchent à remodeler son regard.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Certains se détournent du Coran ou en troublent l’écoute, mais les anges de la nuit et du jour assistent à la prière de l’aube. Le Prophète (paix et bénédictions sur lui) a dit au sujet de ces anges (extrait du hadith) : « … ",
+              "role": "meaning"
+            },
+            {
+              "text": "ils se rencontrent à la prière de l'aube (al Fajr) et à celle de l'après-midi (al ‘Asr).",
+              "role": "related"
+            },
+            {
+              "text": " » (Al-Bukhari : 555 ; Muslim : 632). L’aube n’est donc plus seulement un moment que l’on imagine vide et tranquille : c’est un moment auquel assistent les anges, dans le monde de l’invisible. La leçon pratique est que celui qui craint d’être détourné de la révélation ne remédie pas à ce danger uniquement en parlant beaucoup de fermeté. Il fait revenir le Coran dans sa journée par l’adoration, la récitation et la prière, jusqu’à en faire la référence vers laquelle il se tourne chaque fois que les circonstances cherchent à remodeler son regard.",
+              "role": "meaning",
+              "noteTexts": [
+                "IslamWeb — fatwa90406 · Al-Bukhari555; Muslim632 · https://www.islamweb.net/fr/printfatwa.php?id=90406"
+              ],
+              "noteLiteralProofs": [
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 14963,
+                    "end": 14984,
+                    "textSHA256": "3c3c3a59956acad66ab2a322baf5c60044019665dd3acac3b0dfd6fb48c4dc7f"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 14987,
+                    "end": 15011,
+                    "textSHA256": "ef13a5ed3e09dae825e9ba371aa6213defff5d3a898ec084c3107d8e10dcef19"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 15014,
+                    "end": 15065,
+                    "textSHA256": "9dcee4c4a4d4ba44498186ae39b769c6a813e4bcf83f8769fe0a80a86f57a69e"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ayahKey": "17:78"
+    },
+    {
+      "heading": "Verset 79",
+      "blocks": [
+        {
+          "kind": "ayah",
+          "verseKey": "17:79",
+          "text": "وَمِنَ ٱلَّيْلِ فَتَهَجَّدْ بِهِۦ نَافِلَةًۭ لَّكَ عَسَىٰٓ أَن يَبْعَثَكَ رَبُّكَ مَقَامًۭا مَّحْمُودًۭا ٧٩",
+          "role": "current-ayah"
+        },
+        {
+          "kind": "translation",
+          "text": "Et de la nuit consacre une partie [avant l’aube] pour des prières surérogatoires afin que ton Seigneur te ressuscite en une position de gloire.",
+          "role": "current-ayah",
+          "translationCredit": {
+            "language": "fr",
+            "text": "QuranEnc · french_hameedullah",
+            "sourceLiteralProof": [
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 344,
+                "end": 352,
+                "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+              },
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 355,
+                "end": 373,
+                "textSHA256": "d4715a99980c89ebee9494e438e1e59d4f5c0938645d8dece00f7ce72c0366f0"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "text": "L’ordre de se lever la nuit avec le Coran prolonge les moyens de la fermeté, de l’activité visible du jour jusqu’à la solitude nocturne. [En arabe, «الهجود» désigne à l’origine le sommeil, tandis que «التهجد» comporte le sens de se défaire du sommeil et de s’en relever.] Il ne s’agit donc pas seulement de garder le corps éveillé, mais aussi de débarrasser le cœur de son insouciance. L’adversaire guette parfois un bref moment d’inattention pour y faire entrer le marchandage, la peur ou la précipitation. ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "L’ordre de se lever la nuit avec le Coran prolonge les moyens de la fermeté, de l’activité visible du jour jusqu’à la solitude nocturne. ",
+              "role": "meaning"
+            },
+            {
+              "text": "[En arabe, «الهجود» désigne à l’origine le sommeil, tandis que «التهجد» comporte le sens de se défaire du sommeil et de s’en relever.]",
+              "role": "example"
+            },
+            {
+              "text": " Il ne s’agit donc pas seulement de garder le corps éveillé, mais aussi de débarrasser le cœur de son insouciance. L’adversaire guette parfois un bref moment d’inattention pour y faire entrer le marchandage, la peur ou la précipitation. ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "La prière nocturne nourrit une vigilance intérieure que le bruit de la journée ne procure pas. Le verset rattache ensuite cette provision cachée à la station digne de louange, interprétée comme l’intercession du Prophète. Un beau lien unit les longs moments qu’il passe debout devant Allah dans cette vie à la station pour laquelle il sera loué dans l’au-delà. Cette station est promise au Prophète (paix et bénédictions sur lui). ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "La prière nocturne nourrit une vigilance intérieure que le bruit de la journée ne procure pas. Le verset rattache ensuite cette provision cachée à la station digne de louange, interprétée comme l’intercession du Prophète. Un beau lien unit les longs moments qu’il passe debout devant Allah dans cette vie à la station pour laquelle il sera loué dans l’au-delà. Cette station est promise au Prophète (paix et bénédictions sur lui). ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Celui qui aspire, pour sa part, à une place honorable dans le soutien à la religion ne peut se contenter de l’éloquence du jour et d’une bonne analyse ; il a besoin de consacrer une part de la nuit à se tenir en prière avec le Coran. Les positions visibles dans le service de la religion plongent leurs racines dans une adoration cachée. La récitation nocturne du Coran exerce une action plus profonde pour remettre la crainte et l’espérance à leur juste place. Elle devient ainsi une ressource directe pour celui qui affronte une épreuve cherchant à l’arracher à la révélation.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Celui qui aspire, pour sa part, à une place honorable dans le soutien à la religion ne peut se contenter de l’éloquence du jour et d’une bonne analyse ; il a besoin de consacrer une part de la nuit à se tenir en prière avec le Coran. Les positions visibles dans le service de la religion plongent leurs racines dans une adoration cachée. La récitation nocturne du Coran exerce une action plus profonde pour remettre la crainte et l’espérance à leur juste place. Elle devient ainsi une ressource directe pour celui qui affronte une épreuve cherchant à l’arracher à la révélation.",
+              "role": "meaning"
+            }
+          ]
+        }
+      ],
+      "ayahKey": "17:79"
+    },
+    {
+      "heading": "Verset 80",
+      "blocks": [
+        {
+          "kind": "ayah",
+          "verseKey": "17:80",
+          "text": "وَقُل رَّبِّ أَدْخِلْنِى مُدْخَلَ صِدْقٍۢ وَأَخْرِجْنِى مُخْرَجَ صِدْقٍۢ وَٱجْعَل لِّى مِن لَّدُنكَ سُلْطَـٰنًۭا نَّصِيرًۭا ٨٠",
+          "role": "current-ayah"
+        },
+        {
+          "kind": "translation",
+          "text": "Et dis : \"Ô mon Seigneur ! Fais que j’entre par une entrée de vérité et que je sorte par une sortie de vérité; et accorde-moi de Ta part, un pouvoir bénéficiant de Ton secours.\"",
+          "role": "current-ayah",
+          "translationCredit": {
+            "language": "fr",
+            "text": "QuranEnc · french_hameedullah",
+            "sourceLiteralProof": [
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 344,
+                "end": 352,
+                "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+              },
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 355,
+                "end": 373,
+                "textSHA256": "d4715a99980c89ebee9494e438e1e59d4f5c0938645d8dece00f7ce72c0366f0"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "text": "Après la prière et la veille nocturne vient l’invocation qui règle l’ensemble des démarches : demander à Allah la droiture dans l’entrée comme dans la sortie. Les défenseurs du faux cherchent tantôt à vous faire entrer dans un arrangement à leurs conditions, tantôt à vous pousser à sortir au moment qu’ils ont choisi. Ni l’entrée ni la sortie ne doivent donc être dictées par le désir personnel, la peur ou le confort : on entre parce qu’Allah le demande et l’on sort lorsqu’Il le permet. ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Après la prière et la veille nocturne vient l’invocation qui règle l’ensemble des démarches : demander à Allah la droiture dans l’entrée comme dans la sortie. Les défenseurs du faux cherchent tantôt à vous faire entrer dans un arrangement à leurs conditions, tantôt à vous pousser à sortir au moment qu’ils ont choisi. Ni l’entrée ni la sortie ne doivent donc être dictées par le désir personnel, la peur ou le confort : on entre parce qu’Allah le demande et l’on sort lorsqu’Il le permet. ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Le séjour du Prophète à La Mecque ne relevait pas d’un simple attachement au pays, et son départ n’était pas une fuite personnelle devant le mal subi. Le Prophète (paix et bénédictions sur lui) resta jusqu’à recevoir la permission, puis partit lorsqu’elle lui fut accordée. La règle consiste donc à ne pas choisir un lieu uniquement pour sa sécurité, ni à le quitter uniquement parce que la pression s’y est intensifiée, mais à rechercher la sincérité envers Allah dans les deux démarches. ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Le séjour du Prophète à La Mecque ne relevait pas d’un simple attachement au pays, et son départ n’était pas une fuite personnelle devant le mal subi. Le Prophète (paix et bénédictions sur lui) resta jusqu’à recevoir la permission, puis partit lorsqu’elle lui fut accordée. La règle consiste donc à ne pas choisir un lieu uniquement pour sa sécurité, ni à le quitter uniquement parce que la pression s’y est intensifiée, mais à rechercher la sincérité envers Allah dans les deux démarches. ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "L’invocation demande ensuite une autorité secourable venant de Lui : une force accordée par Allah pour soutenir la vérité, non un pouvoir au service d’une gloire personnelle. Même l’affermissement d’une position n’est pas recherché simplement pour soustraire celui qui appelle à la foi aux atteintes qu’il subit, mais pour donner à la vérité davantage d’espace où se manifester et être soutenue.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "L’invocation demande ensuite une autorité secourable venant de Lui : une force accordée par Allah pour soutenir la vérité, non un pouvoir au service d’une gloire personnelle. Même l’affermissement d’une position n’est pas recherché simplement pour soustraire celui qui appelle à la foi aux atteintes qu’il subit, mais pour donner à la vérité davantage d’espace où se manifester et être soutenue.",
+              "role": "meaning"
+            }
+          ]
+        }
+      ],
+      "ayahKey": "17:80"
+    },
+    {
+      "heading": "Verset 81",
+      "blocks": [
+        {
+          "kind": "ayah",
+          "verseKey": "17:81",
+          "text": "وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَـٰطِلُ ۚ إِنَّ ٱلْبَـٰطِلَ كَانَ زَهُوقًۭا ٨١",
+          "role": "current-ayah"
+        },
+        {
+          "kind": "translation",
+          "text": "Et dis: \"La Vérité (l’Islam) est venue et l’Erreur a disparu. Car l’Erreur est destinée à disparaître\".",
+          "role": "current-ayah",
+          "translationCredit": {
+            "language": "fr",
+            "text": "QuranEnc · french_hameedullah",
+            "sourceLiteralProof": [
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 344,
+                "end": 352,
+                "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+              },
+              {
+                "schema": "iman-source-literal-text-v1",
+                "collection": "tadabbur",
+                "language": "fr",
+                "materialId": "17:extended",
+                "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                "source": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                  "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                },
+                "inventory": {
+                  "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                  "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                },
+                "pointer": [],
+                "start": 355,
+                "end": 373,
+                "textSHA256": "d4715a99980c89ebee9494e438e1e59d4f5c0938645d8dece00f7ce72c0366f0"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "text": "La venue de la vérité et la disparition du faux sont annoncées alors que la victoire visible n’est pas encore pleinement réalisée. La première forme de victoire consiste donc à préserver la vérité chez celui qui la porte : il ne se laisse ni détourner de la révélation, ni entraîner dans la dépendance de ceux qui veulent le faire transiger, ni pousser à une démarche erronée. Lorsque le porteur du message tient ferme, la vérité l’emporte dans son premier domaine ; les circonstances extérieures changent ensuite. La vérité tire sa force de ce qu’elle est : une révélation d’Allah. Le faux, lui, emprunte une grande partie de sa force au pouvoir, à l’argent, à la pression et à l’image sociale, autant de circonstances qui peuvent changer. [Le qualificatif arabe «زَهُوقًا» indique que le faux est, par nature, voué à disparaître.]",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "La venue de la vérité et la disparition du faux sont annoncées alors que la victoire visible n’est pas encore pleinement réalisée. La première forme de victoire consiste donc à préserver la vérité chez celui qui la porte : il ne se laisse ni détourner de la révélation, ni entraîner dans la dépendance de ceux qui veulent le faire transiger, ni pousser à une démarche erronée. Lorsque le porteur du message tient ferme, la vérité l’emporte dans son premier domaine ; les circonstances extérieures changent ensuite. La vérité tire sa force de ce qu’elle est : une révélation d’Allah. Le faux, lui, emprunte une grande partie de sa force au pouvoir, à l’argent, à la pression et à l’image sociale, autant de circonstances qui peuvent changer. ",
+              "role": "meaning"
+            },
+            {
+              "text": "[Le qualificatif arabe ",
+              "role": "example"
+            },
+            {
+              "text": "«زَهُوقًا»",
+              "role": "current-ayah"
+            },
+            {
+              "text": " indique que le faux est, par nature, voué à disparaître.]",
+              "role": "example"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Le paradoxe est que celui qui abandonne une partie de la révélation dans l’espoir de gagner en force renonce à une partie de sa véritable source de force. Le Coran est ce dont les humains et les djinns ne peuvent produire l’équivalent ; il est honneur, rappel et critère de jugement. Vient aussitôt après l’évocation de la révélation qui continue de descendre : « Nous faisons descendre du Coran, ce qui est une guérison et une miséricorde pour les croyants. » (Al-Isra’ : 82). ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Le paradoxe est que celui qui abandonne une partie de la révélation dans l’espoir de gagner en force renonce à une partie de sa véritable source de force. Le Coran est ce dont les humains et les djinns ne peuvent produire l’équivalent ; il est honneur, rappel et critère de jugement. Vient aussitôt après l’évocation de la révélation qui continue de descendre : « ",
+              "role": "meaning"
+            },
+            {
+              "text": "Nous faisons descendre du Coran, ce qui est une guérison et une miséricorde pour les croyants.",
+              "role": "related"
+            },
+            {
+              "text": " » (Al-Isra’ : 82). ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Le remède n’est pas d’atténuer le Coran pour le rendre acceptable aux gens, mais de se laisser davantage guider par lui, jusqu’à ce que le cœur guérisse de la peur qu’ils lui inspirent et de leur pression. L’effet d’un seul verset pour affermir la communauté apparaît clairement à la mort du Prophète (paix et bénédictions sur lui). Abou Bakr (qu’Allah l’agrée) ramena les gens à la parole d’Allah : « Mohammad n’est qu’un Messager », et la révélation apaisa leurs cœurs (Al-Bukhari : 4454). ",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Le remède n’est pas d’atténuer le Coran pour le rendre acceptable aux gens, mais de se laisser davantage guider par lui, jusqu’à ce que le cœur guérisse de la peur qu’ils lui inspirent et de leur pression. L’effet d’un seul verset pour affermir la communauté apparaît clairement à la mort du Prophète (paix et bénédictions sur lui). Abou Bakr (qu’Allah l’agrée) ramena les gens à la parole d’Allah : « ",
+              "role": "meaning"
+            },
+            {
+              "text": "Mohammad n’est qu’un Messager",
+              "role": "related"
+            },
+            {
+              "text": " », et la révélation apaisa leurs cœurs (Al-Bukhari : 4454). ",
+              "role": "meaning"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Un renouvellement réel de la situation suppose d’abord que les cœurs renouvellent leur accueil du Coran. Lorsque cet accueil est juste, la fermeté l’est aussi ; lorsqu’il s’affaiblit, l’être humain devient plus vulnérable à la tentation et à la provocation.",
+          "role": "meaning",
+          "spans": [
+            {
+              "text": "Un renouvellement réel de la situation suppose d’abord que les cœurs renouvellent leur accueil du Coran. Lorsque cet accueil est juste, la fermeté l’est aussi ; lorsqu’il s’affaiblit, l’être humain devient plus vulnérable à la tentation et à la provocation.",
+              "role": "meaning",
+              "noteTexts": [
+                "QuranEnc · 17:82 · https://quranenc.com/fr/browse/french_hameedullah/17#82",
+                "QuranEnc · 3:144 · https://quranenc.com/fr/browse/french_hameedullah/3#144",
+                "Sahih al-Bukhari · 4454 · https://sunnah.com/bukhari:4454"
+              ],
+              "noteLiteralProofs": [
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 344,
+                    "end": 352,
+                    "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 20892,
+                    "end": 20897,
+                    "textSHA256": "e869cb1173ba5f12089cfe00b592f882516bbc5ec7ad86e7d2a6a2c7857ac906"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 20900,
+                    "end": 20955,
+                    "textSHA256": "c4445bd4d4757eb3d054d9718be58c1d64b55d4c91f1456606ad8c81db288caf"
+                  }
+                ],
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 344,
+                    "end": 352,
+                    "textSHA256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 20968,
+                    "end": 20973,
+                    "textSHA256": "ec9c55c2340cfda756b9ed9ac2d1bc6d3b58526db548cf872c820b421049ad6a"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 20976,
+                    "end": 21031,
+                    "textSHA256": "46a1cf9e6c2f877206a774c1c6685919e2d27f3c7be90b4516baed525543729a"
+                  }
+                ],
+                [
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 3767,
+                    "end": 3783,
+                    "textSHA256": "da10e5317e63e7460d12fed5c89c5e4e2fdd44ce26dc35f64d2fb844157d6037"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 20613,
+                    "end": 20617,
+                    "textSHA256": "4fef4355420472697c29dc9e15179693af05bf244f785d5e78d3c43671051d4d"
+                  },
+                  {
+                    "schema": "iman-source-literal-text-v1",
+                    "collection": "tadabbur",
+                    "language": "fr",
+                    "materialId": "17:extended",
+                    "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+                    "source": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/complete-reader.txt",
+                      "sha256": "fc864981e0b96b49c02f491d049252da79c7522ce968ca6f45bd36e3e3cf14b6"
+                    },
+                    "inventory": {
+                      "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-source-acceptance.json",
+                      "sha256": "0a52df8a60b91f308706a1973d6f67669b66a505fc825a5528932ccde718d826"
+                    },
+                    "pointer": [],
+                    "start": 21059,
+                    "end": 21090,
+                    "textSHA256": "e4c97527190dbe74f385e3cfaac9cac1f9e245b97d246ea41c825d1a40d0b789"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ayahKey": "17:81"
+    }
+  ],
+  "reviewedCoverage": {
+    "schema": "iman-reviewed-quran-coverage-v1",
+    "surah": 17,
+    "ayahKeys": [
+      "17:73",
+      "17:74",
+      "17:75",
+      "17:76",
+      "17:77",
+      "17:78",
+      "17:79",
+      "17:80",
+      "17:81"
+    ],
+    "introduction": {
+      "state": "not-in-reviewed-material"
+    },
+    "scopeLabel": "Versets disponibles"
+  },
+  "coverageLabel": "verset 73–81",
+  "readerTextSHA256": "1a43d4e7b43cc811c6334dff534a50302beb44b08e4b109fa421521397e06e5d",
+  "sourceReferencePreservation": {
+    "schema": "iman-source-reference-preservation-v1",
+    "auditMode": "literal-source-and-qualification-fidelity",
+    "sourceParagraphs": 41,
+    "preservedParagraphs": 41,
+    "sourceReferences": 15,
+    "preservedReferences": 15,
+    "sourceQualifications": 0,
+    "preservedQualifications": 0,
+    "sourceQualificationOccurrences": 0,
+    "deduplicatedSharedQualifications": 0,
+    "lostParagraphs": 0,
+    "lostReferences": 0,
+    "lostQualifications": 0
+  },
+  "provenance": {
+    "adapter": "current-reviewed-quran-v1",
+    "sourceKind": "reviewed-entries-map",
+    "sourceRecordSHA256": "d9d8d562e6b71f88980fa091c70af6b5da80a569f025cbdcf1af8ce91bae4cc0",
+    "existingReview": [
+      {
+        "section": "17:73",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-11",
+        "sourceSHA256": "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1",
+        "scope": "Complete supplied Arabic comparison, distinct reviewer and target-language fluency review, exact quotation verification and root reconciliation. Model-assisted, not human certification."
+      },
+      {
+        "section": "17:74",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-11",
+        "sourceSHA256": "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1",
+        "scope": "Complete supplied Arabic comparison, distinct reviewer and target-language fluency review, exact quotation verification and root reconciliation. Model-assisted, not human certification."
+      },
+      {
+        "section": "17:75",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-11",
+        "sourceSHA256": "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1",
+        "scope": "Complete supplied Arabic comparison, distinct reviewer and target-language fluency review, exact quotation verification and root reconciliation. Model-assisted, not human certification."
+      },
+      {
+        "section": "17:76",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-11",
+        "sourceSHA256": "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1",
+        "scope": "Complete supplied Arabic comparison, distinct reviewer and target-language fluency review, exact quotation verification and root reconciliation. Model-assisted, not human certification."
+      },
+      {
+        "section": "17:77",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-11",
+        "sourceSHA256": "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1",
+        "scope": "Complete supplied Arabic comparison, distinct reviewer and target-language fluency review, exact quotation verification and root reconciliation. Model-assisted, not human certification."
+      },
+      {
+        "section": "17:78",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-11",
+        "sourceSHA256": "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1",
+        "scope": "Complete supplied Arabic comparison, distinct reviewer and target-language fluency review, exact quotation verification and root reconciliation. Model-assisted, not human certification."
+      },
+      {
+        "section": "17:79",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-11",
+        "sourceSHA256": "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1",
+        "scope": "Complete supplied Arabic comparison, distinct reviewer and target-language fluency review, exact quotation verification and root reconciliation. Model-assisted, not human certification."
+      },
+      {
+        "section": "17:80",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-11",
+        "sourceSHA256": "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1",
+        "scope": "Complete supplied Arabic comparison, distinct reviewer and target-language fluency review, exact quotation verification and root reconciliation. Model-assisted, not human certification."
+      },
+      {
+        "section": "17:81",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-11",
+        "sourceSHA256": "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1",
+        "scope": "Complete supplied Arabic comparison, distinct reviewer and target-language fluency review, exact quotation verification and root reconciliation. Model-assisted, not human certification."
+      }
+    ],
+    "currentArabicCatalogEntry": {
+      "collection": "tadabbur",
+      "language": "ar",
+      "id": "17:extended",
+      "markdown": "materials/tadabbur/ar/extended/017.md",
+      "json": "materials/tadabbur/ar/extended/017.json",
+      "translationStatus": "arabic-source",
+      "surah": 17,
+      "mode": "extended",
+      "ayahs": 9,
+      "hasIntroduction": false,
+      "sourceHashes": [
+        "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1"
+      ]
+    },
+    "sourceFieldsPreserved": [
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:73",
+          "blocks",
+          0,
+          "text"
+        ],
+        "sha256": "71939db38dfea947acecc5a26f037b3eb897b2664740f8cb719a8b11136589e9",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:73",
+          "blocks",
+          1,
+          "text"
+        ],
+        "sha256": "ed3a6df07c1a76764a77dc6ad2f5466e6945d08b331854612bb9ae399e253fd3",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:73",
+          "blocks",
+          2,
+          "text"
+        ],
+        "sha256": "71f385267b87e72f90e27db0a21b0605ae0293d08e0c1f62569f5f15193441da",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:73",
+          "blocks",
+          3,
+          "text"
+        ],
+        "sha256": "ff09e950f494e8789dcf8032d82dea6db12946d1f1d9f1065fefe27342327411",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:73",
+          "blocks",
+          4,
+          "text"
+        ],
+        "sha256": "9a6a0515e4dbf47ff073e17655f90dfaabb08291bb5bb5640fd44aae4c6eacc5",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:73",
+          "blocks",
+          5,
+          "text"
+        ],
+        "sha256": "3d539701e07e9d87a26b1af27b75508d132f7a931c4fefd188cdf3fa14b94dbc",
+        "placement": "reader paragraph"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              0,
+              "publisher"
+            ],
+            "sha256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              0,
+              "reference"
+            ],
+            "sha256": "7600b9b17d4d484dfeb6b7116347fa694785a07a3402e3e3e66025e7922e178f"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              0,
+              "url"
+            ],
+            "sha256": "8fc03f8f7fb6b1cd7ac501c6eed789797d5ce3175fb501b4d21f5a68f99b0275"
+          }
+        ],
+        "section": "17:73",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              1,
+              "publisher"
+            ],
+            "sha256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              1,
+              "reference"
+            ],
+            "sha256": "6d83e6b793ee21a397c4aa2f491dc44a8a3943805a632e90c11cae263c717d4a"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              1,
+              "url"
+            ],
+            "sha256": "a4ee065c119ce93463376eab1cf979dd8abae88a9e70f8a0283f90eb4254ed0e"
+          }
+        ],
+        "section": "17:73",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              2,
+              "publisher"
+            ],
+            "sha256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              2,
+              "reference"
+            ],
+            "sha256": "5a561e2583d491de8d68c7ca140c362190b6d8e5d9db3c676a03699470e58055"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              2,
+              "url"
+            ],
+            "sha256": "3fd4069e3552406f00dc9f5ee9f60dd6e9d95fd1d18860188c48bb97763e0992"
+          }
+        ],
+        "section": "17:73",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              3,
+              "publisher"
+            ],
+            "sha256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              3,
+              "reference"
+            ],
+            "sha256": "b3c5a9ecfd87dafa804134c941d8057f760f81765f10edada705ac520c945890"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              3,
+              "url"
+            ],
+            "sha256": "75fac0cbca820cfcd6329dd44311bae9df0404ec738575ff4862c25858db8677"
+          }
+        ],
+        "section": "17:73",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              4,
+              "publisher"
+            ],
+            "sha256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              4,
+              "reference"
+            ],
+            "sha256": "799942dd63c697599623a93c53e9e6c96c4fadca31b10afacc5f4163e48fb58f"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              4,
+              "url"
+            ],
+            "sha256": "d6e88994137a8260bdb54c0c0ccd13136cdf7ad65959a6cefe9f2f6a160d19a7"
+          }
+        ],
+        "section": "17:73",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              5,
+              "publisher"
+            ],
+            "sha256": "da10e5317e63e7460d12fed5c89c5e4e2fdd44ce26dc35f64d2fb844157d6037"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              5,
+              "reference"
+            ],
+            "sha256": "8b48407fe4e7baca144f07dde469b63a23df7c650752413cdef0e72f2e6039af"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:73",
+              "citations",
+              5,
+              "url"
+            ],
+            "sha256": "f4851d051c0d0d51576353404eb06ed2f5fd91b9774eecdea6a87eb9be98f8b1"
+          }
+        ],
+        "section": "17:73",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:74",
+          "blocks",
+          0,
+          "text"
+        ],
+        "sha256": "10b0c47a11215bacd0df0bf8cab4deccb0b381e4eec025f61ff50aef14466630",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:74",
+          "blocks",
+          1,
+          "text"
+        ],
+        "sha256": "751531355ea96302edd94b131b68fec9c628803c488dab836b52c51e3e39d1a2",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:74",
+          "blocks",
+          2,
+          "text"
+        ],
+        "sha256": "07baef901b76d9d0048f1add9352c7cca6e5045ca3011ce370e571723ac59511",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:74",
+          "blocks",
+          3,
+          "text"
+        ],
+        "sha256": "04539ceb1ddf5354d94c1368043326c411fa48df699757a59dc2cfbdf4897c89",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:74",
+          "blocks",
+          4,
+          "text"
+        ],
+        "sha256": "dd31da5dbc44653a1badd0a3716aef9dad122d0eaff039cb20e654859b6d28f5",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:75",
+          "blocks",
+          0,
+          "text"
+        ],
+        "sha256": "b511a65840dd49148ddc2510246cd33b7eb88ece4152307b2a80cbd931c69c21",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:75",
+          "blocks",
+          1,
+          "text"
+        ],
+        "sha256": "8eb6c81a612e17320414827a6ee1bdd4167aef65afdd2c68c626350ab1ec14a9",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:75",
+          "blocks",
+          2,
+          "text"
+        ],
+        "sha256": "b65689977445796fece12d41ae8d48d525ef2a706ef33676cec7335c85009224",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:75",
+          "blocks",
+          3,
+          "text"
+        ],
+        "sha256": "e801036aa9bc75c28b884f69c9654398d9b48637ffacbc0fcc2c383b526e79f8",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:75",
+          "blocks",
+          4,
+          "text"
+        ],
+        "sha256": "fad6e7c8ffc608478a4c55d48ff15de76c8ebd492cf0076f5f1d601fe595aadc",
+        "placement": "reader paragraph"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:75",
+              "citations",
+              0,
+              "publisher"
+            ],
+            "sha256": "8d4c5ece4ca7618d35f9b337af8110c47b3a7daeb379c0ef2fc19e62cd7982bc"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:75",
+              "citations",
+              0,
+              "reference"
+            ],
+            "sha256": "924434af80875938f21674b08b436aa96ac461835c5af4f71f1fc99674a6b859"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:75",
+              "citations",
+              0,
+              "url"
+            ],
+            "sha256": "6f410f1d5d39ddfa72baeab9d1f9d5ea352e50670c4494299dd2d983ce7d568e"
+          }
+        ],
+        "section": "17:75",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:75",
+              "citations",
+              1,
+              "publisher"
+            ],
+            "sha256": "8d4c5ece4ca7618d35f9b337af8110c47b3a7daeb379c0ef2fc19e62cd7982bc"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:75",
+              "citations",
+              1,
+              "reference"
+            ],
+            "sha256": "690255bce5949baceab35d991e53a4a66e4079ca2907d08a324aa60ecde4950a"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:75",
+              "citations",
+              1,
+              "url"
+            ],
+            "sha256": "8806193752e8bbd64b65bea6dc3fafc9a7be735a799a63a62ab1f0014c0a73c5"
+          }
+        ],
+        "section": "17:75",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:75",
+              "citations",
+              2,
+              "publisher"
+            ],
+            "sha256": "8d4c5ece4ca7618d35f9b337af8110c47b3a7daeb379c0ef2fc19e62cd7982bc"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:75",
+              "citations",
+              2,
+              "reference"
+            ],
+            "sha256": "66ff5645e94008a09feacb97a47475b895670b689a1c6d4a25bd2bb0b31594be"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:75",
+              "citations",
+              2,
+              "url"
+            ],
+            "sha256": "792e0490e4e763e28f53f325ac46e6492c45ea769e27ddfaeb1c1db0609b6997"
+          }
+        ],
+        "section": "17:75",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:76",
+          "blocks",
+          0,
+          "text"
+        ],
+        "sha256": "4b2d45ca7d2eb875b665724a3aeca3633198ec16fc90ab49791338d75c1e45fb",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:76",
+          "blocks",
+          1,
+          "text"
+        ],
+        "sha256": "fefce5fb5b07eb31699d5fc2e7cbf96561862894d03360fe8037ea08ce925ac6",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:76",
+          "blocks",
+          2,
+          "text"
+        ],
+        "sha256": "f5ab488a0e31686f9d7416ce342a22a5daa19aa087c01d59ecde2a7ba6dd8ac9",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:76",
+          "blocks",
+          3,
+          "text"
+        ],
+        "sha256": "a364e38d699cfb80a78e49f2088a25c86a670b8fa20e6efd044e5fb79d42affc",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:76",
+          "blocks",
+          4,
+          "text"
+        ],
+        "sha256": "10d197cbb3fcb1a76eb8f5afd18a701face1032c58ec65b46f0f0322d969bdd6",
+        "placement": "reader paragraph"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:76",
+              "citations",
+              0,
+              "publisher"
+            ],
+            "sha256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:76",
+              "citations",
+              0,
+              "reference"
+            ],
+            "sha256": "04f4aed462149ce75aca0532d14f7a1109b1908781cb505a7e9e282b4f7fbee3"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:76",
+              "citations",
+              0,
+              "url"
+            ],
+            "sha256": "a769a0b04c9dcc679136bc3a17293599a7bac23db26e58b68890643468efd67a"
+          }
+        ],
+        "section": "17:76",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:76",
+              "citations",
+              1,
+              "publisher"
+            ],
+            "sha256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:76",
+              "citations",
+              1,
+              "reference"
+            ],
+            "sha256": "775c6b51871449d4005d4a3ebb5aebe13a339ee2db0eaf7528834fd24f0a40d7"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:76",
+              "citations",
+              1,
+              "url"
+            ],
+            "sha256": "772d95d78a3604ffcb4d2382c71a91eeee126d683f8102f4a1fcfe916a26c09a"
+          }
+        ],
+        "section": "17:76",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:77",
+          "blocks",
+          0,
+          "text"
+        ],
+        "sha256": "2084ee9b565c3f297e1a3348b609f0bf6eef06629f801914b37bd7d6babd7111",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:77",
+          "blocks",
+          1,
+          "text"
+        ],
+        "sha256": "648e984e0d75d60438c0ef1f0984b5fbc35abda0cf283694a9a3c7ac84083e11",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:77",
+          "blocks",
+          2,
+          "text"
+        ],
+        "sha256": "d79f4fe5c5d94763ec4f9554953e6161320a8b16d23e50c490ecb2442b56dc21",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:77",
+          "blocks",
+          3,
+          "text"
+        ],
+        "sha256": "7f9c37ab574a45397c7c9e96d115b62bb8553ecda349f7356162eaa416e1e0fe",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:78",
+          "blocks",
+          0,
+          "text"
+        ],
+        "sha256": "1ee9ccd3f1ec9de5eb89e209e55f88d649a3cefe0ad7fb3ec90258a99f8c4826",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:78",
+          "blocks",
+          1,
+          "text"
+        ],
+        "sha256": "4289292ea3f920d7a6b4bdcd9f03f3f4bf4c79a6636a612215d6870d2a58fc8b",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:78",
+          "blocks",
+          2,
+          "text"
+        ],
+        "sha256": "6c9388f3afc12529907156829152dac985dba8bbfde97432a4aba266c4292187",
+        "placement": "reader paragraph"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:78",
+              "citations",
+              0,
+              "publisher"
+            ],
+            "sha256": "3c3c3a59956acad66ab2a322baf5c60044019665dd3acac3b0dfd6fb48c4dc7f"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:78",
+              "citations",
+              0,
+              "reference"
+            ],
+            "sha256": "ef13a5ed3e09dae825e9ba371aa6213defff5d3a898ec084c3107d8e10dcef19"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:78",
+              "citations",
+              0,
+              "url"
+            ],
+            "sha256": "9dcee4c4a4d4ba44498186ae39b769c6a813e4bcf83f8769fe0a80a86f57a69e"
+          }
+        ],
+        "section": "17:78",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:79",
+          "blocks",
+          0,
+          "text"
+        ],
+        "sha256": "f9f38e0a8cebae37f712e893c014e218d82ccd6b07a41f628dd01c5236a6182e",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:79",
+          "blocks",
+          1,
+          "text"
+        ],
+        "sha256": "67688ccbd8d5f68f4a66ee68baa4c42011f316b262f1722449f15aa55571a113",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:79",
+          "blocks",
+          2,
+          "text"
+        ],
+        "sha256": "2318cef6cdeb9a4745700b7d1cd3b27d06fde824a43e4563db1ac64dfe840d8a",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:79",
+          "blocks",
+          3,
+          "text"
+        ],
+        "sha256": "f535681c0688ffd8b37a55cc9eb93da7d6a9f4645922469958b280ec3df30189",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:80",
+          "blocks",
+          0,
+          "text"
+        ],
+        "sha256": "9192b68220d48595553493d033aef2b1702bd9079d9b89afabbf9d4bce0e077b",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:80",
+          "blocks",
+          1,
+          "text"
+        ],
+        "sha256": "d92665f2fd8d4f02592447211b74ffe7b80cae927eff9628da8e93fdd98a25e6",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:80",
+          "blocks",
+          2,
+          "text"
+        ],
+        "sha256": "0357d870cce826fa9f3cd8e726bc11e5d05ed25c13f929d02fb5556433ff0128",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:80",
+          "blocks",
+          3,
+          "text"
+        ],
+        "sha256": "d70a45f57ad86d6335585fab176b70754e8d1542da8b975412470c6ba583c5db",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:81",
+          "blocks",
+          0,
+          "text"
+        ],
+        "sha256": "521fac622aba4a8b4fa3ab38ea64dc14df977c49a655f98d974c30363c6a8dd0",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:81",
+          "blocks",
+          1,
+          "text"
+        ],
+        "sha256": "e974e0e9e0e2dfde042e766ea176b35f9785ef6a7faac134d4c97fe334afc821",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:81",
+          "blocks",
+          2,
+          "text"
+        ],
+        "sha256": "f66abfc409856db5cc83f11dbd0d823e3b6967232c3a86522fb65911fb4cf69b",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:81",
+          "blocks",
+          3,
+          "text"
+        ],
+        "sha256": "b4a5cb9ca7b765d4397a4bc0e643af4258841df9fbc90200099b8e2b96cbde63",
+        "placement": "reader paragraph"
+      },
+      {
+        "source": {
+          "path": "materials/tadabbur/fr/extended/017.json",
+          "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+        },
+        "pointer": [
+          "entries",
+          "17:81",
+          "blocks",
+          4,
+          "text"
+        ],
+        "sha256": "d06ff9e95121b8fd1f0b85bde83c67d1e9005a9bb456104a0d9a491c87da724e",
+        "placement": "reader paragraph"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:81",
+              "citations",
+              0,
+              "publisher"
+            ],
+            "sha256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:81",
+              "citations",
+              0,
+              "reference"
+            ],
+            "sha256": "e869cb1173ba5f12089cfe00b592f882516bbc5ec7ad86e7d2a6a2c7857ac906"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:81",
+              "citations",
+              0,
+              "url"
+            ],
+            "sha256": "c4445bd4d4757eb3d054d9718be58c1d64b55d4c91f1456606ad8c81db288caf"
+          }
+        ],
+        "section": "17:81",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:81",
+              "citations",
+              1,
+              "publisher"
+            ],
+            "sha256": "f5959039edd7f56a4c2e65d39ed53d59a3419ab0e131e60deb56ad11a2ac157b"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:81",
+              "citations",
+              1,
+              "reference"
+            ],
+            "sha256": "ec9c55c2340cfda756b9ed9ac2d1bc6d3b58526db548cf872c820b421049ad6a"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:81",
+              "citations",
+              1,
+              "url"
+            ],
+            "sha256": "46a1cf9e6c2f877206a774c1c6685919e2d27f3c7be90b4516baed525543729a"
+          }
+        ],
+        "section": "17:81",
+        "placement": "original source/meaning footnote"
+      },
+      {
+        "sources": [
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:81",
+              "citations",
+              2,
+              "publisher"
+            ],
+            "sha256": "da10e5317e63e7460d12fed5c89c5e4e2fdd44ce26dc35f64d2fb844157d6037"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:81",
+              "citations",
+              2,
+              "reference"
+            ],
+            "sha256": "4fef4355420472697c29dc9e15179693af05bf244f785d5e78d3c43671051d4d"
+          },
+          {
+            "source": {
+              "path": "materials/tadabbur/fr/extended/017.json",
+              "sha256": "78f5df748d8fdb9ec59a3216e70873e183c0efd6fdbc1b5feb15710e31ca0f66"
+            },
+            "pointer": [
+              "entries",
+              "17:81",
+              "citations",
+              2,
+              "url"
+            ],
+            "sha256": "e4c97527190dbe74f385e3cfaac9cac1f9e245b97d246ea41c825d1a40d0b789"
+          }
+        ],
+        "section": "17:81",
+        "placement": "original source/meaning footnote"
+      }
+    ],
+    "sourceParagraphSHA256": "b4ad0e17aa4aafb6fef9d818402f6b1d55881f4adbb2ffe039521dc4f9c5764e",
+    "renderedParagraphSHA256": "b4ad0e17aa4aafb6fef9d818402f6b1d55881f4adbb2ffe039521dc4f9c5764e",
+    "originalSourceQualificationsUnchanged": true,
+    "sourceApprovalCreated": false,
+    "humanCertification": false,
+    "referencePresentation": "Exact supplied source identities and qualifications; no inferred Hadith numbering.",
+    "recoveredExistingReview": {
+      "reviewChain": {
+        "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/existing-review-chain.json",
+        "sha256": "a00ba351a9310b13fd9f32c60968757805251f7d1799a9e4efed43ff03964b1e"
+      },
+      "sourceOwnerLiteralTransfer": {
+        "path": "materials/source-acceptances/recovered-329-v1/fr/17-extended/literal-transfer-receipt.json",
+        "sha256": "73cd608d6fee6722d30673fa1a335951e7199fcd3f7707c8d35c5a9692dc3da9"
+      },
+      "noNewSemanticReview": true,
+      "originalQualificationUnchanged": true
+    }
+  },
+  "publicationApproval": {
+    "path": "materials/book-publication-approvals/8d5a860ba5bdb4baec0ccf076a0c2835794023578bc0acb2753f218d27f82126.json",
+    "sha256": "8d5a860ba5bdb4baec0ccf076a0c2835794023578bc0acb2753f218d27f82126",
+    "approvalId": "recovered-existing-review-329-v1-fr-17:extended"
+  }
+}
