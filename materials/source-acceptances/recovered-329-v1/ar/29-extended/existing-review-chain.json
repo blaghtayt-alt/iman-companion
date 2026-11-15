@@ -1,0 +1,2159 @@
+{
+  "schema": "iman-existing-whole-review-and-finite-deltas-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "ar",
+    "id": "29:extended"
+  },
+  "existingInventory": {
+    "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
+    "sha256": "8de1900c4f19f24b093d388f398ab9510397153f7b9b8d0e94ffed4a1b965f76"
+  },
+  "existingRecord": {
+    "collection": "tadabbur",
+    "language": "ar",
+    "materialId": 29,
+    "mode": "extended",
+    "sourceFiles": [
+      {
+        "path": "materials/tadabbur/ar/extended/029.json",
+        "sha256": "a08e70a3f6766b9450f6082f284648d12c3f79fd90642825f00d1e20f6c2dfa1"
+      },
+      {
+        "path": "materials/tadabbur/ar/extended/029.md",
+        "sha256": "a578e5bc47fe2a6bc93c22552a7c05a10ec72da651c3102c07224f74b6286355"
+      }
+    ],
+    "sourceConditions": [
+      {
+        "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+        "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+      }
+    ],
+    "existingWholeReview": {
+      "kind": "Arabic literal/structural source QC; not a translation, semantic or scholarly certification",
+      "handoffSHA256": "dc0acde7a951e538f0fe2cb1a1f05f65a965dbe24d0d87876adb0bc9c765c3bf",
+      "sourceAuditSHA256": "448499b9d601acada5995d693beda83180d2fc03a50edccff21b17d81f6320d3"
+    },
+    "historicalPublication": {
+      "publicCommit": "b05131fed345444774a020a10ae134ca094c6947",
+      "basis": "Root atomic GitHub readback pinned this exact commit; both current JSON/Markdown byte blob IDs match the local tree for that commit. The root readback itself directly fetched book-table files, not every individual material file.",
+      "rootReadbackReceipt": "ROOT-ALL20-ATOMIC-GITHUB-TABLE-READBACK.json",
+      "directIndividualPriorReadback": null,
+      "commit": "b05131fed345444774a020a10ae134ca094c6947"
+    },
+    "bookCoverage": {
+      "ayahKeys": [
+        "29:1",
+        "29:2",
+        "29:3",
+        "29:4",
+        "29:5",
+        "29:6",
+        "29:7",
+        "29:8",
+        "29:9",
+        "29:10",
+        "29:11",
+        "29:12",
+        "29:13",
+        "29:14",
+        "29:15",
+        "29:16",
+        "29:17",
+        "29:18",
+        "29:19",
+        "29:20",
+        "29:21",
+        "29:22",
+        "29:23",
+        "29:24",
+        "29:25",
+        "29:26",
+        "29:27",
+        "29:28",
+        "29:29",
+        "29:30",
+        "29:31",
+        "29:32",
+        "29:33",
+        "29:34",
+        "29:35",
+        "29:36",
+        "29:37",
+        "29:38",
+        "29:39",
+        "29:40",
+        "29:41",
+        "29:42",
+        "29:43",
+        "29:44",
+        "29:45",
+        "29:46",
+        "29:47",
+        "29:48",
+        "29:49",
+        "29:50",
+        "29:51",
+        "29:52",
+        "29:53",
+        "29:54",
+        "29:55",
+        "29:56",
+        "29:57",
+        "29:58",
+        "29:59",
+        "29:60",
+        "29:61",
+        "29:62",
+        "29:63",
+        "29:64",
+        "29:65",
+        "29:66",
+        "29:67",
+        "29:68",
+        "29:69"
+      ],
+      "introductionSectionIds": [
+        "intro"
+      ]
+    }
+  },
+  "registeredSourceArchive": {
+    "path": "materials/source-acceptances/recovered-329-v1/ar/29-extended/registered-source.json",
+    "sha256": "a08e70a3f6766b9450f6082f284648d12c3f79fd90642825f00d1e20f6c2dfa1"
+  },
+  "originalFrozenCorrectionLedgerSHA256": "ae0d57527ce8f51479a13ab900604a437442a1c905a6042534e1ddb9adbdaa17",
+  "originalEvidenceFiles": [
+    {
+      "path": "corrections1_329_root_verification20261114/THROUGH270-INDEPENDENT-NUMBERED-DISPOSITIONS-v1.json",
+      "expectedSHA256": "e54c14937690be9dba6524b84d41563597488401bea4fe15741ff26f52c5936f",
+      "actualSHA256": "e54c14937690be9dba6524b84d41563597488401bea4fe15741ff26f52c5936f",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/checklist-v2.json",
+      "expectedSHA256": "cd54d8b339646e3c900c23ad7399d365ccfd14ce32e6434941466a0e4fe2677f",
+      "actualSHA256": "cd54d8b339646e3c900c23ad7399d365ccfd14ce32e6434941466a0e4fe2677f",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/CANDIDATE-REVIEW-FROZEN-v1.json",
+      "expectedSHA256": "df3eafc3ad82c4d46f6e15e8e2661df658030af19ae2f2fa50fe6c9b9070da18",
+      "actualSHA256": "df3eafc3ad82c4d46f6e15e8e2661df658030af19ae2f2fa50fe6c9b9070da18",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/CANDIDATE-REVIEW-SCOPE-ADDENDUM-v1.json",
+      "expectedSHA256": "4dbac31ab1ed48a68e5d741d2c3ba37c35f43d3b32d0815a2d93d70ad650b7fa",
+      "actualSHA256": "4dbac31ab1ed48a68e5d741d2c3ba37c35f43d3b32d0815a2d93d70ad650b7fa",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ITEM-313-INDEPENDENT-REASSESSMENT-FINAL-v1.json",
+      "expectedSHA256": "c0978b696db345617729ed97be99106022a9c05d06d843d4b8acbeefd52c334d",
+      "actualSHA256": "c0978b696db345617729ed97be99106022a9c05d06d843d4b8acbeefd52c334d",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/Iman_Companion_271-329_Before_Green_After_Unchanged.docx",
+      "expectedSHA256": "1f7fbeba10f5325037c511432423ad8e5a03fe418145b914486f6977787762bc",
+      "actualSHA256": "1f7fbeba10f5325037c511432423ad8e5a03fe418145b914486f6977787762bc",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-KAHF-TH-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "04f16807d66f02130420bbf01e320a51f29e4ce40773bef6f7860476c40df2c9",
+      "actualSHA256": "04f16807d66f02130420bbf01e320a51f29e4ce40773bef6f7860476c40df2c9",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-INSTALLED-GITHUB-READBACK-v1.json",
+      "expectedSHA256": "85a05dd167d64aaa1e9f321eb7a27734001f8e15bdeccce98a843bc47806e5aa",
+      "actualSHA256": "85a05dd167d64aaa1e9f321eb7a27734001f8e15bdeccce98a843bc47806e5aa",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-SABA13-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "9fb661e5a4b284d3fb6eb650953790e92ef2b5654a00c8f6b164c45c94446945",
+      "actualSHA256": "9fb661e5a4b284d3fb6eb650953790e92ef2b5654a00c8f6b164c45c94446945",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-BN-UR-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "302d652150b1f4f6f746894317ac043fd23be794f75ae4fbe9734cb05602c432",
+      "actualSHA256": "302d652150b1f4f6f746894317ac043fd23be794f75ae4fbe9734cb05602c432",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-EN-FATIR-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "50117ff34ba3628e20d75d21a320e59a5b466c059348f6f449e6862218c61078",
+      "actualSHA256": "50117ff34ba3628e20d75d21a320e59a5b466c059348f6f449e6862218c61078",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-HI-FATIR-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "d1aed9908acaf5560bbb65284cd517417134f26e11e6101b5ba03be5deeeae79",
+      "actualSHA256": "d1aed9908acaf5560bbb65284cd517417134f26e11e6101b5ba03be5deeeae79",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-FR-FATIR-CANONICAL-GITHUB-v1.json",
+      "expectedSHA256": "d46c5f7fc39569361cab0b7e932e404d70df2037025b6ebf7650137a42f8f7f3",
+      "actualSHA256": "d46c5f7fc39569361cab0b7e932e404d70df2037025b6ebf7650137a42f8f7f3",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-VI-WORD-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "50cb6b48695d3acf00786bca2daf2b5632f0be962deaf6e8ce98f6c1f1fc4ee2",
+      "actualSHA256": "50cb6b48695d3acf00786bca2daf2b5632f0be962deaf6e8ce98f6c1f1fc4ee2",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-313-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "54abe84f97659471a5e649ea4b3acbda2a43368983f3410ec4655cbb77449020",
+      "actualSHA256": "54abe84f97659471a5e649ea4b3acbda2a43368983f3410ec4655cbb77449020",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-KAHF-TR-EN-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "5978e1fb5e3a3033405ea31ac685ec89bc45663e41f36583de30834cecd3f350",
+      "actualSHA256": "5978e1fb5e3a3033405ea31ac685ec89bc45663e41f36583de30834cecd3f350",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-WEB-1-329-LIVE-HTTP-v1.json",
+      "expectedSHA256": "5098e712b3193b8458c5a3020b577de2d6db18f7c9b80ca6074e6b9e1711af2b",
+      "actualSHA256": "5098e712b3193b8458c5a3020b577de2d6db18f7c9b80ca6074e6b9e1711af2b",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/ARABIC-338-FINAL-READBACK.json",
+      "expectedSHA256": "68489213dcb494194854eb7f21be7193c4fb0f60a65768dab4012e1e104308bb",
+      "actualSHA256": "68489213dcb494194854eb7f21be7193c4fb0f60a65768dab4012e1e104308bb",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/FULL-1-329-CURRENT-AUDIT-20261114.json",
+      "expectedSHA256": "218092bdf142c92afba6102042781e0f193ee15b3640da71ad038a1b46d1db11",
+      "actualSHA256": "218092bdf142c92afba6102042781e0f193ee15b3640da71ad038a1b46d1db11",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-CURRENT-THROUGH270-DELIVERY-v1.json",
+      "expectedSHA256": "0df5abb6c811a9a47564da80b946ca27df55541d0526416f4e3d92a8ffc6fb12",
+      "actualSHA256": "0df5abb6c811a9a47564da80b946ca27df55541d0526416f4e3d92a8ffc6fb12",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-WEB-VI-313-KAHF-PREVIEW-v1.json",
+      "expectedSHA256": "0a00adb0dfc866f48e14acbc4e92ac5b0e1f51ce53da8753603f9b0e8e08b93b",
+      "actualSHA256": "0a00adb0dfc866f48e14acbc4e92ac5b0e1f51ce53da8753603f9b0e8e08b93b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-bn-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "07d4cc4a9ea49d154bf32c6aeb993b9288ff5e5648e2d3634655a0e551dc82e2",
+      "actualSHA256": "07d4cc4a9ea49d154bf32c6aeb993b9288ff5e5648e2d3634655a0e551dc82e2",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/BATCH8-BOUND-OPERATIONS.json",
+      "expectedSHA256": "7dcc63992c72e733e41f30c5820527dcfd03de48455a0808fed0d10f583164df",
+      "actualSHA256": "7dcc63992c72e733e41f30c5820527dcfd03de48455a0808fed0d10f583164df",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-de-FINAL.json",
+      "expectedSHA256": "d53ce52a415464273e8dca0efce412a1928bfdda3f948fabeba90fe3656bedff",
+      "actualSHA256": "d53ce52a415464273e8dca0efce412a1928bfdda3f948fabeba90fe3656bedff",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-en-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "280ac231660bb18c6e8c5f906cc3739e22ff5317573212d30bd3f2195e0fc1b3",
+      "actualSHA256": "280ac231660bb18c6e8c5f906cc3739e22ff5317573212d30bd3f2195e0fc1b3",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-es-FINAL.json",
+      "expectedSHA256": "193efbbe6a057f78b3d34ebcecbb41cdcbe60bd25fdeb167538d105ebfece0d4",
+      "actualSHA256": "193efbbe6a057f78b3d34ebcecbb41cdcbe60bd25fdeb167538d105ebfece0d4",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-es-1-2-INDEPENDENT-FINAL-v7.json",
+      "expectedSHA256": "c7bbb5f9c4b217f324263f837fe4aaabec92436dff7b065e1ff5cb2757945d60",
+      "actualSHA256": "c7bbb5f9c4b217f324263f837fe4aaabec92436dff7b065e1ff5cb2757945d60",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fa-FINAL.json",
+      "expectedSHA256": "067aaacb9137fa334a93d520acf49ecf68500b3d86a692d130852eb3c191dc13",
+      "actualSHA256": "067aaacb9137fa334a93d520acf49ecf68500b3d86a692d130852eb3c191dc13",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fa-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "15ae8d5ff6be1572c782d4f1fde209708dd315f0de5054d0a4b3f20e1eb1fa4f",
+      "actualSHA256": "15ae8d5ff6be1572c782d4f1fde209708dd315f0de5054d0a4b3f20e1eb1fa4f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fil-FINAL.json",
+      "expectedSHA256": "927680e1798769a0f67c6499c251482c7fc511e478b6636f3b5e0c1dc6f00696",
+      "actualSHA256": "927680e1798769a0f67c6499c251482c7fc511e478b6636f3b5e0c1dc6f00696",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fil-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "4a86f61ce1aa3d6d437af0b99e55e8487c1189b7c3c05e440ade41ab91c76aca",
+      "actualSHA256": "4a86f61ce1aa3d6d437af0b99e55e8487c1189b7c3c05e440ade41ab91c76aca",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-fr-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "cbbb4c31cf72c68fda784f92bdb4123836efdffbbc24dbdd1c4d12549a489bae",
+      "actualSHA256": "cbbb4c31cf72c68fda784f92bdb4123836efdffbbc24dbdd1c4d12549a489bae",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-hi-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "173016599e20f69ebcaf8ff4dc629a8b5e47e84ed6b108d2cb6691b56c70b1b5",
+      "actualSHA256": "173016599e20f69ebcaf8ff4dc629a8b5e47e84ed6b108d2cb6691b56c70b1b5",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-id-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "5c32fdecb652ab3560688ac9ccbf20bf0481e329d613c57d91d384f8f214f4da",
+      "actualSHA256": "5c32fdecb652ab3560688ac9ccbf20bf0481e329d613c57d91d384f8f214f4da",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-ja-FINAL-CLARIFIED-v2.json",
+      "expectedSHA256": "b0759678c6fc725b7a9f8911391c032a231f415c2b32443e5794958a635e73b6",
+      "actualSHA256": "b0759678c6fc725b7a9f8911391c032a231f415c2b32443e5794958a635e73b6",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-ms-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "09f1415d850e97616144a580006e3a857b4504e21db19e273589ab94883ed21f",
+      "actualSHA256": "09f1415d850e97616144a580006e3a857b4504e21db19e273589ab94883ed21f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-pt-BR-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "c0d449707ed89a7f605d8c6dac8ddbffedb9ac4e815be71392f9db7d715c94d4",
+      "actualSHA256": "c0d449707ed89a7f605d8c6dac8ddbffedb9ac4e815be71392f9db7d715c94d4",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-ru-FINAL.json",
+      "expectedSHA256": "f71ff7ad839bccfe43e387f52ccf9e2c29c948f47472e5d79c77e680334c52bc",
+      "actualSHA256": "f71ff7ad839bccfe43e387f52ccf9e2c29c948f47472e5d79c77e680334c52bc",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-ru-1-2-INDEPENDENT-FINAL-v7.json",
+      "expectedSHA256": "83b9bcd15017b1e806695b97b5d9785e37beb7b3d75b93bddccf6278991958fa",
+      "actualSHA256": "83b9bcd15017b1e806695b97b5d9785e37beb7b3d75b93bddccf6278991958fa",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-th-FINAL.json",
+      "expectedSHA256": "7a51179ab1e42d069ec8f02b3df898ebf3055068ce8c8f3ad30da9606e11dd5f",
+      "actualSHA256": "7a51179ab1e42d069ec8f02b3df898ebf3055068ce8c8f3ad30da9606e11dd5f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-th-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "9cc094d31fc7a2e929fec992c2333046fae60a6e7cfdae11e53c7f1a7ef80822",
+      "actualSHA256": "9cc094d31fc7a2e929fec992c2333046fae60a6e7cfdae11e53c7f1a7ef80822",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-tr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "39352c22d5dd227a1605c212a4522bd4e92de44afc4644535c9b22b828f7829f",
+      "actualSHA256": "39352c22d5dd227a1605c212a4522bd4e92de44afc4644535c9b22b828f7829f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-ur-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "4bfe269e5c154f908fe55a2f794d74cf90a410865a7f1acf9d5d26095ba9c7a6",
+      "actualSHA256": "4bfe269e5c154f908fe55a2f794d74cf90a410865a7f1acf9d5d26095ba9c7a6",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-uz-FINAL.json",
+      "expectedSHA256": "b3c378e498c4b583a0539eef910c06ed1b2f1467525d7e72ec7811e967dcc180",
+      "actualSHA256": "b3c378e498c4b583a0539eef910c06ed1b2f1467525d7e72ec7811e967dcc180",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-vi-FINAL.json",
+      "expectedSHA256": "3dcb587ffceefaeca525394e72b71b81ae86096d99ed26c94788c1246b42f1ba",
+      "actualSHA256": "3dcb587ffceefaeca525394e72b71b81ae86096d99ed26c94788c1246b42f1ba",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-vi-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "324ee2a0e9c49e4ec574947b6a564f05ac55df87b4bdaf1a750e90b57ec672c8",
+      "actualSHA256": "324ee2a0e9c49e4ec574947b6a564f05ac55df87b4bdaf1a750e90b57ec672c8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-zh-CN-FINAL.json",
+      "expectedSHA256": "c57a4c24a5bab0bab758ff26ccef62bb2adc75fa742e19125f6cb9b0085c4dcb",
+      "actualSHA256": "c57a4c24a5bab0bab758ff26ccef62bb2adc75fa742e19125f6cb9b0085c4dcb",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-bn-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "641dab1b53bf3f88fd54e3e6e95384f5d678c6b4cfef7d024a27986cca143839",
+      "actualSHA256": "641dab1b53bf3f88fd54e3e6e95384f5d678c6b4cfef7d024a27986cca143839",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/BATCH12-BOUND-OPERATIONS.json",
+      "expectedSHA256": "ae7c65242485d2487c9ec6e03124103c36dd61e3d66ec6a5e2742d65db4731c8",
+      "actualSHA256": "ae7c65242485d2487c9ec6e03124103c36dd61e3d66ec6a5e2742d65db4731c8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-en-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "c4239a20b8f84339ba5f87aa02338996474d7a1fffd038b3e5e18ce0a692bb0a",
+      "actualSHA256": "c4239a20b8f84339ba5f87aa02338996474d7a1fffd038b3e5e18ce0a692bb0a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-fr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "ab5c2e8bdf4104ed83081ed72fb96b828d7c75dfa45aadb87508453f5d1a36a1",
+      "actualSHA256": "ab5c2e8bdf4104ed83081ed72fb96b828d7c75dfa45aadb87508453f5d1a36a1",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-id-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "0fb66e9442711add57b2ee5f4d596910cd6924e132aaacc1bcbdcbf3f1ecd647",
+      "actualSHA256": "0fb66e9442711add57b2ee5f4d596910cd6924e132aaacc1bcbdcbf3f1ecd647",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-ms-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "8442649b3a6c2aaa1fba04bf804362834ce0ae723401e5065f1273ce1fcbe6a8",
+      "actualSHA256": "8442649b3a6c2aaa1fba04bf804362834ce0ae723401e5065f1273ce1fcbe6a8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-pt-BR-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "734a5f8fe405678525d227da2fc7885c5a02bee3c569614ce2c1aa8649874cab",
+      "actualSHA256": "734a5f8fe405678525d227da2fc7885c5a02bee3c569614ce2c1aa8649874cab",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-tr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "51ff810a33c1e7fe699845c246fcde2cf01fee2186a7dbbfddf647bcd979c269",
+      "actualSHA256": "51ff810a33c1e7fe699845c246fcde2cf01fee2186a7dbbfddf647bcd979c269",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-ur-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "ade6668af8614d718baa7113a840d71882c9da2b07be52e57a1de00dbdabca9e",
+      "actualSHA256": "ade6668af8614d718baa7113a840d71882c9da2b07be52e57a1de00dbdabca9e",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-ur-178-INDEPENDENT-FINAL-v13.json",
+      "expectedSHA256": "2d65d43f3cf1bf01ca99a05d03b09f221895be605a616e74393b85b4407d5061",
+      "actualSHA256": "2d65d43f3cf1bf01ca99a05d03b09f221895be605a616e74393b85b4407d5061",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-bn-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "6aef86dbf033a49a2d2838d7aa6a26d31327de69e1f95be35b2b8a2f00c0729b",
+      "actualSHA256": "6aef86dbf033a49a2d2838d7aa6a26d31327de69e1f95be35b2b8a2f00c0729b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-en-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "bd0abed750552a303f8b6433eda219d7244659b1072762f0518b9c09d8e21e52",
+      "actualSHA256": "bd0abed750552a303f8b6433eda219d7244659b1072762f0518b9c09d8e21e52",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-fr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "d955c3927299d6da5bd3247839f42aa2afda6282ad6fb31cd636e79504691abd",
+      "actualSHA256": "d955c3927299d6da5bd3247839f42aa2afda6282ad6fb31cd636e79504691abd",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-id-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "e983df4b8b4b0de0ce6570806f23b88e5490129db9eeafcf65129e5f882978f5",
+      "actualSHA256": "e983df4b8b4b0de0ce6570806f23b88e5490129db9eeafcf65129e5f882978f5",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-ms-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "7c2724dddc165e1bfe8506d856606fe5305b0ef652e3a2a60f0212f335e96ecb",
+      "actualSHA256": "7c2724dddc165e1bfe8506d856606fe5305b0ef652e3a2a60f0212f335e96ecb",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-pt-BR-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "08a2c18f0cc52c5d7793a2734eb9c2fa4983ce0b16c0ca5738ec7e0adec25a24",
+      "actualSHA256": "08a2c18f0cc52c5d7793a2734eb9c2fa4983ce0b16c0ca5738ec7e0adec25a24",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-tr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "108362eebaf57952bfa59ad63af565b879c59cc147c50a37cb0dbcf0f56e194a",
+      "actualSHA256": "108362eebaf57952bfa59ad63af565b879c59cc147c50a37cb0dbcf0f56e194a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-ur-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "67e6eb0da5c9d403687fcb5be3ae9874cf36db0b0f33ff6a21615da1dc2ddace",
+      "actualSHA256": "67e6eb0da5c9d403687fcb5be3ae9874cf36db0b0f33ff6a21615da1dc2ddace",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/final/en/MANIFEST.json",
+      "expectedSHA256": "66cff8eee63bd8cb3774e431cb22ddb35d9f392d4feb4ea894775786411148bc",
+      "actualSHA256": "66cff8eee63bd8cb3774e431cb22ddb35d9f392d4feb4ea894775786411148bc",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/author/en-v3/ALIGNMENTS.json",
+      "expectedSHA256": "e75b52d781a2e904d25634400ccbf66bccab7fe809a5929e6b635e7b897ea67b",
+      "actualSHA256": "e75b52d781a2e904d25634400ccbf66bccab7fe809a5929e6b635e7b897ea67b",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/final/tr/MANIFEST.json",
+      "expectedSHA256": "8086fbea911f7223ba2c15de809039bfd734cdf3d155bc048b5adc02dae522be",
+      "actualSHA256": "8086fbea911f7223ba2c15de809039bfd734cdf3d155bc048b5adc02dae522be",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/author/tr-v2/ALIGNMENTS.json",
+      "expectedSHA256": "d6163352a0be3d1a1b6a4485c8b5e793182a76055017d24ebec269855ad734eb",
+      "actualSHA256": "d6163352a0be3d1a1b6a4485c8b5e793182a76055017d24ebec269855ad734eb",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/final/th/MANIFEST.json",
+      "expectedSHA256": "475cd47defcb58fb31488cea47e52171c684273d2af4792a4777d1b355c13f8b",
+      "actualSHA256": "475cd47defcb58fb31488cea47e52171c684273d2af4792a4777d1b355c13f8b",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/author/th/ALIGNMENTS.json",
+      "expectedSHA256": "d0fe1727ec314a294681a7e8eab49c1444ada09f8e2ac859c525e55d2a38329b",
+      "actualSHA256": "d0fe1727ec314a294681a7e8eab49c1444ada09f8e2ac859c525e55d2a38329b",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/TRANSLATION-CHANGELOG-INDEX.json",
+      "expectedSHA256": "e72361a909c6ac7cf9f873c313aa5db95cfeeec845024b273529086a6b144cf9",
+      "actualSHA256": "e72361a909c6ac7cf9f873c313aa5db95cfeeec845024b273529086a6b144cf9",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/native-installed-author-v2.json",
+      "expectedSHA256": "d120badd8e9f95680f9aa5e60c6879fcb88c8136cd6d18de83ccae229beb5365",
+      "actualSHA256": "d120badd8e9f95680f9aa5e60c6879fcb88c8136cd6d18de83ccae229beb5365",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/native-pending-author-v2.json",
+      "expectedSHA256": "9f271871b51b8d7e8f499f4a9d49ad03d765bc8581f3ad83a461f78131faf909",
+      "actualSHA256": "9f271871b51b8d7e8f499f4a9d49ad03d765bc8581f3ad83a461f78131faf909",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-fatir-bn-ur/draft-packet-v2.json",
+      "expectedSHA256": "32f537a9f17d369015f4a1304bc7e5b0b39ab8077c5a52f6df4b57a05d2a2b68",
+      "actualSHA256": "32f537a9f17d369015f4a1304bc7e5b0b39ab8077c5a52f6df4b57a05d2a2b68",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-saba-ja/private-evidence-v1/native-changelog-and-inverse.json",
+      "expectedSHA256": "4688458c436c47c17d0161d66c3a480ebd49e12b979715e0898bef43dfe93bed",
+      "actualSHA256": "4688458c436c47c17d0161d66c3a480ebd49e12b979715e0898bef43dfe93bed",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-fatir-en/private-evidence-v2/language-changelog.json",
+      "expectedSHA256": "dd3ff96d0d289ea31285bbab7842d1b2a329fa12f581e2a9dbcfe035bcea3e2d",
+      "actualSHA256": "dd3ff96d0d289ea31285bbab7842d1b2a329fa12f581e2a9dbcfe035bcea3e2d",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_hi_astra20261114/author/v2/private-evidence/WHOLE-FREEZE12-TO-V2.json",
+      "expectedSHA256": "94e65fa5b145a20ebf6362abfc0990dde4647ce640e4a1379e4e45f41206a0a7",
+      "actualSHA256": "94e65fa5b145a20ebf6362abfc0990dde4647ce640e4a1379e4e45f41206a0a7",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/pending-consumers-v2-independent-final.json",
+      "expectedSHA256": "96650897215883deae1e0951fddacd5f3c2dd67a2a81c4c19be68927b8a94a03",
+      "actualSHA256": "96650897215883deae1e0951fddacd5f3c2dd67a2a81c4c19be68927b8a94a03",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-FATIR-BN-UR-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "ef45be66310d7aef582fb13d1a8c5dafc00ee6782507a1e960bbb16c856f25f3",
+      "actualSHA256": "ef45be66310d7aef582fb13d1a8c5dafc00ee6782507a1e960bbb16c856f25f3",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-SABA-JA-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "fc89445eda8bdc3e6531091088eaaa14ae899ee93c69817e03219e45935eaa55",
+      "actualSHA256": "fc89445eda8bdc3e6531091088eaaa14ae899ee93c69817e03219e45935eaa55",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-FATIR-EN-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "865f7b5cc382fd478d82d904ca53c93e4f5e15e673c2fa678944e53fbcddd63b",
+      "actualSHA256": "865f7b5cc382fd478d82d904ca53c93e4f5e15e673c2fa678944e53fbcddd63b",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_hi_astra20261114/independent-final/INDEPENDENT-HI-FATIR-WORD-FINAL-v2.json",
+      "expectedSHA256": "26a4a252628c9527af0d680d85a3d2022beed7be1a6af163946f012934ae7257",
+      "actualSHA256": "26a4a252628c9527af0d680d85a3d2022beed7be1a6af163946f012934ae7257",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/bn.json",
+      "expectedSHA256": "ead0c48e5fa5d956e6a96ee2ae42a3482d6e4b94af8ba2f27746775d97e3ac3d",
+      "actualSHA256": "ead0c48e5fa5d956e6a96ee2ae42a3482d6e4b94af8ba2f27746775d97e3ac3d",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/de.json",
+      "expectedSHA256": "b715a5c6bc0bb12af3346ade958cc7f06329f90e6cc366e8f56af8df0b0fce15",
+      "actualSHA256": "b715a5c6bc0bb12af3346ade958cc7f06329f90e6cc366e8f56af8df0b0fce15",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/en.json",
+      "expectedSHA256": "990a32f5c78c40d85d2425f8eb3d04731d0c5aa42da27ccf0de525e0e7a94b0f",
+      "actualSHA256": "990a32f5c78c40d85d2425f8eb3d04731d0c5aa42da27ccf0de525e0e7a94b0f",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/fa.json",
+      "expectedSHA256": "b43f1fbad72c22e4bf763d2b314764d0a56b89c0edeb2f151243dc8710aa8418",
+      "actualSHA256": "b43f1fbad72c22e4bf763d2b314764d0a56b89c0edeb2f151243dc8710aa8418",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/fil.json",
+      "expectedSHA256": "f04bc3e9d8da4f3a52b41797e19447a9c49eb498b94c44605b3f1a12815f3287",
+      "actualSHA256": "f04bc3e9d8da4f3a52b41797e19447a9c49eb498b94c44605b3f1a12815f3287",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/fr.json",
+      "expectedSHA256": "d02ab531e4d738b094a56b9c2165eb4432974bf2b5df1ccba9dadf444a0ee7ec",
+      "actualSHA256": "d02ab531e4d738b094a56b9c2165eb4432974bf2b5df1ccba9dadf444a0ee7ec",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/hi.json",
+      "expectedSHA256": "b37ccd6a1efa9afc4ebcc11af0bfd55e7bd7a10007081a78c4aa4f16005fe3b0",
+      "actualSHA256": "b37ccd6a1efa9afc4ebcc11af0bfd55e7bd7a10007081a78c4aa4f16005fe3b0",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/id.json",
+      "expectedSHA256": "43740230f81181461f0f5e003702f172c513f179b3ba7c78cce65e9ee5b01b65",
+      "actualSHA256": "43740230f81181461f0f5e003702f172c513f179b3ba7c78cce65e9ee5b01b65",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ja.json",
+      "expectedSHA256": "65413a20b6d4a40e65c2dbd61304b88da6d5a4398a0612ea5989061ec9068983",
+      "actualSHA256": "65413a20b6d4a40e65c2dbd61304b88da6d5a4398a0612ea5989061ec9068983",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ms.json",
+      "expectedSHA256": "1f5e5d4bb4796bec932a0984a89ec1a9397663e238b6a88883f41d2b557a8d52",
+      "actualSHA256": "1f5e5d4bb4796bec932a0984a89ec1a9397663e238b6a88883f41d2b557a8d52",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/pt-BR.json",
+      "expectedSHA256": "8d634f22d486e3c2823fabc0fa87de85f6b98e1ce3361c91f669604e6f945957",
+      "actualSHA256": "8d634f22d486e3c2823fabc0fa87de85f6b98e1ce3361c91f669604e6f945957",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ru.json",
+      "expectedSHA256": "9a315045cf3247b6f37f442024d3dc92cb5114d3209d7c71fa4d2b00b46f2f5c",
+      "actualSHA256": "9a315045cf3247b6f37f442024d3dc92cb5114d3209d7c71fa4d2b00b46f2f5c",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/tr.json",
+      "expectedSHA256": "e489032f4ac74e75e6e61038d343d8cd0e30e90d2e8e5dc4305bf05bfcf2a83a",
+      "actualSHA256": "e489032f4ac74e75e6e61038d343d8cd0e30e90d2e8e5dc4305bf05bfcf2a83a",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ur.json",
+      "expectedSHA256": "e91bff6cf6d0779eff9dda962279c9afd499b56b169ec22130ad5c20c7f543ed",
+      "actualSHA256": "e91bff6cf6d0779eff9dda962279c9afd499b56b169ec22130ad5c20c7f543ed",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/uz.json",
+      "expectedSHA256": "a6bd39fb436e03f396fd7d20a95d293e9a7169c2786c4e3038cad51872f17fd9",
+      "actualSHA256": "a6bd39fb436e03f396fd7d20a95d293e9a7169c2786c4e3038cad51872f17fd9",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/zh-CN.json",
+      "expectedSHA256": "f95c646983ce2bf08881b0d806918f883b22a84f59738209da64836fcc568dcb",
+      "actualSHA256": "f95c646983ce2bf08881b0d806918f883b22a84f59738209da64836fcc568dcb",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-SABA-VI-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "f34fa44bfb2de337715347f9aee5ec6f8987b68e2cb45fd1c5deafc47c914582",
+      "actualSHA256": "f34fa44bfb2de337715347f9aee5ec6f8987b68e2cb45fd1c5deafc47c914582",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-saba-vi/AUTHOR-ADDITIVE-FREEZE-v1.json",
+      "expectedSHA256": "551df23ce4ba860b88fbb2181dcadc2bbd49d249be13a2cc09d65fb986159f1a",
+      "actualSHA256": "551df23ce4ba860b88fbb2181dcadc2bbd49d249be13a2cc09d65fb986159f1a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/002-ar-bounded-v3.json",
+      "expectedSHA256": "d41bccd6922d1b849ebde6164a65985fd68389dca33437975730fb1790a3f8e2",
+      "actualSHA256": "d41bccd6922d1b849ebde6164a65985fd68389dca33437975730fb1790a3f8e2",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/003-ar-bounded-v3.json",
+      "expectedSHA256": "05e1a7fe6d12afe0363c36e1cf43ca692f1236f0ea608d98571e4a8374cb92c9",
+      "actualSHA256": "05e1a7fe6d12afe0363c36e1cf43ca692f1236f0ea608d98571e4a8374cb92c9",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/004-ar-bounded-v3.json",
+      "expectedSHA256": "36a6ca0b9c05c41243b7ee5bf7832d2413809ea9a54f4700895bfb7ff18bdbca",
+      "actualSHA256": "36a6ca0b9c05c41243b7ee5bf7832d2413809ea9a54f4700895bfb7ff18bdbca",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/004-ar-23-24-Q400-v4.json",
+      "expectedSHA256": "59251a319671211c4514efc2205141fc2d268f37107e37c0699ae6654eebfa62",
+      "actualSHA256": "59251a319671211c4514efc2205141fc2d268f37107e37c0699ae6654eebfa62",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/005-ar-bounded-v3.json",
+      "expectedSHA256": "9046b908efb52d03be2eefef733fa33eb51ec69c3f0ffbfb27ba038921b61bae",
+      "actualSHA256": "9046b908efb52d03be2eefef733fa33eb51ec69c3f0ffbfb27ba038921b61bae",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/006-ar-bounded-v3.json",
+      "expectedSHA256": "a96f4a26f447cc4cd2fa82e85170246b5f32eaaf63ee12ccb23c04b7fae7940e",
+      "actualSHA256": "a96f4a26f447cc4cd2fa82e85170246b5f32eaaf63ee12ccb23c04b7fae7940e",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/006-ar-56-identification-BANK-v6.json",
+      "expectedSHA256": "bcd9d3f8a6d2f5be432616142e1f1104011b0126575580c357befb07652d3489",
+      "actualSHA256": "bcd9d3f8a6d2f5be432616142e1f1104011b0126575580c357befb07652d3489",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/007-ar-bounded-v3.json",
+      "expectedSHA256": "c96c4ff82be2e134459acd2b9ad962f822c322cddab758f70a109e7efcf5cb02",
+      "actualSHA256": "c96c4ff82be2e134459acd2b9ad962f822c322cddab758f70a109e7efcf5cb02",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-bounded-v3.json",
+      "expectedSHA256": "330eb86e0b3b602347b75d110a0a0aad9a75aa9d9f29ce22504986bfd61805fc",
+      "actualSHA256": "330eb86e0b3b602347b75d110a0a0aad9a75aa9d9f29ce22504986bfd61805fc",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/013-ar-bounded-v3.json",
+      "expectedSHA256": "a05561513cd4c3c250e12926064e1877c16f82c7fdb2270b722a5cf10e6acd8f",
+      "actualSHA256": "a05561513cd4c3c250e12926064e1877c16f82c7fdb2270b722a5cf10e6acd8f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/014-ar-bounded-v3.json",
+      "expectedSHA256": "c61d6b90547c2b9e18f883308cbd387a98a39b00ceae9f340e391f22c002b069",
+      "actualSHA256": "c61d6b90547c2b9e18f883308cbd387a98a39b00ceae9f340e391f22c002b069",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/018-ar-bounded-v3.json",
+      "expectedSHA256": "85a08ae12f85d2075ecf1720a315f6670ace6fcda3ae45ebe9ba1bca8041e5b8",
+      "actualSHA256": "85a08ae12f85d2075ecf1720a315f6670ace6fcda3ae45ebe9ba1bca8041e5b8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/019-ar-bounded-v3.json",
+      "expectedSHA256": "616cbfce83799fb4fbed2f834815a79a30704b4ab918e3c019c3e8cbf251819b",
+      "actualSHA256": "616cbfce83799fb4fbed2f834815a79a30704b4ab918e3c019c3e8cbf251819b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/020-ar-bounded-v3.json",
+      "expectedSHA256": "36ecbcbc3cab2286bc72162ab289a0e56c3677f9cb69274c5bce385f9e9c4da4",
+      "actualSHA256": "36ecbcbc3cab2286bc72162ab289a0e56c3677f9cb69274c5bce385f9e9c4da4",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/025-ar-bounded-v3.json",
+      "expectedSHA256": "439c7a993d54aba9c16f59a5c0cce4717bd5f52e590d3ecc6b0475bad0185a14",
+      "actualSHA256": "439c7a993d54aba9c16f59a5c0cce4717bd5f52e590d3ecc6b0475bad0185a14",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+      "expectedSHA256": "53aa6c92c1a25d2b01ffdf0436d456c20b9d5a837578ced0cd05d5be1c422e8c",
+      "actualSHA256": "53aa6c92c1a25d2b01ffdf0436d456c20b9d5a837578ced0cd05d5be1c422e8c",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/001-ar-1-4-v3.json",
+      "expectedSHA256": "47723a1636aa69f42068ec695cdceaaaf7feca40b10bdfac8a0e7c14246a0b6b",
+      "actualSHA256": "47723a1636aa69f42068ec695cdceaaaf7feca40b10bdfac8a0e7c14246a0b6b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/015-ar-172-178-v3.json",
+      "expectedSHA256": "c9c2240ca27a54af9c257e83b02fbb311507b4e6fac576f13bc96a78bc91cfae",
+      "actualSHA256": "c9c2240ca27a54af9c257e83b02fbb311507b4e6fac576f13bc96a78bc91cfae",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/017-ar-179-179.json",
+      "expectedSHA256": "c82ebed6d10d3b8a6eea217e6fefa2af144c8d981031686f81712ca8327ee975",
+      "actualSHA256": "c82ebed6d10d3b8a6eea217e6fefa2af144c8d981031686f81712ca8327ee975",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/020-ar-220-222.json",
+      "expectedSHA256": "92ae64f2e4268df205ecd8c3d7d5d60493004b939c9ce55c3050efcf209a8e3b",
+      "actualSHA256": "92ae64f2e4268df205ecd8c3d7d5d60493004b939c9ce55c3050efcf209a8e3b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/019-ar-simple-215-218-v3.json",
+      "expectedSHA256": "eb022265dcb2daca8505d9f4af7777efd1b6bede6073887bc4fef6b79357e086",
+      "actualSHA256": "eb022265dcb2daca8505d9f4af7777efd1b6bede6073887bc4fef6b79357e086",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-133-source-qualified-v7.json",
+      "expectedSHA256": "c17acb6181949b20b445594a0d3df7b590431ec9ba1bbd1153bbe87d372c10b1",
+      "actualSHA256": "c17acb6181949b20b445594a0d3df7b590431ec9ba1bbd1153bbe87d372c10b1",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-147-source-qualified-v7.json",
+      "expectedSHA256": "f653a6346b174909123b06cd7a07b8c7895160f8b2f1a08924792ddfcfef8d38",
+      "actualSHA256": "f653a6346b174909123b06cd7a07b8c7895160f8b2f1a08924792ddfcfef8d38",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/002-ar-simple-joined-v6.json",
+      "expectedSHA256": "7884daf0ac7a337285ffbd9d2a420fd4163d09441813e0e2cb0f3ed91fcd8d70",
+      "actualSHA256": "7884daf0ac7a337285ffbd9d2a420fd4163d09441813e0e2cb0f3ed91fcd8d70",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/002-ar-simple-7-8-abridged-v11.json",
+      "expectedSHA256": "6f1148580d55a4f4c23a0a28261fb691d8c09b9d844afaa3f23b644ec069d51f",
+      "actualSHA256": "6f1148580d55a4f4c23a0a28261fb691d8c09b9d844afaa3f23b644ec069d51f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-simple-joined-v6.json",
+      "expectedSHA256": "a2f3d73b28d14b18dab57f02125ee6a89231aeabe71a982fe2d3072a9df7407a",
+      "actualSHA256": "a2f3d73b28d14b18dab57f02125ee6a89231aeabe71a982fe2d3072a9df7407a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/013-ar-simple-joined-v6.json",
+      "expectedSHA256": "c3d9d6e7d896454eee783098b2eca2f91f5578f1993c5e8495bdac16215e7cc2",
+      "actualSHA256": "c3d9d6e7d896454eee783098b2eca2f91f5578f1993c5e8495bdac16215e7cc2",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-simple-133-source-qualified-v7.json",
+      "expectedSHA256": "1c8ae1f85e6c604ec67d850e6f62838d9d8a0095ed2fee684f643cb4de072e4c",
+      "actualSHA256": "1c8ae1f85e6c604ec67d850e6f62838d9d8a0095ed2fee684f643cb4de072e4c",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-simple-147-source-qualified-v7.json",
+      "expectedSHA256": "3d1da0488f7a521a7f47198fbb78c50671c8894122136bd71c24b29db5e37074",
+      "actualSHA256": "3d1da0488f7a521a7f47198fbb78c50671c8894122136bd71c24b29db5e37074",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+      "expectedSHA256": "331f6b663c10619787758235475e38261dbe46976e64e172e28aabcdca37aaa5",
+      "actualSHA256": "331f6b663c10619787758235475e38261dbe46976e64e172e28aabcdca37aaa5",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/arabic-short-author-v1.json",
+      "expectedSHA256": "9a6568b988e8fbcd786705b4c93b91082f9e41f2571de4bf4070532844c39b1b",
+      "actualSHA256": "9a6568b988e8fbcd786705b4c93b91082f9e41f2571de4bf4070532844c39b1b",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/Iman_Companion_Through_270.docx",
+      "expectedSHA256": "29b02fdb65949f625283a348c20959fd36db9bf0e8df2c2df4f63020686821fa",
+      "actualSHA256": "29b02fdb65949f625283a348c20959fd36db9bf0e8df2c2df4f63020686821fa",
+      "matches": true
+    }
+  ],
+  "exactCurrentReaderReconciliation": {
+    "language": "ar",
+    "id": "29:extended",
+    "sourcePath": "materials/tadabbur/ar/extended/029.json",
+    "registeredSourceSHA256": "a08e70a3f6766b9450f6082f284648d12c3f79fd90642825f00d1e20f6c2dfa1",
+    "checks": [
+      {
+        "section": "intro",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "b43a23487c07b6e6e163a27cb150f6b3f9ed1bf83934ee73e969cb3c9d232f5d",
+        "currentOrdinarySHA256": "b43a23487c07b6e6e163a27cb150f6b3f9ed1bf83934ee73e969cb3c9d232f5d",
+        "generatedSHA256": "b43a23487c07b6e6e163a27cb150f6b3f9ed1bf83934ee73e969cb3c9d232f5d",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:1",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "5d71c135d7ab972d1b65a166dcc76cb2b8a038ecb77af01bcd95739246ffcfe3",
+        "currentOrdinarySHA256": "93435f90dab29dd9b13e29d282a6332726b28cec2562831ea90f0c7525e0551f",
+        "generatedSHA256": "93435f90dab29dd9b13e29d282a6332726b28cec2562831ea90f0c7525e0551f",
+        "applied": [
+          {
+            "before": "تفتتح السورة بالحروف المقطعة ﴿الم﴾. وقد تنوعت فيها أقوال أهل العلم، فلا يصح حصرها في معنى تفصيلي لم يثبت. ومن الأقوال أنها أسماء للسور، ومن الأقوال ما يتصل بالقسم، ومن أشهر وجوه النظر فيها أنها تستحضر الحروف التي يعرفها المخاطبون ويؤلفون منها كلامهم، ثم يأتيهم القرآن من جنس هذه الحروف وهم عاجزون عن الإتيان بمثله.",
+            "after": "تفتتح السورة بالحروف المقطعة ﴿الم﴾. وقد تنوعت فيها أقوال أهل العلم، فلا يصح حصرها في معنى تفصيلي لم يثبت أو تعيين أسرار لم يبينها النص. ومن الأقوال أنها أسماء للسور، ومن الأقوال ما يتصل بالقسم، ومن أشهر وجوه النظر فيها أنها تستحضر الحروف التي يعرفها المخاطبون ويؤلفون منها كلامهم، ثم يأتيهم القرآن من جنس هذه الحروف وهم عاجزون عن الإتيان بمثله.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 266
+          },
+          {
+            "before": "من أول السورة يُدعى القلب إلى أن يتلقى ميزانه من عند الله. فالسؤال الآتي عن الفتنة لن يترك توقعاته كما كانت؛ وما يراه الإنسان خسارة محضة أو علامة على انقطاع الطريق قد يكشف الوحي له عن معنى آخر فيه. وليس الوقوف عند الحروف تعيينًا لأسرار لم يبينها النص، بل تهيؤ لسماع ما بعدها بإنصات وتعظيم.",
+            "after": "ومن أول السورة يتهيأ القلب لسماع ما بعد هذه الحروف بإنصات وتعظيم، ليتلقى ميزانه من عند الله. فالسؤال الآتي عن الفتنة لن يترك توقعاته كما كانت؛ وما يراه الإنسان خسارة محضة أو علامة على انقطاع الطريق قد يكشف الوحي له عن معنى آخر فيه.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 267
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:2",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "0d08c61891efa8483471c38843a51256a81b0889ea623c84e9da6857739c72be",
+        "currentOrdinarySHA256": "0d08c61891efa8483471c38843a51256a81b0889ea623c84e9da6857739c72be",
+        "generatedSHA256": "0d08c61891efa8483471c38843a51256a81b0889ea623c84e9da6857739c72be",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:3",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "c7ac04c5ae602927cf8e19a5ad8542efd7cde1c03f637cf32cff3434776c0ba9",
+        "currentOrdinarySHA256": "de43ed2303f150813dbda1743c5c819a72f89c3ba76486ef3bc46edb961fa0cc",
+        "generatedSHA256": "de43ed2303f150813dbda1743c5c819a72f89c3ba76486ef3bc46edb961fa0cc",
+        "applied": [
+          {
+            "before": "ورُوي عن علي رضي الله عنه وجه في القراءة بضم الياء وكسر اللام في «ليُعلِمن»، وذُكرت معه معاني الإظهار والتمييز والإعلام بحال الفريقين [القرطبي، تفسير العنكبوت: ٣]. وهو وجه مروي في كتب التفسير، لا يغير النص المتلو هنا. والمقصود من ذكره ملاحظة اجتماع المعاني على انكشاف حقيقة الصدق والكذب، لا توهم أن شيئًا كان خافيًا على الله.",
+            "after": "وروي في كتب التفسير عن علي رضي الله عنه وجه في القراءة بضم الياء وكسر اللام في «ليُعلِمن»، وذكرت معه معاني الإظهار والتمييز والإعلام بحال الفريقين [القرطبي، تفسير العنكبوت: ٣]. وتجتمع هذه المعاني على انكشاف حقيقة الصدق والكذب، لا توهم أن شيئا كان خافيا على الله.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 268
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:4",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "debff21318b0636df331cac7f999f946a5ecd3db72419cc8d0e04b2845dbe999",
+        "currentOrdinarySHA256": "7a9c79001f0b84cbd960bcb1c353bcb16e639e922ac4b0b1226a1f655c86dc58",
+        "generatedSHA256": "7a9c79001f0b84cbd960bcb1c353bcb16e639e922ac4b0b1226a1f655c86dc58",
+        "applied": [
+          {
+            "before": "ويقرب قِصَر النظر أن يتصور المرء خطًّا بالغ الطول، ثم لا ينظر إلا إلى جزء ضئيل من أوله ويحكم منه على الخط كله. أشد من ذلك أن تُجعل سنوات الدنيا وحدها ميزانًا للحكم، وتُسقط الآخرة من الحساب. ليست هذه صورة لقياس الأبد بالأرقام، وإنما بيان لخلل من يرى بعض الطريق فيحسبه النهاية.",
+            "after": "ولتقريب قصر النظر، دون قياس الأبد بالأرقام، يتصور المرء خطا بالغ الطول، ثم ينظر إلى جزء ضئيل من أوله ويحكم منه على الخط كله، كمن يرى بعض الطريق فيحسبه النهاية. وأشد من ذلك أن يجعل سنوات الدنيا وحدها ميزانا للحكم ويسقط الآخرة من الحساب.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 269
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:5",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "1e25e63a3108e144dff46bf82d994fce07fa71580e77ab2d8806113938c45b03",
+        "currentOrdinarySHA256": "1e25e63a3108e144dff46bf82d994fce07fa71580e77ab2d8806113938c45b03",
+        "generatedSHA256": "1e25e63a3108e144dff46bf82d994fce07fa71580e77ab2d8806113938c45b03",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:6",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "d5ceb1ce2101213a36c7caad06fc79e7df1785783347134e5407b0a8d7e1a84d",
+        "currentOrdinarySHA256": "46042e40bc053ad0da4a3221c90920673f26b56e07cd192c7a621631d5ee4589",
+        "generatedSHA256": "46042e40bc053ad0da4a3221c90920673f26b56e07cd192c7a621631d5ee4589",
+        "applied": [
+          {
+            "before": "ولا يعني رجوع نفع المجاهدة إلى صاحبها انقطاع أثره عن غيره؛ فثبات فرد قد يحفظ علمًا أو يعين جماعة، وتقصيره قد يؤذي من معه. وإنما تنفي الآية احتياج الله إليه، لا مسؤولية العبد عن أثر عمله. بهذا يخرج المؤمن من طرفين: المن بجهده كأنه يسد حاجة لربه، وترك الجهد كأن صلاحه وفساده لا يمسان أحدًا.",
+            "after": null,
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 272
+          },
+          {
+            "before": "﴿ومن جاهد فإنما يجاهد لنفسه﴾ تصحح الدافع الذي يحمل المؤمن على الثبات. فالله لا ينتفع بطاعتنا انتفاع المحتاج، ولا تزيد مملكته بكثرة العاملين؛ ثمرة المجاهدة تعود إلى صاحبها في إيمانه وتزكيته ونجاته. من ظن أنه يمن على الله بعلمه أو ذكائه أو تضحيته فقد قلب العلاقة؛ إذ هو المحتاج إلى أن يستعمله الله في الخير، والقدرة على العمل نفسها من نعم ربه عليه.",
+            "after": "﴿ومن جاهد فإنما يجاهد لنفسه﴾ تصحح الدافع الذي يحمل المؤمن على الثبات. فالله لا ينتفع بطاعتنا انتفاع المحتاج، ولا تزيد مملكته بكثرة العاملين؛ ثمرة المجاهدة تعود إلى صاحبها في إيمانه وتزكيته ونجاته، وقد يتعدى أثرها إلى غيره؛ فثبات فرد قد يحفظ علما أو يعين جماعة، وتقصيره قد يؤذي من معه. فالآية تنفي احتياج الله إليه مع بقاء مسؤوليته عن أثر عمله. من ظن أنه يمن على الله بعلمه أو ذكائه أو تضحيته فقد قلب العلاقة؛ إذ هو المحتاج إلى أن يستعمله الله في الخير، والقدرة على العمل نفسها من نعم ربه عليه. وبهذا يخرج المؤمن من طرفين: المن بجهده كأنه يسد حاجة لربه، وترك الجهد كأن صلاحه وفساده لا يمسان أحدا.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 270
+          },
+          {
+            "before": "والمجاهدة التي تنفع صاحبها ليست اسمًا اجتماعيًّا يعلقه على نفسه. ففي حديث سؤال القبر يُسأل المؤمن عن ربه ودينه ونبيه [أبو داود: ٤٧٥٣]؛ ويظهر أثر حقيقة ما آمن به. لذلك يحتاج إلى أن يسأل في الدنيا عمّا يحكم اختياراته فعلًا: أهو ما يعلن أنه دينه، أم ما تعلقت به نفسه من مال أو منزلة؟ وليس المقصود الحكم على سرائر الناس، بل محاسبة الإنسان نفسه قبل الموقف الذي لا تنفع فيه دعوى مجردة.",
+            "after": "والمجاهدة التي تنفع صاحبها ليست اسما اجتماعيا يعلقه على نفسه. ففي حديث سؤال القبر يسأل المؤمن عن ربه ودينه ونبيه [سنن أبي داود]؛ ويظهر أثر حقيقة ما آمن به. ولذلك يحاسب نفسه في الدنيا قبل الموقف الذي لا تنفع فيه دعوى مجردة، فيسأل عما يحكم اختياراته فعلا.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 271
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:7",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "c0d91e93d67798076150aad301a5c28ad668f8238f5206ea9c2a748626117e8e",
+        "currentOrdinarySHA256": "396497c8d21f8c94eb2859ce0e62493b69cc8569ede3d1fb11dfb44c49b42cd8",
+        "generatedSHA256": "396497c8d21f8c94eb2859ce0e62493b69cc8569ede3d1fb11dfb44c49b42cd8",
+        "applied": [
+          {
+            "before": "وفي حديث النجوى يدني الله المؤمن، فيقرره بذنوبه، ثم يقول له: «سترتها عليك في الدنيا، وأنا أغفرها لك اليوم» [البخاري: ٢٤٤١]. وفي حديث آخر عن آخر أهل النار خروجًا تُعرض على رجل صغار ذنوبه، ثم يبدل له مكان كل سيئة حسنة [مسلم: ١٩٠]. وهما خبران مختلفان يجمعهما اتساع باب الفضل، فلا ينبغي خلط تفاصيل أحدهما بالآخر. ويشهد لمعنى التبديل قوله تعالى في التائبين: ﴿فأولئك يبدل الله سيئاتهم حسنات﴾ [الفرقان: ٧٠].",
+            "after": "ومن الأخبار المختلفة التي يجمعها اتساع باب الفضل حديث النجوى؛ فيه يدني الله المؤمن، فيقرره بذنوبه، ثم يقول له: «سترتها عليك في الدنيا، وأنا أغفرها لك اليوم» [صحيح البخاري]. أما الحديث الآخر عن آخر أهل النار خروجا، فخبر مستقل بتفاصيله: تعرض على رجل صغار ذنوبه، ثم يبدل له مكان كل سيئة حسنة [صحيح مسلم]. ويشهد لمعنى التبديل قوله تعالى في التائبين: ﴿فأولئك يبدل الله سيئاتهم حسنات﴾.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 273
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:8",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "7fc96e483ddc700f8949eb9233c37c9a7d82e8e86b0064081868462dcc8ae5ed",
+        "currentOrdinarySHA256": "7fc96e483ddc700f8949eb9233c37c9a7d82e8e86b0064081868462dcc8ae5ed",
+        "generatedSHA256": "7fc96e483ddc700f8949eb9233c37c9a7d82e8e86b0064081868462dcc8ae5ed",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:9",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "b877f84c1078a40fa23ff0852c96302639eedaa7d5e7d10c80a8674333d5b259",
+        "currentOrdinarySHA256": "b877f84c1078a40fa23ff0852c96302639eedaa7d5e7d10c80a8674333d5b259",
+        "generatedSHA256": "b877f84c1078a40fa23ff0852c96302639eedaa7d5e7d10c80a8674333d5b259",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:10",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "9e25c665ee2a5daf3a2cfadf306bd1651062aa8f8d780683320fc05461d7a1f2",
+        "currentOrdinarySHA256": "28d5772ea50e8296529c1df3e94596bfeab413b05283a291d349089ff3e2c4d4",
+        "generatedSHA256": "28d5772ea50e8296529c1df3e94596bfeab413b05283a291d349089ff3e2c4d4",
+        "applied": [
+          {
+            "before": "ومع شدة التحذير لا يغلق باب الرجوع. ففي خبر آخر من السيرة ظن بعض المسلمين أن من فتنوا بعد إسلامهم لا تقبل لهم توبة، فلما نزل الرجاء في سورة الزمر كتب عمر الآيات إلى هشام بن العاص. وكان هشام يقرؤها ويسأل الله أن يفهمه، فعرف أنها في أمثاله، ثم لحق بالمسلمين [ابن هشام، السيرة النبوية، كتاب عمر إلى هشام بن العاص]. وصاحب الكتاب هنا هشام، غير عياش الذي استُدرج بخبر أمه. فدقة التمييز بين الخبرين تحفظ العبرة: الضغط قد يسقط صاحبه، لكن السقوط لا يبيح له أن ييأس من التوبة.",
+            "after": "ومع شدة التحذير لا يغلق باب الرجوع. ففي خبر هشام بن العاص، ظن بعض المسلمين أن من فتنوا بعد إسلامهم لا تقبل لهم توبة، فلما نزل الرجاء في سورة الزمر كتب عمر الآيات إلى هشام بن العاص. وكان هشام يقرؤها ويسأل الله أن يفهمه، فعرف أنها في أمثاله، ثم لحق بالمسلمين [ابن هشام، السيرة النبوية، كتاب عمر إلى هشام بن العاص]. وفي خبر هشام تظهر العبرة: الضغط قد يسقط صاحبه، لكن السقوط لا يبيح له أن ييأس من التوبة.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 274
+          },
+          {
+            "before": "﴿أوليس الله بأعلم بما في صدور العالمين﴾ تسقط إمكان خداع الله بهذا التنقل. قد يغطي الإنسان رجوعه بكلام كثير، أو يضخم شيئًا يسيرًا فعله ليبدو ثابتًا مع المؤمنين، لكن الله يعلم ما حركه، وما أخفاه، وما كان يختاره لو بقي الخوف. وهذه الخاتمة تدعو القارئ إلى إصلاح باطنه، لا إلى التوسع في اتهام سرائر غيره؛ فالعالم بها هو الله.",
+            "after": "﴿أوليس الله بأعلم بما في صدور العالمين﴾ تسقط إمكان خداع الله بهذا التنقل، وترد علم السرائر إليه وحده، فيوجه القارئ نظره إلى إصلاح باطنه دون التوسع في اتهام سرائر غيره. قد يغطي الإنسان رجوعه بكلام كثير، أو يضخم شيئا يسيرا فعله ليبدو ثابتا مع المؤمنين، لكن الله يعلم ما حركه، وما أخفاه، وما كان يختاره لو بقي الخوف.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 275
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:11",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "00b95bd9e74f5f3dab967ee9281fe442417e5f3dfe5205b6fbc93c86c3ec6fa7",
+        "currentOrdinarySHA256": "00b95bd9e74f5f3dab967ee9281fe442417e5f3dfe5205b6fbc93c86c3ec6fa7",
+        "generatedSHA256": "00b95bd9e74f5f3dab967ee9281fe442417e5f3dfe5205b6fbc93c86c3ec6fa7",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:12",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "fba0e7207a22a83b73fd248f8916c8b4894c7064e1757fe1c7894cf8264241c6",
+        "currentOrdinarySHA256": "fba0e7207a22a83b73fd248f8916c8b4894c7064e1757fe1c7894cf8264241c6",
+        "generatedSHA256": "fba0e7207a22a83b73fd248f8916c8b4894c7064e1757fe1c7894cf8264241c6",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:13",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "150814a309a9a725905a29a5d2993c17de61f6ac41104c969d1f1f500e2d996a",
+        "currentOrdinarySHA256": "150814a309a9a725905a29a5d2993c17de61f6ac41104c969d1f1f500e2d996a",
+        "generatedSHA256": "150814a309a9a725905a29a5d2993c17de61f6ac41104c969d1f1f500e2d996a",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:14",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "414b02fdaeeb407ff75969b4895d7b8906c7ccf341834d511aaedd8a028ffcc3",
+        "currentOrdinarySHA256": "414b02fdaeeb407ff75969b4895d7b8906c7ccf341834d511aaedd8a028ffcc3",
+        "generatedSHA256": "414b02fdaeeb407ff75969b4895d7b8906c7ccf341834d511aaedd8a028ffcc3",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:15",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "d1b6a144eb3204f77ecac6708fe9ff17e7a93d6da389131ec818466b083534d5",
+        "currentOrdinarySHA256": "d1b6a144eb3204f77ecac6708fe9ff17e7a93d6da389131ec818466b083534d5",
+        "generatedSHA256": "d1b6a144eb3204f77ecac6708fe9ff17e7a93d6da389131ec818466b083534d5",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:16",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "76587c831c704eb64d6185e2cf18bbfc8b51845318970c75cdc13388139d16bc",
+        "currentOrdinarySHA256": "76587c831c704eb64d6185e2cf18bbfc8b51845318970c75cdc13388139d16bc",
+        "generatedSHA256": "76587c831c704eb64d6185e2cf18bbfc8b51845318970c75cdc13388139d16bc",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:17",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "5bdedd8f9d716ba0819e311a9bf84aa718bee4e231b17b748ee41f8245e62afa",
+        "currentOrdinarySHA256": "5bdedd8f9d716ba0819e311a9bf84aa718bee4e231b17b748ee41f8245e62afa",
+        "generatedSHA256": "5bdedd8f9d716ba0819e311a9bf84aa718bee4e231b17b748ee41f8245e62afa",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:18",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "05815352d3a9ea1b1982297f86be401c62a0df79167c880448f937c9bff97cef",
+        "currentOrdinarySHA256": "05815352d3a9ea1b1982297f86be401c62a0df79167c880448f937c9bff97cef",
+        "generatedSHA256": "05815352d3a9ea1b1982297f86be401c62a0df79167c880448f937c9bff97cef",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:19",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "8b6d5ef18bc43811f428209f3c4f52957844d94a54d61428aa4a676bebb08e79",
+        "currentOrdinarySHA256": "8b6d5ef18bc43811f428209f3c4f52957844d94a54d61428aa4a676bebb08e79",
+        "generatedSHA256": "8b6d5ef18bc43811f428209f3c4f52957844d94a54d61428aa4a676bebb08e79",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:20",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "b2088a6835138a601b14e7741dc6fbd58b56df1172ea9c4294512a2499f770b5",
+        "currentOrdinarySHA256": "507f1b85f978df5a5774138c466d5bb3fabf78dcb5203e057b9a1014736bf114",
+        "generatedSHA256": "507f1b85f978df5a5774138c466d5bb3fabf78dcb5203e057b9a1014736bf114",
+        "applied": [
+          {
+            "before": "والسير يوسع دائرة المعرفة؛ فما اعتاده المرء في موطنه ليس كل ما خلق الله، وما عجز عن تصوره ليس ممتنعًا على خالق هذا التنوع. لكن الآية لا تُحمّل نظرية علمية بعينها لم يذكرها النص، ولا تتحول إلى دعوة للبحث عن ألفاظ تقابل كل تصور مستحدث في أصل الإنسان أو الكون. المقصود أن يكون النظر حجة على القدرة، لا أن تستعمل الآية ستارًا لافتراضات يفرضها القارئ عليها.",
+            "after": "والسير يوسع دائرة المعرفة ويلفت النظر إلى قدرة الله. وما اعتاده المرء في موطنه ليس كل ما خلق الله، وما عجز عن تصوره ليس ممتنعا على خالق هذا التنوع.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 276
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:21",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "d8063b73e2da0cfe9d8310dbe1b5d27f822d6e8a3e6bc714e14e0b94b9367556",
+        "currentOrdinarySHA256": "d8063b73e2da0cfe9d8310dbe1b5d27f822d6e8a3e6bc714e14e0b94b9367556",
+        "generatedSHA256": "d8063b73e2da0cfe9d8310dbe1b5d27f822d6e8a3e6bc714e14e0b94b9367556",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:22",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "cb4656f58b059e3a33d7f5f4961a214eafdfa4c6f2a3c5ff494700633b94a6e6",
+        "currentOrdinarySHA256": "8d2c0f314dd5de0c1e4980269bc5c63c880acb226d8202a9c85c67e665ddd759",
+        "generatedSHA256": "8d2c0f314dd5de0c1e4980269bc5c63c880acb226d8202a9c85c67e665ddd759",
+        "applied": [
+          {
+            "before": "وذُكرت في ذكر السماء أوجه: لو استطعتم الصعود إليها لم تعجزوا الله، أو أن المعنى يشمل من فيها كما يشمل من في الأرض. والمشترك نفي إمكان الإفلات، لا تحديد وسيلة للهروب أو قدرة بشرية عليها. فكلما عظم المكان أو السبب في عين الإنسان ينبغي أن يتذكر أنه لا يخرج بذلك من كونه مخلوقًا محدودًا.",
+            "after": "وذكرت في ذكر السماء أوجه تبين شمول القدرة ونفي إمكان الإفلات: لو استطعتم الصعود إليها لم تعجزوا الله، أو أن المعنى يشمل من فيها كما يشمل من في الأرض. فالوجهان يتناولان هذا الشمول دون تعيين وسيلة للهروب أو إثبات قدرة بشرية عليها. وكلما عظم المكان أو السبب في عين الإنسان ينبغي أن يتذكر أنه لا يخرج بذلك من كونه مخلوقا محدودا.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 277
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:23",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "4f643d1dab6b1e6aa176eb31221697ef4aa72feb263fba85da5ad60b2fe7b114",
+        "currentOrdinarySHA256": "4f643d1dab6b1e6aa176eb31221697ef4aa72feb263fba85da5ad60b2fe7b114",
+        "generatedSHA256": "4f643d1dab6b1e6aa176eb31221697ef4aa72feb263fba85da5ad60b2fe7b114",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:24",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "e9e79b27df9b229d63307ec3ff0771f1ec7a76fc9ff3081ad019b11a2765acf2",
+        "currentOrdinarySHA256": "e9e79b27df9b229d63307ec3ff0771f1ec7a76fc9ff3081ad019b11a2765acf2",
+        "generatedSHA256": "e9e79b27df9b229d63307ec3ff0771f1ec7a76fc9ff3081ad019b11a2765acf2",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:25",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "bbef617390d9c4704367e61a37f10b8a859e6d0a281b535788eb68521eb99a6d",
+        "currentOrdinarySHA256": "bbef617390d9c4704367e61a37f10b8a859e6d0a281b535788eb68521eb99a6d",
+        "generatedSHA256": "bbef617390d9c4704367e61a37f10b8a859e6d0a281b535788eb68521eb99a6d",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:26",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "6b2b4b9d12651c0122c759b08c5a7288b1e27b689cd3d4db4b51daee5c017358",
+        "currentOrdinarySHA256": "6b2b4b9d12651c0122c759b08c5a7288b1e27b689cd3d4db4b51daee5c017358",
+        "generatedSHA256": "6b2b4b9d12651c0122c759b08c5a7288b1e27b689cd3d4db4b51daee5c017358",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:27",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "a7e346ed0c7bc383cbb0cba517866a68fbf81211231be0f7f3afacd060430a15",
+        "currentOrdinarySHA256": "a7e346ed0c7bc383cbb0cba517866a68fbf81211231be0f7f3afacd060430a15",
+        "generatedSHA256": "a7e346ed0c7bc383cbb0cba517866a68fbf81211231be0f7f3afacd060430a15",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:28",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "d285e85148cc726260d35b3785c0f23beee161dd992944866a0d545a79cebc69",
+        "currentOrdinarySHA256": "968e3af615398bc0de9cf86015cc9d1e869b6e452b1527131803b5a31c675d04",
+        "generatedSHA256": "968e3af615398bc0de9cf86015cc9d1e869b6e452b1527131803b5a31c675d04",
+        "applied": [
+          {
+            "before": "وتسمية الفعل ﴿الفاحشة﴾ تحفظ ميزان القبح الذي تريد العادة والشهوة أن تمحواه. قد يطول اعتياد المجتمع أمرًا حتى يغدو الإنكار عليه هو المستغرب، فيحتاج البيان إلى أن يعيد للفعل اسمه وحكمه. والمقصود هنا تقويم الفعل الذي يذمه النص، لا إلغاء إنسانية الأشخاص أو سد باب رجوعهم إلى الله.",
+            "after": "وتسمية الفعل ﴿الفاحشة﴾ تقيمه بميزان القبح الذي تريد العادة والشهوة أن تمحواه. قد يطول اعتياد المجتمع أمرا حتى يغدو الإنكار عليه هو المستغرب، فيحتاج البيان إلى أن يعيد للفعل اسمه وحكمه.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 278
+          },
+          {
+            "before": "﴿ما سبقكم بها من أحد من العالمين﴾ تبين ما بلغوه من ابتداع هذا المنكر والجرأة عليه. وذُكر في التفسير حملها على أنهم أول من فعله، وحملها على بلوغهم فيه من الظهور والاستفاضة مبلغًا لم يسبقوا إليه. لا تُمحى هذه الفروق حين يُشرح اللفظ؛ لكن المعنى الذي يواجههم به لوط أن انتشار الفعل بين قومهم ليس حجة لصلاحيته، وأنهم لا يملكون تحويل الشهوة إلى معيار يبدل به حكم الله.",
+            "after": "﴿ما سبقكم بها من أحد من العالمين﴾ تبين ما بلغوه من ابتداع هذا المنكر والجرأة عليه. وذكر في التفسير حملها على أنهم أول من فعله، وحملها على بلوغهم فيه من الظهور والاستفاضة مبلغا لم يسبقوا إليه. ومع اختلاف الوجهين في بيان ما سبقوا إليه، يجمعهما المعنى الذي يواجههم به لوط، وهو أن انتشار الفعل بين قومهم ليس حجة لصلاحيته، وأنهم لا يملكون تحويل الشهوة إلى معيار يبدل به حكم الله.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 279
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:29",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "b11ffd7ed08851c5b44049849dd444565e060c9d224534a4da019054ff22fda4",
+        "currentOrdinarySHA256": "b11ffd7ed08851c5b44049849dd444565e060c9d224534a4da019054ff22fda4",
+        "generatedSHA256": "b11ffd7ed08851c5b44049849dd444565e060c9d224534a4da019054ff22fda4",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:30",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "f27d8aac1b5035807afd1586c2eff39deef65c282801831cfafffb18be68328d",
+        "currentOrdinarySHA256": "a588e72bca0b8dd148b510bbeb3ef0e94d4b770d755ec81fbf7c5133cafc05e0",
+        "generatedSHA256": "a588e72bca0b8dd148b510bbeb3ef0e94d4b770d755ec81fbf7c5133cafc05e0",
+        "applied": [
+          {
+            "before": "ومع ذم الفساد لا يلزم أن يمتنع المؤمن عن تمييز ما عند الآخرين من خصال حسنة. فقد ذكر عمرو بن العاص رضي الله عنه في شأن الروم صفات، منها الحلم عند الفتنة، وسرعة الإفاقة بعد المصيبة، والإحسان إلى الضعيف، والمنع من ظلم الملوك [مسلم: ٢٨٩٨]. وهذا الوصف من كلام عمرو في الحديث، وليس كله كلامًا نبويًّا. فمعرفة اختلاف الناس وأسباب قوتهم شيء، والرضا بكفر أو منكر شيء آخر؛ ولا يقوم الإنكار الصادق على تعطيل العدل في النظر.",
+            "after": "ومع ذم الفساد لا يلزم أن يمتنع المؤمن عن تمييز ما عند الآخرين من خصال حسنة. ففي الحديث ورد، من كلام عمرو بن العاص رضي الله عنه، وصف الروم بصفات منها الحلم عند الفتنة، وسرعة الإفاقة بعد المصيبة، والإحسان إلى الضعيف، والمنع من ظلم الملوك [صحيح مسلم]. فمعرفة اختلاف الناس وأسباب قوتهم شيء، والرضا بكفر أو منكر شيء آخر؛ ولا يقوم الإنكار الصادق على تعطيل العدل في النظر.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 280
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:31",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "76ae971be9e6505a48e0581591b5dd4c2b81363f662e5340101ec6f3450cf267",
+        "currentOrdinarySHA256": "76ae971be9e6505a48e0581591b5dd4c2b81363f662e5340101ec6f3450cf267",
+        "generatedSHA256": "76ae971be9e6505a48e0581591b5dd4c2b81363f662e5340101ec6f3450cf267",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:32",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "11e5a343740e8fdb1ab25b10e903931947fcaba8247ed69d75ad66f411fdc0ac",
+        "currentOrdinarySHA256": "11e5a343740e8fdb1ab25b10e903931947fcaba8247ed69d75ad66f411fdc0ac",
+        "generatedSHA256": "11e5a343740e8fdb1ab25b10e903931947fcaba8247ed69d75ad66f411fdc0ac",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:33",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "ccee40fc7067cecfb487f7fa96b89e6049e54c89fa32835226c8727a5be40f75",
+        "currentOrdinarySHA256": "ccee40fc7067cecfb487f7fa96b89e6049e54c89fa32835226c8727a5be40f75",
+        "generatedSHA256": "ccee40fc7067cecfb487f7fa96b89e6049e54c89fa32835226c8727a5be40f75",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:34",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "2db9fca9e6f57606e89c7b996c1c8668a2300541d9e8ca743674a0eb847eab9b",
+        "currentOrdinarySHA256": "046c4d02882cc5918969e603e8152fb4756cc28892e0f0029d6237a9ec67479d",
+        "generatedSHA256": "046c4d02882cc5918969e603e8152fb4756cc28892e0f0029d6237a9ec67479d",
+        "applied": [
+          {
+            "before": "وموضع العبرة هنا ما أخبر الله به عن هذه القرية، لا التسرع في جعل كل حادثة في كل زمان عقوبة يعلم الإنسان سرها. الثابت أن الظلم لا يخرج عن علم الله، وأن الإمهال لا يحول الفسق إلى حق، وأن القوة التي يُؤذى بها الناس لا تستقل بمغالبة أمر خالقها.",
+            "after": "ومن الخبر المعين عن هذه القرية، يأخذ المؤمن أصولا يعتبر بها: الظلم لا يخرج عن علم الله، والإمهال لا يحول الفسق إلى حق، والقوة التي يؤذى بها الناس لا تستقل بمغالبة أمر خالقها.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 281
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:35",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "07dbc567daf3ef46adb459a2498696e9fb9f831396b97bd120d4b5f1f86bf25c",
+        "currentOrdinarySHA256": "07dbc567daf3ef46adb459a2498696e9fb9f831396b97bd120d4b5f1f86bf25c",
+        "generatedSHA256": "07dbc567daf3ef46adb459a2498696e9fb9f831396b97bd120d4b5f1f86bf25c",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:36",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "16343b19a45d47ce9e831756edf33e1ab97118e785db6ebe5344d1e4f8ea911f",
+        "currentOrdinarySHA256": "40090d04b38821f378d2f6ad1809e53b7a392c574f2579caf8b41c3d6a39ac8b",
+        "generatedSHA256": "40090d04b38821f378d2f6ad1809e53b7a392c574f2579caf8b41c3d6a39ac8b",
+        "applied": [
+          {
+            "before": "﴿وإلى مدين أخاهم شعيبا﴾ تبدأ نموذجًا آخر يجتمع فيه فساد الاعتقاد وفساد المعاملة. وبعد أن فصلت السورة شيئًا من ابتلاء نوح وإبراهيم ولوط، يأتي ذكر أقوام آخرين في مشاهد أسرع تبرز عاقبة المكذبين. فالقَصص يصدق ما تقرر أولًا من امتحان المؤمنين، ويصدق كذلك نفي قدرة أهل السيئات على الإفلات من الله.",
+            "after": "﴿وإلى مدين أخاهم شعيبا﴾ تبدأ نموذجا آخر يجتمع فيه فساد الاعتقاد وفساد المعاملة. وفي علاقة مدين بأصحاب الأيكة خلاف معروف في التفسير: قيل هما جماعة واحدة، وقيل جماعتان دعا إليهما شعيب. وبعد أن فصلت السورة شيئا من ابتلاء نوح وإبراهيم ولوط، يأتي ذكر أقوام آخرين في مشاهد أسرع تبرز عاقبة المكذبين. فالقصص يصدق ما تقرر أولا من امتحان المؤمنين، ويصدق كذلك نفي قدرة أهل السيئات على الإفلات من الله.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 282
+          },
+          {
+            "before": "وفي علاقة مدين بأصحاب الأيكة خلاف معروف في التفسير: قيل هما جماعة واحدة، وقيل جماعتان دعا إليهما شعيب. ولا يتوقف التدبر هنا على حسم هذا الخلاف؛ فالمقصود وضوح الرسالة التي قدمها شعيب، وأن إصلاح الحياة لا ينفصل عن عبادة الله واستحضار الحساب.",
+            "after": "ومع بقاء الخلاف في اتحاد القوم أو تعددهم، تتضح الرسالة التي قدمها شعيب: إصلاح الحياة مع أو بغياب الرقيب البشري لا يستقيم إلا بعبادة الله واستحضار الحساب.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 283
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:37",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "0ef8e9acc0cd83acd52811d915ce01983d69d6277192f6a85a3606a4351f84d2",
+        "currentOrdinarySHA256": "3694c8edfba8fee4bbacfe5e857771de9bc8a849174177edb1306d9e4836a52e",
+        "generatedSHA256": "3694c8edfba8fee4bbacfe5e857771de9bc8a849174177edb1306d9e4836a52e",
+        "applied": [
+          {
+            "before": "وقد ورد في مواضع أخرى من قصة شعيب ذكر الصيحة أو عذاب يوم الظلة، واختلف الكلام تبعًا للخلاف في اتحاد القوم أو تعددهم. وعلى القول باتحادهم لا يلزم أن تتعارض الأوصاف؛ فقد تتعدد وجوه العذاب في الواقعة الواحدة، أو يوصف أثره مرة في الأرض ومرة فيما يسمع أو يظلهم. ليست العبرة بإلغاء وصف حتى يبقى وصف آخر، بل بمعرفة أن ما أخبر الله به لا يختزل في صورة تخيلها القارئ وحده.",
+            "after": "وقد ورد في مواضع أخرى من قصة شعيب ذكر الصيحة أو عذاب يوم الظلة، واختلف الكلام تبعا للخلاف في اتحاد القوم أو تعددهم. وعلى القول باتحادهم تتسع صورة الخبر لاجتماع الأوصاف، دون إلغاء بعضها لصورة يتخيلها القارئ وحده؛ فقد تتعدد وجوه العذاب في الواقعة الواحدة، أو يوصف أثره مرة في الأرض ومرة فيما يسمع أو يظلهم.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 284
+          },
+          {
+            "before": "من نظر إلى القوم في زمن نشاطهم فقط ظن أن سلطان العادة مستمر لا يتغير، لكن القرآن يعرض النهاية أيضًا. وهذا لا يدعو إلى الفرح بمصائب الناس، وإنما يربي الاعتبار: لا تجعل القوة الحاضرة حجة على سلامة الطريق، ولا تجعل طول ممارسة الظلم دليلًا على أن فعله بلا أثر.",
+            "after": "من نظر إلى القوم في زمن نشاطهم فقط ظن أن سلطان العادة مستمر لا يتغير، لكن القرآن يعرض النهاية أيضا، فيتلقاها المؤمن للاعتبار: لا تجعل القوة الحاضرة حجة على سلامة الطريق، ولا تجعل طول ممارسة الظلم دليلا على أن فعله بلا أثر.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 285
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:38",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "0656846f4d4c6b2dff38f91d61f8a8dfc6fc3c387dc913e9bc303f2704c5243d",
+        "currentOrdinarySHA256": "0656846f4d4c6b2dff38f91d61f8a8dfc6fc3c387dc913e9bc303f2704c5243d",
+        "generatedSHA256": "0656846f4d4c6b2dff38f91d61f8a8dfc6fc3c387dc913e9bc303f2704c5243d",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:39",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "ddda3a9c597e3845e6087b52d3b327afcc5ccceb6cc7014cd54c9143d7160bad",
+        "currentOrdinarySHA256": "ddda3a9c597e3845e6087b52d3b327afcc5ccceb6cc7014cd54c9143d7160bad",
+        "generatedSHA256": "ddda3a9c597e3845e6087b52d3b327afcc5ccceb6cc7014cd54c9143d7160bad",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:40",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "c56d082e0c467453373f4566477a916aa273302a45726f11923fed2ffb00cf44",
+        "currentOrdinarySHA256": "ca37bfa6d1567f7cbe8875cf3f9a546a059a8bdd91723e5f760f26ed9637e3b7",
+        "generatedSHA256": "ca37bfa6d1567f7cbe8875cf3f9a546a059a8bdd91723e5f760f26ed9637e3b7",
+        "applied": [
+          {
+            "before": "وفي ذلك تذكير بألا يغيب أثر الذنوب عن قراءة أحوال الأمم، فلا تُفسَّر نهاياتها بالقوة والمال وحدهما. وقد جاء في التحذير النبوي من إعلان الفاحشة ذكر فشو الطاعون والأوجاع التي لم تكن في الأسلاف [ابن ماجه: ٤٠١٩، صحيح]. فهذا من الوعيد الذي يحمل على التوبة وإصلاح المجتمع؛ وليس إذنًا بتعيين ذنب لكل مريض، أو الجزم بأن كارثة بعينها عقوبة لقوم بأعيانهم من غير حجة.",
+            "after": "وفي ذلك تذكير بألا يغيب أثر الذنوب عن قراءة أحوال الأمم، فلا تفسر نهاياتها بالقوة والمال وحدهما. وقد جاء في التحذير النبوي من إعلان الفاحشة ذكر فشو الطاعون والأوجاع التي لم تكن في الأسلاف [ابن ماجه: ٤٠١٩، صحيح]. فهذا من الوعيد الذي يحمل على التوبة وإصلاح المجتمع؛ وليس إذنا بتعيين ذنب لكل مريض، أو إسقاط حكم هذه الأقوام على كل كارثة معاصرة، أو الجزم بأن كارثة بعينها عقوبة لقوم بأعيانهم من غير حجة.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 286
+          },
+          {
+            "before": "ثم ﴿وما كان الله ليظلمهم ولكن كانوا أنفسهم يظلمون﴾ تثبت العدل في مشهد القدرة. لم تسلبهم كثرة البيان مسؤوليتهم، ولم تكن قوة الأخذ ظلمًا لهم؛ هم الذين أوردوا أنفسهم هذا المورد. والاعتبار لا يكون بإسقاط حكم هذه الأقوام على كل كارثة معاصرة بغير علم، بل بأخذ الأصل الذي يقرره الوحي: الله لا يظلم، والذنوب ليست خارج الحساب، والقوة لا تجعل صاحبها مستغنيًا عن الهداية.",
+            "after": "ثم ﴿وما كان الله ليظلمهم ولكن كانوا أنفسهم يظلمون﴾ تثبت العدل في مشهد القدرة. لم تسلبهم كثرة البيان مسؤوليتهم، ولم تكن قوة الأخذ ظلما لهم؛ هم الذين أوردوا أنفسهم هذا المورد. ومن هذا المشهد يأخذ المؤمن الأصل الذي يقرره الوحي: الله لا يظلم، والذنوب ليست خارج الحساب، والقوة لا تجعل صاحبها مستغنيا عن الهداية.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 287
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:41",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "6d6f31a27862464254b7f5043b1d71e8e0bc469c9f1f4f9e51b1a3a029d8d710",
+        "currentOrdinarySHA256": "6d6f31a27862464254b7f5043b1d71e8e0bc469c9f1f4f9e51b1a3a029d8d710",
+        "generatedSHA256": "6d6f31a27862464254b7f5043b1d71e8e0bc469c9f1f4f9e51b1a3a029d8d710",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:42",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "347966ecb285324729692f400fcbabc8df133e605ddab28f49fa1d39eedd70f7",
+        "currentOrdinarySHA256": "347966ecb285324729692f400fcbabc8df133e605ddab28f49fa1d39eedd70f7",
+        "generatedSHA256": "347966ecb285324729692f400fcbabc8df133e605ddab28f49fa1d39eedd70f7",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:43",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "525d2f0b842d7ae6e7bae3ebf0bbb029f4a9eed9b01f067dc7a021f950454fe8",
+        "currentOrdinarySHA256": "525d2f0b842d7ae6e7bae3ebf0bbb029f4a9eed9b01f067dc7a021f950454fe8",
+        "generatedSHA256": "525d2f0b842d7ae6e7bae3ebf0bbb029f4a9eed9b01f067dc7a021f950454fe8",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:44",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "60ee2b61790ef640e43bbfb545bbb5481e2d79d88de06bb2c592fb1ae993ed5f",
+        "currentOrdinarySHA256": "60ee2b61790ef640e43bbfb545bbb5481e2d79d88de06bb2c592fb1ae993ed5f",
+        "generatedSHA256": "60ee2b61790ef640e43bbfb545bbb5481e2d79d88de06bb2c592fb1ae993ed5f",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:45",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "8a54040404d5d4071665f3bb632c217676f44b34d076e965ec632b400d96fe39",
+        "currentOrdinarySHA256": "8a54040404d5d4071665f3bb632c217676f44b34d076e965ec632b400d96fe39",
+        "generatedSHA256": "8a54040404d5d4071665f3bb632c217676f44b34d076e965ec632b400d96fe39",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:46",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "3494f29b8557b6715d17e73991423dc51c4cf92cdcc0209f336ea2860ae7631b",
+        "currentOrdinarySHA256": "3494f29b8557b6715d17e73991423dc51c4cf92cdcc0209f336ea2860ae7631b",
+        "generatedSHA256": "3494f29b8557b6715d17e73991423dc51c4cf92cdcc0209f336ea2860ae7631b",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:47",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "0cd14a13e6a75c904f4aa30f90ebbbe4ecf36998955ef0fa8cab1ec51fa7f797",
+        "currentOrdinarySHA256": "0cd14a13e6a75c904f4aa30f90ebbbe4ecf36998955ef0fa8cab1ec51fa7f797",
+        "generatedSHA256": "0cd14a13e6a75c904f4aa30f90ebbbe4ecf36998955ef0fa8cab1ec51fa7f797",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:48",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "2faa4c463a8a38bd46ccfcab7a4bf17ca2a766f04079f55577e7277f74c07592",
+        "currentOrdinarySHA256": "5cbfaa5f6921327461ff05111644f1df1c7600d4834e0e3af07cbe81e89a926f",
+        "generatedSHA256": "5cbfaa5f6921327461ff05111644f1df1c7600d4834e0e3af07cbe81e89a926f",
+        "applied": [
+          {
+            "before": "ولا يلزم من هذا إنكار العلوم النافعة أو عزل الناس عن تجارب الأمم. الفرق بين علم ينتفع به الإنسان في مجاله، وبين تصور عن الله والإنسان والمصير يفرضه على الوحي بلا برهان. وقد كانت للعرب ملكة في لسانهم وشعرهم مع قلة الكتابة بالنسبة إلى أمم أخرى؛ فلم تكن معرفة القرآن متوقفة على امتلاك نظام فلسفي مستورد قبل سماعه. ولا تعني هذه الملاحظة أنهم كانوا جميعًا لا يكتبون أو أن كل معرفة خارجية مذمومة.",
+            "after": "يبقى باب العلوم النافعة وتجارب الأمم مجالا للانتفاع؛ فالفرق بين علم ينتفع به الإنسان في مجاله، وبين تصور عن الله والإنسان والمصير يفرضه على الوحي بلا برهان. وقد كانت للعرب ملكة في لسانهم وشعرهم مع قلة الكتابة، لا انعدامها عند جميعهم، بالنسبة إلى أمم أخرى؛ فلم تكن معرفة القرآن متوقفة على امتلاك نظام فلسفي مستورد قبل سماعه. فميزان الانتفاع هو طبيعة المعرفة ومجالها، لا مجرد كونها آتية من خارجهم.",
+            "evidence": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+            "index": 288
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:49",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "e8c24e6407e069a63a9d23b047c24d4a05684dbb9b2acd74b8e71324411d87f5",
+        "currentOrdinarySHA256": "e8c24e6407e069a63a9d23b047c24d4a05684dbb9b2acd74b8e71324411d87f5",
+        "generatedSHA256": "e8c24e6407e069a63a9d23b047c24d4a05684dbb9b2acd74b8e71324411d87f5",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:50",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "1966965726f65ed68688a2161a7d17f33577dcbe3a123f69d5025ea61f029f31",
+        "currentOrdinarySHA256": "1966965726f65ed68688a2161a7d17f33577dcbe3a123f69d5025ea61f029f31",
+        "generatedSHA256": "1966965726f65ed68688a2161a7d17f33577dcbe3a123f69d5025ea61f029f31",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:51",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "19dc675dd47fe150cf746bb3cdea1f1807e2efbc088292b2e5fb603153f8b6e7",
+        "currentOrdinarySHA256": "19dc675dd47fe150cf746bb3cdea1f1807e2efbc088292b2e5fb603153f8b6e7",
+        "generatedSHA256": "19dc675dd47fe150cf746bb3cdea1f1807e2efbc088292b2e5fb603153f8b6e7",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:52",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "dcc34322476fa04f3d7ec2d7d5bf48432b3cbe5cd86fe8601ebee86fd6b44086",
+        "currentOrdinarySHA256": "dcc34322476fa04f3d7ec2d7d5bf48432b3cbe5cd86fe8601ebee86fd6b44086",
+        "generatedSHA256": "dcc34322476fa04f3d7ec2d7d5bf48432b3cbe5cd86fe8601ebee86fd6b44086",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:53",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "8cd76d57ef33627279c1b7c72466858077a2e5fecd906e44814f998ccd28b164",
+        "currentOrdinarySHA256": "8cd76d57ef33627279c1b7c72466858077a2e5fecd906e44814f998ccd28b164",
+        "generatedSHA256": "8cd76d57ef33627279c1b7c72466858077a2e5fecd906e44814f998ccd28b164",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:54",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "75f7a0ea6fbbaae5ccdafdf6d511ec213b50530eddd2467a22724cc2dea9e9a5",
+        "currentOrdinarySHA256": "0d43d2b7af739b61aeb51e61a7a9c6546484d9ed2e954c2f64b52c78e249b210",
+        "generatedSHA256": "0d43d2b7af739b61aeb51e61a7a9c6546484d9ed2e954c2f64b52c78e249b210",
+        "applied": [
+          {
+            "before": "ومن وجوه التعبير أن المستقبل إذا كان ثابت الوقوع يُعرض كأنه حاضر، أو أن ما أحاط بهم من أسباب الكفر والعذاب قد صار محيطًا بهم من جهة المآل. وليس المراد أن التوبة ممتنعة على من لم يمت، بل بيان عاقبة الإصرار على الكفر. فلا تؤخذ الصيغة لتسد باب الرجوع الذي ما زال مفتوحًا، ولا لتجعل عدم المشاهدة حجة على الأمان.",
+            "after": "ومن وجوه التعبير أن المستقبل إذا كان ثابت الوقوع يُعرض كأنه حاضر، أو أن ما أحاط بهم من أسباب الكفر والعذاب قد صار محيطًا بهم من جهة المآل. ويتجه الوعيد في هذين الوجهين إلى عاقبة الإصرار على الكفر، مع بقاء باب التوبة مفتوحا لمن لم يمت؛ فلا تسد صيغة الإحاطة باب رجوعه، كما لا يجعل عدم مشاهدته العذاب حجة على الأمان منه.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 338
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:55",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "471843c1a5c0d26829583497db0bf58ce60b1fd13f44b971045ce7060b5bb4cb",
+        "currentOrdinarySHA256": "a2f841b5acbd8157c4f76a087a9b4389018577ae930cf2080425ae0daab6f483",
+        "generatedSHA256": "a2f841b5acbd8157c4f76a087a9b4389018577ae930cf2080425ae0daab6f483",
+        "applied": [
+          {
+            "before": "ومن صور جمع الإحاطة ووصول الأثر في القرآن قوله تعالى عن القرية التي كفرت بأنعم الله: ﴿فأذاقها الله لباس الجوع والخوف﴾ [النحل: ١١٢]. جاء الذوق ليقرب مباشرة الألم، واللباس ليقرب ملازمته وإحاطته. وليس هذا حدًّا لغويًّا يمنع استعمال الذوق أو المس في وجوه أخرى، وإنما نظر في قوة التصوير في هذين الموضعين.",
+            "after": "ومن صور جمع الإحاطة ووصول الأثر في القرآن قوله تعالى عن القرية التي كفرت بأنعم الله: ﴿فأذاقها الله لباس الجوع والخوف﴾ [النحل: ١١٢]. وفي قوة التصوير في هذا الموضع وما سبقه جاء الذوق ليقرب مباشرة الألم، واللباس ليقرب ملازمته وإحاطته.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 340
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:56",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "83b4858d8b10bef7280ce3f8e242bcec892ae4ce057d3d4f39f724e6c733549e",
+        "currentOrdinarySHA256": "f2f62367b55a0b717496f42745cd0a226f2708ce9090d4ab1f01879813ad0521",
+        "generatedSHA256": "f2f62367b55a0b717496f42745cd0a226f2708ce9090d4ab1f01879813ad0521",
+        "applied": [
+          {
+            "before": "وقد حمل المفسرون الخطاب على الخروج إلى المدينة، أو على الهجرة حيث يمكن حفظ الدين، وذُكرت فيه وجوه تتناول مفارقة موضع تعذر فيه القيام بالعبادة. ولا يصح أن تتحول هذه المعاني إلى حكم واحد على كل شخص في كل بلد دون علم بقدرته وحاله وما يقدر على إقامته؛ فالتنزيل يحتاج إلى معرفة، والمقصود هنا تحرير الأصل الذي يجعل العبادة مقدمة على التعلق بالمكان.",
+            "after": "وقد حمل المفسرون الخطاب على الخروج إلى المدينة، أو على الهجرة حيث يمكن حفظ الدين، وذُكرت فيه وجوه تتناول مفارقة موضع تعذر فيه القيام بالعبادة. وتلتقي هذه الوجوه عند تقديم العبادة على التعلق بالمكان، ثم يتفاوت تنزيلها على الأشخاص والبلدان بحسب القدرة والحال وما يمكن إقامته من العبادة؛ فهو تنزيل يحتاج إلى معرفة، ولا يستقيم فيه حكم واحد يغفل هذه الفروق.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 341
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:57",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "c30058e0d2739b9a6b47420e32ef81ba1d10f91c7b4bd3561a39938707b555bd",
+        "currentOrdinarySHA256": "2b78005f6bc97b0a7b912cd1e1c8c14f654e37659b211564c5c6b49f2445b7d5",
+        "generatedSHA256": "2b78005f6bc97b0a7b912cd1e1c8c14f654e37659b211564c5c6b49f2445b7d5",
+        "applied": [
+          {
+            "before": "وقد توهم أناس أن بقاءهم في بيوتهم كان سيمنع ما كتب عليهم، فقال تعالى: ﴿لو كنتم في بيوتكم لبرز الذين كتب عليهم القتل إلى مضاجعهم﴾ [آل عمران: ١٥٤]. فالأجل لا يصير ملكًا للإنسان لأنه اختار سببًا يراه آمنًا. وليس معنى هذا إهمال أسباب السلامة أو تعمد الخطر، وإنما إسقاط الوهم الذي يجعل مخالفة أمر الله ضمانًا للحياة.",
+            "after": "وقد توهم أناس أن بقاءهم في بيوتهم كان سيمنع ما كتب عليهم، فقال تعالى: ﴿لو كنتم في بيوتكم لبرز الذين كتب عليهم القتل إلى مضاجعهم﴾ [آل عمران: ١٥٤]. ومع الأخذ بأسباب السلامة واجتناب تعمد الخطر، يبقى الأجل خارج ملك الإنسان؛ فلا يصبح السبب الذي يراه آمنا ضمانا للحياة، ولا تكون مخالفة أمر الله طريقا إلى امتلاك هذا الضمان.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 342
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:58",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "c70e950af09bbae06e0b0f83fd0034e289c1462356e6df152099c5aee927a699",
+        "currentOrdinarySHA256": "8ca927147f9fffa673646e340245c265c2f346e7495f486e075311737c1b524e",
+        "generatedSHA256": "8ca927147f9fffa673646e340245c265c2f346e7495f486e075311737c1b524e",
+        "applied": [
+          {
+            "before": "﴿نعم أجر العاملين﴾ تعيد السورة إلى الفرق بين القول والعمل. بدأت بالسؤال عن قوم يقولون آمنا، وهنا يظهر أثر الإيمان في عمل وصبر وتوكل. ليس الأجر لمن اكتفى بتمني المقام، بل لمن سار في الطريق الذي يدل على صدقه. ومع ذلك يظل دخول الجنة من فضل الله، فلا تتحول الطاعة إلى دعوى استغناء عن رحمته أو استحقاق يفرضه العبد عليه.",
+            "after": "﴿نعم أجر العاملين﴾ تعيد السورة إلى الفرق بين القول والعمل. بدأت بالسؤال عن قوم يقولون آمنا، وهنا يظهر أثر الإيمان في عمل وصبر وتوكل. فهذا أجر يتفضل الله به على من سار في الطريق الذي يدل على صدقه، لا على من اكتفى بتمني المقام؛ ويظل العامل مفتقرا إلى رحمة الله، لا يفرض عليه بطاعته استحقاقا ولا يستغني بها عن فضله.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 344
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:59",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "190afaa16e82939aeace9381a512c5d335abb0a2f90aedee487e6e5f6c204393",
+        "currentOrdinarySHA256": "190afaa16e82939aeace9381a512c5d335abb0a2f90aedee487e6e5f6c204393",
+        "generatedSHA256": "190afaa16e82939aeace9381a512c5d335abb0a2f90aedee487e6e5f6c204393",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:60",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "06166235ee957e67e1ba11c61412e84450c4a8d80e9052c02b83171182756052",
+        "currentOrdinarySHA256": "aaca17de98d45de2096b8910672c8f8a7e8db6ba91d6f0ba6cafb1dfb698c854",
+        "generatedSHA256": "aaca17de98d45de2096b8910672c8f8a7e8db6ba91d6f0ba6cafb1dfb698c854",
+        "applied": [
+          {
+            "before": "وتورد كتب التفسير، في تقريب رزق الضعيف، حكاية «النعاب» في عشه: فرخ غراب يُحكى أن أبويه ينفران منه أول خروجه حتى يسود ريشه، ويُقيض له في تلك المدة ما يتقوت به [ابن كثير، تفسير العنكبوت: ٦٠]. وهي حكاية منقولة، لا حديث نبوي ولا وصف علمي ثابت يُبنى عليه تفسير الآية؛ وإنما المقصود الذي تقربه أن ضعف المخلوق عن تدبير رزقه لا يخرجه من رعاية الله.",
+            "after": null,
+            "evidence": "corrections1_329_root_verification20261114\\ROOT-DELIVERY-1-329-v2-276-RESOLVED.json",
+            "humanDecisionSHA256": "dc2b98be71c07ac4701c634e9bcc2627689a7f5ab27f52e73a6cbe3ad2e175f8",
+            "wordItem": 276
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:61",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "2173e7a62e2209409fe71da6a322bc14ad76ff8e71b48f791e1471a05454fe51",
+        "currentOrdinarySHA256": "2173e7a62e2209409fe71da6a322bc14ad76ff8e71b48f791e1471a05454fe51",
+        "generatedSHA256": "2173e7a62e2209409fe71da6a322bc14ad76ff8e71b48f791e1471a05454fe51",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:62",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "da61bae0422fc992681886f91e0b5f86803b8d0ce58ab3c273f6d854f12926f7",
+        "currentOrdinarySHA256": "94853ab76ead33a8d79f637588bc86f392e9d0493e9c2832080a9cc4504c0a81",
+        "generatedSHA256": "94853ab76ead33a8d79f637588bc86f392e9d0493e9c2832080a9cc4504c0a81",
+        "applied": [
+          {
+            "before": "وفي ﴿ويقدر له﴾ لفتة إلى أن التقدير واقع في شأن العبد وتحت علم ربه، وقد يكون له فيه من المصلحة ما لا يدركه عاجلًا. وليس هذا وعدًا بأن كل ضيق سينقلب إلى مبلغ أكبر في الوقت الذي ينتظره؛ إنما يدعو إلى الثقة بحكمة من يبسط ويقدر، وألا يقرأ المرء الحرمان الجزئي على أنه نسيان له أو خروج من رعاية الله.",
+            "after": "وفي ﴿ويقدر له﴾ لفتة إلى أن التقدير واقع في شأن العبد وتحت علم ربه، وقد يكون له فيه من المصلحة ما لا يدركه عاجلًا، دون أن يتعين أن ينقلب كل ضيق إلى مبلغ أكبر في الوقت الذي ينتظره. وهذا يدعوه إلى الثقة بحكمة من يبسط ويقدر، فلا يقرأ الحرمان الجزئي على أنه نسيان له أو خروج من رعاية الله.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 346
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:63",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "bb66862fa60caf9c756c266b731c39bf9c3da46b4c7556c93c7a1f8394d6ca8f",
+        "currentOrdinarySHA256": "f68842f965bcfeb7c951c11d5e6e5928b75ced26559c3055a3b8b8f8b8f9b4e2",
+        "generatedSHA256": "f68842f965bcfeb7c951c11d5e6e5928b75ced26559c3055a3b8b8f8b8f9b4e2",
+        "applied": [
+          {
+            "before": "ومن يرى حياة الأرض بعد موتها ينفتح له باب النظر في الرزق والبعث معًا؛ فالذي يخرج الحياة حيث كان الجفاف قادر على أن يعيد خلقه، وقادر على أن يرزق من لا يعرف لنفسه طريقًا إلا ما ألفه. وليس هذا ضمانًا أن كل أرض أو وظيفة ستعطي النتيجة نفسها، بل استدلال بالقدرة التي لا تنحصر في السبب القريب الذي يقف عنده نظره.",
+            "after": "ومن يرى حياة الأرض بعد موتها ينفتح له باب النظر في الرزق والبعث معًا، وتتسع رؤيته للقدرة وراء السبب القريب الذي ألفه. فالذي يخرج الحياة حيث كان الجفاف قادر على أن يعيد خلقه، وقادر على أن يرزق من لا يعرف لنفسه طريقًا إلا ما ألفه.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 347
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:64",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "163a84bf2b94d119dad20aa6597f072d795a815fd2cd00d6ea34806fd3767b0f",
+        "currentOrdinarySHA256": "163a84bf2b94d119dad20aa6597f072d795a815fd2cd00d6ea34806fd3767b0f",
+        "generatedSHA256": "163a84bf2b94d119dad20aa6597f072d795a815fd2cd00d6ea34806fd3767b0f",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:65",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "39bedbdeca0733a9e492f910f4cb0eb5a022c6ea8c4c3e5e8196211adc4e948f",
+        "currentOrdinarySHA256": "39bedbdeca0733a9e492f910f4cb0eb5a022c6ea8c4c3e5e8196211adc4e948f",
+        "generatedSHA256": "39bedbdeca0733a9e492f910f4cb0eb5a022c6ea8c4c3e5e8196211adc4e948f",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:66",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "f62cf86400041bd1242ecc47b209156770d5acae05cf804aec1e3885e84bb5e3",
+        "currentOrdinarySHA256": "f62cf86400041bd1242ecc47b209156770d5acae05cf804aec1e3885e84bb5e3",
+        "generatedSHA256": "f62cf86400041bd1242ecc47b209156770d5acae05cf804aec1e3885e84bb5e3",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:67",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "3ed2b6f443d3f211dae3e8a8fcd404292ce2759f0adf0566b7e1647dec2e65da",
+        "currentOrdinarySHA256": "26477f571a2f929af8e4dcdff0eccb668f0580f3f4e218cefa0cab79ddbc6c1a",
+        "generatedSHA256": "26477f571a2f929af8e4dcdff0eccb668f0580f3f4e218cefa0cab79ddbc6c1a",
+        "applied": [
+          {
+            "before": "وينتفع المؤمن بهذا المعنى وهو يفكر في الهجرة: الذي جعل الحرم آمنًا لا تنحصر قدرته في تلك البقعة، والأرض أرضه. لكن لا يُحوّل هذا إلى ضمان بأمان كامل في كل بلد يختاره، بل إلى قطع العبادة التي يمنحها قلبه للمكان. يأخذ بأسباب السلامة، ويعلم أن الأمان عطاء من الله لا ملك ذاتي للجدران أو القبيلة أو العلاقات.",
+            "after": "وينتفع المؤمن بهذا المعنى وهو يفكر في الهجرة: الذي جعل الحرم آمنًا لا تنحصر قدرته في تلك البقعة، والأرض أرضه. فالأمان عطاء من الله لا ملك ذاتي للجدران أو القبيلة أو العلاقات.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 348
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:68",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "288d140ea8203293f6ef91a724dfa789530d218a505260d33a3e98708d16e8d0",
+        "currentOrdinarySHA256": "288d140ea8203293f6ef91a724dfa789530d218a505260d33a3e98708d16e8d0",
+        "generatedSHA256": "288d140ea8203293f6ef91a724dfa789530d218a505260d33a3e98708d16e8d0",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "29:69",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "71f0370b8287d7502767274647a2c5378c88ec10ee67e31f7d86bcf104ac6de1",
+        "currentOrdinarySHA256": "c4f96c3ff6ab165dcfa580e971430b1b7d4d31b4002814ab044a37afdcf7c6dd",
+        "generatedSHA256": "c4f96c3ff6ab165dcfa580e971430b1b7d4d31b4002814ab044a37afdcf7c6dd",
+        "applied": [
+          {
+            "before": "وكان فتح المدينة بعد شدة مكة صورة من هداية الله لعباده وتهيئته لهم ما لم يكونوا يحيطون بتفصيله. لكن لا يجوز تحويل تلك الصورة إلى وعد لكل عامل بمدينة أو وظيفة أو جماعة بعينها. قد يكون الفتح في ثبات حتى الموت، أو علم ينفع، أو طريق لم يخطر له؛ ويبقى اليقين بوعد الله غير تعيين ما لم يعينه.",
+            "after": "وكان فتح المدينة بعد شدة مكة صورة من هداية الله لعباده وتهيئته لهم ما لم يكونوا يحيطون بتفصيله. وتتعدد صور هذا الفتح، دون أن يكون في تلك الصورة وعد لكل عامل بمدينة أو وظيفة أو جماعة بعينها؛ فقد يكون الفتح في ثبات حتى الموت، أو علم ينفع، أو طريق لم يخطر له. وبهذا يبقى اليقين بوعد الله مع تفويض تعيين ما لم يعينه.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 349
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      }
+    ],
+    "topLevelReaderFieldsUnchanged": {
+      "title": true,
+      "shortCredit": true,
+      "glossary": true,
+      "readerNotes": true,
+      "publisherNotes": true,
+      "contextNotes": true,
+      "bibliography": true,
+      "quranCredit": true,
+      "sourceCredit": true,
+      "translationCredits": true,
+      "requiredMeaningNotes": true,
+      "requiredPublisherNotes": true
+    },
+    "currentSourceSHA256": "d2c6de92d2075631e4462940a4539c84913027e2a520b36196cc83e33c200b38",
+    "oldSourceCommit": "80c666acc4ca8c87f6f6b0fc2df82be31b4f4792",
+    "status": "EXACT_REVIEW_CHAIN_PROVED"
+  },
+  "semanticReviewCreated": false,
+  "humanCertification": false,
+  "qualification": "Original whole-reader qualifications remain controlling. Exact existing independently reviewed finite corrections extend only their matched passages; this is a source-owner literal/structural transfer, not a new scholarly, translation, human, Word or visual approval."
+}
