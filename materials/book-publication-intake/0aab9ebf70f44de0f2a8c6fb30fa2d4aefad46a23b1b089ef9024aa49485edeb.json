@@ -1,0 +1,214 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "47aac31ef35734606bc782a9a89d43818e0b2faa440999488c74198e6c7f4162",
+  "catalogEntry": {
+    "collection": "tadabbur",
+    "language": "ar",
+    "id": "18:extended",
+    "markdown": "materials/tadabbur/ar/extended/018.md",
+    "json": "materials/tadabbur/ar/extended/018.json",
+    "translationStatus": "arabic-source",
+    "surah": 18,
+    "mode": "extended",
+    "ayahs": 110,
+    "hasIntroduction": false,
+    "sourceHashes": [
+      "9de4497c73648202f7877cca6333f5aebb70e627fde266efd2a3cce519b50dc6",
+      "1d29ab433adb5259aeac38a96c728b1211805004f5b8de77eb1a72447afb7876"
+    ],
+    "sourceRevision878": {
+      "updatedAyahKeys": [
+        "18:34"
+      ],
+      "sourceHash": "1d29ab433adb5259aeac38a96c728b1211805004f5b8de77eb1a72447afb7876",
+      "sourceRecords": "materials/tadabbur/sources/018/ar/extended/877-source-records.json"
+    },
+    "currentAppAlignedEntries": 110
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/tadabbur/ar/extended/018.json",
+      "sha256": "f8cd74cd7d6ae2d158fe449a114979b7fa27f15430889966646481ef314aa194"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/018.md",
+      "sha256": "bf120d111b6c90344734f56d8bdb8a6e93635abdece642baf88305593f76099a"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "canonicalOrder": 18,
+  "readerUnit": {
+    "path": "materials/source-acceptances/recovered-329-v1/ar/18-extended/reader.json",
+    "sha256": "568bd1947f9134fc1631815afaa8b99fb4fa23d063e355cd45b7db418e4ed64b"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "recovered-existing-review-329-v1-ar-18:extended",
+    "reviewer": {
+      "kind": "source-owner-literal-structural-reconciliation",
+      "identity": "/root",
+      "scope": "Exact transfer of original whole-reader review and independently reviewed finite corrections; no new semantic/human/Word/visual approval"
+    },
+    "readerTextSHA256": "c84912f05bed428b2fa6651d8ede8cdba06313e54ce3202520e63fcf0e43d400",
+    "material": {
+      "collection": "tadabbur",
+      "language": "ar",
+      "id": "18:extended"
+    },
+    "coverage": {
+      "schema": "iman-reviewed-quran-coverage-v1",
+      "surah": 18,
+      "ayahKeys": [
+        "18:1",
+        "18:2",
+        "18:3",
+        "18:4",
+        "18:5",
+        "18:6",
+        "18:7",
+        "18:8",
+        "18:9",
+        "18:10",
+        "18:11",
+        "18:12",
+        "18:13",
+        "18:14",
+        "18:15",
+        "18:16",
+        "18:17",
+        "18:18",
+        "18:19",
+        "18:20",
+        "18:21",
+        "18:22",
+        "18:23",
+        "18:24",
+        "18:25",
+        "18:26",
+        "18:27",
+        "18:28",
+        "18:29",
+        "18:30",
+        "18:31",
+        "18:32",
+        "18:33",
+        "18:34",
+        "18:35",
+        "18:36",
+        "18:37",
+        "18:38",
+        "18:39",
+        "18:40",
+        "18:41",
+        "18:42",
+        "18:43",
+        "18:44",
+        "18:45",
+        "18:46",
+        "18:47",
+        "18:48",
+        "18:49",
+        "18:50",
+        "18:51",
+        "18:52",
+        "18:53",
+        "18:54",
+        "18:55",
+        "18:56",
+        "18:57",
+        "18:58",
+        "18:59",
+        "18:60",
+        "18:61",
+        "18:62",
+        "18:63",
+        "18:64",
+        "18:65",
+        "18:66",
+        "18:67",
+        "18:68",
+        "18:69",
+        "18:70",
+        "18:71",
+        "18:72",
+        "18:73",
+        "18:74",
+        "18:75",
+        "18:76",
+        "18:77",
+        "18:78",
+        "18:79",
+        "18:80",
+        "18:81",
+        "18:82",
+        "18:83",
+        "18:84",
+        "18:85",
+        "18:86",
+        "18:87",
+        "18:88",
+        "18:89",
+        "18:90",
+        "18:91",
+        "18:92",
+        "18:93",
+        "18:94",
+        "18:95",
+        "18:96",
+        "18:97",
+        "18:98",
+        "18:99",
+        "18:100",
+        "18:101",
+        "18:102",
+        "18:103",
+        "18:104",
+        "18:105",
+        "18:106",
+        "18:107",
+        "18:108",
+        "18:109",
+        "18:110"
+      ],
+      "introduction": {
+        "state": "not-in-reviewed-material"
+      }
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/18-extended/existing-review-chain.json",
+        "sha256": "2fc38492b23420924ccdfc9301d7330c8c517581fe6fea07bd226148956d7246"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/18-extended/literal-transfer-receipt.json",
+        "sha256": "df992250d7543babcc3bc97aa7c35ae6d8b92a8a12aa2369ee3bc301bfbb1315"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/18-extended/literal-source-acceptance.json",
+        "sha256": "aa18646351bb7fe19c3bbb3cdab654c604ffa1957e7462c21ad269d9767fffed"
+      },
+      {
+        "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
+        "sha256": "8de1900c4f19f24b093d388f398ab9510397153f7b9b8d0e94ffed4a1b965f76"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/tadabbur/ar/extended/018.json",
+      "sha256": "f8cd74cd7d6ae2d158fe449a114979b7fa27f15430889966646481ef314aa194"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/018.md",
+      "sha256": "bf120d111b6c90344734f56d8bdb8a6e93635abdece642baf88305593f76099a"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ]
+}
