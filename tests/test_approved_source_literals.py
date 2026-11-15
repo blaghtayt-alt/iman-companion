@@ -83,6 +83,82 @@ class ApprovedSourceLiteralTests(unittest.TestCase):
         self.assertEqual(self.check(), self.text)
         check_unit(self.unit, self.material, {}, root=self.root)
 
+    def _check_tadabbur_intake_with_canonical_and_coverage_guards(self):
+        self.material.clear()
+        self.material.update(collection='tadabbur', language='en', id='1:extended')
+        self.proof.update(collection='tadabbur', materialId='1:extended')
+        quran = {'1:1': 'ا ١'}
+        self.write('books/assets/quran-arabic.json', quran)
+        credit = {'language': 'en', 'text': 'Synthetic translation source.'}
+        blocks = [{'kind': 'ayah', 'verseKey': '1:1', 'text': quran['1:1']},
+                  {'kind': 'translation', 'text': 'Fixture translated meaning.', 'translationCredit': credit},
+                  {'kind': 'paragraph', 'text': self.text, 'sourceLiteralProof': self.proof}]
+        self.unit.update(collection='tadabbur-extended', id='1:extended', surah=1,
+                         title='Fixture Quran reader', sections=[{'ayahKey': '1:1', 'blocks': blocks}])
+        coverage = {'schema': 'iman-reviewed-quran-coverage-v1', 'surah': 1,
+                    'ayahKeys': ['1:1'], 'introduction': {'state': 'not-in-reviewed-material'}}
+        self.unit['reviewedCoverage'] = coverage
+        fingerprint = sha(''.join(b['text'] for b in blocks).encode())
+        self.unit['readerTextSHA256'] = fingerprint
+        self.inventory['approval']['readerTextSHA256'] = fingerprint
+        self.proof['readerTextSHA256'] = fingerprint
+        self.refresh_inventory()
+        reader = self.write('materials/book-readers/en-tadabbur.json', self.unit)
+        handoff = {'schema': 'iman-approved-material-publication-v1',
+                   'expectedCatalogSHA256': sha((self.root / 'materials/catalog.json').read_bytes()),
+                   'catalogEntry': {**self.material, 'surah': 1, 'mode': 'extended',
+                                    'markdown': self.markdown['path'], 'current': True},
+                   'sourceBindings': [self.source, self.markdown], 'canonicalOrder': 1,
+                   'readerUnit': reader,
+                   'approval': {'decision': 'approved', 'wholeMaterial': True,
+                                'approvalId': 'TEST-QURAN-FIXTURE-ONLY', 'reviewer': {'kind': 'fixture'},
+                                'material': self.material, 'readerTextSHA256': fingerprint,
+                                'coverage': coverage, 'reviewArtifacts': [self.proof['inventory']]}}
+        path = self.root / self.write('quran-handoff.json', handoff)['path']
+        prepare(self.root, path)
+        check_unit(self.unit, {'collection': 'tadabbur-extended', 'language': 'en',
+                               'id': '1:extended'}, quran, root=self.root)
+        bad = deepcopy(self.unit)
+        bad['sections'][0]['blocks'][0]['text'] = 'Changed canonical words'
+        with self.assertRaisesRegex(ValueError, 'canonical text'):
+            check_unit(bad, {'collection': 'tadabbur-extended', 'language': 'en',
+                             'id': '1:extended'}, quran, root=self.root)
+        bad_handoff = deepcopy(handoff)
+        bad_handoff['approval']['coverage']['ayahKeys'] = ['1:2']
+        self.write('quran-handoff.json', bad_handoff)
+        with self.assertRaisesRegex(ValueError, 'Coverage is not bound'):
+            prepare(self.root, path)
+
+    def _check_typed_reader_link_associations(self):
+        first, second = 'https://quranenc.com', 'https://example.invalid/other'
+        raw = ('Chapter One\n\n' + self.text + '\n' + first + '\n' + second).encode()
+        self.source = self.write(self.source['path'], raw)
+        self.inventory['readingSource'] = self.source
+        self.inventory['sourceBindings'] = [self.source, self.markdown]
+        self.proof['source'] = self.source
+        start = self.text.index('QuranEnc.com')
+        link_proof = {**self.proof, 'start': raw.decode().index(first),
+                      'end': raw.decode().index(first) + len(first), 'textSHA256': sha(first.encode())}
+        link = {'start': start, 'end': start + len('QuranEnc.com'),
+                'url': first, 'sourceLiteralProof': link_proof}
+        identity = lambda p: {k: p.get(k) for k in ('source', 'pointer', 'start', 'end', 'textSHA256')}
+        self.inventory['literalLinks'] = [{'paragraph': identity(self.proof), 'links': [
+            {**{k: link[k] for k in ('start', 'end', 'url')}, **identity(link_proof)}]}]
+        self.refresh_inventory()
+        link_proof['inventory'] = self.proof['inventory']
+        section = self.unit['sections'][0]
+        section['sourceOnlyContext'] = True
+        section['blocks'][0].update(sourceOnlyContext=True, hyperlinks=[link])
+        check_unit(self.unit, self.material, {}, root=self.root)
+        changed = deepcopy(self.unit)
+        new_link = changed['sections'][0]['blocks'][0]['hyperlinks'][0]
+        new_link['url'] = second
+        new_link['sourceLiteralProof'].update(start=raw.decode().index(second),
+                                              end=raw.decode().index(second) + len(second),
+                                              textSHA256=sha(second.encode()))
+        with self.assertRaisesRegex(ValueError, 'link association changed'):
+            check_unit(changed, self.material, {}, root=self.root)
+
     def test_missing_binding_or_changed_source_and_inventory_rejected(self):
         changed = deepcopy(self.unit)
         changed['inputBindings'].pop()
@@ -245,6 +321,18 @@ class HadithSourceLiteralTests(ApprovedSourceLiteralTests):
         self.refresh_inventory()
         with self.assertRaises(ValueError):
             self.check()
+
+class QuranAndLinkSourceLiteralTests(unittest.TestCase):
+    def setUp(self):
+        self.fixture = ApprovedSourceLiteralTests()
+        self.fixture.setUp()
+        self.addCleanup(self.fixture.doCleanups)
+
+    def test_tadabbur_intake_keeps_canonical_and_whole_coverage_guards(self):
+        self.fixture._check_tadabbur_intake_with_canonical_and_coverage_guards()
+
+    def test_exact_bound_urls_cannot_be_swapped_between_source_labels(self):
+        self.fixture._check_typed_reader_link_associations()
 
 if __name__ == '__main__':
     unittest.main()

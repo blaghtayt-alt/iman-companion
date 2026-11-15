@@ -113,8 +113,9 @@ def check_bound_text(root, text, unit, proofs, *, exact=False):
         inventory = _pinned_json(root, proof['inventory'])
         if inventory.get('schema') == APPROVED_READER_SCHEMA:
             material = inventory.get('material', {})
-            catalogue_collection = ('essential-hadith' if unit.get('collection') == 'hadith'
-                                    else unit.get('collection'))
+            catalogue_collection = {'hadith': 'essential-hadith',
+                                    'tadabbur-extended': 'tadabbur'}.get(
+                                        unit.get('collection'), unit.get('collection'))
             if (material != {'collection': catalogue_collection,
                              'language': unit.get('language'), 'id': unit.get('id')}
                     or unit.get('catalogBindings') != [material]
@@ -141,7 +142,7 @@ def _approved_reader_literal(root, proof, inventory):
     approval = inventory.get('approval', {})
     expected = {'collection': proof.get('collection'),
                 'language': proof.get('language'), 'id': proof.get('materialId')}
-    if (material != expected or material.get('collection') not in {'articles', 'seerah', 'essential-hadith'}
+    if (material != expected or material.get('collection') not in {'articles', 'seerah', 'essential-hadith', 'tadabbur'}
             or not material.get('id') or not material.get('language')
             or inventory.get('current') is not True
             or approval.get('decision') != 'approved'
@@ -169,6 +170,20 @@ def check_link_associations(root, unit, block):
     paragraph = block['sourceLiteralProof']
     check_bound_text(root, block['text'], unit, paragraph, exact=True)
     inventory = _pinned_json(root, paragraph['inventory'])
+    if inventory.get('schema') == APPROVED_READER_SCHEMA:
+        # A typed whole-reader update is independent of the older mutable
+        # collection inventory. Keep its exact approved label/URL associations
+        # bound to the immutable complete TXT, alongside the usual separate
+        # publisher approval, canonical Quran and coverage checks.
+        identity = lambda proof: {name: proof.get(name) for name in
+                                  ('source', 'pointer', 'start', 'end', 'textSHA256')}
+        actual = {'paragraph': identity(paragraph), 'links': [
+            {**{name: link.get(name) for name in ('start', 'end', 'url')},
+             **identity(link.get('sourceLiteralProof', {}))}
+            for link in block['hyperlinks']]}
+        if actual not in inventory.get('literalLinks', []):
+            raise ValueError('Approved source credit link association changed')
+        return
     from current_source_registry import format_for
     spec = format_for(inventory.get('schema'))
     if spec is None or not hasattr(spec[0], 'literal_links'):
