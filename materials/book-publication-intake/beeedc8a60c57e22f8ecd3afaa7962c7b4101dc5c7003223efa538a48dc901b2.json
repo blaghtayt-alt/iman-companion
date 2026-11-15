@@ -1,0 +1,191 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "568a72e4a59104627775f6dd133ccd6a3ffea371a1d63d29e4e8c6c7e21b4388",
+  "catalogEntry": {
+    "collection": "tadabbur",
+    "language": "ar",
+    "id": "19:extended",
+    "markdown": "materials/tadabbur/ar/extended/019.md",
+    "json": "materials/tadabbur/ar/extended/019.json",
+    "translationStatus": "arabic-source",
+    "surah": 19,
+    "mode": "extended",
+    "ayahs": 98,
+    "hasIntroduction": false,
+    "sourceHashes": []
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/tadabbur/ar/extended/019.json",
+      "sha256": "161121c7edeaa6edc95b2fc9a24fed23042f550b70f333c142d0783f69839afd"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/019.md",
+      "sha256": "659b7d3dc217e3a28220125944a97ad0b31c0ec4392bf057f485d2116bc30ffd"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "canonicalOrder": 19,
+  "readerUnit": {
+    "path": "materials/source-acceptances/recovered-329-v1/ar/19-extended/reader.json",
+    "sha256": "25891a9102f9e2bc25d7e19b33b4015496af5474d511eca28bf3e8a881b0c4be"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "recovered-existing-review-329-v1-ar-19:extended",
+    "reviewer": {
+      "kind": "source-owner-literal-structural-reconciliation",
+      "identity": "/root",
+      "scope": "Exact transfer of original whole-reader review and independently reviewed finite corrections; no new semantic/human/Word/visual approval"
+    },
+    "readerTextSHA256": "00994ea6cbdb0c87e45c858eb5149727e60309c1f79d92211213d53ecd2adf80",
+    "material": {
+      "collection": "tadabbur",
+      "language": "ar",
+      "id": "19:extended"
+    },
+    "coverage": {
+      "schema": "iman-reviewed-quran-coverage-v1",
+      "surah": 19,
+      "ayahKeys": [
+        "19:1",
+        "19:2",
+        "19:3",
+        "19:4",
+        "19:5",
+        "19:6",
+        "19:7",
+        "19:8",
+        "19:9",
+        "19:10",
+        "19:11",
+        "19:12",
+        "19:13",
+        "19:14",
+        "19:15",
+        "19:16",
+        "19:17",
+        "19:18",
+        "19:19",
+        "19:20",
+        "19:21",
+        "19:22",
+        "19:23",
+        "19:24",
+        "19:25",
+        "19:26",
+        "19:27",
+        "19:28",
+        "19:29",
+        "19:30",
+        "19:31",
+        "19:32",
+        "19:33",
+        "19:34",
+        "19:35",
+        "19:36",
+        "19:37",
+        "19:38",
+        "19:39",
+        "19:40",
+        "19:41",
+        "19:42",
+        "19:43",
+        "19:44",
+        "19:45",
+        "19:46",
+        "19:47",
+        "19:48",
+        "19:49",
+        "19:50",
+        "19:51",
+        "19:52",
+        "19:53",
+        "19:54",
+        "19:55",
+        "19:56",
+        "19:57",
+        "19:58",
+        "19:59",
+        "19:60",
+        "19:61",
+        "19:62",
+        "19:63",
+        "19:64",
+        "19:65",
+        "19:66",
+        "19:67",
+        "19:68",
+        "19:69",
+        "19:70",
+        "19:71",
+        "19:72",
+        "19:73",
+        "19:74",
+        "19:75",
+        "19:76",
+        "19:77",
+        "19:78",
+        "19:79",
+        "19:80",
+        "19:81",
+        "19:82",
+        "19:83",
+        "19:84",
+        "19:85",
+        "19:86",
+        "19:87",
+        "19:88",
+        "19:89",
+        "19:90",
+        "19:91",
+        "19:92",
+        "19:93",
+        "19:94",
+        "19:95",
+        "19:96",
+        "19:97",
+        "19:98"
+      ],
+      "introduction": {
+        "state": "not-in-reviewed-material"
+      }
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/19-extended/existing-review-chain.json",
+        "sha256": "53a9d3c175709be2e936d7b308600ee76439685b7c7ca98b0e2673f326df4877"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/19-extended/literal-transfer-receipt.json",
+        "sha256": "9d9aa81d53c044221b9208d12cc16328770f2298da9d9cd4acdea2baf68b7285"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/19-extended/literal-source-acceptance.json",
+        "sha256": "ed09c3729a97937c7646f85f814c2856cabb6d302380bd310662bf03c3268999"
+      },
+      {
+        "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
+        "sha256": "8de1900c4f19f24b093d388f398ab9510397153f7b9b8d0e94ffed4a1b965f76"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/tadabbur/ar/extended/019.json",
+      "sha256": "161121c7edeaa6edc95b2fc9a24fed23042f550b70f333c142d0783f69839afd"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/019.md",
+      "sha256": "659b7d3dc217e3a28220125944a97ad0b31c0ec4392bf057f485d2116bc30ffd"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ]
+}
