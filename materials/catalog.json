@@ -18206,7 +18206,12 @@
       "markdown": "materials/tadabbur/fatiha-extended/uz/reading.md",
       "json": "materials/tadabbur/fatiha-extended/uz/reading.json",
       "translationStatus": "ai-translated-needs-verification",
-      "status": "current-app-edition"
+      "status": "current-app-edition",
+      "bookReaderUnit": {
+        "schema": "iman-book-unit-v1",
+        "path": "books/units/current/uz/tadabbur-extended/fatiha-extended.json",
+        "sha256": "beda006aeac69b68ea5cbffbeb4c06cbd45462ff841a24aeaba5869c682b44b4"
+      }
     },
     {
       "collection": "essential-hadith",
