@@ -18132,7 +18132,12 @@
       "markdown": "materials/tadabbur/fatiha-extended/zh-CN/reading.md",
       "json": "materials/tadabbur/fatiha-extended/zh-CN/reading.json",
       "translationStatus": "ai-translated-needs-verification",
-      "status": "current-app-edition"
+      "status": "current-app-edition",
+      "bookReaderUnit": {
+        "schema": "iman-book-unit-v1",
+        "path": "books/units/current/zh-CN/tadabbur-extended/fatiha-extended.json",
+        "sha256": "c9ecfac69e6d8dd26e53b5880263e40dcc0ddd8daaba870f10a2af6c07c282bf"
+      }
     },
     {
       "collection": "tadabbur",
