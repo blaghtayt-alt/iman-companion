@@ -1,0 +1,119 @@
+{
+  "collection": "tadabbur",
+  "language": "ar",
+  "materialId": 5,
+  "mode": "extended",
+  "sourceFiles": [
+    {
+      "path": "materials/tadabbur/ar/extended/005.json",
+      "sha256": "c31510240e573eb25443187ae78115a806e9d331898fa1c0daa82e5099b7b3f7"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/005.md",
+      "sha256": "31d15ed06bdaa62d7ccef3c076bff7d2abb337577d22bd7463633c30aa51ce8a"
+    }
+  ],
+  "sourceConditions": [
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "existingWholeReview": {
+    "kind": "Arabic literal/structural source QC; not a translation, semantic or scholarly certification",
+    "handoffSHA256": "dc0acde7a951e538f0fe2cb1a1f05f65a965dbe24d0d87876adb0bc9c765c3bf",
+    "sourceAuditSHA256": "448499b9d601acada5995d693beda83180d2fc03a50edccff21b17d81f6320d3"
+  },
+  "historicalPublication": {
+    "publicCommit": "b05131fed345444774a020a10ae134ca094c6947",
+    "basis": "Root atomic GitHub readback pinned this exact commit; both current JSON/Markdown byte blob IDs match the local tree for that commit. The root readback itself directly fetched book-table files, not every individual material file.",
+    "rootReadbackReceipt": "ROOT-ALL20-ATOMIC-GITHUB-TABLE-READBACK.json",
+    "directIndividualPriorReadback": null,
+    "commit": "b05131fed345444774a020a10ae134ca094c6947"
+  },
+  "bookCoverage": {
+    "ayahKeys": [
+      "5:1",
+      "5:3",
+      "5:5",
+      "5:6",
+      "5:7",
+      "5:8",
+      "5:12",
+      "5:13",
+      "5:14",
+      "5:15",
+      "5:16",
+      "5:17",
+      "5:18",
+      "5:19",
+      "5:20",
+      "5:21",
+      "5:22",
+      "5:23",
+      "5:24",
+      "5:25",
+      "5:26",
+      "5:27",
+      "5:30",
+      "5:38",
+      "5:41",
+      "5:42",
+      "5:43",
+      "5:44",
+      "5:45",
+      "5:46",
+      "5:47",
+      "5:48",
+      "5:49",
+      "5:50",
+      "5:51",
+      "5:52",
+      "5:53",
+      "5:54",
+      "5:55",
+      "5:56",
+      "5:57",
+      "5:58",
+      "5:59",
+      "5:60",
+      "5:61",
+      "5:62",
+      "5:63",
+      "5:64",
+      "5:65",
+      "5:66",
+      "5:67",
+      "5:68",
+      "5:69",
+      "5:70",
+      "5:71",
+      "5:72",
+      "5:74",
+      "5:75",
+      "5:76",
+      "5:77",
+      "5:78",
+      "5:79",
+      "5:80",
+      "5:82",
+      "5:83",
+      "5:84",
+      "5:85",
+      "5:87",
+      "5:89",
+      "5:90",
+      "5:94",
+      "5:100",
+      "5:101",
+      "5:102",
+      "5:109"
+    ],
+    "introductionSectionIds": []
+  },
+  "referenceProjection": {
+    "path": "books/.cache/stale-books-recovery/ar-005-references.json",
+    "sha256": "4fd0bf1685c510c1fd680752203ab2e91c87c575fa02d2db0ce0e4da6dc1a9a2"
+  },
+  "bookPresentation": []
+}
