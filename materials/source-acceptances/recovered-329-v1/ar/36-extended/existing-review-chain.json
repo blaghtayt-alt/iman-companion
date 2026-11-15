@@ -1,0 +1,2199 @@
+{
+  "schema": "iman-existing-whole-review-and-finite-deltas-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "ar",
+    "id": "36:extended"
+  },
+  "existingInventory": {
+    "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
+    "sha256": "8de1900c4f19f24b093d388f398ab9510397153f7b9b8d0e94ffed4a1b965f76"
+  },
+  "existingRecord": {
+    "collection": "tadabbur",
+    "language": "ar",
+    "materialId": 36,
+    "mode": "extended",
+    "sourceFiles": [
+      {
+        "path": "materials/tadabbur/ar/extended/036.json",
+        "sha256": "43fafab99ac551bdf6c68dee05886d9cc68c1aa65511b1a847ee83c7648c1c25"
+      },
+      {
+        "path": "materials/tadabbur/ar/extended/036.md",
+        "sha256": "a1496b170791f52af236eb8d31cdeb5959dfd4d5a08299f6a1202659dddaeeb9"
+      }
+    ],
+    "sourceConditions": [
+      {
+        "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+        "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+      }
+    ],
+    "existingWholeReview": {
+      "kind": "Arabic literal/structural source QC; not a translation, semantic or scholarly certification",
+      "handoffSHA256": "dc0acde7a951e538f0fe2cb1a1f05f65a965dbe24d0d87876adb0bc9c765c3bf",
+      "sourceAuditSHA256": "448499b9d601acada5995d693beda83180d2fc03a50edccff21b17d81f6320d3"
+    },
+    "historicalPublication": {
+      "publicCommit": "b05131fed345444774a020a10ae134ca094c6947",
+      "basis": "Root atomic GitHub readback pinned this exact commit; both current JSON/Markdown byte blob IDs match the local tree for that commit. The root readback itself directly fetched book-table files, not every individual material file.",
+      "rootReadbackReceipt": "ROOT-ALL20-ATOMIC-GITHUB-TABLE-READBACK.json",
+      "directIndividualPriorReadback": null,
+      "commit": "b05131fed345444774a020a10ae134ca094c6947"
+    },
+    "bookCoverage": {
+      "ayahKeys": [
+        "36:1",
+        "36:2",
+        "36:3",
+        "36:4",
+        "36:5",
+        "36:6",
+        "36:7",
+        "36:8",
+        "36:9",
+        "36:10",
+        "36:11",
+        "36:12",
+        "36:13",
+        "36:14",
+        "36:15",
+        "36:16",
+        "36:17",
+        "36:18",
+        "36:19",
+        "36:20",
+        "36:21",
+        "36:22",
+        "36:23",
+        "36:24",
+        "36:25",
+        "36:26",
+        "36:27",
+        "36:28",
+        "36:29",
+        "36:30",
+        "36:31",
+        "36:32",
+        "36:33",
+        "36:34",
+        "36:35",
+        "36:36",
+        "36:37",
+        "36:38",
+        "36:39",
+        "36:40",
+        "36:41",
+        "36:42",
+        "36:43",
+        "36:44",
+        "36:45",
+        "36:46",
+        "36:47",
+        "36:48",
+        "36:49",
+        "36:50",
+        "36:51",
+        "36:52",
+        "36:53",
+        "36:54",
+        "36:55",
+        "36:56",
+        "36:57",
+        "36:58",
+        "36:59",
+        "36:60",
+        "36:61",
+        "36:62",
+        "36:63",
+        "36:64",
+        "36:65",
+        "36:66",
+        "36:67",
+        "36:68",
+        "36:69",
+        "36:70",
+        "36:71",
+        "36:72",
+        "36:73",
+        "36:74",
+        "36:75",
+        "36:76",
+        "36:77",
+        "36:78",
+        "36:79",
+        "36:80",
+        "36:81",
+        "36:82",
+        "36:83"
+      ],
+      "introductionSectionIds": []
+    }
+  },
+  "registeredSourceArchive": {
+    "path": "materials/source-acceptances/recovered-329-v1/ar/36-extended/registered-source.json",
+    "sha256": "43fafab99ac551bdf6c68dee05886d9cc68c1aa65511b1a847ee83c7648c1c25"
+  },
+  "originalFrozenCorrectionLedgerSHA256": "ae0d57527ce8f51479a13ab900604a437442a1c905a6042534e1ddb9adbdaa17",
+  "originalEvidenceFiles": [
+    {
+      "path": "corrections1_329_root_verification20261114/THROUGH270-INDEPENDENT-NUMBERED-DISPOSITIONS-v1.json",
+      "expectedSHA256": "e54c14937690be9dba6524b84d41563597488401bea4fe15741ff26f52c5936f",
+      "actualSHA256": "e54c14937690be9dba6524b84d41563597488401bea4fe15741ff26f52c5936f",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/checklist-v2.json",
+      "expectedSHA256": "cd54d8b339646e3c900c23ad7399d365ccfd14ce32e6434941466a0e4fe2677f",
+      "actualSHA256": "cd54d8b339646e3c900c23ad7399d365ccfd14ce32e6434941466a0e4fe2677f",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/CANDIDATE-REVIEW-FROZEN-v1.json",
+      "expectedSHA256": "df3eafc3ad82c4d46f6e15e8e2661df658030af19ae2f2fa50fe6c9b9070da18",
+      "actualSHA256": "df3eafc3ad82c4d46f6e15e8e2661df658030af19ae2f2fa50fe6c9b9070da18",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/CANDIDATE-REVIEW-SCOPE-ADDENDUM-v1.json",
+      "expectedSHA256": "4dbac31ab1ed48a68e5d741d2c3ba37c35f43d3b32d0815a2d93d70ad650b7fa",
+      "actualSHA256": "4dbac31ab1ed48a68e5d741d2c3ba37c35f43d3b32d0815a2d93d70ad650b7fa",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ITEM-313-INDEPENDENT-REASSESSMENT-FINAL-v1.json",
+      "expectedSHA256": "c0978b696db345617729ed97be99106022a9c05d06d843d4b8acbeefd52c334d",
+      "actualSHA256": "c0978b696db345617729ed97be99106022a9c05d06d843d4b8acbeefd52c334d",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/Iman_Companion_271-329_Before_Green_After_Unchanged.docx",
+      "expectedSHA256": "1f7fbeba10f5325037c511432423ad8e5a03fe418145b914486f6977787762bc",
+      "actualSHA256": "1f7fbeba10f5325037c511432423ad8e5a03fe418145b914486f6977787762bc",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-KAHF-TH-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "04f16807d66f02130420bbf01e320a51f29e4ce40773bef6f7860476c40df2c9",
+      "actualSHA256": "04f16807d66f02130420bbf01e320a51f29e4ce40773bef6f7860476c40df2c9",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-INSTALLED-GITHUB-READBACK-v1.json",
+      "expectedSHA256": "85a05dd167d64aaa1e9f321eb7a27734001f8e15bdeccce98a843bc47806e5aa",
+      "actualSHA256": "85a05dd167d64aaa1e9f321eb7a27734001f8e15bdeccce98a843bc47806e5aa",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-SABA13-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "9fb661e5a4b284d3fb6eb650953790e92ef2b5654a00c8f6b164c45c94446945",
+      "actualSHA256": "9fb661e5a4b284d3fb6eb650953790e92ef2b5654a00c8f6b164c45c94446945",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-BN-UR-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "302d652150b1f4f6f746894317ac043fd23be794f75ae4fbe9734cb05602c432",
+      "actualSHA256": "302d652150b1f4f6f746894317ac043fd23be794f75ae4fbe9734cb05602c432",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-EN-FATIR-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "50117ff34ba3628e20d75d21a320e59a5b466c059348f6f449e6862218c61078",
+      "actualSHA256": "50117ff34ba3628e20d75d21a320e59a5b466c059348f6f449e6862218c61078",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-HI-FATIR-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "d1aed9908acaf5560bbb65284cd517417134f26e11e6101b5ba03be5deeeae79",
+      "actualSHA256": "d1aed9908acaf5560bbb65284cd517417134f26e11e6101b5ba03be5deeeae79",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-FR-FATIR-CANONICAL-GITHUB-v1.json",
+      "expectedSHA256": "d46c5f7fc39569361cab0b7e932e404d70df2037025b6ebf7650137a42f8f7f3",
+      "actualSHA256": "d46c5f7fc39569361cab0b7e932e404d70df2037025b6ebf7650137a42f8f7f3",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-VI-WORD-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "50cb6b48695d3acf00786bca2daf2b5632f0be962deaf6e8ce98f6c1f1fc4ee2",
+      "actualSHA256": "50cb6b48695d3acf00786bca2daf2b5632f0be962deaf6e8ce98f6c1f1fc4ee2",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-313-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "54abe84f97659471a5e649ea4b3acbda2a43368983f3410ec4655cbb77449020",
+      "actualSHA256": "54abe84f97659471a5e649ea4b3acbda2a43368983f3410ec4655cbb77449020",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-KAHF-TR-EN-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "5978e1fb5e3a3033405ea31ac685ec89bc45663e41f36583de30834cecd3f350",
+      "actualSHA256": "5978e1fb5e3a3033405ea31ac685ec89bc45663e41f36583de30834cecd3f350",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-WEB-1-329-LIVE-HTTP-v1.json",
+      "expectedSHA256": "5098e712b3193b8458c5a3020b577de2d6db18f7c9b80ca6074e6b9e1711af2b",
+      "actualSHA256": "5098e712b3193b8458c5a3020b577de2d6db18f7c9b80ca6074e6b9e1711af2b",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/ARABIC-338-FINAL-READBACK.json",
+      "expectedSHA256": "68489213dcb494194854eb7f21be7193c4fb0f60a65768dab4012e1e104308bb",
+      "actualSHA256": "68489213dcb494194854eb7f21be7193c4fb0f60a65768dab4012e1e104308bb",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/FULL-1-329-CURRENT-AUDIT-20261114.json",
+      "expectedSHA256": "218092bdf142c92afba6102042781e0f193ee15b3640da71ad038a1b46d1db11",
+      "actualSHA256": "218092bdf142c92afba6102042781e0f193ee15b3640da71ad038a1b46d1db11",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-CURRENT-THROUGH270-DELIVERY-v1.json",
+      "expectedSHA256": "0df5abb6c811a9a47564da80b946ca27df55541d0526416f4e3d92a8ffc6fb12",
+      "actualSHA256": "0df5abb6c811a9a47564da80b946ca27df55541d0526416f4e3d92a8ffc6fb12",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-WEB-VI-313-KAHF-PREVIEW-v1.json",
+      "expectedSHA256": "0a00adb0dfc866f48e14acbc4e92ac5b0e1f51ce53da8753603f9b0e8e08b93b",
+      "actualSHA256": "0a00adb0dfc866f48e14acbc4e92ac5b0e1f51ce53da8753603f9b0e8e08b93b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-bn-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "07d4cc4a9ea49d154bf32c6aeb993b9288ff5e5648e2d3634655a0e551dc82e2",
+      "actualSHA256": "07d4cc4a9ea49d154bf32c6aeb993b9288ff5e5648e2d3634655a0e551dc82e2",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/BATCH8-BOUND-OPERATIONS.json",
+      "expectedSHA256": "7dcc63992c72e733e41f30c5820527dcfd03de48455a0808fed0d10f583164df",
+      "actualSHA256": "7dcc63992c72e733e41f30c5820527dcfd03de48455a0808fed0d10f583164df",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-de-FINAL.json",
+      "expectedSHA256": "d53ce52a415464273e8dca0efce412a1928bfdda3f948fabeba90fe3656bedff",
+      "actualSHA256": "d53ce52a415464273e8dca0efce412a1928bfdda3f948fabeba90fe3656bedff",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-en-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "280ac231660bb18c6e8c5f906cc3739e22ff5317573212d30bd3f2195e0fc1b3",
+      "actualSHA256": "280ac231660bb18c6e8c5f906cc3739e22ff5317573212d30bd3f2195e0fc1b3",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-es-FINAL.json",
+      "expectedSHA256": "193efbbe6a057f78b3d34ebcecbb41cdcbe60bd25fdeb167538d105ebfece0d4",
+      "actualSHA256": "193efbbe6a057f78b3d34ebcecbb41cdcbe60bd25fdeb167538d105ebfece0d4",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-es-1-2-INDEPENDENT-FINAL-v7.json",
+      "expectedSHA256": "c7bbb5f9c4b217f324263f837fe4aaabec92436dff7b065e1ff5cb2757945d60",
+      "actualSHA256": "c7bbb5f9c4b217f324263f837fe4aaabec92436dff7b065e1ff5cb2757945d60",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fa-FINAL.json",
+      "expectedSHA256": "067aaacb9137fa334a93d520acf49ecf68500b3d86a692d130852eb3c191dc13",
+      "actualSHA256": "067aaacb9137fa334a93d520acf49ecf68500b3d86a692d130852eb3c191dc13",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fa-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "15ae8d5ff6be1572c782d4f1fde209708dd315f0de5054d0a4b3f20e1eb1fa4f",
+      "actualSHA256": "15ae8d5ff6be1572c782d4f1fde209708dd315f0de5054d0a4b3f20e1eb1fa4f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fil-FINAL.json",
+      "expectedSHA256": "927680e1798769a0f67c6499c251482c7fc511e478b6636f3b5e0c1dc6f00696",
+      "actualSHA256": "927680e1798769a0f67c6499c251482c7fc511e478b6636f3b5e0c1dc6f00696",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fil-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "4a86f61ce1aa3d6d437af0b99e55e8487c1189b7c3c05e440ade41ab91c76aca",
+      "actualSHA256": "4a86f61ce1aa3d6d437af0b99e55e8487c1189b7c3c05e440ade41ab91c76aca",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-fr-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "cbbb4c31cf72c68fda784f92bdb4123836efdffbbc24dbdd1c4d12549a489bae",
+      "actualSHA256": "cbbb4c31cf72c68fda784f92bdb4123836efdffbbc24dbdd1c4d12549a489bae",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-hi-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "173016599e20f69ebcaf8ff4dc629a8b5e47e84ed6b108d2cb6691b56c70b1b5",
+      "actualSHA256": "173016599e20f69ebcaf8ff4dc629a8b5e47e84ed6b108d2cb6691b56c70b1b5",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-id-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "5c32fdecb652ab3560688ac9ccbf20bf0481e329d613c57d91d384f8f214f4da",
+      "actualSHA256": "5c32fdecb652ab3560688ac9ccbf20bf0481e329d613c57d91d384f8f214f4da",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-ja-FINAL-CLARIFIED-v2.json",
+      "expectedSHA256": "b0759678c6fc725b7a9f8911391c032a231f415c2b32443e5794958a635e73b6",
+      "actualSHA256": "b0759678c6fc725b7a9f8911391c032a231f415c2b32443e5794958a635e73b6",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-ms-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "09f1415d850e97616144a580006e3a857b4504e21db19e273589ab94883ed21f",
+      "actualSHA256": "09f1415d850e97616144a580006e3a857b4504e21db19e273589ab94883ed21f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-pt-BR-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "c0d449707ed89a7f605d8c6dac8ddbffedb9ac4e815be71392f9db7d715c94d4",
+      "actualSHA256": "c0d449707ed89a7f605d8c6dac8ddbffedb9ac4e815be71392f9db7d715c94d4",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-ru-FINAL.json",
+      "expectedSHA256": "f71ff7ad839bccfe43e387f52ccf9e2c29c948f47472e5d79c77e680334c52bc",
+      "actualSHA256": "f71ff7ad839bccfe43e387f52ccf9e2c29c948f47472e5d79c77e680334c52bc",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-ru-1-2-INDEPENDENT-FINAL-v7.json",
+      "expectedSHA256": "83b9bcd15017b1e806695b97b5d9785e37beb7b3d75b93bddccf6278991958fa",
+      "actualSHA256": "83b9bcd15017b1e806695b97b5d9785e37beb7b3d75b93bddccf6278991958fa",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-th-FINAL.json",
+      "expectedSHA256": "7a51179ab1e42d069ec8f02b3df898ebf3055068ce8c8f3ad30da9606e11dd5f",
+      "actualSHA256": "7a51179ab1e42d069ec8f02b3df898ebf3055068ce8c8f3ad30da9606e11dd5f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-th-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "9cc094d31fc7a2e929fec992c2333046fae60a6e7cfdae11e53c7f1a7ef80822",
+      "actualSHA256": "9cc094d31fc7a2e929fec992c2333046fae60a6e7cfdae11e53c7f1a7ef80822",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-tr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "39352c22d5dd227a1605c212a4522bd4e92de44afc4644535c9b22b828f7829f",
+      "actualSHA256": "39352c22d5dd227a1605c212a4522bd4e92de44afc4644535c9b22b828f7829f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-ur-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "4bfe269e5c154f908fe55a2f794d74cf90a410865a7f1acf9d5d26095ba9c7a6",
+      "actualSHA256": "4bfe269e5c154f908fe55a2f794d74cf90a410865a7f1acf9d5d26095ba9c7a6",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-uz-FINAL.json",
+      "expectedSHA256": "b3c378e498c4b583a0539eef910c06ed1b2f1467525d7e72ec7811e967dcc180",
+      "actualSHA256": "b3c378e498c4b583a0539eef910c06ed1b2f1467525d7e72ec7811e967dcc180",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-vi-FINAL.json",
+      "expectedSHA256": "3dcb587ffceefaeca525394e72b71b81ae86096d99ed26c94788c1246b42f1ba",
+      "actualSHA256": "3dcb587ffceefaeca525394e72b71b81ae86096d99ed26c94788c1246b42f1ba",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-vi-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "324ee2a0e9c49e4ec574947b6a564f05ac55df87b4bdaf1a750e90b57ec672c8",
+      "actualSHA256": "324ee2a0e9c49e4ec574947b6a564f05ac55df87b4bdaf1a750e90b57ec672c8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-zh-CN-FINAL.json",
+      "expectedSHA256": "c57a4c24a5bab0bab758ff26ccef62bb2adc75fa742e19125f6cb9b0085c4dcb",
+      "actualSHA256": "c57a4c24a5bab0bab758ff26ccef62bb2adc75fa742e19125f6cb9b0085c4dcb",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-bn-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "641dab1b53bf3f88fd54e3e6e95384f5d678c6b4cfef7d024a27986cca143839",
+      "actualSHA256": "641dab1b53bf3f88fd54e3e6e95384f5d678c6b4cfef7d024a27986cca143839",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/BATCH12-BOUND-OPERATIONS.json",
+      "expectedSHA256": "ae7c65242485d2487c9ec6e03124103c36dd61e3d66ec6a5e2742d65db4731c8",
+      "actualSHA256": "ae7c65242485d2487c9ec6e03124103c36dd61e3d66ec6a5e2742d65db4731c8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-en-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "c4239a20b8f84339ba5f87aa02338996474d7a1fffd038b3e5e18ce0a692bb0a",
+      "actualSHA256": "c4239a20b8f84339ba5f87aa02338996474d7a1fffd038b3e5e18ce0a692bb0a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-fr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "ab5c2e8bdf4104ed83081ed72fb96b828d7c75dfa45aadb87508453f5d1a36a1",
+      "actualSHA256": "ab5c2e8bdf4104ed83081ed72fb96b828d7c75dfa45aadb87508453f5d1a36a1",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-id-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "0fb66e9442711add57b2ee5f4d596910cd6924e132aaacc1bcbdcbf3f1ecd647",
+      "actualSHA256": "0fb66e9442711add57b2ee5f4d596910cd6924e132aaacc1bcbdcbf3f1ecd647",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-ms-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "8442649b3a6c2aaa1fba04bf804362834ce0ae723401e5065f1273ce1fcbe6a8",
+      "actualSHA256": "8442649b3a6c2aaa1fba04bf804362834ce0ae723401e5065f1273ce1fcbe6a8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-pt-BR-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "734a5f8fe405678525d227da2fc7885c5a02bee3c569614ce2c1aa8649874cab",
+      "actualSHA256": "734a5f8fe405678525d227da2fc7885c5a02bee3c569614ce2c1aa8649874cab",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-tr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "51ff810a33c1e7fe699845c246fcde2cf01fee2186a7dbbfddf647bcd979c269",
+      "actualSHA256": "51ff810a33c1e7fe699845c246fcde2cf01fee2186a7dbbfddf647bcd979c269",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-ur-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "ade6668af8614d718baa7113a840d71882c9da2b07be52e57a1de00dbdabca9e",
+      "actualSHA256": "ade6668af8614d718baa7113a840d71882c9da2b07be52e57a1de00dbdabca9e",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-ur-178-INDEPENDENT-FINAL-v13.json",
+      "expectedSHA256": "2d65d43f3cf1bf01ca99a05d03b09f221895be605a616e74393b85b4407d5061",
+      "actualSHA256": "2d65d43f3cf1bf01ca99a05d03b09f221895be605a616e74393b85b4407d5061",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-bn-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "6aef86dbf033a49a2d2838d7aa6a26d31327de69e1f95be35b2b8a2f00c0729b",
+      "actualSHA256": "6aef86dbf033a49a2d2838d7aa6a26d31327de69e1f95be35b2b8a2f00c0729b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-en-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "bd0abed750552a303f8b6433eda219d7244659b1072762f0518b9c09d8e21e52",
+      "actualSHA256": "bd0abed750552a303f8b6433eda219d7244659b1072762f0518b9c09d8e21e52",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-fr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "d955c3927299d6da5bd3247839f42aa2afda6282ad6fb31cd636e79504691abd",
+      "actualSHA256": "d955c3927299d6da5bd3247839f42aa2afda6282ad6fb31cd636e79504691abd",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-id-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "e983df4b8b4b0de0ce6570806f23b88e5490129db9eeafcf65129e5f882978f5",
+      "actualSHA256": "e983df4b8b4b0de0ce6570806f23b88e5490129db9eeafcf65129e5f882978f5",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-ms-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "7c2724dddc165e1bfe8506d856606fe5305b0ef652e3a2a60f0212f335e96ecb",
+      "actualSHA256": "7c2724dddc165e1bfe8506d856606fe5305b0ef652e3a2a60f0212f335e96ecb",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-pt-BR-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "08a2c18f0cc52c5d7793a2734eb9c2fa4983ce0b16c0ca5738ec7e0adec25a24",
+      "actualSHA256": "08a2c18f0cc52c5d7793a2734eb9c2fa4983ce0b16c0ca5738ec7e0adec25a24",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-tr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "108362eebaf57952bfa59ad63af565b879c59cc147c50a37cb0dbcf0f56e194a",
+      "actualSHA256": "108362eebaf57952bfa59ad63af565b879c59cc147c50a37cb0dbcf0f56e194a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-ur-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "67e6eb0da5c9d403687fcb5be3ae9874cf36db0b0f33ff6a21615da1dc2ddace",
+      "actualSHA256": "67e6eb0da5c9d403687fcb5be3ae9874cf36db0b0f33ff6a21615da1dc2ddace",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/final/en/MANIFEST.json",
+      "expectedSHA256": "66cff8eee63bd8cb3774e431cb22ddb35d9f392d4feb4ea894775786411148bc",
+      "actualSHA256": "66cff8eee63bd8cb3774e431cb22ddb35d9f392d4feb4ea894775786411148bc",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/author/en-v3/ALIGNMENTS.json",
+      "expectedSHA256": "e75b52d781a2e904d25634400ccbf66bccab7fe809a5929e6b635e7b897ea67b",
+      "actualSHA256": "e75b52d781a2e904d25634400ccbf66bccab7fe809a5929e6b635e7b897ea67b",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/final/tr/MANIFEST.json",
+      "expectedSHA256": "8086fbea911f7223ba2c15de809039bfd734cdf3d155bc048b5adc02dae522be",
+      "actualSHA256": "8086fbea911f7223ba2c15de809039bfd734cdf3d155bc048b5adc02dae522be",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/author/tr-v2/ALIGNMENTS.json",
+      "expectedSHA256": "d6163352a0be3d1a1b6a4485c8b5e793182a76055017d24ebec269855ad734eb",
+      "actualSHA256": "d6163352a0be3d1a1b6a4485c8b5e793182a76055017d24ebec269855ad734eb",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/final/th/MANIFEST.json",
+      "expectedSHA256": "475cd47defcb58fb31488cea47e52171c684273d2af4792a4777d1b355c13f8b",
+      "actualSHA256": "475cd47defcb58fb31488cea47e52171c684273d2af4792a4777d1b355c13f8b",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/author/th/ALIGNMENTS.json",
+      "expectedSHA256": "d0fe1727ec314a294681a7e8eab49c1444ada09f8e2ac859c525e55d2a38329b",
+      "actualSHA256": "d0fe1727ec314a294681a7e8eab49c1444ada09f8e2ac859c525e55d2a38329b",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/TRANSLATION-CHANGELOG-INDEX.json",
+      "expectedSHA256": "e72361a909c6ac7cf9f873c313aa5db95cfeeec845024b273529086a6b144cf9",
+      "actualSHA256": "e72361a909c6ac7cf9f873c313aa5db95cfeeec845024b273529086a6b144cf9",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/native-installed-author-v2.json",
+      "expectedSHA256": "d120badd8e9f95680f9aa5e60c6879fcb88c8136cd6d18de83ccae229beb5365",
+      "actualSHA256": "d120badd8e9f95680f9aa5e60c6879fcb88c8136cd6d18de83ccae229beb5365",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/native-pending-author-v2.json",
+      "expectedSHA256": "9f271871b51b8d7e8f499f4a9d49ad03d765bc8581f3ad83a461f78131faf909",
+      "actualSHA256": "9f271871b51b8d7e8f499f4a9d49ad03d765bc8581f3ad83a461f78131faf909",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-fatir-bn-ur/draft-packet-v2.json",
+      "expectedSHA256": "32f537a9f17d369015f4a1304bc7e5b0b39ab8077c5a52f6df4b57a05d2a2b68",
+      "actualSHA256": "32f537a9f17d369015f4a1304bc7e5b0b39ab8077c5a52f6df4b57a05d2a2b68",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-saba-ja/private-evidence-v1/native-changelog-and-inverse.json",
+      "expectedSHA256": "4688458c436c47c17d0161d66c3a480ebd49e12b979715e0898bef43dfe93bed",
+      "actualSHA256": "4688458c436c47c17d0161d66c3a480ebd49e12b979715e0898bef43dfe93bed",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-fatir-en/private-evidence-v2/language-changelog.json",
+      "expectedSHA256": "dd3ff96d0d289ea31285bbab7842d1b2a329fa12f581e2a9dbcfe035bcea3e2d",
+      "actualSHA256": "dd3ff96d0d289ea31285bbab7842d1b2a329fa12f581e2a9dbcfe035bcea3e2d",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_hi_astra20261114/author/v2/private-evidence/WHOLE-FREEZE12-TO-V2.json",
+      "expectedSHA256": "94e65fa5b145a20ebf6362abfc0990dde4647ce640e4a1379e4e45f41206a0a7",
+      "actualSHA256": "94e65fa5b145a20ebf6362abfc0990dde4647ce640e4a1379e4e45f41206a0a7",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/pending-consumers-v2-independent-final.json",
+      "expectedSHA256": "96650897215883deae1e0951fddacd5f3c2dd67a2a81c4c19be68927b8a94a03",
+      "actualSHA256": "96650897215883deae1e0951fddacd5f3c2dd67a2a81c4c19be68927b8a94a03",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-FATIR-BN-UR-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "ef45be66310d7aef582fb13d1a8c5dafc00ee6782507a1e960bbb16c856f25f3",
+      "actualSHA256": "ef45be66310d7aef582fb13d1a8c5dafc00ee6782507a1e960bbb16c856f25f3",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-SABA-JA-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "fc89445eda8bdc3e6531091088eaaa14ae899ee93c69817e03219e45935eaa55",
+      "actualSHA256": "fc89445eda8bdc3e6531091088eaaa14ae899ee93c69817e03219e45935eaa55",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-FATIR-EN-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "865f7b5cc382fd478d82d904ca53c93e4f5e15e673c2fa678944e53fbcddd63b",
+      "actualSHA256": "865f7b5cc382fd478d82d904ca53c93e4f5e15e673c2fa678944e53fbcddd63b",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_hi_astra20261114/independent-final/INDEPENDENT-HI-FATIR-WORD-FINAL-v2.json",
+      "expectedSHA256": "26a4a252628c9527af0d680d85a3d2022beed7be1a6af163946f012934ae7257",
+      "actualSHA256": "26a4a252628c9527af0d680d85a3d2022beed7be1a6af163946f012934ae7257",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/bn.json",
+      "expectedSHA256": "ead0c48e5fa5d956e6a96ee2ae42a3482d6e4b94af8ba2f27746775d97e3ac3d",
+      "actualSHA256": "ead0c48e5fa5d956e6a96ee2ae42a3482d6e4b94af8ba2f27746775d97e3ac3d",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/de.json",
+      "expectedSHA256": "b715a5c6bc0bb12af3346ade958cc7f06329f90e6cc366e8f56af8df0b0fce15",
+      "actualSHA256": "b715a5c6bc0bb12af3346ade958cc7f06329f90e6cc366e8f56af8df0b0fce15",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/en.json",
+      "expectedSHA256": "990a32f5c78c40d85d2425f8eb3d04731d0c5aa42da27ccf0de525e0e7a94b0f",
+      "actualSHA256": "990a32f5c78c40d85d2425f8eb3d04731d0c5aa42da27ccf0de525e0e7a94b0f",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/fa.json",
+      "expectedSHA256": "b43f1fbad72c22e4bf763d2b314764d0a56b89c0edeb2f151243dc8710aa8418",
+      "actualSHA256": "b43f1fbad72c22e4bf763d2b314764d0a56b89c0edeb2f151243dc8710aa8418",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/fil.json",
+      "expectedSHA256": "f04bc3e9d8da4f3a52b41797e19447a9c49eb498b94c44605b3f1a12815f3287",
+      "actualSHA256": "f04bc3e9d8da4f3a52b41797e19447a9c49eb498b94c44605b3f1a12815f3287",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/fr.json",
+      "expectedSHA256": "d02ab531e4d738b094a56b9c2165eb4432974bf2b5df1ccba9dadf444a0ee7ec",
+      "actualSHA256": "d02ab531e4d738b094a56b9c2165eb4432974bf2b5df1ccba9dadf444a0ee7ec",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/hi.json",
+      "expectedSHA256": "b37ccd6a1efa9afc4ebcc11af0bfd55e7bd7a10007081a78c4aa4f16005fe3b0",
+      "actualSHA256": "b37ccd6a1efa9afc4ebcc11af0bfd55e7bd7a10007081a78c4aa4f16005fe3b0",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/id.json",
+      "expectedSHA256": "43740230f81181461f0f5e003702f172c513f179b3ba7c78cce65e9ee5b01b65",
+      "actualSHA256": "43740230f81181461f0f5e003702f172c513f179b3ba7c78cce65e9ee5b01b65",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ja.json",
+      "expectedSHA256": "65413a20b6d4a40e65c2dbd61304b88da6d5a4398a0612ea5989061ec9068983",
+      "actualSHA256": "65413a20b6d4a40e65c2dbd61304b88da6d5a4398a0612ea5989061ec9068983",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ms.json",
+      "expectedSHA256": "1f5e5d4bb4796bec932a0984a89ec1a9397663e238b6a88883f41d2b557a8d52",
+      "actualSHA256": "1f5e5d4bb4796bec932a0984a89ec1a9397663e238b6a88883f41d2b557a8d52",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/pt-BR.json",
+      "expectedSHA256": "8d634f22d486e3c2823fabc0fa87de85f6b98e1ce3361c91f669604e6f945957",
+      "actualSHA256": "8d634f22d486e3c2823fabc0fa87de85f6b98e1ce3361c91f669604e6f945957",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ru.json",
+      "expectedSHA256": "9a315045cf3247b6f37f442024d3dc92cb5114d3209d7c71fa4d2b00b46f2f5c",
+      "actualSHA256": "9a315045cf3247b6f37f442024d3dc92cb5114d3209d7c71fa4d2b00b46f2f5c",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/tr.json",
+      "expectedSHA256": "e489032f4ac74e75e6e61038d343d8cd0e30e90d2e8e5dc4305bf05bfcf2a83a",
+      "actualSHA256": "e489032f4ac74e75e6e61038d343d8cd0e30e90d2e8e5dc4305bf05bfcf2a83a",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ur.json",
+      "expectedSHA256": "e91bff6cf6d0779eff9dda962279c9afd499b56b169ec22130ad5c20c7f543ed",
+      "actualSHA256": "e91bff6cf6d0779eff9dda962279c9afd499b56b169ec22130ad5c20c7f543ed",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/uz.json",
+      "expectedSHA256": "a6bd39fb436e03f396fd7d20a95d293e9a7169c2786c4e3038cad51872f17fd9",
+      "actualSHA256": "a6bd39fb436e03f396fd7d20a95d293e9a7169c2786c4e3038cad51872f17fd9",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/zh-CN.json",
+      "expectedSHA256": "f95c646983ce2bf08881b0d806918f883b22a84f59738209da64836fcc568dcb",
+      "actualSHA256": "f95c646983ce2bf08881b0d806918f883b22a84f59738209da64836fcc568dcb",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-SABA-VI-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "f34fa44bfb2de337715347f9aee5ec6f8987b68e2cb45fd1c5deafc47c914582",
+      "actualSHA256": "f34fa44bfb2de337715347f9aee5ec6f8987b68e2cb45fd1c5deafc47c914582",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-saba-vi/AUTHOR-ADDITIVE-FREEZE-v1.json",
+      "expectedSHA256": "551df23ce4ba860b88fbb2181dcadc2bbd49d249be13a2cc09d65fb986159f1a",
+      "actualSHA256": "551df23ce4ba860b88fbb2181dcadc2bbd49d249be13a2cc09d65fb986159f1a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/002-ar-bounded-v3.json",
+      "expectedSHA256": "d41bccd6922d1b849ebde6164a65985fd68389dca33437975730fb1790a3f8e2",
+      "actualSHA256": "d41bccd6922d1b849ebde6164a65985fd68389dca33437975730fb1790a3f8e2",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/003-ar-bounded-v3.json",
+      "expectedSHA256": "05e1a7fe6d12afe0363c36e1cf43ca692f1236f0ea608d98571e4a8374cb92c9",
+      "actualSHA256": "05e1a7fe6d12afe0363c36e1cf43ca692f1236f0ea608d98571e4a8374cb92c9",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/004-ar-bounded-v3.json",
+      "expectedSHA256": "36a6ca0b9c05c41243b7ee5bf7832d2413809ea9a54f4700895bfb7ff18bdbca",
+      "actualSHA256": "36a6ca0b9c05c41243b7ee5bf7832d2413809ea9a54f4700895bfb7ff18bdbca",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/004-ar-23-24-Q400-v4.json",
+      "expectedSHA256": "59251a319671211c4514efc2205141fc2d268f37107e37c0699ae6654eebfa62",
+      "actualSHA256": "59251a319671211c4514efc2205141fc2d268f37107e37c0699ae6654eebfa62",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/005-ar-bounded-v3.json",
+      "expectedSHA256": "9046b908efb52d03be2eefef733fa33eb51ec69c3f0ffbfb27ba038921b61bae",
+      "actualSHA256": "9046b908efb52d03be2eefef733fa33eb51ec69c3f0ffbfb27ba038921b61bae",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/006-ar-bounded-v3.json",
+      "expectedSHA256": "a96f4a26f447cc4cd2fa82e85170246b5f32eaaf63ee12ccb23c04b7fae7940e",
+      "actualSHA256": "a96f4a26f447cc4cd2fa82e85170246b5f32eaaf63ee12ccb23c04b7fae7940e",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/006-ar-56-identification-BANK-v6.json",
+      "expectedSHA256": "bcd9d3f8a6d2f5be432616142e1f1104011b0126575580c357befb07652d3489",
+      "actualSHA256": "bcd9d3f8a6d2f5be432616142e1f1104011b0126575580c357befb07652d3489",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/007-ar-bounded-v3.json",
+      "expectedSHA256": "c96c4ff82be2e134459acd2b9ad962f822c322cddab758f70a109e7efcf5cb02",
+      "actualSHA256": "c96c4ff82be2e134459acd2b9ad962f822c322cddab758f70a109e7efcf5cb02",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-bounded-v3.json",
+      "expectedSHA256": "330eb86e0b3b602347b75d110a0a0aad9a75aa9d9f29ce22504986bfd61805fc",
+      "actualSHA256": "330eb86e0b3b602347b75d110a0a0aad9a75aa9d9f29ce22504986bfd61805fc",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/013-ar-bounded-v3.json",
+      "expectedSHA256": "a05561513cd4c3c250e12926064e1877c16f82c7fdb2270b722a5cf10e6acd8f",
+      "actualSHA256": "a05561513cd4c3c250e12926064e1877c16f82c7fdb2270b722a5cf10e6acd8f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/014-ar-bounded-v3.json",
+      "expectedSHA256": "c61d6b90547c2b9e18f883308cbd387a98a39b00ceae9f340e391f22c002b069",
+      "actualSHA256": "c61d6b90547c2b9e18f883308cbd387a98a39b00ceae9f340e391f22c002b069",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/018-ar-bounded-v3.json",
+      "expectedSHA256": "85a08ae12f85d2075ecf1720a315f6670ace6fcda3ae45ebe9ba1bca8041e5b8",
+      "actualSHA256": "85a08ae12f85d2075ecf1720a315f6670ace6fcda3ae45ebe9ba1bca8041e5b8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/019-ar-bounded-v3.json",
+      "expectedSHA256": "616cbfce83799fb4fbed2f834815a79a30704b4ab918e3c019c3e8cbf251819b",
+      "actualSHA256": "616cbfce83799fb4fbed2f834815a79a30704b4ab918e3c019c3e8cbf251819b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/020-ar-bounded-v3.json",
+      "expectedSHA256": "36ecbcbc3cab2286bc72162ab289a0e56c3677f9cb69274c5bce385f9e9c4da4",
+      "actualSHA256": "36ecbcbc3cab2286bc72162ab289a0e56c3677f9cb69274c5bce385f9e9c4da4",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/025-ar-bounded-v3.json",
+      "expectedSHA256": "439c7a993d54aba9c16f59a5c0cce4717bd5f52e590d3ecc6b0475bad0185a14",
+      "actualSHA256": "439c7a993d54aba9c16f59a5c0cce4717bd5f52e590d3ecc6b0475bad0185a14",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+      "expectedSHA256": "53aa6c92c1a25d2b01ffdf0436d456c20b9d5a837578ced0cd05d5be1c422e8c",
+      "actualSHA256": "53aa6c92c1a25d2b01ffdf0436d456c20b9d5a837578ced0cd05d5be1c422e8c",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/001-ar-1-4-v3.json",
+      "expectedSHA256": "47723a1636aa69f42068ec695cdceaaaf7feca40b10bdfac8a0e7c14246a0b6b",
+      "actualSHA256": "47723a1636aa69f42068ec695cdceaaaf7feca40b10bdfac8a0e7c14246a0b6b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/015-ar-172-178-v3.json",
+      "expectedSHA256": "c9c2240ca27a54af9c257e83b02fbb311507b4e6fac576f13bc96a78bc91cfae",
+      "actualSHA256": "c9c2240ca27a54af9c257e83b02fbb311507b4e6fac576f13bc96a78bc91cfae",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/017-ar-179-179.json",
+      "expectedSHA256": "c82ebed6d10d3b8a6eea217e6fefa2af144c8d981031686f81712ca8327ee975",
+      "actualSHA256": "c82ebed6d10d3b8a6eea217e6fefa2af144c8d981031686f81712ca8327ee975",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/020-ar-220-222.json",
+      "expectedSHA256": "92ae64f2e4268df205ecd8c3d7d5d60493004b939c9ce55c3050efcf209a8e3b",
+      "actualSHA256": "92ae64f2e4268df205ecd8c3d7d5d60493004b939c9ce55c3050efcf209a8e3b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/019-ar-simple-215-218-v3.json",
+      "expectedSHA256": "eb022265dcb2daca8505d9f4af7777efd1b6bede6073887bc4fef6b79357e086",
+      "actualSHA256": "eb022265dcb2daca8505d9f4af7777efd1b6bede6073887bc4fef6b79357e086",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-133-source-qualified-v7.json",
+      "expectedSHA256": "c17acb6181949b20b445594a0d3df7b590431ec9ba1bbd1153bbe87d372c10b1",
+      "actualSHA256": "c17acb6181949b20b445594a0d3df7b590431ec9ba1bbd1153bbe87d372c10b1",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-147-source-qualified-v7.json",
+      "expectedSHA256": "f653a6346b174909123b06cd7a07b8c7895160f8b2f1a08924792ddfcfef8d38",
+      "actualSHA256": "f653a6346b174909123b06cd7a07b8c7895160f8b2f1a08924792ddfcfef8d38",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/002-ar-simple-joined-v6.json",
+      "expectedSHA256": "7884daf0ac7a337285ffbd9d2a420fd4163d09441813e0e2cb0f3ed91fcd8d70",
+      "actualSHA256": "7884daf0ac7a337285ffbd9d2a420fd4163d09441813e0e2cb0f3ed91fcd8d70",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/002-ar-simple-7-8-abridged-v11.json",
+      "expectedSHA256": "6f1148580d55a4f4c23a0a28261fb691d8c09b9d844afaa3f23b644ec069d51f",
+      "actualSHA256": "6f1148580d55a4f4c23a0a28261fb691d8c09b9d844afaa3f23b644ec069d51f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-simple-joined-v6.json",
+      "expectedSHA256": "a2f3d73b28d14b18dab57f02125ee6a89231aeabe71a982fe2d3072a9df7407a",
+      "actualSHA256": "a2f3d73b28d14b18dab57f02125ee6a89231aeabe71a982fe2d3072a9df7407a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/013-ar-simple-joined-v6.json",
+      "expectedSHA256": "c3d9d6e7d896454eee783098b2eca2f91f5578f1993c5e8495bdac16215e7cc2",
+      "actualSHA256": "c3d9d6e7d896454eee783098b2eca2f91f5578f1993c5e8495bdac16215e7cc2",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-simple-133-source-qualified-v7.json",
+      "expectedSHA256": "1c8ae1f85e6c604ec67d850e6f62838d9d8a0095ed2fee684f643cb4de072e4c",
+      "actualSHA256": "1c8ae1f85e6c604ec67d850e6f62838d9d8a0095ed2fee684f643cb4de072e4c",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-simple-147-source-qualified-v7.json",
+      "expectedSHA256": "3d1da0488f7a521a7f47198fbb78c50671c8894122136bd71c24b29db5e37074",
+      "actualSHA256": "3d1da0488f7a521a7f47198fbb78c50671c8894122136bd71c24b29db5e37074",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+      "expectedSHA256": "331f6b663c10619787758235475e38261dbe46976e64e172e28aabcdca37aaa5",
+      "actualSHA256": "331f6b663c10619787758235475e38261dbe46976e64e172e28aabcdca37aaa5",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/arabic-short-author-v1.json",
+      "expectedSHA256": "9a6568b988e8fbcd786705b4c93b91082f9e41f2571de4bf4070532844c39b1b",
+      "actualSHA256": "9a6568b988e8fbcd786705b4c93b91082f9e41f2571de4bf4070532844c39b1b",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/Iman_Companion_Through_270.docx",
+      "expectedSHA256": "29b02fdb65949f625283a348c20959fd36db9bf0e8df2c2df4f63020686821fa",
+      "actualSHA256": "29b02fdb65949f625283a348c20959fd36db9bf0e8df2c2df4f63020686821fa",
+      "matches": true
+    }
+  ],
+  "exactCurrentReaderReconciliation": {
+    "language": "ar",
+    "id": "36:extended",
+    "sourcePath": "materials/tadabbur/ar/extended/036.json",
+    "registeredSourceSHA256": "43fafab99ac551bdf6c68dee05886d9cc68c1aa65511b1a847ee83c7648c1c25",
+    "checks": [
+      {
+        "section": "36:1",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "0bd58e16bcfb560b21c20177333036d68bc487dc0e0a63adbc70a697f2474029",
+        "currentOrdinarySHA256": "0bd58e16bcfb560b21c20177333036d68bc487dc0e0a63adbc70a697f2474029",
+        "generatedSHA256": "0bd58e16bcfb560b21c20177333036d68bc487dc0e0a63adbc70a697f2474029",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:2",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "6a93debd39693b3afcc7aa645c2a2ad333bd69fbf8b8ee56091a7e2f7883c5c8",
+        "currentOrdinarySHA256": "6a93debd39693b3afcc7aa645c2a2ad333bd69fbf8b8ee56091a7e2f7883c5c8",
+        "generatedSHA256": "6a93debd39693b3afcc7aa645c2a2ad333bd69fbf8b8ee56091a7e2f7883c5c8",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:3",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "c53341c563709c77650a74fd6bf1b8cceffc0154fe42597b39341333a35e2421",
+        "currentOrdinarySHA256": "c53341c563709c77650a74fd6bf1b8cceffc0154fe42597b39341333a35e2421",
+        "generatedSHA256": "c53341c563709c77650a74fd6bf1b8cceffc0154fe42597b39341333a35e2421",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:4",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "7b6caf8cd367e0df9def1a10ddc3589f2104924c6bf876e25b558b384299b99a",
+        "currentOrdinarySHA256": "7b6caf8cd367e0df9def1a10ddc3589f2104924c6bf876e25b558b384299b99a",
+        "generatedSHA256": "7b6caf8cd367e0df9def1a10ddc3589f2104924c6bf876e25b558b384299b99a",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:5",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "e97e0ecfa8dda465c3d41373c840bee4c8321b8c7acb95582de0faeba8469d23",
+        "currentOrdinarySHA256": "e97e0ecfa8dda465c3d41373c840bee4c8321b8c7acb95582de0faeba8469d23",
+        "generatedSHA256": "e97e0ecfa8dda465c3d41373c840bee4c8321b8c7acb95582de0faeba8469d23",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:6",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "4b2e92cba3db2b399dcd250091c0fd3aabdff608f1c9c3b8fea1115b37fa0db5",
+        "currentOrdinarySHA256": "4b2e92cba3db2b399dcd250091c0fd3aabdff608f1c9c3b8fea1115b37fa0db5",
+        "generatedSHA256": "4b2e92cba3db2b399dcd250091c0fd3aabdff608f1c9c3b8fea1115b37fa0db5",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:7",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "5b7396111b87c8036bb6d05b06340f932f4cddf15b90a19675865ba6d5f39747",
+        "currentOrdinarySHA256": "5b7396111b87c8036bb6d05b06340f932f4cddf15b90a19675865ba6d5f39747",
+        "generatedSHA256": "5b7396111b87c8036bb6d05b06340f932f4cddf15b90a19675865ba6d5f39747",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:8",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "fc7a4efc51ad506a14666c0a1af344ba9d8cda1cb7a5652baeff11ebe3a5aea6",
+        "currentOrdinarySHA256": "fc7a4efc51ad506a14666c0a1af344ba9d8cda1cb7a5652baeff11ebe3a5aea6",
+        "generatedSHA256": "fc7a4efc51ad506a14666c0a1af344ba9d8cda1cb7a5652baeff11ebe3a5aea6",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:9",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "60821e353d5ed13e9e7ff61c96f9f68ce5c9db2c8e31d17c06710671c6b2cc29",
+        "currentOrdinarySHA256": "2c39b020671bfd8de9d76df144e3f91385c2718eb65be71987c3a6412a819bcb",
+        "generatedSHA256": "2c39b020671bfd8de9d76df144e3f91385c2718eb65be71987c3a6412a819bcb",
+        "applied": [
+          {
+            "before": "بعد قيد العنق تأتي السدود والغشاوة، فيجتمع على المعرض عجزه عن الحركة وعجزه عن الرؤية: أمامه سد، وخلفه سد، وعلى بصره غطاء. لم يُذكر حاجز يسير يمكن تجاوزه، بل سَدّ يصوّر شدة ما صار بينه وبين الهدى. وعلى الوجه الذي يحمل هذه الآيات على حال الإعراض في الدنيا، تتكامل الصورة مع ما قبلها: موانع في النفس، ثم حصار يحول بينها وبين الانتفاع بما حولها. ومن المعاني التي قيلت في السد أمامهم أنهم لا يبصرون عواقب أفعالهم، وفي السد خلفهم أنهم لا يعتبرون بعواقب من مضوا؛ فلا يردعهم حساب ينتظرهم، ولا خبر أمة سبقهم هلاكها. وهذا بخلاف المتقي الذي قد تمسه وسوسة، لكنه يتذكر فيعود إليه بصر العاقبة: ﴿إِنَّ الَّذِينَ اتَّقَوْا إِذَا مَسَّهُمْ طَائِفٌ مِّنَ الشَّيْطَانِ تَذَكَّرُوا فَإِذَا هُم مُّبْصِرُونَ﴾ [الأعراف: 201]. فالفرق ليس أن المؤمن لا يُفتن أبدًا، وإنما أنه لا يُسلّم نفسه للغفلة حتى تصبح مستقرة. وقد بيّن القرآن هذا الجزاء في قوله عن مخالف الرسول بعد تبين الهدى: ﴿نُوَلِّهِ مَا تَوَلَّىٰ﴾ [النساء: 115]، وفي وصف من يُعرض عن ذكر الرحمن فيصاحبه الشيطان، ويصده عن السبيل وهو يحسب أنه مهتد [الزخرف: 36–38]. وأشد الخطر أن يُحجب الإنسان ثم لا يشعر بحجابه. ورُوي في خبر مرسل في السيرة أن أبصار المتربصين بالنبي ﷺ عند الهجرة حُجبت عنه وهو يتلو مطلع يس [ابن هشام، السيرة النبوية؛ خبر مرسل]. ولا يقتصر معنى الآية على هذا الخبر؛ فتصوير الإعراض ظاهر في السياق، وتعود السورة في ختامها إلى التحذير من الطمس على الأعين، لتبقى نعمة البصر والبصيرة حاضرة في القلب قبل أن يفقد الانتفاع بهما.",
+            "after": "بعد قيد العنق تأتي السدود والغشاوة، فيجتمع على المعرض عجزه عن الحركة وعجزه عن الرؤية: أمامه سد، وخلفه سد، وعلى بصره غطاء. لم يُذكر حاجز يسير يمكن تجاوزه، بل سَدّ يصوّر شدة ما صار بينه وبين الهدى. وعلى الوجه الذي يحمل هذه الآيات على حال الإعراض في الدنيا، تتكامل الصورة مع ما قبلها: موانع في النفس، ثم حصار يحول بينها وبين الانتفاع بما حولها. ومن المعاني التي قيلت في السد أمامهم أنهم لا يبصرون عواقب أفعالهم، وفي السد خلفهم أنهم لا يعتبرون بعواقب من مضوا؛ فلا يردعهم حساب ينتظرهم، ولا خبر أمة سبقهم هلاكها. وهذا بخلاف المتقي الذي قد تمسه وسوسة، لكنه يتذكر فيعود إليه بصر العاقبة: ﴿إِنَّ الَّذِينَ اتَّقَوْا إِذَا مَسَّهُمْ طَائِفٌ مِّنَ الشَّيْطَانِ تَذَكَّرُوا فَإِذَا هُم مُّبْصِرُونَ﴾ [الأعراف: 201]. فالفرق ليس أن المؤمن لا يُفتن أبدًا، وإنما أنه لا يُسلّم نفسه للغفلة حتى تصبح مستقرة. وقد بيّن القرآن هذا الجزاء في قوله عن مخالف الرسول بعد تبين الهدى: ﴿نُوَلِّهِ مَا تَوَلَّىٰ﴾ [النساء: 115]، وفي وصف من يُعرض عن ذكر الرحمن فيصاحبه الشيطان، ويصده عن السبيل وهو يحسب أنه مهتد [الزخرف: 36–38]. وأشد الخطر أن يُحجب الإنسان ثم لا يشعر بحجابه. ورُوي في خبر مرسل في السيرة أن أبصار المتربصين بالنبي ﷺ عند الهجرة حُجبت عنه وهو يتلو مطلع يس [ابن هشام، السيرة النبوية؛ خبر مرسل]. وتصوير الإعراض ظاهر في السياق، وتعود السورة في ختامها إلى التحذير من الطمس على الأعين، لتبقى نعمة البصر والبصيرة حاضرة في القلب قبل أن يفقد الانتفاع بهما.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 369
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:10",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "5adf168dfa2412ea00af78315276382c2c973fa8de726b73252c2db504e05606",
+        "currentOrdinarySHA256": "5adf168dfa2412ea00af78315276382c2c973fa8de726b73252c2db504e05606",
+        "generatedSHA256": "5adf168dfa2412ea00af78315276382c2c973fa8de726b73252c2db504e05606",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:11",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "1eee86fe018d3184b0f3e120f01822a862d53ba02a2f5ca01b4fc9b9218aefc0",
+        "currentOrdinarySHA256": "1eee86fe018d3184b0f3e120f01822a862d53ba02a2f5ca01b4fc9b9218aefc0",
+        "generatedSHA256": "1eee86fe018d3184b0f3e120f01822a862d53ba02a2f5ca01b4fc9b9218aefc0",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:12",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "91f34f866ce42b1615abe83ab29f72af51b00388126ef30c4ab996897ae0cb89",
+        "currentOrdinarySHA256": "91f34f866ce42b1615abe83ab29f72af51b00388126ef30c4ab996897ae0cb89",
+        "generatedSHA256": "91f34f866ce42b1615abe83ab29f72af51b00388126ef30c4ab996897ae0cb89",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:13",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "4adef4a8be4d6f31d1b1683d98a3197a0b75c74176d1c11237c0b41199bdd3fa",
+        "currentOrdinarySHA256": "4adef4a8be4d6f31d1b1683d98a3197a0b75c74176d1c11237c0b41199bdd3fa",
+        "generatedSHA256": "4adef4a8be4d6f31d1b1683d98a3197a0b75c74176d1c11237c0b41199bdd3fa",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:14",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "341408eeec246a6a1c67dfabd62c2b723c3d5a6ff7b9a001bec52277badb0eff",
+        "currentOrdinarySHA256": "925f2427aca6781425998799209a10b49d40949ca38c072aaf6bc807eda1141c",
+        "generatedSHA256": "925f2427aca6781425998799209a10b49d40949ca38c072aaf6bc807eda1141c",
+        "applied": [
+          {
+            "before": "لم تلق القرية رسولًا واحدًا ثم تتأنى في النظر، بل أُرسل إليها اثنان فقوبلا بالتكذيب؛ والفاء في ﴿فَكَذَّبُوهُمَا﴾ تبرز سرعة الرفض. ومع ذلك لم يأت عقبها ذكر الإهلاك، وإنما ﴿فَعَزَّزْنَا بِثَالِثٍ﴾: مزيد من البيان وفرصة أخرى للرجوع. فهذا حلم ينبغي أن يتعلم منه الداعي ألا يستعجل الحكم بانتهاء كل فرصة من أول موقف. والتعزيز تقوية، وقرئت «فعَزَزْنا» بتخفيف الزاي، وفُسرت بالغلبة؛ فلم يُذكر الثالث مجرد عدد زائد، بل عونًا لإتمام المهمة. ومنه تُفهم قيمة اجتماع العاملين للحق: يشرح أحدهم ما يحتاج إلى بيان، ويصل آخر إلى من لم يصله صاحبه، ويجبر كل منهم نقص الآخر. ومجرد جمع الأشخاص لا يحقق هذه القوة؛ فقد تتساند الجهود فتكون ثمرتها أكبر من عمل كل واحد منفردًا، وقد تتضاد فتُلغي أثر بعضها، كما أن اجتماع بعض المركبات يقوّي أثرها واجتماع غيرها يبطله. ولهذا قال تعالى: ﴿وَلَا تَنَازَعُوا فَتَفْشَلُوا وَتَذْهَبَ رِيحُكُمْ﴾ [الأنفال: 46]، وجاء في الحديث: «يد الله مع الجماعة» [الترمذي: 2166]. ومن لطائف التعبير حذف المفعول في «فعززنا»، فلم يقل «فعززناهما»؛ واستُفيد من ذلك أن النظر ينبغي أن يتجه إلى تقوية الحق، لا إلى مجرد تقوية حضور أشخاص بعينهم. فقد تكون خدمتك للحق أن تتقدم، وقد تكون أن تفسح المجال لمن هو أنفع في الموضع، أو أن تسكت عن خلاف لا يخدم المهمة. وعند إقامة الصلاة لا يكون التعزيز بأن يتزاحم الجميع على الإمامة، بل بأن يتقدم من هو أولى ويجتمع الآخرون خلفه. كذلك اجتمع المرسلون على قول واحد: ﴿إِنَّا إِلَيْكُم مُّرْسَلُونَ﴾؛ لم يجعلوا اختلاف أدوارهم تناقضًا في أصل رسالتهم. وليس المراد إلغاء كل خلاف معتبر، فالتوسعة في موضع يسع الخلاف غير التنازع في أصول الدعوة التي يجتمعون عليها.",
+            "after": "لم تلق القرية رسولًا واحدًا ثم تتأنى في النظر، بل أُرسل إليها اثنان فقوبلا بالتكذيب؛ والفاء في ﴿فَكَذَّبُوهُمَا﴾ تبرز سرعة الرفض. ومع ذلك لم يأت عقبها ذكر الإهلاك، وإنما ﴿فَعَزَّزْنَا بِثَالِثٍ﴾: مزيد من البيان وفرصة أخرى للرجوع. فهذا حلم ينبغي أن يتعلم منه الداعي ألا يستعجل الحكم بانتهاء كل فرصة من أول موقف. والتعزيز تقوية، وقرئت «فعَزَزْنا» بتخفيف الزاي، وفُسرت بالغلبة؛ فلم يُذكر الثالث مجرد عدد زائد، بل عونًا لإتمام المهمة. ومنه تُفهم قيمة اجتماع العاملين للحق: يشرح أحدهم ما يحتاج إلى بيان، ويصل آخر إلى من لم يصله صاحبه، ويجبر كل منهم نقص الآخر. ومجرد جمع الأشخاص لا يحقق هذه القوة؛ فقد تتساند الجهود فتكون ثمرتها أكبر من عمل كل واحد منفردًا، وقد تتضاد فتُلغي أثر بعضها، كما أن اجتماع بعض المركبات يقوّي أثرها واجتماع غيرها يبطله. ولهذا قال تعالى: ﴿وَلَا تَنَازَعُوا فَتَفْشَلُوا وَتَذْهَبَ رِيحُكُمْ﴾ [الأنفال: 46]، وجاء في الحديث: «يد الله مع الجماعة» [الترمذي: 2166]. ومن لطائف التعبير حذف المفعول في «فعززنا»، فلم يقل «فعززناهما»؛ واستُفيد من ذلك أن النظر ينبغي أن يتجه إلى تقوية الحق، لا إلى مجرد تقوية حضور أشخاص بعينهم. فقد تكون خدمتك للحق أن تتقدم، وقد تكون أن تفسح المجال لمن هو أنفع في الموضع، أو أن تسكت عن خلاف لا يخدم المهمة. وعند إقامة الصلاة لا يكون التعزيز بأن يتزاحم الجميع على الإمامة، بل بأن يتقدم من هو أولى ويجتمع الآخرون خلفه. كذلك اجتمع المرسلون على قول واحد: ﴿إِنَّا إِلَيْكُم مُّرْسَلُونَ﴾؛ لم يجعلوا اختلاف أدوارهم تناقضًا في أصل رسالتهم.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 370
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:15",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "8bfd4ea38726f847308ac209abd284c92ca03a4b870f6839c4a90484a3f201fe",
+        "currentOrdinarySHA256": "8bfd4ea38726f847308ac209abd284c92ca03a4b870f6839c4a90484a3f201fe",
+        "generatedSHA256": "8bfd4ea38726f847308ac209abd284c92ca03a4b870f6839c4a90484a3f201fe",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:16",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "cefefcff795553835e858f58797b9c8236f21163e78582a62b4405e28e57e3d2",
+        "currentOrdinarySHA256": "cefefcff795553835e858f58797b9c8236f21163e78582a62b4405e28e57e3d2",
+        "generatedSHA256": "cefefcff795553835e858f58797b9c8236f21163e78582a62b4405e28e57e3d2",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:17",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "2022c9f873a59dde3ca7d7e8197441e9866c0a9ff4318547412cacc5ea9fd7f2",
+        "currentOrdinarySHA256": "2022c9f873a59dde3ca7d7e8197441e9866c0a9ff4318547412cacc5ea9fd7f2",
+        "generatedSHA256": "2022c9f873a59dde3ca7d7e8197441e9866c0a9ff4318547412cacc5ea9fd7f2",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:18",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "dddda82429581cf44b60cc71ea987ef11cee340c116acd3c90aa9283111dd242",
+        "currentOrdinarySHA256": "dddda82429581cf44b60cc71ea987ef11cee340c116acd3c90aa9283111dd242",
+        "generatedSHA256": "dddda82429581cf44b60cc71ea987ef11cee340c116acd3c90aa9283111dd242",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:19",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "ac6d90da9671a7e3294b12a1830682bec089d5bdb118f795a38730495e4ad37e",
+        "currentOrdinarySHA256": "ac6d90da9671a7e3294b12a1830682bec089d5bdb118f795a38730495e4ad37e",
+        "generatedSHA256": "ac6d90da9671a7e3294b12a1830682bec089d5bdb118f795a38730495e4ad37e",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:20",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "6c8665f014f8f4bc2483739098a5fed3292820a3574b64c7f3c7f762fabad091",
+        "currentOrdinarySHA256": "6c8665f014f8f4bc2483739098a5fed3292820a3574b64c7f3c7f762fabad091",
+        "generatedSHA256": "6c8665f014f8f4bc2483739098a5fed3292820a3574b64c7f3c7f762fabad091",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:21",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "d91689fe51548348475333bc61b67c8be5b6e2e905bda0515958d43127f7f473",
+        "currentOrdinarySHA256": "d91689fe51548348475333bc61b67c8be5b6e2e905bda0515958d43127f7f473",
+        "generatedSHA256": "d91689fe51548348475333bc61b67c8be5b6e2e905bda0515958d43127f7f473",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:22",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "68344b2d045b8259737742fedc85a87f7af7ff4d785372314c1470319ab0fb5c",
+        "currentOrdinarySHA256": "68344b2d045b8259737742fedc85a87f7af7ff4d785372314c1470319ab0fb5c",
+        "generatedSHA256": "68344b2d045b8259737742fedc85a87f7af7ff4d785372314c1470319ab0fb5c",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:23",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "93dad930ce05dc23581ffbb4b639cb0294ed9b9d2b5f945413fc51760058c7dd",
+        "currentOrdinarySHA256": "785cb500aa9bfab9915d263c19c04f462c0e8bfb3adc5a5c3df40a444a6c56a4",
+        "generatedSHA256": "785cb500aa9bfab9915d263c19c04f462c0e8bfb3adc5a5c3df40a444a6c56a4",
+        "applied": [
+          {
+            "before": "بعد أن أثبت حق الخالق في العبادة، يسأل الرجل عن جدوى اتخاذ آلهة سواه: إن أراد الرحمن أن يصيبه بضر، فأي شيء تستطيع هذه الآلهة أن تدفعه؟ لا تملك شفاعة تُلزم الله بشيء، ولا قوة تنقذه مما أراد؛ فلا ينفع تعلقه بها قولًا ولا فعلًا. وهذا اختبار واضح للدعوى: إذا تعارض ما يريده الله وما يريده الخلق، فأي الإرادتين تمضي؟ وقد احتج القرآن بهذا المعنى على من نسب الألوهية إلى المسيح: ﴿فَمَن يَمْلِكُ مِنَ اللَّهِ شَيْئًا إِنْ أَرَادَ أَن يُهْلِكَ الْمَسِيحَ ابْنَ مَرْيَمَ وَأُمَّهُ وَمَن فِي الْأَرْضِ جَمِيعًا﴾ [المائدة: 17]؛ فكلهم مخلوقون لا يخرجون عن قدرة الله. وفي ذكر «الرحمن» مع الضر تصحيح لما ادعاه القوم من أن الرحمة تنفي الإنذار والعقاب؛ فقد يقدّر الرحمن ألمًا يكون فيه خير لعبده، ولا تقتضي رحمته أن يسوّي بين من أطاع ومن أصر على الظلم والكفر. ومن الأخبار التي تقرب كشف التناقض في الشرك خبر حصين حين سُئل عن آلهته، فذكر ستة في الأرض وواحدًا في السماء، ثم أقر أن الذي يعدّه لرغبته ورهبته هو الذي في السماء [الترمذي: 3483؛ مختلف في صحته]. فموضع العبرة في هذا الخبر، دون جعله أصل الحجة، أن الحاجة الشديدة قد تكشف ما لا تظهره العادة: من الذي يُرجى عند العجز؟ أما برهان الآية فقائم واضح بنفسه؛ من لا يملك دفع الضر عن عابده لا يستحق أن يُجعل شريكًا لمن فطره ويملك أمره كله.",
+            "after": "بعد أن أثبت حق الخالق في العبادة، يسأل الرجل عن جدوى اتخاذ آلهة سواه: إن أراد الرحمن أن يصيبه بضر، فأي شيء تستطيع هذه الآلهة أن تدفعه؟ لا تملك شفاعة تُلزم الله بشيء، ولا قوة تنقذه مما أراد؛ فلا ينفع تعلقه بها قولًا ولا فعلًا. وهذا اختبار واضح للدعوى: إذا تعارض ما يريده الله وما يريده الخلق، فأي الإرادتين تمضي؟ وقد احتج القرآن بهذا المعنى على من نسب الألوهية إلى المسيح: ﴿فَمَن يَمْلِكُ مِنَ اللَّهِ شَيْئًا إِنْ أَرَادَ أَن يُهْلِكَ الْمَسِيحَ ابْنَ مَرْيَمَ وَأُمَّهُ وَمَن فِي الْأَرْضِ جَمِيعًا﴾ [المائدة: 17]؛ فكلهم مخلوقون لا يخرجون عن قدرة الله. وفي ذكر «الرحمن» مع الضر تصحيح لما ادعاه القوم من أن الرحمة تنفي الإنذار والعقاب؛ فقد يقدّر الرحمن ألمًا يكون فيه خير لعبده، ولا تقتضي رحمته أن يسوّي بين من أطاع ومن أصر على الظلم والكفر. ومن الأخبار التي تقرب كشف التناقض في الشرك خبر حصين حين سُئل عن آلهته، فذكر ستة في الأرض وواحدًا في السماء، ثم أقر أن الذي يعدّه لرغبته ورهبته هو الذي في السماء [الترمذي: 3483؛ مختلف في صحته]. ويصور هذا الخبر ما قد تكشفه الحاجة الشديدة مما لا تظهره العادة: من الذي يُرجى عند العجز؟ أما برهان الآية فقائم واضح بنفسه؛ من لا يملك دفع الضر عن عابده لا يستحق أن يُجعل شريكًا لمن فطره ويملك أمره كله.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 371
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:24",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "ce877a1336c63075b57edb82a2a7c87cb9426f201b10fca2b8ee2d6c49f7b73a",
+        "currentOrdinarySHA256": "ce877a1336c63075b57edb82a2a7c87cb9426f201b10fca2b8ee2d6c49f7b73a",
+        "generatedSHA256": "ce877a1336c63075b57edb82a2a7c87cb9426f201b10fca2b8ee2d6c49f7b73a",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:25",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "6a044481b3184f15dfe46576f06305f885e29d37cb3ebe96ca8c422d58549a87",
+        "currentOrdinarySHA256": "6a044481b3184f15dfe46576f06305f885e29d37cb3ebe96ca8c422d58549a87",
+        "generatedSHA256": "6a044481b3184f15dfe46576f06305f885e29d37cb3ebe96ca8c422d58549a87",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:26",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "31a35ef41ccd38e97fd97c7a543bd43a2b6a9d348b5d30a85c82ee71ebdaa05c",
+        "currentOrdinarySHA256": "31a35ef41ccd38e97fd97c7a543bd43a2b6a9d348b5d30a85c82ee71ebdaa05c",
+        "generatedSHA256": "31a35ef41ccd38e97fd97c7a543bd43a2b6a9d348b5d30a85c82ee71ebdaa05c",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:27",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "d5dc2a199b7f970df2a103e0733cf32e9a245911ad17544416af7a1fd86170f9",
+        "currentOrdinarySHA256": "d5dc2a199b7f970df2a103e0733cf32e9a245911ad17544416af7a1fd86170f9",
+        "generatedSHA256": "d5dc2a199b7f970df2a103e0733cf32e9a245911ad17544416af7a1fd86170f9",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:28",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "2599228b64fc0be601d58e3b1b336b0bca48779b28f5e422025480747b6eb890",
+        "currentOrdinarySHA256": "2599228b64fc0be601d58e3b1b336b0bca48779b28f5e422025480747b6eb890",
+        "generatedSHA256": "2599228b64fc0be601d58e3b1b336b0bca48779b28f5e422025480747b6eb890",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:29",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "33079a6910cbe636d198b4a0df6da4fe5f09bba527a2832425329629ed76f424",
+        "currentOrdinarySHA256": "33079a6910cbe636d198b4a0df6da4fe5f09bba527a2832425329629ed76f424",
+        "generatedSHA256": "33079a6910cbe636d198b4a0df6da4fe5f09bba527a2832425329629ed76f424",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:30",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "9b977d7e916255f6fe463ee69ef9bcc5057f15ab2a06365c067bbcd1e8467140",
+        "currentOrdinarySHA256": "9b977d7e916255f6fe463ee69ef9bcc5057f15ab2a06365c067bbcd1e8467140",
+        "generatedSHA256": "9b977d7e916255f6fe463ee69ef9bcc5057f15ab2a06365c067bbcd1e8467140",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:31",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "04c1dc429a48e01f6c5ff5fd7afd5e4d73cbb2be5e056b05c7d11c58ca8bc5ef",
+        "currentOrdinarySHA256": "04c1dc429a48e01f6c5ff5fd7afd5e4d73cbb2be5e056b05c7d11c58ca8bc5ef",
+        "generatedSHA256": "04c1dc429a48e01f6c5ff5fd7afd5e4d73cbb2be5e056b05c7d11c58ca8bc5ef",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:32",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "ab56fd5f79a031540621f3c7e356b746ab04051b9c3faec7e820279a2cfcec5e",
+        "currentOrdinarySHA256": "ab56fd5f79a031540621f3c7e356b746ab04051b9c3faec7e820279a2cfcec5e",
+        "generatedSHA256": "ab56fd5f79a031540621f3c7e356b746ab04051b9c3faec7e820279a2cfcec5e",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:33",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "7a1be2d139e9fa90fa2d9790ab1dc1f3bc34177e3e2b83f838e8bf4b1563e64f",
+        "currentOrdinarySHA256": "7a1be2d139e9fa90fa2d9790ab1dc1f3bc34177e3e2b83f838e8bf4b1563e64f",
+        "generatedSHA256": "7a1be2d139e9fa90fa2d9790ab1dc1f3bc34177e3e2b83f838e8bf4b1563e64f",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:34",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "a7aa1b4364506983a4fe1286c1b0c88945e96a49f0c93a3fe09482ce76613955",
+        "currentOrdinarySHA256": "a7aa1b4364506983a4fe1286c1b0c88945e96a49f0c93a3fe09482ce76613955",
+        "generatedSHA256": "a7aa1b4364506983a4fe1286c1b0c88945e96a49f0c93a3fe09482ce76613955",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:35",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "b15c199ac5019e2f7e5f9883433472b907c6609ce7c862642ef574673f024860",
+        "currentOrdinarySHA256": "b15c199ac5019e2f7e5f9883433472b907c6609ce7c862642ef574673f024860",
+        "generatedSHA256": "b15c199ac5019e2f7e5f9883433472b907c6609ce7c862642ef574673f024860",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:36",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "726b0d2f1251bcb0f033d3c87b32f0ec7282d8e1b44c42d843f6df536f7826f4",
+        "currentOrdinarySHA256": "726b0d2f1251bcb0f033d3c87b32f0ec7282d8e1b44c42d843f6df536f7826f4",
+        "generatedSHA256": "726b0d2f1251bcb0f033d3c87b32f0ec7282d8e1b44c42d843f6df536f7826f4",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:37",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "89def4000bb4064d216486979a9672792ceaa376316656719e76cffa190ebef4",
+        "currentOrdinarySHA256": "e3d7dbaa1d128182e8af9223b2979d8891adad1341e055c8c26478bfc69eadf3",
+        "generatedSHA256": "e3d7dbaa1d128182e8af9223b2979d8891adad1341e055c8c26478bfc69eadf3",
+        "applied": [
+          {
+            "before": "يصور القرآن ذهاب الضوء بصورة السلخ: ﴿نَسْلَخُ مِنْهُ النَّهَارَ فَإِذَا هُم مُّظْلِمُونَ﴾. كأن النهار غطاء يُنزع، فتظهر الظلمة التي كان الضوء يحجبها؛ وما إن يذهب النور حتى يجد الناس أنفسهم في الليل، لا يحتاج الأمر إلى فعل آخر يأتون به بالظلام. وعندما يعود الضوء تزول الظلمة بحضوره. وهذا المشهد آية على قدرة الله وتدبيره للزمان كما سبق تدبيره للأرض والنبات، والليل نفسه نعمة يحتاج إليها الخلق، لا شرًا يُذم لذاته. لكن يمكن أن يُستفاد من صورة النور والظلمة معنى في حياة القلب: من يبتعد عن القرآن والصلاة ومواطن التذكير لا يضمن بقاء بصيرته كما كانت؛ فقد يترك ما يمده بالهدى ثم يفاجأ بتغير نظره وأخلاقه، دون أن يشعر متى بدأ ذلك. وقد استعمل القرآن لفظ الانسلاخ فيمن أوتي الآيات ثم أعرض عنها: ﴿فَانسَلَخَ مِنْهَا﴾ [الأعراف: 175]، فليس الخروج من هدايتها أمرًا هينًا. ومن هذا الوجه يُنظر إلى ما فعله أهل القرية حين قتلوا من جاء يضيء لهم الطريق؛ بدل أن ينتفعوا بمن ذكرهم أزالوا عن أنفسهم بابًا من أبواب النور. وهذه صلة تدبرية بين المشهد الكوني والقصة، لا حصر لمعنى الآية فيه. وفي سورة الشمس تتتابع مشاهد الشمس والقمر والليل والنهار، ثم يأتي ذكر النفس وما أُلهمت من فجورها وتقواها، وفلاح من زكاها وخيبة من دساها [الشمس: 1–10]؛ فكأن النظر إلى النور حولك يوقظ السؤال عن النور الذي تحتاج إليه في داخلك. ولا يكون الثبات بمجرد قوة العقل أو الثقة بالنفس؛ فقد ذُكّر النبي ﷺ بتثبيت الله له، ثم أُمر بالصلاة والتهجد بالقرآن [الإسراء: 74، 78–79]. فمن أراد أن يبقى مبصرًا لم يجعل صلته بالوحي أمرًا زائدًا يستغني عنه حين ينشغل.",
+            "after": "يصور القرآن ذهاب الضوء بصورة السلخ: ﴿نَسْلَخُ مِنْهُ النَّهَارَ فَإِذَا هُم مُّظْلِمُونَ﴾. كأن النهار غطاء يُنزع، فتظهر الظلمة التي كان الضوء يحجبها؛ وما إن يذهب النور حتى يجد الناس أنفسهم في الليل، لا يحتاج الأمر إلى فعل آخر يأتون به بالظلام. وعندما يعود الضوء تزول الظلمة بحضوره. وهذا المشهد آية على قدرة الله وتدبيره للزمان كما سبق تدبيره للأرض والنبات، ويستفاد من صورة النور والظلمة معنى في حياة القلب: من يبتعد عن القرآن والصلاة ومواطن التذكير لا يضمن بقاء بصيرته كما كانت؛ فقد يترك ما يمده بالهدى ثم يفاجأ بتغير نظره وأخلاقه، دون أن يشعر متى بدأ ذلك. وقد استعمل القرآن لفظ الانسلاخ فيمن أوتي الآيات ثم أعرض عنها: ﴿فَانسَلَخَ مِنْهَا﴾ [الأعراف: 175]، فليس الخروج من هدايتها أمرًا هينًا. وينظر إلى ما فعله أهل القرية حين قتلوا من جاء يضيء لهم الطريق؛ بدل أن ينتفعوا بمن ذكرهم أزالوا عن أنفسهم بابًا من أبواب النور. وفي سورة الشمس تتتابع مشاهد الشمس والقمر والليل والنهار، ثم يأتي ذكر النفس وما أُلهمت من فجورها وتقواها، وفلاح من زكاها وخيبة من دساها [الشمس: 1–10]. ولا يكون الثبات بمجرد قوة العقل أو الثقة بالنفس؛ فقد ذُكّر النبي ﷺ بتثبيت الله له، ثم أُمر بالصلاة والتهجد بالقرآن [الإسراء: 74، 78–79].",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 372
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:38",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "b161c7f12955827826e23abc5345e6f5f8c18992abad95629534e2d334fc6727",
+        "currentOrdinarySHA256": "c290b385a08231be3cd27e6e3257a5c5c14dbc4bdc0025e6bb91f13f02c6dd03",
+        "generatedSHA256": "c290b385a08231be3cd27e6e3257a5c5c14dbc4bdc0025e6bb91f13f02c6dd03",
+        "applied": [
+          {
+            "before": "الشمس التي يظهر بها النهار ليست مستقلة في جريانها، بل تجري إلى مستقر بتقدير ربها. وقيل إن المستقر مكان استقرارها وسجودها تحت العرش، كما أخبر النبي ﷺ أبا ذر رضي الله عنه [البخاري: 3199؛ مسلم: 159]، وقيل هو الوقت الذي ينتهي عنده جريانها بأمر الله؛ فالأول يلفت إلى خضوعها، والثاني إلى أن سيرها ليس بلا نهاية. وفي حديث أبي ذر أنها تستأذن فيؤذن لها، حتى يأتي وقت لا يؤذن لها، ويقال لها أن ترجع من حيث جاءت، فتطلع من مغربها. وسجودها من خبر الغيب الذي يُتلقى كما ورد، دون اختراع كيفية لم يذكرها النص. ثم يجيء الاسمان ﴿الْعَزِيزِ الْعَلِيمِ﴾ مناسبين لهذا الجريان المنضبط: لا تخرج عن سلطانه، ولا تسير بعيدًا عن علمه وتقديره. وقد اعتاد الإنسان طلوع الشمس حتى لا يسأل من أقام هذا النظام قبل وجوده، ثم قد يجزع لتعطل سبب صغير في حياته وينسى ما حوله من أسباب عظيمة لا يملك إنشاءها. وما يصل إليه البشر من معرفة بهذا الخلق هو كشف لبعض ما أودعه الله فيه، لا إيجاد لأصله؛ فتزيد المعرفة المؤمن تعظيمًا، لا شعورًا بالاستغناء عن الخالق. وفي اجتماع الجريان والاستقرار بالسجود معنى يلمس القلب: ليس الخضوع لله عائقًا عن الحركة، بل يجد العبد فيه راحته؛ قال النبي ﷺ: «وجُعل قرة عيني في الصلاة» [النسائي: 3939]، وقال: «أقرب ما يكون العبد من ربه وهو ساجد» [مسلم: 482]. ومن لطائف التدبر أن السورة عرضت رجلًا يسعى لينير لقومه طريق الحق، ثم استقر في الجنة، وتعرض هنا الشمس تجري بما جعله الله فيها من نفع؛ فيستحضر العامل للخير أن الحركة لله ليست مجرد اضطراب، بل سعي إلى غاية يرجو عندها الطمأنينة. وهذا تشابه في معنى السعي والقرار، لا تفسير يحوّل الشمس إلى رمز للرجل أو يلغي الآية الكونية الظاهرة.",
+            "after": "الشمس التي يظهر بها النهار ليست مستقلة في جريانها، بل تجري إلى مستقر بتقدير ربها. وقيل إن المستقر مكان استقرارها وسجودها تحت العرش، كما أخبر النبي ﷺ أبا ذر رضي الله عنه [البخاري: 3199؛ مسلم: 159]، وقيل هو الوقت الذي ينتهي عنده جريانها بأمر الله؛ فالأول يلفت إلى خضوعها، والثاني إلى أن سيرها ليس بلا نهاية. وفي حديث أبي ذر أنها تستأذن فيؤذن لها، حتى يأتي وقت لا يؤذن لها، ويقال لها أن ترجع من حيث جاءت، فتطلع من مغربها. وسجودها من خبر الغيب الذي يُتلقى كما ورد، دون اختراع كيفية لم يذكرها النص. ثم يجيء الاسمان ﴿الْعَزِيزِ الْعَلِيمِ﴾ مناسبين لهذا الجريان المنضبط: لا تخرج عن سلطانه، ولا تسير بعيدًا عن علمه وتقديره. وقد اعتاد الإنسان طلوع الشمس حتى لا يسأل من أقام هذا النظام قبل وجوده، ثم قد يجزع لتعطل سبب صغير في حياته وينسى ما حوله من أسباب عظيمة لا يملك إنشاءها. وما يصل إليه البشر من معرفة بهذا الخلق هو كشف لبعض ما أودعه الله فيه، لا إيجاد لأصله؛ فتزيد المعرفة المؤمن تعظيمًا، لا شعورًا بالاستغناء عن الخالق. وفي اجتماع الجريان والاستقرار بالسجود معنى يلمس القلب: ليس الخضوع لله عائقًا عن الحركة، بل يجد العبد فيه راحته؛ قال النبي ﷺ: «وجُعل قرة عيني في الصلاة» [النسائي: 3939]، وقال: «أقرب ما يكون العبد من ربه وهو ساجد» [مسلم: 482]. ومن لطائف التدبر أن السورة عرضت رجلًا يسعى لينير لقومه طريق الحق، ثم استقر في الجنة، وتعرض هنا الشمس تجري بما جعله الله فيها من نفع؛ فيستحضر العامل للخير أن الحركة لله ليست مجرد اضطراب، بل سعي إلى غاية يرجو عندها الطمأنينة. وهذا تشابه في معنى السعي والقرار.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 373
+          },
+          {
+            "before": "ومن لطائف التدبر أن السورة عرضت رجلًا يسعى لينير لقومه طريق الحق، ثم استقر في الجنة، وتعرض هنا الشمس تجري بما جعله الله فيها من نفع؛ فيستحضر العامل للخير أن الحركة لله ليست مجرد اضطراب، بل سعي إلى غاية يرجو عندها الطمأنينة. وهذا تشابه في معنى السعي والقرار.",
+            "after": "فيلحظ التدبر تشابه في معنى السعي والقرار: فقد عرضت السورة رجلا يسعى لينير لقومه طريق الحق، ثم استقر في الجنة، وتعرض هنا الشمس تجري بما جعله الله فيها من نفع؛ فيستحضر العامل للخير أن الحركة لله ليست مجرد اضطراب، بل سعي إلى غاية يرجو عندها الطمأنينة.",
+            "evidence": "stale_books_repair20261115\\item305-independent\\DECISION.json",
+            "independentDecisionSHA256": "110c22fb35abd5fd279c00ca2c7eecb6cb022871c608e35430a9de39c06ad0f0",
+            "wordItem": 305,
+            "qualification": "In فيلحظ التدبر تشابه في معنى السعي والقرار the intended active verb takes the indefinite noun تشابه as its direct object. Standard spelling requires a final accusative alif on that noun. The comparison remains intelligible. The original linguistic reservation survives the explicit instruction to preserve this wording. No editorial substitution is approved.",
+            "scope": "Arabic extended reader paragraph tail only. Use the exact current user wording with the existing literal-review chain. No fresh whole-surah, publication, book-layout or translation decision."
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:39",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "52f733df35ade3f39b3b8cc6b81efd099e21349a14101c19d6c6116d10e040d5",
+        "currentOrdinarySHA256": "52f733df35ade3f39b3b8cc6b81efd099e21349a14101c19d6c6116d10e040d5",
+        "generatedSHA256": "52f733df35ade3f39b3b8cc6b81efd099e21349a14101c19d6c6116d10e040d5",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:40",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "4365a6c788791b9e4bd6967d9bbdc01880c96a06f9912f1bf1f7963c4b1059c9",
+        "currentOrdinarySHA256": "4365a6c788791b9e4bd6967d9bbdc01880c96a06f9912f1bf1f7963c4b1059c9",
+        "generatedSHA256": "4365a6c788791b9e4bd6967d9bbdc01880c96a06f9912f1bf1f7963c4b1059c9",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:41",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "080585b2d17cff920a7e57b4f5baba84d78290f4396b6d5a7750f5f7d565ba8b",
+        "currentOrdinarySHA256": "080585b2d17cff920a7e57b4f5baba84d78290f4396b6d5a7750f5f7d565ba8b",
+        "generatedSHA256": "080585b2d17cff920a7e57b4f5baba84d78290f4396b6d5a7750f5f7d565ba8b",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:42",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "acbda9691779cf52ff260291f78724c3ae26e2aaa4d33822ab79bcaccd5bbc97",
+        "currentOrdinarySHA256": "acbda9691779cf52ff260291f78724c3ae26e2aaa4d33822ab79bcaccd5bbc97",
+        "generatedSHA256": "acbda9691779cf52ff260291f78724c3ae26e2aaa4d33822ab79bcaccd5bbc97",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:43",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "670b7b64a05c2e3eafae486d3a8280fdaaeab92e0ee0ba36285679ef795e82a7",
+        "currentOrdinarySHA256": "670b7b64a05c2e3eafae486d3a8280fdaaeab92e0ee0ba36285679ef795e82a7",
+        "generatedSHA256": "670b7b64a05c2e3eafae486d3a8280fdaaeab92e0ee0ba36285679ef795e82a7",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:44",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "4e986a4d9a5035eef12ba38502211cd381fde720b6dd5b21c0dba8feaf0d6611",
+        "currentOrdinarySHA256": "4e986a4d9a5035eef12ba38502211cd381fde720b6dd5b21c0dba8feaf0d6611",
+        "generatedSHA256": "4e986a4d9a5035eef12ba38502211cd381fde720b6dd5b21c0dba8feaf0d6611",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:45",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "47019c6299b91a25b56cfe119c113fbb1f5301e6bda09bbd2dda9747ed13810a",
+        "currentOrdinarySHA256": "47019c6299b91a25b56cfe119c113fbb1f5301e6bda09bbd2dda9747ed13810a",
+        "generatedSHA256": "47019c6299b91a25b56cfe119c113fbb1f5301e6bda09bbd2dda9747ed13810a",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:46",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "582b0411f8ddafcd19b6fa39b299ae6e8d9d5673e0960c4ff3c5740cdbd6504c",
+        "currentOrdinarySHA256": "582b0411f8ddafcd19b6fa39b299ae6e8d9d5673e0960c4ff3c5740cdbd6504c",
+        "generatedSHA256": "582b0411f8ddafcd19b6fa39b299ae6e8d9d5673e0960c4ff3c5740cdbd6504c",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:47",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "cb4aab5efc039fe987d08edd3930561347d6997138994493dacbb76e008b9025",
+        "currentOrdinarySHA256": "cb4aab5efc039fe987d08edd3930561347d6997138994493dacbb76e008b9025",
+        "generatedSHA256": "cb4aab5efc039fe987d08edd3930561347d6997138994493dacbb76e008b9025",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:48",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "2dce576d20f983c5dcfb9ec1f59cc16918eee50a1e73c18594f4da141f87f461",
+        "currentOrdinarySHA256": "2dce576d20f983c5dcfb9ec1f59cc16918eee50a1e73c18594f4da141f87f461",
+        "generatedSHA256": "2dce576d20f983c5dcfb9ec1f59cc16918eee50a1e73c18594f4da141f87f461",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:49",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "1c4188378aafb666c4666230e05156e1ab0db31b63acf992a67de89f8de15cd5",
+        "currentOrdinarySHA256": "1c4188378aafb666c4666230e05156e1ab0db31b63acf992a67de89f8de15cd5",
+        "generatedSHA256": "1c4188378aafb666c4666230e05156e1ab0db31b63acf992a67de89f8de15cd5",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:50",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "ea274cfa6b0d97e82529a9d0547b1252507aae6b436301c3ab2ed1121eae6b01",
+        "currentOrdinarySHA256": "ea274cfa6b0d97e82529a9d0547b1252507aae6b436301c3ab2ed1121eae6b01",
+        "generatedSHA256": "ea274cfa6b0d97e82529a9d0547b1252507aae6b436301c3ab2ed1121eae6b01",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:51",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "bbf155b42b195961e0b31c2760e28ab6cb6185c3159653b94ec8624ad1ee57d0",
+        "currentOrdinarySHA256": "bbf155b42b195961e0b31c2760e28ab6cb6185c3159653b94ec8624ad1ee57d0",
+        "generatedSHA256": "bbf155b42b195961e0b31c2760e28ab6cb6185c3159653b94ec8624ad1ee57d0",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:52",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "7a462604e543af7f4b5ce86fd4010a35367b161c65502c4ea346f82ce4ce86a7",
+        "currentOrdinarySHA256": "7a462604e543af7f4b5ce86fd4010a35367b161c65502c4ea346f82ce4ce86a7",
+        "generatedSHA256": "7a462604e543af7f4b5ce86fd4010a35367b161c65502c4ea346f82ce4ce86a7",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:53",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "0780aca047f7f3f0b5586f6103a40055ab1ca0b0effde9adef943ab51938bd76",
+        "currentOrdinarySHA256": "0780aca047f7f3f0b5586f6103a40055ab1ca0b0effde9adef943ab51938bd76",
+        "generatedSHA256": "0780aca047f7f3f0b5586f6103a40055ab1ca0b0effde9adef943ab51938bd76",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:54",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "30af8f29e99dc7c66a14e8dcac6b6286f05aa26efd5bb9aee27c5c8c05bc75ce",
+        "currentOrdinarySHA256": "30af8f29e99dc7c66a14e8dcac6b6286f05aa26efd5bb9aee27c5c8c05bc75ce",
+        "generatedSHA256": "30af8f29e99dc7c66a14e8dcac6b6286f05aa26efd5bb9aee27c5c8c05bc75ce",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:55",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "e4bf2cbd38e28e73c951013ca9557bf2cfad64f61acd118c9bd7093a4e9ce16e",
+        "currentOrdinarySHA256": "7cbb6a4e5cb02b80d4f86d0392c09ec915f832005a45c1b4e01eb5a5090e4dbc",
+        "generatedSHA256": "7cbb6a4e5cb02b80d4f86d0392c09ec915f832005a45c1b4e01eb5a5090e4dbc",
+        "applied": [
+          {
+            "before": "وسط فزع الخارجين من القبور يأتي مشهد أصحاب الجنة: إنهم اليوم في شغل، لكنه شغل النعيم والسرور، لا شغل الهم الذي يضيق به الصدر. و﴿فَاكِهُونَ﴾ تصور فرحهم وتلذذهم بما هم فيه، فيجمع نعيمهم راحة النفس ونعيم البدن. ومن تفسير الشغل تنعمهم بأزواجهم، وهو بعض ما يشغلهم من الخير عما سواه. وسرعة الانتقال إلى هذا المشهد تُبرز النتيجة التي ينبغي أن تتجه إليها همم المؤمنين؛ فلا يعني اختصار العرض أنهم لم يمروا بالبعث والحساب، بل إن السورة تقابل مصيرهم بمصير المكذبين، كما نقلت الرجل المؤمن من إعلان إيمانه إلى كرامته في الجنة. وقد قيل إن هذا إخبار يُقال للمكذبين فيزيد حسرتهم: الذين كنتم تسخرون منهم قد استغرقهم النعيم الذي أنكرتموه. وهنا يختلف الحال عن تمني الرجل أن يعلم قومه ما صار إليه؛ فقد كانوا حينئذ أحياء يملكون التوبة، أما الآن فانتهى زمن العمل، وصار أصحاب الجنة في شغل بما أعطاهم ربهم. فمن شغل نفسه في الدنيا بالإيمان والبذل لا ينتهي سعيه إلى الفراغ والخسارة، بل إلى سرور يغنيه عن مشاغل الخوف التي كانت تثقل حياته.",
+            "after": "وسط فزع الخارجين من القبور يأتي مشهد أصحاب الجنة: إنهم اليوم في شغل، لكنه شغل النعيم والسرور، لا شغل الهم الذي يضيق به الصدر. و﴿فَاكِهُونَ﴾ تصور فرحهم وتلذذهم بما هم فيه، فيجمع نعيمهم راحة النفس ونعيم البدن. ومن تفسير الشغل تنعمهم بأزواجهم، وهو بعض ما يشغلهم من الخير عما سواه. وتبرز السورة بهذه السرعة النتيجة التي بلغوها بعد البعث والحساب، لتقابل مصيرهم بمصير المكذبين، وتوجه همم المؤمنين إلى هذه النتيجة، كما نقلت الرجل المؤمن من إعلان إيمانه إلى كرامته في الجنة. وقد قيل إن هذا إخبار يُقال للمكذبين فيزيد حسرتهم: الذين كنتم تسخرون منهم قد استغرقهم النعيم الذي أنكرتموه. وهنا يختلف الحال عن تمني الرجل أن يعلم قومه ما صار إليه؛ فقد كانوا حينئذ أحياء يملكون التوبة، أما الآن فانتهى زمن العمل، وصار أصحاب الجنة في شغل بما أعطاهم ربهم. فمن شغل نفسه في الدنيا بالإيمان والبذل لا ينتهي سعيه إلى الفراغ والخسارة، بل إلى سرور يغنيه عن مشاغل الخوف التي كانت تثقل حياته.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 374
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:56",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "0251c170481ab3545b806fccf8061c52797214efd7c92ce6efcb1f7383d08d74",
+        "currentOrdinarySHA256": "6b5b106238d5f1230ceaa6577bf15ee22f38d0eca030b1c28133c57638f25772",
+        "generatedSHA256": "6b5b106238d5f1230ceaa6577bf15ee22f38d0eca030b1c28133c57638f25772",
+        "applied": [
+          {
+            "before": "ليس النعيم عزلة ينفرد فيها كل إنسان، بل ﴿هُمْ وَأَزْوَاجُهُمْ﴾ مجتمعون في الظلال، متكئون على الأرائك. ويدخل في الأزواج ما أعد الله من الحور، ومن صلح من أزواجهم في الدنيا؛ فتكتمل لذة الاجتماع بمن يحبون. ويقرب معنى هذا الإحسان ما ذكره الله من إلحاق الذرية المؤمنة بأهلها في الجنة [الطور: 21]. ومن ذاق فراق الأهل في طريق الطاعة عرف قدر اجتماع لا يعقبه فراق، ومن فارق مسكنه أو عانى الخوف وجد في وعد الظلال والاتكاء معنى يمس حاجته مباشرة. فالذي كانت الدنيا تستدعي منه الحركة والبذل يجد هنا راحة واستقرارًا؛ وفي السورة رجل «يسعى» إلى نصرة الرسل، وفي هذا المشهد أهل الجنة «متكئون». وليس المقصود تمني البلاء، بل أن تُقرأ آيات النعيم مع تذكر ما يبذله المؤمن وما يرجوه، حتى لا تتحول إلى أوصاف تمر على اللسان دون شوق. فالكرامة ليست مجرد النجاة من العقاب، وإنما حياة طيبة يجتمع فيها الأنس والأمن والراحة.",
+            "after": "ليس النعيم عزلة ينفرد فيها كل إنسان، بل ﴿هُمْ وَأَزْوَاجُهُمْ﴾ مجتمعون في الظلال، متكئون على الأرائك. ويدخل في الأزواج ما أعد الله من الحور، ومن صلح من أزواجهم في الدنيا؛ فتكتمل لذة الاجتماع بمن يحبون. ويقرب معنى هذا الإحسان ما ذكره الله من إلحاق الذرية المؤمنة بأهلها في الجنة [الطور: 21]. فمن ذاق فراق الأهل في طريق الطاعة عرف قدر اجتماع لا يعقبه فراق، ومن فارق مسكنه أو عانى الخوف وجد في وعد الظلال والاتكاء معنى يمس حاجته مباشرة. فالذي كانت الدنيا تستدعي منه الحركة والبذل يجد هنا راحة واستقرارًا؛ وفي السورة رجل «يسعى» إلى نصرة الرسل، وفي هذا المشهد أهل الجنة «متكئون». وباستحضار هذا البذل والرجاء تُقرأ آيات النعيم بشوق، فلا تكون أوصافا تمر على اللسان فحسب. فالكرامة ليست مجرد النجاة من العقاب، وإنما حياة طيبة يجتمع فيها الأنس والأمن والراحة.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 375
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:57",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "5fd896ca97d69793fdf21f86c3dd55cf48fdd247521ecf186d04b03314855d66",
+        "currentOrdinarySHA256": "5fd896ca97d69793fdf21f86c3dd55cf48fdd247521ecf186d04b03314855d66",
+        "generatedSHA256": "5fd896ca97d69793fdf21f86c3dd55cf48fdd247521ecf186d04b03314855d66",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:58",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "1bd30474e01ba5960ec03f503b952c936965897e429fb2b487588d0d9dddb81f",
+        "currentOrdinarySHA256": "1bd30474e01ba5960ec03f503b952c936965897e429fb2b487588d0d9dddb81f",
+        "generatedSHA256": "1bd30474e01ba5960ec03f503b952c936965897e429fb2b487588d0d9dddb81f",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:59",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "b2323bc9a3cf86d0edfd4816ca0d600b6ff9781124b4c9f6c7b81b53581a3478",
+        "currentOrdinarySHA256": "b2323bc9a3cf86d0edfd4816ca0d600b6ff9781124b4c9f6c7b81b53581a3478",
+        "generatedSHA256": "b2323bc9a3cf86d0edfd4816ca0d600b6ff9781124b4c9f6c7b81b53581a3478",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:60",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "155f38d4e6952d163db929af04b165d773f9e8b04fd2e5a842c82e1707da215e",
+        "currentOrdinarySHA256": "155f38d4e6952d163db929af04b165d773f9e8b04fd2e5a842c82e1707da215e",
+        "generatedSHA256": "155f38d4e6952d163db929af04b165d773f9e8b04fd2e5a842c82e1707da215e",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:61",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "3134c93d93854f021b0bc7711a81a3bb4ccb4cedcb49edf8d81274c6ba7d1703",
+        "currentOrdinarySHA256": "3134c93d93854f021b0bc7711a81a3bb4ccb4cedcb49edf8d81274c6ba7d1703",
+        "generatedSHA256": "3134c93d93854f021b0bc7711a81a3bb4ccb4cedcb49edf8d81274c6ba7d1703",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:62",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "98d0e8d04d21c74e5753311f987ee3c7eebdd655efb9d2ced68418d99a956934",
+        "currentOrdinarySHA256": "98d0e8d04d21c74e5753311f987ee3c7eebdd655efb9d2ced68418d99a956934",
+        "generatedSHA256": "98d0e8d04d21c74e5753311f987ee3c7eebdd655efb9d2ced68418d99a956934",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:63",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "ce1e575da7880ad4864053200fb59c9955a080642e6a01c28faa86cad22b496c",
+        "currentOrdinarySHA256": "ce1e575da7880ad4864053200fb59c9955a080642e6a01c28faa86cad22b496c",
+        "generatedSHA256": "ce1e575da7880ad4864053200fb59c9955a080642e6a01c28faa86cad22b496c",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:64",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "4ec84a0f98a48ad037bd71e7c648f50742ac1d5685aa9db9ae5f820f38e36a4a",
+        "currentOrdinarySHA256": "4ec84a0f98a48ad037bd71e7c648f50742ac1d5685aa9db9ae5f820f38e36a4a",
+        "generatedSHA256": "4ec84a0f98a48ad037bd71e7c648f50742ac1d5685aa9db9ae5f820f38e36a4a",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:65",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "ad8ce566448af83e69b9dcdd337eba0d4812484a4399233fd12a3f1429f71ea2",
+        "currentOrdinarySHA256": "ad8ce566448af83e69b9dcdd337eba0d4812484a4399233fd12a3f1429f71ea2",
+        "generatedSHA256": "ad8ce566448af83e69b9dcdd337eba0d4812484a4399233fd12a3f1429f71ea2",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:66",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "2b2e32f095487d5b04366a6c1f696fd82275e7190f645a558b7d81ba6b0d9a92",
+        "currentOrdinarySHA256": "2b2e32f095487d5b04366a6c1f696fd82275e7190f645a558b7d81ba6b0d9a92",
+        "generatedSHA256": "2b2e32f095487d5b04366a6c1f696fd82275e7190f645a558b7d81ba6b0d9a92",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:67",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "6287fe37885520977fe6c24c8895b9bcc77752ddfba27a08ffa3bfde8175fde7",
+        "currentOrdinarySHA256": "6287fe37885520977fe6c24c8895b9bcc77752ddfba27a08ffa3bfde8175fde7",
+        "generatedSHA256": "6287fe37885520977fe6c24c8895b9bcc77752ddfba27a08ffa3bfde8175fde7",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:68",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "0c95b467d8a65410018c2e0e6a24b4a1e5aead83df4af347d300b39225a0cf81",
+        "currentOrdinarySHA256": "0c95b467d8a65410018c2e0e6a24b4a1e5aead83df4af347d300b39225a0cf81",
+        "generatedSHA256": "0c95b467d8a65410018c2e0e6a24b4a1e5aead83df4af347d300b39225a0cf81",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:69",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "6911452374d23881e92c772b561f005ba1c051df15962a456af3eebb1569a8e3",
+        "currentOrdinarySHA256": "6911452374d23881e92c772b561f005ba1c051df15962a456af3eebb1569a8e3",
+        "generatedSHA256": "6911452374d23881e92c772b561f005ba1c051df15962a456af3eebb1569a8e3",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:70",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "0447a388271cfddf940cd1378c20290325a547e3ba718805b23f58e0ba0405fb",
+        "currentOrdinarySHA256": "0447a388271cfddf940cd1378c20290325a547e3ba718805b23f58e0ba0405fb",
+        "generatedSHA256": "0447a388271cfddf940cd1378c20290325a547e3ba718805b23f58e0ba0405fb",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:71",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "06bc2918ae5738671851cdf5645e506ca49637038221c42b926283156fb516d4",
+        "currentOrdinarySHA256": "06bc2918ae5738671851cdf5645e506ca49637038221c42b926283156fb516d4",
+        "generatedSHA256": "06bc2918ae5738671851cdf5645e506ca49637038221c42b926283156fb516d4",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:72",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "6cb898cd7d628db0c091add9ed9a3aacb218a303a55987b215c330ad846fd876",
+        "currentOrdinarySHA256": "6cb898cd7d628db0c091add9ed9a3aacb218a303a55987b215c330ad846fd876",
+        "generatedSHA256": "6cb898cd7d628db0c091add9ed9a3aacb218a303a55987b215c330ad846fd876",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:73",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "733e6092e38e11cd47c4381fca15e56718d2fb89084c6ed39d7fd89c523a50a5",
+        "currentOrdinarySHA256": "733e6092e38e11cd47c4381fca15e56718d2fb89084c6ed39d7fd89c523a50a5",
+        "generatedSHA256": "733e6092e38e11cd47c4381fca15e56718d2fb89084c6ed39d7fd89c523a50a5",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:74",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "f8e12cbd957082da5e2f8bcd8eda423e163edf09b0b72ce76d2853fbf078c801",
+        "currentOrdinarySHA256": "f8e12cbd957082da5e2f8bcd8eda423e163edf09b0b72ce76d2853fbf078c801",
+        "generatedSHA256": "f8e12cbd957082da5e2f8bcd8eda423e163edf09b0b72ce76d2853fbf078c801",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:75",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "24e4f92b1e965d3ceadda753521832d14456542c02d18d4261678be9953d8e31",
+        "currentOrdinarySHA256": "24e4f92b1e965d3ceadda753521832d14456542c02d18d4261678be9953d8e31",
+        "generatedSHA256": "24e4f92b1e965d3ceadda753521832d14456542c02d18d4261678be9953d8e31",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:76",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "1518bc62c3a8f7e375923986ab4d49e74722e3236953adb03775c5f3009145f9",
+        "currentOrdinarySHA256": "1518bc62c3a8f7e375923986ab4d49e74722e3236953adb03775c5f3009145f9",
+        "generatedSHA256": "1518bc62c3a8f7e375923986ab4d49e74722e3236953adb03775c5f3009145f9",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:77",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "29694d0f28994d6a88fa7d8db689353f9ae63ee750ec317f2da11c917ee54aee",
+        "currentOrdinarySHA256": "29694d0f28994d6a88fa7d8db689353f9ae63ee750ec317f2da11c917ee54aee",
+        "generatedSHA256": "29694d0f28994d6a88fa7d8db689353f9ae63ee750ec317f2da11c917ee54aee",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:78",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "5ab98aac15c6d2e2b1ed7a95376165fb7fc503c11c91a8d4c0c070195e631d82",
+        "currentOrdinarySHA256": "5ab98aac15c6d2e2b1ed7a95376165fb7fc503c11c91a8d4c0c070195e631d82",
+        "generatedSHA256": "5ab98aac15c6d2e2b1ed7a95376165fb7fc503c11c91a8d4c0c070195e631d82",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:79",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "96d68d11fe684b67371320ecd0245ad283bb9fc5d6bd87a5582e4e2e14fe112d",
+        "currentOrdinarySHA256": "96d68d11fe684b67371320ecd0245ad283bb9fc5d6bd87a5582e4e2e14fe112d",
+        "generatedSHA256": "96d68d11fe684b67371320ecd0245ad283bb9fc5d6bd87a5582e4e2e14fe112d",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:80",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "3183a65d720ede3983ce6c0b913089ac42a438f94a760519b05f4795c2327002",
+        "currentOrdinarySHA256": "3183a65d720ede3983ce6c0b913089ac42a438f94a760519b05f4795c2327002",
+        "generatedSHA256": "3183a65d720ede3983ce6c0b913089ac42a438f94a760519b05f4795c2327002",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:81",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "ed1954a01b92004a6eb5db16c5a315773f816aa65e074a71b25c6d646e69f733",
+        "currentOrdinarySHA256": "ed1954a01b92004a6eb5db16c5a315773f816aa65e074a71b25c6d646e69f733",
+        "generatedSHA256": "ed1954a01b92004a6eb5db16c5a315773f816aa65e074a71b25c6d646e69f733",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:82",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "f24b55a3f7804eb9b7415d41eb7bec611072aca9c508afc84a7f22746609df50",
+        "currentOrdinarySHA256": "dc6338b24e83270b78d714a5ef21342a866350ec78269ab3e80a8ed3666eadee",
+        "generatedSHA256": "dc6338b24e83270b78d714a5ef21342a866350ec78269ab3e80a8ed3666eadee",
+        "applied": [
+          {
+            "before": "لا يقف شيء في وجه أمر الله إذا أراده: ﴿أَن يَقُولَ لَهُ كُن فَيَكُونُ﴾. ما يستعظمه الإنسان أو يعجز عن جمع أسبابه ليس مانعًا على الخالق؛ ولذلك يطمئن المؤمن إلى هذه الحقيقة حين تضيق به الوسائل. وقد سبق في السورة أن الله يقدر على إغراقهم أو طمس أبصارهم أو تغيير خلقتهم، ثم جاء هذا الأصل الجامع الذي لا يُستثنى منه شيء أراده سبحانه. والطمأنينة هنا لا تعني أن المؤمن يختار لله موعد الفرج، أو يظن أن كل ما يتمناه سيقع فورًا، بل يعلم أن تأخر ما يرجوه ليس لعجز في قدرة ربه. ومن أثر القرآن أنه يوسع نظر الإنسان حين يشتد ضغط حادث واحد عليه؛ فيطوف به في الخلق والآخرة حتى يرى أن الحدث ليس كل الوجود، وأن وراء ما يحصيه من أسباب تدبيرًا لا يحيط به. وقد قرنت سورة الروم خبر تقلب الغلبة بقوله ﴿لِلَّهِ الْأَمْرُ مِن قَبْلُ وَمِن بَعْدُ﴾ [الروم: 4]؛ فلا يزول ملكه إذا تبدلت موازين الناس. ومن عاش بهذا اليقين بقي عاملًا بما يستطيع، ولم يحصر الرجاء في قوته المحدودة. فالذي بيده الأمر إذا أراد شيئًا قال له كن، لا تعجزه كثرة المعاندين ولا ضآلة أسباب المؤمنين.",
+            "after": "لا يقف شيء في وجه أمر الله إذا أراده: ﴿أَن يَقُولَ لَهُ كُن فَيَكُونُ﴾. ما يستعظمه الإنسان أو يعجز عن جمع أسبابه ليس مانعًا على الخالق؛ ولذلك يطمئن المؤمن إلى هذه الحقيقة حين تضيق به الوسائل. وقد سبق في السورة أن الله يقدر على إغراقهم أو طمس أبصارهم أو تغيير خلقتهم، ثم جاء هذا الأصل الجامع الذي لا يُستثنى منه شيء أراده سبحانه. ومن أثر القرآن أنه يوسع نظر الإنسان حين يشتد ضغط حادث واحد عليه؛ فيطوف به في الخلق والآخرة حتى يرى أن الحدث ليس كل الوجود، وأن وراء ما يحصيه من أسباب تدبيرًا لا يحيط به. وقد قرنت سورة الروم خبر تقلب الغلبة بقوله ﴿لِلَّهِ الْأَمْرُ مِن قَبْلُ وَمِن بَعْدُ﴾ [الروم: 4]؛ فلا يزول ملكه إذا تبدلت موازين الناس. ومن عاش بهذا اليقين بقي عاملًا بما يستطيع، ولم يحصر الرجاء في قوته المحدودة. فالذي بيده الأمر إذا أراد شيئًا قال له كن، لا تعجزه كثرة المعاندين ولا ضآلة أسباب المؤمنين.",
+            "evidence": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+            "index": 376
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "36:83",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "1094e8a38641fd95623c523562df1af0750b6db8d7c16c08823c055f4a3e4d70",
+        "currentOrdinarySHA256": "1094e8a38641fd95623c523562df1af0750b6db8d7c16c08823c055f4a3e4d70",
+        "generatedSHA256": "1094e8a38641fd95623c523562df1af0750b6db8d7c16c08823c055f4a3e4d70",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      }
+    ],
+    "topLevelReaderFieldsUnchanged": {
+      "title": true,
+      "shortCredit": true,
+      "glossary": true,
+      "readerNotes": true,
+      "publisherNotes": true,
+      "contextNotes": true,
+      "bibliography": true,
+      "quranCredit": true,
+      "sourceCredit": true,
+      "translationCredits": true,
+      "requiredMeaningNotes": true,
+      "requiredPublisherNotes": true
+    },
+    "currentSourceSHA256": "0658c1fe44610432ff8c4a4cd4aeef032ef74ec0a53d4c231b31db45c3bbf9da",
+    "oldSourceCommit": "80c666acc4ca8c87f6f6b0fc2df82be31b4f4792",
+    "status": "EXACT_REVIEW_CHAIN_PROVED"
+  },
+  "semanticReviewCreated": false,
+  "humanCertification": false,
+  "qualification": "Original whole-reader qualifications remain controlling. Exact existing independently reviewed finite corrections extend only their matched passages; this is a source-owner literal/structural transfer, not a new scholarly, translation, human, Word or visual approval.",
+  "laterFiniteIndependentReview": {
+    "path": "materials/source-acceptances/recovered-329-v1/ar/36-extended/item305-independent-decision.json",
+    "sha256": "110c22fb35abd5fd279c00ca2c7eecb6cb022871c608e35430a9de39c06ad0f0"
+  },
+  "orthographicReservationRetained": "In فيلحظ التدبر تشابه في معنى السعي والقرار the intended active verb takes the indefinite noun تشابه as its direct object. Standard spelling requires a final accusative alif on that noun. The comparison remains intelligible. The original linguistic reservation survives the explicit instruction to preserve this wording. No editorial substitution is approved."
+}
