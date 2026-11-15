@@ -1,0 +1,113 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "226555510d531acc65164aa62c35a4b0fc9eec87bd508e693baf14da72d37adc",
+  "catalogEntry": {
+    "collection": "tadabbur",
+    "language": "pt-BR",
+    "id": "17:extended",
+    "markdown": "materials/tadabbur/pt-BR/extended/017.md",
+    "json": "materials/tadabbur/pt-BR/extended/017.json",
+    "translationStatus": "ai-translated-needs-verification",
+    "surah": 17,
+    "mode": "extended",
+    "ayahs": 9,
+    "hasIntroduction": false,
+    "sourceHashes": [
+      "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1"
+    ]
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/tadabbur/ar/extended/017.json",
+      "sha256": "7960771ac3d5a8f917379f3c87d792af37bb4f5c14be1b11ca679be25ae257fb"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/017.md",
+      "sha256": "694b4c2d5deac195e3828b3b5ebb6a4f7e1748181a7569073d5701b1675943b4"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/017.json",
+      "sha256": "75dcbc2547f611d614992b233937d8733c25e7742c00965344f590c65a008c69"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/017.md",
+      "sha256": "a5c111393780c80daa790eeed789f7e61dd0274914f2e6bec6a20e47a0bc7874"
+    }
+  ],
+  "canonicalOrder": 17,
+  "readerUnit": {
+    "path": "materials/source-acceptances/recovered-329-v1/pt-BR/17-extended/reader.json",
+    "sha256": "0b6445883b60ef12104099482e3f54389b2543020d6bd7a26361390ea0c50e8a"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "recovered-existing-review-329-v1-pt-BR-17:extended",
+    "reviewer": {
+      "kind": "source-owner-literal-structural-reconciliation",
+      "identity": "/root",
+      "scope": "Exact transfer of original whole-reader review and independently reviewed finite corrections; no new semantic/human/Word/visual approval"
+    },
+    "readerTextSHA256": "405c5979517dc25f1ac349988e3695c593ad2648bb5c841e6e3457f473c29909",
+    "material": {
+      "collection": "tadabbur",
+      "language": "pt-BR",
+      "id": "17:extended"
+    },
+    "coverage": {
+      "schema": "iman-reviewed-quran-coverage-v1",
+      "surah": 17,
+      "ayahKeys": [
+        "17:73",
+        "17:74",
+        "17:75",
+        "17:76",
+        "17:77",
+        "17:78",
+        "17:79",
+        "17:80",
+        "17:81"
+      ],
+      "introduction": {
+        "state": "not-in-reviewed-material"
+      },
+      "scopeLabel": "Versículos disponíveis"
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/pt-BR/17-extended/existing-review-chain.json",
+        "sha256": "c0b0fa133cd5f3679598bf7a179faa3086fa1f0b7acf357cc7ffb05218e14197"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/pt-BR/17-extended/literal-transfer-receipt.json",
+        "sha256": "0b270e9102bb5d3d9c9177dc0944a5a3a9fb71e55531c7f72c1d6a1d24ad8281"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/pt-BR/17-extended/literal-source-acceptance.json",
+        "sha256": "75bff34f06a1f434bda450c31a468395dd28536231cae8b161885223ff1db297"
+      },
+      {
+        "path": "books/source-projections/current-reviewed-quran.json",
+        "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/tadabbur/ar/extended/017.json",
+      "sha256": "7960771ac3d5a8f917379f3c87d792af37bb4f5c14be1b11ca679be25ae257fb"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/017.md",
+      "sha256": "694b4c2d5deac195e3828b3b5ebb6a4f7e1748181a7569073d5701b1675943b4"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/017.json",
+      "sha256": "75dcbc2547f611d614992b233937d8733c25e7742c00965344f590c65a008c69"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/017.md",
+      "sha256": "a5c111393780c80daa790eeed789f7e61dd0274914f2e6bec6a20e47a0bc7874"
+    }
+  ]
+}

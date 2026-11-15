@@ -1,0 +1,60 @@
+{
+  "schema": "iman-recovered-source-owner-acceptance-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "pt-BR",
+    "id": "17:extended"
+  },
+  "decision": "accepted-literal-transfer-of-existing-reviewed-scope",
+  "reviewChain": {
+    "path": "materials/source-acceptances/recovered-329-v1/pt-BR/17-extended/existing-review-chain.json",
+    "sha256": "c0b0fa133cd5f3679598bf7a179faa3086fa1f0b7acf357cc7ffb05218e14197"
+  },
+  "readerTextSHA256": "405c5979517dc25f1ac349988e3695c593ad2648bb5c841e6e3457f473c29909",
+  "readerSignatureSHA256": "8b2dbfbf8b63d209c9ab59268206215ac249030b932b6efb1a4884296c798e84",
+  "draftReaderSHA256": "6a6eaa6d2aed687b7c2072a5cc535ffc6af2e8bbb397c630b997eda9c28452d4",
+  "currentSources": [
+    {
+      "path": "books/assets/quran-arabic.json",
+      "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+    },
+    {
+      "path": "books/assets/surah-names-native-20261107.json",
+      "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/017.json",
+      "sha256": "7960771ac3d5a8f917379f3c87d792af37bb4f5c14be1b11ca679be25ae257fb"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/017.md",
+      "sha256": "694b4c2d5deac195e3828b3b5ebb6a4f7e1748181a7569073d5701b1675943b4"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/017.json",
+      "sha256": "75dcbc2547f611d614992b233937d8733c25e7742c00965344f590c65a008c69"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/017.md",
+      "sha256": "a5c111393780c80daa790eeed789f7e61dd0274914f2e6bec6a20e47a0bc7874"
+    }
+  ],
+  "archivedNormalizationEvidence": [
+    {
+      "originalPrivateBinding": {
+        "path": "books/.cache/stale-books-recovery/current-proposed-projection.json",
+        "sha256": "89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc"
+      },
+      "archive": {
+        "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc.json",
+        "sha256": "89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc"
+      }
+    }
+  ],
+  "allUnchangedFieldsPreserved": true,
+  "semanticReviewCreated": false,
+  "humanCertification": false,
+  "wordAcceptance": false,
+  "visualAcceptance": false,
+  "word276": null
+}
