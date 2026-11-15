@@ -1,0 +1,55 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "ar",
+    "id": "3:extended"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/source-acceptances/recovered-329-v1/ar/3-extended/complete-reader.txt",
+    "sha256": "11427106f9f3b7a7adaaaf5c8ae7a42d1e9ce829c0fe11016f83b57c6861baa9"
+  },
+  "sourceBindings": [
+    {
+      "path": "books/assets/quran-arabic.json",
+      "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+    },
+    {
+      "path": "books/assets/surah-names-native-20261107.json",
+      "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/003.json",
+      "sha256": "ba85891df60992a9407f67acd12d87e31a1170f09380630940cfc729b7682375"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/003.md",
+      "sha256": "5167718114e1dbb49c848b58d910976d14915f84f1841d851d38260bdbb809dd"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ar/3-extended/complete-reader.txt",
+      "sha256": "11427106f9f3b7a7adaaaf5c8ae7a42d1e9ce829c0fe11016f83b57c6861baa9"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "recovered-existing-review-329-v1-ar-3:extended",
+    "reviewer": {
+      "kind": "source-owner-literal-structural-reconciliation",
+      "identity": "/root",
+      "scope": "Exact transfer of original whole-reader review and independently reviewed finite corrections; no new semantic/human/Word/visual approval"
+    },
+    "semanticReviewSHA256": "245815af3cca91e3535a2ac2e511cb5774aa424c021535387fd722befb69f517",
+    "sourceAcceptanceSHA256": "e92f5df390a780130535e18b36c010e0d43e90315313a0375e36e8283412dad0",
+    "readerTextSHA256": "5eabdb35ca009776e281ec5209b8357a1337e9f53865a5340136846ff8ff04b0",
+    "originalQualifiersRetained": true,
+    "semanticReviewCreated": false
+  },
+  "literalLinks": []
+}
