@@ -1,0 +1,66 @@
+{
+  "schema": "iman-recovered-source-owner-acceptance-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "ar",
+    "id": "14:extended"
+  },
+  "decision": "accepted-literal-transfer-of-existing-reviewed-scope",
+  "reviewChain": {
+    "path": "materials/source-acceptances/recovered-329-v1/ar/14-extended/existing-review-chain.json",
+    "sha256": "7866cba732b08ade9c553e8d19bd83fb5e83e7ca9f9f20d55383c87a99b903fd"
+  },
+  "readerTextSHA256": "f136b28779e3070964e7da9720b6bb6d1bb8fef01058aa0a2de1e89cdb31c736",
+  "readerSignatureSHA256": "d1d57dcf8ba93bc1a5b453feb421de26d395075107282781bcd88d3030fc38c8",
+  "draftReaderSHA256": "b1d15faa4ed37abe4fac6ab5a6337248688a7794103f3b61e6ec2e36b082b55e",
+  "currentSources": [
+    {
+      "path": "books/assets/quran-arabic.json",
+      "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+    },
+    {
+      "path": "books/assets/surah-names-native-20261107.json",
+      "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/014.json",
+      "sha256": "fbf2b80562e7fc873b295e6225f0488e32c46b7958561e50caa73176b77604e8"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/014.md",
+      "sha256": "6649a9939786f9ce36ad2fa0d6707c2b0b2ec8fba65bbcea3856f4a8898e8f01"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "archivedNormalizationEvidence": [
+    {
+      "originalPrivateBinding": {
+        "path": "books/.cache/stale-books-recovery/ar-014-record.json",
+        "sha256": "bd5068078756fd0f7b5a3a8a8ce2198b18b50eb3170fb9fdf93bf0feb23eb523"
+      },
+      "archive": {
+        "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/bd5068078756fd0f7b5a3a8a8ce2198b18b50eb3170fb9fdf93bf0feb23eb523.json",
+        "sha256": "bd5068078756fd0f7b5a3a8a8ce2198b18b50eb3170fb9fdf93bf0feb23eb523"
+      }
+    },
+    {
+      "originalPrivateBinding": {
+        "path": "books/.cache/stale-books-recovery/ar-014-references.json",
+        "sha256": "efbfe518c80fc5df287d788d9c1e4f3071d7dd74f79f0655c5be403ec04a6794"
+      },
+      "archive": {
+        "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/efbfe518c80fc5df287d788d9c1e4f3071d7dd74f79f0655c5be403ec04a6794.json",
+        "sha256": "efbfe518c80fc5df287d788d9c1e4f3071d7dd74f79f0655c5be403ec04a6794"
+      }
+    }
+  ],
+  "allUnchangedFieldsPreserved": true,
+  "semanticReviewCreated": false,
+  "humanCertification": false,
+  "wordAcceptance": false,
+  "visualAcceptance": false,
+  "word276": null
+}
