@@ -1,0 +1,59 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "pt-BR",
+    "id": "1:extended"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/source-acceptances/recovered-329-v1/pt-BR/1-extended/complete-reader.txt",
+    "sha256": "0dfbc61544fe57a8cd1e166f5f942317ed0f0db15cd313232f4bb0ff2842c166"
+  },
+  "sourceBindings": [
+    {
+      "path": "books/assets/quran-arabic.json",
+      "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+    },
+    {
+      "path": "books/assets/surah-names-native-20261107.json",
+      "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.json",
+      "sha256": "52846df0a184648b4a5b648f3871a430ceea42addedd5a15ce810aa1f14f3ab9"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.md",
+      "sha256": "a6042eceafe71c0b6c66d16c45c90ff75940f4aefad9a19c3a75f87da368be40"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/001.json",
+      "sha256": "0f8a9cd00cc6cb71cf17dbd90a99aa3c17042a7bbd6c746fdaec55ef474bf144"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/001.md",
+      "sha256": "95e43b50d5be2fb889c4bb9d6a5f5d9783c6d8b2d51148dcff2f9d222110188e"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/pt-BR/1-extended/complete-reader.txt",
+      "sha256": "0dfbc61544fe57a8cd1e166f5f942317ed0f0db15cd313232f4bb0ff2842c166"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "recovered-existing-review-329-v1-pt-BR-1:extended",
+    "reviewer": {
+      "kind": "source-owner-literal-structural-reconciliation",
+      "identity": "/root",
+      "scope": "Exact transfer of original whole-reader review and independently reviewed finite corrections; no new semantic/human/Word/visual approval"
+    },
+    "semanticReviewSHA256": "8e880bfe1a801e19921067112258f9e297d79c21168ef42569f801525b2edbb3",
+    "sourceAcceptanceSHA256": "b10d4490353bb4c9128ed030f448252f31c0b4b096b65951a769f4515c0d8ba7",
+    "readerTextSHA256": "ad3de3ece79c3d69404535b4f32f352636fa830fa70db37276a515f735616ba4",
+    "originalQualifiersRetained": true,
+    "semanticReviewCreated": false
+  },
+  "literalLinks": []
+}
