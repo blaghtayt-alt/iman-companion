@@ -1,0 +1,121 @@
+{
+  "schema": "iman-approved-material-publication-v1",
+  "expectedCatalogSHA256": "0ec4cbc587840e1415559b6044a44fa6fd0fa1074eb4667dc12702b9e92a90ed",
+  "catalogEntry": {
+    "collection": "tadabbur",
+    "language": "hi",
+    "id": "fatiha-extended",
+    "markdown": "materials/tadabbur/fatiha-extended/hi/reading.md",
+    "json": "materials/tadabbur/fatiha-extended/hi/reading.json",
+    "translationStatus": "ai-translated-needs-verification",
+    "status": "current-app-edition"
+  },
+  "sourceBindings": [
+    {
+      "path": "materials/tadabbur/ar/extended/001.json",
+      "sha256": "52846df0a184648b4a5b648f3871a430ceea42addedd5a15ce810aa1f14f3ab9"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.md",
+      "sha256": "a6042eceafe71c0b6c66d16c45c90ff75940f4aefad9a19c3a75f87da368be40"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/README.md",
+      "sha256": "a67e3be25f8276eb3566fdd8f28d53321bbd17579977d964ad6b3a240f469af4"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/hi/reading.json",
+      "sha256": "5cf4a5c357f81d8546f81b5df6215e37ccf3c512e35fb5ca289bce516382de8a"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/hi/reading.md",
+      "sha256": "b0736fdcd87142836b2ecfac51a15d31ff2dadf59f123a4f3aef7cbc8b2ebb21"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/hi/sources.json",
+      "sha256": "027942ccaf20f07ecdba7ada48cf44b5b7a5a9576c4e6975f68d9a91ed11423d"
+    }
+  ],
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "path": "materials/source-acceptances/recovered-329-v1/hi/fatiha-extended/reader.json",
+    "sha256": "4c5bf394855fcd83c3a4d3ddce3eb1e835d0b4dbf7241bc390eace227700224d"
+  },
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "recovered-existing-review-329-v1-hi-fatiha-extended",
+    "reviewer": {
+      "kind": "source-owner-literal-structural-reconciliation",
+      "identity": "/root",
+      "scope": "Exact transfer of original whole-reader review and independently reviewed finite corrections; no new semantic/human/Word/visual approval"
+    },
+    "readerTextSHA256": "78622f04e0bded76342ecea1d6983846de96568af97e3f3659fab2c9eb699e46",
+    "material": {
+      "collection": "tadabbur",
+      "language": "hi",
+      "id": "fatiha-extended"
+    },
+    "coverage": {
+      "schema": "iman-reviewed-quran-coverage-v1",
+      "surah": 1,
+      "ayahKeys": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:7"
+      ],
+      "introduction": {
+        "state": "included",
+        "readerTextSHA256": "d27a6b8ebd46190631dc5941e6d7ded63ed6f30870dba79f2d4eb9423355fb9e"
+      }
+    },
+    "reviewArtifacts": [
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/hi/fatiha-extended/existing-review-chain.json",
+        "sha256": "630ebb0f4f0249106cde97267c1522232e2f67fea7894928e431140531231fad"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/hi/fatiha-extended/literal-transfer-receipt.json",
+        "sha256": "d4a49290f40c6150e265f303fec2d9e29303b7cdd62a6ad2ee40844aca0e2923"
+      },
+      {
+        "path": "materials/source-acceptances/recovered-329-v1/hi/fatiha-extended/literal-source-acceptance.json",
+        "sha256": "bb7de2b2a0d1fb4c9ed86ab0ad03365a97a804a471feadc117a096aebead0c76"
+      },
+      {
+        "path": "books/source-projections/current-reviewed-quran.json",
+        "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+      }
+    ]
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/tadabbur/ar/extended/001.json",
+      "sha256": "52846df0a184648b4a5b648f3871a430ceea42addedd5a15ce810aa1f14f3ab9"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.md",
+      "sha256": "a6042eceafe71c0b6c66d16c45c90ff75940f4aefad9a19c3a75f87da368be40"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/README.md",
+      "sha256": "a67e3be25f8276eb3566fdd8f28d53321bbd17579977d964ad6b3a240f469af4"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/hi/reading.json",
+      "sha256": "5cf4a5c357f81d8546f81b5df6215e37ccf3c512e35fb5ca289bce516382de8a"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/hi/reading.md",
+      "sha256": "b0736fdcd87142836b2ecfac51a15d31ff2dadf59f123a4f3aef7cbc8b2ebb21"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/hi/sources.json",
+      "sha256": "027942ccaf20f07ecdba7ada48cf44b5b7a5a9576c4e6975f68d9a91ed11423d"
+    }
+  ]
+}
