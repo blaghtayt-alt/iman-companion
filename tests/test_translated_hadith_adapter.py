@@ -343,7 +343,15 @@ class TranslatedHadithTests(unittest.TestCase):
             # explicit current-source binding to exercise the legacy boundary.
             declaration['sourceReviewBindings'] = [binding for binding in declaration['sourceReviewBindings']
                 if binding['path'] != 'books/source-projections/current-reviewed-quran.json']
-            selected, report = select(ROOT, self.catalog, declaration)
+            catalog = deepcopy(self.catalog)
+            # Simulate an actually unbound Fatiha. A later exact publisher
+            # handoff is independent evidence and must not invalidate this
+            # test's older-unbound-source scenario.
+            for row in catalog['entries']:
+                if (row.get('collection') == 'tadabbur' and row.get('language') == language
+                        and str(row.get('id')) in {'1:extended', 'fatiha-extended'}):
+                    row.pop('bookReaderUnit', None)
+            selected, report = select(ROOT, catalog, declaration)
             self.assertEqual([row['id'] for row in selected], ['112:extended'])
             self.assertTrue({'1:extended', 'fatiha-extended'}.intersection(row['id'] for row in report['unknownLegacyRows']))
 
