@@ -1,0 +1,138 @@
+{
+  "schema": "iman-book-source-publication-receipt-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "fa",
+    "id": "fatiha-extended"
+  },
+  "canonicalOrder": 1,
+  "readerUnit": {
+    "schema": "iman-book-unit-v1",
+    "path": "books/units/current/fa/tadabbur-extended/fatiha-extended.json",
+    "sha256": "2bbc8c2e87745f0b2b864078df4f9d8261bd65f401fb1e9e6b274bf102c08cde"
+  },
+  "approvalId": "recovered-existing-review-329-v1-fa-fatiha-extended",
+  "sourceBindings": [
+    {
+      "path": "materials/tadabbur/ar/extended/001.json",
+      "sha256": "52846df0a184648b4a5b648f3871a430ceea42addedd5a15ce810aa1f14f3ab9"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.md",
+      "sha256": "a6042eceafe71c0b6c66d16c45c90ff75940f4aefad9a19c3a75f87da368be40"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/README.md",
+      "sha256": "a67e3be25f8276eb3566fdd8f28d53321bbd17579977d964ad6b3a240f469af4"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/fa/reading.json",
+      "sha256": "b94a19ef0a1069ab19d4b3d2836ac49a8739fbc02d0273dfd0062b720c94aeec"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/fa/reading.md",
+      "sha256": "cb85617649978fa00971a1b9f50422bb88fb6c8ea252796431b87df18d4ccb21"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/fa/sources.json",
+      "sha256": "5a8db1a5df009a96651f4f4a1bf79bfdb07d382c6659dd42181b5d87cba46f2d"
+    }
+  ],
+  "generatedFiles": [
+    "books/units/current/fa/tadabbur-extended/fatiha-extended.json",
+    "materials/book-publication-approvals/fbf6bf8566002445b9628e7df28a732fb3ad457c3f29d366711723fc91efc2ca.json",
+    "materials/catalog.json"
+  ],
+  "requiredInputs": [
+    {
+      "path": "books/assets/quran-arabic.json",
+      "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+    },
+    {
+      "path": "books/assets/surah-names-native-20261107.json",
+      "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
+    },
+    {
+      "path": "books/source-projections/current-reviewed-quran.json",
+      "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/complete-reader.txt",
+      "sha256": "fabb2701c060aa3a89ba8b69e0940ebecca0af083047bc5e87d2a35a8e8a7023"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/existing-review-chain.json",
+      "sha256": "21328780f536ead4d586b700827a97e3efc42e07f3c0d73b5429e7cbcd9622a0"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/literal-source-acceptance.json",
+      "sha256": "ca1d187d0740694951697730baf4e99236d02b307d30a96b39c4b054aaaf7aa1"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/literal-transfer-receipt.json",
+      "sha256": "f3531b49337f49e2f64bc4887f5a8901e25cef9adb1bde5197c5158b5e14eb5b"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/reader.json",
+      "sha256": "2be651e3e9507b6e49c358ba11a72723a42dbbd28a48d7a4925ffbdc55a1755e"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/registered-source.json",
+      "sha256": "17e3acca7840f6d8214d8f45c10f514ff1a2e361b48411f1b63c997866c844ea"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc.json",
+      "sha256": "89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.json",
+      "sha256": "52846df0a184648b4a5b648f3871a430ceea42addedd5a15ce810aa1f14f3ab9"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.md",
+      "sha256": "a6042eceafe71c0b6c66d16c45c90ff75940f4aefad9a19c3a75f87da368be40"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/README.md",
+      "sha256": "a67e3be25f8276eb3566fdd8f28d53321bbd17579977d964ad6b3a240f469af4"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/fa/reading.json",
+      "sha256": "b94a19ef0a1069ab19d4b3d2836ac49a8739fbc02d0273dfd0062b720c94aeec"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/fa/reading.md",
+      "sha256": "cb85617649978fa00971a1b9f50422bb88fb6c8ea252796431b87df18d4ccb21"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/fa/sources.json",
+      "sha256": "5a8db1a5df009a96651f4f4a1bf79bfdb07d382c6659dd42181b5d87cba46f2d"
+    }
+  ],
+  "files": [
+    "books/assets/quran-arabic.json",
+    "books/assets/surah-names-native-20261107.json",
+    "books/source-projections/current-reviewed-quran.json",
+    "books/units/current/fa/tadabbur-extended/fatiha-extended.json",
+    "materials/book-publication-approvals/fbf6bf8566002445b9628e7df28a732fb3ad457c3f29d366711723fc91efc2ca.json",
+    "materials/catalog.json",
+    "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/complete-reader.txt",
+    "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/existing-review-chain.json",
+    "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/literal-source-acceptance.json",
+    "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/literal-transfer-receipt.json",
+    "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/reader.json",
+    "materials/source-acceptances/recovered-329-v1/fa/fatiha-extended/registered-source.json",
+    "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc.json",
+    "materials/tadabbur/ar/extended/001.json",
+    "materials/tadabbur/ar/extended/001.md",
+    "materials/tadabbur/fatiha-extended/README.md",
+    "materials/tadabbur/fatiha-extended/fa/reading.json",
+    "materials/tadabbur/fatiha-extended/fa/reading.md",
+    "materials/tadabbur/fatiha-extended/fa/sources.json"
+  ],
+  "sourceApprovalCreated": false,
+  "scopeReleaseHoldsChanged": false,
+  "preparationScopeCreated": false,
+  "intakeSHA256": "fbf6bf8566002445b9628e7df28a732fb3ad457c3f29d366711723fc91efc2ca",
+  "intakePath": "materials/book-publication-intake/fbf6bf8566002445b9628e7df28a732fb3ad457c3f29d366711723fc91efc2ca.json"
+}
