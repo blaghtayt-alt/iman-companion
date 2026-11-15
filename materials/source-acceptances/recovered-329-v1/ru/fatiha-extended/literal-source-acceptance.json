@@ -1,0 +1,67 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "ru",
+    "id": "fatiha-extended"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/source-acceptances/recovered-329-v1/ru/fatiha-extended/complete-reader.txt",
+    "sha256": "aaad0236e8a270d2428e0043933b3b964ba4122c03eda904e9b3af0e0893e95c"
+  },
+  "sourceBindings": [
+    {
+      "path": "books/assets/quran-arabic.json",
+      "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+    },
+    {
+      "path": "books/assets/surah-names-native-20261107.json",
+      "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.json",
+      "sha256": "52846df0a184648b4a5b648f3871a430ceea42addedd5a15ce810aa1f14f3ab9"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.md",
+      "sha256": "a6042eceafe71c0b6c66d16c45c90ff75940f4aefad9a19c3a75f87da368be40"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/README.md",
+      "sha256": "a67e3be25f8276eb3566fdd8f28d53321bbd17579977d964ad6b3a240f469af4"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/ru/reading.json",
+      "sha256": "82ea1f33588d50cce4f71901dbe967663a0bc2eeff6c384642fd4ab4c3476b36"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/ru/reading.md",
+      "sha256": "b3d64775f836087c32550dc70132a741b50f907a79e7be7483b72a7d79f81705"
+    },
+    {
+      "path": "materials/tadabbur/fatiha-extended/ru/sources.json",
+      "sha256": "d6cc8a616412e9922e4649c81f29fd9cb8c90e92aa3cea70bd40ac2893cbbffb"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ru/fatiha-extended/complete-reader.txt",
+      "sha256": "aaad0236e8a270d2428e0043933b3b964ba4122c03eda904e9b3af0e0893e95c"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "recovered-existing-review-329-v1-ru-fatiha-extended",
+    "reviewer": {
+      "kind": "source-owner-literal-structural-reconciliation",
+      "identity": "/root",
+      "scope": "Exact transfer of original whole-reader review and independently reviewed finite corrections; no new semantic/human/Word/visual approval"
+    },
+    "semanticReviewSHA256": "92b6dfe2a12ba3f07913a1ecab94f2be0eb787b34aec21e68cceab17473e38a5",
+    "sourceAcceptanceSHA256": "6b9f335ba1d42f7a0ffd61316169fb3683fd3045cac6b16dc4baeb41551d9332",
+    "readerTextSHA256": "7427c49fa554ff6bfd21468d27823f89441036847701034a16a60dea87c87d51",
+    "originalQualifiersRetained": true,
+    "semanticReviewCreated": false
+  },
+  "literalLinks": []
+}
