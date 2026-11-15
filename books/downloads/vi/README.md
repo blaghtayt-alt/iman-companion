@@ -29,7 +29,7 @@ Tiếng Việt
 
 Nội dung có trong sách: Chương 1, 112
 
-Đang chờ kiểm tra phạm vi nội dung
+Ấn bản một phần
 
 - Không có trong ấn bản này: Chương 34
 

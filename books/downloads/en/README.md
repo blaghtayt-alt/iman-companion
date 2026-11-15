@@ -52,7 +52,7 @@ English
 
 Included: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
 
-Coverage check pending
+Partial edition
 
 - Not included in this edition: Surah 18, 34–35
 

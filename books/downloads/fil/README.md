@@ -30,7 +30,7 @@ Filipino
 
 Kasama: Kabanata 1, 112
 
-Naghihintay ng pagsusuri sa saklaw
+Bahagyang edisyon
 
 - Hindi kasama sa edisyong ito: Kabanata 34
 

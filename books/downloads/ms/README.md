@@ -48,7 +48,7 @@ Bahasa Melayu
 
 Disertakan: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
 
-Semakan kandungan belum selesai
+Edisi separa
 
 - Tidak disertakan dalam edisi ini: Surah 34
 

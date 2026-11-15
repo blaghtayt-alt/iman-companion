@@ -38,8 +38,6 @@ Español
 
 Incluido: Sura 1, 112
 
-Comprobación del contenido pendiente
-
 ### Hadiz · La justicia de Allah, Su autosuficiencia y la necesidad que Sus siervos tienen de Él (+3)
 
 Incluido: Hadiz 1–4

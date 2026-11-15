@@ -31,7 +31,7 @@ O‘zbekcha
 
 Kiritilgan: Sura 1, 112
 
-Qamrov tekshiruvi kutilmoqda
+Qisman nashr
 
 - Ushbu nashrga kiritilmagan: Sura 34
 

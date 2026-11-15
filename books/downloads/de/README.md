@@ -31,7 +31,7 @@ Deutsch
 
 Enthalten: Sure 1, 112
 
-Inhaltsabgleich ausstehend
+Teilausgabe
 
 - Nicht in dieser Ausgabe enthalten: Sure 34
 
