@@ -1,0 +1,56 @@
+{
+  "collection": "tadabbur",
+  "language": "ar",
+  "materialId": 41,
+  "mode": "extended",
+  "sourceFiles": [
+    {
+      "path": "materials/tadabbur/ar/extended/041.json",
+      "sha256": "2a181e224d0e343997b44bef74384735833e3cd30696466937ccd26015e85ed7"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/041.md",
+      "sha256": "1ecab28118a142e7e7b71b1509c7b4032c5ac9ed81ae4205f66bc1880d88e034"
+    }
+  ],
+  "sourceConditions": [
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "existingWholeReview": {
+    "kind": "Arabic literal/structural source QC; not a translation, semantic or scholarly certification",
+    "handoffSHA256": "dc0acde7a951e538f0fe2cb1a1f05f65a965dbe24d0d87876adb0bc9c765c3bf",
+    "sourceAuditSHA256": "448499b9d601acada5995d693beda83180d2fc03a50edccff21b17d81f6320d3"
+  },
+  "historicalPublication": {
+    "publicCommit": "b05131fed345444774a020a10ae134ca094c6947",
+    "basis": "Root atomic GitHub readback pinned this exact commit; both current JSON/Markdown byte blob IDs match the local tree for that commit. The root readback itself directly fetched book-table files, not every individual material file.",
+    "rootReadbackReceipt": "ROOT-ALL20-ATOMIC-GITHUB-TABLE-READBACK.json",
+    "directIndividualPriorReadback": null,
+    "commit": "b05131fed345444774a020a10ae134ca094c6947"
+  },
+  "bookCoverage": {
+    "ayahKeys": [
+      "41:25",
+      "41:26",
+      "41:27",
+      "41:28",
+      "41:29",
+      "41:30",
+      "41:31",
+      "41:32",
+      "41:33",
+      "41:34",
+      "41:35",
+      "41:36"
+    ],
+    "introductionSectionIds": []
+  },
+  "referenceProjection": {
+    "path": "books/.cache/stale-books-recovery/ar-041-references.json",
+    "sha256": "26718fd186ef5e8893ba1c3e2885b00263289ead0e1ae31cb66a2243a5c97858"
+  },
+  "bookPresentation": []
+}
