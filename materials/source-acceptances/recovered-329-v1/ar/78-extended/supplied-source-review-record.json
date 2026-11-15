@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "collection": "tadabbur",
+      "language": "ar",
+      "id": "78:extended",
+      "surah": 78,
+      "sourceFiles": [
+        {
+          "path": "materials/tadabbur/ar/extended/078.json",
+          "sha256": "0bcc7ef0dd0a8868fb83e5476949294d3cdb9b66fc325a14f1dfa03c28aa9d8b"
+        },
+        {
+          "path": "materials/tadabbur/ar/extended/078.md",
+          "sha256": "23678189c6ad5a52b516fcbbed313de0299639f7682e1431913766e1abfe0a15"
+        }
+      ],
+      "existingWholeReview": {
+        "kind": "Arabic source-owner literal and structural QC",
+        "identity": "/root",
+        "scope": "Full supplied replacement source compared verbatim with current Arabic JSON and source extraction. Not a translation, semantic or scholarly certification."
+      },
+      "wholeLiteralQC": {
+        "path": "materials/source-acceptances/recovered-329-v1/ar/78-extended/supplied-source-whole-literal-qc.json",
+        "sha256": "1254d9b18f667b00e98d90a3c28601a73d0ae5efee32fe80b5add9abe6683cbe"
+      },
+      "sourceDocumentSHA256": "ecf0a1926c7b7aeb6b8da439d4fc0edf83b4318754029d689ddc082ee90ad7e8",
+      "semanticCertification": false,
+      "reviewBasis": "Latest user-supplied replacement; full Arabic literal/structural QC, not the superseded Naba whole review."
+    }
+  ],
+  "qualification": {
+    "kind": "Arabic source-owner literal and structural QC",
+    "identity": "/root",
+    "scope": "Full supplied replacement source compared verbatim with current Arabic JSON and source extraction. Not a translation, semantic or scholarly certification."
+  }
+}
