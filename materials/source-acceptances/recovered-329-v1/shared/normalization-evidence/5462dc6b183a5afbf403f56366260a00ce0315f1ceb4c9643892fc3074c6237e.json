@@ -1,0 +1,91 @@
+{
+  "collection": "tadabbur",
+  "language": "ar",
+  "materialId": 43,
+  "mode": "extended",
+  "sourceFiles": [
+    {
+      "path": "materials/tadabbur/ar/extended/043.json",
+      "sha256": "e66c863082d5799461ac4dd7ac8ae898d5f41fe4d59f9b20e2100dc9e99e8b09"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/043.md",
+      "sha256": "95f922945d94eb55caf825c669ac27ce08f93179d9e2a2db895b59082dc9b456"
+    }
+  ],
+  "sourceConditions": [
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "existingWholeReview": {
+    "kind": "Arabic literal/structural source QC; not a translation, semantic or scholarly certification",
+    "handoffSHA256": "dc0acde7a951e538f0fe2cb1a1f05f65a965dbe24d0d87876adb0bc9c765c3bf",
+    "sourceAuditSHA256": "448499b9d601acada5995d693beda83180d2fc03a50edccff21b17d81f6320d3"
+  },
+  "historicalPublication": {
+    "publicCommit": "b05131fed345444774a020a10ae134ca094c6947",
+    "basis": "Root atomic GitHub readback pinned this exact commit; both current JSON/Markdown byte blob IDs match the local tree for that commit. The root readback itself directly fetched book-table files, not every individual material file.",
+    "rootReadbackReceipt": "ROOT-ALL20-ATOMIC-GITHUB-TABLE-READBACK.json",
+    "directIndividualPriorReadback": null,
+    "commit": "b05131fed345444774a020a10ae134ca094c6947"
+  },
+  "bookCoverage": {
+    "ayahKeys": [
+      "43:1",
+      "43:2",
+      "43:3",
+      "43:4",
+      "43:5",
+      "43:6",
+      "43:7",
+      "43:8",
+      "43:9",
+      "43:10",
+      "43:11",
+      "43:12",
+      "43:13",
+      "43:14",
+      "43:15",
+      "43:19",
+      "43:20",
+      "43:21",
+      "43:22",
+      "43:23",
+      "43:24",
+      "43:25",
+      "43:26",
+      "43:27",
+      "43:28",
+      "43:30",
+      "43:31",
+      "43:32",
+      "43:33",
+      "43:34",
+      "43:35",
+      "43:36",
+      "43:37",
+      "43:38",
+      "43:39",
+      "43:43",
+      "43:44",
+      "43:51",
+      "43:52",
+      "43:53",
+      "43:54",
+      "43:55",
+      "43:56",
+      "43:81",
+      "43:87",
+      "43:88",
+      "43:89"
+    ],
+    "introductionSectionIds": []
+  },
+  "referenceProjection": {
+    "path": "books/.cache/stale-books-recovery/ar-043-references.json",
+    "sha256": "7dd24a8bf01855eaa7d8622722da4a549b17427ac246281fc58f5d2226607864"
+  },
+  "bookPresentation": []
+}
