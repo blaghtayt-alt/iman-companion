@@ -1,0 +1,247 @@
+{
+  "schema": "iman-source-reference-projection-v1",
+  "sourceMapSHA256": "146809add4fbdb872d4ab5dbb223b716e6a22f8c9547870973aa252127ba03b5",
+  "sources": [
+    {
+      "path": "materials/tadabbur/ar/extended/015.json",
+      "sha256": "cfd1e70e346075ba39a1515d01847afc858c5aacf24abe14ad5ee592f7dbebfa"
+    }
+  ],
+  "references": [
+    {
+      "unit": "015",
+      "ordinal_zero_based": 0,
+      "section": "15:9",
+      "source_reference_pointer": "entries[\"15:9\"].citations",
+      "matching_source_indices_zero_based": [
+        0
+      ],
+      "reference_object": {
+        "publisher": "Quran.com",
+        "reference": "26:210; 26:211",
+        "url": "https://quran.com/26/210",
+        "quote": "﴿وَمَا تَنَزَّلَتْ بِهِ ٱلشَّيَـٰطِينُ ۝ وَمَا يَنۢبَغِى لَهُمْ وَمَا يَسْتَطِيعُونَ﴾"
+      },
+      "classification": "quran_reference",
+      "classification_detail": {
+        "verse_keys": [
+          "26:210",
+          "26:211"
+        ],
+        "key_basis": [
+          "numeric key(s) in literal reference/sourceReference"
+        ],
+        "relation_to_current_section": "supporting_or_context",
+        "edition_or_site": "Quran.com page"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [
+        {
+          "unit_block_index_zero_based": 1,
+          "cp": [
+            250,
+            335
+          ],
+          "utf8": [
+            455,
+            618
+          ],
+          "utf16_code_units": [
+            250,
+            335
+          ],
+          "unit_block_sha256": "6bd3f442fbdab6679049300a3c55ff89c84bfb5d80b62809ea30b158ce3f53e3"
+        }
+      ],
+      "quote_anchor_status": "exact unit block match",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/015.json"
+    },
+    {
+      "unit": "015",
+      "ordinal_zero_based": 1,
+      "section": "15:39",
+      "source_reference_pointer": "entries[\"15:39\"].citations",
+      "matching_source_indices_zero_based": [
+        0
+      ],
+      "reference_object": {
+        "publisher": "Quran.com",
+        "reference": "15:16",
+        "url": "https://quran.com/15/16",
+        "quote": "﴿لِلنَّـٰظِرِينَ﴾"
+      },
+      "classification": "quran_reference",
+      "classification_detail": {
+        "verse_keys": [
+          "15:16"
+        ],
+        "key_basis": [
+          "numeric key(s) in literal reference/sourceReference"
+        ],
+        "relation_to_current_section": "supporting_or_context",
+        "edition_or_site": "Quran.com page"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [
+        {
+          "unit_block_index_zero_based": 1,
+          "cp": [
+            207,
+            224
+          ],
+          "utf8": [
+            383,
+            419
+          ],
+          "utf16_code_units": [
+            207,
+            224
+          ],
+          "unit_block_sha256": "6804412a04ad02fafdc279ba1d68700730779bb55762cea0e1cc7ee03b7544ec"
+        }
+      ],
+      "quote_anchor_status": "exact unit block match",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/015.json"
+    },
+    {
+      "unit": "015",
+      "ordinal_zero_based": 2,
+      "section": "15:87",
+      "source_reference_pointer": "entries[\"15:87\"].citations",
+      "matching_source_indices_zero_based": [
+        0
+      ],
+      "reference_object": {
+        "publisher": "Sahih al-Bukhari",
+        "reference": "7527",
+        "url": "https://sunnah.com/bukhari:7527",
+        "quote": "«ليس منا من لم يتغن بالقرآن»"
+      },
+      "classification": "hadith_collection_and_explicit_number",
+      "classification_detail": {
+        "collection": "Sahih al-Bukhari",
+        "explicit_number": "7527"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [
+        {
+          "unit_block_index_zero_based": 1,
+          "cp": [
+            436,
+            464
+          ],
+          "utf8": [
+            471,
+            522
+          ],
+          "utf16_code_units": [
+            256,
+            284
+          ],
+          "unit_block_sha256": "1be2fe5e58e059d8dbb39e813194298b5d13b2ceb0e809a451c363adb545b085"
+        }
+      ],
+      "quote_anchor_status": "exact unit block match",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/015.json"
+    },
+    {
+      "unit": "015",
+      "ordinal_zero_based": 3,
+      "section": "15:95",
+      "source_reference_pointer": "entries[\"15:95\"].citations",
+      "matching_source_indices_zero_based": [
+        0
+      ],
+      "reference_object": {
+        "publisher": "Quran.com",
+        "reference": "5:67",
+        "url": "https://quran.com/5/67",
+        "quote": "﴿يَـٰٓأَيُّهَا ٱلرَّسُولُ بَلِّغْ مَآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ... وَٱللَّهُ يَعْصِمُكَ مِنَ ٱلنَّاسِ﴾"
+      },
+      "classification": "quran_reference",
+      "classification_detail": {
+        "verse_keys": [
+          "5:67"
+        ],
+        "key_basis": [
+          "numeric key(s) in literal reference/sourceReference"
+        ],
+        "relation_to_current_section": "supporting_or_context",
+        "edition_or_site": "Quran.com page"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [
+        {
+          "unit_block_index_zero_based": 1,
+          "cp": [
+            132,
+            239
+          ],
+          "utf8": [
+            246,
+            448
+          ],
+          "utf16_code_units": [
+            132,
+            239
+          ],
+          "unit_block_sha256": "5665747e225fa17b0c6a676302deecac8c5a6813ae133ea61d24b1e8bc47c7b0"
+        }
+      ],
+      "quote_anchor_status": "exact unit block match",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/015.json"
+    },
+    {
+      "unit": "015",
+      "ordinal_zero_based": 4,
+      "section": "15:95",
+      "source_reference_pointer": "entries[\"15:95\"].citations",
+      "matching_source_indices_zero_based": [
+        1
+      ],
+      "reference_object": {
+        "publisher": "Quran.com",
+        "reference": "3:154",
+        "url": "https://quran.com/3/154",
+        "quote": "﴿قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ﴾"
+      },
+      "classification": "quran_reference",
+      "classification_detail": {
+        "verse_keys": [
+          "3:154"
+        ],
+        "key_basis": [
+          "numeric key(s) in literal reference/sourceReference"
+        ],
+        "relation_to_current_section": "supporting_or_context",
+        "edition_or_site": "Quran.com page"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [
+        {
+          "unit_block_index_zero_based": 1,
+          "cp": [
+            544,
+            647
+          ],
+          "utf8": [
+            950,
+            1147
+          ],
+          "utf16_code_units": [
+            518,
+            621
+          ],
+          "unit_block_sha256": "5665747e225fa17b0c6a676302deecac8c5a6813ae133ea61d24b1e8bc47c7b0"
+        }
+      ],
+      "quote_anchor_status": "exact unit block match",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/015.json"
+    }
+  ]
+}
