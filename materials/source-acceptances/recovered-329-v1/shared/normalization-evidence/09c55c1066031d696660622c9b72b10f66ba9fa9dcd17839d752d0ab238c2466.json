@@ -1,0 +1,105 @@
+{
+  "schema": "iman-source-reference-projection-v1",
+  "sourceMapSHA256": "146809add4fbdb872d4ab5dbb223b716e6a22f8c9547870973aa252127ba03b5",
+  "sources": [
+    {
+      "path": "materials/tadabbur/ar/extended/001.json",
+      "sha256": "52846df0a184648b4a5b648f3871a430ceea42addedd5a15ce810aa1f14f3ab9"
+    }
+  ],
+  "references": [
+    {
+      "unit": "001",
+      "ordinal_zero_based": 0,
+      "section": "intro",
+      "source_reference_pointer": "entries[\"intro\"].citations",
+      "matching_source_indices_zero_based": [
+        8
+      ],
+      "reference_object": {
+        "label": "زاد المعاد، فصل هديه ﷺ في رقية اللديغ بالفاتحة",
+        "url": "https://www.islamweb.net/ar/library/content/127/794/فصل-هديه-صلى-الله-عليه-وسلم-في-رقية-اللديغ-بالفاتحة",
+        "reference": "زاد المعاد، فصل هديه ﷺ في رقية اللديغ بالفاتحة"
+      },
+      "classification": "named_scholar_book_or_commentary",
+      "classification_detail": {
+        "literal_source": "زاد المعاد، فصل هديه ﷺ في رقية اللديغ بالفاتحة"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [],
+      "quote_anchor_status": "no quote supplied; section-level only",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/001.json"
+    },
+    {
+      "unit": "001",
+      "ordinal_zero_based": 1,
+      "section": "1:2",
+      "source_reference_pointer": "entries[\"1:2\"].citations",
+      "matching_source_indices_zero_based": [
+        0
+      ],
+      "reference_object": {
+        "label": "البخاري، الأدب المفرد: ٨٥٩",
+        "url": "https://sunnah.com/adab:859",
+        "reference": "البخاري، الأدب المفرد: ٨٥٩"
+      },
+      "classification": "hadith_collection_and_explicit_number",
+      "classification_detail": {
+        "collection": "البخاري، الأدب المفرد",
+        "explicit_number": "859"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [],
+      "quote_anchor_status": "no quote supplied; section-level only",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/001.json"
+    },
+    {
+      "unit": "001",
+      "ordinal_zero_based": 2,
+      "section": "1:2",
+      "source_reference_pointer": "entries[\"1:2\"].citations",
+      "matching_source_indices_zero_based": [
+        4
+      ],
+      "reference_object": {
+        "label": "ابن كثير، تفسير العاديات: ٦",
+        "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura100-aya6.html",
+        "reference": "ابن كثير، تفسير العاديات: ٦"
+      },
+      "classification": "named_scholar_book_or_commentary",
+      "classification_detail": {
+        "literal_source": "ابن كثير، تفسير العاديات: ٦"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [],
+      "quote_anchor_status": "no quote supplied; section-level only",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/001.json"
+    },
+    {
+      "unit": "001",
+      "ordinal_zero_based": 3,
+      "section": "1:2",
+      "source_reference_pointer": "entries[\"1:2\"].citations",
+      "matching_source_indices_zero_based": [
+        13
+      ],
+      "reference_object": {
+        "label": "الذهبي، سير أعلام النبلاء: ٣/٢٣٧",
+        "url": "https://dorar.net/h/qoEUXug6?osoul=1",
+        "reference": "الذهبي، سير أعلام النبلاء: ٣/٢٣٧"
+      },
+      "classification": "named_scholar_book_or_commentary",
+      "classification_detail": {
+        "literal_source": "الذهبي، سير أعلام النبلاء: ٣/٢٣٧"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [],
+      "quote_anchor_status": "no quote supplied; section-level only",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/001.json"
+    }
+  ]
+}
