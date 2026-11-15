@@ -1,0 +1,120 @@
+{
+  "schema": "iman-book-source-publication-receipt-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "ms",
+    "id": "15:extended"
+  },
+  "canonicalOrder": 15,
+  "readerUnit": {
+    "schema": "iman-book-unit-v1",
+    "path": "books/units/current/ms/tadabbur-extended/15%3Aextended.json",
+    "sha256": "3aae29ad4ec30e38615decf72ff20eeb4728a9f2c9ce2565f7f37973aa3f1aa6"
+  },
+  "approvalId": "recovered-existing-review-329-v1-ms-15:extended",
+  "sourceBindings": [
+    {
+      "path": "materials/tadabbur/ar/extended/015.json",
+      "sha256": "cfd1e70e346075ba39a1515d01847afc858c5aacf24abe14ad5ee592f7dbebfa"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/015.md",
+      "sha256": "9223ebf87dd06e0610f749a087ca0247ed3c3ec9be057dbaf0061aaa0492899f"
+    },
+    {
+      "path": "materials/tadabbur/ms/extended/015.json",
+      "sha256": "9aebc3429459333fa14210dd588af47a05fcc2b9d2e95d31157fbc04828fa841"
+    },
+    {
+      "path": "materials/tadabbur/ms/extended/015.md",
+      "sha256": "3113225f9e195109771a64285db2cd25ccc1f2ac15248981d8069baeaa978bfd"
+    }
+  ],
+  "generatedFiles": [
+    "books/units/current/ms/tadabbur-extended/15%3Aextended.json",
+    "materials/book-publication-approvals/484804d1b239da675953ed3a9269d2c8ba54aef3f50acdbce23c0947dcba5440.json",
+    "materials/catalog.json"
+  ],
+  "requiredInputs": [
+    {
+      "path": "books/assets/quran-arabic.json",
+      "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+    },
+    {
+      "path": "books/assets/surah-names-native-20261107.json",
+      "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
+    },
+    {
+      "path": "books/source-projections/current-reviewed-quran.json",
+      "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ms/15-extended/complete-reader.txt",
+      "sha256": "a55e83542c05290f78d49f63288cec4dcad669e428943a9bbc683d164f28ff77"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ms/15-extended/existing-review-chain.json",
+      "sha256": "a532e2ab688817296aed91eb44d5cb047494291b9a6f53301f4c6abc9039d3fa"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ms/15-extended/literal-source-acceptance.json",
+      "sha256": "f8ba93e0a50ef804516aa2d742a9875d14999a7b261ee544f548d3595adf2009"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ms/15-extended/literal-transfer-receipt.json",
+      "sha256": "96e62cb6f4bdd8b0f76669e4df728fee59a3c7bfc81f0d29a5d7b3e7f836bf72"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ms/15-extended/reader.json",
+      "sha256": "b82cd001d32e6ed4c7909a0f59609786217bd8c83ca011211fa638dabb672d22"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ms/15-extended/registered-source.json",
+      "sha256": "155727006b1db1f63902bcd7fa44684b8074938619944743b35d3515ee034246"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc.json",
+      "sha256": "89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/015.json",
+      "sha256": "cfd1e70e346075ba39a1515d01847afc858c5aacf24abe14ad5ee592f7dbebfa"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/015.md",
+      "sha256": "9223ebf87dd06e0610f749a087ca0247ed3c3ec9be057dbaf0061aaa0492899f"
+    },
+    {
+      "path": "materials/tadabbur/ms/extended/015.json",
+      "sha256": "9aebc3429459333fa14210dd588af47a05fcc2b9d2e95d31157fbc04828fa841"
+    },
+    {
+      "path": "materials/tadabbur/ms/extended/015.md",
+      "sha256": "3113225f9e195109771a64285db2cd25ccc1f2ac15248981d8069baeaa978bfd"
+    }
+  ],
+  "files": [
+    "books/assets/quran-arabic.json",
+    "books/assets/surah-names-native-20261107.json",
+    "books/source-projections/current-reviewed-quran.json",
+    "books/units/current/ms/tadabbur-extended/15%3Aextended.json",
+    "materials/book-publication-approvals/484804d1b239da675953ed3a9269d2c8ba54aef3f50acdbce23c0947dcba5440.json",
+    "materials/catalog.json",
+    "materials/source-acceptances/recovered-329-v1/ms/15-extended/complete-reader.txt",
+    "materials/source-acceptances/recovered-329-v1/ms/15-extended/existing-review-chain.json",
+    "materials/source-acceptances/recovered-329-v1/ms/15-extended/literal-source-acceptance.json",
+    "materials/source-acceptances/recovered-329-v1/ms/15-extended/literal-transfer-receipt.json",
+    "materials/source-acceptances/recovered-329-v1/ms/15-extended/reader.json",
+    "materials/source-acceptances/recovered-329-v1/ms/15-extended/registered-source.json",
+    "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc.json",
+    "materials/tadabbur/ar/extended/015.json",
+    "materials/tadabbur/ar/extended/015.md",
+    "materials/tadabbur/ms/extended/015.json",
+    "materials/tadabbur/ms/extended/015.md"
+  ],
+  "sourceApprovalCreated": false,
+  "scopeReleaseHoldsChanged": false,
+  "preparationScopeCreated": false,
+  "intakeSHA256": "484804d1b239da675953ed3a9269d2c8ba54aef3f50acdbce23c0947dcba5440",
+  "intakePath": "materials/book-publication-intake/484804d1b239da675953ed3a9269d2c8ba54aef3f50acdbce23c0947dcba5440.json"
+}
