@@ -1,0 +1,151 @@
+{
+  "schema": "iman-source-reference-projection-v1",
+  "sourceMapSHA256": "146809add4fbdb872d4ab5dbb223b716e6a22f8c9547870973aa252127ba03b5",
+  "sources": [
+    {
+      "path": "materials/tadabbur/ar/extended/035.json",
+      "sha256": "dac03871ba99901f66e623acd42f2f5f094c2e58a7630384e0856b2f41c2cebb"
+    }
+  ],
+  "references": [
+    {
+      "unit": "035",
+      "ordinal_zero_based": 0,
+      "section": "35:14",
+      "source_reference_pointer": "entries[\"35:14\"].references",
+      "matching_source_indices_zero_based": [
+        1
+      ],
+      "reference_object": {
+        "reference": "الغاشية: 3–4؛ أثر عن عمر، أورده ابن كثير في مسند الفاروق، 2/620"
+      },
+      "classification": "mixed_quran_and_scholar_source",
+      "classification_detail": {
+        "source": "ابن كثير، مسند الفاروق 2/620",
+        "report": "أثر عن عمر",
+        "hadith_number": "not stated",
+        "verse_keys": [
+          "88:3",
+          "88:4"
+        ],
+        "key_basis": [
+          "Literal الغاشية 3–4"
+        ]
+      },
+      "qualification": null,
+      "literal_quote_anchors": [],
+      "quote_anchor_status": "no quote supplied; section-level only",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/035.json"
+    },
+    {
+      "unit": "035",
+      "ordinal_zero_based": 1,
+      "section": "35:29",
+      "source_reference_pointer": "entries[\"35:29\"].references",
+      "matching_source_indices_zero_based": [
+        4
+      ],
+      "reference_object": {
+        "reference": "أبو عبيد، فضائل القرآن، ص84"
+      },
+      "classification": "named_scholar_book_or_commentary",
+      "classification_detail": {
+        "literal_source": "أبو عبيد، فضائل القرآن، ص84"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [],
+      "quote_anchor_status": "no quote supplied; section-level only",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/035.json"
+    },
+    {
+      "unit": "035",
+      "ordinal_zero_based": 2,
+      "section": "35:29",
+      "source_reference_pointer": "entries[\"35:29\"].references",
+      "matching_source_indices_zero_based": [
+        5
+      ],
+      "reference_object": {
+        "reference": "الحاكم، المستدرك: 5"
+      },
+      "classification": "named_source_locator_ambiguous",
+      "classification_detail": {
+        "source": "الحاكم، المستدرك",
+        "literal_locator": "5",
+        "locator_type": "not established by citation"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [],
+      "quote_anchor_status": "no quote supplied; section-level only",
+      "issues": [
+        "Printed 5 is not proved to be a hadith number, volume, or page."
+      ],
+      "sourcePath": "materials/tadabbur/ar/extended/035.json"
+    },
+    {
+      "unit": "035",
+      "ordinal_zero_based": 3,
+      "section": "35:33",
+      "source_reference_pointer": "entries[\"35:33\"].references",
+      "matching_source_indices_zero_based": [
+        0
+      ],
+      "reference_object": {
+        "reference": "ابن هشام، السيرة النبوية، خبر هجرة أبي سلمة وأم سلمة، 2/80"
+      },
+      "classification": "named_scholar_book_or_commentary",
+      "classification_detail": {
+        "literal_source": "ابن هشام، السيرة النبوية، خبر هجرة أبي سلمة وأم سلمة، 2/80"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [],
+      "quote_anchor_status": "no quote supplied; section-level only",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/035.json"
+    },
+    {
+      "unit": "035",
+      "ordinal_zero_based": 4,
+      "section": "35:33",
+      "source_reference_pointer": "entries[\"35:33\"].references",
+      "matching_source_indices_zero_based": [
+        2
+      ],
+      "reference_object": {
+        "reference": "العلق: 1؛ المزمل: 2؛ المدثر: 2"
+      },
+      "classification": "quran_reference",
+      "classification_detail": {},
+      "qualification": null,
+      "literal_quote_anchors": [],
+      "quote_anchor_status": "no quote supplied; section-level only",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/035.json"
+    },
+    {
+      "unit": "035",
+      "ordinal_zero_based": 5,
+      "section": "35:45",
+      "source_reference_pointer": "entries[\"35:45\"].references",
+      "matching_source_indices_zero_based": [
+        3
+      ],
+      "reference_object": {
+        "reference": "الطبراني، المعجم الكبير: 3718؛ حسنه الألباني"
+      },
+      "classification": "hadith_collection_and_explicit_number",
+      "classification_detail": {
+        "collection": "الطبراني، المعجم الكبير",
+        "explicit_number": "3718",
+        "qualification": "حسنه الألباني (attributed in source; not independently assessed)"
+      },
+      "qualification": null,
+      "literal_quote_anchors": [],
+      "quote_anchor_status": "no quote supplied; section-level only",
+      "issues": [],
+      "sourcePath": "materials/tadabbur/ar/extended/035.json"
+    }
+  ]
+}

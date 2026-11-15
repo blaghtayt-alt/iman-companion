@@ -1,0 +1,94 @@
+{
+  "collection": "tadabbur",
+  "language": "ar",
+  "materialId": 35,
+  "mode": "extended",
+  "sourceFiles": [
+    {
+      "path": "materials/tadabbur/ar/extended/035.json",
+      "sha256": "dac03871ba99901f66e623acd42f2f5f094c2e58a7630384e0856b2f41c2cebb"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/035.md",
+      "sha256": "5ef30e2b52d922d8862696fa946c69f868d39a520b72e1698d2ef59da070ece6"
+    }
+  ],
+  "sourceConditions": [
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "existingWholeReview": {
+    "kind": "Arabic literal/structural source QC; not a translation, semantic or scholarly certification",
+    "handoffSHA256": "dc0acde7a951e538f0fe2cb1a1f05f65a965dbe24d0d87876adb0bc9c765c3bf",
+    "sourceAuditSHA256": "448499b9d601acada5995d693beda83180d2fc03a50edccff21b17d81f6320d3"
+  },
+  "historicalPublication": {
+    "publicCommit": "b05131fed345444774a020a10ae134ca094c6947",
+    "basis": "Root atomic GitHub readback pinned this exact commit; both current JSON/Markdown byte blob IDs match the local tree for that commit. The root readback itself directly fetched book-table files, not every individual material file.",
+    "rootReadbackReceipt": "ROOT-ALL20-ATOMIC-GITHUB-TABLE-READBACK.json",
+    "directIndividualPriorReadback": {
+      "commit": "99ea5d3813df6b5ce27943181eb3823643f0a52e",
+      "receipt": "arabic_quran_completeness_qc20261106/GITHUB-SPECIAL-READBACK.json",
+      "readbackBlob": "3c5f274fa1cba7a97b7fb5e382bd559a1b91acd7",
+      "currentJsonMatchesReadbackBlob": true
+    },
+    "commit": "b05131fed345444774a020a10ae134ca094c6947"
+  },
+  "bookCoverage": {
+    "ayahKeys": [
+      "35:1",
+      "35:2",
+      "35:3",
+      "35:4",
+      "35:5",
+      "35:6",
+      "35:7",
+      "35:8",
+      "35:9",
+      "35:10",
+      "35:11",
+      "35:12",
+      "35:13",
+      "35:14",
+      "35:15",
+      "35:16",
+      "35:17",
+      "35:18",
+      "35:19",
+      "35:20",
+      "35:21",
+      "35:22",
+      "35:23",
+      "35:24",
+      "35:25",
+      "35:26",
+      "35:27",
+      "35:28",
+      "35:29",
+      "35:30",
+      "35:31",
+      "35:32",
+      "35:33",
+      "35:34",
+      "35:35",
+      "35:36",
+      "35:37",
+      "35:38",
+      "35:39",
+      "35:40",
+      "35:41",
+      "35:42",
+      "35:43",
+      "35:44",
+      "35:45"
+    ],
+    "introductionSectionIds": []
+  },
+  "referenceProjection": {
+    "path": "books/.cache/stale-books-recovery/ar-035-references.json",
+    "sha256": "a6426d9d6ca9178baa42f68b0700f9ee1873859d96bd49bf5cea504808e09346"
+  },
+  "bookPresentation": []
+}
