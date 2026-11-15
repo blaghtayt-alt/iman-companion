@@ -1,0 +1,4407 @@
+{
+  "schema": "iman-existing-whole-review-and-finite-deltas-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "bn",
+    "id": "1:extended"
+  },
+  "existingInventory": {
+    "path": "books/source-projections/current-reviewed-quran.json",
+    "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+  },
+  "existingRecord": {
+    "collection": "tadabbur",
+    "language": "bn",
+    "id": "1:extended",
+    "surah": 1,
+    "catalogEntry": {
+      "collection": "tadabbur",
+      "language": "bn",
+      "id": "1:extended",
+      "markdown": "materials/tadabbur/bn/extended/001.md",
+      "json": "materials/tadabbur/bn/extended/001.json",
+      "translationStatus": "ai-translated-needs-verification",
+      "surah": 1,
+      "mode": "extended",
+      "ayahs": 7,
+      "hasIntroduction": true,
+      "sourceHashes": [
+        "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500"
+      ]
+    },
+    "sourceKind": "reviewed-entries-map",
+    "sourceFiles": [
+      {
+        "path": "materials/tadabbur/bn/extended/001.json",
+        "sha256": "5c39a0e5f65b06d858c21fe55229e876c0b90eab8b186662bbc489f2eaefac66"
+      },
+      {
+        "path": "materials/tadabbur/bn/extended/001.md",
+        "sha256": "18506598fba825163d30b5e1cf7eb444c5b181aa855ffd7d3ea3ee0f015b9693"
+      }
+    ],
+    "sourceConditions": [
+      {
+        "path": "materials/tadabbur/ar/extended/001.json",
+        "sha256": "b5e96ac715e85e8ebc2eec31b4441484e9d345758207474d4c6ac5bb45510ce8"
+      },
+      {
+        "path": "materials/tadabbur/ar/extended/001.md",
+        "sha256": "9bbce973f599b92445438522625553caaa65c68e6afd863f4c21b1e078517577"
+      }
+    ],
+    "currentArabicCatalogEntry": {
+      "collection": "tadabbur",
+      "language": "ar",
+      "id": "1:extended",
+      "markdown": "materials/tadabbur/ar/extended/001.md",
+      "json": "materials/tadabbur/ar/extended/001.json",
+      "translationStatus": "arabic-source",
+      "surah": 1,
+      "mode": "extended",
+      "ayahs": 7,
+      "hasIntroduction": true,
+      "sourceHashes": [
+        "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500"
+      ]
+    },
+    "currentRevisionBasis": "Matching exact sourceHashes and per-entry Arabic revision.",
+    "bookCoverage": {
+      "ayahKeys": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:7"
+      ],
+      "introductionSectionIds": [
+        "intro"
+      ]
+    },
+    "existingReview": [
+      {
+        "section": "intro",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-13",
+        "sourceSHA256": "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500",
+        "scope": "All supplied Arabic paragraphs compared directly; distinct agent semantic/fluency review of final quotations and prose. Model-assisted, not human certification."
+      },
+      {
+        "section": "1:1",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-13",
+        "sourceSHA256": "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500",
+        "scope": "All supplied Arabic paragraphs compared directly; distinct agent semantic/fluency review of final quotations and prose. Model-assisted, not human certification."
+      },
+      {
+        "section": "1:2",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-13",
+        "sourceSHA256": "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500",
+        "scope": "All supplied Arabic paragraphs compared directly; distinct agent semantic/fluency review of final quotations and prose. Model-assisted, not human certification."
+      },
+      {
+        "section": "1:3",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-13",
+        "sourceSHA256": "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500",
+        "scope": "All supplied Arabic paragraphs compared directly; distinct agent semantic/fluency review of final quotations and prose. Model-assisted, not human certification."
+      },
+      {
+        "section": "1:4",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-13",
+        "sourceSHA256": "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500",
+        "scope": "All supplied Arabic paragraphs compared directly; distinct agent semantic/fluency review of final quotations and prose. Model-assisted, not human certification."
+      },
+      {
+        "section": "1:5",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-13",
+        "sourceSHA256": "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500",
+        "scope": "All supplied Arabic paragraphs compared directly; distinct agent semantic/fluency review of final quotations and prose. Model-assisted, not human certification."
+      },
+      {
+        "section": "1:6",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-13",
+        "sourceSHA256": "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500",
+        "scope": "All supplied Arabic paragraphs compared directly; distinct agent semantic/fluency review of final quotations and prose. Model-assisted, not human certification."
+      },
+      {
+        "section": "1:7",
+        "status": "reviewed",
+        "reviewedAt": "2026-10-13",
+        "sourceSHA256": "b853a7fa2651ef6c283afbe2df67a38ab61a5ae7ba309da634ad583c80774500",
+        "scope": "All supplied Arabic paragraphs compared directly; distinct agent semantic/fluency review of final quotations and prose. Model-assisted, not human certification."
+      }
+    ],
+    "literalFields": {
+      "materials/tadabbur/bn/extended/001.json": [
+        [
+          "entries",
+          "intro",
+          "heading"
+        ],
+        [
+          "entries",
+          "intro",
+          "blocks",
+          0,
+          "text"
+        ],
+        [
+          "entries",
+          "intro",
+          "blocks",
+          1,
+          "text"
+        ],
+        [
+          "entries",
+          "intro",
+          "blocks",
+          2,
+          "text"
+        ],
+        [
+          "entries",
+          "intro",
+          "blocks",
+          3,
+          "text"
+        ],
+        [
+          "entries",
+          "intro",
+          "blocks",
+          4,
+          "text"
+        ],
+        [
+          "entries",
+          "intro",
+          "blocks",
+          5,
+          "text"
+        ],
+        [
+          "entries",
+          "intro",
+          "blocks",
+          6,
+          "text"
+        ],
+        [
+          "entries",
+          "intro",
+          "blocks",
+          7,
+          "text"
+        ],
+        [
+          "entries",
+          "intro",
+          "blocks",
+          8,
+          "text"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          0,
+          "publisher"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          0,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          0,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          1,
+          "publisher"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          1,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          1,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          2,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          2,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          3,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          3,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          4,
+          "publisher"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          4,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          4,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          5,
+          "publisher"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          5,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          5,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          6,
+          "publisher"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          6,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          6,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          7,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          7,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          8,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          8,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          9,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          9,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          10,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          10,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          11,
+          "publisher"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          11,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          11,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          12,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          12,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          13,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          13,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          14,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          14,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          15,
+          "publisher"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          15,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          15,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          16,
+          "publisher"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          16,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          16,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          17,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          17,
+          "url"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          18,
+          "reference"
+        ],
+        [
+          "entries",
+          "intro",
+          "citations",
+          18,
+          "url"
+        ],
+        [
+          "entries",
+          "1:1",
+          "heading"
+        ],
+        [
+          "entries",
+          "1:1",
+          "blocks",
+          0,
+          "text"
+        ],
+        [
+          "entries",
+          "1:1",
+          "blocks",
+          1,
+          "text"
+        ],
+        [
+          "entries",
+          "1:1",
+          "blocks",
+          2,
+          "text"
+        ],
+        [
+          "entries",
+          "1:1",
+          "blocks",
+          3,
+          "text"
+        ],
+        [
+          "entries",
+          "1:1",
+          "citations",
+          0,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:1",
+          "citations",
+          0,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:1",
+          "citations",
+          0,
+          "url"
+        ],
+        [
+          "entries",
+          "1:1",
+          "citations",
+          1,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:1",
+          "citations",
+          1,
+          "url"
+        ],
+        [
+          "entries",
+          "1:1",
+          "citations",
+          2,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:1",
+          "citations",
+          2,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:1",
+          "citations",
+          2,
+          "url"
+        ],
+        [
+          "entries",
+          "1:1",
+          "quranTranslationSource",
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:1",
+          "quranTranslationSource",
+          "edition"
+        ],
+        [
+          "entries",
+          "1:2",
+          "heading"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          0,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          1,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          2,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          3,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          4,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          5,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          6,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          7,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          8,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          9,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          10,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          11,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          12,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "blocks",
+          13,
+          "text"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          0,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          0,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          0,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          1,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          1,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          2,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          2,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          3,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          3,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          4,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          4,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          4,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          5,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          5,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          5,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          6,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          6,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          7,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          7,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          8,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          8,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          9,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          9,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          9,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          10,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          10,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          10,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          11,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          11,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          12,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          12,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          12,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          13,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          13,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          14,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          14,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          14,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          15,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          15,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          15,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          16,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          16,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          16,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          17,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          17,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          18,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          18,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          19,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          19,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          20,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          20,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          20,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          21,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          21,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          21,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          22,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          22,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          22,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          23,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          23,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          23,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          24,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          24,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          25,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          25,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          26,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          26,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          26,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          27,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          27,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          28,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          28,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          29,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          29,
+          "kind"
+        ],
+        [
+          "entries",
+          "1:2",
+          "citations",
+          29,
+          "url"
+        ],
+        [
+          "entries",
+          "1:2",
+          "quranTranslationSource",
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:2",
+          "quranTranslationSource",
+          "edition"
+        ],
+        [
+          "entries",
+          "1:3",
+          "heading"
+        ],
+        [
+          "entries",
+          "1:3",
+          "blocks",
+          0,
+          "text"
+        ],
+        [
+          "entries",
+          "1:3",
+          "blocks",
+          1,
+          "text"
+        ],
+        [
+          "entries",
+          "1:3",
+          "blocks",
+          2,
+          "text"
+        ],
+        [
+          "entries",
+          "1:3",
+          "blocks",
+          3,
+          "text"
+        ],
+        [
+          "entries",
+          "1:3",
+          "blocks",
+          4,
+          "text"
+        ],
+        [
+          "entries",
+          "1:3",
+          "blocks",
+          5,
+          "text"
+        ],
+        [
+          "entries",
+          "1:3",
+          "blocks",
+          6,
+          "text"
+        ],
+        [
+          "entries",
+          "1:3",
+          "blocks",
+          7,
+          "text"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          0,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          0,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          0,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          1,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          1,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          1,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          2,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          2,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          3,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          3,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          3,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          4,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          4,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          5,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          5,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          5,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          6,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          6,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          7,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          7,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          8,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          8,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          9,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          9,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          9,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          10,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          10,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          11,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          11,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:3",
+          "citations",
+          11,
+          "url"
+        ],
+        [
+          "entries",
+          "1:3",
+          "quranTranslationSource",
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:3",
+          "quranTranslationSource",
+          "edition"
+        ],
+        [
+          "entries",
+          "1:4",
+          "heading"
+        ],
+        [
+          "entries",
+          "1:4",
+          "blocks",
+          0,
+          "text"
+        ],
+        [
+          "entries",
+          "1:4",
+          "blocks",
+          1,
+          "text"
+        ],
+        [
+          "entries",
+          "1:4",
+          "blocks",
+          2,
+          "text"
+        ],
+        [
+          "entries",
+          "1:4",
+          "blocks",
+          3,
+          "text"
+        ],
+        [
+          "entries",
+          "1:4",
+          "blocks",
+          4,
+          "text"
+        ],
+        [
+          "entries",
+          "1:4",
+          "blocks",
+          5,
+          "text"
+        ],
+        [
+          "entries",
+          "1:4",
+          "blocks",
+          6,
+          "text"
+        ],
+        [
+          "entries",
+          "1:4",
+          "blocks",
+          7,
+          "text"
+        ],
+        [
+          "entries",
+          "1:4",
+          "blocks",
+          8,
+          "text"
+        ],
+        [
+          "entries",
+          "1:4",
+          "blocks",
+          9,
+          "text"
+        ],
+        [
+          "entries",
+          "1:4",
+          "blocks",
+          10,
+          "text"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          0,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          0,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          0,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          1,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          1,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          1,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          2,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          2,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          2,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          3,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          3,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          4,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          4,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          5,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          5,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          6,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          6,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          6,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          7,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          7,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          7,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          8,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          8,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          8,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          9,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          9,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          9,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          10,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          10,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          10,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          11,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          11,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          12,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          12,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          13,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          13,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          14,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          14,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          15,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          15,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          16,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          16,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          16,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          17,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          17,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          18,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          18,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          19,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          19,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          20,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          20,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          20,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          21,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          21,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          21,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          22,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          22,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          23,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          23,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          24,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          24,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          24,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          25,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          25,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          25,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          26,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          26,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          27,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          27,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          28,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          28,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          28,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          29,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          29,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          29,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          30,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          30,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          30,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          31,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          31,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          32,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          32,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          32,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          33,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:4",
+          "citations",
+          33,
+          "url"
+        ],
+        [
+          "entries",
+          "1:4",
+          "quranTranslationSource",
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:4",
+          "quranTranslationSource",
+          "edition"
+        ],
+        [
+          "entries",
+          "1:5",
+          "heading"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          0,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          1,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          2,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          3,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          4,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          5,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          6,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          7,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          8,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          9,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          10,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          11,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          12,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          13,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "blocks",
+          14,
+          "text"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          0,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          0,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          0,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          1,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          1,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          1,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          2,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          2,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          3,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          3,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          3,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          4,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          4,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          4,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          5,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          5,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          5,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          6,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          6,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          7,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          7,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          7,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          8,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          8,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          9,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          9,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          9,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          10,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          10,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          10,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          11,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          11,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          12,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          12,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          12,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          13,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          13,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          14,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          14,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          14,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          15,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          15,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          16,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          16,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:5",
+          "citations",
+          16,
+          "url"
+        ],
+        [
+          "entries",
+          "1:5",
+          "quranTranslationSource",
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:5",
+          "quranTranslationSource",
+          "edition"
+        ],
+        [
+          "entries",
+          "1:6",
+          "heading"
+        ],
+        [
+          "entries",
+          "1:6",
+          "blocks",
+          0,
+          "text"
+        ],
+        [
+          "entries",
+          "1:6",
+          "blocks",
+          1,
+          "text"
+        ],
+        [
+          "entries",
+          "1:6",
+          "blocks",
+          2,
+          "text"
+        ],
+        [
+          "entries",
+          "1:6",
+          "blocks",
+          3,
+          "text"
+        ],
+        [
+          "entries",
+          "1:6",
+          "blocks",
+          4,
+          "text"
+        ],
+        [
+          "entries",
+          "1:6",
+          "blocks",
+          5,
+          "text"
+        ],
+        [
+          "entries",
+          "1:6",
+          "blocks",
+          6,
+          "text"
+        ],
+        [
+          "entries",
+          "1:6",
+          "blocks",
+          7,
+          "text"
+        ],
+        [
+          "entries",
+          "1:6",
+          "blocks",
+          8,
+          "text"
+        ],
+        [
+          "entries",
+          "1:6",
+          "blocks",
+          9,
+          "text"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          0,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          0,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          0,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          1,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          1,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          1,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          2,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          2,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          2,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          3,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          3,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          4,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          4,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          5,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          5,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          5,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          6,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          6,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          6,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          7,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          7,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          8,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          8,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          9,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          9,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          9,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          10,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          10,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          11,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          11,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          11,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          12,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          12,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          13,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          13,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          14,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          14,
+          "kind"
+        ],
+        [
+          "entries",
+          "1:6",
+          "citations",
+          14,
+          "url"
+        ],
+        [
+          "entries",
+          "1:6",
+          "quranTranslationSource",
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:6",
+          "quranTranslationSource",
+          "edition"
+        ],
+        [
+          "entries",
+          "1:7",
+          "heading"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          0,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          1,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          2,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          3,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          4,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          5,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          6,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          7,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          8,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          9,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          10,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "blocks",
+          11,
+          "text"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          0,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          0,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          0,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          1,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          1,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          1,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          2,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          2,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          2,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          3,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          3,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          4,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          4,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          5,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          5,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          5,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          6,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          6,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          6,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          7,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          7,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          8,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          8,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          8,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          9,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          9,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          10,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          10,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          10,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          11,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          11,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          12,
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          12,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          12,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          13,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          13,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          14,
+          "reference"
+        ],
+        [
+          "entries",
+          "1:7",
+          "citations",
+          14,
+          "url"
+        ],
+        [
+          "entries",
+          "1:7",
+          "quranTranslationSource",
+          "publisher"
+        ],
+        [
+          "entries",
+          "1:7",
+          "quranTranslationSource",
+          "edition"
+        ]
+      ]
+    },
+    "sourceApprovalCreated": false,
+    "humanCertification": false
+  },
+  "registeredSourceArchive": {
+    "path": "materials/source-acceptances/recovered-329-v1/bn/1-extended/registered-source.json",
+    "sha256": "5c39a0e5f65b06d858c21fe55229e876c0b90eab8b186662bbc489f2eaefac66"
+  },
+  "originalFrozenCorrectionLedgerSHA256": "ae0d57527ce8f51479a13ab900604a437442a1c905a6042534e1ddb9adbdaa17",
+  "originalEvidenceFiles": [
+    {
+      "path": "corrections1_329_root_verification20261114/THROUGH270-INDEPENDENT-NUMBERED-DISPOSITIONS-v1.json",
+      "expectedSHA256": "e54c14937690be9dba6524b84d41563597488401bea4fe15741ff26f52c5936f",
+      "actualSHA256": "e54c14937690be9dba6524b84d41563597488401bea4fe15741ff26f52c5936f",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/checklist-v2.json",
+      "expectedSHA256": "cd54d8b339646e3c900c23ad7399d365ccfd14ce32e6434941466a0e4fe2677f",
+      "actualSHA256": "cd54d8b339646e3c900c23ad7399d365ccfd14ce32e6434941466a0e4fe2677f",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/CANDIDATE-REVIEW-FROZEN-v1.json",
+      "expectedSHA256": "df3eafc3ad82c4d46f6e15e8e2661df658030af19ae2f2fa50fe6c9b9070da18",
+      "actualSHA256": "df3eafc3ad82c4d46f6e15e8e2661df658030af19ae2f2fa50fe6c9b9070da18",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/CANDIDATE-REVIEW-SCOPE-ADDENDUM-v1.json",
+      "expectedSHA256": "4dbac31ab1ed48a68e5d741d2c3ba37c35f43d3b32d0815a2d93d70ad650b7fa",
+      "actualSHA256": "4dbac31ab1ed48a68e5d741d2c3ba37c35f43d3b32d0815a2d93d70ad650b7fa",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ITEM-313-INDEPENDENT-REASSESSMENT-FINAL-v1.json",
+      "expectedSHA256": "c0978b696db345617729ed97be99106022a9c05d06d843d4b8acbeefd52c334d",
+      "actualSHA256": "c0978b696db345617729ed97be99106022a9c05d06d843d4b8acbeefd52c334d",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/Iman_Companion_271-329_Before_Green_After_Unchanged.docx",
+      "expectedSHA256": "1f7fbeba10f5325037c511432423ad8e5a03fe418145b914486f6977787762bc",
+      "actualSHA256": "1f7fbeba10f5325037c511432423ad8e5a03fe418145b914486f6977787762bc",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-KAHF-TH-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "04f16807d66f02130420bbf01e320a51f29e4ce40773bef6f7860476c40df2c9",
+      "actualSHA256": "04f16807d66f02130420bbf01e320a51f29e4ce40773bef6f7860476c40df2c9",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-INSTALLED-GITHUB-READBACK-v1.json",
+      "expectedSHA256": "85a05dd167d64aaa1e9f321eb7a27734001f8e15bdeccce98a843bc47806e5aa",
+      "actualSHA256": "85a05dd167d64aaa1e9f321eb7a27734001f8e15bdeccce98a843bc47806e5aa",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-SABA13-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "9fb661e5a4b284d3fb6eb650953790e92ef2b5654a00c8f6b164c45c94446945",
+      "actualSHA256": "9fb661e5a4b284d3fb6eb650953790e92ef2b5654a00c8f6b164c45c94446945",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-BN-UR-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "302d652150b1f4f6f746894317ac043fd23be794f75ae4fbe9734cb05602c432",
+      "actualSHA256": "302d652150b1f4f6f746894317ac043fd23be794f75ae4fbe9734cb05602c432",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-EN-FATIR-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "50117ff34ba3628e20d75d21a320e59a5b466c059348f6f449e6862218c61078",
+      "actualSHA256": "50117ff34ba3628e20d75d21a320e59a5b466c059348f6f449e6862218c61078",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-HI-FATIR-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "d1aed9908acaf5560bbb65284cd517417134f26e11e6101b5ba03be5deeeae79",
+      "actualSHA256": "d1aed9908acaf5560bbb65284cd517417134f26e11e6101b5ba03be5deeeae79",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/ROOT-FR-FATIR-CANONICAL-GITHUB-v1.json",
+      "expectedSHA256": "d46c5f7fc39569361cab0b7e932e404d70df2037025b6ebf7650137a42f8f7f3",
+      "actualSHA256": "d46c5f7fc39569361cab0b7e932e404d70df2037025b6ebf7650137a42f8f7f3",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-VI-WORD-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "50cb6b48695d3acf00786bca2daf2b5632f0be962deaf6e8ce98f6c1f1fc4ee2",
+      "actualSHA256": "50cb6b48695d3acf00786bca2daf2b5632f0be962deaf6e8ce98f6c1f1fc4ee2",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-313-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "54abe84f97659471a5e649ea4b3acbda2a43368983f3410ec4655cbb77449020",
+      "actualSHA256": "54abe84f97659471a5e649ea4b3acbda2a43368983f3410ec4655cbb77449020",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-KAHF-TR-EN-INSTALLED-GITHUB-v1.json",
+      "expectedSHA256": "5978e1fb5e3a3033405ea31ac685ec89bc45663e41f36583de30834cecd3f350",
+      "actualSHA256": "5978e1fb5e3a3033405ea31ac685ec89bc45663e41f36583de30834cecd3f350",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-WEB-1-329-LIVE-HTTP-v1.json",
+      "expectedSHA256": "5098e712b3193b8458c5a3020b577de2d6db18f7c9b80ca6074e6b9e1711af2b",
+      "actualSHA256": "5098e712b3193b8458c5a3020b577de2d6db18f7c9b80ca6074e6b9e1711af2b",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/ARABIC-338-FINAL-READBACK.json",
+      "expectedSHA256": "68489213dcb494194854eb7f21be7193c4fb0f60a65768dab4012e1e104308bb",
+      "actualSHA256": "68489213dcb494194854eb7f21be7193c4fb0f60a65768dab4012e1e104308bb",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/FULL-1-329-CURRENT-AUDIT-20261114.json",
+      "expectedSHA256": "218092bdf142c92afba6102042781e0f193ee15b3640da71ad038a1b46d1db11",
+      "actualSHA256": "218092bdf142c92afba6102042781e0f193ee15b3640da71ad038a1b46d1db11",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-CURRENT-THROUGH270-DELIVERY-v1.json",
+      "expectedSHA256": "0df5abb6c811a9a47564da80b946ca27df55541d0526416f4e3d92a8ffc6fb12",
+      "actualSHA256": "0df5abb6c811a9a47564da80b946ca27df55541d0526416f4e3d92a8ffc6fb12",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_root_verification20261114/ROOT-WEB-VI-313-KAHF-PREVIEW-v1.json",
+      "expectedSHA256": "0a00adb0dfc866f48e14acbc4e92ac5b0e1f51ce53da8753603f9b0e8e08b93b",
+      "actualSHA256": "0a00adb0dfc866f48e14acbc4e92ac5b0e1f51ce53da8753603f9b0e8e08b93b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-bn-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "07d4cc4a9ea49d154bf32c6aeb993b9288ff5e5648e2d3634655a0e551dc82e2",
+      "actualSHA256": "07d4cc4a9ea49d154bf32c6aeb993b9288ff5e5648e2d3634655a0e551dc82e2",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/BATCH8-BOUND-OPERATIONS.json",
+      "expectedSHA256": "7dcc63992c72e733e41f30c5820527dcfd03de48455a0808fed0d10f583164df",
+      "actualSHA256": "7dcc63992c72e733e41f30c5820527dcfd03de48455a0808fed0d10f583164df",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-de-FINAL.json",
+      "expectedSHA256": "d53ce52a415464273e8dca0efce412a1928bfdda3f948fabeba90fe3656bedff",
+      "actualSHA256": "d53ce52a415464273e8dca0efce412a1928bfdda3f948fabeba90fe3656bedff",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-en-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "280ac231660bb18c6e8c5f906cc3739e22ff5317573212d30bd3f2195e0fc1b3",
+      "actualSHA256": "280ac231660bb18c6e8c5f906cc3739e22ff5317573212d30bd3f2195e0fc1b3",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-es-FINAL.json",
+      "expectedSHA256": "193efbbe6a057f78b3d34ebcecbb41cdcbe60bd25fdeb167538d105ebfece0d4",
+      "actualSHA256": "193efbbe6a057f78b3d34ebcecbb41cdcbe60bd25fdeb167538d105ebfece0d4",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-es-1-2-INDEPENDENT-FINAL-v7.json",
+      "expectedSHA256": "c7bbb5f9c4b217f324263f837fe4aaabec92436dff7b065e1ff5cb2757945d60",
+      "actualSHA256": "c7bbb5f9c4b217f324263f837fe4aaabec92436dff7b065e1ff5cb2757945d60",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fa-FINAL.json",
+      "expectedSHA256": "067aaacb9137fa334a93d520acf49ecf68500b3d86a692d130852eb3c191dc13",
+      "actualSHA256": "067aaacb9137fa334a93d520acf49ecf68500b3d86a692d130852eb3c191dc13",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fa-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "15ae8d5ff6be1572c782d4f1fde209708dd315f0de5054d0a4b3f20e1eb1fa4f",
+      "actualSHA256": "15ae8d5ff6be1572c782d4f1fde209708dd315f0de5054d0a4b3f20e1eb1fa4f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fil-FINAL.json",
+      "expectedSHA256": "927680e1798769a0f67c6499c251482c7fc511e478b6636f3b5e0c1dc6f00696",
+      "actualSHA256": "927680e1798769a0f67c6499c251482c7fc511e478b6636f3b5e0c1dc6f00696",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-fil-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "4a86f61ce1aa3d6d437af0b99e55e8487c1189b7c3c05e440ade41ab91c76aca",
+      "actualSHA256": "4a86f61ce1aa3d6d437af0b99e55e8487c1189b7c3c05e440ade41ab91c76aca",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-fr-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "cbbb4c31cf72c68fda784f92bdb4123836efdffbbc24dbdd1c4d12549a489bae",
+      "actualSHA256": "cbbb4c31cf72c68fda784f92bdb4123836efdffbbc24dbdd1c4d12549a489bae",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-hi-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "173016599e20f69ebcaf8ff4dc629a8b5e47e84ed6b108d2cb6691b56c70b1b5",
+      "actualSHA256": "173016599e20f69ebcaf8ff4dc629a8b5e47e84ed6b108d2cb6691b56c70b1b5",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-id-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "5c32fdecb652ab3560688ac9ccbf20bf0481e329d613c57d91d384f8f214f4da",
+      "actualSHA256": "5c32fdecb652ab3560688ac9ccbf20bf0481e329d613c57d91d384f8f214f4da",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-ja-FINAL-CLARIFIED-v2.json",
+      "expectedSHA256": "b0759678c6fc725b7a9f8911391c032a231f415c2b32443e5794958a635e73b6",
+      "actualSHA256": "b0759678c6fc725b7a9f8911391c032a231f415c2b32443e5794958a635e73b6",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-ms-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "09f1415d850e97616144a580006e3a857b4504e21db19e273589ab94883ed21f",
+      "actualSHA256": "09f1415d850e97616144a580006e3a857b4504e21db19e273589ab94883ed21f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-pt-BR-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "c0d449707ed89a7f605d8c6dac8ddbffedb9ac4e815be71392f9db7d715c94d4",
+      "actualSHA256": "c0d449707ed89a7f605d8c6dac8ddbffedb9ac4e815be71392f9db7d715c94d4",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-ru-FINAL.json",
+      "expectedSHA256": "f71ff7ad839bccfe43e387f52ccf9e2c29c948f47472e5d79c77e680334c52bc",
+      "actualSHA256": "f71ff7ad839bccfe43e387f52ccf9e2c29c948f47472e5d79c77e680334c52bc",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-ru-1-2-INDEPENDENT-FINAL-v7.json",
+      "expectedSHA256": "83b9bcd15017b1e806695b97b5d9785e37beb7b3d75b93bddccf6278991958fa",
+      "actualSHA256": "83b9bcd15017b1e806695b97b5d9785e37beb7b3d75b93bddccf6278991958fa",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-th-FINAL.json",
+      "expectedSHA256": "7a51179ab1e42d069ec8f02b3df898ebf3055068ce8c8f3ad30da9606e11dd5f",
+      "actualSHA256": "7a51179ab1e42d069ec8f02b3df898ebf3055068ce8c8f3ad30da9606e11dd5f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-th-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "9cc094d31fc7a2e929fec992c2333046fae60a6e7cfdae11e53c7f1a7ef80822",
+      "actualSHA256": "9cc094d31fc7a2e929fec992c2333046fae60a6e7cfdae11e53c7f1a7ef80822",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-tr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "39352c22d5dd227a1605c212a4522bd4e92de44afc4644535c9b22b828f7829f",
+      "actualSHA256": "39352c22d5dd227a1605c212a4522bd4e92de44afc4644535c9b22b828f7829f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part1/001-ur-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "4bfe269e5c154f908fe55a2f794d74cf90a410865a7f1acf9d5d26095ba9c7a6",
+      "actualSHA256": "4bfe269e5c154f908fe55a2f794d74cf90a410865a7f1acf9d5d26095ba9c7a6",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-uz-FINAL.json",
+      "expectedSHA256": "b3c378e498c4b583a0539eef910c06ed1b2f1467525d7e72ec7811e967dcc180",
+      "actualSHA256": "b3c378e498c4b583a0539eef910c06ed1b2f1467525d7e72ec7811e967dcc180",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-vi-FINAL.json",
+      "expectedSHA256": "3dcb587ffceefaeca525394e72b71b81ae86096d99ed26c94788c1246b42f1ba",
+      "actualSHA256": "3dcb587ffceefaeca525394e72b71b81ae86096d99ed26c94788c1246b42f1ba",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-vi-1-2-INDEPENDENT-FINAL-v8.json",
+      "expectedSHA256": "324ee2a0e9c49e4ec574947b6a564f05ac55df87b4bdaf1a750e90b57ec672c8",
+      "actualSHA256": "324ee2a0e9c49e4ec574947b6a564f05ac55df87b4bdaf1a750e90b57ec672c8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/part2/001-zh-CN-FINAL.json",
+      "expectedSHA256": "c57a4c24a5bab0bab758ff26ccef62bb2adc75fa742e19125f6cb9b0085c4dcb",
+      "actualSHA256": "c57a4c24a5bab0bab758ff26ccef62bb2adc75fa742e19125f6cb9b0085c4dcb",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-bn-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "641dab1b53bf3f88fd54e3e6e95384f5d678c6b4cfef7d024a27986cca143839",
+      "actualSHA256": "641dab1b53bf3f88fd54e3e6e95384f5d678c6b4cfef7d024a27986cca143839",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/BATCH12-BOUND-OPERATIONS.json",
+      "expectedSHA256": "ae7c65242485d2487c9ec6e03124103c36dd61e3d66ec6a5e2742d65db4731c8",
+      "actualSHA256": "ae7c65242485d2487c9ec6e03124103c36dd61e3d66ec6a5e2742d65db4731c8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-en-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "c4239a20b8f84339ba5f87aa02338996474d7a1fffd038b3e5e18ce0a692bb0a",
+      "actualSHA256": "c4239a20b8f84339ba5f87aa02338996474d7a1fffd038b3e5e18ce0a692bb0a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-fr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "ab5c2e8bdf4104ed83081ed72fb96b828d7c75dfa45aadb87508453f5d1a36a1",
+      "actualSHA256": "ab5c2e8bdf4104ed83081ed72fb96b828d7c75dfa45aadb87508453f5d1a36a1",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-id-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "0fb66e9442711add57b2ee5f4d596910cd6924e132aaacc1bcbdcbf3f1ecd647",
+      "actualSHA256": "0fb66e9442711add57b2ee5f4d596910cd6924e132aaacc1bcbdcbf3f1ecd647",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-ms-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "8442649b3a6c2aaa1fba04bf804362834ce0ae723401e5065f1273ce1fcbe6a8",
+      "actualSHA256": "8442649b3a6c2aaa1fba04bf804362834ce0ae723401e5065f1273ce1fcbe6a8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-pt-BR-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "734a5f8fe405678525d227da2fc7885c5a02bee3c569614ce2c1aa8649874cab",
+      "actualSHA256": "734a5f8fe405678525d227da2fc7885c5a02bee3c569614ce2c1aa8649874cab",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-tr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "51ff810a33c1e7fe699845c246fcde2cf01fee2186a7dbbfddf647bcd979c269",
+      "actualSHA256": "51ff810a33c1e7fe699845c246fcde2cf01fee2186a7dbbfddf647bcd979c269",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-ur-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "ade6668af8614d718baa7113a840d71882c9da2b07be52e57a1de00dbdabca9e",
+      "actualSHA256": "ade6668af8614d718baa7113a840d71882c9da2b07be52e57a1de00dbdabca9e",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/015-ur-178-INDEPENDENT-FINAL-v13.json",
+      "expectedSHA256": "2d65d43f3cf1bf01ca99a05d03b09f221895be605a616e74393b85b4407d5061",
+      "actualSHA256": "2d65d43f3cf1bf01ca99a05d03b09f221895be605a616e74393b85b4407d5061",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-bn-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "6aef86dbf033a49a2d2838d7aa6a26d31327de69e1f95be35b2b8a2f00c0729b",
+      "actualSHA256": "6aef86dbf033a49a2d2838d7aa6a26d31327de69e1f95be35b2b8a2f00c0729b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-en-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "bd0abed750552a303f8b6433eda219d7244659b1072762f0518b9c09d8e21e52",
+      "actualSHA256": "bd0abed750552a303f8b6433eda219d7244659b1072762f0518b9c09d8e21e52",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-fr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "d955c3927299d6da5bd3247839f42aa2afda6282ad6fb31cd636e79504691abd",
+      "actualSHA256": "d955c3927299d6da5bd3247839f42aa2afda6282ad6fb31cd636e79504691abd",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-id-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "e983df4b8b4b0de0ce6570806f23b88e5490129db9eeafcf65129e5f882978f5",
+      "actualSHA256": "e983df4b8b4b0de0ce6570806f23b88e5490129db9eeafcf65129e5f882978f5",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-ms-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "7c2724dddc165e1bfe8506d856606fe5305b0ef652e3a2a60f0212f335e96ecb",
+      "actualSHA256": "7c2724dddc165e1bfe8506d856606fe5305b0ef652e3a2a60f0212f335e96ecb",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-pt-BR-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "08a2c18f0cc52c5d7793a2734eb9c2fa4983ce0b16c0ca5738ec7e0adec25a24",
+      "actualSHA256": "08a2c18f0cc52c5d7793a2734eb9c2fa4983ce0b16c0ca5738ec7e0adec25a24",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-tr-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "108362eebaf57952bfa59ad63af565b879c59cc147c50a37cb0dbcf0f56e194a",
+      "actualSHA256": "108362eebaf57952bfa59ad63af565b879c59cc147c50a37cb0dbcf0f56e194a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_target_final20261113/hijr-isra-final1/017-ur-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "67e6eb0da5c9d403687fcb5be3ae9874cf36db0b0f33ff6a21615da1dc2ddace",
+      "actualSHA256": "67e6eb0da5c9d403687fcb5be3ae9874cf36db0b0f33ff6a21615da1dc2ddace",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/final/en/MANIFEST.json",
+      "expectedSHA256": "66cff8eee63bd8cb3774e431cb22ddb35d9f392d4feb4ea894775786411148bc",
+      "actualSHA256": "66cff8eee63bd8cb3774e431cb22ddb35d9f392d4feb4ea894775786411148bc",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/author/en-v3/ALIGNMENTS.json",
+      "expectedSHA256": "e75b52d781a2e904d25634400ccbf66bccab7fe809a5929e6b635e7b897ea67b",
+      "actualSHA256": "e75b52d781a2e904d25634400ccbf66bccab7fe809a5929e6b635e7b897ea67b",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/final/tr/MANIFEST.json",
+      "expectedSHA256": "8086fbea911f7223ba2c15de809039bfd734cdf3d155bc048b5adc02dae522be",
+      "actualSHA256": "8086fbea911f7223ba2c15de809039bfd734cdf3d155bc048b5adc02dae522be",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/author/tr-v2/ALIGNMENTS.json",
+      "expectedSHA256": "d6163352a0be3d1a1b6a4485c8b5e793182a76055017d24ebec269855ad734eb",
+      "actualSHA256": "d6163352a0be3d1a1b6a4485c8b5e793182a76055017d24ebec269855ad734eb",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/final/th/MANIFEST.json",
+      "expectedSHA256": "475cd47defcb58fb31488cea47e52171c684273d2af4792a4777d1b355c13f8b",
+      "actualSHA256": "475cd47defcb58fb31488cea47e52171c684273d2af4792a4777d1b355c13f8b",
+      "matches": true
+    },
+    {
+      "path": "corrections1_329_kahf_astra20261114/author/th/ALIGNMENTS.json",
+      "expectedSHA256": "d0fe1727ec314a294681a7e8eab49c1444ada09f8e2ac859c525e55d2a38329b",
+      "actualSHA256": "d0fe1727ec314a294681a7e8eab49c1444ada09f8e2ac859c525e55d2a38329b",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/TRANSLATION-CHANGELOG-INDEX.json",
+      "expectedSHA256": "e72361a909c6ac7cf9f873c313aa5db95cfeeec845024b273529086a6b144cf9",
+      "actualSHA256": "e72361a909c6ac7cf9f873c313aa5db95cfeeec845024b273529086a6b144cf9",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/native-installed-author-v2.json",
+      "expectedSHA256": "d120badd8e9f95680f9aa5e60c6879fcb88c8136cd6d18de83ccae229beb5365",
+      "actualSHA256": "d120badd8e9f95680f9aa5e60c6879fcb88c8136cd6d18de83ccae229beb5365",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/native-pending-author-v2.json",
+      "expectedSHA256": "9f271871b51b8d7e8f499f4a9d49ad03d765bc8581f3ad83a461f78131faf909",
+      "actualSHA256": "9f271871b51b8d7e8f499f4a9d49ad03d765bc8581f3ad83a461f78131faf909",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-fatir-bn-ur/draft-packet-v2.json",
+      "expectedSHA256": "32f537a9f17d369015f4a1304bc7e5b0b39ab8077c5a52f6df4b57a05d2a2b68",
+      "actualSHA256": "32f537a9f17d369015f4a1304bc7e5b0b39ab8077c5a52f6df4b57a05d2a2b68",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-saba-ja/private-evidence-v1/native-changelog-and-inverse.json",
+      "expectedSHA256": "4688458c436c47c17d0161d66c3a480ebd49e12b979715e0898bef43dfe93bed",
+      "actualSHA256": "4688458c436c47c17d0161d66c3a480ebd49e12b979715e0898bef43dfe93bed",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-fatir-en/private-evidence-v2/language-changelog.json",
+      "expectedSHA256": "dd3ff96d0d289ea31285bbab7842d1b2a329fa12f581e2a9dbcfe035bcea3e2d",
+      "actualSHA256": "dd3ff96d0d289ea31285bbab7842d1b2a329fa12f581e2a9dbcfe035bcea3e2d",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_hi_astra20261114/author/v2/private-evidence/WHOLE-FREEZE12-TO-V2.json",
+      "expectedSHA256": "94e65fa5b145a20ebf6362abfc0990dde4647ce640e4a1379e4e45f41206a0a7",
+      "actualSHA256": "94e65fa5b145a20ebf6362abfc0990dde4647ce640e4a1379e4e45f41206a0a7",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/pending-consumers-v2-independent-final.json",
+      "expectedSHA256": "96650897215883deae1e0951fddacd5f3c2dd67a2a81c4c19be68927b8a94a03",
+      "actualSHA256": "96650897215883deae1e0951fddacd5f3c2dd67a2a81c4c19be68927b8a94a03",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-FATIR-BN-UR-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "ef45be66310d7aef582fb13d1a8c5dafc00ee6782507a1e960bbb16c856f25f3",
+      "actualSHA256": "ef45be66310d7aef582fb13d1a8c5dafc00ee6782507a1e960bbb16c856f25f3",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-SABA-JA-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "fc89445eda8bdc3e6531091088eaaa14ae899ee93c69817e03219e45935eaa55",
+      "actualSHA256": "fc89445eda8bdc3e6531091088eaaa14ae899ee93c69817e03219e45935eaa55",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-FATIR-EN-INDEPENDENT-FINAL-v2.json",
+      "expectedSHA256": "865f7b5cc382fd478d82d904ca53c93e4f5e15e673c2fa678944e53fbcddd63b",
+      "actualSHA256": "865f7b5cc382fd478d82d904ca53c93e4f5e15e673c2fa678944e53fbcddd63b",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_hi_astra20261114/independent-final/INDEPENDENT-HI-FATIR-WORD-FINAL-v2.json",
+      "expectedSHA256": "26a4a252628c9527af0d680d85a3d2022beed7be1a6af163946f012934ae7257",
+      "actualSHA256": "26a4a252628c9527af0d680d85a3d2022beed7be1a6af163946f012934ae7257",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/bn.json",
+      "expectedSHA256": "ead0c48e5fa5d956e6a96ee2ae42a3482d6e4b94af8ba2f27746775d97e3ac3d",
+      "actualSHA256": "ead0c48e5fa5d956e6a96ee2ae42a3482d6e4b94af8ba2f27746775d97e3ac3d",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/de.json",
+      "expectedSHA256": "b715a5c6bc0bb12af3346ade958cc7f06329f90e6cc366e8f56af8df0b0fce15",
+      "actualSHA256": "b715a5c6bc0bb12af3346ade958cc7f06329f90e6cc366e8f56af8df0b0fce15",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/en.json",
+      "expectedSHA256": "990a32f5c78c40d85d2425f8eb3d04731d0c5aa42da27ccf0de525e0e7a94b0f",
+      "actualSHA256": "990a32f5c78c40d85d2425f8eb3d04731d0c5aa42da27ccf0de525e0e7a94b0f",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/fa.json",
+      "expectedSHA256": "b43f1fbad72c22e4bf763d2b314764d0a56b89c0edeb2f151243dc8710aa8418",
+      "actualSHA256": "b43f1fbad72c22e4bf763d2b314764d0a56b89c0edeb2f151243dc8710aa8418",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/fil.json",
+      "expectedSHA256": "f04bc3e9d8da4f3a52b41797e19447a9c49eb498b94c44605b3f1a12815f3287",
+      "actualSHA256": "f04bc3e9d8da4f3a52b41797e19447a9c49eb498b94c44605b3f1a12815f3287",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/fr.json",
+      "expectedSHA256": "d02ab531e4d738b094a56b9c2165eb4432974bf2b5df1ccba9dadf444a0ee7ec",
+      "actualSHA256": "d02ab531e4d738b094a56b9c2165eb4432974bf2b5df1ccba9dadf444a0ee7ec",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/hi.json",
+      "expectedSHA256": "b37ccd6a1efa9afc4ebcc11af0bfd55e7bd7a10007081a78c4aa4f16005fe3b0",
+      "actualSHA256": "b37ccd6a1efa9afc4ebcc11af0bfd55e7bd7a10007081a78c4aa4f16005fe3b0",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/id.json",
+      "expectedSHA256": "43740230f81181461f0f5e003702f172c513f179b3ba7c78cce65e9ee5b01b65",
+      "actualSHA256": "43740230f81181461f0f5e003702f172c513f179b3ba7c78cce65e9ee5b01b65",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ja.json",
+      "expectedSHA256": "65413a20b6d4a40e65c2dbd61304b88da6d5a4398a0612ea5989061ec9068983",
+      "actualSHA256": "65413a20b6d4a40e65c2dbd61304b88da6d5a4398a0612ea5989061ec9068983",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ms.json",
+      "expectedSHA256": "1f5e5d4bb4796bec932a0984a89ec1a9397663e238b6a88883f41d2b557a8d52",
+      "actualSHA256": "1f5e5d4bb4796bec932a0984a89ec1a9397663e238b6a88883f41d2b557a8d52",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/pt-BR.json",
+      "expectedSHA256": "8d634f22d486e3c2823fabc0fa87de85f6b98e1ce3361c91f669604e6f945957",
+      "actualSHA256": "8d634f22d486e3c2823fabc0fa87de85f6b98e1ce3361c91f669604e6f945957",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ru.json",
+      "expectedSHA256": "9a315045cf3247b6f37f442024d3dc92cb5114d3209d7c71fa4d2b00b46f2f5c",
+      "actualSHA256": "9a315045cf3247b6f37f442024d3dc92cb5114d3209d7c71fa4d2b00b46f2f5c",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/tr.json",
+      "expectedSHA256": "e489032f4ac74e75e6e61038d343d8cd0e30e90d2e8e5dc4305bf05bfcf2a83a",
+      "actualSHA256": "e489032f4ac74e75e6e61038d343d8cd0e30e90d2e8e5dc4305bf05bfcf2a83a",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/ur.json",
+      "expectedSHA256": "e91bff6cf6d0779eff9dda962279c9afd499b56b169ec22130ad5c20c7f543ed",
+      "actualSHA256": "e91bff6cf6d0779eff9dda962279c9afd499b56b169ec22130ad5c20c7f543ed",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/uz.json",
+      "expectedSHA256": "a6bd39fb436e03f396fd7d20a95d293e9a7169c2786c4e3038cad51872f17fd9",
+      "actualSHA256": "a6bd39fb436e03f396fd7d20a95d293e9a7169c2786c4e3038cad51872f17fd9",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_root_verification20261114/language-change-logs/zh-CN.json",
+      "expectedSHA256": "f95c646983ce2bf08881b0d806918f883b22a84f59738209da64836fcc568dcb",
+      "actualSHA256": "f95c646983ce2bf08881b0d806918f883b22a84f59738209da64836fcc568dcb",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_independent_final20261114/ADDITIVE-SABA-VI-INDEPENDENT-FINAL-v1.json",
+      "expectedSHA256": "f34fa44bfb2de337715347f9aee5ec6f8987b68e2cb45fd1c5deafc47c914582",
+      "actualSHA256": "f34fa44bfb2de337715347f9aee5ec6f8987b68e2cb45fd1c5deafc47c914582",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/addition-saba-vi/AUTHOR-ADDITIVE-FREEZE-v1.json",
+      "expectedSHA256": "551df23ce4ba860b88fbb2181dcadc2bbd49d249be13a2cc09d65fb986159f1a",
+      "actualSHA256": "551df23ce4ba860b88fbb2181dcadc2bbd49d249be13a2cc09d65fb986159f1a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/002-ar-bounded-v3.json",
+      "expectedSHA256": "d41bccd6922d1b849ebde6164a65985fd68389dca33437975730fb1790a3f8e2",
+      "actualSHA256": "d41bccd6922d1b849ebde6164a65985fd68389dca33437975730fb1790a3f8e2",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/003-ar-bounded-v3.json",
+      "expectedSHA256": "05e1a7fe6d12afe0363c36e1cf43ca692f1236f0ea608d98571e4a8374cb92c9",
+      "actualSHA256": "05e1a7fe6d12afe0363c36e1cf43ca692f1236f0ea608d98571e4a8374cb92c9",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/004-ar-bounded-v3.json",
+      "expectedSHA256": "36a6ca0b9c05c41243b7ee5bf7832d2413809ea9a54f4700895bfb7ff18bdbca",
+      "actualSHA256": "36a6ca0b9c05c41243b7ee5bf7832d2413809ea9a54f4700895bfb7ff18bdbca",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/004-ar-23-24-Q400-v4.json",
+      "expectedSHA256": "59251a319671211c4514efc2205141fc2d268f37107e37c0699ae6654eebfa62",
+      "actualSHA256": "59251a319671211c4514efc2205141fc2d268f37107e37c0699ae6654eebfa62",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/005-ar-bounded-v3.json",
+      "expectedSHA256": "9046b908efb52d03be2eefef733fa33eb51ec69c3f0ffbfb27ba038921b61bae",
+      "actualSHA256": "9046b908efb52d03be2eefef733fa33eb51ec69c3f0ffbfb27ba038921b61bae",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/006-ar-bounded-v3.json",
+      "expectedSHA256": "a96f4a26f447cc4cd2fa82e85170246b5f32eaaf63ee12ccb23c04b7fae7940e",
+      "actualSHA256": "a96f4a26f447cc4cd2fa82e85170246b5f32eaaf63ee12ccb23c04b7fae7940e",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/006-ar-56-identification-BANK-v6.json",
+      "expectedSHA256": "bcd9d3f8a6d2f5be432616142e1f1104011b0126575580c357befb07652d3489",
+      "actualSHA256": "bcd9d3f8a6d2f5be432616142e1f1104011b0126575580c357befb07652d3489",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/007-ar-bounded-v3.json",
+      "expectedSHA256": "c96c4ff82be2e134459acd2b9ad962f822c322cddab758f70a109e7efcf5cb02",
+      "actualSHA256": "c96c4ff82be2e134459acd2b9ad962f822c322cddab758f70a109e7efcf5cb02",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-bounded-v3.json",
+      "expectedSHA256": "330eb86e0b3b602347b75d110a0a0aad9a75aa9d9f29ce22504986bfd61805fc",
+      "actualSHA256": "330eb86e0b3b602347b75d110a0a0aad9a75aa9d9f29ce22504986bfd61805fc",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/013-ar-bounded-v3.json",
+      "expectedSHA256": "a05561513cd4c3c250e12926064e1877c16f82c7fdb2270b722a5cf10e6acd8f",
+      "actualSHA256": "a05561513cd4c3c250e12926064e1877c16f82c7fdb2270b722a5cf10e6acd8f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/014-ar-bounded-v3.json",
+      "expectedSHA256": "c61d6b90547c2b9e18f883308cbd387a98a39b00ceae9f340e391f22c002b069",
+      "actualSHA256": "c61d6b90547c2b9e18f883308cbd387a98a39b00ceae9f340e391f22c002b069",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/018-ar-bounded-v3.json",
+      "expectedSHA256": "85a08ae12f85d2075ecf1720a315f6670ace6fcda3ae45ebe9ba1bca8041e5b8",
+      "actualSHA256": "85a08ae12f85d2075ecf1720a315f6670ace6fcda3ae45ebe9ba1bca8041e5b8",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/019-ar-bounded-v3.json",
+      "expectedSHA256": "616cbfce83799fb4fbed2f834815a79a30704b4ab918e3c019c3e8cbf251819b",
+      "actualSHA256": "616cbfce83799fb4fbed2f834815a79a30704b4ab918e3c019c3e8cbf251819b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/020-ar-bounded-v3.json",
+      "expectedSHA256": "36ecbcbc3cab2286bc72162ab289a0e56c3677f9cb69274c5bce385f9e9c4da4",
+      "actualSHA256": "36ecbcbc3cab2286bc72162ab289a0e56c3677f9cb69274c5bce385f9e9c4da4",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/025-ar-bounded-v3.json",
+      "expectedSHA256": "439c7a993d54aba9c16f59a5c0cce4717bd5f52e590d3ecc6b0475bad0185a14",
+      "actualSHA256": "439c7a993d54aba9c16f59a5c0cce4717bd5f52e590d3ecc6b0475bad0185a14",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/029-ar-bounded-v3.json",
+      "expectedSHA256": "53aa6c92c1a25d2b01ffdf0436d456c20b9d5a837578ced0cd05d5be1c422e8c",
+      "actualSHA256": "53aa6c92c1a25d2b01ffdf0436d456c20b9d5a837578ced0cd05d5be1c422e8c",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/001-ar-1-4-v3.json",
+      "expectedSHA256": "47723a1636aa69f42068ec695cdceaaaf7feca40b10bdfac8a0e7c14246a0b6b",
+      "actualSHA256": "47723a1636aa69f42068ec695cdceaaaf7feca40b10bdfac8a0e7c14246a0b6b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/015-ar-172-178-v3.json",
+      "expectedSHA256": "c9c2240ca27a54af9c257e83b02fbb311507b4e6fac576f13bc96a78bc91cfae",
+      "actualSHA256": "c9c2240ca27a54af9c257e83b02fbb311507b4e6fac576f13bc96a78bc91cfae",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/017-ar-179-179.json",
+      "expectedSHA256": "c82ebed6d10d3b8a6eea217e6fefa2af144c8d981031686f81712ca8327ee975",
+      "actualSHA256": "c82ebed6d10d3b8a6eea217e6fefa2af144c8d981031686f81712ca8327ee975",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/020-ar-220-222.json",
+      "expectedSHA256": "92ae64f2e4268df205ecd8c3d7d5d60493004b939c9ce55c3050efcf209a8e3b",
+      "actualSHA256": "92ae64f2e4268df205ecd8c3d7d5d60493004b939c9ce55c3050efcf209a8e3b",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/019-ar-simple-215-218-v3.json",
+      "expectedSHA256": "eb022265dcb2daca8505d9f4af7777efd1b6bede6073887bc4fef6b79357e086",
+      "actualSHA256": "eb022265dcb2daca8505d9f4af7777efd1b6bede6073887bc4fef6b79357e086",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-133-source-qualified-v7.json",
+      "expectedSHA256": "c17acb6181949b20b445594a0d3df7b590431ec9ba1bbd1153bbe87d372c10b1",
+      "actualSHA256": "c17acb6181949b20b445594a0d3df7b590431ec9ba1bbd1153bbe87d372c10b1",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-147-source-qualified-v7.json",
+      "expectedSHA256": "f653a6346b174909123b06cd7a07b8c7895160f8b2f1a08924792ddfcfef8d38",
+      "actualSHA256": "f653a6346b174909123b06cd7a07b8c7895160f8b2f1a08924792ddfcfef8d38",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/002-ar-simple-joined-v6.json",
+      "expectedSHA256": "7884daf0ac7a337285ffbd9d2a420fd4163d09441813e0e2cb0f3ed91fcd8d70",
+      "actualSHA256": "7884daf0ac7a337285ffbd9d2a420fd4163d09441813e0e2cb0f3ed91fcd8d70",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/002-ar-simple-7-8-abridged-v11.json",
+      "expectedSHA256": "6f1148580d55a4f4c23a0a28261fb691d8c09b9d844afaa3f23b644ec069d51f",
+      "actualSHA256": "6f1148580d55a4f4c23a0a28261fb691d8c09b9d844afaa3f23b644ec069d51f",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-simple-joined-v6.json",
+      "expectedSHA256": "a2f3d73b28d14b18dab57f02125ee6a89231aeabe71a982fe2d3072a9df7407a",
+      "actualSHA256": "a2f3d73b28d14b18dab57f02125ee6a89231aeabe71a982fe2d3072a9df7407a",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/013-ar-simple-joined-v6.json",
+      "expectedSHA256": "c3d9d6e7d896454eee783098b2eca2f91f5578f1993c5e8495bdac16215e7cc2",
+      "actualSHA256": "c3d9d6e7d896454eee783098b2eca2f91f5578f1993c5e8495bdac16215e7cc2",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-simple-133-source-qualified-v7.json",
+      "expectedSHA256": "1c8ae1f85e6c604ec67d850e6f62838d9d8a0095ed2fee684f643cb4de072e4c",
+      "actualSHA256": "1c8ae1f85e6c604ec67d850e6f62838d9d8a0095ed2fee684f643cb4de072e4c",
+      "matches": true
+    },
+    {
+      "path": "corrections270_astra20261113/author-verified-v2/012-ar-simple-147-source-qualified-v7.json",
+      "expectedSHA256": "3d1da0488f7a521a7f47198fbb78c50671c8894122136bd71c24b29db5e37074",
+      "actualSHA256": "3d1da0488f7a521a7f47198fbb78c50671c8894122136bd71c24b29db5e37074",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/arabic-extended-author-v4.json",
+      "expectedSHA256": "331f6b663c10619787758235475e38261dbe46976e64e172e28aabcdca37aaa5",
+      "actualSHA256": "331f6b663c10619787758235475e38261dbe46976e64e172e28aabcdca37aaa5",
+      "matches": true
+    },
+    {
+      "path": "corrections271_329_astra20261114/author/arabic-short-author-v1.json",
+      "expectedSHA256": "9a6568b988e8fbcd786705b4c93b91082f9e41f2571de4bf4070532844c39b1b",
+      "actualSHA256": "9a6568b988e8fbcd786705b4c93b91082f9e41f2571de4bf4070532844c39b1b",
+      "matches": true
+    },
+    {
+      "path": "launch_fixes20261113/Iman_Companion_Through_270.docx",
+      "expectedSHA256": "29b02fdb65949f625283a348c20959fd36db9bf0e8df2c2df4f63020686821fa",
+      "actualSHA256": "29b02fdb65949f625283a348c20959fd36db9bf0e8df2c2df4f63020686821fa",
+      "matches": true
+    }
+  ],
+  "exactCurrentReaderReconciliation": {
+    "language": "bn",
+    "id": "1:extended",
+    "sourcePath": "materials/tadabbur/bn/extended/001.json",
+    "registeredSourceSHA256": "5c39a0e5f65b06d858c21fe55229e876c0b90eab8b186662bbc489f2eaefac66",
+    "checks": [
+      {
+        "section": "intro",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "4232f0c584797bd6522b548ec117cc96162d08cedf55f96be436f4d0238b5aa8",
+        "currentOrdinarySHA256": "4232f0c584797bd6522b548ec117cc96162d08cedf55f96be436f4d0238b5aa8",
+        "generatedSHA256": "4232f0c584797bd6522b548ec117cc96162d08cedf55f96be436f4d0238b5aa8",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "1:1",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "7fd9625075c1e92515652f1b0339f4cc46372d08cc4b978f7f18db773aa75007",
+        "currentOrdinarySHA256": "26c155880c46052a146600101a340b72467988b605d73121b27c7d6ac997a5f5",
+        "generatedSHA256": "26c155880c46052a146600101a340b72467988b605d73121b27c7d6ac997a5f5",
+        "applied": [
+          {
+            "field": "blocks/3",
+            "action": "replace-paragraph",
+            "before": "বিসমিল্লাহ ফাতিহার একটি আয়াত হিসেবে গণ্য কি না, এ বিষয়ে মতভেদ আছে। এখানে তা ফাতিহার অংশ হিসেবে গণনার ভিত্তিতে প্রথম আয়াতের নম্বর দেওয়া হয়েছে। তবে শুরু করার এ অর্থ অন্তরে উপস্থিত থাকা চাই; তিলাওয়াত যেন কেবল মুখে চলা বাক্য না হয়, যার সাহায্য চাওয়া ও আশার মর্ম অন্তর থেকে হারিয়ে গেছে।",
+            "after": "শুরু থেকেই এই অর্থগুলো অন্তরে থাকলে তিলাওয়াতের সময় বান্দা মন থেকে আল্লাহর কাছে সাহায্য চায় এবং তাঁর ওপর আশা রাখে।",
+            "evidence": [
+              "corrections270_target_final20261113/part1/001-bn-INDEPENDENT-FINAL-v1.json",
+              "launch_fixes20261113/BATCH8-BOUND-OPERATIONS.json"
+            ]
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "1:2",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "69a3960259bfc68341f9df96a23c9024ef22ede8e01053fe62e2329b81a205f7",
+        "currentOrdinarySHA256": "96ce69c36817813da20ae535123a3b9cbab3d9e260d07b0adfd6c7ab718cb27e",
+        "generatedSHA256": "96ce69c36817813da20ae535123a3b9cbab3d9e260d07b0adfd6c7ab718cb27e",
+        "applied": [
+          {
+            "field": "blocks/10",
+            "action": "replace-paragraph",
+            "before": "পাঠক ও রবের বিশেষ সম্পর্কে অর্থগুলো মিলিত হয়, যা হাদীসে কুদসী ব্যাখ্যা করেছে: «আমার এবং আমার বান্দার মাঝে সালাতকে অর্ধেক করে ভাগ করেছি। আমার বান্দার জন্য রয়েছে সে যা চায়»। বান্দা «সকল ‘হাম্‌দ’ আল্লাহ্‌র, যিনি সৃষ্টিকুলের রব» বললে আল্লাহ বলেন: «আমার বান্দা আমার প্রশংসা করেছে» । এ হাদীসে ফাতিহাকে সালাত বলা হয়েছে, সালাতে তার মহান অবস্থানের কারণে। যেমন আরাফায় অবস্থান সম্পর্কে বলা হয়েছে: «হজ্জ হচ্ছে আরাফাতে অবস্থান» । যে অংশ ছাড়া আমল হয় না, তার উল্লেখ মর্যাদা বোঝায়; অন্য নির্ধারিত অংশগুলো বাতিল করে না।",
+            "after": "পাঠক ও রবের বিশেষ সম্পর্কে অর্থগুলো মিলিত হয়, যা হাদীসে কুদসী ব্যাখ্যা করেছে: «আমার এবং আমার বান্দার মাঝে সালাতকে অর্ধেক করে ভাগ করেছি। আমার বান্দার জন্য রয়েছে সে যা চায়»। বান্দা «সকল ‘হাম্‌দ’ আল্লাহ্‌র, যিনি সৃষ্টিকুলের রব» বললে আল্লাহ বলেন: «আমার বান্দা আমার প্রশংসা করেছে» । এর উদ্দেশ্য কানে আল্লাহর উত্তর শোনার দাবি নয়; তাঁর জানানো বিষয় মনে রেখে এমন অন্তরে তাঁর দিকে ফেরা, যা মুখে উচ্চারিত প্রশংসাকে সত্য বলে বিশ্বাস করে। এ হাদীসে ফাতিহাকে সালাত বলা হয়েছে, সালাতে তার মহান অবস্থানের কারণে। যেমন আরাফায় অবস্থান সম্পর্কে বলা হয়েছে: «হজ্জ হচ্ছে আরাফাতে অবস্থান» । যে অংশ ছাড়া আমল হয় না, তার উল্লেখ মর্যাদা বোঝায়; অন্য নির্ধারিত অংশগুলো বাতিল করে না।",
+            "evidence": [
+              "corrections270_target_final20261113/part1/001-bn-INDEPENDENT-FINAL-v1.json",
+              "launch_fixes20261113/BATCH8-BOUND-OPERATIONS.json"
+            ]
+          },
+          {
+            "field": "blocks/12",
+            "action": "replace-paragraph",
+            "before": "ইবন উমার রাদিয়াল্লাহু আনহুমা যখন তাওয়াফ করছিলেন, তখন উরওয়া ইবনুয যুবাইর রহিমাহুল্লাহ ইবন উমারের কন্যাকে বিয়ে করার প্রস্তাব দেন। আল্লাহর সামনে থাকার অনুভূতিতে নিমগ্ন থাকায় ইবন উমার রাদিয়াল্লাহু আনহুমা তখন উত্তর দেননি । তাওয়াফে কথা বলা বৈধ ছিল। ইবন আব্বাস রাদিয়াল্লাহু আনহুমা থেকে তাওয়াফকে সালাতের সঙ্গে তুলনা করা বর্ণিত হয়েছে, সঙ্গে এতে কথা বলার অনুমতির কথাও আছে (জামে তিরমিযী, ৯৬০; ইবন আব্বাসের নিজস্ব উক্তি)। তাহলে যে সালাত সম্পর্কে নবী ﷺ বলেছেন «সালাতে আছে নিমগ্নতা» , তার গুরুত্ব কত বেশি! সালাতের হামদ, প্রশংসা ও প্রার্থনার অর্থেই মনোযোগী থাকার যথেষ্ট উপকরণ আছে; সালামের পরে কী করবে শুধু তা ভাবতে থাকবে না। এর উদ্দেশ্য কানে আল্লাহর উত্তর শোনার দাবি নয়; তাঁর জানানো বিষয় মনে রেখে এমন অন্তরে তাঁর দিকে ফেরা, যা মুখে উচ্চারিত প্রশংসাকে সত্য বলে বিশ্বাস করে।",
+            "after": "ইবন উমার রাদিয়াল্লাহু আনহুমা যখন তাওয়াফ করছিলেন, তখন উরওয়া ইবনুয যুবাইর রহিমাহুল্লাহ ইবন উমারের কন্যাকে বিয়ে করার প্রস্তাব দেন। আল্লাহর সামনে থাকার অনুভূতিতে নিমগ্ন থাকায় ইবন উমার রাদিয়াল্লাহু আনহুমা তখন উত্তর দেননি । তাওয়াফে কথা বলা বৈধ ছিল। ইবন আব্বাস রাদিয়াল্লাহু আনহুমা থেকে তাওয়াফকে সালাতের সঙ্গে তুলনা করা বর্ণিত হয়েছে, সঙ্গে এতে কথা বলার অনুমতির কথাও আছে (জামে তিরমিযী, ৯৬০; ইবন আব্বাসের নিজস্ব উক্তি)। তাহলে যে সালাত সম্পর্কে নবী ﷺ বলেছেন «সালাতে আছে নিমগ্নতা» , তার গুরুত্ব কত বেশি! সালাতের হামদ, প্রশংসা ও প্রার্থনার অর্থেই মনোযোগী থাকার যথেষ্ট উপকরণ আছে; সালামের পরে কী করবে শুধু তা ভাবতে থাকবে না।",
+            "evidence": [
+              "corrections270_target_final20261113/part1/001-bn-INDEPENDENT-FINAL-v1.json",
+              "launch_fixes20261113/BATCH8-BOUND-OPERATIONS.json"
+            ]
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "1:3",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "f4981f3d14e8ce350146a7e2b14f988a0b7726f11dfd0aed31b52509c4a67a9c",
+        "currentOrdinarySHA256": "b540e593387d21b8ffb69142cc24b2d2f1e6b82fcdbcff96fb754b14d53b5c39",
+        "generatedSHA256": "b540e593387d21b8ffb69142cc24b2d2f1e6b82fcdbcff96fb754b14d53b5c39",
+        "applied": [
+          {
+            "field": "blocks/2",
+            "action": "replace-paragraph",
+            "before": "[দুটি নামের পার্থক্যের একটি উল্লেখিত ব্যাখ্যা হলো, «الرحمن» বিশাল ও ব্যাপক দয়া বোঝায়, আর «الرحيم» বান্দার সূক্ষ্মতম অবস্থায় পৌঁছে যাওয়া দয়ার দিকে মনোযোগ দেয়।] এ দিক থেকে সূরা মারইয়ামে বড় বড় নিদর্শনের সঙ্গে আর-রাহমান নামের পুনরাবৃত্তি দেখা হয়েছে; আর আর-রাহীমের অর্থ বোঝানো হয়েছে ঘর, সন্তান ও কাজের বিস্তারিত বিষয়ে মানুষের প্রয়োজনীয় মমতা দিয়ে। তাই সে শুধু বড় বিষয়ে দোয়া করে না; ছোট প্রয়োজনেও আল্লাহর সাহায্য চায়। বান্দার এমন ব্যাপক দয়া দরকার, যা অবস্থা বদলে দেয়; দৈনন্দিন এমন বিষয়েও তাঁর কোমল যত্ন দরকার, যা অন্য কেউ হয়তো খেয়ালই করে না। এটি নাম দুটি নিয়ে ভাবনার একটি দিক; আল্লাহর দয়াকে দুটি বিচ্ছিন্ন ভাগে সীমিত করা নয়।",
+            "after": "নাম দুটির পার্থক্যের একটি বর্ণিত ব্যাখ্যা হলো, «দয়াময়» বিশাল ও ব্যাপক দয়ার কথা বোঝায়, আর «পরম দয়ালু» এমন দয়ার দিকে মনোযোগ দেয়, যা বান্দার জীবনের সূক্ষ্মতম বিষয়েও পৌঁছে যায়। আল্লাহর দয়াকে দুটি আলাদা ভাগে সীমাবদ্ধ না করেও এ নাম দুটি নিয়ে ভাবা যায়। সূরা মারইয়ামের বড় বড় নিদর্শনের বর্ণনায় «দয়াময়» নামটি যে বারবার আসে, তা স্মরণ করা যায়। ঘর, সন্তান লালন ও কাজের ছোটখাটো বিষয়ে মানুষের যে মমতার প্রয়োজন, তা থেকে «পরম দয়ালু» নামের অর্থও উপলব্ধি করা যায়। তাই সে শুধু বড় বিষয়ে দোয়া করে না; ছোট প্রয়োজনেও আল্লাহর সাহায্য চায়। বান্দার এমন ব্যাপক দয়া দরকার, যা অবস্থা বদলে দেয়; দৈনন্দিন এমন বিষয়েও তাঁর কোমল যত্ন দরকার, যা অন্য কেউ হয়তো খেয়ালই করে না।",
+            "evidence": [
+              "corrections270_target_final20261113/part1/001-bn-INDEPENDENT-FINAL-v1.json",
+              "launch_fixes20261113/BATCH8-BOUND-OPERATIONS.json"
+            ]
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "1:4",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "3f17b39be127ab96ace995e79ba524c0cc7f6ec60a37ae7d9ae7decdcbf94a64",
+        "currentOrdinarySHA256": "3f17b39be127ab96ace995e79ba524c0cc7f6ec60a37ae7d9ae7decdcbf94a64",
+        "generatedSHA256": "3f17b39be127ab96ace995e79ba524c0cc7f6ec60a37ae7d9ae7decdcbf94a64",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "1:5",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "d02dc52544ca3a350c3aed497b0496d1d3df13dbaf460fdf7f5f511650b0607e",
+        "currentOrdinarySHA256": "d02dc52544ca3a350c3aed497b0496d1d3df13dbaf460fdf7f5f511650b0607e",
+        "generatedSHA256": "d02dc52544ca3a350c3aed497b0496d1d3df13dbaf460fdf7f5f511650b0607e",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "1:6",
+        "proseUnchanged": false,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "914ebae49064191fcb63a50c7755510a5fb22ebe14df11a94642daf37e2e31e5",
+        "currentOrdinarySHA256": "9dbba33d7c1a27409fc23cd4608e0b6efc1b3156017fa332dbefba955b36cbc2",
+        "generatedSHA256": "9dbba33d7c1a27409fc23cd4608e0b6efc1b3156017fa332dbefba955b36cbc2",
+        "applied": [
+          {
+            "field": "blocks/9",
+            "action": "replace-paragraph",
+            "before": "আজকের সোজা চলার সঙ্গে আগামীকালের আশা যুক্ত করে ভাবা যায়: রব যেন চলার পথে রক্ষা করে গন্তব্যে নেন, কিছুদূর পৌঁছে সাহায্যহীন না ছেড়ে দেন। পূর্ববর্তীদের খবর যোগ হলে যাত্রা নিছক ইচ্ছা থাকে না। পরের আয়াত তাই আল্লাহর নিয়ামতপ্রাপ্ত পথিকদের পরিচয় দেয়।",
+            "after": "আজকের সোজা চলার সঙ্গে আগামীকালের আশা যুক্ত করে ভাবা যায়: রব যেন চলার পথে রক্ষা করে গন্তব্যে নেন, কিছুদূর পৌঁছে সাহায্যহীন না ছেড়ে দেন। পরের আয়াত পরিচয় করিয়ে দেয় সেই মানুষদের সঙ্গে, যাঁরা এ পথে চলেছেন এবং আল্লাহর নিয়ামত পেয়েছেন। হিদায়াত চাওয়ার সময় পাঠক তাঁদের জীবন স্মরণ করে নিজের চলার জন্য অনুসরণযোগ্য দৃষ্টান্ত খুঁজে পায়।",
+            "evidence": [
+              "corrections270_target_final20261113/part1/001-bn-INDEPENDENT-FINAL-v1.json",
+              "launch_fixes20261113/BATCH8-BOUND-OPERATIONS.json"
+            ]
+          }
+        ],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      },
+      {
+        "section": "1:7",
+        "proseUnchanged": true,
+        "exactReviewedDeltaReproducesCurrentProse": true,
+        "oldOrdinarySHA256": "9ffc1b09097a3ad7453fbcda7f207a7029b6b40836bc9dd6e949fd1694cf7c39",
+        "currentOrdinarySHA256": "9ffc1b09097a3ad7453fbcda7f207a7029b6b40836bc9dd6e949fd1694cf7c39",
+        "generatedSHA256": "9ffc1b09097a3ad7453fbcda7f207a7029b6b40836bc9dd6e949fd1694cf7c39",
+        "applied": [],
+        "protectedFieldsUnchanged": true,
+        "protectedFieldsExactlyReviewed": true,
+        "protectedDeltaEvidence": [],
+        "unaccountedProse": null,
+        "protectedFieldChanges": null
+      }
+    ],
+    "topLevelReaderFieldsUnchanged": {
+      "title": true,
+      "shortCredit": true,
+      "glossary": true,
+      "readerNotes": true,
+      "publisherNotes": true,
+      "contextNotes": true,
+      "bibliography": true,
+      "quranCredit": true,
+      "sourceCredit": true,
+      "translationCredits": true,
+      "requiredMeaningNotes": true,
+      "requiredPublisherNotes": true
+    },
+    "currentSourceSHA256": "9d3f9d2317f9dfc77078aef1481a7e94916326381a2ea37ed9a60421ae70ec64",
+    "oldSourceCommit": "80c666acc4ca8c87f6f6b0fc2df82be31b4f4792",
+    "status": "EXACT_REVIEW_CHAIN_PROVED"
+  },
+  "semanticReviewCreated": false,
+  "humanCertification": false,
+  "qualification": "Original whole-reader qualifications remain controlling. Exact existing independently reviewed finite corrections extend only their matched passages; this is a source-owner literal/structural transfer, not a new scholarly, translation, human, Word or visual approval."
+}
