@@ -69,3 +69,7 @@ still apply; an automatic build does not authorize starting Word on their PC.
 ## Shared app UI consistency
 
 Reuse existing app layouts, shared controls, typography and theme styles for new lessons, audio, articles, Seerah, Hadith and pages. Check equivalent readers for consistency when modifying them. Preserve language-specific and children’s fonts, RTL and mobile/tablet behavior, approved variants, source wording, and existing accessibility and progress controls. Apply requested fixes narrowly: the Seerah audio dialog’s outlined secondary button does not change the separate underlined language-pack onboarding choice. Check affected light/dark and RTL/LTR views; do not claim visual verification without observing them.
+
+## Faithful translation
+
+Follow [TRANSLATION-RULEBOOK.md](TRANSLATION-RULEBOOK.md) for Tadabbur translation and review; preserve all existing source and book-publication requirements.
