@@ -1,0 +1,235 @@
+{
+  "schema": "iman-finite-source-update-pending-v1",
+  "status": "PENDING_BOOK_READER_REGISTRATION_AND_RELEASE_CHECKS",
+  "scope": "Exact user-directed Arabic Tadabbur corrections and independently reviewed matching current native passages; no unrelated changes.",
+  "baseCommit": "eca78cbc4da00aad519608bc68d96633c4bbce74",
+  "independentReviewSHA256": {
+    "arabic": "195287b2c714b75a599a063df69f2582b578a0b981e069037b1da655fa6a99a0",
+    "native61": "27eb6f9520ba815bec7375dd351952cdc82bf10c226f564977cc946258b78796",
+    "native98": "0ecba3851be45f616462fb6dea98f17d3e4b5562d77eee701281bbb8014152f8"
+  },
+  "sourceChanges": [
+    {
+      "path": "materials/tadabbur/ar/extended/061.json",
+      "beforeSHA256": "8fb1539e196ce1829f05e87bbf058ab1b74fb00ad7384d876bcf13c5ec29d0d2",
+      "afterSHA256": "432a748d38031b3b01431814fdcc441c682b193d0e52011c22275e3d5795ee03"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/061.md",
+      "beforeSHA256": "9a658942afbdc5fd4e24339e2283d316fd4276f2a9fde042e0843d8a56ea66e7",
+      "afterSHA256": "dc81fe5fd83878c001ae557b1b283c668a1eb055240705be78ff0ac82a8ca262"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/098.json",
+      "beforeSHA256": "0eb092bd5e6cb23fa80577abfdd8fcea1080ef14cb2594983782c54dc3acb7cf",
+      "afterSHA256": "687faa0aa96efbfb4964fcb16726dfd937eef09c17492173267c1a5ef9683af7"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/098.md",
+      "beforeSHA256": "3235bed506dde336d753dcccc519931b73c3a6a49ffa81bfb2ef8b75c7a3cc72",
+      "afterSHA256": "319175b91bf0bb9162fa31730d8fc6c4ed48a0a587815291103f507ff431ec58"
+    },
+    {
+      "path": "materials/tadabbur/ar/simplified/061.json",
+      "beforeSHA256": "de3d08a69910004f9225160eb76341eb4b6644e3292dc05306cc15aeac4fe60f",
+      "afterSHA256": "c7d9d029fee40d6130c685ef6e72bdb3b32b69085f463a6669cdda8070541d97"
+    },
+    {
+      "path": "materials/tadabbur/ar/simplified/061.md",
+      "beforeSHA256": "d7b8f6d4788699f84b5dd85c979a4cf987ebcd50aeb1069049a6857ad01813b7",
+      "afterSHA256": "9bfee8f35f31251e630f5109fab0223f97626c5bba943897ec139b29afd50b98"
+    },
+    {
+      "path": "materials/tadabbur/ar/simplified/088.json",
+      "beforeSHA256": "dbbc46657228ccc64dc81c56c6aaec67df47cc72ea36b09be549e08f8cbbba47",
+      "afterSHA256": "c11db214f3959a7fc4f2064302a5a78e0035def6cbb42a9923576534079ebe2a"
+    },
+    {
+      "path": "materials/tadabbur/ar/simplified/088.md",
+      "beforeSHA256": "21ba1d1609524c098e7ec46807277db293bcebf028768d42dc2fb700f95a2849",
+      "afterSHA256": "71bc2e28f4a8cfe892f56ec0f79f7843e6e5cca8ca795c0fef33afcae7f29131"
+    },
+    {
+      "path": "materials/tadabbur/ar/simplified/089.json",
+      "beforeSHA256": "fa92c2c241f5171a326a72894e4fa7697466903ddcba3839f5d3a1d15b23b6f8",
+      "afterSHA256": "5c81b24db8cabad053f57dec40978c379fc74f5639ca6bceaac3347202d5ccb6"
+    },
+    {
+      "path": "materials/tadabbur/ar/simplified/089.md",
+      "beforeSHA256": "8a9e1312a22c777c248e5dd35eade5f564428cefe2707d149f2c99035d53864c",
+      "afterSHA256": "d7f3f7de858edb29c453b91fd0d5cffe089e96c1116f4dadf6f15c9d7cb17716"
+    },
+    {
+      "path": "materials/tadabbur/ar/simplified/092.json",
+      "beforeSHA256": "978026fc2ee467716bf4fe767597b74ed7bc6c42c3cca0508f42c34d7a9df5ea",
+      "afterSHA256": "59a1cc6f82c63516a70cfd65aaee9f6e58cb86137fcab2dfce2a2412e9716398"
+    },
+    {
+      "path": "materials/tadabbur/ar/simplified/092.md",
+      "beforeSHA256": "2ae7c65ba1978eb1fd673d8482ba6ea38a81afddf4149391e086680e8c4cca5b",
+      "afterSHA256": "cc9012b99b68b270bc4fceec53cb8c34e8ba9cc638c503730f9e28235f3db6b7"
+    },
+    {
+      "path": "materials/tadabbur/bn/extended/061.json",
+      "beforeSHA256": "c9fc82be8b14d1fc9490f5bd556719ae7c0d94c894430bd33ba26b3afce69e64",
+      "afterSHA256": "2342a9e473f442780b4c8cb413e9ef77c0942ff324c1ef47de1a78bac57dc3e5"
+    },
+    {
+      "path": "materials/tadabbur/bn/extended/061.md",
+      "beforeSHA256": "5c6eb86f45dde0dae2b5aec574e0c3b4eee1b0cbeac64945f859818959923c94",
+      "afterSHA256": "478504dc396d649109b20bf5b4ba23940656afd8d1bd65bff5c0b9b0a4b98be7"
+    },
+    {
+      "path": "materials/tadabbur/en/extended/061.json",
+      "beforeSHA256": "477d6bc9389db0b0cf8832d0c2a55c0ccd5b78acdce750d0a4257503f8aa9355",
+      "afterSHA256": "64433c3f2c299f764683862e8ed2fe0b95a79577c36ed3037b52dcc2a2ae9925"
+    },
+    {
+      "path": "materials/tadabbur/en/extended/061.md",
+      "beforeSHA256": "f6039fef13b4a3988ec51a87f2511043b3beb7f6e6544a352b204a454a2b1f45",
+      "afterSHA256": "c7a08baa5415076ad1d92d8f9b39f2a7f33fe059fbc737c4b93d19ed53e53c5f"
+    },
+    {
+      "path": "materials/tadabbur/fr/extended/061.json",
+      "beforeSHA256": "e091a3c02b6443e9a2a3ea53761c8b305e9fbbb9ef7df7e915554a0d65ad87a6",
+      "afterSHA256": "d745a1f2e4957605cec6d400c07c5017c51a3c5ae40972e09d30710a11b54565"
+    },
+    {
+      "path": "materials/tadabbur/fr/extended/061.md",
+      "beforeSHA256": "942d30b35a41483c887e7c3ccda0150ea38389256477dc81e9f010c30d047ae1",
+      "afterSHA256": "6b7dbe8d095fb835b6527ea6a1a373bea9858af3d716a2358ea4bea87729c7ab"
+    },
+    {
+      "path": "materials/tadabbur/id/extended/061.json",
+      "beforeSHA256": "8bb75a3852372e0ebcb272b03f27bafb06c1ad4f6461d27a0f47c30034931bb8",
+      "afterSHA256": "d1983bf94800700c3b44e0bbece66d631052da26458ae30fe5094330dae17eec"
+    },
+    {
+      "path": "materials/tadabbur/id/extended/061.md",
+      "beforeSHA256": "56909bbd199a6f5e6175a29404c1661f9d60c99caa63593dedfa4b1c854bc4b7",
+      "afterSHA256": "cd1708f19bfead8b4b5054b7604a28ad0c35ce94c191bc23202bb19ac64af811"
+    },
+    {
+      "path": "materials/tadabbur/ms/extended/061.json",
+      "beforeSHA256": "c9f3e56a9ab447c7d75bf8848aaf319b9bed12d16495546d617ac045d2220ce1",
+      "afterSHA256": "dd3c42f622aa16204c60a66db1276d41dfe1c99bf08515fe83d092b8ef51e45c"
+    },
+    {
+      "path": "materials/tadabbur/ms/extended/061.md",
+      "beforeSHA256": "c886d7b3e6c5b98e9df6d024e6f09de1e3d0b7fbf9a7197aa06bd91ab23a52b8",
+      "afterSHA256": "165ee764311f111be2831efdbfd46fed17e55548212d2cf553905ca122a78b02"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/061.json",
+      "beforeSHA256": "24fa8313b41c6be7b8e6eaf0da758689ffeef418bde6adab74ba2cacc9a077fa",
+      "afterSHA256": "760812e9a04dad5024bcaeade1a26a0654c75311f12c7c1c51b909b9cc72aaa1"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/061.md",
+      "beforeSHA256": "08667b604664b1feffc6ea29521a9fe6ee047d0f5ad43475b11854f5e5d95148",
+      "afterSHA256": "7b20be71b8f7b596dad9103768386de834bc140619c1499d68297e572d18b1a2"
+    },
+    {
+      "path": "materials/tadabbur/tr/extended/061.json",
+      "beforeSHA256": "3202e372399bf9648cd3c78008e71ec7a19d212e3da7c4a1d590094f2cfb2c90",
+      "afterSHA256": "0d15cfcaec9ae5a40b9b72286197f4bcf7bb2e476426724abefa79e601f8e46e"
+    },
+    {
+      "path": "materials/tadabbur/tr/extended/061.md",
+      "beforeSHA256": "2dbd4580ee12b4c7b7085f8ee6b296ea43cdbf8597c85f3ef8d579f27ad377da",
+      "afterSHA256": "d88a182baecfe19c98acf7d96760c50ad933a05c3b914b1c1f8e3454fc4c4d42"
+    },
+    {
+      "path": "materials/tadabbur/ur/extended/061.json",
+      "beforeSHA256": "4b2bcdc2e59b1c1e561b47b062c69244b5ebe0ac55e2d5169f4f2ac75b4db98e",
+      "afterSHA256": "605bc20128ef74fd63a48286a0729fe20df4e368d1cf772e4f6054c011294d77"
+    },
+    {
+      "path": "materials/tadabbur/ur/extended/061.md",
+      "beforeSHA256": "72a3a7a97487227c871f73d1bde09fb804a64118ce546f17fbd4ab106149c667",
+      "afterSHA256": "1878c936abe660bc0743075fcccf10d975fc526f6a09c9b1e806daac649a6c05"
+    },
+    {
+      "path": "materials/tadabbur/bn/extended/098.json",
+      "beforeSHA256": "e4565d2f29e0762f987eca3b2603f1dec8ceec295082692ec4a719af22170e64",
+      "afterSHA256": "a9ffa631b9da25cfddcbc6dc0a721c3e051d0ef010cb5aa216f4f7850cd3053c"
+    },
+    {
+      "path": "materials/tadabbur/bn/extended/098.md",
+      "beforeSHA256": "cc285a2b68115b4bb4cbd3057b390d39291a77b8cec20d478cbe1d7480c02384",
+      "afterSHA256": "65faf3f17d3dbca42bdb38a7fe4e5adac22a6edc9b62d0b4c61ff047f1837a10"
+    },
+    {
+      "path": "materials/tadabbur/en/extended/098.json",
+      "beforeSHA256": "df2bf182aa0c30189c6ef9e79d6b7d974e286b1cf471c00060f9dafe9299a9d5",
+      "afterSHA256": "b6fb39ab4a8ac7d24c0999e6082d0ed212b309008c3effae423cf6147cd95551"
+    },
+    {
+      "path": "materials/tadabbur/en/extended/098.md",
+      "beforeSHA256": "3f0aa288bdec8aab852540365869c0c6415280cd0d24b6f8632ba5e7ee4eafcd",
+      "afterSHA256": "87dcf37723cf1549bc6752c955ad91f75c8e146f521c69843ca02a1de7a794ed"
+    },
+    {
+      "path": "materials/tadabbur/fr/extended/098.json",
+      "beforeSHA256": "f02e460c1511a03348cd7dcd486901ab07498904037553442082365ff42163c1",
+      "afterSHA256": "a9b7022c0e7afbd90082a8318c27fdddd73a6bb03f22e5db7d23018300cda5d6"
+    },
+    {
+      "path": "materials/tadabbur/fr/extended/098.md",
+      "beforeSHA256": "f80eed7cf0b60402170872c18c72f0d31889913e9b6807959b9bfa82099a3098",
+      "afterSHA256": "da1e05d8e724ca1437c591eb7ed7490bfcc2bcb07229b3711eef387a264caff8"
+    },
+    {
+      "path": "materials/tadabbur/id/extended/098.json",
+      "beforeSHA256": "161c86e51e2d37ad9ab16b59478df8b2765a01e4912c7e48fad182fa5cf951ec",
+      "afterSHA256": "c08f476429b55bcd9d848b0d16c4026200b83bd40ed3bec6c1bb037ff0476eb9"
+    },
+    {
+      "path": "materials/tadabbur/id/extended/098.md",
+      "beforeSHA256": "ca84a7a1c8c6e4706ef5c63b3b4ccfff95da6146f9444e1545772209fde518d2",
+      "afterSHA256": "d9a586447b72534acd1e8769847549eaa4c3f7ec1920d5fb2152b9fb6ce8f7e6"
+    },
+    {
+      "path": "materials/tadabbur/ms/extended/098.json",
+      "beforeSHA256": "c55583727f4f6eda55c2d2cc79a9bef6e7185af27aba22aef2d5d14338524130",
+      "afterSHA256": "6579dd0846abb26bda197672f92724abd5370cdb37d431e3fd0f36962a35aa3b"
+    },
+    {
+      "path": "materials/tadabbur/ms/extended/098.md",
+      "beforeSHA256": "dce1be0d61cb5d8d7c2ef113cda4174cf75531f63380d71fe468b372e37a7db6",
+      "afterSHA256": "050d2232a921b6ea2213dcf6a7b1f046dfadc98c19c6f6b59a26651ee782d23e"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/098.json",
+      "beforeSHA256": "1c398c75a8b4708e80a3b39e4457fefc2d2c0419705f4c77eb02bc93b2d0dc53",
+      "afterSHA256": "97315ea91a4fe8803b61981637437becc320527e86e8aaf65f7ba2959036933e"
+    },
+    {
+      "path": "materials/tadabbur/pt-BR/extended/098.md",
+      "beforeSHA256": "6df14c657627a02f2f3117589482c5cbd3c82fe6a0945c3c4a21fc1efbbfb960",
+      "afterSHA256": "29181fed7016fdd0d083939c1de916f70a2ece7143623448450339923b6fc118"
+    },
+    {
+      "path": "materials/tadabbur/tr/extended/098.json",
+      "beforeSHA256": "9bca887e407f588df3f72826f182fec8c96294abb552cfda5f4dc97d9c877625",
+      "afterSHA256": "db366fa7f4a4b6dc88a7f1980dfe9db36f3ca18ea61335492b8c629c793c92a9"
+    },
+    {
+      "path": "materials/tadabbur/tr/extended/098.md",
+      "beforeSHA256": "5519521c2e09b9d942bc9fa75df82c16c9c2ff621fb66acca8a91ac45b471019",
+      "afterSHA256": "b3e69507ac7b0289ec62035cb6f3e1389720b4607dec7bbf2681b000ff2313ce"
+    },
+    {
+      "path": "materials/tadabbur/ur/extended/098.json",
+      "beforeSHA256": "503ef231b2ca8449d974e990141ec4dce70e379b09d6972193b725bef08decf8",
+      "afterSHA256": "bc58dea881f15c50d53b120de7061f4ee90dccf5abd1c1fcb6651a847781fee2"
+    },
+    {
+      "path": "materials/tadabbur/ur/extended/098.md",
+      "beforeSHA256": "7e239d4a011ec79832f3fc0c6f8ebe9489c3f292868f447f121236bddbdb6527",
+      "afterSHA256": "5d1ccec69d9fda8ec69bc56400eac76ad60506c7faa1c2ff0b378eb5ea1c5669"
+    }
+  ],
+  "bookStatus": "Existing book-reader registration, preparation, real Word and visual acceptance, and public download verification remain pending. This record is not a publication intake or release approval.",
+  "preservation": "Earlier source decisions and holds remain; latest complete replacements supersede only the specified earlier partial changes."
+}
