@@ -1,0 +1,20 @@
+{
+  "schema": "iman-finite-source-update-pending-v1",
+  "status": "PENDING_BOOK_READER_REGISTRATION_AND_RELEASE_CHECKS",
+  "scope": "Restore original Arabic comma at retained 92:20 phrase after requested deletion. No other wording changed.",
+  "baseCommit": "7b61916c4e1c1d2f4ef447251a4657d8b0cfe46b",
+  "auditSHA256": "78f699c6b71fd4866b4c545158b5ad5c29cf9abd9c6e2ad5799c168f5a08d87a",
+  "sourceChanges": [
+    {
+      "path": "materials/tadabbur/ar/simplified/092.json",
+      "beforeSHA256": "59a1cc6f82c63516a70cfd65aaee9f6e58cb86137fcab2dfce2a2412e9716398",
+      "afterSHA256": "a31c4b55f82d2520169ca5326ffa39452dfc888759c13a625d8ffdb531a22f71"
+    },
+    {
+      "path": "materials/tadabbur/ar/simplified/092.md",
+      "beforeSHA256": "cc9012b99b68b270bc4fceec53cb8c34e8ba9cc638c503730f9e28235f3db6b7",
+      "afterSHA256": "7e86048231ffed7035d9d6e7105d86003511ee2ebde39e3159f6714d35332c48"
+    }
+  ],
+  "bookStatus": "Reader registration, preparation, Word, visual acceptance and public download verification remain pending."
+}
