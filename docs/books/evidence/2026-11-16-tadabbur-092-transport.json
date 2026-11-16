@@ -1,0 +1,26 @@
+{
+  "schema": "iman-source-transport-evidence-v1",
+  "scope": "Byte transport proof for the reviewed 092 Arabic JSON only; not a new content, whole-book, Word or visual approval.",
+  "sourceCommit": "b897bc9c8c18752a499e64b435b4ccab7ad1c5a1",
+  "observedMainBeforeEvidence": "54e052f5b2d1e0cdd3eba1bdde9b4ef24c8f9099",
+  "sourcePath": "materials/tadabbur/ar/simplified/092.json",
+  "finiteDecisionPath": "materials/tadabbur/finite-corrections/2026-11-16-source-update-pending.json",
+  "reviewedCandidateV3": {
+    "sha256": "9fedc97116ccc9da7384a74b03a72bec878a0c1aff55cd217c0eff37ffbed43a",
+    "bytes": 120838,
+    "manifestSHA256": "89d2db0c82c358588a03411e632074f36af6282b45542c8cc4002aaf72629f35"
+  },
+  "transport": "Replace each CRLF with LF, with no other byte changes.",
+  "actualGitBlob": {
+    "gitBlobSHA1": "ea37b0b9da92251d9c746b7e50472ee9b89817bf",
+    "sha256": "978026fc2ee467716bf4fe767597b74ed7bc6c42c3cca0508f42c34d7a9df5ea",
+    "bytes": 119560
+  },
+  "preparedV4ManifestSHA256": "7e29cd2012bd3ebe6d7572dd6f897dc88326df24294eb612210420563f88ae4d",
+  "checks": {
+    "crlfToLfProducesExactGitBytes": true,
+    "parsedJSONIdentical": true,
+    "finiteDecisionAfterSHA256MatchesGit": true
+  },
+  "bookStatus": "Complete reader registration, original whole-review evidence, Word and final visual acceptance remain pending."
+}
