@@ -47,7 +47,7 @@ Français
 
 Inclus: Sourate 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
 
-Édition partielle
+Vérification du contenu en attente
 
 - Non inclus dans cette édition: Sourate 34–35
 

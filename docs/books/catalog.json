@@ -70,23 +70,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -153,13 +137,18 @@
             ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/en/extended/099.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Included: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "Partial edition",
+              "statusLabel": "Coverage check pending",
               "notes": [
                 "Not included in this edition: Surah 18, 34–35"
               ],
@@ -737,92 +726,7 @@
               "113:extended",
               "114:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "2:extended",
-              "3:extended",
-              "4:extended",
-              "5:extended",
-              "6:extended",
-              "7:extended",
-              "11:extended",
-              "12:extended",
-              "13:extended",
-              "14:extended",
-              "15:extended",
-              "17:extended",
-              "18:extended",
-              "19:extended",
-              "20:extended",
-              "22:extended",
-              "25:extended",
-              "28:extended",
-              "29:extended",
-              "30:extended",
-              "31:extended",
-              "33:extended",
-              "34:extended",
-              "35:extended",
-              "36:extended",
-              "40:extended",
-              "41:extended",
-              "42:extended",
-              "43:extended",
-              "45:extended",
-              "47:extended",
-              "48:extended",
-              "49:extended",
-              "50:extended",
-              "51:extended",
-              "55:extended",
-              "57:extended",
-              "58:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "64:extended",
-              "66:extended",
-              "67:extended",
-              "68:extended",
-              "70:extended",
-              "71:extended",
-              "72:extended",
-              "73:extended",
-              "74:extended",
-              "75:extended",
-              "78:extended",
-              "79:extended",
-              "80:extended",
-              "81:extended",
-              "82:extended",
-              "83:extended",
-              "84:extended",
-              "85:extended",
-              "86:extended",
-              "87:extended",
-              "88:extended",
-              "89:extended",
-              "90:extended",
-              "91:extended",
-              "92:extended",
-              "93:extended",
-              "94:extended",
-              "95:extended",
-              "96:extended",
-              "98:extended",
-              "99:extended",
-              "100:extended",
-              "101:extended",
-              "102:extended",
-              "103:extended",
-              "104:extended",
-              "107:extended",
-              "108:extended",
-              "111:extended",
-              "112:extended",
-              "113:extended",
-              "114:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "2:extended",
@@ -1000,13 +904,18 @@
             "unregisteredSourceIds": [],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/ar/extended/007.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "listed-materials-included",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "المشمول: سورة ١–٧, ١١–١٥, ١٧–٢٠, ٢٢, ٢٥, ٢٨–٣١, ٣٣–٣٦, ٤٠–٤٣, ٤٥, ٤٧–٥١, ٥٥, ٥٧–٥٨, ٦١–٦٤, ٦٦–٦٨, ٧٠–٧٥, ٧٨–٩٦, ٩٨–١٠٤, ١٠٧–١٠٨, ١١١–١١٤",
-              "statusLabel": "",
+              "statusLabel": "بانتظار التحقق من المحتوى المشمول",
               "notes": [],
               "unitLabels": {
                 "1:extended": "سورة ١",
@@ -6433,23 +6342,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -6500,13 +6393,18 @@
             ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/ur/extended/099.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "شامل مواد: سورۃ ۱, ۱۵, ۱۷, ۴۰, ۵۵, ۶۱–۶۳, ۶۸, ۹۳, ۹۸–۹۹, ۱۰۱, ۱۰۳, ۱۱۲",
-              "statusLabel": "جزوی نسخہ",
+              "statusLabel": "شامل مواد کی جانچ باقی ہے",
               "notes": [
                 "اس نسخے میں شامل نہیں: سورۃ ۳۵"
               ],
@@ -6794,23 +6692,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -6861,13 +6743,18 @@
             ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/id/extended/099.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Termasuk: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "Edisi sebagian",
+              "statusLabel": "Pemeriksaan cakupan belum selesai",
               "notes": [
                 "Tidak termasuk dalam edisi ini: Surah 34"
               ],
@@ -7226,23 +7113,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -7293,13 +7164,18 @@
             ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/ms/extended/099.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Disertakan: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "Edisi separa",
+              "statusLabel": "Semakan kandungan belum selesai",
               "notes": [
                 "Tidak disertakan dalam edisi ini: Surah 34"
               ],
@@ -7658,23 +7534,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -7725,13 +7585,18 @@
             ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/bn/extended/099.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "অন্তর্ভুক্ত: সূরা ১, ১৫, ১৭, ৪০, ৫৫, ৬১–৬৩, ৬৮, ৯৩, ৯৮–৯৯, ১০১, ১০৩, ১১২",
-              "statusLabel": "আংশিক সংস্করণ",
+              "statusLabel": "অন্তর্ভুক্ত বিষয়ের যাচাই বাকি",
               "notes": [
                 "এই সংস্করণে অন্তর্ভুক্ত নয়: সূরা ৩৫"
               ],
@@ -8020,23 +7885,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -8094,13 +7943,18 @@
             ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/tr/extended/099.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "İçerilenler: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "Kısmi baskı",
+              "statusLabel": "İçerik kapsamı kontrolü bekleniyor",
               "notes": [
                 "Bu baskıya dahil değil: Sure 18, 34"
               ],
@@ -8460,23 +8314,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -8536,13 +8374,18 @@
             ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/fr/extended/099.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Inclus: Sourate 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "Édition partielle",
+              "statusLabel": "Vérification du contenu en attente",
               "notes": [
                 "Non inclus dans cette édition: Sourate 34–35"
               ],
@@ -8932,23 +8775,7 @@
               "103:extended",
               "112:extended"
             ],
-            "selectedIds": [
-              "1:extended",
-              "15:extended",
-              "17:extended",
-              "40:extended",
-              "55:extended",
-              "61:extended",
-              "62:extended",
-              "63:extended",
-              "68:extended",
-              "93:extended",
-              "98:extended",
-              "99:extended",
-              "101:extended",
-              "103:extended",
-              "112:extended"
-            ],
+            "selectedIds": [],
             "includedIds": [
               "1:extended",
               "15:extended",
@@ -8999,13 +8826,18 @@
             ],
             "competingSources": [],
             "legacyExcluded": 0,
-            "errors": [],
+            "errors": [
+              {
+                "reason": "Changed edition review/source input: materials/tadabbur/pt-BR/extended/099.json",
+                "stage": "source-selection"
+              }
+            ],
             "sourceApprovalCreated": false,
             "sourceQualificationsChanged": false,
-            "state": "partial",
+            "state": "check-pending",
             "presentation": {
               "includedLabel": "Incluído: Surata 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112",
-              "statusLabel": "Edição parcial",
+              "statusLabel": "Verificação do conteúdo pendente",
               "notes": [
                 "Não incluído nesta edição: Surata 34"
               ],
@@ -11756,5 +11588,5 @@
       }
     }
   },
-  "updated": "2026-11-15T08:47:15+00:00"
+  "updated": "2026-11-16T08:05:03+00:00"
 }

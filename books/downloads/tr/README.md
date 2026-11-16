@@ -48,7 +48,7 @@ Türkçe
 
 İçerilenler: Sure 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
 
-Kısmi baskı
+İçerik kapsamı kontrolü bekleniyor
 
 - Bu baskıya dahil değil: Sure 18, 34
 

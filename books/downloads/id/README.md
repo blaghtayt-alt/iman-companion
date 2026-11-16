@@ -48,7 +48,7 @@ Bahasa Indonesia
 
 Termasuk: Surah 1, 15, 17, 40, 55, 61–63, 68, 93, 98–99, 101, 103, 112
 
-Edisi sebagian
+Pemeriksaan cakupan belum selesai
 
 - Tidak termasuk dalam edisi ini: Surah 34
 
