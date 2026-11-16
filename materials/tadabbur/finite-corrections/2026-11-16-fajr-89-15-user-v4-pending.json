@@ -1,0 +1,32 @@
+{
+  "schema": "iman-finite-source-update-pending-v1",
+  "status": "PENDING_BOOK_READER_REGISTRATION_AND_RELEASE_CHECKS",
+  "scope": "Correct user-directed 89:15: exact v4 in extended only; restore simplified block to prior user-requested version.",
+  "baseCommit": "c5e7cb0edf03eb7a709fb673d8f5f7f25f75f84a",
+  "priorSimplifiedBaseline": "eca78cbc4da00aad519608bc68d96633c4bbce74",
+  "userTextFileSHA256": "3c751baed265b199b57cdb753e1deb91388c0acfcf3508ddd4c1c86ce6700b0c",
+  "finiteReviewSHA256": "69e86e029edc205d1c90a349063f3678b1bb3261199dd0f7914ad232a1e88151",
+  "sourceChanges": [
+    {
+      "path": "materials/tadabbur/ar/simplified/089.json",
+      "beforeSHA256": "5c81b24db8cabad053f57dec40978c379fc74f5639ca6bceaac3347202d5ccb6",
+      "afterSHA256": "f14331cb799a3b8efd2f0fff3edadd6d1ce08ae2d87e307359f955f62f5214d8"
+    },
+    {
+      "path": "materials/tadabbur/ar/simplified/089.md",
+      "beforeSHA256": "d7f3f7de858edb29c453b91fd0d5cffe089e96c1116f4dadf6f15c9d7cb17716",
+      "afterSHA256": "7dac5124326bf6d4ccccdd2f31f1d0ef7ab9077f4fb76efb816c3fd942f69b55"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/089.json",
+      "beforeSHA256": "c10272df8a8b1b8f1eb44f1279a800c1f689ff22c36b1e93e4ca3fac85f27843",
+      "afterSHA256": "9ae2d26919cb2df152d53b115d4913ca149760898af83eb1318019d3f244652d"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/089.md",
+      "beforeSHA256": "b25e55c5ff01894db3a936e0a1f2e407cf291f875c4cef0336c4eaa483a3b693",
+      "afterSHA256": "136424f9709766758ac141b5ee0aa72d391b5955adf92f3c91b7860638f1dae9"
+    }
+  ],
+  "bookStatus": "Reader registration, preparation, Word, visual acceptance and public download verification remain pending."
+}
