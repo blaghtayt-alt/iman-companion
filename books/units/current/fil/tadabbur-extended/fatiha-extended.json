@@ -25,8 +25,32 @@
       "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
     },
     {
-      "path": "materials/book-publication-approvals/9c92270b091bc0dc7ea4b4713f36c5efd13c54d4809383caf14f931e6cc614bd.json",
-      "sha256": "9c92270b091bc0dc7ea4b4713f36c5efd13c54d4809383caf14f931e6cc614bd"
+      "path": "materials/book-publication-approvals/f3eb8c584211b8ffdd6f424bd3336cae592edd28cf64ca49d619162104a42fbd.json",
+      "sha256": "f3eb8c584211b8ffdd6f424bd3336cae592edd28cf64ca49d619162104a42fbd"
+    },
+    {
+      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
+    },
+    {
+      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/existing-review-plus-finite-delta.json",
+      "sha256": "324edb0e29d11337d48369bdf2272cd6e7e91ff68cdc780cd555d16038b870af"
+    },
+    {
+      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/finite-independent-review.json",
+      "sha256": "a923ba447d948f39501d8a72f2bd6192a8bfa89204e87aed4fbe736392fd6be6"
+    },
+    {
+      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
+    },
+    {
+      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-transfer-receipt.json",
+      "sha256": "076a79247e41b44fe3bc159878f3b1b4007eb5bf0a5de35303ba482f2546f15a"
+    },
+    {
+      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/reader.json",
+      "sha256": "41a240a2980c5dfd1617623ca7f96d3e0fe6ba30a71a2a46fc25df224e742598"
     },
     {
       "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
@@ -43,10 +67,6 @@
     {
       "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-transfer-receipt.json",
       "sha256": "b08a2f373383e074875d37b3ae8b01bbff6edc7522dd280b7a367c028a3ca0cb"
-    },
-    {
-      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/reader.json",
-      "sha256": "5ec8ecb605b3950dd7ab8d938fc08e545e78f7e7d121bb2caf4a58f647de1bd6"
     },
     {
       "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/registered-source.json",
@@ -70,11 +90,11 @@
     },
     {
       "path": "materials/tadabbur/fatiha-extended/fil/reading.json",
-      "sha256": "cd344f972caf55370c84bf95fc5f8f7fba1e531e5675cee31af27b4740a579e9"
+      "sha256": "4a8a3b39071645763fca63d0c122b31ef93c1e0744abe7482a3757abf4079943"
     },
     {
       "path": "materials/tadabbur/fatiha-extended/fil/reading.md",
-      "sha256": "e76b003454514dbecbaafbd5719adf5e90c225925bbb92988a802a15fb66cd31"
+      "sha256": "a55e7d69c78be753290cfdbe2b1e89c856cd28d00757b28a9e859a0dccc1df7a"
     },
     {
       "path": "materials/tadabbur/fatiha-extended/fil/sources.json",
@@ -155,14 +175,14 @@
                 "collection": "tadabbur",
                 "language": "fil",
                 "materialId": "fatiha-extended",
-                "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                 "source": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                  "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                  "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                 },
                 "inventory": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                  "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                  "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                 },
                 "pointer": [],
                 "start": 6342,
@@ -207,14 +227,14 @@
                 "collection": "tadabbur",
                 "language": "fil",
                 "materialId": "fatiha-extended",
-                "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                 "source": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                  "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                  "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                 },
                 "inventory": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                  "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                  "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                 },
                 "pointer": [],
                 "start": 6342,
@@ -304,14 +324,14 @@
                 "collection": "tadabbur",
                 "language": "fil",
                 "materialId": "fatiha-extended",
-                "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                 "source": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                  "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                  "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                 },
                 "inventory": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                  "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                  "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                 },
                 "pointer": [],
                 "start": 6342,
@@ -376,14 +396,14 @@
                 "collection": "tadabbur",
                 "language": "fil",
                 "materialId": "fatiha-extended",
-                "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                 "source": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                  "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                  "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                 },
                 "inventory": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                  "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                  "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                 },
                 "pointer": [],
                 "start": 6342,
@@ -458,14 +478,14 @@
                 "collection": "tadabbur",
                 "language": "fil",
                 "materialId": "fatiha-extended",
-                "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                 "source": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                  "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                  "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                 },
                 "inventory": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                  "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                  "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                 },
                 "pointer": [],
                 "start": 6342,
@@ -492,7 +512,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Maaaring tawagin ng dila ang tao na lingkod ni Allāh, ngunit alipinin naman siya ng pagkahumaling sa salapi hanggang hindi na niya alintana ang utos Niya. Sa inilathalang babala: “Napahamak ang alipin ng dinar, dirham”. Susuriin ng bumabasa ang sarili sa pamamagitan ng mga kahulugang ito. Hindi lamang niya ihaharap ang mga salita sa iba at hindi na susuriin ang sarili niyang mga pasiya. Gayunman, hindi sapat na ipahayag ng lingkod ang gusto niya dahil alam niyang mahina siya. Maaaring tunay ang kanyang pag-ibig sa pagsunod, ngunit gipitin siya ng lipunan sa pagpapakitang kaakit-akit ang pag-iwan dito. Umabot ang pagpapaganda sa kabulaanan sa ilang tagapagtambal na sinabi ni Allāh tungkol sa kanila: “Gayon ipinang-akit sa marami sa mga tagapagtambal ng mga pantambal nila [kay Allāh] ang pagpatay sa mga anak nila”. Kaya naging maganda sa kanilang paningin ang gawaing kinasusuklaman ng likas na pagkatao nang magpasakop sila sa itinuro sa kanila.",
+          "text": "Sa salita, maaaring tawaging lingkod ni Allāh ang isang tao, ngunit maaari siyang alipinin ng pagkahumaling sa salapi hanggang hindi na niya alintana ang utos Niya. Sa inilathalang babala: “Napahamak ang alipin ng dinar, dirham”. Susuriin ng bumabasa ang sarili sa pamamagitan ng mga kahulugang ito. Hindi lamang niya ihaharap ang mga salita sa iba at hindi na susuriin ang sarili niyang mga pasiya. Gayunman, hindi sapat na ipahayag ng lingkod ang gusto niya dahil alam niyang mahina siya. Maaaring tunay ang kanyang pag-ibig sa pagsunod, ngunit gipitin siya ng lipunan sa pagpapakitang kaakit-akit ang pag-iwan dito. Umabot ang pagpapaganda sa kabulaanan sa ilang tagapagtambal na sinabi ni Allāh tungkol sa kanila: “Gayon ipinang-akit sa marami sa mga tagapagtambal ng mga pantambal nila [kay Allāh] ang pagpatay sa mga anak nila”. Kaya naging maganda sa kanilang paningin ang gawaing kinasusuklaman ng likas na pagkatao nang magpasakop sila sa itinuro sa kanila.",
           "role": "body"
         },
         {
@@ -555,14 +575,14 @@
                 "collection": "tadabbur",
                 "language": "fil",
                 "materialId": "fatiha-extended",
-                "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                 "source": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                  "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                  "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                 },
                 "inventory": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                  "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                  "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                 },
                 "pointer": [],
                 "start": 6342,
@@ -642,14 +662,14 @@
                 "collection": "tadabbur",
                 "language": "fil",
                 "materialId": "fatiha-extended",
-                "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                 "source": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                  "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                  "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                 },
                 "inventory": {
-                  "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                  "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                  "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                  "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                 },
                 "pointer": [],
                 "start": 6342,
@@ -731,18 +751,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 60713,
-                    "end": 60731,
+                    "start": 60723,
+                    "end": 60741,
                     "textSHA256": "99cbc7eb998ea827abdcf9eb99003fdccea81cf0889e1f9190d20814567b912b"
                   }
                 ],
@@ -752,18 +772,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 60733,
-                    "end": 61197,
+                    "start": 60743,
+                    "end": 61207,
                     "textSHA256": "0152ff71365c272f43b4fde978ebf70e9cdf5e7f6cb225c44349c70297946d82"
                   }
                 ],
@@ -773,18 +793,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 61199,
-                    "end": 61231,
+                    "start": 61209,
+                    "end": 61241,
                     "textSHA256": "85d45ab1409ea1b8005357f6dbc227ded36330eaeaea1bfc0a9543cd6fe475e8"
                   }
                 ],
@@ -794,18 +814,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 61233,
-                    "end": 61799,
+                    "start": 61243,
+                    "end": 61809,
                     "textSHA256": "5de0872599fb3293b967aa4ccdc5b8ad564796c271da943030bd998a9a520d7b"
                   }
                 ],
@@ -815,18 +835,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 61801,
-                    "end": 61828,
+                    "start": 61811,
+                    "end": 61838,
                     "textSHA256": "48bd846121f7418a629c761debb010dd814732223def8b225a19782608592b88"
                   }
                 ],
@@ -836,18 +856,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 61830,
-                    "end": 62212,
+                    "start": 61840,
+                    "end": 62222,
                     "textSHA256": "fa1929e6c484aa1dc83eb3ff2d48aaad6fec7a6a809f2e9f8d85f30bf6854be9"
                   }
                 ],
@@ -857,18 +877,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 62214,
-                    "end": 62250,
+                    "start": 62224,
+                    "end": 62260,
                     "textSHA256": "bf3679365a0a3a25aee1ccb64ea8ff3c22a0200a754f4e058251a93d63786445"
                   }
                 ],
@@ -878,18 +898,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 62252,
-                    "end": 62824,
+                    "start": 62262,
+                    "end": 62834,
                     "textSHA256": "268c80ff9fc7cdc12d5a251555973b632fd4d42e8bb784eb4e56545523ae7521"
                   }
                 ],
@@ -899,18 +919,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 62826,
-                    "end": 62860,
+                    "start": 62836,
+                    "end": 62870,
                     "textSHA256": "eb4a64b1b6c793407cb76d70eb4cfdf9edf24f3ef268737681f4fb72d9afb5b1"
                   }
                 ],
@@ -920,18 +940,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 62862,
-                    "end": 63373,
+                    "start": 62872,
+                    "end": 63383,
                     "textSHA256": "0fa1b303bf4ec7cfbdc0b2cb5bd3c12df71fecb468d2f3ceb9807da852e3f600"
                   }
                 ],
@@ -941,18 +961,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63375,
-                    "end": 63379,
+                    "start": 63385,
+                    "end": 63389,
                     "textSHA256": "f92a6768956e65cae05f25de05faa1f1fcabb15b0b598d1283801b91bf906449"
                   },
                   {
@@ -960,18 +980,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63382,
-                    "end": 63436,
+                    "start": 63392,
+                    "end": 63446,
                     "textSHA256": "3dcb8db454c511b712adcfa9be378c77f12b51350bbf4b6ae014251fe909c76f"
                   }
                 ],
@@ -981,18 +1001,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63438,
-                    "end": 63450,
+                    "start": 63448,
+                    "end": 63460,
                     "textSHA256": "b5907c62688975847e0ac7a65dfd9b9293f07dd88b3f063d7cd21a03ee8a8916"
                   },
                   {
@@ -1000,18 +1020,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63453,
-                    "end": 63543,
+                    "start": 63463,
+                    "end": 63553,
                     "textSHA256": "493be5e2ffdb737c1a0cbda2eb072312ecaf0afd3aaa1e7e0b0807b26344a46d"
                   }
                 ],
@@ -1021,18 +1041,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63545,
-                    "end": 63551,
+                    "start": 63555,
+                    "end": 63561,
                     "textSHA256": "cdd0ff0d6ddd587fe8d78acb937839d1ad425fb359e462436ddd7b9a0f379d8b"
                   },
                   {
@@ -1040,18 +1060,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63554,
-                    "end": 63639,
+                    "start": 63564,
+                    "end": 63649,
                     "textSHA256": "19adca29bad55346b450ec79f8f746fc50e4b4db9f346340345b4b3afb2a12cc"
                   }
                 ],
@@ -1061,18 +1081,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63641,
-                    "end": 63646,
+                    "start": 63651,
+                    "end": 63656,
                     "textSHA256": "99a695dedecccf897028c9e03625ff86aaa4c0debc64cae68151ad5d09b527cb"
                   },
                   {
@@ -1080,18 +1100,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63649,
-                    "end": 63684,
+                    "start": 63659,
+                    "end": 63694,
                     "textSHA256": "5a03ee85fbcaf35bf3c2b5ed776017a79ff66f3eb718bfd93f5bf4cb466a13b3"
                   }
                 ],
@@ -1101,18 +1121,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63686,
-                    "end": 63691,
+                    "start": 63696,
+                    "end": 63701,
                     "textSHA256": "ad663a59a827d1b3c27e1c0a04b841d417a7f2ea982fc15ef2dc22c230689741"
                   },
                   {
@@ -1120,18 +1140,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63694,
-                    "end": 63787,
+                    "start": 63704,
+                    "end": 63797,
                     "textSHA256": "0ce7d28544a224fa761905802138de937a43f6911a3ff6146fcbb6ea85ea257a"
                   }
                 ],
@@ -1141,18 +1161,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63789,
-                    "end": 63795,
+                    "start": 63799,
+                    "end": 63805,
                     "textSHA256": "f6e79b049a58848d2a67a4b4d93797afe98f141dc42b7693c5d17705189f5d74"
                   },
                   {
@@ -1160,18 +1180,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63798,
-                    "end": 63870,
+                    "start": 63808,
+                    "end": 63880,
                     "textSHA256": "e1e545c6cd34d432695c5fa046fd30efe689afe70ec7e960f2411deb1e10c6cf"
                   }
                 ],
@@ -1181,18 +1201,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 56881,
-                    "end": 56887,
+                    "start": 56891,
+                    "end": 56897,
                     "textSHA256": "5e346c68a65a128bba7d18a3c745e046765ec837cc15df84a185b60d0eefd037"
                   },
                   {
@@ -1200,18 +1220,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63881,
-                    "end": 63920,
+                    "start": 63891,
+                    "end": 63930,
                     "textSHA256": "60a05dedeb756e487b9dbaec48979ffe4077460ef7f2a0fc2af19bd3b90fad08"
                   }
                 ],
@@ -1221,18 +1241,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63922,
-                    "end": 63927,
+                    "start": 63932,
+                    "end": 63937,
                     "textSHA256": "50c5675bf2c64913d11fabb8a844777e2085a5067080dd3fdba9ff0c42b82672"
                   },
                   {
@@ -1240,18 +1260,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 63930,
-                    "end": 64045,
+                    "start": 63940,
+                    "end": 64055,
                     "textSHA256": "ac106441e5c72455e28d617ad889bcc36f31dcfcc67c0a73b35b98655e04fc5d"
                   }
                 ],
@@ -1261,18 +1281,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 54647,
-                    "end": 54665,
+                    "start": 54657,
+                    "end": 54675,
                     "textSHA256": "ae45a1c00d6a8789962b416c045600dcaf7e020d89545f244b33e04cae7124b7"
                   },
                   {
@@ -1280,18 +1300,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64068,
-                    "end": 64187,
+                    "start": 64078,
+                    "end": 64197,
                     "textSHA256": "85455e2a463dd092b3d97b83f5fbaf9207934ad6f233429c3150be95d69f1a2e"
                   }
                 ],
@@ -1301,14 +1321,14 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
                     "start": 1234,
@@ -1320,18 +1340,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64196,
-                    "end": 64267,
+                    "start": 64206,
+                    "end": 64277,
                     "textSHA256": "36db4769abf5f6e109f7826720514d900e7d178a6407488828ecb571c8ab3249"
                   }
                 ],
@@ -1341,18 +1361,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64269,
-                    "end": 64276,
+                    "start": 64279,
+                    "end": 64286,
                     "textSHA256": "fd0f9944db8333b19053a47ee6bd510f254ff8978fe9198041059fb32a5fd1b0"
                   },
                   {
@@ -1360,18 +1380,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64279,
-                    "end": 64339,
+                    "start": 64289,
+                    "end": 64349,
                     "textSHA256": "c8483fa5ed5696ed58992859a32c35844284f1508641bb0d368e431ab996cd27"
                   }
                 ],
@@ -1381,18 +1401,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64341,
-                    "end": 64347,
+                    "start": 64351,
+                    "end": 64357,
                     "textSHA256": "1b4cac24f5d52519958d90dd2d3426a964c5e66be7719625d17892809b0f1628"
                   },
                   {
@@ -1400,18 +1420,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64350,
-                    "end": 64379,
+                    "start": 64360,
+                    "end": 64389,
                     "textSHA256": "0452a6bc192d796226c8b597eb0b426666bbaf4206df85b0d7999827472c4c80"
                   }
                 ],
@@ -1421,18 +1441,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64381,
-                    "end": 64396,
+                    "start": 64391,
+                    "end": 64406,
                     "textSHA256": "6b81d9108e4c4188caf03a721461968b98ee1c931f427a010913c2b7183779e3"
                   },
                   {
@@ -1440,18 +1460,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64399,
-                    "end": 64449,
+                    "start": 64409,
+                    "end": 64459,
                     "textSHA256": "c2f9a566ce32421d69e3700ba2fe3330afeec491d9c32391a87788842510c30a"
                   }
                 ],
@@ -1461,18 +1481,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64451,
-                    "end": 64476,
+                    "start": 64461,
+                    "end": 64486,
                     "textSHA256": "2c7a506701e6cd13ff56a88e60e817697a0e311fca506a289fc42abd5a496df2"
                   },
                   {
@@ -1480,18 +1500,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64479,
-                    "end": 64590,
+                    "start": 64489,
+                    "end": 64600,
                     "textSHA256": "619db1f9e1d0131ea5040fcc8dd107d61e3bd4af5ea28cf158a120f14ca26da5"
                   }
                 ],
@@ -1501,18 +1521,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64592,
-                    "end": 64623,
+                    "start": 64602,
+                    "end": 64633,
                     "textSHA256": "ea956f7d31be39ed764042d379054872c473c30bb691951a6cc23761b3e5ef9e"
                   },
                   {
@@ -1520,18 +1540,18 @@
                     "collection": "tadabbur",
                     "language": "fil",
                     "materialId": "fatiha-extended",
-                    "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+                    "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
                     "source": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/complete-reader.txt",
-                      "sha256": "12933b6e7fec6779b63f7a919734aedee6203dc23fcaec635a294dd9a2e25aea"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/complete-reader.txt",
+                      "sha256": "2884b87f286bba668d5e17020ccf713d3f71f9a50adf490eab6627e13870c831"
                     },
                     "inventory": {
-                      "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/literal-source-acceptance.json",
-                      "sha256": "faa926d3aabd293376cbfd2b811b5627cb3d2042ceb273969e80811bc8080887"
+                      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/literal-source-acceptance.json",
+                      "sha256": "e387d31a2ffc7c44c79da7221d68bd4f7038bef81c138374bfe81195a4d7834f"
                     },
                     "pointer": [],
-                    "start": 64626,
-                    "end": 64773,
+                    "start": 64636,
+                    "end": 64783,
                     "textSHA256": "d2317bef962be3f3bd574673e4da2f6b0cc581b63ac643140d71f59903f21a33"
                   }
                 ]
@@ -1561,7 +1581,7 @@
     }
   },
   "coverageLabel": null,
-  "readerTextSHA256": "6adac56551e6365b0974853fdd527b5e96ade599b144443e06111f2524995cd5",
+  "readerTextSHA256": "5fb145dea214d7bf201cc58df36420dc45bf6a2f9bf9b50edd973ede0d117f63",
   "sourceReferencePreservation": {
     "schema": "iman-source-reference-preservation-v1",
     "auditMode": "literal-source-and-qualification-fidelity",
@@ -3283,11 +3303,27 @@
       },
       "noNewSemanticReview": true,
       "originalQualificationUnchanged": true
+    },
+    "finiteReviewedDelta20261117": {
+      "priorReader": {
+        "path": "materials/source-acceptances/recovered-329-v1/fil/fatiha-extended/reader.json",
+        "sha256": "5ec8ecb605b3950dd7ab8d938fc08e545e78f7e7d121bb2caf4a58f647de1bd6"
+      },
+      "reviewChain": {
+        "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/existing-review-plus-finite-delta.json",
+        "sha256": "324edb0e29d11337d48369bdf2272cd6e7e91ff68cdc780cd555d16038b870af"
+      },
+      "finiteReview": {
+        "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/fil/fatiha-extended/finite-independent-review.json",
+        "sha256": "a923ba447d948f39501d8a72f2bd6192a8bfa89204e87aed4fbe736392fd6be6"
+      },
+      "noNewWholeSemanticReview": true
     }
   },
+  "translationCredits": [],
   "publicationApproval": {
-    "path": "materials/book-publication-approvals/9c92270b091bc0dc7ea4b4713f36c5efd13c54d4809383caf14f931e6cc614bd.json",
-    "sha256": "9c92270b091bc0dc7ea4b4713f36c5efd13c54d4809383caf14f931e6cc614bd",
-    "approvalId": "recovered-existing-review-329-v1-fil-fatiha-extended"
+    "path": "materials/book-publication-approvals/f3eb8c584211b8ffdd6f424bd3336cae592edd28cf64ca49d619162104a42fbd.json",
+    "sha256": "f3eb8c584211b8ffdd6f424bd3336cae592edd28cf64ca49d619162104a42fbd",
+    "approvalId": "existing-whole-plus-finite-20261117-fil-fatiha-extended"
   }
 }
