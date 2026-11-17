@@ -1,0 +1,25 @@
+{
+  "schema": "iman-recovered-source-owner-acceptance-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "bn",
+    "id": "1:extended"
+  },
+  "decision": "exact-prior-reader-plus-reviewed-finite-delta",
+  "previousReader": {
+    "path": "materials/source-acceptances/recovered-329-v1/bn/1-extended/reader.json",
+    "sha256": "ea9c27b2a6dc0efc1bea74ed41edc3e56dcdffe4ed608dc5e521cd64d9d7574f"
+  },
+  "reviewChain": {
+    "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/bn/1-extended/existing-review-plus-finite-delta.json",
+    "sha256": "e950211128ee8bd5c5db59a4cf389e28882c0f3583bddc9898cbb1fb8ac52fe3"
+  },
+  "readerTextSHA256": "0af17b390960688d399e6a6c419dd0308b843d95ff6aab40aa502db8fbd07171",
+  "beforeTextSHA256": "0c99b6b925b8d0f59c34289468c2703367bad2308b22510b9220189cf62ece6c",
+  "afterTextSHA256": "624b23001a82bc295e637fc7221740c0b32428b27c3d6c96378827524b0ceda1",
+  "allUnchangedFieldsPreserved": true,
+  "semanticReviewCreated": false,
+  "humanCertification": false,
+  "wordAcceptance": false,
+  "visualAcceptance": false
+}

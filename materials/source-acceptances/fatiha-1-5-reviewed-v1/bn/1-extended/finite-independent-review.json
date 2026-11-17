@@ -1,0 +1,176 @@
+{
+  "scope": "Al-Fatiha 1:5 Extended, five previously flagged commentary changes only.",
+  "decision": "ACCEPT_FIVE_EXACT_COMMENTARY_CORRECTIONS_FOR_INTEGRATION_CHECKS",
+  "reviewer": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "xhigh",
+    "provenance": "Existing explicit independent reviewer route confirmed by coordinator. Candidate wording supplied by a different author, /root.",
+    "kind": "AI source comparison and target-language reread."
+  },
+  "candidateFilename": "FIVE-COMMENTARY-CORRECTIONS-CANDIDATE-v1.json",
+  "candidateSHA256": "2c04582399e5c83f50c22b86c4b51bbb214dd9e1400fe08a398572b6f1166611",
+  "previousFiniteReviewSHA256": "20278b3ccbfff0cb8389cfe75f3ae90be1bc73fb715220101b7927ce5966bc4f",
+  "finiteSourcePacketSHA256": "cbb04ab82cd1827b156aa3af5039139026f5d990d29645753515372a13ca3c7c",
+  "effectiveCurrentRendererExportSHA256": "64a7143a2a35d660ed4268450ece32d58258acdae88e68a3868e6632cc304ce9",
+  "controllingArabicSentence": "وقد سماه اللسان عبدًا لله، ثم قد يستعبده تعلق بالمال حتى لا يعبأ بأمره؛ وفي التحذير: «تعس عبد الدينار وعبد الدرهم» .",
+  "ownerArabicExactUTF8SHA256": "6ec15e2fcdc58e8564b3c9520e5ea91b3124bd3c89f3ea113e010933f0f0d0e5",
+  "currentArabicBlockUtf8TextSHA256": "c612b10020f8ecc4362f631f6ac635960df31b03a66c0814a2846da758a668a7",
+  "sourceBinding": "Owner sentence occurs exactly once in the controlling Arabic block. Identical block objects in candidate, prior source packet and received current-renderer export. The six pinned baseline file SHA-256 values were checked again.",
+  "checks": [
+    "Bound every BEFORE block to the prior effective-renderer export and prior review hash. Compared each resulting sentence to the controlling Arabic in context.",
+    "Performed a separate target-only reread of the five full resulting blocks in reverse order.",
+    "Verified the exact substitutions in both directions. Reversing only the specified commentary text, including its duplicated meaning span in Bengali, reconstructs each full original block object. All quotation text, punctuation outside the edits, existing quote spans, roles and metadata are preserved. The other four supplied blocks have no separate spans field.",
+    "Checked that the five candidate IDs correspond exactly to the five prior DISAGREE decisions and the other fourteen locales are absent from this delta packet. The existing fourteen no-change decisions stand."
+  ],
+  "objectHashMethod": "UTF-8 SHA-256 of compact sorted-key JSON with literal Unicode. Text hashes use exact UTF-8 without normalization.",
+  "results": [
+    {
+      "caseId": "FATIHA-1-5-DINAR-bn",
+      "language": "bn",
+      "blockIndex": 5,
+      "verdict": "AGREE",
+      "sourceComparison": "কেউ নিজেকে gives the speaker an explicit human referent and makes the title Allah’s servant apply to that person. The retained করতে পারে preserves the possibility that attachment to wealth enslaves the same person until Allah’s command no longer matters to them.",
+      "targetOnlyReread": {
+        "scope": "Entire resulting target block read separately without Arabic, BEFORE text or author rationale.",
+        "finding": "মুখে … বললেও reads as a spoken profession. The transition from নিজেকে to তাকে is easy to follow between the two Hadith passages.",
+        "exactBlockUtf8SHA256": "624b23001a82bc295e637fc7221740c0b32428b27c3d6c96378827524b0ceda1"
+      },
+      "beforeSpan": "মুখে মানুষ আল্লাহর বান্দা বললেও",
+      "afterSpan": "মুখে কেউ নিজেকে আল্লাহর বান্দা বললেও",
+      "beforeSpanUTF8SHA256": "c9a3966a6c4b3cf27e29b977fc2bceb31f5ba6266151afa67c325dfaf2c9ec91",
+      "afterSpanUTF8SHA256": "3c1d1a5c12fce181f3b1fa959a05a662df504fee852f8f80d884927b386f8fc4",
+      "beforeSentenceUTF8SHA256": "c2970b62b6ad454795a1402abae4c615c7d35b8bb9ccd3ed7fb1b268225b8cee",
+      "resultingSentence": "মুখে কেউ নিজেকে আল্লাহর বান্দা বললেও সম্পদের আসক্তি তাকে এমন দাস করতে পারে যে, তাঁর আদেশের পরোয়া থাকে না।",
+      "resultingSentenceUTF8SHA256": "4ff58a70ff201be7984cb08dcef913a7adc2d87fada3aadb0be811d866bb74a7",
+      "beforeTextSHA256": "0c99b6b925b8d0f59c34289468c2703367bad2308b22510b9220189cf62ece6c",
+      "afterTextSHA256": "624b23001a82bc295e637fc7221740c0b32428b27c3d6c96378827524b0ceda1",
+      "beforeCanonicalBlockObjectSHA256": "0239a70c8ee31e92fd8befa835306ba7d12142955ef5087cca9e70f6adb0d1f9",
+      "afterCanonicalBlockObjectSHA256": "fbe8cc64c52d29cf9255941e989094ff0a355bfcfbd4011599e0f1ea818e3fc3",
+      "changedTextPaths": [
+        "text",
+        "spans[2].text"
+      ],
+      "followingUnchangedTextUtf8SHA256": "2e421e36acb8c5f6791b74c8573d7f88a29f4866020554dd058bb09a276b6e1b",
+      "wholeBlockObjectReconstructedByExactReversal": true
+    },
+    {
+      "caseId": "FATIHA-1-5-DINAR-ja",
+      "language": "ja",
+      "blockIndex": 4,
+      "verdict": "AGREE",
+      "sourceComparison": "口にしていても expresses saying that one is Allah’s servant. The following attachment to money can come to dominate that person and lead to disregard of the Lord’s command. ことがある retains the possibility of this outcome.",
+      "targetOnlyReread": {
+        "scope": "Entire resulting target block read separately without Arabic, BEFORE text or author rationale.",
+        "finding": "The opening is idiomatic with 自分は … だと. The concessive ending leads smoothly into 支配され, and その警告として then introduces the warning.",
+        "exactBlockUtf8SHA256": "58a976668f1a38723928d53406a38bd55b1bf8005f2e0bdf380897d3a6e8e6f8"
+      },
+      "beforeSpan": "舌では自分はアッラーのしもべだと言いながら、",
+      "afterSpan": "自分はアッラーのしもべだと口にしていても、",
+      "beforeSpanUTF8SHA256": "9f230dd9b18ab6fc27166f182fae5b951f7a63b9282a57ad84f08d0911797c81",
+      "afterSpanUTF8SHA256": "8643807e944d57f6917da1a7d7cdb58f1258bc88ab91a89c935def704410fac3",
+      "beforeSentenceUTF8SHA256": "b52a592fbd9fa63f6fa688c25ebfbe5ae728c52d3a8eb844a1654195e9f5bae8",
+      "resultingSentence": "自分はアッラーのしもべだと口にしていても、金銭への執着に支配され、主の命令を気に留めなくなることがある。",
+      "resultingSentenceUTF8SHA256": "352a02b17dc9fd6b374a1a1f62a41a0b1d78e19c8c8071f46beb61f615125109",
+      "beforeTextSHA256": "c0806313dd49aa4b1f12ad19b7512bcb25f72bc1300d286a0f4e0cace94b9617",
+      "afterTextSHA256": "58a976668f1a38723928d53406a38bd55b1bf8005f2e0bdf380897d3a6e8e6f8",
+      "beforeCanonicalBlockObjectSHA256": "b60e013a4b2f338a94e4b372dee0edb61a84277dbdff65f93159e2a8f21fc622",
+      "afterCanonicalBlockObjectSHA256": "43e3c397169bbd946435a7ea705d512d97c9470e2cee24762aae89a1113a6608",
+      "changedTextPaths": [
+        "text"
+      ],
+      "followingUnchangedTextUtf8SHA256": "91babd5ab181dd7281abb7698f618a91fbe93fd77f1cd6f55ad43172c224ecdd",
+      "wholeBlockObjectReconstructedByExactReversal": true
+    },
+    {
+      "caseId": "FATIHA-1-5-DINAR-fil",
+      "language": "fil",
+      "blockIndex": 4,
+      "verdict": "AGREE",
+      "sourceComparison": "Tawaging lingkod ni Allāh makes servant the designation applied to the person. Sa salita expresses its verbal nature. Maaari siyang alipinin explicitly makes enslavement by attachment to money possible, ending in disregard of His command.",
+      "targetOnlyReread": {
+        "scope": "Entire resulting target block read separately without Arabic, BEFORE text or author rationale.",
+        "finding": "Ang isang tao and siya now identify the same person. The repeated maaari works in the two contrasting clauses. The sentence leads clearly into the warning about the dinar.",
+        "exactBlockUtf8SHA256": "6332fa9412006c33628b650bfec3861068fca9ef6d8d7cd7dbec55ae810b70ad"
+      },
+      "beforeSpan": "Maaaring tawagin ng dila ang tao na lingkod ni Allāh, ngunit alipinin naman siya ng pagkahumaling sa salapi hanggang hindi na niya alintana ang utos Niya.",
+      "afterSpan": "Sa salita, maaaring tawaging lingkod ni Allāh ang isang tao, ngunit maaari siyang alipinin ng pagkahumaling sa salapi hanggang hindi na niya alintana ang utos Niya.",
+      "beforeSpanUTF8SHA256": "8e4f4cd6ca8e56fdc2217ebbdb5f8362842b448832d85cba59a29948614a93fd",
+      "afterSpanUTF8SHA256": "06ab03d511a58d70cd993b8eb73b7e7ca05107742667ebed05fda0ec8df010b9",
+      "beforeSentenceUTF8SHA256": "8e4f4cd6ca8e56fdc2217ebbdb5f8362842b448832d85cba59a29948614a93fd",
+      "resultingSentence": "Sa salita, maaaring tawaging lingkod ni Allāh ang isang tao, ngunit maaari siyang alipinin ng pagkahumaling sa salapi hanggang hindi na niya alintana ang utos Niya.",
+      "resultingSentenceUTF8SHA256": "06ab03d511a58d70cd993b8eb73b7e7ca05107742667ebed05fda0ec8df010b9",
+      "beforeTextSHA256": "c3b9b7669fa101ea3a7c41071b5267441a035f5fa800b9efff64a8bb21d17718",
+      "afterTextSHA256": "6332fa9412006c33628b650bfec3861068fca9ef6d8d7cd7dbec55ae810b70ad",
+      "beforeCanonicalBlockObjectSHA256": "07495ab55d7daf8a6e7570c1ad01f85157f7b1a305cfd36eddbfe72fdf440157",
+      "afterCanonicalBlockObjectSHA256": "55af51a0ca667337059b85c2a2222cd637c7dd69f9dcdae54cf66588a0eabfc2",
+      "changedTextPaths": [
+        "text"
+      ],
+      "followingUnchangedTextUtf8SHA256": "4ee5448a116ed466cf774030f563bfec18ac139cd66c556a8546dfc9f202fb09",
+      "wholeBlockObjectReconstructedByExactReversal": true
+    },
+    {
+      "caseId": "FATIHA-1-5-DINAR-th",
+      "language": "th",
+      "blockIndex": 4,
+      "verdict": "AGREE",
+      "sourceComparison": "คนเรา is the human subject of กล่าว. ตน now refers to the person called Allah’s servant. The second อาจ preserves the possibility of domination by attachment to money, followed by disregard of His command.",
+      "targetOnlyReread": {
+        "scope": "Entire resulting target block read separately without Arabic, BEFORE text or author rationale.",
+        "finding": "The opening reads as a person speaking about themself. The explicit เขา carries that person into the consequence, and พระองค์ has a clear divine referent before the warning.",
+        "exactBlockUtf8SHA256": "f1872ea4540cf00f87048dcff2201cf8c7cd31fa64ed3d2006103aa2b242fb1a"
+      },
+      "beforeSpan": "ลิ้นอาจเรียกตนว่าเป็นบ่าวของอัลลอฮ์ แต่ความผูกพันกับเงินอาจครอบงำจนไม่ใส่ใจคำสั่งของพระองค์",
+      "afterSpan": "คนเราอาจกล่าวว่าตนเป็นบ่าวของอัลลอฮ์ แต่ความผูกพันกับเงินอาจครอบงำเขาจนไม่ใส่ใจคำสั่งของพระองค์",
+      "beforeSpanUTF8SHA256": "e974e703931d4c6682333eadc503208e2f3c3b3945f5677c9db998a9c377b7f3",
+      "afterSpanUTF8SHA256": "5dc4f2663156ba65d7f911c99db8cfb053777df70068fed2879e3cac04982858",
+      "beforeSentenceUTF8SHA256": "e974e703931d4c6682333eadc503208e2f3c3b3945f5677c9db998a9c377b7f3",
+      "resultingSentence": "คนเราอาจกล่าวว่าตนเป็นบ่าวของอัลลอฮ์ แต่ความผูกพันกับเงินอาจครอบงำเขาจนไม่ใส่ใจคำสั่งของพระองค์",
+      "resultingSentenceUTF8SHA256": "5dc4f2663156ba65d7f911c99db8cfb053777df70068fed2879e3cac04982858",
+      "beforeTextSHA256": "a2be8087477c63a3839d3f57a7469640fd7cbb2f896891ddb1374a1c0d7b430b",
+      "afterTextSHA256": "f1872ea4540cf00f87048dcff2201cf8c7cd31fa64ed3d2006103aa2b242fb1a",
+      "beforeCanonicalBlockObjectSHA256": "c95d9b961784c8ff2230851e97208e47df470e45740771a82f83859c345e5ff8",
+      "afterCanonicalBlockObjectSHA256": "dfd9467b121b5b3bf007b2087adde2d47c385cab18b548f490074b0a857bebba",
+      "changedTextPaths": [
+        "text"
+      ],
+      "followingUnchangedTextUtf8SHA256": "b2513671b5f0dfff69ce4bbd2b3e8e5336000c06a64f0b39aca23ef752f95151",
+      "wholeBlockObjectReconstructedByExactReversal": true
+    },
+    {
+      "caseId": "FATIHA-1-5-DINAR-vi",
+      "language": "vi",
+      "blockIndex": 4,
+      "verdict": "AGREE",
+      "sourceComparison": "Tự nhận mình là bề tôi của Allah bằng lời nói identifies a person verbally professing servitude to Allah. Lại có thể preserves possible enslavement through attachment to money, leading to disregard of His command.",
+      "targetOnlyReread": {
+        "scope": "Entire resulting target block read separately without Arabic, BEFORE text or author rationale.",
+        "finding": "Một người and người ấy keep the same person in view. The parallel có thể clauses and đến mức establish the contrast and consequence. Nô dịch fits the register and prepares for nô lệ in the warning.",
+        "exactBlockUtf8SHA256": "ecbd2c31a48582092fb03e6c76ecebf2fd4410256596a56274483c2561f3a2c8"
+      },
+      "beforeSpan": "Có người trên lưỡi mang danh bề tôi Allah nhưng bị lòng mê tiền nô dịch đến mức không quan tâm lệnh Ngài.",
+      "afterSpan": "Một người có thể tự nhận mình là bề tôi của Allah bằng lời nói, nhưng sự gắn bó với tiền bạc lại có thể nô dịch người ấy đến mức không còn quan tâm đến mệnh lệnh của Ngài.",
+      "beforeSpanUTF8SHA256": "fc0399070de8f935087b122cf535ce8308b17f4a8f17555862ea8af4406bf42a",
+      "afterSpanUTF8SHA256": "cedfe76b615dcb29154f66925439f5f07df4d300a70101038ebdb6b08a18f353",
+      "beforeSentenceUTF8SHA256": "fc0399070de8f935087b122cf535ce8308b17f4a8f17555862ea8af4406bf42a",
+      "resultingSentence": "Một người có thể tự nhận mình là bề tôi của Allah bằng lời nói, nhưng sự gắn bó với tiền bạc lại có thể nô dịch người ấy đến mức không còn quan tâm đến mệnh lệnh của Ngài.",
+      "resultingSentenceUTF8SHA256": "cedfe76b615dcb29154f66925439f5f07df4d300a70101038ebdb6b08a18f353",
+      "beforeTextSHA256": "6187464e1614f35f55a4626f6c291e4147af213267eab2a07d1155b6449adba1",
+      "afterTextSHA256": "ecbd2c31a48582092fb03e6c76ecebf2fd4410256596a56274483c2561f3a2c8",
+      "beforeCanonicalBlockObjectSHA256": "2fa02acab9f4e50c24e3b521f454ea81ccbe1e0365c975f34b483856fbc76343",
+      "afterCanonicalBlockObjectSHA256": "2231786a8bd2569952e9fd1a9919804e653c48690c6fc38f139134f1a429fa23",
+      "changedTextPaths": [
+        "text"
+      ],
+      "followingUnchangedTextUtf8SHA256": "e4bea421ae1bf76f3b07b322d80367cb39bbfbb860aaa76415ee748a0f4233fe",
+      "wholeBlockObjectReconstructedByExactReversal": true
+    }
+  ],
+  "verdictCounts": {
+    "AGREE": 5,
+    "DISAGREE": 0,
+    "NEEDS_SOURCE": 0
+  },
+  "outstandingTextChanges": [],
+  "integrationStatus": "Pending. Candidate is a private text/block artifact. No candidate UI, installed build, publication or downloadable book was tested or approved by this review."
+}

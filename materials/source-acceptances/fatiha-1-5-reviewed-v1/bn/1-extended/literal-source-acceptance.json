@@ -1,0 +1,83 @@
+{
+  "schema": "iman-approved-reader-source-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "bn",
+    "id": "1:extended"
+  },
+  "current": true,
+  "readingSource": {
+    "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/bn/1-extended/complete-reader.txt",
+    "sha256": "a9fe13f1a767417d85c80da8959f228614965cee579e1a4dd20499147c4617de"
+  },
+  "sourceBindings": [
+    {
+      "path": "books/assets/quran-arabic.json",
+      "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+    },
+    {
+      "path": "books/assets/surah-names-native-20261107.json",
+      "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.json",
+      "sha256": "52846df0a184648b4a5b648f3871a430ceea42addedd5a15ce810aa1f14f3ab9"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/001.md",
+      "sha256": "a6042eceafe71c0b6c66d16c45c90ff75940f4aefad9a19c3a75f87da368be40"
+    },
+    {
+      "path": "materials/tadabbur/bn/extended/001.json",
+      "sha256": "24b99d54127932c19dfdeac99a37b166185ece2e2c249f2c0fa8d42fda895d90"
+    },
+    {
+      "path": "materials/tadabbur/bn/extended/001.md",
+      "sha256": "65322fdbdb42b1c5f342c87a47bae7efad0b2f30d1f0748902c70e4990a4d2f1"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/bn/1-extended/complete-reader.txt",
+      "sha256": "4f6ab2df7c4de87e43538a9705a8c75c0ee06ef75ad1a92c83e97ee6d13810f1"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/bn/1-extended/literal-source-acceptance.json",
+      "sha256": "d0ada13b5ec22f8bf287e5b2f2f1872246f729cc3f46145f15245da1a4173881"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/bn/1-extended/existing-review-chain.json",
+      "sha256": "5219910aac0023a132ad2f420e12586db24d70566a1c09a8ce3589196676ed00"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/bn/1-extended/literal-transfer-receipt.json",
+      "sha256": "9aa0ce16bc68647b1fe9124506a26fc6ba6bd05fd2fe7b12994e0de1c2a32ef8"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/bn/1-extended/registered-source.json",
+      "sha256": "5c39a0e5f65b06d858c21fe55229e876c0b90eab8b186662bbc489f2eaefac66"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc.json",
+      "sha256": "89b81d93fd14ae254d0758fd5ef9f4dcc70e7fdd0b263c0420bc1f0608e0e0cc"
+    },
+    {
+      "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/bn/1-extended/complete-reader.txt",
+      "sha256": "a9fe13f1a767417d85c80da8959f228614965cee579e1a4dd20499147c4617de"
+    }
+  ],
+  "approval": {
+    "decision": "approved",
+    "wholeMaterial": true,
+    "approvalId": "existing-whole-plus-finite-20261117-bn-1:extended",
+    "reviewer": {
+      "kind": "source-owner-literal-structural-reconciliation",
+      "identity": "integration-writer",
+      "scope": "Existing whole-reader review plus independently reviewed finite correction; no new whole semantic/human/Word/visual approval"
+    },
+    "semanticReviewSHA256": "e950211128ee8bd5c5db59a4cf389e28882c0f3583bddc9898cbb1fb8ac52fe3",
+    "sourceAcceptanceSHA256": "be0de576259879cff51ad95cbb1486006450cff288ab3660a075ec47bc37ff61",
+    "readerTextSHA256": "0af17b390960688d399e6a6c419dd0308b843d95ff6aab40aa502db8fbd07171",
+    "originalQualifiersRetained": true,
+    "semanticReviewCreated": false
+  },
+  "literalLinks": []
+}
