@@ -1,0 +1,36 @@
+{
+  "schema": "iman-existing-whole-review-and-finite-deltas-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "ja",
+    "id": "fatiha-extended"
+  },
+  "originalReviewAndReader": [
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ja/fatiha-extended/existing-review-chain.json",
+      "sha256": "6fafd68138f9ef87a39b1ec577b08ed77560beceb863ef6ac3f56ae1b6527da0"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ja/fatiha-extended/literal-transfer-receipt.json",
+      "sha256": "98f6de01c7fcb8ad6304638d6311491e17fa610d013f54d41884419ed01a83ef"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ja/fatiha-extended/literal-source-acceptance.json",
+      "sha256": "a1dfa6834589bd3a3e4d5c1f12e6a3a1e6a78b5ea4f9ad4d383171828adb4375"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ja/fatiha-extended/reader.json",
+      "sha256": "01765e3bdcb948abc52fea58c0030e103fda5a2924abcb3dfe824ab920fcf7a6"
+    }
+  ],
+  "finiteIndependentReview": {
+    "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/ja/fatiha-extended/finite-independent-review.json",
+    "sha256": "a923ba447d948f39501d8a72f2bd6192a8bfa89204e87aed4fbe736392fd6be6"
+  },
+  "finiteCandidateSHA256": "2c04582399e5c83f50c22b86c4b51bbb214dd9e1400fe08a398572b6f1166611",
+  "beforeTextSHA256": "c0806313dd49aa4b1f12ad19b7512bcb25f72bc1300d286a0f4e0cace94b9617",
+  "afterTextSHA256": "58a976668f1a38723928d53406a38bd55b1bf8005f2e0bdf380897d3a6e8e6f8",
+  "semanticReviewCreated": false,
+  "humanCertification": false,
+  "qualification": "Prior whole-reader review and independently reviewed single-paragraph delta; no new human, scholarly, Word or visual approval."
+}

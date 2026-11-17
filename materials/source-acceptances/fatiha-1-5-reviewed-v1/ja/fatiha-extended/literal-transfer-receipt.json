@@ -1,0 +1,25 @@
+{
+  "schema": "iman-recovered-source-owner-acceptance-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "ja",
+    "id": "fatiha-extended"
+  },
+  "decision": "exact-prior-reader-plus-reviewed-finite-delta",
+  "previousReader": {
+    "path": "materials/source-acceptances/recovered-329-v1/ja/fatiha-extended/reader.json",
+    "sha256": "01765e3bdcb948abc52fea58c0030e103fda5a2924abcb3dfe824ab920fcf7a6"
+  },
+  "reviewChain": {
+    "path": "materials/source-acceptances/fatiha-1-5-reviewed-v1/ja/fatiha-extended/existing-review-plus-finite-delta.json",
+    "sha256": "ce41b23b59c1832e1f2b1f95b9dc5dc51b70f2937c3aa26c9547d61a8da05cc6"
+  },
+  "readerTextSHA256": "8df0de547aaed25aef96a738f98e9cb61c6781021446f365c1caeec153e2b545",
+  "beforeTextSHA256": "c0806313dd49aa4b1f12ad19b7512bcb25f72bc1300d286a0f4e0cace94b9617",
+  "afterTextSHA256": "58a976668f1a38723928d53406a38bd55b1bf8005f2e0bdf380897d3a6e8e6f8",
+  "allUnchangedFieldsPreserved": true,
+  "semanticReviewCreated": false,
+  "humanCertification": false,
+  "wordAcceptance": false,
+  "visualAcceptance": false
+}
