@@ -1,0 +1,77 @@
+{
+  "schema": "iman-finite-owner-correction-independent-review-subset-v1",
+  "sourceIndependentReviewSHA256": "da998dad2a0a880837f8616a36c71b7298f77c97b6ad259d77b86929d88f11c4",
+  "scope": "Verbatim decision subset for one non-overlapping unit; original whole-material review and preexisting release holds remain unchanged.",
+  "reviewer": "Independent Tadabbur reviewer, separate from the preparer of the candidate files.",
+  "method": "Read the selected paragraphs in the six digest-verified original DOCX packages. Verified unique selected spans in Word and Git, reconstructed each installed paragraph verbatim, and replayed only those operations on the Git JSON and Markdown. The resulting four file pairs match the candidates byte for byte. Reassembled reader text with each structured reference at its original source position. Confirmed unchanged registered coverage and sections outside the authorized and previously reviewed positions.",
+  "gitPreimage": "c90c264405af1f90a309bf39008a9b2cfc6b1181",
+  "decision": "PASS",
+  "sourceAndReaderBinding": {
+    "surah": 34,
+    "sourceJSON": "materials/tadabbur/ar/extended/034.json",
+    "gitBeforeJSON_SHA256": "8561ff19069d7630c3969c79a4ffbf6edb57f498c8c1bdd281db8bfcb94cc616",
+    "sourceAfterJSON_SHA256": "2da3993d98c260cbb0888f9668eafca0bed5ba33680be2fee2f32c3534556d01",
+    "sourceMarkdown": "materials/tadabbur/ar/extended/034.md",
+    "gitBeforeMarkdownSHA256": "446cd0599567e36eb6f0b7adf314d4bf15f50cc5ed5d7454c1e1db4f95436947",
+    "sourceAfterMarkdownSHA256": "d0b6e767e0a0541299c52b70f02aa49e12e17f5181e8ee136a9e880f00f271f5",
+    "publicationCandidateFile": "NORMALIZED-CANDIDATE.json",
+    "publicationCandidateSHA256": "31b0d56d9144401138c9ca672a8aae7f8d308098319973c5c22d1aa147a82bbc",
+    "readerTextSHA256": "1390570e667496e3894dbceec928e7d7b8af674e350e07ab950267a55d0f8e30",
+    "originalReaderPath": "materials/source-acceptances/recovered-329-v1/ar/34-extended/reader.json",
+    "originalReaderSHA256": "89049aa0ff8155255b85c40e3a794010b40edc7854fd5537ea2994be5db8798a",
+    "originalCoveragePreserved": true,
+    "unitValidation": "PASS",
+    "coverageValidation": "PASS",
+    "coverageLabel": null,
+    "sections": 54,
+    "reviewedParagraphs": 1
+  },
+  "decisions": [
+    {
+      "ayah": "34:48",
+      "paragraphIndex": 7,
+      "ownerRow": "SABA-048P07",
+      "sourceDecision": "PASS",
+      "publicationDecision": "PASS",
+      "reason": "The revised introduction and transitions explain the breadth of divine knowledge. Both quoted verses and their references, and the final sentence on trust in revelation, remain exact.",
+      "word": {
+        "fileSHA256": "c54bb8cf724cb4cd142b8e3e3287e6be740714bda54e3054811ab81c4e93c154",
+        "beforeParagraph": 50,
+        "afterParagraph": 52,
+        "beforeParagraphTextSHA256": "cae978f073c536695b731d998fda20e1f9a3d233925c1411c5ab6f483dcba86a",
+        "afterParagraphTextSHA256": "db4bd45ab7ddbf6add07b20f679fd332efdf02ef5388d595f7f4d317f52e0e48",
+        "beforeSpanStart": 0,
+        "afterSpanStart": 0
+      },
+      "beforeParagraphSHA256": "b7aad35f37af93e72cf75b693ba1ee2b4f79cc2ec6cdc2284dab675b429914c6",
+      "afterParagraphSHA256": "7dc684f979c1073723fb98c922a1494a9cd5196e431ad07fc83d3f0aef6ee952",
+      "liveAppParagraphSHA256": "7dc684f979c1073723fb98c922a1494a9cd5196e431ad07fc83d3f0aef6ee952",
+      "markdownBoundary": "ayah heading",
+      "selectedChange": {
+        "beforeCodePoints": [
+          0,
+          348
+        ],
+        "afterCodePoints": [
+          0,
+          259
+        ],
+        "beforeSpanSHA256": "c2f4f3cdd70bdd4d5374ee48f416179c8590fcd2010d50797db10b110191529c",
+        "afterSpanSHA256": "9a729f09e7974e7312ca502c757f7e07cb4f93ae461dcf3f8877d64e1b7bde41",
+        "unchangedPrefixSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "unchangedSuffixSHA256": "d818613545d3a5c5a10f6543fd50ea71a18209f724e856fe1caaf55cc9e14e94"
+      },
+      "unchangedQuotedStrings": 2,
+      "beforeReferences": [
+        "[الرعد: 10]",
+        "[الشورى: 11]"
+      ],
+      "afterReferences": [
+        "[الرعد: 10]",
+        "[الشورى: 11]"
+      ],
+      "readerBlockCanonicalSHA256": "fe66d9e6b03629386df279c596f505b11b6c1de3cc57021d10346bf828fd514c",
+      "readerFileSHA256": "31b0d56d9144401138c9ca672a8aae7f8d308098319973c5c22d1aa147a82bbc"
+    }
+  ]
+}

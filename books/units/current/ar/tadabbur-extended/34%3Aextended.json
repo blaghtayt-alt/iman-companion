@@ -9,7 +9,7 @@
   "complete": true,
   "reviewGate": "published-current",
   "sourceHashes": [
-    "796aacd7dae8ab81daa54af5df40332459a2bb02a7f5acf91a98655e9b76dfa9"
+    "2da3993d98c260cbb0888f9668eafca0bed5ba33680be2fee2f32c3534556d01"
   ],
   "inputBindings": [
     {
@@ -21,12 +21,20 @@
       "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
     },
     {
-      "path": "materials/book-publication-approvals/546a4633711b9c714c178b07d272199fd1c20d1e885c6e6ffc2c6c71d9251bae.json",
+      "path": "materials/book-publication-approvals/61fd99335424ab101e4a1eafd78a6a7b3b7934bc18be63fbe05008aed89dc0bd.json",
+      "sha256": "61fd99335424ab101e4a1eafd78a6a7b3b7934bc18be63fbe05008aed89dc0bd"
+    },
+    {
+      "path": "materials/book-publication-intake/546a4633711b9c714c178b07d272199fd1c20d1e885c6e6ffc2c6c71d9251bae.json",
       "sha256": "546a4633711b9c714c178b07d272199fd1c20d1e885c6e6ffc2c6c71d9251bae"
     },
     {
-      "path": "materials/source-acceptances/recovered-329-v1/ar/34-extended/complete-reader.txt",
-      "sha256": "8f25d900098cac2efaf67a984e6f6baa5bc836251ea509751e7ac4ccffa973a2"
+      "path": "materials/source-acceptances/owner-b10-finite-20261122/ar/34-extended/independent-finite-subset.json",
+      "sha256": "b2a3fa1463ccf27b1ed5b65624bcaa4afd52dfca6307bdb5ea43e3406c734e2a"
+    },
+    {
+      "path": "materials/source-acceptances/owner-b10-finite-20261122/ar/34-extended/reader.json",
+      "sha256": "31b0d56d9144401138c9ca672a8aae7f8d308098319973c5c22d1aa147a82bbc"
     },
     {
       "path": "materials/source-acceptances/recovered-329-v1/ar/34-extended/existing-review-chain.json",
@@ -41,28 +49,12 @@
       "sha256": "992351ceb3444d5fa854c78967e7eb2337d6e1fd79472390ae51d95d4f42955f"
     },
     {
-      "path": "materials/source-acceptances/recovered-329-v1/ar/34-extended/reader.json",
-      "sha256": "89049aa0ff8155255b85c40e3a794010b40edc7854fd5537ea2994be5db8798a"
-    },
-    {
-      "path": "materials/source-acceptances/recovered-329-v1/ar/34-extended/registered-source.json",
-      "sha256": "6e955c28e17e2bf896d47f2b9365119d0955c98cd4479fe0a0ef6cfd1f17397b"
-    },
-    {
-      "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/6f70f7240f4f07e7b7721aabf582963bbae78c2faf9377d2853bdf396fada422.json",
-      "sha256": "6f70f7240f4f07e7b7721aabf582963bbae78c2faf9377d2853bdf396fada422"
-    },
-    {
-      "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/f0dfcd21abf6aefcec841a74aa2f9c000d171ff44f59b1960264230daa8516b1.json",
-      "sha256": "f0dfcd21abf6aefcec841a74aa2f9c000d171ff44f59b1960264230daa8516b1"
-    },
-    {
       "path": "materials/tadabbur/ar/extended/034.json",
-      "sha256": "8561ff19069d7630c3969c79a4ffbf6edb57f498c8c1bdd281db8bfcb94cc616"
+      "sha256": "2da3993d98c260cbb0888f9668eafca0bed5ba33680be2fee2f32c3534556d01"
     },
     {
       "path": "materials/tadabbur/ar/extended/034.md",
-      "sha256": "446cd0599567e36eb6f0b7adf314d4bf15f50cc5ed5d7454c1e1db4f95436947"
+      "sha256": "d0b6e767e0a0541299c52b70f02aa49e12e17f5181e8ee136a9e880f00f271f5"
     },
     {
       "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
@@ -8226,11 +8218,11 @@
         },
         {
           "kind": "paragraph",
-          "text": "وقد يثق الإنسان بما اعتاده من معرفة محدودة، ثم يستغرب صلاح الهدي لما لم يشهده هو بعد، فيحتاج إلى استحضار سعة علم منزله. يستوي في علم الله ما خفي وما ظهر، كما قال تعالى: ﴿سَوَاءٌ مِّنكُم مَّنْ أَسَرَّ الْقَوْلَ وَمَن جَهَرَ بِهِ وَمَنْ هُوَ مُسْتَخْفٍ بِاللَّيْلِ وَسَارِبٌ بِالنَّهَارِ﴾ ، ولا يقاس علمه بعلم خلقه: ﴿لَيْسَ كَمِثْلِهِ شَيْءٌ وَهُوَ السَّمِيعُ الْبَصِيرُ﴾ . من هنا تأتي الثقة بالوحي: من معرفة الرب الذي أنزله، وإحاطة علمه، لا من الظن أن الإنسان قد أحاط بكل وجوه حكمته.",
+          "text": "ويبين القرآن سعة علم الله، فيستوي عنده ما خفي وما ظهر، كما قال تعالى ﴿سَوَاءٌ مِّنكُم مَّنْ أَسَرَّ الْقَوْلَ وَمَن جَهَرَ بِهِ وَمَنْ هُوَ مُسْتَخْفٍ بِاللَّيْلِ وَسَارِبٌ بِالنَّهَارِ﴾ . ولا يقاس علمه بعلم خلقه، فهو القائل ﴿لَيْسَ كَمِثْلِهِ شَيْءٌ وَهُوَ السَّمِيعُ الْبَصِيرُ﴾ . من هنا تأتي الثقة بالوحي: من معرفة الرب الذي أنزله، وإحاطة علمه، لا من الظن أن الإنسان قد أحاط بكل وجوه حكمته.",
           "spans": [
             {
-              "text": "وقد يثق الإنسان بما اعتاده من معرفة محدودة، ثم يستغرب صلاح الهدي لما لم يشهده هو بعد، فيحتاج إلى استحضار سعة علم منزله. يستوي في علم الله ما خفي وما ظهر، كما قال تعالى: ﴿سَوَاءٌ مِّنكُم مَّنْ أَسَرَّ الْقَوْلَ وَمَن جَهَرَ بِهِ وَمَنْ هُوَ مُسْتَخْفٍ بِاللَّيْلِ وَسَارِبٌ بِالنَّهَارِ﴾ ",
-              "role": "body"
+              "role": "body",
+              "text": "ويبين القرآن سعة علم الله، فيستوي عنده ما خفي وما ظهر، كما قال تعالى ﴿سَوَاءٌ مِّنكُم مَّنْ أَسَرَّ الْقَوْلَ وَمَن جَهَرَ بِهِ وَمَنْ هُوَ مُسْتَخْفٍ بِاللَّيْلِ وَسَارِبٌ بِالنَّهَارِ﴾ "
             },
             {
               "text": "",
@@ -8240,8 +8232,8 @@
               ]
             },
             {
-              "text": "، ولا يقاس علمه بعلم خلقه: ",
-              "role": "body"
+              "role": "body",
+              "text": ". ولا يقاس علمه بعلم خلقه، فهو القائل "
             },
             {
               "text": "﴿لَيْسَ كَمِثْلِهِ شَيْءٌ وَهُوَ السَّمِيعُ الْبَصِيرُ﴾",
@@ -8252,8 +8244,8 @@
               "explicitSourceReferencePlaced": true
             },
             {
-              "text": " ",
-              "role": "body"
+              "role": "body",
+              "text": " "
             },
             {
               "text": "",
@@ -8263,8 +8255,8 @@
               ]
             },
             {
-              "text": ". من هنا تأتي الثقة بالوحي: من معرفة الرب الذي أنزله، وإحاطة علمه، لا من الظن أن الإنسان قد أحاط بكل وجوه حكمته.",
-              "role": "body"
+              "role": "body",
+              "text": ". من هنا تأتي الثقة بالوحي: من معرفة الرب الذي أنزله، وإحاطة علمه، لا من الظن أن الإنسان قد أحاط بكل وجوه حكمته."
             }
           ],
           "sourceBlockIndex": 7
@@ -8866,7 +8858,7 @@
   },
   "coverageLabel": null,
   "sourceScopeNotes": [],
-  "readerTextSHA256": "dd1d66edbe300e616b53ffdaed8df7cbaa737fa921c25113cc6938c95bc343ec",
+  "readerTextSHA256": "1390570e667496e3894dbceec928e7d7b8af674e350e07ab950267a55d0f8e30",
   "referenceReadiness": {
     "unboundQuranSegments": 0,
     "unboundHadithSegments": 0,
@@ -8876,7 +8868,7 @@
   },
   "provenance": {
     "adapter": "reviewed-structured-quran-v1",
-    "sourceRecordSHA256": "763d219ae3d6ec088ad33ddff275a45e3fb96cf78a8953b324a099edd42f288f",
+    "sourceRecordSHA256": "c82dc63e5bcb6e1c949d6111f4dfab4de1b33fe23a89a30eb9d937be1585d506",
     "sourceOwnerWholeReview": {
       "kind": "Arabic literal/structural source QC; not a translation, semantic or scholarly certification",
       "handoffSHA256": "dc0acde7a951e538f0fe2cb1a1f05f65a965dbe24d0d87876adb0bc9c765c3bf",
@@ -8897,8 +8889,8 @@
     ],
     "sourceJSON": "materials/tadabbur/ar/extended/034.json",
     "allProseAndQuotationCharactersPreserved": true,
-    "sourceProseSHA256": "d8efed1f57240225307c6a9c23e96bac0ba2c6b4c340771dcc3d6ee2e0fa2c90",
-    "formattedProseSHA256": "d7b1fb1ed342c3cf60d6d8754691d67e0b03d364a7e4d285633f0dbe0adc1ef3",
+    "sourceProseSHA256": "4f139ed4a8d745714f713f5e23b7e83cec9f69e0ef3c148fe79852e2ae70b646",
+    "formattedProseSHA256": "6c6c4229591e1e101f07bc7335e438cb0c2b04d24ab700dfa63a149bf036a72f",
     "mainAyahPresentation": [
       {
         "verseKey": "34:1",
@@ -12876,8 +12868,8 @@
       {
         "section": "34:48",
         "block": 7,
-        "start": 287,
-        "end": 298,
+        "start": 187,
+        "end": 198,
         "literal": "[الرعد: 10]",
         "binding": {
           "verseKeys": [
@@ -12889,8 +12881,8 @@
       {
         "section": "34:48",
         "block": 7,
-        "start": 381,
-        "end": 393,
+        "start": 292,
+        "end": 304,
         "literal": "[الشورى: 11]",
         "binding": {
           "verseKeys": [
@@ -13073,23 +13065,11 @@
     "unanchoredSourceNotes": 0,
     "mandatoryReadingNotes": [],
     "mandatoryDetachedQualifications": [],
-    "sourceApprovalCreated": false,
-    "recoveredExistingReview": {
-      "reviewChain": {
-        "path": "materials/source-acceptances/recovered-329-v1/ar/34-extended/existing-review-chain.json",
-        "sha256": "a7561f8d77812ad0bc0dea508fef70c0b1afc2f3c5cb88f73adb7881c0d57d74"
-      },
-      "sourceOwnerLiteralTransfer": {
-        "path": "materials/source-acceptances/recovered-329-v1/ar/34-extended/literal-transfer-receipt.json",
-        "sha256": "992351ceb3444d5fa854c78967e7eb2337d6e1fd79472390ae51d95d4f42955f"
-      },
-      "noNewSemanticReview": true,
-      "originalQualificationUnchanged": true
-    }
+    "sourceApprovalCreated": false
   },
   "publicationApproval": {
-    "path": "materials/book-publication-approvals/546a4633711b9c714c178b07d272199fd1c20d1e885c6e6ffc2c6c71d9251bae.json",
-    "sha256": "546a4633711b9c714c178b07d272199fd1c20d1e885c6e6ffc2c6c71d9251bae",
-    "approvalId": "recovered-existing-review-329-v1-ar-34:extended"
+    "path": "materials/book-publication-approvals/61fd99335424ab101e4a1eafd78a6a7b3b7934bc18be63fbe05008aed89dc0bd.json",
+    "sha256": "61fd99335424ab101e4a1eafd78a6a7b3b7934bc18be63fbe05008aed89dc0bd",
+    "approvalId": "literal-transfer-finite-owner-b10-20261122-ar-34-extended"
   }
 }
