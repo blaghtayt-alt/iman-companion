@@ -1,0 +1,53 @@
+name: Diagnostic current A4 citations with pinned renderer
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/book-current-a4-marker-probe.yml'
+      - 'books/diagnostics/current-a4-marker-probe/**'
+permissions:
+  contents: read
+concurrency:
+  group: diagnostic-current-a4-marker-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+jobs:
+  marker-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install the current production renderer and matching UNO bridge
+        run: |
+          python books/renderer_pin.py --install
+          python -m pip install -r books/requirements.txt PyMuPDF==1.28.2
+      - name: Install the current production approved fonts
+        run: |
+          python books/install_assets.py --root .
+          mkdir -p "$HOME/.local/share/fonts/iman-books"
+          cp books/assets/fonts/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          cp books/assets/ornaments/*.ttf "$HOME/.local/share/fonts/iman-books/"
+          fc-cache -f
+          mkdir -p "$RUNNER_TEMP/current-a4-runtime"
+          python books/renderer_pin.py --verify-packages > "$RUNNER_TEMP/current-a4-runtime/renderer.json"
+          fc-list -f '%{family}: %{file}\n' > "$RUNNER_TEMP/current-a4-runtime/font-list.txt"
+          python - "$RUNNER_TEMP/current-a4-runtime/fonts.json" <<'PY'
+          from pathlib import Path
+          import hashlib, json, sys
+          files = sorted(Path('books/assets/fonts').glob('*.ttf')) + sorted(Path('books/assets/ornaments').glob('*.ttf'))
+          Path(sys.argv[1]).write_text(json.dumps([{'path': str(p), 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()} for p in files], indent=2))
+          PY
+      - name: Verify all three exact current A4 failures through both save passes
+        run: |
+          python books/diagnostics/current-a4-marker-probe/current_a4_marker_probe.py --root . --fixture books/diagnostics/current-a4-marker-probe/fixture-a4.b64 --out "$RUNNER_TEMP/current-a4-diagnostics" --expected-renderer '26.2.5.2' --variants prepared-baseline,builder-baseline --require-complete
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: diagnostic-current-a4-citations-not-publication
+          path: |
+            ${{ runner.temp }}/current-a4-diagnostics/
+            ${{ runner.temp }}/current-a4-runtime/
+          retention-days: 7
