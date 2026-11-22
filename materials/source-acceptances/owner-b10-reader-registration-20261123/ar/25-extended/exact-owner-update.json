@@ -1,0 +1,109 @@
+{
+  "schema": "iman-finite-tadabbur-owner-reader-update-v1",
+  "currentGitSource": "2f90d0455dbb279474e5152d7275896a0bea4d6e",
+  "scope": "Existing reviewed book unit and exact owner-approved finite changes. App and web public display have their own paragraph approval list.",
+  "unchangedCoverage": {
+    "schema": "iman-reviewed-quran-coverage-v1",
+    "surah": 25,
+    "ayahKeys": [
+      "25:1",
+      "25:7",
+      "25:10",
+      "25:27",
+      "25:28",
+      "25:29",
+      "25:30",
+      "25:31",
+      "25:32",
+      "25:35",
+      "25:36",
+      "25:53",
+      "25:61",
+      "25:63",
+      "25:64",
+      "25:67",
+      "25:68",
+      "25:72",
+      "25:73"
+    ],
+    "introduction": {
+      "state": "not-in-reviewed-material"
+    },
+    "scopeLabel": "الآيات المتاحة"
+  },
+  "priorUnitSHA256": "d917ee36e71c7c5622e1d0fd95889bcb6f110ccef9acf07530bdabf8486b9c53",
+  "currentReader": {
+    "path": "materials/source-acceptances/owner-b10-reader-registration-20261123/ar/25-extended/reader.json",
+    "sha256": "9da2fa97cd7aedd3c5fd73f5bbf1412489b6f3d61f043bffce542e0ee1d574dd"
+  },
+  "priorApproval": {
+    "path": "materials/book-publication-approvals/32e6dc7002853b114702e71f4722f3f27c2a256c89c7e446ee3e4e7f9180b909.json",
+    "sha256": "32e6dc7002853b114702e71f4722f3f27c2a256c89c7e446ee3e4e7f9180b909",
+    "approvalId": "recovered-existing-review-329-v1-ar-25:extended"
+  },
+  "rows": [
+    {
+      "ayah": "25:27",
+      "paragraph": 1,
+      "baseReaderSHA256": "ff520f0a09edf682612f934443a3d4b4eb34463c7163909101dc5fc7487b688e",
+      "boundPriorSourceCommit": "bf936ed280c56881971fb78105da8aae0cf4b206",
+      "state": "private reader successor",
+      "projectionSHA256": "3f95994312508cc6e6125fe4177ef42a7083e2c9d8f2b1f09409581e8489c42a",
+      "registeredFile": "books/units/current/ar/tadabbur-extended/25%3Aextended.json"
+    },
+    {
+      "ayah": "25:28",
+      "paragraph": 1,
+      "baseReaderSHA256": "bdc813c1743f971dcb872d8860959e75fa0a348419487043d9e2b234bddd622f",
+      "boundPriorSourceCommit": "bf936ed280c56881971fb78105da8aae0cf4b206",
+      "state": "private reader successor",
+      "projectionSHA256": "91380cf588a67487c76a1342248e9cb71440626af577f990228491af0297e517",
+      "registeredFile": "books/units/current/ar/tadabbur-extended/25%3Aextended.json"
+    },
+    {
+      "ayah": "25:29",
+      "paragraph": 1,
+      "baseReaderSHA256": "f2348d960458921dc2027a7bf5e9f9fe00c231f51efed063f4b8a87a26cb2ae5",
+      "boundPriorSourceCommit": "bf936ed280c56881971fb78105da8aae0cf4b206",
+      "state": "private reader successor",
+      "projectionSHA256": "adbbab5769056335085314ea96d2e2db042818161cdedbd692eb01889c1e204b",
+      "registeredFile": "books/units/current/ar/tadabbur-extended/25%3Aextended.json"
+    },
+    {
+      "ayah": "25:30",
+      "paragraph": 1,
+      "baseReaderSHA256": "bccd3d5f1e4bde1c2a730410f79198ccb4de09101af2264c6c29c2ec5e188687",
+      "boundPriorSourceCommit": "bf936ed280c56881971fb78105da8aae0cf4b206",
+      "state": "private reader successor",
+      "projectionSHA256": "5be923bffe9ae68c7cb11384ca83f5980bb732254029d1135a585108c0e2e972",
+      "registeredFile": "books/units/current/ar/tadabbur-extended/25%3Aextended.json"
+    },
+    {
+      "ayah": "25:31",
+      "paragraph": 1,
+      "baseReaderSHA256": "80bdddff251a4505e1a0f83c67a627cba20dcea74157eb45f52ea1c5a36cd098",
+      "boundPriorSourceCommit": "bf936ed280c56881971fb78105da8aae0cf4b206",
+      "state": "private reader successor",
+      "projectionSHA256": "849fabadb7658f035a4f8cebdead14f1ce07f275fe773302cdc6e11b766d67ce",
+      "registeredFile": "books/units/current/ar/tadabbur-extended/25%3Aextended.json"
+    },
+    {
+      "ayah": "25:32",
+      "paragraph": 2,
+      "baseReaderSHA256": "397e9cd5d4f50567edef53e2c372dc42a79b3aba126ad7e9e429c23ba63d50e7",
+      "boundPriorSourceCommit": "bf936ed280c56881971fb78105da8aae0cf4b206",
+      "state": "private reader successor",
+      "projectionSHA256": "7644bc8f787cbca5841e52abb6af87cc3231bd12ba93e5a53781f76bca2c8d73",
+      "registeredFile": "books/units/current/ar/tadabbur-extended/25%3Aextended.json"
+    },
+    {
+      "ayah": "25:32",
+      "paragraph": 3,
+      "baseReaderSHA256": "9841a396ab0c0a4e073322a1da08711302e8e15beec300e30a52a586d784541d",
+      "boundPriorSourceCommit": "bf936ed280c56881971fb78105da8aae0cf4b206",
+      "state": "private reader successor",
+      "projectionSHA256": "74f5c8bce1e165f1ad2e6f0bc529cd56e5d7b091efb39d4108a291e5a7c593cf",
+      "registeredFile": "books/units/current/ar/tadabbur-extended/25%3Aextended.json"
+    }
+  ]
+}
