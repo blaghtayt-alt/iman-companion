@@ -1,0 +1,213 @@
+{
+  "schema": "iman-exact-source-owner-finite-correction-reconciliation-v1",
+  "decision": "verified literal owner corrections only",
+  "existingWholeMaterialApprovalUnchangedInScope": {
+    "path": "materials/book-publication-approvals/bf56377dbf7c0b20c91d8432e614989d5ba84137967d75ffd95552b01dbe98ef.json",
+    "sha256": "bf56377dbf7c0b20c91d8432e614989d5ba84137967d75ffd95552b01dbe98ef",
+    "approvalId": "recovered-existing-review-329-v1-ar-45:extended"
+  },
+  "ownerWord": {
+    "file": "Al_Jathiyah_45-16_25_B10-level_Owner_Edits_v2.docx",
+    "sha256": "3ddc004ccdbe457c2552747e0565915d51207277e95c9ee283b96e40a04aa050"
+  },
+  "comparisonBaseGit": "c1cda09105ad7dc25fc8ab51a4c5a89f74c1e29f",
+  "priorRegisteredReader": {
+    "sha256": "e4812f74f023d3a228313b978fc552ec7293bdd71429ff270778442ec0f69f38",
+    "readerTextSHA256": "c0872b2d4653947c776e6fdf86b65fbd270670542b0de13e85be4a32908fbebf"
+  },
+  "correctedReader": {
+    "sha256": "878351c5484ff163d35932967787e96834e0b7b8b7ec021ec3e37de3547149c1",
+    "readerTextSHA256": "8ed1cdb0623bc14b27d7e5050729d9ee0c955ec7a473b440421e89faa37ef717"
+  },
+  "baselineRuntimeFingerprint": "9b349a9fc907198a77a30e5da746260dd6d039c118d35ceaeb74dba406e1ede4",
+  "rows": [
+    {
+      "ayah": "45:19",
+      "sourceBlockIndex": 4,
+      "ownerWordXmlParagraph": 104,
+      "beforeSourceSHA256": "f83e679cc7a1b64747915fe4861fb51f3b73a9fac804030f90d5b14491a5c852",
+      "afterSourceSHA256": "b8d9a44c6160f81455080c2d1392c252810e5e96b1a3b349727ec304deb597dd",
+      "priorReaderParagraphSHA256": "1fa0288451b9c119a2688b88289511e16e600c7ca1229256c7aebb158557efdf",
+      "currentReaderParagraphSHA256": "45bf36fc3c1cc80ea6a45fbecf104e7a920802ac5634b41ec8b2d9db845efc8c",
+      "sourceReferenceBindings": [
+        {
+          "citations": [
+            {
+              "type": "hadith",
+              "book": "bukhari",
+              "number": "7320"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ayah": "45:20",
+      "sourceBlockIndex": 1,
+      "ownerWordXmlParagraph": 127,
+      "beforeSourceSHA256": "a3d7c06eee6541f48d098965a5513c1db1af45a4b33ac820f7aba16b6284f506",
+      "afterSourceSHA256": "aabcf425e048147f7d7066240890d8503fe1356ac362def544483bdf18639074",
+      "priorReaderParagraphSHA256": "a3d7c06eee6541f48d098965a5513c1db1af45a4b33ac820f7aba16b6284f506",
+      "currentReaderParagraphSHA256": "aabcf425e048147f7d7066240890d8503fe1356ac362def544483bdf18639074",
+      "sourceReferenceBindings": []
+    },
+    {
+      "ayah": "45:20",
+      "sourceBlockIndex": 2,
+      "ownerWordXmlParagraph": 134,
+      "beforeSourceSHA256": "c50408ff80948ab014542f23800644e35c33e4626b47616d45bf6acc2ad02109",
+      "afterSourceSHA256": "3ed61cbbf6a48b89b4ff8a099e654df8843aac79c22742278e524af48fe7ee7f",
+      "priorReaderParagraphSHA256": "c50408ff80948ab014542f23800644e35c33e4626b47616d45bf6acc2ad02109",
+      "currentReaderParagraphSHA256": "3ed61cbbf6a48b89b4ff8a099e654df8843aac79c22742278e524af48fe7ee7f",
+      "sourceReferenceBindings": []
+    },
+    {
+      "ayah": "45:21",
+      "sourceBlockIndex": 2,
+      "ownerWordXmlParagraph": 143,
+      "beforeSourceSHA256": "972a334ab65ccf553205edf4afa91f22cf5097e7f22327cac5b491c4e67659b2",
+      "afterSourceSHA256": "aa5f3165f159aeac6e62959d82969cc4aa48481c4cf21f569d924888431883c9",
+      "priorReaderParagraphSHA256": "972a334ab65ccf553205edf4afa91f22cf5097e7f22327cac5b491c4e67659b2",
+      "currentReaderParagraphSHA256": "aa5f3165f159aeac6e62959d82969cc4aa48481c4cf21f569d924888431883c9",
+      "sourceReferenceBindings": []
+    },
+    {
+      "ayah": "45:21",
+      "sourceBlockIndex": 6,
+      "ownerWordXmlParagraph": 150,
+      "beforeSourceSHA256": "9d9a13322bd3d16940197ce35b318d25ac2e8d65d96ae50d1c9811197eada2f9",
+      "afterSourceSHA256": "c4440ac8961c9ff4b8f09aed988a3e34d7c850624bb228a19fd531c3f9b5c445",
+      "priorReaderParagraphSHA256": "343cc19d4bb9ec8e663f4b793454c093f8ae8913fa6332ea9e74cc7064bd3875",
+      "currentReaderParagraphSHA256": "541ce069b39e80e25a47564ea8aff8589c8e1ad4aa103e20b1b098ceb46648cf",
+      "sourceReferenceBindings": [
+        {
+          "verseKeys": [
+            "3:153"
+          ]
+        },
+        {
+          "verseKeys": [
+            "20:124"
+          ]
+        },
+        {
+          "verseKeys": [
+            "16:97"
+          ]
+        }
+      ]
+    },
+    {
+      "ayah": "45:22",
+      "sourceBlockIndex": 1,
+      "ownerWordXmlParagraph": 159,
+      "beforeSourceSHA256": "62323ec11acd28ff0a90923a66d2a1f3fad18e6b47bce829147cd03f0885d998",
+      "afterSourceSHA256": "520d08dd84782dd85227e17cf6066c593e850a65d4ec26dbbb6532d4275e1be7",
+      "priorReaderParagraphSHA256": "62323ec11acd28ff0a90923a66d2a1f3fad18e6b47bce829147cd03f0885d998",
+      "currentReaderParagraphSHA256": "520d08dd84782dd85227e17cf6066c593e850a65d4ec26dbbb6532d4275e1be7",
+      "sourceReferenceBindings": []
+    },
+    {
+      "ayah": "45:22",
+      "sourceBlockIndex": 2,
+      "ownerWordXmlParagraph": 166,
+      "beforeSourceSHA256": "28ea571ecf56be9d7ab98c766ea03e3c55b2292b8b2ed79810eb09bce23f84ad",
+      "afterSourceSHA256": "1374624bc641327e3fcac68ac6d3c33ff78c479843b20bd01a136349bce364b0",
+      "priorReaderParagraphSHA256": "28ea571ecf56be9d7ab98c766ea03e3c55b2292b8b2ed79810eb09bce23f84ad",
+      "currentReaderParagraphSHA256": "1374624bc641327e3fcac68ac6d3c33ff78c479843b20bd01a136349bce364b0",
+      "sourceReferenceBindings": []
+    },
+    {
+      "ayah": "45:23",
+      "sourceBlockIndex": 15,
+      "ownerWordXmlParagraph": 196,
+      "beforeSourceSHA256": "2d8db74cf20de8de0eae9817188e04743be5f808ed18e1e44e336f485daf10e2",
+      "afterSourceSHA256": "b64e06470e72defbbb4f401212885c98bab4cdb2ae44c97424f85ef76eb5aac7",
+      "priorReaderParagraphSHA256": "2d8db74cf20de8de0eae9817188e04743be5f808ed18e1e44e336f485daf10e2",
+      "currentReaderParagraphSHA256": "b64e06470e72defbbb4f401212885c98bab4cdb2ae44c97424f85ef76eb5aac7",
+      "sourceReferenceBindings": []
+    },
+    {
+      "ayah": "45:24",
+      "sourceBlockIndex": 1,
+      "ownerWordXmlParagraph": 212,
+      "beforeSourceSHA256": "94639928f145461080b1d2bd3a8e9f21a5aee67ab9fee640ba54a6f179377466",
+      "afterSourceSHA256": "b5936bdc956273eb9cb0c584bcaa0038783fa1a32492c5634e4a426259159995",
+      "priorReaderParagraphSHA256": "94639928f145461080b1d2bd3a8e9f21a5aee67ab9fee640ba54a6f179377466",
+      "currentReaderParagraphSHA256": "b5936bdc956273eb9cb0c584bcaa0038783fa1a32492c5634e4a426259159995",
+      "sourceReferenceBindings": []
+    },
+    {
+      "ayah": "45:24",
+      "sourceBlockIndex": 3,
+      "ownerWordXmlParagraph": 219,
+      "beforeSourceSHA256": "54a50c296a4db18fff8b5e2af43225d20df230c3a9abf37c4e5e2158ab094726",
+      "afterSourceSHA256": "9a8838f5accf6e79687260a4c9644b5a60a112e8cbb7117d7885f121d9496029",
+      "priorReaderParagraphSHA256": "54a50c296a4db18fff8b5e2af43225d20df230c3a9abf37c4e5e2158ab094726",
+      "currentReaderParagraphSHA256": "d08d235c67e8b05f8a813e630621917147aa09b6ce45c07ce28c072f8f7f6360",
+      "sourceReferenceBindings": [
+        {
+          "verseKeys": [
+            "75:3",
+            "75:4",
+            "75:5"
+          ]
+        }
+      ]
+    },
+    {
+      "ayah": "45:24",
+      "sourceBlockIndex": 6,
+      "ownerWordXmlParagraph": 226,
+      "beforeSourceSHA256": "28904206d6e44c7f9a0a15d8c3c4b27667297ee9a0b7e9c7a3b9efe0ae514aae",
+      "afterSourceSHA256": "6f0857aca060564f06c774038b6854b1d7e6ddfa653e689c7e6033bd6d715d2d",
+      "priorReaderParagraphSHA256": "28904206d6e44c7f9a0a15d8c3c4b27667297ee9a0b7e9c7a3b9efe0ae514aae",
+      "currentReaderParagraphSHA256": "6f0857aca060564f06c774038b6854b1d7e6ddfa653e689c7e6033bd6d715d2d",
+      "sourceReferenceBindings": []
+    },
+    {
+      "ayah": "45:25",
+      "sourceBlockIndex": 1,
+      "ownerWordXmlParagraph": 235,
+      "beforeSourceSHA256": "1dfc2b48c816142cdfd8fdb1fa8775c6d64adc28024f59eea5becd8a7d845772",
+      "afterSourceSHA256": "531b4bcca594de9652ce193c622a132894a751671393b6c89547b749435762c8",
+      "priorReaderParagraphSHA256": "641c6531208a676c946476600d27207fc39d3ab45af4d2f667cbef94509d5d6c",
+      "currentReaderParagraphSHA256": "59577a8381e16a76bb9cefda338be6d8c5d5a1e4724d865dc3612c21ac1ea043",
+      "sourceReferenceBindings": [
+        {
+          "verseKeys": [
+            "45:26"
+          ]
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "schema": "iman-reviewed-quran-coverage-v1",
+    "surah": 45,
+    "ayahKeys": [
+      "45:6",
+      "45:8",
+      "45:9",
+      "45:16",
+      "45:17",
+      "45:18",
+      "45:19",
+      "45:20",
+      "45:21",
+      "45:22",
+      "45:23",
+      "45:24",
+      "45:25",
+      "45:32",
+      "45:37"
+    ],
+    "introduction": {
+      "state": "included",
+      "readerTextSHA256": "e3f27d14b5e154e3723fcc8780747fcfdb897af603ff9a621f68268be0a758d4"
+    },
+    "scopeLabel": "الآيات المتاحة"
+  },
+  "newWholeMaterialReviewCreated": false,
+  "bookReleaseAuthorizedByThisRecord": false
+}

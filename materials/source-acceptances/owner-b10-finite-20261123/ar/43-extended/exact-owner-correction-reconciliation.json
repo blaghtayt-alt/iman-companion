@@ -1,0 +1,114 @@
+{
+  "schema": "iman-exact-source-owner-finite-correction-reconciliation-v1",
+  "decision": "verified literal owner corrections only",
+  "existingWholeMaterialApprovalUnchangedInScope": {
+    "path": "materials/book-publication-approvals/a4be89d4516880cbe3e7f4a3c7ec4042a25c9ce20ad17e471b39a9beb9512d86.json",
+    "sha256": "a4be89d4516880cbe3e7f4a3c7ec4042a25c9ce20ad17e471b39a9beb9512d86",
+    "approvalId": "recovered-existing-review-329-v1-ar-43:extended"
+  },
+  "ownerWord": {
+    "file": "Az_Zukhruf_43-30_39_B10-level_Owner_Edits_v2.docx",
+    "sha256": "a986f316c3db8d8733b6baaf40b6a31c2af796ffa612f51080228b16af12f95a"
+  },
+  "comparisonBaseGit": "c1cda09105ad7dc25fc8ab51a4c5a89f74c1e29f",
+  "priorRegisteredReader": {
+    "sha256": "d284548d9a503e09752b3e44860cb470030fc875b07104344bbd1415c67772b6",
+    "readerTextSHA256": "e79a43c638dea91359607210a0ab41ef92a67e82756c715c6cb1c61a863b4356"
+  },
+  "correctedReader": {
+    "sha256": "2b5c16875dd4b03140535b72333e1cf7ded87fd245efc1a4f6a5c54ff33b21e7",
+    "readerTextSHA256": "71b01198f251a6266a7b4f7fc529caa79ebbec422271564412c0180478422256"
+  },
+  "baselineRuntimeFingerprint": "9b349a9fc907198a77a30e5da746260dd6d039c118d35ceaeb74dba406e1ede4",
+  "rows": [
+    {
+      "ayah": "43:36",
+      "sourceBlockIndex": 1,
+      "ownerWordXmlParagraph": 65,
+      "beforeSourceSHA256": "10b15d86367eb00882b2e9da9214c84162654a3b4b52b53b805fb54403387861",
+      "afterSourceSHA256": "7c90ee2d7254f8524346e9042c5a3ea792394d04ebe03e755645968ea9a3c63c",
+      "priorReaderParagraphSHA256": "10b15d86367eb00882b2e9da9214c84162654a3b4b52b53b805fb54403387861",
+      "currentReaderParagraphSHA256": "7c90ee2d7254f8524346e9042c5a3ea792394d04ebe03e755645968ea9a3c63c",
+      "sourceReferenceBindings": []
+    },
+    {
+      "ayah": "43:37",
+      "sourceBlockIndex": 1,
+      "ownerWordXmlParagraph": 76,
+      "beforeSourceSHA256": "229b73cc53dbff32b8c4bcf4a03c136d862f69aad51a4c29b97481b3d712ef1c",
+      "afterSourceSHA256": "62199abca5c544cd4dff285e8c9bd1913d821e75907cf351ba1fbfba2b688b99",
+      "priorReaderParagraphSHA256": "229b73cc53dbff32b8c4bcf4a03c136d862f69aad51a4c29b97481b3d712ef1c",
+      "currentReaderParagraphSHA256": "62199abca5c544cd4dff285e8c9bd1913d821e75907cf351ba1fbfba2b688b99",
+      "sourceReferenceBindings": []
+    },
+    {
+      "ayah": "43:38",
+      "sourceBlockIndex": 1,
+      "ownerWordXmlParagraph": 87,
+      "beforeSourceSHA256": "417d0e449a92a42aa5bd95b9e75869845e46fd49664b712b11eb43151c298b56",
+      "afterSourceSHA256": "c61c24fd38038ef0b5427c274651477ccf4c840afe9a18ecb94faa7d610433e3",
+      "priorReaderParagraphSHA256": "417d0e449a92a42aa5bd95b9e75869845e46fd49664b712b11eb43151c298b56",
+      "currentReaderParagraphSHA256": "c61c24fd38038ef0b5427c274651477ccf4c840afe9a18ecb94faa7d610433e3",
+      "sourceReferenceBindings": []
+    }
+  ],
+  "coverage": {
+    "schema": "iman-reviewed-quran-coverage-v1",
+    "surah": 43,
+    "ayahKeys": [
+      "43:1",
+      "43:2",
+      "43:3",
+      "43:4",
+      "43:5",
+      "43:6",
+      "43:7",
+      "43:8",
+      "43:9",
+      "43:10",
+      "43:11",
+      "43:12",
+      "43:13",
+      "43:14",
+      "43:15",
+      "43:19",
+      "43:20",
+      "43:21",
+      "43:22",
+      "43:23",
+      "43:24",
+      "43:25",
+      "43:26",
+      "43:27",
+      "43:28",
+      "43:30",
+      "43:31",
+      "43:32",
+      "43:33",
+      "43:34",
+      "43:35",
+      "43:36",
+      "43:37",
+      "43:38",
+      "43:39",
+      "43:43",
+      "43:44",
+      "43:51",
+      "43:52",
+      "43:53",
+      "43:54",
+      "43:55",
+      "43:56",
+      "43:81",
+      "43:87",
+      "43:88",
+      "43:89"
+    ],
+    "introduction": {
+      "state": "not-in-reviewed-material"
+    },
+    "scopeLabel": "الآيات المتاحة"
+  },
+  "newWholeMaterialReviewCreated": false,
+  "bookReleaseAuthorizedByThisRecord": false
+}
