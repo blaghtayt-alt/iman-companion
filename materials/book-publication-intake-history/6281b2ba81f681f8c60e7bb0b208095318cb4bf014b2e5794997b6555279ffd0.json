@@ -1,0 +1,123 @@
+{
+  "schema": "iman-book-source-publication-receipt-v1",
+  "material": {
+    "collection": "tadabbur",
+    "language": "ar",
+    "id": "18:extended"
+  },
+  "canonicalOrder": 18,
+  "readerUnit": {
+    "schema": "iman-book-unit-v1",
+    "path": "books/units/current/ar/tadabbur-extended/18%3Aextended.json",
+    "sha256": "2e9aec23e8e38136a442d994bcefd0efb9177f5343cbb3da149a1869c5dca8ca"
+  },
+  "approvalId": "literal-transfer-historic31-owner15-20261122-ar-18-extended",
+  "sourceBindings": [
+    {
+      "path": "materials/tadabbur/ar/extended/018.json",
+      "sha256": "164fdb14738b9235c7203d0f7ccd385b1a0a2313b625633e8236508769e9def1"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/018.md",
+      "sha256": "a1e50fb870fc04b9d8b9d5223d3ffb6bc417cd92ff491123ea9c5af015756f2d"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "generatedFiles": [
+    "books/units/current/ar/tadabbur-extended/18%3Aextended.json",
+    "books/units/history/3a6fb3382e4e8dff723bcffdce22e0ee391e841f67a5a7b5b1603a118191aa26.json",
+    "materials/book-publication-approvals/6281b2ba81f681f8c60e7bb0b208095318cb4bf014b2e5794997b6555279ffd0.json",
+    "materials/catalog.json"
+  ],
+  "requiredInputs": [
+    {
+      "path": "books/assets/quran-arabic.json",
+      "sha256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d"
+    },
+    {
+      "path": "books/assets/surah-names-native-20261107.json",
+      "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
+    },
+    {
+      "path": "materials/book-publication-intake/0aab9ebf70f44de0f2a8c6fb30fa2d4aefad46a23b1b089ef9024aa49485edeb.json",
+      "sha256": "0aab9ebf70f44de0f2a8c6fb30fa2d4aefad46a23b1b089ef9024aa49485edeb"
+    },
+    {
+      "path": "materials/source-acceptances/owner-b10-finite-20261122/ar/18-extended/combined-reader-reconciliation.json",
+      "sha256": "9d2235b4a53f56f918a53c08863fcbf33e48e77421a8b0ae69841b542b56728e"
+    },
+    {
+      "path": "materials/source-acceptances/owner-b10-finite-20261122/ar/18-extended/historic-31-independent-hash-replay.json",
+      "sha256": "39aedf2370785f9fde448f2352ff571774e3a54e7878f0eabbf2ddd25b556629"
+    },
+    {
+      "path": "materials/source-acceptances/owner-b10-finite-20261122/ar/18-extended/owner-eleven-independent-hash-review.json",
+      "sha256": "5eaf42571632a3a8a8b04ea0de402806bc7aa38e11fa5688fc2ff1d4e49a7ef9"
+    },
+    {
+      "path": "materials/source-acceptances/owner-b10-finite-20261122/ar/18-extended/prior-finite-four.json",
+      "sha256": "cf595efbf2cc886b849f70a46f64b2030fa32b71280e8f84ee0f008d754385ff"
+    },
+    {
+      "path": "materials/source-acceptances/owner-b10-finite-20261122/ar/18-extended/reader.json",
+      "sha256": "63a2dd973c645f5a6b9bcb225de61c45257d34af37497c5cb064edebc43eb58b"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ar/18-extended/existing-review-chain.json",
+      "sha256": "2fc38492b23420924ccdfc9301d7330c8c517581fe6fea07bd226148956d7246"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ar/18-extended/literal-source-acceptance.json",
+      "sha256": "aa18646351bb7fe19c3bbb3cdab654c604ffa1957e7462c21ad269d9767fffed"
+    },
+    {
+      "path": "materials/source-acceptances/recovered-329-v1/ar/18-extended/literal-transfer-receipt.json",
+      "sha256": "df992250d7543babcc3bc97aa7c35ae6d8b92a8a12aa2369ee3bc301bfbb1315"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/018.json",
+      "sha256": "164fdb14738b9235c7203d0f7ccd385b1a0a2313b625633e8236508769e9def1"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/018.md",
+      "sha256": "a1e50fb870fc04b9d8b9d5223d3ffb6bc417cd92ff491123ea9c5af015756f2d"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
+      "sha256": "8de1900c4f19f24b093d388f398ab9510397153f7b9b8d0e94ffed4a1b965f76"
+    },
+    {
+      "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json",
+      "sha256": "b47420116bd2375c2aa3a86c40d351a6f1647a21f14965199fa2ab112dcb1c3c"
+    }
+  ],
+  "files": [
+    "books/assets/quran-arabic.json",
+    "books/assets/surah-names-native-20261107.json",
+    "books/units/current/ar/tadabbur-extended/18%3Aextended.json",
+    "books/units/history/3a6fb3382e4e8dff723bcffdce22e0ee391e841f67a5a7b5b1603a118191aa26.json",
+    "materials/book-publication-approvals/6281b2ba81f681f8c60e7bb0b208095318cb4bf014b2e5794997b6555279ffd0.json",
+    "materials/book-publication-intake/0aab9ebf70f44de0f2a8c6fb30fa2d4aefad46a23b1b089ef9024aa49485edeb.json",
+    "materials/catalog.json",
+    "materials/source-acceptances/owner-b10-finite-20261122/ar/18-extended/combined-reader-reconciliation.json",
+    "materials/source-acceptances/owner-b10-finite-20261122/ar/18-extended/historic-31-independent-hash-replay.json",
+    "materials/source-acceptances/owner-b10-finite-20261122/ar/18-extended/owner-eleven-independent-hash-review.json",
+    "materials/source-acceptances/owner-b10-finite-20261122/ar/18-extended/prior-finite-four.json",
+    "materials/source-acceptances/owner-b10-finite-20261122/ar/18-extended/reader.json",
+    "materials/source-acceptances/recovered-329-v1/ar/18-extended/existing-review-chain.json",
+    "materials/source-acceptances/recovered-329-v1/ar/18-extended/literal-source-acceptance.json",
+    "materials/source-acceptances/recovered-329-v1/ar/18-extended/literal-transfer-receipt.json",
+    "materials/tadabbur/ar/extended/018.json",
+    "materials/tadabbur/ar/extended/018.md",
+    "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
+    "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-conditions.json"
+  ],
+  "sourceApprovalCreated": false,
+  "scopeReleaseHoldsChanged": false,
+  "preparationScopeCreated": false,
+  "intakeSHA256": "6281b2ba81f681f8c60e7bb0b208095318cb4bf014b2e5794997b6555279ffd0",
+  "intakePath": "materials/book-publication-intake/6281b2ba81f681f8c60e7bb0b208095318cb4bf014b2e5794997b6555279ffd0.json"
+}

@@ -1,0 +1,288 @@
+{
+  "review": "Independent Arabic source and reader verification",
+  "status": "PASS",
+  "date": "2026-11-22",
+  "scope": "Eleven owner-selected Al-Kahf Arabic extended-reader paragraphs",
+  "decisionCount": 11,
+  "checkedChangePositions": [
+    {
+      "key": "18:65",
+      "block": 1
+    },
+    {
+      "key": "18:69",
+      "block": 1
+    },
+    {
+      "key": "18:77",
+      "block": 1
+    },
+    {
+      "key": "18:82",
+      "block": 4
+    },
+    {
+      "key": "18:83",
+      "block": 1
+    },
+    {
+      "key": "18:83",
+      "block": 2
+    },
+    {
+      "key": "18:84",
+      "block": 1
+    },
+    {
+      "key": "18:85",
+      "block": 1
+    },
+    {
+      "key": "18:85",
+      "block": 2
+    },
+    {
+      "key": "18:90",
+      "block": 2
+    },
+    {
+      "key": "18:107",
+      "block": 1
+    }
+  ],
+  "baseGitCommit": "c90c264405af1f90a309bf39008a9b2cfc6b1181",
+  "ownerPacketSHA256": "e9c92fd3d81ffea9dcb2d9c666ebbd09de82b0f5d47c99aa0a9294af5e0661d6",
+  "runtimeBeforeFingerprint": "503ed7c57eecaef8b4baf51e7835794aac1ade5a00a1a9383c20b709f8bab78d",
+  "runtimeCaptureBeforeSHA256": "3eb0614f8ce9dac09cae233fa06d07ddd7a6c7af550e12f5097db7825a956176",
+  "runtimeManifestBeforeSHA256": "901bc06cd8be621a94a358ffb48b9e4438988e86a6cdf90fc32a25fc9b8cec2b",
+  "runtimeStatus": "Verified preimages and candidate after-blocks. Installation is outside this review.",
+  "sourceFiles": {
+    "materials/tadabbur/ar/extended/018.json": {
+      "baselineSHA256": "b84fb8861d89c377e4d4bc2e51c1e55fc2193b92342f1dc7ed3b4f937c95dc5e",
+      "candidateSHA256": "4df989e3151bd07abf7504d8e9c9a8076464028713090252b0eef5b0ccd12383"
+    },
+    "materials/tadabbur/ar/extended/018.md": {
+      "baselineSHA256": "1e8a4f4cab16e64095341923330cf470712aff159318cdd9f024025cc3aab286",
+      "candidateSHA256": "ead4ffebaabcc1c4b1e2a040593e1494fda83082eea9c21dfa1a374faed60146"
+    }
+  },
+  "priorFiniteReviewSHA256": "da998dad2a0a880837f8616a36c71b7298f77c97b6ad259d77b86929d88f11c4",
+  "privateEvidenceSHA256": "22227b8583bb86418466afc876ba0bb5440330170ca7863917c363ef586b183a",
+  "candidateBindings": {
+    "packetOnlyReaderSHA256": "1e7b686f6d5cc21844602d2caed787a9aee18fefdf8e1fa62877b32dbde503c2",
+    "packetOnlyReaderTextSHA256": "c3456f1eb4581e4bb749755805b598b33082966b25d2442b6e6c11ea92b3209f",
+    "predecessorReaderSHA256": "4e3886c2965075da85d03bd51e3a982d1ac92bfd79fda33190d2883bf117b1f5",
+    "successorWithPredecessorRawJSON_SHA256": "164fdb14738b9235c7203d0f7ccd385b1a0a2313b625633e8236508769e9def1",
+    "successorWithPredecessorRawMarkdownSHA256": "a1e50fb870fc04b9d8b9d5223d3ffb6bc417cd92ff491123ea9c5af015756f2d",
+    "successorWithPredecessorReaderSHA256": "63a2dd973c645f5a6b9bcb225de61c45257d34af37497c5cb064edebc43eb58b",
+    "successorWithPredecessorReaderTextSHA256": "fd9f50ca716be17df6456c58900e552011abade01df88b0b8f259d842c96b52b"
+  },
+  "checks": {
+    "existingProtectedSpans": "PASS",
+    "allElevenUniqueTargetBlocks": "PASS",
+    "onlyTargetBlocksChanged": "PASS",
+    "priorReaderPreservedOutsideTargets": "PASS",
+    "priorTwoMuslimReferencesRetained": "PASS",
+    "codePointBoundaries": "PASS",
+    "restoredQuranVerse": "22:39",
+    "restoredQuranQuoteSHA256": "4f7195bbff2dfbf69424bef5d837ae6833687cb61390c3b95e567dd96dacf242",
+    "restoredQuranQuotePositions": [
+      60,
+      115
+    ],
+    "canonicalQuranSHA256": "20453c3cab87f317c89e3383fb7ce6ede2c09182a5a92ae7aa8476c9096f6e6d",
+    "olderHeldCountExcluded": 24,
+    "olderExclusionsSHA256": "8178e005d2a4f26bf62e9f351024f56ddce378f09ea2309ac71646a1f858d062",
+    "unitValidator": "PASS",
+    "coverageValidator": "PASS"
+  },
+  "rows": [
+    {
+      "key": "18:65",
+      "block": 1,
+      "result": "PASS",
+      "wordFileSHA256": "30fc457b5b942c8b48397f26369b1d2da3d4a2da6e18eda6e3d887671b217cb5",
+      "wordParagraph": 82,
+      "wordAfterSHA256": "3f2bb8383476b7c61b97078117989c626742581e7e8d9e919033876ac528bd3a",
+      "gitBeforeSHA256": "1d569ecbc02cdf55ddca27de84baf84203a14e589272a348658e3ab58a618820",
+      "appBeforeSHA256": "1d569ecbc02cdf55ddca27de84baf84203a14e589272a348658e3ab58a618820",
+      "priorIntegrationBeforeSHA256": "1d569ecbc02cdf55ddca27de84baf84203a14e589272a348658e3ab58a618820",
+      "approvedAfterSHA256": "3f2bb8383476b7c61b97078117989c626742581e7e8d9e919033876ac528bd3a",
+      "protectedSpansBefore": 1,
+      "protectedSpansAfter": 1,
+      "rawBlockSHA256": "711bbbeca355d833351af5a44230d76e5e299fe8539cdba85436acdd4cd6c24b",
+      "readerBlockSHA256": "199840b406b5d04d4c3b95ca2a2b77f3d9e4806a09940662d76a70b73ef8e827",
+      "sourceAndReaderBoundaryEvidenceSHA256": "e2be017541993b7d6953bbe27002c885799734c089ae30d0e5427a7ef64f94a5"
+    },
+    {
+      "key": "18:69",
+      "block": 1,
+      "result": "PASS",
+      "wordFileSHA256": "30fc457b5b942c8b48397f26369b1d2da3d4a2da6e18eda6e3d887671b217cb5",
+      "wordParagraph": 142,
+      "wordAfterSHA256": "3729347b7b2b9128ae8840c2aa7527ea5612de66d874860b963ea613c5c35e75",
+      "gitBeforeSHA256": "2ec2c089d332b4d21d3dbddfc58bbc18b940f395ab62dca5ca6065bf3e8e7b29",
+      "appBeforeSHA256": "2ec2c089d332b4d21d3dbddfc58bbc18b940f395ab62dca5ca6065bf3e8e7b29",
+      "priorIntegrationBeforeSHA256": "2ec2c089d332b4d21d3dbddfc58bbc18b940f395ab62dca5ca6065bf3e8e7b29",
+      "approvedAfterSHA256": "3729347b7b2b9128ae8840c2aa7527ea5612de66d874860b963ea613c5c35e75",
+      "protectedSpansBefore": 2,
+      "protectedSpansAfter": 2,
+      "rawBlockSHA256": "cac80c3d56b877c52c02e44088bf53fc74a865e30690c69f2c9ecc3c83768f8b",
+      "readerBlockSHA256": "b55895a00916ec59bee09687c7afa78bc849b09923360efa756a94a457bc2fb1",
+      "sourceAndReaderBoundaryEvidenceSHA256": "b33533fb2874d2a2d0c47928a3412bbbd90d72742b57e83d572338a0636c70d5"
+    },
+    {
+      "key": "18:77",
+      "block": 1,
+      "result": "PASS",
+      "wordFileSHA256": "0ea4b2a475d21d79901a29130c7e895f70f6e78c8ed2a2bab40d1c689598603e",
+      "wordParagraph": 44,
+      "wordAfterSHA256": "98a3fc538544f297b384e90cdb0fd70de1b3121e4ae89dabdd93b0f0a93961d8",
+      "gitBeforeSHA256": "49f01cc279a816d4bece3fb9e74d25f7f409a84c32234a4cec1a07ae1dab6b47",
+      "appBeforeSHA256": "49f01cc279a816d4bece3fb9e74d25f7f409a84c32234a4cec1a07ae1dab6b47",
+      "priorIntegrationBeforeSHA256": "49f01cc279a816d4bece3fb9e74d25f7f409a84c32234a4cec1a07ae1dab6b47",
+      "approvedAfterSHA256": "98a3fc538544f297b384e90cdb0fd70de1b3121e4ae89dabdd93b0f0a93961d8",
+      "protectedSpansBefore": 1,
+      "protectedSpansAfter": 1,
+      "rawBlockSHA256": "a213e7af9d9d2bc36ace2dc4fdc6dd89d7c648293a25d2e74cb40b404d5171d1",
+      "readerBlockSHA256": "766d783a969a82a5194542fd6e63c30d8519629e31d04730590648b7d8d64daa",
+      "sourceAndReaderBoundaryEvidenceSHA256": "de38fbeabf30dc865fb05a4352be80e56f7364605a6990543bb486784b84effc"
+    },
+    {
+      "key": "18:82",
+      "block": 4,
+      "result": "PASS",
+      "wordFileSHA256": "0ea4b2a475d21d79901a29130c7e895f70f6e78c8ed2a2bab40d1c689598603e",
+      "wordParagraph": 143,
+      "wordAfterSHA256": "db9f754cf3d9b2ccf2c056b7f843627bbeac7c9a1e21f740362d120deff07453",
+      "gitBeforeSHA256": "15f409de1aab5a2da3f6a7a2a5e0f8846e288acfe2cc84d8d7086fd096641ccb",
+      "appBeforeSHA256": "fb46920ac6cd82349d71e1f8350c2d51e4477deec8ea9d7d847d46c71bd41c8e",
+      "priorIntegrationBeforeSHA256": "fb46920ac6cd82349d71e1f8350c2d51e4477deec8ea9d7d847d46c71bd41c8e",
+      "approvedAfterSHA256": "63619fee84d4869554dff5b84e383c9596f3954c094621c356b44e1d10d2aced",
+      "protectedSpansBefore": 4,
+      "protectedSpansAfter": 4,
+      "rawBlockSHA256": "b1541e6cd0854bd234e17bffaee1dfd73849870f6d5f01a57bdc57354afbd0ae",
+      "readerBlockSHA256": "a9d6524047cf2ba5be51c7891999281c8d63d49af2bf5efc9897e053f3d0125b",
+      "sourceAndReaderBoundaryEvidenceSHA256": "03d2ba044bf2bd31863f25c1dfb96240eec93c248f8989008a6506a7642cf88d"
+    },
+    {
+      "key": "18:83",
+      "block": 1,
+      "result": "PASS",
+      "wordFileSHA256": "ea986106fe3f2ec4d98cb9b743bf1a213ef3e2eca6c6e97c9205d195655f0348",
+      "wordParagraph": 9,
+      "wordAfterSHA256": "2990fcdc06908de56816d60ea510f72c4e747aee97f229d21a5f781d90a48877",
+      "gitBeforeSHA256": "abdedb1572f72718473ee0c9ac4bf6c218dbf7af7dfc98b1778cddf4a458c0c1",
+      "appBeforeSHA256": "abdedb1572f72718473ee0c9ac4bf6c218dbf7af7dfc98b1778cddf4a458c0c1",
+      "priorIntegrationBeforeSHA256": "abdedb1572f72718473ee0c9ac4bf6c218dbf7af7dfc98b1778cddf4a458c0c1",
+      "approvedAfterSHA256": "2990fcdc06908de56816d60ea510f72c4e747aee97f229d21a5f781d90a48877",
+      "protectedSpansBefore": 1,
+      "protectedSpansAfter": 1,
+      "rawBlockSHA256": "d62f3b93a8ecd64b5c3d45677ae5d4fc4ae8a8eb9254fa7c4bcd12311105f4d8",
+      "readerBlockSHA256": "ffff41485d7d3e963ced428e7ccad0801ed90c4d8eb79f5ffa7be0f43f70cd9d",
+      "sourceAndReaderBoundaryEvidenceSHA256": "7c94545bf75aebc91e25f982fa19017287f82e484d6f29630cbdcac51b5aaae7"
+    },
+    {
+      "key": "18:83",
+      "block": 2,
+      "result": "PASS",
+      "wordFileSHA256": "ea986106fe3f2ec4d98cb9b743bf1a213ef3e2eca6c6e97c9205d195655f0348",
+      "wordParagraph": 23,
+      "wordAfterSHA256": "2064631f84444b21bd8d22ed2d1c103cda01c99913ff8cf55bf016606d4b19bb",
+      "gitBeforeSHA256": "a23a0acd2fe65b4527181894006f534d8721a0d73965fb040a8896705523bbcf",
+      "appBeforeSHA256": "a23a0acd2fe65b4527181894006f534d8721a0d73965fb040a8896705523bbcf",
+      "priorIntegrationBeforeSHA256": "a23a0acd2fe65b4527181894006f534d8721a0d73965fb040a8896705523bbcf",
+      "approvedAfterSHA256": "2064631f84444b21bd8d22ed2d1c103cda01c99913ff8cf55bf016606d4b19bb",
+      "protectedSpansBefore": 3,
+      "protectedSpansAfter": 3,
+      "rawBlockSHA256": "70f04829f2e179372e991edbb7144dd09043ad70af603c7faa787ed89ba83300",
+      "readerBlockSHA256": "f3e71d14c6e16a85b74b9b70de6d93dbd3d0690ee874d85e3020cc3448b080a7",
+      "sourceAndReaderBoundaryEvidenceSHA256": "c489feb0479ec42a286ee807d0b668db6d0ef0dee2dd5f92324727800c4c77af"
+    },
+    {
+      "key": "18:84",
+      "block": 1,
+      "result": "PASS",
+      "wordFileSHA256": "ea986106fe3f2ec4d98cb9b743bf1a213ef3e2eca6c6e97c9205d195655f0348",
+      "wordParagraph": 37,
+      "wordAfterSHA256": "735d2300a201c3d9cdf76c8863e4985768f2fbb4c62923f9e9287cd802d40d6d",
+      "gitBeforeSHA256": "292bdb5e0c70399fc3650013a546e1cc895576ce0cef66cfe2e2b5c196ad5c48",
+      "appBeforeSHA256": "292bdb5e0c70399fc3650013a546e1cc895576ce0cef66cfe2e2b5c196ad5c48",
+      "priorIntegrationBeforeSHA256": "292bdb5e0c70399fc3650013a546e1cc895576ce0cef66cfe2e2b5c196ad5c48",
+      "approvedAfterSHA256": "735d2300a201c3d9cdf76c8863e4985768f2fbb4c62923f9e9287cd802d40d6d",
+      "protectedSpansBefore": 2,
+      "protectedSpansAfter": 2,
+      "rawBlockSHA256": "d408277bc97e296ae4b49518aa6228d38081adb5516424ef2c9ae04199911b8e",
+      "readerBlockSHA256": "62621d43184086fc3884d1c1dab7f92a751ab22e6f5b6ce0cdd122c9b9f61476",
+      "sourceAndReaderBoundaryEvidenceSHA256": "f19d7a513b27855cf786ae105f418f5f9a814c315a382621951d7428fe39b424"
+    },
+    {
+      "key": "18:85",
+      "block": 1,
+      "result": "PASS",
+      "wordFileSHA256": "ea986106fe3f2ec4d98cb9b743bf1a213ef3e2eca6c6e97c9205d195655f0348",
+      "wordParagraph": 79,
+      "wordAfterSHA256": "cdbeb3623188022be5ba8e6509545e9f2ab4c274b03fb62ca27a0efbde6bd0a7",
+      "gitBeforeSHA256": "e5594863ee7f6b8eb9c768e19639054c17db3f97e33ee68facdba4192d11f5ac",
+      "appBeforeSHA256": "e5594863ee7f6b8eb9c768e19639054c17db3f97e33ee68facdba4192d11f5ac",
+      "priorIntegrationBeforeSHA256": "e5594863ee7f6b8eb9c768e19639054c17db3f97e33ee68facdba4192d11f5ac",
+      "approvedAfterSHA256": "cdbeb3623188022be5ba8e6509545e9f2ab4c274b03fb62ca27a0efbde6bd0a7",
+      "protectedSpansBefore": 1,
+      "protectedSpansAfter": 1,
+      "rawBlockSHA256": "42bb60ad132cce4cb7d9e587e508017beccdf6dde859fa6664a6d9eceaef3a09",
+      "readerBlockSHA256": "4080fb99b2e1053ad8cb6feb634722baee8f82ff39179cfd73bb676450acde7b",
+      "sourceAndReaderBoundaryEvidenceSHA256": "86b4fb90410e05366421d0efdcf6414c96df4017006ca898c52809a4c0ef72ad"
+    },
+    {
+      "key": "18:85",
+      "block": 2,
+      "result": "PASS",
+      "wordFileSHA256": "ea986106fe3f2ec4d98cb9b743bf1a213ef3e2eca6c6e97c9205d195655f0348",
+      "wordParagraph": 93,
+      "wordAfterSHA256": "d4eb832090330061b315e38ec70c8141d54ecfbe75adfa84edef43d582243eee",
+      "gitBeforeSHA256": "dbe5916ef31486ad377258bc0ea5cf6eac3145604902a91cf5caf7780aa6eccc",
+      "appBeforeSHA256": "dbe5916ef31486ad377258bc0ea5cf6eac3145604902a91cf5caf7780aa6eccc",
+      "priorIntegrationBeforeSHA256": "dbe5916ef31486ad377258bc0ea5cf6eac3145604902a91cf5caf7780aa6eccc",
+      "approvedAfterSHA256": "d4eb832090330061b315e38ec70c8141d54ecfbe75adfa84edef43d582243eee",
+      "protectedSpansBefore": 2,
+      "protectedSpansAfter": 3,
+      "rawBlockSHA256": "7d4f8ee273a3c5ebed29077850c1dbeb50ac01eed97a281ec125317471c07bc6",
+      "readerBlockSHA256": "fa216b8e505c1a862bade9e3d6e5c5e3bee76c8be28b90bdbe26416dea8ecc7a",
+      "sourceAndReaderBoundaryEvidenceSHA256": "ffc6467e53bf6c2ba1828cfedb3eb1cc5dbacb4ee0afad1fd8f45959b0ee3527"
+    },
+    {
+      "key": "18:90",
+      "block": 2,
+      "result": "PASS",
+      "wordFileSHA256": "ea986106fe3f2ec4d98cb9b743bf1a213ef3e2eca6c6e97c9205d195655f0348",
+      "wordParagraph": 191,
+      "wordAfterSHA256": "d1fb99cc76635bdc994d5c7df45434cf977e5c18a4dd93ec71194c8c668125a2",
+      "gitBeforeSHA256": "beb4a78ed2dbdd5bcb073d7b0cb379e7c318293cb83867c23f22835906589d02",
+      "appBeforeSHA256": "beb4a78ed2dbdd5bcb073d7b0cb379e7c318293cb83867c23f22835906589d02",
+      "priorIntegrationBeforeSHA256": "beb4a78ed2dbdd5bcb073d7b0cb379e7c318293cb83867c23f22835906589d02",
+      "approvedAfterSHA256": "d1fb99cc76635bdc994d5c7df45434cf977e5c18a4dd93ec71194c8c668125a2",
+      "protectedSpansBefore": 1,
+      "protectedSpansAfter": 1,
+      "rawBlockSHA256": "0db74b81971c5acd598fd175a111f0c5566cb2346b7c15127ccf93ec139dde64",
+      "readerBlockSHA256": "d5c1beb9867f97e1d9f26b52a5ed254f11486a6bcb6d49ffb536164b7fbe52bd",
+      "sourceAndReaderBoundaryEvidenceSHA256": "b99a81705072dd984b2b98499086ca9116924a74238df35da700f8c371a85ce6"
+    },
+    {
+      "key": "18:107",
+      "block": 1,
+      "result": "PASS",
+      "wordFileSHA256": "05a0bd13f1df3fc20a6f9e39da26b47ff5b67083b935b924fa43b58c0c4139f1",
+      "wordParagraph": 65,
+      "wordAfterSHA256": "7b2aea62297f3419f6764b38441e7f4998be91e8cee507adda315516fe1c40d1",
+      "gitBeforeSHA256": "f976ff581254b18aace2df3163b2480cd2a6e0d5cfc7839a5403d5b888fe217d",
+      "appBeforeSHA256": "f976ff581254b18aace2df3163b2480cd2a6e0d5cfc7839a5403d5b888fe217d",
+      "priorIntegrationBeforeSHA256": "f976ff581254b18aace2df3163b2480cd2a6e0d5cfc7839a5403d5b888fe217d",
+      "approvedAfterSHA256": "7b2aea62297f3419f6764b38441e7f4998be91e8cee507adda315516fe1c40d1",
+      "protectedSpansBefore": 1,
+      "protectedSpansAfter": 1,
+      "rawBlockSHA256": "07af0509a53e50a20c48c1846ee020ea2f776a955ed05f031bce5d2414cea272",
+      "readerBlockSHA256": "a287cf32445b1c355085c9bce6b5fae490ab64b78ab5c8f9fd209894ae6dcfb5",
+      "sourceAndReaderBoundaryEvidenceSHA256": "8a45c12e2bb4a53a637ef38ce8476c43f3c6589ea8e6245cf9177dd4b3d782d2"
+    }
+  ]
+}

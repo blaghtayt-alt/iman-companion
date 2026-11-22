@@ -1,0 +1,179 @@
+{
+  "schema": "iman-finite-owner-correction-independent-review-subset-v1",
+  "sourceIndependentReviewSHA256": "da998dad2a0a880837f8616a36c71b7298f77c97b6ad259d77b86929d88f11c4",
+  "scope": "Four earlier non-overlapping approved paragraphs only; earlier 18:82 attribution is superseded and omitted.",
+  "reviewer": "Independent Tadabbur reviewer, separate from the preparer of the candidate files.",
+  "method": "Read the selected paragraphs in the six digest-verified original DOCX packages. Verified unique selected spans in Word and Git, reconstructed each installed paragraph verbatim, and replayed only those operations on the Git JSON and Markdown. The resulting four file pairs match the candidates byte for byte. Reassembled reader text with each structured reference at its original source position. Confirmed unchanged registered coverage and sections outside the authorized and previously reviewed positions.",
+  "gitPreimage": "c90c264405af1f90a309bf39008a9b2cfc6b1181",
+  "decision": "PASS",
+  "decisions": [
+    {
+      "ayah": "18:46",
+      "paragraphIndex": 2,
+      "ownerRow": "KAHF-B02-046P02",
+      "sourceDecision": "PASS",
+      "publicationDecision": "PASS",
+      "reason": "The owner adds concrete examples of lasting good deeds and connects their reward to the loss of the two gardens. The original opening sentence remains verbatim.",
+      "word": {
+        "fileSHA256": "56641a2bb205715be8b15e3ffc93873e96a20596f7e45556871c3b2e58ad5a93",
+        "beforeParagraph": 27,
+        "afterParagraph": 29,
+        "beforeParagraphTextSHA256": "eb7c3be4929f586dbf947e909ac6f881c82a809504196a87d52756ef4e4247df",
+        "afterParagraphTextSHA256": "a0bb61633f891b6c5dc0d60f1a1ddc09cfecb39f8f4d854e674ce1935e03695e",
+        "beforeSpanStart": 0,
+        "afterSpanStart": 0
+      },
+      "beforeParagraphSHA256": "eb7c3be4929f586dbf947e909ac6f881c82a809504196a87d52756ef4e4247df",
+      "afterParagraphSHA256": "a0bb61633f891b6c5dc0d60f1a1ddc09cfecb39f8f4d854e674ce1935e03695e",
+      "liveAppParagraphSHA256": "a0bb61633f891b6c5dc0d60f1a1ddc09cfecb39f8f4d854e674ce1935e03695e",
+      "markdownBoundary": "ayah heading",
+      "selectedChange": {
+        "beforeCodePoints": [
+          0,
+          56
+        ],
+        "afterCodePoints": [
+          0,
+          393
+        ],
+        "beforeSpanSHA256": "eb7c3be4929f586dbf947e909ac6f881c82a809504196a87d52756ef4e4247df",
+        "afterSpanSHA256": "a0bb61633f891b6c5dc0d60f1a1ddc09cfecb39f8f4d854e674ce1935e03695e",
+        "unchangedPrefixSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "unchangedSuffixSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "unchangedQuotedStrings": 0,
+      "beforeReferences": [],
+      "afterReferences": [],
+      "readerBlockCanonicalSHA256": "d7db0446d447e307f99c2be48251cea297507e0f3bc2eb654d34073916b62048",
+      "readerFileSHA256": "4e3886c2965075da85d03bd51e3a982d1ac92bfd79fda33190d2883bf117b1f5"
+    },
+    {
+      "ayah": "18:51",
+      "paragraphIndex": 1,
+      "ownerRow": "KAHF-B02-051P01",
+      "sourceDecision": "PASS",
+      "publicationDecision": "PASS",
+      "reason": "The revised explanation says those taken as partners neither witnessed creation nor participated in it. The opening Quran excerpt is exact.",
+      "word": {
+        "fileSHA256": "56641a2bb205715be8b15e3ffc93873e96a20596f7e45556871c3b2e58ad5a93",
+        "beforeParagraph": 114,
+        "afterParagraph": 116,
+        "beforeParagraphTextSHA256": "b2792c7ad33731070b0cd4318df4d778d3a042465389d5277a013ed06a329073",
+        "afterParagraphTextSHA256": "4be0cbc965e7046366c62d90414f8abf74ee8b01ed75046056cc00b25bc35c0b",
+        "beforeSpanStart": 0,
+        "afterSpanStart": 0
+      },
+      "beforeParagraphSHA256": "b2792c7ad33731070b0cd4318df4d778d3a042465389d5277a013ed06a329073",
+      "afterParagraphSHA256": "4be0cbc965e7046366c62d90414f8abf74ee8b01ed75046056cc00b25bc35c0b",
+      "liveAppParagraphSHA256": "4be0cbc965e7046366c62d90414f8abf74ee8b01ed75046056cc00b25bc35c0b",
+      "markdownBoundary": "ayah heading",
+      "selectedChange": {
+        "beforeCodePoints": [
+          0,
+          408
+        ],
+        "afterCodePoints": [
+          0,
+          195
+        ],
+        "beforeSpanSHA256": "b2792c7ad33731070b0cd4318df4d778d3a042465389d5277a013ed06a329073",
+        "afterSpanSHA256": "4be0cbc965e7046366c62d90414f8abf74ee8b01ed75046056cc00b25bc35c0b",
+        "unchangedPrefixSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "unchangedSuffixSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "unchangedQuotedStrings": 1,
+      "beforeReferences": [],
+      "afterReferences": [],
+      "readerBlockCanonicalSHA256": "38e4397ffbf6dff13f49b2c1ab53f2ee829ed664a5d8a164291ec7117a2226db",
+      "readerFileSHA256": "4e3886c2965075da85d03bd51e3a982d1ac92bfd79fda33190d2883bf117b1f5"
+    },
+    {
+      "ayah": "18:61",
+      "paragraphIndex": 1,
+      "ownerRow": "KAHF-B03-061P01",
+      "sourceDecision": "PASS",
+      "publicationDecision": "PASS",
+      "reason": "The tunnel-like shape concerns the water around the path of the fish. The Quran excerpt and the Bukhari 3401 reference are intact.",
+      "word": {
+        "fileSHA256": "30fc457b5b942c8b48397f26369b1d2da3d4a2da6e18eda6e3d887671b217cb5",
+        "beforeParagraph": 32,
+        "afterParagraph": 34,
+        "beforeParagraphTextSHA256": "5a32535fc47d4efc22608af7bf301a51de93e26776686f1be2b277e5e1aac062",
+        "afterParagraphTextSHA256": "2d698c3729e7ad8b5f8cc81638667f1978b34821a16eb3719fe382358b98d495",
+        "beforeSpanStart": 475,
+        "afterSpanStart": 627
+      },
+      "beforeParagraphSHA256": "9f35bb5e7e90b9fc8ced4b11fc4d2a1bb64ab4f0162e5c397900ea85c36c6f5e",
+      "afterParagraphSHA256": "47713342dc4ba4c0a7f895106571631082a6cf56abb2c59f62bd553d0d9e12a4",
+      "liveAppParagraphSHA256": "47713342dc4ba4c0a7f895106571631082a6cf56abb2c59f62bd553d0d9e12a4",
+      "markdownBoundary": "ayah heading",
+      "selectedChange": {
+        "beforeCodePoints": [
+          371,
+          425
+        ],
+        "afterCodePoints": [
+          371,
+          467
+        ],
+        "beforeSpanSHA256": "4459b0a05af66f95dc6a9ecf61e2d9b8f39766349f07e0c149c7106ea86d6db8",
+        "afterSpanSHA256": "32b01a173342656010d74c334096001bbc6abb32dac9573e5ce9ce4dbd063ff5",
+        "unchangedPrefixSHA256": "40755eb14dc852806cc7fe3bc9cb1250f4cf36d8166025de27026fca946d8689",
+        "unchangedSuffixSHA256": "9453b1178a782c4f3af93f3196777d056aa6753542f02bc2b7d512bc598a3127"
+      },
+      "unchangedQuotedStrings": 1,
+      "beforeReferences": [
+        "[البخاري: 3401]"
+      ],
+      "afterReferences": [
+        "[البخاري: 3401]"
+      ],
+      "readerBlockCanonicalSHA256": "8edf64711d64148e9f56e6f97fc0268a4c8261aaaafd3002140f122a51671811",
+      "readerFileSHA256": "4e3886c2965075da85d03bd51e3a982d1ac92bfd79fda33190d2883bf117b1f5"
+    },
+    {
+      "ayah": "18:64",
+      "paragraphIndex": 1,
+      "ownerRow": "KAHF-B03-064P01",
+      "sourceDecision": "PASS",
+      "publicationDecision": "PASS",
+      "reason": "The approved narrative paraphrases two reports. Muslim 680a gives Bilal’s watch and iqamah, and 680b gives the prayer of two units before the dawn prayer. The final observation about blame is the author’s reflection. Both Arabic reference labels remain inline at their original position in the selected reader.",
+      "word": {
+        "fileSHA256": "30fc457b5b942c8b48397f26369b1d2da3d4a2da6e18eda6e3d887671b217cb5",
+        "beforeParagraph": 68,
+        "afterParagraph": 70,
+        "beforeParagraphTextSHA256": "5c99dd4c4280b4415902a9a88d587c3c180eaa05884d5e9bb4551d2cdba4f703",
+        "afterParagraphTextSHA256": "93a9b00db9964e2c86bbef3c26ad4d043aea67b66e622be204174a7be5c0953b",
+        "beforeSpanStart": 249,
+        "afterSpanStart": 279
+      },
+      "beforeParagraphSHA256": "5c99dd4c4280b4415902a9a88d587c3c180eaa05884d5e9bb4551d2cdba4f703",
+      "afterParagraphSHA256": "7fd81e9d840caa48df6bdc7d081b04eb0229abfc3415d6fe525f5cdffc4f2554",
+      "liveAppParagraphSHA256": "7fd81e9d840caa48df6bdc7d081b04eb0229abfc3415d6fe525f5cdffc4f2554",
+      "markdownBoundary": "ayah heading",
+      "selectedChange": {
+        "beforeCodePoints": [
+          249,
+          403
+        ],
+        "afterCodePoints": [
+          249,
+          593
+        ],
+        "beforeSpanSHA256": "d8fc7c108afc5594e9ef6d2e21623662eb88bad83a802bad3a6f88f8e5dec6a0",
+        "afterSpanSHA256": "07fcec33eb1cca71b2d2ef97a4a5c894ff2fd2fba963342266dfe76901c86d7c",
+        "unchangedPrefixSHA256": "1ce3fa37d2693604424cc8a7cf84ccdf6422308c95c446665473a90e4269dfc0",
+        "unchangedSuffixSHA256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+      },
+      "unchangedQuotedStrings": 1,
+      "beforeReferences": [
+        "[مسلم]"
+      ],
+      "afterReferences": [
+        "[مسلم: 680أ، 680ب]"
+      ],
+      "readerBlockCanonicalSHA256": "d7d3ee53a805fae7242428fb9d26b945d1587795993a74e518c2608601e054c2",
+      "readerFileSHA256": "4e3886c2965075da85d03bd51e3a982d1ac92bfd79fda33190d2883bf117b1f5"
+    }
+  ]
+}

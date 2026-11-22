@@ -1,0 +1,226 @@
+{
+  "status": "Private rebuilt 110-verse unit, public source transaction and installed readback separate",
+  "baseGit": "ab0efbac9207db3a3eefc8221e8d14c09ef76b0b",
+  "oldReadBinding": {
+    "path": "materials/source-acceptances/recovered-329-v1/ar/18-extended/reader.json",
+    "sha256": "568bd1947f9134fc1631815afaa8b99fb4fa23d063e355cd45b7db418e4ed64b"
+  },
+  "expectedSourceBase": [
+    {
+      "path": "materials/tadabbur/ar/extended/018.json",
+      "sha256": "b84fb8861d89c377e4d4bc2e51c1e55fc2193b92342f1dc7ed3b4f937c95dc5e"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/018.md",
+      "sha256": "1e8a4f4cab16e64095341923330cf470712aff159318cdd9f024025cc3aab286"
+    }
+  ],
+  "pairedSource": [
+    {
+      "path": "materials/tadabbur/ar/extended/018.json",
+      "sha256": "164fdb14738b9235c7203d0f7ccd385b1a0a2313b625633e8236508769e9def1"
+    },
+    {
+      "path": "materials/tadabbur/ar/extended/018.md",
+      "sha256": "a1e50fb870fc04b9d8b9d5223d3ffb6bc417cd92ff491123ea9c5af015756f2d"
+    }
+  ],
+  "normalizedReader": {
+    "path": "NORMALIZED-COMBINED-KAHF-READER.json",
+    "sha256": "63a2dd973c645f5a6b9bcb225de61c45257d34af37497c5cb064edebc43eb58b"
+  },
+  "exactHistoric31": 31,
+  "exactNewFifteen": 15,
+  "allTextDifferences": [
+    [
+      "18:100",
+      1
+    ],
+    [
+      "18:101",
+      2
+    ],
+    [
+      "18:102",
+      1
+    ],
+    [
+      "18:107",
+      1
+    ],
+    [
+      "18:31",
+      1
+    ],
+    [
+      "18:32",
+      1
+    ],
+    [
+      "18:32",
+      2
+    ],
+    [
+      "18:33",
+      1
+    ],
+    [
+      "18:33",
+      2
+    ],
+    [
+      "18:34",
+      1
+    ],
+    [
+      "18:35",
+      1
+    ],
+    [
+      "18:36",
+      1
+    ],
+    [
+      "18:36",
+      2
+    ],
+    [
+      "18:37",
+      1
+    ],
+    [
+      "18:38",
+      1
+    ],
+    [
+      "18:39",
+      1
+    ],
+    [
+      "18:39",
+      2
+    ],
+    [
+      "18:40",
+      2
+    ],
+    [
+      "18:41",
+      1
+    ],
+    [
+      "18:42",
+      1
+    ],
+    [
+      "18:42",
+      2
+    ],
+    [
+      "18:43",
+      1
+    ],
+    [
+      "18:44",
+      1
+    ],
+    [
+      "18:44",
+      2
+    ],
+    [
+      "18:46",
+      2
+    ],
+    [
+      "18:51",
+      1
+    ],
+    [
+      "18:61",
+      1
+    ],
+    [
+      "18:64",
+      1
+    ],
+    [
+      "18:65",
+      1
+    ],
+    [
+      "18:69",
+      1
+    ],
+    [
+      "18:77",
+      1
+    ],
+    [
+      "18:82",
+      4
+    ],
+    [
+      "18:83",
+      1
+    ],
+    [
+      "18:83",
+      2
+    ],
+    [
+      "18:84",
+      1
+    ],
+    [
+      "18:85",
+      1
+    ],
+    [
+      "18:85",
+      2
+    ],
+    [
+      "18:90",
+      2
+    ],
+    [
+      "18:92",
+      1
+    ],
+    [
+      "18:94",
+      1
+    ],
+    [
+      "18:94",
+      2
+    ],
+    [
+      "18:95",
+      1
+    ],
+    [
+      "18:96",
+      1
+    ],
+    [
+      "18:97",
+      1
+    ],
+    [
+      "18:99",
+      1
+    ],
+    [
+      "18:99",
+      2
+    ]
+  ],
+  "oldReaderCoverageFullyPreserved": true,
+  "independentProof": [
+    "5eaf42571632a3a8a8b04ea0de402806bc7aa38e11fa5688fc2ff1d4e49a7ef9",
+    "da998dad2a0a880837f8616a36c71b7298f77c97b6ad259d77b86929d88f11c4",
+    "39aedf2370785f9fde448f2352ff571774e3a54e7878f0eabbf2ddd25b556629"
+  ]
+}
