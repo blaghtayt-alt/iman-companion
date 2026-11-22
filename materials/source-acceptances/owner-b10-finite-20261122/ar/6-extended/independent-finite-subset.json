@@ -1,0 +1,75 @@
+{
+  "schema": "iman-finite-owner-correction-independent-review-subset-v1",
+  "sourceIndependentReviewSHA256": "da998dad2a0a880837f8616a36c71b7298f77c97b6ad259d77b86929d88f11c4",
+  "scope": "Verbatim decision subset for one non-overlapping unit; original whole-material review and preexisting release holds remain unchanged.",
+  "reviewer": "Independent Tadabbur reviewer, separate from the preparer of the candidate files.",
+  "method": "Read the selected paragraphs in the six digest-verified original DOCX packages. Verified unique selected spans in Word and Git, reconstructed each installed paragraph verbatim, and replayed only those operations on the Git JSON and Markdown. The resulting four file pairs match the candidates byte for byte. Reassembled reader text with each structured reference at its original source position. Confirmed unchanged registered coverage and sections outside the authorized and previously reviewed positions.",
+  "gitPreimage": "c90c264405af1f90a309bf39008a9b2cfc6b1181",
+  "decision": "PASS",
+  "sourceAndReaderBinding": {
+    "surah": 6,
+    "sourceJSON": "materials/tadabbur/ar/extended/006.json",
+    "gitBeforeJSON_SHA256": "f568c47176230a65a4af68b3bed0035ef9d9a7547fa2006204544f20211f3d1d",
+    "sourceAfterJSON_SHA256": "3c06db287eaf6050dd9b310a325fa3d08f5bb9dff711601929defd9d05a5f736",
+    "sourceMarkdown": "materials/tadabbur/ar/extended/006.md",
+    "gitBeforeMarkdownSHA256": "275e5a74d18ec3595ec262ec4f3ea9d856d51ab0da9de4f4e0adf368295f960c",
+    "sourceAfterMarkdownSHA256": "2cc05fb22ff1da22635d293fedbea59f98cc7e99ba850225a4c0b7ea848a5a04",
+    "publicationCandidateFile": "NORMALIZED-CANDIDATE.json",
+    "publicationCandidateSHA256": "85c17fcc7ec97338777c28144301425f4fb0c0b31be1b56d78b198d213244913",
+    "readerTextSHA256": "14b3e268ab542a4c9daf45d58c4591e21825f2cfaab376e505f10b800bda3746",
+    "originalReaderPath": "materials/source-acceptances/recovered-329-v1/ar/6-extended/reader.json",
+    "originalReaderSHA256": "224691e66ff90c7efa2d2b210123ab53a14650fc0ecf6fe8a91c06d552112a1c",
+    "originalCoveragePreserved": true,
+    "unitValidation": "PASS",
+    "coverageValidation": "PASS",
+    "coverageLabel": null,
+    "sections": 165,
+    "reviewedParagraphs": 1
+  },
+  "decisions": [
+    {
+      "ayah": "6:35",
+      "paragraphIndex": 4,
+      "ownerRow": "ANAM-B02-035-B04",
+      "sourceDecision": "PASS",
+      "publicationDecision": "PASS",
+      "reason": "The door analogy and concluding example explain how lawful means of teaching may serve revelation. The cited Quran excerpt and its 22:52 reference remain exact.",
+      "word": {
+        "fileSHA256": "7dddd3be9220e25c5da53ff1c292f02e44bb90cd5446be6452d71e820c74bffa",
+        "beforeParagraph": 147,
+        "afterParagraph": 149,
+        "beforeParagraphTextSHA256": "cab91c8715afc8eced2ba017e2b392f42ec10109439ca23306a608b062f2c208",
+        "afterParagraphTextSHA256": "8840a8458a78bdf1c4f4a2eb699de26d035c697f9bae9a8d88e820148d29cc04",
+        "beforeSpanStart": 59,
+        "afterSpanStart": 59
+      },
+      "beforeParagraphSHA256": "cab91c8715afc8eced2ba017e2b392f42ec10109439ca23306a608b062f2c208",
+      "afterParagraphSHA256": "8840a8458a78bdf1c4f4a2eb699de26d035c697f9bae9a8d88e820148d29cc04",
+      "liveAppParagraphSHA256": "8840a8458a78bdf1c4f4a2eb699de26d035c697f9bae9a8d88e820148d29cc04",
+      "markdownBoundary": "ayah heading",
+      "selectedChange": {
+        "beforeCodePoints": [
+          59,
+          489
+        ],
+        "afterCodePoints": [
+          59,
+          614
+        ],
+        "beforeSpanSHA256": "163972f08bf09f9d1cfa7b9dd65706ea2f0c3baa533d879f705c4f60b1f07e2a",
+        "afterSpanSHA256": "930b2d4e9954f4b252d7a9f194c161e9be1fcdc25e03cbad5bc78447988692fb",
+        "unchangedPrefixSHA256": "11f58a064c634f2ee4d0034035cb157fb593ae278a6659d20dce71cf5a585b78",
+        "unchangedSuffixSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "unchangedQuotedStrings": 1,
+      "beforeReferences": [
+        "[الحج: ٥٢]"
+      ],
+      "afterReferences": [
+        "[الحج: ٥٢]"
+      ],
+      "readerBlockCanonicalSHA256": "15892dd7047f1122918e79ae4707f00dd3072c44b253333f5cc851d3d8581d1b",
+      "readerFileSHA256": "85c17fcc7ec97338777c28144301425f4fb0c0b31be1b56d78b198d213244913"
+    }
+  ]
+}

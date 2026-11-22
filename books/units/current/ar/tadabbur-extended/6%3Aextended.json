@@ -9,11 +9,7 @@
   "complete": true,
   "reviewGate": "published-current",
   "sourceHashes": [
-    "06bd681f7a0106ebd90fc52904409b32b22bbadb6ee2257dca7ce5d641365d0d",
-    "2966b4baa02441e438f0d8fcf776ee29f489b00db974cb4472cdaa8da384cbb9",
-    "8a9043b70b50ae7f3e4fb5e5de40ead7062707e428725d59ac56e2dfd7a6ff10",
-    "b834fa4e084ef83bd36e1d996a65ed4dc602539639d17e21f38cd46e52a75111",
-    "eec21da1b083646d749117d84ce28034c58fdc9fb34f68de388cf44473bfc550"
+    "3c06db287eaf6050dd9b310a325fa3d08f5bb9dff711601929defd9d05a5f736"
   ],
   "inputBindings": [
     {
@@ -25,12 +21,20 @@
       "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
     },
     {
-      "path": "materials/book-publication-approvals/db71c3ef5e6279360c29b8876196fb53b6d5f19ee3ed70c6c737d76d433ef570.json",
+      "path": "materials/book-publication-approvals/d9000043f565d35f03446d41ff25fdd40fbb968e3752ae112dd9b71662407d3c.json",
+      "sha256": "d9000043f565d35f03446d41ff25fdd40fbb968e3752ae112dd9b71662407d3c"
+    },
+    {
+      "path": "materials/book-publication-intake/db71c3ef5e6279360c29b8876196fb53b6d5f19ee3ed70c6c737d76d433ef570.json",
       "sha256": "db71c3ef5e6279360c29b8876196fb53b6d5f19ee3ed70c6c737d76d433ef570"
     },
     {
-      "path": "materials/source-acceptances/recovered-329-v1/ar/6-extended/complete-reader.txt",
-      "sha256": "3ff6e3569e75cb3268d7cfafe83c17893b8a0e5ddacef58782cf65fb4a17438d"
+      "path": "materials/source-acceptances/owner-b10-finite-20261122/ar/6-extended/independent-finite-subset.json",
+      "sha256": "75f0f147baa2ad6aeb9ac4b1caba8c74182a4fbcd2874ec3f3f52d65288822f6"
+    },
+    {
+      "path": "materials/source-acceptances/owner-b10-finite-20261122/ar/6-extended/reader.json",
+      "sha256": "85c17fcc7ec97338777c28144301425f4fb0c0b31be1b56d78b198d213244913"
     },
     {
       "path": "materials/source-acceptances/recovered-329-v1/ar/6-extended/existing-review-chain.json",
@@ -45,28 +49,12 @@
       "sha256": "7bf3fda351ec6c28e06d9c43d35f6c45724c9b9d7c49156362a51c1768793db7"
     },
     {
-      "path": "materials/source-acceptances/recovered-329-v1/ar/6-extended/reader.json",
-      "sha256": "224691e66ff90c7efa2d2b210123ab53a14650fc0ecf6fe8a91c06d552112a1c"
-    },
-    {
-      "path": "materials/source-acceptances/recovered-329-v1/ar/6-extended/registered-source.json",
-      "sha256": "632f672226ff49aa95073be68eaa91576f349f08be09868f04a720a9e781691c"
-    },
-    {
-      "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/5c5659bf14b14e74f1a64ea1682880df3b5fd788503eead2d98105dcf8b39999.json",
-      "sha256": "5c5659bf14b14e74f1a64ea1682880df3b5fd788503eead2d98105dcf8b39999"
-    },
-    {
-      "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/cd4f44d174a7f5783861b6924929febff3d6621cddb8c9ce145bf4d56c59a8cc.json",
-      "sha256": "cd4f44d174a7f5783861b6924929febff3d6621cddb8c9ce145bf4d56c59a8cc"
-    },
-    {
       "path": "materials/tadabbur/ar/extended/006.json",
-      "sha256": "f568c47176230a65a4af68b3bed0035ef9d9a7547fa2006204544f20211f3d1d"
+      "sha256": "3c06db287eaf6050dd9b310a325fa3d08f5bb9dff711601929defd9d05a5f736"
     },
     {
       "path": "materials/tadabbur/ar/extended/006.md",
-      "sha256": "275e5a74d18ec3595ec262ec4f3ea9d856d51ab0da9de4f4e0adf368295f960c"
+      "sha256": "2cc05fb22ff1da22635d293fedbea59f98cc7e99ba850225a4c0b7ea848a5a04"
     },
     {
       "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
@@ -5513,11 +5501,11 @@
         },
         {
           "kind": "paragraph",
-          "text": "فقد يخاف على الناس من الضلال، ثم يفتح لهم في طريق هدايتهم بابًا لم يأذن به الله. ويقرب ذلك من أُذن له بدخول مكان من أبواب معينة، ومُنع من أبواب أخرى؛ فإغلاق الأبواب المأذون بها ليس فضيلة، وفتح الممنوع بحجة تسهيل الدخول ليس أمانة. وعلى أحد أوجه تفسير قوله ﴿إلا إذا تمنى ألقى الشيطان في أمنيته﴾  تعلق التمني برجاء هداية القوم؛ ومن مواضع الحذر أن يتسلل الباطل إلى طريقة العمل من باب رغبة أصلها صالح. وليس هذا تركًا للاجتهاد في وسائل البيان المشروعة، بل رد لها إلى أصلها الذي تخدمه. ",
+          "text": "فقد يخاف على الناس من الضلال، ثم يفتح لهم في طريق هدايتهم بابًا لم يأذن به الله. ويتضح خطر هذا المسلك بمثال مكان أُذن للناس بدخوله من أبواب معينة، ومُنعوا من أبواب أخرى؛ فمن أراد إعانتهم على الدخول لم يكن له أن يغلق الأبواب المأذون بها، أو يفتح الأبواب الممنوعة بحجة التيسير عليهم. وعلى أحد أوجه تفسير قوله ﴿إلا إذا تمنى ألقى الشيطان في أمنيته﴾  تعلق التمني برجاء هداية القوم؛ ومن مواضع الحذر أن يتسلل الباطل إلى طريقة العمل من باب رغبة أصلها صالح. وليس هذا تركًا للاجتهاد في وسائل البيان المشروعة؛ فمنها تبسيط معاني القرآن وعرضها بطريقة تعين الناس على فهمها، مع بقاء هذه الوسائل خادمة لما جاء به الوحي. ",
           "spans": [
             {
-              "text": "فقد يخاف على الناس من الضلال، ثم يفتح لهم في طريق هدايتهم بابًا لم يأذن به الله. ويقرب ذلك من أُذن له بدخول مكان من أبواب معينة، ومُنع من أبواب أخرى؛ فإغلاق الأبواب المأذون بها ليس فضيلة، وفتح الممنوع بحجة تسهيل الدخول ليس أمانة. وعلى أحد أوجه تفسير قوله ﴿إلا إذا تمنى ألقى الشيطان في أمنيته﴾ ",
-              "role": "body"
+              "role": "body",
+              "text": "فقد يخاف على الناس من الضلال، ثم يفتح لهم في طريق هدايتهم بابًا لم يأذن به الله. ويتضح خطر هذا المسلك بمثال مكان أُذن للناس بدخوله من أبواب معينة، ومُنعوا من أبواب أخرى؛ فمن أراد إعانتهم على الدخول لم يكن له أن يغلق الأبواب المأذون بها، أو يفتح الأبواب الممنوعة بحجة التيسير عليهم. وعلى أحد أوجه تفسير قوله ﴿إلا إذا تمنى ألقى الشيطان في أمنيته﴾ "
             },
             {
               "text": "",
@@ -5527,8 +5515,8 @@
               ]
             },
             {
-              "text": " تعلق التمني برجاء هداية القوم؛ ومن مواضع الحذر أن يتسلل الباطل إلى طريقة العمل من باب رغبة أصلها صالح. وليس هذا تركًا للاجتهاد في وسائل البيان المشروعة، بل رد لها إلى أصلها الذي تخدمه. ",
-              "role": "body"
+              "role": "body",
+              "text": " تعلق التمني برجاء هداية القوم؛ ومن مواضع الحذر أن يتسلل الباطل إلى طريقة العمل من باب رغبة أصلها صالح. وليس هذا تركًا للاجتهاد في وسائل البيان المشروعة؛ فمنها تبسيط معاني القرآن وعرضها بطريقة تعين الناس على فهمها، مع بقاء هذه الوسائل خادمة لما جاء به الوحي. "
             }
           ],
           "sourceBlockIndex": 4
@@ -24176,7 +24164,7 @@
   },
   "coverageLabel": null,
   "sourceScopeNotes": [],
-  "readerTextSHA256": "782f8c621fd71aed098ef2b0b456f8ec242d8db32c99fd3cecbec0c9f9af55d8",
+  "readerTextSHA256": "14b3e268ab542a4c9daf45d58c4591e21825f2cfaab376e505f10b800bda3746",
   "referenceReadiness": {
     "unboundQuranSegments": 0,
     "unboundHadithSegments": 0,
@@ -24186,7 +24174,7 @@
   },
   "provenance": {
     "adapter": "reviewed-structured-quran-v1",
-    "sourceRecordSHA256": "dda8028cdca4e8c593b2ce21360bcdc498959a8faa65ed9581a03938143d31a1",
+    "sourceRecordSHA256": "ceb7f858ab7a6ea826ff293be4cb37d35088087ec55936c58bb5fa9a4fcd8d2b",
     "sourceOwnerWholeReview": {
       "kind": "Arabic literal/structural source QC; not a translation, semantic or scholarly certification",
       "handoffSHA256": "dc0acde7a951e538f0fe2cb1a1f05f65a965dbe24d0d87876adb0bc9c765c3bf",
@@ -24207,8 +24195,8 @@
     ],
     "sourceJSON": "materials/tadabbur/ar/extended/006.json",
     "allProseAndQuotationCharactersPreserved": true,
-    "sourceProseSHA256": "cf24282adcc73e53896eca23e34d0bd2b198088e581480f6d84dae5b67a4a7b3",
-    "formattedProseSHA256": "8ec80c430c0d9aed412d90a20dc37b18cdb4c6f390683fcf7123f393c25ae340",
+    "sourceProseSHA256": "a161dd3cdf560b74778e765c5b664d19a60533821daf15f9f06cbb4a41032f36",
+    "formattedProseSHA256": "9f5e1196734be51eea481078ad1a90d2be9d02a793a81590a607993ecf83f92f",
     "mainAyahPresentation": [
       {
         "verseKey": "6:1",
@@ -27840,8 +27828,8 @@
       {
         "section": "6:35",
         "block": 4,
-        "start": 293,
-        "end": 303,
+        "start": 345,
+        "end": 355,
         "literal": "[الحج: ٥٢]",
         "binding": {
           "verseKeys": [
@@ -34436,23 +34424,11 @@
     "unanchoredSourceNotes": 0,
     "mandatoryReadingNotes": [],
     "mandatoryDetachedQualifications": [],
-    "sourceApprovalCreated": false,
-    "recoveredExistingReview": {
-      "reviewChain": {
-        "path": "materials/source-acceptances/recovered-329-v1/ar/6-extended/existing-review-chain.json",
-        "sha256": "28b130ebd4cbff5f9f92e1d1808f8912addc253931f9f00c482309c1454e789a"
-      },
-      "sourceOwnerLiteralTransfer": {
-        "path": "materials/source-acceptances/recovered-329-v1/ar/6-extended/literal-transfer-receipt.json",
-        "sha256": "7bf3fda351ec6c28e06d9c43d35f6c45724c9b9d7c49156362a51c1768793db7"
-      },
-      "noNewSemanticReview": true,
-      "originalQualificationUnchanged": true
-    }
+    "sourceApprovalCreated": false
   },
   "publicationApproval": {
-    "path": "materials/book-publication-approvals/db71c3ef5e6279360c29b8876196fb53b6d5f19ee3ed70c6c737d76d433ef570.json",
-    "sha256": "db71c3ef5e6279360c29b8876196fb53b6d5f19ee3ed70c6c737d76d433ef570",
-    "approvalId": "recovered-existing-review-329-v1-ar-6:extended"
+    "path": "materials/book-publication-approvals/d9000043f565d35f03446d41ff25fdd40fbb968e3752ae112dd9b71662407d3c.json",
+    "sha256": "d9000043f565d35f03446d41ff25fdd40fbb968e3752ae112dd9b71662407d3c",
+    "approvalId": "literal-transfer-finite-owner-b10-20261122-ar-6-extended"
   }
 }
