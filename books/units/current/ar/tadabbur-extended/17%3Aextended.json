@@ -9,7 +9,7 @@
   "complete": true,
   "reviewGate": "published-current",
   "sourceHashes": [
-    "a33fb52c147eefaa719bbe6c076f1a2c6012811adf17b7bf2b47177d2350e5c1"
+    "ec631fba2bebc2c8b9f7c193b1fba84f5672608543192b56805f517ed7cab0d7"
   ],
   "inputBindings": [
     {
@@ -21,12 +21,20 @@
       "sha256": "ba2134df3a4cf7ca9854cbac2092a4911c7d1c78df0d6c7c7b7bde64830ff369"
     },
     {
-      "path": "materials/book-publication-approvals/6d3da328106e7aadd078961030690bd016f9437952e4d2f69b7c903bbfa0f336.json",
+      "path": "materials/book-publication-approvals/959ed204cf09ca539f6a4c9bcde44600358e4b5ef9da53f1804b8924ffe70d04.json",
+      "sha256": "959ed204cf09ca539f6a4c9bcde44600358e4b5ef9da53f1804b8924ffe70d04"
+    },
+    {
+      "path": "materials/book-publication-intake/6d3da328106e7aadd078961030690bd016f9437952e4d2f69b7c903bbfa0f336.json",
       "sha256": "6d3da328106e7aadd078961030690bd016f9437952e4d2f69b7c903bbfa0f336"
     },
     {
-      "path": "materials/source-acceptances/recovered-329-v1/ar/17-extended/complete-reader.txt",
-      "sha256": "269091fc590f4d858d57bfe647da2e28a1c3926ce6018f7445c76198c0b7ce20"
+      "path": "materials/source-acceptances/owner-b10-finite-20261122/ar/17-extended/independent-finite-subset.json",
+      "sha256": "b19e7dd8c323bb85675c1507f34a6d2120a4053142121f691198c36f3b80de2e"
+    },
+    {
+      "path": "materials/source-acceptances/owner-b10-finite-20261122/ar/17-extended/reader.json",
+      "sha256": "38916e0aa40d30f9a39747a1fa648fdb76511683c1386af56349d3682b4428fc"
     },
     {
       "path": "materials/source-acceptances/recovered-329-v1/ar/17-extended/existing-review-chain.json",
@@ -41,28 +49,12 @@
       "sha256": "3feb4db567de66bd74e47872f101e23173f57723ce9f25c5abddb4769f01ae93"
     },
     {
-      "path": "materials/source-acceptances/recovered-329-v1/ar/17-extended/reader.json",
-      "sha256": "bb1fd7c45c1eede1c5a409c515a1e900811ce8802154c63bb52852f6ec1b81d3"
-    },
-    {
-      "path": "materials/source-acceptances/recovered-329-v1/ar/17-extended/registered-source.json",
-      "sha256": "2dda070119803758d14cf4784017639e99e76061074fb265412325f6d5ecbbc5"
-    },
-    {
-      "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/3c47fe334e396a450e140c423a49972704218b3ebf93f7d0bc5f81b787f1a0bf.json",
-      "sha256": "3c47fe334e396a450e140c423a49972704218b3ebf93f7d0bc5f81b787f1a0bf"
-    },
-    {
-      "path": "materials/source-acceptances/recovered-329-v1/shared/normalization-evidence/8164d465bce4e886eb2531288ca06b9a3cf2b25d6403106870609ce5fa831938.json",
-      "sha256": "8164d465bce4e886eb2531288ca06b9a3cf2b25d6403106870609ce5fa831938"
-    },
-    {
       "path": "materials/tadabbur/ar/extended/017.json",
-      "sha256": "7960771ac3d5a8f917379f3c87d792af37bb4f5c14be1b11ca679be25ae257fb"
+      "sha256": "ec631fba2bebc2c8b9f7c193b1fba84f5672608543192b56805f517ed7cab0d7"
     },
     {
       "path": "materials/tadabbur/ar/extended/017.md",
-      "sha256": "694b4c2d5deac195e3828b3b5ebb6a4f7e1748181a7569073d5701b1675943b4"
+      "sha256": "7fde1bb967dc858245158a44dce1975ee16c9a2b59230b25ae851d788b067828"
     },
     {
       "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
@@ -689,11 +681,11 @@
         },
         {
           "kind": "paragraph",
-          "text": "والمفارقة أن من يتنازل عن جزء من الوحي ظنًّا أنه سيزداد قوة يكون قد تخلى عن جزء من مصدر قوته الحقيقي؛ فالقرآن هو الذي لا يستطيع الإنس والجن أن يأتوا بمثله، وهو الشرف والذكر والميزان. ولهذا يأتي بعد ذلك مباشرة معنى استمرار التنزيل: ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾ ؛ العلاج ليس تخفيف القرآن ليرضى به الناس، بل زيادة التلقي منه حتى يشفى القلب من خوفهم وضغطهم. ومن أوضح الأمثلة على قوة آية واحدة في تثبيت الجماعة أن أبا بكر رضي الله عنه يوم وفاة النبي ﷺ ردَّ الناس إلى قوله تعالى: ﴿وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ﴾ ، فاستقرت القلوب بالوحي. فلا يحدث تجديد حقيقي في الواقع قبل أن يتجدد تلقّي القرآن في القلوب؛ وإذا صح التلقي صح الثبات، وإذا ضعف التلقي صار الإنسان أيسر عرضة للفتنة والاستفزاز.",
+          "text": "والمفارقة أن من يتنازل عن جزء من الوحي ظنًّا أنه سيزداد قوة يكون قد تخلى عن جزء من مصدر قوته الحقيقي؛ فالقرآن هو الذي لا يستطيع الإنس والجن أن يأتوا بمثله، وهو الشرف والذكر والميزان. ولهذا يأتي بعد ذلك مباشرة معنى استمرار التنزيل: ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾ ؛ العلاج ليس تخفيف القرآن ليرضى به الناس، بل زيادة التلقي منه حتى يشفى القلب من خوفهم وضغطهم. ومن أوضح الأمثلة على قوة آية واحدة في تثبيت الجماعة أن أبا بكر رضي الله عنه يوم وفاة النبي ﷺ ردَّ الناس إلى قوله تعالى: ﴿وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ﴾ ، فاستقرت القلوب بالوحي. فلا يحدث تجديد حقيقي في الواقع قبل أن يتجدد تلقّي القرآن في القلوب؛ فإذا تلقّى الإنسان هدايته بفهم وقبول ثبت، وإذا ضعف تلقيه لها صار أكثر عرضة للفتنة والاستفزاز.",
           "spans": [
             {
-              "text": "والمفارقة أن من يتنازل عن جزء من الوحي ظنًّا أنه سيزداد قوة يكون قد تخلى عن جزء من مصدر قوته الحقيقي؛ فالقرآن هو الذي لا يستطيع الإنس والجن أن يأتوا بمثله، وهو الشرف والذكر والميزان. ولهذا يأتي بعد ذلك مباشرة معنى استمرار التنزيل: ",
-              "role": "body"
+              "role": "body",
+              "text": "والمفارقة أن من يتنازل عن جزء من الوحي ظنًّا أنه سيزداد قوة يكون قد تخلى عن جزء من مصدر قوته الحقيقي؛ فالقرآن هو الذي لا يستطيع الإنس والجن أن يأتوا بمثله، وهو الشرف والذكر والميزان. ولهذا يأتي بعد ذلك مباشرة معنى استمرار التنزيل: "
             },
             {
               "text": "﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾",
@@ -704,8 +696,8 @@
               "explicitSourceReferencePlaced": true
             },
             {
-              "text": " ",
-              "role": "body"
+              "role": "body",
+              "text": " "
             },
             {
               "text": "",
@@ -715,8 +707,8 @@
               ]
             },
             {
-              "text": "؛ العلاج ليس تخفيف القرآن ليرضى به الناس، بل زيادة التلقي منه حتى يشفى القلب من خوفهم وضغطهم. ومن أوضح الأمثلة على قوة آية واحدة في تثبيت الجماعة أن أبا بكر رضي الله عنه يوم وفاة النبي ﷺ ردَّ الناس إلى قوله تعالى: ",
-              "role": "body"
+              "role": "body",
+              "text": "؛ العلاج ليس تخفيف القرآن ليرضى به الناس، بل زيادة التلقي منه حتى يشفى القلب من خوفهم وضغطهم. ومن أوضح الأمثلة على قوة آية واحدة في تثبيت الجماعة أن أبا بكر رضي الله عنه يوم وفاة النبي ﷺ ردَّ الناس إلى قوله تعالى: "
             },
             {
               "text": "﴿وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ﴾",
@@ -727,8 +719,8 @@
               "explicitSourceReferencePlaced": true
             },
             {
-              "text": " ",
-              "role": "body"
+              "role": "body",
+              "text": " "
             },
             {
               "text": "",
@@ -738,8 +730,8 @@
               ]
             },
             {
-              "text": "، فاستقرت القلوب بالوحي. فلا يحدث تجديد حقيقي في الواقع قبل أن يتجدد تلقّي القرآن في القلوب؛ وإذا صح التلقي صح الثبات، وإذا ضعف التلقي صار الإنسان أيسر عرضة للفتنة والاستفزاز.",
-              "role": "body"
+              "role": "body",
+              "text": "، فاستقرت القلوب بالوحي. فلا يحدث تجديد حقيقي في الواقع قبل أن يتجدد تلقّي القرآن في القلوب؛ فإذا تلقّى الإنسان هدايته بفهم وقبول ثبت، وإذا ضعف تلقيه لها صار أكثر عرضة للفتنة والاستفزاز."
             }
           ],
           "sourceBlockIndex": 2
@@ -770,7 +762,7 @@
   },
   "coverageLabel": "آية ٧٣–٨١",
   "sourceScopeNotes": [],
-  "readerTextSHA256": "6b7549e95dc34ba005175eccd9101f85961c70a915aa9c26a1fe53cb8832819b",
+  "readerTextSHA256": "ce47942fff6a751cbbece5fa805ddc1d0a92b067b9a644974c0b67ccba0929c7",
   "referenceReadiness": {
     "unboundQuranSegments": 0,
     "unboundHadithSegments": 0,
@@ -780,7 +772,7 @@
   },
   "provenance": {
     "adapter": "reviewed-structured-quran-v1",
-    "sourceRecordSHA256": "a8cec71478ed15f64c8dcadee912c3abda035ed09b4d6cd5e2fbf9f010f595e5",
+    "sourceRecordSHA256": "3a99e8c478cc5386201cb13451adb30c3337611df3b4d00c588717bb249fefeb",
     "sourceOwnerWholeReview": {
       "kind": "Arabic literal/structural source QC; not a translation, semantic or scholarly certification",
       "handoffSHA256": "dc0acde7a951e538f0fe2cb1a1f05f65a965dbe24d0d87876adb0bc9c765c3bf",
@@ -801,8 +793,8 @@
     ],
     "sourceJSON": "materials/tadabbur/ar/extended/017.json",
     "allProseAndQuotationCharactersPreserved": true,
-    "sourceProseSHA256": "4d7a9ade33613cc37a0cb34b8b70de2bc8470d99ba071ae5da5dcaa671a2a13d",
-    "formattedProseSHA256": "b44c19dd0142ebea83b1dab223d908ce0a671515e6fe7fb347fb94583488a039",
+    "sourceProseSHA256": "735bf73daf188b82a310e30df6343d44f5b169d1fcbeec25ac2b67447c2751c9",
+    "formattedProseSHA256": "7b4486bd8dc5a59ad831d9af5ca6afa65a43861fe2fcc1e28329e61aa09ce1b8",
     "mainAyahPresentation": [
       {
         "verseKey": "17:73",
@@ -1043,23 +1035,11 @@
     "unanchoredSourceNotes": 0,
     "mandatoryReadingNotes": [],
     "mandatoryDetachedQualifications": [],
-    "sourceApprovalCreated": false,
-    "recoveredExistingReview": {
-      "reviewChain": {
-        "path": "materials/source-acceptances/recovered-329-v1/ar/17-extended/existing-review-chain.json",
-        "sha256": "1220c10e846dd0a106fc07b85c0091fb1330bfa6b9909ca5836573e259644665"
-      },
-      "sourceOwnerLiteralTransfer": {
-        "path": "materials/source-acceptances/recovered-329-v1/ar/17-extended/literal-transfer-receipt.json",
-        "sha256": "3feb4db567de66bd74e47872f101e23173f57723ce9f25c5abddb4769f01ae93"
-      },
-      "noNewSemanticReview": true,
-      "originalQualificationUnchanged": true
-    }
+    "sourceApprovalCreated": false
   },
   "publicationApproval": {
-    "path": "materials/book-publication-approvals/6d3da328106e7aadd078961030690bd016f9437952e4d2f69b7c903bbfa0f336.json",
-    "sha256": "6d3da328106e7aadd078961030690bd016f9437952e4d2f69b7c903bbfa0f336",
-    "approvalId": "recovered-existing-review-329-v1-ar-17:extended"
+    "path": "materials/book-publication-approvals/959ed204cf09ca539f6a4c9bcde44600358e4b5ef9da53f1804b8924ffe70d04.json",
+    "sha256": "959ed204cf09ca539f6a4c9bcde44600358e4b5ef9da53f1804b8924ffe70d04",
+    "approvalId": "literal-transfer-finite-owner-b10-20261122-ar-17-extended"
   }
 }
