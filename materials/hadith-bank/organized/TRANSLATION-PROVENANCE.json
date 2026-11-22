@@ -1,0 +1,1427 @@
+{
+  "schema": "hadith-translation-provenance-v1",
+  "sourceCommit": "1d66abd7a09bde5f6b15a8576e26bb938f94535b",
+  "classificationScope": "Evidence-backed passage-level attribution of already published readings; partial coverage, not a bank-wide audit or new translation QC.",
+  "defaultTranslationOrigin": "unknown",
+  "defaultDisclosureLabel": null,
+  "policy": {
+    "unknown": "No AI or human label without affirmative evidence; missing records are unclassified, not human by default.",
+    "published": "A named publisher or an OCR process alone does not prove human translation. Preserve source credits.",
+    "mixed": "Attribution applies only to the exact hashed passages and listed occurrences, never to an entire mixed lesson.",
+    "models": "Model and reasoning labels describe the historical evidence, not the desired workflow. Do not claim Astra Extra High review unless it actually happened.",
+    "consumers": "Carry disclosure labels with matching quoted text in search, retrieval, rendering, copying and exports. External AI behavior cannot be forced by these tags."
+  },
+  "independentProvenanceAudit": {
+    "status": "pending",
+    "requestedMode": "ChatGPT Extra High",
+    "completed": false,
+    "notice": "This metadata implementation does not fulfill the separately requested Extra High audit."
+  },
+  "records": [
+    {
+      "id": "translation:ms:essential-01-001:q27",
+      "language": "ms",
+      "lessonId": "essential-01-001",
+      "fieldId": "27",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "Benar kata wanita itu, benar kata wanita itu. Bagaimanakah Allah akan menyucikan suatu umat jika hak orang lemahnya tidak diambil kembali daripada orang kuatnya?",
+      "textSha256": "fcbdbe65f1c39fc62b2494e2ee4f6ba8de2b35c10b63ae809012cfcd35877666",
+      "reading": {
+        "path": "materials/hadith/essential-ms/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-ms/001.json",
+        "sha256": "8274cd0d076ce55f3171203be2732a612efcddc5e4fca7ac87e4b9ffbe7e7724",
+        "bytes": 49837,
+        "gitBlob": "95cc82a919ad887eeb42c7f420d8eb7c29919a1e"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/commentarySections/5/text",
+          "codepointStart": 562,
+          "codepointEnd": 723
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-ms/sources/LESSON001-MS-PUBLIC-SOURCES760-RUNTIME871.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-ms/sources/LESSON001-MS-PUBLIC-SOURCES760-RUNTIME871.json",
+          "sha256": "96716ece7cb434f07e1c3b2298996a7b7b189daca71959081be812d0448cd099",
+          "bytes": 852686,
+          "gitBlob": "edef72b51603d41d6b28d1b2737ee19a67f44d20"
+        },
+        "member": null,
+        "jsonPointer": "/quoteRecords/72/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-ms/sources/LESSON001-MS-PUBLIC-SOURCES760-RUNTIME871.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-ms/sources/LESSON001-MS-PUBLIC-SOURCES760-RUNTIME871.json",
+            "sha256": "96716ece7cb434f07e1c3b2298996a7b7b189daca71959081be812d0448cd099",
+            "bytes": 852686,
+            "gitBlob": "edef72b51603d41d6b28d1b2737ee19a67f44d20"
+          },
+          "jsonPointers": [
+            "/quoteRecords/72",
+            "/actualMainRole",
+            "/actualFinalRole"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        }
+      ]
+    },
+    {
+      "id": "translation:es:essential-01-001:q4",
+      "language": "es",
+      "lessonId": "essential-01-001",
+      "fieldId": "4",
+      "contentKind": "scholar_saying_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "Los habitantes de ash-Sham no tienen un hadiz más noble que este",
+      "textSha256": "fba0eeac92ed3fe214ffbd164b98dffb719d20d99bedafecbadce544b975ba1a",
+      "reading": {
+        "path": "materials/hadith/essential-es/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-es/001.json",
+        "sha256": "8a2b518963cc5351b4837dc8c5ab1bfa4f61454f1ef3c2ddabac8c6281d07c62",
+        "bytes": 214084,
+        "gitBlob": "bac661f6124118e0422f763fbff1603ab38ae762"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/commentary/0/text",
+          "codepointStart": 434,
+          "codepointEnd": 498
+        },
+        {
+          "jsonPointer": "/reading/commentary/0/parts/2/text",
+          "codepointStart": 0,
+          "codepointEnd": 64
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-es/sources/SOURCE-CARRIER908.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-es/sources/SOURCE-CARRIER908.json",
+          "sha256": "078e92cdd4f32e80b926eec48776abdf1be3a2ea05818c607df65769d1e83b55",
+          "bytes": 473788,
+          "gitBlob": "2171f2a7494a1ad1da74f5f447684d1047eba048"
+        },
+        "member": null,
+        "jsonPointer": "/fields/4/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-es/sources/SOURCE-CARRIER908.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-es/sources/SOURCE-CARRIER908.json",
+            "sha256": "078e92cdd4f32e80b926eec48776abdf1be3a2ea05818c607df65769d1e83b55",
+            "bytes": 473788,
+            "gitBlob": "2171f2a7494a1ad1da74f5f447684d1047eba048"
+          },
+          "jsonPointers": [
+            "/fields/4",
+            "/fields/27",
+            "/reviewRoles"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        }
+      ]
+    },
+    {
+      "id": "translation:es:essential-01-001:q27",
+      "language": "es",
+      "lessonId": "essential-01-001",
+      "fieldId": "27",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "Ha dicho la verdad, ha dicho la verdad. ¿Cómo puede Allah purificar a una comunidad en la que no se hace valer el derecho de sus débiles frente a sus fuertes?",
+      "textSha256": "bbb1e08a5774ba68cd59fa5a0686670c675a365aaf23acd103b20e34ad909688",
+      "reading": {
+        "path": "materials/hadith/essential-es/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-es/001.json",
+        "sha256": "8a2b518963cc5351b4837dc8c5ab1bfa4f61454f1ef3c2ddabac8c6281d07c62",
+        "bytes": 214084,
+        "gitBlob": "bac661f6124118e0422f763fbff1603ab38ae762"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/commentary/5/text",
+          "codepointStart": 507,
+          "codepointEnd": 665
+        },
+        {
+          "jsonPointer": "/reading/commentary/5/parts/2/text",
+          "codepointStart": 0,
+          "codepointEnd": 158
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-es/sources/SOURCE-CARRIER908.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-es/sources/SOURCE-CARRIER908.json",
+          "sha256": "078e92cdd4f32e80b926eec48776abdf1be3a2ea05818c607df65769d1e83b55",
+          "bytes": 473788,
+          "gitBlob": "2171f2a7494a1ad1da74f5f447684d1047eba048"
+        },
+        "member": null,
+        "jsonPointer": "/fields/27/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-es/sources/SOURCE-CARRIER908.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-es/sources/SOURCE-CARRIER908.json",
+            "sha256": "078e92cdd4f32e80b926eec48776abdf1be3a2ea05818c607df65769d1e83b55",
+            "bytes": 473788,
+            "gitBlob": "2171f2a7494a1ad1da74f5f447684d1047eba048"
+          },
+          "jsonPointers": [
+            "/fields/4",
+            "/fields/27",
+            "/reviewRoles"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        }
+      ]
+    },
+    {
+      "id": "translation:fa:essential-01-001:q27",
+      "language": "fa",
+      "lessonId": "essential-01-001",
+      "fieldId": "27",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "راست گفت، راست گفت؛ چگونه الله امتی را پاک می‌گرداند که حق ضعیفانشان از زورمندانشان گرفته نمی‌شود؟",
+      "textSha256": "ecf0ad83e26b2d7870fb8f84125628e14ab223946c5df41c8b3275a06bf35400",
+      "reading": {
+        "path": "materials/hadith/essential-fa/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-fa/001.json",
+        "sha256": "c47fa226585dd4eed2879a2a1bc9a7aa106f3fa9784e98b30893065ea0d88bc2",
+        "bytes": 239044,
+        "gitBlob": "461079232413f81f42d650df236e8eaf5557d9e2"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/commentary/5/text",
+          "codepointStart": 433,
+          "codepointEnd": 531
+        },
+        {
+          "jsonPointer": "/reading/commentary/5/parts/2/text",
+          "codepointStart": 0,
+          "codepointEnd": 98
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-fa/sources/SOURCE-CARRIER908.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-fa/sources/SOURCE-CARRIER908.json",
+          "sha256": "0538b10e22b5717904ee64dd42e11c4b771d31b03eea30c134e5fda3211b6dff",
+          "bytes": 530973,
+          "gitBlob": "66acd95e4f21a891b4ab2527473dcc8314998cd1"
+        },
+        "member": null,
+        "jsonPointer": "/fields/27/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-fa/sources/SOURCE-CARRIER908.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-fa/sources/SOURCE-CARRIER908.json",
+            "sha256": "0538b10e22b5717904ee64dd42e11c4b771d31b03eea30c134e5fda3211b6dff",
+            "bytes": 530973,
+            "gitBlob": "66acd95e4f21a891b4ab2527473dcc8314998cd1"
+          },
+          "jsonPointers": [
+            "/fields/27",
+            "/fields/76",
+            "/reviewRoles",
+            "/parents/H:FA:76:OwnArabic908/authorship",
+            "/distinct_corrective_FINAL911"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        }
+      ]
+    },
+    {
+      "id": "translation:fa:essential-01-001:q76",
+      "language": "fa",
+      "lessonId": "essential-01-001",
+      "fieldId": "76",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "الله را با یقین به اجابت بخوانید و بدانید که الله دعای برخاسته از دلی غافل و سرگرمِ چیزهای دیگر را اجابت نمی‌کند",
+      "textSha256": "f41bb83bbad1d75ce6898f16a7410795d61b762b42077094a7260211521cb78b",
+      "reading": {
+        "path": "materials/hadith/essential-fa/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-fa/001.json",
+        "sha256": "c47fa226585dd4eed2879a2a1bc9a7aa106f3fa9784e98b30893065ea0d88bc2",
+        "bytes": 239044,
+        "gitBlob": "461079232413f81f42d650df236e8eaf5557d9e2"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/commentary/27/text",
+          "codepointStart": 52,
+          "codepointEnd": 164
+        },
+        {
+          "jsonPointer": "/reading/commentary/27/parts/2/text",
+          "codepointStart": 0,
+          "codepointEnd": 112
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-fa/sources/SOURCE-CARRIER908.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-fa/sources/SOURCE-CARRIER908.json",
+          "sha256": "0538b10e22b5717904ee64dd42e11c4b771d31b03eea30c134e5fda3211b6dff",
+          "bytes": 530973,
+          "gitBlob": "66acd95e4f21a891b4ab2527473dcc8314998cd1"
+        },
+        "member": null,
+        "jsonPointer": "/fields/76/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-fa/sources/SOURCE-CARRIER908.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-fa/sources/SOURCE-CARRIER908.json",
+            "sha256": "0538b10e22b5717904ee64dd42e11c4b771d31b03eea30c134e5fda3211b6dff",
+            "bytes": 530973,
+            "gitBlob": "66acd95e4f21a891b4ab2527473dcc8314998cd1"
+          },
+          "jsonPointers": [
+            "/fields/27",
+            "/fields/76",
+            "/reviewRoles",
+            "/parents/H:FA:76:OwnArabic908/authorship",
+            "/distinct_corrective_FINAL911"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        }
+      ]
+    },
+    {
+      "id": "translation:ru:essential-01-001:q27",
+      "language": "ru",
+      "lessonId": "essential-01-001",
+      "fieldId": "27",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "Она сказала истину, она сказала истину! Как Аллах очистит общину, в которой не взыскивают с сильного то, что причитается слабому?",
+      "textSha256": "4a592755c0862e3a1cb8bfbcc3710c7c8bf19568257ab862bdfd7d49fe33b9fe",
+      "reading": {
+        "path": "materials/hadith/essential-ru/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-ru/001.json",
+        "sha256": "4fe93b067bd713850919b8caa610a9199a3ba0f2eb6b629113c3d3fe77f03716",
+        "bytes": 257291,
+        "gitBlob": "550b97e30f5132163a50125a974d34c5e794b4f0"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/sections/5/text",
+          "codepointStart": 429,
+          "codepointEnd": 558
+        },
+        {
+          "jsonPointer": "/reading/sections/5/parts/2/text",
+          "codepointStart": 0,
+          "codepointEnd": 129
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-ru/sources/LESSON001-RU-PUBLIC-SOURCES898.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-ru/sources/LESSON001-RU-PUBLIC-SOURCES898.json",
+          "sha256": "e353fa4ef378b0b9a78e6400f4cd86d9d3b5cb5652aefa2446d1b8c394a8abf2",
+          "bytes": 696996,
+          "gitBlob": "b8bbf15c5561b9f8206c319b57a485cf4ceaa80a"
+        },
+        "member": null,
+        "jsonPointer": "/fields/27/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-ru/sources/LESSON001-RU-PUBLIC-SOURCES898.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-ru/sources/LESSON001-RU-PUBLIC-SOURCES898.json",
+            "sha256": "e353fa4ef378b0b9a78e6400f4cd86d9d3b5cb5652aefa2446d1b8c394a8abf2",
+            "bytes": 696996,
+            "gitBlob": "b8bbf15c5561b9f8206c319b57a485cf4ceaa80a"
+          },
+          "jsonPointers": [
+            "/fields/27",
+            "/parents/H:RU:27:OwnArabic908/authorship",
+            "/reviewRoles",
+            "/distinct_corrective_FINAL911"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        }
+      ]
+    },
+    {
+      "id": "translation:hi:essential-01-001:q2",
+      "language": "hi",
+      "lessonId": "essential-01-001",
+      "fieldId": "2",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "ऐ मेरे बंदो! मैंने अपने ऊपर अत्याचार को हराम कर लिया है और तुम्हारे बीच भी उसे हराम ठहराया है, इसलिए एक-दूसरे पर अत्याचार न करो। ऐ मेरे बंदो! तुम सब पथभ्रष्ट हो, सिवाय उसके जिसे मैंने मार्ग दिखाया है। इसलिए मुझसे मार्गदर्शन माँगो, मैं तुम्हें मार्ग दिखाऊँगा। ऐ मेरे बंदो! तुम सब भूखे हो, सिवाय उसके जिसे मैंने खिलाया है। इसलिए मुझसे भोजन माँगो, मैं तुम्हें खिलाऊँगा। ऐ मेरे बंदो! तुम सब निर्वस्त्र हो, सिवाय उसके जिसे मैंने वस्त्र पहनाए हैं। इसलिए मुझसे वस्त्र माँगो, मैं तुम्हें वस्त्र पहनाऊँगा। ऐ मेरे बंदो! तुम रात-दिन गुनाह करते हो और मैं सभी गुनाह क्षमा करता हूँ। इसलिए मुझसे क्षमा माँगो, मैं तुम्हें क्षमा करूँगा। ऐ मेरे बंदो! तुम मुझे हानि पहुँचाने की स्थिति तक कभी नहीं पहुँच सकते कि मुझे हानि पहुँचा सको, और न मुझे लाभ पहुँचाने की स्थिति तक पहुँच सकते हो कि मुझे लाभ पहुँचा सको। ऐ मेरे बंदो! यदि तुममें पहले से लेकर आख़िर तक के सभी मनुष्य और जिन्न तुममें सबसे अधिक तक़वा रखने वाले एक व्यक्ति के समान हृदय वाले हो जाएँ, तो इससे मेरी बादशाहत में कुछ भी वृद्धि नहीं होगी। ऐ मेरे बंदो! यदि तुममें पहले से लेकर आख़िर तक के सभी मनुष्य और जिन्न सबसे अधिक दुराचारी एक व्यक्ति के समान हृदय वाले हो जाएँ, तो इससे मेरी बादशाहत में कुछ भी कमी नहीं होगी। ऐ मेरे बंदो! यदि तुममें पहले से लेकर आख़िर तक के सभी मनुष्य और जिन्न एक ही मैदान में खड़े होकर मुझसे माँगें और मैं प्रत्येक व्यक्ति को उसकी माँगी हुई चीज़ दे दूँ, तो मेरे पास जो कुछ है उसमें इससे उतनी ही कमी होगी, जितनी समुद्र में सुई डुबोने से होती है। ऐ मेरे बंदो! ये तुम्हारे कर्म ही हैं जिन्हें मैं तुम्हारे लिए गिनकर रखता हूँ, फिर तुम्हें उनका पूरा प्रतिफल देता हूँ। इसलिए जिसे भलाई मिले, वह अल्लाह की प्रशंसा करे, और जिसे इसके सिवा कुछ और मिले, वह केवल अपने आप को दोष दे।",
+      "textSha256": "275325ce2cf97b50a1feb44f53d69044abd6422f08e98492ef614a7b76fe1702",
+      "reading": {
+        "path": "materials/hadith/essential-hi/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/001.json",
+        "sha256": "eacbb016c84ef448bb67d773b0f24875ff042aa79534028924cf26a2f8fc7904",
+        "bytes": 219380,
+        "gitBlob": "2237995791cf1d535480ba452be7b47333b4af21"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/main_text",
+          "codepointStart": 1,
+          "codepointEnd": 1629
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+          "sha256": "f0e701d4487658d9a698b8b36405356cbd1c94d103f9f268206003271796d9af",
+          "bytes": 144406,
+          "gitBlob": "59d8c1bae6c664e17bdafa6b0f376914626436dd"
+        },
+        "member": null,
+        "jsonPointer": "/80/source_binding/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-hi/sources/SOURCE-NOTE896.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/sources/SOURCE-NOTE896.json",
+            "sha256": "6645891278ead10c167c5ad449e78c9c94f2818675dcb59cb4ff55689d9621ae",
+            "bytes": 4113,
+            "gitBlob": "27f8630b80481dbc9c6204f8cd37120b1ca86d11"
+          },
+          "jsonPointers": [
+            "/main",
+            "/nonQ",
+            "/provenance",
+            "/review_scope"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        },
+        {
+          "file": {
+            "path": "materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+            "sha256": "f0e701d4487658d9a698b8b36405356cbd1c94d103f9f268206003271796d9af",
+            "bytes": 144406,
+            "gitBlob": "59d8c1bae6c664e17bdafa6b0f376914626436dd"
+          },
+          "jsonPointers": [
+            "/80/source_binding/text"
+          ],
+          "supports": "Exact current quotation field and reading bounds"
+        }
+      ]
+    },
+    {
+      "id": "translation:hi:essential-01-001:q4",
+      "language": "hi",
+      "lessonId": "essential-01-001",
+      "fieldId": "4",
+      "contentKind": "scholar_saying_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "शाम के लोगों के पास इस हदीस से अधिक प्रतिष्ठित कोई हदीस नहीं है।",
+      "textSha256": "4d9846f3ce4b9a80bfdf05ad418e391735e866412b4ba2dc89476ffc6a1a8632",
+      "reading": {
+        "path": "materials/hadith/essential-hi/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/001.json",
+        "sha256": "eacbb016c84ef448bb67d773b0f24875ff042aa79534028924cf26a2f8fc7904",
+        "bytes": 219380,
+        "gitBlob": "2237995791cf1d535480ba452be7b47333b4af21"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/sections/0/text",
+          "codepointStart": 448,
+          "codepointEnd": 512
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+          "sha256": "f0e701d4487658d9a698b8b36405356cbd1c94d103f9f268206003271796d9af",
+          "bytes": 144406,
+          "gitBlob": "59d8c1bae6c664e17bdafa6b0f376914626436dd"
+        },
+        "member": null,
+        "jsonPointer": "/81/source_binding/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-hi/sources/SOURCE-NOTE896.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/sources/SOURCE-NOTE896.json",
+            "sha256": "6645891278ead10c167c5ad449e78c9c94f2818675dcb59cb4ff55689d9621ae",
+            "bytes": 4113,
+            "gitBlob": "27f8630b80481dbc9c6204f8cd37120b1ca86d11"
+          },
+          "jsonPointers": [
+            "/main",
+            "/nonQ",
+            "/provenance",
+            "/review_scope"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        },
+        {
+          "file": {
+            "path": "materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+            "sha256": "f0e701d4487658d9a698b8b36405356cbd1c94d103f9f268206003271796d9af",
+            "bytes": 144406,
+            "gitBlob": "59d8c1bae6c664e17bdafa6b0f376914626436dd"
+          },
+          "jsonPointers": [
+            "/81/source_binding/text"
+          ],
+          "supports": "Exact current quotation field and reading bounds"
+        }
+      ]
+    },
+    {
+      "id": "translation:hi:essential-01-001:q27",
+      "language": "hi",
+      "lessonId": "essential-01-001",
+      "fieldId": "27",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "उसने सच कहा, उसने सच कहा। अल्लाह ऐसे समुदाय को कैसे पाक करे जिसमें ताक़तवर से कमज़ोर का हक़ नहीं दिलाया जाता?",
+      "textSha256": "333c83596c709792a241c43947e1052311d535f3582940ee2619029637401026",
+      "reading": {
+        "path": "materials/hadith/essential-hi/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/001.json",
+        "sha256": "eacbb016c84ef448bb67d773b0f24875ff042aa79534028924cf26a2f8fc7904",
+        "bytes": 219380,
+        "gitBlob": "2237995791cf1d535480ba452be7b47333b4af21"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/sections/5/text",
+          "codepointStart": 504,
+          "codepointEnd": 613
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+          "sha256": "f0e701d4487658d9a698b8b36405356cbd1c94d103f9f268206003271796d9af",
+          "bytes": 144406,
+          "gitBlob": "59d8c1bae6c664e17bdafa6b0f376914626436dd"
+        },
+        "member": null,
+        "jsonPointer": "/84/source_binding/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-hi/sources/SOURCE-NOTE896.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/sources/SOURCE-NOTE896.json",
+            "sha256": "6645891278ead10c167c5ad449e78c9c94f2818675dcb59cb4ff55689d9621ae",
+            "bytes": 4113,
+            "gitBlob": "27f8630b80481dbc9c6204f8cd37120b1ca86d11"
+          },
+          "jsonPointers": [
+            "/main",
+            "/nonQ",
+            "/provenance",
+            "/review_scope"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        },
+        {
+          "file": {
+            "path": "materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-hi/sources/ALL115-EXACT-QUOTE-BOUNDS908.json",
+            "sha256": "f0e701d4487658d9a698b8b36405356cbd1c94d103f9f268206003271796d9af",
+            "bytes": 144406,
+            "gitBlob": "59d8c1bae6c664e17bdafa6b0f376914626436dd"
+          },
+          "jsonPointers": [
+            "/84/source_binding/text"
+          ],
+          "supports": "Exact current quotation field and reading bounds"
+        }
+      ]
+    },
+    {
+      "id": "translation:pt-BR:essential-01-001:q27",
+      "language": "pt-BR",
+      "lessonId": "essential-01-001",
+      "fieldId": "27",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "conflicting_records",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Carrier records a separate Sol 6.1 High review, but the older source note still says pending. Reconciliation remains pending."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "Ela disse a verdade! Ela disse a verdade! Como Allah purificaria um povo em que o direito do fraco não é cobrado do forte?",
+      "textSha256": "b7827313a5a06e248abbcbe6c42c4ea6b0b09d84f94b07797800a9ab2a602c9d",
+      "reading": {
+        "path": "materials/hadith/essential-pt-BR/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-pt-BR/001.json",
+        "sha256": "f8916ff3338f28a4f5c5c6273a03352a64e9bd933a906cdf6c3d78ea4478a67f",
+        "bytes": 135026,
+        "gitBlob": "6f4459dfc9d2ebb81aff432209582c463d7fb016"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/commentary/5/text",
+          "codepointStart": 514,
+          "codepointEnd": 636
+        },
+        {
+          "jsonPointer": "/reading/commentary/5/segments/2/text",
+          "codepointStart": 0,
+          "codepointEnd": 122
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-pt-BR/sources/PUBLIC-SOURCE-PROJECTION868-RUNTIME871.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-pt-BR/sources/PUBLIC-SOURCE-PROJECTION868-RUNTIME871.json",
+          "sha256": "5988a19c14f351d4767243006181826a0d4fe6160621706320665c36165e2c91",
+          "bytes": 790172,
+          "gitBlob": "975f0d95368d90fc6a82e1fe7d128b1afc266474"
+        },
+        "member": null,
+        "jsonPointer": "/all103_quote_identities_116_exactfields/27/fields/0/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-pt-BR/sources/PUBLIC-SOURCE-PROJECTION868-RUNTIME871.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-pt-BR/sources/PUBLIC-SOURCE-PROJECTION868-RUNTIME871.json",
+            "sha256": "5988a19c14f351d4767243006181826a0d4fe6160621706320665c36165e2c91",
+            "bytes": 790172,
+            "gitBlob": "975f0d95368d90fc6a82e1fe7d128b1afc266474"
+          },
+          "jsonPointers": [
+            "/all103_quote_identities_116_exactfields/27/fields/0",
+            "/actual_MAIN",
+            "/actual_FINAL",
+            "/current_reader_words_unchanged_after_MAIN"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        },
+        {
+          "file": {
+            "path": "materials/hadith/essential-pt-BR/sources/SOURCE-NOTE868.md",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-pt-BR/sources/SOURCE-NOTE868.md",
+            "sha256": "dd65c3006cb90f98add837a3e9204b40f4ba2f989745b85ae47822d1a0ca9c41",
+            "bytes": 3664,
+            "gitBlob": "3c27055f0e58f4d31b614678900bb1016f01fe81"
+          },
+          "jsonPointers": [],
+          "supports": "Older note says independent review pending; conflicts with carrier recording final reviewer"
+        }
+      ]
+    },
+    {
+      "id": "translation:de:essential-01-001:q27",
+      "language": "de",
+      "lessonId": "essential-01-001",
+      "fieldId": "27",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "Sie hat wahr gesprochen, sie hat wahr gesprochen. Wie kann Allah eine Gemeinschaft von Sünden reinigen, in der den Schwachen ihr Recht gegenüber den Starken nicht verschafft wird?",
+      "textSha256": "8a2e170abb8f080efbc19682e1dc8d43463b841ad16a0eeabfbbc598171d7ab7",
+      "reading": {
+        "path": "materials/hadith/essential-de/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/001.json",
+        "sha256": "acfd1c48f358565738f63fe0e3bcaa78fcbde982cf917127e643ee1e46119e52",
+        "bytes": 56981,
+        "gitBlob": "ecda1fe1649522b65f94b2b5c355e3a37e7e58b8"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/sections/5/text",
+          "codepointStart": 530,
+          "codepointEnd": 709
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+          "bytes": 378418,
+          "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+        },
+        "member": null,
+        "jsonPointer": "/fields/27/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+            "bytes": 378418,
+            "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+          },
+          "jsonPointers": [
+            "/fields/27",
+            "/fields/51",
+            "/fields/52",
+            "/fields/75",
+            "/fields/76",
+            "/fields/95",
+            "/independent_FINAL914"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        },
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "sha256": "868449d0ee761ccf7b3bea411928b83aff0b27dd32946de924a7543be047faae",
+            "bytes": 158278,
+            "gitBlob": "cfdcf124ffd2dec9641774332e17ae769f102564"
+          },
+          "jsonPointers": [
+            "/authorship"
+          ],
+          "supports": "Named main translator and distinct historical reviewer"
+        }
+      ]
+    },
+    {
+      "id": "translation:de:essential-01-001:q51",
+      "language": "de",
+      "lessonId": "essential-01-001",
+      "fieldId": "51",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "Leite mich zu den besten Charaktereigenschaften. Niemand leitet zu ihnen außer Dir. Und wende die schlechten von mir ab. Niemand wendet sie von mir ab außer Dir.",
+      "textSha256": "38ee4364c602e94a815a7d97369956cfa708ef41ec579d8e6193e974d6a06b2e",
+      "reading": {
+        "path": "materials/hadith/essential-de/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/001.json",
+        "sha256": "acfd1c48f358565738f63fe0e3bcaa78fcbde982cf917127e643ee1e46119e52",
+        "bytes": 56981,
+        "gitBlob": "ecda1fe1649522b65f94b2b5c355e3a37e7e58b8"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/sections/17/text",
+          "codepointStart": 53,
+          "codepointEnd": 214
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+          "bytes": 378418,
+          "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+        },
+        "member": null,
+        "jsonPointer": "/fields/51/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+            "bytes": 378418,
+            "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+          },
+          "jsonPointers": [
+            "/fields/27",
+            "/fields/51",
+            "/fields/52",
+            "/fields/75",
+            "/fields/76",
+            "/fields/95",
+            "/independent_FINAL914"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        },
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "sha256": "868449d0ee761ccf7b3bea411928b83aff0b27dd32946de924a7543be047faae",
+            "bytes": 158278,
+            "gitBlob": "cfdcf124ffd2dec9641774332e17ae769f102564"
+          },
+          "jsonPointers": [
+            "/authorship"
+          ],
+          "supports": "Named main translator and distinct historical reviewer"
+        }
+      ]
+    },
+    {
+      "id": "translation:de:essential-01-001:q52",
+      "language": "de",
+      "lessonId": "essential-01-001",
+      "fieldId": "52",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "O Allah, ich bitte Dich um Rechtleitung, Gottesfurcht, sittliche Enthaltsamkeit und Genügsamkeit.",
+      "textSha256": "58d2abe9eac092fa393cc810e24d0a924f1f367896cf1e9266415dcd456878a6",
+      "reading": {
+        "path": "materials/hadith/essential-de/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/001.json",
+        "sha256": "acfd1c48f358565738f63fe0e3bcaa78fcbde982cf917127e643ee1e46119e52",
+        "bytes": 56981,
+        "gitBlob": "ecda1fe1649522b65f94b2b5c355e3a37e7e58b8"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/sections/17/text",
+          "codepointStart": 268,
+          "codepointEnd": 365
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+          "bytes": 378418,
+          "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+        },
+        "member": null,
+        "jsonPointer": "/fields/52/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+            "bytes": 378418,
+            "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+          },
+          "jsonPointers": [
+            "/fields/27",
+            "/fields/51",
+            "/fields/52",
+            "/fields/75",
+            "/fields/76",
+            "/fields/95",
+            "/independent_FINAL914"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        },
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "sha256": "868449d0ee761ccf7b3bea411928b83aff0b27dd32946de924a7543be047faae",
+            "bytes": 158278,
+            "gitBlob": "cfdcf124ffd2dec9641774332e17ae769f102564"
+          },
+          "jsonPointers": [
+            "/authorship"
+          ],
+          "supports": "Named main translator and distinct historical reviewer"
+        }
+      ]
+    },
+    {
+      "id": "translation:de:essential-01-001:q75",
+      "language": "de",
+      "lessonId": "essential-01-001",
+      "fieldId": "75",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "Ich bin Meinem Diener gegenüber so, wie er es von Mir erwartet, und Ich bin bei ihm, wenn er Mich anruft.",
+      "textSha256": "b9b46f4c9328129be0f0a9f357cb6bdd330a22b82d974a42620026bbb5277e77",
+      "reading": {
+        "path": "materials/hadith/essential-de/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/001.json",
+        "sha256": "acfd1c48f358565738f63fe0e3bcaa78fcbde982cf917127e643ee1e46119e52",
+        "bytes": 56981,
+        "gitBlob": "ecda1fe1649522b65f94b2b5c355e3a37e7e58b8"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/sections/26/text",
+          "codepointStart": 636,
+          "codepointEnd": 741
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+          "bytes": 378418,
+          "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+        },
+        "member": null,
+        "jsonPointer": "/fields/75/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+            "bytes": 378418,
+            "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+          },
+          "jsonPointers": [
+            "/fields/27",
+            "/fields/51",
+            "/fields/52",
+            "/fields/75",
+            "/fields/76",
+            "/fields/95",
+            "/independent_FINAL914"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        },
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "sha256": "868449d0ee761ccf7b3bea411928b83aff0b27dd32946de924a7543be047faae",
+            "bytes": 158278,
+            "gitBlob": "cfdcf124ffd2dec9641774332e17ae769f102564"
+          },
+          "jsonPointers": [
+            "/authorship"
+          ],
+          "supports": "Named main translator and distinct historical reviewer"
+        }
+      ]
+    },
+    {
+      "id": "translation:de:essential-01-001:q76",
+      "language": "de",
+      "lessonId": "essential-01-001",
+      "fieldId": "76",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "Bittet Allah in der Gewissheit, dass Er euch erhört. Und wisst: Allah erhört kein Bittgebet aus einem unachtsamen, abgelenkten Herzen.",
+      "textSha256": "50855661738050524fef02bf448b02d588d9a7e8fbaadad7d5dfb149287e1940",
+      "reading": {
+        "path": "materials/hadith/essential-de/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/001.json",
+        "sha256": "acfd1c48f358565738f63fe0e3bcaa78fcbde982cf917127e643ee1e46119e52",
+        "bytes": 56981,
+        "gitBlob": "ecda1fe1649522b65f94b2b5c355e3a37e7e58b8"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/sections/27/text",
+          "codepointStart": 86,
+          "codepointEnd": 220
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+          "bytes": 378418,
+          "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+        },
+        "member": null,
+        "jsonPointer": "/fields/76/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+            "bytes": 378418,
+            "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+          },
+          "jsonPointers": [
+            "/fields/27",
+            "/fields/51",
+            "/fields/52",
+            "/fields/75",
+            "/fields/76",
+            "/fields/95",
+            "/independent_FINAL914"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        },
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "sha256": "868449d0ee761ccf7b3bea411928b83aff0b27dd32946de924a7543be047faae",
+            "bytes": 158278,
+            "gitBlob": "cfdcf124ffd2dec9641774332e17ae769f102564"
+          },
+          "jsonPointers": [
+            "/authorship"
+          ],
+          "supports": "Named main translator and distinct historical reviewer"
+        }
+      ]
+    },
+    {
+      "id": "translation:de:essential-01-001:q95",
+      "language": "de",
+      "lessonId": "essential-01-001",
+      "fieldId": "95",
+      "contentKind": "hadith_translation",
+      "translationOrigin": "ai",
+      "aiTranslated": true,
+      "humanTranslator": null,
+      "translator": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      "review": {
+        "status": "historical_recorded",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "independent": true,
+        "notice": "Separate Sol 6.1 High review is recorded in the linked historical source. This provenance annotation is not a new QC pass or scholarly certification."
+      },
+      "disclosure": {
+        "label": "AI-translated meaning (Sol 6.1, High)",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "Wenn einer von euch bittet, soll er nicht sagen: „O Allah, vergib mir, wenn Du willst.“ Er soll vielmehr entschlossen und mit großem Verlangen bitten. Denn keine Gabe, die Allah gewährt, ist Ihm zu groß.",
+      "textSha256": "2ce28bf91986f2ff81945dade9dea7758d9edec4ec4c5936947898ccb9d5c52c",
+      "reading": {
+        "path": "materials/hadith/essential-de/001.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/001.json",
+        "sha256": "acfd1c48f358565738f63fe0e3bcaa78fcbde982cf917127e643ee1e46119e52",
+        "bytes": 56981,
+        "gitBlob": "ecda1fe1649522b65f94b2b5c355e3a37e7e58b8"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading/sections/41/text",
+          "codepointStart": 30,
+          "codepointEnd": 233
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+          "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+          "bytes": 378418,
+          "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+        },
+        "member": null,
+        "jsonPointer": "/fields/95/text"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-PUBLIC-SOURCES914.json",
+            "sha256": "d0101dc8d428d7cb010bbe91736f6cbd73aff5efab611afede2c02920deb7071",
+            "bytes": 378418,
+            "gitBlob": "254294d838581666e8244f489dc30e9262a1bbeb"
+          },
+          "jsonPointers": [
+            "/fields/27",
+            "/fields/51",
+            "/fields/52",
+            "/fields/75",
+            "/fields/76",
+            "/fields/95",
+            "/independent_FINAL914"
+          ],
+          "supports": "Translation authorship and recorded historical model roles"
+        },
+        {
+          "file": {
+            "path": "materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-de/sources/LESSON001-DE-CANDIDATE914.json",
+            "sha256": "868449d0ee761ccf7b3bea411928b83aff0b27dd32946de924a7543be047faae",
+            "bytes": 158278,
+            "gitBlob": "cfdcf124ffd2dec9641774332e17ae769f102564"
+          },
+          "jsonPointers": [
+            "/authorship"
+          ],
+          "supports": "Named main translator and distinct historical reviewer"
+        }
+      ]
+    },
+    {
+      "id": "translation:en:essential-01-003:SUFYAN",
+      "language": "en",
+      "lessonId": "essential-01-003",
+      "fieldId": "SUFYAN",
+      "contentKind": "scholar_saying_translation",
+      "translationOrigin": "human",
+      "aiTranslated": false,
+      "humanTranslator": "Abu Iyaad Amjad Rafiq",
+      "translator": null,
+      "review": {
+        "status": "not_assessed",
+        "model": null,
+        "reasoningEffort": null,
+        "independent": null,
+        "notice": "Published translator credit and exact quotation match only; no new independent QC pass is claimed."
+      },
+      "disclosure": {
+        "label": "Published human translation, credited to Abu Iyaad Amjad Rafiq",
+        "required": true,
+        "mustAccompanyText": true,
+        "displayOutsideQuotedText": true
+      },
+      "translationText": "They are just as they are, we affirm them and narrate them without asking how.",
+      "textSha256": "12a1e8e1ad371f8380934f7e2d22e4301efa439c4d0dfd22e2a3634a6f401ad7",
+      "reading": {
+        "path": "materials/hadith/essential-en/003.json",
+        "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-en/003.json",
+        "sha256": "e90a5d811fe28075e26b9a82a8ff0beb8d5cb561eeb9f6aa9b80b45bfe57b6d4",
+        "bytes": 31407,
+        "gitBlob": "6b5a4879bfb15e9c8f84c610ef7acc87c09cacde"
+      },
+      "occurrences": [
+        {
+          "jsonPointer": "/reading",
+          "codepointStart": 2921,
+          "codepointEnd": 2999
+        }
+      ],
+      "sourceTextLocator": {
+        "file": {
+          "path": "materials/hadith/essential-en/003-sources.json",
+          "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-en/003-sources.json",
+          "sha256": "cedf681c53690ec77d81a7b39bc3fd5ddfbf667e70eaa1dad5fb661d54cf4eeb",
+          "bytes": 134268,
+          "gitBlob": "2cabecc7fc318b768f4bbd6c9f99ef17f233b9ea"
+        },
+        "member": "TARGET-SOURCE-PARENTS.json",
+        "memberSha256": "be6b6b8e087537f0d6612d6bc2a010d91b48eded240b693d9f7178372230d556",
+        "jsonPointer": "/sufyan/selectedExactReply"
+      },
+      "provenanceEvidence": [
+        {
+          "file": {
+            "path": "materials/hadith/essential-en/003-sources.json",
+            "url": "https://github.com/blaghtayt-alt/iman-companion/blob/1d66abd7a09bde5f6b15a8576e26bb938f94535b/materials/hadith/essential-en/003-sources.json",
+            "sha256": "cedf681c53690ec77d81a7b39bc3fd5ddfbf667e70eaa1dad5fb661d54cf4eeb",
+            "bytes": 134268,
+            "gitBlob": "2cabecc7fc318b768f4bbd6c9f99ef17f233b9ea"
+          },
+          "member": "TARGET-SOURCE-PARENTS.json",
+          "memberSha256": "be6b6b8e087537f0d6612d6bc2a010d91b48eded240b693d9f7178372230d556",
+          "jsonPointers": [
+            "/sufyan/edition",
+            "/sufyan/sourceURL",
+            "/sufyan/selectedExactReply",
+            "/sufyan/transcriptionQualification"
+          ],
+          "supports": "Named published human translator, edition and exact selected quotation"
+        }
+      ],
+      "sourceEdition": "Mountains of Knowledge, Inheritors of the Prophets; third edition, November 2013, Salafi Publications. Translated and annotated by Abu Iyaad Amjad Rafiq; biographies by Abu Talhah Dawood Burbank, as printed.",
+      "sourceURL": "https://www.emaanlibrary.com/wp-content/uploads/2022/01/Mountains-of-Knowledge_-Inheritors-of-the-Prophets-1.pdf",
+      "printedPages": [
+        180,
+        181
+      ]
+    }
+  ]
+}
