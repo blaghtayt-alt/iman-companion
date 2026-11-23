@@ -1,0 +1,428 @@
+{
+  "schema": "iman-finite-tadabbur-translation-corrections-v1",
+  "verse": "35:25",
+  "sourceArabicCommit": "a25eda72e9c4ffe8c8128cd27842ee911b09e591",
+  "ownerArabicParagraphSHA256": [
+    "d55965d57cb35948ed35165241a702e145c35964a84d471a6baa1fbcc06e20f6",
+    "dc73df5d70a61999508b9bb23440a8b19706318ec72b1ac53ac2b0884ece3792",
+    "b3a8dabb7eb66c966387b40b25c169bf51ad4acea846f76de945a2d866bb5ed8"
+  ],
+  "independentPublisherAuthoritySHA256": "f95463445557e8251c27aefc3383fdce6b153223dad4c083c70e8aec312fc08c",
+  "translations": {
+    "bn": {
+      "reviewSHA256": "dfd42e219451e09e41e7e6124c9f0946bba049f8c972f9c039f98dab97f57886",
+      "candidateSHA256": "d3983f9a7f017648b8165f066038b1c82dfb8356117056c991111e373603045b",
+      "modes": {
+        "extended": {
+          "sha256": "7b98bcf1086fc2a4e80b5f6eab36a0a70fcd6375c21335f0e51bc93a9079a728",
+          "paragraphCount": 3,
+          "gitJson": "materials/tadabbur/bn/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "e395495d7a7c0359c18a696e8219faa8433afb39b15f164e53e07c165c952ffc",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/bn/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "edition": "bengali_rwwad v1.1.3",
+        "fullRows": {
+          "6:109": {
+            "id": "898",
+            "sura": "6",
+            "aya": "109",
+            "translation": "আর তারা আল্লাহর নামে কঠোর শপথ করে বলে: তাদের কাছে যদি কোন নিদর্শন আসত, তবে তারা অবশ্যই তার ওপর ঈমান আনত। বলো: ‘নিদর্শন তো আল্লাহর কাছেই।’ আর তোমাদের কীভাবে বুঝানো যাবে যে, তাএলেও তারা ঈমান আনবে না!",
+            "footnotes": ""
+          },
+          "6:110": {
+            "id": "899",
+            "sura": "6",
+            "aya": "110",
+            "translation": "আর আমি তাদের অন্তরসমূহ ও দৃষ্টিসমূহ উল্টিয়ে দিবো, যেমন তারা আলকুরআনের প্রতি প্রথমবারে ঈমান আনেনি। আর আমি তাদেরকে তাদের বাড়াবাড়ি করার মধ্যে বিভ্রান্তের মতো ঘুরে বেড়ানোর জন্যে ছেড়ে দিবো।",
+            "footnotes": ""
+          },
+          "35:24": {
+            "id": "3684",
+            "sura": "35",
+            "aya": "24",
+            "translation": "হে রাসূল! আমি তোমাকে সত্যসহ পাঠিয়েছি সুসংবাদ দাতা ও সতর্ককারীরূপে। আর এমন কোনো জাতি নেই, যার কাছে সতর্ককারী (নবী-রাসূল) আসেনি।",
+            "footnotes": ""
+          },
+          "35:25": {
+            "id": "3685",
+            "sura": "35",
+            "aya": "25",
+            "translation": "আর তারা যদি তোমাকে মিথ্যাবাদী বলে, তবে তাদের পূর্বে যারা ছিল তারাও (তাদের রাসূলদেরকে) মিথ্যাবাদী বলেছিলো; তাদের নিকট তাদের রাসূলগণ সুস্পষ্ট প্রমাণাদি, গ্রন্থাবলি ও আলোকদীপ্ত কিতাবসহ এসেছিলেন।",
+            "footnotes": ""
+          }
+        },
+        "newSourceCitations": [
+          {
+            "ref": "6:109",
+            "text": null,
+            "sourceRanges": null,
+            "matchingSourceNoteMarker": null,
+            "exactCompleteNoteField": "",
+            "qualification": "Full raw publisher clause has the fused word তাএলেও. Use an explicitly cited project paraphrase conveying that they might still reject if the sign came; archive original intact."
+          },
+          {
+            "ref": "6:110",
+            "text": "আর আমি তাদের অন্তরসমূহ ও দৃষ্টিসমূহ উল্টিয়ে দিবো, যেমন তারা আলকুরআনের প্রতি প্রথমবারে ঈমান আনেনি।",
+            "sourceRanges": {
+              "codePoints": [
+                0,
+                97
+              ],
+              "utf8": [
+                0,
+                261
+              ],
+              "utf16": [
+                0,
+                97
+              ]
+            },
+            "matchingSourceNoteMarker": null,
+            "exactCompleteNoteField": "",
+            "qualification": "Exact first complete original sentence. Preserve Al-Quran verse attribution."
+          }
+        ]
+      },
+      "sourceRendering": {
+        "6:109": "referenced meaning, no purported quotation",
+        "6:110": "direct publisher excerpt"
+      },
+      "inReaderQuoteSHA256": {
+        "আর তারা যদি তোমাকে মিথ্যাবাদী বলে, তবে তাদের পূর্বে যারা ছিল তারাও (তাদের রাসূলদেরকে) মিথ্যাবাদী বলেছিলো": "851e41b9d4ad98063719194d28b00d7efdb79306bc001fec5764edd72378e616",
+        "তাদের নিকট তাদের রাসূলগণ সুস্পষ্ট প্রমাণাদি, গ্রন্থাবলি ও আলোকদীপ্ত কিতাবসহ এসেছিলেন।": "abd01138cb0df8e1e92bc9bc90807ef70b671aad380be08bb391bb92316f82ff",
+        "আর আমি তাদের অন্তরসমূহ ও দৃষ্টিসমূহ উল্টিয়ে দিবো, যেমন তারা আলকুরআনের প্রতি প্রথমবারে ঈমান আনেনি।": "d844e2244cb21bc59f304b240501202ebf7253acf6e90532e108bc16de34586e"
+      }
+    },
+    "fr": {
+      "reviewSHA256": "fa81e6f20ded28482d286537e27bb463faa4e6e6ae734b867a54e60a1f1339e0",
+      "candidateSHA256": "b13fdae4a24649f0aa8b537d153d8c5d4f8ccf1c4a617a74f355f94be1d57aad",
+      "modes": {
+        "extended": {
+          "sha256": "9a1c61b77896042487388c3d594425fd5de49c2fbb7b94dd3cf0da4a83c8b3c1",
+          "paragraphCount": 3,
+          "gitJson": "materials/tadabbur/fr/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "afa073eb2e9783f5ee3205ea78ffd70dc789db45d6417ae062507b80732e5725",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/fr/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "edition": "french_rashid v1.0.3-csv.1",
+        "fullRows": {
+          "6:109": {
+            "id": "898",
+            "sura": "6",
+            "aya": "109",
+            "translation": "Ils jurent par Allah de toutes leurs forces que s’ils étaient témoins d’un miracle, ils y croiraient certainement. Dis : « Seul Allah est en mesure de produire des miracles. » Mais qu’est-ce qui vous faire pressentir qu’ils ne croiront pas si un miracle se produit sous leurs yeux ?",
+            "footnotes": ""
+          },
+          "6:110": {
+            "id": "899",
+            "sura": "6",
+            "aya": "110",
+            "translation": "De même qu’ils n’ont pas cru à Nos premiers signes, ils ne croiront pas à ceux-ci dont Nous détournerons leurs cœurs et leurs yeux, les laissant s’enfoncer aveuglément dans l’impiété.",
+            "footnotes": ""
+          },
+          "35:24": {
+            "id": "3684",
+            "sura": "35",
+            "aya": "24",
+            "translation": "Nous t’avons envoyé avec le message de vérité pour annoncer la bonne nouvelle et mettre en garde l’humanité. De même, il n’est pas de peuple qu’un prophète ne soit venu avertir.",
+            "footnotes": ""
+          },
+          "35:25": {
+            "id": "3685",
+            "sura": "35",
+            "aya": "25",
+            "translation": "S’ils te traitent d’imposteur, les peuples ayant vécu avant eux ont également traité de menteurs leurs Messagers, venus pourtant avec toutes les preuves, les Ecritures et le Livre lumineux.",
+            "footnotes": ""
+          }
+        },
+        "newSourceCitations": [
+          {
+            "ref": "6:109",
+            "text": "qu’ils ne croiront pas si un miracle se produit sous leurs yeux",
+            "sourceRanges": {
+              "codePoints": [
+                217,
+                280
+              ],
+              "utf8": [
+                227,
+                292
+              ],
+              "utf16": [
+                217,
+                280
+              ]
+            },
+            "matchingSourceNoteMarker": null,
+            "exactCompleteNoteField": "",
+            "qualification": "Narrow context-preserving satellite clause only, after a published grammatical error faire. A cited paraphrase of the complete rhetorical question is preferable."
+          },
+          {
+            "ref": "6:110",
+            "text": "Nous détournerons leurs cœurs et leurs yeux",
+            "sourceRanges": {
+              "codePoints": [
+                87,
+                130
+              ],
+              "utf8": [
+                94,
+                139
+              ],
+              "utf16": [
+                87,
+                130
+              ]
+            },
+            "matchingSourceNoteMarker": null,
+            "exactCompleteNoteField": "",
+            "qualification": "The core clause is exact. Convey the prior refusal independently as commentary rather than implying a literal linear equivalence of the full publisher syntax."
+          }
+        ]
+      },
+      "sourceRendering": {
+        "6:109": "referenced meaning, no purported quotation",
+        "6:110": "direct publisher excerpt"
+      },
+      "inReaderQuoteSHA256": {
+        "S’ils te traitent d’imposteur, les peuples ayant vécu avant eux ont également traité de menteurs leurs Messagers": "f39a5140cb65b9c1a9b6c7bf61030ccff70d1ba96df47095c991c111e034536e",
+        "avec toutes les preuves, les Ecritures et le Livre lumineux.": "91cd990a1ad3f9bfb2fabf8cff23198f53305fb5b586d16ba77840521474488c",
+        "Nous détournerons leurs cœurs et leurs yeux": "d489c9c8d00d58ecedd5bcb394a179a23e8276d2e9832c95b77116248c6a47cc"
+      }
+    },
+    "hi": {
+      "reviewSHA256": "2e40304a2f8e0743335038d6f84618d265e72fb8db9b91a423faf2f69be6574a",
+      "candidateSHA256": "773e0281d2c322c094437425b51b25feae444818dc45150924a2ec32dd94f16b",
+      "modes": {
+        "extended": {
+          "sha256": "9c5b42fee2ea616e9399ad9031de4e249975ec565ba49d26f834e080257a3edf",
+          "paragraphCount": 3,
+          "gitJson": "materials/tadabbur/hi/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "1d70c2b506b8bc1323b35bff8958efd16681e463be27ce074830995f0333505a",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/hi/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "edition": "hindi_omari v1.1.5-csv.1",
+        "fullRows": {
+          "6:109": {
+            "id": "898",
+            "sura": "6",
+            "aya": "109",
+            "translation": "और उन्होंने अपनी मज़बूत क़समें खाते हुए अल्लाह की क़सम खाई कि निःसंदेह यदि उनके पास कोई आयत (निशानी) आई, तो वे उसपर अवश्य ही ईमान लाएँगे। आप कह दें : आयतें (निशानियाँ) तो केवल अल्लाह के पास हैं और (ऐ ईमान वालो!) तुम्हें क्या पता कि निःसंदेह वे निशानियाँ जब आ जाएँगी, तो वे ईमान नहीं लाएँगे।[69]",
+            "footnotes": "[69] मक्का के मुश्रिकों ने नबी सल्लल्लाहु अलैहि व सल्लम से कहा कि यदि सफ़ा (पर्वत) सोने का हो जाए, तो वे ईमान ले आएँगे। कुछ मुसलमानों ने भी सोचा कि यदि ऐसा हो जाए, तो संभव है कि वे ईमान ले आएँ। इसी पर यह आयत उतरी। (इब्ने कसीर)"
+          },
+          "6:110": {
+            "id": "899",
+            "sura": "6",
+            "aya": "110",
+            "translation": "और हम उनके दिलों और उनकी आँखों को फेर देंगे[70], जैसे वे पहली बार इस (क़ुरआन) पर ईमान नहीं लाए और हम उन्हें छोड़ देंगे, अपनी सरकशी में भटकते फिरेंगे।",
+            "footnotes": "[70] अर्थात कोई चमत्कार आ जाने के पश्चात् भी ईमान नहीं लाएँगे, क्योंकि अल्लाह, जिसे सुपथ दर्शाना चाहता है, वह सत्य को सुनते ही उसे स्वीकार कर लेता है। किंतु जिसने सत्य के विरोध ही को अपना आचरण-स्वभाव बना लिया हो, तो वह चमत्कार देखकर भी कोई बहाना बना लेता है और ईमान नहीं लाता। जैसे इससे पहले नबियों के साथ हो चुका है। और स्वयं नबी सल्लल्लाहु अलैहि व सल्लम ने बहुत-सी निशानियाँ दिखाईं, फिर भी ये मुश्रिक ईमान नहीं लाए। जैसे आपने मक्का वासियों की माँग पर चाँद के दो भाग कर दिए। जिन दोनों के बीच लोगों ने ह़िरा (पर्वत) को देखा। (परंतु वे फिर भी ईमान नहीं लाए) (सह़ीह़ बुख़ारी : 3637, मुस्लिम : 2802)"
+          },
+          "35:24": {
+            "id": "3684",
+            "sura": "35",
+            "aya": "24",
+            "translation": "निःसंदेह हमने आपको सत्य के साथ शुभ सूचना देने वाला तथा डराने वाला बनाकर भेजा है। और कोई समुदाय ऐसा नहीं, जिसमें कोई डराने वाला न आया हो।",
+            "footnotes": ""
+          },
+          "35:25": {
+            "id": "3685",
+            "sura": "35",
+            "aya": "25",
+            "translation": "और अगर ये लोग आपको झुठलाते हैं, तो इनसे पूर्व के लोगों ने भी (रसूलों को) झुठलाया है, जिनके पास हमारे रसूल खुले प्रमाण, ग्रंथ और ज्योतिमान करने वाली पुस्तक लेकर आए।",
+            "footnotes": ""
+          }
+        },
+        "newSourceCitations": [
+          {
+            "ref": "6:109",
+            "text": "तुम्हें क्या पता कि निःसंदेह वे निशानियाँ जब आ जाएँगी, तो वे ईमान नहीं लाएँगे।[69]",
+            "sourceRanges": {
+              "codePoints": [
+                212,
+                294
+              ],
+              "utf8": [
+                532,
+                740
+              ],
+              "utf16": [
+                212,
+                294
+              ]
+            },
+            "matchingSourceNoteMarker": "[69]",
+            "exactCompleteNoteField": "[69] मक्का के मुश्रिकों ने नबी सल्लल्लाहु अलैहि व सल्लम से कहा कि यदि सफ़ा (पर्वत) सोने का हो जाए, तो वे ईमान ले आएँगे। कुछ मुसलमानों ने भी सोचा कि यदि ऐसा हो जाए, तो संभव है कि वे ईमान ले आएँ। इसी पर यह आयत उतरी। (इब्ने कसीर)",
+            "qualification": "Preserve [69] only with the complete exact provider note separately; a clearly cited paraphrase is viable if note association is unavailable."
+          },
+          {
+            "ref": "6:110",
+            "text": "और हम उनके दिलों और उनकी आँखों को फेर देंगे[70], जैसे वे पहली बार इस (क़ुरआन) पर ईमान नहीं लाए",
+            "sourceRanges": {
+              "codePoints": [
+                0,
+                94
+              ],
+              "utf8": [
+                0,
+                230
+              ],
+              "utf16": [
+                0,
+                94
+              ]
+            },
+            "matchingSourceNoteMarker": "[70]",
+            "exactCompleteNoteField": "[70] अर्थात कोई चमत्कार आ जाने के पश्चात् भी ईमान नहीं लाएँगे, क्योंकि अल्लाह, जिसे सुपथ दर्शाना चाहता है, वह सत्य को सुनते ही उसे स्वीकार कर लेता है। किंतु जिसने सत्य के विरोध ही को अपना आचरण-स्वभाव बना लिया हो, तो वह चमत्कार देखकर भी कोई बहाना बना लेता है और ईमान नहीं लाता। जैसे इससे पहले नबियों के साथ हो चुका है। और स्वयं नबी सल्लल्लाहु अलैहि व सल्लम ने बहुत-सी निशानियाँ दिखाईं, फिर भी ये मुश्रिक ईमान नहीं लाए। जैसे आपने मक्का वासियों की माँग पर चाँद के दो भाग कर दिए। जिन दोनों के बीच लोगों ने ह़िरा (पर्वत) को देखा। (परंतु वे फिर भी ईमान नहीं लाए) (सह़ीह़ बुख़ारी : 3637, मुस्लिम : 2802)",
+            "qualification": "Preserve [70], original parentheses and full exact note separately if quoting; otherwise explicitly cite and paraphrase for this commentary."
+          }
+        ]
+      },
+      "sourceRendering": {
+        "6:109": "referenced meaning, no purported quotation",
+        "6:110": "referenced meaning, no purported quotation"
+      },
+      "inReaderQuoteSHA256": {
+        "और अगर ये लोग आपको झुठलाते हैं, तो इनसे पूर्व के लोगों ने भी (रसूलों को) झुठलाया है": "b7f44931c647424c883b980490badae65bc53e01aa97d80f60285de921c86c2a",
+        "खुले प्रमाण, ग्रंथ और ज्योतिमान करने वाली पुस्तक लेकर आए।": "c4ae9c3ad0bf768e65f49706148c2ceb71e1c1c16ffef9d31b4386a816de4f75"
+      }
+    },
+    "ur": {
+      "reviewSHA256": "e7f04d8047621957c834a21cbbd4441d349bb91cabe2fd5ff4801981aaee4bc7",
+      "candidateSHA256": "6e474cc539f886eae955867e3b43805f74ce7da31835c3f6178528eb6fb2cef0",
+      "modes": {
+        "extended": {
+          "sha256": "9705b748453e93be1718c2015edda66516a90a66c8d1173e722649b530798df1",
+          "paragraphCount": 3,
+          "gitJson": "materials/tadabbur/ur/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "e8b47443b35c69e440abcdae74556cd1fd8c3d5cedc5497a19efa43f7ba4596a",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/ur/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "edition": "urdu_junagarhi v1.1.3-csv.1",
+        "fullRows": {
+          "6:109": {
+            "id": "898",
+            "sura": "6",
+            "aya": "109",
+            "translation": "اور ان لوگوں نے قسموں میں بڑا زور لگا کر اللہ تعالیٰ کی قسم کھائی کہ[1] اگر ان کے پاس کوئی نشانی آ جائے[2] تو وه ضرور ہی اس پر ایمان لے آئیں گے، آپ کہہ دیجئے کہ نشانیاں سب اللہ کے قبضے میں ہیں[3] اور تم کو اس کی کیا خبر کہ وه نشانیاں جس وقت آجائیں گی یہ لوگ تب بھی ایمان نہ ﻻئیں گے۔",
+            "footnotes": "[1] جَهْدَ أَيْمَانِهِمْ، أَيْ: حَلَفُوا أَيْمَانًا مُؤَكَّدَةً۔ بڑی تاکید سے قسمیں کھائیں۔\n[2] یعنی کوئی بڑا معجزہ جو ان کی خواہش کے مطابق ہو، جیسے عصائے موسیٰ (عليه السلام) ، احیائے موتی اور ناقۂ ثمود وغیرہ جیسا۔\n[3] ان کا یہ مطالبۂ خرق عادت تعنت وعناد کے طور پر ہے، طلب ہدایت کی نیت سے نہیں ہے۔ تاہم ان نشانیوں کا ظہور تمام تر اللہ کے اختیار میں ہے، وہ چاہے تو ان کا مطالبہ پورا کردے۔ بعض مرسل روایات میں ہے کہ کفار مکہ نے مطالبہ کیا تھا کہ صفا پہاڑ سونے کا بنا دیا جائے تو وہ ایمان لے آئیں گے، جس پر جبریل (عليه السلام) نے آکر کہا کہ اگر اس کے بعد بھی یہ ایمان نہ لائے تو پھرانہیں ہلاک کردیا جائے گا، جسے نبی (صلى الله عليه وسلم) نے پسند نہیں فرمایا۔ (ابن کثیر )۔"
+          },
+          "6:110": {
+            "id": "899",
+            "sura": "6",
+            "aya": "110",
+            "translation": "اور ہم بھی ان کے دلوں کو اور ان کی نگاہوں کو پھیر دیں گے جیسا کہ یہ لوگ اس پر پہلی دفعہ ایمان نہیں ﻻئے[1] اور ہم ان کو ان کی سرکشی میں حیران رہنے دیں گے۔",
+            "footnotes": "[1] اس کا مطلب ہے کہ جب پہلی مرتبہ ایمان نہیں لائے تو اس کا وبال ان پر اس طرح پڑا کہ آئندہ بھی ان کے ایمان لانے کا امکان ختم ہوگیا۔ دلوں اور نگاہوں کو پھیر دینے کا یہی مفہوم ہے۔ (ابن کثیر)"
+          },
+          "35:24": {
+            "id": "3684",
+            "sura": "35",
+            "aya": "24",
+            "translation": "ہم نے ہی آپ کو حق دے کر خوشخبری سنانے واﻻ اور ڈر سنانے واﻻ بنا کر بھیجا ہے اور کوئی امت ایسی نہیں ہوئی جس میں کوئی ڈر سنانے واﻻ نہ گزرا ہو.",
+            "footnotes": ""
+          },
+          "35:25": {
+            "id": "3685",
+            "sura": "35",
+            "aya": "25",
+            "translation": "اور اگر یہ لوگ آپ کو جھٹلا دیں تو جو لوگ ان سے پہلے ہو گزرے ہیں انہوں نے بھی جھٹلایا تھا ان کے پاس بھی ان کے پیغمبر معجزے اور صحیفے اور روشن کتابیں لے کر آئے تھے.[1]",
+            "footnotes": "[1] تاکہ کوئی قوم یہ نہ کہہ سکے کہ ہمیں تو ایمان وکفر کا پتہ ہی نہیں، اس لئے کہ ہمارے پاس کوئی پیغمبر ہی نہیں آیا۔بنابریں اللہ نے ہر امت میں نبی بھیجا، جس طرح دوسرے مقام پر بھی فرمایا «وَلِكُلِّ قَوْمٍ هَادٍ» (الرعد: 7) «وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَسُولا» الآیہ (النحل: 26)"
+          }
+        },
+        "newSourceCitations": [
+          {
+            "ref": "6:109",
+            "text": "اور تم کو اس کی کیا خبر کہ وه نشانیاں جس وقت آجائیں گی یہ لوگ تب بھی ایمان نہ ﻻئیں گے۔",
+            "sourceRanges": {
+              "codePoints": [
+                196,
+                282
+              ],
+              "utf8": [
+                338,
+                490
+              ],
+              "utf16": [
+                196,
+                282
+              ]
+            },
+            "matchingSourceNoteMarker": null,
+            "exactCompleteNoteField": "[1] جَهْدَ أَيْمَانِهِمْ، أَيْ: حَلَفُوا أَيْمَانًا مُؤَكَّدَةً۔ بڑی تاکید سے قسمیں کھائیں۔\n[2] یعنی کوئی بڑا معجزہ جو ان کی خواہش کے مطابق ہو، جیسے عصائے موسیٰ (عليه السلام) ، احیائے موتی اور ناقۂ ثمود وغیرہ جیسا۔\n[3] ان کا یہ مطالبۂ خرق عادت تعنت وعناد کے طور پر ہے، طلب ہدایت کی نیت سے نہیں ہے۔ تاہم ان نشانیوں کا ظہور تمام تر اللہ کے اختیار میں ہے، وہ چاہے تو ان کا مطالبہ پورا کردے۔ بعض مرسل روایات میں ہے کہ کفار مکہ نے مطالبہ کیا تھا کہ صفا پہاڑ سونے کا بنا دیا جائے تو وہ ایمان لے آئیں گے، جس پر جبریل (عليه السلام) نے آکر کہا کہ اگر اس کے بعد بھی یہ ایمان نہ لائے تو پھرانہیں ہلاک کردیا جائے گا، جسے نبی (صلى الله عليه وسلم) نے پسند نہیں فرمایا۔ (ابن کثیر )۔",
+            "qualification": "Exact last unmarked clause; original notes [1–3] remain in full parent."
+          },
+          {
+            "ref": "6:110",
+            "text": "اور ہم بھی ان کے دلوں کو اور ان کی نگاہوں کو پھیر دیں گے جیسا کہ یہ لوگ اس پر پہلی دفعہ ایمان نہیں ﻻئے[1]",
+            "sourceRanges": {
+              "codePoints": [
+                0,
+                105
+              ],
+              "utf8": [
+                0,
+                183
+              ],
+              "utf16": [
+                0,
+                105
+              ]
+            },
+            "matchingSourceNoteMarker": "[1]",
+            "exactCompleteNoteField": "[1] اس کا مطلب ہے کہ جب پہلی مرتبہ ایمان نہیں لائے تو اس کا وبال ان پر اس طرح پڑا کہ آئندہ بھی ان کے ایمان لانے کا امکان ختم ہوگیا۔ دلوں اور نگاہوں کو پھیر دینے کا یہی مفہوم ہے۔ (ابن کثیر)",
+            "qualification": "Preserve [1] and whole original note separately if quoting. Note’s extended explanation should never be confused with this project commentary."
+          }
+        ]
+      },
+      "sourceRendering": {
+        "6:109": "direct publisher excerpt",
+        "6:110": "referenced meaning, no purported quotation"
+      },
+      "inReaderQuoteSHA256": {
+        "اور اگر یہ لوگ آپ کو جھٹلا دیں تو جو لوگ ان سے پہلے ہو گزرے ہیں انہوں نے بھی جھٹلایا تھا": "f45c48ed2835b916047e6d1b1bbcafcd960f393abc0da313115e4c335abfe044",
+        "معجزے اور صحیفے اور روشن کتابیں لے کر آئے تھے.": "ccc0bb3d78ea9f849280836c9cb07bba3f5f0a6a789aa6b5f10b89998c7a1497",
+        "اور تم کو اس کی کیا خبر کہ وه نشانیاں جس وقت آجائیں گی یہ لوگ تب بھی ایمان نہ ﻻئیں گے۔": "ccc5fea292a3c922bf8e148280998310699966cc40ec4df41a91ea8439c90831"
+      }
+    }
+  },
+  "translatedReaderAssets": {
+    "runtime/content/fatir-fr63-reviewed.js": {
+      "beforeSHA256": "9272e68f73caf5a130aa572ac8616e180ebe231c1aab15e517180727103d6f34",
+      "afterSHA256": "a6e5b1328d513a9702c80514566caedd4f079c0a773dc614bac90b879deba360",
+      "candidateFile": "REVIEWED-LOCALIZED-35-25-ASSET-1.js"
+    },
+    "runtime/content/fatir-bnur-word-reviewed-data.js": {
+      "beforeSHA256": "1c3392ffcc4567dcdf3b295a9b20c0d8a04ca24ce40926e6734a442b6d3d8f80",
+      "afterSHA256": "16070a6e50a8ba7f0d6bf4ee41035be5de82a5b5454d4d06a0f248c48a2de5d6",
+      "candidateFile": "REVIEWED-LOCALIZED-35-25-ASSET-2.js"
+    },
+    "runtime/scripts/fatir-fr63-reviewed.js": {
+      "beforeSHA256": "f945c3598595a08e7ff1092ce07a55f119a9a2975ae2f5d9e582918bf0438a69",
+      "afterSHA256": "b1248b8548c7835fc6a9ac7ddd2a120e6852ec1f0dc51071183c7095049bf941",
+      "candidateFile": "REVIEWED-LOCALIZED-35-25-ASSET-3.js"
+    }
+  }
+}
