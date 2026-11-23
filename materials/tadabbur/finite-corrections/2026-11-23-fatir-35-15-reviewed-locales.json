@@ -1,0 +1,394 @@
+{
+  "schema": "iman-finite-tadabbur-translation-corrections-v1",
+  "verse": "35:15",
+  "sourceArabicCommit": "a25eda72e9c4ffe8c8128cd27842ee911b09e591",
+  "ownerArabicParagraphSHA256": [
+    "501d063052062bcd072846862d0d6d3b4c2ab9f86ca981d93b9ce9b5e2463945",
+    "8e90b74036f8eb7ec8992c467a595f5a713d517a889dbb2c98dd2770d720546e",
+    "4eb5022b4f422247e05cff680f4a65a60d1981f93ff256fdf852361bcd434d9d",
+    "581b3201fa8dae817a5effa068bc2ae0d90d55605e605f055c6cb988ae2bfc8d",
+    "8c889d918d5235392dd4466061b1c2d5c8b227ff930ead0ce3dc6675124bfe71",
+    "ab5f0017afc994abb66176903a4a630f135b750f818cc2f28e99c0d9a2ce2b59"
+  ],
+  "independentPublisherAuthoritySHA256": "ad7f6cb713385d46738303299d61bc98e6173b4aa6e892a5a9cf1a21357c998d",
+  "translations": {
+    "bn": {
+      "reviewSHA256": "d2a4db79223fc8159be08eaf4fbc2c4d5ab452b476fcf1dc2b1d5b5ff498c0aa",
+      "candidateSHA256": "2ad292f4e0db2ac41c3b3681c7ef626f18e73287920e2fb6d7254349f9fab434",
+      "modes": {
+        "extended": {
+          "sha256": "4e2e5d8fa6603051ec404d1c7e57df3891ca50bfcd96d0fdd5cdb842f39aeea9",
+          "paragraphCount": 6,
+          "gitJson": "materials/tadabbur/bn/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "0e6bd17f6166e622870c81dfa9bd476d4d42a4e3047f451aeff570be7575643d",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/bn/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "edition": "bengali_rwwad v1.1.3",
+        "fullPublisherRows": {
+          "35:15": {
+            "id": "3675",
+            "sura": "35",
+            "aya": "15",
+            "translation": "হে মানুষ, তোমরা (সকল কাজে সর্বাবস্থায়) আল্লাহর প্রতি মুখাপেক্ষী। আর আল্লাহ অমুখাপেক্ষী ও প্রশংসিত।",
+            "footnotes": ""
+          },
+          "96:6": {
+            "id": "6112",
+            "sura": "96",
+            "aya": "6",
+            "translation": "কখনো নয়, নিশ্চয় (পাপিষ্ঠ) মানুষ (আল্লাহর) সীমালঙ্ঘন করে থাকে।(১)",
+            "footnotes": "(১) যেমন আবূ জাহল।"
+          },
+          "96:7": {
+            "id": "6113",
+            "sura": "96",
+            "aya": "7",
+            "translation": "কেননা সে নিজেকে স্বয়ংসম্পূর্ণ মনে করে।",
+            "footnotes": ""
+          }
+        },
+        "alHamidLexeme": {
+          "text": "প্রশংসিত",
+          "publisherRanges": {
+            "codePoints": [
+              89,
+              97
+            ],
+            "utf8": [
+              235,
+              259
+            ],
+            "utf16": [
+              89,
+              97
+            ]
+          }
+        }
+      },
+      "inReaderQuoteSHA256": {
+        "তোমরা (সকল কাজে সর্বাবস্থায়) আল্লাহর প্রতি মুখাপেক্ষী।": "e5d2c168395ed0a19a263b5975df12613dcc086b1d0a4a6a6196d57296d77d3a",
+        "হে আমার রব! আমি তোমারই নামে আমার পার্শ্ব রাখলাম এবং তোমারই নামে তা উঠাব।": "6153c655157945d5b75643f5bc9db4404e5a3c001a1c6b7fec6f2174af686d9f",
+        "হে আল্লাহ! আপনার অনুগ্রহে আমরা ভোরে উপনীত হই, সন্ধ্যায় উপনীত হই এবং বাঁচি ও মরি।": "ff03b3a5f33eb222bcb787665a5f77a972883a8c88c5ff8ccf079de68d76fa23",
+        "আমি আপনার দ্বারাই (প্রতিষ্ঠিত আছি) এবং আপনার দিকেই (আমার প্রত্যাবর্তন)।": "4f8e5e3cecb7636d02b8b11e42b197e40ddfd1252f65a7638257d910479d7b46",
+        "লা-হাওলা ওয়ালা- কুওওয়াতা ইল্লা বিল্লাহ": "020c21f7234dd52ca6a277cb2b51348285c29135911587a1dd356fffa259707c",
+        "আল্লাহ তা‘আলার তাওফিক ছাড়া আনুগত্য করার বাধা থেকে মুক্ত হওয়া এবং আনুগত্য করা ও কোনো কিছু করার কোনো ক্ষমতা নেই।": "7ff4cd2ddc8f4b7009f903a8a8ccea762507c28df2253f8d770e0faee521735c",
+        "সকল প্রশংসা আল্লাহ তা’আলার জন্য যিনি আমাকে এটা আহার করিয়েছেন এবং এটা আমাকে রিযক দিয়েছেন, আমার তা লাভ করার কোন শক্তি ও সামর্থ ব্যতীত": "678cda2e90fd9d27e576bb81a0d1a0e8ea8f48d5283d901f2e81d6ae4cf04b02",
+        "কখনো নয়, নিশ্চয় (পাপিষ্ঠ) মানুষ (আল্লাহর) সীমালঙ্ঘন করে থাকে।(১)": "94aa640066a353c2ef48806b62917a848b0c4e1f720c2726506a95775ac559d9",
+        "কেননা সে নিজেকে স্বয়ংসম্পূর্ণ মনে করে।": "631030ede9107a59394eeff5da09bc524025fa21454b5a4b3b0535cd9fa05fe5",
+        "আর আল্লাহ অমুখাপেক্ষী ও প্রশংসিত।": "9b4176da0d09b09161e976ee34b3a5268642616668b467bc9c9024e080835f65",
+        "তাতে চার আঙ্গুল পরিমাণ জায়গা এমন নেই যেখানে কোনো ফিরিশতা নিজের মাথা আল্লাহর জন্যে সাজদার নিমিত্তে অবনত করে নি।": "9e8db7e77a19328113ce252bcef458233c9cb8632e146429c48cf3d65b4f9a8f"
+      }
+    },
+    "en": {
+      "reviewSHA256": "ce2916508bab620610e3c89689c80de7bd3d6f48c5304a86e992311c00a076d9",
+      "candidateSHA256": "92c69b74b8896ae6ddee5c301c7e2607dce14c9dcc3b94a6430580f85c54eff6",
+      "modes": {
+        "extended": {
+          "sha256": "2fc28589af5255cc76786bbefb05d2f51d521343df083fe9d801618f0f51383e",
+          "paragraphCount": 6,
+          "gitJson": "materials/tadabbur/en/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "624280e3cfc6dfa2a1179379396fb5d45aed220fe690ae1a64fab16c067bd7b1",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/en/extended/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "edition": "english_rwwad v1.0.21-csv.1",
+        "fullPublisherRows": {
+          "35:15": {
+            "id": "3675",
+            "sura": "35",
+            "aya": "15",
+            "translation": "O people, it is you who are in need of Allah, whereas Allah is the Self-Sufficient, the Praiseworthy.",
+            "footnotes": ""
+          },
+          "96:6": {
+            "id": "6112",
+            "sura": "96",
+            "aya": "6",
+            "translation": "Indeed, man transgresses",
+            "footnotes": ""
+          },
+          "96:7": {
+            "id": "6113",
+            "sura": "96",
+            "aya": "7",
+            "translation": "when he deems himself to be self-sufficient.",
+            "footnotes": ""
+          }
+        },
+        "alHamidLexeme": {
+          "text": "the Praiseworthy",
+          "publisherRanges": {
+            "codePoints": [
+              84,
+              100
+            ],
+            "utf8": [
+              84,
+              100
+            ],
+            "utf16": [
+              84,
+              100
+            ]
+          }
+        }
+      },
+      "inReaderQuoteSHA256": {
+        "it is you who are in need of Allah": "8a4171f66d62dfed5a37cdd5a17243bf94237e639728d4f267b2800f48587056",
+        "In Your Name, O my Lord, I place my side (on the bed), and by You I will lift it.": "ac144f5f6093f20137537952ee4b894aae50b39cbc09172e0b0172433559a401",
+        "O Allah, by You we have reached the morning, and by You we have reached the evening; by You we live, and by You we die": "b11c145fa3adad9500aa02d5d86b1207f1bd9a5dfe12851c0d4fa37595998761",
+        "My (power as well as existence) is due to Thee (Thine grace) and I turn to Thee (for supplication).": "d45598d1a206241a6ef971d7f1a8726dc4ab2feb9ba324293c64f6cedbd6edd4",
+        "There is no might and no power except with Allah.": "74bd6f98870eb8965705b1d1fa37fbaebff3be0dbafb8579d832d13ed0c61ec8",
+        "All praise is due to Allah who fed me this and granted it as provision to me, without any effort from me nor power": "634b3faceafbd0305d88d69716c92864ce0f3f5844cd9432064365d7dfa40787",
+        "Indeed, man transgresses\nwhen he deems himself to be self-sufficient.": "6c62efe4c2a16f447135837f48f5dcccae2188e64885f19a68660ef5ef4bfa40",
+        "whereas Allah is the Self-Sufficient, the Praiseworthy.": "443532a535aa68e5633ccfb97465f49f43713d71b47b6b1f2197ee8ae17da0c7",
+        "There is no spot, the size of four fingers in them, except that there is an angel placing his forehead in it, prostrating to Allah.": "5a12345b4f2361cf870ce1d95d264c2935a0bf00a4c56e9cd8099633dd9380f5"
+      }
+    },
+    "fr": {
+      "reviewSHA256": "e8d4ac72711d77fd4d62f7eb3bb78a29796219ddebceb4be3ec432036d4ee6f9",
+      "candidateSHA256": "29072da851b9ac7c3d1be3776616827d52ef48d6cfc4859bf7b249a0274a7d53",
+      "modes": {
+        "extended": {
+          "sha256": "8987f5a4c23adf02834c223794d2f877074af0cf62f7bf927381c73ed8e2765f",
+          "paragraphCount": 6,
+          "gitJson": "materials/tadabbur/fr/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "6251e2b69054b9904508e9e2d6eb8d665b8631be5c3fb30840a287b0855d3281",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/fr/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "edition": "french_rashid v1.0.3-csv.1",
+        "fullPublisherRows": {
+          "35:15": {
+            "id": "3675",
+            "sura": "35",
+            "aya": "15",
+            "translation": "Ô hommes ! C’est vous qui avez besoin d’Allah qui, pour Sa part, peut parfaitement se passer de vous et qui est digne de toute louange.",
+            "footnotes": ""
+          },
+          "96:6": {
+            "id": "6112",
+            "sura": "96",
+            "aya": "6",
+            "translation": "Mais en vérité l’homme se montre hautain",
+            "footnotes": ""
+          },
+          "96:7": {
+            "id": "6113",
+            "sura": "96",
+            "aya": "7",
+            "translation": "dès qu’il se croit au-dessus du besoin,",
+            "footnotes": ""
+          }
+        },
+        "alHamidLexeme": {
+          "text": "digne de toute louange",
+          "publisherRanges": {
+            "codePoints": [
+              112,
+              134
+            ],
+            "utf8": [
+              117,
+              139
+            ],
+            "utf16": [
+              112,
+              134
+            ]
+          }
+        }
+      },
+      "inReaderQuoteSHA256": {
+        "C’est vous qui avez besoin d’Allah": "c83905fcbc60e7780675949cfce16ab0e278fa93a59b7c452d2ccfbd466235a2",
+        "C’est en Ton nom, mon Seigneur, que je pose mon flanc et c’est par Toi que je me relève.": "417957e4f105bb73d31fd577b88d11e797ad302679adc8a10147f97c2261014e",
+        "Ô Allah! Grâce à Toi nous nous retrouvons au matin, et grâce à Toi nous nous retrouvons au soir. Grâce à Toi, nous vivons, et grâce à Toi nous mourons.": "7471afda6e50a7c44724f25042a6611c6a433f711cd834cf48da7fa590b1b5be",
+        "Je vais par Toi et vers Toi !": "1ea1796f7e520ac4b7b9ee3f7ab479ecceecc746703ed1f6a0dafaf35a9a30c4",
+        "Il n’y a de force ni de puissance qu’en Allah": "862a2bafb8f5134d260e0bb9ad0c2e6ca7eac267cb354d7b3dad04753afdc80d",
+        "Louange à Allah qui m'a nourri et a pourvu à ma subsistance sans aucune force ni puissance de ma part !": "a713482b754313331b2658d2e0147e7a02a4ac5a47158e9fdd5110b82ca44c32",
+        "Mais en vérité l’homme se montre hautain": "d7b01da24a787bf823be66d5873aa881b622de0bcc874d720e2e0af4b039bdb7",
+        "dès qu’il se croit au-dessus du besoin": "c58c0f0c02daf2dccb73ddf148386c19236237da2d9a41eb516bb35cc6b707d9",
+        "qui, pour Sa part, peut parfaitement se passer de vous et qui est digne de toute louange.": "8e2a7c68f1aba78482fad460244f0e51875a46b953514df0e7f0e8da3e739809",
+        "il n’y a pas l’espace de quatre doigts sans que ne s’y trouve un Ange, le front posé en prosternation devant Allah, Exalté soit-Il.": "fb3fb70017a51defead4b3a7c633c923527220750d0519af758e1c88fda97e3a",
+        "digne de toute louange": "9066165f0646c048088293ac28ddb2e815c8ae34086d0f0084796d90872726c8"
+      }
+    },
+    "hi": {
+      "reviewSHA256": "7d1165e265f7a278914218bf156f6ebeedb947434c58413420e519962e02a9e3",
+      "candidateSHA256": "ec57ad040d4b758104a73d15efc2a62e5f0d6e05aeef7ddc4c9dd633a6cef90c",
+      "modes": {
+        "extended": {
+          "sha256": "a0169d4dcc6536ed927dc523e1cd5467533fac587297aa4504b11d3a9e7c2a8c",
+          "paragraphCount": 6,
+          "gitJson": "materials/tadabbur/hi/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "530186de85ad54e0d91b2a5419b5df2fd5f4f7181be8376b036d18ec6a80181c",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/hi/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "edition": "hindi_omari v1.1.5-csv.1",
+        "fullPublisherRows": {
+          "35:15": {
+            "id": "3675",
+            "sura": "35",
+            "aya": "15",
+            "translation": "ऐ लोगो! तुम सब अल्लाह के मुहताज हो और अल्लाह बेनियाज़, प्रशंसित है।",
+            "footnotes": ""
+          },
+          "96:6": {
+            "id": "6112",
+            "sura": "96",
+            "aya": "6",
+            "translation": "कदापि नहीं, निःसंदेह मनुष्य सीमा पार कर जाता है।",
+            "footnotes": ""
+          },
+          "96:7": {
+            "id": "6113",
+            "sura": "96",
+            "aya": "7",
+            "translation": "इसलिए कि वह स्वयं को बेनियाज़ (धनवान्) देखता है।",
+            "footnotes": ""
+          }
+        },
+        "alHamidLexeme": {
+          "text": "प्रशंसित",
+          "publisherRanges": {
+            "codePoints": [
+              55,
+              63
+            ],
+            "utf8": [
+              139,
+              163
+            ],
+            "utf16": [
+              55,
+              63
+            ]
+          }
+        }
+      },
+      "inReaderQuoteSHA256": {
+        "तुम सब अल्लाह के मुहताज हो": "9aa630abda4613a74cbec1ebffddd29f786cfbae371e578b598747c38d2cc521",
+        "ऐ अल्लाह! तेरे नाम से मैंने अपना पहलू रखा और तेरे ही अनुग्रह से उसे उठाऊँगा।": "8613947d48bb9b6298fde4a0c659becef2e9b20009e114c118e3462b580b5efd",
+        "ऐ अल्लाह! हमने तेरे (अनुग्रह के) साथ सुबह की और तेरे ही (अनुग्रह के) साथ शाम की और हम तेरे ही (नाम) से जीते हैं और तेरे ही (नाम) से मरते हैं": "33527ea32527c19aa52189da0dbf2af163ec9e8d52d42de6c4d699887993aedc",
+        "मेरी तौफीक़ तेरी तरफ़ से है और मेरी इल्तिजा भी तुझसे है।": "bda7436cee710b2654d338b5222bd5415dc88f94ce915c039fa5f3bd269ec518",
+        "अल्लाह की तौफ़ीक़ के बिना ना पाप से बचने की शक्ति है, न पुण्य की क्षमता।": "94dd9b675e06ff68146f74cb3c0e65651a697a7a049da8ece56ec8c26227336a",
+        "सारी प्रशंसा अल्लाह की है, जिसने मुझे यह खाना खिलाया तथा यह रोज़ी दी, जबकि इसमें मेरी शक्ति तथा सामर्थ्य का कोई दख़ल नहीं है": "5ad410511b49ff33e23b9aad8db212f4b5244e807202af9ddff17f2e81bee6ea",
+        "कदापि नहीं, निःसंदेह मनुष्य सीमा पार कर जाता है।": "3e92af93bb31c3655cb6690cf9f5312e1473bed9edc71485acf0f1a75dba370a",
+        "इसलिए कि वह स्वयं को बेनियाज़ (धनवान्) देखता है।": "22435f7a0ff727435edcd65d8ee4379cb770b7ad914a1dbe98e37b8c4bdcccfa",
+        "और अल्लाह बेनियाज़, प्रशंसित है।": "91a13a7745ee215d40bd77ec361895df3a30f39942e0c9885d45f56838439d37",
+        "ما فيها موضع أربع أصابع إلا وملك واضع جبهته ساجدًا لله": "01540f91c8c24337835d3d06fd2204161071ec95e52821185a96cade0c814325"
+      }
+    },
+    "ur": {
+      "reviewSHA256": "6ae57554252c295ba5b49711eddd6cc7b900bd6dffc8b47cd9ff8037d789651e",
+      "candidateSHA256": "038b88448c626abaf6838f0fae5cd9fcdd1448d59f5699d4068bc73c00330975",
+      "modes": {
+        "extended": {
+          "sha256": "da9a07b3b9fa88e95933d917ef96473a75b836132b32f7322e4da9fc7eb44aaa",
+          "paragraphCount": 6,
+          "gitJson": "materials/tadabbur/ur/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "1ef487cfef13579133c5655a84b6ca115b94cb213dbe514c9c295e2d093a484a",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/ur/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "edition": "urdu_junagarhi v1.1.3-csv.1",
+        "fullPublisherRows": {
+          "35:15": {
+            "id": "3675",
+            "sura": "35",
+            "aya": "15",
+            "translation": "اے لوگو! تم اللہ کے محتاج ہو[1] اور اللہ بےنیاز[2] خوبیوں واﻻ ہے.[3]",
+            "footnotes": "[1] نَاسٌ کا مطلب عام ہے جس میں عوام وخواص، حتیٰ کہ انبیا علیہم السلام وصلحا سب آجاتے ہیں۔ اللہ کے ڈر کے سب ہی محتاج ہیں۔ لیکن اللہ کسی کا محتاج نہیں۔\n[2] وہ اتنا بےنیاز ہے کہ سب لوگ اگر اس کے نافرمان ہوجائیں تو اس سے اس کی سلطنت میں کوئی کمی اور سب اس کے اطاعت گزار بن جائیں، تو اس سے اس کی قوت میں زیادتی نہیں ہوگی۔ بلکہ نافرمانی سے انسانوں کا اپنا ہی نقصان ہے اور اس کی عبادت واطاعت سے انسانوں کا اپنا ہی فائدہ ہے۔\n[3] یعنی محمود ہے اپنی نعمتوں کی وجہ سے۔ پس ہر نعمت، جو اس نے بندوں پر کی ہے، اس پر وہ حمدوشکر کا مستحق ہے۔"
+          },
+          "96:6": {
+            "id": "6112",
+            "sura": "96",
+            "aya": "6",
+            "translation": "سچ مچ انسان تو آپے سے باہر ہو جاتا ہے.",
+            "footnotes": ""
+          },
+          "96:7": {
+            "id": "6113",
+            "sura": "96",
+            "aya": "7",
+            "translation": "اس لئے کہ وه اپنے آپ کو بے پروا (یا تونگر) سمجھتا ہے.",
+            "footnotes": ""
+          }
+        },
+        "alHamidLexeme": {
+          "text": "خوبیوں واﻻ",
+          "publisherRanges": {
+            "codePoints": [
+              51,
+              61
+            ],
+            "utf8": [
+              85,
+              105
+            ],
+            "utf16": [
+              51,
+              61
+            ]
+          }
+        }
+      },
+      "inReaderQuoteSHA256": {
+        "تم اللہ کے محتاج ہو": "d25122f193673bc7596a01aaaea5e66cbe252ad32c4e46903a9173703a908795",
+        "اے میرے پالنے والے! تیرے نام سے میں نے اپنا پہلو رکھا ہے اور تیرے ہی نام سے اٹھاؤں گا۔": "423242db2bc74900a7584b1600d68e6c43810eb09ec03f03883d9bebe38e7537",
+        "اے اللہ ! تیری حفاظت میں ہم نے صبح کی اور تیری حفاظت میں ہی شام کی اور تیرے ہی نام پر ہم زندہ ہوتے اور تیرے ہی نام پر ہم مرتے ہیں": "d0e8a01c5ff20f57c0f682b6e2c2c10201917109a00954ba4fcb136866140755",
+        "میں تیرے ہی سہارے ہوں ، اور تیری ہی طرف میرا رخ ہے": "f904b4c7aa3bc613282c98e29209299d1caad240c19235f625d0896bb83713fe",
+        "اللہ کی توفیق کی بغیر انسان کے پاس نہ اطاعت کے موانع سے گلو خلاصی کا کوئی راستہ ہے، نہ عبادت کرنے کی طاقت ہے اور نہ کسی دوسری چیز کی قوت ہے۔": "b10454d9ad2c5b15ae63f746273c376459b2091477c19cb999a3b8664b4a05de",
+        "ساری تعریف اللہ کے لیے ہے، جس نے مجھے یہ کھانا کھلایا اور اس کى روزی دی, جب کہ اس میں میری طاقت اور قوت کا کوئی دخل نہيں ہے۔": "02ea74e9aa3a23fa8b298e92f9b16e7289ffdc08441b58b9b26213c9b3c82f23",
+        "سچ مچ انسان تو آپے سے باہر ہو جاتا ہے.": "d42cd4eadedf127a0b75dc47c5db2fe932903ce033f233fa7eabcf4dbcf2a8d4",
+        "اس لئے کہ وه اپنے آپ کو بے پروا (یا تونگر) سمجھتا ہے.": "5fea6a0e581aa59ec8c53747d1475614a5c6197ac45e9c0bed1434bf6281e06d",
+        "اور اللہ بےنیاز خوبیوں واﻻ ہے.": "1238009faf4f8a83a6edc866b4a75f39e5a4524c62ac0c6815a093a17559a430",
+        "آسمان میں چار انگشت کے برابر بھی جگہ نہیں، جہاں کوئی فرشتہ اللہ کے سامنے سجدہ ریز نہ ہو۔": "e1c4092f851c4ecb8e45ac8e55d1bd277d81f6c67bbfa43a1e72ab5383f3becb"
+      }
+    }
+  },
+  "translatedReaderAssets": {
+    "runtime/content/fatir-fr63-reviewed.js": {
+      "beforeSHA256": "25627f07c1fcb0ea05bc4441bd88180b58ccb4ccb1797337c8a7434d591d910b",
+      "afterSHA256": "1d25c3294c091e697d0a025512c595bc06d7a827079b6d8369a85f01ad7ce013",
+      "candidateFile": "REVIEWED-LOCALIZED-35-15-ASSET-1.js"
+    },
+    "runtime/content/fatir-bnur-word-reviewed-data.js": {
+      "beforeSHA256": "0bbbd7e09223ee7542dc7510689ad34f7330b9d056acbcb31260f08ceb310e2c",
+      "afterSHA256": "e18607ad476da5e6f71966fb6f774978a8f9da9ae99db7bd327b03b5b6ebecda",
+      "candidateFile": "REVIEWED-LOCALIZED-35-15-ASSET-2.js"
+    },
+    "runtime/scripts/fatir-fr63-reviewed.js": {
+      "beforeSHA256": "9ae341327ade3202df1e50903eae4110e4edec68cb0b1ab1f2d067733a9528ce",
+      "afterSHA256": "13e48a9eb998f0914ca4bd4d07e05e33edb5530868c5801ca82f2be6c8be346a",
+      "candidateFile": "REVIEWED-LOCALIZED-35-15-ASSET-3.js"
+    }
+  }
+}
