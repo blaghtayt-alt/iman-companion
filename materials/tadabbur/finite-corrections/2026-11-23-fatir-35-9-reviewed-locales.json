@@ -1,0 +1,257 @@
+{
+  "schema": "iman-finite-tadabbur-translation-corrections-v1",
+  "verse": "35:9",
+  "sourceArabicCommit": "c18da110433da2ad8340da9379e91e5fb52a312f",
+  "ownerArabicParagraphSHA256": [
+    "30cf4cb1fbcf8aa2054ac48b1e0928256e132752cacf9c1d1d4e8df9a48c04db",
+    "8334d45f0b8cb57991a94f831d7473c6f85f336e6d4f418c606e0ebc0bc9a9bb"
+  ],
+  "independentPublisherAuthoritySHA256": "68f521ca15bce2e4f932576dc61677cf768cccd8e9ec9d8842db7c184292cbce",
+  "translations": {
+    "bn": {
+      "reviewSHA256": "cadecee35c07e90afa5f7652c1cd754dfb4ce101645b00ffadc346ea1d0c814a",
+      "candidateSHA256": "3b1aa7379066ac57619988762c96d6a3038398fcc7a3cab6c190f7360639be5b",
+      "modes": {
+        "extended": {
+          "sha256": "e439c1e9e149a0da5af4faccbfb6550240025c574ecec65d3f1d1746ea12a386",
+          "paragraphCount": 2,
+          "gitJson": "materials/tadabbur/bn/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "5040adb3840e90422b6c1d58d078d65d3702f3075ee5ee406e12fc23a2b59c90",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/bn/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "publisherEditionFor7_57": "bengali_rwwad v1.1.3",
+        "publisherRows": {
+          "7:57": {
+            "id": "1011",
+            "sura": "7",
+            "aya": "57",
+            "translation": "আর তিনিই তাঁর রহমত বর্ষণের আগে সুসংবাদবাহী বাতাস প্রবাহিত করেন। অবশেষে যখন সেটা ভারী মেঘমালা ধারণ করে, তখন আমি সেটাকে মৃত জনপদের দিকে হাঁকিয়ে নেই। অতঃপর আমি তা দ্বারা বৃষ্টি বর্ষণ করি, তারপর তা দিয়ে সব রকমের ফল-ফসল উৎপাদন করি। এভাবেই আমি মৃতদেরকে বের করব। যাতে তোমরা উপদেশ গ্রহণ করো।",
+            "footnotes": ""
+          }
+        },
+        "exactHeavyClouds": {
+          "text": "ভারী মেঘমালা",
+          "range": {
+            "codePoints": [
+              80,
+              92
+            ],
+            "utf8": [
+              214,
+              248
+            ],
+            "utf16": [
+              80,
+              92
+            ]
+          }
+        }
+      },
+      "inReaderQuoteSHA256": {
+        "এভাবেই (ঘটবে) পুনরুত্থান।": "aa3a66f0d5743f4ed4537ff4fed0b967e16ddf7122d15f03df6798b9d025f97d",
+        "তা মেঘ সঞ্চার করে": "db19c01706a85ed42c04ec3421894f706cd1c828905be412d3402d24bd1b99b5",
+        "অতঃপর আমি তা নির্জীব ভূখন্ডের দিকে পরিচালিত করি। অতঃপর আমি তা দিয়ে মৃত্তিকাকে তার মৃত্যুর পর আবার সঞ্জীবিত করি।": "77f98b3c912900653e7ee13cf1f6b147b54a16b291b504bef813fe3dd80359fe",
+        "ভারী মেঘমালা": "7ad0dee629e3af3003936753f5f367914ae17dbda5a6a87743427539d5be901f"
+      }
+    },
+    "fr": {
+      "reviewSHA256": "8003b626b9d00b61aa408fe90a11c81bf90e32fd87b0bfa7fc636f4abb55f0cc",
+      "candidateSHA256": "85fdb16e14a176be194f748325d5d42b1d4ea536c6c22e9a1757cc759c0833d2",
+      "modes": {
+        "extended": {
+          "sha256": "bbb6cbb98fb1535e7300b732669dff84b02412af1c06d61707c949f066253427",
+          "paragraphCount": 2,
+          "gitJson": "materials/tadabbur/fr/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "fbda54444951fd8c7060457487cf042c5b376aa3d3481941eafd34fbfdc9af95",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/fr/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "publisherEditionFor7_57": "french_rashid v1.0.3-csv.1",
+        "publisherRows": {
+          "7:57": {
+            "id": "1011",
+            "sura": "7",
+            "aya": "57",
+            "translation": "C’est Lui qui fait souffler les vents annonciateurs de Sa grâce[21]. Ceux-ci soulèvent de lourds nuages que Nous dirigeons vers une terre morte et dont Nous déversons la pluie qui fait pousser toutes sortes de fruits. C’est ainsi que Nous rendrons les morts à la vie. Peut-être saurez-vous y réfléchir.",
+            "footnotes": "[21] La pluie."
+          },
+          "35:9": {
+            "id": "3669",
+            "sura": "35",
+            "aya": "9",
+            "translation": "C’est Allah qui envoie les vents au moyen desquels Il forme des nuages qu’Il dirige vers une terre morte. Arrosée par la pluie, celle-ci revit. C’est ainsi que s’accomplira la Résurrection.",
+            "footnotes": ""
+          }
+        },
+        "exactHeavyClouds": {
+          "text": "lourds nuages",
+          "range": {
+            "codePoints": [
+              90,
+              103
+            ],
+            "utf8": [
+              94,
+              107
+            ],
+            "utf16": [
+              90,
+              103
+            ]
+          }
+        }
+      },
+      "inReaderQuoteSHA256": {
+        "C’est ainsi que s’accomplira la Résurrection.": "b47823d7a7ed0921d0389c469a358e385c7aa853aad8a153479ce54efbfb4f03",
+        "C’est Allah qui envoie les vents au moyen desquels Il forme des nuages qu’Il dirige vers une terre morte. Arrosée par la pluie, celle-ci revit.": "c843debf13125818d382fa5e709dcc7e561e02b3fac990e5942e715ff5baec1c",
+        "lourds nuages": "1eb121dcdc2b29978692b0b623f4fa48689489b5e4e1f7076981aa5fd4733c58"
+      }
+    },
+    "hi": {
+      "reviewSHA256": "0e7c9bc40843ce7b9bdb3bd5df6300c377f899195bf6d500d38362b797218ca0",
+      "candidateSHA256": "b8ad398c264739e38a324703aa618611592ccfe3883126d826cfc6aa48c222e1",
+      "modes": {
+        "extended": {
+          "sha256": "05307de8f7196ea1dc4a83a60520153a07a1110f66514a9ac930a4751d5a7775",
+          "paragraphCount": 2,
+          "gitJson": "materials/tadabbur/hi/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "6e8f7d033b5b22408946ac9cdcc4fe8525502145c9542ed4e2d3cc7b6400761c",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/hi/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "publisherEditionFor7_57": "hindi_omari v1.1.5-csv.1",
+        "publisherRows": {
+          "7:57": {
+            "id": "1011",
+            "sura": "7",
+            "aya": "57",
+            "translation": "और वही है, जो अपनी दया (वर्षा) से पहले हवाओं को (वर्षा) की शुभ सूचना देने के लिए भेजता है। यहाँ तक कि जब वे भारी बादल \n उठाती हैं, तो हम उसे एक मृत शहर की ओर ले जाते हैं। फिर हम उससे पानी उतारते हैं, फिर उसके साथ सभी प्रकार के कुछ फल पैदा करते हैं। इसी तरह हम मरे हुए लोगों को निकालेंगे। ताकि तुम उपदेश ग्रहण करो।",
+            "footnotes": ""
+          },
+          "35:9": {
+            "id": "3669",
+            "sura": "35",
+            "aya": "9",
+            "translation": "तथा अल्लाह ही है जो हवाओं को भेजता है, तो वे बादल उठाती हैं। फिर हम उसे मृत नगर की ओर हाँक ले जाते हैं। फिर हम उसके द्वारा धरती को उसके मृत हो जाने के बाद जीवित कर देते हैं। इसी प्रकार (क़ियामत के दिन) जीवित होकर उठना[4] है।",
+            "footnotes": "[4] अर्थात जिस प्रकार वर्षा से सूखी धरती हरी हो जाती है, इसी प्रकार प्रलय के दिन तुम्हें भी जीवित कर दिया जाएगा।"
+          }
+        },
+        "exactHeavyClouds": {
+          "text": "भारी बादल",
+          "range": {
+            "codePoints": [
+              108,
+              117
+            ],
+            "utf8": [
+              264,
+              289
+            ],
+            "utf16": [
+              108,
+              117
+            ]
+          }
+        }
+      },
+      "inReaderQuoteSHA256": {
+        "इसी प्रकार (क़ियामत के दिन) जीवित होकर उठना है।": "462085513315dcc820fad5a708de548f688a537c971c3e4109c058cc2d0a2362",
+        "तो वे बादल उठाती हैं।": "80f17e10dc7ef2727f9b99d0a1995abe8c8eb0e21e540c302a1469a646e9095f",
+        "फिर हम उसे मृत नगर की ओर हाँक ले जाते हैं। फिर हम उसके द्वारा धरती को उसके मृत हो जाने के बाद जीवित कर देते हैं।": "fb0046c2dbf345e61b19dbe41e56ac01416f51fa475d363620cba2199fe51a72",
+        "भारी बादल": "0b384d69a67f077ef11f65e3aa6aebf7d0a01420746c35204919fefedbd261b0"
+      }
+    },
+    "ur": {
+      "reviewSHA256": "b78f098ff9282a0dd3f1e06e625b3f7527614d682bf47542bc32f70cf244b180",
+      "candidateSHA256": "e6c532da987c72959ed6ec810d5e24e9d9afa13277864bea93a6ee892c6e810a",
+      "modes": {
+        "extended": {
+          "sha256": "4111bf693d76afd6c3de6c6e92a14e2c194d2dcc7aea623f361e318f1fb3b5d7",
+          "paragraphCount": 2,
+          "gitJson": "materials/tadabbur/ur/extended/035.json"
+        },
+        "simplified": {
+          "sha256": "16c292e2c17979d44fd85318c7863844e1ed65dabb826d1df3bfe666f0b2414d",
+          "paragraphCount": 1,
+          "gitJson": "materials/tadabbur/ur/simplified/035.json"
+        }
+      },
+      "visibility": "hidden",
+      "publisherAuthority": {
+        "publisherEditionFor7_57": "urdu_junagarhi v1.1.3-csv.1",
+        "publisherRows": {
+          "7:57": {
+            "id": "1011",
+            "sura": "7",
+            "aya": "57",
+            "translation": "اور وه ایسا ہے کہ اپنی باران رحمت سے پہلے ہواؤں کو بھیجتا ہے کہ وه خوش کر دیتی ہیں[1] ، یہاں تک کہ جب وه ہوائیں بھاری بادلوں کو اٹھا لیتی ہیں[2]، تو ہم اس بادل کو کسی خشک سرزمین کی طرف ہانک لے جاتے ہیں، پھر اس بادل سے پانی برساتے ہیں پھر اس پانی سے ہر قسم کے پھل نکالتے ہیں[3]۔ یوں ہی ہم مردوں کو نکال کھڑا کریں گے تاکہ تم سمجھو۔[4]",
+            "footnotes": "[1] اپنی الوہیت و ربوبیت کے اثبات میں اللہ تعالیٰ مزید دلائل بیان فرما کر پھر اس سے احیاء موتی کا اثبات فرما رہا ہے ”بُشْرًا“ بَشِيرٌ کی جمع ہے رحمتہ سے مراد یہاں مطر (بارش) ہے یعنی بارش سے پہلے وہ ٹھنڈی ہوائیں چلاتا ہے جو بارش کی نوید ہوتی ہیں ۔\n[2] بھاری بادل سے مراد پانی سے بھرے ہوئے بادل ہیں ۔\n[3] ہر قسم کے پھل، جو رنگوں میں، ذائقوں میں، خوشبووں میں اور شکل وصورت میں ایک دوسرے سے مختلف ہوتے ہیں ۔\n[4] جس طرح ہم پانی کے ذریعے سے مردہ زمین میں روئیدگی پیدا کردیتے ہیں اور وہ انواع واقسام کے غلے اور پھل پیدا کرتی ہے ۔ اسی طرح قیامت والے دن تمام انسانوں کو، جو مٹی میں مل کر مٹی ہوچکے ہوں گے، ہم دوبارہ زندہ کریں گے اور پھر ان کا حساب لیں گے ۔"
+          },
+          "35:9": {
+            "id": "3669",
+            "sura": "35",
+            "aya": "9",
+            "translation": "اور اللہ ہی ہوائیں چلاتا ہے جو بادلوں کو اٹھاتی ہیں پھر ہم بادلوں کو خشک زمین کی طرف لے جاتے ہیں اور اس سے اس زمین کو اس کی موت کے بعد زنده کردیتے ہیں۔ اسی طرح دوباره جی اٹھنا (بھی) ہے.[1]",
+            "footnotes": "[1] یعنی جس طرح بادلوں سے بارش برسا کر خشک (مردہ) زمین کو ہم شاداب (زندہ) کردیتے ہیں، اسی طریقے سے قیامت والے دن تمام مردہ انسانوں کو بھی ہم زندہ کردیں گے۔ حدیث میں آتا ہے کہ (انسان کا سارا جسم بوسیدہ ہوجاتا ہے، صرف ریڑھ کی ہڈی کا ایک چھوٹا سا حصہ محفوظ رہتا ہے، اسی سے اس کی دوبارہ تخلیق وترکیب ہوگی)۔ ”كُلُّ جَسَدِ ابْنِ آدَمَ يَبْلَى، إِلا عَجب الذَّنَبِ، مِنْه خُلِقَ ، وَمِنْهُ يُرَكَّبُ“ (البخاري ، تفسير سورة عم، مسلم ، كتاب الفتن ، باب ما بين النفختين)۔"
+          }
+        },
+        "exactHeavyClouds": {
+          "text": "بھاری بادلوں",
+          "range": {
+            "codePoints": [
+              112,
+              124
+            ],
+            "utf8": [
+              194,
+              217
+            ],
+            "utf16": [
+              112,
+              124
+            ]
+          }
+        }
+      },
+      "inReaderQuoteSHA256": {
+        "اسی طرح دوباره جی اٹھنا (بھی) ہے.": "96b923722c63776132d24ad29fa42e63203af87c34034cc57da53850f1f27123",
+        "جو بادلوں کو اٹھاتی ہیں": "244c90ad24e54129838772d38fdca53c1201dcdfaf2faab680f87332d23aa715",
+        "پھر ہم بادلوں کو خشک زمین کی طرف لے جاتے ہیں اور اس سے اس زمین کو اس کی موت کے بعد زنده کردیتے ہیں۔": "f36e05ca6e46aff26390e2cd8bdf62796c892e60dcfcd22d44a5ce46f115d9bf",
+        "بھاری بادلوں": "789cf4a5b83f57e532919dec284fc1924c342a6cbfb7eb48208348c178ade16b"
+      }
+    }
+  },
+  "translatedReaderAssets": {
+    "runtime/content/fatir-fr63-reviewed.js": {
+      "beforeSHA256": "2bc3ab24a5dadc9a04de2792b4af58689ffaf598917a850b769d7b6bcee43dfc",
+      "afterSHA256": "9272e68f73caf5a130aa572ac8616e180ebe231c1aab15e517180727103d6f34",
+      "candidateFile": "REVIEWED-LOCALIZED-35-9-ASSET-1.js"
+    },
+    "runtime/content/fatir-bnur-word-reviewed-data.js": {
+      "beforeSHA256": "09fa63fba9b966569d60cdafbf7da5ae239b2f226fdc81122beec9c7a2728251",
+      "afterSHA256": "533de3b612d70f949fb22c09d86da5c1462fa4a2328d9b2e8450672794500f3b",
+      "candidateFile": "REVIEWED-LOCALIZED-35-9-ASSET-2.js"
+    },
+    "runtime/scripts/fatir-fr63-reviewed.js": {
+      "beforeSHA256": "87b6d7aa844779d4486ed801493bf2e89559ebe8d9b8c0acee56092e7c655645",
+      "afterSHA256": "9301e31fc32dea98887a553a34f6f4deaf300f1c1b5517656f167b5769215248",
+      "candidateFile": "REVIEWED-LOCALIZED-35-9-ASSET-3.js"
+    }
+  }
+}
