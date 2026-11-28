@@ -75,14 +75,19 @@ class EditionTests(unittest.TestCase):
 class V4EditionTests(unittest.TestCase):
     """Synthetic selector tests, never evidence of real editorial approval."""
     def setUp(self):
-        from book_edition_scope import V4_POLICY,V4_SURAS
+        from book_edition_scope import V4_POLICY,V4_SURAS,V4_SOURCE
         import hashlib
         self.temp=tempfile.TemporaryDirectory();self.addCleanup(self.temp.cleanup)
         self.root=Path(self.temp.name);self.rows=[];pins=[]
         for n,(slug,anchor) in V4_SURAS.items():
             path=f'materials/tadabbur/{slug}/reader-en.json'
             f=self.root/path;f.parent.mkdir(parents=True,exist_ok=True)
-            raw=json.dumps({'language':'en','surah':n,'edition':'owner-final-'+slug}).encode()
+            revision,counts,intro_count=V4_SOURCE[n]
+            paragraph={'kind':'paragraph','role':'meaning','text':'Synthetic fixture text'}
+            source={'language':'en','surah':n,'edition':'owner-final-'+slug,
+                    'entries':{f'{n}:{i}':{'sourceSha256':revision,'blocks':[{'kind':'translation','role':'current-ayah','text':'Synthetic fixture translation'}]+[paragraph.copy() for _ in range(count-1)]} for i,count in enumerate(counts,1)}}
+            if intro_count:source['introduction']={'sourceSha256':revision,'blocks':[paragraph.copy() for _ in range(intro_count)]}
+            raw=json.dumps(source).encode()
             f.write_bytes(raw)
             pins.append({'surah':n,'path':path,'releaseAnchor':anchor,'gitBlobSHA1':hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()})
             self.rows.append({'collection':'tadabbur','language':'en','id':f'{n}:extended','mode':'extended','surah':n,'json':path})
@@ -108,6 +113,25 @@ class V4EditionTests(unittest.TestCase):
         row={**self.rows[0],'bookReaderUnit':{'schema':'invalid'}}
         with self.assertRaisesRegex(ValueError,'Invalid declared publisher'):
             select(self.root,{'entries':[row]},self.decl)
+    def test_v4_source_revision_and_full_normalized_coverage(self):
+        from book_edition_scope import validate_v4_source_structure,validate_v4_unit_coverage
+        reader=json.loads((self.root/self.rows[1]['json']).read_bytes())
+        expected=validate_v4_source_structure(reader,112,'en')
+        self.assertEqual(expected,['112:1','112:2','112:3','112:4'])
+        altered=copy.deepcopy(reader)
+        altered['entries']['112:1']['sourceSha256']='0'*64
+        with self.assertRaisesRegex(ValueError,'source revision'):validate_v4_source_structure(altered,112,'en')
+        altered=copy.deepcopy(reader);altered['introduction']['blocks'].pop()
+        with self.assertRaisesRegex(ValueError,'introduction coverage'):validate_v4_source_structure(altered,112,'en')
+        unit={'sections':[{'blocks':reader['introduction']['blocks']}]+[
+            {'ayahKey':ident,'blocks':[{'kind':'ayah','text':'Synthetic fixture ayah'},reader['entries'][ident]['blocks'][0]]} for ident in expected]}
+        validate_v4_unit_coverage(unit,reader,112,'en')
+        altered=copy.deepcopy(unit);altered['sections'].pop()
+        with self.assertRaisesRegex(ValueError,'every ayah'):validate_v4_unit_coverage(altered,reader,112,'en')
+        altered=copy.deepcopy(unit);altered['sections'].pop(0)
+        with self.assertRaisesRegex(ValueError,'introduction text'):validate_v4_unit_coverage(altered,reader,112,'en')
+        altered=copy.deepcopy(unit);altered['sections'][1]['blocks'][1]['text']='Changed translation'
+        with self.assertRaisesRegex(ValueError,'translation differs'):validate_v4_unit_coverage(altered,reader,112,'en')
     def test_v4_old_snapshot_cannot_use_retention(self):
         from published_library import limited_continuity,previous_edition_available
         entry={'book':{'language':'en','collection':'tadabbur-extended'}}
