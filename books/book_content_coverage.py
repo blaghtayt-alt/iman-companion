@@ -363,8 +363,8 @@ def scope_coverage(root, language, collection, catalog, declaration=None, *,
         candidates[ident] = row
     selected_ids = {str(row['id']) for row in selected}
     included_ids = [str(unit['id']) for unit in (book or {}).get('units', [])]
-    if v4_targets is not None and book and book.get('editionScope',{}).get('policy')!='owner-v4-two-surah-books-v1':
-        raise ValueError('Superseded Tadabbur edition cannot be described as current V4 coverage')
+    if v4_targets is not None and book and (book.get('editionScope',{}).get('policy')!='owner-v4-two-surah-books-v1' or included_ids!=['1:extended','112:extended']):
+        raise ValueError('Superseded or incomplete Tadabbur edition cannot be described as current V4 coverage')
     if len(set(included_ids)) != len(included_ids):
         raise ValueError('Duplicate included download identity')
     incomplete, review_errors = _review_incomplete(root, language, collection, catalog_rows)

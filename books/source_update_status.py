@@ -11,7 +11,7 @@ import argparse
 import hashlib
 import json
 
-from book_edition_scope import MAP, available, select
+from book_edition_scope import MAP, V4_POLICY, available, select, v4_reader_targets, v4_target_row
 from book_content_coverage import discover_readers, COPY as COVERAGE_COPY
 from locale_copy import COPY
 from published_library import current, inside, read, scope_key
@@ -80,7 +80,12 @@ def audit(root):
         sources = [r for r in catalog['entries'] if available(r)
                    and (r.get('language'), MAP.get(r.get('collection'))) == key
                    and (not declaration or not declaration.get('edition') or r.get('edition') == declaration['edition'])]
+        v4 = bool(declaration and declaration.get('scopePolicy') == V4_POLICY)
+        targets = v4_reader_targets(declaration) if v4 else {}
+        if v4:
+            sources = [r for r in sources if v4_target_row(r,targets,language)]
         bindings, problems, selected = [], [], []
+        missing_v4 = []
         for evidence in (declaration or {}).get('sourceReviewBindings', []):
             bindings.append(evidence)
             try:
@@ -107,12 +112,17 @@ def audit(root):
         drift = changed_bindings(root, bindings)
         if declaration:
             try:
-                selected, _ = select(root, catalog, declaration)
+                selected, reconciliation = select(root, catalog, declaration)
+                if v4:
+                    missing_v4 = reconciliation['missingV4Readers']
+                    problems.extend({'id':r['id'],'reason':r['reason'],'stage':'v4-source-selection'} for r in missing_v4)
             except (OSError, ValueError, KeyError, TypeError) as error:
                 problems.append({'reason': str(error)})
         elif sources or found.get(key):
             problems.append({'reason': 'No reviewed preparation declaration; an approved publication handoff is required'})
         omitted = found.get(key, [])
+        if v4:
+            omitted = [r for r in omitted if v4_target_row(r,targets,language)]
         for error in discovery['errors']:
             if (error['language'], error['collection']) == key:
                 problems.append(error)
@@ -152,7 +162,7 @@ def audit(root):
         else:
             state = 'source-review-required'
         source_files = {}
-        for source in sources + omitted:
+        for source in sources + omitted + ([{'json':pin['path']} for pin in targets.values()] if v4 else []):
             for relative in [source[field] for field in ('json','markdown') if source.get(field)] + source.get('readerFiles',[]):
                 if relative:
                     try:
@@ -164,6 +174,7 @@ def audit(root):
                      'updatePending': state != 'current', 'publishedSnapshotCurrent': released_current,
                      'sourceFingerprint': digest(bytes_json(source_files)),
                      'sourceFiles': source_files, 'changedBindings': drift, 'blockers': problems,
+                     **({'missingV4Readers': missing_v4} if v4 else {}),
                      'unregisteredReadings': omitted, 'selectedIds': [str(r['id']) for r in selected],
                      'publishedSourceCommit': book.get('sourceCommit'),
                      'publishedReleaseTag': entry.get('releaseTag') if entry else None,

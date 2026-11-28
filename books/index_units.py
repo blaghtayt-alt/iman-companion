@@ -31,7 +31,8 @@ def main():
         from book_edition_scope import select,V4_POLICY
         edition_rows,edition_report=select(root,catalog,declaration)
         if declaration.get('scopePolicy')==V4_POLICY:
-            if not edition_rows:raise ValueError('No V4 Tadabbur readers with exact approved publisher transactions')
+            if [str(row['id']) for row in edition_rows]!=['1:extended','112:extended'] or edition_report.get('missingV4Readers'):
+                raise ValueError('Complete V4 Tadabbur pair requires exact approved publisher transactions for both surahs in Quran order')
             strict_v4_paths={row['bookReaderUnit']['path'] for row in edition_rows}
         scope_edition=declaration.get('edition')
         if args.collection=='seerah'and scope_edition!='new-adult':raise ValueError('Only new adult Seerah belongs in the current book')

@@ -92,6 +92,10 @@ def capture(root,index,preparation=False):
         unit_ids=sorted(u[0] for u in units)
         snapshot={'catalogSHA256':scope_catalog(root,key,for_release=not preparation),'scopeSettingsSHA256':scope_settings(root,key,unit_ids),'unitIds':unit_ids,'bindings':[{'path':p,'sha256':h} for p,h in sorted(bindings.items())]}
         rows,report=catalog_members(root,key,for_release=not preparation)
+        if report and report.get('policy')=='owner-v4-two-surah-books-v1':
+            ids=['1:extended','112:extended']
+            if report.get('missingV4Readers') or [str(r['id']) for r in rows]!=ids or [u['id'] for u in book['units']]!=ids or book.get('editionScope',{}).get('policy')!=report['policy'] or book['editionScope'].get('includedMaterialIds')!=ids:
+                raise ValueError('Incomplete or unordered V4 Tadabbur book cannot be captured')
         snapshot['catalogMemberKeys']=[{k:r[k] for k in ('collection','language','id')} for r in rows]
         if report is not None:snapshot['catalogEvidence']=copy.deepcopy(report['sourceReviewBindings'])
         result.append({'book':book,'snapshot':snapshot})
@@ -120,7 +124,7 @@ def current(root,entry):
         rows,report=catalog_members(root,key)
         if report and report.get('policy')=='owner-v4-two-surah-books-v1':
             ids=[str(row['id']) for row in rows]
-            if not ids or entry['book'].get('editionScope',{}).get('policy')!=report['policy'] or entry['book']['editionScope'].get('includedMaterialIds')!=ids or [u['id'] for u in entry['book']['units']]!=ids:return False
+            if ids!=['1:extended','112:extended'] or report.get('missingV4Readers') or entry['book'].get('editionScope',{}).get('policy')!=report['policy'] or entry['book']['editionScope'].get('includedMaterialIds')!=ids or [u['id'] for u in entry['book']['units']]!=ids:return False
         return matching_catalog_snapshot(rows,report,snapshot) and bool(snapshot['bindings']) and bool(snapshot['unitIds']) and snapshot['scopeSettingsSHA256']==scope_settings(root,key,snapshot['unitIds']) and all(HEX.fullmatch(b['sha256']) and sha(inside(root,b['path']).read_bytes())==b['sha256'] for b in snapshot['bindings'])
     except (ValueError,OSError,KeyError):return False
 def limited_continuity(root,entry):
