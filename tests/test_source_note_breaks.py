@@ -17,27 +17,31 @@ sys.path.insert(0, str(ROOT / 'books'))
 import adapt_ikhlas
 from build_books import Footnotes, embed_fonts, qn, reference_text
 from check_outputs import validate_footnotes
+from historical_book_fixture import copy_legacy_ikhlas_fixture
 
 
 class SourceNoteBreakTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.reader = json.loads((ROOT / 'materials/tadabbur/fr/extended/112.json').read_bytes())
-        cls.source = json.loads((ROOT / 'materials/tadabbur/sources/112/fr/112-002.json').read_bytes())
+        cls.temp=tempfile.TemporaryDirectory();cls.addClassCleanup(cls.temp.cleanup)
+        cls.legacy_root=Path(cls.temp.name)
+        copy_legacy_ikhlas_fixture(ROOT,cls.legacy_root)
+        cls.reader = json.loads((cls.legacy_root / 'materials/tadabbur/fr/extended/112.json').read_bytes())
+        cls.source = json.loads((cls.legacy_root / 'materials/tadabbur/sources/112/fr/112-002.json').read_bytes())
         cls.note = cls.source['publisherNotes'][0]
-        cls.catalog = json.loads((ROOT / 'materials/catalog.json').read_bytes())
-        cls.declaration = next(row for row in json.loads((ROOT / 'books/reviewed-books.json').read_bytes())['books']
+        cls.catalog = json.loads((cls.legacy_root / 'materials/catalog.json').read_bytes())
+        cls.declaration = next(row for row in json.loads((cls.legacy_root / 'books/reviewed-books.json').read_bytes())['books']
                                if row['language'] == 'fr' and row['collection'] == 'tadabbur-extended')
 
     def test_actual_reviewed_reader_source_and_publisher_note_match(self):
-        public = json.loads((ROOT / 'materials/tadabbur/sources/112/fr/IKHLAS-FR-PUBLIC-SOURCES682.json').read_bytes())
+        public = json.loads((self.legacy_root / 'materials/tadabbur/sources/112/fr/IKHLAS-FR-PUBLIC-SOURCES682.json').read_bytes())
         self.assertEqual(self.note, self.reader['publisher_notes'][0])
         self.assertEqual(self.note['text'], public['full44quranparents_notes']['2:3']['footnotes'])
-        bindings = json.loads((ROOT / 'materials/tadabbur/ikhlas-112/source-review-bindings.json').read_bytes())
+        bindings = json.loads((self.legacy_root / 'materials/tadabbur/ikhlas-112/source-review-bindings.json').read_bytes())
         record = next(row for row in bindings['records'] if row['language'] == 'fr')
         for source in record['sourceFiles'] + record['sourceConditions']:
             with self.subTest(source=source['path']):
-                self.assertEqual(hashlib.sha256((ROOT / source['path']).read_bytes()).hexdigest(), source['sha256'])
+                self.assertEqual(hashlib.sha256((self.legacy_root / source['path']).read_bytes()).hexdigest(), source['sha256'])
 
     def test_projection_is_exactly_reversible_and_never_mutates_source_row(self):
         note = deepcopy(self.note)
@@ -113,8 +117,8 @@ class SourceNoteBreakTests(unittest.TestCase):
 
     def test_actual_french_unit_changes_only_the_declared_note_presentation(self):
         with patch.object(adapt_ikhlas, 'note_display_text', side_effect=lambda row: row['text']):
-            original, = adapt_ikhlas.generate(ROOT, self.catalog, self.declaration)
-        actual, = adapt_ikhlas.generate(ROOT, self.catalog, self.declaration)
+            original, = adapt_ikhlas.generate(self.legacy_root, self.catalog, self.declaration)
+        actual, = adapt_ikhlas.generate(self.legacy_root, self.catalog, self.declaration)
         evidence = actual['provenance'].pop('sourceNotePresentation')
         self.assertEqual(len(evidence), 1)
         self.assertEqual(evidence[0]['id'], self.note['id'])
