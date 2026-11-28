@@ -2,7 +2,9 @@
 from io import BytesIO
 from pathlib import Path
 import sys
+import tempfile
 import unittest
+from historical_book_fixture import copy_projection_fixture,restore_legacy_tadabbur_declarations
 
 from docx import Document
 from lxml import etree
@@ -74,21 +76,26 @@ class FootnoteMarkerLayoutTests(unittest.TestCase):
     def test_actual_english_french_source_paragraph_and_all_notes_survive_wrapping(self):
         import current_reviewed_quran as current
         inventory = current.read(ROOT, current.PROJECTION)
-        catalog = current.read(ROOT, 'materials/catalog.json')
-        evidence = current.binding(ROOT, current.PROJECTION)
+        temp = tempfile.TemporaryDirectory()
+        self.addCleanup(temp.cleanup)
+        fixture = Path(temp.name)
+        copy_projection_fixture(ROOT, fixture, inventory, [current.PROJECTION, 'materials/catalog.json', 'books/config.json', 'books/reviewed-books.json', 'materials/translation-status.json', 'books/assets/quran-arabic.json', 'books/assets/surah-names.json', 'books/assets/surah-names-native-20261107.json'])
+        restore_legacy_tadabbur_declarations(ROOT, fixture)
+        catalog = current.read(fixture, 'materials/catalog.json')
+        evidence = current.binding(fixture, current.PROJECTION)
         for language, count, breaks in (('en', 53, 6), ('fr', 46, 5)):
             with self.subTest(language=language):
-                source = current.read(ROOT, f'materials/tadabbur/{language}/extended/098.json')
+                source = current.read(fixture, f'materials/tadabbur/{language}/extended/098.json')
                 text = source['entries']['98:1']['blocks'][34]['text']
                 self.assertNotIn('\n', text)
                 record = next(row for row in inventory['records']
                               if (row['language'], row['id']) == (language, '98:extended'))
-                unit = current.normalize(ROOT, catalog, record['catalogEntry'], record, evidence)
+                unit = current.normalize(fixture, catalog, record['catalogEntry'], record, evidence)
                 block, = [block for section in unit['sections'] for block in section['blocks']
                           if block.get('text') == text]
                 document = Document()
                 paragraph = document.add_paragraph()
-                notes = Footnotes(document, language, 'Iman Book Inter', 'Iman Book Naskh', source_root=ROOT)
+                notes = Footnotes(document, language, 'Iman Book Inter', 'Iman Book Naskh', source_root=fixture)
                 for span_index, span in enumerate(block['spans']):
                     paragraph.add_run(span['text'])
                     for index, note in enumerate(span.get('noteTexts', [])):
@@ -109,7 +116,7 @@ class FootnoteMarkerLayoutTests(unittest.TestCase):
                 stream = BytesIO();document.save(stream);stream.seek(0)
                 validate_footnotes(notes.root, Document(stream).element.body, notes.texts, language,
                                    preserved_identifiers=notes.identifiers,
-                                   source_literal_proofs=notes.literal_proofs, root=ROOT)
+                                   source_literal_proofs=notes.literal_proofs, root=fixture)
                 for br in list(paragraph._p.iter(qn('w:br'))):br.getparent().remove(br)
                 self.assertEqual(etree.tostring(paragraph._p), before)
 

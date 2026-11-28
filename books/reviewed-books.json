@@ -19,7 +19,7 @@
     {
       "language": "hi",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -30,23 +30,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-hi.json",
+          "gitBlobSHA1": "89df611bc07ae510a4100868a94cb4fab8b9f046",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-hi.json",
+          "gitBlobSHA1": "dd477ad7251b824088d826ec214a581cdccdda81",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "ru",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -57,23 +62,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-ru.json",
+          "gitBlobSHA1": "70def9c43b3d530ee8ed4ee3914ab7e6e3d84852",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-ru.json",
+          "gitBlobSHA1": "826de984d43c176466466f4cac0613db6e150ac4",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "es",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -84,23 +94,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-es.json",
+          "gitBlobSHA1": "5f42e2b652c6449adcf7b17a22d618e5bd690eab",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-es.json",
+          "gitBlobSHA1": "967439b7996657ed60fc80b8ba48bb97bd74eca3",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "fa",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -111,23 +126,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-fa.json",
+          "gitBlobSHA1": "a25486d026bf384b9f0d528a63e4bd505b8fe765",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-fa.json",
+          "gitBlobSHA1": "fb70338c3d7df4c28130b1c5e78573b7e5a24a77",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "de",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -138,23 +158,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-de.json",
+          "gitBlobSHA1": "62075a2df852ed9899373b1c1426647d097f2d43",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-de.json",
+          "gitBlobSHA1": "3d1ad64449ec92046caf75fafb641135077a5dfd",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "zh-CN",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -165,23 +190,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-zh-CN.json",
+          "gitBlobSHA1": "0babb981b0e1cbecdbf23b9191542416c2929a9f",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-zh-CN.json",
+          "gitBlobSHA1": "9611668ba2050b237a1a5a11ece034f2c980f4b4",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "uz",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -192,23 +222,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-uz.json",
+          "gitBlobSHA1": "280df0239ce9d0c993f631be43351885d9b736ae",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-uz.json",
+          "gitBlobSHA1": "39547df82e045a6af88a5cd178a6c64bdbfcba62",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "th",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -219,23 +254,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-th.json",
+          "gitBlobSHA1": "c6b7fec9fff0e4e45cdaf8f7e63f4c2744527ed5",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-th.json",
+          "gitBlobSHA1": "cdd5c446878e8b92a3689110a3c800d6880771c2",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "vi",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -246,23 +286,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-vi.json",
+          "gitBlobSHA1": "213f66b0a6302687e659b88d6187d3a836ba2814",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-vi.json",
+          "gitBlobSHA1": "5e7fca245592ad73079b0f486c2e78c16245b15b",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "fil",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -273,18 +318,23 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-fil.json",
+          "gitBlobSHA1": "6b42da6e724f526eddb44d5ee216b3ca9e278cfc",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-fil.json",
+          "gitBlobSHA1": "24ed3f9efe43d8a45af6d609111f74c3a0c415ed",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "ar",
@@ -305,7 +355,7 @@
     {
       "language": "en",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -316,23 +366,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-en.json",
+          "gitBlobSHA1": "db70d048e9d017d0bc3dd608867047926264f892",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-en.json",
+          "gitBlobSHA1": "cf931bb249975a6812e8bf81eed6bc317af46089",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "fr",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -343,23 +398,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-fr.json",
+          "gitBlobSHA1": "bc62c3a4071afd3f3be7b1bd97ca7d2798f10e43",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-fr.json",
+          "gitBlobSHA1": "3417bf0f9609a51c8b014a934c1437a253164dac",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "tr",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -370,23 +430,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-tr.json",
+          "gitBlobSHA1": "e0d739eaca3bb554481f482ab9d707db0145c5e4",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-tr.json",
+          "gitBlobSHA1": "9a17203510f43848a0618eeab89f8ebafa0214b6",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "id",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -397,23 +462,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-id.json",
+          "gitBlobSHA1": "e1b696d8bd25c859ca9bc5e296a1aaab808dad63",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-id.json",
+          "gitBlobSHA1": "d71f51efedaa462bfa82eb592e41f3893839a6ae",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "ms",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -424,23 +494,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-ms.json",
+          "gitBlobSHA1": "ae95e810378c4793b396149f30c91a962c01ae44",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-ms.json",
+          "gitBlobSHA1": "37c23b1b6b65e9d500411f9996bc29bf98296282",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "pt-BR",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -451,23 +526,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-pt-BR.json",
+          "gitBlobSHA1": "5117624faa7ccd5d9a0a21985f05b681cff8a1e5",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-pt-BR.json",
+          "gitBlobSHA1": "c62184c2c2e41fb0d8ba4c090a318d77e621fce7",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "ur",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -478,23 +558,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-ur.json",
+          "gitBlobSHA1": "5e8cfd2d6bc17794ad6b0b9498e9f884348603be",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-ur.json",
+          "gitBlobSHA1": "9e6ed03fa28bd2403a41a2815180b890902cc45f",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "bn",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -505,23 +590,28 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
         {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-bn.json",
+          "gitBlobSHA1": "52ee6e33f3e678afa1fd3a39594e50876cf06c71",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
         },
         {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-bn.json",
+          "gitBlobSHA1": "1a74512af8b999fa9f2c46262840e0b45484e692",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
         }
-      ],
-      "requireActualWordLayout": true
+      ]
     },
     {
       "language": "ja",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-ikhlas-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
@@ -532,43 +622,40 @@
         "provenance": "Canonical Arabic ayah text from the verified app quran-text.js"
       },
       "reviewBasis": "Existing exact whole-material review and historical publication from the source-owner inventory. This bounded edition includes its named reviewed materials only. Current reviewed source formats join through their exact supplemental inventories, preserving selected ayah scope, source notes and original review qualifications. Unbound catalogue rows remain UNKNOWN; later whole-material publisher transactions join automatically. No new translation review or finished-book approval is created.",
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
-        {
-          "path": "materials/tadabbur/ikhlas-112/source-review-bindings.json",
-          "sha256": "1b421609561e90cf321882c9a373bfb9cad8254d83cd71695067a71e9d106578"
-        },
-        {
-          "path": "books/source-projections/current-reviewed-quran.json",
-          "sha256": "746198b6275c5415638fbe8e5ac196968624cbeab062a292b08c4dc79dd648fa"
-        }
-      ],
-      "requireActualWordLayout": true
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
+      "requireActualWordLayout": true,
+      "selectedV4Readers": []
     },
     {
       "language": "ar",
       "collection": "tadabbur-extended",
-      "adapter": "reviewed-structured-quran-v1",
+      "adapter": "published-reader-units-v1",
       "state": "reviewed-current",
       "automaticBuild": true,
       "automaticRelease": true,
-      "scopePolicy": "reviewed-source-edition-v1",
-      "sourceReviewBindings": [
-        {
-          "path": "materials/tadabbur/ikhlas-112/arabic-current-reader-binding.json",
-          "sha256": "cef592d357eb0b4ffa6170c6d2eace44e05829df4216919b61601bf8f202a887"
-        },
-        {
-          "path": "materials/tadabbur/book-source-bindings/ar-launch-current-v1/source-bindings.json",
-          "sha256": "8de1900c4f19f24b093d388f398ab9510397153f7b9b8d0e94ffed4a1b965f76"
-        }
-      ],
+      "scopePolicy": "owner-v4-two-surah-books-v1",
+      "sourceReviewBindings": [],
       "arabicReaderBinding": {
         "path": "materials/tadabbur/ikhlas-112/arabic-current-reader-binding.json",
         "sha256": "cef592d357eb0b4ffa6170c6d2eace44e05829df4216919b61601bf8f202a887"
       },
       "reviewBasis": "Existing source-owner literal/structural current-Arabic QC for the exact supplied 84 current scopes, with their selected ayahs, source conditions and bounded bibliographic projections. Separate Ikhlas introduction excluded; source-specific conditions retained. No new scholarly, translation, actual Word, visual or release approval is created.",
-      "requireActualWordLayout": true
+      "requireActualWordLayout": true,
+      "selectedV4Readers": [
+        {
+          "surah": 1,
+          "path": "materials/tadabbur/fatiha-v4/reader-ar.json",
+          "gitBlobSHA1": "d010bd0233dedda677108d660d01f4ce11459df0",
+          "releaseAnchor": "3dee3b37d1b9a7be2d5ecf14377878bcd722eb72"
+        },
+        {
+          "surah": 112,
+          "path": "materials/tadabbur/ikhlas-v4/reader-ar.json",
+          "gitBlobSHA1": "626bddb197854f02557627ed30a8900b52a56546",
+          "releaseAnchor": "9e685b47f6deda7f9a636e3820a78476efd4bb80"
+        }
+      ]
     },
     {
       "language": "ar",

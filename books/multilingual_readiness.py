@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse
 import json
 
-from book_edition_scope import MAP, available, select
+from book_edition_scope import MAP, V4_POLICY, available, select, v4_reader_targets, v4_target_row
 from book_content_coverage import discover_readers, scope_coverage
 
 COLLECTIONS = ('tadabbur-extended', 'hadith', 'seerah', 'articles')
@@ -32,12 +32,17 @@ def inventory(root):
                         if row.get('language') == language and MAP.get(row.get('collection')) == collection]
             current = [row for row in material if available(row)]
             legacy = []
-            if collection == 'seerah':
+            declaration = by_scope.get((language, collection))
+            v4 = bool(declaration and declaration.get('scopePolicy') == V4_POLICY)
+            if v4:
+                targets = v4_reader_targets(declaration)
+                legacy = [row for row in current if not v4_target_row(row, targets, language)]
+                current = [row for row in current if v4_target_row(row, targets, language)]
+            elif collection == 'seerah':
                 legacy = [row for row in current if row.get('edition') != 'new-adult']
                 current = [row for row in current if row.get('edition') == 'new-adult']
             historical = [row for row in catalog.get('historicalArticleEntries', {}).get('entries', [])
                           if collection == 'articles' and row.get('language') == language]
-            declaration = by_scope.get((language, collection))
             selected = []
             selection_error = None
             item = {'language': language, 'collection': collection,
@@ -55,6 +60,11 @@ def inventory(root):
                     item['eligibleUnits'] = len(selected)
                     item['unboundCurrentUnits'] = len(reconciliation.get('unknownLegacyRows', [])) if reconciliation else 0
                     item['state'] = 'automatic-preparation-ready' if selected else 'waiting-for-approved-source'
+                    if v4:
+                        item['missingV4Readers'] = reconciliation['missingV4Readers']
+                        item['unboundCurrentUnits'] = len([row for row in reconciliation['missingV4Readers'] if row['reason']!='no-registered-v4-git-reader'])
+                        if reconciliation['missingV4Readers']:
+                            item['state'] = 'waiting-for-approved-source' if targets else 'waiting-for-current-source'
                     if selected:
                         item['includedIds'] = [row['id'] for row in selected]
                     if reconciliation and reconciliation.get('unknownLegacyRows'):
@@ -81,8 +91,12 @@ def inventory(root):
                 item['reason'] = ('Only legacy Seerah editions are present; the current new-adult edition is not installed in this language.'
                     if legacy else 'Only superseded standalone article translations are present; they are not translations of the current merged edition.'
                     if historical else 'No current source material is installed for this language/category.')
+            download = downloads.get((language, collection))
+            if v4 and download and (download.get('editionScope',{}).get('policy')!=V4_POLICY or [str(u['id']) for u in download.get('units',[])]!=['1:extended','112:extended']):
+                item['supersededDownload'] = True
+                download = None
             item['coverage'] = scope_coverage(root, language, collection, catalog, declaration,
-                selected=selected, book=downloads.get((language, collection)), discovered=discovery,
+                selected=selected, book=download, discovered=discovery,
                 selection_error=selection_error)
             item['unregisteredSourceUnits'] = len(item['coverage']['unregisteredSourceIds'])
             item['absentEarlierLessons'] = item['coverage']['absentEarlierLessons']

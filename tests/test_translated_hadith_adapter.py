@@ -11,7 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'books'))
 
 from adapt_translated_hadith import generate, note_fields
-from book_edition_scope import available, key, pinned, select
+from book_edition_scope import available, key, pinned, select, V4_POLICY
+from historical_book_fixture import copy_legacy_ikhlas_fixture, legacy_tadabbur_declarations
 from build_books import check_unit
 from multilingual_readiness import inventory
 from reviewed_hadith_sources import ADAPTER
@@ -290,14 +291,25 @@ class TranslatedHadithTests(unittest.TestCase):
         declarations = {(row['language'], row['collection']): row for row in self.declarations}
         for identity in required:
             try:
-                chosen,_=select(ROOT,self.catalog,declarations[identity])
+                chosen,reconciliation=select(ROOT,self.catalog,declarations[identity])
             except (OSError,ValueError,KeyError) as error:
                 # Changed live inputs are a production blocker, never a test
                 # assumption that every declared language must already be ready.
                 self.assertEqual(scopes[identity]['state'],'source-binding-error')
                 self.assertIn(str(error),scopes[identity]['reason'])
             else:
-                self.assertTrue(chosen);self.assertIn(identity,ready)
+                if declarations[identity].get('scopePolicy')==V4_POLICY:
+                    missing=reconciliation['missingV4Readers']
+                    self.assertEqual(scopes[identity]['missingV4Readers'],missing)
+                    self.assertEqual(scopes[identity]['eligibleUnits'],len(chosen))
+                    if missing:
+                        self.assertNotIn(identity,ready)
+                        self.assertEqual(scopes[identity]['state'],'waiting-for-current-source' if identity[0]=='ja' else 'waiting-for-approved-source')
+                    else:
+                        self.assertEqual([row['id'] for row in chosen],['1:extended','112:extended'])
+                        self.assertIn(identity,ready)
+                else:
+                    self.assertTrue(chosen);self.assertIn(identity,ready)
         self.assertEqual(report['automaticPreparationScopes'], len(ready))
 
         # New exact approvals may extend the inventory; merely marking all
@@ -337,13 +349,18 @@ class TranslatedHadithTests(unittest.TestCase):
         self.assertFalse(report['sourceApprovalCreated'])
 
     def test_unbound_fatiha_does_not_block_verified_ikhlas_in_three_languages(self):
+        temporary=TemporaryDirectory();self.addCleanup(temporary.cleanup)
+        fixture=Path(temporary.name)
+        copy_legacy_ikhlas_fixture(ROOT,fixture)
+        historical=json.loads((fixture/'materials/catalog.json').read_bytes())
+        declarations=legacy_tadabbur_declarations(ROOT)
         for language in ('ru', 'vi', 'fil'):
-            declaration = deepcopy(next(row for row in self.declarations if row['language'] == language and row['collection'] == 'tadabbur-extended'))
+            declaration = deepcopy(next(row for row in declarations if row['language'] == language and row['collection'] == 'tadabbur-extended'))
             # Existing source files alone remain insufficient: remove the new
             # explicit current-source binding to exercise the legacy boundary.
             declaration['sourceReviewBindings'] = [binding for binding in declaration['sourceReviewBindings']
                 if binding['path'] != 'books/source-projections/current-reviewed-quran.json']
-            catalog = deepcopy(self.catalog)
+            catalog = deepcopy(historical)
             # Simulate an actually unbound Fatiha. A later exact publisher
             # handoff is independent evidence and must not invalidate this
             # test's older-unbound-source scenario.
@@ -351,7 +368,7 @@ class TranslatedHadithTests(unittest.TestCase):
                 if (row.get('collection') == 'tadabbur' and row.get('language') == language
                         and str(row.get('id')) in {'1:extended', 'fatiha-extended'}):
                     row.pop('bookReaderUnit', None)
-            selected, report = select(ROOT, catalog, declaration)
+            selected, report = select(fixture, catalog, declaration)
             self.assertEqual([row['id'] for row in selected], ['112:extended'])
             self.assertTrue({'1:extended', 'fatiha-extended'}.intersection(row['id'] for row in report['unknownLegacyRows']))
 

@@ -404,7 +404,9 @@ def build_book(root,out,conf,lang,collection,units,commit,edition_report=None):
     scope_titles=[u['title'] for u in units] if edition_report else []
     multi_surah=collection=='tadabbur-extended' and len(units)>1
     scope_summary=(scope_titles[0]+(f' (+{len(scope_titles)-1})' if len(scope_titles)>1 else '')) if scope_titles else ''
-    if multi_surah:scope_summary=''
+    if edition_report and edition_report.get('policy')=='owner-v4-two-surah-books-v1':
+        scope_summary=' · '.join(scope_titles)
+    elif multi_surah:scope_summary=''
     scoped_label=title+(' · '+scope_summary if scope_summary else '')
     p=sec.header.paragraphs[0];direction(p,lang);add_text(p,lc['brand']+' · '+scoped_label,lang,family,arabic,8,'heading')
     p=sec.footer.paragraphs[0];direction(p,'en',True)

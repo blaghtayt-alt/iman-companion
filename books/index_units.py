@@ -18,7 +18,7 @@ def main():
     units=[];seen=set();covered=set()
     catalog=json.loads((root/'materials/catalog.json').read_text(encoding='utf-8-sig'))
     production=bool(catalog.get('languages')) and 'preview' not in str(catalog.get('scope','')).lower()
-    generated=[];scope_edition=None;edition_report=None;edition_rows=None
+    generated=[];scope_edition=None;edition_report=None;edition_rows=None;strict_v4_paths=None
     if production:
         if not args.language:raise ValueError('Production indexing held: select an independently reviewed book scope')
         declarations_path=root/'books/reviewed-books.json'
@@ -28,8 +28,12 @@ def main():
         matches=[d for d in declarations.get('books',[]) if d.get('language')==args.language and d.get('collection')==args.collection]
         if len(matches)!=1 or matches[0].get('state')!='reviewed-current' or matches[0].get('automaticBuild') is not True:raise ValueError('Production indexing held: book scope has no current reviewed declaration')
         declaration=matches[0]
-        from book_edition_scope import select
+        from book_edition_scope import select,V4_POLICY
         edition_rows,edition_report=select(root,catalog,declaration)
+        if declaration.get('scopePolicy')==V4_POLICY:
+            if [str(row['id']) for row in edition_rows]!=['1:extended','112:extended'] or edition_report.get('missingV4Readers'):
+                raise ValueError('Complete V4 Tadabbur pair requires exact approved publisher transactions for both surahs in Quran order')
+            strict_v4_paths={row['bookReaderUnit']['path'] for row in edition_rows}
         scope_edition=declaration.get('edition')
         if args.collection=='seerah'and scope_edition!='new-adult':raise ValueError('Only new adult Seerah belongs in the current book')
         current_units=[json.loads(f.read_bytes())for f in(root/'books/units/current').rglob('*.json')]
@@ -89,6 +93,7 @@ def main():
     for file in sorted(list((root/'books/units/current').rglob('*.json'))+generated):
         raw=file.read_bytes();unit=json.loads(raw)
         if args.language and (unit.get('language')!=args.language or unit.get('collection')!=args.collection):continue
+        if strict_v4_paths is not None and file.relative_to(root).as_posix() not in strict_v4_paths:continue
         record={k:unit[k] for k in ['language','collection','id']};record.update(path=file.relative_to(root).as_posix(),sha256=sha(raw))
         check_unit(unit,record,root=root)
         # Explicit live bindings make the reader snapshot reproducible and prevent

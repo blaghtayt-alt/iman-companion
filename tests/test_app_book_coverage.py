@@ -19,6 +19,7 @@ guard = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(guard)
 from published_library import catalog_fingerprint, catalog_members, scope_settings
 from preparation_queue import signature
+from historical_book_fixture import copy_legacy_ikhlas_fixture
 
 
 class AppBookCoverageTests(unittest.TestCase):
@@ -257,7 +258,10 @@ class AppBookCoverageTests(unittest.TestCase):
 
     def test_real_ikhlas_mirror_contract_requires_all_actual_adapter_inputs(self):
         from adapt_ikhlas import generate
-        catalog = guard.read(ROOT / 'materials/catalog.json')
+        temporary=tempfile.TemporaryDirectory();self.addCleanup(temporary.cleanup)
+        fixture=Path(temporary.name)
+        copy_legacy_ikhlas_fixture(ROOT,fixture)
+        catalog = guard.read(fixture / 'materials/catalog.json')
         for language in ('en', 'ja'):
             with self.subTest(language=language):
                 key = (language, 'tadabbur-extended')
@@ -268,17 +272,45 @@ class AppBookCoverageTests(unittest.TestCase):
                 self.assertEqual(len(rows), 1)
                 # Exercise the real reader contract without depending on a pending
                 # queue entry: successful release normally removes that entry.
-                unit = generate(ROOT, catalog, guard.declaration(ROOT, key, for_release=False))[0]
+                unit = generate(fixture, catalog, guard.declaration(fixture, key, for_release=False))[0]
                 snapshot = {'bindings': deepcopy(unit['inputBindings'])}
                 mirror = f'materials/tadabbur/{language}/extended/112.md'
                 self.assertNotIn(mirror, {item['path'] for item in snapshot['bindings']})
-                guard.validate_snapshot_sources(ROOT, catalog, key, rows, snapshot)
+                guard.validate_snapshot_sources(fixture, catalog, key, rows, snapshot)
                 consumed = f'materials/tadabbur/sources/112/{language}/112-001.json'
                 snapshot['bindings'] = [item for item in snapshot['bindings'] if item['path'] != consumed]
                 # Adding the unused mirror cannot substitute for a consumed verse source.
-                snapshot['bindings'].append(self.binding(ROOT, mirror))
+                snapshot['bindings'].append(self.binding(fixture, mirror))
                 with self.assertRaisesRegex(ValueError, 'actual Ikhlas adapter input'):
-                    guard.validate_snapshot_sources(ROOT, catalog, key, rows, snapshot)
+                    guard.validate_snapshot_sources(fixture, catalog, key, rows, snapshot)
+
+
+    def test_historical_tadabbur_archive_checks_original_bytes_and_catalogue(self):
+        import subprocess
+        from unittest.mock import patch
+        row={'collection':'tadabbur','language':'en','id':'2:extended','surah':2,'mode':'extended',
+             'json':'materials/tadabbur/en/extended/002.json'}
+        self.write(row['json'],{'fixture':'Historical reader, not approval'})
+        self.write('materials/catalog.json',{'entries':[row]})
+        unit={'collection':'tadabbur-extended','language':'en','id':row['id'],
+              'sourceBindings':[self.binding(self.root,row['json'])],
+              'catalogIdentity':{'json':row['json']}}
+        def git(*args):
+            return subprocess.run(['git',*args],cwd=self.root,capture_output=True,check=True,text=True).stdout.strip()
+        git('init');git('config','user.name','Fixture');git('config','user.email','fixture@example.invalid')
+        git('add','.');git('commit','-m','historical archive')
+        commit=git('rev-parse','HEAD')
+        self.write(row['json'],{'fixture':'Later live bytes'})
+        key=('en','tadabbur-extended',row['id'])
+        baseline={'repositoryBase':commit}
+        with patch.object(guard,'V4_HISTORICAL_BASE',commit):
+            self.assertEqual(guard.historical_tadabbur_audit(self.root,baseline,[unit]),{key:[]})
+            altered=deepcopy(unit);altered['sourceBindings'][0]['sha256']='0'*64
+            self.assertTrue(guard.historical_tadabbur_audit(self.root,baseline,[altered])[key])
+            changed=deepcopy(unit);changed['catalogIdentity']['json']='different.json'
+            self.assertTrue(guard.historical_tadabbur_audit(self.root,baseline,[changed])[key])
+            with self.assertRaisesRegex(ValueError,'original audited Git revision'):
+                guard.historical_tadabbur_audit(self.root,{'repositoryBase':'0'*40},[unit])
 
 
 if __name__ == '__main__':
