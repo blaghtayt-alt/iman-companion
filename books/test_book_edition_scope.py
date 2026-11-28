@@ -72,4 +72,47 @@ class EditionTests(unittest.TestCase):
         rows,report=select(self.root,json.loads((self.root/'materials/catalog.json').read_bytes()),self.declaration)
         self.assertNotEqual(before,scope_fingerprint(rows,report))
 
+class V4EditionTests(unittest.TestCase):
+    """Synthetic selector tests, never evidence of real editorial approval."""
+    def setUp(self):
+        from book_edition_scope import V4_POLICY,V4_SURAS
+        import hashlib
+        self.temp=tempfile.TemporaryDirectory();self.addCleanup(self.temp.cleanup)
+        self.root=Path(self.temp.name);self.rows=[];pins=[]
+        for n,(slug,anchor) in V4_SURAS.items():
+            path=f'materials/tadabbur/{slug}/reader-en.json'
+            f=self.root/path;f.parent.mkdir(parents=True,exist_ok=True)
+            raw=json.dumps({'language':'en','surah':n,'edition':'owner-final-'+slug}).encode()
+            f.write_bytes(raw)
+            pins.append({'surah':n,'path':path,'releaseAnchor':anchor,'gitBlobSHA1':hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()})
+            self.rows.append({'collection':'tadabbur','language':'en','id':f'{n}:extended','mode':'extended','surah':n,'json':path})
+        self.decl={'collection':'tadabbur-extended','language':'en','scopePolicy':V4_POLICY,'selectedV4Readers':pins}
+    def test_v4_pins_do_not_approve_and_no_legacy_fallback(self):
+        legacy={**self.rows[0],'json':'materials/tadabbur/ar/001.json'}
+        unrelated={**self.rows[0],'id':'2:extended','surah':2}
+        rows,report=select(self.root,{'entries':[legacy,unrelated,self.rows[1]]},self.decl)
+        self.assertEqual(rows,[])
+        self.assertEqual([m['reason'] for m in report['missingV4Readers']],['v4-source-not-registered-for-books','missing-whole-material-approval'])
+    def test_v4_hold_and_changed_bytes(self):
+        rows,report=select(self.root,{'entries':[{**self.rows[0],'status':'held'},self.rows[1]]},self.decl)
+        self.assertEqual(rows,[])
+        self.assertEqual(report['missingV4Readers'][0]['reason'],'held-or-unavailable')
+        (self.root/self.rows[1]['json']).write_bytes(b'changed')
+        with self.assertRaisesRegex(ValueError,'differs from verified release'):
+            select(self.root,{'entries':self.rows},self.decl)
+    def test_v4_japanese_is_omitted_not_replaced(self):
+        rows,report=select(self.root,{'entries':[]},{**self.decl,'language':'ja','selectedV4Readers':[]})
+        self.assertEqual(rows,[])
+        self.assertEqual([m['reason'] for m in report['missingV4Readers']],['no-registered-v4-git-reader']*2)
+    def test_v4_invalid_approval_does_not_fall_back(self):
+        row={**self.rows[0],'bookReaderUnit':{'schema':'invalid'}}
+        with self.assertRaisesRegex(ValueError,'Invalid declared publisher'):
+            select(self.root,{'entries':[row]},self.decl)
+    def test_v4_old_snapshot_cannot_use_retention(self):
+        from published_library import limited_continuity,previous_edition_available
+        entry={'book':{'language':'en','collection':'tadabbur-extended'}}
+        with patch('published_library.current',return_value=False),patch('published_library.declaration',return_value=self.decl):
+            self.assertFalse(limited_continuity(self.root,entry))
+            self.assertFalse(previous_edition_available(self.root,entry))
+
 if __name__=='__main__':unittest.main()

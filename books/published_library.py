@@ -108,7 +108,7 @@ def matching_catalog_snapshot(rows,report,snapshot):
     checked by the caller.
     """
     if catalog_fingerprint(rows,report)==snapshot['catalogSHA256']:return True
-    if report is None or 'catalogEvidence' in snapshot:return False
+    if report is None or report.get('policy')=='owner-v4-two-surah-books-v1' or 'catalogEvidence' in snapshot:return False
     identities=[str(row['id']) for row in rows]
     if len(identities)!=len(set(identities)) or sorted(identities)!=sorted(snapshot.get('unitIds',[])):return False
     if len(report.get('selected',[]))!=len(rows):return False
@@ -118,6 +118,9 @@ def current(root,entry):
     try:
         key=scope_key(entry['book']);declaration(root,key);snapshot=entry['snapshot']
         rows,report=catalog_members(root,key)
+        if report and report.get('policy')=='owner-v4-two-surah-books-v1':
+            ids=[str(row['id']) for row in rows]
+            if not ids or entry['book'].get('editionScope',{}).get('policy')!=report['policy'] or entry['book']['editionScope'].get('includedMaterialIds')!=ids or [u['id'] for u in entry['book']['units']]!=ids:return False
         return matching_catalog_snapshot(rows,report,snapshot) and bool(snapshot['bindings']) and bool(snapshot['unitIds']) and snapshot['scopeSettingsSHA256']==scope_settings(root,key,snapshot['unitIds']) and all(HEX.fullmatch(b['sha256']) and sha(inside(root,b['path']).read_bytes())==b['sha256'] for b in snapshot['bindings'])
     except (ValueError,OSError,KeyError):return False
 def limited_continuity(root,entry):
@@ -129,7 +132,8 @@ def limited_continuity(root,entry):
     """
     if current(root,entry):return False
     try:
-        book=entry['book'];key=scope_key(book);declaration(root,key)
+        book=entry['book'];key=scope_key(book)
+        if declaration(root,key).get('scopePolicy')=='owner-v4-two-surah-books-v1':return False
         snapshot=entry['snapshot'];ids=set(snapshot['unitIds'])
         if not ids or len(ids)!=len(snapshot['unitIds']) or not snapshot['bindings']:return False
         if snapshot['scopeSettingsSHA256']!=scope_settings(root,key,sorted(ids)):return False
@@ -207,7 +211,8 @@ def previous_edition_available(root,entry):
     from book_edition_scope import available,MAP
     try:
         book=entry['book'];key=scope_key(book)
-        declaration(root,key)  # An explicit scope/release hold also applies to retention.
+        # The owner withdrew earlier Tadabbur editions from current downloads.
+        if declaration(root,key).get('scopePolicy')=='owner-v4-two-surah-books-v1':return False
         rows=[r for r in read(root/'materials/catalog.json')['entries']
               if (r.get('language'),MAP.get(r.get('collection')))==key and available(r)]
         members=entry['snapshot'].get('catalogMemberKeys')

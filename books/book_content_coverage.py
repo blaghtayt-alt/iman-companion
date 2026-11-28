@@ -320,7 +320,13 @@ def scope_coverage(root, language, collection, catalog, declaration=None, *,
                 if (row.get('language'), MAP.get(row.get('collection'))) == (language, collection)]
     current = [row for row in material if available(row)]
     legacy = []
-    if collection == 'seerah':
+    v4_targets = None
+    if declaration and declaration.get('scopePolicy')=='owner-v4-two-surah-books-v1':
+        from book_edition_scope import v4_reader_targets,v4_target_row
+        v4_targets=v4_reader_targets(declaration)
+        legacy=[row for row in current if not v4_target_row(row,v4_targets,language)]
+        current=[row for row in current if v4_target_row(row,v4_targets,language)]
+    elif collection == 'seerah':
         legacy = [row for row in current if row.get('edition') != 'new-adult']
         current = [row for row in current if row.get('edition') == 'new-adult']
     elif declaration and declaration.get('edition'):
@@ -336,11 +342,16 @@ def scope_coverage(root, language, collection, catalog, declaration=None, *,
     all_registered = {str(row['id']): row for row in material}
     candidates = dict(catalog_rows)
     discovery = discovered if discovered is not None else discover_readers(root, [language], catalog)
+    if v4_targets is not None:
+        for n,pin in v4_targets.items():
+            ident=f'{n}:extended'
+            candidates.setdefault(ident,{'collection':'tadabbur','language':language,'id':ident,'mode':'extended','surah':n,'json':pin['path']})
     competing = []
     for row in discovery['readers']:
         if _identity(row)[:2] != (language, collection):
             continue
         ident = str(row['id'])
+        if v4_targets is not None and not v4_target_row(row,v4_targets,language):continue
         if ident in all_registered:
             # Withdrawn/older identities and competing paths do not become new
             # eligible material just because their old files are still present.
@@ -352,6 +363,8 @@ def scope_coverage(root, language, collection, catalog, declaration=None, *,
         candidates[ident] = row
     selected_ids = {str(row['id']) for row in selected}
     included_ids = [str(unit['id']) for unit in (book or {}).get('units', [])]
+    if v4_targets is not None and book and book.get('editionScope',{}).get('policy')!='owner-v4-two-surah-books-v1':
+        raise ValueError('Superseded Tadabbur edition cannot be described as current V4 coverage')
     if len(set(included_ids)) != len(included_ids):
         raise ValueError('Duplicate included download identity')
     incomplete, review_errors = _review_incomplete(root, language, collection, catalog_rows)

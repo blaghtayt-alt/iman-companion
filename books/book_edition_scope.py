@@ -9,6 +9,8 @@ import hashlib, json, re
 from quran_scope import extended,review_catalog_id
 
 POLICY = 'reviewed-source-edition-v1'
+V4_POLICY = 'owner-v4-two-surah-books-v1'
+V4_SURAS = {1: ('fatiha-v4', '3dee3b37d1b9a7be2d5ecf14377878bcd722eb72'), 112: ('ikhlas-v4', '9e685b47f6deda7f9a636e3820a78476efd4bb80')}
 MAP = {'tadabbur':'tadabbur-extended','articles':'articles','seerah':'seerah','essential-hadith':'hadith'}
 RETIRED = {'held','withdrawn','archived','archive','source-archive','historical','superseded','not-currently-available','draft','work-in-progress'}
 def sha(raw): return hashlib.sha256(raw).hexdigest()
@@ -57,7 +59,70 @@ def typed_basis(root,row):
     if not any(key(b)==key(row) for b in unit['catalogBindings']): raise ValueError('Missing edition member binding')
     return {'kind':'whole-material-publisher','readerUnit':binding,'publicationApproval':approval_binding}
 
+def v4_reader_targets(declaration):
+    """Owner-selected release identities; these pins are not source approval."""
+    if declaration.get('collection') != 'tadabbur-extended':
+        raise ValueError('V4 restriction applies only to Tadabbur books')
+    lang=declaration['language']
+    targets={}
+    for pin in declaration.get('selectedV4Readers',[]):
+        n=pin['surah']
+        if n not in V4_SURAS or n in targets:
+            raise ValueError('Invalid or repeated V4 surah')
+        slug,anchor=V4_SURAS[n]
+        if pin.get('path')!=f'materials/tadabbur/{slug}/reader-{lang}.json' or pin.get('releaseAnchor')!=anchor or not re.fullmatch('[a-f0-9]{40}',pin.get('gitBlobSHA1','')):
+            raise ValueError('V4 release identity differs from owner scope')
+        targets[n]=pin
+    if set(targets)!=(set() if lang=='ja' else set(V4_SURAS)):
+        raise ValueError('Unexpected V4 locale coverage')
+    return targets
+
+def v4_target_row(row,targets,language):
+    return (row.get('collection')=='tadabbur' and row.get('language')==language
+            and row.get('mode')=='extended' and any(
+                str(row.get('id'))==f'{n}:extended' and row.get('json')==pin['path']
+                for n,pin in targets.items()))
+
+def select_v4(root,catalog,declaration):
+    lang=declaration['language'];targets=v4_reader_targets(declaration)
+    selected=[];decisions=[];missing=[];evidence=[]
+    for n in V4_SURAS:
+        identity={'collection':'tadabbur','language':lang,'id':f'{n}:extended'}
+        pin=targets.get(n)
+        if pin is None:
+            missing.append({**identity,'reason':'no-registered-v4-git-reader'});continue
+        raw=inside(root,pin['path']).read_bytes()
+        git_blob=hashlib.sha1(b'blob '+str(len(raw)).encode('ascii')+b'\0'+raw).hexdigest()
+        if git_blob!=pin['gitBlobSHA1']:
+            raise ValueError('V4 reader differs from verified release: '+pin['path'])
+        reader=json.loads(raw)
+        if reader.get('language')!=lang or reader.get('surah')!=n or reader.get('version',reader.get('edition'))!='owner-final-'+V4_SURAS[n][0]:
+            raise ValueError('V4 reader identity differs from selected release')
+        evidence.append({'path':pin['path'],'sha256':sha(raw)})
+        matches=[row for row in catalog['entries'] if key(row)==key(identity)]
+        if len(matches)>1:raise ValueError('Duplicate V4 catalogue identity')
+        if matches and not available(matches[0]):
+            missing.append({**identity,'reason':'held-or-unavailable'});continue
+        if not matches or not v4_target_row(matches[0],targets,lang):
+            missing.append({**identity,'reason':'v4-source-not-registered-for-books'});continue
+        row=matches[0]
+        from quran_scope import canonical_surah
+        if canonical_surah(row)!=n:raise ValueError('V4 canonical surah mismatch')
+        basis=typed_basis(root,row)
+        if basis is None:
+            missing.append({**identity,'reason':'missing-whole-material-approval'});continue
+        unit=json.loads(pinned(root,basis['readerUnit']))
+        if unit.get('id')!=identity['id'] or unit.get('order')!=n:
+            raise ValueError('V4 publisher unit order or identity differs')
+        selected.append(row);decisions.append({**identity,'basis':basis})
+    report={'schema':'iman-reviewed-edition-reconciliation-v1','policy':V4_POLICY,
+            'language':lang,'collection':'tadabbur-extended','sourceReviewBindings':evidence,
+            'selected':decisions,'missingV4Readers':missing,'unknownLegacyRows':[],
+            'unknownRowsApproved':False,'unknownRowsHeld':False}
+    return selected,report
+
 def select(root,catalog,declaration):
+    if declaration.get('scopePolicy')==V4_POLICY:return select_v4(root,catalog,declaration)
     lang=declaration['language']; collection=declaration['collection']; edition=declaration.get('edition')
     potential=[r for r in catalog['entries'] if available(r) and (r.get('language'),MAP[r['collection']])==(lang,collection) and (not edition or r.get('edition')==edition)]
     if len({key(r) for r in potential})!=len(potential): raise ValueError('Duplicate edition catalogue identity')
