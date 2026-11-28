@@ -19,6 +19,7 @@ guard = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(guard)
 from published_library import catalog_fingerprint, catalog_members, scope_settings
 from preparation_queue import signature
+from historical_book_fixture import copy_legacy_ikhlas_fixture
 
 
 class AppBookCoverageTests(unittest.TestCase):
@@ -257,7 +258,10 @@ class AppBookCoverageTests(unittest.TestCase):
 
     def test_real_ikhlas_mirror_contract_requires_all_actual_adapter_inputs(self):
         from adapt_ikhlas import generate
-        catalog = guard.read(ROOT / 'materials/catalog.json')
+        temporary=tempfile.TemporaryDirectory();self.addCleanup(temporary.cleanup)
+        fixture=Path(temporary.name)
+        copy_legacy_ikhlas_fixture(ROOT,fixture)
+        catalog = guard.read(fixture / 'materials/catalog.json')
         for language in ('en', 'ja'):
             with self.subTest(language=language):
                 key = (language, 'tadabbur-extended')
@@ -268,17 +272,17 @@ class AppBookCoverageTests(unittest.TestCase):
                 self.assertEqual(len(rows), 1)
                 # Exercise the real reader contract without depending on a pending
                 # queue entry: successful release normally removes that entry.
-                unit = generate(ROOT, catalog, guard.declaration(ROOT, key, for_release=False))[0]
+                unit = generate(fixture, catalog, guard.declaration(fixture, key, for_release=False))[0]
                 snapshot = {'bindings': deepcopy(unit['inputBindings'])}
                 mirror = f'materials/tadabbur/{language}/extended/112.md'
                 self.assertNotIn(mirror, {item['path'] for item in snapshot['bindings']})
-                guard.validate_snapshot_sources(ROOT, catalog, key, rows, snapshot)
+                guard.validate_snapshot_sources(fixture, catalog, key, rows, snapshot)
                 consumed = f'materials/tadabbur/sources/112/{language}/112-001.json'
                 snapshot['bindings'] = [item for item in snapshot['bindings'] if item['path'] != consumed]
                 # Adding the unused mirror cannot substitute for a consumed verse source.
-                snapshot['bindings'].append(self.binding(ROOT, mirror))
+                snapshot['bindings'].append(self.binding(fixture, mirror))
                 with self.assertRaisesRegex(ValueError, 'actual Ikhlas adapter input'):
-                    guard.validate_snapshot_sources(ROOT, catalog, key, rows, snapshot)
+                    guard.validate_snapshot_sources(fixture, catalog, key, rows, snapshot)
 
 
 if __name__ == '__main__':

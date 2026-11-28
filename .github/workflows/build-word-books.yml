@@ -100,6 +100,7 @@ jobs:
         run: |
           git fetch --no-tags --depth=1 origin 80c666acc4ca8c87f6f6b0fc2df82be31b4f4792
           git fetch --no-tags --depth=1 origin 11995f8bf92be184657ea031948bb369697753c5
+          git fetch --no-tags --depth=1 origin 0f2e681490ed2e6eb4ded796f91a2ff93a03c1ae
       - name: Validate source fidelity, references, QR matching and publication
         run: |
           python tests/test_source_propagation.py
@@ -175,7 +176,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Fetch exact historical inputs for diagnostic rendering
-        run: git fetch --no-tags --depth=1 origin 80c666acc4ca8c87f6f6b0fc2df82be31b4f4792
+        run: |
+          git fetch --no-tags --depth=1 origin 80c666acc4ca8c87f6f6b0fc2df82be31b4f4792
+          git fetch --no-tags --depth=1 origin 0f2e681490ed2e6eb4ded796f91a2ff93a03c1ae
       - name: Install the exact fixed renderer and its matching UNO bridge
         run: |
           python books/renderer_pin.py --install

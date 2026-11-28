@@ -22,7 +22,7 @@ from book_edition_scope import POLICY, select
 from build_books import check_unit
 from reviewed_coverage import validate as validate_coverage
 from source_literal_text import check_bound_text, check_text, normalize_lines
-from historical_book_fixture import copy_projection_fixture
+from historical_book_fixture import copy_projection_fixture,copy_legacy_ikhlas_fixture
 
 
 def output_blocks(unit):
@@ -397,8 +397,11 @@ class ExistingIkhlasPreservation(unittest.TestCase):
         cls.adapter = adapt_ikhlas
         cls.units = {}
         cls.audit_inputs = {}
-        catalog = current.read(ROOT, 'materials/catalog.json')
-        declarations = current.read(ROOT, 'books/reviewed-books.json')
+        cls.legacy_temp=tempfile.TemporaryDirectory();cls.addClassCleanup(cls.legacy_temp.cleanup)
+        cls.legacy_root=Path(cls.legacy_temp.name)
+        copy_legacy_ikhlas_fixture(ROOT,cls.legacy_root)
+        catalog = current.read(cls.legacy_root, 'materials/catalog.json')
+        declarations = current.read(cls.legacy_root, 'books/reviewed-books.json')
         audit = adapt_ikhlas.preservation_evidence
         for declaration in declarations['books']:
             if declaration.get('adapter') != 'reviewed-ikhlas-v1':
@@ -407,14 +410,14 @@ class ExistingIkhlasPreservation(unittest.TestCase):
                 cls.audit_inputs[declaration['language']] = deepcopy(args)
                 return audit(*args)
             with patch.object(adapt_ikhlas, 'preservation_evidence', side_effect=capture):
-                cls.units[declaration['language']], = adapt_ikhlas.generate(ROOT, catalog, declaration)
+                cls.units[declaration['language']], = adapt_ikhlas.generate(cls.legacy_root, catalog, declaration)
 
     def test_every_existing_ikhlas_unit_has_measured_paragraph_reference_and_note_preservation(self):
         self.assertEqual(len(self.units), 19)
         for language, unit in self.units.items():
             with self.subTest(language=language):
                 evidence = unit['sourceReferencePreservation']
-                original_units = [current.read(ROOT,
+                original_units = [current.read(self.legacy_root,
                     f'materials/tadabbur/sources/112/{language}/112-{number:03d}.json')
                     for number in range(1, 5)]
                 self.assertEqual(evidence['sourceParagraphs'], sum(len(u['paragraphs']) for u in original_units))

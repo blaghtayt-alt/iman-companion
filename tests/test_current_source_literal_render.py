@@ -18,7 +18,7 @@ from build_books import Footnotes, check_unit, embed_fonts, checked_source_links
 from check_outputs import validate_footnotes, validate_source_hyperlinks, validate_pdf_source_hyperlinks
 from source_literal_text import check_bound_text, check_text, proof_list, exact_literal
 from reader_xml import body_text
-from historical_book_fixture import copy_projection_fixture
+from historical_book_fixture import copy_projection_fixture,legacy_tadabbur_declarations,restore_legacy_tadabbur_declarations
 from restore_source_hyperlinks import restore as restore_source_hyperlinks
 
 
@@ -26,7 +26,7 @@ class CurrentLiteralRendering(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.catalog = json.loads((ROOT / 'materials/catalog.json').read_bytes())
-        cls.declaration = next(row for row in json.loads((ROOT / 'books/reviewed-books.json').read_bytes())['books']
+        cls.declaration = next(row for row in legacy_tadabbur_declarations(ROOT)
                                if (row['language'], row['collection']) == ('ur', 'tadabbur-extended'))
         cls.temp=tempfile.TemporaryDirectory();cls.addClassCleanup(cls.temp.cleanup)
         cls.source_root=Path(cls.temp.name)
@@ -35,6 +35,7 @@ class CurrentLiteralRendering(unittest.TestCase):
             [current.PROJECTION,'materials/catalog.json','books/reviewed-books.json',
              'materials/translation-status.json','books/config.json','books/assets/quran-arabic.json','books/assets/surah-names.json','books/assets/surah-names-native-20261107.json']+
              [b['path'] for b in cls.declaration['sourceReviewBindings']])
+        restore_legacy_tadabbur_declarations(ROOT,cls.source_root)
         cls.catalog = current.read(cls.source_root, 'materials/catalog.json')
         cls.record, cls.evidence = current.records(cls.source_root, cls.declaration)[0]
         cls.unit = current.normalize(cls.source_root, cls.catalog, cls.record['catalogEntry'], cls.record, cls.evidence)

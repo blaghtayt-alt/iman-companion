@@ -28,7 +28,7 @@ from reader_xml import body_text
 from renderer_pin import verify_packages
 from toc_sync import linked_pages, reconcile
 from word_layout_check import contents
-from historical_book_fixture import copy_projection_fixture
+from historical_book_fixture import copy_projection_fixture,restore_legacy_tadabbur_declarations
 
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 SCOPES = [('en', 'hadith'), ('ar', 'seerah'), ('th', 'hadith'), ('ur', 'hadith'), ('bn', 'tadabbur-extended'), ('uz', 'hadith'), ('fr', 'tadabbur-extended'), ('en', 'tadabbur-extended')]
@@ -127,6 +127,7 @@ def main():
     import current_reviewed_quran as fixture_source
     inventory=fixture_source.read(repository,fixture_source.PROJECTION)
     copy_projection_fixture(repository,root,inventory)
+    restore_legacy_tadabbur_declarations(repository,root)
     out.mkdir(parents=True, exist_ok=False)
     report = {'diagnosticOnly': True, 'publicationAcceptance': False,
               'renderer': verify_packages(), 'scopes': {}, 'passed': False}
