@@ -11,12 +11,13 @@ import argparse
 import hashlib
 import json
 import re
+import subprocess
 import sys
 
 sys.dont_write_bytecode = True
 CODE_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(CODE_ROOT / 'books'))
-from book_edition_scope import MAP, available, typed_basis
+from book_edition_scope import MAP, available, typed_basis, V4_POLICY
 from preparation_queue import load as load_queue, signature
 from published_library import (SCHEMA as LIBRARY_SCHEMA, asset_names, catalog_fingerprint, catalog_members,
                                current, declaration, limited_continuity, scope_settings)
@@ -25,6 +26,7 @@ BASELINE_KIND = 'audited-app-book-membership'
 HEX = re.compile(r'^[a-f0-9]{64}$')
 COLLECTIONS = {'articles', 'tadabbur-extended', 'seerah', 'hadith'}
 CATALOG_IDENTITY_FIELDS = ('sourceHashes', 'sourceChapterId', 'edition', 'readingSHA256', 'json', 'markdown')
+V4_HISTORICAL_BASE='dabbc138c7e28beb0c8137e0f86ed82e1b3d1057'
 
 
 def read(path):
@@ -168,6 +170,53 @@ def validate_baseline(baseline):
     return keys
 
 
+def historical_tadabbur_audit(root,baseline,units):
+    """Recheck original immutable archive, not today's replacement readers.
+
+    A book-only scope retirement is not source approval. All original catalogue
+    identities and source SHA256 pins must remain demonstrable at the audited
+    Git revision. Missing or changed historical bytes remain fatal. Current
+    source differences are reported separately, never treated as approval.
+    """
+    if baseline['repositoryBase']!=V4_HISTORICAL_BASE:
+        raise ValueError('V4 archive reconciliation requires the original audited Git revision')
+    def raw(relative):
+        checked_path(root,relative)
+        return subprocess.run(['git','show',V4_HISTORICAL_BASE+':'+relative],cwd=root,capture_output=True,check=True).stdout
+    historical=json.loads(raw('materials/catalog.json'))
+    index={}
+    for row in historical['entries']:
+        if row.get('collection')!='tadabbur':continue
+        ident=identity(row,catalog=True)
+        if ident in index:raise ValueError('Duplicate historical Tadabbur catalogue identity')
+        index[ident]=row
+    cache={};results={}
+    for unit in units:
+        key=identity(unit);problems=[];row=index.get(key)
+        if row is None:problems.append({'reason':'Historical catalogue identity missing'})
+        else:
+            metadata={name:row[name] for name in CATALOG_IDENTITY_FIELDS if name in row}
+            if metadata!=unit['catalogIdentity']:
+                problems.append({'reason':'Historical catalogue identity differs','expected':unit['catalogIdentity'],'actual':metadata})
+        seen=set()
+        for binding in unit['sourceBindings']:
+            path=binding['path'];expected=binding.get('sha256','')
+            if path in seen:
+                problems.append({'path':path,'reason':'Duplicate historical pin'});continue
+            seen.add(path)
+            if not HEX.fullmatch(expected):
+                problems.append({'path':path,'reason':'Invalid historical pin'});continue
+            try:
+                if path not in cache:cache[path]=hashlib.sha256(raw(path)).hexdigest()
+                if cache[path]!=expected:problems.append({'path':path,'reason':'Historical source bytes differ','expectedSHA256':expected,'actualSHA256':cache[path]})
+            except (OSError,ValueError,subprocess.CalledProcessError) as error:
+                problems.append({'path':path,'reason':str(error)})
+        if row and any(row.get(field) and row[field] not in seen for field in ('json','markdown')):
+            problems.append({'reason':'Historical catalogue source absent from audited pins'})
+        results[key]=problems
+    return results
+
+
 def audit(root, baseline, app_root=None):
     root = Path(root).resolve()
     baseline_keys = validate_baseline(baseline)
@@ -194,8 +243,18 @@ def audit(root, baseline, app_root=None):
     for row in queue['entries']:
         queued_by_scope[(row['language'], row['collection'])] = row
 
+    declarations=read(root/'books/reviewed-books.json')['books']
+    v4_scopes={(r['language'],r['collection']) for r in declarations if r.get('scopePolicy')==V4_POLICY}
+    if any(key[1]!='tadabbur-extended' for key in v4_scopes):raise ValueError('V4 policy belongs only to Tadabbur')
+    archived=[unit for unit in baseline['units'] if identity(unit)[:2] in v4_scopes]
+    historical={}
+    if archived:
+        try:historical=historical_tadabbur_audit(root,baseline,archived)
+        except (OSError,ValueError,KeyError,TypeError,subprocess.CalledProcessError) as error:
+            errors.append({'code':'historical-tadabbur-audit-failed','reason':str(error)})
     scopes = {}
-    for key in sorted({value[:2] for value in baseline_keys}):
+    v4_current=[]
+    for key in sorted({value[:2] for value in baseline_keys}|v4_scopes):
         info = {'selected': set(), 'published': set(), 'recordedPublished': set(),
                 'prepared': set(), 'recordedPrepared': set(), 'preparationState': 'not-queued',
                 'selectedRows': [], 'catalogFingerprint': None}
@@ -207,6 +266,16 @@ def audit(root, baseline, app_root=None):
             info['selected'] = set(ids)
             info['selectedRows'] = selected
             info['catalogFingerprint'] = catalog_fingerprint(selected, selection_report)
+            if key in v4_scopes:
+                if not selection_report or selection_report.get('policy')!=V4_POLICY:
+                    raise ValueError('Missing exact V4 selector reconciliation')
+                missing=selection_report['missingV4Readers']
+                v4_current.append({'language':key[0],'collection':key[1],'selectedIds':ids,'missing':missing})
+                for item in missing:
+                    if key[0]=='ja' and item['reason']=='no-registered-v4-git-reader':
+                        warnings.append({'code':'owner-v4-locale-omitted','language':key[0],'collection':key[1],'id':item['id'],'reason':item['reason']})
+                    else:
+                        errors.append({'code':'v4-current-reader-not-approved','language':key[0],'collection':key[1],'id':item['id'],'reason':item['reason']})
         except (OSError, ValueError, KeyError, TypeError, AttributeError) as error:
             errors.append({'code': 'source-selection-failed', 'scope': '/'.join(key),
                            'reason': str(error)})
@@ -244,7 +313,11 @@ def audit(root, baseline, app_root=None):
                 snapshot = queued['candidate']['snapshot']
                 if queued.get('releaseVerified') is not False:
                     raise ValueError('A preparation cannot claim release verification')
-                same_inputs = queued.get('inputFingerprint') == signature(root, key)
+                # An old queue record remains historical, never a V4 candidate.
+                if key in v4_scopes and book.get('editionScope',{}).get('policy')!=V4_POLICY:
+                    same_inputs=False
+                else:
+                    same_inputs = queued.get('inputFingerprint') == signature(root, key)
                 if same_inputs and (ids != info['selected']
                                     or snapshot.get('catalogSHA256') != info['catalogFingerprint']):
                     raise ValueError('Current preparation omits selected units or has a changed catalogue snapshot')
@@ -279,6 +352,18 @@ def audit(root, baseline, app_root=None):
         for field in ('json', 'markdown'):
             if row and row.get(field) and row[field] not in bound_paths:
                 binding_errors.append({'path': row[field], 'reason': 'Current catalogue source path is absent from audited bindings'})
+        # The original Tadabbur audit remains complete. Historical source
+        # checks use its immutable Git revision; current V4 selection and
+        # exact typed approvals are required independently above.
+        if key[:2] in v4_scopes:
+            archive_errors=historical.get(key,[{'reason':'No verified historical audit result'}])
+            if archive_errors:errors.append({'code':'historical-tadabbur-source-drift',**label(key),'bindings':archive_errors})
+            if binding_errors:warnings.append({'code':'archived-tadabbur-live-difference',**label(key),'bindings':binding_errors})
+            statuses.append({**label(key),'state':'historical-archive-source-drift' if archive_errors else 'historical-archive-verified',
+                             'evidenceLevel':unit['evidenceLevel'],'approvedSuccessor':None,
+                             'recordedPublished':key[2] in info['recordedPublished'],
+                             'recordedPrepared':key[2] in info['recordedPrepared']})
+            continue
         successor = None
         if binding_errors and row is not None and available(row):
             try:
@@ -331,6 +416,7 @@ def audit(root, baseline, app_root=None):
             'baselineDate': baseline['auditedDate'], 'repositoryBase': baseline['repositoryBase'],
             'result': 'FAIL' if errors else 'PASS', 'summary': dict(Counter(item['state'] for item in statuses)),
             'auditedUnits': len(statuses), 'units': statuses, 'runtimeEvidence': runtime,
+            'v4CurrentScopes':v4_current,
             'preparationScopes': [{'language': key[0], 'collection': key[1],
                                    'state': value['preparationState']} for key, value in scopes.items()],
             'errors': errors, 'warnings': warnings,

@@ -285,5 +285,33 @@ class AppBookCoverageTests(unittest.TestCase):
                     guard.validate_snapshot_sources(fixture, catalog, key, rows, snapshot)
 
 
+    def test_historical_tadabbur_archive_checks_original_bytes_and_catalogue(self):
+        import subprocess
+        from unittest.mock import patch
+        row={'collection':'tadabbur','language':'en','id':'2:extended','surah':2,'mode':'extended',
+             'json':'materials/tadabbur/en/extended/002.json'}
+        self.write(row['json'],{'fixture':'Historical reader, not approval'})
+        self.write('materials/catalog.json',{'entries':[row]})
+        unit={'collection':'tadabbur-extended','language':'en','id':row['id'],
+              'sourceBindings':[self.binding(self.root,row['json'])],
+              'catalogIdentity':{'json':row['json']}}
+        def git(*args):
+            return subprocess.run(['git',*args],cwd=self.root,capture_output=True,check=True,text=True).stdout.strip()
+        git('init');git('config','user.name','Fixture');git('config','user.email','fixture@example.invalid')
+        git('add','.');git('commit','-m','historical archive')
+        commit=git('rev-parse','HEAD')
+        self.write(row['json'],{'fixture':'Later live bytes'})
+        key=('en','tadabbur-extended',row['id'])
+        baseline={'repositoryBase':commit}
+        with patch.object(guard,'V4_HISTORICAL_BASE',commit):
+            self.assertEqual(guard.historical_tadabbur_audit(self.root,baseline,[unit]),{key:[]})
+            altered=deepcopy(unit);altered['sourceBindings'][0]['sha256']='0'*64
+            self.assertTrue(guard.historical_tadabbur_audit(self.root,baseline,[altered])[key])
+            changed=deepcopy(unit);changed['catalogIdentity']['json']='different.json'
+            self.assertTrue(guard.historical_tadabbur_audit(self.root,baseline,[changed])[key])
+            with self.assertRaisesRegex(ValueError,'original audited Git revision'):
+                guard.historical_tadabbur_audit(self.root,{'repositoryBase':'0'*40},[unit])
+
+
 if __name__ == '__main__':
     unittest.main()
