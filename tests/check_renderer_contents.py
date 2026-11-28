@@ -128,6 +128,33 @@ def main():
     inventory=fixture_source.read(repository,fixture_source.PROJECTION)
     copy_projection_fixture(repository,root,inventory)
     restore_legacy_tadabbur_declarations(repository,root)
+    # Restore the historical Quran catalogue and matching reader snapshots as
+    # one diagnostic input. Mixing historical source files with newer typed
+    # publisher units correctly fails the production input-hash checks.
+    catalog_path=root/'materials/catalog.json'
+    live_catalog=catalog_path.read_bytes()
+    fixture_commit=inventory['sourceCommit']
+    def historical_bytes(relative):
+        return subprocess.run(['git','show',fixture_commit+':'+relative],cwd=repository,capture_output=True,check=True).stdout
+    historical_catalog=historical_bytes('materials/catalog.json')
+    historical_rows=json.loads(historical_catalog)['entries']
+    current_unit_root=root/'books/units/current'
+    for file in current_unit_root.rglob('*.json'):
+        unit=json.loads(file.read_bytes())
+        if unit.get('collection')=='tadabbur-extended':
+            file.unlink()
+    for row in historical_rows:
+        if row.get('collection')!='tadabbur' or not row.get('bookReaderUnit'):continue
+        binding=row['bookReaderUnit']
+        relative=binding['path']
+        raw=historical_bytes(relative)
+        if digest(raw)!=binding['sha256']:raise ValueError('Historical reader fixture does not match its catalogue')
+        unit=json.loads(raw)
+        for item in unit['inputBindings']:
+            source=historical_bytes(item['path'])
+            if digest(source)!=item['sha256']:raise ValueError('Historical reader fixture input differs from its original binding')
+            target=root/item['path'];target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(source)
+        target=root/relative;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(raw)
     out.mkdir(parents=True, exist_ok=False)
     report = {'diagnosticOnly': True, 'publicationAcceptance': False,
               'renderer': verify_packages(), 'scopes': {}, 'passed': False}
@@ -148,6 +175,7 @@ def main():
 
     try:
         for language, collection in SCOPES:
+            catalog_path.write_bytes(historical_catalog if collection=='tadabbur-extended' else live_catalog)
             key = language + '-' + collection
             folder = out / key
             folder.mkdir()
